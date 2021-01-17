@@ -27,4 +27,4 @@ B. Guide to Edit CORE project "GameStudio1"
 	
 	3. Click EDIT above GAMESTUDIO1
 	
-	4. edit only under "YOURNAME" folder in Collaborators
+	4. edit only your subfolder under Collaborators to avoid merge conflict
