@@ -40,6 +40,7 @@ Objects {
     }
   }
   ParentId: 10288693760461094678
+  ChildIds: 17937512100247954377
   ChildIds: 5323545620488186102
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -84,7 +85,6 @@ Objects {
     }
   }
   ParentId: 437197292719820717
-  ChildIds: 12267288067604722812
   ChildIds: 5443093914250656361
   ChildIds: 12941978908566309253
   Collidable_v2 {
@@ -347,6 +347,7 @@ Objects {
     Text {
       Label: "Menu"
       Color {
+        G: 1
         A: 1
       }
       Size: 25
@@ -518,6 +519,8 @@ Objects {
     Text {
       Label: "Press M to Toggle Menu"
       Color {
+        R: 1
+        G: 1
         A: 1
       }
       Size: 25
@@ -541,8 +544,8 @@ Objects {
   }
 }
 Objects {
-  Id: 12267288067604722812
-  Name: "zMenuScript"
+  Id: 17937512100247954377
+  Name: "zClientUIScript"
   Transform {
     Location {
     }
@@ -554,8 +557,14 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5323545620488186102
+  ParentId: 437197292719820717
   UnregisteredParameters {
+    Overrides {
+      Name: "cs:menu"
+      ObjectReference {
+        SelfId: 5323545620488186102
+      }
+    }
     Overrides {
       Name: "cs:button"
       ObjectReference {
