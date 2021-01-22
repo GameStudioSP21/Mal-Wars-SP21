@@ -1,2 +1,2 @@
-﻿Name: "Asante"
+Name: "Asante"
 RootId: 1001569227821753917

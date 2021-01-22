@@ -1,2 +1,2 @@
-﻿Name: "Terrance"
+Name: "Terrance"
 RootId: 10321477137052525910
