@@ -5,6 +5,7 @@ local Ease3D = require(script:GetCustomProperty("Ease3D"))
 local PLACEMENT_RADIUS = script:GetCustomProperty("PlacementRadius")
 local BLOCKED_RADIUS = script:GetCustomProperty("BlockedRadius")
 local PLACEMENT_KEY = "ability_primary"
+local CANCEL_PLACEMENT_KEY = "ability_secondary"
 local ISDEBUG = false
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 
@@ -17,13 +18,15 @@ local prepedTower = nil
 -- Creates a visual indicator on all towers on the map of blocked placement areas.
 local function CreateNonPlacementAreasAroundTowers()
     local board = LOCAL_PLAYER.clientUserData.activeBoard
-    local allTowers = board:GetAllTowers()
-    for _, tower in pairs(allTowers) do
-        if not tower.nonPlacementRadius then
-            local blockedRadius = World.SpawnAsset(BLOCKED_RADIUS,{ position = tower:GetWorldPosition() })
-            blockedRadius:SetScale(Vector3.New(0,0,0))
-            Ease3D.EaseScale(blockedRadius, Vector3.New(BLOCKED_RANGE/100), 1, Ease3D.EasingEquation.CUBIC, Ease3D.EasingDirection.OUT)
-            tower.nonPlacementRadius = blockedRadius
+    if board then
+        local allTowers = board:GetAllTowers()
+        for _, tower in pairs(allTowers) do
+            if not tower.nonPlacementRadius then
+                local blockedRadius = World.SpawnAsset(BLOCKED_RADIUS,{ position = tower:GetWorldPosition() })
+                blockedRadius:SetScale(Vector3.New(0,0,0))
+                Ease3D.EaseScale(blockedRadius, Vector3.New(BLOCKED_RANGE/100), 1, Ease3D.EasingEquation.CUBIC, Ease3D.EasingDirection.OUT)
+                tower.nonPlacementRadius = blockedRadius
+            end
         end
     end
 end
@@ -31,11 +34,13 @@ end
 -- Removes all visual indiactors of blocked placement areas.
 local function RemoveNonPlacementAreasAroundTowers()
     local board = LOCAL_PLAYER.clientUserData.activeBoard
-    local allTowers = board:GetAllTowers()
-    for _, tower in pairs(allTowers) do
-        if Object.IsValid(tower.nonPlacementRadius) then
-            tower.nonPlacementRadius:Destroy()
-            tower.nonPlacementRadius = nil
+    if board then
+        local allTowers = board:GetAllTowers()
+        for _, tower in pairs(allTowers) do
+            if Object.IsValid(tower.nonPlacementRadius) then
+                tower.nonPlacementRadius:Destroy()
+                tower.nonPlacementRadius = nil
+            end
         end
     end
 end
@@ -64,12 +69,13 @@ end
 -- Returns true if the position is within the blocked placement zone of any of the towers.
 local function IsCloseToAnyTowersBlockZone(position)
     local board = LOCAL_PLAYER.clientUserData.activeBoard
-    local allTowers = board:GetAllTowers()
-
-    for _, tower in pairs(allTowers) do
-        local towerPos = tower:GetWorldPosition()
-        if (position - towerPos).size <= BLOCKED_RANGE+25 then
-            return false
+    if board then
+        local allTowers = board:GetAllTowers()
+        for _, tower in pairs(allTowers) do
+            local towerPos = tower:GetWorldPosition()
+            if (position - towerPos).size <= BLOCKED_RANGE+25 then
+                return false
+            end
         end
     end
     return true
@@ -168,14 +174,13 @@ LOCAL_PLAYER.bindingPressedEvent:Connect(function(_,key)
             if board then
                 prepedTower:SetOwner(LOCAL_PLAYER)
                 prepedTower:SetBoard(board)
+                -- TODO: Add a rotation as an additional step.
                 board:AddTower(prepedTower, roundedPos)
                 CleanUpPlacementVisuals()
             end
-            -- TODO: Add a rotation as an additional step.
-            --Events.BroadcastToServer("PT",prepedTower:GetID(),roundedPos.x,roundedPos.y,roundedPos.z)
-            
-
         end
+    elseif key == CANCEL_PLACEMENT_KEY and prepedTower and towerGhost then
+        CleanUpPlacementVisuals()
     end
 end)
 
