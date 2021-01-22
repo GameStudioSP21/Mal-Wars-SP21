@@ -17,9 +17,9 @@ function GameManager.CreateGame(players)
         local prototypeBoard = BoardDatabase:NewBoardByName("Temp Board")
 
         -- Creates the board and initalizes the owners of that board.
-        prototypeBoard:CreateBoard(Vector3.New(0,0,0),players)
+        prototypeBoard:CreateBoard(Vector3.New(),players)
 
-        -- Store a reference to our board on the owning player/
+        -- Store a reference to our board on the owning player
         for _, player in pairs(players) do
             player.serverUserData.activeBoard = prototypeBoard
         end

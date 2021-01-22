@@ -25,11 +25,12 @@ view.OnSectionClicked:Connect(function(sectionID)
         UI.SetCanCursorInteractWithUI(false)
         Events.Broadcast("BeginTowerPlacement","Sniper")
     elseif sectionID == 3 then
-        --view:Close()
+
+        view:Close()
         -- TODO: Perform client check on cost to see if they can place it.
-        --UI.SetCursorVisible(false)
-        --UI.SetCanCursorInteractWithUI(false)
-        --Events.Broadcast("BeginTowerPlacement","Mortar")
+        UI.SetCursorVisible(false)
+        UI.SetCanCursorInteractWithUI(false)
+        Events.Broadcast("BeginTowerPlacement","Test Christmas")
     end
 end)
 

@@ -156,17 +156,9 @@ function Tower:GetNearestEnemy()
 end
 
 function Tower:DamageEnemy(enemy)
-    if not enemy then return end
-    assert(self.owner,string.format("Tower - %s does not have an owner. Can not give any currency.",self:GetName()))
-
     local health = enemy:GetCustomProperty("CurrentHealth")
     health = health - self:GetDamage()
     enemy:SetNetworkedCustomProperty("CurrentHealth",health)
-
-    if health >= 0 then
-        -- TODO: THEMES API NEEDED
-        self.owner:AddResource("Gems", self:GetDamage())
-    end
 end
 
 ----------------------------------------------------
