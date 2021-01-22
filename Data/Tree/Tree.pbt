@@ -69,6 +69,7 @@ Objects {
   ChildIds: 8754734530743003813
   ChildIds: 13795233914626071921
   ChildIds: 12438331940553209735
+  ChildIds: 5354314425751231995
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -77,6 +78,32 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 5354314425751231995
+  Name: "Drake"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18203406745861697933
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Drake"
   }
 }
 Objects {
@@ -1408,7 +1435,8 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      Z: 115
+      X: 496.172913
+      Z: 1293.9939
     }
     Rotation {
     }
