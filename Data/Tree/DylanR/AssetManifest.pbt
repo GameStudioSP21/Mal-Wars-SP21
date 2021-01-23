@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 13954782829049532014
   Name: "Sci-fi Panel 1x4m"
   PlatformAssetType: 1
@@ -14,15 +14,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_panel_1x4m_002"
-  }
-}
-Assets {
-  Id: 10441916537278113907
-  Name: "Prism - 3-Sided"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prism_001"
   }
 }
 Assets {
