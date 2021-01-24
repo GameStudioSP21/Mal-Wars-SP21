@@ -1,2 +1,2 @@
-﻿Name: "Trevor"
+Name: "Trevor"
 RootId: 8754734530743003813

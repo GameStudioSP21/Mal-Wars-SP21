@@ -1,4 +1,4 @@
-﻿Name: "Root"
+Name: "Root"
 RootId: 4781671109827199097
 Objects {
   Id: 4781671109827199097
@@ -344,6 +344,8 @@ Objects {
   Name: "Jay"
   Transform {
     Location {
+      Y: -1963.74329
+      Z: 907.289246
     }
     Rotation {
     }

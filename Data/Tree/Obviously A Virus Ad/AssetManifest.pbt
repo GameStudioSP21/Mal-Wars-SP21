@@ -1,37 +1,19 @@
 Assets {
+  Id: 18115035472391447470
+  Name: "Sign Font 1 Neon Outline: !"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "CollegeNeon_Outline_01_Text_037"
+  }
+}
+Assets {
   Id: 17329277136166369668
   Name: "Sign Font 1 Neon Outline: I"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "CollegeNeon_Outline_01_Text_008"
-  }
-}
-Assets {
-  Id: 16695186192788167129
-  Name: "Sign Font 1 Neon Outline: F"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeNeon_Outline_01_Text_005"
-  }
-}
-Assets {
-  Id: 16209965070888215776
-  Name: "Sign Font 1 Neon Outline: Y"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeNeon_Outline_01_Text_024"
-  }
-}
-Assets {
-  Id: 16160161106910038789
-  Name: "Metal Frame 03"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_frames_003_uv"
   }
 }
 Assets {
@@ -62,30 +44,12 @@ Assets {
   }
 }
 Assets {
-  Id: 14319009471388878411
-  Name: "Sign Font 1 Neon Outline: \'"
+  Id: 14315438511823573582
+  Name: "Sign Font 1 Neon Outline: %"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeNeon_Outline_01_Text_057"
-  }
-}
-Assets {
-  Id: 13637078664533668977
-  Name: "Prism - 3-Sided Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prism_hq_001"
-  }
-}
-Assets {
-  Id: 12905923173550510229
-  Name: "Cylinder - Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_hq_test_001"
+    AssetId: "CollegeNeon_Outline_01_Text_041"
   }
 }
 Assets {
@@ -98,21 +62,12 @@ Assets {
   }
 }
 Assets {
-  Id: 10916058963370539266
-  Name: "Sign Font 1 Neon Outline: D"
+  Id: 10987754408313288261
+  Name: "Sign Font 1 Neon Outline: #"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeNeon_Outline_01_Text_003"
-  }
-}
-Assets {
-  Id: 10441916537278113907
-  Name: "Prism - 3-Sided"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prism_001"
+    AssetId: "CollegeNeon_Outline_01_Text_039"
   }
 }
 Assets {
@@ -125,30 +80,12 @@ Assets {
   }
 }
 Assets {
-  Id: 9828374024811895254
-  Name: "Parallelepiped - Horizontal "
+  Id: 9518495256895642494
+  Name: "Sign Font 1 Neon Outline: @"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_parallelepiped_003"
-  }
-}
-Assets {
-  Id: 9398129290729876131
-  Name: "Glitchy Hologram"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "fxmi_hologram"
-  }
-}
-Assets {
-  Id: 6890754676558319313
-  Name: "Parallelepiped - Thin"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_parallelepiped_002"
+    AssetId: "CollegeNeon_Outline_01_Text_038"
   }
 }
 Assets {
@@ -161,39 +98,12 @@ Assets {
   }
 }
 Assets {
-  Id: 6105885667686169626
-  Name: "Cylinder - 2-Toned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_003"
-  }
-}
-Assets {
-  Id: 6092467272387072866
-  Name: "Diamond"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_diamond_001"
-  }
-}
-Assets {
   Id: 5711759544541683726
   Name: "Sign Font 1 Neon Outline: A"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "CollegeNeon_Outline_01_Text_000"
-  }
-}
-Assets {
-  Id: 5181508507677151650
-  Name: "Sign Font 1 Neon Outline: G"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeNeon_Outline_01_Text_006"
   }
 }
 Assets {
@@ -206,12 +116,12 @@ Assets {
   }
 }
 Assets {
-  Id: 3594011936772078794
-  Name: "Metal Frame 06"
-  PlatformAssetType: 2
+  Id: 3166125689746925581
+  Name: "Sign Font 1 Neon Outline: *"
+  PlatformAssetType: 1
   PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_scf_grates_005_uv"
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "CollegeNeon_Outline_01_Text_044"
   }
 }
 Assets {
@@ -242,15 +152,6 @@ Assets {
   }
 }
 Assets {
-  Id: 1007722234809035272
-  Name: "Sign Font 1 Neon Outline: M"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeNeon_Outline_01_Text_012"
-  }
-}
-Assets {
   Id: 694742769478021869
   Name: "Sign Font 1 Neon Outline: R"
   PlatformAssetType: 1
@@ -260,20 +161,20 @@ Assets {
   }
 }
 Assets {
-  Id: 481585315357996993
-  Name: "Sign Font 1 Neon Outline: P"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeNeon_Outline_01_Text_015"
-  }
-}
-Assets {
   Id: 333744880766359011
   Name: "Sign Font 1 Neon Outline: L"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "CollegeNeon_Outline_01_Text_011"
+  }
+}
+Assets {
+  Id: 172823612626723409
+  Name: "Sign Font 1 Neon Outline: V"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "CollegeNeon_Outline_01_Text_021"
   }
 }
