@@ -344,10 +344,12 @@ Objects {
   Name: "Jay"
   Transform {
     Location {
-      Y: -1963.74329
-      Z: 907.289246
+      X: -2450
+      Y: 2050
+      Z: 400
     }
     Rotation {
+      Yaw: -45
     }
     Scale {
       X: 1

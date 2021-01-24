@@ -2,9 +2,11 @@ Name: "Jay"
 RootId: 6567560194948478976
 Objects {
   Id: 13662829220342583109
-  Name: "crypto version 2"
+  Name: "crypto"
   Transform {
     Location {
+      X: -70.7106705
+      Y: 70.7106781
     }
     Rotation {
     }
@@ -708,7 +710,7 @@ Objects {
 }
 Objects {
   Id: 5077688577813870683
-  Name: "snippet version 2"
+  Name: "snippet"
   Transform {
     Location {
     }
@@ -1476,9 +1478,11 @@ Objects {
 }
 Objects {
   Id: 14799539269241416884
-  Name: "bit version 3"
+  Name: "bit"
   Transform {
     Location {
+      X: 70.7106705
+      Y: -70.7106781
     }
     Rotation {
     }
