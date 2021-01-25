@@ -5,8 +5,8 @@ Objects {
   Name: "Bridge"
   Transform {
     Location {
-      X: 2919.77588
-      Y: -3239.17505
+      X: 1531.75537
+      Y: -5861.62256
       Z: -867.234863
     }
     Rotation {

@@ -44,15 +44,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12806110206712304127
-  Name: "Cube - Rounded"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_rounded_002"
-  }
-}
-Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1
@@ -167,5 +158,14 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_panel_2x3m_triangle_001"
+  }
+}
+Assets {
+  Id: 795932075519654652
+  Name: "Sci-fi Base Girder Corner 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_girder_001_ref"
   }
 }
