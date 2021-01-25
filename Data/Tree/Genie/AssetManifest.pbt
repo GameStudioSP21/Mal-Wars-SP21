@@ -1,4 +1,4 @@
-﻿Assets {
+Assets {
   Id: 12738941715346475255
   Name: "Frame Beveled 002"
   PlatformAssetType: 9
