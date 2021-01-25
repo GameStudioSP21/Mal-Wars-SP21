@@ -80,7 +80,7 @@ end
 
 -- Create a wave manager if one wasn't created already.
 function Board:CreateWaveManager()
-    self.waveManager = WaveManager.New(self,self:GetBoardAssetInstance())
+    self.waveManager = WaveManager.New(self)
 end
 
 -- Returns the wave manager object associated with this board
@@ -133,7 +133,6 @@ function Board:CreateBoard(position, playerOwners)
     local boardInstance = self:GetBoardAssetInstance()
 
     -- Contruct wave manager
-    print(self)
     self.waveManager = WaveManager.New(self)
 
     local playersString = ""

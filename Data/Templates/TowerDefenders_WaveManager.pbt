@@ -7,7 +7,7 @@ Assets {
       RootId: 5810628147961388516
       Objects {
         Id: 5810628147961388516
-        Name: "WaveManager"
+        Name: "TowerDefenders_WaveManager"
         Transform {
           Scale {
             X: 1
@@ -15,8 +15,12 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7499532462905656248
+        ParentId: 4781671109827199097
         UnregisteredParameters {
+          Overrides {
+            Name: "cs:CURRENTPHASE"
+            Int: 0
+          }
           Overrides {
             Name: "cs:CurrentWave"
             Int: 0
@@ -31,6 +35,10 @@ Assets {
           }
           Overrides {
             Name: "cs:RemainingTime:isrep"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:CURRENTPHASE:isrep"
             Bool: true
           }
         }

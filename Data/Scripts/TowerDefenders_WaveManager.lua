@@ -8,13 +8,14 @@ WaveManager.__index = WaveManager
 local WAVE_MANAGER_OBJECT = script:GetCustomProperty("TowerDefenders_WaveManager")
 
 local MANAGER_PHASE = {
-    WAITING_READY = 0, -- Waiting for confirmation to start the waves.
-    ATTACKING = 1, -- While enemies are attacking.
-    ENDED = 2, -- When the wave has ended.
+    WAITING_READY = {id = 0 , event = "OnWaitingReady" }, -- Waiting for confirmation to start the waves.
+    ATTACKING = {id = 1, event = "OnWaveStarted"}, -- While enemies are attacking.
+    END_COMPLETE = {id = 2, event = "OnWaveComplete" }, -- When the wave has ended.
+    END_FAILED = {id = 3, event = "OnWaveFailed"},
 }
 
 -- The inital phase to begin the wave manager in.
-local INITAL_PHASE = MANAGER_PHASE.WAITING_READY
+local INITAL_PHASE = "WAITING_READY"
 
 ----------------------------------------------------
 -- Public
@@ -35,31 +36,64 @@ function WaveManager.New(board,waveManagerObject)
         error("Can not create the wave manager on the server when not provided a board!")
     end
 
-    self:_Init(board,waveManagerObject)
+    -- Phase Events
+    self:_DefineEvent("OnWaitingReady") -- Done
 
     -- Wave Events
-    self:_DefineEvent("OnWaveChanged")
-    self:_DefineEvent("OnWaveStarted")
-    self:_DefineEvent("OnWaveComplete")
-    self:_DefineEvent("OnWaveFailed") -- Maybe
+    self:_DefineEvent("OnWaveStarted") -- Done
+    self:_DefineEvent("OnWaveComplete") -- Done
+    self:_DefineEvent("OnWaveFailed") -- Done
 
     -- Enemy Events
-    self:_DefineEvent("OnEnemyDied")
-    self:_DefineEvent("OnEnemyCreated")
+    self:_DefineEvent("OnEnemyRemoved") -- Done
+    self:_DefineEvent("OnEnemyCreated") -- Done
+
+    self.currentPhase = INITAL_PHASE
+
+    self:_Init(board,waveManagerObject)
 
     return self
 end
 
-function WaveManager:GetRemainingEnemies()
-    return self.currentWave
+function WaveManager:GetCurrentPhase()
+    return self.currentPhase
+end
+
+function WaveManager:SetCurrentPhase(phaseEnum)
+    if MANAGER_PHASE[phaseEnum] then
+        self.currentPhase = MANAGER_PHASE[phaseEnum]
+        if Environment.IsServer() then
+            print("[Server] Switching to phase:",phaseEnum)
+            self.waveManagerObject:SetNetworkedCustomProperty("CURRENTPHASE",self.currentPhase.id)
+        else
+            print("[Client] Switching to phase:",phaseEnum)
+        end
+        self:_FireEvent(self.currentPhase.event)
+    else
+        error(string.format("%s is not a valid phase to switch to.",phaseEnum))
+    end
+end
+
+function WaveManager:GetEnemies()
+    -- TODO: Return all enemies on the map
+end
+
+function WaveManager:ReturnRemainingEnemies()
+    -- TODO: Return the remaining enemies.
 end
 
 function WaveManager:GetRemainingTime()
     return self.remainingTime
 end
 
-function WaveManager:GetCurrentWave()
+---------------------------------------
 
+function WaveManager:GetCurrentWave()
+    return self.currentWave
+end
+
+function WaveManager:GetNextWaveEnemyCount()
+    -- TODO: Return the amount of enemies in the next wave
 end
 
 -- Returns the board
@@ -90,6 +124,8 @@ function WaveManager:_Init(board,waveManagerObject)
         end
     end
 
+    self:SetCurrentPhase(INITAL_PHASE)
+
     -- Assign wave manager to userdata of players on both contexts
     if Environment.IsServer() then
         local boardOwningPlayers = board:GetOwners()
@@ -104,8 +140,25 @@ function WaveManager:_Init(board,waveManagerObject)
     end
 
     -- Begin the runtime.
-    self.runtime = Task.Spawn(function() self:_Runtime() end)
-    self.runtime.repeatCount = -1
+
+    if Environment.IsServer() then
+        self.runtime = Task.Spawn(function() self:_Runtime() end)
+        self.runtime.repeatCount = -1
+    elseif Environment.IsClient() then
+        print("[CLIENT] Connecting to manager object and listening for changes.")
+        self.waveManagerObject.networkedPropertyChangedEvent:Connect(function(owner,propertyName)
+            local propertyValue = self.waveManagerObject:GetCustomProperty(propertyName)
+
+            if propertyName == "CURRENTPHASE" then
+                for eventKey, event in pairs(MANAGER_PHASE) do
+                    if event.id == propertyValue then
+                        self:SetCurrentPhase(eventKey)
+                    end
+                end
+            end
+
+        end)
+    end
 end
 
 function WaveManager:_FireEvent(eventName, ...)
@@ -128,24 +181,57 @@ function WaveManager:_DefineEvent(eventName)
     }
 end
 
+function WaveManager:_HookListeners()
+    -- Listen for enemies added.
+    self.waveManagerObject.childAddedEvent:Connect(function(_,child) 
+        self:_FireEvent("OnEnemyCreated",child)
+    end)
+    -- Listen for enemies removed
+    self.waveManagerObject.childRemovedEvent:Connect(function(_,child) 
+        self:_FireEvent("OnEnemyRemoved",child)    
+    end)
+end
+
 -- Server
 -- Writes to the properties of the wave manager object on the board asset.
 function WaveManager:_StepStates()
-end
 
--- Client
--- Records the properties of the wave manager object on the board asset.
-function WaveManager:_TrackStates()
-    self.currentWave = self.waveManagerObject:GetCustomProperty("CurrentWave")
-    self.remainingTime = self.waveManagerObject:GetCustomProperty("RemainingTime")
+    if self:GetCurrentPhase() == MANAGER_PHASE.WAITING_READY then
+        for i=1,5 do
+            Task.Wait(1)
+            print(i)
+        end
+        print("Commencing Attack")
+        self:SetCurrentPhase("ATTACKING")
+
+    elseif self:GetCurrentPhase() == MANAGER_PHASE.ATTACKING then
+
+        Task.Wait(1)
+
+        for i = 1, 10 do
+            Task.Wait(0.3)
+            print("[Server] Spawning enemy")
+            --World.SpawnAsset("",{ parent = self.enemiesFolder })
+        end
+
+        self:SetCurrentPhase("END_COMPLETE")
+
+    elseif self:GetCurrentPhase() == MANAGER_PHASE.END_COMPLETE then
+        print("Wave complete coolingdown")
+        Task.Wait(3)
+        self:SetCurrentPhase("WAITING_READY")
+
+    elseif self:GetCurrentPhase() == MANAGER_HASE.END_FAILED then
+
+        print("Wave failure")
+        Task.Wait(5)
+        self:SetCurrentPhase("WAITING_READY")
+
+    end
 end
 
 function WaveManager:_Runtime()
-    if Environment.IsServer() then
-        self:_StepStates()
-    elseif Environment.IsClient() then
-        self:_TrackStates()
-    end
+    self:_StepStates()
 end
 
 return WaveManager
