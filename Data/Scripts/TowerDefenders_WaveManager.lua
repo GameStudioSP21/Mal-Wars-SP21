@@ -221,7 +221,7 @@ function WaveManager:_StepStates()
         Task.Wait(3)
         self:SetCurrentPhase("WAITING_READY")
 
-    elseif self:GetCurrentPhase() == MANAGER_HASE.END_FAILED then
+    elseif self:GetCurrentPhase() == MANAGER_PHASE.END_FAILED then
 
         print("Wave failure")
         Task.Wait(5)
