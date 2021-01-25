@@ -21,6 +21,7 @@ local Board = {}
 Board.__index = Board
 
 local PathNode = require(script:GetCustomProperty("TowerDefenders_PathNode"))
+local WaveManager = require(script:GetCustomProperty("TowerDefenders_WaveManager"))
 
 -- TODO: Change this to a CoreObjectReference
 local ACTIVE_BOARDS_GROUP = World.FindObjectByName("ActiveBoards")
@@ -29,11 +30,11 @@ local ACTIVE_BOARDS_GROUP = World.FindObjectByName("ActiveBoards")
 -- Public
 ----------------------------------------------------
 
-function Board.New(boardData)
+function Board.New(boardData, boardInstance)
     local self = {}
     setmetatable(self,Board)
 
-    self:_Init(boardData)
+    self:_Init(boardData,boardInstance)
 
     return self
 end
@@ -47,16 +48,21 @@ end
 -- This should only be used with the client or if you have created the board by other means.
 function Board:AssignBoardInstance(board)
     self.boardAssetInstance = board
-    self.boardAssetInstance.childAddedEvent:Connect(function(_,enemy)
 
-        -- TODO: Move this to a private method
-        -- TODO: I NEED TO CHANGE THIS! We can't guarentee the names of the enemies will be consistet.
-        if enemy.name == "SkeletonTest_Towers" or enemy.name == "SkeletonTest_Towers_02" then
-            table.insert(self.enemies,enemy)
-        end
 
-    end)
+    -- self.boardAssetInstance.childAddedEvent:Connect(function(_,enemy)
+
+
+    --     -- TODO: Move this to a private method
+    --     -- TODO: I NEED TO CHANGE THIS! We can't guarentee the names of the enemies will be consistet.
+    --     if enemy.name == "SkeletonTest_Towers" or enemy.name == "SkeletonTest_Towers_02" then
+    --         table.insert(self.enemies,enemy)
+    --     end
+
+    -- end)
 end
+
+
 
 -- Assign the owner of the board.
 function Board:SetOwners(players)
@@ -70,6 +76,16 @@ end
 -- Returns a table containing all the players who own the board.
 function Board:GetOwners()
     return self.owners
+end
+
+-- Create a wave manager if one wasn't created already.
+function Board:CreateWaveManager()
+    self.waveManager = WaveManager.New(self,self:GetBoardAssetInstance())
+end
+
+-- Returns the wave manager object associated with this board
+function Board:GetWaveManager()
+    return self.waveManager
 end
 
 -- Returns the MUID of the board in project content.
@@ -88,7 +104,7 @@ function Board:GetID()
 end
 
 -- Returns a reference to an instance of the board template.
-function Board:GetBoard()
+function Board:GetBoardAssetInstance()
     return self.boardAssetInstance
 end
 
@@ -114,7 +130,11 @@ end
 function Board:CreateBoard(position, playerOwners)
     self.owners = playerOwners
     self:_SpawnBoard(position)
-    local boardInstance = self:GetBoard()
+    local boardInstance = self:GetBoardAssetInstance()
+
+    -- Contruct wave manager
+    print(self)
+    self.waveManager = WaveManager.New(self)
 
     local playersString = ""
     for _, player in pairs(self.owners) do
@@ -134,88 +154,88 @@ function Board:CreateBoard(position, playerOwners)
 
     -- TODO: Move this to a private method and have it called elsewhere.
 
-    -- TODO: WAVE MANAGER: CODE HERE.
-    Task.Spawn(function()
-        Task.Wait(5)
-        --- TEMP CODE
-        -- for i=1,15 do
-        --     Task.Wait(1)
-        --     local testEnemy = World.SpawnAsset("1DE6FD6A0A4D10A3:SkeletonTest_Towers",{ position = self:GetStartNode():GetRandomPositionPerpendicularToNodeDirection(), parent = boardInstance })
-        --     table.insert(self.enemies,testEnemy)
-        -- end
+    -- -- TODO: WAVE MANAGER: CODE HERE.
+    -- Task.Spawn(function()
+    --     Task.Wait(5)
+    --     --- TEMP CODE
+    --     -- for i=1,15 do
+    --     --     Task.Wait(1)
+    --     --     local testEnemy = World.SpawnAsset("1DE6FD6A0A4D10A3:SkeletonTest_Towers",{ position = self:GetStartNode():GetRandomPositionPerpendicularToNodeDirection(), parent = boardInstance })
+    --     --     table.insert(self.enemies,testEnemy)
+    --     -- end
 
-        -- Task.Wait(8)
-        -- for i=1,20 do
-        --     Task.Wait(1)
-        --     local testEnemy = World.SpawnAsset("1DE6FD6A0A4D10A3:SkeletonTest_Towers",{ position = self:GetStartNode():GetRandomPositionPerpendicularToNodeDirection(), parent = boardInstance })
-        --     table.insert(self.enemies,testEnemy)
-        -- end
+    --     -- Task.Wait(8)
+    --     -- for i=1,20 do
+    --     --     Task.Wait(1)
+    --     --     local testEnemy = World.SpawnAsset("1DE6FD6A0A4D10A3:SkeletonTest_Towers",{ position = self:GetStartNode():GetRandomPositionPerpendicularToNodeDirection(), parent = boardInstance })
+    --     --     table.insert(self.enemies,testEnemy)
+    --     -- end
 
-        -- Task.Wait(10)
-        -- for i=1,20 do
-        --     Task.Wait(0.5)
-        --     local testEnemy = World.SpawnAsset("1DE6FD6A0A4D10A3:SkeletonTest_Towers",{ position = self:GetStartNode():GetRandomPositionPerpendicularToNodeDirection(), parent = boardInstance })
-        --     table.insert(self.enemies,testEnemy)
-        -- end
+    --     -- Task.Wait(10)
+    --     -- for i=1,20 do
+    --     --     Task.Wait(0.5)
+    --     --     local testEnemy = World.SpawnAsset("1DE6FD6A0A4D10A3:SkeletonTest_Towers",{ position = self:GetStartNode():GetRandomPositionPerpendicularToNodeDirection(), parent = boardInstance })
+    --     --     table.insert(self.enemies,testEnemy)
+    --     -- end
 
-        -- Task.Wait(10)
-        -- for i=1,30 do
-        --     Task.Wait(0.5)
-        --     local testEnemy = World.SpawnAsset("1DE6FD6A0A4D10A3:SkeletonTest_Towers",{ position = self:GetStartNode():GetRandomPositionPerpendicularToNodeDirection(), parent = boardInstance })
-        --     table.insert(self.enemies,testEnemy)
-        -- end
+    --     -- Task.Wait(10)
+    --     -- for i=1,30 do
+    --     --     Task.Wait(0.5)
+    --     --     local testEnemy = World.SpawnAsset("1DE6FD6A0A4D10A3:SkeletonTest_Towers",{ position = self:GetStartNode():GetRandomPositionPerpendicularToNodeDirection(), parent = boardInstance })
+    --     --     table.insert(self.enemies,testEnemy)
+    --     -- end
 
-        -- Task.Wait(10)
-        -- for i=1,40 do
-        --     Task.Wait(0.5)
-        --     local testEnemy = World.SpawnAsset("1DE6FD6A0A4D10A3:SkeletonTest_Towers",{ position = self:GetStartNode():GetRandomPositionPerpendicularToNodeDirection(), parent = boardInstance })
-        --     table.insert(self.enemies,testEnemy)
-        -- end
+    --     -- Task.Wait(10)
+    --     -- for i=1,40 do
+    --     --     Task.Wait(0.5)
+    --     --     local testEnemy = World.SpawnAsset("1DE6FD6A0A4D10A3:SkeletonTest_Towers",{ position = self:GetStartNode():GetRandomPositionPerpendicularToNodeDirection(), parent = boardInstance })
+    --     --     table.insert(self.enemies,testEnemy)
+    --     -- end
 
-        -- Task.Wait(10)
-        -- for i=1,10 do
-        --     Task.Wait(0.1)
-        --     local testEnemy = World.SpawnAsset("1DE6FD6A0A4D10A3:SkeletonTest_Towers",{ position = self:GetStartNode():GetRandomPositionPerpendicularToNodeDirection(), parent = boardInstance })
-        --     table.insert(self.enemies,testEnemy)
-        -- end
+    --     -- Task.Wait(10)
+    --     -- for i=1,10 do
+    --     --     Task.Wait(0.1)
+    --     --     local testEnemy = World.SpawnAsset("1DE6FD6A0A4D10A3:SkeletonTest_Towers",{ position = self:GetStartNode():GetRandomPositionPerpendicularToNodeDirection(), parent = boardInstance })
+    --     --     table.insert(self.enemies,testEnemy)
+    --     -- end
 
-        -- Task.Wait(10)
-        -- for i=1,20 do
-        --     Task.Wait(0.1)
-        --     local testEnemy = World.SpawnAsset("1DE6FD6A0A4D10A3:SkeletonTest_Towers",{ position = self:GetStartNode():GetRandomPositionPerpendicularToNodeDirection(), parent = boardInstance })
-        --     table.insert(self.enemies,testEnemy)
-        -- end
+    --     -- Task.Wait(10)
+    --     -- for i=1,20 do
+    --     --     Task.Wait(0.1)
+    --     --     local testEnemy = World.SpawnAsset("1DE6FD6A0A4D10A3:SkeletonTest_Towers",{ position = self:GetStartNode():GetRandomPositionPerpendicularToNodeDirection(), parent = boardInstance })
+    --     --     table.insert(self.enemies,testEnemy)
+    --     -- end
 
-        -- Task.Wait(10)
-        -- for i=1,30 do
-        --     Task.Wait(0.1)
-        --     local testEnemy = World.SpawnAsset("1DE6FD6A0A4D10A3:SkeletonTest_Towers",{ position = self:GetStartNode():GetRandomPositionPerpendicularToNodeDirection(), parent = boardInstance })
-        --     table.insert(self.enemies,testEnemy)
-        -- end
+    --     -- Task.Wait(10)
+    --     -- for i=1,30 do
+    --     --     Task.Wait(0.1)
+    --     --     local testEnemy = World.SpawnAsset("1DE6FD6A0A4D10A3:SkeletonTest_Towers",{ position = self:GetStartNode():GetRandomPositionPerpendicularToNodeDirection(), parent = boardInstance })
+    --     --     table.insert(self.enemies,testEnemy)
+    --     -- end
 
         
-        -- Task.Wait(10)
-        -- for i=1,50 do
-        --     Task.Wait(0.1)
-        --     local testEnemy = World.SpawnAsset("1DE6FD6A0A4D10A3:SkeletonTest_Towers",{ position = self:GetStartNode():GetRandomPositionPerpendicularToNodeDirection(), parent = boardInstance })
-        --     table.insert(self.enemies,testEnemy)
-        -- end
+    --     -- Task.Wait(10)
+    --     -- for i=1,50 do
+    --     --     Task.Wait(0.1)
+    --     --     local testEnemy = World.SpawnAsset("1DE6FD6A0A4D10A3:SkeletonTest_Towers",{ position = self:GetStartNode():GetRandomPositionPerpendicularToNodeDirection(), parent = boardInstance })
+    --     --     table.insert(self.enemies,testEnemy)
+    --     -- end
 
-        -- Task.Wait(10)
-        -- for i=1,100 do
-        --     Task.Wait(0.1)
-        --     local testEnemy = World.SpawnAsset("1DE6FD6A0A4D10A3:SkeletonTest_Towers",{ position = self:GetStartNode():GetRandomPositionPerpendicularToNodeDirection(), parent = boardInstance })
-        --     table.insert(self.enemies,testEnemy)
-        -- end
+    --     -- Task.Wait(10)
+    --     -- for i=1,100 do
+    --     --     Task.Wait(0.1)
+    --     --     local testEnemy = World.SpawnAsset("1DE6FD6A0A4D10A3:SkeletonTest_Towers",{ position = self:GetStartNode():GetRandomPositionPerpendicularToNodeDirection(), parent = boardInstance })
+    --     --     table.insert(self.enemies,testEnemy)
+    --     -- end
 
-        -- Task.Wait(10)
-        -- for i=1,3 do
-        --     Task.Wait(5)
-        --     local testEnemy = World.SpawnAsset("EE6D7D97D2091F73:SkeletonTest_Towers_02",{ position = self:GetStartNode():GetRandomPositionPerpendicularToNodeDirection(), parent = boardInstance })
-        --     table.insert(self.enemies,testEnemy)
-        -- end
+    --     -- Task.Wait(10)
+    --     -- for i=1,3 do
+    --     --     Task.Wait(5)
+    --     --     local testEnemy = World.SpawnAsset("EE6D7D97D2091F73:SkeletonTest_Towers_02",{ position = self:GetStartNode():GetRandomPositionPerpendicularToNodeDirection(), parent = boardInstance })
+    --     --     table.insert(self.enemies,testEnemy)
+    --     -- end
         
-    end)
+    -- end)
 
 end
 
@@ -288,12 +308,17 @@ end
 -- Private
 ----------------------------------------------------
 
-function Board:_Init(boardData)
+function Board:_Init(boardData, boardInstance)
     self.data = boardData -- Static Data from board database.
     self.owners = {} -- All players that own this board.
     self.towers = {} -- Instance of all towers on the board
-    self.waveManager = nil -- TODO: Construct wave manager here. Gets constructed as a networked component of the board.
-    self.boardAssetInstance = nil -- Instance of the board.
+    if boardInstance then
+        self:AssignBoardInstance(boardInstance)
+    else
+        self.boardAssetInstance = nil -- Instance of the board.
+    end
+    --self.waveManager = WaveManager.New() -- TODO: Construct wave manager here. Gets constructed as a networked component of the board.
+
     self.nodes = nil
 
     self.enemies = {}

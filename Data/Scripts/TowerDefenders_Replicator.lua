@@ -60,10 +60,13 @@ local function InitalizeClientEvents()
     -- Receive tower deleted
 end
 
+
 -- Listens for newly created children in the active boards folder.
 -- When a child is added the board will be constructed on the client.
 local function InitalizeBoardListener()
     local LOCAL_PLAYER = Game.GetLocalPlayer()
+
+    -- TODO: Iterate through all boards and construct the towers from a network property
 
     ACTIVE_BOARDS_GROUP.childAddedEvent:Connect(function(_,boardAsset)
 
@@ -76,14 +79,14 @@ local function InitalizeBoardListener()
 
         local owners = boardAsset:GetCustomProperty("Owners")
 
-        print("[Client] Owners:",owners)
+        -- Construct a board object given the server spawn asset MUID.
         local boardAssetMUID = boardAsset.sourceTemplateId
         local board = BoardDatabase:NewBoardByMUID(boardAssetMUID)
 
+        -- TODO: Move this to an api.
         local owningPlayers = {}
 
         for playerID in owners:gmatch("([^<>;]+)") do
-            print("[CLIENT] playerID:",playerID)
             owningPlayers[playerID] = playerID
         end
 
@@ -94,8 +97,14 @@ local function InitalizeBoardListener()
             end
         end
 
+        -- Set the client owners
         board:SetOwners(owningPlayers)
+
+        -- Assign the asset to the board since the client did not spawn it.
         board:AssignBoardInstance(boardAsset)
+
+        -- Create the wave manager for the client.
+        board:CreateWaveManager()
 
     end)
 end

@@ -28,7 +28,6 @@ function GameManager.CreateGame(players)
         return prototypeBoard
 
     elseif players and players:IsA("Player") then
-        -- TEMP CODE. DOES NOT CONSIDER MULTIPLE YET.
 
         local prototypeBoard = BoardDatabase:NewBoardByName("Temp Board")
 
@@ -44,14 +43,11 @@ function GameManager.CreateGame(players)
         return prototypeBoard
     end
 
-
-
-    -- TODO: Assign board serverUserData for player.
 end
 
+-- Return the current board the player is playing on.
 function GameManager.GetCurrentBoard(player)
-    -- TODO: Return the current board the player is playing on.
-    assert( player and player:IsA("Player"), "Can not get board from player in GameManager." )
+    assert( player and player:IsA("Player"), string.format("Can not get board from - % in GameManager.",player.name) )
     return player.serverUserData.activeboard
 end
 

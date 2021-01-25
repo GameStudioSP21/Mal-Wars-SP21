@@ -10,6 +10,12 @@ Assets {
           Id: 8606514868340939830
         }
       }
+      Overrides {
+        Name: "cs:TowerDefenders_WaveManager"
+        AssetReference {
+          Id: 7771317841221288127
+        }
+      }
     }
   }
   SerializationVersion: 73

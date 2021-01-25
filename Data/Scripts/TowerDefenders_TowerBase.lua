@@ -29,9 +29,9 @@ function Tower:BeginRuntime()
 end
 
 function Tower:SpawnAsset()
-    local board = self.board:GetBoard()
+    local boardAsset = self.board:GetBoardAssetInstance()
 
-    local dropPod = World.SpawnAsset(PRE_SPAWN_ASSET,{ position = self.position + Vector3.UP * 5000, parent = board })
+    local dropPod = World.SpawnAsset(PRE_SPAWN_ASSET,{ position = self.position + Vector3.UP * 5000, parent = boardAsset })
     Ease3D.EasePosition(dropPod, self.position + -Vector3.UP * 100, 1, Ease3D.EasingEquation.EXPONENTIAL, Ease3D.EasingDirection.IN)
 
     Task.Wait(1)
@@ -40,9 +40,9 @@ function Tower:SpawnAsset()
 
     Task.Wait(1)
 
-    World.SpawnAsset(PRE_END_SPAWN_ASSET,{ position = self.position, parent = board })
+    World.SpawnAsset(PRE_END_SPAWN_ASSET,{ position = self.position, parent = boardAsset })
 
-    local towerModel = World.SpawnAsset(self:GetMUID(),{ position = self.position, parent = board })
+    local towerModel = World.SpawnAsset(self:GetMUID(),{ position = self.position, parent = boardAsset })
     self.towerAssetInstance = towerModel
 
     dropPod:Destroy()
@@ -166,6 +166,8 @@ end
 ----------------------------------------------------
 -- These methods are overridable. You may redefine these in inherited classes.
 
+----------- CLIENT -----------
+
 function Tower:HorizontalRotation()
     local dir = (self:GetWorldPosition() - self.currentTarget:GetWorldPosition()):GetNormalized()
     local angle = math.atan(dir.x,dir.y)
@@ -182,12 +184,16 @@ function Tower:VerticalRotation()
     self._verticalRotator:RotateTo(r,0.1,false)
 end
 
-function Tower:FireProjectile()
+function Tower:FireFakeProjectile()
     local dir = (self:GetWorldPosition() - self.currentTarget:GetWorldPosition()):GetNormalized()
     local projectile = Projectile.Spawn(self:GetVisualProjectile(),self._muzzle:GetWorldPosition(), -dir)
     projectile.gravityScale = 0
     projectile.speed = 2000
 end
+
+----------- SERVER -----------
+
+-- TODO: Deal Damage
 
 ----------------------------------------------------
 -- Private
