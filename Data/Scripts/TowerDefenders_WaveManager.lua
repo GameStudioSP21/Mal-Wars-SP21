@@ -74,8 +74,9 @@ function WaveManager:SetCurrentPhase(phaseEnum)
     end
 end
 
+-- Returns a table of all enemy core objects
 function WaveManager:GetEnemies()
-    -- TODO: Return all enemies on the map
+    return self.enemiesFolder:GetChildren()
 end
 
 function WaveManager:ReturnRemainingEnemies()
@@ -139,9 +140,8 @@ function WaveManager:_Init(board,waveManagerObject)
         end
     end
 
-    -- Begin the runtime.
-
     if Environment.IsServer() then
+        -- Begin wavemanager the runtime.
         self.runtime = Task.Spawn(function() self:_Runtime() end)
         self.runtime.repeatCount = -1
     elseif Environment.IsClient() then
