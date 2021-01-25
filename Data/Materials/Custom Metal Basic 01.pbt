@@ -1,6 +1,6 @@
 Assets {
   Id: 9450991399611976333
-  Name: "AC_OuterWalls Metal Material"
+  Name: "OuterWalls Metal Material"
   PlatformAssetType: 13
   SerializationVersion: 73
   CustomMaterialAsset {

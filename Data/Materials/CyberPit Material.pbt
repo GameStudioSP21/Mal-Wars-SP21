@@ -1,35 +1,35 @@
 Assets {
-  Id: 676387560562610978
-  Name: "AC_Custom Edgeline Wavy Object Fade_GREEN"
+  Id: 4264247987628981671
+  Name: "CyberPit Material"
   PlatformAssetType: 13
   SerializationVersion: 73
   CustomMaterialAsset {
-    BaseMaterialId: 12911663225576405008
+    BaseMaterialId: 3982114982952237736
     ParameterOverrides {
       Overrides {
         Name: "color"
         Color {
-          G: 0.0800000429
-          B: 0.0005298045
+          R: 0.768
+          G: 3.00000072
           A: 1
         }
       }
       Overrides {
-        Name: "noise color"
+        Name: "color outer"
         Color {
-          R: 0.0327152163
-          G: 0.190000057
+          G: 0.200000048
+          B: 0.0013245109
           A: 1
         }
       }
     }
     Assets {
-      Id: 12911663225576405008
-      Name: "Edgeline Wavy Object Fade Advanced"
+      Id: 3982114982952237736
+      Name: "Hex Energy Pulse"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "fxma_add_edgeline_local"
+        AssetId: "fxmi_energy_hex_transition_pulse"
       }
     }
   }
