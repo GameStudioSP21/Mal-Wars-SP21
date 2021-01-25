@@ -1550,49 +1550,7 @@ Objects {
     }
   }
 }
-Objects {
-  Id: 4707261397186420725
-  Name: "Prism - 3-Sided"
-  Transform {
-    Location {
-      X: 3699.99902
-      Y: 4000.00098
-      Z: -35
-    }
-    Rotation {
-      Yaw: -45
-      Roll: 89.9999924
-    }
-    Scale {
-      X: 5.25000143
-      Y: 3.25
-      Z: 47.75
-    }
-  }
-  ParentId: 1330226063758413021
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 10441916537278113907
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
+
 Objects {
   Id: 10132367059951079208
   Name: "PulsingObject"
