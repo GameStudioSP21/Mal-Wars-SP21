@@ -36,6 +36,9 @@ end
 local function InitalizeClientEvents()
 
     -- Initalize all events that cab be received by server.
+
+    -- SERVER ERROR:
+    -- TODO: Error running Lua task: [9EA276B61232DBD7] TowerDefenders_Replicator:42: stack index 1, expected string, received nil: (bad argument into '(...)(string)')
     local GameManager = require(script:GetCustomProperty("GameManager"))
 
     Events.Connect("PT",function(player,id,x,y,z)

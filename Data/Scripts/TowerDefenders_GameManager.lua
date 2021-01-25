@@ -14,13 +14,15 @@ function GameManager.CreateGame(players)
     if not players then return end
 
     if players and type(players) == "table" then
-        local prototypeBoard = BoardDatabase:NewBoardByName("Temp Board")
+        local prototypeBoard = BoardDatabase:NewBoardByName("MainBoard")
+
+        local allPlayers = Game.GetPlayers()
 
         -- Creates the board and initalizes the owners of that board.
-        prototypeBoard:CreateBoard(Vector3.New(),players)
+        prototypeBoard:CreateBoard(Vector3.New(),allPlayers)
 
         -- Store a reference to our board on the owning player
-        for _, player in pairs(players) do
+        for _, player in pairs(allPlayers) do
             player.serverUserData.activeBoard = prototypeBoard
         end
 
@@ -29,7 +31,7 @@ function GameManager.CreateGame(players)
 
     elseif players and players:IsA("Player") then
 
-        local prototypeBoard = BoardDatabase:NewBoardByName("Temp Board")
+        local prototypeBoard = BoardDatabase:NewBoardByName("MainBoard")
 
         -- Creates the board and initalizes the owners of that board.
         prototypeBoard:CreateBoard(Vector3.New(0,0,0),{ players })
@@ -57,14 +59,13 @@ end
 
 -- Checks the parent to see if it's inside the board.
 function GameManager.GetNPCCurrentBoard(object)
-    local boardCheck = object.parent
+    local boardCheck = object.parent.parent
     local boards = GameManager.GetAllActiveBoards()
     
-    -- A board is required to have pathing nodes otherwise how can it be a board?
+    -- A board is required to have pathing nodes.
     if boardCheck:GetCustomProperty("PathNodes") then
         for _, board in pairs(boards) do
-            print(board:GetBoard(),boardCheck)
-            if board:GetBoard() == boardCheck then
+            if board:GetBoardAssetInstance() == boardCheck then
                 return board
             end
         end

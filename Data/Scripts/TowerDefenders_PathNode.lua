@@ -1,7 +1,7 @@
 ﻿local PathNode = {}
 PathNode.__index = PathNode
 
-local MAX_DISTANCE_SQUARED = 10^2
+local MAX_DISTANCE_SQUARED = 12^2
 local PERIOD = 2
 
 ----------------------------------------------------

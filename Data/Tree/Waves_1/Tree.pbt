@@ -1,7 +1,7 @@
-Name: "Waves"
-RootId: 11987664739447491158
+Name: "Waves_1"
+RootId: 901774140759633753
 Objects {
-  Id: 3854581848279324612
+  Id: 11953035257815112756
   Name: "Wave 1"
   Transform {
     Location {
@@ -14,8 +14,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11987664739447491158
-  ChildIds: 1130975695080540600
+  ParentId: 901774140759633753
+  ChildIds: 11230462646894220732
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -27,7 +27,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1130975695080540600
+  Id: 11230462646894220732
   Name: "EnemyGroup"
   Transform {
     Location {
@@ -40,7 +40,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3854581848279324612
+  ParentId: 11953035257815112756
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -49,6 +49,6 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "EnemyGroup"
+    FilePartitionName: "EnemyGroup_1"
   }
 }

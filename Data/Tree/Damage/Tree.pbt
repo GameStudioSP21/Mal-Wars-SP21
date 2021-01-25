@@ -32,15 +32,15 @@ Objects {
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 25
+      Int: 100
     }
     Overrides {
       Name: "cs:Speed"
-      Float: 0.5
+      Float: 1
     }
     Overrides {
       Name: "cs:Range"
-      Float: 30
+      Float: 100
     }
     Overrides {
       Name: "cs:Tower"
@@ -117,11 +117,11 @@ Objects {
     }
     Overrides {
       Name: "cs:Speed"
-      Int: 5
+      Int: 7
     }
     Overrides {
       Name: "cs:Range"
-      Float: 15
+      Float: 20
     }
     Overrides {
       Name: "cs:Tower"

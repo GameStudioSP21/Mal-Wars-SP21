@@ -119,7 +119,7 @@ end
 
 -- Returns a table of all enemies on the board.
 function Board:GetEnemies()
-    return self.enemies
+    return self.waveManager:GetEnemies()
 end
 
 ----------------------------------------------------

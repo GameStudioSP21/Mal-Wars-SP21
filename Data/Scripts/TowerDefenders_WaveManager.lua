@@ -108,7 +108,9 @@ end
 
 function WaveManager:_Init(board,waveManagerObject)
     self.assignedBoard = board
-    self.enemiesFolder = board:GetBoardAssetInstance():GetCustomProperty("Enemies")
+    self.enemiesFolder = board:GetBoardAssetInstance():GetCustomProperty("Enemies"):GetObject()
+
+    Task.Wait(1)
 
     if waveManagerObject then
         self.waveManagerObject = waveManagerObject
@@ -197,7 +199,7 @@ end
 function WaveManager:_StepStates()
 
     if self:GetCurrentPhase() == MANAGER_PHASE.WAITING_READY then
-        for i=1,5 do
+        for i=1,10 do
             Task.Wait(1)
             print(i)
         end
@@ -208,10 +210,12 @@ function WaveManager:_StepStates()
 
         Task.Wait(1)
 
-        for i = 1, 10 do
-            Task.Wait(0.3)
+        self.difficultyScalar = self.difficultyScalar and self.difficultyScalar + 1 or 1
+
+        for i = 1, 20*self.difficultyScalar do
+            Task.Wait(0.3/self.difficultyScalar)
             print("[Server] Spawning enemy")
-            --World.SpawnAsset("",{ parent = self.enemiesFolder })
+            local enemy = World.SpawnAsset("39A7A7A9AE7E370A:TowerDefenders_TestEnemy",{ parent = self.enemiesFolder, position = self:GetBoard():GetStartNode():GetWorldPosition() })
         end
 
         self:SetCurrentPhase("END_COMPLETE")

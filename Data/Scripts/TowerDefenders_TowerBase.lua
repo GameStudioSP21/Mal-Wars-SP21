@@ -185,10 +185,13 @@ function Tower:VerticalRotation()
 end
 
 function Tower:FireFakeProjectile()
-    local dir = (self:GetWorldPosition() - self.currentTarget:GetWorldPosition()):GetNormalized()
+    local dir = (self:GetWorldPosition() - self.currentTarget:GetWorldPosition())
     local projectile = Projectile.Spawn(self:GetVisualProjectile(),self._muzzle:GetWorldPosition(), -dir)
+    local mag = dir.size
     projectile.gravityScale = 0
-    projectile.speed = 2000
+    projectile.speed = 3*mag
+    projectile.lifeSpan = mag/projectile.speed
+    
 end
 
 ----------- SERVER -----------
@@ -240,7 +243,7 @@ function Tower:_Runtime()
                 Task.Wait(1/self:GetSpeed())
                 if Object.IsValid(self.currentTarget) and self._horizontalRotator then
 
-                    self:FireProjectile()
+                    self:FireFakeProjectile()
 
                     -- Play all the effects attached to the muzzle
                     for _, effect in pairs(self._muzzleEffects) do

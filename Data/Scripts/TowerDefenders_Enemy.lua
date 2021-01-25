@@ -9,10 +9,10 @@ local GameManager = require(script:GetCustomProperty("GameManager"))
 
 
 local ROOT = script:GetCustomProperty("Root"):WaitForObject()
-local ROTATION_ROOT = script:GetCustomProperty("RotationRoot"):WaitForObject()
+local ROTATION_ROOT = script:GetCustomProperty("Root"):WaitForObject()
 local COLLIDER = script:GetCustomProperty("Collider"):WaitForObject()
 local TRIGGER = script:GetCustomProperty("Trigger"):GetObject()
-local ATTACK_COMPONENT = script:GetCustomProperty("AttackComponent"):WaitForObject()
+--local ATTACK_COMPONENT = script:GetCustomProperty("AttackComponent"):WaitForObject()
 
 local MOVE_SPEED = ROOT:GetCustomProperty("MoveSpeed") or 400
 local TURN_SPEED = ROOT:GetCustomProperty("TurnSpeed") or 2
@@ -37,7 +37,7 @@ MAX_HEALTH = ROOT:GetCustomProperty("CurrentHealth")
 local PATHING_STEP = MOVE_SPEED * LOGICAL_PERIOD + 10
 local PATHING_STEP_SQUARED = PATHING_STEP * PATHING_STEP
 
-local RAY_DISTANCE_FROM_GROUND = COLLIDER:GetPosition().z + 400
+local RAY_DISTANCE_FROM_GROUND = ROOT:GetPosition().z + 400
 local RAY_DISTANCE_DOWN_VECTOR = Vector3.New(0, 0, -900)
 
 local VISION_RADIUS_SQUARED = VISION_RADIUS * VISION_RADIUS
@@ -705,9 +705,9 @@ end
 
 function SetCollision(enabled)
 	if enabled then
-		COLLIDER.collision = Collision.INHERIT
+		--COLLIDER.collision = Collision.INHERIT
 	else
-		COLLIDER.collision = Collision.FORCE_OFF
+		--COLLIDER.collision = Collision.FORCE_OFF
 	end
 end
 
@@ -869,7 +869,7 @@ function OnPropertyChanged(object, propertyName)
 end
 
 function HandleTeamChanged()
-	COLLIDER.team = GetTeam()
+	--COLLIDER.team = GetTeam()
 end
 HandleTeamChanged()
 
@@ -877,6 +877,6 @@ ROOT.networkedPropertyChangedEvent:Connect(OnPropertyChanged)
 
 
 NPC_MANAGER().Register(script)
-NPC_MANAGER().RegisterCollider(script, COLLIDER)
+NPC_MANAGER().RegisterCollider(script, ROOT)
 
 
