@@ -1,4 +1,4 @@
-Assets {
+﻿Assets {
   Id: 13954782829049532014
   Name: "Sci-fi Panel 1x4m"
   PlatformAssetType: 1

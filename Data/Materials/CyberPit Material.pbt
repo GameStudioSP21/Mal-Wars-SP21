@@ -1,8 +1,8 @@
-Assets {
+﻿Assets {
   Id: 4264247987628981671
-  Name: "AC_CyberPit Material_Green"
+  Name: "CyberPit Material"
   PlatformAssetType: 13
-  SerializationVersion: 73
+  SerializationVersion: 72
   CustomMaterialAsset {
     BaseMaterialId: 3982114982952237736
     ParameterOverrides {
@@ -21,16 +21,6 @@ Assets {
           B: 0.0013245109
           A: 1
         }
-      }
-      Overrides {
-        Name: "pulse color"
-        Color {
-          A: 1
-        }
-      }
-      Overrides {
-        Name: "v_tiles"
-        Float: 2
       }
     }
     Assets {
