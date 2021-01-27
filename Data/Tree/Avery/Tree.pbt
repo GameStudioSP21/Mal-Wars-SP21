@@ -22,14 +22,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -7240
-            Y: 1450
-            Z: -415
+            X: -755
+            Y: -19990
+            Z: 3810
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
+            Yaw: 45
           }
         }
         Overrides {
@@ -52,12 +53,12 @@ Objects {
   Name: "Platform_Long_1"
   Transform {
     Location {
-      X: -3020
-      Y: 1520
-      Z: -130
+      X: 1005
+      Y: -17405
+      Z: 5090
     }
     Rotation {
-      Yaw: 46.0285149
+      Yaw: -43.9714661
     }
     Scale {
       X: 1
@@ -82,9 +83,9 @@ Objects {
   Name: "Platform_Small_1"
   Transform {
     Location {
-      X: -3765
-      Y: 865
-      Z: -95
+      X: 75
+      Y: -18980
+      Z: 4995
     }
     Rotation {
       Yaw: 44.9999924
