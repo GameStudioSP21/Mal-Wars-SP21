@@ -190,6 +190,7 @@ function Tick(deltaTime)
         SetState(STATE_WALK_TO_NODE)
     end
 	
+	-- Everything else below is NOT USED.
 	if (currentState == STATE_ATTACK_CAST or currentState == STATE_ATTACK_RECOVERY) and
 		not IsObjectAlive(target) then
 		target = nil

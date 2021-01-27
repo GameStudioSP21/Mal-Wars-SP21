@@ -7,7 +7,7 @@ Assets {
       Overrides {
         Name: "cs:GemValues"
         ObjectReference {
-          SelfId: 14431327183363933721
+          SelfId: 9072120032930405109
         }
       }
     }

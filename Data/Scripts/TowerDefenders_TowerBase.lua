@@ -127,7 +127,7 @@ function Tower:GetVisualProjectile()
     return self.data.projectile
 end
 
-function Tower:EnemyInRange(object)
+function Tower:InRange(object)
     if (object:GetWorldPosition() - self:GetWorldPosition()).size < self:GetRange()*50 then
         return true
     end
@@ -140,7 +140,7 @@ function Tower:GetNearestEnemy()
     local closest = nil
     for _, enemy in pairs(board:GetEnemies()) do
         if Object.IsValid(enemy) then
-            if self:EnemyInRange(enemy) then
+            if self:InRange(enemy) then
                 if enemy:GetCustomProperty("CurrentHealth") > 0 then
                     if not closest then
                         closest = enemy
@@ -153,12 +153,6 @@ function Tower:GetNearestEnemy()
         end
     end
     return closest
-end
-
-function Tower:DamageEnemy(enemy)
-    local health = enemy:GetCustomProperty("CurrentHealth")
-    health = health - self:GetDamage()
-    enemy:SetNetworkedCustomProperty("CurrentHealth",health)
 end
 
 ----------------------------------------------------
@@ -191,12 +185,22 @@ function Tower:FireFakeProjectile()
     projectile.gravityScale = 0
     projectile.speed = 3*mag
     projectile.lifeSpan = mag/projectile.speed
-    
+end
+
+function Tower:PlayMuzzleEffects()
+    -- Play all the effects attached to the muzzle
+    for _, effect in pairs(self._muzzleEffects) do
+        effect:Play()
+    end
 end
 
 ----------- SERVER -----------
 
--- TODO: Deal Damage
+function Tower:DamageEnemy(enemy)
+    local health = enemy:GetCustomProperty("CurrentHealth")
+    health = health - self:GetDamage()
+    enemy:SetNetworkedCustomProperty("CurrentHealth",health)
+end
 
 ----------------------------------------------------
 -- Private
@@ -222,7 +226,7 @@ function Tower:_Runtime()
                         self.currentTarget = self:GetNearestEnemy()
                     elseif Object.IsValid(self.currentTarget) and self._horizontalRotator then
                         local health = self.currentTarget:GetCustomProperty("CurrentHealth")
-                        if self:EnemyInRange(self.currentTarget) then
+                        if self:InRange(self.currentTarget) then
 
                             self:HorizontalRotation()
                             self:VerticalRotation()
@@ -242,13 +246,8 @@ function Tower:_Runtime()
             while true do
                 Task.Wait(1/self:GetSpeed())
                 if Object.IsValid(self.currentTarget) and self._horizontalRotator then
-
                     self:FireFakeProjectile()
-
-                    -- Play all the effects attached to the muzzle
-                    for _, effect in pairs(self._muzzleEffects) do
-                        effect:Play()
-                    end
+                    self:PlayMuzzleEffects()
                 end
             end
         end)
@@ -261,7 +260,7 @@ function Tower:_Runtime()
                 if not self.currentTarget then
                     self.currentTarget = self:GetNearestEnemy()
                 elseif Object.IsValid(self.currentTarget) then
-                    if self:EnemyInRange(self.currentTarget) then
+                    if self:InRange(self.currentTarget) then
                         local health = self.currentTarget:GetCustomProperty("CurrentHealth")
                         if health > 0 then
                             if self.currentTarget:GetCustomProperty("CurrentHealth") <= 0 then

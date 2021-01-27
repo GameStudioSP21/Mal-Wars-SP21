@@ -213,7 +213,7 @@ function WaveManager:_StepStates()
         self.difficultyScalar = self.difficultyScalar and self.difficultyScalar + 1 or 1
 
         for i = 1, 20*self.difficultyScalar do
-            Task.Wait(0.3/self.difficultyScalar)
+            Task.Wait(0.3)
             print("[Server] Spawning enemy")
             local enemy = World.SpawnAsset("39A7A7A9AE7E370A:TowerDefenders_TestEnemy",{ parent = self.enemiesFolder, position = self:GetBoard():GetStartNode():GetWorldPosition() })
         end

@@ -29,6 +29,12 @@ view.OnSectionClicked:Connect(function(sectionID)
         view:Close()
         Task.Wait(0.1)
         towerView:Open()
+    elseif sectionID == 2 then
+        view:Close()
+        UI.SetCursorVisible(false)
+        UI.SetCanCursorInteractWithUI(false)
+        Task.Wait(0.1)
+        Events.Broadcast("BeginUpgrading")
     end
 
 end)

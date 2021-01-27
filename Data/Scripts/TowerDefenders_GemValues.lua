@@ -10,17 +10,17 @@ local values = {
 local lowestGem = nil
 
 -- Setup values
-    for _, gem in pairs(GEMS_FOLDER:GetChildren()) do
-        local gemAsset = gem:GetCustomProperty("Gem")
-        local gemValue = gem:GetCustomProperty("Value")
-        if not lowestGem then
-            lowestGem = { asset = gemAsset, value = gemValue }
-        elseif lowestGem.value > gemValue then
-            lowestGem = { asset = gemAsset, value = gemValue }
-        end
-        print("INSERTING:",gemAsset,gemValue)
-        table.insert(values,{ asset = gemAsset, value = gemValue })
+for _, gem in pairs(GEMS_FOLDER:GetChildren()) do
+    local gemAsset = gem:GetCustomProperty("Gem")
+    local gemValue = gem:GetCustomProperty("Value")
+    if not lowestGem then
+        lowestGem = { asset = gemAsset, value = gemValue }
+    elseif lowestGem.value > gemValue then
+        lowestGem = { asset = gemAsset, value = gemValue }
     end
+    print("INSERTING:",gemAsset,gemValue)
+    table.insert(values,{ asset = gemAsset, value = gemValue })
+end
 
 -- Returns a table containing the gems and their amounts based on the inputed value
 function GemValues.GetGemsByValue(amount)

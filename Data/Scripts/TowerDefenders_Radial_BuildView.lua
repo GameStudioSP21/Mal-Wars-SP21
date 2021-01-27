@@ -30,7 +30,7 @@ view.OnSectionClicked:Connect(function(sectionID)
         -- TODO: Perform client check on cost to see if they can place it.
         UI.SetCursorVisible(false)
         UI.SetCanCursorInteractWithUI(false)
-        Events.Broadcast("BeginTowerPlacement","Test Christmas")
+        Events.Broadcast("BeginTowerPlacement","AOE")
     end
 end)
 

@@ -1,7 +1,6 @@
 ﻿-- PROTO
 local GEM_VALUES = require(script:GetCustomProperty("TowerDefenders_GemValues"))
 
-
 local ROOT = script:GetCustomProperty("Root"):WaitForObject()
 local isDead = false
 
@@ -9,7 +8,7 @@ local InitalHealth = ROOT:GetCustomProperty("CurrentHealth")
 
 
 -- TODO: Have this be part of a Gem Collector Singleton
--- There is no way to spawn projectiles on the client so I made my own.
+-- A good reason why I use my own projectiles is because I can adjust the simulation speed to my liking.
 local function ProcessFakeProjectile(obj,dir)
 
     local initalPosition = obj:GetWorldPosition()
@@ -115,14 +114,9 @@ local function OnStateChanged()
         isDead = true
 
         local verticalDirection = Vector3.New(0,0,30)
-        local horizontalMag = 20
+        local horizontalMag = 30
 
         local deadPos = ROOT:GetWorldPosition()
-
-        --local newGem = World.SpawnAsset(GEM_LOW,{ position = deadPos + Vector3.UP * 50 })
-        --newGem:SetWorldPosition(deadPos + Vector3.UP * 50)
-
-
 
         -- TODO: Contact gem creator and spawn gems based on difficulty.
         local gems = GEM_VALUES.GetGemsByValue(InitalHealth/2)

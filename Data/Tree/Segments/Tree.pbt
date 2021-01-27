@@ -2,7 +2,7 @@ Name: "Segments"
 RootId: 3621059287569122073
 Objects {
   Id: 3990680334209929819
-  Name: "Repair"
+  Name: "Tower5"
   Transform {
     Location {
     }
@@ -39,7 +39,7 @@ Objects {
 }
 Objects {
   Id: 7960734318874551523
-  Name: "Repair"
+  Name: "Tower3"
   Transform {
     Location {
     }
@@ -76,7 +76,7 @@ Objects {
 }
 Objects {
   Id: 4341151287137824858
-  Name: "Sell"
+  Name: "Tower3"
   Transform {
     Location {
     }
@@ -92,7 +92,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
-      String: "Mortar"
+      String: "AOE"
     }
     Overrides {
       Name: "cs:Icon"
@@ -113,7 +113,7 @@ Objects {
 }
 Objects {
   Id: 13848309865661840450
-  Name: "Upgrade"
+  Name: "Tower2"
   Transform {
     Location {
     }
@@ -150,7 +150,7 @@ Objects {
 }
 Objects {
   Id: 3270651351852883229
-  Name: "Build"
+  Name: "Tower1"
   Transform {
     Location {
     }

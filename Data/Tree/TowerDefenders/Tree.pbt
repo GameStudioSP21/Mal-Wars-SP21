@@ -69,6 +69,7 @@ Objects {
   ParentId: 9567968853289757796
   ChildIds: 5241460585495244552
   ChildIds: 7881851193648080209
+  ChildIds: 9423823038731708098
   ChildIds: 4409660520606648377
   ChildIds: 16202492720055379341
   ChildIds: 2736992262683392385
@@ -927,8 +928,55 @@ Objects {
   }
 }
 Objects {
+  Id: 9423823038731708098
+  Name: "TowerDefenders_TowerUpgraderClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11447076056570800100
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:UpgradeGhost"
+      AssetReference {
+        Id: 1823336661956311542
+      }
+    }
+    Overrides {
+      Name: "cs:TowerDatabase"
+      AssetReference {
+        Id: 7419352943805787130
+      }
+    }
+    Overrides {
+      Name: "cs:Ease3D"
+      AssetReference {
+        Id: 11698430162959436393
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 6126369704824496250
+    }
+  }
+}
+Objects {
   Id: 7881851193648080209
-  Name: "TowerDefenders_TowerPlacer"
+  Name: "TowerDefenders_TowerPlacerClient"
   Transform {
     Location {
     }

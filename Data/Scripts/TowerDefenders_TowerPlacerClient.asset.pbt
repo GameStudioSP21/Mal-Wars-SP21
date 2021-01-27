@@ -1,6 +1,6 @@
 Assets {
   Id: 3066049093692743548
-  Name: "TowerDefenders_TowerPlacer"
+  Name: "TowerDefenders_TowerPlacerClient"
   PlatformAssetType: 3
   TextAsset {
     CustomParameters {

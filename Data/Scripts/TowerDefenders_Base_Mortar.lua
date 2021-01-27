@@ -13,13 +13,39 @@ function TowerMortar.New(towerData)
     return self
 end
 
+-- Client
+
 function TowerMortar:HorizontalRotation()
 end
 
 function TowerMortar:VerticalRotation()
 end
 
-function TowerMortar:FireProjectile()
+function TowerMortar:FireFakeProjectile()
+    local aoeAsset = World.SpawnAsset(self:GetVisualProjectile(),{ position = self:GetWorldPosition() })
+    Ease3D.EaseScale(aoeAsset, Vector3.New(self:GetRange()), 0.5, Ease3D.EasingEquation.SINE, Ease3D.EasingDirection.OUT)
+    Task.Spawn(function()
+        Task.Wait(0.5)
+        aoeAsset:Destroy()
+    end)
+end
+
+function TowerMortar:PlayMuzzleEffects()
+
+end
+
+-- Server
+
+function TowerMortar:DamageEnemy()
+    self.waveManager = self:GetBoardReference():GetWaveManager()
+    for _, enemy in pairs(self.waveManager:GetEnemies()) do
+        local enemyPos = enemy:GetWorldPosition()
+        if self:InRange(enemy) then
+            local health = enemy:GetCustomProperty("CurrentHealth")
+            health = health - self:GetDamage()
+            enemy:SetNetworkedCustomProperty("CurrentHealth",health)
+        end
+    end
 end
 
 return TowerMortar
