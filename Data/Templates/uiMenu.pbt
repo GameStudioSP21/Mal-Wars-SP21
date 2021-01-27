@@ -1,12 +1,12 @@
 Assets {
-  Id: 17713474243262715865
+  Id: 2669038133531907544
   Name: "uiMenu"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 387625382757784871
+      RootId: 4830454305906881643
       Objects {
-        Id: 387625382757784871
+        Id: 4830454305906881643
         Name: "uiMenu"
         Transform {
           Scale {
@@ -16,7 +16,7 @@ Assets {
           }
         }
         ParentId: 14162530469465888814
-        ChildIds: 7997400175028303957
+        ChildIds: 7264878489361170314
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -28,7 +28,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7997400175028303957
+        Id: 7264878489361170314
         Name: "ClientContext"
         Transform {
           Location {
@@ -41,8 +41,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 387625382757784871
-        ChildIds: 475301107358061947
+        ParentId: 4830454305906881643
+        ChildIds: 6784020445190160055
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -53,7 +53,7 @@ Assets {
         }
       }
       Objects {
-        Id: 475301107358061947
+        Id: 6784020445190160055
         Name: "UI Container"
         Transform {
           Location {
@@ -66,9 +66,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7997400175028303957
-        ChildIds: 11899249117721161415
-        ChildIds: 11705687937196268136
+        ParentId: 7264878489361170314
+        ChildIds: 18175585530976686699
+        ChildIds: 4168598720837388927
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -98,7 +98,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11899249117721161415
+        Id: 18175585530976686699
         Name: "zClientUIScript"
         Transform {
           Location {
@@ -111,7 +111,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 475301107358061947
+        ParentId: 6784020445190160055
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -125,7 +125,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11705687937196268136
+        Id: 4168598720837388927
         Name: "UI Panel"
         Transform {
           Location {
@@ -138,9 +138,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 475301107358061947
-        ChildIds: 8594203123149096074
-        ChildIds: 5746222616157936524
+        ParentId: 6784020445190160055
+        ChildIds: 13431163498961944361
+        ChildIds: 17834676275530034995
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -174,7 +174,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8594203123149096074
+        Id: 13431163498961944361
         Name: "UI Image"
         Transform {
           Location {
@@ -187,8 +187,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11705687937196268136
-        ChildIds: 1422900053774474361
+        ParentId: 4168598720837388927
+        ChildIds: 18259869010934046002
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -231,7 +231,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1422900053774474361
+        Id: 18259869010934046002
         Name: "UI Image"
         Transform {
           Location {
@@ -244,8 +244,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8594203123149096074
-        ChildIds: 12590582445419752831
+        ParentId: 13431163498961944361
+        ChildIds: 16308971634889808600
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -290,7 +290,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12590582445419752831
+        Id: 16308971634889808600
         Name: "UI Text Box"
         Transform {
           Location {
@@ -303,7 +303,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1422900053774474361
+        ParentId: 18259869010934046002
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -347,7 +347,7 @@ Assets {
         }
       }
       Objects {
-        Id: 5746222616157936524
+        Id: 17834676275530034995
         Name: "UI Image"
         Transform {
           Location {
@@ -360,8 +360,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11705687937196268136
-        ChildIds: 11084885692606063
+        ParentId: 4168598720837388927
+        ChildIds: 11778395755070272646
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -403,7 +403,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11084885692606063
+        Id: 11778395755070272646
         Name: "UI Image"
         Transform {
           Location {
@@ -416,9 +416,9 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 5746222616157936524
-        ChildIds: 17911733531356324239
-        ChildIds: 7171515746819598429
+        ParentId: 17834676275530034995
+        ChildIds: 7621855499240737759
+        ChildIds: 10990628725138820837
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -461,7 +461,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17911733531356324239
+        Id: 7621855499240737759
         Name: "UI Text Box"
         Transform {
           Location {
@@ -474,7 +474,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11084885692606063
+        ParentId: 11778395755070272646
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -516,7 +516,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7171515746819598429
+        Id: 10990628725138820837
         Name: "UI Button"
         Transform {
           Location {
@@ -529,7 +529,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11084885692606063
+        ParentId: 11778395755070272646
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }

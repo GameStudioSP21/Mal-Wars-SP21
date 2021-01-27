@@ -1,11 +1,12 @@
-﻿local button = script:GetCustomProperty("button"):WaitForObject()
-local menu = script.parent
-local toggle = false
+local root = script.parent:FindDescendantByName("UI Panel")
+local button = root:FindDescendantByName("UI Button")
+
 function ToggleMenu()
-	toggle = not toggle
-	menu.isEnabled  = toggle
-	UI.SetCursorVisible(toggle)
-	UI.CanCursorInteractWithUI(toggle)	
+	root.isEnabled  = not root.isEnabled
+	if root.isEnabled == true then
+	  UI.SetCursorVisible(true)
+	  UI.CanCursorInteractWithUI(true)	  
+  end
 end
 
 function OnClicked(whichButton)
@@ -43,7 +44,7 @@ function OnPlayerJoined(player)
 	--print("player joined: " .. player.name)
 	player.bindingPressedEvent:Connect(OnBindingPressed)
 	player.bindingReleasedEvent:Connect(OnBindingReleased)
-	ToggleMenu()
+	root.isEnabled = false
 end
 
 function OnPlayerLeft(player)

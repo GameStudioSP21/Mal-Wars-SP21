@@ -1,7 +1,7 @@
 Name: "Genie"
 RootId: 14162530469465888814
 Objects {
-  Id: 17885145754644801248
+  Id: 7596160733018894818
   Name: "uiInventory"
   Transform {
     Scale {
@@ -13,29 +13,21 @@ Objects {
   ParentId: 14162530469465888814
   TemplateInstance {
     ParameterOverrideMap {
-      key: 11662513889101638452
+      key: 866153402049732513
       value {
         Overrides {
           Name: "Name"
           String: "uiInventory"
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
       }
     }
     TemplateAsset {
-      Id: 5164729942112823830
+      Id: 7419645493327885644
     }
   }
 }
 Objects {
-  Id: 9923771320427128158
+  Id: 1483462274744508471
   Name: "uiMenu"
   Transform {
     Scale {
@@ -47,24 +39,16 @@ Objects {
   ParentId: 14162530469465888814
   TemplateInstance {
     ParameterOverrideMap {
-      key: 387625382757784871
+      key: 4830454305906881643
       value {
         Overrides {
           Name: "Name"
           String: "uiMenu"
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
       }
     }
     TemplateAsset {
-      Id: 17713474243262715865
+      Id: 2669038133531907544
     }
   }
 }
