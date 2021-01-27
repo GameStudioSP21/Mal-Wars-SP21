@@ -184,11 +184,33 @@ function Tick(deltaTime)
         end
 
     elseif currentState == STATE_SWITCH_TO_NEXT_NODE then
-        nextNode = currentNode:GetNextNode()
-        currentNode = nextNode
-        nextPos = nextNode:GetRandomPositionPerpendicularToNodeDirection()
-        SetState(STATE_WALK_TO_NODE)
-    end
+		nextNode = currentNode:GetNextNode()
+
+
+		-- start of Blaine scripting w/Drake
+		if nextNode == nil then
+			ROOT:Destroy()
+			return
+	
+		end
+
+		if nextNode:GetPerpendicularBeginPoint() then
+			currentNode = nextNode
+			nextPos = nextNode:GetRandomPositionPerpendicularToNodeDirection()
+			SetState(STATE_WALK_TO_NODE)
+		else
+			currentNode = nextNode
+			nextPos = nextNode:GetWorldPosition()
+			SetState(STATE_WALK_TO_NODE)
+		end
+
+
+		
+
+
+	end
+	
+
 	
 	if (currentState == STATE_ATTACK_CAST or currentState == STATE_ATTACK_RECOVERY) and
 		not IsObjectAlive(target) then
