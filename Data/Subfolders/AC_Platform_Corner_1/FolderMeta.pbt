@@ -1,0 +1,51 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "04c05d75ef784b06877382d62d6cf818"
+  OwnerAccountId: "6e7b834b43d94d4188b2e7790f147abf"
+  OwnerName: "AveryC"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 2150785099373734292
+  value: 6873511774316195172
+}
+AssetIdsOriginalToNew {
+  key: 4048905940120386173
+  value: 16366908777301060955
+}
+AssetIdsOriginalToNew {
+  key: 4299157044127117455
+  value: 8476146723169505119
+}
+AssetIdsOriginalToNew {
+  key: 6239772315456919392
+  value: 11038508053254085043
+}
+AssetIdsOriginalToNew {
+  key: 7180331084460658893
+  value: 4134279716470896607
+}
+AssetIdsOriginalToNew {
+  key: 9706300051660664088
+  value: 13950996367060423883
+}
+AssetIdsOriginalToNew {
+  key: 10752608179961328390
+  value: 10149244506520194301
+}
+AssetIdsOriginalToNew {
+  key: 12242737646674896340
+  value: 12485850970973898772
+}
+AssetIdsOriginalToNew {
+  key: 13826561930215658872
+  value: 4734830870376403752
+}
+AssetIdsOriginalToNew {
+  key: 14823414819926992555
+  value: 15954772203715810992
+}
+AssetIdsOriginalToNew {
+  key: 16989299657704825870
+  value: 10593666810560228719
+}
