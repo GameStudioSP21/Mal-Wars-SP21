@@ -1,6 +1,58 @@
 Name: "Genie"
 RootId: 14162530469465888814
 Objects {
+  Id: 11671434498738489482
+  Name: "Inventory"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14162530469465888814
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4850937856546689187
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Inventory"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14557385850826307095
+    }
+  }
+}
+Objects {
+  Id: 4022679237934059697
+  Name: "Menu"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14162530469465888814
+  ChildIds: 10288693760461094678
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
   Id: 10288693760461094678
   Name: "ClientContext"
   Transform {
@@ -14,7 +66,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14162530469465888814
+  ParentId: 4022679237934059697
   ChildIds: 437197292719820717
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -121,7 +173,7 @@ Objects {
 }
 Objects {
   Id: 12941978908566309253
-  Name: "UI Image"
+  Name: "UI Image Title"
   Transform {
     Location {
     }
@@ -134,7 +186,7 @@ Objects {
     }
   }
   ParentId: 5323545620488186102
-  ChildIds: 17613321660330344527
+  ChildIds: 17195518749004114062
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -176,8 +228,8 @@ Objects {
   }
 }
 Objects {
-  Id: 17613321660330344527
-  Name: "UI Image"
+  Id: 17195518749004114062
+  Name: "UI Button"
   Transform {
     Location {
     }
@@ -190,6 +242,88 @@ Objects {
     }
   }
   ParentId: 12941978908566309253
+  ChildIds: 17613321660330344527
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 100
+    Height: 30
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    UseParentWidth: true
+    UseParentHeight: true
+    Button {
+      FontColor {
+        A: 1
+      }
+      FontSize: 20
+      ButtonColor {
+        R: 1
+        B: 1
+        A: 0.200000018
+      }
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 17613321660330344527
+  Name: "UI Image Frame"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17195518749004114062
   ChildIds: 11998483574787592838
   ChildIds: 6381585918816386227
   Collidable_v2 {
@@ -372,7 +506,7 @@ Objects {
 }
 Objects {
   Id: 5443093914250656361
-  Name: "UI Image"
+  Name: "UI Image Body"
   Transform {
     Location {
     }
@@ -385,7 +519,7 @@ Objects {
     }
   }
   ParentId: 5323545620488186102
-  ChildIds: 17028226545853232477
+  ChildIds: 11911255369868058030
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -408,7 +542,7 @@ Objects {
       Color {
         R: 1
         B: 1
-        A: 0.2
+        A: 0.200000018
       }
       TeamSettings {
       }
@@ -428,8 +562,8 @@ Objects {
   }
 }
 Objects {
-  Id: 17028226545853232477
-  Name: "UI Image"
+  Id: 11911255369868058030
+  Name: "UI Button"
   Transform {
     Location {
     }
@@ -442,6 +576,85 @@ Objects {
     }
   }
   ParentId: 5443093914250656361
+  ChildIds: 17028226545853232477
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 100
+    Height: 30
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    UseParentWidth: true
+    UseParentHeight: true
+    Button {
+      FontColor {
+        A: 1
+      }
+      FontSize: 20
+      ButtonColor {
+        R: 1
+        B: 1
+        A: 0.200000018
+      }
+      HoveredColor {
+        R: 1
+        B: 1
+        A: 0.200000018
+      }
+      PressedColor {
+        R: 1
+        B: 1
+        A: 0.200000018
+      }
+      DisabledColor {
+        R: 1
+        B: 1
+        A: 0.200000018
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 17028226545853232477
+  Name: "UI Image Frame"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11911255369868058030
   ChildIds: 14784316485306840320
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
