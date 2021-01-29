@@ -1373,7 +1373,7 @@ Objects {
     InitialDistance: 400
     IsDistanceAdjustable: true
     MinDistance: 50
-    MaxDistance: 4000
+    MaxDistance: 4500
     PositionOffset {
       Y: 60
       Z: 500
