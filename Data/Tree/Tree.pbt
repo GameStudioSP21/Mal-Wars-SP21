@@ -69,6 +69,7 @@ Objects {
   ChildIds: 8754734530743003813
   ChildIds: 13795233914626071921
   ChildIds: 12438331940553209735
+  ChildIds: 5354314425751231995
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -77,6 +78,32 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 5354314425751231995
+  Name: "Drake"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18203406745861697933
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Drake"
   }
 }
 Objects {
@@ -1270,6 +1297,7 @@ Objects {
   }
   ParentId: 14713340454944924967
   ChildIds: 3567959178173361743
+  ChildIds: 4789829899687720904
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1279,6 +1307,41 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   NetworkContext {
+  }
+}
+Objects {
+  Id: 4789829899687720904
+  Name: "AA_Camera_Control"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 724324913679364851
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ThirdPersonCamera"
+      ObjectReference {
+        SelfId: 3567959178173361743
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 12591921268034878810
+    }
   }
 }
 Objects {
@@ -1307,14 +1370,16 @@ Objects {
   }
   Camera {
     UseAsDefault: true
-    AttachToLocalPlayer: true
     InitialDistance: 400
-    MinDistance: 300
-    MaxDistance: 600
+    IsDistanceAdjustable: true
+    MinDistance: 50
+    MaxDistance: 4000
     PositionOffset {
       Y: 60
+      Z: 500
     }
     RotationOffset {
+      Pitch: -45
     }
     FieldOfView: 90
     ViewWidth: 1200
@@ -1408,7 +1473,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      Z: 115
+      X: -10343.5459
+      Y: 120.176086
+      Z: 154.716064
     }
     Rotation {
     }
@@ -1447,6 +1514,7 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  ChildIds: 9567968853289757796
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1461,6 +1529,7 @@ Objects {
       ChatMode {
         Value: "mc:echatmode:teamandall"
       }
+      EnablePlayModeProfiler: true
       ChatSettings {
         ChatMode {
         }
@@ -1483,5 +1552,31 @@ Objects {
         MaxContactOffset: 8
       }
     }
+  }
+}
+Objects {
+  Id: 9567968853289757796
+  Name: "TowerDefenders"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7367735074338159388
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "TowerDefenders"
   }
 }
