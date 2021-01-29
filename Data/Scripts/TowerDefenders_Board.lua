@@ -289,7 +289,7 @@ function Board:AddTower(tower, position, _hasRepeated)
 end
 
 -- TODO: do this.
-function Board:UpgradeTower(hasRepeated)
+function Board:UpgradeTower(tower, hasRepeated)
     if Environment.IsClient() and not hasRepeated then
 
     end
