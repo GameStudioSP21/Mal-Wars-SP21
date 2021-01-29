@@ -6,8 +6,7 @@ local direction = Vector3.New()
 local ACCELERATION = 5
 -- used to add velocity each frame (aka acceleration)
 local currVelocity = Vector3.ZERO
--- limits the max velocity to n (uses n^2 to compare to currVelocity.sizeSquared)
-local VELOCITY_LIMIT = 16^2
+-- used to speed up the camera movement when holding left shift
 local speedMod = 1
 
 --bind constants for W, A, S, D
@@ -22,6 +21,7 @@ local PLAYER = Game.GetLocalPlayer()
 
 -- on pressed, check which bind then add corresponding vector
 function OnBindingPressed(PLAYER, binding)
+    -- holding left shift speeds up camera
     if binding == SHIFT_BIND then
         speedMod = 1.3
     elseif binding == W_BIND then
@@ -38,6 +38,7 @@ end
 -- on release, set direction back to 0 by subtracting corresponding vector
 -- direction needs to be set back to 0 to indicate the camera stopped moving
 function OnBindingReleased(PLAYER, binding)
+    -- releasing left shift resets speedMod back to 1
     if binding == SHIFT_BIND then
         speedMod = 1
     elseif binding == W_BIND then
@@ -55,11 +56,10 @@ end
 function Tick(dt)
     -- get camera position in world
     local currCameraPos = propTopDownCamera:GetWorldPosition()
-    -- check if the currVelocity is more than the limit
-    -- add direction vector to currVelocity (ACCELERATION used for speed up)
+    -- add (ACCELERATION * direction) to currVelocity to get new currVelocity
+    --( .0.6 * speedMod) used to increase camera speed
     print(speedMod)
     currVelocity = (currVelocity + (ACCELERATION * direction)) * (0.6*speedMod)
-    --print(currVelocity.sizeSquared)
     -- add velocity to the current camera position
     propTopDownCamera:SetWorldPosition(currCameraPos + currVelocity)
     -- if direction is 0, the the currVelocity for next frame is 0 to stop camera
@@ -67,8 +67,6 @@ function Tick(dt)
         currVelocity = Vector3.ZERO
     end
 end
-
-
 
 PLAYER.bindingPressedEvent:Connect(OnBindingPressed)
 PLAYER.bindingReleasedEvent:Connect(OnBindingReleased)
