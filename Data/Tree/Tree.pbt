@@ -1297,6 +1297,7 @@ Objects {
   }
   ParentId: 14713340454944924967
   ChildIds: 3567959178173361743
+  ChildIds: 4789829899687720904
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1306,6 +1307,41 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   NetworkContext {
+  }
+}
+Objects {
+  Id: 4789829899687720904
+  Name: "AA_Camera_Control"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 724324913679364851
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ThirdPersonCamera"
+      ObjectReference {
+        SelfId: 3567959178173361743
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 12591921268034878810
+    }
   }
 }
 Objects {
@@ -1334,14 +1370,16 @@ Objects {
   }
   Camera {
     UseAsDefault: true
-    AttachToLocalPlayer: true
     InitialDistance: 400
-    MinDistance: 300
-    MaxDistance: 600
+    IsDistanceAdjustable: true
+    MinDistance: 50
+    MaxDistance: 4000
     PositionOffset {
       Y: 60
+      Z: 500
     }
     RotationOffset {
+      Pitch: -45
     }
     FieldOfView: 90
     ViewWidth: 1200
