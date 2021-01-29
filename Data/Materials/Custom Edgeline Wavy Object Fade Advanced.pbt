@@ -24,6 +24,10 @@ Assets {
           A: 1
         }
       }
+      Overrides {
+        Name: "overall brightness"
+        Float: 0.439829648
+      }
     }
     Assets {
       Id: 10522222064658400397
