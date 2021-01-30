@@ -107,15 +107,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10047245790400686352
-  Name: "Gem - Round Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_gem_round_polished_001"
-  }
-}
-Assets {
   Id: 8822015863713349799
   Name: "Glow Shape Decal"
   PlatformAssetType: 14
