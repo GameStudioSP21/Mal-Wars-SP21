@@ -1,4 +1,22 @@
 Assets {
+  Id: 18105158013125412176
+  Name: "Sci-fi Base Door 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_door_002_ref"
+  }
+}
+Assets {
+  Id: 17805431485688984203
+  Name: "Cube - Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_hq_test_001"
+  }
+}
+Assets {
   Id: 17639330653733218431
   Name: "Sci-fi Panel 1x3m Angled Left"
   PlatformAssetType: 1
@@ -26,6 +44,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14078436206544360258
+  Name: "Sci-fi Base Wall 02 - Doorway 02 Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_wall_002_door_02_half_ref"
+  }
+}
+Assets {
   Id: 13954782829049532014
   Name: "Sci-fi Panel 1x4m"
   PlatformAssetType: 1
@@ -35,21 +62,39 @@ Assets {
   }
 }
 Assets {
-  Id: 13197341265976599901
-  Name: "Sci-fi Panel 1x4m Corner-cut"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_panel_1x4m_002"
-  }
-}
-Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_002"
+  }
+}
+Assets {
+  Id: 11145741338037465232
+  Name: "Additive Soft Edge"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxma_additive_edgefade"
+  }
+}
+Assets {
+  Id: 11024977997119225113
+  Name: "Sci-fi Cockpit Siderail 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_scf_ship_cockpit_siderail_001_ref"
+  }
+}
+Assets {
+  Id: 10832704295079374334
+  Name: "Cube - Chamfered Large Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_hq_002"
   }
 }
 Assets {
@@ -77,6 +122,24 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_glow"
+  }
+}
+Assets {
+  Id: 8732847489112756644
+  Name: "Cylinder - Rounded"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_rounded_002"
+  }
+}
+Assets {
+  Id: 8120172434194110335
+  Name: "Sci-fi Ship Wing Small 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_scf_ship_wing_small_001_ref"
   }
 }
 Assets {
