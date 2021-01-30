@@ -58,8 +58,8 @@ function Tick(dt)
     local currCameraPos = propTopDownCamera:GetWorldPosition()
     -- add (ACCELERATION * direction) to currVelocity to get new currVelocity
     --( .0.6 * speedMod) used to increase camera speed
-    print(speedMod)
-    currVelocity = (currVelocity + (ACCELERATION * direction)) * (0.6*speedMod)
+    -- print(speedMod)
+    currVelocity = (currVelocity + (ACCELERATION * direction)) * (0.8*speedMod)
     -- add velocity to the current camera position
     propTopDownCamera:SetWorldPosition(currCameraPos + currVelocity)
     -- if direction is 0, the the currVelocity for next frame is 0 to stop camera
