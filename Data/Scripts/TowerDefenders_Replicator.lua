@@ -10,7 +10,7 @@ local function InitalizeServerEvents()
 
     -- Place Tower
     Events.ConnectForPlayer("PT",function(_,player,id,x,y,z)
-        print("[Server] Received from:",player.name,id," ",x," ",y," ",z)
+        print("[Server] Received PLACE from:",player.name,id," ",x," ",y," ",z)
 
         -- Current board the player is playing on.
         local board = player.serverUserData.activeBoard
@@ -24,9 +24,32 @@ local function InitalizeServerEvents()
     end)
 
     -- TODO: Upgrade Tower
-    --Events.ConnectForPlayer("UT",function(player,id,????,hasRepeated)
+    Events.ConnectForPlayer("UT",function(_,player,x,y,z)
+        print("[Server] Received UPGRADE from:",player.name," ",x," ",y," ",z)
 
-    --end)
+        -- Current board the player is playing on.
+        local board = player.serverUserData.activeBoard
+        local pos = Vector3.New(x,y,z)
+
+        for _, tower in pairs(board:GetAllTowers()) do
+            if tower:GetWorldPosition() == pos then
+                local owner = tower:GetOwner()
+                local ID = tower:GetID()
+                board:UpgradeTower(tower,true) -- Networked function
+                Events.BroadcastToAllPlayers("UT",tower:GetOwner(),ID,pos.x,pos.y,pos.z)
+                break
+            end
+        end
+
+        -- local tower = TowerDatabase:NewTowerByID(id)
+        -- local pos = Vector3.New(x,y,z)
+        
+        -- tower:SetOwner(player)
+        -- tower:SetBoard(board)
+        -- local ID = tower:GetID()
+        -- board:UpgradeTower(tower,pos,true) -- Networked function don't repeat
+
+    end)
 
     -- TODO: Delete Tower
 
@@ -42,7 +65,7 @@ local function InitalizeClientEvents()
     local GameManager = require(script:GetCustomProperty("GameManager"))
 
     Events.Connect("PT",function(player,id,x,y,z)
-        print("[Client] received it.",player.name,id,x,y,z)
+        print("[Client] received PLACE from.",player.name,id,x,y,z)
 
         local LOCAL_PLAYER = Game.GetLocalPlayer()
         assert(player.clientUserData.activeBoard, string.format("%s tried to set down a tower where they have no active board assigned to them.",player.name))
@@ -57,6 +80,21 @@ local function InitalizeClientEvents()
     end)
 
     -- Receive tower placed
+    Events.Connect("UT",function(player,x,y,z)
+        print("[Client] received UPGRADE from.",player.name,x,y,z)
+
+        local LOCAL_PLAYER = Game.GetLocalPlayer()
+        assert(player.clientUserData.activeBoard, string.format("%s tried to set down a tower where they have no active board assigned to them.",player.name))
+        local pos = Vector3.New(x,y,z)
+        local board = player.clientUserData.activeBoard
+
+        for _, tower in pairs(board:GetAllTowers()) do
+            if tower:GetWorldPosition() == pos then
+                board:UpgradeTower(tower,true) -- Networked function
+                break
+            end
+        end
+    end)
 
     -- Receive tower upgraded
 

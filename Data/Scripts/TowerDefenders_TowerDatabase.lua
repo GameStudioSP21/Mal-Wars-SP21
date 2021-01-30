@@ -35,7 +35,7 @@ function Database:NewTowerByName(name)
 end
 
 function Database:NewTowerByMUID(muid)
-    local towerData = Database:GetTowerByID(muid)
+    local towerData = Database:GetTowerByMUID(muid)
     local newTower = nil
     if towerData.towerClass then
         newTower = require(towerData.towerClass).New(towerData)
@@ -117,7 +117,7 @@ function Database:_LoadTowersData()
         local towerRange = tower:GetCustomProperty("Range")
         local towerMUID = tower:GetCustomProperty("Tower")
         local towerGhostMUID = tower:GetCustomProperty("TowerGhost")
-        local towerNextUpgradeMUID = tower:GetCustomProperty("NextTowerUpgarde")
+        local towerNextUpgradeMUID = tower:GetCustomProperty("NextTowerUpgrade") and tower:GetCustomProperty("NextTowerUpgrade"):GetObject():GetCustomProperty("Tower")
         local towerVisualProjectile = tower:GetCustomProperty("VisualProjectile")
         local towerClass = tower:GetCustomProperty("TowerClass")
 
