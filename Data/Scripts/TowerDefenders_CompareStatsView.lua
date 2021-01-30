@@ -5,11 +5,11 @@ view.__index = view
 -- Public
 ------------------------------------------
 
-function view.New(statsComparePanel)
+function view.New(statsComparePanel, stats)
     local self = {}
     setmetatable(self,view)
 
-    self:_Init(statsComparePanel)
+    self:_Init(statsComparePanel, stats)
 
     return self
 end
