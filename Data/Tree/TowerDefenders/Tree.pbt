@@ -255,7 +255,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     Width: 100
@@ -273,9 +273,9 @@ Objects {
       }
       Color {
         R: 1
-        G: 0.798808
+        G: 0.798808098
         B: 0.0199999809
-        A: 1
+        A: 0.880000055
       }
       TeamSettings {
       }
@@ -314,7 +314,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     Width: 100
@@ -332,9 +332,9 @@ Objects {
       }
       Color {
         R: 1
-        G: 0.798808
+        G: 0.798808098
         B: 0.0199999809
-        A: 1
+        A: 0.880000055
       }
       TeamSettings {
       }
@@ -373,7 +373,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     Width: 100
@@ -390,9 +390,9 @@ Objects {
       }
       Color {
         R: 1
-        G: 0.798808
+        G: 0.798808098
         B: 0.0199999809
-        A: 1
+        A: 0.880000055
       }
       TeamSettings {
       }
@@ -431,7 +431,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     Width: 100
@@ -449,9 +449,9 @@ Objects {
       }
       Color {
         R: 1
-        G: 0.798808
+        G: 0.798808098
         B: 0.0199999809
-        A: 1
+        A: 0.880000055
       }
       TeamSettings {
       }
@@ -489,7 +489,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     Width: 100
@@ -507,9 +507,9 @@ Objects {
       }
       Color {
         R: 1
-        G: 0.798808
+        G: 0.798808098
         B: 0.0199999809
-        A: 1
+        A: 0.880000055
       }
       TeamSettings {
       }
@@ -737,7 +737,7 @@ Objects {
       }
     }
     Text {
-      Label: "Before"
+      Label: "After"
       Color {
         R: 1
         G: 1
@@ -1641,6 +1641,32 @@ Objects {
   ChildIds: 7697290879956659684
   ChildIds: 9136082859818221706
   ChildIds: 13780897971246098452
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:TowerIcon"
+      ObjectReference {
+        SelfId: 7697290879956659684
+      }
+    }
+    Overrides {
+      Name: "cs:TowerDescription"
+      ObjectReference {
+        SelfId: 9204086602222901051
+      }
+    }
+    Overrides {
+      Name: "cs:TowerNameBackground"
+      ObjectReference {
+        SelfId: 17429506868080861170
+      }
+    }
+    Overrides {
+      Name: "cs:TowerNameForeground"
+      ObjectReference {
+        SelfId: 18039548772597915856
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2654,6 +2680,50 @@ Objects {
     }
   }
   ParentId: 3454059231831218033
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:TowerUpgradeCompare"
+      ObjectReference {
+        SelfId: 3454059231831218033
+      }
+    }
+    Overrides {
+      Name: "cs:TowerStatsBefore"
+      ObjectReference {
+        SelfId: 15995610949917380034
+      }
+    }
+    Overrides {
+      Name: "cs:TowerStatsAfter"
+      ObjectReference {
+        SelfId: 14247133963727690657
+      }
+    }
+    Overrides {
+      Name: "cs:FeedbackArrow"
+      ObjectReference {
+        SelfId: 6312750097593272989
+      }
+    }
+    Overrides {
+      Name: "cs:TowerDatabase"
+      AssetReference {
+        Id: 7419352943805787130
+      }
+    }
+    Overrides {
+      Name: "cs:EaseUI"
+      AssetReference {
+        Id: 914127135998483489
+      }
+    }
+    Overrides {
+      Name: "cs:TowerDefenders_CompareStatsView"
+      AssetReference {
+        Id: 4725648800459874937
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

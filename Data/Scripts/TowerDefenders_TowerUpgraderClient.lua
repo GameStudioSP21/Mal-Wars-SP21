@@ -89,18 +89,14 @@ function Tick()
         local impactPosition = GetGroundPositionFromCamera()
         local nearestTower = GetNearestTower(impactPosition)
 
-
-
         -- Ease the upgrader ghost to the nearest tower.
         if nearestTower ~= selectedTower and nearestTower ~= nil then
-            print("Attract to the nearest tower.")
             selectedTower = nearestTower
             Events.Broadcast("DisplayTowerStats",selectedTower)
             Ease3D.EasePosition(upgradeGhost, selectedTower:GetWorldPosition(), 0.3, Ease3D.EasingEquation.SINE, Ease3D.EasingDirection.OUT)
         end
 
         if nearestTower == nil then
-            print("Resetting")
             upgradeGhost:SetWorldPosition(impactPosition)
             Events.Broadcast("StopDisplayingTowerStats")
             selectedTower = nil
@@ -114,9 +110,9 @@ LOCAL_PLAYER.bindingPressedEvent:Connect(function(_,key)
     if Object.IsValid(upgradeGhost) then
         -- If a valid tower is hovered over and the ghost upgrader is valid. 
         if key == CONFIRM_UPGRADE_KEY and selectedTower then
-            print("Confirm Upgrade")
             local board = LOCAL_PLAYER.clientUserData.activeBoard
             board:UpgradeTower(selectedTower)
+            Events.Broadcast("ConfirmTowerUpgrade",selectedTower)
             RemoveUpgradeGhost()
         elseif key == CANCEL_UPGRADE_KEY then
             RemoveUpgradeGhost()

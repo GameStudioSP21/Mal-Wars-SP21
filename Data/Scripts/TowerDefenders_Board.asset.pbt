@@ -16,6 +16,12 @@ Assets {
           Id: 7771317841221288127
         }
       }
+      Overrides {
+        Name: "cs:TowerDefenders_TowerDatabase"
+        AssetReference {
+          Id: 7419352943805787130
+        }
+      }
     }
   }
   SerializationVersion: 73

@@ -22,6 +22,7 @@ Board.__index = Board
 
 local PathNode = require(script:GetCustomProperty("TowerDefenders_PathNode"))
 local WaveManager = require(script:GetCustomProperty("TowerDefenders_WaveManager"))
+local TowerDatabase = require(script:GetCustomProperty("TowerDefenders_TowerDatabase"))
 
 -- TODO: Change this to a CoreObjectReference
 local ACTIVE_BOARDS_GROUP = World.FindObjectByName("ActiveBoards")
@@ -152,90 +153,6 @@ function Board:CreateBoard(position, playerOwners)
     end
 
     -- TODO: Move this to a private method and have it called elsewhere.
-
-    -- -- TODO: WAVE MANAGER: CODE HERE.
-    -- Task.Spawn(function()
-    --     Task.Wait(5)
-    --     --- TEMP CODE
-    --     -- for i=1,15 do
-    --     --     Task.Wait(1)
-    --     --     local testEnemy = World.SpawnAsset("1DE6FD6A0A4D10A3:SkeletonTest_Towers",{ position = self:GetStartNode():GetRandomPositionPerpendicularToNodeDirection(), parent = boardInstance })
-    --     --     table.insert(self.enemies,testEnemy)
-    --     -- end
-
-    --     -- Task.Wait(8)
-    --     -- for i=1,20 do
-    --     --     Task.Wait(1)
-    --     --     local testEnemy = World.SpawnAsset("1DE6FD6A0A4D10A3:SkeletonTest_Towers",{ position = self:GetStartNode():GetRandomPositionPerpendicularToNodeDirection(), parent = boardInstance })
-    --     --     table.insert(self.enemies,testEnemy)
-    --     -- end
-
-    --     -- Task.Wait(10)
-    --     -- for i=1,20 do
-    --     --     Task.Wait(0.5)
-    --     --     local testEnemy = World.SpawnAsset("1DE6FD6A0A4D10A3:SkeletonTest_Towers",{ position = self:GetStartNode():GetRandomPositionPerpendicularToNodeDirection(), parent = boardInstance })
-    --     --     table.insert(self.enemies,testEnemy)
-    --     -- end
-
-    --     -- Task.Wait(10)
-    --     -- for i=1,30 do
-    --     --     Task.Wait(0.5)
-    --     --     local testEnemy = World.SpawnAsset("1DE6FD6A0A4D10A3:SkeletonTest_Towers",{ position = self:GetStartNode():GetRandomPositionPerpendicularToNodeDirection(), parent = boardInstance })
-    --     --     table.insert(self.enemies,testEnemy)
-    --     -- end
-
-    --     -- Task.Wait(10)
-    --     -- for i=1,40 do
-    --     --     Task.Wait(0.5)
-    --     --     local testEnemy = World.SpawnAsset("1DE6FD6A0A4D10A3:SkeletonTest_Towers",{ position = self:GetStartNode():GetRandomPositionPerpendicularToNodeDirection(), parent = boardInstance })
-    --     --     table.insert(self.enemies,testEnemy)
-    --     -- end
-
-    --     -- Task.Wait(10)
-    --     -- for i=1,10 do
-    --     --     Task.Wait(0.1)
-    --     --     local testEnemy = World.SpawnAsset("1DE6FD6A0A4D10A3:SkeletonTest_Towers",{ position = self:GetStartNode():GetRandomPositionPerpendicularToNodeDirection(), parent = boardInstance })
-    --     --     table.insert(self.enemies,testEnemy)
-    --     -- end
-
-    --     -- Task.Wait(10)
-    --     -- for i=1,20 do
-    --     --     Task.Wait(0.1)
-    --     --     local testEnemy = World.SpawnAsset("1DE6FD6A0A4D10A3:SkeletonTest_Towers",{ position = self:GetStartNode():GetRandomPositionPerpendicularToNodeDirection(), parent = boardInstance })
-    --     --     table.insert(self.enemies,testEnemy)
-    --     -- end
-
-    --     -- Task.Wait(10)
-    --     -- for i=1,30 do
-    --     --     Task.Wait(0.1)
-    --     --     local testEnemy = World.SpawnAsset("1DE6FD6A0A4D10A3:SkeletonTest_Towers",{ position = self:GetStartNode():GetRandomPositionPerpendicularToNodeDirection(), parent = boardInstance })
-    --     --     table.insert(self.enemies,testEnemy)
-    --     -- end
-
-        
-    --     -- Task.Wait(10)
-    --     -- for i=1,50 do
-    --     --     Task.Wait(0.1)
-    --     --     local testEnemy = World.SpawnAsset("1DE6FD6A0A4D10A3:SkeletonTest_Towers",{ position = self:GetStartNode():GetRandomPositionPerpendicularToNodeDirection(), parent = boardInstance })
-    --     --     table.insert(self.enemies,testEnemy)
-    --     -- end
-
-    --     -- Task.Wait(10)
-    --     -- for i=1,100 do
-    --     --     Task.Wait(0.1)
-    --     --     local testEnemy = World.SpawnAsset("1DE6FD6A0A4D10A3:SkeletonTest_Towers",{ position = self:GetStartNode():GetRandomPositionPerpendicularToNodeDirection(), parent = boardInstance })
-    --     --     table.insert(self.enemies,testEnemy)
-    --     -- end
-
-    --     -- Task.Wait(10)
-    --     -- for i=1,3 do
-    --     --     Task.Wait(5)
-    --     --     local testEnemy = World.SpawnAsset("EE6D7D97D2091F73:SkeletonTest_Towers_02",{ position = self:GetStartNode():GetRandomPositionPerpendicularToNodeDirection(), parent = boardInstance })
-    --     --     table.insert(self.enemies,testEnemy)
-    --     -- end
-        
-    -- end)
-
 end
 
 -- TODO: Change this so there can be multiple start nodes
@@ -268,12 +185,11 @@ function Board:AddTower(tower, position, _hasRepeated)
     tower:SetWorldPosition(position)
     table.insert(self.towers,tower)
 
-
     tower:BeginRuntime()
 
     if Environment.IsClient() then
         Task.Spawn(function() 
-            tower:SpawnAsset()
+            tower:SpawnAssetSpecial()
         end)
     end
 
@@ -289,10 +205,66 @@ function Board:AddTower(tower, position, _hasRepeated)
 end
 
 -- TODO: do this.
-function Board:UpgradeTower(tower, hasRepeated)
-    if Environment.IsClient() and not hasRepeated then
-
+function Board:UpgradeTower(tower, _hasRepeated)
+    if Environment.IsClient() then
+        print("[Client] Upgrading Tower")
+        local LOCAL_PLAYER = Game.GetLocalPlayer()
+        -- Return if the message has been repeated to us already.
+        if _hasRepeated and LOCAL_PLAYER == tower:GetOwner() then
+            print("[Client] Repeated message. Not playing again.")
+            return
+        end
+    else
+        print("[Server] Upgrading Tower")
     end
+
+
+    
+    local nextUpgradedTowerMUID = tower:GetNextUpgradeMUID()
+    print("Creating Upgraded Tower:",nextUpgradedTowerMUID)
+    local newTower = TowerDatabase:NewTowerByMUID(nextUpgradedTowerMUID)
+
+    -- Move tower to new position.
+    newTower:SetWorldPosition(tower:GetWorldPosition())
+    newTower:SetOwner(tower:GetOwner())
+    local board = tower:GetBoardReference()
+    newTower:SetBoard(board)
+
+
+    for i, currentTower in pairs(self.towers) do
+        if currentTower:GetWorldPosition() == newTower:GetWorldPosition() then
+            print("Removing current tower!")
+            table.remove(self.towers,i)
+        end
+    end
+
+    table.insert(self.towers,newTower)
+    
+
+    if Environment.IsClient() then
+        Task.Spawn(function()
+            newTower:SpawnAsset()
+        end)
+    end
+
+    local position = newTower:GetWorldPosition()
+
+    newTower:BeginRuntime()
+
+    -- Replication event.
+    if Environment.IsClient() and not _hasRepeated then
+        print("[Client] Sending upgrade tower to server.")
+        Events.BroadcastToServer("UT",newTower:GetOwner(),position.x,position.y,position.z)
+    elseif Environment.IsServer() and not _hasRepeated then
+        print("[Server] Sending upgrade tower to all players.")
+        CoreDebug.DrawLine(position, position + Vector3.UP * 100, { color = Color.GREEN, duration = 20000, thickness = 20 } )
+        Events.BroadcastToAllPlayers("UT",newTower:GetOwner(),position.x,position.y,position.z)
+    end
+
+    -- Destroy the old tower.
+    Task.Spawn(function()
+        tower:Destroy()
+    end)
 end
 
 -- TODO: do this.
@@ -353,27 +325,27 @@ function Board:_SetupWalkNodes()
                 if folder then
                     node.serverUserData.nodeInstance = newNode
                     folder.serverUserData.startNode = newNode
-                    print("Beginning of sub node",i)
+                    --print("Beginning of sub node",i)
                 else
                     self.startNode = newNode
                     node.serverUserData.nodeInstance = newNode
-                    print("beginning",i)
+                    --print("beginning",i)
                 end
             elseif not nodeGroup[i+1] then
                 local newNode = PathNode.New(node)
                 if folder then
                     node.serverUserData.nodeInstance = newNode
                     folder.serverUserData.endNode = newNode
-                    print("ending of sub node",i)
+                    --print("ending of sub node",i)
                 else
                     self.endNode = newNode
                     node.serverUserData.nodeInstance = newNode
-                    print("ending",i)
+                    --print("ending",i)
                 end
             else
                 local newNode = PathNode.New(node)
                 node.serverUserData.nodeInstance = newNode
-                print("node:",i)
+                --print("node:",i)
             end
         end
     end
@@ -381,7 +353,7 @@ function Board:_SetupWalkNodes()
     SetupNodes_R(nodes)
 
     local function ConnectPaths_R(nodesGroup,folder)
-        print("Checking branch")
+        --print("Checking branch")
 
 
         for i, node in pairs(nodesGroup) do
@@ -391,14 +363,14 @@ function Board:_SetupWalkNodes()
                 local previousNode = node.serverUserData.nodeInstance
                 local nextNode = nodesGroup[i+1]
                 if nodesGroup[i+1]:IsA("Folder") then
-                    print("Next is branch. Back connecting",i)
+                    --print("Next is branch. Back connecting",i)
                     local previousNode = nodesGroup[i+1]:GetCustomProperty("BeginNode"):GetObject()
                     previousNode.serverUserData.nodeInstance:SetNextNode(nodesGroup[i+1].serverUserData.startNode)
                     CoreDebug.DrawLine(previousNode.serverUserData.nodeInstance:GetWorldPosition(),nodesGroup[i+1].serverUserData.startNode:GetWorldPosition(),{ duration = 2000, thickness = 5, color = Color.YELLOW })
                     ConnectPaths_R(nodesGroup[i+1]:GetChildren(),nodesGroup[i+1])
                     -- If it's a folder then back connect
                 else
-                    print("Regular connect:",i,folder)
+                    --print("Regular connect:",i,folder)
                     if previousNode then
                         CoreDebug.DrawLine(previousNode:GetWorldPosition(),nextNode.serverUserData.nodeInstance:GetWorldPosition(),{ duration = 2000, thickness = 5, color =  Color.BLUE })
                         previousNode:SetNextNode(nextNode.serverUserData.nodeInstance)
@@ -409,18 +381,18 @@ function Board:_SetupWalkNodes()
                 -- If we reached the end.
                 if folder then
                     -- If we reach the end of the folder then check to see if it reconnect back.
-                    print("reached end of branch")
+                    --print("reached end of branch")
                     local previousNode = node.serverUserData.nodeInstance
                     local nextNode = folder:GetCustomProperty("NextNode")
                     if nextNode then
                         nextNode = folder:GetCustomProperty("NextNode"):GetObject()
                         CoreDebug.DrawLine(previousNode:GetWorldPosition(),nextNode.serverUserData.nodeInstance:GetWorldPosition(),{ duration = 2000, thickness = 5, color = Color.GREEN })
-                        print("Reconnecting to ancestor.")
+                        --print("Reconnecting to ancestor.")
                         previousNode:SetNextNode(nextNode.serverUserData.nodeInstance)
                         return
                     end
                 else
-                    print("Reach end")
+                    --print("Reach end")
                 end
             else
 
@@ -444,13 +416,13 @@ function Board:_SetupWalkNodes()
                 local previousNode = node.serverUserData.nodeInstance
                 local nextNode = nodesGroup[i+1]
                 if nodesGroup[i+1]:IsA("Folder") then
-                    print("Next is branch. Back connecting",i)
+                    --print("Next is branch. Back connecting",i)
                     local previousNode = nodesGroup[i+1]:GetCustomProperty("BeginNode"):GetObject().serverUserData.nodeInstance
                     previousNode:DebugDrawCurrentPath()
                     DrawPaths_R(nodesGroup[i+1]:GetChildren(),nodesGroup[i+1])
                     -- If it's a folder then back connect
                 else
-                    print("Regular connect:",i,folder)
+                    --print("Regular connect:",i,folder)
                     if previousNode then
                         previousNode:DebugDrawCurrentPath()
                     end
@@ -460,7 +432,7 @@ function Board:_SetupWalkNodes()
                 -- If we reached the end.
                 if folder then
                     -- If we reach the end of the folder then check to see if it reconnect back.
-                    print("reached end of branch")
+                    --print("reached end of branch")
                     local previousNode = node.serverUserData.nodeInstance
                     local nextNode = folder:GetCustomProperty("NextNode")
                     if nextNode then
@@ -472,7 +444,7 @@ function Board:_SetupWalkNodes()
                         return
                     end
                 else
-                    print("Reach end")
+                    --print("Reach end")
                 end
             else
 
