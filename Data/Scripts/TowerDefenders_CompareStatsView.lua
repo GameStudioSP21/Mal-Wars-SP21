@@ -14,6 +14,9 @@ function view.New(statsComparePanel, stats)
     return self
 end
 
+function view:DisplayTowerStats(tower)
+end
+
 function view:IsVisible()
     
 end
