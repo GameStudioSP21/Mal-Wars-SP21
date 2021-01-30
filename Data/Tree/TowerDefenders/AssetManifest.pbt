@@ -71,6 +71,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3702662341168083634
+  Name: "Icon Damage"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Damage"
+  }
+}
+Assets {
   Id: 3648601778459717986
   Name: "Fantasy Craft Gem 007"
   PlatformAssetType: 9

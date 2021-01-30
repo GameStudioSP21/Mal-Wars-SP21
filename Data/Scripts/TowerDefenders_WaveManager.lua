@@ -79,6 +79,20 @@ function WaveManager:GetEnemies()
     return self.enemiesFolder:GetChildren()
 end
 
+-- Returns the enemy nearest to a given world position
+function WaveManager:GetNearestEnemy(position)
+    local closest = nil
+    for _, enemy in pairs(self:GetEnemies()) do
+        if not closest then
+            closest = enemy
+        end
+        if (enemy:GetWorldPosition() - position).sizeSquared < (closest - position).sizeSquared then
+            closest = enemy
+        end
+    end
+    return closest
+end
+
 function WaveManager:ReturnRemainingEnemies()
     -- TODO: Return the remaining enemies.
 end

@@ -75,6 +75,6 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Damage"
+    FilePartitionName: "Damage_1"
   }
 }
