@@ -1298,6 +1298,7 @@ Objects {
   ParentId: 14713340454944924967
   ChildIds: 3567959178173361743
   ChildIds: 13109432220714635950
+  ChildIds: 8248999501281089660
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1307,6 +1308,33 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   NetworkContext {
+  }
+}
+Objects {
+  Id: 8248999501281089660
+  Name: "ClickController"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 724324913679364851
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8186255624742647161
+    }
   }
 }
 Objects {
@@ -1449,18 +1477,12 @@ Objects {
       IsSlideEnabled: true
       IsCrouchEnabled: true
       IsJumpEnabled: true
-      CanMoveForward: true
-      CanMoveBackward: true
-      CanMoveLeft: true
-      CanMoveRight: true
       AbilityAimMode {
         Value: "mc:eabilityaimmode:viewrelative"
       }
       AppearanceChannelingTime: 2
       MountChannelingTime: 2
       FlipOnMultiJump: true
-      CanMoveUp: true
-      CanMoveDown: true
       IsMountEnabled: true
       MaxHitpoints: 100
     }
