@@ -1692,6 +1692,8 @@ Objects {
   }
   ParentId: 14713340454944924967
   ChildIds: 3567959178173361743
+  ChildIds: 13109432220714635950
+  ChildIds: 8248999501281089660
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1800,7 +1802,6 @@ Objects {
   }
   Camera {
     UseAsDefault: true
-    AttachToLocalPlayer: true
     InitialDistance: 400
     IsDistanceAdjustable: true
     MinDistance: 300
