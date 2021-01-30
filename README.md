@@ -28,3 +28,17 @@ B. Guide to Edit CORE project "GameStudio1"
 	3. Click EDIT above GAMESTUDIO1
 	
 	4. edit only your subfolder under Collaborators to avoid merge conflict
+	
+C. Guide to summit to local repo and push to remote repo in github
+
+	1. Launch "Github Desktop" application
+	
+	2. Click "Fetch origin" button (it might override your local files)
+	
+	3. Edit in CORE and save it
+
+	4. Type in "something" in Summary (required)
+	
+	5. Click "Commit to master" button to store in local repo
+	
+	6. Click "Push origin" button to update remote repo in gihub
