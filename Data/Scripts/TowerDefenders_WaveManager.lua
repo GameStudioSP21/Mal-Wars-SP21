@@ -1,4 +1,4 @@
-﻿--- Pending Description
+--- Pending Description
 -- Finite-state machine
 
 local WaveManager = {}
@@ -86,7 +86,7 @@ function WaveManager:GetNearestEnemy(position)
         if not closest then
             closest = enemy
         end
-        if (enemy:GetWorldPosition() - position).sizeSquared < (closest - position).sizeSquared then
+        if enemy and (enemy:GetWorldPosition() - position).sizeSquared < (closest:GetWorldPosition() - position).sizeSquared then
             closest = enemy
         end
     end

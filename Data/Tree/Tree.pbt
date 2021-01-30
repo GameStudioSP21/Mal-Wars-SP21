@@ -17,10 +17,12 @@ Objects {
   ChildIds: 7367735074338159388
   ChildIds: 16813558807825262224
   ChildIds: 14713340454944924967
+  ChildIds: 3996444630784673732
   ChildIds: 10005074784157121906
   ChildIds: 18203406745861697933
   ChildIds: 5330971716796563095
   ChildIds: 13100177629527093544
+  ChildIds: 11268237991351670220
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -30,6 +32,51 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 11268237991351670220
+  Name: "Auto Rifle Basic"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4930710872058362737
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Auto Rifle Basic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -11000
+            Z: 50
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10909377152355297742
+    }
   }
 }
 Objects {
@@ -1652,6 +1699,108 @@ Objects {
   }
 }
 Objects {
+  Id: 3996444630784673732
+  Name: "Starting Weapon"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 11334937433751114491
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:EquipmentTemplate"
+      AssetReference {
+        Id: 10909377152355297742
+      }
+    }
+    Overrides {
+      Name: "cs:Team"
+      Int: 0
+    }
+    Overrides {
+      Name: "cs:ReplaceOnEachRespawn"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:EquipmentTemplate:tooltip"
+      String: "Equipment template to give to players"
+    }
+    Overrides {
+      Name: "cs:Team:tooltip"
+      String: "If non-zero, only give equipment to players on that team"
+    }
+    Overrides {
+      Name: "cs:ReplaceOnEachRespawn:tooltip"
+      String: "Whether to replace that equipment every time a player spawns"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 7855857303350524670
+    SubobjectId: 16657464430720987128
+    InstanceId: 8037118865340018493
+    TemplateId: 14615028099963445761
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 11334937433751114491
+  Name: "StaticPlayerEquipmentServer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3996444630784673732
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ComponentRoot"
+      ObjectReference {
+        SelfId: 3996444630784673732
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 3403025055362370891
+    }
+  }
+  InstanceHistory {
+    SelfId: 7291685923770599609
+    SubobjectId: 17230748584674696639
+    InstanceId: 8037118865340018493
+    TemplateId: 14615028099963445761
+  }
+}
+Objects {
   Id: 14713340454944924967
   Name: "Third Person Camera Settings"
   Transform {
@@ -1756,12 +1905,6 @@ Objects {
   }
   ParentId: 724324913679364851
   UnregisteredParameters {
-    Overrides {
-      Name: "cs:ThirdPersonCamera"
-      ObjectReference {
-        SelfId: 3567959178173361743
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1784,6 +1927,7 @@ Objects {
       Z: 500
     }
     Rotation {
+      Yaw: -45
     }
     Scale {
       X: 1
@@ -1815,7 +1959,7 @@ Objects {
     FieldOfView: 90
     ViewWidth: 1200
     RotationMode {
-      Value: "mc:erotationmode:lookangle"
+      Value: "mc:erotationmode:default"
     }
     MinPitch: -89
     MaxPitch: 89
@@ -1860,7 +2004,7 @@ Objects {
       BrakingDecelerationFlying: 600
       MaxFlightSpeed: 600
       MovementControlMode {
-        Value: "mc:emovementcontrolmode:lookrelative"
+        Value: "mc:emovementcontrolmode:none"
       }
       LookControlMode {
         Value: "mc:elookcontrolmode:absolute_tocursor"

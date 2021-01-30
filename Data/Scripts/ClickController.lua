@@ -52,7 +52,7 @@ local function followPath(path)
 			local distance = direction.size
 			if distance > resetDistance then
 				goal = waypoint
-				-- print("Hey "..tostring(goal))
+				print("Hey "..tostring(goal))
 				Task.Wait(distance / localPlayer.maxWalkSpeed)
 			end
 		end

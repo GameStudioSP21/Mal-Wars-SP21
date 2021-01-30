@@ -1,4 +1,7 @@
-local propTopDownCamera = script:GetCustomProperty("ThirdPersonCamera"):WaitForObject()
+local LOCAL_PLAYER = Game.GetLocalPlayer()
+local activeCamera = LOCAL_PLAYER:GetActiveCamera()
+local camForward = activeCamera:GetTransform():GetForwardVector()
+local camRight = activeCamera:GetTransform():GetRightVector()
 
 -- used for direction of camera movement (W = <1,0,0>, S = <-1,0,0>, A = <0,-1,0>, D = <0,1,0>)
 local direction = Vector3.New()
@@ -25,13 +28,13 @@ function OnBindingPressed(PLAYER, binding)
     if binding == SHIFT_BIND then
         speedMod = 1.3
     elseif binding == W_BIND then
-        direction = direction + Vector3.FORWARD
+        direction = direction + camForward
     elseif binding == A_BIND then
-        direction = direction - Vector3.RIGHT
+        direction = direction - camRight
     elseif binding == S_BIND then
-        direction = direction - Vector3.FORWARD
+        direction = direction - camForward
     elseif binding == D_BIND then
-        direction = direction + Vector3.RIGHT
+        direction = direction + camRight
     end
 end
 
@@ -42,26 +45,26 @@ function OnBindingReleased(PLAYER, binding)
     if binding == SHIFT_BIND then
         speedMod = 1
     elseif binding == W_BIND then
-        direction = direction - Vector3.FORWARD
+        direction = direction - camForward
     elseif binding == A_BIND then
-        direction = direction + Vector3.RIGHT
+        direction = direction + camRight
     elseif binding == S_BIND then
-        direction = direction + Vector3.FORWARD
+        direction = direction + camForward
     elseif binding == D_BIND then
-        direction = direction - Vector3.RIGHT
+        direction = direction - camRight
     end
 end
 
 --for each frame, 
 function Tick(dt)
     -- get camera position in world
-    local currCameraPos = propTopDownCamera:GetWorldPosition()
+    local currCameraPos = activeCamera:GetWorldPosition()
     -- add (ACCELERATION * direction) to currVelocity to get new currVelocity
     --( .0.6 * speedMod) used to increase camera speed
     -- print(speedMod)
     currVelocity = (currVelocity + (ACCELERATION * direction)) * (0.8*speedMod)
     -- add velocity to the current camera position
-    propTopDownCamera:SetWorldPosition(currCameraPos + currVelocity)
+    activeCamera:SetWorldPosition(currCameraPos + currVelocity)
     -- if direction is 0, the the currVelocity for next frame is 0 to stop camera
     if direction == Vector3.ZERO then
         currVelocity = Vector3.ZERO
