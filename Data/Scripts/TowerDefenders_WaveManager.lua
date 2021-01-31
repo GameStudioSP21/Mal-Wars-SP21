@@ -83,12 +83,14 @@ end
 function WaveManager:GetNearestEnemy(position)
     local closest = nil
     for _, enemy in pairs(self:GetEnemies()) do
+    	if enemy:GetCustomProperty("CurrentHealth") > 0 then
         if not closest then
             closest = enemy
         end
-        if enemy and (enemy:GetWorldPosition() - position).sizeSquared < (closest:GetWorldPosition() - position).sizeSquared then
+        if enemy and (enemy:GetWorldPosition() - position).sizeSquared < (closest:GetWorldPosition() - position).sizeSquared and enemy:GetCustomProperty("CurrentHealth") > 0 then
             closest = enemy
         end
+      end
     end
     return closest
 end

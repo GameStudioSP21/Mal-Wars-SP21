@@ -17,12 +17,11 @@ Objects {
   ChildIds: 7367735074338159388
   ChildIds: 16813558807825262224
   ChildIds: 14713340454944924967
-  ChildIds: 3996444630784673732
+  ChildIds: 14293579930613948469
   ChildIds: 10005074784157121906
   ChildIds: 18203406745861697933
   ChildIds: 5330971716796563095
   ChildIds: 2252134080425629615
-  ChildIds: 11268237991351670220
   ChildIds: 8805648284616761691
   UnregisteredParameters {
   }
@@ -40,15 +39,14 @@ Objects {
   Name: "Sphere - Half Thick"
   Transform {
     Location {
-      X: -11200
-      Z: 50
+      X: -11400
     }
     Rotation {
     }
     Scale {
       X: 10
       Y: 10
-      Z: 3
+      Z: 10
     }
   }
   ParentId: 4781671109827199097
@@ -72,52 +70,6 @@ Objects {
         Mass: 100
         LinearDamping: 0.01
       }
-    }
-  }
-}
-Objects {
-  Id: 11268237991351670220
-  Name: "Auto Rifle Basic"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 4930710872058362737
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Auto Rifle Basic"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -11800
-            Y: -1350
-            Z: 50
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 10909377152355297742
     }
   }
 }
@@ -1896,7 +1848,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3996444630784673732
+  Id: 14293579930613948469
   Name: "Starting Weapon"
   Transform {
     Location {
@@ -1910,7 +1862,7 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  ChildIds: 11334937433751114491
+  ChildIds: 14855410654233242552
   UnregisteredParameters {
     Overrides {
       Name: "cs:EquipmentTemplate"
@@ -1957,7 +1909,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11334937433751114491
+  Id: 14855410654233242552
   Name: "StaticPlayerEquipmentServer"
   Transform {
     Location {
@@ -1970,12 +1922,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3996444630784673732
+  ParentId: 14293579930613948469
   UnregisteredParameters {
     Overrides {
       Name: "cs:ComponentRoot"
       ObjectReference {
-        SelfId: 3996444630784673732
+        SelfId: 14293579930613948469
       }
     }
   }
@@ -2189,7 +2141,7 @@ Objects {
   Settings {
     IsDefault: true
     PlayerMovementSettings {
-      WalkSpeed: 640
+      WalkSpeed: 800
       MaxAcceleration: 1800
       WalkableFloorAngle: 44
       JumpMaxCount: 1
@@ -2205,7 +2157,7 @@ Objects {
         Value: "mc:emovementcontrolmode:none"
       }
       LookControlMode {
-        Value: "mc:elookcontrolmode:absolute_tocursor"
+        Value: "mc:elookcontrolmode:relative"
       }
       FacingMode {
         Value: "mc:efacingmode:faceaimwhenactive"
@@ -2222,20 +2174,18 @@ Objects {
       HeadVisibleToSelf: true
       IsSlideEnabled: true
       IsCrouchEnabled: true
-      IsJumpEnabled: true
       CanMoveForward: true
       CanMoveBackward: true
       CanMoveLeft: true
       CanMoveRight: true
       AbilityAimMode {
-        Value: "mc:eabilityaimmode:lookrelative"
+        Value: "mc:eabilityaimmode:viewrelative"
       }
       AppearanceChannelingTime: 2
       MountChannelingTime: 2
       FlipOnMultiJump: true
       CanMoveUp: true
       CanMoveDown: true
-      IsMountEnabled: true
       MaxHitpoints: 100
     }
   }

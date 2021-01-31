@@ -13,7 +13,8 @@ local followPathTask = nil
 
 local player
 local holdPosition = false
-local bindingKey = "ability_secondary"
+local bindingKey1 = "ability_primary"
+local bindingKey2 = "ability_secondary"
 
 function DestroyIfValid(object)
 	if Object.IsValid(object) then
@@ -61,7 +62,7 @@ end
 
 
 function OnBindingPressed(player, binding)
-	if not holdPosition and binding == bindingKey then
+	if not holdPosition and (binding == bindingKey2 or binding == bindingKey2) then
 
 		local hitResult = UI.GetCursorHitResult()
 
@@ -83,14 +84,6 @@ function OnBindingPressed(player, binding)
 
 	if binding == "ability_feet" then
 		holdPosition = true
-	end
-
-	if binding == "ability_extra_40" then -- X key
-		if bindingKey == "ability_primary" then
-			bindingKey = "ability_secondary"
-		else
-			bindingKey = "ability_primary"
-		end
 	end
 end
 

@@ -1,13 +1,13 @@
 Assets {
-  Id: 10909377152355297742
-  Name: "Auto Rifle Basic"
+  Id: 4292806770385114205
+  Name: "Basic Rifle"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 4930710872058362737
+      RootId: 5545984700063622192
       Objects {
-        Id: 4930710872058362737
-        Name: "Auto Rifle Basic"
+        Id: 5545984700063622192
+        Name: "Basic Rifle"
         Transform {
           Scale {
             X: 1
@@ -15,11 +15,10 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
-        ChildIds: 13070216495102732429
-        ChildIds: 1555946323340545535
-        ChildIds: 3354506955686228242
-        ChildIds: 573529909289058154
+        ParentId: 8649408306538322092
+        ChildIds: 6091570635518507984
+        ChildIds: 17342228179914680811
+        ChildIds: 14554342770677881249
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -53,7 +52,7 @@ Assets {
                 Z: 14
               }
             }
-            AnimationSet: "2hand_rifle_aim_shoulder"
+            AnimationSet: "2hand_rifle_stance"
             OutOfAmmoSfxAssetRef {
               Id: 1683114021203363022
             }
@@ -64,7 +63,6 @@ Assets {
             ImpactProjectileAssetRef {
               Id: 841534158063459245
             }
-            IsHitscan: true
             BeamAssetRef {
               Id: 841534158063459245
             }
@@ -77,7 +75,7 @@ Assets {
               Id: 307406115803496087
             }
             ReticleType {
-              Value: "mc:ereticletype:none"
+              Value: "mc:ereticletype:crosshair"
             }
             MaxAmmo: 30
             AmmoType: "rounds"
@@ -92,71 +90,17 @@ Assets {
             SpreadIncreasePerShot: 0.5
             SpreadPenaltyPerShot: 0.4
             DefaultAbility {
-              SubObjectId: 1555946323340545535
+              SubObjectId: 6091570635518507984
             }
             ReloadAbility {
-              SubObjectId: 3354506955686228242
+              SubObjectId: 17342228179914680811
             }
-            Damage: 150
-            WeaponTrajectoryMode {
-              Value: "mc:eweapontrajectorymode:custom"
-            }
+            Damage: 15
           }
         }
       }
       Objects {
-        Id: 13070216495102732429
-        Name: "AutoWeaponHandler"
-        Transform {
-          Location {
-            X: 11800
-            Y: 1350
-            Z: -50
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 4930710872058362737
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:AutoRifleBasic"
-            ObjectReference {
-              SubObjectId: 4930710872058362737
-            }
-          }
-          Overrides {
-            Name: "cs:Shoot"
-            ObjectReference {
-              SubObjectId: 1555946323340545535
-            }
-          }
-          Overrides {
-            Name: "cs:Reload"
-            ObjectReference {
-              SubObjectId: 3354506955686228242
-            }
-          }
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 9168662245092286894
-          }
-        }
-      }
-      Objects {
-        Id: 1555946323340545535
+        Id: 6091570635518507984
         Name: "Shoot"
         Transform {
           Location {
@@ -169,7 +113,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4930710872058362737
+        ParentId: 5545984700063622192
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -227,12 +171,12 @@ Assets {
           }
           Animation: "2hand_rifle_shoot"
           KeyBinding_v2 {
-            Value: "mc:egameaction:invalid"
+            Value: "mc:egameaction:primaryaction"
           }
         }
       }
       Objects {
-        Id: 3354506955686228242
+        Id: 17342228179914680811
         Name: "Reload"
         Transform {
           Location {
@@ -245,7 +189,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4930710872058362737
+        ParentId: 5545984700063622192
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -265,7 +209,7 @@ Assets {
             CanRotate: true
             IsTargetDataUpdated: true
             Facing_V2 {
-              Value: "mc:eabilitysetfacing:none"
+              Value: "mc:eabilitysetfacing:aim"
             }
           }
           ExecutePhaseSettings {
@@ -286,7 +230,7 @@ Assets {
             PreventOtherAbilities: true
             IsTargetDataUpdated: true
             Facing_V2 {
-              Value: "mc:eabilitysetfacing:aim"
+              Value: "mc:eabilitysetfacing:none"
             }
           }
           CooldownPhaseSettings {
@@ -306,7 +250,7 @@ Assets {
         }
       }
       Objects {
-        Id: 573529909289058154
+        Id: 14554342770677881249
         Name: "Client Art"
         Transform {
           Location {
@@ -319,8 +263,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4930710872058362737
-        ChildIds: 12254011358299325432
+        ParentId: 5545984700063622192
+        ChildIds: 16736873860049042069
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -334,7 +278,7 @@ Assets {
         }
       }
       Objects {
-        Id: 12254011358299325432
+        Id: 16736873860049042069
         Name: "Geo"
         Transform {
           Location {
@@ -347,21 +291,21 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 573529909289058154
-        ChildIds: 1049289322984313038
-        ChildIds: 17531673096064600482
-        ChildIds: 13189758545732028708
-        ChildIds: 8417146656051260366
-        ChildIds: 3953899915324162718
-        ChildIds: 3200372109013028856
-        ChildIds: 16918065619274425350
-        ChildIds: 6256927247350312720
-        ChildIds: 4786427783663925157
-        ChildIds: 3173675624311712758
-        ChildIds: 4140895665956945945
-        ChildIds: 7057346296412178941
-        ChildIds: 6328254439854378666
-        ChildIds: 13835539263051929224
+        ParentId: 14554342770677881249
+        ChildIds: 6391985750929905195
+        ChildIds: 386011570158853906
+        ChildIds: 10314890168954540014
+        ChildIds: 6650241278264957551
+        ChildIds: 9148359569688519204
+        ChildIds: 15782437113296890346
+        ChildIds: 8504565566456572736
+        ChildIds: 15559417034723150746
+        ChildIds: 1208037343488797634
+        ChildIds: 14443026923989956536
+        ChildIds: 9016971475337091938
+        ChildIds: 464864758065346906
+        ChildIds: 3190742588465447918
+        ChildIds: 5642998436046435026
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -375,7 +319,7 @@ Assets {
         }
       }
       Objects {
-        Id: 1049289322984313038
+        Id: 6391985750929905195
         Name: "Modern Weapon - Sight Rear 01"
         Transform {
           Location {
@@ -391,7 +335,7 @@ Assets {
             Z: 1.20455921
           }
         }
-        ParentId: 12254011358299325432
+        ParentId: 16736873860049042069
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -416,7 +360,7 @@ Assets {
         }
       }
       Objects {
-        Id: 17531673096064600482
+        Id: 386011570158853906
         Name: "Modern Weapon Accessory - Rail 02"
         Transform {
           Location {
@@ -434,7 +378,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12254011358299325432
+        ParentId: 16736873860049042069
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -459,7 +403,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13189758545732028708
+        Id: 10314890168954540014
         Name: "Modern Weapon - Sight Forward 02"
         Transform {
           Location {
@@ -475,7 +419,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12254011358299325432
+        ParentId: 16736873860049042069
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -500,7 +444,7 @@ Assets {
         }
       }
       Objects {
-        Id: 8417146656051260366
+        Id: 6650241278264957551
         Name: "Modern Weapon - Body 01"
         Transform {
           Location {
@@ -516,7 +460,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12254011358299325432
+        ParentId: 16736873860049042069
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
@@ -559,7 +503,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3953899915324162718
+        Id: 9148359569688519204
         Name: "Modern Weapon - Barrel Tip 01"
         Transform {
           Location {
@@ -575,7 +519,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12254011358299325432
+        ParentId: 16736873860049042069
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -600,7 +544,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3200372109013028856
+        Id: 15782437113296890346
         Name: "Modern Weapon - Gas Cylinder 01"
         Transform {
           Location {
@@ -616,7 +560,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12254011358299325432
+        ParentId: 16736873860049042069
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
@@ -650,7 +594,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16918065619274425350
+        Id: 8504565566456572736
         Name: "Modern Weapon Accessory - Rail 02"
         Transform {
           Location {
@@ -666,7 +610,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12254011358299325432
+        ParentId: 16736873860049042069
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -691,7 +635,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6256927247350312720
+        Id: 15559417034723150746
         Name: "Modern Weapon Accessory - Rail 01"
         Transform {
           Location {
@@ -707,7 +651,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12254011358299325432
+        ParentId: 16736873860049042069
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -732,7 +676,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4786427783663925157
+        Id: 1208037343488797634
         Name: "Modern Weapon - Stock 01"
         Transform {
           Location {
@@ -748,7 +692,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12254011358299325432
+        ParentId: 16736873860049042069
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
@@ -782,7 +726,7 @@ Assets {
         }
       }
       Objects {
-        Id: 3173675624311712758
+        Id: 14443026923989956536
         Name: "Modern Weapon - Magazine 01"
         Transform {
           Location {
@@ -799,7 +743,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12254011358299325432
+        ParentId: 16736873860049042069
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -824,7 +768,7 @@ Assets {
         }
       }
       Objects {
-        Id: 4140895665956945945
+        Id: 9016971475337091938
         Name: "Modern Weapon - Grip 01"
         Transform {
           Location {
@@ -841,7 +785,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12254011358299325432
+        ParentId: 16736873860049042069
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -866,7 +810,7 @@ Assets {
         }
       }
       Objects {
-        Id: 7057346296412178941
+        Id: 464864758065346906
         Name: "Modern Weapon Accessory - Rail 01"
         Transform {
           Location {
@@ -883,7 +827,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12254011358299325432
+        ParentId: 16736873860049042069
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -908,7 +852,7 @@ Assets {
         }
       }
       Objects {
-        Id: 6328254439854378666
+        Id: 3190742588465447918
         Name: "Modern Weapon Accessory - Rail 01"
         Transform {
           Location {
@@ -925,7 +869,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 12254011358299325432
+        ParentId: 16736873860049042069
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -950,7 +894,7 @@ Assets {
         }
       }
       Objects {
-        Id: 13835539263051929224
+        Id: 5642998436046435026
         Name: "Trigger - Rear"
         Transform {
           Location {
@@ -968,7 +912,7 @@ Assets {
             Z: 0.0530300215
           }
         }
-        ParentId: 12254011358299325432
+        ParentId: 16736873860049042069
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"

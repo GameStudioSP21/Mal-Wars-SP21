@@ -1,5 +1,5 @@
 Assets {
-  Id: 15851658441505332226
+  Id: 9168662245092286894
   Name: "AutoWeaponHandler"
   PlatformAssetType: 3
   TextAsset {
