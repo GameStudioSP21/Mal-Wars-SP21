@@ -21,8 +21,9 @@ Objects {
   ChildIds: 10005074784157121906
   ChildIds: 18203406745861697933
   ChildIds: 5330971716796563095
-  ChildIds: 13100177629527093544
+  ChildIds: 2252134080425629615
   ChildIds: 11268237991351670220
+  ChildIds: 8805648284616761691
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -32,6 +33,46 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 8805648284616761691
+  Name: "Sphere - Half Thick"
+  Transform {
+    Location {
+      X: -11200
+      Z: 50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 3
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3065586110610200855
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
   }
 }
 Objects {
@@ -63,7 +104,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -11000
+            X: -11800
+            Y: -1350
             Z: 50
           }
         }
@@ -80,19 +122,18 @@ Objects {
   }
 }
 Objects {
-  Id: 13100177629527093544
-  Name: "Thunderdome"
+  Id: 2252134080425629615
+  Name: "Whitebox"
   Transform {
     Location {
       X: -5000
-      Z: 150
     }
     Rotation {
     }
     Scale {
-      X: 200
-      Y: 200
-      Z: 200
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 4781671109827199097
@@ -102,21 +143,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  CoreMesh {
-    MeshAsset {
-      Id: 17457322814544506094
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Whitebox"
   }
 }
 Objects {
@@ -179,6 +208,7 @@ Objects {
   Name: "NAVMESH_FOLDER"
   Transform {
     Location {
+      Z: 5
     }
     Rotation {
     }
@@ -193,6 +223,9 @@ Objects {
   ChildIds: 6740257945004118273
   ChildIds: 8541376594926955194
   ChildIds: 836011111707894246
+  ChildIds: 15072496202346106733
+  ChildIds: 3241828240499819570
+  ChildIds: 3771037419661567244
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -207,6 +240,169 @@ Objects {
     SubobjectId: 4402008544469842897
     InstanceId: 16965453638612485310
     TemplateId: 1193561864787757786
+  }
+}
+Objects {
+  Id: 3771037419661567244
+  Name: "NavPlane"
+  Transform {
+    Location {
+      X: 12000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 50
+      Y: 20
+      Z: 1
+    }
+  }
+  ParentId: 12955756393719832035
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1333878323357232483
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 0.214000016
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13621259958132264851
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3241828240499819570
+  Name: "NavPlane"
+  Transform {
+    Location {
+      X: 8250
+      Y: 2400
+    }
+    Rotation {
+      Yaw: -45
+    }
+    Scale {
+      X: 50
+      Y: 5
+      Z: 1
+    }
+  }
+  ParentId: 12955756393719832035
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1333878323357232483
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 0.214000016
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13621259958132264851
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15072496202346106733
+  Name: "NavPlane"
+  Transform {
+    Location {
+      X: 8250
+      Y: -2400
+    }
+    Rotation {
+      Yaw: 45
+    }
+    Scale {
+      X: 50
+      Y: 5
+      Z: 1
+    }
+  }
+  ParentId: 12955756393719832035
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1333878323357232483
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 0.214000016
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13621259958132264851
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
   }
 }
 Objects {
@@ -267,7 +463,7 @@ Objects {
   Name: "NavPlane"
   Transform {
     Location {
-      X: 3100
+      X: 3000
       Y: 2400
     }
     Rotation {
@@ -322,7 +518,7 @@ Objects {
   Name: "NavPlane"
   Transform {
     Location {
-      X: 3100
+      X: 3000
       Y: -2400
     }
     Rotation {
@@ -477,6 +673,7 @@ Objects {
   Name: "Collaborators"
   Transform {
     Location {
+      Y: -20000
     }
     Rotation {
     }
@@ -1923,8 +2120,9 @@ Objects {
   Name: "Third Person Camera"
   Transform {
     Location {
-      X: -12000
-      Z: 500
+      X: -11000
+      Y: 1000
+      Z: 500.000244
     }
     Rotation {
       Yaw: -45
@@ -2047,9 +2245,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -10343.5459
-      Y: 120.176086
-      Z: 154.716064
+      X: -10650
+      Y: 650.000061
+      Z: 154.716187
     }
     Rotation {
     }
