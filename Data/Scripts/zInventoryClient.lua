@@ -1,7 +1,17 @@
 local root = script.parent:FindDescendantByName("UI Panel")
 local titleButton = root:FindDescendantByName("UI Button Title")
 local closeButton = root:FindDescendantByName("UI Button Close")
+local Frames = root:FindDescendantsByName("UI Image Frame")
+local Select = root:FindDescendantsByName("UI Button Select")
 local HIDE_POSITION = 120
+
+function HighLight(focus)
+	for i=1,9,1 do
+	  Frames[i]:SetColor(Color.New(1,0,1,0.5))
+	end
+	Frames[10-focus]:SetColor(Color.YELLOW)
+	--focus = focus % 9 + 1
+end
 
 function ToggleMenu()
 	root.y = HIDE_POSITION - root.y
@@ -45,11 +55,49 @@ closeButton.clickedEvent:Connect(OnClicked)
 closeButton.hoveredEvent:Connect(OnHovered)
 closeButton.unhoveredEvent:Connect(OnUnhovered)
 
+function OnButtonClicked(whichButton)
+	--print("button unhovered: " .. whichButton.name)
+	local Text = whichButton:FindDescendantByName("UI Text Box")
+	local focus = tonumber(Text.text)
+	HighLight(focus)
+end
+
+for i=1,9,1 do
+	Select[i].clickedEvent:Connect(OnButtonClicked)
+end
+
 -- Event: Binding Pressed/Released
 function OnBindingPressed(whichPlayer, binding)
 	--print("player " .. whichPlayer.name .. " pressed binding: " .. binding)
 	if (binding == "ability_extra_27") then -- I Key
 		ToggleMenu()
+	end
+	if (binding == "ability_extra_1") then
+		HighLight(1)
+	end
+	if (binding == "ability_extra_2") then
+		HighLight(2)
+	end
+	if (binding == "ability_extra_3") then
+		HighLight(3)
+	end
+	if (binding == "ability_extra_4") then
+		HighLight(4)
+	end
+	if (binding == "ability_extra_5") then
+		HighLight(5)
+	end
+	if (binding == "ability_extra_6") then
+		HighLight(6)
+	end
+	if (binding == "ability_extra_7") then
+		HighLight(7)
+	end
+	if (binding == "ability_extra_8") then
+		HighLight(8)
+	end
+	if (binding == "ability_extra_9") then
+		HighLight(9)
 	end
 end
 

@@ -309,7 +309,7 @@ Assets {
       }
       Objects {
         Id: 2636818564534990928
-        Name: "UI Image Frame"
+        Name: "UI Image Body"
         Transform {
           Location {
           }
@@ -433,7 +433,7 @@ Assets {
       }
       Objects {
         Id: 11697935721793986343
-        Name: "UI Button"
+        Name: "UI Button Item"
         Transform {
           Location {
           }
@@ -544,6 +544,7 @@ Assets {
           }
           Image {
             Brush {
+              Id: 4203462546008936100
             }
             Color {
               R: 1
@@ -570,7 +571,7 @@ Assets {
       }
       Objects {
         Id: 17642905903728568503
-        Name: "UI Image"
+        Name: "UI Image Frame"
         Transform {
           Location {
           }
@@ -805,7 +806,7 @@ Assets {
       }
       Objects {
         Id: 11918320337298848450
-        Name: "UI Button"
+        Name: "UI Button Item"
         Transform {
           Location {
           }
@@ -916,6 +917,7 @@ Assets {
           }
           Image {
             Brush {
+              Id: 2745835975160158326
             }
             Color {
               R: 1
@@ -942,7 +944,7 @@ Assets {
       }
       Objects {
         Id: 2681217293506050153
-        Name: "UI Image"
+        Name: "UI Image Frame"
         Transform {
           Location {
           }
@@ -1177,7 +1179,7 @@ Assets {
       }
       Objects {
         Id: 12740029251529383054
-        Name: "UI Button"
+        Name: "UI Button Item"
         Transform {
           Location {
           }
@@ -1288,6 +1290,7 @@ Assets {
           }
           Image {
             Brush {
+              Id: 6338446658750752227
             }
             Color {
               R: 1
@@ -1314,7 +1317,7 @@ Assets {
       }
       Objects {
         Id: 3178223232613595267
-        Name: "UI Image"
+        Name: "UI Image Frame"
         Transform {
           Location {
           }
@@ -1549,7 +1552,7 @@ Assets {
       }
       Objects {
         Id: 4949357091925550043
-        Name: "UI Button"
+        Name: "UI Button Item"
         Transform {
           Location {
           }
@@ -1660,6 +1663,7 @@ Assets {
           }
           Image {
             Brush {
+              Id: 12652324031942627289
             }
             Color {
               R: 1
@@ -1686,7 +1690,7 @@ Assets {
       }
       Objects {
         Id: 12198499120945814110
-        Name: "UI Image"
+        Name: "UI Image Frame"
         Transform {
           Location {
           }
@@ -1921,7 +1925,7 @@ Assets {
       }
       Objects {
         Id: 1761875443850374901
-        Name: "UI Button"
+        Name: "UI Button Item"
         Transform {
           Location {
           }
@@ -2032,6 +2036,7 @@ Assets {
           }
           Image {
             Brush {
+              Id: 16211914816201030506
             }
             Color {
               R: 1
@@ -2058,7 +2063,7 @@ Assets {
       }
       Objects {
         Id: 7481759651942668906
-        Name: "UI Image"
+        Name: "UI Image Frame"
         Transform {
           Location {
           }
@@ -2293,7 +2298,7 @@ Assets {
       }
       Objects {
         Id: 12235576047399813750
-        Name: "UI Button"
+        Name: "UI Button Item"
         Transform {
           Location {
           }
@@ -2404,6 +2409,7 @@ Assets {
           }
           Image {
             Brush {
+              Id: 10134368013401899899
             }
             Color {
               R: 1
@@ -2430,7 +2436,7 @@ Assets {
       }
       Objects {
         Id: 6396730406535217873
-        Name: "UI Image"
+        Name: "UI Image Frame"
         Transform {
           Location {
           }
@@ -2665,7 +2671,7 @@ Assets {
       }
       Objects {
         Id: 6683000398041550843
-        Name: "UI Button"
+        Name: "UI Button Item"
         Transform {
           Location {
           }
@@ -2776,6 +2782,7 @@ Assets {
           }
           Image {
             Brush {
+              Id: 17368746322364017414
             }
             Color {
               R: 1
@@ -2802,7 +2809,7 @@ Assets {
       }
       Objects {
         Id: 13296379752454142115
-        Name: "UI Image"
+        Name: "UI Image Frame"
         Transform {
           Location {
           }
@@ -3037,7 +3044,7 @@ Assets {
       }
       Objects {
         Id: 13016610752781033759
-        Name: "UI Button"
+        Name: "UI Button Item"
         Transform {
           Location {
           }
@@ -3148,6 +3155,7 @@ Assets {
           }
           Image {
             Brush {
+              Id: 12440988781620036990
             }
             Color {
               R: 1
@@ -3174,7 +3182,7 @@ Assets {
       }
       Objects {
         Id: 12964013405319346652
-        Name: "UI Image"
+        Name: "UI Image Frame"
         Transform {
           Location {
           }
@@ -3409,7 +3417,7 @@ Assets {
       }
       Objects {
         Id: 17638211097423965135
-        Name: "UI Button"
+        Name: "UI Button Item"
         Transform {
           Location {
           }
@@ -3520,6 +3528,7 @@ Assets {
           }
           Image {
             Brush {
+              Id: 15733191193241386758
             }
             Color {
               R: 1
@@ -3546,7 +3555,7 @@ Assets {
       }
       Objects {
         Id: 8246464344967972476
-        Name: "UI Image"
+        Name: "UI Image Frame"
         Transform {
           Location {
           }
@@ -3858,7 +3867,7 @@ Assets {
       }
       Objects {
         Id: 4103354215984059189
-        Name: "UI Image Frame"
+        Name: "UI Image Title Bar"
         Transform {
           Location {
           }
@@ -4065,6 +4074,87 @@ Assets {
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "FrameSolid8px__019"
+      }
+    }
+    Assets {
+      Id: 4203462546008936100
+      Name: "Tower"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_Fantasy_Icon_Tower"
+      }
+    }
+    Assets {
+      Id: 2745835975160158326
+      Name: "Bank"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_Urban_Icon_013"
+      }
+    }
+    Assets {
+      Id: 6338446658750752227
+      Name: "House"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_Urban_Icon_011"
+      }
+    }
+    Assets {
+      Id: 12652324031942627289
+      Name: "Cannon"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "Icon_Cannon"
+      }
+    }
+    Assets {
+      Id: 16211914816201030506
+      Name: "Icon Tank"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "Icon_Tank"
+      }
+    }
+    Assets {
+      Id: 10134368013401899899
+      Name: "Tank"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_Military_Icon_001"
+      }
+    }
+    Assets {
+      Id: 17368746322364017414
+      Name: "Ray Gun"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_Scifi_Icon_010"
+      }
+    }
+    Assets {
+      Id: 12440988781620036990
+      Name: "Campfire"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_Fantasy_Icon_Campfire"
+      }
+    }
+    Assets {
+      Id: 15733191193241386758
+      Name: "Blaster"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_Scifi_Icon_011"
       }
     }
     Assets {
