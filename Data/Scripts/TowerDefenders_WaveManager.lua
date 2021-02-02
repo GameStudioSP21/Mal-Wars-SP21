@@ -1,4 +1,4 @@
-﻿--- Pending Description
+--- Pending Description
 -- Finite-state machine
 
 local WaveManager = {}
@@ -86,12 +86,14 @@ function WaveManager:GetNearestEnemy(position)
         if not closest then
             closest = enemy
         end
-        if (enemy:GetWorldPosition() - position).sizeSquared < (closest - position).sizeSquared then
+        if closest and (enemy:GetWorldPosition() - position).sizeSquared < (closest - position).sizeSquared then
             closest = enemy
         end
     end
     return closest
 end
+
+
 
 function WaveManager:ReturnRemainingEnemies()
     -- TODO: Return the remaining enemies.
@@ -213,9 +215,9 @@ end
 function WaveManager:_StepStates()
 
     if self:GetCurrentPhase() == MANAGER_PHASE.WAITING_READY then
-        for i=1,10 do
+        for i=1,100 do
             Task.Wait(1)
-            print(i)
+            --print(i)
         end
         print("Commencing Attack")
         self:SetCurrentPhase("ATTACKING")

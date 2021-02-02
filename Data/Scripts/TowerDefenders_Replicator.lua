@@ -129,6 +129,7 @@ local function InitalizeClientEvents()
 
         for _, tower in pairs(board:GetAllTowers()) do
             if tower:GetWorldPosition() == pos then
+                print("[Client] Found tower attemping to replicate.")
                 board:UpgradeTower(tower,true) -- Networked function
                 break
             end

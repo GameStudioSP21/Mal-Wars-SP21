@@ -1,8 +1,8 @@
-Name: "Segments"
-RootId: 3621059287569122073
+Name: "TowerRarities"
+RootId: 2133296218860506790
 Objects {
-  Id: 3990680334209929819
-  Name: "Tower5"
+  Id: 14894154496561080239
+  Name: "Ultra-Legendary"
   Transform {
     Location {
     }
@@ -14,17 +14,17 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3621059287569122073
+  ParentId: 2133296218860506790
   UnregisteredParameters {
-    Overrides {
-      Name: "cs:Name"
-      String: "None"
-    }
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 4203462546008936100
+        Id: 15741126533690096100
       }
+    }
+    Overrides {
+      Name: "cs:StatType"
+      String: "Interger"
     }
   }
   Collidable_v2 {
@@ -34,12 +34,13 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Folder {
-    IsGroup: true
+    IsFilePartition: true
+    FilePartitionName: "Ultra-Legendary"
   }
 }
 Objects {
-  Id: 7960734318874551523
-  Name: "Tower3"
+  Id: 271049069919828433
+  Name: "Legendary"
   Transform {
     Location {
     }
@@ -51,17 +52,17 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3621059287569122073
+  ParentId: 2133296218860506790
   UnregisteredParameters {
-    Overrides {
-      Name: "cs:Name"
-      String: "None"
-    }
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 4203462546008936100
+        Id: 15741126533690096100
       }
+    }
+    Overrides {
+      Name: "cs:StatType"
+      String: "Interger"
     }
   }
   Collidable_v2 {
@@ -71,12 +72,13 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Folder {
-    IsGroup: true
+    IsFilePartition: true
+    FilePartitionName: "Legendary"
   }
 }
 Objects {
-  Id: 4341151287137824858
-  Name: "Tower3"
+  Id: 943468250227756672
+  Name: "Epic"
   Transform {
     Location {
     }
@@ -88,17 +90,17 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3621059287569122073
+  ParentId: 2133296218860506790
   UnregisteredParameters {
-    Overrides {
-      Name: "cs:Name"
-      String: "AOE"
-    }
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 4203462546008936100
+        Id: 15741126533690096100
       }
+    }
+    Overrides {
+      Name: "cs:StatType"
+      String: "Interger"
     }
   }
   Collidable_v2 {
@@ -108,12 +110,13 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Folder {
-    IsGroup: true
+    IsFilePartition: true
+    FilePartitionName: "Epic"
   }
 }
 Objects {
-  Id: 13848309865661840450
-  Name: "Tower2"
+  Id: 5495336453813123682
+  Name: "Rare"
   Transform {
     Location {
     }
@@ -125,17 +128,17 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3621059287569122073
+  ParentId: 2133296218860506790
   UnregisteredParameters {
-    Overrides {
-      Name: "cs:Name"
-      String: "Sniper"
-    }
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 4203462546008936100
+        Id: 15741126533690096100
       }
+    }
+    Overrides {
+      Name: "cs:StatType"
+      String: "Interger"
     }
   }
   Collidable_v2 {
@@ -145,12 +148,13 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Folder {
-    IsGroup: true
+    IsFilePartition: true
+    FilePartitionName: "Rare"
   }
 }
 Objects {
-  Id: 3270651351852883229
-  Name: "Tower1"
+  Id: 3544659078071391947
+  Name: "Uncommon"
   Transform {
     Location {
     }
@@ -162,16 +166,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3621059287569122073
+  ParentId: 2133296218860506790
   UnregisteredParameters {
     Overrides {
-      Name: "cs:Name"
-      String: "Auto"
-    }
-    Overrides {
-      Name: "cs:Icon"
-      AssetReference {
-        Id: 4203462546008936100
+      Name: "cs:Color"
+      Color {
+        A: 1
       }
     }
   }
@@ -182,6 +182,44 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Folder {
-    IsGroup: true
+    IsFilePartition: true
+    FilePartitionName: "Uncommon"
+  }
+}
+Objects {
+  Id: 11675285458151977738
+  Name: "Common"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2133296218860506790
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Common"
   }
 }
