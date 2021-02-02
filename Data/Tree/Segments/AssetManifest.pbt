@@ -1,9 +1,9 @@
 Assets {
-  Id: 15741126533690096100
-  Name: "Icon Target"
+  Id: 4203462546008936100
+  Name: "Tower"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_Target"
+    AssetId: "UI_Fantasy_Icon_Tower"
   }
 }

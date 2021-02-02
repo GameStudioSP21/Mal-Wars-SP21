@@ -4,19 +4,12 @@ local RadialView = require(script:GetCustomProperty("TowerDefenders_RadialView")
 
 local MENU_UI = script:GetCustomProperty("Menu"):WaitForObject()
 local SEGMENT_ASSET = script:GetCustomProperty("SegmentAsset")
-
+local SEGMENTS_DATA = script:GetCustomProperty("Segments")
 
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 
-local view = RadialView.New(MENU_UI,SEGMENT_ASSET,nil,45)
+local view = RadialView.New(MENU_UI,SEGMENT_ASSET,SEGMENTS_DATA,45)
 LOCAL_PLAYER.clientUserData.towerMenuView = view
-
--- Construct the segments.
-
-view:CreateSegment("Test1","nil","Buy")
-view:CreateSegment("Test2","nil","lol")
-view:CreateSegment("Test3","nil","lol2")
-view:CreateSegment("Test3","nil","lol3")
 
 view.OnSectionClicked:Connect(function(sectionID)
     if sectionID == 1 then
