@@ -1,21 +1,32 @@
 local root = script.parent:FindDescendantByName("UI Panel")
 local titleButton = root:FindDescendantByName("UI Button Title")
 local closeButton = root:FindDescendantByName("UI Button Close")
+local HIDE_POSITION = 120
 
 function ToggleMenu()
-	root.y = 120 - root.y
+	root.y = HIDE_POSITION - root.y
+	root.isEnabled  = true
 	if root.y == 0 then
 	  UI.SetCursorVisible(true)
 	  UI.CanCursorInteractWithUI(true)
   end
 end
 
+function CloseMenu()
+	root.isEnabled  = false
+	root.y = HIDE_POSITION
+end
+
 -- Event: Button Clicked/Hoverd/Unhovered
 -- example of button click and hover events.
 -- Should be in client context, as buttons would generally be per-player
 function OnClicked(whichButton)
-	--print("button clicked: " .. whichButton.name) 
+	--print("button clicked: " .. whichButton.name)
+	if (whichButton.name == "UI Button Title") then
 	  ToggleMenu()
+	elseif (whichButton.name == "UI Button Close") then
+	  CloseMenu()
+	end
 end
 
 function OnHovered(whichButton)
@@ -53,7 +64,7 @@ function OnPlayerJoined(player)
   -- print("player joined: " .. player.name)
 	player.bindingPressedEvent:Connect(OnBindingPressed)
 	player.bindingReleasedEvent:Connect(OnBindingReleased)
-	root.y = 120
+	root.y = HIDE_POSITION
 	UI.SetCursorVisible(true)
 	UI.CanCursorInteractWithUI(true)	
 end
