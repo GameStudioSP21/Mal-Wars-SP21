@@ -4001,12 +4001,6 @@ Objects {
   ParentId: 11447076056570800100
   UnregisteredParameters {
     Overrides {
-      Name: "cs:UpgradeGhost"
-      AssetReference {
-        Id: 1823336661956311542
-      }
-    }
-    Overrides {
       Name: "cs:TowerDatabase"
       AssetReference {
         Id: 7419352943805787130
@@ -4016,6 +4010,16 @@ Objects {
       Name: "cs:Ease3D"
       AssetReference {
         Id: 11698430162959436393
+      }
+    }
+    Overrides {
+      Name: "cs:UpgradeByMouse"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:UpgradeGhost"
+      AssetReference {
+        Id: 4200642716983393858
       }
     }
   }
@@ -4046,6 +4050,12 @@ Objects {
     }
   }
   ParentId: 11447076056570800100
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:PlaceByMouse"
+      Bool: true
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

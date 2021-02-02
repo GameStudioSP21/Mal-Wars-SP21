@@ -4,6 +4,7 @@ local Ease3D = require(script:GetCustomProperty("Ease3D"))
 local UPGRADE_GHOST = script:GetCustomProperty("UpgradeGhost")
 local CONFIRM_UPGRADE_KEY = "ability_primary"
 local CANCEL_UPGRADE_KEY = "ability_secondary"
+local UPGRADE_BY_MOUSE = script:GetCustomProperty("UpgradeByMouse")
 local ISDEBUG = false
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 
@@ -36,7 +37,8 @@ local function GetGroundPositionFromCamera()
         local startPos = cameraPos + lookDirection * minInteractDistance
         local endPos = cameraPos + lookDirection * 10000
         
-        local hitResult = World.Raycast(startPos, endPos, {ignorePlayers = true})
+        
+        local hitResult = UPGRADE_BY_MOUSE and UI.GetCursorHitResult() or World.Raycast(startPos, endPos, {ignorePlayers = true}) 
         local distanceSquaredFromStartToEnd = math.huge
         if hitResult then
             distanceSquaredFromStartToEnd = (startPos - hitResult:GetImpactPosition()).sizeSquared

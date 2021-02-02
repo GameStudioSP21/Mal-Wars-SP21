@@ -1,22 +1,48 @@
 Assets {
-  Id: 1823336661956311542
+  Id: 4200642716983393858
   Name: "TowerDefenders_UpgradeGhost"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 2691758327902527403
+      RootId: 9314559347074726532
       Objects {
-        Id: 2691758327902527403
+        Id: 9314559347074726532
         Name: "TowerDefenders_UpgradeGhost"
         Transform {
           Scale {
-            X: 5.71347141
-            Y: 5.71347141
-            Z: 5.71347141
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 15762721024044087413
+        ChildIds: 16370306684218941500
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsFilePartition: true
+        }
+      }
+      Objects {
+        Id: 16370306684218941500
+        Name: "TowerDefenders_UpgradeGhost"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 5.01997757
+            Y: 5.01997757
+            Z: 5.01997757
+          }
+        }
+        ParentId: 9314559347074726532
+        ChildIds: 11697802083731352628
         UnregisteredParameters {
           Overrides {
             Name: "bp:Color"
@@ -85,7 +111,7 @@ Assets {
         }
       }
       Objects {
-        Id: 15762721024044087413
+        Id: 11697802083731352628
         Name: "Magic Swirl Element Volume"
         Transform {
           Location {
@@ -98,7 +124,7 @@ Assets {
             Z: 0.567975461
           }
         }
-        ParentId: 2691758327902527403
+        ParentId: 16370306684218941500
         UnregisteredParameters {
           Overrides {
             Name: "bp:Volume Type"

@@ -8,6 +8,7 @@ local PLACEMENT_KEY = "ability_primary"
 local CANCEL_PLACEMENT_KEY = "ability_secondary"
 local ISDEBUG = false
 local LOCAL_PLAYER = Game.GetLocalPlayer()
+local PLACE_BY_MOUSE = script:GetCustomProperty("PlaceByMouse")
 
 local BLOCKED_RANGE = 100
 
@@ -91,7 +92,7 @@ local function CanPlace(position)
     local startPos = cameraPos + lookDirection
     local endPos = cameraPos + lookDirection * 10000
 
-    local hitResult = World.Raycast(startPos, endPos, {ignorePlayers = true})
+    local hitResult = PLACE_BY_MOUSE and UI.GetCursorHitResult() or World.Raycast(startPos, endPos, {ignorePlayers = true}) 
 
     if hitResult then
 
@@ -119,7 +120,7 @@ local function GhostPlacement()
         local startPos = cameraPos + lookDirection * minInteractDistance
         local endPos = cameraPos + lookDirection * 10000
         
-        local hitResult = World.Raycast(startPos, endPos, {ignorePlayers = true})
+        local hitResult = PLACE_BY_MOUSE and UI.GetCursorHitResult() or World.Raycast(startPos, endPos, {ignorePlayers = true}) 
         local distanceSquaredFromStartToEnd = math.huge
         if hitResult then
             distanceSquaredFromStartToEnd = (startPos - hitResult:GetImpactPosition()).sizeSquared
