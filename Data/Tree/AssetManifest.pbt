@@ -53,15 +53,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3065586110610200855
-  Name: "Sphere - Half Thick"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_hemisphere_003"
-  }
-}
-Assets {
   Id: 2224571462023946700
   Name: "Environment Fog Default VFX"
   PlatformAssetType: 6
