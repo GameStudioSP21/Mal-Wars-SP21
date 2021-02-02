@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12425403767202980075
+  Name: "Chip"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Scifi_Icon_035"
+  }
+}
+Assets {
   Id: 4203462546008936100
   Name: "Tower"
   PlatformAssetType: 9

@@ -31,6 +31,12 @@ view.OnSectionClicked:Connect(function(sectionID)
         UI.SetCursorVisible(false)
         UI.SetCanCursorInteractWithUI(false)
         Events.Broadcast("BeginTowerPlacement","AOE")
+    elseif sectionID == 4 then
+        view:Close()
+        -- TODO: Perform client check on cost to see if they can place it.
+        UI.SetCursorVisible(false)
+        UI.SetCanCursorInteractWithUI(false)
+        Events.Broadcast("BeginTowerPlacement","Mortar")
     end
 end)
 

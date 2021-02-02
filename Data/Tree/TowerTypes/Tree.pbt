@@ -1,7 +1,7 @@
-Name: "RegisteredTowers"
-RootId: 11526533163983201621
+Name: "TowerTypes"
+RootId: 15720114564533439334
 Objects {
-  Id: 16246016697899800199
+  Id: 5700756625187138424
   Name: "Utility"
   Transform {
     Location {
@@ -14,7 +14,17 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11526533163983201621
+  ParentId: 15720114564533439334
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Color"
+      Color {
+        R: 0.0713905394
+        G: 0.98
+        A: 0.478000015
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -23,12 +33,12 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Utility_1"
+    FilePartitionName: "Utility"
   }
 }
 Objects {
-  Id: 5239288681619449188
-  Name: "Support"
+  Id: 11435435214344133321
+  Name: "Range"
   Transform {
     Location {
     }
@@ -40,7 +50,17 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11526533163983201621
+  ParentId: 15720114564533439334
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Color"
+      Color {
+        R: 0.919999957
+        G: 0.859072924
+        A: 0.556000054
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -49,11 +69,11 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Support"
+    FilePartitionName: "Range_1"
   }
 }
 Objects {
-  Id: 7130910895738376355
+  Id: 15473447320514786512
   Name: "Damage"
   Transform {
     Location {
@@ -66,7 +86,16 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11526533163983201621
+  ParentId: 15720114564533439334
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Color"
+      Color {
+        R: 0.53
+        A: 0.483
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -75,6 +104,6 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Damage_2"
+    FilePartitionName: "Damage_1"
   }
 }

@@ -91,12 +91,14 @@ function Tick()
 
         -- Ease the upgrader ghost to the nearest tower.
         if nearestTower ~= selectedTower and nearestTower ~= nil then
-            selectedTower = nearestTower
-            Events.Broadcast("DisplayTowerStats",selectedTower)
-            Ease3D.EasePosition(upgradeGhost, selectedTower:GetWorldPosition(), 0.3, Ease3D.EasingEquation.SINE, Ease3D.EasingDirection.OUT)
+            if nearestTower:GetOwner() == LOCAL_PLAYER then
+                selectedTower = nearestTower
+                Events.Broadcast("DisplayTowerStats",selectedTower)
+                Ease3D.EasePosition(upgradeGhost, selectedTower:GetWorldPosition(), 0.3, Ease3D.EasingEquation.SINE, Ease3D.EasingDirection.OUT)
+            end
         end
 
-        if nearestTower == nil then
+        if nearestTower == nil or nearestTower:GetOwner() ~= LOCAL_PLAYER then
             upgradeGhost:SetWorldPosition(impactPosition)
             Events.Broadcast("StopDisplayingTowerStats")
             selectedTower = nil

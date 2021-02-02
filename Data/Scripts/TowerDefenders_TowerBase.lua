@@ -5,6 +5,7 @@ local SPAWN_VFX = script:GetCustomProperty("SpawnVFX")
 local PRE_SPAWN_ASSET = script:GetCustomProperty("PreSpawnAsset")
 local PRE_END_SPAWN_ASSET = script:GetCustomProperty("PreEndSpawnAsset")
 local Ease3D = require(script:GetCustomProperty("Ease3D"))
+local Base64 = require(script:GetCustomProperty("Base64"))
 
 ----------------------------------------------------
 -- Public
@@ -119,6 +120,10 @@ end
 
 function Tower:GetCustomClass()
     return self.data.towerClass
+end
+
+function Tower:GetType()
+    return self.data.type
 end
 
 function Tower:GetName()
@@ -246,9 +251,46 @@ end
 -- Private
 ----------------------------------------------------
 
+-- local HASH_RUNTIME = "R"
+-- local HASH_PERSISTENT = "P"
+-- local HASH_DELIM_INTRO = "|"
+-- local HASH_DELIM_STAT_BASE = "#"
+-- local HASH_DELIM_STAT_BONUS = "&"
+-- local HASH_DELIM_STAT_EQUALS = "="
+-- local HASH_PATTERN_FULL = "^(.*)|(.*)|(.*)|(.*)|(.*)|(.*)$"
+-- local HASH_PATTERN_STAT = "([#&])([^#&=]+)=(....)"
+-- local HASH_INVENTORY_PATTERN = "<([^<>;]+)>([^<>;]+)<([^<>;]+)>;"
+
 function Tower:_Init(towerData)
     self.data = towerData
 end
+
+-- function Tower:_IntoHash(isRuntime)
+--     local hashParts = {}
+--     table.insert(hashParts, isRuntime and HASH_RUNTIME or HASH_PERSISTENT)
+--     table.insert(hashParts, isRuntime and Base64.Encode24(self.data.index) or self.data.towerMUID)
+--     table.insert(hashParts, HASH_DELIM_INTRO)
+--     table.insert(hashParts, Base64.Encode6(self.level))
+--     return hashParts
+-- end
+
+-- function Item._FromHash(database, hash)
+--     local hashType = hash:sub(1, 1)
+--     local hashData = hash:sub(2)
+--     local isRuntime = hashType == HASH_RUNTIME
+--     local hashItemId, hashStackSize, hashEnhancementLevel, hashLimitBreakLevel, hashItemStats, backpackSubHash = hashData:match(HASH_PATTERN_FULL)
+--     local itemData = nil
+--     if isRuntime then
+--         itemData = database:FindItemDataByIndex(Base64.Decode24(hashItemId))
+--     else
+--         itemData = database:FindItemDataByMUID(hashItemId)
+--     end
+--     if not itemData then
+--         warn("unable to locate item data for hash: ", hashData)
+--         return
+--     end
+--     return Tower.New()
+-- end
 
 function Tower:_Runtime()
     

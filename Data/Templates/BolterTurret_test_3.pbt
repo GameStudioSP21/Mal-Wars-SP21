@@ -7,7 +7,7 @@ Assets {
       RootId: 1588548272694336233
       Objects {
         Id: 1588548272694336233
-        Name: "BolterTurret_test_2"
+        Name: "BolterTurret_test_3"
         Transform {
           Scale {
             X: 1
@@ -3449,8 +3449,8 @@ Assets {
           }
         }
         ParentId: 10579700978624899038
+        ChildIds: 14493677471771017321
         ChildIds: 11951809939394855520
-        ChildIds: 16647410491159319353
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3459,6 +3459,51 @@ Assets {
         }
         Folder {
           IsGroup: true
+        }
+      }
+      Objects {
+        Id: 14493677471771017321
+        Name: "Gunshot Assault Rifle AK Set 01 SFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 2
+            Y: 2
+            Z: 2
+          }
+        }
+        ParentId: 10168246951399449107
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Type"
+            Enum {
+              Value: "mc:esfx_gunshot_assaultrifle_ak:12"
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 6491078578190431103
+          }
+          TeamSettings {
+          }
+          AudioBP {
+            Volume: 1
+            Falloff: 3600
+            Radius: 400
+            EnableOcclusion: true
+            IsSpatializationEnabled: true
+            IsAttenuationEnabled: true
+          }
         }
       }
       Objects {
@@ -3504,50 +3549,6 @@ Assets {
           TeamSettings {
           }
           Vfx {
-          }
-        }
-      }
-      Objects {
-        Id: 16647410491159319353
-        Name: "Gunshot Light Machine Gun LMG Set 01 SFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 2
-            Y: 2
-            Z: 2
-          }
-        }
-        ParentId: 10168246951399449107
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Enable Dynamic Distant Sound"
-            Bool: false
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 9361710045026170576
-          }
-          TeamSettings {
-          }
-          AudioBP {
-            Pitch: -421.243164
-            Volume: 0.620837569
-            Falloff: 3600
-            Radius: 400
-            EnableOcclusion: true
-            IsSpatializationEnabled: true
-            IsAttenuationEnabled: true
           }
         }
       }
@@ -7244,21 +7245,21 @@ Assets {
       }
     }
     Assets {
+      Id: 6491078578190431103
+      Name: "Gunshot Assault Rifle AK Set 01 SFX"
+      PlatformAssetType: 10
+      PrimaryAsset {
+        AssetType: "AudioBlueprintAssetRef"
+        AssetId: "sfxabp_gunshot_assaultrifle_ak_ref"
+      }
+    }
+    Assets {
       Id: 3125335314262154541
       Name: "Advanced Muzzleflash VFX"
       PlatformAssetType: 8
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
         AssetId: "fxbp_muzzleflash_alt"
-      }
-    }
-    Assets {
-      Id: 9361710045026170576
-      Name: "Gunshot Light Machine Gun LMG Set 01 SFX"
-      PlatformAssetType: 10
-      PrimaryAsset {
-        AssetType: "AudioBlueprintAssetRef"
-        AssetId: "sfxabp_gunshot_large_machineguns_lmg_ref"
       }
     }
     Assets {

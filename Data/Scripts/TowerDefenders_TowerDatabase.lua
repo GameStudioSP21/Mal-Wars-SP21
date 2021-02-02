@@ -48,7 +48,6 @@ end
 
 function Database:NewTowerByID(id)
     local towerData = Database:GetTowerByID(id)
-    assert(towerData,string.format("Tower ID - %s does not exist in in the database.",id))
     local newTower = nil
     if towerData.towerClass then
         newTower = require(towerData.towerClass).New(towerData)
@@ -84,7 +83,8 @@ local function HasRequiredProperties(tower)
         tower:GetCustomProperty("Speed") and
         tower:GetCustomProperty("Range") and
         tower:GetCustomProperty("Tower") and
-        tower:GetCustomProperty("TowerGhost") then
+        tower:GetCustomProperty("TowerGhost") and
+        tower:GetCustomProperty("Type") then
         return true
     else
         return false
@@ -116,10 +116,13 @@ function Database:_LoadTowersData()
         local towerSpeed = tower:GetCustomProperty("Speed")
         local towerRange = tower:GetCustomProperty("Range")
         local towerMUID = tower:GetCustomProperty("Tower")
+        local towerType = tower:GetCustomProperty("Type"):GetObject().name
         local towerGhostMUID = tower:GetCustomProperty("TowerGhost")
         local towerNextUpgradeMUID = tower:GetCustomProperty("NextTowerUpgrade") and tower:GetCustomProperty("NextTowerUpgrade"):GetObject():GetCustomProperty("Tower")
         local towerVisualProjectile = tower:GetCustomProperty("VisualProjectile")
         local towerClass = tower:GetCustomProperty("TowerClass")
+
+        -- TODO: Have asserts here for required properties.
 
         local towerData = {
             index = i,
@@ -130,6 +133,7 @@ function Database:_LoadTowersData()
             speed = towerSpeed,
             range = towerRange,
             towerMUID = towerMUID,
+            type = towerType,
             towerGhostMUID = towerGhostMUID,
             nextTowerMUID = towerNextUpgradeMUID,
             projectile = towerVisualProjectile,

@@ -44,6 +44,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10430942501047658489
+  Name: "BG Flat 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundNoOutline_019"
+  }
+}
+Assets {
   Id: 10235821765507969510
   Name: "Frame Outline Thin 001"
   PlatformAssetType: 9
@@ -68,6 +77,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "CenterArrow_004Wedge"
+  }
+}
+Assets {
+  Id: 4992980229243010827
+  Name: "Center Arrow 003 Wedge"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "CenterArrow_003Wedge"
   }
 }
 Assets {

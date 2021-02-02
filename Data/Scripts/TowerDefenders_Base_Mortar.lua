@@ -16,18 +16,32 @@ end
 -- Client
 
 function TowerMortar:HorizontalRotation()
+    local dir = (self:GetWorldPosition() - self.currentTarget:GetWorldPosition()):GetNormalized()
+    local angle = math.atan(dir.x,dir.y)
+    local hr = Rotation.New(0,0,-math.deg(angle)+270)
+    self._horizontalRotator:RotateTo(hr,0.1,false)
 end
 
 function TowerMortar:VerticalRotation()
+    local dir = (self:GetWorldPosition() - self.currentTarget:GetWorldPosition()):GetNormalized()
+    local mag = (self:GetWorldPosition() - self.currentTarget:GetWorldPosition()).size
+    local angle = math.atan(dir.x,dir.y)
+    local hr = Rotation.New(0,0,-math.deg(angle)+270)
+    
+    local angle = 0.5*math.asin((mag*9.8)/4000^2)
+    local r = hr + Rotation.New(0,-math.deg(angle),0)
+    self._verticalRotator:RotateTo(r,0.1,false)
 end
 
 function TowerMortar:FireFakeProjectile()
-    local aoeAsset = World.SpawnAsset(self:GetVisualProjectile(),{ position = self:GetWorldPosition() })
-    Ease3D.EaseScale(aoeAsset, Vector3.New(self:GetRange()), 0.5, Ease3D.EasingEquation.SINE, Ease3D.EasingDirection.OUT)
-    Task.Spawn(function()
-        Task.Wait(0.5)
-        aoeAsset:Destroy()
-    end)
+    local dir = (self:GetWorldPosition() - self.currentTarget:GetWorldPosition())
+    local muzzleTransform = self._muzzle:GetTransform()
+    local projectile = Projectile.Spawn(self:GetVisualProjectile(),self._muzzle:GetWorldPosition(), muzzleTransform:GetForwardVector())
+    local mag = dir.size
+
+    projectile.gravityScale = 9.8
+    projectile.speed = 4000
+    projectile.lifeSpan = mag/projectile.speed
 end
 
 function TowerMortar:PlayMuzzleEffects()
