@@ -19,14 +19,14 @@ Objects {
     Overrides {
       Name: "cs:Enemy"
       AssetReference {
-        Id: 9424779106571627023
+        Id: 3311465168928772563
       }
     }
     Overrides {
       Name: "cs:Amount"
       Vector2 {
-        X: 1
-        Y: 1
+        X: 10
+        Y: 10
       }
     }
     Overrides {

@@ -22,6 +22,7 @@ Objects {
   ChildIds: 18203406745861697933
   ChildIds: 5330971716796563095
   ChildIds: 2252134080425629615
+  ChildIds: 9299968974138634080
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -31,6 +32,106 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 9299968974138634080
+  Name: "SpiderEnemyTest"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5181036886943146557
+      value {
+        Overrides {
+          Name: "cs:WaitTime"
+          Float: 1
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7238577322496320661
+      value {
+        Overrides {
+          Name: "cs:WaitTime"
+          Float: 0
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9394040013698754075
+      value {
+        Overrides {
+          Name: "Name"
+          String: "SpiderEnemyTest"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6465.71484
+            Y: -16076.0615
+            Z: 55.0001221
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14054067273739020221
+      value {
+        Overrides {
+          Name: "cs:WaitTime"
+          Int: 1
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16269657647527350486
+      value {
+        Overrides {
+          Name: "cs:WaitTime"
+          Int: 0
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16331840127390323691
+      value {
+        Overrides {
+          Name: "cs:WaitTime"
+          Int: 1
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17186982476676404630
+      value {
+        Overrides {
+          Name: "cs:WaitTime"
+          Float: 0
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3311465168928772563
+    }
   }
 }
 Objects {

@@ -225,7 +225,6 @@ function Board:UpgradeTower(tower, _hasRepeated)
 
     for i, currentTower in pairs(self.towers) do
         if currentTower:GetWorldPosition() == newTower:GetWorldPosition() then
-            print("Removing current tower!")
             table.remove(self.towers,i)
         end
     end

@@ -40,5 +40,5 @@ Assets {
     Version: "1.1.0"
     Description: "Example and implementation of navigation mesh pathfinding"
   }
-  SerializationVersion: 73
+  SerializationVersion: 74
 }
