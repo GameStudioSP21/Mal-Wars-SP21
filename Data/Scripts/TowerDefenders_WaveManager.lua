@@ -93,7 +93,7 @@ function WaveManager:GetNearestEnemy(position)
         if not closest then
             closest = enemy
         end
-        if closest and (enemy:GetWorldPosition() - position).sizeSquared < (closest - position).sizeSquared and enemy:GetCustomProperty("CurrentHealth") > 0 then
+        if closest and (enemy:GetWorldPosition() - position).sizeSquared < (closest:GetWorldPosition() - position).sizeSquared and enemy:GetCustomProperty("CurrentHealth") > 0 then
             closest = enemy
         end
       end
