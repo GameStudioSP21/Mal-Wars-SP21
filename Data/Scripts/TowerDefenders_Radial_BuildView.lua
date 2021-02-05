@@ -26,7 +26,7 @@ view.OnOpened:Connect(function()
     for i=1,4 do
         local tower = towers[i]
         if tower then
-            view:CreateSegment(tower:GetName(),tower:GetIcon(),tostring(tower:GetCost()),tower:GetMUID())
+            view:CreateSegment(tower:GetName(),tower:GetIcon(),tostring(tower:GetCost()),tower:GetName())
         else
             view:CreateSegment("None","","")
         end
@@ -34,31 +34,10 @@ view.OnOpened:Connect(function()
 end)
 
 view.OnSectionClicked:Connect(function(sectionID,_,metaData)
-    if sectionID == 1 then
-        view:Close()
-        -- TODO: Perform client check on cost to see if they can place it.
-        UI.SetCursorVisible(false)
-        UI.SetCanCursorInteractWithUI(false)
-        Events.Broadcast("BeginTowerPlacement","Test")
-    elseif sectionID == 2 then
-        view:Close()
-        -- TODO: Perform client check on cost to see if they can place it.
-        UI.SetCursorVisible(false)
-        UI.SetCanCursorInteractWithUI(false)
-        Events.Broadcast("BeginTowerPlacement","Sniper")
-    elseif sectionID == 3 then
-
-        view:Close()
-        -- TODO: Perform client check on cost to see if they can place it.
-        UI.SetCursorVisible(false)
-        UI.SetCanCursorInteractWithUI(false)
-        Events.Broadcast("BeginTowerPlacement","AOE")
-    elseif sectionID == 4 then
-        view:Close()
-        -- TODO: Perform client check on cost to see if they can place it.
-        UI.SetCursorVisible(false)
-        UI.SetCanCursorInteractWithUI(false)
-        Events.Broadcast("BeginTowerPlacement","Mortar")
-    end
+    view:Close()
+    -- TODO: Perform client check on cost to see if they can place it.
+    UI.SetCursorVisible(false)
+    UI.SetCanCursorInteractWithUI(false)
+    Events.Broadcast("BeginTowerPlacement",metaData)
 end)
 

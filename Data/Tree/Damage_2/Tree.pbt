@@ -291,7 +291,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
-      String: "Cooler Test 3"
+      String: "Cool Bolter"
     }
     Overrides {
       Name: "cs:Icon"
@@ -376,7 +376,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
-      String: "Cooler Test 2"
+      String: "Super Bolter"
     }
     Overrides {
       Name: "cs:Icon"
@@ -467,7 +467,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
-      String: "Bolter"
+      String: "Hot Bolter"
     }
     Overrides {
       Name: "cs:Icon"
