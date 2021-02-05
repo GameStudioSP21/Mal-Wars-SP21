@@ -71,12 +71,14 @@ Objects {
   ChildIds: 7881851193648080209
   ChildIds: 9423823038731708098
   ChildIds: 4409660520606648377
+  ChildIds: 3100766590497628367
   ChildIds: 16202492720055379341
   ChildIds: 2736992262683392385
   ChildIds: 17259260182889837128
   ChildIds: 752897359562741927
   ChildIds: 7542508715810446415
   ChildIds: 7827960862906207700
+  ChildIds: 13505973121807035945
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -84,6 +86,272 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   NetworkContext {
+  }
+}
+Objects {
+  Id: 13505973121807035945
+  Name: "WaveDisplayer"
+  Transform {
+    Location {
+      X: 1284.83789
+      Y: -11804.7188
+      Z: 3187.93359
+    }
+    Rotation {
+      Yaw: -45.0318336
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11447076056570800100
+  ChildIds: 2794608992946137528
+  ChildIds: 4004726163411629712
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  Control {
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Canvas {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 4004726163411629712
+  Name: "WaveDisplayer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13505973121807035945
+  ChildIds: 9950481851762779594
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 793
+    Height: 276
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Panel {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 9950481851762779594
+  Name: "UI Image"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4004726163411629712
+  ChildIds: 516149834882144712
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 200
+    Height: 200
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    UseParentWidth: true
+    UseParentHeight: true
+    Image {
+      Brush {
+      }
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 0.0570000038
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 516149834882144712
+  Name: "UI Text Box"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9950481851762779594
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 200
+    Height: 275
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    UseParentWidth: true
+    UseParentHeight: true
+    Text {
+      Label: "Wave X"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 100
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 2794608992946137528
+  Name: "TowerDefenders_WaveView"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: 3.4150944e-06
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13505973121807035945
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:WaveDisplayer"
+      ObjectReference {
+        SelfId: 4004726163411629712
+      }
+    }
+    Overrides {
+      Name: "cs:WaveText"
+      ObjectReference {
+        SelfId: 516149834882144712
+      }
+    }
+    Overrides {
+      Name: "cs:WaveCompleteSound"
+      AssetReference {
+        Id: 17184460021139965958
+      }
+    }
+    Overrides {
+      Name: "cs:WaveStartedSound"
+      AssetReference {
+        Id: 7290441648420461765
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14491006189858404754
+    }
   }
 }
 Objects {
@@ -156,7 +424,6 @@ Objects {
   Control {
     Width: 785
     Height: 750
-    UIX: 200
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1790,6 +2057,7 @@ Objects {
     }
   }
   ParentId: 11447076056570800100
+  ChildIds: 3814072061594345177
   ChildIds: 8671196899680944926
   ChildIds: 3454059231831218033
   Collidable_v2 {
@@ -4898,7 +5166,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:forceon"
   }
   Control {
     Width: 315
@@ -5097,6 +5365,41 @@ Objects {
           Value: "mc:euianchor:topleft"
         }
       }
+    }
+  }
+}
+Objects {
+  Id: 3814072061594345177
+  Name: "TowerDefenders_GemViewClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7542508715810446415
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:GemAmountLabel"
+      ObjectReference {
+        SelfId: 6603071736783500691
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 6334518436137849359
     }
   }
 }
@@ -5640,6 +5943,41 @@ Objects {
   }
 }
 Objects {
+  Id: 3100766590497628367
+  Name: "ProjectileTester"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11447076056570800100
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:objectProjectile"
+      AssetReference {
+        Id: 13893628220512827277
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 11298225152328961584
+    }
+  }
+}
+Objects {
   Id: 4409660520606648377
   Name: "demo_script"
   Transform {
@@ -5877,6 +6215,32 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "TowerTypes"
+  }
+}
+Objects {
+  Id: 3193928273116090067
+  Name: "WavesTable"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9567968853289757796
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "WavesTable"
   }
 }
 Objects {

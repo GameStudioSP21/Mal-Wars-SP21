@@ -64,7 +64,7 @@ function Database:GetTowerByName(name)
 end
 
 function Database:GetTowerByMUID(muid)
-    return self.towerDatasByMUIDFull[muid] or self.towerDatasByMUID[muid:match("^(.+):")] or nil
+    return self.towerDatasByMUIDFull[muid] or self.towerDatasByMUID[muid] or nil
 end
 
 function Database:GetTowerByID(int)

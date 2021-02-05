@@ -40,5 +40,5 @@ Assets {
     Version: "1.1.0"
     Description: "Level 1 fast turret"
   }
-  SerializationVersion: 73
+  SerializationVersion: 74
 }

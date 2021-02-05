@@ -23,6 +23,7 @@ end
 
 function TowerMortar:FireFakeProjectile()
     local aoeAsset = World.SpawnAsset(self:GetVisualProjectile(),{ position = self:GetWorldPosition() })
+    local allChildren = aoeAsset:GetChildren()
     Ease3D.EaseScale(aoeAsset, Vector3.New(self:GetRange()), 0.5, Ease3D.EasingEquation.SINE, Ease3D.EasingDirection.OUT)
     Task.Spawn(function()
         Task.Wait(0.5)

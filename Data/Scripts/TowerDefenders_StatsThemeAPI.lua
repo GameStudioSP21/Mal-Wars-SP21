@@ -15,7 +15,7 @@ local function HasRequiredProperties(folder)
     end
 end
 
--- Setupt
+-- Setup
 for _, stat in pairs(TOWER_STATS:GetChildren()) do
     assert(not STAT_THEMES[stat], string.format("Can not have duplicate stats."))
     STAT_THEMES[stat.name] = {

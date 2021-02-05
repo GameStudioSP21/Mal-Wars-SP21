@@ -10,17 +10,11 @@ local function OnServerPlayerJoined(player)
     local INVENTORY_FOLDER = script:GetCustomProperty("InventoryFolder"):WaitForObject()
     local playerData = Storage.GetPlayerData(player)
 
-    -- If the player is new then load in a default tower for them
-    if not playerData.towerInventory or playerData.towerInventory == "" then
-        local tower = TowerDatabase:NewTowerByID(1)
-        playerData.towerInventory = tower:GetMUID() .. ","
-    end
-
-    -- Spawn the inventory helper and populate the TOWERS property 
+    -- Spawn the inventory helper for the player. The inventory will be setup by the inventory replicator
     local inventoryHelper = World.SpawnAsset(INVENTORY_HELPER,{ parent = INVENTORY_FOLDER })
     inventoryHelper:SetNetworkedCustomProperty("OWNER",player.id)
-    inventoryHelper:SetNetworkedCustomProperty("TOWERS",playerData.towerInventory)
-    player.serverUserData.towerInventory = Inventory.New(TowerDatabase,playerData.towerInventory) 
+
+    player:SetResource("GEMS", 500)
 end
 
 local function InitalizeServerEvents()
@@ -71,6 +65,12 @@ local function InitalizeServerEvents()
     end)
 
     -- TODO: Delete Tower
+
+
+    Events.ConnectForPlayer("GU",function(player,delta)
+        print("[Server] Received gems delta by player",delta)
+        player:AddResource("GEMS",delta)
+    end)
 
 
 end
@@ -129,6 +129,7 @@ local function InitalizeClientEvents()
 
         for _, tower in pairs(board:GetAllTowers()) do
             if tower:GetWorldPosition() == pos then
+                print("[Client] Found tower attemping to replicate.")
                 board:UpgradeTower(tower,true) -- Networked function
                 break
             end

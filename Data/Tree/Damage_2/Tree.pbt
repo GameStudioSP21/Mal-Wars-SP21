@@ -296,7 +296,7 @@ Objects {
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 16906153447775952155
+        Id: 10194177502139746260
       }
     }
     Overrides {
@@ -311,11 +311,11 @@ Objects {
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 15
+      Int: 70
     }
     Overrides {
       Name: "cs:Speed"
-      Int: 20
+      Int: 10
     }
     Overrides {
       Name: "cs:Range"
@@ -381,7 +381,7 @@ Objects {
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 16906153447775952155
+        Id: 11710471924434565244
       }
     }
     Overrides {
@@ -396,11 +396,11 @@ Objects {
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 12
+      Int: 50
     }
     Overrides {
       Name: "cs:Speed"
-      Int: 12
+      Int: 8
     }
     Overrides {
       Name: "cs:Range"
@@ -467,12 +467,12 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
-      String: "Cooler Test"
+      String: "Bolter"
     }
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 16906153447775952155
+        Id: 16560063348539388979
       }
     }
     Overrides {
@@ -487,7 +487,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 12
+      Int: 30
     }
     Overrides {
       Name: "cs:Speed"
@@ -558,12 +558,12 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
-      String: "Test"
+      String: "Bolter"
     }
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 17033141427451298610
+        Id: 3034459943775580790
       }
     }
     Overrides {
@@ -578,7 +578,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 10
+      Int: 15
     }
     Overrides {
       Name: "cs:Speed"

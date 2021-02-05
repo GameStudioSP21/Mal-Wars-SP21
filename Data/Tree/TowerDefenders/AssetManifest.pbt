@@ -35,6 +35,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13893628220512827277
+  Name: "Ball - Basketball 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_ball_basketball_01_ref"
+  }
+}
+Assets {
   Id: 13100318991616426881
   Name: "Frame Highlighted 001"
   PlatformAssetType: 9

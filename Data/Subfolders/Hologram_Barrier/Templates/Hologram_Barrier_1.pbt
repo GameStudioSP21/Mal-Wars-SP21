@@ -431,6 +431,6 @@ Assets {
   Marketplace {
     Description: "Hologram Barrier"
   }
-  SerializationVersion: 73
+  SerializationVersion: 74
   DirectlyPublished: true
 }

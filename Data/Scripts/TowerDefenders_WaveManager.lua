@@ -1,8 +1,10 @@
-﻿--- Pending Description
+--- Pending Description
 -- Finite-state machine
 
 local WaveManager = {}
 WaveManager.__index = WaveManager
+
+local Wave = require(script:GetCustomProperty("TowerDefenders_Wave"))
 
 -- CONSTANTS
 local WAVE_MANAGER_OBJECT = script:GetCustomProperty("TowerDefenders_WaveManager")
@@ -10,8 +12,9 @@ local WAVE_MANAGER_OBJECT = script:GetCustomProperty("TowerDefenders_WaveManager
 local MANAGER_PHASE = {
     WAITING_READY = {id = 0 , event = "OnWaitingReady" }, -- Waiting for confirmation to start the waves.
     ATTACKING = {id = 1, event = "OnWaveStarted"}, -- While enemies are attacking.
-    END_COMPLETE = {id = 2, event = "OnWaveComplete" }, -- When the wave has ended.
-    END_FAILED = {id = 3, event = "OnWaveFailed"},
+    WAVE_COMPLETE = { id = 2, event = "OnWaveComplete"}, -- When a wave has been completed.
+    END_COMPLETE = {id = 2, event = "OnWavesEndedComplete" }, -- When the waves have ended and you survived.
+    END_FAILED = {id = 3, event = "OnWavesEndedFailed"}, -- When the waves have ended and you failed to survive.
 }
 
 -- The inital phase to begin the wave manager in.
@@ -36,23 +39,21 @@ function WaveManager.New(board,waveManagerObject)
         error("Can not create the wave manager on the server when not provided a board!")
     end
 
-    -- Phase Events
-    self:_DefineEvent("OnWaitingReady") -- Done
-
-    -- Wave Events
-    self:_DefineEvent("OnWaveStarted") -- Done
-    self:_DefineEvent("OnWaveComplete") -- Done
-    self:_DefineEvent("OnWaveFailed") -- Done
-
-    -- Enemy Events
-    self:_DefineEvent("OnEnemyRemoved") -- Done
-    self:_DefineEvent("OnEnemyCreated") -- Done
+    -- Define all events
+    for _, phase in pairs(MANAGER_PHASE) do
+        self:_DefineEvent(phase.event) -- Done
+    end
 
     self.currentPhase = INITAL_PHASE
 
     self:_Init(board,waveManagerObject)
 
     return self
+end
+
+-- Returns the board
+function WaveManager:GetBoard()
+    return self.assignedBoard
 end
 
 function WaveManager:GetCurrentPhase()
@@ -74,57 +75,76 @@ function WaveManager:SetCurrentPhase(phaseEnum)
     end
 end
 
--- Returns a table of all enemy core objects
+-- Returns a table of all enemy core objects.
 function WaveManager:GetEnemies()
     return self.enemiesFolder:GetChildren()
 end
 
--- Returns the enemy nearest to a given world position
+-- Returns the folder object that would contain enemies.
+function WaveManager:GetEnemiesFolder()
+    return self.enemiesFolder
+end
+
+-- Returns the enemy nearest to a given world position.
 function WaveManager:GetNearestEnemy(position)
     local closest = nil
     for _, enemy in pairs(self:GetEnemies()) do
         if not closest then
             closest = enemy
         end
-        if (enemy:GetWorldPosition() - position).sizeSquared < (closest - position).sizeSquared then
+        if closest and (enemy:GetWorldPosition() - position).sizeSquared < (closest - position).sizeSquared and enemy:GetCustomProperty("CurrentHealth") > 0 then
             closest = enemy
         end
     end
     return closest
 end
 
-function WaveManager:ReturnRemainingEnemies()
-    -- TODO: Return the remaining enemies.
+-- Returns the closest enemy that is alive at a given world position.
+function WaveManager:GetNearestAliveEnemy(position)
+
 end
 
-function WaveManager:GetRemainingTime()
-    return self.remainingTime
-end
-
+-- Wave stuff | SERVER
 ---------------------------------------
 
 function WaveManager:GetCurrentWave()
     return self.currentWave
 end
 
-function WaveManager:GetNextWaveEnemyCount()
-    -- TODO: Return the amount of enemies in the next wave
-end
-
--- Returns the board
-function WaveManager:GetBoard()
-    return self.assignedBoard
+function WaveManager:NextWave()
+    if #self.waveStack > 0 then
+        table.remove(self.waveStack,1)
+        if #self.waveStack > 0 then
+            self.currentWave = self.waveStack[1]
+        else
+            self.currentWave = nil
+        end
+    end
 end
 
 ----------------------------------------------------
 -- Private
 ----------------------------------------------------
 
+function WaveManager:_BuildWaveStack(waveObject)
+    self.waveStack = {}
+    for _, waveObject in pairs(waveObject:GetChildren()) do
+        local newWave = Wave.New(self,waveObject)
+        table.insert(self.waveStack,newWave)
+    end
+    if self.waveStack and #self.waveStack == 0 then
+        error("Wave manager was not provided a wave object to get waves from. Refer to one of the example boards for the waves custom property example.")
+    end
+    self.currentWave = self.waveStack[1]
+end
+
 function WaveManager:_Init(board,waveManagerObject)
     self.assignedBoard = board
     self.enemiesFolder = board:GetBoardAssetInstance():GetCustomProperty("Enemies"):GetObject()
 
-    Task.Wait(1)
+    -- Construct the wave stack that will be the order in which waves will play out.
+    local waveObject = board.data.waveObject:GetObject()
+    self:_BuildWaveStack(waveObject)
 
     if waveManagerObject then
         self.waveManagerObject = waveManagerObject
@@ -213,35 +233,48 @@ end
 function WaveManager:_StepStates()
 
     if self:GetCurrentPhase() == MANAGER_PHASE.WAITING_READY then
-        for i=1,10 do
+        print("[Wave Manager] Waiting for ready.")
+        for i=1,3 do
             Task.Wait(1)
             print(i)
         end
-        print("Commencing Attack")
         self:SetCurrentPhase("ATTACKING")
 
     elseif self:GetCurrentPhase() == MANAGER_PHASE.ATTACKING then
+        print("[Wave Manager] Commencing Attack.")
+        Task.Wait(1) 
 
-        Task.Wait(1)
-
-        self.difficultyScalar = self.difficultyScalar and self.difficultyScalar + 1 or 1
-
-        for i = 1, 20*self.difficultyScalar do
-            Task.Wait(0.3)
-            print("[Server] Spawning enemy")
-            local enemy = World.SpawnAsset("39A7A7A9AE7E370A:TowerDefenders_TestEnemy",{ parent = self.enemiesFolder, position = self:GetBoard():GetStartNode():GetWorldPosition() })
+        while not self.currentWave:IsCleared() do
+            print("Not Cleared")
+            if not self.currentWave:IsEmpty() then
+                print("Spawning Enemies")
+                Task.Wait(self.currentWave:GetSpawnDelay())
+                self.currentWave:SpawnEnemy()
+            else
+                Task.Wait(1)
+            end
         end
 
-        self:SetCurrentPhase("END_COMPLETE")
+        self:NextWave()
 
-    elseif self:GetCurrentPhase() == MANAGER_PHASE.END_COMPLETE then
-        print("Wave complete coolingdown")
+        if not self.currentWave then
+            self:SetCurrentPhase("END_COMPLETE")
+        else
+            self:SetCurrentPhase("WAVE_COMPLETE")
+        end
+
+    elseif self:GetCurrentPhase() == MANAGER_PHASE.WAVE_COMPLETE then
+        print("[Wave Manager] Wave complete.")
         Task.Wait(3)
         self:SetCurrentPhase("WAITING_READY")
 
-    elseif self:GetCurrentPhase() == MANAGER_PHASE.END_FAILED then
+    elseif self:GetCurrentPhase() == MANAGER_PHASE.END_COMPLETE then
+        print("[Wave Manager] All waves completed! Congrats!")
+        Task.Wait(3)
 
-        print("Wave failure")
+    elseif self:GetCurrentPhase() == MANAGER_PHASE.END_FAILED then
+        print("[Wave Manager] You failed to survive.")
+
         Task.Wait(5)
         self:SetCurrentPhase("WAITING_READY")
 

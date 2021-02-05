@@ -1903,6 +1903,6 @@ Assets {
   Marketplace {
     Description: "An AOE Turret Modeled in Core. Version 1. "
   }
-  SerializationVersion: 73
+  SerializationVersion: 74
   DirectlyPublished: true
 }

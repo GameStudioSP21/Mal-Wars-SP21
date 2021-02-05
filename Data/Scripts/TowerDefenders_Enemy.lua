@@ -31,8 +31,7 @@ local ATTACK_RECOVERY_TIME = ROOT:GetCustomProperty("AttackRecovery") or 1.5
 local ATTACK_COOLDOWN = ROOT:GetCustomProperty("AttackCooldown") or 0
 local OBJECTIVE_THRESHOLD_DISTANCE_SQUARED = 900
 
-ROOT:SetNetworkedCustomProperty("CurrentHealth",math.random(10,1000))
-MAX_HEALTH = ROOT:GetCustomProperty("CurrentHealth")
+-- ROOT:SetNetworkedCustomProperty("CurrentHealth",math.random(10,1000))
 
 local PATHING_STEP = MOVE_SPEED * LOGICAL_PERIOD + 10
 local PATHING_STEP_SQUARED = PATHING_STEP * PATHING_STEP
