@@ -67,29 +67,15 @@ local function GetGroundPositionFromCamera()
     end
 end
 
--- TODO: Move to the board.
-local function GetNearestTower(position)
-    -- Get a reference to the board from the player
-    local board = LOCAL_PLAYER.clientUserData.activeBoard
-    if board then
-        -- Get all the towers on the board
-        local towers = board:GetAllTowers()
-        for _, tower in pairs(towers) do
-            local towerPos = tower:GetWorldPosition()
-            if (towerPos - position).sizeSquared <= ATTRACT_RANGE then
-                return tower
-            end
-        end
-    end
-end
-
 function Tick()
-    -- If the player is preparing a placement then show the ghost
-    -- and create the non placement areas.
-    if Object.IsValid(upgradeGhost) then
+
+    -- If the player is preparing an upgrade then show the upgrading ghost and make sure
+    -- the player is on a valid board.
+    if Object.IsValid(upgradeGhost) and LOCAL_PLAYER.clientUserData.activeBoard then
         -- Move the ghost position to the impact position
+        local board = LOCAL_PLAYER.clientUserData.activeBoard
         local impactPosition = GetGroundPositionFromCamera()
-        local nearestTower = GetNearestTower(impactPosition)
+        local nearestTower = board:GetNearestTower(impactPosition,ATTRACT_RANGE,LOCAL_PLAYER)
 
         -- Ease the upgrader ghost to the nearest tower.
         if nearestTower ~= selectedTower and nearestTower ~= nil then

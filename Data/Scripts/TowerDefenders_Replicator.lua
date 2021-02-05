@@ -1,7 +1,21 @@
 ﻿local TowerDatabase = require(script:GetCustomProperty("TowerDatabase"))
 local BoardDatabase = require(script:GetCustomProperty("BoardDatabase"))
+local Inventory = require(script:GetCustomProperty("Inventory"))
 
 local ACTIVE_BOARDS_GROUP = World.FindObjectByName("ActiveBoards")
+local INVENTORY_HELPER = script:GetCustomProperty("InventoryHelper")
+
+local function OnServerPlayerJoined(player)
+    TowerDatabase:WaitUntilLoaded()
+    local INVENTORY_FOLDER = script:GetCustomProperty("InventoryFolder"):WaitForObject()
+    local playerData = Storage.GetPlayerData(player)
+
+    -- Spawn the inventory helper for the player. The inventory will be setup by the inventory replicator
+    local inventoryHelper = World.SpawnAsset(INVENTORY_HELPER,{ parent = INVENTORY_FOLDER })
+    inventoryHelper:SetNetworkedCustomProperty("OWNER",player.id)
+
+    player:SetResource("GEMS", 500)
+end
 
 local function InitalizeServerEvents()
 
@@ -34,9 +48,8 @@ local function InitalizeServerEvents()
         for _, tower in pairs(board:GetAllTowers()) do
             if tower:GetWorldPosition() == pos then
                 local owner = tower:GetOwner()
-                local ID = tower:GetID()
                 board:UpgradeTower(tower,true) -- Networked function
-                Events.BroadcastToAllPlayers("UT",tower:GetOwner(),ID,pos.x,pos.y,pos.z)
+                Events.BroadcastToAllPlayers("UT",tower:GetOwner(),pos.x,pos.y,pos.z)
                 break
             end
         end
@@ -54,6 +67,32 @@ local function InitalizeServerEvents()
     -- TODO: Delete Tower
 
 
+    Events.ConnectForPlayer("GU",function(player,delta)
+        print("[Server] Received gems delta by player",delta)
+        player:AddResource("GEMS",delta)
+    end)
+
+
+end
+
+local function OnClientPlayerJoined(player)
+    local LOCAL_PLAYER = Game.GetLocalPlayer()
+    local INVENTORY_FOLDER = script:GetCustomProperty("InventoryFolder"):WaitForObject()
+
+    if LOCAL_PLAYER == player then
+        local inventoryObject = nil
+        -- Wait for the inventory object as the client needs it.
+        while not inventoryObject do
+            Task.Wait()
+            for _, inventoryHelper in pairs(INVENTORY_FOLDER:GetChildren()) do
+                local playerID = inventoryHelper:GetCustomProperty("OWNER")
+                if playerID == LOCAL_PLAYER.id and inventoryHelper:GetCustomProperty("TOWERS").isAssigned then
+                    inventoryObject = inventoryHelper
+                end
+            end
+        end
+        player.clientUserData.towerInventory = Inventory.New(TowerDatabase,inventoryObject:GetCustomProperty("TOWERS")) 
+    end
 end
 
 local function InitalizeClientEvents()
@@ -62,7 +101,7 @@ local function InitalizeClientEvents()
 
     -- SERVER ERROR:
     -- TODO: Error running Lua task: [9EA276B61232DBD7] TowerDefenders_Replicator:42: stack index 1, expected string, received nil: (bad argument into '(...)(string)')
-    local GameManager = require(script:GetCustomProperty("GameManager"))
+    -- local GameManager = require(script:GetCustomProperty("GameManager"))
 
     Events.Connect("PT",function(player,id,x,y,z)
         print("[Client] received PLACE from.",player.name,id,x,y,z)
@@ -90,6 +129,7 @@ local function InitalizeClientEvents()
 
         for _, tower in pairs(board:GetAllTowers()) do
             if tower:GetWorldPosition() == pos then
+                print("[Client] Found tower attemping to replicate.")
                 board:UpgradeTower(tower,true) -- Networked function
                 break
             end
@@ -152,14 +192,25 @@ end
 
 -- Initalize the databases for boards and towers.
 if Environment.IsServer() then
-    TowerDatabase:_Init()
-    BoardDatabase:_Init()
-    InitalizeServerEvents()
-    print("Finished Initalizing Server")
+    Task.Spawn(function() 
+        TowerDatabase:_Init()
+        BoardDatabase:_Init()
+        InitalizeServerEvents()
+        print("Finished Initalizing Server")
+    end)
+
+    Game.playerJoinedEvent:Connect(OnServerPlayerJoined)
+
 elseif Environment.IsClient() then
-    TowerDatabase:_Init()
-    BoardDatabase:_Init()
-    InitalizeClientEvents()
-    InitalizeBoardListener()
+    Task.Spawn(function() 
+        TowerDatabase:_Init()
+        BoardDatabase:_Init()
+        InitalizeClientEvents()
+        InitalizeBoardListener()
+    end)
+
+    Game.playerJoinedEvent:Connect(OnClientPlayerJoined)
     print("Finished Initalizing Client")
+
+
 end

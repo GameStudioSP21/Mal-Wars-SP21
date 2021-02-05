@@ -10,7 +10,13 @@ Assets {
           Id: 15655187407969173462
         }
       }
+      Overrides {
+        Name: "cs:BasicProjectiles"
+        AssetReference {
+          Id: 12750211982329655730
+        }
+      }
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 74
 }

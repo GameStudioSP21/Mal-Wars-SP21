@@ -33,7 +33,7 @@ Assets {
           }
           Overrides {
             Name: "cs:CurrentHealth"
-            Float: 200
+            Float: 125
           }
           Overrides {
             Name: "cs:MoveSpeed"
@@ -2092,5 +2092,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 74
 }

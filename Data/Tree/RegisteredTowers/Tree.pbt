@@ -23,7 +23,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Utility"
+    FilePartitionName: "Utility_1"
   }
 }
 Objects {
@@ -75,6 +75,6 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Damage_1"
+    FilePartitionName: "Damage_2"
   }
 }

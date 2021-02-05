@@ -17,6 +17,12 @@ Assets {
         }
       }
       Overrides {
+        Name: "cs:Base64"
+        AssetReference {
+          Id: 10470424565904250692
+        }
+      }
+      Overrides {
         Name: "cs:PreSpawnAsset"
         AssetReference {
           Id: 2149885989361230664
@@ -30,5 +36,5 @@ Assets {
       }
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 74
 }

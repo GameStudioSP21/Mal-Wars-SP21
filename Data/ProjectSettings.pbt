@@ -1,1 +1,3 @@
-MaxPlayers: 1
+LeaderboardConfigs {
+}
+MaxPlayers: 8

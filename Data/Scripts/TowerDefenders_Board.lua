@@ -49,21 +49,7 @@ end
 -- This should only be used with the client or if you have created the board by other means.
 function Board:AssignBoardInstance(board)
     self.boardAssetInstance = board
-
-
-    -- self.boardAssetInstance.childAddedEvent:Connect(function(_,enemy)
-
-
-    --     -- TODO: Move this to a private method
-    --     -- TODO: I NEED TO CHANGE THIS! We can't guarentee the names of the enemies will be consistet.
-    --     if enemy.name == "SkeletonTest_Towers" or enemy.name == "SkeletonTest_Towers_02" then
-    --         table.insert(self.enemies,enemy)
-    --     end
-
-    -- end)
 end
-
-
 
 -- Assign the owner of the board.
 function Board:SetOwners(players)
@@ -114,12 +100,20 @@ function Board:GetAllTowers()
     return self.towers
 end
 
-function Board:GetNearestTower(position)
-    -- TODO: Get the nearest tower given some point.
+-- Returns the nearest tower given a position and max search radius and optionally an owner.
+function Board:GetNearestTower(position,maxRadius,owner)
+    local towers = self:GetAllTowers()
+    for _, tower in pairs(towers) do
+        local towerPos = tower:GetWorldPosition()
+        if (towerPos - position).sizeSquared <= maxRadius and ((owner ~= nil and tower:GetOwner() == owner) or owner == nil) then
+            return tower
+        end
+    end
 end
 
--- Returns a table of all enemies on the board.
+-- An easy way to return all a table of all enemies on the board.
 function Board:GetEnemies()
+    assert(self.waveManager,"Wavemanager was not created on the board. Make sure you call yourBoard:CreateWaveManager() to construct the wave manager.")
     return self.waveManager:GetEnemies()
 end
 
@@ -134,7 +128,7 @@ function Board:CreateBoard(position, playerOwners)
     local boardInstance = self:GetBoardAssetInstance()
 
     -- Contruct wave manager
-    self.waveManager = WaveManager.New(self)
+    self:CreateWaveManager()
 
     local playersString = ""
     for _, player in pairs(self.owners) do
@@ -156,13 +150,11 @@ function Board:CreateBoard(position, playerOwners)
 end
 
 -- TODO: Change this so there can be multiple start nodes
-
 function Board:GetStartNode()
     return self.startNode
 end
 
 -- TODO: Change this so there can be multiple end nodes.
-
 function Board:GetEndNode()
     return self.endNode
 end
@@ -172,7 +164,7 @@ end
 -- Can be called from client or server.
 ----------------------------------------------------
 
--- Adds a tower to the board.
+-- Adds a tower to the board when provided a tower and position
 function Board:AddTower(tower, position, _hasRepeated)
     if Environment.IsClient() then
         local LOCAL_PLAYER = Game.GetLocalPlayer()
@@ -204,7 +196,7 @@ function Board:AddTower(tower, position, _hasRepeated)
     end
 end
 
--- TODO: do this.
+-- Upgrades a tower on the board when provided a tower.
 function Board:UpgradeTower(tower, _hasRepeated)
     if Environment.IsClient() then
         print("[Client] Upgrading Tower")
@@ -267,8 +259,8 @@ function Board:UpgradeTower(tower, _hasRepeated)
     end)
 end
 
--- TODO: do this.
-function Board:DeleteTower(hasRepeated)
+-- Deletes a tower on the board when provided a tower
+function Board:DeleteTower(tower, hasRepeated)
     if Environment.IsClient() and not hasRepeated then
 
     end

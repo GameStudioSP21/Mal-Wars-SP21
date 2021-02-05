@@ -2,7 +2,7 @@ Assets {
   Id: 13736093124804830126
   Name: "Custom Metal Vent Duct Spiral 01"
   PlatformAssetType: 13
-  SerializationVersion: 73
+  SerializationVersion: 74
   CustomMaterialAsset {
     BaseMaterialId: 17678572670296805609
     ParameterOverrides {

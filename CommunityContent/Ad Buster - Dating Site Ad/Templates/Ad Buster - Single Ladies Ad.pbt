@@ -2168,6 +2168,6 @@ Assets {
   Marketplace {
     Description: "Ad to be destroyed"
   }
-  SerializationVersion: 73
+  SerializationVersion: 74
   DirectlyPublished: true
 }

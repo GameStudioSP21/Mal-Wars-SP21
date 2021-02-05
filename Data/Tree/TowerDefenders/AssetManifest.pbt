@@ -35,12 +35,30 @@ Assets {
   }
 }
 Assets {
+  Id: 13893628220512827277
+  Name: "Ball - Basketball 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_ball_basketball_01_ref"
+  }
+}
+Assets {
   Id: 13100318991616426881
   Name: "Frame Highlighted 001"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "FrameHighlighted_020"
+  }
+}
+Assets {
+  Id: 10430942501047658489
+  Name: "BG Flat 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundNoOutline_019"
   }
 }
 Assets {
@@ -68,6 +86,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "CenterArrow_004Wedge"
+  }
+}
+Assets {
+  Id: 4992980229243010827
+  Name: "Center Arrow 003 Wedge"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "CenterArrow_003Wedge"
   }
 }
 Assets {

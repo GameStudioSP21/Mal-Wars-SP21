@@ -4003,6 +4003,6 @@ Assets {
   Marketplace {
     Description: "Corner Platform "
   }
-  SerializationVersion: 73
+  SerializationVersion: 74
   DirectlyPublished: true
 }

@@ -4,33 +4,40 @@ local RadialView = require(script:GetCustomProperty("TowerDefenders_RadialView")
 
 local MENU_UI = script:GetCustomProperty("Menu"):WaitForObject()
 local SEGMENT_ASSET = script:GetCustomProperty("SegmentAsset")
-local SEGMENTS_DATA = script:GetCustomProperty("Segments")
+
 
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 
-local view = RadialView.New(MENU_UI,SEGMENT_ASSET,SEGMENTS_DATA,45)
+local view = RadialView.New(MENU_UI,SEGMENT_ASSET,nil,45)
 LOCAL_PLAYER.clientUserData.towerMenuView = view
 
-view.OnSectionClicked:Connect(function(sectionID)
-    if sectionID == 1 then
-        view:Close()
-        -- TODO: Perform client check on cost to see if they can place it.
-        UI.SetCursorVisible(false)
-        UI.SetCanCursorInteractWithUI(false)
-        Events.Broadcast("BeginTowerPlacement","Test")
-    elseif sectionID == 2 then
-        view:Close()
-        -- TODO: Perform client check on cost to see if they can place it.
-        UI.SetCursorVisible(false)
-        UI.SetCanCursorInteractWithUI(false)
-        Events.Broadcast("BeginTowerPlacement","Sniper")
-    elseif sectionID == 3 then
+print("waiting for inventory")
+while not LOCAL_PLAYER.clientUserData.towerInventory do Task.Wait() end
+local localTowerInventory = LOCAL_PLAYER.clientUserData.towerInventory
+print("got inventory",localTowerInventory)
 
-        view:Close()
-        -- TODO: Perform client check on cost to see if they can place it.
-        UI.SetCursorVisible(false)
-        UI.SetCanCursorInteractWithUI(false)
-        Events.Broadcast("BeginTowerPlacement","AOE")
+-- Construct the segments.
+
+
+view.OnOpened:Connect(function() 
+    view:ClearSegmentData()
+    local towers = localTowerInventory:GetTowers()
+
+    for i=1,4 do
+        local tower = towers[i]
+        if tower then
+            view:CreateSegment(tower:GetName(),tower:GetIcon(),tostring(tower:GetCost()),tower:GetName())
+        else
+            view:CreateSegment("None","","")
+        end
     end
+end)
+
+view.OnSectionClicked:Connect(function(sectionID,_,metaData)
+    view:Close()
+    -- TODO: Perform client check on cost to see if they can place it.
+    UI.SetCursorVisible(false)
+    UI.SetCanCursorInteractWithUI(false)
+    Events.Broadcast("BeginTowerPlacement",metaData)
 end)
 

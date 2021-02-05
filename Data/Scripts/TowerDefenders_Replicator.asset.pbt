@@ -22,7 +22,24 @@ Assets {
           Id: 16922964282924116369
         }
       }
+      Overrides {
+        Name: "cs:InventoryHelper"
+        AssetReference {
+          Id: 8811953968087530049
+        }
+      }
+      Overrides {
+        Name: "cs:Inventory"
+        AssetReference {
+          Id: 9437810144293344264
+        }
+      }
+      Overrides {
+        Name: "cs:InventoryFolder"
+        ObjectReference {
+        }
+      }
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 74
 }

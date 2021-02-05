@@ -27,12 +27,11 @@ function RadialMenu.New(mainContainer, segmentAsset, segmentData, startingAngle)
     self.radial_menu_container = mainContainer
     self.segmentAsset = segmentAsset
     self.startingAngle = startingAngle
-    self.SEGMENT_DATA = segmentData:GetObject():GetChildren()
+    self.SEGMENT_DATA = segmentData and segmentData:GetObject():GetChildren() or {}
     self.currentSelection = nil
     self.oldFeedbackSelection = nil
     self.isClosed = mainContainer.visibility
     self.allSections = {} -- All sections
-    self.createdSections = {} -- Sections created using CreateSection()
     self.sectionDirection = {} -- TODO: Use it inside all sections.
 
     self:_Init()
@@ -70,18 +69,29 @@ function RadialMenu:Close()
     self:_HideIcons()
 end
 
-function RadialMenu:CreateSegment(title,icon,extraText)
-    local section = World.SpawnAsset( self.segmentAsset,{ parent = self.radial_menu_container })
-    local imageIcon = section:GetCustomProperty("IconImage"):WaitForObject()
-    local titleTextBox = section:GetCustomProperty("TitleText"):WaitForObject()
-    local extraTextBox = section:GetCustomProperty("ExtraText"):WaitForObject()
-    table.insert(self.createdSections,section)
-
-    -- Clear all sections on the screen.
-    self:_ClearSections()
+-- Creates a new section
+function RadialMenu:CreateSegment(title,icon,extraText,metaData)
+    local newSection = { title = title, icon = icon, extraText = extraText, metaData = metaData}
+    table.insert(self.SEGMENT_DATA,newSection)
 
     -- Create sections programmatically
-    self:_CreateSections(self.createdSections)
+    self:_CreateSections()
+end
+
+-- Clears segment table so they will no longer draw.
+function RadialMenu:ClearSegmentData()
+    self.SEGMENT_DATA = {}
+end
+
+-- Destroys all sections
+function RadialMenu:ClearSections()
+    for _, section in pairs(self.radial_menu_container:GetChildren()) do
+        if Object.IsValid(section)  then
+            section:Destroy()
+        end
+    end
+    self.allSections = {}
+    self.sectionDirection = {}
 end
 
 ----------------------------------------------------------
@@ -102,7 +112,7 @@ end
 
 function RadialMenu:_SectionClicked()
     if self.currentSelection then
-        self:_FireEvent("OnSectionClicked",self.currentSelection)
+        self:_FireEvent("OnSectionClicked",self.currentSelection,self.allSections[self.currentSelection],self.SEGMENT_DATA[self.currentSelection].metaData)
         PlaySFX(SECTION_CLICKED_SOUND)
     end
 end
@@ -134,18 +144,21 @@ function RadialMenu:_DefineEvent(eventName)
     }
 end
 
-function RadialMenu:_CreateSections(alternativeSegmentData)
-    local amount = alternativeSegmentData and #alternativeSegmentData or #self.SEGMENT_DATA
+function RadialMenu:_CreateSections()
+    if not self.SEGMENT_DATA then return end
+    local amount = #self.SEGMENT_DATA
     local seperation = 360/amount
-    for i,segmentData in pairs(alternativeSegmentData or self.SEGMENT_DATA) do
+    self:ClearSections()
+    if amount < 3 then return end
+    for i,segmentData in pairs(self.SEGMENT_DATA) do
         local section = World.SpawnAsset( self.segmentAsset,{ parent = self.radial_menu_container })
         local imageIcon = section:GetCustomProperty("IconImage"):WaitForObject()
         local titleTextBox = section:GetCustomProperty("TitleText"):WaitForObject()
         local extraTextBox = section:GetCustomProperty("ExtraText"):WaitForObject()
 
-        local icon = segmentData.icon or segmentData:GetCustomProperty("Icon")
-        titleTextBox.text = segmentData.title or segmentData:GetCustomProperty("Name")
-        extraTextBox.text = segmentData.extra or segmentData:GetCustomProperty("Extra") or ""
+        local icon = segmentData.icon or segmentData:GetCustomProperty("Icon") or ""
+        titleTextBox.text = segmentData.title or segmentData:GetCustomProperty("Name") or ""
+        extraTextBox.text = segmentData.extraText or segmentData:GetCustomProperty("Extra") or ""
 
         imageIcon:SetImage(icon)
 
@@ -158,7 +171,7 @@ function RadialMenu:_CreateSections(alternativeSegmentData)
         local cAngle = math.rad((180-seperation)/2)
         local angle = math.tan(cAngle)
         local width = (400/angle)*2
-
+        
         section.width = math.floor(width)
 
         -- Negate inherited rotation from parent
@@ -177,14 +190,6 @@ function RadialMenu:_CreateSections(alternativeSegmentData)
 
         table.insert(self.allSections,section)
         table.insert(self.sectionDirection,dir)
-    end
-end
-
-function RadialMenu:_ClearSections()
-    for _, section in pairs(self.radial_menu_container:GetChildren()) do
-        if Object.IsValid(section)  then
-            section:Destroy()
-        end
     end
 end
 

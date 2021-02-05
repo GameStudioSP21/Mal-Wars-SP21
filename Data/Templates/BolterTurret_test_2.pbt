@@ -2856,6 +2856,7 @@ Assets {
         ParentId: 14745036664586904442
         ChildIds: 1209615737742909166
         ChildIds: 13618573572424638841
+        ChildIds: 13226893006657817147
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2885,11 +2886,11 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "bp:Emissive Boost"
-            Float: 14.8698549
+            Float: 21.9096127
           }
           Overrides {
             Name: "bp:Particle Size Multiplier"
-            Float: 1.45409298
+            Float: 2.27255869
           }
           Overrides {
             Name: "bp:Number Of Flares"
@@ -2948,6 +2949,54 @@ Assets {
           AudioBP {
             Pitch: -421.243164
             Volume: 0.620837569
+            Falloff: 3600
+            Radius: 400
+            EnableOcclusion: true
+            IsSpatializationEnabled: true
+            IsAttenuationEnabled: true
+          }
+        }
+      }
+      Objects {
+        Id: 13226893006657817147
+        Name: "Gunshot Assault Rifle AK Set 01 SFX"
+        Transform {
+          Location {
+            X: 272.169922
+            Y: 167.619751
+            Z: -140
+          }
+          Rotation {
+          }
+          Scale {
+            X: 2
+            Y: 2
+            Z: 2
+          }
+        }
+        ParentId: 11311163467658893501
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Type"
+            Enum {
+              Value: "mc:esfx_gunshot_assaultrifle_ak:16"
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 6491078578190431103
+          }
+          TeamSettings {
+          }
+          AudioBP {
+            Volume: 1
             Falloff: 3600
             Radius: 400
             EnableOcclusion: true
@@ -6667,6 +6716,15 @@ Assets {
       }
     }
     Assets {
+      Id: 6491078578190431103
+      Name: "Gunshot Assault Rifle AK Set 01 SFX"
+      PlatformAssetType: 10
+      PrimaryAsset {
+        AssetType: "AudioBlueprintAssetRef"
+        AssetId: "sfxabp_gunshot_assaultrifle_ak_ref"
+      }
+    }
+    Assets {
       Id: 3556098900785263519
       Name: "Military Mobile Radar 01 - Arm"
       PlatformAssetType: 1
@@ -6770,5 +6828,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 74
 }

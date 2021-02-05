@@ -60,7 +60,8 @@ end
 
 local function HasRequiredProperties(board)
     if board:GetCustomProperty("Name") and
-        board:GetCustomProperty("BoardAsset") then
+        board:GetCustomProperty("BoardAsset") and
+        board:GetCustomProperty("Waves") then
         return true
     else
         return false
@@ -88,12 +89,14 @@ function Database:_LoadBoardsData()
         local boardName = board:GetCustomProperty("Name")
         local boardDifficultyMultiplier = board:GetCustomProperty("DifficultyMultiplier")
         local boardAsset = board:GetCustomProperty("BoardAsset")
+        local waveObject = board:GetCustomProperty("Waves")
 
         local boardData = {
             index = i,
             name = boardName,
             boardDifficultyMultiplier = boardDifficultyMultiplier,
-            boardAsset = boardAsset
+            boardAsset = boardAsset,
+            waveObject = waveObject
         }
         
         self.boardDatasByIndex[boardData.index] = boardData
