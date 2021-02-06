@@ -19,6 +19,7 @@ function Tower.New(towerData, board, owner)
     self.owner = owner
     self.towerAssetInstance = nil
     self.currentTarget = nil
+    self.runtimes = {}
 
     self:_Init(towerData)
 
@@ -150,6 +151,8 @@ function Tower:GetCost()
     return self.data.cost
 end
 
+---------------------------------
+-- TODO: Move this to a stat table.
 function Tower:GetDamage()
     return self.data.damage
 end
@@ -161,6 +164,7 @@ end
 function Tower:GetRange()
     return self.data.range
 end
+---------------------------------
 
 function Tower:GetNextUpgradeMUID()
     return self.data.nextTowerMUID
@@ -297,7 +301,6 @@ function Tower:_Runtime()
     local position = self:GetWorldPosition()
     self.isrunning = true
     self.currentTarget = nil
-    self.runtimes = {}
     
     if Environment.IsClient() then
         -- Rotating Runtime

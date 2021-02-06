@@ -77,6 +77,18 @@ function Inventory:_Init(database,owner,inventoryTowersString,equippedTowersStri
         local tower = database:NewTowerByID(1)
         table.insert(self.towers,tower)
         table.insert(self.equippedTowers,tower)
+
+        local tower = database:NewTowerByName("Sniper")
+        table.insert(self.towers,tower)
+        table.insert(self.equippedTowers,tower)
+
+        local tower = database:NewTowerByName("AOE")
+        table.insert(self.towers,tower)
+        table.insert(self.equippedTowers,tower)
+
+        local tower = database:NewTowerByName("Bank")
+        table.insert(self.towers,tower)
+        table.insert(self.equippedTowers,tower)
     else
         for tower in inventoryTowersString:gmatch("([^,]+),") do
             print("inventory MUID:",tower)

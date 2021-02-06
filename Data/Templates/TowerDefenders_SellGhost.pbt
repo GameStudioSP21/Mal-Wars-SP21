@@ -1,6 +1,6 @@
 Assets {
-  Id: 10395507673509710809
-  Name: "TowerDefenders_UpgradeGhost"
+  Id: 6634834666611468398
+  Name: "TowerDefenders_SellGhost"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -47,14 +47,14 @@ Assets {
           Overrides {
             Name: "bp:Color"
             Color {
-              R: 0.98
-              G: 0.954039812
+              G: 1
+              B: 0.761589527
               A: 1
             }
           }
           Overrides {
             Name: "bp:Emissive Boost"
-            Float: 13.1150932
+            Float: 2.76214862
           }
           Overrides {
             Name: "bp:Life"

@@ -1,13 +1,13 @@
 Assets {
-  Id: 1582347470910669572
-  Name: "50CalTower"
+  Id: 16013314213448772834
+  Name: "50CalTowerBank"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
       RootId: 8624933585752597521
       Objects {
         Id: 8624933585752597521
-        Name: "50CalTower"
+        Name: "50CalTowerBank"
         Transform {
           Scale {
             X: 1
@@ -227,9 +227,11 @@ Assets {
         Name: "VerticalRotator"
         Transform {
           Location {
+            X: 31.6835938
             Z: 28.683609
           }
           Rotation {
+            Pitch: 89.6450119
           }
           Scale {
             X: 1
@@ -1483,16 +1485,16 @@ Assets {
         Name: "Modern Weapon - Gas Cylinder 01"
         Transform {
           Location {
-            X: 27.3608398
+            X: -134.880981
             Y: -10.1835938
-            Z: 18.302124
+            Z: 17.2974701
           }
           Rotation {
           }
           Scale {
-            X: 4.83381605
-            Y: 4.97702026
-            Z: 3.80609274
+            X: 5.26490068
+            Y: 17.1601849
+            Z: 13.1229858
           }
         }
         ParentId: 7834384463485036333
@@ -6159,11 +6161,11 @@ Assets {
         }
         AudioInstance {
           AudioAsset {
-            Id: 6505169517459261508
+            Id: 2658973309444737420
           }
           AutoPlay: true
           Transient: true
-          Pitch: -631.243408
+          Pitch: 555.765137
           Volume: 2.08646464
           Falloff: -1
           Radius: -1
@@ -6196,11 +6198,12 @@ Assets {
         }
         AudioInstance {
           AudioAsset {
-            Id: 10943013263251074544
+            Id: 16271564872984640893
           }
           AutoPlay: true
           Transient: true
-          Volume: 1.58333898
+          Pitch: 150.984863
+          Volume: 2.52266407
           Falloff: -1
           Radius: -1
           EnableOcclusion: true
@@ -6232,12 +6235,12 @@ Assets {
         }
         AudioInstance {
           AudioAsset {
-            Id: 2825736010572694941
+            Id: 13202397192533271589
           }
           AutoPlay: true
           Transient: true
-          Pitch: -1366.24451
-          Volume: 1.27708852
+          Pitch: -134.742676
+          Volume: 1.94724107
           Falloff: -1
           Radius: -1
           EnableOcclusion: true
@@ -6535,30 +6538,30 @@ Assets {
       }
     }
     Assets {
-      Id: 6505169517459261508
-      Name: "Industrial Servo Drill Movement Short 01 SFX"
+      Id: 2658973309444737420
+      Name: "Designer Sub Bass Drop 02 SFX"
       PlatformAssetType: 7
       PrimaryAsset {
         AssetType: "AudioAssetRef"
-        AssetId: "sfx_industrial_servo_drill_movement_short_01a_Cue_ref"
+        AssetId: "sfx_designer_sub_bass_drop_02_Cue_ref"
       }
     }
     Assets {
-      Id: 10943013263251074544
-      Name: "Sci-fi Robotic Servo Movement Cranking Airlock 01 SFX"
+      Id: 16271564872984640893
+      Name: "Sci-fi Meta Money Pickup 01 SFX"
       PlatformAssetType: 7
       PrimaryAsset {
         AssetType: "AudioAssetRef"
-        AssetId: "sfx_scifi_robotic_servo_movement_cranking_airlock_01_Cue_ref"
+        AssetId: "sfx_meta_scifi_money_pickup_01_Cue_ref"
       }
     }
     Assets {
-      Id: 2825736010572694941
-      Name: "Sci-fi Airlock Servo Movement Door Close 01 SFX"
+      Id: 13202397192533271589
+      Name: "Sci-fi Meta Money Pickup 02 SFX"
       PlatformAssetType: 7
       PrimaryAsset {
         AssetType: "AudioAssetRef"
-        AssetId: "sfx_scifi_airlock_servo_movement_door_close_01_Cue_ref"
+        AssetId: "sfx_meta_scifi_money_pickup_02_Cue_ref"
       }
     }
     PrimaryAssetId {

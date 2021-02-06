@@ -13,8 +13,6 @@ local function OnServerPlayerJoined(player)
     -- Spawn the inventory helper for the player. The inventory will be setup by the inventory replicator
     local inventoryHelper = World.SpawnAsset(INVENTORY_HELPER,{ parent = INVENTORY_FOLDER })
     inventoryHelper:SetNetworkedCustomProperty("OWNER",player.id)
-
-    player:SetResource("GEMS", 500)
 end
 
 local function InitalizeServerEvents()
@@ -64,8 +62,23 @@ local function InitalizeServerEvents()
 
     end)
 
-    -- TODO: Delete Tower
+    -- TODO: Sell Tower
+    Events.ConnectForPlayer("ST",function(_,player,x,y,z)
+        print("[Server] Received SELL from:",player.name," ",x," ",y," ",z)
 
+        -- Current board the player is playing on.
+        local board = player.serverUserData.activeBoard
+        local pos = Vector3.New(x,y,z)
+
+        for _, tower in pairs(board:GetAllTowers()) do
+            if tower:GetWorldPosition() == pos then
+                local owner = tower:GetOwner()
+                board:SellTower(tower,true) -- Networked function
+                Events.BroadcastToAllPlayers("UT",tower:GetOwner(),pos.x,pos.y,pos.z)
+                break
+            end
+        end
+    end)
 
     Events.ConnectForPlayer("GU",function(player,delta)
         print("[Server] Received gems delta by player",delta)

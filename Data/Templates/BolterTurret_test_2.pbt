@@ -6399,7 +6399,7 @@ Assets {
           }
           AutoPlay: true
           Transient: true
-          Pitch: -631.243408
+          Pitch: -896.682129
           Volume: 2.08646464
           Falloff: -1
           Radius: -1
@@ -6436,6 +6436,7 @@ Assets {
           }
           AutoPlay: true
           Transient: true
+          Pitch: -634.765259
           Volume: 1.58333898
           Falloff: -1
           Radius: -1
@@ -6472,6 +6473,7 @@ Assets {
           }
           AutoPlay: true
           Transient: true
+          Pitch: -1063.3562
           Volume: 1
           Falloff: -1
           Radius: -1

@@ -12,8 +12,8 @@ local function OnStateChanged()
     if state == 6 and not isDead then -- Death State
         isDead = true
 
-        local verticalDirection = 45
-        local horizontalMag = 30
+        local verticalDirection = 60
+        local horizontalMag = 32
         local deadPos = ROOT:GetWorldPosition()
 
         local gems = GemValues.GetGemsByValue(InitalHealth/2)
@@ -26,7 +26,7 @@ local function OnStateChanged()
                 BasicProjectiles.New({
                     object = newGem,
                     direction = randomDirection,
-                    endOffsetPosition = Vector3.New(0,0,10),
+                    endOffsetPosition = Vector3.New(0,0,20),
                     isRaycasting = true,
                 })
 

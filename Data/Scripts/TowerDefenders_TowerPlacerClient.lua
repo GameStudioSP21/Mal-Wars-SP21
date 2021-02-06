@@ -1,6 +1,6 @@
 local TowerDatabase = require(script:GetCustomProperty("TowerDatabase"))
-local EaseUI = require(script:GetCustomProperty("EaseUI")) --- REMOVE
 local Ease3D = require(script:GetCustomProperty("Ease3D"))
+local GemWallet = require(script:GetCustomProperty("GemWallet"))
 
 local PLACEMENT_RADIUS = script:GetCustomProperty("PlacementRadius")
 local BLOCKED_RADIUS = script:GetCustomProperty("BlockedRadius")
@@ -175,6 +175,7 @@ LOCAL_PLAYER.bindingPressedEvent:Connect(function(_,key)
                 prepedTower:SetOwner(LOCAL_PLAYER)
                 prepedTower:SetBoard(board)
                 -- TODO: Add a rotation as an additional step.
+                GemWallet.SubtractFromWallet(prepedTower:GetCost())
                 board:AddTower(prepedTower, roundedPos)
                 CleanUpPlacementVisuals()
             end

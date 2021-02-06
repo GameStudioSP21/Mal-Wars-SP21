@@ -1,26 +1,35 @@
 local TowerDatabase = require(script:GetCustomProperty("TowerDatabase"))
 local Ease3D = require(script:GetCustomProperty("Ease3D"))
 
-local UPGRADE_GHOST = script:GetCustomProperty("UpgradeGhost")
-local CONFIRM_UPGRADE_KEY = "ability_primary"
-local CANCEL_UPGRADE_KEY = "ability_secondary"
+local SELL_GHOST = script:GetCustomProperty("SellGhost")
+local CONFIRM_SELL_KEY = "ability_primary"
+local CANCEL_SELL_KEY = "ability_secondary"
 local ISDEBUG = false
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 
 local ATTRACT_RANGE = 100^2
 
-local upgradeGhost = nil -- The indicator for the upgrader
+local sellGhost = nil -- The indicator for the upgrader
 local selectedTower = nil -- The tower that the upgrader has selected
 
-local function CreateUpgradeGhost()
-    upgradeGhost = World.SpawnAsset(UPGRADE_GHOST)
+local function CreateSellGhost()
+    sellGhost = World.SpawnAsset(SELL_GHOST)
 end
 
-local function RemoveUpgradeGhost()
-    if Object.IsValid(upgradeGhost) then
-        upgradeGhost:Destroy()
+local function RemoveSellGhost()
+    if Object.IsValid(sellGhost) then
+        sellGhost:Destroy()
     end
 end
+
+---------------------------------------------------------
+---------------------------------------------------------
+---------------------------------------------------------
+-- TODO URGENT: All this code is repeating. I need to make
+-- sure I turn this into a class so that I can easily have one code for all of the raycasters. 
+---------------------------------------------------------
+---------------------------------------------------------
+---------------------------------------------------------
 
 -- Shoots a ray from the camera forward to some distance and check to see if nearby a tower.
 local function GetGroundPositionFromCamera()
@@ -69,7 +78,7 @@ function Tick()
 
     -- If the player is preparing an upgrade then show the upgrading ghost and make sure
     -- the player is on a valid board.
-    if Object.IsValid(upgradeGhost) and LOCAL_PLAYER.clientUserData.activeBoard then
+    if Object.IsValid(sellGhost) and LOCAL_PLAYER.clientUserData.activeBoard then
         -- Move the ghost position to the impact position
         local board = LOCAL_PLAYER.clientUserData.activeBoard
         local impactPosition = GetGroundPositionFromCamera()
@@ -80,12 +89,11 @@ function Tick()
             -- Ease the upgrader ghost to the nearest tower.
             if nearestTower ~= selectedTower and nearestTower ~= nil then
                 selectedTower = nearestTower
-                Events.Broadcast("DisplayTowerStats",selectedTower)
-                Ease3D.EasePosition(upgradeGhost, selectedTower:GetWorldPosition(), 0.3, Ease3D.EasingEquation.SINE, Ease3D.EasingDirection.OUT)
+                Ease3D.EasePosition(sellGhost, selectedTower:GetWorldPosition(), 0.3, Ease3D.EasingEquation.SINE, Ease3D.EasingDirection.OUT)
             end
     
             if nearestTower == nil then
-                upgradeGhost:SetWorldPosition(impactPosition)
+                sellGhost:SetWorldPosition(impactPosition)
                 Events.Broadcast("StopDisplayingTowerStats")
                 selectedTower = nil
             end
@@ -97,25 +105,25 @@ function Tick()
 end
 
 LOCAL_PLAYER.bindingPressedEvent:Connect(function(_,key)
-    if Object.IsValid(upgradeGhost) then
+    if Object.IsValid(sellGhost) then
         -- If a valid tower is hovered over and the ghost upgrader is valid. 
-        if key == CONFIRM_UPGRADE_KEY and selectedTower then
+        if key == CONFIRM_SELL_KEY and selectedTower then
             local board = LOCAL_PLAYER.clientUserData.activeBoard
-            board:UpgradeTower(selectedTower)
-            Events.Broadcast("ConfirmTowerUpgrade",selectedTower)
-            Events.Broadcast("StopDisplayingTowerStats")
-            RemoveUpgradeGhost()
-        elseif key == CANCEL_UPGRADE_KEY then
-            RemoveUpgradeGhost()
-            Events.Broadcast("StopDisplayingTowerStats")
+            board:SellTower(selectedTower)
+            --Events.Broadcast("ConfirmTowerSell",selectedTower)
+            --Events.Broadcast("StopDisplayingTowerStats")
+            RemoveSellGhost()
+        elseif key == CANCEL_SELL_KEY then
+            RemoveSellGhost()
+            --Events.Broadcast("StopDisplayingTowerStats")
         end
     end
 end)
 
-Events.Connect("BeginUpgrading", function(turretName)
-    CreateUpgradeGhost()
+Events.Connect("BeginSelling", function(turretName)
+    CreateSellGhost()
 end)
 
-Events.Connect("CancelUpgrading", function()
-    RemoveUpgradeGhost()
+Events.Connect("CancelSelling", function()
+    RemoveSellGhost()
 end)

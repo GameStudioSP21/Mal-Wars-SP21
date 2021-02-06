@@ -205,10 +205,12 @@ Objects {
   Name: "Platform_long"
   Transform {
     Location {
-      Y: -542
+      X: 0.000480651855
+      Y: -542.000488
       Z: 485
     }
     Rotation {
+      Yaw: 3.07358496e-05
     }
     Scale {
       X: 1

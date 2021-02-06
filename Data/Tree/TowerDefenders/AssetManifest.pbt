@@ -8,30 +8,12 @@ Assets {
   }
 }
 Assets {
-  Id: 16918193034149971705
-  Name: "Fantasy Ability Purple 026"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Ability_Purple_026"
-  }
-}
-Assets {
   Id: 15114558003167156017
   Name: "Frame Beveled 001"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "FrameSolid8px_020"
-  }
-}
-Assets {
-  Id: 14461161754893801878
-  Name: "BG Gradient 001"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "BackgroundFlat_020"
   }
 }
 Assets {
@@ -95,15 +77,6 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "CenterArrow_003Wedge"
-  }
-}
-Assets {
-  Id: 3702662341168083634
-  Name: "Icon Damage"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_Damage"
   }
 }
 Assets {

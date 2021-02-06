@@ -1,25 +1,25 @@
 Assets {
-  Id: 4725648800459874937
-  Name: "TowerDefenders_CompareStatsView"
+  Id: 16079215690187532467
+  Name: "TowerDefenders_Bank_Base"
   PlatformAssetType: 3
   TextAsset {
     CustomParameters {
       Overrides {
-        Name: "cs:NumberStat"
+        Name: "cs:Projectiles"
         AssetReference {
-          Id: 10747962951358948895
+          Id: 12750211982329655730
         }
       }
       Overrides {
-        Name: "cs:ProgressStat"
+        Name: "cs:GemValues"
         AssetReference {
-          Id: 8525553637670770872
+          Id: 15655187407969173462
         }
       }
       Overrides {
-        Name: "cs:TowerDefenders_StatsThemeAPI"
+        Name: "cs:TowerDefenders_TowerBase"
         AssetReference {
-          Id: 18181533304032982468
+          Id: 2068630640413610580
         }
       }
     }
