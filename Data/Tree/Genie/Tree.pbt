@@ -1,6 +1,42 @@
 Name: "Genie"
 RootId: 14162530469465888814
 Objects {
+  Id: 4974037354870140862
+  Name: "uiWindow"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14162530469465888814
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1014702995829587558
+      value {
+        Overrides {
+          Name: "Name"
+          String: "uiWindow"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16436251208854137377
+    }
+  }
+}
+Objects {
   Id: 5381100992895509529
   Name: "uiMusic"
   Transform {
@@ -13,15 +49,6 @@ Objects {
   ParentId: 14162530469465888814
   TemplateInstance {
     ParameterOverrideMap {
-      key: 2547983973591348258
-      value {
-        Overrides {
-          Name: "cs:auto"
-          Int: 0
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 6920329758706618585
       value {
         Overrides {
@@ -29,11 +56,13 @@ Objects {
           String: "uiMusic"
         }
         Overrides {
-          Name: "Scale"
+          Name: "Position"
           Vector {
-            X: 1
-            Y: 1
-            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
           }
         }
       }
