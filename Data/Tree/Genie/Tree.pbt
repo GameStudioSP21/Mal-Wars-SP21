@@ -1,6 +1,32 @@
 Name: "Genie"
 RootId: 14162530469465888814
 Objects {
+  Id: 184197303248911001
+  Name: "uiMusic"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14162530469465888814
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 515049310684782888
+      value {
+        Overrides {
+          Name: "Name"
+          String: "uiMusic"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10887607614717120276
+    }
+  }
+}
+Objects {
   Id: 7596160733018894818
   Name: "uiInventory"
   Transform {
