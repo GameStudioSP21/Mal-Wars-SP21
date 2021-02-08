@@ -21,6 +21,15 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 3629363639768474638
+      value {
+        Overrides {
+          Name: "cs:auto"
+          Int: 0
+        }
+      }
+    }
     TemplateAsset {
       Id: 10887607614717120276
     }
