@@ -4474,6 +4474,6 @@ Assets {
   Marketplace {
     Description: "Upgraded Version of AOE Turret 2."
   }
-  SerializationVersion: 73
+  SerializationVersion: 74
   DirectlyPublished: true
 }

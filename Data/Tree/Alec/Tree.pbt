@@ -1,6 +1,54 @@
 Name: "Alec"
 RootId: 4253759879483692163
 Objects {
+  Id: 1632721640657753395
+  Name: "Turret 1-4"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4253759879483692163
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1141685311275434734
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Turret 1-4"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2350
+            Y: -13875
+            Z: 5780
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 135
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4834715473710738451
+    }
+  }
+}
+Objects {
   Id: 13405392395064096511
   Name: "Turret 1"
   Transform {

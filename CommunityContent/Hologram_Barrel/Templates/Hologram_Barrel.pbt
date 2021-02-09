@@ -529,6 +529,6 @@ Assets {
   Marketplace {
     Description: "Hologram Barrel"
   }
-  SerializationVersion: 73
+  SerializationVersion: 74
   DirectlyPublished: true
 }

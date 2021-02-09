@@ -518,7 +518,7 @@ Assets {
         Name: "1"
         Transform {
           Location {
-            X: -11936.7979
+            X: -11936.7978
           }
           Rotation {
           }
@@ -1292,7 +1292,7 @@ Assets {
         Name: "1"
         Transform {
           Location {
-            X: -11936.7979
+            X: -11936.7978
           }
           Rotation {
           }
@@ -1737,7 +1737,7 @@ Assets {
         Name: "1"
         Transform {
           Location {
-            X: -4769.71143
+            X: -4769.71142
             Y: -5152.14746
           }
           Rotation {
@@ -1835,7 +1835,7 @@ Assets {
         Name: "1"
         Transform {
           Location {
-            X: -7749.79395
+            X: -7749.79394
             Y: -5784.73389
           }
           Rotation {
@@ -2815,7 +2815,7 @@ Assets {
         Transform {
           Location {
             X: -31452.0527
-            Y: 15525.0811
+            Y: 15525.081
             Z: 0.00027193292
           }
           Rotation {
@@ -3364,7 +3364,7 @@ Assets {
         Name: "1"
         Transform {
           Location {
-            X: -11936.7979
+            X: -11936.7978
           }
           Rotation {
           }
@@ -3809,7 +3809,7 @@ Assets {
         Name: "1"
         Transform {
           Location {
-            X: -4769.71143
+            X: -4769.71142
             Y: -5152.14746
           }
           Rotation {
@@ -3907,7 +3907,7 @@ Assets {
         Name: "1"
         Transform {
           Location {
-            X: -7749.79395
+            X: -7749.79394
             Y: -5784.73389
           }
           Rotation {
@@ -4946,7 +4946,7 @@ Assets {
         Name: "1"
         Transform {
           Location {
-            X: -31691.8145
+            X: -31691.8144
             Y: 17922.1211
             Z: -0.594980717
           }
@@ -5451,5 +5451,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 73
+  SerializationVersion: 74
 }

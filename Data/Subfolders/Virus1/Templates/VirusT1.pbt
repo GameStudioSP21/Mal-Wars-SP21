@@ -15,15 +15,15 @@ Assets {
             Z: 0.8
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 10048520509696570093
         ChildIds: 1352242396043753713
-        ChildIds: 4497973664590578319
         ChildIds: 5376210260931897654
         ChildIds: 12295676590094980279
-        ChildIds: 10356483002421232107
         ChildIds: 5864026094148505248
-        ChildIds: 572938750383703011
         ChildIds: 8878833570825856668
+        ChildIds: 2226123038635517392
+        ChildIds: 1557519682336239044
+        ChildIds: 13509463043364040708
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2529,362 +2529,6 @@ Assets {
         }
       }
       Objects {
-        Id: 4497973664590578319
-        Name: "Leg"
-        Transform {
-          Location {
-            X: 170
-            Z: 184.999939
-          }
-          Rotation {
-            Yaw: -44.9999924
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 2032531932447730266
-        ChildIds: 9112132516728703588
-        ChildIds: 16227226224222269234
-        ChildIds: 1743116447676936602
-        ChildIds: 1348787461505372169
-        ChildIds: 6966737873188548430
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 9112132516728703588
-        Name: "Bone Human Femur 01"
-        Transform {
-          Location {
-            X: -55
-            Y: -5
-          }
-          Rotation {
-            Pitch: -49.9999695
-            Yaw: 1.3660373e-05
-            Roll: 180
-          }
-          Scale {
-            X: 1.4
-            Y: 1.4
-            Z: 3.20000052
-          }
-        }
-        ParentId: 4497973664590578319
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 11740730692540221599
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              G: 0.972549081
-              B: 0.00392156886
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 17277024848322937415
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 16227226224222269234
-        Name: "Fantasy Sword Blade 03"
-        Transform {
-          Location {
-            X: 20
-            Z: 55
-          }
-          Rotation {
-            Pitch: 24.9999866
-            Roll: -179.999985
-          }
-          Scale {
-            X: 1
-            Y: 1.60000014
-            Z: 3
-          }
-        }
-        ParentId: 4497973664590578319
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 11740730692540221599
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Detail1:id"
-            AssetReference {
-              Id: 11740730692540221599
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Detail1:color"
-            Color {
-              G: 0.972549081
-              B: 0.00392156886
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Trim:id"
-            AssetReference {
-              Id: 11740730692540221599
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Trim:color"
-            Color {
-              G: 0.972549081
-              B: 0.00392156886
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              G: 0.972549081
-              B: 0.00392156886
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 4801985963367974663
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 1743116447676936602
-        Name: "Coral Branches Small"
-        Transform {
-          Location {
-            X: 5
-            Y: -5
-            Z: 40
-          }
-          Rotation {
-            Pitch: -14.9999962
-          }
-          Scale {
-            X: 0.3
-            Y: -0.1
-            Z: 0.4
-          }
-        }
-        ParentId: 4497973664590578319
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 11740730692540221599
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              G: 0.972549081
-              B: 0.00392156886
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9862315181784924394
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 1348787461505372169
-        Name: "Coral Branches Small"
-        Transform {
-          Location {
-            X: 19.4888763
-            Y: -5
-            Z: 36.1177063
-          }
-          Rotation {
-            Pitch: -14.0760698
-            Yaw: 20.6468754
-            Roll: -5.23617697
-          }
-          Scale {
-            X: 0.3
-            Y: -0.1
-            Z: 0.4
-          }
-        }
-        ParentId: 4497973664590578319
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 11740730692540221599
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              G: 0.972549081
-              B: 0.00392156886
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9862315181784924394
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 6966737873188548430
-        Name: "Coral Branches Small"
-        Transform {
-          Location {
-            X: 14.6592712
-            Y: 15
-            Z: 37.4118042
-          }
-          Rotation {
-            Pitch: -14.0760632
-            Yaw: -20.6469
-            Roll: 5.23619413
-          }
-          Scale {
-            X: 0.3
-            Y: -0.1
-            Z: 0.4
-          }
-        }
-        ParentId: 4497973664590578319
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 11740730692540221599
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              G: 0.972549081
-              B: 0.00392156886
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9862315181784924394
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
         Id: 5376210260931897654
         Name: "Fantasy Sword Guard 02"
         Transform {
@@ -3001,370 +2645,13 @@ Assets {
         }
       }
       Objects {
-        Id: 10356483002421232107
-        Name: "Leg"
-        Transform {
-          Location {
-            X: 170
-            Y: 325
-            Z: 184.999939
-          }
-          Rotation {
-            Yaw: 44.9999924
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 2032531932447730266
-        ChildIds: 10714701617340229791
-        ChildIds: 14517777484926434702
-        ChildIds: 985891179979000556
-        ChildIds: 5321691422013466674
-        ChildIds: 15651339777582088698
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 10714701617340229791
-        Name: "Bone Human Femur 01"
-        Transform {
-          Location {
-            X: -55
-            Y: -5
-          }
-          Rotation {
-            Pitch: -49.9999695
-            Yaw: 1.3660373e-05
-            Roll: 180
-          }
-          Scale {
-            X: 1.4
-            Y: 1.4
-            Z: 3.20000052
-          }
-        }
-        ParentId: 10356483002421232107
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 11740730692540221599
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0923178047
-              G: 0.820000052
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 17277024848322937415
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 14517777484926434702
-        Name: "Fantasy Sword Blade 03"
-        Transform {
-          Location {
-            X: 20
-            Z: 55
-          }
-          Rotation {
-            Pitch: 24.9999866
-            Roll: -179.999985
-          }
-          Scale {
-            X: 1
-            Y: 1.60000014
-            Z: 3
-          }
-        }
-        ParentId: 10356483002421232107
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 11740730692540221599
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0923178047
-              G: 0.820000052
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Detail1:id"
-            AssetReference {
-              Id: 11740730692540221599
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Detail1:color"
-            Color {
-              G: 0.972549081
-              B: 0.00392156886
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Trim:id"
-            AssetReference {
-              Id: 11740730692540221599
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Trim:color"
-            Color {
-              G: 0.972549081
-              B: 0.00392156886
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 4801985963367974663
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 985891179979000556
-        Name: "Coral Branches Small"
-        Transform {
-          Location {
-            X: 5
-            Y: -5
-            Z: 40
-          }
-          Rotation {
-            Pitch: -14.9999962
-          }
-          Scale {
-            X: 0.3
-            Y: -0.1
-            Z: 0.4
-          }
-        }
-        ParentId: 10356483002421232107
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 11740730692540221599
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0923178047
-              G: 0.820000052
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9862315181784924394
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 5321691422013466674
-        Name: "Coral Branches Small"
-        Transform {
-          Location {
-            X: 19.4888763
-            Y: -5
-            Z: 36.1177063
-          }
-          Rotation {
-            Pitch: -14.0760698
-            Yaw: 20.6468754
-            Roll: -5.23617697
-          }
-          Scale {
-            X: 0.3
-            Y: -0.1
-            Z: 0.4
-          }
-        }
-        ParentId: 10356483002421232107
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 11740730692540221599
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0923178047
-              G: 0.820000052
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9862315181784924394
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 15651339777582088698
-        Name: "Coral Branches Small"
-        Transform {
-          Location {
-            X: 14.6592712
-            Y: 15
-            Z: 37.4118042
-          }
-          Rotation {
-            Pitch: -14.0760632
-            Yaw: -20.6469
-            Roll: 5.23619413
-          }
-          Scale {
-            X: 0.3
-            Y: -0.1
-            Z: 0.4
-          }
-        }
-        ParentId: 10356483002421232107
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 11740730692540221599
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0923178047
-              G: 0.820000052
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9862315181784924394
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
         Id: 5864026094148505248
         Name: "Leg"
         Transform {
           Location {
-            X: -160
-            Y: 325
-            Z: 184.999939
+            X: -61.4211273
+            Y: 230.694
+            Z: 124.598389
           }
           Rotation {
             Yaw: 135
@@ -3396,8 +2683,9 @@ Assets {
         Name: "Bone Human Femur 01"
         Transform {
           Location {
-            X: -55
-            Y: -5
+            X: 56.6504517
+            Y: -5.2351284
+            Z: 54.4903564
           }
           Rotation {
             Pitch: -49.9999695
@@ -3455,8 +2743,9 @@ Assets {
         Name: "Fantasy Sword Blade 03"
         Transform {
           Location {
-            X: 20
-            Z: 55
+            X: 131.65
+            Y: -0.235147476
+            Z: 109.490356
           }
           Rotation {
             Pitch: 24.9999866
@@ -3541,12 +2830,12 @@ Assets {
         Name: "Coral Branches Small"
         Transform {
           Location {
-            X: 5
-            Y: -5
-            Z: 40
+            X: 116.541016
+            Y: -5.22607422
+            Z: 94.480957
           }
           Rotation {
-            Pitch: -14.9999962
+            Pitch: -15
           }
           Scale {
             X: 0.3
@@ -3599,14 +2888,14 @@ Assets {
         Name: "Coral Branches Small"
         Transform {
           Location {
-            X: 19.4888763
-            Y: -5
-            Z: 36.1177063
+            X: 131.005859
+            Y: -5.22070312
+            Z: 90.5966797
           }
           Rotation {
-            Pitch: -14.0760698
+            Pitch: -14.0760803
             Yaw: 20.6468754
-            Roll: -5.23617697
+            Roll: -5.23617554
           }
           Scale {
             X: 0.3
@@ -3659,13 +2948,13 @@ Assets {
         Name: "Coral Branches Small"
         Transform {
           Location {
-            X: 14.6592712
-            Y: 15
-            Z: 37.4118042
+            X: 126.210938
+            Y: 14.7727051
+            Z: 91.890625
           }
           Rotation {
-            Pitch: -14.0760632
-            Yaw: -20.6469
+            Pitch: -14.0760498
+            Yaw: -20.6469116
             Roll: 5.23619413
           }
           Scale {
@@ -3675,363 +2964,6 @@ Assets {
           }
         }
         ParentId: 5864026094148505248
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 11740730692540221599
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0923178047
-              G: 0.820000052
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9862315181784924394
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 572938750383703011
-        Name: "Leg"
-        Transform {
-          Location {
-            X: -160
-            Y: -5
-            Z: 189.999939
-          }
-          Rotation {
-            Yaw: -135
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 2032531932447730266
-        ChildIds: 1628499985009400932
-        ChildIds: 1920375386953462748
-        ChildIds: 371282053772667167
-        ChildIds: 2362429218287984751
-        ChildIds: 16831855392171315861
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 1628499985009400932
-        Name: "Bone Human Femur 01"
-        Transform {
-          Location {
-            X: -55
-            Y: -5
-          }
-          Rotation {
-            Pitch: -49.9999695
-            Yaw: 1.3660373e-05
-            Roll: 180
-          }
-          Scale {
-            X: 1.4
-            Y: 1.4
-            Z: 3.20000052
-          }
-        }
-        ParentId: 572938750383703011
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 11740730692540221599
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0923178047
-              G: 0.820000052
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 17277024848322937415
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 1920375386953462748
-        Name: "Fantasy Sword Blade 03"
-        Transform {
-          Location {
-            X: 20
-            Z: 55
-          }
-          Rotation {
-            Pitch: 24.9999866
-            Roll: -179.999985
-          }
-          Scale {
-            X: 1
-            Y: 1.60000014
-            Z: 3
-          }
-        }
-        ParentId: 572938750383703011
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 11740730692540221599
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0923178047
-              G: 0.820000052
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Detail1:id"
-            AssetReference {
-              Id: 11740730692540221599
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Detail1:color"
-            Color {
-              G: 0.972549081
-              B: 0.00392156886
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Trim:id"
-            AssetReference {
-              Id: 11740730692540221599
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Trim:color"
-            Color {
-              G: 0.972549081
-              B: 0.00392156886
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 4801985963367974663
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 371282053772667167
-        Name: "Coral Branches Small"
-        Transform {
-          Location {
-            X: 5
-            Y: -5
-            Z: 40
-          }
-          Rotation {
-            Pitch: -14.9999962
-          }
-          Scale {
-            X: 0.3
-            Y: -0.1
-            Z: 0.4
-          }
-        }
-        ParentId: 572938750383703011
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 11740730692540221599
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0923178047
-              G: 0.820000052
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9862315181784924394
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 2362429218287984751
-        Name: "Coral Branches Small"
-        Transform {
-          Location {
-            X: 19.4888763
-            Y: -5
-            Z: 36.1177063
-          }
-          Rotation {
-            Pitch: -14.0760698
-            Yaw: 20.6468754
-            Roll: -5.23617697
-          }
-          Scale {
-            X: 0.3
-            Y: -0.1
-            Z: 0.4
-          }
-        }
-        ParentId: 572938750383703011
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 11740730692540221599
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0923178047
-              G: 0.820000052
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9862315181784924394
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 16831855392171315861
-        Name: "Coral Branches Small"
-        Transform {
-          Location {
-            X: 14.6592712
-            Y: 15
-            Z: 37.4118042
-          }
-          Rotation {
-            Pitch: -14.0760632
-            Yaw: -20.6469
-            Roll: 5.23619413
-          }
-          Scale {
-            X: 0.3
-            Y: -0.1
-            Z: 0.4
-          }
-        }
-        ParentId: 572938750383703011
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -4128,6 +3060,1083 @@ Assets {
           }
         }
       }
+      Objects {
+        Id: 2226123038635517392
+        Name: "Leg"
+        Transform {
+          Location {
+            X: -64.1884766
+            Y: 99.4736328
+            Z: 124.598633
+          }
+          Rotation {
+            Yaw: 36.9125481
+          }
+          Scale {
+            X: -1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2032531932447730266
+        ChildIds: 8640246966581400011
+        ChildIds: 766263707980931448
+        ChildIds: 11258105263061055954
+        ChildIds: 10139527077852580809
+        ChildIds: 7255607243771218125
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 8640246966581400011
+        Name: "Bone Human Femur 01"
+        Transform {
+          Location {
+            X: 56.6504517
+            Y: -5.2351284
+            Z: 54.4903564
+          }
+          Rotation {
+            Pitch: -49.9999695
+            Yaw: 1.3660373e-05
+            Roll: 180
+          }
+          Scale {
+            X: 1.4
+            Y: 1.4
+            Z: 3.20000052
+          }
+        }
+        ParentId: 2226123038635517392
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 11740730692540221599
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0923178047
+              G: 0.820000052
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 17277024848322937415
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 766263707980931448
+        Name: "Fantasy Sword Blade 03"
+        Transform {
+          Location {
+            X: 131.65
+            Y: -0.235147476
+            Z: 109.490356
+          }
+          Rotation {
+            Pitch: 24.9999866
+            Roll: -179.999985
+          }
+          Scale {
+            X: 1
+            Y: 1.60000014
+            Z: 3
+          }
+        }
+        ParentId: 2226123038635517392
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 11740730692540221599
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0923178047
+              G: 0.820000052
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 11740730692540221599
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:color"
+            Color {
+              G: 0.972549081
+              B: 0.00392156886
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 11740730692540221599
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:color"
+            Color {
+              G: 0.972549081
+              B: 0.00392156886
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 4801985963367974663
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 11258105263061055954
+        Name: "Coral Branches Small"
+        Transform {
+          Location {
+            X: 116.541016
+            Y: -5.22607422
+            Z: 94.480957
+          }
+          Rotation {
+            Pitch: -15
+          }
+          Scale {
+            X: 0.3
+            Y: -0.1
+            Z: 0.4
+          }
+        }
+        ParentId: 2226123038635517392
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 11740730692540221599
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0923178047
+              G: 0.820000052
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9862315181784924394
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 10139527077852580809
+        Name: "Coral Branches Small"
+        Transform {
+          Location {
+            X: 131.005859
+            Y: -5.22070312
+            Z: 90.5966797
+          }
+          Rotation {
+            Pitch: -14.0760803
+            Yaw: 20.6468754
+            Roll: -5.23617554
+          }
+          Scale {
+            X: 0.3
+            Y: -0.1
+            Z: 0.4
+          }
+        }
+        ParentId: 2226123038635517392
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 11740730692540221599
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0923178047
+              G: 0.820000052
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9862315181784924394
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 7255607243771218125
+        Name: "Coral Branches Small"
+        Transform {
+          Location {
+            X: 126.210938
+            Y: 14.7727051
+            Z: 91.890625
+          }
+          Rotation {
+            Pitch: -14.0760498
+            Yaw: -20.6469116
+            Roll: 5.23619413
+          }
+          Scale {
+            X: 0.3
+            Y: -0.1
+            Z: 0.4
+          }
+        }
+        ParentId: 2226123038635517392
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 11740730692540221599
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0923178047
+              G: 0.820000052
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9862315181784924394
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 1557519682336239044
+        Name: "Leg"
+        Transform {
+          Location {
+            X: 73.6806641
+            Y: 91.9580078
+            Z: 125.929199
+          }
+          Rotation {
+            Yaw: 139.819962
+          }
+          Scale {
+            X: -1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2032531932447730266
+        ChildIds: 15934298478673180524
+        ChildIds: 7091340895886566515
+        ChildIds: 3952980402058190596
+        ChildIds: 15825837197286560866
+        ChildIds: 7275609172425506408
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 15934298478673180524
+        Name: "Bone Human Femur 01"
+        Transform {
+          Location {
+            X: 56.6504517
+            Y: -5.2351284
+            Z: 54.4903564
+          }
+          Rotation {
+            Pitch: -49.9999695
+            Yaw: 1.3660373e-05
+            Roll: 180
+          }
+          Scale {
+            X: 1.4
+            Y: 1.4
+            Z: 3.20000052
+          }
+        }
+        ParentId: 1557519682336239044
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 11740730692540221599
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0923178047
+              G: 0.820000052
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 17277024848322937415
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 7091340895886566515
+        Name: "Fantasy Sword Blade 03"
+        Transform {
+          Location {
+            X: 131.65
+            Y: -0.235147476
+            Z: 109.490356
+          }
+          Rotation {
+            Pitch: 24.9999866
+            Roll: -179.999985
+          }
+          Scale {
+            X: 1
+            Y: 1.60000014
+            Z: 3
+          }
+        }
+        ParentId: 1557519682336239044
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 11740730692540221599
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0923178047
+              G: 0.820000052
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 11740730692540221599
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:color"
+            Color {
+              G: 0.972549081
+              B: 0.00392156886
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 11740730692540221599
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:color"
+            Color {
+              G: 0.972549081
+              B: 0.00392156886
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 4801985963367974663
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 3952980402058190596
+        Name: "Coral Branches Small"
+        Transform {
+          Location {
+            X: 116.541016
+            Y: -5.22607422
+            Z: 94.480957
+          }
+          Rotation {
+            Pitch: -15
+          }
+          Scale {
+            X: 0.3
+            Y: -0.1
+            Z: 0.4
+          }
+        }
+        ParentId: 1557519682336239044
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 11740730692540221599
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0923178047
+              G: 0.820000052
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9862315181784924394
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 15825837197286560866
+        Name: "Coral Branches Small"
+        Transform {
+          Location {
+            X: 131.005859
+            Y: -5.22070312
+            Z: 90.5966797
+          }
+          Rotation {
+            Pitch: -14.0760803
+            Yaw: 20.6468754
+            Roll: -5.23617554
+          }
+          Scale {
+            X: 0.3
+            Y: -0.1
+            Z: 0.4
+          }
+        }
+        ParentId: 1557519682336239044
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 11740730692540221599
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0923178047
+              G: 0.820000052
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9862315181784924394
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 7275609172425506408
+        Name: "Coral Branches Small"
+        Transform {
+          Location {
+            X: 126.210938
+            Y: 14.7727051
+            Z: 91.890625
+          }
+          Rotation {
+            Pitch: -14.0760498
+            Yaw: -20.6469116
+            Roll: 5.23619413
+          }
+          Scale {
+            X: 0.3
+            Y: -0.1
+            Z: 0.4
+          }
+        }
+        ParentId: 1557519682336239044
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 11740730692540221599
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0923178047
+              G: 0.820000052
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9862315181784924394
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 13509463043364040708
+        Name: "Leg"
+        Transform {
+          Location {
+            X: 72.6474609
+            Y: 226.044922
+            Z: 125.929199
+          }
+          Rotation {
+            Yaw: -146.959625
+          }
+          Scale {
+            X: -1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2032531932447730266
+        ChildIds: 3479329422126120483
+        ChildIds: 9088021329169859299
+        ChildIds: 3077324714251893443
+        ChildIds: 14103654586803033727
+        ChildIds: 17550682505389896425
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 3479329422126120483
+        Name: "Bone Human Femur 01"
+        Transform {
+          Location {
+            X: 56.6504517
+            Y: -5.2351284
+            Z: 54.4903564
+          }
+          Rotation {
+            Pitch: -49.9999695
+            Yaw: 1.3660373e-05
+            Roll: 180
+          }
+          Scale {
+            X: 1.4
+            Y: 1.4
+            Z: 3.20000052
+          }
+        }
+        ParentId: 13509463043364040708
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 11740730692540221599
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0923178047
+              G: 0.820000052
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 17277024848322937415
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 9088021329169859299
+        Name: "Fantasy Sword Blade 03"
+        Transform {
+          Location {
+            X: 131.65
+            Y: -0.235147476
+            Z: 109.490356
+          }
+          Rotation {
+            Pitch: 24.9999866
+            Roll: -179.999985
+          }
+          Scale {
+            X: 1
+            Y: 1.60000014
+            Z: 3
+          }
+        }
+        ParentId: 13509463043364040708
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 11740730692540221599
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0923178047
+              G: 0.820000052
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 11740730692540221599
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:color"
+            Color {
+              G: 0.972549081
+              B: 0.00392156886
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 11740730692540221599
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:color"
+            Color {
+              G: 0.972549081
+              B: 0.00392156886
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 4801985963367974663
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 3077324714251893443
+        Name: "Coral Branches Small"
+        Transform {
+          Location {
+            X: 116.541016
+            Y: -5.22607422
+            Z: 94.480957
+          }
+          Rotation {
+            Pitch: -15
+          }
+          Scale {
+            X: 0.3
+            Y: -0.1
+            Z: 0.4
+          }
+        }
+        ParentId: 13509463043364040708
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 11740730692540221599
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0923178047
+              G: 0.820000052
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9862315181784924394
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 14103654586803033727
+        Name: "Coral Branches Small"
+        Transform {
+          Location {
+            X: 131.005859
+            Y: -5.22070312
+            Z: 90.5966797
+          }
+          Rotation {
+            Pitch: -14.0760803
+            Yaw: 20.6468754
+            Roll: -5.23617554
+          }
+          Scale {
+            X: 0.3
+            Y: -0.1
+            Z: 0.4
+          }
+        }
+        ParentId: 13509463043364040708
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 11740730692540221599
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0923178047
+              G: 0.820000052
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9862315181784924394
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 17550682505389896425
+        Name: "Coral Branches Small"
+        Transform {
+          Location {
+            X: 126.210938
+            Y: 14.7727051
+            Z: 91.890625
+          }
+          Rotation {
+            Pitch: -14.0760498
+            Yaw: -20.6469116
+            Roll: 5.23619413
+          }
+          Scale {
+            X: 0.3
+            Y: -0.1
+            Z: 0.4
+          }
+        }
+        ParentId: 13509463043364040708
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 11740730692540221599
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0923178047
+              G: 0.820000052
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9862315181784924394
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
     }
     Assets {
       Id: 17264922194081618045
@@ -4175,6 +4184,15 @@ Assets {
       }
     }
     Assets {
+      Id: 9544913535066953067
+      Name: "Fantasy Sword Guard 02"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_weap_fan_guard_sword_002"
+      }
+    }
+    Assets {
       Id: 17277024848322937415
       Name: "Bone Human Femur 01"
       PlatformAssetType: 1
@@ -4210,15 +4228,6 @@ Assets {
         AssetId: "sm_coral_branch_small_01"
       }
     }
-    Assets {
-      Id: 9544913535066953067
-      Name: "Fantasy Sword Guard 02"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_weap_fan_guard_sword_002"
-      }
-    }
     PrimaryAssetId {
       AssetType: "None"
       AssetId: "None"
@@ -4227,6 +4236,6 @@ Assets {
   Marketplace {
     Description: "virus1"
   }
-  SerializationVersion: 73
+  SerializationVersion: 74
   DirectlyPublished: true
 }

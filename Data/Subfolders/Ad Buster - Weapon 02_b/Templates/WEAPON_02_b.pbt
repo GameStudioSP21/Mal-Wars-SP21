@@ -6343,6 +6343,6 @@ Assets {
   Marketplace {
     Description: "Weapon 02_b"
   }
-  SerializationVersion: 73
+  SerializationVersion: 74
   DirectlyPublished: true
 }

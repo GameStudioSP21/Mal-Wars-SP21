@@ -40,5 +40,5 @@ Assets {
     Version: "1.0.0"
     Description: "Hologram Barrier"
   }
-  SerializationVersion: 73
+  SerializationVersion: 74
 }

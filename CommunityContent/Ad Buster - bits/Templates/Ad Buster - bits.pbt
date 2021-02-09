@@ -736,6 +736,6 @@ Assets {
   Marketplace {
     Description: "Ad Buster digital currency"
   }
-  SerializationVersion: 73
+  SerializationVersion: 74
   DirectlyPublished: true
 }
