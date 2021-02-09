@@ -96,4 +96,4 @@ local function Window()
 	return self
 end
 
-local window = Window():CreateWindow()
+local window = Window()
