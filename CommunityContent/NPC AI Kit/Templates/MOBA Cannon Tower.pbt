@@ -2191,7 +2191,7 @@ Assets {
         Transform {
           Location {
             X: -27.5429688
-            Y: 20.8789062
+            Y: 20.8789063
             Z: 6.92651367
           }
           Rotation {
@@ -2431,7 +2431,7 @@ Assets {
         Transform {
           Location {
             X: -33.1933594
-            Y: -9.62695312
+            Y: -9.62695313
             Z: 6.92651367
           }
           Rotation {
@@ -3673,7 +3673,7 @@ Assets {
         Name: "Decal Ivy Small (variations)"
         Transform {
           Location {
-            X: 55.5039062
+            X: 55.5039063
             Y: 45.0410156
             Z: 338.152954
           }

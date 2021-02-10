@@ -241,7 +241,7 @@ Assets {
         Transform {
           Location {
             X: 329.515625
-            Y: -66.4101562
+            Y: -66.4101563
             Z: 1.33996582
           }
           Rotation {
@@ -281,7 +281,7 @@ Assets {
           Location {
             X: 77.0107422
             Y: 60.8515625
-            Z: 0.000122070312
+            Z: 0.000122070313
           }
           Rotation {
             Yaw: -69.1728
@@ -398,7 +398,7 @@ Assets {
           Location {
             X: 168.298828
             Y: -56.1464844
-            Z: -2.15039062
+            Z: -2.15039063
           }
           Rotation {
             Yaw: -87.6465454
@@ -435,7 +435,7 @@ Assets {
         Name: "NPC Waypoint - main"
         Transform {
           Location {
-            X: 137.695312
+            X: 137.695313
             Y: -54.0048828
             Z: 3.9519043
           }
@@ -1000,7 +1000,7 @@ Assets {
         Transform {
           Location {
             X: 329.515625
-            Y: -66.4101562
+            Y: -66.4101563
             Z: -8.07287598
           }
           Rotation {
@@ -1194,7 +1194,7 @@ Assets {
         Name: "NPC Waypoint - main"
         Transform {
           Location {
-            X: 137.695312
+            X: 137.695313
             Y: -54.0048828
             Z: 3.9519043
           }
@@ -1653,7 +1653,7 @@ Assets {
         Transform {
           Location {
             X: 2296.81445
-            Y: 2619.66894
+            Y: 2619.66895
           }
           Rotation {
             Pitch: -1.31862938
@@ -1792,7 +1792,7 @@ Assets {
         Transform {
           Location {
             X: 2175.31152
-            Y: -2862.82812
+            Y: -2862.82813
             Z: 27.3798828
           }
           Rotation {

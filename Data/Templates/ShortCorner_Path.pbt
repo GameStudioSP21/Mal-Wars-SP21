@@ -158,7 +158,7 @@ Assets {
         Name: "Fins"
         Transform {
           Location {
-            X: 2782.75976
+            X: 2782.75977
             Y: 656.202332
             Z: 314.414368
           }
@@ -432,7 +432,7 @@ Assets {
           Location {
             X: 1101.63672
             Y: 0.102433443
-            Z: 8.80664062
+            Z: 8.80664063
           }
           Rotation {
           }
@@ -694,7 +694,7 @@ Assets {
           Location {
             X: 1101.63574
             Y: 540.504578
-            Z: 8.80664062
+            Z: 8.80664063
           }
           Rotation {
             Yaw: 180
@@ -13163,7 +13163,7 @@ Assets {
         Name: "Cube"
         Transform {
           Location {
-            X: 664.435058
+            X: 664.435059
             Y: 53.4806519
             Z: 179.783325
           }
@@ -15189,7 +15189,7 @@ Assets {
         Transform {
           Location {
             X: 1480.86523
-            Y: 898.223144
+            Y: 898.223145
             Z: 194.285217
           }
           Rotation {
@@ -21215,7 +21215,7 @@ Assets {
         Transform {
           Location {
             X: -1034.62109
-            Y: -174.035644
+            Y: -174.035645
             Z: 161.222336
           }
           Rotation {
@@ -22307,7 +22307,7 @@ Assets {
         Transform {
           Location {
             X: -1811.60547
-            Y: 726.535644
+            Y: 726.535645
             Z: 179.799927
           }
           Rotation {
@@ -23604,7 +23604,7 @@ Assets {
         Name: "Cube"
         Transform {
           Location {
-            X: -2261.71142
+            X: -2261.71143
             Y: 152.609589
             Z: 191.642487
           }
@@ -26099,7 +26099,7 @@ Assets {
         Name: "Cube"
         Transform {
           Location {
-            X: -1993.22558
+            X: -1993.22559
             Y: 65.7483826
             Z: 157.756714
           }
@@ -26828,7 +26828,7 @@ Assets {
         Transform {
           Location {
             X: -497.127808
-            Y: -999.629394
+            Y: -999.629395
             Z: 106.283157
           }
           Rotation {
@@ -27660,7 +27660,7 @@ Assets {
         Transform {
           Location {
             X: 429.345734
-            Y: -840.941894
+            Y: -840.941895
             Z: 199.02533
           }
           Rotation {

@@ -4208,7 +4208,7 @@ Assets {
         Name: "Lung"
         Transform {
           Location {
-            X: -2.09570312
+            X: -2.09570313
             Y: 6.68359375
             Z: 17.6203613
           }

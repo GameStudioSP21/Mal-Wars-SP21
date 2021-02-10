@@ -47,6 +47,7 @@ Objects {
   ParentId: 4781671109827199097
   ChildIds: 4253759879483692163
   ChildIds: 6276082033866476659
+  ChildIds: 6965898478163922792
   ChildIds: 12465402943327230330
   ChildIds: 1001569227821753917
   ChildIds: 514089847462038413
@@ -676,6 +677,32 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Anthony"
+  }
+}
+Objects {
+  Id: 6965898478163922792
+  Name: "Alex D"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18203406745861697933
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Alex D"
   }
 }
 Objects {

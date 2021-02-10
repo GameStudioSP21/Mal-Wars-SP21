@@ -236,7 +236,7 @@ Assets {
         Transform {
           Location {
             X: 329.515625
-            Y: -66.4101562
+            Y: -66.4101563
           }
           Rotation {
             Yaw: 43.5976753
@@ -361,7 +361,7 @@ Assets {
         Name: "NPC Waypoint - main"
         Transform {
           Location {
-            X: 137.695312
+            X: 137.695313
             Y: -54.0048828
             Z: 3.9519043
           }
