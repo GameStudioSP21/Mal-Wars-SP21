@@ -1,14 +1,15 @@
-local song = require(script:GetCustomProperty("zSong"))
-local auto = script:GetCustomProperty("auto")
-local loop = script:GetCustomProperty("loop")
-local volume = script:GetCustomProperty("volume")
+local root = script.parent.parent
+local song = require(root:GetCustomProperty("zSong"))
+local auto = root:GetCustomProperty("auto")
+local loop = root:GetCustomProperty("loop")
+local volume = root:GetCustomProperty("volume")
 local instruments = World.SpawnAsset('8298D54D110F6029:uiInstruments')
 instruments.parent = script
 
 local function Music(song, instruments, parameters)
 	local self = {}
-	local auto = parameters.auto or 1
-	local loop = parameters.loop or 1
+	local auto = parameters.auto or true
+	local loop = parameters.loop or true
 	local volume = parameters.volume or 1
 	local range = parameters.range or 100
 	local tools = instruments
@@ -62,8 +63,8 @@ local function Music(song, instruments, parameters)
 		for _, track in pairs(tracks) do
 			track.step = 0
 		end
-		if (loop == 1) then self:Play() end
-		if (loop == 0) then self:Stop() end
+		if (loop == true) then self:Play() end
+		if (loop ~= true) then self:Stop() end
 	end
 	function self:Play()
 		timer = 0;
@@ -86,7 +87,7 @@ local function Music(song, instruments, parameters)
 		self:Pause()
 		timer = 0
 	end
-	if (auto==1) then self:Play() end
+	if (auto) then self:Play() end
 	return self
 end
 

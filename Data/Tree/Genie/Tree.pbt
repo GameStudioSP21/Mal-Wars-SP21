@@ -47,6 +47,12 @@ Objects {
     }
   }
   ParentId: 14162530469465888814
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 6920329758706618585
@@ -64,6 +70,10 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "cs:volume"
+          Float: 0.1
         }
       }
     }
