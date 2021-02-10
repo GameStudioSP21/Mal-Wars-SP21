@@ -8,10 +8,10 @@ instruments.parent = script
 
 local function Music(song, instruments, parameters)
 	local self = {}
-	local auto = parameters.auto or true
-	local loop = parameters.loop or true
-	local volume = parameters.volume or 1
-	local range = parameters.range or 100
+	local auto = parameters.auto==nil and true or parameters.auto
+	local loop = parameters.loop==nil and true or parameters.loop
+	local volume = parameters.volume==nil and 1 or parameters.volume
+	local range = parameters.range==nil and 100 or parameters.range
 	local tools = instruments
 	local task = nil
 	local start = 0

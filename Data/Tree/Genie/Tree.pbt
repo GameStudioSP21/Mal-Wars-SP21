@@ -71,10 +71,6 @@ Objects {
           Rotator {
           }
         }
-        Overrides {
-          Name: "cs:volume"
-          Float: 0.1
-        }
       }
     }
     TemplateAsset {
