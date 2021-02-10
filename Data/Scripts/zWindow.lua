@@ -1,14 +1,14 @@
 local function Window()
 	self = {}
-	local UIContainer 	= 'FD5B5E1A73CDB3A7:UI Container'
-	local UIPanel 		= '85C7BB13FB94513C:UI Panel'
-	local UIButton 		= '0A1320ECEB4FBCCA:UI Button'
-	local UIImage 		= 'FD0BD005E9C2DB02:UI Image'
-	local UIProgressBar = 'CEA9B85A8FB3B257:UI Progress Bar'
-	local UIScrollPanel = 'A5BF84F62E5D3AE6:UI Scroll Panel'
-	local UITextBox 	= '45C1B11E366D6DC2:UI Text Box'
-	local WorldText 	= 'D96FA21DAEA5C228:World Text'
-	local Trigger		= '950B6A628171A53B:Trigger'
+	local UIContainer 	= '72BFBF08EAA1A9EE:UI Container'
+	local UIPanel 		= '8556E863806D2714:UI Panel'
+	local UIButton 		= '60AC87119324E960:UI Button'
+	local UIImage 		= 'A10842F3E591DA41:UI Image'
+	local UIProgressBar = 'DA972C77472221C7:UI Progress Bar'
+	local UIScrollPanel = '3F179D5E40564EE5:UI Scroll Panel'
+	local UITextBox 	= '9A247A20E7E59A47:UI Text Box'
+	local WorldText 	= '7298594C1AC2591B:World Text'
+	local Trigger		= 'B80C9A93A680F876:Trigger'
 	local container		= nil
 	local panel			= nil
 	local progress		= nil
@@ -96,4 +96,4 @@ local function Window()
 	return self
 end
 
-local window = Window()
+local window = Window()--:CreateWindow()
