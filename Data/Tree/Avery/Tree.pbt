@@ -1,7 +1,7 @@
 Name: "Avery"
-RootId: 4607620799931218754
+RootId: 4865664388657450589
 Objects {
-  Id: 8060352308149072143
+  Id: 1744812646013471940
   Name: "AC_Platform_Corner_1"
   Transform {
     Scale {
@@ -10,7 +10,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4607620799931218754
+  ParentId: 4865664388657450589
   TemplateInstance {
     ParameterOverrideMap {
       key: 13059218851397951357
@@ -49,7 +49,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13492234780470335602
+  Id: 4623695186886807151
   Name: "Platform_Long_1"
   Transform {
     Location {
@@ -66,7 +66,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4607620799931218754
+  ParentId: 4865664388657450589
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -79,7 +79,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2810825522138984288
+  Id: 12518930775918030392
   Name: "Platform_Small_1"
   Transform {
     Location {
@@ -96,7 +96,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 4607620799931218754
+  ParentId: 4865664388657450589
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

@@ -1,4 +1,13 @@
 Assets {
+  Id: 18245801099677651177
+  Name: "Capsule"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_capsule_001"
+  }
+}
+Assets {
   Id: 18105158013125412176
   Name: "Sci-fi Base Door 02"
   PlatformAssetType: 1
@@ -23,6 +32,33 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_panel_1x3m_angledL_001"
+  }
+}
+Assets {
+  Id: 17416403521644267471
+  Name: "Carbon Fiber 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_carbon-fiber_001"
+  }
+}
+Assets {
+  Id: 17264922194081618045
+  Name: "Icosahedron"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_icosahedron_001"
+  }
+}
+Assets {
+  Id: 16177516181798898887
+  Name: "Gem - Baguette Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_gem_baguette_polished_001"
   }
 }
 Assets {
@@ -71,6 +107,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11740730692540221599
+  Name: "Glitchy Hologram"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxmi_hologram"
+  }
+}
+Assets {
   Id: 11145741338037465232
   Name: "Additive Soft Edge"
   PlatformAssetType: 2
@@ -89,6 +134,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10851872944872800303
+  Name: "Sphere"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_sphere_002"
+  }
+}
+Assets {
   Id: 10832704295079374334
   Name: "Cube - Chamfered Large Polished"
   PlatformAssetType: 1
@@ -104,6 +158,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prism_001"
+  }
+}
+Assets {
+  Id: 10047245790400686352
+  Name: "Gem - Round Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_gem_round_polished_001"
+  }
+}
+Assets {
+  Id: 8936483106303992826
+  Name: "Sci-fi Ship Nacelle 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_scf_ship_nacelle_003_ref"
   }
 }
 Assets {
@@ -143,39 +215,12 @@ Assets {
   }
 }
 Assets {
-  Id: 6267426283211994986
-  Name: "Pipe - 8-Sided Thick"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_pipe_eightsided_003"
-  }
-}
-Assets {
   Id: 5075754212973068898
   Name: "Prism - 8-Sided"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prism_octagon_001"
-  }
-}
-Assets {
-  Id: 4706197888479034339
-  Name: "Prism - 4-Sided Kite"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prism_kite_001"
-  }
-}
-Assets {
-  Id: 4669315293385397521
-  Name: "Pipe - 8-Sided Thin"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_pipe_eightsided_001"
   }
 }
 Assets {
@@ -212,6 +257,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_panel_2x3m_triangle_001"
+  }
+}
+Assets {
+  Id: 1678978340045821419
+  Name: "Sci-fi Ship Nacelle 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_scf_ship_nacelle_002_ref"
   }
 }
 Assets {

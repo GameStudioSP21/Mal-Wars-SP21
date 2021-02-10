@@ -1,7 +1,7 @@
 Name: "Bolts"
-RootId: 13906601212280590481
+RootId: 16959352876199249965
 Objects {
-  Id: 11200526221755046217
+  Id: 3893375647930409348
   Name: "Sphere - Half Thin"
   Transform {
     Location {
@@ -16,7 +16,7 @@ Objects {
       Z: 0.44324559
     }
   }
-  ParentId: 13906601212280590481
+  ParentId: 16959352876199249965
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -49,7 +49,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8633550325409343939
+  Id: 5294496063400247271
   Name: "Sphere - Half Thin"
   Transform {
     Location {
@@ -64,7 +64,7 @@ Objects {
       Z: 0.44324559
     }
   }
-  ParentId: 13906601212280590481
+  ParentId: 16959352876199249965
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -97,7 +97,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17600336530215373138
+  Id: 15565262210385684727
   Name: "Sphere - Half Thin"
   Transform {
     Location {
@@ -112,7 +112,7 @@ Objects {
       Z: 0.44324559
     }
   }
-  ParentId: 13906601212280590481
+  ParentId: 16959352876199249965
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -145,7 +145,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4578583836101301948
+  Id: 428472497815313067
   Name: "Sphere - Half Thin"
   Transform {
     Location {
@@ -160,7 +160,7 @@ Objects {
       Z: 0.44324559
     }
   }
-  ParentId: 13906601212280590481
+  ParentId: 16959352876199249965
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -193,7 +193,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2159632977001264320
+  Id: 1279353734966457501
   Name: "Sphere - Half Thin"
   Transform {
     Location {
@@ -208,7 +208,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 13906601212280590481
+  ParentId: 16959352876199249965
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -241,7 +241,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12877754579204932025
+  Id: 8048065550914066883
   Name: "Sphere - Half Thin"
   Transform {
     Location {
@@ -256,7 +256,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 13906601212280590481
+  ParentId: 16959352876199249965
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -289,7 +289,7 @@ Objects {
   }
 }
 Objects {
-  Id: 968559808243573771
+  Id: 688146864571622896
   Name: "Sphere - Half Thin"
   Transform {
     Location {
@@ -304,7 +304,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 13906601212280590481
+  ParentId: 16959352876199249965
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -337,7 +337,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12990526527039208180
+  Id: 12812027035642685286
   Name: "Sphere - Half Thin"
   Transform {
     Location {
@@ -352,7 +352,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 13906601212280590481
+  ParentId: 16959352876199249965
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"

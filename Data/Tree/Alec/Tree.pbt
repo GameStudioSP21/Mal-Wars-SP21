@@ -1,7 +1,55 @@
 Name: "Alec"
-RootId: 4253759879483692163
+RootId: 16245118719777391493
 Objects {
-  Id: 13405392395064096511
+  Id: 10742977132940605775
+  Name: "Turret 1-4"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16245118719777391493
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1141685311275434734
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Turret 1-4"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2350
+            Y: -13875
+            Z: 5780
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 135
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4834715473710738451
+    }
+  }
+}
+Objects {
+  Id: 17507866170240451013
   Name: "Turret 1"
   Transform {
     Scale {
@@ -10,7 +58,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4253759879483692163
+  ParentId: 16245118719777391493
   TemplateInstance {
     ParameterOverrideMap {
       key: 6884508873353003981
@@ -49,7 +97,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12032869763880824618
+  Id: 7522800357636238778
   Name: "Turret 1-2"
   Transform {
     Scale {
@@ -58,7 +106,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4253759879483692163
+  ParentId: 16245118719777391493
   TemplateInstance {
     ParameterOverrideMap {
       key: 1082861062902799122
@@ -242,7 +290,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13809060654315182097
+  Id: 6830916510823544008
   Name: "Turret 1-3"
   Transform {
     Scale {
@@ -251,7 +299,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4253759879483692163
+  ParentId: 16245118719777391493
   TemplateInstance {
     ParameterOverrideMap {
       key: 2188591150457811436

@@ -1,7 +1,7 @@
 Name: "Sidney"
-RootId: 15911844629871319699
+RootId: 9193804361493092613
 Objects {
-  Id: 18006793279167244650
+  Id: 16492794899764670888
   Name: "AOE_Turret_2"
   Transform {
     Scale {
@@ -10,7 +10,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15911844629871319699
+  ParentId: 9193804361493092613
   TemplateInstance {
     ParameterOverrideMap {
       key: 8426690089907207909
@@ -49,7 +49,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8653098804367642355
+  Id: 12280708902253415549
   Name: "AOE_Turret_4"
   Transform {
     Scale {
@@ -58,7 +58,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15911844629871319699
+  ParentId: 9193804361493092613
   TemplateInstance {
     ParameterOverrideMap {
       key: 3966832067442895808
@@ -128,7 +128,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8899580849414407068
+  Id: 3117277197977255775
   Name: "AOE_Turret_3"
   Transform {
     Scale {
@@ -137,7 +137,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15911844629871319699
+  ParentId: 9193804361493092613
   TemplateInstance {
     ParameterOverrideMap {
       key: 9239741025094736254
@@ -186,7 +186,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14179943937072418206
+  Id: 14589924477517382921
   Name: "AOE_Turret_1"
   Transform {
     Scale {
@@ -195,7 +195,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15911844629871319699
+  ParentId: 9193804361493092613
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

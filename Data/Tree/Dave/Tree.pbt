@@ -1,7 +1,7 @@
 Name: "Dave"
-RootId: 10048520509696570093
+RootId: 14081436481186185311
 Objects {
-  Id: 12567059801996618778
+  Id: 13029330114079343391
   Name: "VirusT1"
   Transform {
     Scale {
@@ -10,7 +10,13 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10048520509696570093
+  ParentId: 14081436481186185311
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 2032531932447730266
@@ -33,23 +39,15 @@ Objects {
             Yaw: -33.750061
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.8
-            Y: 0.8
-            Z: 0.8
-          }
-        }
       }
     }
     TemplateAsset {
-      Id: 83541676943175754
+      Id: 12544527268329933159
     }
   }
 }
 Objects {
-  Id: 5140736378727219443
+  Id: 3063306330131125502
   Name: "VirusT2"
   Transform {
     Scale {
@@ -58,7 +56,13 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10048520509696570093
+  ParentId: 14081436481186185311
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 5358925487773369100
@@ -81,23 +85,15 @@ Objects {
             Yaw: 44.9999962
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
       }
     }
     TemplateAsset {
-      Id: 12770875618974430485
+      Id: 15417336775726159579
     }
   }
 }
 Objects {
-  Id: 4762902651717358496
+  Id: 1045351340013600952
   Name: "VirusT3"
   Transform {
     Scale {
@@ -106,7 +102,13 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10048520509696570093
+  ParentId: 14081436481186185311
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 1740172133134509589
@@ -129,41 +131,15 @@ Objects {
             Yaw: 44.9999962
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 5897790164107884212
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            Y: -161.015976
-            Z: 191.112152
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Roll: 70
-          }
-        }
       }
     }
     TemplateAsset {
-      Id: 7466930829692039867
+      Id: 13915311280383866732
     }
   }
 }
 Objects {
-  Id: 8700334580632182045
+  Id: 4557158750917046972
   Name: "WormT3"
   Transform {
     Scale {
@@ -172,7 +148,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10048520509696570093
+  ParentId: 14081436481186185311
   TemplateInstance {
     ParameterOverrideMap {
       key: 4526086092065166152
@@ -211,7 +187,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14142992314741359500
+  Id: 14383217356100252782
   Name: "WormT2"
   Transform {
     Scale {
@@ -220,7 +196,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10048520509696570093
+  ParentId: 14081436481186185311
   TemplateInstance {
     ParameterOverrideMap {
       key: 6435159486272343449
@@ -259,7 +235,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1445219917703725550
+  Id: 18434978578942335693
   Name: "WormT1"
   Transform {
     Scale {
@@ -268,7 +244,13 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10048520509696570093
+  ParentId: 14081436481186185311
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 9362276730455993418
@@ -291,23 +273,15 @@ Objects {
             Yaw: 45
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
       }
     }
     TemplateAsset {
-      Id: 13851804360961452312
+      Id: 831214587621410662
     }
   }
 }
 Objects {
-  Id: 11607485217018596799
+  Id: 5971386782816839817
   Name: "AdT2"
   Transform {
     Scale {
@@ -316,7 +290,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10048520509696570093
+  ParentId: 14081436481186185311
   TemplateInstance {
     ParameterOverrideMap {
       key: 12091373542574086679
@@ -355,7 +329,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8432199700560352230
+  Id: 10476529203000175817
   Name: "AdT3"
   Transform {
     Scale {
@@ -364,7 +338,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10048520509696570093
+  ParentId: 14081436481186185311
   TemplateInstance {
     ParameterOverrideMap {
       key: 1910906516429423080
@@ -403,7 +377,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16504046135716555492
+  Id: 9297058304776675204
   Name: "AdT1"
   Transform {
     Scale {
@@ -412,7 +386,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10048520509696570093
+  ParentId: 14081436481186185311
   TemplateInstance {
     ParameterOverrideMap {
       key: 16651082071151057379

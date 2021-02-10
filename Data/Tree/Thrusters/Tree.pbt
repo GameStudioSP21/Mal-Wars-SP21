@@ -1,7 +1,7 @@
 Name: "Thrusters"
-RootId: 3231997578370042015
+RootId: 16723250367545532888
 Objects {
-  Id: 6689576074825134418
+  Id: 10438143138010079219
   Name: "Prism - 7-Sided"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 2.10000038
     }
   }
-  ParentId: 3231997578370042015
+  ParentId: 16723250367545532888
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -55,7 +55,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7348159766863184676
+  Id: 5329449882171419347
   Name: "Prism - 7-Sided"
   Transform {
     Location {
@@ -72,7 +72,7 @@ Objects {
       Z: 0.3
     }
   }
-  ParentId: 3231997578370042015
+  ParentId: 16723250367545532888
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -109,7 +109,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13843799885397726772
+  Id: 6604051762825640085
   Name: "Prism - 7-Sided"
   Transform {
     Location {
@@ -126,7 +126,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 3231997578370042015
+  ParentId: 16723250367545532888
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -163,7 +163,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11756384406223325939
+  Id: 10300668622658135423
   Name: "Prism - 7-Sided"
   Transform {
     Location {
@@ -180,7 +180,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 3231997578370042015
+  ParentId: 16723250367545532888
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -217,7 +217,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7594571468746729871
+  Id: 7088113606940591625
   Name: "Prism - 7-Sided"
   Transform {
     Location {
@@ -234,7 +234,7 @@ Objects {
       Z: 1.80000007
     }
   }
-  ParentId: 3231997578370042015
+  ParentId: 16723250367545532888
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -271,7 +271,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8584448578619074730
+  Id: 1989477378204925390
   Name: "Prism - 7-Sided"
   Transform {
     Location {
@@ -288,7 +288,7 @@ Objects {
       Z: 1.80000043
     }
   }
-  ParentId: 3231997578370042015
+  ParentId: 16723250367545532888
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -325,7 +325,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15713659142172072457
+  Id: 15476935833435181969
   Name: "Prism - 7-Sided"
   Transform {
     Location {
@@ -342,7 +342,7 @@ Objects {
       Z: 1.89999986
     }
   }
-  ParentId: 3231997578370042015
+  ParentId: 16723250367545532888
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -379,7 +379,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7993781894612727193
+  Id: 3895582734672570953
   Name: "Thruster_4"
   Transform {
     Location {
@@ -394,7 +394,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3231997578370042015
+  ParentId: 16723250367545532888
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -407,7 +407,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2098296414307327671
+  Id: 17958131928769476339
   Name: "Thruster_3"
   Transform {
     Location {
@@ -422,7 +422,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3231997578370042015
+  ParentId: 16723250367545532888
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -435,7 +435,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17110467846903594997
+  Id: 11600019967047975010
   Name: "Thrust_2"
   Transform {
     Location {
@@ -450,7 +450,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3231997578370042015
+  ParentId: 16723250367545532888
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -463,7 +463,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5813198494402965930
+  Id: 227229878655069564
   Name: "Thruster_1"
   Transform {
     Location {
@@ -478,7 +478,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3231997578370042015
+  ParentId: 16723250367545532888
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

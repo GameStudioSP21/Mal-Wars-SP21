@@ -1,7 +1,7 @@
 Name: "Platform_Small_1"
-RootId: 2810825522138984288
+RootId: 12518930775918030392
 Objects {
-  Id: 3231997578370042015
+  Id: 16723250367545532888
   Name: "Thrusters"
   Transform {
     Location {
@@ -16,7 +16,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2810825522138984288
+  ParentId: 12518930775918030392
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -29,7 +29,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2612558507380403232
+  Id: 16816344733070279698
   Name: "Bolts_2"
   Transform {
     Location {
@@ -45,7 +45,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2810825522138984288
+  ParentId: 12518930775918030392
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -58,7 +58,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8546558861284273952
+  Id: 9200859806559952337
   Name: "Bolts_3"
   Transform {
     Location {
@@ -74,7 +74,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2810825522138984288
+  ParentId: 12518930775918030392
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -87,7 +87,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8102621522804833563
+  Id: 15320167244810289444
   Name: "Bolts_4"
   Transform {
     Location {
@@ -102,7 +102,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2810825522138984288
+  ParentId: 12518930775918030392
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -115,7 +115,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3495933451328020057
+  Id: 3810061873547151620
   Name: "Diamond - 8-Sided"
   Transform {
     Location {
@@ -129,7 +129,7 @@ Objects {
       Z: 4.5
     }
   }
-  ParentId: 2810825522138984288
+  ParentId: 12518930775918030392
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -166,7 +166,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4111088622524484501
+  Id: 9087092999529700464
   Name: "Diamond - 8-Sided"
   Transform {
     Location {
@@ -180,7 +180,7 @@ Objects {
       Z: 5.18691635
     }
   }
-  ParentId: 2810825522138984288
+  ParentId: 12518930775918030392
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -217,7 +217,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16204123086607881458
+  Id: 2226173057062604237
   Name: "Diamond - 8-Sided"
   Transform {
     Location {
@@ -230,7 +230,7 @@ Objects {
       Z: 2.8
     }
   }
-  ParentId: 2810825522138984288
+  ParentId: 12518930775918030392
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -267,7 +267,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14924397156959261427
+  Id: 11780165476866013784
   Name: "Diamond - 8-Sided"
   Transform {
     Location {
@@ -282,7 +282,7 @@ Objects {
       Z: 4.6
     }
   }
-  ParentId: 2810825522138984288
+  ParentId: 12518930775918030392
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -328,7 +328,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17053028383813673964
+  Id: 354250671607138042
   Name: "Bolts_1"
   Transform {
     Location {
@@ -344,7 +344,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2810825522138984288
+  ParentId: 12518930775918030392
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

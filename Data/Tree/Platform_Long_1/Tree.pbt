@@ -1,7 +1,7 @@
 Name: "Platform_Long_1"
-RootId: 13492234780470335602
+RootId: 4623695186886807151
 Objects {
-  Id: 16017919696582004446
+  Id: 7393110102668602644
   Name: "Plane Ring - One Sided Thin"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 9.80435
     }
   }
-  ParentId: 13492234780470335602
+  ParentId: 4623695186886807151
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -51,7 +51,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17939345189624392858
+  Id: 14986993158758425297
   Name: "Plane Ring - One Sided Thin"
   Transform {
     Location {
@@ -68,7 +68,7 @@ Objects {
       Z: 6.0999918
     }
   }
-  ParentId: 13492234780470335602
+  ParentId: 4623695186886807151
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -101,7 +101,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11911971537533501163
+  Id: 5060755296619477367
   Name: "Plane Ring - One Sided Thin"
   Transform {
     Location {
@@ -118,7 +118,7 @@ Objects {
       Z: 6.0999918
     }
   }
-  ParentId: 13492234780470335602
+  ParentId: 4623695186886807151
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -151,7 +151,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1090520456607360507
+  Id: 11365130177643293207
   Name: "Plane Ring - One Sided Thin"
   Transform {
     Location {
@@ -168,7 +168,7 @@ Objects {
       Z: 9.80435
     }
   }
-  ParentId: 13492234780470335602
+  ParentId: 4623695186886807151
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -201,7 +201,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5603218919443955090
+  Id: 9412445693113914485
   Name: "Platform_long"
   Transform {
     Location {
@@ -216,7 +216,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13492234780470335602
+  ParentId: 4623695186886807151
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -229,7 +229,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3878140449953748874
+  Id: 13284988854648876229
   Name: "Platform_Circle"
   Transform {
     Location {
@@ -245,7 +245,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13492234780470335602
+  ParentId: 4623695186886807151
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -258,7 +258,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13906601212280590481
+  Id: 16959352876199249965
   Name: "Bolts"
   Transform {
     Location {
@@ -274,7 +274,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13492234780470335602
+  ParentId: 4623695186886807151
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -287,7 +287,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11415260475321762157
+  Id: 3701387892109110163
   Name: "Thruster"
   Transform {
     Location {
@@ -302,7 +302,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13492234780470335602
+  ParentId: 4623695186886807151
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

@@ -1,7 +1,7 @@
 Name: "Anthony"
-RootId: 12465402943327230330
+RootId: 2854307414044987448
 Objects {
-  Id: 7816202616833162996
+  Id: 10010641458022735028
   Name: "Hologram_Barrel"
   Transform {
     Scale {
@@ -10,7 +10,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12465402943327230330
+  ParentId: 2854307414044987448
   TemplateInstance {
     ParameterOverrideMap {
       key: 8678801925397202178
@@ -49,7 +49,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9311021142727048442
+  Id: 7245358190362313590
   Name: "Hologram_Crystal"
   Transform {
     Scale {
@@ -58,7 +58,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12465402943327230330
+  ParentId: 2854307414044987448
   TemplateInstance {
     ParameterOverrideMap {
       key: 18278210287629129495
@@ -97,7 +97,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7914489436420723573
+  Id: 1944016473955752240
   Name: "Hologram_Terminal"
   Transform {
     Scale {
@@ -106,7 +106,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12465402943327230330
+  ParentId: 2854307414044987448
   TemplateInstance {
     ParameterOverrideMap {
       key: 13266789056325864505
@@ -145,7 +145,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1226574029812740941
+  Id: 17719874899973442420
   Name: "Hologram_Barrier"
   Transform {
     Scale {
@@ -154,7 +154,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12465402943327230330
+  ParentId: 2854307414044987448
   TemplateInstance {
     ParameterOverrideMap {
       key: 13846415671135181259
@@ -193,7 +193,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4697900871529790058
+  Id: 3474887200472555195
   Name: "Hologram_Cube"
   Transform {
     Scale {
@@ -202,7 +202,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12465402943327230330
+  ParentId: 2854307414044987448
   TemplateInstance {
     ParameterOverrideMap {
       key: 682771805962517056

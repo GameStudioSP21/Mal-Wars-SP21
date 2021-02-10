@@ -17,15 +17,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13621259958132264851
-  Name: "Plane 1m - One Sided"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_plane_1m_001"
-  }
-}
-Assets {
   Id: 13233871270695014526
   Name: "Advanced Bloom Post Process"
   PlatformAssetType: 20

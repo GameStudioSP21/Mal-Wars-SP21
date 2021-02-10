@@ -1,7 +1,7 @@
 Name: "Platform_long"
-RootId: 5603218919443955090
+RootId: 9412445693113914485
 Objects {
-  Id: 7973167212407714665
+  Id: 7261358100541992996
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 5603218919443955090
+  ParentId: 9412445693113914485
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -62,7 +62,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7716224064775155051
+  Id: 1078438725344090924
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -77,7 +77,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 5603218919443955090
+  ParentId: 9412445693113914485
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -114,7 +114,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5884113734205731849
+  Id: 269622311645694411
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -129,7 +129,7 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 5603218919443955090
+  ParentId: 9412445693113914485
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -166,7 +166,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9895893836473949197
+  Id: 10609360190944217731
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -181,7 +181,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 5603218919443955090
+  ParentId: 9412445693113914485
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -218,7 +218,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10685558797486589366
+  Id: 16884894826358028774
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -234,7 +234,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 5603218919443955090
+  ParentId: 9412445693113914485
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"

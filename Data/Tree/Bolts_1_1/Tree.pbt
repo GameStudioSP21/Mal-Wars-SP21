@@ -1,7 +1,7 @@
 Name: "Bolts_1_1"
-RootId: 17053028383813673964
+RootId: 354250671607138042
 Objects {
-  Id: 12863077954888130227
+  Id: 3971568785116457093
   Name: "Ring - Beveled"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 1.06515694
     }
   }
-  ParentId: 17053028383813673964
+  ParentId: 354250671607138042
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -51,7 +51,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16999553148563235300
+  Id: 17394411220197762886
   Name: "Ring - Beveled"
   Transform {
     Location {
@@ -68,7 +68,7 @@ Objects {
       Z: 0.558427095
     }
   }
-  ParentId: 17053028383813673964
+  ParentId: 354250671607138042
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -101,7 +101,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9544552104652688343
+  Id: 15246010217593294673
   Name: "Ring - Beveled"
   Transform {
     Location {
@@ -118,7 +118,7 @@ Objects {
       Z: 0.558427095
     }
   }
-  ParentId: 17053028383813673964
+  ParentId: 354250671607138042
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -151,7 +151,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9554495651829421639
+  Id: 1050448147021606159
   Name: "Plane Ring - One Sided Thin"
   Transform {
     Location {
@@ -168,7 +168,7 @@ Objects {
       Z: 1.5432831
     }
   }
-  ParentId: 17053028383813673964
+  ParentId: 354250671607138042
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -201,7 +201,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14392286322504408665
+  Id: 12502498449114789657
   Name: "Plane Ring - One Sided Thin"
   Transform {
     Location {
@@ -218,7 +218,7 @@ Objects {
       Z: 0.578900158
     }
   }
-  ParentId: 17053028383813673964
+  ParentId: 354250671607138042
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -251,7 +251,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14217258326011567433
+  Id: 11471495106301490411
   Name: "Lens - Half"
   Transform {
     Location {
@@ -269,7 +269,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17053028383813673964
+  ParentId: 354250671607138042
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -314,7 +314,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9585581037194877393
+  Id: 10310139089282916132
   Name: "Lens - Half"
   Transform {
     Location {
@@ -332,7 +332,7 @@ Objects {
       Z: 0.495542109
     }
   }
-  ParentId: 17053028383813673964
+  ParentId: 354250671607138042
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -373,7 +373,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18102740178090660124
+  Id: 11758629929076133471
   Name: "Lens - Half"
   Transform {
     Location {
@@ -390,7 +390,7 @@ Objects {
       Z: 0.495542109
     }
   }
-  ParentId: 17053028383813673964
+  ParentId: 354250671607138042
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -431,7 +431,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8099942737979510543
+  Id: 3968056426517233722
   Name: "Lens - Half"
   Transform {
     Location {
@@ -449,7 +449,7 @@ Objects {
       Z: 0.495542109
     }
   }
-  ParentId: 17053028383813673964
+  ParentId: 354250671607138042
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -490,7 +490,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11235168225996557508
+  Id: 245405711173118230
   Name: "Lens - Half"
   Transform {
     Location {
@@ -507,7 +507,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17053028383813673964
+  ParentId: 354250671607138042
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -552,7 +552,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17859131494946439299
+  Id: 10152910888464302865
   Name: "Lens - Half"
   Transform {
     Location {
@@ -570,7 +570,7 @@ Objects {
       Z: 0.495542109
     }
   }
-  ParentId: 17053028383813673964
+  ParentId: 354250671607138042
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
