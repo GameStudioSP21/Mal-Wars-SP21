@@ -2,8 +2,8 @@ local song = require(script:GetCustomProperty("zSong"))
 local auto = script:GetCustomProperty("auto")
 local loop = script:GetCustomProperty("loop")
 local volume = script:GetCustomProperty("volume")
-local instruments = World.SpawnAsset('E72353480FA5A83F:uiInstruments')
-instruments.parent = script
+--local instruments = World.SpawnAsset('E72353480FA5A83F:uiInstruments')
+--instruments.parent = script
 
 local function Music(song, instruments, parameters)
 	local self = {}
@@ -90,4 +90,4 @@ local function Music(song, instruments, parameters)
 	return self
 end
 
-local music = Music(song, instruments, { auto=auto, loop=loop, volume=volume } )
+--local music = Music(song, instruments, { auto=auto, loop=loop, volume=volume } )

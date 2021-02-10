@@ -1,14 +1,14 @@
 local function Window()
 	self = {}
-	local UIContainer 	= '72BFBF08EAA1A9EE:UI Container'
-	local UIPanel 		= '8556E863806D2714:UI Panel'
-	local UIButton 		= '60AC87119324E960:UI Button'
-	local UIImage 		= 'A10842F3E591DA41:UI Image'
-	local UIProgressBar = 'DA972C77472221C7:UI Progress Bar'
-	local UIScrollPanel = '3F179D5E40564EE5:UI Scroll Panel'
-	local UITextBox 	= '9A247A20E7E59A47:UI Text Box'
-	local WorldText 	= '7298594C1AC2591B:World Text'
-	local Trigger		= 'B80C9A93A680F876:Trigger'
+	local UIContainer 	= 'DCAC99DD93E26ED7:UI Container'
+	local UIPanel 		= '6ED70DCD795A094D:UI Panel'
+	local UIButton 		= 'C2DDA91D4156D0C3:UI Button'
+	local UIImage 		= '3298CA2B5E55CBD7:UI Image'
+	local UIProgressBar = 'F429268B1B2C777F:UI Progress Bar'
+	local UIScrollPanel = 'F460EEF041B4B5DC:UI Scroll Panel'
+	local UITextBox 	= '726E67CCB2CF2EC7:UI Text Box'
+	local WorldText 	= '40306BA4CD6DFBD2:World Text'
+	local Trigger		= 'CF8AD09944BFCB6C:Trigger'
 	local container		= nil
 	local panel			= nil
 	local progress		= nil

@@ -189,29 +189,3 @@ Objects {
     }
   }
 }
-Objects {
-  Id: 1483462274744508471
-  Name: "uiMenu"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14162530469465888814
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 4830454305906881643
-      value {
-        Overrides {
-          Name: "Name"
-          String: "uiMenu"
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 2669038133531907544
-    }
-  }
-}
