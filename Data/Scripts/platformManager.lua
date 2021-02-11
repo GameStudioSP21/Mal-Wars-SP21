@@ -6,7 +6,6 @@ local propPlatform_T_R = script:GetCustomProperty("platform_T_R"):WaitForObject(
 local propPlatform_T_L = script:GetCustomProperty("platform_T_L"):WaitForObject()
 local propEase3D = script:GetCustomProperty("Ease3D")
 
-
 local Ease3D = require(script:GetCustomProperty("Ease3D"))
 
 local PLAYER = Game.GetLocalPlayer()
@@ -99,7 +98,6 @@ function OnBindingPressed(PLAYER, binding)
             --PLATFORMS[1]:SetWorldPosition(PLATFORM_DOWN_POS[1])
             movePlatform(PLATFORMS[1], PLATFORM_DOWN_POS[1])
             print(PLATFORMS[1])
-
         end
     --'2'
     --checks to make sure PLATFORMS[1] is down

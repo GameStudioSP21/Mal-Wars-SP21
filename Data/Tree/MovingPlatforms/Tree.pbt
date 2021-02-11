@@ -58,12 +58,6 @@ Objects {
         Id: 11698430162959436393
       }
     }
-    Overrides {
-      Name: "cs:BB_anchorManager"
-      ObjectReference {
-        SelfId: 18409920377466982423
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
