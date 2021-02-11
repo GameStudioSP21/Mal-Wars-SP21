@@ -21,11 +21,8 @@ Objects {
   ChildIds: 10005074784157121906
   ChildIds: 2252134080425629615
   ChildIds: 9299968974138634080
-<<<<<<< Updated upstream
   ChildIds: 10722931758594424760
-=======
   ChildIds: 11262515569420260096
->>>>>>> Stashed changes
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -38,9 +35,6 @@ Objects {
   }
 }
 Objects {
-<<<<<<< Updated upstream
-  Id: 10722931758594424760
-=======
   Id: 11262515569420260096
   Name: "MainMap"
   Transform {
@@ -832,8 +826,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18203406745861697933
->>>>>>> Stashed changes
+  Id: 10722931758594424760
   Name: "Collaborators"
   Transform {
     Location {
