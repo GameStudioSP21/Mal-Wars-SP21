@@ -27,7 +27,7 @@ Objects {
     Overrides {
       Name: "cs:BoardAsset"
       AssetReference {
-        Id: 17521386366741309362
+        Id: 3896601050598400371
       }
     }
     Overrides {

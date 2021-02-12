@@ -95,6 +95,9 @@ local function CanPlace(position)
     local hitResult = PLACE_BY_MOUSE and UI.GetCursorHitResult() or World.Raycast(startPos, endPos, {ignorePlayers = true}) 
 
     if hitResult then
+        if not hitResult.other:GetCustomProperty("IsBuildable") then
+            return false
+        end
 
         local hitNormal = hitResult:GetImpactNormal()
         local dot = hitNormal .. Vector3.UP
@@ -172,6 +175,7 @@ LOCAL_PLAYER.bindingPressedEvent:Connect(function(_,key)
             local roundedPos = Vector3.New(math.floor(ghostPos.x), math.floor(ghostPos.y), math.floor(ghostPos.z))
             
             local board = LOCAL_PLAYER.clientUserData.activeBoard
+
             if board then
                 prepedTower:SetOwner(LOCAL_PLAYER)
                 prepedTower:SetBoard(board)
