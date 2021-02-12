@@ -12,9 +12,33 @@ local function Inventory()
 	local mouse			= {0,0,0}
 	local place			= {0,0,0,0,0}
 	local panel			= nil
+	function self:UI(ui,type,name,x,y,width,height,anchor,dock,image,color,text,size,just)
+		ui.name		= name
+		ui.x		= x
+		ui.y		= y
+		ui.width 	= width
+		ui.height	= height
+		ui.anchor	= anchor
+		ui.dock		= dock
+		if type==2 then
+			ui:SetImage(image)
+			ui:SetButtonColor  (color)
+			ui:SetHoveredColor (Color.New(0.5,0.5,0.5,0.2))
+			ui:SetPressedColor (Color.New(0.5,0.5,0.5,0.3))
+			ui:SetDisabledColor(Color.New(0.5,0.5,0.5,0.4))	
+		end
+		if type==3 then
+			ui:SetImage(image)
+			ui:SetColor(color)
+		end
+		if type==4 then
+			ui.text 		 = text
+			ui.fontSize		 = size
+			ui.justification = just
+		end
+	end
 	function self:Menu()
-		local root = script.parent
-		local container = World.SpawnAsset(UIContainer,	{parent = root})
+		local container = World.SpawnAsset(UIContainer,	{parent = script})
 		local panel		= World.SpawnAsset(UIPanel, {parent = container})
 		local edge		= World.SpawnAsset(UIImage, {parent = panel})
 		local head		= World.SpawnAsset(UIImage, {parent = panel})
@@ -23,86 +47,15 @@ local function Inventory()
 		local mini		= World.SpawnAsset(UIButton,{parent = menu})
 		local quit		= World.SpawnAsset(UIButton,{parent = menu})
 		local body		= World.SpawnAsset(UIImage, {parent = panel})
-		panel.x			= 0
-		panel.y			= 0
-		panel.width 	= 920
-		panel.height	= 170
-		panel.anchor	= 1
-		panel.dock		= 1
-		edge.name		= 'edge'
-		edge.x			= 0
-		edge.y			= 0
-		edge.width		= edge.parent.width
-		edge.height		= edge.parent.height
-		edge.anchor		= 1
-		edge.dock		= 1
-		edge:SetColor  (Color.New(0.5,0.5,0.5,0.5))
-		edge:SetImage(IconEdge)
-		head.name		= 'head'
-		head.width		= head.parent.width
-		head.height		= 30
-		head.anchor		= 1
-		head.dock		= 1
-		head:SetColor(Color.New(0.5,0.5,0.5,0.1))
-		menu.name		= 'menu'
-		menu.width		= menu.parent.width
-		menu.height		= menu.parent.height
-		menu:SetButtonColor  (Color.New(0.5,0.5,0.5,0.1))
-		menu:SetHoveredColor (Color.New(0.5,0.5,0.5,0.2))
-		menu:SetPressedColor (Color.New(0.5,0.5,0.5,0.3))
-		menu:SetDisabledColor(Color.New(0.5,0.5,0.5,0.4))
-		menu.clickedEvent:Connect(function (button)
-			place[1] = mouse[1]
-			place[2] = mouse[2]
-			place[3] = panel.x
-			place[4] = panel.y
-			place[5] = place[5] ~ 1
-		end)
-		text.name		= 'text'
-		text.width		= text.parent.width
-		text.height		= text.parent.height
-		text.anchor		= 4
-		text.dock		= 4
-		text.text 		= "Inventory"
-		text.fontSize	= 18
-		text.justification = 1
-		mini.name		= 'mini'
-		mini.x			= -40
-		mini.y			= 5
-		mini.width		= 25
-		mini.height		= 25
-		mini.anchor		= 5
-		mini.dock		= 5
-		mini:SetButtonColor  (Color.New(0.5,0.5,0.5,0.5))
-		mini:SetHoveredColor (Color.New(0.5,0.5,0.5,0.6))
-		mini:SetPressedColor (Color.New(0.5,0.5,0.5,0.7))
-		mini:SetDisabledColor(Color.New(0.5,0.5,0.5,0.8))
-		mini:SetImage(IconMini)
-		mini.clickedEvent:Connect(function (button)
-			body.isEnabled = not body.isEnabled
-			edge.height = edge.height ~ 170 ~ 30
-		end)
-		quit.name		= 'quit'
-		quit.x			= -10
-		quit.y			= 5
-		quit.width		= 25
-		quit.height		= 25
-		quit.anchor		= 5
-		quit.dock		= 5
-		quit:SetButtonColor  (Color.New(0.5,0.5,0.5,0.5))
-		quit:SetHoveredColor (Color.New(0.5,0.5,0.5,0.6))
-		quit:SetPressedColor (Color.New(0.5,0.5,0.5,0.7))
-		quit:SetDisabledColor(Color.New(0.5,0.5,0.5,0.8))
-		quit:SetImage(IconQuit)
-		quit.clickedEvent:Connect(function (button) panel.isEnabled = false end)
-		body.name		= 'body'
-		body.x			= 7
-		body.y			= 30
-		body.width		= 900
-		body.height		= 120
-		body.anchor		= 0
-		body.dock		= 0
-		body:SetColor(Color.New(0.5,0.5,0.5,0.1))
+		local IconNone	= IconEdge
+		self:UI(panel,1,"panel",0,0,920,170,1,1)
+		self:UI(edge, 3,"edge", 0,0,920,170,1,1,IconEdge,Color.New(0.5,0.5,0.5,0.5))
+		self:UI(head, 3,"head", 0,0,920,30, 1,1,IconEdge,Color.New(0.5,0.5,0.5,0.1))
+		self:UI(menu, 2,"menu", 0,0,920,30, 1,1,IconEdge,Color.New(0.5,0.5,0.5,0.1))
+		self:UI(text, 4,"text", 0,0,920,30, 4,4,IconNone,Color.New(0.5,0.5,0.5,0.1),"Inventory",18,1)
+		self:UI(mini, 2,"mini", -40,5,25,25,5,5,IconMini,Color.New(0.5,0.5,0.5,0.5))
+		self:UI(quit, 2,"quit", -10,5,25,25,5,5,IconQuit,Color.New(0.5,0.5,0.5,0.5))
+		self:UI(body, 3,"body",7,30,900,120,0,0,image,Color.New(0.5,0.5,0.5,0.1))
 		local Cage = {}
 		for index=1,9,1 do
 			local slot = World.SpawnAsset(UIButton,{parent = body})
@@ -110,63 +63,31 @@ local function Inventory()
 			local cage = World.SpawnAsset(UIImage, {parent = slot})
 			local mark = World.SpawnAsset(UIText,  {parent = slot})
 			local foot = World.SpawnAsset(UIText,  {parent = slot})
-			Cage[index] 	= cage
-			slot.name		= 'slot'
-			slot.x			= index * 100 - 500 + 5
-			slot.y			= 0
-			slot.width		= 100
-			slot.height		= 100
-			slot.anchor		= 1
-			slot.dock		= 1
-			slot:SetButtonColor  (Color.New(0.5,0.5,0.5,0.5))
-			slot:SetHoveredColor (Color.New(0.5,0.5,0.5,0.6))
-			slot:SetPressedColor (Color.New(0.5,0.5,0.5,0.7))
-			slot:SetDisabledColor(Color.New(0.5,0.5,0.5,0.8))
+			local x = index * 100 - 500 + 5
+			Cage[index] = cage
+			self:UI(slot, 2,"slot", x,0,99,99,1,1,IconNone,Color.New(0.5,0.5,0.5,0.1))
+			self:UI(item, 3,"item", 0,0,90,90,4,4,IconQuit,Color.New(0.5,0.5,0.5,0.5))
+			self:UI(cage, 3,"cage", 0,0,99,99,4,4,IconCage,Color.New(0.5,0.5,0.5,0.5))
+			self:UI(mark, 4,"mark",-10,0,20,20,2,2,IconNone,Color.New(0.5,0.5,0.5,0.1),string.format("%d",index),15,2)
+			self:UI(foot, 4,"foot",0,-5,100,0, 7,7,IconNone,Color.New(0.5,0.5,0.5,0.1),string.format("%d",index*100),18,1)
 			slot.clickedEvent:Connect(function (button) 
-				for i=1,9,1 do
-	  				Cage[i]:SetColor(Color.New(0.5,0.5,0.5,0.5))
-				end
+				for i=1,9,1 do Cage[i]:SetColor(Color.New(0.5,0.5,0.5,0.5)) end
 				Cage[index]:SetColor(Color.New(0.0,1.0,0.0,1.0))
 			end)
-			item.name		= 'item'
-			item.x			= 0
-			item.y			= 0
-			item.width		= 90
-			item.height		= 90
-			item.anchor		= 4
-			item.dock		= 4
-			item:SetColor  (Color.New(0.5,0.5,0.5,0.5))
-			item:SetImage(IconQuit)
-			cage.name		= 'cage'
-			cage.x			= 0
-			cage.y			= 0
-			cage.width		= 100
-			cage.height		= 100
-			cage.anchor		= 4
-			cage.dock		= 4
-			cage:SetColor  (Color.New(0.5,0.5,0.5,0.5))
-			cage:SetImage(IconCage)
-			mark.name		= 'mark'
-			mark.x			= -10
-			mark.y			= 0
-			mark.width		= 20
-			mark.height		= 20
-			mark.anchor		= 2
-			mark.dock		= 2
-			mark.text		= string.format("%d", index)
-			mark.fontSize	= 15
-			mark.justification = 2
-			foot.name		= 'foot'
-			foot.x			= 0
-			foot.y			= -5
-			foot.width		= 100
-			foot.height		= 0
-			foot.anchor		= 7
-			foot.dock		= 7
-			foot.text		= string.format("%d", index * 100)
-			foot.fontSize	= 18
-			foot.justification = 1
 		end
+		menu.clickedEvent:Connect(function (button)
+			place[1] = mouse[1]
+			place[2] = mouse[2]
+			place[3] = panel.x
+			place[4] = panel.y
+			place[5] = place[5] ~ 1
+		end)
+		mini.clickedEvent:Connect(function (button)
+			body.isEnabled = not body.isEnabled
+			edge.height = edge.height ~ 170 ~ 35
+		end)
+		quit.clickedEvent:Connect(function (button) panel.isEnabled = false end)
+		panel.isEnabled = false
 		return panel
 	end
 	function self:Main()
