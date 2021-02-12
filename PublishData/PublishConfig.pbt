@@ -1,10 +1,14 @@
-GameId: "e21b9be6349342528e74142f01519037"
-ClientVersion: "1.0.175-prod-s"
-Name: "GameStudio1"
-Description: "test"
+GameId: "c4579f4f5a7743208f461a19355a55e8"
+ClientVersion: "1.0.176-prod-s"
+Name: "Mal-Wars-SP21"
+Description: "Defend your network from an unrelenting onslaught of malicious software in this cyberspace-themed tower defense game!"
 MaxPlayers: 8
+Tags: "TopDown"
 Tags: "Scifi"
-ScreenshotPaths: "C:/Users/Drake/Documents/My Games/CORE/Saved/Maps/GameStudio1/Screenshots/Screenshot0001.png"
-OwnerId: "d5daea732ee3422fbe85aecb900e73ec"
+Tags: "TowerDefense"
+Tags: "Action"
+Tags: "Casual"
+ScreenshotPaths: "D:/Documents/CORE/Mal-Wars-SP21/Screenshots/Screenshot0001.png"
+ReleaseNotes: "First release to ensure that only this account can publish."
+OwnerId: "915299ba3314494bbd5eb7a67d954099"
 SerializationVersion: 1
-AllowDirectJoinAsChild: true
