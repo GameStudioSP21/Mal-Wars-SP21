@@ -1,7 +1,7 @@
 local view = {}
 view.__index = view
 
-local StatsTheme = require(script:GetCustomProperty("TowerDefenders_StatsThemeAPI"))
+local TowerThemes = require(script:GetCustomProperty("TowerDefenders_StatsThemeAPI"))
 
 local NUMBER_STAT = script:GetCustomProperty("NumberStat")
 local PROGRESS_STAT = script:GetCustomProperty("ProgressStat")
@@ -32,13 +32,22 @@ function view:DisplayTowerStats(tower)
     self.TOWER_NAME_BACKGROUND_TEXT.text = tower:GetName()
     self.TOWER_NAME_FOREGROUND_TEXT.text = tower:GetName()
 
+    local rarityElements = self.RARITY_PANEL:GetChildren()
+    local rarityColor = TowerThemes.GetRarityColor("Rare")
+    for _, uiElement in pairs(rarityElements) do
+        uiElement:SetColor(rarityColor)
+        if uiElement:IsA("UIText") then
+            uiElement.text = "Rare"
+        end
+    end
+
     -- TODO: Change this so it's modular.
     -- I'm sure you can see why this would not scale properly.
     ------------------------------
 
     -- DAMAGE
 
-    local statType = StatsTheme.GetStatType("Damage")
+    local statType = TowerThemes.GetStatType("Damage")
     self.damageStat = World.SpawnAsset(NUMBER_STAT,{ parent = self.SCROLL_PANEL })
     self.damageStat.y = 40
 
@@ -47,7 +56,7 @@ function view:DisplayTowerStats(tower)
 
     -- RANGE
 
-    local statType = StatsTheme.GetStatType("Range")
+    local statType = TowerThemes.GetStatType("Range")
     self.rangeStat = World.SpawnAsset(PROGRESS_STAT,{ parent = self.SCROLL_PANEL })
     self.rangeStat.y = 140
 
@@ -58,7 +67,7 @@ function view:DisplayTowerStats(tower)
 
     -- SPEED
 
-    local statType = StatsTheme.GetStatType("Speed")
+    local statType = TowerThemes.GetStatType("Speed")
     self.speedStat = World.SpawnAsset(PROGRESS_STAT,{ parent = self.SCROLL_PANEL })
     self.speedStat.y = 220
 
@@ -89,15 +98,13 @@ end
 ------------------------------------------
 
 function view:_Init(statsComparePanel)
-    print("=======================")
-    print(statsComparePanel)
-    print(statsComparePanel:GetCustomProperty("TowerIcon"))
-    print("=======================")
     self.TOWER_ICON = statsComparePanel:GetCustomProperty("TowerIcon"):WaitForObject()
     self.TOWER_DESCRIPTION_TEXT = statsComparePanel:GetCustomProperty("TowerDescription"):WaitForObject()
     self.TOWER_NAME_BACKGROUND_TEXT = statsComparePanel:GetCustomProperty("TowerNameBackground"):WaitForObject()
     self.TOWER_NAME_FOREGROUND_TEXT = statsComparePanel:GetCustomProperty("TowerNameForeground"):WaitForObject()
     self.SCROLL_PANEL = statsComparePanel:GetCustomProperty("UIScrollPanel"):WaitForObject()
+    self.RARITY_PANEL = statsComparePanel:GetCustomProperty("RarityPanel"):WaitForObject()
+    self.TOWER_TYPE = statsComparePanel:GetCustomProperty("TowerTypeIcon"):WaitForObject()
 
     -- TODO: Save all the UI elements that are required.
 end

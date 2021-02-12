@@ -391,13 +391,13 @@ function Board:_SetupWalkNodes()
                     --print("Next is branch. Back connecting",i)
                     local previousNode = nodesGroup[i+1]:GetCustomProperty("BeginNode"):GetObject()
                     previousNode.serverUserData.nodeInstance:SetNextNode(nodesGroup[i+1].serverUserData.startNode)
-                    CoreDebug.DrawLine(previousNode.serverUserData.nodeInstance:GetWorldPosition(),nodesGroup[i+1].serverUserData.startNode:GetWorldPosition(),{ duration = 2000, thickness = 5, color = Color.YELLOW })
+                    --CoreDebug.DrawLine(previousNode.serverUserData.nodeInstance:GetWorldPosition(),nodesGroup[i+1].serverUserData.startNode:GetWorldPosition(),{ duration = 2000, thickness = 5, color = Color.YELLOW })
                     ConnectPaths_R(nodesGroup[i+1]:GetChildren(),nodesGroup[i+1])
                     -- If it's a folder then back connect
                 else
                     --print("Regular connect:",i,folder)
                     if previousNode then
-                        CoreDebug.DrawLine(previousNode:GetWorldPosition(),nextNode.serverUserData.nodeInstance:GetWorldPosition(),{ duration = 2000, thickness = 5, color =  Color.BLUE })
+                        --CoreDebug.DrawLine(previousNode:GetWorldPosition(),nextNode.serverUserData.nodeInstance:GetWorldPosition(),{ duration = 2000, thickness = 5, color =  Color.BLUE })
                         previousNode:SetNextNode(nextNode.serverUserData.nodeInstance)
                     end
                     -- If it's not a folder then regular connect
@@ -411,7 +411,7 @@ function Board:_SetupWalkNodes()
                     local nextNode = folder:GetCustomProperty("NextNode")
                     if nextNode then
                         nextNode = folder:GetCustomProperty("NextNode"):GetObject()
-                        CoreDebug.DrawLine(previousNode:GetWorldPosition(),nextNode.serverUserData.nodeInstance:GetWorldPosition(),{ duration = 2000, thickness = 5, color = Color.GREEN })
+                        --CoreDebug.DrawLine(previousNode:GetWorldPosition(),nextNode.serverUserData.nodeInstance:GetWorldPosition(),{ duration = 2000, thickness = 5, color = Color.GREEN })
                         --print("Reconnecting to ancestor.")
                         previousNode:SetNextNode(nextNode.serverUserData.nodeInstance)
                         return

@@ -399,6 +399,12 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:Rarity"
+      ObjectReference {
+        SelfId: 16555092129292573516
+      }
+    }
+    Overrides {
       Name: "cs:Cost"
       Int: 600
     }
@@ -481,6 +487,12 @@ Objects {
       Name: "cs:Type"
       ObjectReference {
         SelfId: 15473447320514786512
+      }
+    }
+    Overrides {
+      Name: "cs:Rarity"
+      ObjectReference {
+        SelfId: 13496367145218431849
       }
     }
     Overrides {
@@ -575,6 +587,12 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:Rarity"
+      ObjectReference {
+        SelfId: 10069010683383961677
+      }
+    }
+    Overrides {
       Name: "cs:Cost"
       Int: 250
     }
@@ -591,15 +609,15 @@ Objects {
       Float: 28
     }
     Overrides {
-      Name: "cs:Tower"
-      AssetReference {
-        Id: 2899926137011795618
-      }
-    }
-    Overrides {
       Name: "cs:NextTowerUpgrade"
       ObjectReference {
         SelfId: 5750565209154117416
+      }
+    }
+    Overrides {
+      Name: "cs:Tower"
+      AssetReference {
+        Id: 2899926137011795618
       }
     }
     Overrides {
@@ -666,6 +684,12 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:Rarity"
+      ObjectReference {
+        SelfId: 5885690553894889409
+      }
+    }
+    Overrides {
       Name: "cs:Cost"
       Int: 100
     }
@@ -682,15 +706,15 @@ Objects {
       Float: 25
     }
     Overrides {
-      Name: "cs:Tower"
-      AssetReference {
-        Id: 16766847353224290358
-      }
-    }
-    Overrides {
       Name: "cs:NextTowerUpgrade"
       ObjectReference {
         SelfId: 10439499535441725204
+      }
+    }
+    Overrides {
+      Name: "cs:Tower"
+      AssetReference {
+        Id: 16766847353224290358
       }
     }
     Overrides {

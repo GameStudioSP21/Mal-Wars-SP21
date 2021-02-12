@@ -73,7 +73,7 @@ function Inventory:_Init(database,owner,inventoryTowersString,equippedTowersStri
 
     -- If the player is new then load in a default tower for them
     if not inventoryTowersString and not equippedTowersString then
-        -- Create starter towers if the player has none.
+        -- Create starter towers if the player has none. ( TEMP )
         local tower = database:NewTowerByID(1)
         table.insert(self.towers,tower)
         table.insert(self.equippedTowers,tower)

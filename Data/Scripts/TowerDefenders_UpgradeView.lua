@@ -21,6 +21,7 @@ local function ShowComparedStatsPanel(selectedTower)
     afterPanel:DisplayTowerStats(nextTower)
     beforePanel:CompareToTower(nextTower)
 
+    -- Arrow animation
     local lastArrow = nil
     if arrowAnimation then
         arrowAnimation:Cancel()
@@ -37,6 +38,8 @@ local function ShowComparedStatsPanel(selectedTower)
             end
         end
     end)
+
+
 end
 
 local function HideDisplayComparedStatsPanel()
@@ -50,7 +53,7 @@ local function HideDisplayComparedStatsPanel()
 end
 
 local function TowerUpgradeConfirmed()
-
+    print("Upgrade confirmed")
 end
 
 Events.Connect("DisplayTowerStats",ShowComparedStatsPanel)

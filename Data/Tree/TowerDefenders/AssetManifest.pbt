@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16538320873508884468
+  Name: "Bullet 1"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Military_Icon_019"
+  }
+}
+Assets {
   Id: 15114558003167156017
   Name: "Frame Beveled 001"
   PlatformAssetType: 9
@@ -59,6 +68,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "BackgroundNoOutline_020"
+  }
+}
+Assets {
+  Id: 6514360514415758029
+  Name: "BG Highlighted 010"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundHighlighted_027"
   }
 }
 Assets {
