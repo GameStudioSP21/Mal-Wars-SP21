@@ -1,3 +1,4 @@
+
 local TOWER_STATS_MAIN_PANEL = script:GetCustomProperty("TowerUpgradeCompare"):WaitForObject()
 local TOWER_STATS_BEFORE_PANEL = script:GetCustomProperty("TowerStatsBefore"):WaitForObject()
 local TOWER_STATS_AFTER_PANEL = script:GetCustomProperty("TowerStatsAfter"):WaitForObject()
@@ -13,7 +14,17 @@ local arrowAnimation = nil
 local beforePanel = CompareStatsView.New(TOWER_STATS_BEFORE_PANEL)
 local afterPanel = CompareStatsView.New(TOWER_STATS_AFTER_PANEL)
 
+local currentTower = nil
+
 local function ShowComparedStatsPanel(selectedTower)
+    if currentTower ~= selectedTower then
+        if currentTower then
+            currentTower:RemoveRangeRadius()
+        end
+    end
+    currentTower = selectedTower
+
+    selectedTower:DisplayRangeRadius()
     TOWER_STATS_MAIN_PANEL.visibility = Visibility.FORCE_ON
 
     beforePanel:DisplayTowerStats(selectedTower)
@@ -38,11 +49,13 @@ local function ShowComparedStatsPanel(selectedTower)
             end
         end
     end)
-
-
 end
 
 local function HideDisplayComparedStatsPanel()
+    if currentTower then
+        currentTower:RemoveRangeRadius()
+        currentTower = nil
+    end
     TOWER_STATS_MAIN_PANEL.visibility = Visibility.FORCE_OFF
     if arrowAnimation then
         arrowAnimation:Cancel()

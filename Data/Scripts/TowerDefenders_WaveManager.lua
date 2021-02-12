@@ -178,6 +178,8 @@ function WaveManager:_Init(board,waveManagerObject)
         end
     end
 
+    self:_DefineEvent("OnEnemyReachedEnd")
+
     if Environment.IsServer() then
         -- Begin wavemanager the runtime.
         self.runtime = Task.Spawn(function() self:_Runtime() end)

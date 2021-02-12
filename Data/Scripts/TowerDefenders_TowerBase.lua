@@ -4,8 +4,10 @@ Tower.__index = Tower
 local SPAWN_VFX = script:GetCustomProperty("SpawnVFX")
 local PRE_SPAWN_ASSET = script:GetCustomProperty("PreSpawnAsset")
 local PRE_END_SPAWN_ASSET = script:GetCustomProperty("PreEndSpawnAsset")
+local OWNERSHIP_DECAL = script:GetCustomProperty("TowerOwnershipDecal")
+local RANGE_RADIUS_DECAL = script:GetCustomProperty("RangeRadiusDecal")
 local Ease3D = require(script:GetCustomProperty("Ease3D"))
-local Base64 = require(script:GetCustomProperty("Base64"))
+--local Base64 = require(script:GetCustomProperty("Base64"))
 
 ----------------------------------------------------
 -- Public
@@ -60,6 +62,12 @@ function Tower:SpawnAsset()
     local towerModel = World.SpawnAsset(self:GetMUID(),{ position = self.position, parent = boardAsset })
     self.towerAssetInstance = towerModel
 
+    -- If the owner of the tower placed then there will be a ring below the the tower
+    -- indicating they own it.
+    if self:GetOwner() == Game.GetLocalPlayer() then
+        World.SpawnAsset(OWNERSHIP_DECAL,{ parent = towerModel })
+    end
+
     self._horizontalRotator = towerModel:GetCustomProperty("HorizontalRotator"):GetObject()
     self._verticalRotator = towerModel:GetCustomProperty("VerticalRotator"):GetObject()
     self._muzzle = towerModel:GetCustomProperty("Muzzle"):GetObject()
@@ -83,6 +91,13 @@ function Tower:SpawnAssetSpecial()
     local towerModel = World.SpawnAsset(self:GetMUID(),{ position = self.position, parent = boardAsset })
     self.towerAssetInstance = towerModel
 
+    -- If the owner of the tower placed then there will be a ring below the the tower
+    -- indicating they own it.
+    if self:GetOwner() == Game.GetLocalPlayer() then
+        World.SpawnAsset(OWNERSHIP_DECAL,{ parent = towerModel })
+    end
+    
+
     dropPod:Destroy()
     
     self._horizontalRotator = towerModel:GetCustomProperty("HorizontalRotator"):GetObject()
@@ -90,6 +105,20 @@ function Tower:SpawnAssetSpecial()
     self._muzzle = towerModel:GetCustomProperty("Muzzle"):GetObject()
     self._muzzleEffects = self._muzzle:GetChildren()
 end
+
+-- Client
+function Tower:DisplayRangeRadius()
+    local radius = World.SpawnAsset(RANGE_RADIUS_DECAL,{ parent = self:GetTowerAssetInstance() })
+    Ease3D.EaseScale(radius, Vector3.New(self:GetRange()), 1, Ease3D.EasingEquation.SINE, Ease3D.EasingDirection.INOUT)
+    self.rangeRadiusVisual = radius
+end
+
+function Tower:RemoveRangeRadius()
+    if self.rangeRadiusVisual then
+        self.rangeRadiusVisual:Destroy()
+    end
+end
+--
 
 function Tower:SetWorldPosition(position)
     self.position = position
@@ -113,6 +142,10 @@ end
 -- TODO: Change name
 function Tower:GetBoardReference()
     return self.board
+end
+
+function Tower:GetTowerAssetInstance()
+    return self.towerAssetInstance
 end
 
 function Tower:GetOwner()

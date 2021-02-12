@@ -70,7 +70,7 @@ end
 -- Get the statType from a stat name.
 function theme.GetStatType(statName)
     assert(THEME_STATS[statName].statType,string.format("Tried to get the stat type for - %s that does not exist.",statName))
-    return TOWER_STATS[statName].statType
+    return THEME_STATS[statName].statType
 end
 ---- STATS
 
