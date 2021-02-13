@@ -106,6 +106,11 @@ Assets {
         }
         ParentId: 1520947025776558737
         ChildIds: 2605634753303570305
+        ChildIds: 1097799956034137231
+        ChildIds: 6519521145369323271
+        ChildIds: 6248475757655416870
+        ChildIds: 3500526576464743200
+        ChildIds: 13743259081361844909
         ChildIds: 1310053617015378390
         WantsNetworking: true
         Collidable_v2 {
@@ -125,6 +130,246 @@ Assets {
           Location {
             X: -7775
             Y: 5000
+          }
+          Rotation {
+            Yaw: 44.9999924
+          }
+          Scale {
+            X: 10
+            Y: 10
+            Z: 1
+          }
+        }
+        ParentId: 13337831872285391908
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:IsBuildable"
+            Bool: true
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 15305476051440937955
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 1097799956034137231
+        Name: "anchor_TL"
+        Transform {
+          Location {
+            X: -4775
+            Y: 5175
+          }
+          Rotation {
+            Yaw: 44.9999924
+          }
+          Scale {
+            X: 10
+            Y: 10
+            Z: 1
+          }
+        }
+        ParentId: 13337831872285391908
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:IsBuildable"
+            Bool: true
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 15305476051440937955
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 6519521145369323271
+        Name: "anchor_MR"
+        Transform {
+          Location {
+            X: -7475
+            Y: -1400
+          }
+          Rotation {
+            Yaw: 44.9999924
+          }
+          Scale {
+            X: 10
+            Y: 10
+            Z: 1
+          }
+        }
+        ParentId: 13337831872285391908
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:IsBuildable"
+            Bool: true
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 15305476051440937955
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 6248475757655416870
+        Name: "anchor_ML"
+        Transform {
+          Location {
+            X: -4725
+            Y: 1150
+          }
+          Rotation {
+            Yaw: 44.9999924
+          }
+          Scale {
+            X: 10
+            Y: 10
+            Z: 1
+          }
+        }
+        ParentId: 13337831872285391908
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:IsBuildable"
+            Bool: true
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 15305476051440937955
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 3500526576464743200
+        Name: "anchor_BL"
+        Transform {
+          Location {
+            X: -7650
+            Y: -5525
+          }
+          Rotation {
+            Yaw: 44.9999924
+          }
+          Scale {
+            X: 10
+            Y: 10
+            Z: 1
+          }
+        }
+        ParentId: 13337831872285391908
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:IsBuildable"
+            Bool: true
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 15305476051440937955
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 13743259081361844909
+        Name: "anchor_TR"
+        Transform {
+          Location {
+            X: -4575
+            Y: -5375
           }
           Rotation {
             Yaw: 44.9999924
@@ -194,7 +439,77 @@ Assets {
             Bool: false
           }
           Overrides {
+            Name: "cs:Anchor2"
+            ObjectReference {
+              SubObjectId: 1097799956034137231
+            }
+          }
+          Overrides {
+            Name: "cs:Anchor3"
+            ObjectReference {
+              SubObjectId: 6519521145369323271
+            }
+          }
+          Overrides {
+            Name: "cs:Anchor4"
+            ObjectReference {
+              SubObjectId: 6248475757655416870
+            }
+          }
+          Overrides {
+            Name: "cs:Anchor5"
+            ObjectReference {
+              SubObjectId: 3500526576464743200
+            }
+          }
+          Overrides {
+            Name: "cs:Anchor6"
+            ObjectReference {
+              SubObjectId: 13743259081361844909
+            }
+          }
+          Overrides {
+            Name: "cs:Plat2DOWN"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:Plat3DOWN"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:Plat4DOWN"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:Plat5DOWN"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:Plat6DOWN"
+            Bool: false
+          }
+          Overrides {
             Name: "cs:Plat1DOWN:isrep"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:Plat2DOWN:isrep"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:Plat3DOWN:isrep"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:Plat4DOWN:isrep"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:Plat5DOWN:isrep"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:Plat6DOWN:isrep"
             Bool: true
           }
         }
