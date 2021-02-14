@@ -1,11 +1,12 @@
-
 local TOWER_STATS_MAIN_PANEL = script:GetCustomProperty("TowerUpgradeCompare"):WaitForObject()
 local TOWER_STATS_BEFORE_PANEL = script:GetCustomProperty("TowerStatsBefore"):WaitForObject()
 local TOWER_STATS_AFTER_PANEL = script:GetCustomProperty("TowerStatsAfter"):WaitForObject()
 local TOWER_STATS_FEEDBACK_ARROW = script:GetCustomProperty("FeedbackArrow"):WaitForObject()
+local COST_PANEL = script:GetCustomProperty("CostPanel"):WaitForObject()
 
 local TowerDatabase = require(script:GetCustomProperty("TowerDefenders_TowerDatabase"))
 local CompareStatsView = require(script:GetCustomProperty("TowerDefenders_CompareStatsView"))
+local GemWallet = require(script:GetCustomProperty("GemWallet"))
 local EaseUI = require(script:GetCustomProperty("EaseUI"))
 
 local ANIMATION_ARROWS = TOWER_STATS_FEEDBACK_ARROW:GetChildren()
@@ -67,6 +68,18 @@ end
 
 local function TowerUpgradeConfirmed()
     print("Upgrade confirmed")
+end
+
+function Tick() 
+    local costText = COST_PANEL:GetCustomProperty("CostText"):GetObject()
+    if currentTower then
+        local nextTower = TowerDatabase:NewTowerByMUID(currentTower:GetNextUpgradeMUID())
+        if GemWallet.HasEnough(nextTower:GetCost())  then
+            costText:SetColor(Color.GREEN)
+        else
+            costText:SetColor(Color.RED)
+        end
+    end
 end
 
 Events.Connect("DisplayTowerStats",ShowComparedStatsPanel)

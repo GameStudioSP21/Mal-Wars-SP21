@@ -34,6 +34,18 @@ Assets {
           Id: 18151390648682977898
         }
       }
+      Overrides {
+        Name: "cs:RangeRadiusDecal"
+        AssetReference {
+          Id: 6234657291544202752
+        }
+      }
+      Overrides {
+        Name: "cs:TowerOwnershipDecal"
+        AssetReference {
+          Id: 1866656945984035350
+        }
+      }
     }
   }
   SerializationVersion: 74

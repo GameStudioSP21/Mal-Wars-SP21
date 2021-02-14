@@ -13,6 +13,10 @@ function GemWallet.GetDeltaAmount()
     return deltaGemCount
 end
 
+function GemWallet.GetCurrentAmount()
+    return currentGemCount
+end
+
 function GemWallet.AddToWallet(amount)
     deltaGemCount = deltaGemCount + amount
     GemWallet:_FireEvent("OnGemAdded",amount)
@@ -24,7 +28,7 @@ function GemWallet.SubtractFromWallet(amount)
 end
 
 function GemWallet.HasEnough(amount)
-    if amount <= currentGemCount + deltaGemCount then
+    if amount <= currentGemCount then
         return true
     end
     return false

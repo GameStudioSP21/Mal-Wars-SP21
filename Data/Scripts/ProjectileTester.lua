@@ -10,8 +10,10 @@ local LOCAL_PLAYER = Game.GetLocalPlayer()
 --         object = bullet,
 --         direction = Vector3.New(math.random(10,200),0,math.random(10,200)),
 --         isRaycasting = true,
+--         speedMultiplier = 0.5,
 --     })
---     bulletProjectile.OnHit:Connect(function()
+--     bulletProjectile.OnHit:Connect(function(hitResult)
 --         bulletProjectile:StopSimulation()
+--         bulletProjectile:SetWorldPosition(hitResult:GetImpactPosition())
 --     end)
 -- end

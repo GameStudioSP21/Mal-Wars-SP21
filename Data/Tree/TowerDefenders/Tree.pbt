@@ -5417,6 +5417,12 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:GemWallet"
+      AssetReference {
+        Id: 16145347658999261958
+      }
+    }
+    Overrides {
       Name: "cs:CostPanel"
       ObjectReference {
         SelfId: 8569578754061514532
