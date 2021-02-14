@@ -19,6 +19,7 @@
 local ROOT = script:GetCustomProperty("Root"):WaitForObject()
 
 local HEALTH_BAR_TEMPLATE = script:GetCustomProperty("HealthBarTemplate")
+Task.Wait(1)
 local MAX_HEALTH = ROOT:GetCustomProperty("CurrentHealth")
 
 
@@ -42,7 +43,6 @@ end
 
 -- Creates the health bar UI and places it as a child of this script
 local hpBar = World.SpawnAsset(HEALTH_BAR_TEMPLATE, {parent = script})
-Task.Wait()
 local hpBarScript = hpBar:FindChildByType("Script")
 
 -- Passes itself as the data provider, from which the health bar will ask for values.

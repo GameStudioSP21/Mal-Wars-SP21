@@ -75,19 +75,23 @@ function Tick()
         -- Move the ghost position to the impact position
         local board = LOCAL_PLAYER.clientUserData.activeBoard
         local impactPosition = GetGroundPositionFromCamera()
-        local nearestTower = board:GetNearestTower(impactPosition,ATTRACT_RANGE,LOCAL_PLAYER)
 
-        -- Ease the upgrader ghost to the nearest tower.
-        if nearestTower ~= selectedTower and nearestTower ~= nil then
-            selectedTower = nearestTower
-            Events.Broadcast("DisplayTowerStats",selectedTower)
-            Ease3D.EasePosition(upgradeGhost, selectedTower:GetWorldPosition(), 0.3, Ease3D.EasingEquation.SINE, Ease3D.EasingDirection.OUT)
-        end
+        if impactPosition then
+            local nearestTower = board:GetNearestTower(impactPosition,ATTRACT_RANGE,LOCAL_PLAYER)
 
-        if nearestTower == nil then
-            upgradeGhost:SetWorldPosition(impactPosition)
-            Events.Broadcast("StopDisplayingTowerStats")
-            selectedTower = nil
+            -- Ease the upgrader ghost to the nearest tower.
+            if nearestTower ~= selectedTower and nearestTower ~= nil then
+                selectedTower = nearestTower
+                Events.Broadcast("DisplayTowerStats",selectedTower)
+                Ease3D.EasePosition(upgradeGhost, selectedTower:GetWorldPosition(), 0.3, Ease3D.EasingEquation.SINE, Ease3D.EasingDirection.OUT)
+            end
+    
+            if nearestTower == nil then
+                upgradeGhost:SetWorldPosition(impactPosition)
+                Events.Broadcast("StopDisplayingTowerStats")
+                selectedTower = nil
+            end
+    
         end
 
 
@@ -101,9 +105,11 @@ LOCAL_PLAYER.bindingPressedEvent:Connect(function(_,key)
             local board = LOCAL_PLAYER.clientUserData.activeBoard
             board:UpgradeTower(selectedTower)
             Events.Broadcast("ConfirmTowerUpgrade",selectedTower)
+            Events.Broadcast("StopDisplayingTowerStats")
             RemoveUpgradeGhost()
         elseif key == CANCEL_UPGRADE_KEY then
             RemoveUpgradeGhost()
+            Events.Broadcast("StopDisplayingTowerStats")
         end
     end
 end)

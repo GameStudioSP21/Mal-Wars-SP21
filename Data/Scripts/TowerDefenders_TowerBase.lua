@@ -4,8 +4,9 @@ Tower.__index = Tower
 local SPAWN_VFX = script:GetCustomProperty("SpawnVFX")
 local PRE_SPAWN_ASSET = script:GetCustomProperty("PreSpawnAsset")
 local PRE_END_SPAWN_ASSET = script:GetCustomProperty("PreEndSpawnAsset")
+local OWNERSHIP_DECAL = script:GetCustomProperty("TowerOwnershipDecal")
+local RANGE_RADIUS_DECAL = script:GetCustomProperty("RangeRadiusDecal")
 local Ease3D = require(script:GetCustomProperty("Ease3D"))
-local Base64 = require(script:GetCustomProperty("Base64"))
 
 ----------------------------------------------------
 -- Public
@@ -19,6 +20,7 @@ function Tower.New(towerData, board, owner)
     self.owner = owner
     self.towerAssetInstance = nil
     self.currentTarget = nil
+    self.runtimes = {}
 
     self:_Init(towerData)
 
@@ -59,6 +61,12 @@ function Tower:SpawnAsset()
     local towerModel = World.SpawnAsset(self:GetMUID(),{ position = self.position, parent = boardAsset })
     self.towerAssetInstance = towerModel
 
+    -- If the owner of the tower placed then there will be a ring below the the tower
+    -- indicating they own it.
+    if self:GetOwner() == Game.GetLocalPlayer() then
+        World.SpawnAsset(OWNERSHIP_DECAL,{ parent = towerModel })
+    end
+
     self._horizontalRotator = towerModel:GetCustomProperty("HorizontalRotator"):GetObject()
     self._verticalRotator = towerModel:GetCustomProperty("VerticalRotator"):GetObject()
     self._muzzle = towerModel:GetCustomProperty("Muzzle"):GetObject()
@@ -82,6 +90,13 @@ function Tower:SpawnAssetSpecial()
     local towerModel = World.SpawnAsset(self:GetMUID(),{ position = self.position, parent = boardAsset })
     self.towerAssetInstance = towerModel
 
+    -- If the owner of the tower placed then there will be a ring below the the tower
+    -- indicating they own it.
+    if self:GetOwner() == Game.GetLocalPlayer() then
+        World.SpawnAsset(OWNERSHIP_DECAL,{ parent = towerModel })
+    end
+    
+
     dropPod:Destroy()
     
     self._horizontalRotator = towerModel:GetCustomProperty("HorizontalRotator"):GetObject()
@@ -89,6 +104,20 @@ function Tower:SpawnAssetSpecial()
     self._muzzle = towerModel:GetCustomProperty("Muzzle"):GetObject()
     self._muzzleEffects = self._muzzle:GetChildren()
 end
+
+-- Client
+function Tower:DisplayRangeRadius()
+    local radius = World.SpawnAsset(RANGE_RADIUS_DECAL,{ parent = self:GetTowerAssetInstance() })
+    Ease3D.EaseScale(radius, Vector3.New(self:GetStat("Range")), 1, Ease3D.EasingEquation.SINE, Ease3D.EasingDirection.INOUT)
+    self.rangeRadiusVisual = radius
+end
+
+function Tower:RemoveRangeRadius()
+    if self.rangeRadiusVisual then
+        self.rangeRadiusVisual:Destroy()
+    end
+end
+--
 
 function Tower:SetWorldPosition(position)
     self.position = position
@@ -112,6 +141,10 @@ end
 -- TODO: Change name
 function Tower:GetBoardReference()
     return self.board
+end
+
+function Tower:GetTowerAssetInstance()
+    return self.towerAssetInstance
 end
 
 function Tower:GetOwner()
@@ -150,16 +183,8 @@ function Tower:GetCost()
     return self.data.cost
 end
 
-function Tower:GetDamage()
-    return self.data.damage
-end
-
-function Tower:GetSpeed()
-    return self.data.speed
-end
-
-function Tower:GetRange()
-    return self.data.range
+function Tower:GetStat(statName)
+    return self.data.stats[statName]
 end
 
 function Tower:GetNextUpgradeMUID()
@@ -171,7 +196,7 @@ function Tower:GetVisualProjectile()
 end
 
 function Tower:InRange(object)
-    if (object:GetWorldPosition() - self:GetWorldPosition()).size < self:GetRange()*50 then
+    if (object:GetWorldPosition() - self:GetWorldPosition()).size < self:GetStat("Range")*50 then
         return true
     end
     return false
@@ -243,7 +268,7 @@ end
 function Tower:DamageEnemy(enemy)
     if not Object.IsValid(enemy) then return end
     local health = enemy:GetCustomProperty("CurrentHealth")
-    health = health - self:GetDamage()
+    health = health - self:GetStat("Damage")
     enemy:SetNetworkedCustomProperty("CurrentHealth",health)
 end
 
@@ -297,7 +322,6 @@ function Tower:_Runtime()
     local position = self:GetWorldPosition()
     self.isrunning = true
     self.currentTarget = nil
-    self.runtimes = {}
     
     if Environment.IsClient() then
         -- Rotating Runtime
@@ -328,7 +352,7 @@ function Tower:_Runtime()
         -- Firing Runtime
         local firingRuntime = Task.Spawn(function()
             while true do
-                Task.Wait(1/self:GetSpeed())
+                Task.Wait(self:GetStat("Speed"))
                 if Object.IsValid(self.currentTarget) and self._horizontalRotator then
                     self:FireFakeProjectile()
                     self:PlayMuzzleEffects()
@@ -366,7 +390,7 @@ function Tower:_Runtime()
         -- Attacking
         local attackingRuntime = Task.Spawn(function()
             while true do
-                Task.Wait(1/self:GetSpeed())
+                Task.Wait(self:GetStat("Speed"))
                 if Object.IsValid(self.currentTarget) then
                     self:DamageEnemy(self.currentTarget)
                     if self.currentTarget:GetCustomProperty("CurrentHealth") <= 0 then

@@ -54,10 +54,10 @@ Assets {
           }
           Image {
             Brush {
-              Id: 1061887584718928171
+              Id: 16011685488087387900
             }
             Color {
-              A: 0.822
+              A: 0.295000017
             }
             TeamSettings {
             }
@@ -311,12 +311,12 @@ Assets {
       }
     }
     Assets {
-      Id: 1061887584718928171
-      Name: "UI Basic Shape Triangle"
+      Id: 16011685488087387900
+      Name: "Center Tri 001"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_Basic_Shape_Triangle"
+        AssetId: "CenterTri_001"
       }
     }
     Assets {

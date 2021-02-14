@@ -6159,7 +6159,7 @@ Assets {
         }
         AudioInstance {
           AudioAsset {
-            Id: 769007112956482022
+            Id: 6505169517459261508
           }
           AutoPlay: true
           Transient: true
@@ -6196,7 +6196,7 @@ Assets {
         }
         AudioInstance {
           AudioAsset {
-            Id: 6401498020918617889
+            Id: 10943013263251074544
           }
           AutoPlay: true
           Transient: true
@@ -6232,7 +6232,7 @@ Assets {
         }
         AudioInstance {
           AudioAsset {
-            Id: 7115571218229221495
+            Id: 2825736010572694941
           }
           AutoPlay: true
           Transient: true
@@ -6535,30 +6535,30 @@ Assets {
       }
     }
     Assets {
-      Id: 769007112956482022
-      Name: "Machine Servo Turret Movement Stop 01 SFX"
+      Id: 6505169517459261508
+      Name: "Industrial Servo Drill Movement Short 01 SFX"
       PlatformAssetType: 7
       PrimaryAsset {
         AssetType: "AudioAssetRef"
-        AssetId: "sfx_machine_servo_turret_movement_stop_01a_Cue_ref"
+        AssetId: "sfx_industrial_servo_drill_movement_short_01a_Cue_ref"
       }
     }
     Assets {
-      Id: 6401498020918617889
-      Name: "Pneumatic Impact Air Drill 01 SFX"
+      Id: 10943013263251074544
+      Name: "Sci-fi Robotic Servo Movement Cranking Airlock 01 SFX"
       PlatformAssetType: 7
       PrimaryAsset {
         AssetType: "AudioAssetRef"
-        AssetId: "sfx_air_pneumatic_impact_drill_repair_01_Cue_ref"
+        AssetId: "sfx_scifi_robotic_servo_movement_cranking_airlock_01_Cue_ref"
       }
     }
     Assets {
-      Id: 7115571218229221495
-      Name: "Steam Pressure Release Short 01 SFX"
+      Id: 2825736010572694941
+      Name: "Sci-fi Airlock Servo Movement Door Close 01 SFX"
       PlatformAssetType: 7
       PrimaryAsset {
         AssetType: "AudioAssetRef"
-        AssetId: "sfx_steam_pressure_release_medium_01a_Cue_ref"
+        AssetId: "sfx_scifi_airlock_servo_movement_door_close_01_Cue_ref"
       }
     }
     PrimaryAssetId {

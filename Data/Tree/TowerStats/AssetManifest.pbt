@@ -1,19 +1,19 @@
 Assets {
-  Id: 15741126533690096100
-  Name: "Icon Target"
+  Id: 18302185000409999876
+  Name: "Icon Clock"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_Target"
+    AssetId: "Icon_Clock"
   }
 }
 Assets {
-  Id: 8925179089627740438
-  Name: "Icon Arrow Up"
+  Id: 16538320873508884468
+  Name: "Bullet 1"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_ArrowUp"
+    AssetId: "UI_Military_Icon_019"
   }
 }
 Assets {

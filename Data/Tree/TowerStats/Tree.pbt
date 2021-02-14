@@ -19,12 +19,12 @@ Objects {
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 8925179089627740438
+        Id: 18302185000409999876
       }
     }
     Overrides {
       Name: "cs:StatType"
-      String: "ProgressBar"
+      String: "Interger"
     }
   }
   Collidable_v2 {
@@ -62,7 +62,7 @@ Objects {
     }
     Overrides {
       Name: "cs:StatType"
-      String: "ProgressBar"
+      String: "Interger"
     }
   }
   Collidable_v2 {
@@ -95,7 +95,7 @@ Objects {
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 15741126533690096100
+        Id: 16538320873508884468
       }
     }
     Overrides {

@@ -17,6 +17,12 @@ Objects {
   ParentId: 15720114564533439334
   UnregisteredParameters {
     Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 4683636839045753337
+      }
+    }
+    Overrides {
       Name: "cs:Color"
       Color {
         R: 0.0713905394
@@ -53,6 +59,12 @@ Objects {
   ParentId: 15720114564533439334
   UnregisteredParameters {
     Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 15304446480364608081
+      }
+    }
+    Overrides {
       Name: "cs:Color"
       Color {
         R: 0.919999957
@@ -88,6 +100,12 @@ Objects {
   }
   ParentId: 15720114564533439334
   UnregisteredParameters {
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 16538320873508884468
+      }
+    }
     Overrides {
       Name: "cs:Color"
       Color {

@@ -35,6 +35,12 @@ view.OnSectionClicked:Connect(function(sectionID)
         UI.SetCanCursorInteractWithUI(false)
         Task.Wait(0.1)
         Events.Broadcast("BeginUpgrading")
+    elseif sectionID == 3 then
+        view:Close()
+        UI.SetCursorVisible(false)
+        UI.SetCanCursorInteractWithUI(false)
+        Task.Wait(0.1)
+        Events.Broadcast("BeginSelling")
     end
 
 end)

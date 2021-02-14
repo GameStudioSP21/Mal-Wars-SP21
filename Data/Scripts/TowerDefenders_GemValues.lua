@@ -18,7 +18,6 @@ for _, gem in pairs(GEMS_FOLDER:GetChildren()) do
     elseif lowestGem.value > gemValue then
         lowestGem = { asset = gemAsset, value = gemValue }
     end
-    print("INSERTING:",gemAsset,gemValue)
     table.insert(values,{ asset = gemAsset, value = gemValue })
 end
 
@@ -28,12 +27,10 @@ function GemValues.GetGemsByValue(amount)
     for _, gem in pairs(values) do
         local gemCount = math.floor(amount / gem.value)
         if gemCount > 0 then
-            print("Selected Value:",gem.value,"Count:",gemCount)
             amount = amount % gem.value
             table.insert(gems,{ asset = gem.asset, value = gem.value, amount = gemCount })
         end
     end
-    print("SIZE:",#gems)
     return gems
 end
 
