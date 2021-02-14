@@ -1,5 +1,5 @@
 Assets {
-  Id: 16260411936997475498
+  Id: 893641266006266770
   Name: "LaserTurret_Upgrade4"
   PlatformAssetType: 5
   TemplateAsset {
@@ -10,9 +10,9 @@ Assets {
         Name: "LaserTurret_Upgrade4"
         Transform {
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 2.17266941
+            Y: 2.17266941
+            Z: 2.17266941
           }
         }
         ParentId: 5354314425751231995
@@ -849,7 +849,7 @@ Assets {
             Z: 180.000031
           }
           Rotation {
-            Roll: -44.9999962
+            Roll: -45
           }
           Scale {
             X: 1
@@ -4251,7 +4251,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 7169881882445777333
+              Id: 9896246329496595320
             }
           }
           Overrides {
@@ -4460,7 +4460,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 7169881882445777333
+              Id: 9896246329496595320
             }
           }
           Overrides {

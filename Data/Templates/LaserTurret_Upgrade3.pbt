@@ -10,9 +10,9 @@ Assets {
         Name: "LaserTurret_Upgrade3"
         Transform {
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 2.31469774
+            Y: 2.31469774
+            Z: 2.31469774
           }
         }
         ParentId: 5354314425751231995
