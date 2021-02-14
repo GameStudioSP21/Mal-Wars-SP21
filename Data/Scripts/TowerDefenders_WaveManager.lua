@@ -85,6 +85,7 @@ function WaveManager:GetEnemiesFolder()
     return self.enemiesFolder
 end
 
+-- TODO: Move this back to the board
 -- Returns the enemy nearest to a given world position.
 function WaveManager:GetNearestEnemy(position)
     local closest = nil
@@ -101,6 +102,7 @@ function WaveManager:GetNearestEnemy(position)
     return closest
 end
 
+-- TODO: Move this back to the board
 -- Returns the closest enemy that is alive at a given world position.
 function WaveManager:GetNearestAliveEnemy(position)
 
@@ -177,6 +179,8 @@ function WaveManager:_Init(board,waveManagerObject)
             player.clientUserData.activeBoardWaveManager = self
         end
     end
+
+    self:_DefineEvent("OnEnemyReachedEnd")
 
     if Environment.IsServer() then
         -- Begin wavemanager the runtime.

@@ -1,6 +1,6 @@
 local TowerDatabase = require(script:GetCustomProperty("TowerDatabase"))
-local EaseUI = require(script:GetCustomProperty("EaseUI")) --- REMOVE
 local Ease3D = require(script:GetCustomProperty("Ease3D"))
+local GemWallet = require(script:GetCustomProperty("GemWallet"))
 
 local PLACEMENT_RADIUS = script:GetCustomProperty("PlacementRadius")
 local BLOCKED_RADIUS = script:GetCustomProperty("BlockedRadius")
@@ -61,7 +61,7 @@ local function CreateTowerGhost(name)
     towerGhost = World.SpawnAsset( towerMUID )
     local radius = World.SpawnAsset( PLACEMENT_RADIUS , { parent = towerGhost })
     
-    local range = prepedTower:GetRange()
+    local range = prepedTower:GetStat("Range")
     Ease3D.EaseScale(radius, Vector3.New(range), 0.7, Ease3D.EasingEquation.CUBIC, Ease3D.EasingDirection.OUT)
     
     radius:SetScale(Vector3.New(range))
@@ -180,6 +180,7 @@ LOCAL_PLAYER.bindingPressedEvent:Connect(function(_,key)
                 prepedTower:SetOwner(LOCAL_PLAYER)
                 prepedTower:SetBoard(board)
                 -- TODO: Add a rotation as an additional step.
+                GemWallet.SubtractFromWallet(prepedTower:GetCost())
                 board:AddTower(prepedTower, roundedPos)
                 CleanUpPlacementVisuals()
             end

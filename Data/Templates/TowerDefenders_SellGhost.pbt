@@ -1,12 +1,12 @@
 Assets {
-  Id: 4200642716983393858
-  Name: "TowerDefenders_UpgradeGhost"
+  Id: 6634834666611468398
+  Name: "TowerDefenders_SellGhost"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 9314559347074726532
+      RootId: 15827546501766066131
       Objects {
-        Id: 9314559347074726532
+        Id: 15827546501766066131
         Name: "TowerDefenders_UpgradeGhost"
         Transform {
           Scale {
@@ -16,7 +16,7 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 16370306684218941500
+        ChildIds: 5557744478967186185
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -28,7 +28,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16370306684218941500
+        Id: 5557744478967186185
         Name: "TowerDefenders_UpgradeGhost"
         Transform {
           Location {
@@ -36,25 +36,25 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 5.01997757
-            Y: 5.01997757
-            Z: 5.01997757
+            X: 5.71347141
+            Y: 5.71347141
+            Z: 5.71347141
           }
         }
-        ParentId: 9314559347074726532
-        ChildIds: 11697802083731352628
+        ParentId: 15827546501766066131
+        ChildIds: 4131007653465748415
         UnregisteredParameters {
           Overrides {
             Name: "bp:Color"
             Color {
-              R: 0.98
-              G: 0.954039812
+              G: 1
+              B: 0.761589527
               A: 1
             }
           }
           Overrides {
             Name: "bp:Emissive Boost"
-            Float: 13.1150932
+            Float: 2.76214862
           }
           Overrides {
             Name: "bp:Life"
@@ -111,7 +111,7 @@ Assets {
         }
       }
       Objects {
-        Id: 11697802083731352628
+        Id: 4131007653465748415
         Name: "Magic Swirl Element Volume"
         Transform {
           Location {
@@ -124,7 +124,7 @@ Assets {
             Z: 0.567975461
           }
         }
-        ParentId: 16370306684218941500
+        ParentId: 5557744478967186185
         UnregisteredParameters {
           Overrides {
             Name: "bp:Volume Type"

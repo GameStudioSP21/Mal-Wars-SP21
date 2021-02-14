@@ -17,9 +17,9 @@ Assets {
         }
       }
       Overrides {
-        Name: "cs:TowerClass"
+        Name: "cs:ThemeApi"
         AssetReference {
-          Id: 13847017050842209487
+          Id: 18181533304032982468
         }
       }
     }

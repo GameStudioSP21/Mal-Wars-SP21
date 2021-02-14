@@ -20,23 +20,23 @@ function PathNode:DebugDrawCurrentPath()
     for _, node in pairs(self.nextNode) do
         CoreDebug.DrawLine(self:GetWorldPosition(),node:GetWorldPosition(),{ duration = 1000, thickness = 10, color = Color.GREEN })
     
-        local direction = (self:GetWorldPosition() - node:GetWorldPosition()):GetNormalized()
-        local hitResult = World.Raycast(self:GetWorldPosition(), self:GetWorldPosition() + Vector3.UP * -500)
-        local normal = hitResult:GetImpactNormal()
-        local cross = direction ^ normal
+        -- local direction = (self:GetWorldPosition() - node:GetWorldPosition()):GetNormalized()
+        -- local hitResult = World.Raycast(self:GetWorldPosition(), self:GetWorldPosition() + Vector3.UP * -500)
+        -- local normal = hitResult:GetImpactNormal()
+        -- local cross = direction ^ normal
     
     
-        CoreDebug.DrawLine(self.perpendicularBeginPoint,self.perpendicularBeginPoint + Vector3.UP * 20,{ duration = 1000, thickness = 8, color = Color.YELLOW })
-        CoreDebug.DrawLine(self.perpendicularEndPoint,self.perpendicularEndPoint + Vector3.UP * 20,{ duration = 1000, thickness = 8, color = Color.YELLOW })
-        CoreDebug.DrawLine(self.perpendicularBeginPoint,self.perpendicularEndPoint,{ duration = 1000, thickness = 8, color = Color.YELLOW })
+        -- CoreDebug.DrawLine(self.perpendicularBeginPoint,self.perpendicularBeginPoint + Vector3.UP * 20,{ duration = 1000, thickness = 8, color = Color.YELLOW })
+        --CoreDebug.DrawLine(self.perpendicularEndPoint,self.perpendicularEndPoint + Vector3.UP * 20,{ duration = 1000, thickness = 8, color = Color.YELLOW })
+        --CoreDebug.DrawLine(self.perpendicularBeginPoint,self.perpendicularEndPoint,{ duration = 1000, thickness = 8, color = Color.YELLOW })
     
-        if node.nextNode and node:GetNextNode() then
-            CoreDebug.DrawLine(self.perpendicularBeginPoint,node:GetPerpendicularBeginPoint(),{ duration = 1000, thickness = 8, color = Color.RED })
-            CoreDebug.DrawLine(self.perpendicularEndPoint,node:GetPerpendicularEndPoint(),{ duration = 1000, thickness = 8, color = Color.RED })
-        else
-            CoreDebug.DrawLine(self.perpendicularBeginPoint,node:GetWorldPosition(),{ duration = 1000, thickness = 8, color = Color.RED })
-            CoreDebug.DrawLine(self.perpendicularEndPoint,node:GetWorldPosition(),{ duration = 1000, thickness = 8, color = Color.RED })
-        end
+        -- if node.nextNode and node:GetNextNode() then
+        --     CoreDebug.DrawLine(self.perpendicularBeginPoint,node:GetPerpendicularBeginPoint(),{ duration = 1000, thickness = 8, color = Color.RED })
+        --     CoreDebug.DrawLine(self.perpendicularEndPoint,node:GetPerpendicularEndPoint(),{ duration = 1000, thickness = 8, color = Color.RED })
+        -- else
+        --     CoreDebug.DrawLine(self.perpendicularBeginPoint,node:GetWorldPosition(),{ duration = 1000, thickness = 8, color = Color.RED })
+        --     CoreDebug.DrawLine(self.perpendicularEndPoint,node:GetWorldPosition(),{ duration = 1000, thickness = 8, color = Color.RED })
+        -- end
     end
 
 end

@@ -13,6 +13,10 @@ function GemWallet.GetDeltaAmount()
     return deltaGemCount
 end
 
+function GemWallet.GetCurrentAmount()
+    return currentGemCount
+end
+
 function GemWallet.AddToWallet(amount)
     deltaGemCount = deltaGemCount + amount
     GemWallet:_FireEvent("OnGemAdded",amount)
@@ -53,7 +57,7 @@ end
 
 -- Update the server periodically anytime the player stops collecting gems.
 local runtime = Task.Spawn(function()
-    if GemWallet.GetDeltaAmount() > 0 then
+    if GemWallet.GetDeltaAmount() ~= 0 then
         GemWallet:_FireEvent("OnUpdateSent",deltaGemCount)
         Events.BroadcastToServer("GU",GemWallet.GetDeltaAmount())
         deltaGemCount = 0
@@ -62,15 +66,15 @@ end)
 runtime.repeatCount = -1
 runtime.repeatInterval = SEND_TIME
 
+LOCAL_PLAYER.resourceChangedEvent:Connect(function(_,resource,amount) 
+    if RESOURCE_KEY == resource then
+        currentGemCount = LOCAL_PLAYER:GetResource(RESOURCE_KEY)
+    end 
+end)
+
 -- Events
 GemWallet:_DefineEvent("OnGemAdded")
 GemWallet:_DefineEvent("OnGemSubtracted")
 GemWallet:_DefineEvent("OnUpdateSent")
 
 return GemWallet
--- LOCAL_PLAYER.resourceChangedEvent:Connect(function(_,key,amount)
---     -- TODO: THEMES API NEEDED
---     if key == "Gems" then
---         GEM_AMOUNT_LABEL.text = tostring(amount)
---     end
--- end)

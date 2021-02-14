@@ -30,6 +30,10 @@ function BasicProjectile:GetWorldPosition()
     return self.object:GetWorldPosition()
 end
 
+function BasicProjectile:SetWorldPosition(position)
+    return self.object:SetWorldPosition(position)
+end
+
 function BasicProjectile:GetMaxHeight()
     return self.maxHeight
 end
@@ -155,7 +159,7 @@ function BasicProjectile:_ProcessProjectile()
                     local hitResult = World.Raycast(initalPosition + Vector3.New(oldX,oldY,oldZ), initalPosition + Vector3.New(x,y,z), { ignorePlayers = true })
                     if hitResult then
                         isDone = true
-                        self:_FireEvent("OnHit")
+                        self:_FireEvent("OnHit",hitResult)
                     end
                 end
 

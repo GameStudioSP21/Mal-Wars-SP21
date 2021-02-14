@@ -25,6 +25,7 @@ function SetDataProvider(data)
 	_data = data
 end
 
+Task.Wait(1)
 
 function Tick()
 	if not _data then return end

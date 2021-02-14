@@ -130,6 +130,8 @@ function Board:CreateBoard(position, playerOwners)
     -- Contruct wave manager
     self:CreateWaveManager()
 
+    Task.Wait(1)
+
     local playersString = ""
     for _, player in pairs(self.owners) do
         playersString = playersString .. tostring(player.id) .. ";"
@@ -258,11 +260,42 @@ function Board:UpgradeTower(tower, _hasRepeated)
     end)
 end
 
--- Deletes a tower on the board when provided a tower
-function Board:DeleteTower(tower, hasRepeated)
-    if Environment.IsClient() and not hasRepeated then
-
+-- Sells a tower on the board when provided a tower
+function Board:SellTower(tower, _hasRepeated)
+    if Environment.IsClient() then
+        print("[Client] Selling Tower")
+        local LOCAL_PLAYER = Game.GetLocalPlayer()
+        -- Return if the message has been repeated to us already.
+        if _hasRepeated and LOCAL_PLAYER == tower:GetOwner() then
+            print("[Client] Repeated message. Not playing again.")
+            return
+        end
+    else
+        print("[Server] Selling Tower")
     end
+
+    for i, currentTower in pairs(self.towers) do
+        if currentTower:GetWorldPosition() == tower:GetWorldPosition() then
+            print("Removing current tower!")
+            table.remove(self.towers,i)
+        end
+    end
+
+    local position = tower:GetWorldPosition()
+
+    -- Replication event.
+    if Environment.IsClient() and not _hasRepeated then
+        print("[Client] Sending upgrade tower to server.")
+        Events.BroadcastToServer("ST",tower:GetOwner(),position.x,position.y,position.z)
+    elseif Environment.IsServer() and not _hasRepeated then
+        print("[Server] Sending upgrade tower to all players.")
+        Events.BroadcastToAllPlayers("ST",tower:GetOwner(),position.x,position.y,position.z)
+    end
+
+    -- Destroy the old tower.
+    Task.Spawn(function()
+        tower:Destroy()
+    end)
 end
 
 
@@ -357,13 +390,13 @@ function Board:_SetupWalkNodes()
                     --print("Next is branch. Back connecting",i)
                     local previousNode = nodesGroup[i+1]:GetCustomProperty("BeginNode"):GetObject()
                     previousNode.serverUserData.nodeInstance:SetNextNode(nodesGroup[i+1].serverUserData.startNode)
-                    CoreDebug.DrawLine(previousNode.serverUserData.nodeInstance:GetWorldPosition(),nodesGroup[i+1].serverUserData.startNode:GetWorldPosition(),{ duration = 2000, thickness = 5, color = Color.YELLOW })
+                    --CoreDebug.DrawLine(previousNode.serverUserData.nodeInstance:GetWorldPosition(),nodesGroup[i+1].serverUserData.startNode:GetWorldPosition(),{ duration = 2000, thickness = 5, color = Color.YELLOW })
                     ConnectPaths_R(nodesGroup[i+1]:GetChildren(),nodesGroup[i+1])
                     -- If it's a folder then back connect
                 else
                     --print("Regular connect:",i,folder)
                     if previousNode then
-                        CoreDebug.DrawLine(previousNode:GetWorldPosition(),nextNode.serverUserData.nodeInstance:GetWorldPosition(),{ duration = 2000, thickness = 5, color =  Color.BLUE })
+                        --CoreDebug.DrawLine(previousNode:GetWorldPosition(),nextNode.serverUserData.nodeInstance:GetWorldPosition(),{ duration = 2000, thickness = 5, color =  Color.BLUE })
                         previousNode:SetNextNode(nextNode.serverUserData.nodeInstance)
                     end
                     -- If it's not a folder then regular connect
@@ -377,7 +410,7 @@ function Board:_SetupWalkNodes()
                     local nextNode = folder:GetCustomProperty("NextNode")
                     if nextNode then
                         nextNode = folder:GetCustomProperty("NextNode"):GetObject()
-                        CoreDebug.DrawLine(previousNode:GetWorldPosition(),nextNode.serverUserData.nodeInstance:GetWorldPosition(),{ duration = 2000, thickness = 5, color = Color.GREEN })
+                        --CoreDebug.DrawLine(previousNode:GetWorldPosition(),nextNode.serverUserData.nodeInstance:GetWorldPosition(),{ duration = 2000, thickness = 5, color = Color.GREEN })
                         --print("Reconnecting to ancestor.")
                         previousNode:SetNextNode(nextNode.serverUserData.nodeInstance)
                         return

@@ -4,7 +4,7 @@ local LOCAL_PLAYER = Game.GetLocalPlayer()
 local RESOURCE_KEY = "GEMS"
 
 GemWallet.OnGemAdded:Connect(function(amount) 
-    GEM_AMOUNT_LABEL.text = tostring(tonumber(GEM_AMOUNT_LABEL.text) + amount)
+    GEM_AMOUNT_LABEL.text = tostring(GemWallet.GetCurrentAmount())
 end)
 
 LOCAL_PLAYER.resourceChangedEvent:Connect(function(_,resource,amount) 

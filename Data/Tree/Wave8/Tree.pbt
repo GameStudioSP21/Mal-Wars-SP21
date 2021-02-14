@@ -25,8 +25,8 @@ Objects {
     Overrides {
       Name: "cs:Amount"
       Vector2 {
-        X: 100
-        Y: 200
+        X: 20
+        Y: 20
       }
     }
     Overrides {
@@ -74,8 +74,8 @@ Objects {
     Overrides {
       Name: "cs:Amount"
       Vector2 {
-        X: 50
-        Y: 50
+        X: 100
+        Y: 100
       }
     }
     Overrides {

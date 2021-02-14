@@ -188,9 +188,9 @@ function Tick(deltaTime)
 
 		-- start of Blaine scripting w/Drake
 		if nextNode == nil then
+			board:GetWaveManager():_FireEvent("OnEnemyReachedEnd",ROOT)
 			ROOT:Destroy()
 			return
-	
 		end
 
 		if nextNode:GetPerpendicularBeginPoint() then
