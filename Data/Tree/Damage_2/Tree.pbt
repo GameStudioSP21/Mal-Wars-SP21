@@ -224,7 +224,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 1
+      Int: 2
     }
     Overrides {
       Name: "cs:Speed"
@@ -232,7 +232,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Range"
-      Float: 180
+      Float: 200
     }
     Overrides {
       Name: "cs:Tower"
@@ -406,15 +406,15 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 600
+      Int: 650
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 70
+      Int: 4
     }
     Overrides {
       Name: "cs:Speed"
-      Int: 10
+      Float: 0.5
     }
     Overrides {
       Name: "cs:Range"
@@ -441,10 +441,6 @@ Objects {
     Overrides {
       Name: "cs:VisualProjectile:tooltip"
       String: "Purely Visual. This is for making your tower attacks look pretty."
-    }
-    Overrides {
-      Name: "cs:Speed:tooltip"
-      String: "Speed is rounds per second of the tower."
     }
   }
   Collidable_v2 {
@@ -501,11 +497,11 @@ Objects {
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 50
+      Int: 2
     }
     Overrides {
       Name: "cs:Speed"
-      Int: 8
+      Float: 0.5
     }
     Overrides {
       Name: "cs:Range"
@@ -538,10 +534,6 @@ Objects {
     Overrides {
       Name: "cs:VisualProjectile:tooltip"
       String: "Purely Visual. This is for making your tower attacks look pretty."
-    }
-    Overrides {
-      Name: "cs:Speed:tooltip"
-      String: "Speed is rounds per second of the tower."
     }
   }
   Collidable_v2 {
@@ -598,11 +590,11 @@ Objects {
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 30
+      Int: 2
     }
     Overrides {
       Name: "cs:Speed"
-      Int: 8
+      Float: 0.6
     }
     Overrides {
       Name: "cs:Range"
@@ -635,10 +627,6 @@ Objects {
     Overrides {
       Name: "cs:VisualProjectile:tooltip"
       String: "Purely Visual. This is for making your tower attacks look pretty."
-    }
-    Overrides {
-      Name: "cs:Speed:tooltip"
-      String: "Speed is rounds per second of the tower."
     }
   }
   Collidable_v2 {
@@ -695,11 +683,11 @@ Objects {
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 15
+      Int: 1
     }
     Overrides {
       Name: "cs:Speed"
-      Int: 4
+      Float: 0.8
     }
     Overrides {
       Name: "cs:Range"
@@ -732,10 +720,6 @@ Objects {
     Overrides {
       Name: "cs:VisualProjectile:tooltip"
       String: "Purely Visual. This is for making your tower attacks look pretty."
-    }
-    Overrides {
-      Name: "cs:Speed:tooltip"
-      String: "Speed is rounds per second of the tower."
     }
   }
   Collidable_v2 {

@@ -31,11 +31,7 @@ Objects {
     }
     Overrides {
       Name: "cs:HealthMultiplier"
-      Int: 1
-    }
-    Overrides {
-      Name: "cs:SpeedMultiplier"
-      Int: 1
+      Int: 2
     }
   }
   Collidable_v2 {
@@ -80,11 +76,7 @@ Objects {
     }
     Overrides {
       Name: "cs:HealthMultiplier"
-      Int: 1
-    }
-    Overrides {
-      Name: "cs:SpeedMultiplier"
-      Int: 1
+      Int: 2
     }
   }
   Collidable_v2 {
@@ -129,11 +121,7 @@ Objects {
     }
     Overrides {
       Name: "cs:HealthMultiplier"
-      Int: 1
-    }
-    Overrides {
-      Name: "cs:SpeedMultiplier"
-      Int: 1
+      Int: 3
     }
   }
   Collidable_v2 {

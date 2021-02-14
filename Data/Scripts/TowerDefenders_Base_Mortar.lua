@@ -37,25 +37,17 @@ end
 
 function TowerMortar:VerticalRotation()
     local enemyTransform = self.currentTarget:GetTransform()
-    local t = 1.5
-    --local predictedPosition = (self.currentTarget:GetWorldPosition() + enemyTransform:GetForwardVector())
-    local predictedPosition = (self.currentTarget:GetWorldPosition() + enemyTransform:GetForwardVector() * 200)
+    local predictedPosition = (self.currentTarget:GetWorldPosition() + enemyTransform:GetForwardVector() * 400)
     local dir = (self:GetWorldPosition() - predictedPosition):GetNormalized()
     local mag = (self:GetWorldPosition() - self.currentTarget:GetWorldPosition()).size
 
-    local v = 2000
+    local v = mag
     self.projectileSpeed = v
-
 
     local angle = math.atan(dir.x,dir.y)
     local hr = Rotation.New(0,0,-math.deg(angle)+270)
 
-    --local d = (v^2*math.sin(2*t)/9.81)
-    --local angle = math.asin(-9.8*t/(2*v))
-    local angle = 1/2*math.asin((mag*-9.81)/v^2)
-    print("Distance:",mag)
-    print("Velocity:",v)
-    print("THETA:",angle)
+    local angle = math.deg((1/2)*math.asin((9.81*mag)/(v^2)))*90
     local r = hr + Rotation.New(0,angle,0)
     self.rotation = r
     self._verticalRotator:RotateTo(r,0.1,false)
@@ -104,7 +96,7 @@ function TowerMortar:DamageEnemy()
         local enemyPos = enemy:GetWorldPosition()
         if self:InRange(enemy) then
             local health = enemy:GetCustomProperty("CurrentHealth")
-            health = health - self:GetDamage()
+            health = health - self:GetStat("Damage")
             enemy:SetNetworkedCustomProperty("CurrentHealth",health)
         end
     end

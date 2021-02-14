@@ -12,8 +12,8 @@ local EaseUI = require(script:GetCustomProperty("EaseUI"))
 local ANIMATION_ARROWS = TOWER_STATS_FEEDBACK_ARROW:GetChildren()
 local arrowAnimation = nil
 
-local beforePanel = CompareStatsView.New(TOWER_STATS_BEFORE_PANEL)
-local afterPanel = CompareStatsView.New(TOWER_STATS_AFTER_PANEL)
+--local beforePanel = CompareStatsView.New(TOWER_STATS_BEFORE_PANEL)
+--local afterPanel = CompareStatsView.New(TOWER_STATS_AFTER_PANEL)
 
 local currentTower = nil
 

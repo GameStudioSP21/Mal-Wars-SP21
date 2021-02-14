@@ -8,12 +8,12 @@ Assets {
   }
 }
 Assets {
-  Id: 16538320873508884468
-  Name: "Bullet 1"
+  Id: 16221751307075850195
+  Name: "UI Gradient Rectangular 001"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Military_Icon_019"
+    AssetId: "UI_Basic_Shape_002"
   }
 }
 Assets {

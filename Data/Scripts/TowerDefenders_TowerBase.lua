@@ -7,7 +7,6 @@ local PRE_END_SPAWN_ASSET = script:GetCustomProperty("PreEndSpawnAsset")
 local OWNERSHIP_DECAL = script:GetCustomProperty("TowerOwnershipDecal")
 local RANGE_RADIUS_DECAL = script:GetCustomProperty("RangeRadiusDecal")
 local Ease3D = require(script:GetCustomProperty("Ease3D"))
---local Base64 = require(script:GetCustomProperty("Base64"))
 
 ----------------------------------------------------
 -- Public
@@ -109,7 +108,7 @@ end
 -- Client
 function Tower:DisplayRangeRadius()
     local radius = World.SpawnAsset(RANGE_RADIUS_DECAL,{ parent = self:GetTowerAssetInstance() })
-    Ease3D.EaseScale(radius, Vector3.New(self:GetRange()), 1, Ease3D.EasingEquation.SINE, Ease3D.EasingDirection.INOUT)
+    Ease3D.EaseScale(radius, Vector3.New(self:GetStat("Range")), 1, Ease3D.EasingEquation.SINE, Ease3D.EasingDirection.INOUT)
     self.rangeRadiusVisual = radius
 end
 
@@ -184,20 +183,9 @@ function Tower:GetCost()
     return self.data.cost
 end
 
----------------------------------
--- TODO: Move this to a stat table.
-function Tower:GetDamage()
-    return self.data.damage
+function Tower:GetStat(statName)
+    return self.data.stats[statName]
 end
-
-function Tower:GetSpeed()
-    return self.data.speed
-end
-
-function Tower:GetRange()
-    return self.data.range
-end
----------------------------------
 
 function Tower:GetNextUpgradeMUID()
     return self.data.nextTowerMUID
@@ -208,7 +196,7 @@ function Tower:GetVisualProjectile()
 end
 
 function Tower:InRange(object)
-    if (object:GetWorldPosition() - self:GetWorldPosition()).size < self:GetRange()*50 then
+    if (object:GetWorldPosition() - self:GetWorldPosition()).size < self:GetStat("Range")*50 then
         return true
     end
     return false
@@ -280,7 +268,7 @@ end
 function Tower:DamageEnemy(enemy)
     if not Object.IsValid(enemy) then return end
     local health = enemy:GetCustomProperty("CurrentHealth")
-    health = health - self:GetDamage()
+    health = health - self:GetStat("Damage")
     enemy:SetNetworkedCustomProperty("CurrentHealth",health)
 end
 
@@ -364,7 +352,7 @@ function Tower:_Runtime()
         -- Firing Runtime
         local firingRuntime = Task.Spawn(function()
             while true do
-                Task.Wait(1/self:GetSpeed())
+                Task.Wait(self:GetStat("Speed"))
                 if Object.IsValid(self.currentTarget) and self._horizontalRotator then
                     self:FireFakeProjectile()
                     self:PlayMuzzleEffects()
@@ -402,7 +390,7 @@ function Tower:_Runtime()
         -- Attacking
         local attackingRuntime = Task.Spawn(function()
             while true do
-                Task.Wait(1/self:GetSpeed())
+                Task.Wait(self:GetStat("Speed"))
                 if Object.IsValid(self.currentTarget) then
                     self:DamageEnemy(self.currentTarget)
                     if self.currentTarget:GetCustomProperty("CurrentHealth") <= 0 then

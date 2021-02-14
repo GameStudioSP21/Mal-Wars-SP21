@@ -60,7 +60,7 @@ local function CreateTowerGhost(name)
     towerGhost = World.SpawnAsset( towerMUID )
     local radius = World.SpawnAsset( PLACEMENT_RADIUS , { parent = towerGhost })
     
-    local range = prepedTower:GetRange()
+    local range = prepedTower:GetStat("Range")
     Ease3D.EaseScale(radius, Vector3.New(range), 0.7, Ease3D.EasingEquation.CUBIC, Ease3D.EasingDirection.OUT)
     
     radius:SetScale(Vector3.New(range))

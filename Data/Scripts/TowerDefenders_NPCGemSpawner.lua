@@ -16,7 +16,7 @@ local function OnStateChanged()
         local horizontalMag = 32
         local deadPos = ROOT:GetWorldPosition()
 
-        local gems = GemValues.GetGemsByValue(InitalHealth/2)
+        local gems = GemValues.GetGemsByValue(InitalHealth)
 
         for i, gem in pairs(gems) do
             for i=1, gem.amount do

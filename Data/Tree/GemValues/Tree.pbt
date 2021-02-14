@@ -24,7 +24,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Value"
-      Int: 10
+      Int: 1
     }
   }
   Collidable_v2 {
@@ -61,7 +61,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Value"
-      Int: 50
+      Int: 5
     }
   }
   Collidable_v2 {
@@ -98,7 +98,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Value"
-      Int: 100
+      Int: 10
     }
   }
   Collidable_v2 {
@@ -135,7 +135,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Value"
-      Int: 150
+      Int: 20
     }
   }
   Collidable_v2 {
@@ -172,7 +172,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Value"
-      Int: 200
+      Int: 50
     }
   }
   Collidable_v2 {
@@ -209,7 +209,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Value"
-      Int: 300
+      Int: 100
     }
   }
   Collidable_v2 {
@@ -246,7 +246,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Value"
-      Int: 500
+      Int: 200
     }
   }
   Collidable_v2 {

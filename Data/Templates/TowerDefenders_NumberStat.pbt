@@ -17,12 +17,12 @@ Assets {
         }
         ParentId: 9802115243006573388
         ChildIds: 16464439384871039658
-        ChildIds: 853373765561426599
+        ChildIds: 391506732089273255
         UnregisteredParameters {
           Overrides {
             Name: "cs:StatName"
             ObjectReference {
-              SubObjectId: 853373765561426599
+              SelfId: 841534158063459245
             }
           }
           Overrides {
@@ -34,7 +34,7 @@ Assets {
           Overrides {
             Name: "cs:StatAfter"
             ObjectReference {
-              SubObjectId: 16174118199321015780
+              SelfId: 841534158063459245
             }
           }
         }
@@ -45,15 +45,15 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 370
-          Height: 46
-          UIX: 17.8897095
-          UIY: 40
+          Width: 500
+          Height: 80
+          UIY: 10
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
+          UseParentWidth: true
           Panel {
           }
           AnchorLayout {
@@ -89,7 +89,8 @@ Assets {
         }
         ParentId: 1648768967235438214
         ChildIds: 2983528081024838477
-        ChildIds: 16174118199321015780
+        ChildIds: 4401261301485408513
+        ChildIds: 14132774770244354892
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -113,7 +114,6 @@ Assets {
               R: 1
               G: 1
               B: 1
-              A: 0.319
             }
             TeamSettings {
             }
@@ -158,23 +158,24 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 300
+          Width: 200
           Height: 38
-          UIX: 50
+          UIX: 100
+          UIY: -10
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
           Text {
-            Label: "400"
+            Label: "5"
             Color {
               R: 1
               G: 1
               B: 1
               A: 1
             }
-            Size: 25
+            Size: 45
             Justification {
               Value: "mc:etextjustify:left"
             }
@@ -195,12 +196,12 @@ Assets {
         }
       }
       Objects {
-        Id: 16174118199321015780
-        Name: "StatAfter"
+        Id: 4401261301485408513
+        Name: "StatValue"
         Transform {
           Location {
-            X: -9048.32813
-            Y: 8968.53906
+            X: -9048.32227
+            Y: 8968.53418
             Z: -565.881348
           }
           Rotation {
@@ -217,24 +218,26 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceoff"
         }
         Control {
-          Width: 300
+          Width: 200
           Height: 38
-          UIX: 50
+          UIX: -20
+          UIY: -10
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
           Text {
+            Label: "4"
             Color {
-              R: 0.0131124184
-              G: 0.99
+              R: 0.132450104
+              G: 1
               A: 1
             }
-            Size: 25
+            Size: 45
             Justification {
               Value: "mc:etextjustify:right"
             }
@@ -243,28 +246,90 @@ Assets {
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:topleft"
+                Value: "mc:euianchor:topright"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:topleft"
+                Value: "mc:euianchor:topright"
               }
             }
           }
         }
       }
       Objects {
-        Id: 853373765561426599
-        Name: "StatName"
+        Id: 14132774770244354892
+        Name: "UI Image"
         Transform {
           Location {
-            X: -9048.33203
-            Y: 8968.54297
-            Z: -565.881348
+            X: 449.398071
+            Y: 924.097473
+            Z: -223.540771
           }
           Rotation {
-            Yaw: 64.9062347
+            Yaw: 3.71711254
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16464439384871039658
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        Control {
+          Width: 50
+          Height: 50
+          UIX: 40
+          RotationAngle: 90
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Image {
+            Brush {
+              Id: 9526761075049512681
+            }
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 391506732089273255
+        Name: "UI Image"
+        Transform {
+          Location {
+            X: -8440.77441
+            Y: 870.473633
+            Z: -652.173706
+          }
+          Rotation {
+            Yaw: 42.6466827
           }
           Scale {
             X: 1
@@ -280,32 +345,31 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 196
-          Height: 38
-          UIY: -8
+          Width: 80
+          Height: 200
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
-          Text {
-            Label: "Damage"
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 16538320873508884468
+            }
             Color {
               R: 1
-              G: 1
-              B: 1
+              G: 0.0299999714
+              B: 0.0299999714
               A: 1
             }
-            Size: 25
-            Justification {
-              Value: "mc:etextjustify:left"
+            TeamSettings {
             }
-            AutoWrapText: true
           }
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:bottomleft"
+                Value: "mc:euianchor:topleft"
               }
             }
             TargetAnchor {
@@ -324,6 +388,24 @@ Assets {
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "BackgroundHighlighted_020"
+      }
+    }
+    Assets {
+      Id: 9526761075049512681
+      Name: "Center Arrow 007 Wedge"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "CenterArrow_007Wedge"
+      }
+    }
+    Assets {
+      Id: 16538320873508884468
+      Name: "Bullet 1"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_Military_Icon_019"
       }
     }
     PrimaryAssetId {

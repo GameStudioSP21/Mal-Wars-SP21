@@ -33,11 +33,11 @@ Assets {
           }
           Overrides {
             Name: "cs:CurrentHealth"
-            Float: 125
+            Float: 5
           }
           Overrides {
             Name: "cs:MoveSpeed"
-            Float: 600
+            Float: 400
           }
           Overrides {
             Name: "cs:TurnSpeed"
@@ -707,7 +707,7 @@ Assets {
           Overrides {
             Name: "cs:HealthBarTemplate"
             AssetReference {
-              Id: 12608119359298861063
+              Id: 9979146531326579024
             }
           }
         }
@@ -739,6 +739,16 @@ Assets {
           }
         }
         ParentId: 108052084019348342
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.167019755
+              G: 0.97
+              A: 1
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }

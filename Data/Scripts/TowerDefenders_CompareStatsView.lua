@@ -57,25 +57,20 @@ function view:DisplayTowerStats(tower)
     -- RANGE
 
     local statType = TowerThemes.GetStatType("Range")
-    self.rangeStat = World.SpawnAsset(PROGRESS_STAT,{ parent = self.SCROLL_PANEL })
+    self.rangeStat = World.SpawnAsset(NUMBER_STAT,{ parent = self.SCROLL_PANEL })
     self.rangeStat.y = 140
 
-    local rangeStatName = self.rangeStat:GetCustomProperty("StatName"):GetObject()
+    local rangeStatName = self.rangeStat:GetCustomProperty("StatValue"):GetObject()
     rangeStatName.text = "Range"
-    local rangeStat = self.rangeStat:GetCustomProperty("ProgressBar"):GetObject()
-    rangeStat.width = math.floor(tower:GetRange()*8)
 
     -- SPEED
 
     local statType = TowerThemes.GetStatType("Speed")
-    self.speedStat = World.SpawnAsset(PROGRESS_STAT,{ parent = self.SCROLL_PANEL })
+    self.speedStat = World.SpawnAsset(NUMBER_STAT,{ parent = self.SCROLL_PANEL })
     self.speedStat.y = 220
 
-    local speedStatName = self.speedStat:GetCustomProperty("StatName"):GetObject()
+    local speedStatName = self.speedStat:GetCustomProperty("StatValue"):GetObject()
     speedStatName.text = "Speed"
-
-    local speedStat = self.speedStat:GetCustomProperty("ProgressBar"):GetObject()
-    speedStat.width = math.floor(tower:GetSpeed()*8)
 end
 
 function view:CompareToTower(tower)
