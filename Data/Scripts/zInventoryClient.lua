@@ -109,7 +109,7 @@ local function Inventory()
 			player.bindingReleasedEvent:Connect(function (player, binding)
 				for key=0,67,1 do
 					if (binding == "ability_extra_" .. key) then
-						self:Handle(player, key, 0)
+						--self:Handle(player, key, 0)
 					end
 				end
 				if (binding == "ability_primary") then
