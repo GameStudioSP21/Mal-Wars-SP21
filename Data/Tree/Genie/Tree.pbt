@@ -20,11 +20,13 @@ Objects {
           String: "uiInventory"
         }
         Overrides {
-          Name: "Scale"
+          Name: "Position"
           Vector {
-            X: 1
-            Y: 1
-            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
           }
         }
       }

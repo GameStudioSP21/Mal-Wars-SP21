@@ -1,5 +1,5 @@
 local function Inventory()
-	self = {}
+	this = {}
 	local IconQuit 		= script:GetCustomProperty("IconClose")
 	local IconMini 		= script:GetCustomProperty("Emblem008")
 	local IconCage		= script:GetCustomProperty("FrameBeveled002")
@@ -12,32 +12,34 @@ local function Inventory()
 	local mouse			= {0,0,0}
 	local place			= {0,0,0,0,0}
 	local panel			= nil
-	function self:UI(ui,type,name,x,y,width,height,anchor,dock,image,color,text,size,just)
-		ui.name		= name
-		ui.x		= x
-		ui.y		= y
-		ui.width 	= width
-		ui.height	= height
-		ui.anchor	= anchor
-		ui.dock		= dock
-		if type==2 then
-			ui:SetImage(image)
-			ui:SetButtonColor  (color)
-			ui:SetHoveredColor (Color.New(0.5,0.5,0.5,0.2))
-			ui:SetPressedColor (Color.New(0.5,0.5,0.5,0.3))
-			ui:SetDisabledColor(Color.New(0.5,0.5,0.5,0.4))	
+	function this:Paint(widget,name,x,y,width,height,anchor,dock,icon,color,text,size,just)
+		widget.name		= name
+		widget.x		= x
+		widget.y		= y
+		widget.width 	= width
+		widget.height	= height
+		widget.anchor	= anchor
+		widget.dock		= dock
+		if widget.type == 'UIPanel' then
 		end
-		if type==3 then
-			ui:SetImage(image)
-			ui:SetColor(color)
+		if widget.type=='UIButton' then
+			widget:SetImage(icon)
+			widget:SetButtonColor  (color)
+			widget:SetHoveredColor (Color.New(0.5,0.5,0.5,0.2))
+			widget:SetPressedColor (Color.New(0.5,0.5,0.5,0.3))
+			widget:SetDisabledColor(Color.New(0.5,0.5,0.5,0.4))	
 		end
-		if type==4 then
-			ui.text 		 = text
-			ui.fontSize		 = size
-			ui.justification = just
+		if widget.type=='UIImage' then
+			widget:SetImage(icon)
+			widget:SetColor(color)
+		end
+		if widget.type=='UIText' then
+			widget.text 		 = text
+			widget.fontSize		 = size
+			widget.justification = just
 		end
 	end
-	function self:Menu()
+	function this:Menu()
 		local container = World.SpawnAsset(UIContainer,	{parent = script})
 		local panel		= World.SpawnAsset(UIPanel, {parent = container})
 		local edge		= World.SpawnAsset(UIImage, {parent = panel})
@@ -48,14 +50,14 @@ local function Inventory()
 		local quit		= World.SpawnAsset(UIButton,{parent = menu})
 		local body		= World.SpawnAsset(UIImage, {parent = panel})
 		local IconNone	= IconEdge
-		self:UI(panel,1,"panel",0,0,920,170,1,1)
-		self:UI(edge, 3,"edge", 0,0,920,170,1,1,IconEdge,Color.New(0.5,0.5,0.5,0.5))
-		self:UI(head, 3,"head", 0,0,920,30, 1,1,IconEdge,Color.New(0.5,0.5,0.5,0.1))
-		self:UI(menu, 2,"menu", 0,0,920,30, 1,1,IconEdge,Color.New(0.5,0.5,0.5,0.1))
-		self:UI(text, 4,"text", 0,0,920,30, 4,4,IconNone,Color.New(0.5,0.5,0.5,0.1),"Inventory",18,1)
-		self:UI(mini, 2,"mini", -40,5,25,25,5,5,IconMini,Color.New(0.5,0.5,0.5,0.5))
-		self:UI(quit, 2,"quit", -10,5,25,25,5,5,IconQuit,Color.New(0.5,0.5,0.5,0.5))
-		self:UI(body, 3,"body",7,30,900,120,0,0,image,Color.New(0.5,0.5,0.5,0.1))
+		this:Paint(panel,"panel",0,0,920,170,1,1)
+		this:Paint(edge, "edge", 0,0,920,170,1,1,IconEdge,Color.New(0.5,0.5,0.5,0.5))
+		this:Paint(head, "head", 0,0,920,30, 1,1,IconEdge,Color.New(0.5,0.5,0.5,0.1))
+		this:Paint(menu, "menu", 0,0,920,30, 1,1,IconEdge,Color.New(0.5,0.5,0.5,0.1))
+		this:Paint(text, "text", 0,0,920,30, 4,4,IconNone,Color.New(0.5,0.5,0.5,0.1),"Inventory",18,1)
+		this:Paint(mini, "mini", -40,5,25,25,5,5,IconMini,Color.New(0.5,0.5,0.5,0.5))
+		this:Paint(quit, "quit", -10,5,25,25,5,5,IconQuit,Color.New(0.5,0.5,0.5,0.5))
+		this:Paint(body, "body",7,30,900,120,0,0,IconNone,Color.New(0.5,0.5,0.5,0.1))
 		local Cage = {}
 		for index=1,9,1 do
 			local slot = World.SpawnAsset(UIButton,{parent = body})
@@ -65,11 +67,11 @@ local function Inventory()
 			local foot = World.SpawnAsset(UIText,  {parent = slot})
 			local x = index * 100 - 500 + 5
 			Cage[index] = cage
-			self:UI(slot, 2,"slot", x,0,99,99,1,1,IconNone,Color.New(0.5,0.5,0.5,0.1))
-			self:UI(item, 3,"item", 0,0,90,90,4,4,IconQuit,Color.New(0.5,0.5,0.5,0.5))
-			self:UI(cage, 3,"cage", 0,0,99,99,4,4,IconCage,Color.New(0.5,0.5,0.5,0.5))
-			self:UI(mark, 4,"mark",-10,0,20,20,2,2,IconNone,Color.New(0.5,0.5,0.5,0.1),string.format("%d",index),15,2)
-			self:UI(foot, 4,"foot",0,-5,100,0, 7,7,IconNone,Color.New(0.5,0.5,0.5,0.1),string.format("%d",index*100),18,1)
+			this:Paint(slot, "slot", x,0,99,99,1,1,IconNone,Color.New(0.5,0.5,0.5,0.1))
+			this:Paint(item, "item", 0,0,90,90,4,4,IconQuit,Color.New(0.5,0.5,0.5,0.5))
+			this:Paint(cage, "cage", 0,0,99,99,4,4,IconCage,Color.New(0.5,0.5,0.5,0.5))
+			this:Paint(mark, "mark",-10,0,20,20,2,2,IconNone,Color.New(0.5,0.5,0.5,0.1),string.format("%d",index),15,2)
+			this:Paint(foot, "foot",0,-5,100,0, 7,7,IconNone,Color.New(0.5,0.5,0.5,0.1),string.format("%d",index*100),18,1)
 			slot.clickedEvent:Connect(function (button) 
 				for i=1,9,1 do Cage[i]:SetColor(Color.New(0.5,0.5,0.5,0.5)) end
 				Cage[index]:SetColor(Color.New(0.0,1.0,0.0,1.0))
@@ -90,8 +92,8 @@ local function Inventory()
 		panel.isEnabled = false
 		return panel
 	end
-	function self:Main()
-		panel = self:Menu()
+	function this:Main()
+		panel = this:Menu()
 		function Handle(player, key, action)
 			if key==45 then panel.isEnabled = not panel.isEnabled end
 		end
@@ -109,7 +111,7 @@ local function Inventory()
 			player.bindingReleasedEvent:Connect(function (player, binding)
 				for key=0,67,1 do
 					if (binding == "ability_extra_" .. key) then
-						--self:Handle(player, key, 0)
+						--this:Handle(player, key, 0)
 					end
 				end
 				if (binding == "ability_primary") then
@@ -120,7 +122,7 @@ local function Inventory()
 		Game.playerLeftEvent:Connect(function (player)
 		end)
 	end
-	function self.Tick()
+	function this.Tick()
 		local cursor = UI.GetCursorPosition()
 		mouse[1] = cursor.x
 		mouse[2] = cursor.y
@@ -131,8 +133,8 @@ local function Inventory()
 	end
 	UI.SetCursorVisible(true)
 	UI.CanCursorInteractWithUI(true)
-	self:Main()
-	return self
+	this:Main()
+	return this
 end
 local inventory = Inventory()
 function Tick() inventory:Tick() end
