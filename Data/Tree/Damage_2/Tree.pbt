@@ -330,13 +330,13 @@ Objects {
     Overrides {
       Name: "cs:Tower"
       AssetReference {
-        Id: 1582347470910669572
+        Id: 2150629678682640040
       }
     }
     Overrides {
       Name: "cs:TowerGhost"
       AssetReference {
-        Id: 15303515558436957644
+        Id: 2150629678682640040
       }
     }
     Overrides {
@@ -418,12 +418,12 @@ Objects {
     }
     Overrides {
       Name: "cs:Range"
-      Float: 30
+      Float: 80
     }
     Overrides {
       Name: "cs:Tower"
       AssetReference {
-        Id: 13888917554572997709
+        Id: 893641266006266770
       }
     }
     Overrides {
@@ -505,12 +505,12 @@ Objects {
     }
     Overrides {
       Name: "cs:Range"
-      Float: 30
+      Float: 70
     }
     Overrides {
       Name: "cs:Tower"
       AssetReference {
-        Id: 10797912154954907829
+        Id: 10476688936982406841
       }
     }
     Overrides {
@@ -598,7 +598,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Range"
-      Float: 28
+      Float: 60
     }
     Overrides {
       Name: "cs:NextTowerUpgrade"
@@ -609,7 +609,7 @@ Objects {
     Overrides {
       Name: "cs:Tower"
       AssetReference {
-        Id: 2899926137011795618
+        Id: 12393737639438725470
       }
     }
     Overrides {
@@ -662,7 +662,7 @@ Objects {
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 3034459943775580790
+        Id: 1955500659202437076
       }
     }
     Overrides {
@@ -691,7 +691,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Range"
-      Float: 25
+      Float: 50
     }
     Overrides {
       Name: "cs:NextTowerUpgrade"
@@ -702,13 +702,13 @@ Objects {
     Overrides {
       Name: "cs:Tower"
       AssetReference {
-        Id: 16766847353224290358
+        Id: 6099444313679774871
       }
     }
     Overrides {
       Name: "cs:TowerGhost"
       AssetReference {
-        Id: 15303515558436957644
+        Id: 6099444313679774871
       }
     }
     Overrides {

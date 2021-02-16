@@ -854,8 +854,8 @@ Objects {
   }
 }
 Objects {
-  Id: 11490577529243898152
-  Name: "Network Tower"
+  Id: 565739784558394111
+  Name: "NetworkHubSphere"
   Transform {
     Scale {
       X: 1
@@ -866,18 +866,18 @@ Objects {
   ParentId: 15062001147149131720
   TemplateInstance {
     ParameterOverrideMap {
-      key: 13582606749040375477
+      key: 6484072869494528217
       value {
         Overrides {
           Name: "Name"
-          String: "Network Tower"
+          String: "NetworkHubSphere"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: -13879.4395
-            Y: 366.736511
-            Z: 124.11055
+            X: -13973.0801
+            Y: 322.484375
+            Z: 44.5171661
           }
         }
         Overrides {
@@ -896,7 +896,7 @@ Objects {
       }
     }
     TemplateAsset {
-      Id: 15176501913167874707
+      Id: 11437426249662366889
     }
   }
 }

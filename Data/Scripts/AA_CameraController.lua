@@ -6,7 +6,7 @@ local camRight = activeCamera:GetTransform():GetRightVector()
 -- used for direction of camera movement (W = <1,0,0>, S = <-1,0,0>, A = <0,-1,0>, D = <0,1,0>)
 local direction = Vector3.New()
 -- stores ACCELERATION per frame
-local ACCELERATION = 5
+local ACCELERATION = 20
 -- used to add velocity each frame (aka acceleration)
 local currVelocity = Vector3.ZERO
 -- used to speed up the camera movement when holding left shift
@@ -62,7 +62,7 @@ function Tick(dt)
     -- add (ACCELERATION * direction) to currVelocity to get new currVelocity
     --( .0.6 * speedMod) used to increase camera speed
     -- print(speedMod)
-    currVelocity = (currVelocity + (ACCELERATION * direction)) * (0.8*speedMod)
+    currVelocity = (currVelocity + (ACCELERATION * direction)) * (0.6*speedMod)
     -- add velocity to the current camera position
     activeCamera:SetWorldPosition(currCameraPos + currVelocity)
     -- if direction is 0, the the currVelocity for next frame is 0 to stop camera

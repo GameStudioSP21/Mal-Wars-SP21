@@ -15,11 +15,11 @@ Objects {
     }
   }
   ChildIds: 7367735074338159388
-  ChildIds: 16813558807825262224
   ChildIds: 14713340454944924967
   ChildIds: 14293579930613948469
   ChildIds: 10005074784157121906
   ChildIds: 10722931758594424760
+  ChildIds: 8512805858169632350
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -29,6 +29,34 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 8512805858169632350
+  Name: "Towers"
+  Transform {
+    Location {
+      X: -325.981445
+      Y: 2653.92407
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Towers"
   }
 }
 Objects {
@@ -1482,9 +1510,9 @@ Objects {
   Name: "Third Person Camera"
   Transform {
     Location {
-      X: -11000
-      Y: 1000
-      Z: 500.000244
+      X: -12000
+      Y: 3000
+      Z: 1200.00012
     }
     Rotation {
       Yaw: -45
@@ -1598,37 +1626,6 @@ Objects {
       CanMoveDown: true
       MaxHitpoints: 100
     }
-  }
-}
-Objects {
-  Id: 16813558807825262224
-  Name: "Spawn Point"
-  Transform {
-    Location {
-      X: -10650
-      Y: 650.000061
-      Z: 154.716187
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  PlayerSpawnPoint {
-    TeamInt: 1
-    PlayerScaleMultiplier: 1
   }
 }
 Objects {
