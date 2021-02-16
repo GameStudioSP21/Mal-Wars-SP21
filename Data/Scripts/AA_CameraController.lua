@@ -66,15 +66,9 @@ function Tick(dt)
     -- get camera position in world
     local currCameraPos = activeCamera:GetWorldPosition()
     -- add (ACCELERATION * direction) to currVelocity to get new currVelocity
-    --( .0.6 * speedMod) used to increase camera speed
-    -- print(speedMod)
     -- currVelocity = (currVelocity + (ACCELERATION * direction)) * (0.8*speedMod)
-    -- print(dt)
     if currVelocity.sizeSquared < (MAX_SPEED * MAX_SPEED) and currVelocity.sizeSquared >= 0 then
         currVelocity = (currVelocity + (direction * ACCELERATION * speedMod)) * dt
-        -- print("increase speed")
-    else
-        -- print("no speed increase")
     end
     -- add velocity to the current camera position
     activeCamera:SetWorldPosition(currCameraPos + currVelocity)
@@ -82,11 +76,9 @@ function Tick(dt)
     if direction == Vector3.ZERO then
         if currVelocity.sizeSquared > 0 then
             currVelocity = (currVelocity - (currVelocity * ACCELERATION)) * dt
-            -- print("slowing down")
         elseif currVelocity.sizeSquared < 0 then
             currVelocity = Vector3.ZERO
         end
-        -- currVelocity = Vector3.ZERO
     end
 end
 
