@@ -25,8 +25,8 @@ Assets {
             }
           }
           Overrides {
-            Name: "cs:auo"
-            Bool: true
+            Name: "cs:auto"
+            Bool: false
           }
           Overrides {
             Name: "cs:loop"
@@ -34,7 +34,7 @@ Assets {
           }
           Overrides {
             Name: "cs:volume"
-            Float: 0.01
+            Float: 0.1
           }
         }
         Collidable_v2 {
