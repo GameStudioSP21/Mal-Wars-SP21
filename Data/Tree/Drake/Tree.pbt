@@ -1,7 +1,7 @@
 Name: "Drake"
 RootId: 15855902819366650372
 Objects {
-  Id: 13666962641478601872
+  Id: 1691941192573080048
   Name: "LaserTurret_Upgrade4"
   Transform {
     Scale {
@@ -23,15 +23,28 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -10770
-            Y: -765
-            Z: 44.0646706
+            X: -10425.6475
+            Y: -1366.69531
+            Z: 44.0646667
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.17266941
+            Y: 2.17266941
+            Z: 2.17266941
           }
         }
       }
     }
     TemplateAsset {
-      Id: 16260411936997475498
+      Id: 893641266006266770
     }
   }
 }
