@@ -1,6 +1,7 @@
 ﻿local Database = {}
 
 local REGISTERED_TOWERS = script:GetCustomProperty("RegisteredTowers"):WaitForObject()
+local TowersThemeAPI = require(script:GetCustomProperty("ThemeApi"))
 local Tower = require(script:GetCustomProperty("TowerBase"))
 
 local DATA_TOWERS = {}
@@ -10,7 +11,7 @@ local DATA_TOWERS = {}
 
 function Database:WaitUntilLoaded()
     while not self.isLoaded do
-        print("Waiting")
+        --print("Waiting")
         Task.Wait()
     end
 end
@@ -79,9 +80,6 @@ local function HasRequiredProperties(tower)
     if tower:GetCustomProperty("Name") and
         tower:GetCustomProperty("Icon") and
         tower:GetCustomProperty("Cost") and
-        tower:GetCustomProperty("Damage") and
-        tower:GetCustomProperty("Speed") and
-        tower:GetCustomProperty("Range") and
         tower:GetCustomProperty("Tower") and
         tower:GetCustomProperty("TowerGhost") and
         tower:GetCustomProperty("Type") then
@@ -112,9 +110,6 @@ function Database:_LoadTowersData()
         local towerName = tower:GetCustomProperty("Name")
         local towerIcon = tower:GetCustomProperty("Icon")
         local towerCost = tower:GetCustomProperty("Cost")
-        local towerDamage = tower:GetCustomProperty("Damage")
-        local towerSpeed = tower:GetCustomProperty("Speed")
-        local towerRange = tower:GetCustomProperty("Range")
         local towerMUID = tower:GetCustomProperty("Tower")
         local towerType = tower:GetCustomProperty("Type"):GetObject().name
         local towerGhostMUID = tower:GetCustomProperty("TowerGhost")
@@ -122,18 +117,29 @@ function Database:_LoadTowersData()
         local towerVisualProjectile = tower:GetCustomProperty("VisualProjectile")
         local towerClass = tower:GetCustomProperty("TowerClass")
 
+        -- TODO: ASSERTS HERE
+
+        local towerStats = {}
+
+        local requiredStats = TowersThemeAPI.GetStats()
+        for statName, stat in pairs(requiredStats) do
+            local statValue = tower:GetCustomProperty(statName)
+            assert(not towerStats[statName], string.format("Stat - %s already exist as a custom property. You can not have duplicate stats.",statName))
+            assert(statValue ~= nil, string.format("Stat - %s does not exist on tower %s. You need to assign the stat as a custom property.",statName,towerName))
+            towerStats[statName] = statValue
+        end
+
+
         -- TODO: Have asserts here for required properties.
 
         local towerData = {
             index = i,
             name = towerName,
             iconMUID = towerIcon,
-            damage = towerDamage,
             cost = towerCost,
-            speed = towerSpeed,
-            range = towerRange,
             towerMUID = towerMUID,
             type = towerType,
+            stats = towerStats,
             towerGhostMUID = towerGhostMUID,
             nextTowerMUID = towerNextUpgradeMUID,
             projectile = towerVisualProjectile,
@@ -151,7 +157,7 @@ end
 
 function Database:_Init()
     self.isLoaded = false
-    Task.Spawn(function() 
+    Task.Spawn(function()
         _LoadTowers_R(REGISTERED_TOWERS)
         Task.Wait()
         self:_LoadTowersData()

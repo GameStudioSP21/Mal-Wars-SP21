@@ -21,15 +21,27 @@ LOCAL_PLAYER.bindingPressedEvent:Connect(function(_,keyCode)
         UI.SetCursorVisible(buildMenu:IsVisible())
         UI.SetCanCursorInteractWithUI(buildMenu:IsVisible())
 
+        -- TODO: CONVERT THIS INTO A TABLE AND HAVE THE INTERACTORS BE PART OF A SINGLE CLASS!!!!
         Events.Broadcast("CancelTowerPlacement")
+        Events.Broadcast("StopDisplayingTowerStats")
+        Events.Broadcast("CancelUpgrading")
+        Events.Broadcast("CancelSelling")
+        
+        
     elseif keyCode == INVENTORY_MENU_CODE then
         print("Opening Inventory")
 
         -- TODO: Determine if they're not in a game to allow this.
+        if LOCAL_PLAYER.clientUserData.tempDisplay.visibility == Visibility.FORCE_ON then
+            LOCAL_PLAYER.clientUserData.tempDisplay.visibility = Visibility.FORCE_OFF
+        else
+            LOCAL_PLAYER.clientUserData.tempDisplay.visibility = Visibility.FORCE_ON
+        end
+
+
 
         -- Main Build Menu
         local buildMenu = LOCAL_PLAYER.clientUserData.buildMenuView
-
         if buildMenu:IsVisible() then
             buildMenu:Close()
         end
@@ -38,6 +50,9 @@ LOCAL_PLAYER.bindingPressedEvent:Connect(function(_,keyCode)
         UI.SetCanCursorInteractWithUI(true)
 
         Events.Broadcast("CancelTowerPlacement")
+        Events.Broadcast("StopDisplayingTowerStats")
+        Events.Broadcast("CancelUpgrading")
+        Events.Broadcast("CancelSelling")
     end
 
 end)

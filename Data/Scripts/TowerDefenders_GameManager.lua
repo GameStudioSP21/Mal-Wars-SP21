@@ -24,6 +24,8 @@ function GameManager.CreateGame(players)
         -- Store a reference to our board on the owning player
         for _, player in pairs(allPlayers) do
             player.serverUserData.activeBoard = prototypeBoard
+            -- MOVE TO A STATIC DATA SCRIPT THAT CAN BE CHANGE EASILY.
+            player:SetResource("GEMS", 300)
         end
 
         table.insert(activeBoards,prototypeBoard)

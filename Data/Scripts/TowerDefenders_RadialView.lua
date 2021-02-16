@@ -94,6 +94,17 @@ function RadialMenu:ClearSections()
     self.sectionDirection = {}
 end
 
+-- Get a table of all sections
+function RadialMenu:IterateSegments()
+    local function iter(_, sectionIndex)
+        sectionIndex = sectionIndex + 1
+        if sectionIndex <= #self.allSections then
+            return sectionIndex, self.allSections[sectionIndex], self.SEGMENT_DATA[sectionIndex]
+        end
+    end
+    return iter, nil, 0 
+end
+
 ----------------------------------------------------------
 -- Private
 ----------------------------------------------------------

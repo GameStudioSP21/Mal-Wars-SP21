@@ -227,9 +227,11 @@ Assets {
         Name: "VerticalRotator"
         Transform {
           Location {
+            X: 31.6835938
             Z: 28.683609
           }
           Rotation {
+            Pitch: 89.6450119
           }
           Scale {
             X: 1
@@ -6159,7 +6161,7 @@ Assets {
         }
         AudioInstance {
           AudioAsset {
-            Id: 769007112956482022
+            Id: 2658973309444737420
           }
           AutoPlay: true
           Transient: true
@@ -6196,7 +6198,7 @@ Assets {
         }
         AudioInstance {
           AudioAsset {
-            Id: 6401498020918617889
+            Id: 7347108216177616032
           }
           AutoPlay: true
           Transient: true
@@ -6232,7 +6234,7 @@ Assets {
         }
         AudioInstance {
           AudioAsset {
-            Id: 7115571218229221495
+            Id: 10452133816898877213
           }
           AutoPlay: true
           Transient: true
@@ -6535,30 +6537,30 @@ Assets {
       }
     }
     Assets {
-      Id: 769007112956482022
-      Name: "Machine Servo Turret Movement Stop 01 SFX"
+      Id: 2658973309444737420
+      Name: "Designer Sub Bass Drop 02 SFX"
       PlatformAssetType: 7
       PrimaryAsset {
         AssetType: "AudioAssetRef"
-        AssetId: "sfx_machine_servo_turret_movement_stop_01a_Cue_ref"
+        AssetId: "sfx_designer_sub_bass_drop_02_Cue_ref"
       }
     }
     Assets {
-      Id: 6401498020918617889
-      Name: "Pneumatic Impact Air Drill 01 SFX"
+      Id: 7347108216177616032
+      Name: "Sci-fi Airlock Pressure Release Steam 03 SFX"
       PlatformAssetType: 7
       PrimaryAsset {
         AssetType: "AudioAssetRef"
-        AssetId: "sfx_air_pneumatic_impact_drill_repair_01_Cue_ref"
+        AssetId: "sfx_scifi_airlock_pressure_release_steam_03_Cue_ref"
       }
     }
     Assets {
-      Id: 7115571218229221495
-      Name: "Steam Pressure Release Short 01 SFX"
+      Id: 10452133816898877213
+      Name: "Electricity  Power Blast  Impact 01 SFX"
       PlatformAssetType: 7
       PrimaryAsset {
         AssetType: "AudioAssetRef"
-        AssetId: "sfx_steam_pressure_release_medium_01a_Cue_ref"
+        AssetId: "sfx_electricity_power_blast_impact_01_Cue_ref"
       }
     }
     PrimaryAssetId {

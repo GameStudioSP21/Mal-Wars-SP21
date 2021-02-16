@@ -18,6 +18,7 @@ Assets {
         ParentId: 4781671109827199097
         ChildIds: 7067842150914846892
         ChildIds: 17164783359549947625
+        ChildIds: 17886284494235649803
         UnregisteredParameters {
           Overrides {
             Name: "bp:Radius"
@@ -125,6 +126,38 @@ Assets {
           }
         }
       }
+      Objects {
+        Id: 17886284494235649803
+        Name: "Spark Explosion VFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 3478193458720913525
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 10816539499509672808
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+      }
     }
     Assets {
       Id: 16507220428939959767
@@ -151,6 +184,15 @@ Assets {
       PrimaryAsset {
         AssetType: "AudioBlueprintAssetRef"
         AssetId: "sfxabp_explosion_sub_bass_impact_designer_sweetener_set_01_ref"
+      }
+    }
+    Assets {
+      Id: 10816539499509672808
+      Name: "Spark Explosion VFX"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_spark_explosion"
       }
     }
     PrimaryAssetId {
