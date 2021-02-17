@@ -9,6 +9,6 @@ Tags: "TowerDefense"
 Tags: "Action"
 Tags: "Casual"
 ScreenshotPaths: "D:/Documents/CORE/Mal-Wars-SP21/Screenshots/Screenshot0001.png"
-ReleaseNotes: "First release to ensure that only this account can publish."
+ReleaseNotes: "Midterm pre-playtest update number one: there is art and assets now!"
 OwnerId: "915299ba3314494bbd5eb7a67d954099"
 SerializationVersion: 1
