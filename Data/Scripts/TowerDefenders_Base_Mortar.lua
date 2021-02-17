@@ -44,11 +44,11 @@ function TowerMortar:VerticalRotation()
     local predictedPosition = ( self.currentTarget:GetWorldPosition() + enemyTransform:GetForwardVector() * 400 * self.impactTime )
     local dir = (self:GetWorldPosition() - predictedPosition):GetNormalized()
     
-    local origin = self:GetWorldPosition() - Vector3.New(0,0,self:GetWorldPosition().z)
-    local target = predictedPosition - Vector3.New(0,0,self.currentTarget:GetWorldPosition().z)
+    local origin = self._muzzle:GetWorldPosition() - Vector3.New(0,0,self._muzzle:GetWorldPosition().z)
+    local target = predictedPosition - Vector3.New(0,0,predictedPosition.z)
     local deltaX = ( target - origin ).size
     
-    local origin = self:GetWorldPosition() - origin
+    local origin = self._muzzle:GetWorldPosition() - origin
     local target = predictedPosition - target
     local deltaH = ( target - origin ).size
     

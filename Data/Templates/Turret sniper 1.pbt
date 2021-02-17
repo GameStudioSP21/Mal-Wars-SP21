@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 8512805858169632350
         ChildIds: 15278186698188901302
         UnregisteredParameters {
           Overrides {
@@ -33,7 +33,7 @@ Assets {
           Overrides {
             Name: "cs:Muzzle"
             ObjectReference {
-              SelfId: 841534158063459245
+              SubObjectId: 17086030062558109867
             }
           }
         }
@@ -262,6 +262,7 @@ Assets {
         }
         ParentId: 13929273698455883190
         ChildIds: 11168054719427939347
+        ChildIds: 17086030062558109867
         ChildIds: 11746730667030629668
         ChildIds: 8826674162366361739
         ChildIds: 13961256006271393280
@@ -343,6 +344,33 @@ Assets {
               LinearDamping: 0.01
             }
           }
+        }
+      }
+      Objects {
+        Id: 17086030062558109867
+        Name: "Muzzle"
+        Transform {
+          Location {
+            X: -300
+            Z: 6.00002527
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6826136172175427483
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
         }
       }
       Objects {

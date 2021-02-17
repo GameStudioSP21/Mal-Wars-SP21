@@ -220,11 +220,11 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 2
+      Int: 300
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 2
+      Int: 1
     }
     Overrides {
       Name: "cs:Speed"
@@ -232,18 +232,18 @@ Objects {
     }
     Overrides {
       Name: "cs:Range"
-      Float: 100
+      Float: 80
     }
     Overrides {
       Name: "cs:Tower"
       AssetReference {
-        Id: 6787300085672118948
+        Id: 2150629678682640040
       }
     }
     Overrides {
       Name: "cs:TowerGhost"
       AssetReference {
-        Id: 15303515558436957644
+        Id: 2150629678682640040
       }
     }
     Overrides {

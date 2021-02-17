@@ -2,73 +2,85 @@ local LOCAL_PLAYER = Game.GetLocalPlayer()
 local activeCamera = LOCAL_PLAYER:GetActiveCamera()
 local camForward = activeCamera:GetTransform():GetForwardVector()
 local camRight = activeCamera:GetTransform():GetRightVector()
+local HOME_POSITION = activeCamera:GetWorldPosition()
 
--- used for direction of camera movement (W = <1,0,0>, S = <-1,0,0>, A = <0,-1,0>, D = <0,1,0>)
-local direction = Vector3.New()
--- stores ACCELERATION per frame
-local ACCELERATION = 20
--- used to add velocity each frame (aka acceleration)
-local currVelocity = Vector3.ZERO
--- used to speed up the camera movement when holding left shift
-local speedMod = 1
+--Tracks per-frame speed
+local frameDir = Vector3.ZERO
+local frameVel = Vector3.ZERO
+local intentVel = Vector3.ZERO
+local INTENT_MAG = 3000
 
 --bind constants for W, A, S, D
 local W_BIND = "ability_extra_21"
 local A_BIND = "ability_extra_30"
 local S_BIND = "ability_extra_31"
 local D_BIND = "ability_extra_32"
-local SHIFT_BIND = "ability_extra_12"
+local V_BIND = "ability_extra_42"
+local wDown = false
+local sDown = false
+local aDown = false
+local rDown = false
 
 --Player ref for binding functions
 local PLAYER = Game.GetLocalPlayer()
 
 -- on pressed, check which bind then add corresponding vector
 function OnBindingPressed(PLAYER, binding)
-    -- holding left shift speeds up camera
-    if binding == SHIFT_BIND then
-        speedMod = 1.3
-    elseif binding == W_BIND then
-        direction = direction + camForward
-    elseif binding == A_BIND then
-        direction = direction - camRight
+    if binding == W_BIND then
+        wDown = true
     elseif binding == S_BIND then
-        direction = direction - camForward
+    	sDown = true
+   	elseif binding == A_BIND then
+        aDown = true
     elseif binding == D_BIND then
-        direction = direction + camRight
+        dDown = true
     end
 end
 
 -- on release, set direction back to 0 by subtracting corresponding vector
 -- direction needs to be set back to 0 to indicate the camera stopped moving
 function OnBindingReleased(PLAYER, binding)
-    -- releasing left shift resets speedMod back to 1
-    if binding == SHIFT_BIND then
-        speedMod = 1
-    elseif binding == W_BIND then
-        direction = direction - camForward
-    elseif binding == A_BIND then
-        direction = direction + camRight
+    if binding == W_BIND then
+        wDown = false
     elseif binding == S_BIND then
-        direction = direction + camForward
+    	sDown = false
+   	elseif binding == A_BIND then
+        aDown = false
     elseif binding == D_BIND then
-        direction = direction - camRight
+        dDown = false
+    elseif binding == V_BIND then
+        activeCamera:SetWorldPosition(HOME_POSITION)
     end
 end
 
 --for each frame, 
 function Tick(dt)
-    -- get camera position in world
-    local currCameraPos = activeCamera:GetWorldPosition()
-    -- add (ACCELERATION * direction) to currVelocity to get new currVelocity
-    --( .0.6 * speedMod) used to increase camera speed
-    -- print(speedMod)
-    currVelocity = (currVelocity + (ACCELERATION * direction)) * (0.6*speedMod)
-    -- add velocity to the current camera position
-    activeCamera:SetWorldPosition(currCameraPos + currVelocity)
-    -- if direction is 0, the the currVelocity for next frame is 0 to stop camera
-    if direction == Vector3.ZERO then
-        currVelocity = Vector3.ZERO
+	--Get the current camera position.
+    local framePos = activeCamera:GetWorldPosition()
+    
+    --Assemble the direction vector.
+    local vDir = Vector3.ZERO + ( ( wDown and 1 or 0 ) * camForward ) + ( ( sDown and -1 or 0 ) * camForward )
+    local hDir = Vector3.ZERO + ( ( aDown and -1 or 0 ) * camRight ) + ( ( dDown and 1 or 0 ) * camRight )
+    frameDir = vDir + hDir
+    
+    --Clamp direction size.
+    if frameDir.sizeSquared > 1 then
+    	frameDir = frameDir / frameDir.size
     end
+    
+    --Assemble the directional intent.
+    intentVel = frameDir * INTENT_MAG
+    
+    --Mimicks acceleration but adds a curved maximum.
+    frameVel = VectorLerp(frameVel, intentVel, 0.15)
+    
+    --Actually move the camera, adjusting for delta time.
+    activeCamera:SetWorldPosition(framePos + ( frameVel * dt ) )
+end
+
+--Lerps from Vector A to Vector B along T
+function VectorLerp(a, b, t)
+	return ( a * (1 - t) ) + ( b * t )
 end
 
 PLAYER.bindingPressedEvent:Connect(OnBindingPressed)

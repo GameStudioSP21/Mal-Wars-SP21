@@ -5,7 +5,7 @@ local GEM_COLLECT_VFX = script:GetCustomProperty("GemCollectVFX")
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 
 local collected = false
-local pickupDelay = 1
+local pickupDelay = 5
 
 -- TODO: Hook onto wave complete event. When Fired then Disconnect the event and move the gem from the ground to the player.
 
