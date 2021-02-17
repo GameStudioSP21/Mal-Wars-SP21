@@ -41,10 +41,13 @@ function WaveManager.New(board,waveManagerObject)
 
     -- Define all events
     for _, phase in pairs(MANAGER_PHASE) do
-        self:_DefineEvent(phase.event) -- Done
+        self:_DefineEvent(phase.event)
     end
 
     self.currentPhase = INITAL_PHASE
+
+    -- Custom Event
+    self:_DefineEvent("OnEnemyReachedEnd")
 
     self:_Init(board,waveManagerObject)
 
@@ -180,8 +183,6 @@ function WaveManager:_Init(board,waveManagerObject)
         end
     end
 
-    self:_DefineEvent("OnEnemyReachedEnd")
-
     if Environment.IsServer() then
         -- Begin wavemanager the runtime.
         self.runtime = Task.Spawn(function() self:_Runtime() end)
@@ -237,6 +238,7 @@ end
 -- Server
 -- Writes to the properties of the wave manager object on the board asset.
 function WaveManager:_StepStates()
+    
 
     if self:GetCurrentPhase() == MANAGER_PHASE.WAITING_READY then
         print("[Wave Manager] Waiting for ready.")
@@ -252,6 +254,9 @@ function WaveManager:_StepStates()
 
         while not self.currentWave:IsCleared() do
             print("Not Cleared")
+            if self:GetCurrentPhase() == MANAGER_PHASE.END_FAILED then
+                break
+            end
             if not self.currentWave:IsEmpty() then
                 print("Spawning Enemies")
                 Task.Wait(self.currentWave:GetSpawnDelay())
@@ -261,16 +266,20 @@ function WaveManager:_StepStates()
             end
         end
 
-        self:NextWave()
 
-        if not self.currentWave then
-            self:SetCurrentPhase("END_COMPLETE")
-        else
-            self:SetCurrentPhase("WAVE_COMPLETE")
+
+        if self:GetCurrentPhase() ~= MANAGER_PHASE.END_FAILED then
+            if not self.currentWave then
+                self:SetCurrentPhase("END_COMPLETE")
+            else
+                self:SetCurrentPhase("WAVE_COMPLETE")
+            end
         end
+
 
     elseif self:GetCurrentPhase() == MANAGER_PHASE.WAVE_COMPLETE then
         print("[Wave Manager] Wave complete.")
+        self:NextWave()
         Task.Wait(3)
         self:SetCurrentPhase("WAITING_READY")
 
