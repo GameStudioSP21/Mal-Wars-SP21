@@ -15,9 +15,27 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14162530469465888814
+        ParentId: 17279088920053467177
         ChildIds: 4077010508895749511
         UnregisteredParameters {
+          Overrides {
+            Name: "cs:zSong"
+            AssetReference {
+              Id: 13242966857388112319
+            }
+          }
+          Overrides {
+            Name: "cs:auto"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:loop"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:volume"
+            Float: 0.1
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -70,24 +88,6 @@ Assets {
         }
         ParentId: 4077010508895749511
         UnregisteredParameters {
-          Overrides {
-            Name: "cs:zSong"
-            AssetReference {
-              Id: 13242966857388112319
-            }
-          }
-          Overrides {
-            Name: "cs:auto"
-            Int: 0
-          }
-          Overrides {
-            Name: "cs:loop"
-            Int: 1
-          }
-          Overrides {
-            Name: "cs:volume"
-            Float: 0.1
-          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
