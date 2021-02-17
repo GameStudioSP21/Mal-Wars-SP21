@@ -19,6 +19,7 @@ Assets {
         ChildIds: 1520947025776558737
         ChildIds: 15743633262210868345
         ChildIds: 3716769045390616914
+        ChildIds: 15674683965469193733
         UnregisteredParameters {
           Overrides {
             Name: "cs:Owners"
@@ -13584,6 +13585,34 @@ Assets {
         }
         Folder {
           IsFilePartition: true
+        }
+      }
+      Objects {
+        Id: 15674683965469193733
+        Name: "NetworkHubHealthServer"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15817230212718466280
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 3697162705090323815
+          }
         }
       }
     }
