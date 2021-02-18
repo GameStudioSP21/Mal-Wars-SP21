@@ -163,7 +163,6 @@ Assets {
         Name: "VerticalRotator"
         Transform {
           Location {
-            X: -4.25531912
             Z: 74.8475876
           }
           Rotation {
@@ -351,7 +350,7 @@ Assets {
         Name: "Muzzle"
         Transform {
           Location {
-            X: -300
+            X: 300
             Z: 6.00002527
           }
           Rotation {
