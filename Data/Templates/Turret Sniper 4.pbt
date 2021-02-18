@@ -2535,7 +2535,7 @@ Assets {
         Transform {
           Location {
             X: 1374.34851
-            Y: -0.618164063
+            Y: -0.618164062
             Z: 6.56976318
           }
           Rotation {
@@ -2676,7 +2676,7 @@ Assets {
         Name: "Bottom Sniper barrel"
         Transform {
           Location {
-            Z: 6.10351563e-05
+            Z: 6.10351562e-05
           }
           Rotation {
             Roll: -179.999969
@@ -4386,7 +4386,7 @@ Assets {
         Transform {
           Location {
             X: 1374.34851
-            Y: -0.618164063
+            Y: -0.618164062
             Z: 6.56976318
           }
           Rotation {
@@ -5238,7 +5238,7 @@ Assets {
         Transform {
           Location {
             X: 27.6502075
-            Y: 22.8789063
+            Y: 22.8789062
             Z: 33.2961426
           }
           Rotation {
@@ -5422,7 +5422,7 @@ Assets {
           Location {
             X: -29.2943726
             Y: -71.6397705
-            Z: -0.000122070313
+            Z: -0.000122070312
           }
           Rotation {
             Pitch: 48.5978889
@@ -5833,7 +5833,7 @@ Assets {
           Location {
             X: 130
             Y: 5
-            Z: 6.10351563e-05
+            Z: 6.10351562e-05
           }
           Rotation {
           }
@@ -6586,7 +6586,7 @@ Assets {
           Location {
             X: -0.119384766
             Y: -4.36557457e-11
-            Z: 6.10351563e-05
+            Z: 6.10351562e-05
           }
           Rotation {
           }
@@ -7124,7 +7124,7 @@ Assets {
         Name: "Sci-fi Ship Engine 01"
         Transform {
           Location {
-            X: -0.000122070313
+            X: -0.000122070312
             Z: 9.15527344e-05
           }
           Rotation {
@@ -8176,7 +8176,7 @@ Assets {
         Transform {
           Location {
             X: -35.0036583
-            Y: -0.000610351563
+            Y: -0.000610351562
             Z: 80
           }
           Rotation {

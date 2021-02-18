@@ -626,7 +626,7 @@ Assets {
           Location {
             X: 51.999939
             Y: -35
-            Z: 6.10351563e-05
+            Z: 6.10351562e-05
           }
           Rotation {
             Roll: -114.999985
@@ -697,7 +697,7 @@ Assets {
           Location {
             X: 51.999939
             Y: 35
-            Z: 6.10351563e-05
+            Z: 6.10351562e-05
           }
           Rotation {
             Roll: 114.999985
@@ -1676,7 +1676,7 @@ Assets {
         Transform {
           Location {
             X: -164.166687
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
             Pitch: 90
@@ -2122,7 +2122,7 @@ Assets {
         Transform {
           Location {
             X: 1374.34851
-            Y: -0.618164063
+            Y: -0.618164062
             Z: 6.56976318
           }
           Rotation {
@@ -2782,7 +2782,7 @@ Assets {
           Location {
             X: 151.530884
             Y: 5.71435547
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
           }
@@ -3345,7 +3345,7 @@ Assets {
         Transform {
           Location {
             X: -7.42657471
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
           }
@@ -3675,7 +3675,7 @@ Assets {
         Transform {
           Location {
             X: 75
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
           }
@@ -3726,7 +3726,7 @@ Assets {
         Transform {
           Location {
             X: -75
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
             Yaw: -179.999985
@@ -4716,7 +4716,7 @@ Assets {
         Name: "Top"
         Transform {
           Location {
-            X: -6.10351563e-05
+            X: -6.10351562e-05
             Z: 290.000092
           }
           Rotation {
@@ -4747,7 +4747,7 @@ Assets {
         Name: "Sci-fi Ship Engine 01"
         Transform {
           Location {
-            X: -6.10351563e-05
+            X: -6.10351562e-05
           }
           Rotation {
             Pitch: -90
@@ -4799,7 +4799,7 @@ Assets {
         Name: "Urban Pipe Cap 02"
         Transform {
           Location {
-            X: 6.10351563e-05
+            X: 6.10351562e-05
             Z: 144.999908
           }
           Rotation {
@@ -4870,7 +4870,7 @@ Assets {
         Name: "Military Tank Modern Hatch 01"
         Transform {
           Location {
-            X: 6.10351563e-05
+            X: 6.10351562e-05
             Z: 49.9999695
           }
           Rotation {
@@ -4912,7 +4912,7 @@ Assets {
         Name: "Cone - Truncated Wide"
         Transform {
           Location {
-            X: 6.10351563e-05
+            X: 6.10351562e-05
             Z: 35
           }
           Rotation {
@@ -5913,7 +5913,7 @@ Assets {
         Transform {
           Location {
             X: -35.0036583
-            Y: -0.000610351563
+            Y: -0.000610351562
             Z: 80
           }
           Rotation {

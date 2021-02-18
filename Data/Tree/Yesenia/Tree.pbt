@@ -1,6 +1,34 @@
 Name: "Yesenia"
 RootId: 10589467010113517291
 Objects {
+  Id: 6962872381100497848
+  Name: "UI test"
+  Transform {
+    Location {
+      X: -6190
+      Y: 395
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10589467010113517291
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "UI test"
+  }
+}
+Objects {
   Id: 12088007610701178479
   Name: "TOWER_BOTTOM"
   Transform {
@@ -22,17 +50,17 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 1536.19629
-            Y: 153.803101
-            Z: -5242.75
+            X: 1280
+            Y: 180
+            Z: -3675
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1.40955114
-            Y: 1.40955114
-            Z: 1.40955114
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
         Overrides {

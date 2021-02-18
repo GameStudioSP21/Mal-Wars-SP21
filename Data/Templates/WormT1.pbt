@@ -832,7 +832,7 @@ Assets {
         Name: "Sphere"
         Transform {
           Location {
-            X: 118.910645
+            X: 118.910644
             Y: -70.0001144
           }
           Rotation {

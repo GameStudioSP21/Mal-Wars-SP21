@@ -1,198 +1,213 @@
 Name: "Sidney"
 RootId: 9193804361493092613
 Objects {
-  Id: 16492794899764670888
-  Name: "AOE_Turret_2"
+  Id: 18169056221106191585
+  Name: "AoETower_02"
   Transform {
+    Location {
+      X: -10795.6963
+      Y: -6878.89551
+      Z: 215.550781
+    }
+    Rotation {
+      Yaw: 89.9999847
+    }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 3
+      Y: 3
+      Z: 3
     }
   }
   ParentId: 9193804361493092613
   TemplateInstance {
     ParameterOverrideMap {
-      key: 8426690089907207909
+      key: 3738680561791745842
       value {
         Overrides {
           Name: "Name"
-          String: "AOE_Turret_2"
+          String: "AoETower_02"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: 7395
-            Y: -11695
-            Z: 4935
+            X: -13755
+            Y: 6870
+            Z: 130
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -44.9999962
+            Yaw: -90
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 3
+            Y: 3
+            Z: 3
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10619596505535994009
+      value {
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 20
+            Y: 20
+            Z: 20
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12801076384990577822
+      value {
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.76334143
+            Y: 2.76334143
+            Z: 2.76334143
           }
         }
       }
     }
     TemplateAsset {
-      Id: 3278206618430585706
+      Id: 13270815255148402023
     }
   }
 }
 Objects {
-  Id: 12280708902253415549
-  Name: "AOE_Turret_4"
+  Id: 3979267212006048969
+  Name: "AoETower_01"
   Transform {
+    Location {
+      X: -10803.6641
+      Y: -7526.46777
+      Z: 215.550781
+    }
+    Rotation {
+      Yaw: 2.39056535e-05
+    }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 3
+      Y: 3
+      Z: 3
     }
   }
   ParentId: 9193804361493092613
   TemplateInstance {
     ParameterOverrideMap {
-      key: 3966832067442895808
-      value {
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -18.3897705
-            Y: -4.51855469
-            Z: 414.155518
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11910467766147003180
+      key: 1718644964127551635
       value {
         Overrides {
           Name: "Position"
           Vector {
-            X: 69.1025391
-            Y: -6.84912109
-            Z: 98.4047546
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 17435606291922886703
-      value {
-        Overrides {
-          Name: "Name"
-          String: "AOE_Turret_4"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 7105
-            Y: -11925
-            Z: 4940
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -45
+            X: 6.96630955
+            Y: -3.32324028
+            Z: -47.782196
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 15
+            Y: 15
+            Z: 15
           }
         }
       }
     }
-    TemplateAsset {
-      Id: 15598298539468488891
-    }
-  }
-}
-Objects {
-  Id: 3117277197977255775
-  Name: "AOE_Turret_3"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9193804361493092613
-  TemplateInstance {
     ParameterOverrideMap {
-      key: 9239741025094736254
+      key: 8261859955861469185
       value {
-        Overrides {
-          Name: "Name"
-          String: "AOE_Turret_3"
-        }
         Overrides {
           Name: "Position"
           Vector {
-            X: 6658.54492
-            Y: -12376.6934
-            Z: 4941.18945
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -45
+            X: -16.9356689
+            Y: -3.61825371
+            Z: 82.6253052
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 3.2004447
+            Y: 3.2004447
+            Z: 3.2004447
           }
+        }
+        Overrides {
+          Name: "bp:Color"
+          Color {
+            G: 0.902781427
+            B: 0.960000038
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "bp:Emissive Boost"
+          Float: 0
         }
       }
     }
     ParameterOverrideMap {
-      key: 16035752443769367218
+      key: 10765659186691536428
       value {
+        Overrides {
+          Name: "Name"
+          String: "AoETower_01"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -13747.0312
+            Y: 7517.57178
+            Z: 130
+          }
+        }
         Overrides {
           Name: "Rotation"
           Rotator {
+            Yaw: 180
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3
+            Y: 3
+            Z: 3
           }
         }
       }
     }
     TemplateAsset {
-      Id: 14993866855321746672
+      Id: 9067865593535693970
     }
   }
 }
 Objects {
-  Id: 14589924477517382921
-  Name: "AOE_Turret_1"
+  Id: 8849724227113851147
+  Name: "AoETower_03"
   Transform {
+    Location {
+      X: -10786.0771
+      Y: -6138.05078
+      Z: 245.088531
+    }
+    Rotation {
+      Yaw: 89.9999619
+    }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 3
+      Y: 3
+      Z: 3
     }
   }
   ParentId: 9193804361493092613
@@ -204,24 +219,72 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 7523094665984855163
+      key: 14748767582748543676
       value {
         Overrides {
           Name: "Name"
-          String: "AOE_Turret_1"
+          String: "AoETower_03"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: 6875
-            Y: -12185
-            Z: 4978.4834
+            X: -13764.6191
+            Y: 5865
+            Z: 159.537598
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -45
+            Yaw: -90
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3
+            Y: 3
+            Z: 3
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 17333397313736006617
+    }
+  }
+}
+Objects {
+  Id: 5202417167053716513
+  Name: "AoE_Turret_04"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9193804361493092613
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16344467478632089208
+      value {
+        Overrides {
+          Name: "Name"
+          String: "AoE_Turret_04"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -13711.8652
+            Y: 4810
+            Z: 173.799316
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -90
           }
         }
         Overrides {
@@ -235,7 +298,7 @@ Objects {
       }
     }
     TemplateAsset {
-      Id: 9887875521424983437
+      Id: 8844672098345891265
     }
   }
 }
