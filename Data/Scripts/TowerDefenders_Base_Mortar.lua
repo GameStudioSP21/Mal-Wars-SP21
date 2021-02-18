@@ -19,20 +19,20 @@ end
 
 function TowerMortar:HorizontalRotation()
     
-    -- -- Enenys Transform
-    -- local enemyTransform = self.currentTarget:GetTransform()
-    -- local predictedPosition = (self.currentTarget:GetWorldPosition() + enemyTransform:GetForwardVector() * 200)
-    -- local v = (self:GetWorldPosition() - predictedPosition).size / 2
-    -- local t = ((math.asin((9.81*predictedPosition.size)/v^2))/2)+math.pi
-    -- predictedPosition = (self.currentTarget:GetWorldPosition() + enemyTransform:GetForwardVector() * 600 * t)
-    -- --CoreDebug.DrawLine(self.currentTarget:GetWorldPosition(), predictedPosition, {duration = 2000, color = Color.GREEN, thickness = 30})
+     -- Enenys Transform
+     local enemyTransform = self.currentTarget:GetTransform()
+     local predictedPosition = (self.currentTarget:GetWorldPosition() + enemyTransform:GetForwardVector() * 200)
+     local v = (self:GetWorldPosition() - predictedPosition).size / 2
+     local t = ((math.asin((9.81*predictedPosition.size)/v^2))/2)+math.pi
+     predictedPosition = (self.currentTarget:GetWorldPosition() + enemyTransform:GetForwardVector() * 600 * t)
+     --CoreDebug.DrawLine(self.currentTarget:GetWorldPosition(), predictedPosition, {duration = 2000, color = Color.GREEN, thickness = 30})
 
-    -- local dir = (self:GetWorldPosition() - predictedPosition):GetNormalized()
+     local dir = (self:GetWorldPosition() - predictedPosition):GetNormalized()
 
 
-    -- local angle = math.atan(dir.x,dir.y)
-    -- local hr = Rotation.New(0,0,-math.deg(angle)+270)
-    --self._horizontalRotator:RotateTo(hr,0.1,false)
+     local angle = math.atan(dir.x,dir.y)
+     local hr = Rotation.New(0,0,-math.deg(angle)+270)
+    self._horizontalRotator:RotateTo(hr,0.1,false)
 end
 
 function TowerMortar:VerticalRotation()

@@ -75,6 +75,7 @@ Assets {
         }
         ParentId: 6001727932717870896
         ChildIds: 11164783066581082768
+        ChildIds: 4659422187470784461
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -85,8 +86,8 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.0120528284
-              G: 0.909999967
+              G: 0.647350907
+              B: 0.85
               A: 1
             }
           }
@@ -134,8 +135,8 @@ Assets {
           Overrides {
             Name: "bp:Color"
             Color {
-              G: 0.9
-              B: 0.00596029731
+              G: 0.872317553
+              B: 0.89
               A: 1
             }
           }
@@ -151,8 +152,8 @@ Assets {
           Overrides {
             Name: "bp:ColorC"
             Color {
-              R: 0.146225169
-              G: 0.960000038
+              G: 0.864635944
+              B: 0.960000038
               A: 1
             }
           }
@@ -178,6 +179,43 @@ Assets {
         Blueprint {
           BlueprintAsset {
             Id: 17977280587505271142
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+      }
+      Objects {
+        Id: 4659422187470784461
+        Name: "Speed Bubble"
+        Transform {
+          Location {
+            Y: 9.87617677e-05
+            Z: -105.759415
+          }
+          Rotation {
+            Pitch: 90
+            Yaw: 1.6876303
+            Roll: 1.68763065
+          }
+          Scale {
+            X: 10.7499981
+            Y: 1.75
+            Z: 1.75
+          }
+        }
+        ParentId: 4490653556984723173
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 11781156969107701034
           }
           TeamSettings {
           }
@@ -212,6 +250,15 @@ Assets {
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
         AssetId: "fxbp_basic_projectile_trail"
+      }
+    }
+    Assets {
+      Id: 11781156969107701034
+      Name: "Speed Bubble"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_speed_bubble1"
       }
     }
     PrimaryAssetId {
