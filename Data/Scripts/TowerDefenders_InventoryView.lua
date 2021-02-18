@@ -12,3 +12,10 @@ while not LOCAL_PLAYER.clientUserData.towerInventory do Task.Wait() end
 local inventory = LOCAL_PLAYER.clientUserData.towerInventory
 
 LOCAL_PLAYER.clientUserData.tempDisplay = propInventory
+
+local inventoryView = {}
+inventoryView.__index = inventoryView
+
+function 
+
+return inventoryView

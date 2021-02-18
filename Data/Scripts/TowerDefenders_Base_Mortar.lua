@@ -36,19 +36,37 @@ function TowerMortar:HorizontalRotation()
 end
 
 function TowerMortar:VerticalRotation()
+	--Independent Variables
+	self.impactTime = 1
+	self.gravityMult = 5
+	
     local enemyTransform = self.currentTarget:GetTransform()
-    local predictedPosition = (self.currentTarget:GetWorldPosition() + enemyTransform:GetForwardVector() * 400)
+    local predictedPosition = ( self.currentTarget:GetWorldPosition() + enemyTransform:GetForwardVector() * 400 * self.impactTime )
     local dir = (self:GetWorldPosition() - predictedPosition):GetNormalized()
-    local mag = (self:GetWorldPosition() - self.currentTarget:GetWorldPosition()).size
-
-    local v = mag
-    self.projectileSpeed = v
-
+    
+    local origin = self:GetWorldPosition() - Vector3.New(0,0,self:GetWorldPosition().z)
+    local target = predictedPosition - Vector3.New(0,0,self.currentTarget:GetWorldPosition().z)
+    local deltaX = ( target - origin ).size
+    
+    local origin = self:GetWorldPosition() - origin
+    local target = predictedPosition - target
+    local deltaH = ( target - origin ).size
+    
+    print("DeltaX: ", deltaX, " and DeltaH: ", deltaH)
+    
+	--DON'T TOUCH ME
     local angle = math.atan(dir.x,dir.y)
     local hr = Rotation.New(0,0,-math.deg(angle)+270)
 
-    local angle = math.deg((1/2)*math.asin((9.81*mag)/(v^2)))*90
-    local r = hr + Rotation.New(0,angle,0)
+	--CALCS
+	local theta = math.atan( ( deltaH + (0.5 * 981 * self.gravityMult * (self.impactTime^2) ) ) / deltaX )
+	local v = ( deltaX / ( self.impactTime * math.cos(theta) ) )
+	theta = math.deg(theta)
+	
+	print("Theta: ", theta, " and v: ", v)
+	
+	self.projectileSpeed = v
+    local r = hr + Rotation.New(0,theta,0)
     self.rotation = r
     self._verticalRotator:RotateTo(r,0.1,false)
 end
@@ -64,6 +82,7 @@ function TowerMortar:FireFakeProjectile()
         --local mag = (self:GetWorldPosition() - self.currentTarget:GetWorldPosition()).size
 
         projectile.speed = self.projectileSpeed
+        projectile.gravityScale = self.gravityMult
 
         projectile.impactEvent:Connect(function(hitResult) 
             World.SpawnAsset(ExplosionAsset,{ position = projectile:GetWorldPosition() })
