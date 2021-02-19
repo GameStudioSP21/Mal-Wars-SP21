@@ -2702,7 +2702,7 @@ Objects {
   Transform {
     Location {
       X: -507.214386
-      Y: -11292.0479
+      Y: -11292.0478
       Z: 1382.26355
     }
     Rotation {
@@ -2944,7 +2944,7 @@ Objects {
   Name: "RarityPanel"
   Transform {
     Location {
-      X: -5915.32813
+      X: -5915.32812
       Y: 4061.9707
       Z: 588.905762
     }
@@ -4117,7 +4117,6 @@ Objects {
   }
   ParentId: 7542508715810446415
   ChildIds: 1603084460435637971
-  ChildIds: 9337102768035373758
   ChildIds: 6603071736783500691
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -4177,9 +4176,10 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 202
-    Height: 79
-    UIX: 112.074921
+    Width: 229
+    Height: 81
+    UIX: 158.605576
+    UIY: -59.1047363
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -4188,71 +4188,14 @@ Objects {
     Text {
       Label: "0"
       Color {
-        R: 0.0706620663
-        G: 0.97
+        R: 0.929999948
         A: 1
       }
-      Size: 30
+      Size: 50
       Justification {
         Value: "mc:etextjustify:left"
       }
       AutoWrapText: true
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:bottomleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:bottomleft"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 9337102768035373758
-  Name: "GemIcon"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8671196899680944926
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 111
-    Height: 111
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 3648601778459717986
-      }
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      TeamSettings {
-      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -4290,15 +4233,15 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 200
-    Height: 200
+    Width: 679
+    Height: 199
+    UIX: -14.3170967
+    UIY: -87.762146
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
-    UseParentWidth: true
-    UseParentHeight: true
     Image {
       Brush {
       }

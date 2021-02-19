@@ -8,15 +8,6 @@ Assets {
   }
 }
 Assets {
-  Id: 18105158013125412176
-  Name: "Sci-fi Base Door 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_scf_base_door_002_ref"
-  }
-}
-Assets {
   Id: 17805431485688984203
   Name: "Cube - Polished"
   PlatformAssetType: 1
@@ -26,12 +17,12 @@ Assets {
   }
 }
 Assets {
-  Id: 17639330653733218431
-  Name: "Sci-fi Panel 1x3m Angled Left"
+  Id: 17457322814544506094
+  Name: "Sphere - Inverted"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_panel_1x3m_angledL_001"
+    AssetId: "sm_sphere_inverted_001"
   }
 }
 Assets {
@@ -71,21 +62,12 @@ Assets {
   }
 }
 Assets {
-  Id: 14328158517471887235
-  Name: "Wedge - Concave"
+  Id: 14254976361528964966
+  Name: "Cylinder - Chamfered Polished"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_wedge_curved_concave_001"
-  }
-}
-Assets {
-  Id: 14078436206544360258
-  Name: "Sci-fi Base Wall 02 - Doorway 02 Half"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_scf_base_wall_002_door_02_half_ref"
+    AssetId: "sm_cylinder_hq_002"
   }
 }
 Assets {
@@ -95,6 +77,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_panel_1x4m_001"
+  }
+}
+Assets {
+  Id: 12639445817240610799
+  Name: "2D Basic Shapes Decal"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "dcl_basicShapes"
   }
 }
 Assets {
@@ -152,15 +143,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10441916537278113907
-  Name: "Prism - 3-Sided"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prism_001"
-  }
-}
-Assets {
   Id: 10047245790400686352
   Name: "Gem - Round Polished"
   PlatformAssetType: 1
@@ -179,24 +161,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8822015863713349799
-  Name: "Glow Shape Decal"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "bp_decal_glow"
-  }
-}
-Assets {
-  Id: 8732847489112756644
-  Name: "Cylinder - Rounded"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_rounded_002"
-  }
-}
-Assets {
   Id: 8120172434194110335
   Name: "Sci-fi Ship Wing Small 01"
   PlatformAssetType: 1
@@ -206,12 +170,21 @@ Assets {
   }
 }
 Assets {
-  Id: 7584774902027927047
-  Name: "Diamond - Polished"
+  Id: 5977064665180346531
+  Name: "Pipe - 6-Sided"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_diamond_hq_001"
+    AssetId: "sm_pipe_sixsided_002"
+  }
+}
+Assets {
+  Id: 5933418524957934947
+  Name: "Ellipsoid - Truncated"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ellipsoid_truncated_001"
   }
 }
 Assets {

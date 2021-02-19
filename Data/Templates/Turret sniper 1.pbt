@@ -2125,7 +2125,7 @@ Assets {
         Name: "Top"
         Transform {
           Location {
-            X: -6.10351563e-05
+            X: -6.10351562e-05
             Z: 290.000092
           }
           Rotation {
@@ -2154,7 +2154,7 @@ Assets {
         Name: "Military Tank Modern Hatch 01"
         Transform {
           Location {
-            X: 6.10351563e-05
+            X: 6.10351562e-05
             Z: 49.9999695
           }
           Rotation {
@@ -2196,7 +2196,7 @@ Assets {
         Name: "Sci-fi Ship Engine 01"
         Transform {
           Location {
-            X: -6.10351563e-05
+            X: -6.10351562e-05
           }
           Rotation {
             Pitch: -90
