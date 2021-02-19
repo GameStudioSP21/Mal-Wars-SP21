@@ -72,6 +72,7 @@ Objects {
   ChildIds: 10589467010113517291
   ChildIds: 15855902819366650372
   ChildIds: 7914010294077968184
+  ChildIds: 17939970884370769961
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -80,6 +81,41 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 17939970884370769961
+  Name: "MainMap - Updated"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10722931758594424760
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 15817230212718466280
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MainMap - Updated"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3896601050598400371
+    }
   }
 }
 Objects {
