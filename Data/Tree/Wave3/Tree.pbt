@@ -25,13 +25,13 @@ Objects {
     Overrides {
       Name: "cs:Amount"
       Vector2 {
-        X: 10
-        Y: 10
+        X: 1
+        Y: 1
       }
     }
     Overrides {
       Name: "cs:HealthMultiplier"
-      Int: 3
+      Int: 2
     }
   }
   Collidable_v2 {
