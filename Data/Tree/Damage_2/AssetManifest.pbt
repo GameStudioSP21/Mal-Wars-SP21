@@ -53,12 +53,12 @@ Assets {
   }
 }
 Assets {
-  Id: 3034459943775580790
-  Name: "Sci-fi Weapon Gun 035"
+  Id: 1955500659202437076
+  Name: "Sci-fi Ability Blue 021"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_SciFi_Weapon_Gun_035"
+    AssetId: "UI_SciFi_Ability_Blue_021"
   }
 }
 Assets {

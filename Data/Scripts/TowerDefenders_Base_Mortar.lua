@@ -19,20 +19,20 @@ end
 
 function TowerMortar:HorizontalRotation()
     
-    -- -- Enenys Transform
-    -- local enemyTransform = self.currentTarget:GetTransform()
-    -- local predictedPosition = (self.currentTarget:GetWorldPosition() + enemyTransform:GetForwardVector() * 200)
-    -- local v = (self:GetWorldPosition() - predictedPosition).size / 2
-    -- local t = ((math.asin((9.81*predictedPosition.size)/v^2))/2)+math.pi
-    -- predictedPosition = (self.currentTarget:GetWorldPosition() + enemyTransform:GetForwardVector() * 600 * t)
-    -- --CoreDebug.DrawLine(self.currentTarget:GetWorldPosition(), predictedPosition, {duration = 2000, color = Color.GREEN, thickness = 30})
+     -- Enenys Transform
+     local enemyTransform = self.currentTarget:GetTransform()
+     local predictedPosition = (self.currentTarget:GetWorldPosition() + enemyTransform:GetForwardVector() * 200)
+     local v = (self:GetWorldPosition() - predictedPosition).size / 2
+     local t = ((math.asin((9.81*predictedPosition.size)/v^2))/2)+math.pi
+     predictedPosition = (self.currentTarget:GetWorldPosition() + enemyTransform:GetForwardVector() * 600 * t)
+     --CoreDebug.DrawLine(self.currentTarget:GetWorldPosition(), predictedPosition, {duration = 2000, color = Color.GREEN, thickness = 30})
 
-    -- local dir = (self:GetWorldPosition() - predictedPosition):GetNormalized()
+     local dir = (self:GetWorldPosition() - predictedPosition):GetNormalized()
 
 
-    -- local angle = math.atan(dir.x,dir.y)
-    -- local hr = Rotation.New(0,0,-math.deg(angle)+270)
-    --self._horizontalRotator:RotateTo(hr,0.1,false)
+     local angle = math.atan(dir.x,dir.y)
+     local hr = Rotation.New(0,0,-math.deg(angle)+270)
+    self._horizontalRotator:RotateTo(hr,0.1,false)
 end
 
 function TowerMortar:VerticalRotation()
@@ -42,33 +42,38 @@ function TowerMortar:VerticalRotation()
 	
     local enemyTransform = self.currentTarget:GetTransform()
     local predictedPosition = ( self.currentTarget:GetWorldPosition() + enemyTransform:GetForwardVector() * 400 * self.impactTime )
-    local dir = (self:GetWorldPosition() - predictedPosition):GetNormalized()
+    local dir = ( self:GetWorldPosition() - predictedPosition ):GetNormalized()
+        
+    --Calculate the horizontal displacement.
+    local pivotX = self:GetWorldPosition() - Vector3.New(0, 0, self:GetWorldPosition().z)
+    local targetX = predictedPosition - Vector3.New(0, 0, predictedPosition.z)
+    local deltaX = ( targetX - pivotX ).size
     
-    local origin = self:GetWorldPosition() - Vector3.New(0,0,self:GetWorldPosition().z)
-    local target = predictedPosition - Vector3.New(0,0,self.currentTarget:GetWorldPosition().z)
-    local deltaX = ( target - origin ).size
-    
-    local origin = self:GetWorldPosition() - origin
-    local target = predictedPosition - target
-    local deltaH = ( target - origin ).size
-    
-    print("DeltaX: ", deltaX, " and DeltaH: ", deltaH)
-    
-	--DON'T TOUCH ME
+    --Now the vertical displacement.
+    local pivotH = self:GetWorldPosition() - pivotX
+    local targetH = predictedPosition - targetX
+    local deltaH = ( targetH - pivotH ).size
+        
+    --Rotate the turret to make sure all calculations are accurate.
     local angle = math.atan(dir.x,dir.y)
     local hr = Rotation.New(0,0,-math.deg(angle)+270)
-
-	--CALCS
+    
+	--Get the vertical rotation.
 	local theta = math.atan( ( deltaH + (0.5 * 981 * self.gravityMult * (self.impactTime^2) ) ) / deltaX )
-	local v = ( deltaX / ( self.impactTime * math.cos(theta) ) )
-	theta = math.deg(theta)
+	thetaDeg = math.deg(theta)
 	
-	print("Theta: ", theta, " and v: ", v)
-	
-	self.projectileSpeed = v
-    local r = hr + Rotation.New(0,theta,0)
+	--Apply both horizontal and vertical rotation.
+    local r = hr + Rotation.New(0,thetaDeg,0)
     self.rotation = r
     self._verticalRotator:RotateTo(r,0.1,false)
+    
+    --Now the muzzle is in position. We can get its world coordinates and get the horizontal distance from the target.
+    local muzzleX = self._muzzle:GetWorldPosition() - Vector3.New(0, 0, self._muzzle:GetWorldPosition().z)
+    deltaM = ( targetX - muzzleX ).size
+    
+    --Finally, we can get the velocity.
+    local v = ( deltaM / ( self.impactTime * math.cos(theta) ) )
+    self.projectileSpeed = v
 end
 
 function TowerMortar:FireFakeProjectile()
