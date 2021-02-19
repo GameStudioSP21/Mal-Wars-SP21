@@ -55,6 +55,17 @@ function GameManager.GetCurrentBoard(player)
     return player.serverUserData.activeboard
 end
 
+function GameManager.WaitForBoardFromPlayer(player)
+    assert( player and player:IsA("Player"), string.format("Can not get board from - % in GameManager.",player.name) )
+    if Environment.IsClient() then
+        while not player.clientUserData.activeBoard do Task.Wait() end
+        return player.clientUserData.activeBoard
+    elseif Environment.IsServer() then
+        while not player.serverUserData.activeBoard do Task.Wait() end
+        return player.serverUserData.activeBoard
+    end
+end
+
 function GameManager.GetAllActiveBoards()
     return activeBoards
 end
