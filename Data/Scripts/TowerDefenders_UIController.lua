@@ -1,4 +1,4 @@
-﻿
+local Tooltips = require('D59186313879C18D')
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 
 local TOWER_MENU_CODE = "ability_extra_24" -- T
@@ -14,8 +14,10 @@ LOCAL_PLAYER.bindingPressedEvent:Connect(function(_,keyCode)
         
         if buildMenu:IsVisible() then
             buildMenu:Close()
+            Tooltips:SetVisibility(Visibility.FORCE_OFF, false)
         else
             buildMenu:Open()
+            Tooltips:SetVisibility(Visibility.FORCE_ON, false)
         end
 
         UI.SetCursorVisible(buildMenu:IsVisible())

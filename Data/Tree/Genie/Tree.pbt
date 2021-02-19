@@ -1,6 +1,48 @@
 Name: "Genie"
 RootId: 17279088920053467177
 Objects {
+  Id: 7824200590109447002
+  Name: "uiTooltips"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17279088920053467177
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11223390951031390793
+      value {
+        Overrides {
+          Name: "Name"
+          String: "uiTooltips"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15627134378245160564
+    }
+  }
+}
+Objects {
   Id: 8569102528133093290
   Name: "uiInventory"
   Transform {
