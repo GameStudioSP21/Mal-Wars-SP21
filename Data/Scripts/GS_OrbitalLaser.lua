@@ -1,47 +1,49 @@
 local LASER_VFX = script:GetCustomProperty("LaserBeamVFX"):WaitForObject()
+local GAME_MANAGER = require(script:GetCustomProperty("TowerDefenders_GameManager"))
 
 local LOCAL_PLAYER = Game:GetLocalPlayer()
 
 local FIRE_BIND = "ability_primary"
 
-local Geo = { }
+local COOL_DOWN = 1
+local onCoolDown = false
 
+print("getting board")
+local board = GAME_MANAGER.WaitForBoardFromPlayer(LOCAL_PLAYER)
+print("got board")
 
 function OnBindingPressed(LOCAL_PLAYER, binding)
     -- print("event")
-    if binding == FIRE_BIND then
-        -- local lookDirection = MAIN_CAMERA:GetForwardVector()
-        -- local cameraPostion = MAIN_CAMERA:GetWorldPosition()
+    if binding == FIRE_BIND  and not onCoolDown then
         local hitResult = UI.GetCursorHitResult()
         if(hitResult) then
-            print("hit") 
+            -- print("hit") 
             local hitPos = Vector3.New(hitResult:GetImpactPosition())
-            print(hitPos)
-            playAnimation(hitPos)
+            PlayAnimation(hitPos)
+            DamageEnemies(hitResult)
+            onCoolDown = true
+            Task.Wait(COOL_DOWN)
+            onCoolDown = false
         else
             print("hit result nil")
         end
     end
 end
 
-function playAnimation(hitPos) 
+function DamageEnemies(hitResult)
+    Events.BroadcastToServer("OLD", hitResult:GetImpactPosition())
+end
+
+function PlayAnimation(hitPos) 
     LASER_VFX:SetWorldPosition(hitPos)
+    -- LASER_VFX.visibilty = Visibility.FORCE_ON
     LASER_VFX:Play()
     Task.Wait()
     LASER_VFX:Stop()
+    -- LASER_VFX.visibilty = Visibility.FORCE_OFF
 end
 
-function isBoard(hitResult)
-    if(hitResult.other.isStatic) then
-        print("Hit a static object")
-    end
-    if(hitResult.other.isServerOnly) then
-        print("Hit server object")
-    end
-    -- if(hitResult.other:IsAncestorByName("GEO")) then
-    --     print("Hit something in the GEO folder")
-    -- end
-
+function IsBoard(hitResult)
 end
 
 LOCAL_PLAYER.bindingPressedEvent:Connect(OnBindingPressed)

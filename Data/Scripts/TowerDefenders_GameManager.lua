@@ -51,12 +51,12 @@ end
 
 -- Return the current board the player is playing on.
 function GameManager.GetCurrentBoard(player)
-    assert( player and player:IsA("Player"), string.format("Can not get board from - % in GameManager.",player.name) )
-    return player.serverUserData.activeboard
+    -- assert( player and player:IsA("Player"), string.format("Can not get board from - % in GameManager.",player.name) )
+    return player.serverUserData.activeBoard
 end
 
 function GameManager.WaitForBoardFromPlayer(player)
-    assert( player and player:IsA("Player"), string.format("Can not get board from - % in GameManager.",player.name) )
+    --assert( player and player:IsA("Player"), string.format("Can not get board from - % in GameManager.",player.name) )
     if Environment.IsClient() then
         while not player.clientUserData.activeBoard do Task.Wait() end
         return player.clientUserData.activeBoard
