@@ -186,7 +186,7 @@ Assets {
             }
           }
           Text {
-            Label: "A basic tower you start out with!"
+            Label: "Creates a building that shoots at a single target constantly"
             Color {
               R: 1
               G: 1
@@ -248,7 +248,7 @@ Assets {
             }
           }
           Text {
-            Label: "A basic tower you start out with!"
+            Label: "Creates a building that shoots slow but does good damage to multiple targets in an area of effect"
             Color {
               R: 1
               G: 1
@@ -308,7 +308,7 @@ Assets {
             }
           }
           Text {
-            Label: "A basic tower you start out with!"
+            Label: "Releases an orbital strike on the selected location"
             Color {
               R: 1
               G: 1
@@ -368,7 +368,7 @@ Assets {
             }
           }
           Text {
-            Label: "A basic tower you start out with!"
+            Label: "Creates a building that generates gems over time"
             Color {
               R: 1
               G: 1
