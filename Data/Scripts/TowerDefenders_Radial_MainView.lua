@@ -1,7 +1,7 @@
-﻿
+
 -- Derive from radial view
 local RadialView = require(script:GetCustomProperty("TowerDefenders_RadialView"))
-
+local Tooltips = require('D59186313879C18D')
 local MENU_UI = script:GetCustomProperty("Menu"):WaitForObject()
 local SEGMENT_ASSET = script:GetCustomProperty("SegmentAsset")
 local SEGMENTS_DATA = script:GetCustomProperty("Segments")
@@ -29,18 +29,21 @@ view.OnSectionClicked:Connect(function(sectionID)
         view:Close()
         Task.Wait(0.1)
         towerView:Open()
+        Tooltips:SetVisibility(Visibility.FORCE_OFF, true)
     elseif sectionID == 2 then
         view:Close()
         UI.SetCursorVisible(false)
         UI.SetCanCursorInteractWithUI(false)
         Task.Wait(0.1)
         Events.Broadcast("BeginUpgrading")
+        Tooltips:SetVisibility(Visibility.FORCE_OFF, true)
     elseif sectionID == 3 then
         view:Close()
         UI.SetCursorVisible(false)
         UI.SetCanCursorInteractWithUI(false)
         Task.Wait(0.1)
         Events.Broadcast("BeginSelling")
+        Tooltips:SetVisibility(Visibility.FORCE_OFF, true)
     end
 
 end)

@@ -1,5 +1,5 @@
-﻿local EaseUI = require(script:GetCustomProperty("EaseUI"))
-
+local EaseUI = require(script:GetCustomProperty("EaseUI"))
+local Tooltips = require('D59186313879C18D')
 -- Sounds
 local SECTION_SWITCH_SOUND = script:GetCustomProperty("SectionHoverSound")
 local SECTION_CLICKED_SOUND = script:GetCustomProperty("SectionClickSound")
@@ -112,12 +112,14 @@ end
 function RadialMenu:_HideIcons()
     for _, UIObject in pairs(self.allSections) do
         UIObject.visibility = Visibility.FORCE_OFF
+        Tooltips:SetVisibility(Visibility.FORCE_OFF, false)
     end
 end
 
 function RadialMenu:_ShowIcons()
     for _, UIObject in pairs(self.allSections) do
         UIObject.visibility = Visibility.FORCE_ON
+        Tooltips:SetVisibility(Visibility.FORCE_ON, false)
     end
 end
 
@@ -221,6 +223,7 @@ function RadialMenu:_CheckSections()
     local selection = math.floor((whole - selectionRange) / segements)
 
     self.currentSelection = selection == 0 and #self.allSections or selection
+	Tooltips:SetToolTips(self.currentSelection)
 end
 
 function RadialMenu:_FeedbackSelected()
