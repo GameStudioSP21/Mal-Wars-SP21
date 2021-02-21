@@ -1,5 +1,7 @@
 local initalHealth = script:GetCustomProperty("HubHealth")
 local GameManager = require(script:GetCustomProperty("GameManager"))
+local networkHubHealthBar = script:GetCustomProperty("NetworkHubHealthBar"):WaitForObject()
+
 
 local WAVE_REGEN_HEALTH = 10
 
@@ -25,6 +27,10 @@ waveManager.OnEnemyReachedEnd:Connect(function(enemyObject)
         -- Assign the difference of the hubs health and the enemys health.
         local currentHealth = hubHealth - enemyHealth
         script:SetNetworkedCustomProperty("HubHealth", CoreMath.Clamp(currentHealth,0,initalHealth))
+
+        --Assign the percentage of health for hub health bar
+        local currentHealthBar = currentHealth / initalHealth
+        networkHubHealthBar.progress = currentHealthBar
 
         if currentHealth <= 0 then
             print("Failure!")
