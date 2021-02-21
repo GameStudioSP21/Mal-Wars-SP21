@@ -7,7 +7,7 @@ local LOCAL_PLAYER = Game:GetLocalPlayer()
 
 local FIRE_BIND = "ability_primary"
 
-local COOL_DOWN = 1
+local COOL_DOWN = .5
 local COOL_DOWN_DIVISIONS = 100
 local onCoolDown = false
 ProgressBar.progress = 1
@@ -53,9 +53,9 @@ function IsBoard(hitResult)
 end
 
 function UpdateProgressBar()
-    local interval = COOL_DOWN / COOL_DOWN_DIVISIONS
-    while ProgressBar.progress < COOL_DOWN do
-        ProgressBar.progress = ProgressBar.progress + interval
+    local interval = 1 / COOL_DOWN_DIVISIONS
+    while ProgressBar.progress < 1 do
+        ProgressBar.progress = ProgressBar.progress + (interval * (1 / COOL_DOWN))
         Task.Wait(interval)
     end
 end

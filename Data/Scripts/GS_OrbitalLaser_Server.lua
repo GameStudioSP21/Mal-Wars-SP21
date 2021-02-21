@@ -5,7 +5,7 @@ function COMBAT_WRAP() return MODULE.Get("standardcombo.Combat.Wrap") end
 
 
 
-local fireRadiusSqaured = 500^2
+local fireRadiusSqaured = 300^2
 
 local LASER_DAMAGE = 100
 
