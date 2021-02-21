@@ -23,12 +23,17 @@ local function OnStateChanged()
                 local newGem = World.SpawnAsset(gem.asset,{ position = deadPos + Vector3.UP * 100 })
                 newGem.clientUserData.gemValue = gem.value
                 local randomDirection = Vector3.New(math.random(-horizontalMag,horizontalMag),math.random(-horizontalMag,horizontalMag),verticalDirection)
-                BasicProjectiles.New({
+                local gemProjectile = BasicProjectiles.New({
                     object = newGem,
                     direction = randomDirection,
                     endOffsetPosition = Vector3.New(0,0,20),
                     isRaycasting = true,
+                    rotationDirection = Vector3.New(math.random(-45,45),math.random(-45,45),math.random(-45,45)),
                 })
+                gemProjectile.OnHit:Connect(function()
+
+                    
+                end)
 
             end
         end
