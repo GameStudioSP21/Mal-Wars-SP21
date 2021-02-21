@@ -76690,6 +76690,9 @@ Assets {
           }
         }
         ParentId: 17637186462734073188
+        ChildIds: 8647890989143445734
+        ChildIds: 4859817004004088098
+        ChildIds: 18123314981435607885
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -76698,6 +76701,111 @@ Assets {
         }
         Folder {
           IsFilePartition: true
+        }
+      }
+      Objects {
+        Id: 8647890989143445734
+        Name: "FakePlayerSpawn"
+        Transform {
+          Location {
+            X: -10837.9902
+            Y: 432.784912
+            Z: 174.238144
+          }
+          Rotation {
+            Yaw: 131.897415
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 2.05018902
+          }
+        }
+        ParentId: 4191212835283626940
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Trigger {
+          TeamSettings {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          TriggerShape_v2 {
+            Value: "mc:etriggershape:box"
+          }
+        }
+      }
+      Objects {
+        Id: 4859817004004088098
+        Name: "FakePlayerSpawn"
+        Transform {
+          Location {
+            X: -10672.3535
+            Y: 432.784912
+            Z: 174.238144
+          }
+          Rotation {
+            Yaw: 131.897415
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 2.05018902
+          }
+        }
+        ParentId: 4191212835283626940
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Trigger {
+          TeamSettings {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          TriggerShape_v2 {
+            Value: "mc:etriggershape:box"
+          }
+        }
+      }
+      Objects {
+        Id: 18123314981435607885
+        Name: "FakePlayerSpawn"
+        Transform {
+          Location {
+            X: -10497.9287
+            Y: 432.784912
+            Z: 174.238144
+          }
+          Rotation {
+            Yaw: 131.897415
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 2.05018902
+          }
+        }
+        ParentId: 4191212835283626940
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Trigger {
+          TeamSettings {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          TriggerShape_v2 {
+            Value: "mc:etriggershape:box"
+          }
         }
       }
       Objects {
