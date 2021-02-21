@@ -96,7 +96,8 @@ function WaveManager:GetNearestEnemy(position)
         if not closest then
             closest = enemy
         end
-        if closest and (enemy:GetWorldPosition() - position).sizeSquared < (closest - position).sizeSquared then
+        if closest and 
+            (enemy:GetWorldPosition() - position).sizeSquared < (closest:GetWorldPosition() - position).sizeSquared then
             closest = enemy
         end
     end
@@ -111,7 +112,9 @@ function WaveManager:GetNearestAliveEnemy(position)
         if not closest then
             closest = enemy
         end
-        if closest and (enemy:GetWorldPosition() - position).sizeSquared < (closest - position).sizeSquared and enemy:GetCustomProperty("CurrentHealth") > 0 then
+        if closest and 
+            (enemy:GetWorldPosition() - position).sizeSquared < (closest:GetWorldPosition() - position).sizeSquared and
+             enemy:GetCustomProperty("CurrentHealth") > 0 then
             closest = enemy
         end
     end
@@ -205,7 +208,7 @@ function WaveManager:_Init(board,waveManagerObject)
         self.runtime = Task.Spawn(function() self:_Runtime() end)
         self.runtime.repeatCount = -1
     elseif Environment.IsClient() then
-        print("[CLIENT] Connecting to manager object and listening for changes.")
+        --print("[CLIENT] Connecting to manager object and listening for changes.")
         self.waveManagerObject.networkedPropertyChangedEvent:Connect(function(owner,propertyName)
             local propertyValue = self.waveManagerObject:GetCustomProperty(propertyName)
 
@@ -269,9 +272,9 @@ function WaveManager:_StepStates()
         Task.Wait(1) 
 
         while not self.currentWave:IsCleared() and self:GetCurrentPhase() == MANAGER_PHASE.ATTACKING do
-            print("Not Cleared")
+            --print("Not Cleared")
             if not self.currentWave:IsEmpty() then
-                print("Spawning Enemies")
+                --print("Spawning Enemies")
                 Task.Wait(self.currentWave:GetSpawnDelay())
                 self.currentWave:SpawnEnemy()
             else
@@ -301,7 +304,7 @@ function WaveManager:_StepStates()
         print("[Wave Manager] You failed to survive.")
         self:RedoCurrentWave()
         Task.Wait(5)
-        self:SetCurrentPhase("WAITING_READY")
+        --self:SetCurrentPhase("WAITING_READY")
 
     end
 end
