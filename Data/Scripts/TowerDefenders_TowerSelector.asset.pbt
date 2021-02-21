@@ -1,13 +1,13 @@
 Assets {
-  Id: 6126369704824496250
-  Name: "TowerDefenders_TowerUpgraderClient"
+  Id: 4155800174160373791
+  Name: "TowerDefenders_TowerSelector"
   PlatformAssetType: 3
   TextAsset {
     CustomParameters {
       Overrides {
-        Name: "cs:TowerSelector"
+        Name: "cs:Ease3D"
         AssetReference {
-          Id: 4155800174160373791
+          Id: 11698430162959436393
         }
       }
     }

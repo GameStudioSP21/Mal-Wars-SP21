@@ -17,7 +17,7 @@ function BasicProjectile.New(projectileData)
     local self = {}
     setmetatable(self,BasicProjectile)
 
-    self:_DefineEvent("OnReachedEnd") -- Called when the projectile reaches the end point.
+    self:_DefineEvent("OnReachedEnd") -- Called when the projectile reaches the end point or simulation is done.
     self:_DefineEvent("OnReachedApex") -- Called when the projectile reaches the top of arc.
     self:_DefineEvent("OnHit") -- Called when the raycast on the projectile hits something.
 
@@ -96,7 +96,7 @@ function BasicProjectile:_ProcessProjectile()
     -- CHANGE
     ---------------------------------------
     local intensity = 40
-    local randomWeight = Vector3.New(math.random(-intensity,intensity),math.random(-intensity,intensity),math.random(-intensity,intensity))
+    local randomWeight = self.rotationDirection
     ---------------------------------------
 
     local hitResultHeight = World.Raycast(endingPosition + Vector3.UP * 100, endingPosition + Vector3.UP * -10000, { ignorePlayers = true })
@@ -138,14 +138,14 @@ function BasicProjectile:_ProcessProjectile()
     Task.Spawn(function()
         while not self.isDone do
             local deltaTime = os.clock()
-            local currentTime = (os.clock() - t) * self.speedMultiplier
+            local currentTime = (os.clock() - t) * self.speedMultiplier * 10
             oldX = DIRECTION.x * currentTime
             oldY = DIRECTION.y * currentTime
             oldZ = (DIRECTION.z * currentTime + (ACCELERATION*currentTime^2)/2)
             Task.Wait()
             deltaTime = os.clock() - deltaTime
     
-            currentTime = (os.clock() - t) * self.speedMultiplier
+            currentTime = (os.clock() - t) * self.speedMultiplier * 10
             x = DIRECTION.x * currentTime
             y = DIRECTION.y * currentTime
             z = (DIRECTION.z * currentTime + (ACCELERATION*currentTime^2)/2)
@@ -193,12 +193,14 @@ end
 
 function BasicProjectile:_Init(projectileData)
     self.isDone = false
+    assert(projectileData.object,"Can not simulate projectile without object. Make sure you have a 'object' key that has a value of a newly created object.")
+    assert(projectileData.direction,"Can not simulate projectile without object. Make sure you have a 'object' key that has a value of a newly created object.")
     self.object = projectileData.object
     self.direction = projectileData.direction
     self.lifeTime = projectileData.lifeTime or 0
-    self.rotation = nil
+    self.rotationDirection = projectileData.rotationDirection or Vector3.New()
     self.endOffsetPosition = projectileData.endOffsetPosition or Vector3.New()
-    self.speedMultiplier = (projectileData.speedMultiplier ~= 0 or projectileData.speedMultiplier) and projectileData.speedMultiplier or 10
+    self.speedMultiplier = (projectileData.speedMultiplier ~= 0 or projectileData.speedMultiplier) and projectileData.speedMultiplier or 1
     self.isRaycasting = projectileData.isRaycasting or false
     self:_ProcessProjectile()
 end
