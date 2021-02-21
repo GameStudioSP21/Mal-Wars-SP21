@@ -5,8 +5,11 @@ local SPAWN_VFX = script:GetCustomProperty("SpawnVFX")
 local PRE_SPAWN_ASSET = script:GetCustomProperty("PreSpawnAsset")
 local PRE_END_SPAWN_ASSET = script:GetCustomProperty("PreEndSpawnAsset")
 local OWNERSHIP_DECAL = script:GetCustomProperty("TowerOwnershipDecal")
-local RANGE_RADIUS_DECAL = script:GetCustomProperty("RangeRadiusDecal")
+local RADIUS_DECAL = script:GetCustomProperty("RangeRadiusDecal")
+local BLOCKED_RADIUS = script:GetCustomProperty("BlockedRadius")
 local Ease3D = require(script:GetCustomProperty("Ease3D"))
+
+local BLOCKED_RANGE = 125 -- CUSTOM PROPERTY HERE
 
 ----------------------------------------------------
 -- Public
@@ -105,15 +108,48 @@ function Tower:SpawnAssetSpecial()
     self._muzzleEffects = self._muzzle:GetChildren()
 end
 
+function Tower:GetBlockedRadius()
+    return BLOCKED_RANGE
+end
+
+function Tower:IsPositionInBlockedRadius(position)
+    if (position - self:GetWorldPosition()).size <= self:GetBlockedRadius() then
+        return true
+    end
+    return false
+end
+
+-- Client
+function Tower:DiplayBlockedRadius()
+    if Object.IsValid(self.blockedRadius) then return end -- Don't display again
+    if not Object.IsValid(self:GetTowerAssetInstance()) then return end
+
+    local radius = World.SpawnAsset(BLOCKED_RADIUS,{ parent = self:GetTowerAssetInstance() })
+    radius:SetScale(Vector3.New())
+    Ease3D.EaseScale(radius, Vector3.New(self:GetBlockedRadius()/50), 1, Ease3D.EasingEquation.SINE, Ease3D.EasingDirection.INOUT)
+    self.blockedRadius = radius
+end
+
+-- Client
+function Tower:RemoveBlockedRadius()
+    if Object.IsValid(self.blockedRadius) then
+        self.blockedRadius:Destroy()
+    end
+end
+
 -- Client
 function Tower:DisplayRangeRadius()
-    local radius = World.SpawnAsset(RANGE_RADIUS_DECAL,{ parent = self:GetTowerAssetInstance() })
+    -- Don't display if the range radius is already showing and the model is not existing.
+    if Object.IsValid(self.rangeRadiusVisual) then return end 
+    if not Object.IsValid(self:GetTowerAssetInstance()) then return end
+
+    local radius = World.SpawnAsset(RADIUS_DECAL,{ parent = self:GetTowerAssetInstance() })
     Ease3D.EaseScale(radius, Vector3.New(self:GetStat("Range")), 1, Ease3D.EasingEquation.SINE, Ease3D.EasingDirection.INOUT)
     self.rangeRadiusVisual = radius
 end
 
 function Tower:RemoveRangeRadius()
-    if self.rangeRadiusVisual then
+    if Object.IsValid(self.rangeRadiusVisual) then
         self.rangeRadiusVisual:Destroy()
     end
 end
@@ -200,6 +236,10 @@ function Tower:InRange(object)
         return true
     end
     return false
+end
+
+function Tower:IsPositionInRange(position)
+
 end
 
 function Tower:GetNearestEnemy()
