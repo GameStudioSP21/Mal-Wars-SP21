@@ -243,25 +243,9 @@ function Tower:IsPositionInRange(position)
 end
 
 function Tower:GetNearestEnemy()
-    local board = self:GetBoardReference()
-    local position = self:GetWorldPosition()
-    local closest = nil
-    if not board then return end
-    for _, enemy in pairs(board:GetEnemies()) do
-        if Object.IsValid(enemy) then
-            if self:InRange(enemy) then
-                if enemy:GetCustomProperty("CurrentHealth") > 0 then
-                    if not closest then
-                        closest = enemy
-                    end
-                    if closest and (closest:GetWorldPosition() - position).size > (enemy:GetWorldPosition() - position).size then
-                        closest = enemy
-                    end
-                end
-            end
-        end
-    end
-    return closest
+    local waveManager = self:GetBoardReference():GetWaveManager()
+    local closestEnemy = waveManager:GetNearestAliveEnemy(self:GetWorldPosition())
+    return closestEnemy
 end
 
 ----------------------------------------------------
@@ -372,19 +356,16 @@ function Tower:_Runtime()
                 if self.towerAssetInstance then
                     if not Object.IsValid(self.currentTarget) then
                         self.currentTarget = self:GetNearestEnemy()
-                    elseif Object.IsValid(self.currentTarget) and self._horizontalRotator then
+                    elseif Object.IsValid(self.currentTarget) and self:InRange(self.currentTarget) and self._horizontalRotator then
+                        self:HorizontalRotation()
+                        self:VerticalRotation()
+
                         local health = self.currentTarget:GetCustomProperty("CurrentHealth")
-                        if self:InRange(self.currentTarget) then
-
-                            self:HorizontalRotation()
-                            self:VerticalRotation()
-
-                            if health <= 0 then
-                                self.currentTarget = nil
-                            end
-                        else
+                        if health <= 0 then
                             self.currentTarget = nil
                         end
+                    else
+                        self.currentTarget = nil
                     end
                 end
             end
@@ -393,9 +374,13 @@ function Tower:_Runtime()
         local firingRuntime = Task.Spawn(function()
             while true do
                 Task.Wait(self:GetStat("Speed"))
-                if Object.IsValid(self.currentTarget) and self._horizontalRotator then
-                    self:FireFakeProjectile()
-                    self:PlayMuzzleEffects()
+                if Object.IsValid(self.currentTarget) and self:InRange(self.currentTarget) and self._horizontalRotator then
+                    Task.Spawn(function()
+                        self:FireFakeProjectile()
+                    end)
+                    Task.Spawn(function()
+                        self:PlayMuzzleEffects()
+                    end)
                 end
             end
         end)
@@ -411,19 +396,13 @@ function Tower:_Runtime()
 
                 if not Object.IsValid(self.currentTarget) then
                     self.currentTarget = self:GetNearestEnemy()
-                elseif Object.IsValid(self.currentTarget) then
-                    if self:InRange(self.currentTarget) then
-                        local health = self.currentTarget:GetCustomProperty("CurrentHealth")
-                        if health > 0 then
-                            if self.currentTarget:GetCustomProperty("CurrentHealth") <= 0 then
-                                self.currentTarget = nil
-                            end
-                        else
-                            self.currentTarget = nil
-                        end
-                    else
+                elseif Object.IsValid(self.currentTarget) and self:InRange(self.currentTarget) then
+                    local health = self.currentTarget:GetCustomProperty("CurrentHealth")
+                    if self.currentTarget:GetCustomProperty("CurrentHealth") <= 0 then
                         self.currentTarget = nil
                     end
+                else
+                    self.currentTarget = nil
                 end
             end
         end)
@@ -431,7 +410,7 @@ function Tower:_Runtime()
         local attackingRuntime = Task.Spawn(function()
             while true do
                 Task.Wait(self:GetStat("Speed"))
-                if Object.IsValid(self.currentTarget) then
+                if Object.IsValid(self.currentTarget) and self:InRange(self.currentTarget) then
                     self:DamageEnemy(self.currentTarget)
                     if self.currentTarget:GetCustomProperty("CurrentHealth") <= 0 then
                         self.currentTarget = nil
