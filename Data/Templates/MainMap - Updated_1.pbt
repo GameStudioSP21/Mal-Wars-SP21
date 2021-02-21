@@ -133,7 +133,6 @@ Assets {
         Control {
           Width: 1000
           Height: 60
-          UIX: 1000
           UIY: 25
           RenderTransformPivot {
             Anchor {
@@ -155,12 +154,12 @@ Assets {
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:topleft"
+                Value: "mc:euianchor:topcenter"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:topleft"
+                Value: "mc:euianchor:topcenter"
               }
             }
           }
@@ -191,7 +190,6 @@ Assets {
         Control {
           Width: 1000
           Height: 60
-          UIX: 1000
           UIY: 100
           RenderTransformPivot {
             Anchor {
@@ -215,12 +213,12 @@ Assets {
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:topleft"
+                Value: "mc:euianchor:topcenter"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:topleft"
+                Value: "mc:euianchor:topcenter"
               }
             }
           }
