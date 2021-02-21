@@ -1,6 +1,32 @@
 Name: "DylanR"
 RootId: 15062001147149131720
 Objects {
+  Id: 9727394318699712712
+  Name: "AoE Tower Placement Effects"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15062001147149131720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "AoE Tower Placement Effects"
+  }
+}
+Objects {
   Id: 984347769214012900
   Name: "CentralTower"
   Transform {
@@ -6794,7 +6820,7 @@ Objects {
       Color {
         R: 0.0935498178
         G: 0.109375
-        B: 0.0922851562
+        B: 0.0922851563
         A: 1
       }
     }
@@ -6850,7 +6876,7 @@ Objects {
       Color {
         R: 0.0935498178
         G: 0.109375
-        B: 0.0922851562
+        B: 0.0922851563
         A: 1
       }
     }
@@ -13897,7 +13923,7 @@ Objects {
   Name: "Plane Trapezoid - One Sided"
   Transform {
     Location {
-      X: 252.726562
+      X: 252.726563
       Y: 305.468079
       Z: 1115.31201
     }
@@ -26801,7 +26827,7 @@ Objects {
     Location {
       X: 1558.62231
       Y: 387.038361
-      Z: 6003.20312
+      Z: 6003.20313
     }
     Rotation {
       Pitch: -17.1972961
@@ -31723,7 +31749,7 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -2672.69726
+            X: -2672.69727
             Y: 3018.85425
             Z: -65
           }
@@ -31778,7 +31804,7 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -8891.98144
+            X: -8891.98145
             Y: -3157.86621
             Z: -65
           }
@@ -36017,7 +36043,7 @@ Objects {
     Location {
       X: 103.67878
       Y: -206.41597
-      Z: 2514.34228
+      Z: 2514.34229
     }
     Rotation {
       Pitch: 3.4533093
@@ -36626,7 +36652,7 @@ Objects {
   Transform {
     Location {
       X: 154.239
-      Y: -1057.2456
+      Y: -1057.24561
       Z: 3773.67578
     }
     Rotation {
@@ -36688,7 +36714,7 @@ Objects {
     Location {
       X: 398.110779
       Y: -638.997437
-      Z: 4088.88476
+      Z: 4088.88477
     }
     Rotation {
       Pitch: 2.68750167
@@ -39432,7 +39458,7 @@ Objects {
     Location {
       X: 494.762817
       Y: 1084.01721
-      Z: 4680.71142
+      Z: 4680.71143
     }
     Rotation {
       Pitch: 34.2643776

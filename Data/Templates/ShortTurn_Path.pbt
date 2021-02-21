@@ -545,7 +545,7 @@ Assets {
         Transform {
           Location {
             X: -395.674316
-            Y: 194.195312
+            Y: 194.195313
             Z: 0.330566406
           }
           Rotation {
@@ -2675,7 +2675,7 @@ Assets {
         Transform {
           Location {
             X: -483.576904
-            Y: -1566.50976
+            Y: -1566.50977
             Z: 320
           }
           Rotation {
@@ -2734,7 +2734,7 @@ Assets {
         Transform {
           Location {
             X: -207.677
-            Y: -684.157226
+            Y: -684.157227
             Z: 320
           }
           Rotation {
@@ -2792,7 +2792,7 @@ Assets {
         Name: "Plane Trapezoid - One Sided"
         Transform {
           Location {
-            X: -23.9726562
+            X: -23.9726563
             Y: 81.5703125
             Z: 319.999847
           }
@@ -2911,7 +2911,7 @@ Assets {
         Transform {
           Location {
             X: -207.677
-            Y: -684.157226
+            Y: -684.157227
             Z: 320
           }
           Rotation {
@@ -3595,7 +3595,7 @@ Assets {
         Name: "Fins"
         Transform {
           Location {
-            X: 2782.75976
+            X: 2782.75977
             Y: 656.202332
             Z: 314.414368
           }
@@ -4050,7 +4050,7 @@ Assets {
         Name: "Sci-fi Panel 2x3m Triangle"
         Transform {
           Location {
-            X: 2389.32226
+            X: 2389.32227
             Y: 1036.53955
             Z: -3.24160814
           }
@@ -4360,7 +4360,7 @@ Assets {
         Transform {
           Location {
             X: 179.426788
-            Y: 0.000122070312
+            Y: 0.000122070313
             Z: 115.663818
           }
           Rotation {
@@ -5643,7 +5643,7 @@ Assets {
         Transform {
           Location {
             X: 2273.27246
-            Y: -6.10351562e-05
+            Y: -6.10351563e-05
             Z: 282.152832
           }
           Rotation {

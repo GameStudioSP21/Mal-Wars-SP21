@@ -1,17 +1,21 @@
+
+-- REFACTOR THIS.
+-- Wait for the player to own a board.
+
 local TowerSelector = require(script:GetCustomProperty("TowerSelector"))
-local UPGRADE_GHOST = script:GetCustomProperty("UpgradeGhost")
+local UPGRADE_VISUAL = script:GetCustomProperty("UpgradeVisual")
 
 local LOCAL_PLAYER = Game.GetLocalPlayer()
-
--- Wait for the player to own a board.
 while not LOCAL_PLAYER.clientUserData.activeBoard do Task.Wait() end
 local activeBoard = LOCAL_PLAYER.clientUserData.activeBoard
 
+
 -- Create the selector.
 local upgraderSelector = TowerSelector.New(activeBoard,{
-    selectorVisualMUID = UPGRADE_GHOST,
+    selectorVisualMUID = UPGRADE_VISUAL,
     magnetizeDistanceThreshold = 120^2,
     usesMouseInput = true,
+    isCamToMouseRaycasting = true,
 })
 
 upgraderSelector.OnLeftMouseButton:Connect(function() 

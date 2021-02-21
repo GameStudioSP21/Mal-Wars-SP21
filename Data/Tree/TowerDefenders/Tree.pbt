@@ -2702,7 +2702,7 @@ Objects {
   Transform {
     Location {
       X: -507.214386
-      Y: -11292.0478
+      Y: -11292.0479
       Z: 1382.26355
     }
     Rotation {
@@ -2944,7 +2944,7 @@ Objects {
   Name: "RarityPanel"
   Transform {
     Location {
-      X: -5915.32812
+      X: -5915.32813
       Y: 4061.9707
       Z: 588.905762
     }
