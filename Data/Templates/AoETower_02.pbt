@@ -15,7 +15,7 @@ Assets {
             Z: 3
           }
         }
-        ParentId: 8178840867383292204
+        ParentId: 9193804361493092613
         ChildIds: 4647145091155590541
         ChildIds: 11060419661309639451
         UnregisteredParameters {
@@ -34,7 +34,7 @@ Assets {
           Overrides {
             Name: "cs:Muzzle"
             ObjectReference {
-              SelfId: 841534158063459245
+              SubObjectId: 11060419661309639451
             }
           }
         }
@@ -83,9 +83,9 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 2.5
+            Y: 2.5
+            Z: 2.5
           }
         }
         ParentId: 4647145091155590541
@@ -2173,9 +2173,9 @@ Assets {
         Name: "Effects for Turret 2"
         Transform {
           Location {
-            X: 1.97102869
-            Y: -6.16634083
-            Z: -0.039265953
+            X: 1.97102821
+            Y: -6.16634035
+            Z: 424.76593
           }
           Rotation {
           }
@@ -2190,7 +2190,7 @@ Assets {
         ChildIds: 6180462711350448771
         ChildIds: 7221112504419990367
         ChildIds: 12801076384990577822
-        ChildIds: 10619596505535994009
+        ChildIds: 9614280897145519936
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2206,9 +2206,9 @@ Assets {
         Name: "Plasma Charge Up Hold VFX"
         Transform {
           Location {
-            X: -4.60327148
-            Y: 5.01522064
-            Z: 519.729431
+            X: -4.60351515
+            Y: 5.015625
+            Z: 2.61682129
           }
           Rotation {
           }
@@ -2275,9 +2275,9 @@ Assets {
         Name: "Explosion Kit Airwave VFX"
         Transform {
           Location {
-            X: -1.1920166
-            Y: -2.50637817
-            Z: 512.320251
+            X: -1.19189453
+            Y: -2.5068357
+            Z: -16.7199707
           }
           Rotation {
           }
@@ -2336,9 +2336,9 @@ Assets {
         Name: "Plasma Muzzleflash VFX"
         Transform {
           Location {
-            X: -6.97839355
-            Y: 5.82091141
-            Z: 521.683228
+            X: -6.97851467
+            Y: 5.82128954
+            Z: -7.35705566
           }
           Rotation {
           }
@@ -2386,16 +2386,16 @@ Assets {
         Name: "Explosion Kit Fire Ring VFX"
         Transform {
           Location {
-            X: 12.7734375
-            Y: -8.32975
-            Z: 50.547821
+            X: 12.7734356
+            Y: -8.33007908
+            Z: -66.0036621
           }
           Rotation {
           }
           Scale {
-            X: 1.02482748
-            Y: 1.02482748
-            Z: 1.02482748
+            X: 2.76334143
+            Y: 2.76334143
+            Z: 2.76334143
           }
         }
         ParentId: 11060419661309639451
@@ -2417,59 +2417,39 @@ Assets {
         }
       }
       Objects {
-        Id: 10619596505535994009
-        Name: "Sphere - Half"
+        Id: 9614280897145519936
+        Name: "Retro Explosions Set 01 SFX"
         Transform {
           Location {
-            X: -3.06347656
-            Y: 14.387146
-            Z: -15.8440552
           }
           Rotation {
           }
           Scale {
-            X: 4.94350481
-            Y: 4.94190836
-            Z: 15.3130627
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
         ParentId: 11060419661309639451
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 1905534239238495712
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.97
-              G: 0.77086097
-              A: 1
-            }
-          }
-        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
-        CoreMesh {
-          MeshAsset {
-            Id: 3708330415359567684
+        Blueprint {
+          BlueprintAsset {
+            Id: 2821130987890438445
           }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
+          TeamSettings {
           }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
+          AudioBP {
+            Volume: 4
+            Falloff: 6000
+            Radius: 4000
+            EnableOcclusion: true
+            IsSpatializationEnabled: true
+            IsAttenuationEnabled: true
           }
         }
       }
@@ -2700,12 +2680,12 @@ Assets {
       }
     }
     Assets {
-      Id: 3708330415359567684
-      Name: "Sphere - Half"
-      PlatformAssetType: 1
+      Id: 2821130987890438445
+      Name: "Retro Explosions Set 01 SFX"
+      PlatformAssetType: 10
       PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_hemisphere_001"
+        AssetType: "AudioBlueprintAssetRef"
+        AssetId: "sfxabp_retro_explosions_ref"
       }
     }
     PrimaryAssetId {

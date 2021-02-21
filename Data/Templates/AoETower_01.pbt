@@ -15,7 +15,7 @@ Assets {
             Z: 3
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 9193804361493092613
         ChildIds: 16549178035778190753
         ChildIds: 17424782062699910771
         UnregisteredParameters {
@@ -34,7 +34,7 @@ Assets {
           Overrides {
             Name: "cs:Muzzle"
             ObjectReference {
-              SelfId: 841534158063459245
+              SubObjectId: 17424782062699910771
             }
           }
         }
@@ -83,9 +83,9 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 2.5
+            Y: 2.5
+            Z: 2.5
           }
         }
         ParentId: 16549178035778190753
@@ -652,7 +652,7 @@ Assets {
         Transform {
           Location {
             X: 39.5407715
-            Y: 6.46289062
+            Y: 6.46289063
             Z: 177.099976
           }
           Rotation {
@@ -1452,9 +1452,9 @@ Assets {
         Name: "Effects for Turret 1"
         Transform {
           Location {
-            X: 2.36783528
-            Y: -8.18847847
-            Z: 10.606781
+            X: 2.3678329
+            Y: -17.1832561
+            Z: 389.51236
           }
           Rotation {
             Yaw: 89.9999771
@@ -1466,10 +1466,10 @@ Assets {
           }
         }
         ParentId: 10765659186691536428
+        ChildIds: 8855095960906604015
         ChildIds: 8261859955861469185
         ChildIds: 798073336269258086
         ChildIds: 7085214450025304108
-        ChildIds: 1718644964127551635
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1481,20 +1481,55 @@ Assets {
         }
       }
       Objects {
+        Id: 8855095960906604015
+        Name: "Retro Explosions Set 01 SFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Yaw: 90.0000076
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17424782062699910771
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 2821130987890438445
+          }
+          TeamSettings {
+          }
+          AudioBP {
+            Volume: 4
+            Falloff: 6000
+            Radius: 4000
+            EnableOcclusion: true
+            IsSpatializationEnabled: true
+            IsAttenuationEnabled: true
+          }
+        }
+      }
+      Objects {
         Id: 8261859955861469185
         Name: "Basic Explosion VFX"
         Transform {
           Location {
-            X: -16.9356689
-            Y: -3.61825562
-            Z: 82.6253052
           }
           Rotation {
           }
           Scale {
-            X: 1.82132638
-            Y: 1.82132638
-            Z: 1.82132638
+            X: 3.2004447
+            Y: 3.2004447
+            Z: 3.2004447
           }
         }
         ParentId: 17424782062699910771
@@ -1502,14 +1537,14 @@ Assets {
           Overrides {
             Name: "bp:Color"
             Color {
-              R: 0.0149008529
-              B: 0.450000048
+              G: 0.902781427
+              B: 0.960000038
               A: 1
             }
           }
           Overrides {
             Name: "bp:Emissive Boost"
-            Float: 31.6072769
+            Float: 0
           }
           Overrides {
             Name: "bp:Enable Smoke"
@@ -1538,9 +1573,6 @@ Assets {
         Name: "Energy Charge Up Hold VFX"
         Transform {
           Location {
-            X: 7.69555664
-            Y: 5.56161499
-            Z: 477.249176
           }
           Rotation {
           }
@@ -1573,9 +1605,6 @@ Assets {
         Name: "Beam Up Teleport VFX"
         Transform {
           Location {
-            X: 9.24047852
-            Y: -1.94332886
-            Z: 169.796265
           }
           Rotation {
           }
@@ -1626,63 +1655,6 @@ Assets {
           }
           Vfx {
             AutoPlay: true
-          }
-        }
-      }
-      Objects {
-        Id: 1718644964127551635
-        Name: "Sphere - Half"
-        Transform {
-          Location {
-            X: 6.96655273
-            Y: -3.3236084
-            Z: -47.782196
-          }
-          Rotation {
-          }
-          Scale {
-            X: 4.39201784
-            Y: 4.30630875
-            Z: 13.5297823
-          }
-        }
-        ParentId: 17424782062699910771
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 1905534239238495712
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              G: 0.738543212
-              B: 0.820000052
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 3708330415359567684
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
           }
         }
       }
@@ -1841,6 +1813,15 @@ Assets {
       }
     }
     Assets {
+      Id: 2821130987890438445
+      Name: "Retro Explosions Set 01 SFX"
+      PlatformAssetType: 10
+      PrimaryAsset {
+        AssetType: "AudioBlueprintAssetRef"
+        AssetId: "sfxabp_retro_explosions_ref"
+      }
+    }
+    Assets {
       Id: 17069761961690292468
       Name: "Basic Explosion VFX"
       PlatformAssetType: 8
@@ -1865,15 +1846,6 @@ Assets {
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
         AssetId: "fxbp_Teleporter"
-      }
-    }
-    Assets {
-      Id: 3708330415359567684
-      Name: "Sphere - Half"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_hemisphere_001"
       }
     }
     PrimaryAssetId {

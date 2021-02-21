@@ -24,7 +24,9 @@ function TowerMortar:VerticalRotation()
 end
 
 function TowerMortar:FireFakeProjectile()
-    local aoeAsset = World.SpawnAsset(self:GetVisualProjectile(),{ position = self:GetWorldPosition() })
+    --old version
+    --local aoeAsset = World.SpawnAsset(self:GetVisualProjectile(),{ position = self:GetWorldPosition() })
+    local aoeAsset = World.SpawnAsset(self:GetVisualProjectile(),{ position = self._muzzle:GetWorldPosition() })
     Ease3D.EaseScale(aoeAsset, Vector3.New(self:GetStat("Range")), 0.5, Ease3D.EasingEquation.SINE, Ease3D.EasingDirection.OUT)
     Task.Spawn(function()
         Task.Wait(0.5)
@@ -32,9 +34,6 @@ function TowerMortar:FireFakeProjectile()
     end)
 end
 
-function TowerMortar:PlayMuzzleEffects()
-
-end
 
 -- Server
 

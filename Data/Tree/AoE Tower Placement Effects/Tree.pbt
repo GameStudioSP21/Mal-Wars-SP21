@@ -376,17 +376,9 @@ Objects {
   }
 }
 Objects {
-  Id: 180551479410269887
-  Name: "Turret Wireframe"
+  Id: 9783418351174377206
+  Name: "AOE_turret_ghost"
   Transform {
-    Location {
-      X: 4595
-      Y: 11830
-      Z: 6010
-    }
-    Rotation {
-      Yaw: -44.9999924
-    }
     Scale {
       X: 1
       Y: 1
@@ -394,21 +386,32 @@ Objects {
     }
   }
   ParentId: 9727394318699712712
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Turret Wireframe_2"
-  }
-  InstanceHistory {
-    SelfId: 14995205841926309352
-    SubobjectId: 9239741025094736254
-    InstanceId: 17618465017909447617
-    TemplateId: 14993866855321746672
-    WasRoot: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16835282159599115198
+      value {
+        Overrides {
+          Name: "Name"
+          String: "AOE_turret_ghost"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4595
+            Y: 11830
+            Z: 6010
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -44.9999962
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 487437571767245803
+    }
   }
 }
