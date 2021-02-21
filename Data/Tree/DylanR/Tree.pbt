@@ -1,6 +1,32 @@
 Name: "DylanR"
 RootId: 15062001147149131720
 Objects {
+  Id: 9727394318699712712
+  Name: "AoE Tower Placement Effects"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15062001147149131720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "AoE Tower Placement Effects"
+  }
+}
+Objects {
   Id: 984347769214012900
   Name: "CentralTower"
   Transform {
