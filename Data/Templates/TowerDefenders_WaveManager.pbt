@@ -18,7 +18,7 @@ Assets {
         ParentId: 4781671109827199097
         UnregisteredParameters {
           Overrides {
-            Name: "cs:CURRENTPHASE"
+            Name: "cs:CurrentPhase"
             Int: 0
           }
           Overrides {
@@ -38,7 +38,7 @@ Assets {
             Bool: true
           }
           Overrides {
-            Name: "cs:CURRENTPHASE:isrep"
+            Name: "cs:CurrentPhase:isrep"
             Bool: true
           }
         }

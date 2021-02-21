@@ -82,6 +82,7 @@ function TowerSelector:_Init(selectorData)
     self.magnetizeDistanceThreshold = selectorData.magnetizeDistanceThreshold or 0
     self.minSelectorDistance = selectorData.minSelectDistance or 50
     self.maxSelectorDistance = selectorData.maxSelectDistance or 10000
+    self.isCamToMouseRaycasting = selectorData.isCamToMouseRaycasting or false
 
     -- If true then the right and left mouse buttons will be used as input events for this selector.
     self.usesMouseInput = selectorData.usesMouseInput or false 
@@ -99,11 +100,11 @@ function TowerSelector:_Init(selectorData)
     end
 
     assert(self.selectorTowerSwitchLerpTime >= 0, "selectortowerSwitchLerpTime must be a value greater than or equal to zero. You can't have negative time.")
-    assert(self.selectorVisualMUID, "selectorVisualMUID was not assigned in the selectorData table. Make sure you assign it as a key in a table of constructors second parameter.")
     assert(self.magnetizeDistanceThreshold >= 0, "You can not have a negative magnetizeDistanceThreshold value. Zero or positive values only.")
 end
 
 function TowerSelector:_CreateVisual()
+    assert(self.selectorVisualMUID, "selectorVisualMUID was not assigned in the selectorData table. Make sure you assign it as a key in a table of constructors second parameter.")
     self.selectorVisualObject = World.SpawnAsset(self.selectorVisualMUID,{ position = self.rayImpactPosition or Vector3.New() })
 end
 
@@ -133,7 +134,7 @@ function TowerSelector:_Runtime()
             local startPos = cameraPos + camLookDirection * minInteractDistance
             local endPos = cameraPos + camLookDirection * self.maxSelectorDistance
             
-            local hitResult = World.Raycast(startPos, endPos, {ignorePlayers = true})
+            local hitResult = self.isCamToMouseRaycasting and UI.GetCursorHitResult() or World.Raycast(startPos, endPos, {ignorePlayers = true})
 
             if hitResult then
                 self.rayImpactPosition = hitResult:GetImpactPosition()

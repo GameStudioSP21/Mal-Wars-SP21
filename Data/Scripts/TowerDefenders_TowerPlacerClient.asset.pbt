@@ -23,15 +23,21 @@ Assets {
         }
       }
       Overrides {
-        Name: "cs:Ease3D"
-        AssetReference {
-          Id: 11698430162959436393
-        }
-      }
-      Overrides {
         Name: "cs:GemWallet"
         AssetReference {
           Id: 16145347658999261958
+        }
+      }
+      Overrides {
+        Name: "cs:TowerSelector"
+        AssetReference {
+          Id: 4155800174160373791
+        }
+      }
+      Overrides {
+        Name: "cs:Ease3D"
+        AssetReference {
+          Id: 11698430162959436393
         }
       }
     }

@@ -691,7 +691,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Range"
-      Float: 25
+      Float: 100
     }
     Overrides {
       Name: "cs:NextTowerUpgrade"
