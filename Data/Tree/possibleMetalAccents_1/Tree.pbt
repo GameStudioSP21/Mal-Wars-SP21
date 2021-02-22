@@ -674,7 +674,7 @@ Objects {
   Control {
     Width: 44
     Height: 28
-    UIX: 652.414062
+    UIX: 652.414063
     UIY: 1054.28442
     RotationAngle: 180
     RenderTransformPivot {

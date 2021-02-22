@@ -16,24 +16,24 @@ end
 -- Client
 
 function TowerMortar:HorizontalRotation()
+    -- We don't need to rotate.
 end
 
 function TowerMortar:VerticalRotation()
+    -- We don't need to rotate.
 end
 
 function TowerMortar:FireFakeProjectile()
-    local aoeAsset = World.SpawnAsset(self:GetVisualProjectile(),{ position = self:GetWorldPosition() })
-    local allChildren = aoeAsset:GetChildren()
-    Ease3D.EaseScale(aoeAsset, Vector3.New(self:GetRange()), 0.5, Ease3D.EasingEquation.SINE, Ease3D.EasingDirection.OUT)
+    --old version
+    --local aoeAsset = World.SpawnAsset(self:GetVisualProjectile(),{ position = self:GetWorldPosition() })
+    local aoeAsset = World.SpawnAsset(self:GetVisualProjectile(),{ position = self._muzzle:GetWorldPosition() })
+    Ease3D.EaseScale(aoeAsset, Vector3.New(self:GetStat("Range")), 0.5, Ease3D.EasingEquation.SINE, Ease3D.EasingDirection.OUT)
     Task.Spawn(function()
         Task.Wait(0.5)
         aoeAsset:Destroy()
     end)
 end
 
-function TowerMortar:PlayMuzzleEffects()
-
-end
 
 -- Server
 
@@ -43,7 +43,7 @@ function TowerMortar:DamageEnemy()
         local enemyPos = enemy:GetWorldPosition()
         if self:InRange(enemy) then
             local health = enemy:GetCustomProperty("CurrentHealth")
-            health = health - self:GetDamage()
+            health = health - self:GetStat("Damage")
             enemy:SetNetworkedCustomProperty("CurrentHealth",health)
         end
     end

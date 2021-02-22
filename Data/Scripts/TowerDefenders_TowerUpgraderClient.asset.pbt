@@ -10,6 +10,18 @@ Assets {
           Id: 4155800174160373791
         }
       }
+      Overrides {
+        Name: "cs:UpgradeGhost"
+        AssetReference {
+          Id: 6634834666611468398
+        }
+      }
+      Overrides {
+        Name: "cs:UpgradeVisual"
+        AssetReference {
+          Id: 6634834666611468398
+        }
+      }
     }
   }
   SerializationVersion: 74
