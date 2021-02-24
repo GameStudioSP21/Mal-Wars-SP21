@@ -15,8 +15,28 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 8512805858169632350
         ChildIds: 5503013167827278299
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:HorizontalRotator"
+            ObjectReference {
+              SubObjectId: 8159416431339068520
+            }
+          }
+          Overrides {
+            Name: "cs:VerticalRotator"
+            ObjectReference {
+              SubObjectId: 12342687427927266008
+            }
+          }
+          Overrides {
+            Name: "cs:Muzzle"
+            ObjectReference {
+              SubObjectId: 16848996815784559702
+            }
+          }
+        }
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -37,9 +57,9 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 1.2
-            Y: 1.2
-            Z: 1.2
+            X: 1.6
+            Y: 1.6
+            Z: 1.6
           }
         }
         ParentId: 17763091110720732155
@@ -751,8 +771,36 @@ Assets {
           }
         }
         ParentId: 11367278617442599820
+        ChildIds: 16848996815784559702
         ChildIds: 9552857211196076832
         ChildIds: 2352984839086716787
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 16848996815784559702
+        Name: "Muzzle"
+        Transform {
+          Location {
+            X: 850
+            Z: 49.9999847
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.75
+            Y: 0.75
+            Z: 0.75
+          }
+        }
+        ParentId: 7634448474261346515
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }

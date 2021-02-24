@@ -15,8 +15,28 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 8512805858169632350
         ChildIds: 18223373259102155126
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:HorizontalRotator"
+            ObjectReference {
+              SubObjectId: 4878451072144984677
+            }
+          }
+          Overrides {
+            Name: "cs:VerticalRotator"
+            ObjectReference {
+              SubObjectId: 222213485895553933
+            }
+          }
+          Overrides {
+            Name: "cs:Muzzle"
+            ObjectReference {
+              SubObjectId: 9984075089023682446
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -36,9 +56,9 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 1.2
-            Y: 1.2
-            Z: 1.2
+            X: 1.5
+            Y: 1.5
+            Z: 1.5
           }
         }
         ParentId: 17452260506508817532
@@ -375,6 +395,7 @@ Assets {
           }
         }
         ParentId: 3020463663423887199
+        ChildIds: 9984075089023682446
         ChildIds: 18347123059594617625
         ChildIds: 13629379808090611780
         ChildIds: 253913655724854182
@@ -382,6 +403,32 @@ Assets {
         ChildIds: 9715785953975910494
         ChildIds: 16387003961218717439
         ChildIds: 5444706875831370980
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 9984075089023682446
+        Name: "Muzzle"
+        Transform {
+          Location {
+            X: 450
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.8
+            Y: 0.8
+            Z: 0.8
+          }
+        }
+        ParentId: 12471835218114544290
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }

@@ -1,6 +1,222 @@
 Name: "Towers"
 RootId: 8512805858169632350
 Objects {
+  Id: 12584526261017762769
+  Name: "AoETower_04"
+  Transform {
+    Location {
+      X: -13711.8652
+      Y: 4829.95801
+      Z: 173.799316
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 8512805858169632350
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8289574815582450845
+      value {
+        Overrides {
+          Name: "Name"
+          String: "AoETower_04"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -13385.8838
+            Y: 2176.03394
+            Z: 173.799316
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -89.9999847
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8844672098345891265
+    }
+  }
+}
+Objects {
+  Id: 1181886876902810788
+  Name: "AoETower_03"
+  Transform {
+    Location {
+      X: -13764.6191
+      Y: 5865
+      Z: 159.537598
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 8512805858169632350
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14748767582748543676
+      value {
+        Overrides {
+          Name: "Name"
+          String: "AoETower_03"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -13438.6377
+            Y: 3211.07593
+            Z: 159.537598
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -89.9999924
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 17333397313736006617
+    }
+  }
+}
+Objects {
+  Id: 13488192841428506366
+  Name: "AoETower_02"
+  Transform {
+    Location {
+      X: -13755
+      Y: 6870
+      Z: 130
+    }
+    Rotation {
+      Yaw: -89.9999924
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 8512805858169632350
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3738680561791745842
+      value {
+        Overrides {
+          Name: "Name"
+          String: "AoETower_02"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -13429.0186
+            Y: 4216.07617
+            Z: 130
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -89.9999924
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13270815255148402023
+    }
+  }
+}
+Objects {
+  Id: 13793748246798344174
+  Name: "AoETower_01"
+  Transform {
+    Location {
+      X: -13747.0313
+      Y: 7517.57178
+      Z: 130
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 8512805858169632350
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10765659186691536428
+      value {
+        Overrides {
+          Name: "Name"
+          String: "AoETower_01"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -13421.0498
+            Y: 4863.64746
+            Z: 130
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -179.999985
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9067865593535693970
+    }
+  }
+}
+Objects {
   Id: 14412925876461815590
   Name: "LaserTurret_Upgrade4"
   Transform {
@@ -30,14 +246,6 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
           }
         }
       }
@@ -79,14 +287,6 @@ Objects {
           Rotator {
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
       }
     }
     TemplateAsset {
@@ -124,14 +324,6 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
           }
         }
       }
@@ -172,14 +364,6 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
           }
         }
       }
@@ -273,14 +457,6 @@ Objects {
           Rotator {
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
       }
     }
     TemplateAsset {
@@ -324,14 +500,6 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
           }
         }
       }
@@ -378,14 +546,6 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
           }
         }
       }
