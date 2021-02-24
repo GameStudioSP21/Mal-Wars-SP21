@@ -41,13 +41,13 @@ function WaveManager.New(board,waveManagerObject)
 
     -- Define all events
     for _, phase in pairs(MANAGER_PHASE) do
-        self:_DefineEvent(phase.event)
+        self:_DefineEvent(phase.event) -- Done
     end
 
-    self.currentPhase = INITAL_PHASE
-
-    -- Custom Event
     self:_DefineEvent("OnEnemyReachedEnd")
+    --
+
+    self.currentPhase = INITAL_PHASE
 
     self:_Init(board,waveManagerObject)
 
@@ -68,7 +68,7 @@ function WaveManager:SetCurrentPhase(phaseEnum)
         self.currentPhase = MANAGER_PHASE[phaseEnum]
         if Environment.IsServer() then
             print("[Server] Switching to phase:",phaseEnum)
-            self.waveManagerObject:SetNetworkedCustomProperty("CURRENTPHASE",self.currentPhase.id)
+            self.waveManagerObject:SetNetworkedCustomProperty("CurrentPhase",self.currentPhase.id)
         else
             print("[Client] Switching to phase:",phaseEnum)
         end
@@ -93,14 +93,13 @@ end
 function WaveManager:GetNearestEnemy(position)
     local closest = nil
     for _, enemy in pairs(self:GetEnemies()) do
-    	if enemy:GetCustomProperty("CurrentHealth") > 0 then
         if not closest then
             closest = enemy
         end
-        if closest and (enemy:GetWorldPosition() - position).sizeSquared < (closest:GetWorldPosition() - position).sizeSquared and enemy:GetCustomProperty("CurrentHealth") > 0 then
+        if closest and 
+            (enemy:GetWorldPosition() - position).sizeSquared < (closest:GetWorldPosition() - position).sizeSquared then
             closest = enemy
         end
-      end
     end
     return closest
 end
@@ -108,7 +107,18 @@ end
 -- TODO: Move this back to the board
 -- Returns the closest enemy that is alive at a given world position.
 function WaveManager:GetNearestAliveEnemy(position)
-
+    local closest = nil
+    for _, enemy in pairs(self:GetEnemies()) do
+        if not closest then
+            closest = enemy
+        end
+        if closest and 
+            (enemy:GetWorldPosition() - position).sizeSquared < (closest:GetWorldPosition() - position).sizeSquared and
+             enemy:GetCustomProperty("CurrentHealth") > 0 then
+            closest = enemy
+        end
+    end
+    return closest
 end
 
 -- Wave stuff | SERVER
@@ -118,11 +128,17 @@ function WaveManager:GetCurrentWave()
     return self.currentWave
 end
 
+function WaveManager:RedoCurrentWave()
+    
+end
+
 function WaveManager:NextWave()
     if #self.waveStack > 0 then
         table.remove(self.waveStack,1)
         if #self.waveStack > 0 then
+            self.waveIndex = self.waveIndex + 1
             self.currentWave = self.waveStack[1]
+            self.waveManagerObject:SetNetworkedCustomProperty("CurrentWave",self.waveIndex)
         else
             self.currentWave = nil
         end
@@ -134,10 +150,13 @@ end
 ----------------------------------------------------
 
 function WaveManager:_BuildWaveStack(waveObject)
-    self.waveStack = {}
+    self.waveStack = {} -- The games waves
+    self.savedWaveStack = {}
     for _, waveObject in pairs(waveObject:GetChildren()) do
         local newWave = Wave.New(self,waveObject)
+        local newCopiedWave = Wave.New(self,waveObject)
         table.insert(self.waveStack,newWave)
+        table.insert(self.savedWaveStack,newWave)
     end
     if self.waveStack and #self.waveStack == 0 then
         error("Wave manager was not provided a wave object to get waves from. Refer to one of the example boards for the waves custom property example.")
@@ -148,6 +167,7 @@ end
 function WaveManager:_Init(board,waveManagerObject)
     self.assignedBoard = board
     self.enemiesFolder = board:GetBoardAssetInstance():GetCustomProperty("Enemies"):GetObject()
+    self.waveIndex = 0
 
     -- Construct the wave stack that will be the order in which waves will play out.
     local waveObject = board.data.waveObject:GetObject()
@@ -188,11 +208,11 @@ function WaveManager:_Init(board,waveManagerObject)
         self.runtime = Task.Spawn(function() self:_Runtime() end)
         self.runtime.repeatCount = -1
     elseif Environment.IsClient() then
-        print("[CLIENT] Connecting to manager object and listening for changes.")
+        --print("[CLIENT] Connecting to manager object and listening for changes.")
         self.waveManagerObject.networkedPropertyChangedEvent:Connect(function(owner,propertyName)
             local propertyValue = self.waveManagerObject:GetCustomProperty(propertyName)
 
-            if propertyName == "CURRENTPHASE" then
+            if propertyName == "CurrentPhase" then
                 for eventKey, event in pairs(MANAGER_PHASE) do
                     if event.id == propertyValue then
                         self:SetCurrentPhase(eventKey)
@@ -238,7 +258,6 @@ end
 -- Server
 -- Writes to the properties of the wave manager object on the board asset.
 function WaveManager:_StepStates()
-    
 
     if self:GetCurrentPhase() == MANAGER_PHASE.WAITING_READY then
         print("[Wave Manager] Waiting for ready.")
@@ -252,13 +271,10 @@ function WaveManager:_StepStates()
         print("[Wave Manager] Commencing Attack.")
         Task.Wait(1) 
 
-        while not self.currentWave:IsCleared() do
-            print("Not Cleared")
-            if self:GetCurrentPhase() == MANAGER_PHASE.END_FAILED then
-                break
-            end
+        while not self.currentWave:IsCleared() and self:GetCurrentPhase() == MANAGER_PHASE.ATTACKING do
+            --print("Not Cleared")
             if not self.currentWave:IsEmpty() then
-                print("Spawning Enemies")
+                --print("Spawning Enemies")
                 Task.Wait(self.currentWave:GetSpawnDelay())
                 self.currentWave:SpawnEnemy()
             else
@@ -266,16 +282,13 @@ function WaveManager:_StepStates()
             end
         end
 
-
-
-        if self:GetCurrentPhase() ~= MANAGER_PHASE.END_FAILED then
+        if self:GetCurrentPhase() == MANAGER_PHASE.ATTACKING then
             if not self.currentWave then
                 self:SetCurrentPhase("END_COMPLETE")
             else
                 self:SetCurrentPhase("WAVE_COMPLETE")
             end
         end
-
 
     elseif self:GetCurrentPhase() == MANAGER_PHASE.WAVE_COMPLETE then
         print("[Wave Manager] Wave complete.")
@@ -289,9 +302,9 @@ function WaveManager:_StepStates()
 
     elseif self:GetCurrentPhase() == MANAGER_PHASE.END_FAILED then
         print("[Wave Manager] You failed to survive.")
-
+        self:RedoCurrentWave()
         Task.Wait(5)
-        self:SetCurrentPhase("WAITING_READY")
+        --self:SetCurrentPhase("WAITING_READY")
 
     end
 end

@@ -103,6 +103,7 @@ end
 -- Returns the nearest tower given a position and max search radius and optionally an owner.
 function Board:GetNearestTower(position,maxRadius,owner)
     local towers = self:GetAllTowers()
+    local maxRadius = maxRadius == 0 and math.huge or maxRadius
     for _, tower in pairs(towers) do
         local towerPos = tower:GetWorldPosition()
         if (towerPos - position).sizeSquared <= maxRadius and ((owner ~= nil and tower:GetOwner() == owner) or owner == nil) then
@@ -168,6 +169,9 @@ end
 
 -- Adds a tower to the board when provided a tower and position
 function Board:AddTower(tower, position, _hasRepeated)
+
+    tower:SetBoard(self)
+
     if Environment.IsClient() then
         local LOCAL_PLAYER = Game.GetLocalPlayer()
         -- Return if the message has been repeated to us already.

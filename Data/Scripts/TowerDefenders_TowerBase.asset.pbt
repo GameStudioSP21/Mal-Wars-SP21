@@ -46,6 +46,12 @@ Assets {
           Id: 1866656945984035350
         }
       }
+      Overrides {
+        Name: "cs:BlockedRadius"
+        AssetReference {
+          Id: 9669057047104863758
+        }
+      }
     }
   }
   SerializationVersion: 74

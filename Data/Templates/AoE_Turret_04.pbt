@@ -4,44 +4,18 @@ Assets {
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 16344467478632089208
-      Objects {
-        Id: 16344467478632089208
-        Name: "AoE_Turret_04"
-        Transform {
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 4781671109827199097
-        ChildIds: 8289574815582450845
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsFilePartition: true
-        }
-      }
+      RootId: 8289574815582450845
       Objects {
         Id: 8289574815582450845
         Name: "AoETower_04"
         Transform {
-          Location {
-            X: -19.9580078
-            Y: -3.81469727e-06
-          }
           Scale {
             X: 3
             Y: 3
             Z: 3
           }
         }
-        ParentId: 16344467478632089208
+        ParentId: 9193804361493092613
         ChildIds: 7928691234662099020
         ChildIds: 11703336597533068814
         UnregisteredParameters {
@@ -60,7 +34,7 @@ Assets {
           Overrides {
             Name: "cs:Muzzle"
             ObjectReference {
-              SelfId: 841534158063459245
+              SubObjectId: 11703336597533068814
             }
           }
         }
@@ -109,9 +83,9 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 2.5
+            Y: 2.5
+            Z: 2.5
           }
         }
         ParentId: 7928691234662099020
@@ -125,7 +99,7 @@ Assets {
         }
         Folder {
           IsFilePartition: true
-          FilePartitionName: "Geo"
+          FilePartitionName: "Geo_2"
         }
       }
       Objects {
@@ -155,7 +129,7 @@ Assets {
         }
         Folder {
           IsFilePartition: true
-          FilePartitionName: "MovingParts"
+          FilePartitionName: "MovingParts_2"
         }
       }
       Objects {
@@ -2605,7 +2579,7 @@ Assets {
         Name: "Monitor 1"
         Transform {
           Location {
-            X: 108.750976
+            X: 108.750977
             Y: 80.5510254
             Z: 50.6621094
           }
@@ -4344,7 +4318,7 @@ Assets {
         Transform {
           Location {
             X: 66.3653564
-            Y: -38.0039062
+            Y: -38.0039063
             Z: -10.4387817
           }
           Rotation {
@@ -4598,9 +4572,9 @@ Assets {
         Name: "Effects for Turret 4"
         Transform {
           Location {
-            X: 0.224774688
-            Y: -12.9339199
-            Z: -14.5998535
+            X: 0.224770844
+            Y: -12.933917
+            Z: 432.320496
           }
           Rotation {
           }
@@ -4616,7 +4590,7 @@ Assets {
         ChildIds: 15703228418038009100
         ChildIds: 6986700648690882691
         ChildIds: 17877823893096730347
-        ChildIds: 8433248237986239976
+        ChildIds: 13792652085942947899
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4632,9 +4606,9 @@ Assets {
         Name: "Energy Charge Up Hold VFX"
         Transform {
           Location {
-            X: -1.38909912
-            Y: 42.5691833
-            Z: 755.094604
+            X: -1.38915634
+            Y: 42.5693283
+            Z: 457.02063
           }
           Rotation {
           }
@@ -4698,9 +4672,9 @@ Assets {
         Name: "Energy Charge Up Hold VFX"
         Transform {
           Location {
-            X: -1.38909912
-            Y: 42.5691833
-            Z: 566.724854
+            X: -1.38915634
+            Y: 42.5693283
+            Z: 42.0386963
           }
           Rotation {
           }
@@ -4764,9 +4738,9 @@ Assets {
         Name: "Energy Charge Up Hold VFX"
         Transform {
           Location {
-            X: -1.38909912
-            Y: 42.5691833
-            Z: 682.2948
+            X: -1.38915634
+            Y: 42.5693283
+            Z: 291.874512
           }
           Rotation {
           }
@@ -4830,9 +4804,9 @@ Assets {
         Name: "Resurrection VFX"
         Transform {
           Location {
-            X: -1.49676514
-            Y: 39.6148682
-            Z: 239.311707
+            X: -1.49658203
+            Y: 39.6152306
+            Z: -137.179932
           }
           Rotation {
           }
@@ -4874,9 +4848,9 @@ Assets {
         Name: "Explosion Kit Fire Ring VFX"
         Transform {
           Location {
-            X: -1.15333557
-            Y: 83.1171875
-            Z: 50.4302673
+            X: -0.968746185
+            Y: 56.1845627
+            Z: -70.4522705
           }
           Rotation {
           }
@@ -4914,58 +4888,39 @@ Assets {
         }
       }
       Objects {
-        Id: 8433248237986239976
-        Name: "Sphere - Half"
+        Id: 13792652085942947899
+        Name: "Retro Explosions Set 01 SFX"
         Transform {
           Location {
-            X: 13.3399048
-            Y: 62.4899902
-            Z: -15.9616089
           }
           Rotation {
           }
           Scale {
-            X: 30
-            Y: 30
-            Z: 30
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
         ParentId: 11703336597533068814
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 1905534239238495712
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.36
-              A: 1
-            }
-          }
-        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
-        CoreMesh {
-          MeshAsset {
-            Id: 3708330415359567684
+        Blueprint {
+          BlueprintAsset {
+            Id: 2821130987890438445
           }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
+          TeamSettings {
           }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
+          AudioBP {
+            Volume: 4
+            Falloff: 6000
+            Radius: 4000
+            EnableOcclusion: true
+            IsSpatializationEnabled: true
+            IsAttenuationEnabled: true
           }
         }
       }
@@ -5232,12 +5187,12 @@ Assets {
       }
     }
     Assets {
-      Id: 3708330415359567684
-      Name: "Sphere - Half"
-      PlatformAssetType: 1
+      Id: 2821130987890438445
+      Name: "Retro Explosions Set 01 SFX"
+      PlatformAssetType: 10
       PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_hemisphere_001"
+        AssetType: "AudioBlueprintAssetRef"
+        AssetId: "sfxabp_retro_explosions_ref"
       }
     }
     PrimaryAssetId {

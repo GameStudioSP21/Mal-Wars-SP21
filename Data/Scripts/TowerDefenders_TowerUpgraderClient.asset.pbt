@@ -5,30 +5,22 @@ Assets {
   TextAsset {
     CustomParameters {
       Overrides {
+        Name: "cs:TowerSelector"
+        AssetReference {
+          Id: 4155800174160373791
+        }
+      }
+      Overrides {
         Name: "cs:UpgradeGhost"
         AssetReference {
-          Id: 841534158063459245
+          Id: 6634834666611468398
         }
       }
       Overrides {
-        Name: "cs:TowerDatabase"
+        Name: "cs:UpgradeVisual"
         AssetReference {
-          Id: 7419352943805787130
+          Id: 6634834666611468398
         }
-      }
-      Overrides {
-        Name: "cs:Ease3D"
-        AssetReference {
-          Id: 11698430162959436393
-        }
-      }
-      Overrides {
-        Name: "cs:UpgradeByMouse"
-        Bool: false
-      }
-      Overrides {
-        Name: "cs:UpgradeByMouse:tooltip"
-        String: "When enabled upgrade of towers will be determined by the mouse instead of forward direction of your camera."
       }
     }
   }

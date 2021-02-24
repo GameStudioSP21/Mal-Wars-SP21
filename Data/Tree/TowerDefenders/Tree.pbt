@@ -2117,7 +2117,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:forceon"
   }
   Control {
     Width: 100
@@ -2579,7 +2579,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     Width: 454
@@ -2702,7 +2702,7 @@ Objects {
   Transform {
     Location {
       X: -507.214386
-      Y: -11292.0478
+      Y: -11292.0479
       Z: 1382.26355
     }
     Rotation {
@@ -2944,7 +2944,7 @@ Objects {
   Name: "RarityPanel"
   Transform {
     Location {
-      X: -5915.32812
+      X: -5915.32813
       Y: 4061.9707
       Z: 588.905762
     }
@@ -4127,8 +4127,8 @@ Objects {
   Control {
     Width: 315
     Height: 96
-    UIX: 40.2810974
-    UIY: -33.5948486
+    UIX: 22.0701599
+    UIY: -23.6526489
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -4632,7 +4632,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
     Width: 680
