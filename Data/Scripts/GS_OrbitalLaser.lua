@@ -18,9 +18,25 @@ local board = GAME_MANAGER.WaitForBoardFromPlayer(LOCAL_PLAYER)
 -- local buildMenu = LOCAL_PLAYER.clientUserData.buildMenuView
 
 function OnBindingPressed(LOCAL_PLAYER, binding)
+
     local buildMenu = LOCAL_PLAYER.clientUserData.buildMenuView
+    local towerMenu = LOCAL_PLAYER.clientUserData.towerMenuView
+    local towerPlacer = LOCAL_PLAYER.clientUserData.towerPlacer
+
+    local canFire
+
+    if(not buildMenu:IsVisible() and not towerMenu:IsVisible()) then
+        canFire = true
+    else
+        canFire = false
+    end
+    
+    if(towerPlacer:IsActive()) then
+        print("Tower placer on")
+    end
+
     -- print(buildMenu:IsVisible())
-    if binding == FIRE_BIND  and not onCoolDown and not buildMenu:IsVisible() then
+    if binding == FIRE_BIND  and canFire then
         local hitResult = UI.GetCursorHitResult()
         if(hitResult) then
             local hitPos = Vector3.New(hitResult:GetImpactPosition())
@@ -35,6 +51,18 @@ function OnBindingPressed(LOCAL_PLAYER, binding)
         end
     end
 end
+
+-- function CheckView()
+--     local buildMenu = LOCAL_PLAYER.clientUserData.buildMenuView
+--     local towerMenu = LOCAL_PLAYER.clientUserData.towerMenuView
+--     local towerPlacer = LOCAL_PLAYER.clientUserData.towerPlacer
+
+--     if(buildMenu:IsVisible() or towerMenu:IsVisible() or towerPlacer:IsActive()) then
+--         return false
+--     else
+--         return true
+--     end
+-- end
 
 function DamageEnemies(hitResult)
     Events.BroadcastToServer("OLD", hitResult:GetImpactPosition())
