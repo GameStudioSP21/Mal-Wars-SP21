@@ -41,8 +41,10 @@ function CheckView()
     local buildMenu = LOCAL_PLAYER.clientUserData.buildMenuView
     local towerMenu = LOCAL_PLAYER.clientUserData.towerMenuView
     local towerPlacer = LOCAL_PLAYER.clientUserData.towerPlacer
+    local upgraderSelector = LOCAL_PLAYER.clientUserData.upgradeSelector
 
-    if(buildMenu:IsVisible() or towerMenu:IsVisible()) then
+    Task.Wait()
+    if buildMenu:IsVisible() or towerMenu:IsVisible() or towerPlacer:IsActive() or upgraderSelector:IsActive() then
         print("Menu open or placing turret")
         return false
     else
