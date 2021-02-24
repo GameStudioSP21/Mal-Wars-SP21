@@ -7,9 +7,11 @@ local LOCAL_PLAYER = Game:GetLocalPlayer()
 
 local FIRE_BIND = "ability_primary"
 
-local COOL_DOWN = .5
+local COOL_DOWN_TIMER = 1
 local COOL_DOWN_DIVISIONS = 100
 local onCoolDown = false
+local timeAtFire
+local interval = 1 / COOL_DOWN_DIVISIONS
 ProgressBar.progress = 1
 
 -- print("getting board")
@@ -27,7 +29,9 @@ function OnBindingPressed(LOCAL_PLAYER, binding)
                 DamageEnemies(hitResult)
                 onCoolDown = true
                 ProgressBar.progress = 0
-                UpdateProgressBar()
+                Task.Wait(COOL_DOWN_TIMER)
+                -- timeAtFire = time()
+                -- UpdateProgressBar()
                 onCoolDown = false
             else
                 print("hit result nil")
@@ -69,11 +73,23 @@ end
 function IsBoard(hitResult)
 end
 
-function UpdateProgressBar()
-    local interval = 1 / COOL_DOWN_DIVISIONS
-    while ProgressBar.progress < 1 do
-        ProgressBar.progress = ProgressBar.progress + (interval * (1 / COOL_DOWN))
-        Task.Wait(interval)
+-- function UpdateProgressBar()
+--     local currTime = time()
+--     while currTime < timeAtFire + COOL_DOWN_TIMER do
+--         ProgressBar.progress = ProgressBar.progress + (interval * (1 / COOL_DOWN_TIMER))
+--         -- Task.Wait(interval)
+--         currTime = time()
+
+--     -- local interval = 1 / COOL_DOWN_DIVISIONS
+--     -- while ProgressBar.progress < 1 do
+--     --     ProgressBar.progress = ProgressBar.progress + (interval * (1 / COOL_DOWN))
+--     --     Task.Wait(interval)
+--     end
+-- end
+
+function Tick(dt)
+    if (ProgressBar.progress < 1) then
+        ProgressBar.progress = CoreMath.Clamp(ProgressBar.progress + (dt * (1 / COOL_DOWN_TIMER)))
     end
 end
 
