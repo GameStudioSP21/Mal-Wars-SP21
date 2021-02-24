@@ -49,22 +49,22 @@ end
 function RadialMenu:Open()
     self.radial_menu_container.visibility = Visibility.FORCE_ON
 
+    self.isClosed = false
     for _, UIObject in pairs(self.allSections) do
         EaseUI.EaseWidth(UIObject, 581, 0.1, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.OUT)
     end
 
-    self.isClosed = false
     self:_FireEvent("OnOpened")
     self:_ShowIcons()
 end
 
 function RadialMenu:Close()
 
+    self.isClosed = true
     for _, UIObject in pairs(self.allSections) do
         EaseUI.EaseWidth(UIObject, 0, 0.1, EaseUI.EasingEquation.QUADRATIC, EaseUI.EasingDirection.OUT)
     end
 
-    self.isClosed = true
     self:_FireEvent("OnClosed")
     self:_HideIcons()
 end
