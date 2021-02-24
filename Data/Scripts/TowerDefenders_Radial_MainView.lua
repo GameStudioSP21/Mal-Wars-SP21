@@ -17,7 +17,6 @@ local towerView = LOCAL_PLAYER.clientUserData.towerMenuView
 
 view.OnOpened:Connect(function()
     if towerView:IsVisible() then
-        print("opening main menu")
         towerView:Close()
     end
 end)

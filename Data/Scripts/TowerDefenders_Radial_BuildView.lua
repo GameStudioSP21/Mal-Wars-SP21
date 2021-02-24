@@ -16,7 +16,6 @@ local localTowerInventory = LOCAL_PLAYER.clientUserData.towerInventory
 
 -- Construct the segments.
 view.OnOpened:Connect(function() 
-    print("opening build menu")
     view:ClearSegmentData()
     -- Get the players equipped towers
     local towers = localTowerInventory:GetEquippedTowers()
