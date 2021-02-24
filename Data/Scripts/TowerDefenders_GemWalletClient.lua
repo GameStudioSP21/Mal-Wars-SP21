@@ -1,4 +1,4 @@
-﻿-- Updates the gem counter.
+-- Updates the gem counter.
 
 local GemWallet = {}
 
@@ -53,7 +53,11 @@ function GemWallet:_DefineEvent(eventName)
         end
     }
 end
-
+function GemWallet.Sell(sell)
+	sell = sell*.80
+	GemWallet.AddToWallet(sell)
+end
+	
 
 -- Update the server periodically anytime the player stops collecting gems.
 local runtime = Task.Spawn(function()
