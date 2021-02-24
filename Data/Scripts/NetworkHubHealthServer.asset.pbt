@@ -15,6 +15,12 @@ Assets {
         }
       }
       Overrides {
+        Name: "cs:NetworkHubHealthBar"
+        ObjectReference {
+          SelfId: 14748697623827796392
+        }
+      }
+      Overrides {
         Name: "cs:HubHealth:isrep"
         Bool: true
       }
