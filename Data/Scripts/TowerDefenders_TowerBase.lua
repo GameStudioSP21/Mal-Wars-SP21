@@ -394,9 +394,11 @@ function Tower:_Runtime()
                 Task.Wait(self:GetStat("Speed"))
                 if Object.IsValid(self.currentTarget) and self:InRange(self.currentTarget) and self._horizontalRotator then
                     Task.Spawn(function()
+                        if not Object.IsValid(self.currentTarget) then return end
                         self:FireFakeProjectile()
                     end)
                     Task.Spawn(function()
+                        if not Object.IsValid(self.currentTarget) then return end
                         self:PlayMuzzleEffects()
                     end)
                 end

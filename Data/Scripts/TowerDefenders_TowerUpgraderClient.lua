@@ -20,6 +20,25 @@ local upgraderSelector = Selector.New(activeBoard,{
 
 LOCAL_PLAYER.clientUserData.upgradeSelector = upgraderSelector
 
+local magnetizedTower = nil
+upgraderSelector.OnMagnetized:Connect(function() 
+    local selectedTower = upgraderSelector:GetNearestTower()
+    if magnetizedTower then
+        magnetizedTower:RemoveRangeRadius()
+    end
+    if selectedTower then
+        magnetizedTower = selectedTower
+        magnetizedTower:DisplayRangeRadius()
+    end
+end)
+
+upgraderSelector.OnUnMagnetized:Connect(function()
+    if magnetizedTower then
+        magnetizedTower:RemoveRangeRadius()
+        magnetizedTower = nil
+    end
+end)
+
 upgraderSelector.OnLeftMouseButton:Connect(function() 
     local selectedTower = upgraderSelector:GetNearestTower()
     if selectedTower then
