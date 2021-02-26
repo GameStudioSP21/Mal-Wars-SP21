@@ -1,13 +1,13 @@
 local GAMER_MANAGER = require(script:GetCustomProperty("TowerDefenders_GameManager"))
 local MODULE = require( script:GetCustomProperty("ModuleManager") )
+local LASER_DAMAGE = script:GetCustomProperty("Damage")
+local RADIUS = script:GetCustomProperty("Radius")
 
 function COMBAT_WRAP() return MODULE.Get("standardcombo.Combat.Wrap") end
 
 
 
-local fireRadiusSqaured = 300^2
-
-local LASER_DAMAGE = 100
+local fireRadiusSqaured = RADIUS^2
 
 Events.ConnectForPlayer("OLD", function(player, impactPosition)
     local board = GAMER_MANAGER.GetCurrentBoard(player)

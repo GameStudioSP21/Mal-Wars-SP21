@@ -28,6 +28,14 @@ Objects {
         Id: 13615295023953883070
       }
     }
+    Overrides {
+      Name: "cs:Damage"
+      Float: 100
+    }
+    Overrides {
+      Name: "cs:Radius"
+      Float: 500
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -325,6 +333,10 @@ Objects {
       ObjectReference {
         SelfId: 15480603136481586289
       }
+    }
+    Overrides {
+      Name: "cs:CoolDownTimer"
+      Float: 1
     }
   }
   Collidable_v2 {
