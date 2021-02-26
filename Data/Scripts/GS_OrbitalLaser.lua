@@ -2,12 +2,12 @@ local LASER_VFX = script:GetCustomProperty("LaserBeamVFX"):WaitForObject()
 local GAME_MANAGER = require(script:GetCustomProperty("TowerDefenders_GameManager"))
 local RADIAL_VIEW = require(script:GetCustomProperty("TowerDefenders_RadialView"))
 local ProgressBar = script:GetCustomProperty("UIProgressBar"):WaitForObject()
+local COOL_DOWN_TIMER = script:GetCustomProperty("CoolDownTimer")
 
 local LOCAL_PLAYER = Game:GetLocalPlayer()
 
 local FIRE_BIND = "ability_primary"
 
-local COOL_DOWN_TIMER = 1
 local COOL_DOWN_DIVISIONS = 100
 local onCoolDown = false
 local timeAtFire
@@ -41,7 +41,7 @@ function OnBindingPressed(LOCAL_PLAYER, binding)
 end
 
 function CheckView()
-    print("Checking view")
+    -- print("Checking view")
     local buildMenu = LOCAL_PLAYER.clientUserData.buildMenuView
     local towerMenu = LOCAL_PLAYER.clientUserData.towerMenuView
     local towerPlacer = LOCAL_PLAYER.clientUserData.towerPlacer
@@ -49,10 +49,10 @@ function CheckView()
 
     Task.Wait()
     if buildMenu:IsVisible() or towerMenu:IsVisible() or towerPlacer:IsActive() or upgraderSelector:IsActive() then
-        print("Menu open or placing turret")
+        -- print("Menu open or placing turret")
         return false
     else
-        print("Nothing open")
+        -- print("Nothing open")
         return true
     end
 end
