@@ -73387,7 +73387,7 @@ Assets {
         Name: "PathNodes"
         Transform {
           Location {
-            Z: 50
+            Z: 80
           }
           Rotation {
           }
