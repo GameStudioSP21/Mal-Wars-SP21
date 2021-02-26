@@ -1080,7 +1080,7 @@ Assets {
             Pitch: -451.520508
             Volume: 1
             Falloff: 3600
-            Radius: 400
+            Radius: 5000
             EnableOcclusion: true
             IsSpatializationEnabled: true
             IsAttenuationEnabled: true

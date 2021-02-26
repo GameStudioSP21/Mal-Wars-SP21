@@ -10,9 +10,9 @@ Assets {
         Name: "MortarTower_Lv4"
         Transform {
           Scale {
-            X: 3.525
-            Y: 3.525
-            Z: 3.525
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
         ParentId: 4781671109827199097
@@ -57,9 +57,9 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 0.5
-            Y: 0.5
-            Z: 0.5
+            X: 2
+            Y: 2
+            Z: 2
           }
         }
         ParentId: 7143554712730941012
