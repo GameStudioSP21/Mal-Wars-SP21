@@ -78,7 +78,7 @@ function Inventory:_Init(database,owner,inventoryTowersString,equippedTowersStri
         table.insert(self.towers,tower)
         table.insert(self.equippedTowers,tower)
 
-        local tower = database:NewTowerByName("Sniper Turret")
+        local tower = database:NewTowerByName("Mortar")
         table.insert(self.towers,tower)
         table.insert(self.equippedTowers,tower)
 
