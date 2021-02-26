@@ -7,7 +7,7 @@ local LOCAL_PLAYER = Game:GetLocalPlayer()
 
 local FIRE_BIND = "ability_primary"
 
-local COOL_DOWN_TIMER = 1
+local COOL_DOWN_TIMER = 0.5
 local COOL_DOWN_DIVISIONS = 100
 local onCoolDown = false
 local timeAtFire
