@@ -8,9 +8,15 @@ local TowerMortar = {}
 TowerMortar.__index = TowerMortar
 setmetatable(TowerMortar,TowerBase)
 
+local EXPLOSION_DAMAGE_RADIUS_SQUARED = 800^2
+
 function TowerMortar.New(towerData)
     local self = TowerBase.New(towerData)
     setmetatable(self,TowerMortar)
+
+    --Independent Variables
+	self.impactTime = 1
+	self.gravityMult = 5
 
     return self
 end
@@ -36,9 +42,6 @@ function TowerMortar:HorizontalRotation()
 end
 
 function TowerMortar:VerticalRotation()
-	--Independent Variables
-	self.impactTime = 1
-	self.gravityMult = 5
 	
     local enemyTransform = self.currentTarget:GetTransform()
     local predictedPosition = ( self.currentTarget:GetWorldPosition() + enemyTransform:GetForwardVector() * 400 * self.impactTime )
@@ -116,14 +119,20 @@ end
 
 function TowerMortar:DamageEnemy()
     self.waveManager = self:GetBoardReference():GetWaveManager()
-    for _, enemy in pairs(self.waveManager:GetEnemies()) do
-        local enemyPos = enemy:GetWorldPosition()
-        if self:InRange(enemy) then
-            local health = enemy:GetCustomProperty("CurrentHealth")
-            health = health - self:GetStat("Damage")
-            enemy:SetNetworkedCustomProperty("CurrentHealth",health)
+    Task.Spawn(function()
+        Task.Wait(self.impactTime)
+        if self.currentTarget then
+            local targetPos = self.currentTarget:GetWorldPosition()
+            for _, enemy in pairs(self.waveManager:GetEnemies()) do
+                local enemyPos = enemy:GetWorldPosition()
+                if (targetPos - enemyPos).sizeSquared < EXPLOSION_DAMAGE_RADIUS_SQUARED then
+                    local health = enemy:GetCustomProperty("CurrentHealth")
+                    health = health - self:GetStat("Damage")
+                    enemy:SetNetworkedCustomProperty("CurrentHealth",health)
+                end
+            end
         end
-    end
+    end)
 end
 
 return TowerMortar
