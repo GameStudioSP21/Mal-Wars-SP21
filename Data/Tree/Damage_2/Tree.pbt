@@ -61,12 +61,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:NextTowerUpgrade"
-      AssetReference {
-        Id: 841534158063459245
-      }
-    }
-    Overrides {
       Name: "cs:VisualProjectile"
       AssetReference {
         Id: 4711965853694341478
@@ -151,12 +145,6 @@ Objects {
       Name: "cs:TowerGhost"
       AssetReference {
         Id: 15303515558436957644
-      }
-    }
-    Overrides {
-      Name: "cs:NextTowerUpgrade"
-      AssetReference {
-        Id: 841534158063459245
       }
     }
     Overrides {

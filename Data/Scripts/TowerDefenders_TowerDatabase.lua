@@ -24,6 +24,7 @@ end
 --- Constructors
 function Database:NewTowerByName(name)
     local towerData = Database:GetTowerByName(name)
+    assert(towerData, string.format("Tower - %s does not exist in in the database.", name))
     local newTower = nil
     if towerData.towerClass then
         print("Tower does have a unique class.")
@@ -31,31 +32,30 @@ function Database:NewTowerByName(name)
     else
         newTower = Tower.New(towerData)
     end
-    assert(newTower:GetName(), string.format("Tower - %s does not exist in in the database.", name))
     return newTower
 end
 
 function Database:NewTowerByMUID(muid)
     local towerData = Database:GetTowerByMUID(muid)
+    assert(towerData, string.format("Tower - %s does not exist in in the database.", muid))
     local newTower = nil
     if towerData.towerClass then
         newTower = require(towerData.towerClass).New(towerData)
     else
         newTower = Tower.New(towerData)
     end
-    assert(newTower:GetName(), string.format("Tower - %s does not exist in in the database. ", id))
     return newTower
 end
 
 function Database:NewTowerByID(id)
     local towerData = Database:GetTowerByID(id)
+    assert(towerData, string.format("Tower - %s does not exist in in the database.", id))
     local newTower = nil
     if towerData.towerClass then
         newTower = require(towerData.towerClass).New(towerData)
     else
         newTower = Tower.New(towerData)
     end
-    assert(newTower:GetName(), string.format("Tower - %s does not exist in in the database.", id))
     return newTower
 end
 
