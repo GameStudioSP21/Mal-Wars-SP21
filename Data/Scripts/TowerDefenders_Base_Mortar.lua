@@ -8,6 +8,8 @@ local TowerMortar = {}
 TowerMortar.__index = TowerMortar
 setmetatable(TowerMortar,TowerBase)
 
+local EXPLOSION_DAMAGE_RADIUS = 800^2
+
 function TowerMortar.New(towerData)
     local self = TowerBase.New(towerData)
     setmetatable(self,TowerMortar)
@@ -111,14 +113,22 @@ end
 
 function TowerMortar:DamageEnemy()
     self.waveManager = self:GetBoardReference():GetWaveManager()
-    for _, enemy in pairs(self.waveManager:GetEnemies()) do
-        local enemyPos = enemy:GetWorldPosition()
-        if self:InRange(enemy) then
-            local health = enemy:GetCustomProperty("CurrentHealth")
-            health = health - self:GetStat("Damage")
-            enemy:SetNetworkedCustomProperty("CurrentHealth",health)
+    Task.Spawn(function()
+        Task.Wait(1)
+        if self.currentTarget then
+            local targetPosition = self.currentTarget:GetWorldPosition()
+            for _, enemy in pairs(self.waveManager:GetEnemies()) do
+                local enemyPos = enemy:GetWorldPosition()
+                if (targetPosition - enemyPos).sizeSquared < EXPLOSION_DAMAGE_RADIUS then
+                    local health = enemy:GetCustomProperty("CurrentHealth")
+                    health = health - self:GetStat("Damage")
+                    enemy:SetNetworkedCustomProperty("CurrentHealth",health)
+                end
+            end
         end
-    end
+    end)
+
+
 end
 
 return TowerMortar
