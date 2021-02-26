@@ -1,6 +1,6 @@
 Assets {
   Id: 14467293000563951231
-  Name: "ExampleEventTowers"
+  Name: "SlideAction"
   PlatformAssetType: 3
   TextAsset {
   }
