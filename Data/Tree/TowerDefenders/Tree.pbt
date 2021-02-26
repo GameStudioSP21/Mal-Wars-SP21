@@ -4116,6 +4116,7 @@ Objects {
     }
   }
   ParentId: 7542508715810446415
+  ChildIds: 3489402958600756865
   ChildIds: 1603084460435637971
   ChildIds: 6603071736783500691
   Collidable_v2 {
@@ -4176,10 +4177,10 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 229
-    Height: 81
-    UIX: 158.605576
-    UIY: -59.1047363
+    Width: 300
+    Height: 67
+    UIX: -5
+    UIY: -80
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -4193,9 +4194,8 @@ Objects {
       }
       Size: 50
       Justification {
-        Value: "mc:etextjustify:left"
+        Value: "mc:etextjustify:center"
       }
-      AutoWrapText: true
     }
     AnchorLayout {
       SelfAnchor {
@@ -4233,10 +4233,10 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 679
-    Height: 199
-    UIX: -14.3170967
-    UIY: -87.762146
+    Width: 210
+    Height: 181
+    UIX: 35
+    UIY: -10
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -4257,15 +4257,76 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:bottomleft"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:bottomleft"
         }
       }
     }
+  }
+}
+Objects {
+  Id: 3489402958600756865
+  Name: "UI_redCurrencies_WIPS"
+  Transform {
+    Location {
+      X: -6190
+      Y: 395
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8671196899680944926
+  ChildIds: 1035024178581031466
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 7175496613956393653
+    SubobjectId: 7070093949991437547
+    InstanceId: 4036173448899885274
+    TemplateId: 9142428695657765879
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 1035024178581031466
+  Name: "UI_redCurrency_side"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3489402958600756865
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "UI_redCurrency_side"
+  }
+  InstanceHistory {
+    SelfId: 6342406496900398789
+    SubobjectId: 6453299553656627355
+    InstanceId: 4036173448899885274
+    TemplateId: 9142428695657765879
   }
 }
 Objects {
