@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9193804361493092613
+        ParentId: 8512805858169632350
         ChildIds: 4647145091155590541
         ChildIds: 11060419661309639451
         UnregisteredParameters {
@@ -91,6 +91,7 @@ Assets {
         ParentId: 4647145091155590541
         ChildIds: 8372786621935359102
         ChildIds: 7449673540029591116
+        ChildIds: 6523361771277994698
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -218,7 +219,7 @@ Assets {
       }
       Objects {
         Id: 18403730671548006423
-        Name: "Arcs at Top of Turret"
+        Name: "Arcs"
         Transform {
           Location {
             X: 0.888859034
@@ -2165,6 +2166,42 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+          }
+        }
+      }
+      Objects {
+        Id: 6523361771277994698
+        Name: "ArcSpin"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Yaw: -1.02452814e-05
+          }
+          Scale {
+            X: 0.8
+            Y: 0.8
+            Z: 0.8
+          }
+        }
+        ParentId: 6689278791412957354
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Arcs"
+            ObjectReference {
+              SubObjectId: 18403730671548006423
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 3162360412346733353
           }
         }
       }

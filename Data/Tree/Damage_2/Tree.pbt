@@ -61,12 +61,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:NextTowerUpgrade"
-      AssetReference {
-        Id: 841534158063459245
-      }
-    }
-    Overrides {
       Name: "cs:VisualProjectile"
       AssetReference {
         Id: 6384976585573990169
@@ -108,6 +102,68 @@ Objects {
     }
   }
   ParentId: 7130910895738376355
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Name"
+      String: "Bank"
+    }
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 17499171427180200450
+      }
+    }
+    Overrides {
+      Name: "cs:Type"
+      ObjectReference {
+        SelfId: 16246016697899800199
+      }
+    }
+    Overrides {
+      Name: "cs:Cost"
+      Int: 1500
+    }
+    Overrides {
+      Name: "cs:Damage"
+      Int: 0
+    }
+    Overrides {
+      Name: "cs:Speed"
+      Float: 0.2
+    }
+    Overrides {
+      Name: "cs:Range"
+      Float: 0
+    }
+    Overrides {
+      Name: "cs:Tower"
+      AssetReference {
+        Id: 16013314213448772834
+      }
+    }
+    Overrides {
+      Name: "cs:TowerGhost"
+      AssetReference {
+        Id: 15303515558436957644
+      }
+    }
+    Overrides {
+      Name: "cs:VisualProjectile"
+      AssetReference {
+        Id: 6384976585573990169
+      }
+    }
+    Overrides {
+      Name: "cs:TowerClass"
+      AssetReference {
+        Id: 16079215690187532467
+      }
+    }
+    Overrides {
+      Name: "cs:VisualProjectile:tooltip"
+      String: "Purely Visual. This is for making your tower attacks look pretty."
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

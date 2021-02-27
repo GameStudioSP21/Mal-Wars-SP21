@@ -319,7 +319,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Range"
-      Float: 25
+      Float: 50
     }
     Overrides {
       Name: "cs:Tower"

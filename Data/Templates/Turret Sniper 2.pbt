@@ -62,6 +62,7 @@ Assets {
           }
         }
         ParentId: 6089247722536784278
+        ChildIds: 471807661823974258
         ChildIds: 10297579396682123972
         WantsNetworking: true
         Collidable_v2 {
@@ -71,6 +72,53 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         NetworkContext {
+        }
+      }
+      Objects {
+        Id: 471807661823974258
+        Name: "SlideAction"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.769230783
+            Y: 0.769230783
+            Z: 0.769230783
+          }
+        }
+        ParentId: 14878987196766722355
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Turret_root"
+            ObjectReference {
+              SubObjectId: 6089247722536784278
+            }
+          }
+          Overrides {
+            Name: "cs:Barrel"
+            ObjectReference {
+              SubObjectId: 6752608034605458441
+            }
+          }
+          Overrides {
+            Name: "cs:Ease3D"
+            AssetReference {
+              Id: 11698430162959436393
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 14467293000563951231
+          }
         }
       }
       Objects {
