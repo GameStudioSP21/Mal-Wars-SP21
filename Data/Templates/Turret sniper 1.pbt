@@ -64,6 +64,7 @@ Assets {
           }
         }
         ParentId: 15383162064504641718
+        ChildIds: 14604943546503716698
         ChildIds: 2626966395218184266
         WantsNetworking: true
         Collidable_v2 {
@@ -73,6 +74,65 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         NetworkContext {
+        }
+      }
+      Objects {
+        Id: 14604943546503716698
+        Name: "SlideAction"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.833333313
+            Y: 0.833333313
+            Z: 0.833333313
+          }
+        }
+        ParentId: 15278186698188901302
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Turret_root"
+            ObjectReference {
+              SubObjectId: 15383162064504641718
+            }
+          }
+          Overrides {
+            Name: "cs:Ease3D"
+            AssetReference {
+              Id: 11698430162959436393
+            }
+          }
+          Overrides {
+            Name: "cs:Barrel"
+            ObjectReference {
+              SubObjectId: 6826136172175427483
+            }
+          }
+          Overrides {
+            Name: "cs:FX"
+            AssetReference {
+              Id: 898550371987577328
+            }
+          }
+          Overrides {
+            Name: "cs:Pivot"
+            ObjectReference {
+              SubObjectId: 5882785446510068502
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 14467293000563951231
+          }
         }
       }
       Objects {
@@ -92,6 +152,7 @@ Assets {
         ParentId: 15278186698188901302
         ChildIds: 7441902719929520184
         ChildIds: 3963915546052713286
+        ChildIds: 5882785446510068502
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -248,8 +309,8 @@ Assets {
         Name: "Sniper barrel"
         Transform {
           Location {
-            X: 330
-            Z: 175
+            X: 350.403961
+            Z: 174.999985
           }
           Rotation {
           }
@@ -732,7 +793,7 @@ Assets {
           Rotation {
             Pitch: -64.9998474
             Yaw: 89.9999237
-            Roll: -89.9999237
+            Roll: -89.999939
           }
           Scale {
             X: 2.8
@@ -2468,6 +2529,33 @@ Assets {
               LinearDamping: 0.01
             }
           }
+        }
+      }
+      Objects {
+        Id: 5882785446510068502
+        Name: "SpawnPivot"
+        Transform {
+          Location {
+            X: -178.234863
+            Z: 249.048233
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2626966395218184266
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
         }
       }
     }
