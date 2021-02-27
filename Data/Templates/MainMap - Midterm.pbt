@@ -76873,9 +76873,9 @@ Assets {
         Name: "FakePlayerSpawn"
         Transform {
           Location {
-            X: -10837.9902
-            Y: 432.784912
-            Z: 174.238144
+            X: -14000
+            Y: 50
+            Z: -550.000061
           }
           Rotation {
             Yaw: 131.897415
@@ -76908,9 +76908,9 @@ Assets {
         Name: "FakePlayerSpawn"
         Transform {
           Location {
-            X: -10672.3535
-            Y: 432.784912
-            Z: 174.238144
+            X: -14100
+            Y: -50
+            Z: -550.000061
           }
           Rotation {
             Yaw: 131.897415
@@ -76943,9 +76943,9 @@ Assets {
         Name: "FakePlayerSpawn"
         Transform {
           Location {
-            X: -10497.9287
-            Y: 432.784912
-            Z: 174.238144
+            X: -13900
+            Y: -50
+            Z: -550.000061
           }
           Rotation {
             Yaw: 131.897415

@@ -1,5 +1,5 @@
 Name: "Mortar"
-RootId: 9584810771798883337
+RootId: 3043607958378933379
 Objects {
   Id: 11454762506544654745
   Name: "MortarLv4"
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9584810771798883337
+  ParentId: 3043607958378933379
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -34,15 +34,15 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 300
+      Int: 500
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 1
+      Int: 120
     }
     Overrides {
       Name: "cs:Speed"
-      Float: 1
+      Float: 3
     }
     Overrides {
       Name: "cs:Range"
@@ -101,7 +101,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9584810771798883337
+  ParentId: 3043607958378933379
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -121,15 +121,15 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 300
+      Int: 500
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 1
+      Int: 75
     }
     Overrides {
       Name: "cs:Speed"
-      Float: 1
+      Float: 2.5
     }
     Overrides {
       Name: "cs:Range"
@@ -194,7 +194,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9584810771798883337
+  ParentId: 3043607958378933379
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -214,15 +214,15 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 300
+      Int: 500
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 1
+      Int: 50
     }
     Overrides {
       Name: "cs:Speed"
-      Float: 1
+      Float: 2
     }
     Overrides {
       Name: "cs:Range"
@@ -287,7 +287,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9584810771798883337
+  ParentId: 3043607958378933379
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -307,11 +307,11 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 300
+      Int: 500
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 1
+      Int: 30
     }
     Overrides {
       Name: "cs:Speed"

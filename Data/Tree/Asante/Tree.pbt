@@ -30,11 +30,11 @@ Objects {
     }
     Overrides {
       Name: "cs:Damage"
-      Float: 100
+      Float: 10
     }
     Overrides {
       Name: "cs:Radius"
-      Float: 500
+      Float: 200
     }
   }
   Collidable_v2 {
@@ -336,7 +336,7 @@ Objects {
     }
     Overrides {
       Name: "cs:CoolDownTimer"
-      Float: 1
+      Float: 0.5
     }
   }
   Collidable_v2 {
