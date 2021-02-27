@@ -18,12 +18,12 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
-      String: "MortarLv4"
+      String: "Ultimate Mortar"
     }
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 17033141427451298610
+        Id: 9135958796443303817
       }
     }
     Overrides {
@@ -105,12 +105,12 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
-      String: "MortarLv3"
+      String: "Superior Mortar"
     }
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 17033141427451298610
+        Id: 9135958796443303817
       }
     }
     Overrides {
@@ -198,12 +198,12 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
-      String: "MortarLv2"
+      String: "Greater Mortar"
     }
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 17033141427451298610
+        Id: 9135958796443303817
       }
     }
     Overrides {
@@ -291,12 +291,12 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
-      String: "MortarLv1"
+      String: "Mortar Turret"
     }
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 17033141427451298610
+        Id: 9135958796443303817
       }
     }
     Overrides {
@@ -315,7 +315,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Speed"
-      Float: 1
+      Float: 2
     }
     Overrides {
       Name: "cs:Range"
