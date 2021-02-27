@@ -1,11 +1,11 @@
--- PROTO
+﻿-- PROTO
 local GemValues = require(script:GetCustomProperty("TowerDefenders_GemValues"))
 local BasicProjectiles = require(script:GetCustomProperty("BasicProjectiles"))
 
 local ROOT = script:GetCustomProperty("Root"):WaitForObject()
 local isDead = false
 
-local InitalHealth = ROOT:GetCustomProperty("RewardResourceAmount")
+local InitalHealth = ROOT:GetCustomProperty("CurrentHealth")
 
 local function OnStateChanged()
     local state = ROOT:GetCustomProperty("CurrentState")

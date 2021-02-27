@@ -1,8 +1,8 @@
 Name: "Wave4"
 RootId: 17365817214076692164
 Objects {
-  Id: 4912282120167683768
-  Name: "1 GrWo"
+  Id: 6298080022497383158
+  Name: "TestEnemies"
   Transform {
     Location {
     }
@@ -19,7 +19,52 @@ Objects {
     Overrides {
       Name: "cs:Enemy"
       AssetReference {
-        Id: 13540676411188992771
+        Id: 4154473528491390730
+      }
+    }
+    Overrides {
+      Name: "cs:Amount"
+      Vector2 {
+        X: 20
+        Y: 20
+      }
+    }
+    Overrides {
+      Name: "cs:HealthMultiplier"
+      Int: 2
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "TestEnemies_3"
+  }
+}
+Objects {
+  Id: 11848657986413448036
+  Name: "BossEnemy"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17365817214076692164
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Enemy"
+      AssetReference {
+        Id: 9424779106571627023
       }
     }
     Overrides {
@@ -31,7 +76,7 @@ Objects {
     }
     Overrides {
       Name: "cs:HealthMultiplier"
-      Int: 1
+      Int: 2
     }
   }
   Collidable_v2 {
@@ -42,12 +87,12 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "1 GrWo"
+    FilePartitionName: "BossEnemy_3"
   }
 }
 Objects {
-  Id: 3534933026137093747
-  Name: "3 ReVr"
+  Id: 17572400486228261038
+  Name: "TestEnemies"
   Transform {
     Location {
     }
@@ -64,19 +109,19 @@ Objects {
     Overrides {
       Name: "cs:Enemy"
       AssetReference {
-        Id: 13540676411188992771
+        Id: 4154473528491390730
       }
     }
     Overrides {
       Name: "cs:Amount"
       Vector2 {
-        X: 5
-        Y: 5
+        X: 20
+        Y: 20
       }
     }
     Overrides {
       Name: "cs:HealthMultiplier"
-      Int: 1
+      Int: 3
     }
   }
   Collidable_v2 {
@@ -87,141 +132,6 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "3 ReVr"
-  }
-}
-Objects {
-  Id: 4183546217776920805
-  Name: "10 GrAd"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17365817214076692164
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Enemy"
-      AssetReference {
-        Id: 1141579444655500122
-      }
-    }
-    Overrides {
-      Name: "cs:Amount"
-      Vector2 {
-        X: 10
-        Y: 10
-      }
-    }
-    Overrides {
-      Name: "cs:HealthMultiplier"
-      Int: 1
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "10 GrAd"
-  }
-}
-Objects {
-  Id: 16657758604254827247
-  Name: "3 ReVr"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17365817214076692164
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Enemy"
-      AssetReference {
-        Id: 13540676411188992771
-      }
-    }
-    Overrides {
-      Name: "cs:Amount"
-      Vector2 {
-        X: 5
-        Y: 5
-      }
-    }
-    Overrides {
-      Name: "cs:HealthMultiplier"
-      Int: 1
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "3 ReVr_1"
-  }
-}
-Objects {
-  Id: 17372328780001572400
-  Name: "10 GrAd"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17365817214076692164
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Enemy"
-      AssetReference {
-        Id: 1141579444655500122
-      }
-    }
-    Overrides {
-      Name: "cs:Amount"
-      Vector2 {
-        X: 10
-        Y: 10
-      }
-    }
-    Overrides {
-      Name: "cs:HealthMultiplier"
-      Int: 1
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "10 GrAd_1"
+    FilePartitionName: "TestEnemies_4"
   }
 }

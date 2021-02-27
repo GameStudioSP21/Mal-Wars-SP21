@@ -226,7 +226,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
-      Float: 0.7
+      Float: 0.3
     }
     Overrides {
       Name: "cs:InOrderSpawning"
@@ -278,7 +278,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
-      Float: 0.65
+      Float: 1
     }
     Overrides {
       Name: "cs:InOrderSpawning"
@@ -330,7 +330,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
-      Float: 0.5
+      Float: 0.3
     }
     Overrides {
       Name: "cs:InOrderSpawning"
@@ -382,7 +382,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
-      Float: 0.65
+      Float: 0.5
     }
     Overrides {
       Name: "cs:InOrderSpawning"
