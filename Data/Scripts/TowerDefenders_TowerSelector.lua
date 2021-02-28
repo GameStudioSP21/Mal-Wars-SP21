@@ -145,7 +145,7 @@ function TowerSelector:_Runtime()
                         if closestTower and selectedTower ~= closestTower then
                             selectedTower = closestTower
                             self:_FireEvent("OnMagnetized")
-                            Ease3D.EasePosition(self.selectorVisualObject,closestTower:GetWorldPosition(),0.5)
+                            Ease3D.EasePosition(self.selectorVisualObject,closestTower:GetWorldPosition(),0.1)
                         elseif not closestTower and selectedTower then
                             selectedTower = nil
                             self:_FireEvent("OnUnMagnetized")

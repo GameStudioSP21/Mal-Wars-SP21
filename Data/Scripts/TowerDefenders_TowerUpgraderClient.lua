@@ -14,6 +14,7 @@ local upgraderSelector = TowerSelector.New(activeBoard,{
     usesMouseInput = true,
 })
 
+-- Events
 upgraderSelector.OnLeftMouseButton:Connect(function() 
     local selectedTower = upgraderSelector:GetNearestTower()
     if selectedTower then
@@ -26,7 +27,15 @@ end)
 
 upgraderSelector.OnRightMouseButton:Connect(function() 
     upgraderSelector:SetActive(false)
+    Events.Broadcast("StopDisplayingTowerStats")
 end)
+
+-- upgraderSelector.OnMagnetized:Connect(function()
+--     local selectedTower = upgraderSelector:GetNearestTower()
+--     if selectedTower then
+--         print("SELECTED:",selectedTower:GetName())
+--     end
+-- end)
 
 Events.Connect("BeginUpgrading", function(turretName)
     upgraderSelector:SetActive(true)
@@ -34,4 +43,5 @@ end)
 
 Events.Connect("CancelUpgrading", function()
     upgraderSelector:SetActive(false)
+    Events.Broadcast("StopDisplayingTowerStats")
 end)

@@ -11,9 +11,8 @@ local activeBoard = LOCAL_PLAYER.clientUserData.activeBoard
 
 local towerPlacer = Selector.New(activeBoard,{
     usesMouseInput = true,
-    isCamToMouseRaycasting = true,
+    isCamToMouseRaycasting = false,
 })
-
 
 local prepedTower = nil -- The tower we're about to place.
 
