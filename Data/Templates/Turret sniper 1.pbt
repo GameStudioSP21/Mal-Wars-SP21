@@ -64,6 +64,7 @@ Assets {
           }
         }
         ParentId: 15383162064504641718
+        ChildIds: 14604943546503716698
         ChildIds: 2626966395218184266
         WantsNetworking: true
         Collidable_v2 {
@@ -73,6 +74,41 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         NetworkContext {
+        }
+      }
+      Objects {
+        Id: 14604943546503716698
+        Name: "ExampleEventTowers"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.833333313
+            Y: 0.833333313
+            Z: 0.833333313
+          }
+        }
+        ParentId: 15278186698188901302
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:TurretSniper1"
+            ObjectReference {
+              SubObjectId: 15383162064504641718
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 14467293000563951231
+          }
         }
       }
       Objects {
@@ -350,7 +386,7 @@ Assets {
         Name: "Muzzle"
         Transform {
           Location {
-            X: 300
+            X: 450
             Z: 6.00002527
           }
           Rotation {

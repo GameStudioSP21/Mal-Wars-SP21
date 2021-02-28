@@ -10,9 +10,9 @@ Assets {
         Name: "AoETower_02"
         Transform {
           Scale {
-            X: 3
-            Y: 3
-            Z: 3
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
         ParentId: 9193804361493092613

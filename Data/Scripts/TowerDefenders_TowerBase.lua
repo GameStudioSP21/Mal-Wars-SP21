@@ -25,6 +25,9 @@ function Tower.New(towerData, board, owner)
     self.currentTarget = nil
     self.runtimes = {}
 
+    self:_DefineEvent("OnFired") -- Done
+    self:_DefineEvent("OnTargetEnemy") -- Not used yet.
+
     self:_Init(towerData)
 
     return self
@@ -64,6 +67,8 @@ function Tower:SpawnAsset()
     local towerModel = World.SpawnAsset(self:GetMUID(),{ position = self.position, parent = boardAsset })
     self.towerAssetInstance = towerModel
 
+    self.towerAssetInstance.clientUserData.tower = self
+
     -- If the owner of the tower placed then there will be a ring below the the tower
     -- indicating they own it.
     if self:GetOwner() == Game.GetLocalPlayer() then
@@ -92,6 +97,7 @@ function Tower:SpawnAssetSpecial()
 
     local towerModel = World.SpawnAsset(self:GetMUID(),{ position = self.position, parent = boardAsset })
     self.towerAssetInstance = towerModel
+    self.towerAssetInstance.clientUserData.tower = self
 
     -- If the owner of the tower placed then there will be a ring below the the tower
     -- indicating they own it.
@@ -318,46 +324,31 @@ end
 -- Private
 ----------------------------------------------------
 
--- local HASH_RUNTIME = "R"
--- local HASH_PERSISTENT = "P"
--- local HASH_DELIM_INTRO = "|"
--- local HASH_DELIM_STAT_BASE = "#"
--- local HASH_DELIM_STAT_BONUS = "&"
--- local HASH_DELIM_STAT_EQUALS = "="
--- local HASH_PATTERN_FULL = "^(.*)|(.*)|(.*)|(.*)|(.*)|(.*)$"
--- local HASH_PATTERN_STAT = "([#&])([^#&=]+)=(....)"
--- local HASH_INVENTORY_PATTERN = "<([^<>;]+)>([^<>;]+)<([^<>;]+)>;"
-
 function Tower:_Init(towerData)
     self.data = towerData
 end
 
--- function Tower:_IntoHash(isRuntime)
---     local hashParts = {}
---     table.insert(hashParts, isRuntime and HASH_RUNTIME or HASH_PERSISTENT)
---     table.insert(hashParts, isRuntime and Base64.Encode24(self.data.index) or self.data.towerMUID)
---     table.insert(hashParts, HASH_DELIM_INTRO)
---     table.insert(hashParts, Base64.Encode6(self.level))
---     return hashParts
--- end
 
--- function Item._FromHash(database, hash)
---     local hashType = hash:sub(1, 1)
---     local hashData = hash:sub(2)
---     local isRuntime = hashType == HASH_RUNTIME
---     local hashItemId, hashStackSize, hashEnhancementLevel, hashLimitBreakLevel, hashItemStats, backpackSubHash = hashData:match(HASH_PATTERN_FULL)
---     local itemData = nil
---     if isRuntime then
---         itemData = database:FindItemDataByIndex(Base64.Decode24(hashItemId))
---     else
---         itemData = database:FindItemDataByMUID(hashItemId)
---     end
---     if not itemData then
---         warn("unable to locate item data for hash: ", hashData)
---         return
---     end
---     return Tower.New()
--- end
+function Tower:_FireEvent(eventName, ...)
+    for _,handler in ipairs(self.eventHandlers[eventName]) do
+        handler(...)
+    end
+end
+
+function Tower:_DefineEvent(eventName)
+    self.eventHandlers = self.eventHandlers or {}
+    self.eventHandlers[eventName] = self.eventHandlers[eventName] or {}
+    self[eventName] = {
+        Connect = function(_, handler)
+            table.insert(self.eventHandlers[eventName], handler)
+            return self[eventName]
+        end,
+        Disconnect = function(_, handler)
+            table.remove(self.eventHandlers[eventName], handler)
+        end
+    }
+end
+
 
 function Tower:_Runtime()
     
@@ -394,9 +385,12 @@ function Tower:_Runtime()
                 Task.Wait(self:GetStat("Speed"))
                 if Object.IsValid(self.currentTarget) and self:InRange(self.currentTarget) and self._horizontalRotator then
                     Task.Spawn(function()
+                        if not Object.IsValid(self.currentTarget) then return end
+                        self:_FireEvent("OnFired",self.currentTarget)
                         self:FireFakeProjectile()
                     end)
                     Task.Spawn(function()
+                        if not Object.IsValid(self.currentTarget) then return end
                         self:PlayMuzzleEffects()
                     end)
                 end
@@ -429,6 +423,7 @@ function Tower:_Runtime()
             while true do
                 Task.Wait(self:GetStat("Speed"))
                 if Object.IsValid(self.currentTarget) and self:InRange(self.currentTarget) then
+                    self:_FireEvent("OnFired",self.currentTarget)
                     self:DamageEnemy(self.currentTarget)
                     if self.currentTarget:GetCustomProperty("CurrentHealth") <= 0 then
                         self.currentTarget = nil

@@ -2,14 +2,16 @@ local LASER_VFX = script:GetCustomProperty("LaserBeamVFX"):WaitForObject()
 local GAME_MANAGER = require(script:GetCustomProperty("TowerDefenders_GameManager"))
 local RADIAL_VIEW = require(script:GetCustomProperty("TowerDefenders_RadialView"))
 local ProgressBar = script:GetCustomProperty("UIProgressBar"):WaitForObject()
+local COOL_DOWN_TIMER = script:GetCustomProperty("CoolDownTimer")
 
 local LOCAL_PLAYER = Game:GetLocalPlayer()
 
 local FIRE_BIND = "ability_primary"
 
-local COOL_DOWN = .5
 local COOL_DOWN_DIVISIONS = 100
 local onCoolDown = false
+local timeAtFire
+local interval = 1 / COOL_DOWN_DIVISIONS
 ProgressBar.progress = 1
 
 -- print("getting board")
@@ -18,51 +20,42 @@ local board = GAME_MANAGER.WaitForBoardFromPlayer(LOCAL_PLAYER)
 -- local buildMenu = LOCAL_PLAYER.clientUserData.buildMenuView
 
 function OnBindingPressed(LOCAL_PLAYER, binding)
-
-    local buildMenu = LOCAL_PLAYER.clientUserData.buildMenuView
-    local towerMenu = LOCAL_PLAYER.clientUserData.towerMenuView
-    local towerPlacer = LOCAL_PLAYER.clientUserData.towerPlacer
-
-    local canFire
-
-    if(not buildMenu:IsVisible() and not towerMenu:IsVisible()) then
-        canFire = true
-    else
-        canFire = false
-    end
-    
-    if(towerPlacer:IsActive()) then
-        print("Tower placer on")
-    end
-
-    -- print(buildMenu:IsVisible())
-    if binding == FIRE_BIND  and canFire then
-        local hitResult = UI.GetCursorHitResult()
-        if(hitResult) then
-            local hitPos = Vector3.New(hitResult:GetImpactPosition())
-            PlayAnimation(hitPos)
-            DamageEnemies(hitResult)
-            onCoolDown = true
-            ProgressBar.progress = 0
-            UpdateProgressBar()
-            onCoolDown = false
-        else
-            print("hit result nil")
+    if binding == FIRE_BIND  and not onCoolDown then
+        if CheckView() then
+            local hitResult = UI.GetCursorHitResult()
+            if(hitResult) then
+                local hitPos = Vector3.New(hitResult:GetImpactPosition())
+                PlayAnimation(hitPos)
+                DamageEnemies(hitResult)
+                onCoolDown = true
+                ProgressBar.progress = 0
+                Task.Wait(COOL_DOWN_TIMER)
+                -- timeAtFire = time()
+                -- UpdateProgressBar()
+                onCoolDown = false
+            else
+                print("hit result nil")
+            end
         end
     end
 end
 
--- function CheckView()
---     local buildMenu = LOCAL_PLAYER.clientUserData.buildMenuView
---     local towerMenu = LOCAL_PLAYER.clientUserData.towerMenuView
---     local towerPlacer = LOCAL_PLAYER.clientUserData.towerPlacer
+function CheckView()
+    -- print("Checking view")
+    local buildMenu = LOCAL_PLAYER.clientUserData.buildMenuView
+    local towerMenu = LOCAL_PLAYER.clientUserData.towerMenuView
+    local towerPlacer = LOCAL_PLAYER.clientUserData.towerPlacer
+    local upgraderSelector = LOCAL_PLAYER.clientUserData.upgradeSelector
 
---     if(buildMenu:IsVisible() or towerMenu:IsVisible() or towerPlacer:IsActive()) then
---         return false
---     else
---         return true
---     end
--- end
+    Task.Wait()
+    if buildMenu:IsVisible() or towerMenu:IsVisible() or towerPlacer:IsActive() or upgraderSelector:IsActive() then
+        -- print("Menu open or placing turret")
+        return false
+    else
+        -- print("Nothing open")
+        return true
+    end
+end
 
 function DamageEnemies(hitResult)
     Events.BroadcastToServer("OLD", hitResult:GetImpactPosition())
@@ -80,11 +73,23 @@ end
 function IsBoard(hitResult)
 end
 
-function UpdateProgressBar()
-    local interval = 1 / COOL_DOWN_DIVISIONS
-    while ProgressBar.progress < 1 do
-        ProgressBar.progress = ProgressBar.progress + (interval * (1 / COOL_DOWN))
-        Task.Wait(interval)
+-- function UpdateProgressBar()
+--     local currTime = time()
+--     while currTime < timeAtFire + COOL_DOWN_TIMER do
+--         ProgressBar.progress = ProgressBar.progress + (interval * (1 / COOL_DOWN_TIMER))
+--         -- Task.Wait(interval)
+--         currTime = time()
+
+--     -- local interval = 1 / COOL_DOWN_DIVISIONS
+--     -- while ProgressBar.progress < 1 do
+--     --     ProgressBar.progress = ProgressBar.progress + (interval * (1 / COOL_DOWN))
+--     --     Task.Wait(interval)
+--     end
+-- end
+
+function Tick(dt)
+    if (ProgressBar.progress < 1) then
+        ProgressBar.progress = CoreMath.Clamp(ProgressBar.progress + (dt * (1 / COOL_DOWN_TIMER)))
     end
 end
 

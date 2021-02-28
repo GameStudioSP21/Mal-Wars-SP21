@@ -1,2 +1,0 @@
-Name: "TestEnemies_9"
-RootId: 11904129367188091166

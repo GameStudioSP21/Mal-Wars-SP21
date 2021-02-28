@@ -7,7 +7,7 @@ local TowerSelector = {}
 TowerSelector.__index = TowerSelector
 
 local Ease3D = require(script:GetCustomProperty("Ease3D"))
-
+local Tooltips = require('D59186313879C18D')
 local LEFT_MOUSE_BUTTON = "ability_primary"
 local RIGHT_MOUSE_BUTTON = "ability_secondary"
 local LOCAL_PLAYER = Game.GetLocalPlayer()
@@ -110,6 +110,7 @@ end
 
 function TowerSelector:_RemoveVisual()
     if self.selectorRuntime then
+    	Tooltips:DeselectedTower()
         self.selectorRuntime:Cancel()
     end
     if Object.IsValid(self.selectorVisualObject) then
@@ -144,12 +145,15 @@ function TowerSelector:_Runtime()
                         local closestTower = self:GetNearestTower()
                         if closestTower and selectedTower ~= closestTower then
                             selectedTower = closestTower
+                            Tooltips:SelectedTower(selectedTower)
                             self:_FireEvent("OnMagnetized")
                             Ease3D.EasePosition(self.selectorVisualObject,closestTower:GetWorldPosition(),0.5)
                         elseif not closestTower and selectedTower then
+                        	Tooltips:DeselectedTower()
                             selectedTower = nil
                             self:_FireEvent("OnUnMagnetized")
                         elseif not closestTower then
+                        	Tooltips:DeselectedTower()
                             self.selectorVisualObject:SetWorldPosition(self.rayImpactPosition)
                         end
                     else
