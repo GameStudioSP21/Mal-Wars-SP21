@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17033141427451298610
+  Name: "Sci-fi Ability Purple 025"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_SciFi_Ability_Purple_025"
+  }
+}
+Assets {
   Id: 16221751307075850195
   Name: "UI Gradient Rectangular 001"
   PlatformAssetType: 9
@@ -59,6 +68,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "FrameOutline_020"
+  }
+}
+Assets {
+  Id: 8414801238470530538
+  Name: "Sci-fi Ability Blue 021"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_SciFi_Ability_Blue_021"
   }
 }
 Assets {

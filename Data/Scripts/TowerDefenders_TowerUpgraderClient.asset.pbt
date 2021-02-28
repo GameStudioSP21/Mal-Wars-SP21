@@ -19,7 +19,7 @@ Assets {
       Overrides {
         Name: "cs:UpgradeVisual"
         AssetReference {
-          Id: 6634834666611468398
+          Id: 2990107826533388255
         }
       }
     }
