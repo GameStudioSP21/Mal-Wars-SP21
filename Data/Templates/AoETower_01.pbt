@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9193804361493092613
+        ParentId: 8512805858169632350
         ChildIds: 16549178035778190753
         ChildIds: 17424782062699910771
         UnregisteredParameters {
@@ -91,6 +91,7 @@ Assets {
         ParentId: 16549178035778190753
         ChildIds: 5166195924301880152
         ChildIds: 567448511079878613
+        ChildIds: 18286655535462315955
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1444,6 +1445,41 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+          }
+        }
+      }
+      Objects {
+        Id: 18286655535462315955
+        Name: "ArcSpin"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.8
+            Y: 0.8
+            Z: 0.8
+          }
+        }
+        ParentId: 18120215289437173486
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Arcs"
+            ObjectReference {
+              SubObjectId: 9609544623091358508
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 3162360412346733353
           }
         }
       }

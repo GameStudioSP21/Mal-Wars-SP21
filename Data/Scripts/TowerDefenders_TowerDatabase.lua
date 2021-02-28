@@ -1,4 +1,4 @@
-﻿local Database = {}
+local Database = {}
 
 local REGISTERED_TOWERS = script:GetCustomProperty("RegisteredTowers"):WaitForObject()
 local TowersThemeAPI = require(script:GetCustomProperty("ThemeApi"))

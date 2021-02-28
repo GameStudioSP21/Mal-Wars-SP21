@@ -9,7 +9,7 @@ local RADIUS_DECAL = script:GetCustomProperty("RangeRadiusDecal")
 local BLOCKED_RADIUS = script:GetCustomProperty("BlockedRadius")
 local Ease3D = require(script:GetCustomProperty("Ease3D"))
 
-local BLOCKED_RANGE = 125 -- CUSTOM PROPERTY HERE
+local BLOCKED_RANGE = 300 -- CUSTOM PROPERTY HERE
 
 ----------------------------------------------------
 -- Public
@@ -252,24 +252,6 @@ function Tower:GetNearestEnemy()
     local waveManager = self:GetBoardReference():GetWaveManager()
     local closestEnemy = waveManager:GetNearestAliveEnemy(self:GetWorldPosition())
     return closestEnemy
-    -- local position = self:GetWorldPosition()
-    -- local closest = nil
-    -- if not board then return end
-    -- for _, enemy in pairs(board:GetEnemies()) do
-    --     if Object.IsValid(enemy) then
-    --         if self:InRange(enemy) then
-    --             if enemy:GetCustomProperty("CurrentHealth") > 0 then
-    --                 if not closest then
-    --                     closest = enemy
-    --                 end
-    --                 if closest and (closest:GetWorldPosition() - position).size > (enemy:GetWorldPosition() - position).size then
-    --                     closest = enemy
-    --                 end
-    --             end
-    --         end
-    --     end
-    -- end
-    -- return closest
 end
 
 ----------------------------------------------------
@@ -368,7 +350,6 @@ function Tower:_Runtime()
                     elseif Object.IsValid(self.currentTarget) and self:InRange(self.currentTarget) and self._horizontalRotator then
                         self:HorizontalRotation()
                         self:VerticalRotation()
-
                         local health = self.currentTarget:GetCustomProperty("CurrentHealth")
                         if health <= 0 then
                             self.currentTarget = nil

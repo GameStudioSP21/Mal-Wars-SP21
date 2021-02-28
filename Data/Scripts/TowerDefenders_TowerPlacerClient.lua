@@ -15,7 +15,6 @@ local towerPlacer = Selector.New(activeBoard,{
 })
 
 LOCAL_PLAYER.clientUserData.towerPlacer = towerPlacer
-
 local prepedTower = nil -- The tower we're about to place.
 
 -- Creates a visual indicator on all towers on the map of blocked placement areas.

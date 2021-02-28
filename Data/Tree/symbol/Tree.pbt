@@ -1,7 +1,7 @@
 Name: "symbol"
-RootId: 17037411140685011247
+RootId: 9242944018893178406
 Objects {
-  Id: 11744127946669812797
+  Id: 6112560947756949749
   Name: "accent_line"
   Transform {
     Location {
@@ -14,72 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17037411140685011247
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Control {
-    Width: 45
-    Height: 5
-    UIX: 989.502136
-    UIY: 944.174
-    RotationAngle: 244.754013
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Image {
-      Brush {
-        Id: 7307343374490511592
-      }
-      Color {
-        R: 0.752942204
-        G: 0.0409151949
-        B: 0.0159962922
-        A: 1
-      }
-      TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topleft"
-        }
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 10624077792685505685
-    SubobjectId: 10590837588411671243
-    InstanceId: 4036173448899885274
-    TemplateId: 9142428695657765879
-  }
-}
-Objects {
-  Id: 14098128373839896620
-  Name: "accent_line"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17037411140685011247
+  ParentId: 9242944018893178406
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -89,9 +24,9 @@ Objects {
   Control {
     Width: 85
     Height: 5
-    UIX: 928.654
-    UIY: 999.229248
-    RotationAngle: 317.12323
+    UIX: 90
+    UIY: -90
+    RotationAngle: 362.123
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -102,9 +37,9 @@ Objects {
         Id: 7307343374490511592
       }
       Color {
-        R: 0.752942204
-        G: 0.0409151949
-        B: 0.0159962922
+        R: 1
+        G: 0.693871737
+        B: 0.171441093
         A: 1
       }
       TeamSettings {
@@ -113,25 +48,25 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:bottomleft"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:bottomleft"
         }
       }
     }
   }
   InstanceHistory {
-    SelfId: 10901223505549426531
-    SubobjectId: 10863410037547213117
+    SelfId: 2228067710422869030
+    SubobjectId: 2261325008129669752
     InstanceId: 4036173448899885274
     TemplateId: 9142428695657765879
   }
 }
 Objects {
-  Id: 7396674808652694163
+  Id: 6789237164551912319
   Name: "accent_line"
   Transform {
     Location {
@@ -144,7 +79,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17037411140685011247
+  ParentId: 9242944018893178406
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -154,9 +89,9 @@ Objects {
   Control {
     Width: 104
     Height: 5
-    UIX: 928.65387
-    UIY: 1000.67822
-    RotationAngle: 293.732788
+    UIX: 95
+    UIY: -95
+    RotationAngle: 338.733
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -167,9 +102,9 @@ Objects {
         Id: 7307343374490511592
       }
       Color {
-        R: 0.752942204
-        G: 0.0409151949
-        B: 0.0159962922
+        R: 1
+        G: 0.693871737
+        B: 0.171441093
         A: 1
       }
       TeamSettings {
@@ -178,25 +113,25 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:bottomleft"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:bottomleft"
         }
       }
     }
   }
   InstanceHistory {
-    SelfId: 12775617131594530379
-    SubobjectId: 12737979431639146517
+    SelfId: 3654812088010515996
+    SubobjectId: 3689284689394726978
     InstanceId: 4036173448899885274
     TemplateId: 9142428695657765879
   }
 }
 Objects {
-  Id: 4366991587968591127
+  Id: 16709355019670793959
   Name: "accent_line"
   Transform {
     Location {
@@ -209,7 +144,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17037411140685011247
+  ParentId: 9242944018893178406
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -217,11 +152,11 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 35
+    Width: 45
     Height: 5
-    UIX: 989.502136
-    UIY: 944.174
-    RotationAngle: 178.49263
+    UIX: 175
+    UIY: -90
+    RotationAngle: 289.754
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -232,9 +167,9 @@ Objects {
         Id: 7307343374490511592
       }
       Color {
-        R: 0.752942204
-        G: 0.0409151949
-        B: 0.0159962922
+        R: 1
+        G: 0.693871737
+        B: 0.171441093
         A: 1
       }
       TeamSettings {
@@ -243,25 +178,90 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:bottomleft"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:bottomleft"
         }
       }
     }
   }
   InstanceHistory {
-    SelfId: 9163927204852689874
-    SubobjectId: 9126183900778542476
+    SelfId: 11841827659406852815
+    SubobjectId: 11951681883832851601
     InstanceId: 4036173448899885274
     TemplateId: 9142428695657765879
   }
 }
 Objects {
-  Id: 18346227256182261062
+  Id: 7644307814177933166
+  Name: "accent_line"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9242944018893178406
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 35
+    Height: 5
+    UIX: 170
+    UIY: -95
+    RotationAngle: 223.493
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 7307343374490511592
+      }
+      Color {
+        R: 1
+        G: 0.693871737
+        B: 0.171441093
+        A: 1
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomleft"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 2024020276607458895
+    SubobjectId: 2133786404543741969
+    InstanceId: 4036173448899885274
+    TemplateId: 9142428695657765879
+  }
+}
+Objects {
+  Id: 14371618371425544027
   Name: "accent_circle"
   Transform {
     Location {
@@ -274,7 +274,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17037411140685011247
+  ParentId: 9242944018893178406
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -284,8 +284,8 @@ Objects {
   Control {
     Width: 20
     Height: 20
-    UIX: 931.551575
-    UIY: 920.992676
+    UIX: 135
+    UIY: -130
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -296,9 +296,9 @@ Objects {
         Id: 9947433586481829298
       }
       Color {
-        R: 0.752942204
-        G: 0.0409151949
-        B: 0.0159962922
+        R: 1
+        G: 0.693871737
+        B: 0.171441093
         A: 1
       }
       TeamSettings {
@@ -307,19 +307,19 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:bottomleft"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:bottomleft"
         }
       }
     }
   }
   InstanceHistory {
-    SelfId: 5521331493437833745
-    SubobjectId: 5554571558930439247
+    SelfId: 8270715231871137780
+    SubobjectId: 8308300687844059562
     InstanceId: 4036173448899885274
     TemplateId: 9142428695657765879
   }

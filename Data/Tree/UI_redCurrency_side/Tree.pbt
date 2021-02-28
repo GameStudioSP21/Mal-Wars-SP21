@@ -1,7 +1,7 @@
 Name: "UI_redCurrency_side"
-RootId: 17911218815902701555
+RootId: 1035024178581031466
 Objects {
-  Id: 14429022398680821722
+  Id: 4961823437156450910
   Name: "shadow"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17911218815902701555
+  ParentId: 1035024178581031466
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -24,8 +24,8 @@ Objects {
   Control {
     Width: 129
     Height: 59
-    UIX: 604.29541
-    UIY: 934.959167
+    UIX: 85
+    UIY: -155
     RotationAngle: 98.9875336
     RenderTransformPivot {
       Anchor {
@@ -46,25 +46,25 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:bottomleft"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:bottomleft"
         }
       }
     }
   }
   InstanceHistory {
-    SelfId: 3253077167318475015
-    SubobjectId: 3219854554962132825
+    SelfId: 1868723432496149169
+    SubobjectId: 1757937491419262191
     InstanceId: 4036173448899885274
     TemplateId: 9142428695657765879
   }
 }
 Objects {
-  Id: 418648051093084442
+  Id: 5548082385355241530
   Name: "shine"
   Transform {
     Location {
@@ -77,7 +77,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17911218815902701555
+  ParentId: 1035024178581031466
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -87,8 +87,8 @@ Objects {
   Control {
     Width: 72
     Height: 139
-    UIX: 642.249
-    UIY: 883.499878
+    UIX: 120
+    UIY: -75
     RotationAngle: 25.738739
     RenderTransformPivot {
       Anchor {
@@ -111,25 +111,25 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:bottomleft"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:bottomleft"
         }
       }
     }
   }
   InstanceHistory {
-    SelfId: 6108512461432164260
-    SubobjectId: 6147329250169278970
+    SelfId: 17065004153031663241
+    SubobjectId: 17102817637408686295
     InstanceId: 4036173448899885274
     TemplateId: 9142428695657765879
   }
 }
 Objects {
-  Id: 2653735030950988371
+  Id: 9242944018893178406
   Name: "symbol"
   Transform {
     Location {
@@ -142,7 +142,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17911218815902701555
+  ParentId: 1035024178581031466
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -151,17 +151,17 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "symbol_2"
+    FilePartitionName: "symbol"
   }
   InstanceHistory {
-    SelfId: 7660360624760208856
-    SubobjectId: 7765729392306414470
+    SelfId: 112304645032679419
+    SubobjectId: 1271726693403045
     InstanceId: 4036173448899885274
     TemplateId: 9142428695657765879
   }
 }
 Objects {
-  Id: 6935394275205863956
+  Id: 13899227365412811202
   Name: "base_1"
   Transform {
     Location {
@@ -174,7 +174,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17911218815902701555
+  ParentId: 1035024178581031466
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -184,8 +184,7 @@ Objects {
   Control {
     Width: 200
     Height: 200
-    UIX: 599.716309
-    UIY: 841.307068
+    UIY: -105
     RotationAngle: 45
     RenderTransformPivot {
       Anchor {
@@ -197,9 +196,8 @@ Objects {
         Id: 1735192838551116887
       }
       Color {
-        R: 0.752942204
-        G: 0.0409151949
-        B: 0.0159962922
+        R: 0.0235098954
+        G: 0.710000038
         A: 1
       }
       TeamSettings {
@@ -208,19 +206,19 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:bottomleft"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:bottomleft"
         }
       }
     }
   }
   InstanceHistory {
-    SelfId: 9400229203816262845
-    SubobjectId: 9511086133186654947
+    SelfId: 9194768012864567459
+    SubobjectId: 9083786907936745213
     InstanceId: 4036173448899885274
     TemplateId: 9142428695657765879
   }

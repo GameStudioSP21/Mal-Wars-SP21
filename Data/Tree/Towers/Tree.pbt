@@ -4,18 +4,10 @@ Objects {
   Id: 12584526261017762769
   Name: "AoETower_04"
   Transform {
-    Location {
-      X: -13711.8652
-      Y: 4829.95801
-      Z: 173.799316
-    }
-    Rotation {
-      Yaw: -89.9999924
-    }
     Scale {
-      X: 3
-      Y: 3
-      Z: 3
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 8512805858169632350
@@ -58,18 +50,10 @@ Objects {
   Id: 1181886876902810788
   Name: "AoETower_03"
   Transform {
-    Location {
-      X: -13764.6191
-      Y: 5865
-      Z: 159.537598
-    }
-    Rotation {
-      Yaw: -89.9999924
-    }
     Scale {
-      X: 3
-      Y: 3
-      Z: 3
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 8512805858169632350
@@ -112,18 +96,10 @@ Objects {
   Id: 13488192841428506366
   Name: "AoETower_02"
   Transform {
-    Location {
-      X: -13755
-      Y: 6870
-      Z: 130
-    }
-    Rotation {
-      Yaw: -89.9999924
-    }
     Scale {
-      X: 3
-      Y: 3
-      Z: 3
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 8512805858169632350
@@ -166,18 +142,10 @@ Objects {
   Id: 13793748246798344174
   Name: "AoETower_01"
   Transform {
-    Location {
-      X: -13747.0313
-      Y: 7517.57178
-      Z: 130
-    }
-    Rotation {
-      Yaw: -179.999985
-    }
     Scale {
-      X: 3
-      Y: 3
-      Z: 3
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 8512805858169632350
@@ -357,8 +325,7 @@ Objects {
           Name: "Position"
           Vector {
             X: -11906.3545
-            Y: 4895.58057
-            Z: 0.000244140625
+            Y: 4895.58105
           }
         }
         Overrides {

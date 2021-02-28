@@ -1,5 +1,5 @@
 Name: "Mortar"
-RootId: 9584810771798883337
+RootId: 3043607958378933379
 Objects {
   Id: 11454762506544654745
   Name: "MortarLv4"
@@ -14,16 +14,16 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9584810771798883337
+  ParentId: 3043607958378933379
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
-      String: "MortarLv4"
+      String: "Ultimate Mortar"
     }
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 17033141427451298610
+        Id: 9135958796443303817
       }
     }
     Overrides {
@@ -34,15 +34,15 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 300
+      Int: 500
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 1
+      Int: 120
     }
     Overrides {
       Name: "cs:Speed"
-      Float: 1
+      Float: 3
     }
     Overrides {
       Name: "cs:Range"
@@ -101,16 +101,16 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9584810771798883337
+  ParentId: 3043607958378933379
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
-      String: "MortarLv3"
+      String: "Superior Mortar"
     }
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 17033141427451298610
+        Id: 9135958796443303817
       }
     }
     Overrides {
@@ -121,15 +121,15 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 300
+      Int: 500
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 1
+      Int: 75
     }
     Overrides {
       Name: "cs:Speed"
-      Float: 1
+      Float: 2.5
     }
     Overrides {
       Name: "cs:Range"
@@ -194,16 +194,16 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9584810771798883337
+  ParentId: 3043607958378933379
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
-      String: "MortarLv2"
+      String: "Greater Mortar"
     }
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 17033141427451298610
+        Id: 9135958796443303817
       }
     }
     Overrides {
@@ -214,15 +214,15 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 300
+      Int: 500
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 1
+      Int: 50
     }
     Overrides {
       Name: "cs:Speed"
-      Float: 1
+      Float: 2
     }
     Overrides {
       Name: "cs:Range"
@@ -287,16 +287,16 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9584810771798883337
+  ParentId: 3043607958378933379
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
-      String: "MortarLv1"
+      String: "Mortar Turret"
     }
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 17033141427451298610
+        Id: 9135958796443303817
       }
     }
     Overrides {
@@ -307,15 +307,15 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 300
+      Int: 500
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 1
+      Int: 30
     }
     Overrides {
       Name: "cs:Speed"
-      Float: 1
+      Float: 2
     }
     Overrides {
       Name: "cs:Range"

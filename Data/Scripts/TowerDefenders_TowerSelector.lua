@@ -147,7 +147,7 @@ function TowerSelector:_Runtime()
                             selectedTower = closestTower
                             Tooltips:SelectedTower(selectedTower)
                             self:_FireEvent("OnMagnetized")
-                            Ease3D.EasePosition(self.selectorVisualObject,closestTower:GetWorldPosition(),0.5)
+                            Ease3D.EasePosition(self.selectorVisualObject,closestTower:GetWorldPosition(),0.1)
                         elseif not closestTower and selectedTower then
                         	Tooltips:DeselectedTower()
                             selectedTower = nil

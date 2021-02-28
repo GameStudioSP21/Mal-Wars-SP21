@@ -19,13 +19,13 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     Width: 129
     Height: 59
-    UIX: 438.622955
-    UIY: 934.959167
+    UIX: 85
+    UIY: -155
     RotationAngle: 98.9875336
     RenderTransformPivot {
       Anchor {
@@ -46,12 +46,12 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:bottomleft"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:bottomleft"
         }
       }
     }
@@ -82,13 +82,13 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     Width: 72
     Height: 139
-    UIX: 476.576538
-    UIY: 883.499878
+    UIX: 120
+    UIY: -75
     RotationAngle: 25.738739
     RenderTransformPivot {
       Anchor {
@@ -111,12 +111,12 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:bottomleft"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:bottomleft"
         }
       }
     }
@@ -147,7 +147,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Folder {
     IsFilePartition: true
@@ -179,13 +179,12 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Control {
     Width: 200
     Height: 200
-    UIX: 434.043823
-    UIY: 841.307068
+    UIY: -105
     RotationAngle: 45
     RenderTransformPivot {
       Anchor {
@@ -197,9 +196,8 @@ Objects {
         Id: 1735192838551116887
       }
       Color {
-        R: 0.752942204
-        G: 0.0409151949
-        B: 0.0159962922
+        R: 0.0235098954
+        G: 0.710000038
         A: 1
       }
       TeamSettings {
@@ -208,12 +206,12 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:bottomleft"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:bottomleft"
         }
       }
     }
