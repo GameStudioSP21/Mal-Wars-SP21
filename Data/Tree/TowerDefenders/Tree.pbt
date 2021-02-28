@@ -1252,6 +1252,7 @@ Objects {
   }
   ParentId: 16709910935714366213
   ChildIds: 384924585576167044
+  ChildIds: 309341490458113434
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1285,6 +1286,157 @@ Objects {
   }
 }
 Objects {
+  Id: 309341490458113434
+  Name: "InventoryTowerEntry"
+  Transform {
+    Location {
+      X: -0.01171875
+      Y: -0.0126953125
+    }
+    Rotation {
+      Yaw: -1.70754702e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6311100951252094683
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1241610363785578103
+      value {
+        Overrides {
+          Name: "Color"
+          Color {
+            R: 1
+            G: 0.0299999714
+            B: 0.0299999714
+            A: 0.478000015
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14187911197169058519
+      value {
+        Overrides {
+          Name: "Color"
+          Color {
+            G: 0.97
+            B: 0.00642387662
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15126348350632175787
+      value {
+        Overrides {
+          Name: "Name"
+          String: "InventoryTowerEntry"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -10394.4287
+            Y: 10826.8877
+            Z: -696.238403
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 98.9089737
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "UIX"
+          Float: 370
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15292033991037130188
+      value {
+        Overrides {
+          Name: "Image"
+          AssetReference {
+            Id: 8414801238470530538
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16263645938227480392
+      value {
+        Overrides {
+          Name: "Color"
+          Color {
+            R: 1
+            G: 0.00999999
+            B: 0.00999999
+            A: 0.692000031
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17027764566764175258
+      value {
+        Overrides {
+          Name: "Color"
+          Color {
+            R: 0.960000038
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17182501234835023399
+      value {
+        Overrides {
+          Name: "Color"
+          Color {
+            R: 1
+            A: 0.478000015
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 18024865804941292390
+      value {
+        Overrides {
+          Name: "Color"
+          Color {
+            R: 0.950000048
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "Label"
+          String: "Heroic"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9249867650405085070
+    }
+  }
+}
+Objects {
   Id: 384924585576167044
   Name: "InventoryTowerEntry"
   Transform {
@@ -1296,6 +1448,50 @@ Objects {
   }
   ParentId: 6311100951252094683
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 1241610363785578103
+      value {
+        Overrides {
+          Name: "Color"
+          Color {
+            R: 0.0503310636
+            G: 0.950000048
+            A: 0.478000015
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12954181827494282705
+      value {
+        Overrides {
+          Name: "Color"
+          Color {
+            R: 0.0132448673
+            G: 1
+            A: 0.627000034
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14187911197169058519
+      value {
+        Overrides {
+          Name: "Label"
+          String: "2"
+        }
+        Overrides {
+          Name: "Color"
+          Color {
+            R: 0.0199999809
+            G: 1
+            B: 0.0264900923
+            A: 1
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 15126348350632175787
       value {
@@ -1316,6 +1512,73 @@ Objects {
           Rotator {
             Yaw: 98.9089737
           }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15292033991037130188
+      value {
+        Overrides {
+          Name: "Image"
+          AssetReference {
+            Id: 17033141427451298610
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16263645938227480392
+      value {
+        Overrides {
+          Name: "Color"
+          Color {
+            R: 0.0513906665
+            G: 0.97
+            A: 0.692000031
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17027764566764175258
+      value {
+        Overrides {
+          Name: "Color"
+          Color {
+            R: 0.0124501763
+            G: 0.940000057
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17182501234835023399
+      value {
+        Overrides {
+          Name: "Color"
+          Color {
+            R: 0.111456856
+            G: 0.99
+            A: 0.478000015
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 18024865804941292390
+      value {
+        Overrides {
+          Name: "Color"
+          Color {
+            R: 0.0131124184
+            G: 0.99
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "Label"
+          String: " Uncommon"
         }
       }
     }

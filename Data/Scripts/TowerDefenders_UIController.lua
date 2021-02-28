@@ -20,8 +20,8 @@ LOCAL_PLAYER.bindingPressedEvent:Connect(function(_,keyCode)
             Tooltips:SetVisibility(Visibility.FORCE_ON, false)
         end
 
-        UI.SetCursorVisible(buildMenu:IsVisible())
-        UI.SetCanCursorInteractWithUI(buildMenu:IsVisible())
+        --UI.SetCursorVisible(buildMenu:IsVisible())
+        --UI.SetCanCursorInteractWithUI(buildMenu:IsVisible())
 
         -- TODO: CONVERT THIS INTO A TABLE AND HAVE THE INTERACTORS BE PART OF A SINGLE CLASS!!!!
         Events.Broadcast("CancelTowerPlacement")

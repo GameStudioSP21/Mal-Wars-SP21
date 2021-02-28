@@ -103,13 +103,29 @@ end
 -- Returns the nearest tower given a position and max search radius and optionally an owner.
 function Board:GetNearestTower(position,maxRadius,owner)
     local towers = self:GetAllTowers()
-    local maxRadius = maxRadius == 0 and math.huge or maxRadius
-    for _, tower in pairs(towers) do
-        local towerPos = tower:GetWorldPosition()
-        if (towerPos - position).sizeSquared <= maxRadius and ((owner ~= nil and tower:GetOwner() == owner) or owner == nil) then
-            return tower
+    local maxRadius = (maxRadius < 0) and 0 or maxRadius
+    if maxRadius ~= 0 then
+        for _, tower in pairs(towers) do
+            local towerPos = tower:GetWorldPosition()
+            if (towerPos - position).sizeSquared <= maxRadius and ((owner ~= nil and tower:GetOwner() == owner) or owner == nil) then
+                return tower
+            end
         end
+    else
+        local closest = nil
+        for _, tower in pairs(towers) do
+            if not closest then
+                closest = tower
+            end
+            if closest and 
+                (tower:GetWorldPosition() - position).sizeSquared < (closest:GetWorldPosition() - position).sizeSquared and
+                ((owner ~= nil and tower:GetOwner() == owner) or owner == nil) then
+                closest = tower
+            end
+        end
+        return closest
     end
+
 end
 
 -- An easy way to return all a table of all enemies on the board.
