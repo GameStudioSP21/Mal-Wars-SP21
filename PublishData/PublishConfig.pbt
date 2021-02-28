@@ -9,6 +9,6 @@ Tags: "TowerDefense"
 Tags: "Action"
 Tags: "Casual"
 ScreenshotPaths: "D:/Documents/CORE/Mal-Wars-SP21/Screenshots/Screenshot0001.png"
-ReleaseNotes: "Midterm pre-playtest update number one: there is art and assets now!"
+ReleaseNotes: "This is pre-midterm playtest version A."
 OwnerId: "915299ba3314494bbd5eb7a67d954099"
 SerializationVersion: 1
