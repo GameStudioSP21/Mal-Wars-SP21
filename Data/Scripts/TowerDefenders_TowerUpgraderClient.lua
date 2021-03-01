@@ -4,7 +4,7 @@
 
 local Selector = require(script:GetCustomProperty("TowerSelector"))
 local UPGRADE_VISUAL = script:GetCustomProperty("UpgradeVisual")
-
+local Tooltips = require('D59186313879C18D')
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 while not LOCAL_PLAYER.clientUserData.activeBoard do Task.Wait() end
 local activeBoard = LOCAL_PLAYER.clientUserData.activeBoard
@@ -44,7 +44,9 @@ upgraderSelector.OnLeftMouseButton:Connect(function()
     local selectedTower = upgraderSelector:GetNearestTower()
     if selectedTower then
         upgraderSelector:SetActive(false)
-        activeBoard:UpgradeTower(selectedTower)
+        if (Tooltips:SpentToUpgrade(50)) then
+        	activeBoard:UpgradeTower(selectedTower)
+        end
         -- TODO: Make this an object. REFACTOR
         Events.Broadcast("StopDisplayingTowerStats")
     end
