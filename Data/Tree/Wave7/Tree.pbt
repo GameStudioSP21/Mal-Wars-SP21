@@ -1,8 +1,8 @@
 Name: "Wave7"
 RootId: 2006978697845648767
 Objects {
-  Id: 15659617750196263111
-  Name: "BossEnemy"
+  Id: 9996890947906397196
+  Name: "40 GrWo"
   Transform {
     Location {
     }
@@ -19,22 +19,18 @@ Objects {
     Overrides {
       Name: "cs:Enemy"
       AssetReference {
-        Id: 9424779106571627023
+        Id: 1364954756512784228
       }
     }
     Overrides {
       Name: "cs:Amount"
       Vector2 {
-        X: 50
-        Y: 50
+        X: 40
+        Y: 40
       }
     }
     Overrides {
       Name: "cs:HealthMultiplier"
-      Int: 1
-    }
-    Overrides {
-      Name: "cs:SpeedMultiplier"
       Int: 1
     }
   }
@@ -46,6 +42,6 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "BossEnemy_1"
+    FilePartitionName: "40 GrWo"
   }
 }

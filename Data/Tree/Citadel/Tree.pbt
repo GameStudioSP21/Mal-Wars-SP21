@@ -70,7 +70,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
-      Float: 0.5
+      Float: 1.5
     }
     Overrides {
       Name: "cs:InOrderSpawning"
