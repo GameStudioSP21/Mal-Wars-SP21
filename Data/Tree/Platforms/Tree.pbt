@@ -21,9 +21,22 @@ Objects {
   ParentId: 2254021700219062407
   UnregisteredParameters {
     Overrides {
+      Name: "cs:IsBuildable"
+      Bool: true
+    }
+    Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
         Id: 15281791623124508840
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0912285596
+        G: 0.0912285596
+        B: 0.154000014
+        A: 1
       }
     }
   }
@@ -71,9 +84,22 @@ Objects {
   ParentId: 2254021700219062407
   UnregisteredParameters {
     Overrides {
+      Name: "cs:IsBuildable"
+      Bool: true
+    }
+    Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
         Id: 15281791623124508840
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0912285596
+        G: 0.0912285596
+        B: 0.154000014
+        A: 1
       }
     }
   }
@@ -121,9 +147,22 @@ Objects {
   ParentId: 2254021700219062407
   UnregisteredParameters {
     Overrides {
+      Name: "cs:IsBuildable"
+      Bool: true
+    }
+    Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
         Id: 15281791623124508840
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0912285596
+        G: 0.0912285596
+        B: 0.154000014
+        A: 1
       }
     }
   }
@@ -171,9 +210,22 @@ Objects {
   ParentId: 2254021700219062407
   UnregisteredParameters {
     Overrides {
+      Name: "cs:IsBuildable"
+      Bool: true
+    }
+    Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
         Id: 15281791623124508840
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0912285596
+        G: 0.0912285596
+        B: 0.154000014
+        A: 1
       }
     }
   }
@@ -221,9 +273,22 @@ Objects {
   ParentId: 2254021700219062407
   UnregisteredParameters {
     Overrides {
+      Name: "cs:IsBuildable"
+      Bool: true
+    }
+    Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
         Id: 15281791623124508840
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0912285596
+        G: 0.0912285596
+        B: 0.154000014
+        A: 1
       }
     }
   }
@@ -271,9 +336,22 @@ Objects {
   ParentId: 2254021700219062407
   UnregisteredParameters {
     Overrides {
+      Name: "cs:IsBuildable"
+      Bool: true
+    }
+    Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
         Id: 15281791623124508840
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0912285596
+        G: 0.0912285596
+        B: 0.154000014
+        A: 1
       }
     }
   }

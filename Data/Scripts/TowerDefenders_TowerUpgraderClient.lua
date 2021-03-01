@@ -3,6 +3,8 @@
 -- Wait for the player to own a board.
 
 local Selector = require(script:GetCustomProperty("TowerSelector"))
+local TowerDatabase = require(script:GetCustomProperty("TowerDatabase"))
+local GemWallet = require(script:GetCustomProperty("GemWallet"))
 local UPGRADE_VISUAL = script:GetCustomProperty("UpgradeVisual")
 
 local LOCAL_PLAYER = Game.GetLocalPlayer()
@@ -44,9 +46,17 @@ upgraderSelector.OnLeftMouseButton:Connect(function()
     local selectedTower = upgraderSelector:GetNearestTower()
     if selectedTower then
         upgraderSelector:SetActive(false)
-        activeBoard:UpgradeTower(selectedTower)
-        -- TODO: Make this an object. REFACTOR
-        Events.Broadcast("StopDisplayingTowerStats")
+        
+        local nextTower = TowerDatabase:NewTowerByMUID(selectedTower:GetNextUpgradeMUID())
+        
+        if GemWallet.HasEnough(nextTower:GetCost()) then
+	        activeBoard:UpgradeTower(selectedTower)
+	        GemWallet.SubtractFromWallet(nextTower:GetCost())
+	    end
+	    
+	    selectedTower:RemoveRangeRadius()
+	    -- TODO: Make this an object. REFACTOR
+	    Events.Broadcast("StopDisplayingTowerStats")
     end
 end)
 

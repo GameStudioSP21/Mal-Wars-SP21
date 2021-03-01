@@ -1,4 +1,4 @@
-﻿
+
 -- Derive from radial view
 local RadialView = require(script:GetCustomProperty("TowerDefenders_RadialView"))
 local GemWallet = require(script:GetCustomProperty("GemWallet"))
@@ -34,8 +34,8 @@ view.OnSectionClicked:Connect(function(sectionID,_,metaData)
     if metaData then
         view:Close()
         -- TODO: Perform client check on cost to see if they can place it.
-        UI.SetCursorVisible(false)
-        UI.SetCanCursorInteractWithUI(false)
+        --UI.SetCursorVisible(false)
+        --UI.SetCanCursorInteractWithUI(false)
 
         local tower = metaData
 
