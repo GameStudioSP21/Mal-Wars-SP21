@@ -17,7 +17,6 @@ ProgressBar.progress = 1
 -- print("getting board")
 local board = GAME_MANAGER.WaitForBoardFromPlayer(LOCAL_PLAYER)
 -- print("got board")
--- local buildMenu = LOCAL_PLAYER.clientUserData.buildMenuView
 
 function OnBindingPressed(LOCAL_PLAYER, binding)
     if binding == FIRE_BIND  and not onCoolDown then
