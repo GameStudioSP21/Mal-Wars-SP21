@@ -145,6 +145,10 @@ function WaveManager:NextWave()
     end
 end
 
+function WaveManager:GetWaveIndex()
+    return self.waveIndex
+end
+
 ----------------------------------------------------
 -- Private
 ----------------------------------------------------
