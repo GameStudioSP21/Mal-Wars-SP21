@@ -9,6 +9,6 @@ Tags: "TowerDefense"
 Tags: "Action"
 Tags: "Casual"
 ScreenshotPaths: "D:/Documents/CORE/Mal-Wars-SP21/Screenshots/Screenshot0001.png"
-ReleaseNotes: "Added 8 waves."
+ReleaseNotes: "Mortar turrets now almost always actually hit their designated target!"
 OwnerId: "915299ba3314494bbd5eb7a67d954099"
 SerializationVersion: 1
