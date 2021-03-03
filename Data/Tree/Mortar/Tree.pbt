@@ -57,7 +57,7 @@ Objects {
     Overrides {
       Name: "cs:TowerGhost"
       AssetReference {
-        Id: 2150629678682640040
+        Id: 8998131320545634637
       }
     }
     Overrides {
@@ -144,7 +144,7 @@ Objects {
     Overrides {
       Name: "cs:TowerGhost"
       AssetReference {
-        Id: 2150629678682640040
+        Id: 8998131320545634637
       }
     }
     Overrides {
@@ -237,7 +237,7 @@ Objects {
     Overrides {
       Name: "cs:TowerGhost"
       AssetReference {
-        Id: 2150629678682640040
+        Id: 8998131320545634637
       }
     }
     Overrides {
@@ -330,7 +330,7 @@ Objects {
     Overrides {
       Name: "cs:TowerGhost"
       AssetReference {
-        Id: 2150629678682640040
+        Id: 8998131320545634637
       }
     }
     Overrides {
