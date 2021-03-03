@@ -1,4 +1,4 @@
-local LASER_VFX = script:GetCustomProperty("LaserBeamVFX"):WaitForObject()
+local LASER_FX = script:GetCustomProperty("LaserBeamVFX")
 local GAME_MANAGER = require(script:GetCustomProperty("TowerDefenders_GameManager"))
 local RADIAL_VIEW = require(script:GetCustomProperty("TowerDefenders_RadialView"))
 local ProgressBar = script:GetCustomProperty("UIProgressBar"):WaitForObject()
@@ -61,11 +61,20 @@ function DamageEnemies(hitResult)
 end
 
 function PlayAnimation(hitPos) 
-    LASER_VFX:SetWorldPosition(hitPos)
+    --LASER_VFX:SetWorldPosition(hitPos)
     -- LASER_VFX.visibilty = Visibility.FORCE_ON
-    LASER_VFX:Play()
-    Task.Wait()
-    LASER_VFX:Stop()
+    
+
+    local laser69 
+    laser69 = World.SpawnAsset(LASER_FX, {position = hitPos})
+    Task.Spawn(function() 
+        Task.Wait(1)    
+        laser69:Destroy()
+    end)
+
+    -- LASER_VFX:Play()
+    -- Task.Wait()
+    -- LASER_VFX:Stop()
     -- LASER_VFX.visibilty = Visibility.FORCE_OFF
 end
 

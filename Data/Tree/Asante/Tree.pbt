@@ -65,7 +65,6 @@ Objects {
   }
   ParentId: 1187155345345434260
   ChildIds: 997332275306158636
-  ChildIds: 12623292723430875464
   ChildIds: 5482961795826328366
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -262,42 +261,6 @@ Objects {
   }
 }
 Objects {
-  Id: 12623292723430875464
-  Name: "Laser Beam VFX"
-  Transform {
-    Location {
-      Z: 10000
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7420073517901404684
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 15874520629520316333
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-      Relevance {
-        Value: "mc:evfxrelevance:critical"
-      }
-    }
-  }
-}
-Objects {
   Id: 997332275306158636
   Name: "GS_OrbitalLaser"
   Transform {
@@ -320,12 +283,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:LaserBeamVFX"
-      ObjectReference {
-        SelfId: 12623292723430875464
-      }
-    }
-    Overrides {
       Name: "cs:TowerDefenders_RadialView"
       AssetReference {
         Id: 17068499784028779052
@@ -340,6 +297,12 @@ Objects {
     Overrides {
       Name: "cs:CoolDownTimer"
       Float: 0.5
+    }
+    Overrides {
+      Name: "cs:LaserBeamVFX"
+      AssetReference {
+        Id: 16110847186557738078
+      }
     }
   }
   Collidable_v2 {

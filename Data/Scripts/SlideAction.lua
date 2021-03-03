@@ -9,6 +9,7 @@ local FX = script:GetCustomProperty("FX")
 local PIVOT = script:GetCustomProperty("Pivot"):WaitForObject()
 
 -- needs to wait for some reason(?)
+-- tower data might not be available immediately
 Task.Wait()
 local ourTower = TURRET_ROOT.clientUserData.tower
 

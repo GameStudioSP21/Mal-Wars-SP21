@@ -152,7 +152,6 @@ Assets {
         ParentId: 15278186698188901302
         ChildIds: 7441902719929520184
         ChildIds: 3963915546052713286
-        ChildIds: 5882785446510068502
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -209,6 +208,7 @@ Assets {
         ParentId: 7441902719929520184
         ChildIds: 12309471452013628026
         ChildIds: 2664977805362409023
+        ChildIds: 5882785446510068502
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2182,6 +2182,33 @@ Assets {
         }
       }
       Objects {
+        Id: 5882785446510068502
+        Name: "SpawnPivot"
+        Transform {
+          Location {
+            X: -178.234863
+            Z: 91.6014099
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 9499794316670928547
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
         Id: 3963915546052713286
         Name: "Turret Base"
         Transform {
@@ -2561,33 +2588,6 @@ Assets {
               LinearDamping: 0.01
             }
           }
-        }
-      }
-      Objects {
-        Id: 5882785446510068502
-        Name: "SpawnPivot"
-        Transform {
-          Location {
-            X: -178.234863
-            Z: 249.048233
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 2626966395218184266
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
         }
       }
     }

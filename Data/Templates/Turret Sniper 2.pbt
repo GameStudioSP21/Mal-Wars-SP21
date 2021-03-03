@@ -79,6 +79,8 @@ Assets {
         Name: "SlideAction"
         Transform {
           Location {
+            X: -154.946671
+            Z: 242.230316
           }
           Rotation {
           }
@@ -97,15 +99,27 @@ Assets {
             }
           }
           Overrides {
+            Name: "cs:Ease3D"
+            AssetReference {
+              Id: 11698430162959436393
+            }
+          }
+          Overrides {
             Name: "cs:Barrel"
             ObjectReference {
               SubObjectId: 6752608034605458441
             }
           }
           Overrides {
-            Name: "cs:Ease3D"
+            Name: "cs:FX"
             AssetReference {
-              Id: 11698430162959436393
+              Id: 898550371987577328
+            }
+          }
+          Overrides {
+            Name: "cs:Pivot"
+            ObjectReference {
+              SubObjectId: 1126422643918616817
             }
           }
         }
@@ -194,6 +208,7 @@ Assets {
         ParentId: 17649839362298773149
         ChildIds: 16609349887151152575
         ChildIds: 2966696636652466301
+        ChildIds: 1126422643918616817
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3183,6 +3198,34 @@ Assets {
               LinearDamping: 0.01
             }
           }
+        }
+      }
+      Objects {
+        Id: 1126422643918616817
+        Name: "SpawnPivot"
+        Transform {
+          Location {
+            X: -162.891373
+            Y: -5.31850958
+            Z: 84.7835159
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.923077
+            Y: 0.923077
+            Z: 0.923077
+          }
+        }
+        ParentId: 5601426030762146477
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
         }
       }
       Objects {
