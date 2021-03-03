@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 5354314425751231995
+        ParentId: 8512805858169632350
         ChildIds: 2492679474956155324
         ChildIds: 1573761448847815694
         ChildIds: 13458765532357561042
@@ -67,6 +67,7 @@ Assets {
         }
         ParentId: 14160675516524522327
         ChildIds: 864498242713065801
+        ChildIds: 8191469566333200179
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -4927,6 +4928,53 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+          }
+        }
+      }
+      Objects {
+        Id: 8191469566333200179
+        Name: "KickBack"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2492679474956155324
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Turret_root"
+            ObjectReference {
+              SubObjectId: 14160675516524522327
+            }
+          }
+          Overrides {
+            Name: "cs:Turret_Head"
+            ObjectReference {
+              SubObjectId: 8624291343826791232
+            }
+          }
+          Overrides {
+            Name: "cs:Ease3D"
+            AssetReference {
+              Id: 11698430162959436393
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 14651322305719110020
           }
         }
       }
