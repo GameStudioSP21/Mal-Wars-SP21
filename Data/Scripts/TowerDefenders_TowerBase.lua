@@ -367,12 +367,12 @@ function Tower:_Runtime()
                 if Object.IsValid(self.currentTarget) and self:InRange(self.currentTarget) and self._horizontalRotator then
                     Task.Spawn(function()
                         if not Object.IsValid(self.currentTarget) then return end
-                        self:_FireEvent("OnFired",self.currentTarget)
-                        self:FireFakeProjectile()
+                        self:PlayMuzzleEffects()
                     end)
                     Task.Spawn(function()
                         if not Object.IsValid(self.currentTarget) then return end
-                        self:PlayMuzzleEffects()
+                        self:_FireEvent("OnFired",self.currentTarget)
+                        self:FireFakeProjectile()
                     end)
                 end
             end
