@@ -8,66 +8,12 @@ Assets {
   }
 }
 Assets {
-  Id: 17805431485688984203
-  Name: "Cube - Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_hq_test_001"
-  }
-}
-Assets {
-  Id: 17457322814544506094
-  Name: "Sphere - Inverted"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_sphere_inverted_001"
-  }
-}
-Assets {
-  Id: 17416403521644267471
-  Name: "Carbon Fiber 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_carbon-fiber_001"
-  }
-}
-Assets {
-  Id: 17264922194081618045
-  Name: "Icosahedron"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_icosahedron_001"
-  }
-}
-Assets {
-  Id: 16177516181798898887
-  Name: "Gem - Baguette Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_gem_baguette_polished_001"
-  }
-}
-Assets {
   Id: 15305476051440937955
   Name: "Cube - Bottom-Aligned"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_001"
-  }
-}
-Assets {
-  Id: 14254976361528964966
-  Name: "Cylinder - Chamfered Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_hq_002"
   }
 }
 Assets {
@@ -80,30 +26,12 @@ Assets {
   }
 }
 Assets {
-  Id: 12639445817240610799
-  Name: "2D Basic Shapes Decal"
-  PlatformAssetType: 14
-  PrimaryAsset {
-    AssetType: "DecalBlueprintAssetRef"
-    AssetId: "dcl_basicShapes"
-  }
-}
-Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_002"
-  }
-}
-Assets {
-  Id: 11740730692540221599
-  Name: "Glitchy Hologram"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "fxmi_hologram"
   }
 }
 Assets {
@@ -122,15 +50,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_scf_ship_cockpit_siderail_001_ref"
-  }
-}
-Assets {
-  Id: 10851872944872800303
-  Name: "Sphere"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_sphere_002"
   }
 }
 Assets {
@@ -170,24 +89,6 @@ Assets {
   }
 }
 Assets {
-  Id: 5977064665180346531
-  Name: "Pipe - 6-Sided"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_pipe_sixsided_002"
-  }
-}
-Assets {
-  Id: 5933418524957934947
-  Name: "Ellipsoid - Truncated"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ellipsoid_truncated_001"
-  }
-}
-Assets {
   Id: 5075754212973068898
   Name: "Prism - 8-Sided"
   PlatformAssetType: 1
@@ -212,15 +113,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_stucco_tint_001_uv"
-  }
-}
-Assets {
-  Id: 3192052139210163942
-  Name: "Plane Trapezoid - One Sided"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_plane_trapezoid_001"
   }
 }
 Assets {
