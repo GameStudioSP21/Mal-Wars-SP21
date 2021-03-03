@@ -7,7 +7,7 @@ Assets {
       RootId: 15383162064504641718
       Objects {
         Id: 15383162064504641718
-        Name: "Turret Sniper 1"
+        Name: "Turret sniper 1"
         Transform {
           Scale {
             X: 1
@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8512805858169632350
+        ParentId: 4781671109827199097
         ChildIds: 15278186698188901302
         UnregisteredParameters {
           Overrides {
@@ -424,6 +424,12 @@ Assets {
           }
         }
         ParentId: 6826136172175427483
+        ChildIds: 14451779870025807362
+        ChildIds: 10444199409496976566
+        ChildIds: 6520552589567856001
+        ChildIds: 10547379760738253928
+        ChildIds: 9730166642291353714
+        ChildIds: 6964727219411916486
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -432,6 +438,263 @@ Assets {
         }
         Folder {
           IsGroup: true
+        }
+      }
+      Objects {
+        Id: 14451779870025807362
+        Name: "Gunshot Boom Sweetener 01 SFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 4.25000048
+            Y: 4.25000048
+            Z: 4.25000048
+          }
+        }
+        ParentId: 17086030062558109867
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 6056284838293397328
+          }
+          Pitch: 199.709229
+          Volume: 2.96203876
+          Falloff: -1
+          Radius: 5000
+          EnableOcclusion: true
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
+        }
+      }
+      Objects {
+        Id: 10444199409496976566
+        Name: "Gunshot Sniper Rifle Set 01 SFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.95833325
+            Y: 1.95833325
+            Z: 1.95833325
+          }
+        }
+        ParentId: 17086030062558109867
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Type"
+            Enum {
+              Value: "mc:esfx_gunshot_sniper_01:4"
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 2859981501041078432
+          }
+          TeamSettings {
+          }
+          AudioBP {
+            Volume: 1
+            Falloff: 3600
+            Radius: 5000
+            EnableOcclusion: true
+            IsSpatializationEnabled: true
+            IsAttenuationEnabled: true
+          }
+        }
+      }
+      Objects {
+        Id: 6520552589567856001
+        Name: "Rocket Launcher Muzzleflash VFX"
+        Transform {
+          Location {
+            X: 996.977112
+          }
+          Rotation {
+            Pitch: -90
+          }
+          Scale {
+            X: 1
+            Y: 2.75
+            Z: 112.25
+          }
+        }
+        ParentId: 17086030062558109867
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Smoke Color"
+            Color {
+              G: 0.99
+              B: 0.89165628
+              A: 0.663000047
+            }
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.00999999
+              G: 0.842648625
+              B: 1
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 22.9956741
+          }
+          Overrides {
+            Name: "bp:Particle Size Multiplier"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 2032514755182163228
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+            Relevance {
+              Value: "mc:evfxrelevance:medium"
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 10547379760738253928
+        Name: "Sci-fi Radial Element VFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Pitch: -90
+          }
+          Scale {
+            X: 0.5
+            Y: 0.5
+            Z: 0.5
+          }
+        }
+        ParentId: 17086030062558109867
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 17395695237026391644
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+            Relevance {
+              Value: "mc:evfxrelevance:medium"
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 9730166642291353714
+        Name: "Sci-fi Radial Element VFX"
+        Transform {
+          Location {
+            X: -112.633804
+          }
+          Rotation {
+            Pitch: -90
+          }
+          Scale {
+            X: 0.568758905
+            Y: 0.568758905
+            Z: 0.568758905
+          }
+        }
+        ParentId: 17086030062558109867
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 17395695237026391644
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+            Relevance {
+              Value: "mc:evfxrelevance:medium"
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 6964727219411916486
+        Name: "Sci-fi Radial Element VFX"
+        Transform {
+          Location {
+            X: -224.772766
+          }
+          Rotation {
+            Pitch: -90
+          }
+          Scale {
+            X: 0.863629282
+            Y: 0.863629282
+            Z: 0.863629282
+          }
+        }
+        ParentId: 17086030062558109867
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 17395695237026391644
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+            Relevance {
+              Value: "mc:evfxrelevance:medium"
+            }
+          }
         }
       }
       Objects {
@@ -2598,6 +2861,42 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_scf_ship_light_002_ref"
+      }
+    }
+    Assets {
+      Id: 6056284838293397328
+      Name: "Gunshot Boom Sweetener 01 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_gunshot_boom_sweetener_01_Cue_ref"
+      }
+    }
+    Assets {
+      Id: 2859981501041078432
+      Name: "Gunshot Sniper Rifle Set 01 SFX"
+      PlatformAssetType: 10
+      PrimaryAsset {
+        AssetType: "AudioBlueprintAssetRef"
+        AssetId: "sfxabp_gunshot_sniperrifle_ref"
+      }
+    }
+    Assets {
+      Id: 2032514755182163228
+      Name: "Rocket Launcher Muzzleflash VFX"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_rocket_launcher_muzzleflash"
+      }
+    }
+    Assets {
+      Id: 17395695237026391644
+      Name: "Sci-fi Radial Element VFX"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_SciFi_RadialElement"
       }
     }
     Assets {

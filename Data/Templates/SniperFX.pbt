@@ -19,7 +19,7 @@ Assets {
         ChildIds: 5926095670691929179
         ChildIds: 6577575470025200319
         ChildIds: 18207433459973423284
-        Lifespan: 1.5
+        Lifespan: 3.5
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -45,6 +45,12 @@ Assets {
           }
         }
         ParentId: 8800713323459709681
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Enable Looping"
+            Bool: false
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
