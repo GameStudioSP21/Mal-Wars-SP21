@@ -26,9 +26,9 @@ ourTower.OnFired:Connect(function()
 
     --Firing should be quick
     -- Ease3D.EasePosition(BARREL, (initialPosition - Vector3.New(224, 0, 0)), 0.1)
-    Ease3D.EaseRotation(TURRET_HEAD, (initialRotation - Rotation.New(0, -180, 0)), 0.2)
-    Ease3D.EasePosition(TURRET_HEAD, (initialPosition - Vector3.New(-200, 0, 0)), 0.2)
-    Task.Wait()
+    Ease3D.EaseRotation(TURRET_HEAD, (initialRotation - Rotation.New(0, -15, 0)), 0.1)
+    Ease3D.EasePosition(TURRET_HEAD, (initialPosition - Vector3.New(20, 0, 0)), 0.1)
+    Task.Wait(0.1)
 
     -- start FX
     -- World.SpawnAsset(FX, {position = PIVOT:GetWorldPosition()})
