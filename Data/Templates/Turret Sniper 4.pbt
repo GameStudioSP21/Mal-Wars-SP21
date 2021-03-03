@@ -871,6 +871,27 @@ Assets {
           }
         }
         ParentId: 7634448474261346515
+        ChildIds: 691405493962704904
+        ChildIds: 14539281976255002898
+        ChildIds: 2880300159157982306
+        ChildIds: 5139079988967107458
+        ChildIds: 6936213483811091846
+        ChildIds: 8256113466761538174
+        ChildIds: 5135585603175311468
+        ChildIds: 12834009947995106091
+        ChildIds: 11166385787937017135
+        ChildIds: 12455774909376692522
+        ChildIds: 3250299972697744810
+        ChildIds: 4235146338929965824
+        ChildIds: 13347369402097314584
+        ChildIds: 16216408234282619373
+        ChildIds: 8807326291160140532
+        ChildIds: 9484459702066531299
+        ChildIds: 1440788722147587633
+        ChildIds: 402412564379205964
+        ChildIds: 7359063263184317186
+        ChildIds: 11825970036118285218
+        ChildIds: 1426856261327864366
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -879,6 +900,1293 @@ Assets {
         }
         Folder {
           IsGroup: true
+        }
+      }
+      Objects {
+        Id: 691405493962704904
+        Name: "Gunshot Sniper Rifle Set 01 SFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.95833313
+            Y: 1.95833313
+            Z: 1.95833313
+          }
+        }
+        ParentId: 16848996815784559702
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Type"
+            Enum {
+              Value: "mc:esfx_gunshot_sniper_01:1"
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 2859981501041078432
+          }
+          TeamSettings {
+          }
+          AudioBP {
+            Pitch: -483.444214
+            Volume: 1.04526186
+            Falloff: 6000
+            Radius: 4000
+            EnableOcclusion: true
+            IsSpatializationEnabled: true
+            IsAttenuationEnabled: true
+          }
+        }
+      }
+      Objects {
+        Id: 14539281976255002898
+        Name: "Gunshot Boom Sweetener 01 SFX"
+        Transform {
+          Location {
+            X: 0.00191243482
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.95833337
+            Y: 1.95833337
+            Z: 1.95833337
+          }
+        }
+        ParentId: 16848996815784559702
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 6056284838293397328
+          }
+          Volume: 2.05915904
+          Falloff: 6000
+          Radius: 4000
+          EnableOcclusion: true
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
+        }
+      }
+      Objects {
+        Id: 2880300159157982306
+        Name: "Gunshot Boom Sweetener 02 SFX"
+        Transform {
+          Location {
+            X: 0.00191243482
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.95833337
+            Y: 1.95833337
+            Z: 1.95833337
+          }
+        }
+        ParentId: 16848996815784559702
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 17772688341795286021
+          }
+          Pitch: -960.874268
+          Volume: 1.55862749
+          Falloff: -1
+          Radius: -1
+          EnableOcclusion: true
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
+        }
+      }
+      Objects {
+        Id: 5139079988967107458
+        Name: "Rocket Launcher Muzzleflash VFX"
+        Transform {
+          Location {
+            X: 295.50943
+            Z: 80.0247574
+          }
+          Rotation {
+            Pitch: -90
+          }
+          Scale {
+            X: 0.999999702
+            Y: 2.74999952
+            Z: 112.249977
+          }
+        }
+        ParentId: 16848996815784559702
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Smoke Color"
+            Color {
+              R: 0.97
+              A: 0.663000047
+            }
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.940000057
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 22.9956741
+          }
+          Overrides {
+            Name: "bp:Particle Size Multiplier"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 2032514755182163228
+          }
+          TeamSettings {
+          }
+          Vfx {
+            Relevance {
+              Value: "mc:evfxrelevance:medium"
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 6936213483811091846
+        Name: "Rocket Launcher Muzzleflash VFX"
+        Transform {
+          Location {
+            X: 295.50943
+            Z: -80.2905884
+          }
+          Rotation {
+            Pitch: -90
+          }
+          Scale {
+            X: 0.999999583
+            Y: 2.74999928
+            Z: 112.249969
+          }
+        }
+        ParentId: 16848996815784559702
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Smoke Color"
+            Color {
+              R: 0.97
+              A: 0.663000047
+            }
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.940000057
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 22.9956741
+          }
+          Overrides {
+            Name: "bp:Particle Size Multiplier"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 2032514755182163228
+          }
+          TeamSettings {
+          }
+          Vfx {
+            Relevance {
+              Value: "mc:evfxrelevance:medium"
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 8256113466761538174
+        Name: "Rocket Launcher Muzzleflash VFX"
+        Transform {
+          Location {
+            X: -117.385246
+            Y: 61.8500557
+            Z: -43.382328
+          }
+          Rotation {
+            Pitch: -90
+            Yaw: 180
+            Roll: -31.5884399
+          }
+          Scale {
+            X: 1.00000536
+            Y: 1.5395844
+            Z: 6.06481695
+          }
+        }
+        ParentId: 16848996815784559702
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Smoke Color"
+            Color {
+              R: 0.97
+              A: 0.663000047
+            }
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.940000057
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 22.9956741
+          }
+          Overrides {
+            Name: "bp:Particle Size Multiplier"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 2032514755182163228
+          }
+          TeamSettings {
+          }
+          Vfx {
+            Relevance {
+              Value: "mc:evfxrelevance:medium"
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 5135585603175311468
+        Name: "Rocket Launcher Muzzleflash VFX"
+        Transform {
+          Location {
+            X: -247.419342
+            Y: 61.8500557
+            Z: -43.382328
+          }
+          Rotation {
+            Pitch: -90
+            Yaw: 180
+            Roll: -31.588501
+          }
+          Scale {
+            X: 1.00000536
+            Y: 1.5395844
+            Z: 6.06481695
+          }
+        }
+        ParentId: 16848996815784559702
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Smoke Color"
+            Color {
+              R: 0.97
+              A: 0.663000047
+            }
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.940000057
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 22.9956741
+          }
+          Overrides {
+            Name: "bp:Particle Size Multiplier"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 2032514755182163228
+          }
+          TeamSettings {
+          }
+          Vfx {
+            Relevance {
+              Value: "mc:evfxrelevance:medium"
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 12834009947995106091
+        Name: "Rocket Launcher Muzzleflash VFX"
+        Transform {
+          Location {
+            X: -247.419342
+            Y: 61.8500557
+            Z: 21.3691292
+          }
+          Rotation {
+            Pitch: -90
+            Yaw: 180
+            Roll: -31.5884399
+          }
+          Scale {
+            X: 1.00000536
+            Y: 1.5395844
+            Z: 6.06481695
+          }
+        }
+        ParentId: 16848996815784559702
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Smoke Color"
+            Color {
+              R: 0.97
+              A: 0.663000047
+            }
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.940000057
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 22.9956741
+          }
+          Overrides {
+            Name: "bp:Particle Size Multiplier"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 2032514755182163228
+          }
+          TeamSettings {
+          }
+          Vfx {
+            Relevance {
+              Value: "mc:evfxrelevance:medium"
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 11166385787937017135
+        Name: "Rocket Launcher Muzzleflash VFX"
+        Transform {
+          Location {
+            X: -378.426849
+            Y: 61.8500557
+            Z: -43.382328
+          }
+          Rotation {
+            Pitch: -90
+            Roll: 148.411453
+          }
+          Scale {
+            X: 1.00000536
+            Y: 1.5395844
+            Z: 6.06481695
+          }
+        }
+        ParentId: 16848996815784559702
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Smoke Color"
+            Color {
+              R: 0.97
+              A: 0.663000047
+            }
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.940000057
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 22.9956741
+          }
+          Overrides {
+            Name: "bp:Particle Size Multiplier"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 2032514755182163228
+          }
+          TeamSettings {
+          }
+          Vfx {
+            Relevance {
+              Value: "mc:evfxrelevance:medium"
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 12455774909376692522
+        Name: "Rocket Launcher Muzzleflash VFX"
+        Transform {
+          Location {
+            X: -378.426849
+            Y: 61.8500557
+            Z: 21.3691292
+          }
+          Rotation {
+            Pitch: -90
+            Yaw: 180
+            Roll: -31.588501
+          }
+          Scale {
+            X: 1.00000536
+            Y: 1.5395844
+            Z: 6.06481695
+          }
+        }
+        ParentId: 16848996815784559702
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Smoke Color"
+            Color {
+              R: 0.97
+              A: 0.663000047
+            }
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.940000057
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 22.9956741
+          }
+          Overrides {
+            Name: "bp:Particle Size Multiplier"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 2032514755182163228
+          }
+          TeamSettings {
+          }
+          Vfx {
+            Relevance {
+              Value: "mc:evfxrelevance:medium"
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 3250299972697744810
+        Name: "Rocket Launcher Muzzleflash VFX"
+        Transform {
+          Location {
+            X: -101.921303
+            Y: -85.0249405
+            Z: 11.5019207
+          }
+          Rotation {
+            Pitch: -90
+            Roll: -161.588013
+          }
+          Scale {
+            X: 1.00000536
+            Y: 1.5395844
+            Z: 6.06481695
+          }
+        }
+        ParentId: 16848996815784559702
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Smoke Color"
+            Color {
+              R: 0.97
+              A: 0.663000047
+            }
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.940000057
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 22.9956741
+          }
+          Overrides {
+            Name: "bp:Particle Size Multiplier"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 2032514755182163228
+          }
+          TeamSettings {
+          }
+          Vfx {
+            Relevance {
+              Value: "mc:evfxrelevance:medium"
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 4235146338929965824
+        Name: "Rocket Launcher Muzzleflash VFX"
+        Transform {
+          Location {
+            X: -101.921303
+            Y: -85.0249405
+            Z: 60.4602509
+          }
+          Rotation {
+            Pitch: -90
+            Roll: -161.588074
+          }
+          Scale {
+            X: 1.00000536
+            Y: 1.5395844
+            Z: 6.06481695
+          }
+        }
+        ParentId: 16848996815784559702
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Smoke Color"
+            Color {
+              R: 0.97
+              A: 0.663000047
+            }
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.940000057
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 22.9956741
+          }
+          Overrides {
+            Name: "bp:Particle Size Multiplier"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 2032514755182163228
+          }
+          TeamSettings {
+          }
+          Vfx {
+            Relevance {
+              Value: "mc:evfxrelevance:medium"
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 13347369402097314584
+        Name: "Rocket Launcher Muzzleflash VFX"
+        Transform {
+          Location {
+            X: -199.837967
+            Y: -85.0249405
+            Z: 11.5019207
+          }
+          Rotation {
+            Pitch: -90
+            Yaw: -2.86239624
+            Roll: -158.72554
+          }
+          Scale {
+            X: 1.00000536
+            Y: 1.5395844
+            Z: 6.06481695
+          }
+        }
+        ParentId: 16848996815784559702
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Smoke Color"
+            Color {
+              R: 0.97
+              A: 0.663000047
+            }
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.940000057
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 22.9956741
+          }
+          Overrides {
+            Name: "bp:Particle Size Multiplier"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 2032514755182163228
+          }
+          TeamSettings {
+          }
+          Vfx {
+            Relevance {
+              Value: "mc:evfxrelevance:medium"
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 16216408234282619373
+        Name: "Rocket Launcher Muzzleflash VFX"
+        Transform {
+          Location {
+            X: -199.837967
+            Y: -85.0249405
+            Z: 60.4602509
+          }
+          Rotation {
+            Pitch: -90
+            Roll: -161.588013
+          }
+          Scale {
+            X: 1.00000536
+            Y: 1.5395844
+            Z: 6.06481695
+          }
+        }
+        ParentId: 16848996815784559702
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Smoke Color"
+            Color {
+              R: 0.97
+              A: 0.663000047
+            }
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.940000057
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 22.9956741
+          }
+          Overrides {
+            Name: "bp:Particle Size Multiplier"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 2032514755182163228
+          }
+          TeamSettings {
+          }
+          Vfx {
+            Relevance {
+              Value: "mc:evfxrelevance:medium"
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 8807326291160140532
+        Name: "Rocket Launcher Muzzleflash VFX"
+        Transform {
+          Location {
+            X: -199.837967
+            Y: -85.0249405
+            Z: 11.5019207
+          }
+          Rotation {
+            Pitch: -90
+            Roll: -161.587875
+          }
+          Scale {
+            X: 1.00000536
+            Y: 1.5395844
+            Z: 6.06481695
+          }
+        }
+        ParentId: 16848996815784559702
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Smoke Color"
+            Color {
+              R: 0.97
+              A: 0.663000047
+            }
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.940000057
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 22.9956741
+          }
+          Overrides {
+            Name: "bp:Particle Size Multiplier"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 2032514755182163228
+          }
+          TeamSettings {
+          }
+          Vfx {
+            Relevance {
+              Value: "mc:evfxrelevance:medium"
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 9484459702066531299
+        Name: "Rocket Launcher Muzzleflash VFX"
+        Transform {
+          Location {
+            X: -199.837967
+            Y: -85.0249405
+            Z: 60.4602509
+          }
+          Rotation {
+            Pitch: -90
+            Yaw: -2.86239624
+            Roll: -158.72554
+          }
+          Scale {
+            X: 1.00000536
+            Y: 1.5395844
+            Z: 6.06481695
+          }
+        }
+        ParentId: 16848996815784559702
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Smoke Color"
+            Color {
+              R: 0.97
+              A: 0.663000047
+            }
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.940000057
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 22.9956741
+          }
+          Overrides {
+            Name: "bp:Particle Size Multiplier"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 2032514755182163228
+          }
+          TeamSettings {
+          }
+          Vfx {
+            Relevance {
+              Value: "mc:evfxrelevance:medium"
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 1440788722147587633
+        Name: "Rocket Launcher Muzzleflash VFX"
+        Transform {
+          Location {
+            X: -297.754639
+            Y: -85.0249405
+            Z: 11.5019207
+          }
+          Rotation {
+            Pitch: -90
+            Roll: -161.58783
+          }
+          Scale {
+            X: 1.00000536
+            Y: 1.5395844
+            Z: 6.06481695
+          }
+        }
+        ParentId: 16848996815784559702
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Smoke Color"
+            Color {
+              R: 0.97
+              A: 0.663000047
+            }
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.940000057
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 22.9956741
+          }
+          Overrides {
+            Name: "bp:Particle Size Multiplier"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 2032514755182163228
+          }
+          TeamSettings {
+          }
+          Vfx {
+            Relevance {
+              Value: "mc:evfxrelevance:medium"
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 402412564379205964
+        Name: "Rocket Launcher Muzzleflash VFX"
+        Transform {
+          Location {
+            X: -297.754639
+            Y: -85.0249405
+            Z: 60.4602509
+          }
+          Rotation {
+            Pitch: -90
+            Roll: -161.587875
+          }
+          Scale {
+            X: 1.00000536
+            Y: 1.5395844
+            Z: 6.06481695
+          }
+        }
+        ParentId: 16848996815784559702
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Smoke Color"
+            Color {
+              R: 0.97
+              A: 0.663000047
+            }
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.940000057
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 22.9956741
+          }
+          Overrides {
+            Name: "bp:Particle Size Multiplier"
+            Float: 0.1
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.1
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 2032514755182163228
+          }
+          TeamSettings {
+          }
+          Vfx {
+            Relevance {
+              Value: "mc:evfxrelevance:medium"
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 7359063263184317186
+        Name: "Sci-fi Radial Element VFX"
+        Transform {
+          Location {
+            X: 0.00191243482
+          }
+          Rotation {
+            Pitch: -90
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 0.5
+          }
+        }
+        ParentId: 16848996815784559702
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.929999948
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Edge Color"
+            Color {
+              R: 1
+              G: 0.241986752
+              B: 0.0299999714
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 17395695237026391644
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+            Relevance {
+              Value: "mc:evfxrelevance:medium"
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 11825970036118285218
+        Name: "Sci-fi Radial Element VFX"
+        Transform {
+          Location {
+            X: -199.837967
+          }
+          Rotation {
+            Pitch: -90
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 0.5
+          }
+        }
+        ParentId: 16848996815784559702
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.929999948
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Edge Color"
+            Color {
+              R: 1
+              G: 0.241986752
+              B: 0.0299999714
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 17395695237026391644
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+            Relevance {
+              Value: "mc:evfxrelevance:medium"
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 1426856261327864366
+        Name: "Sci-fi Radial Element VFX"
+        Transform {
+          Location {
+            X: -444.629608
+          }
+          Rotation {
+            Pitch: -90
+          }
+          Scale {
+            X: 2
+            Y: 2
+            Z: 1
+          }
+        }
+        ParentId: 16848996815784559702
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.929999948
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Edge Color"
+            Color {
+              R: 1
+              G: 0.241986752
+              B: 0.0299999714
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 17395695237026391644
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+            Relevance {
+              Value: "mc:evfxrelevance:medium"
+            }
+          }
         }
       }
       Objects {
@@ -9865,6 +11173,51 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_prop_scf_crate_small_001_ref"
+      }
+    }
+    Assets {
+      Id: 2859981501041078432
+      Name: "Gunshot Sniper Rifle Set 01 SFX"
+      PlatformAssetType: 10
+      PrimaryAsset {
+        AssetType: "AudioBlueprintAssetRef"
+        AssetId: "sfxabp_gunshot_sniperrifle_ref"
+      }
+    }
+    Assets {
+      Id: 6056284838293397328
+      Name: "Gunshot Boom Sweetener 01 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_gunshot_boom_sweetener_01_Cue_ref"
+      }
+    }
+    Assets {
+      Id: 17772688341795286021
+      Name: "Gunshot Boom Sweetener 02 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_gunshot_boom_sweetener_02_Cue_ref"
+      }
+    }
+    Assets {
+      Id: 2032514755182163228
+      Name: "Rocket Launcher Muzzleflash VFX"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_rocket_launcher_muzzleflash"
+      }
+    }
+    Assets {
+      Id: 17395695237026391644
+      Name: "Sci-fi Radial Element VFX"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_SciFi_RadialElement"
       }
     }
     Assets {

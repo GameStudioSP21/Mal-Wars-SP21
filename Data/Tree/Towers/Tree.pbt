@@ -379,7 +379,6 @@ Objects {
     }
   }
   ParentId: 8512805858169632350
-  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -387,47 +386,6 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   TemplateInstance {
-    ParameterOverrideMap {
-      key: 6520552589567856001
-      value {
-        Overrides {
-          Name: "AutoPlay"
-          Bool: false
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 6964727219411916486
-      value {
-        Overrides {
-          Name: "AutoPlay"
-          Bool: false
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 9730166642291353714
-      value {
-        Overrides {
-          Name: "AutoPlay"
-          Bool: false
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 10547379760738253928
-      value {
-        Overrides {
-          Name: "AutoPlay"
-          Bool: false
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-      }
-    }
     ParameterOverrideMap {
       key: 15383162064504641718
       value {

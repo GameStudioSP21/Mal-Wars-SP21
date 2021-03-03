@@ -7,7 +7,7 @@ Assets {
       RootId: 15383162064504641718
       Objects {
         Id: 15383162064504641718
-        Name: "Turret sniper 1"
+        Name: "Turret Sniper 1"
         Transform {
           Scale {
             X: 1
@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 8512805858169632350
         ChildIds: 15278186698188901302
         UnregisteredParameters {
           Overrides {
@@ -37,7 +37,6 @@ Assets {
             }
           }
         }
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -66,7 +65,6 @@ Assets {
         ParentId: 15383162064504641718
         ChildIds: 14604943546503716698
         ChildIds: 2626966395218184266
-        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -428,8 +426,6 @@ Assets {
         ChildIds: 10444199409496976566
         ChildIds: 6520552589567856001
         ChildIds: 10547379760738253928
-        ChildIds: 9730166642291353714
-        ChildIds: 6964727219411916486
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -465,8 +461,8 @@ Assets {
           AudioAsset {
             Id: 6056284838293397328
           }
-          Pitch: 199.709229
-          Volume: 2.96203876
+          Pitch: 964.246826
+          Volume: 1.43028605
           Falloff: -1
           Radius: 5000
           EnableOcclusion: true
@@ -493,7 +489,7 @@ Assets {
           Overrides {
             Name: "bp:Type"
             Enum {
-              Value: "mc:esfx_gunshot_sniper_01:4"
+              Value: "mc:esfx_gunshot_sniper_01:8"
             }
           }
         }
@@ -510,7 +506,7 @@ Assets {
           TeamSettings {
           }
           AudioBP {
-            Volume: 1
+            Volume: 1.6227982
             Falloff: 3600
             Radius: 5000
             EnableOcclusion: true
@@ -580,7 +576,6 @@ Assets {
           TeamSettings {
           }
           Vfx {
-            AutoPlay: true
             Relevance {
               Value: "mc:evfxrelevance:medium"
             }
@@ -616,81 +611,6 @@ Assets {
           TeamSettings {
           }
           Vfx {
-            AutoPlay: true
-            Relevance {
-              Value: "mc:evfxrelevance:medium"
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 9730166642291353714
-        Name: "Sci-fi Radial Element VFX"
-        Transform {
-          Location {
-            X: -112.633804
-          }
-          Rotation {
-            Pitch: -90
-          }
-          Scale {
-            X: 0.568758905
-            Y: 0.568758905
-            Z: 0.568758905
-          }
-        }
-        ParentId: 17086030062558109867
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 17395695237026391644
-          }
-          TeamSettings {
-          }
-          Vfx {
-            AutoPlay: true
-            Relevance {
-              Value: "mc:evfxrelevance:medium"
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 6964727219411916486
-        Name: "Sci-fi Radial Element VFX"
-        Transform {
-          Location {
-            X: -224.772766
-          }
-          Rotation {
-            Pitch: -90
-          }
-          Scale {
-            X: 0.863629282
-            Y: 0.863629282
-            Z: 0.863629282
-          }
-        }
-        ParentId: 17086030062558109867
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 17395695237026391644
-          }
-          TeamSettings {
-          }
-          Vfx {
-            AutoPlay: true
             Relevance {
               Value: "mc:evfxrelevance:medium"
             }
