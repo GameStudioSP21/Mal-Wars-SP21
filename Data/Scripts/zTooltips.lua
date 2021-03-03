@@ -1,3 +1,5 @@
+local GemWallet = require("E00FCC2775D5EB06")
+
 Tooltips = {}
 
 local root = World.FindObjectById('E3216DC1771A66B2')
@@ -49,6 +51,17 @@ function Tooltips:DeselectedTower()
 		Tooltips.text:Destroy()
 		Tooltips.text = nil
 	end
+end
+
+function Tooltips:SpentToUpgrade(upgradeCost)
+	local hasEnough = GemWallet.HasEnough(upgradeCost)
+	if hasEnough then
+		print("Spent " .. tostring(upgradeCost) .. " to upgrade")
+		GemWallet.SubtractFromWallet(upgradeCost)
+	else
+		print("need " .. tostring(upgradeCost) .. " to upgrade")
+	end
+	return hasEnough
 end
 
 return Tooltips
