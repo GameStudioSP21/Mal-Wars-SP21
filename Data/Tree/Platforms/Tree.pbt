@@ -13,8 +13,8 @@ Objects {
       Yaw: 44.9999924
     }
     Scale {
-      X: 8
-      Y: 8
+      X: 12
+      Y: 12
       Z: 1
     }
   }
@@ -77,8 +77,136 @@ Objects {
       Yaw: 44.9999924
     }
     Scale {
-      X: 8
-      Y: 8
+      X: 12
+      Y: 12
+      Z: 1
+    }
+  }
+  ParentId: 2254021700219062407
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:IsBuildable"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 15281791623124508840
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0912285596
+        G: 0.0912285596
+        B: 0.154000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5075754212973068898
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15139662702338587710
+  Name: "MidIslandD"
+  Transform {
+    Location {
+      X: 750
+      Y: -800
+      Z: 100
+    }
+    Rotation {
+      Yaw: 44.9999924
+    }
+    Scale {
+      X: 30
+      Y: 30
+      Z: 1
+    }
+  }
+  ParentId: 2254021700219062407
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:IsBuildable"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 15281791623124508840
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0912285596
+        G: 0.0912285596
+        B: 0.154000014
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5075754212973068898
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12820781650159402638
+  Name: "MidIslandC"
+  Transform {
+    Location {
+      X: -750
+      Y: 800
+      Z: 100
+    }
+    Rotation {
+      Yaw: 44.9999924
+    }
+    Scale {
+      X: 30
+      Y: 30
       Z: 1
     }
   }
@@ -261,8 +389,8 @@ Objects {
   Name: "Connect"
   Transform {
     Location {
-      X: 2500
-      Y: -2500
+      X: 2800
+      Y: -2800
       Z: 100
     }
     Rotation {
@@ -325,9 +453,9 @@ Objects {
   Name: "Connect"
   Transform {
     Location {
-      X: -2500
-      Y: 2500
-      Z: 100
+      X: -2800
+      Y: 2800
+      Z: 100.000977
     }
     Rotation {
       Yaw: 44.9999924

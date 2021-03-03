@@ -33,6 +33,7 @@ Objects {
   Transform {
     Location {
       X: -6000
+      Z: 10000
     }
     Rotation {
     }
