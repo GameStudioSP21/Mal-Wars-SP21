@@ -109,6 +109,18 @@ Assets {
               Id: 11698430162959436393
             }
           }
+          Overrides {
+            Name: "cs:FX"
+            AssetReference {
+              Id: 898550371987577328
+            }
+          }
+          Overrides {
+            Name: "cs:Pivot"
+            ObjectReference {
+              SubObjectId: 17692480098439851544
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -166,6 +178,7 @@ Assets {
         }
         ParentId: 10595719604611203442
         ChildIds: 8159416431339068520
+        ChildIds: 17692480098439851544
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -6903,6 +6916,34 @@ Assets {
               LinearDamping: 0.01
             }
           }
+        }
+      }
+      Objects {
+        Id: 17692480098439851544
+        Name: "SpawnPivot"
+        Transform {
+          Location {
+            X: -158.673706
+            Y: -27.1356201
+            Z: 277.407532
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.75
+            Y: 0.75
+            Z: 0.75
+          }
+        }
+        ParentId: 11508366484728823328
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
         }
       }
       Objects {

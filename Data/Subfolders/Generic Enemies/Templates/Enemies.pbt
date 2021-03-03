@@ -66,7 +66,7 @@ Assets {
           Location {
             X: 335
             Y: -385
-            Z: -6.10351562e-05
+            Z: -6.10351563e-05
           }
           Rotation {
           }
@@ -6537,7 +6537,7 @@ Assets {
           Location {
             X: -155
             Y: -5
-            Z: -6.10351562e-05
+            Z: -6.10351563e-05
           }
           Rotation {
           }
@@ -14962,9 +14962,9 @@ Assets {
         Name: "SpiderEnemyTest"
         Transform {
           Location {
-            X: 34.2851562
+            X: 34.2851563
             Y: -721.061523
-            Z: 0.000122070312
+            Z: 0.000122070313
           }
           Rotation {
           }
@@ -15762,7 +15762,7 @@ Assets {
         Name: "Lung"
         Transform {
           Location {
-            X: -2.09570312
+            X: -2.09570313
             Y: 6.68359375
             Z: 17.6203613
           }
@@ -21571,7 +21571,7 @@ Assets {
         Name: "LegLift"
         Transform {
           Location {
-            X: -104.632812
+            X: -104.632813
             Y: 40.4859619
             Z: 52.6731873
           }
@@ -25925,7 +25925,7 @@ Assets {
         Name: "Coral Branches Small"
         Transform {
           Location {
-            X: 24.5507812
+            X: 24.5507813
             Y: 261.806641
             Z: 32.7275391
           }
@@ -25987,7 +25987,7 @@ Assets {
         Transform {
           Location {
             X: 28.2275391
-            Y: 276.851562
+            Y: 276.851563
             Z: 17.5639648
           }
           Rotation {
@@ -26783,7 +26783,7 @@ Assets {
         Transform {
           Location {
             X: -23.6972656
-            Y: 266.226562
+            Y: 266.226563
             Z: 18.8432617
           }
           Rotation {
