@@ -20,6 +20,7 @@ Objects {
   ChildIds: 10005074784157121906
   ChildIds: 10722931758594424760
   ChildIds: 8512805858169632350
+  ChildIds: 15885606419812222058
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -29,6 +30,53 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 15885606419812222058
+  Name: "queen"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12379996449719569168
+      value {
+        Overrides {
+          Name: "Name"
+          String: "queen"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2100
+            Z: 5400
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 175
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.5
+            Y: 2.5
+            Z: 2.5
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16462681254409379470
+    }
   }
 }
 Objects {
