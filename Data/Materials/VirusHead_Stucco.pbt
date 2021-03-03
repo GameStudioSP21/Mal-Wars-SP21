@@ -2,7 +2,7 @@ Assets {
   Id: 782767880512665319
   Name: "VirusHead_Stucco"
   PlatformAssetType: 13
-  SerializationVersion: 74
+  SerializationVersion: 76
   CustomMaterialAsset {
     BaseMaterialId: 4247430867898109902
     ParameterOverrides {

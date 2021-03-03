@@ -2,7 +2,7 @@ Assets {
   Id: 5822712679614600134
   Name: "Custom Base Material from Military Tank Historic Lights 01"
   PlatformAssetType: 13
-  SerializationVersion: 74
+  SerializationVersion: 76
   CustomMaterialAsset {
     BaseMaterialId: 649855472067951199
     ParameterOverrides {

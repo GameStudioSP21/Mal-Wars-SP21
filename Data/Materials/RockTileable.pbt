@@ -2,7 +2,7 @@ Assets {
   Id: 4621299013342710430
   Name: "RockTileable"
   PlatformAssetType: 13
-  SerializationVersion: 74
+  SerializationVersion: 76
   CustomMaterialAsset {
     BaseMaterialId: 704730776269300164
     ParameterOverrides {

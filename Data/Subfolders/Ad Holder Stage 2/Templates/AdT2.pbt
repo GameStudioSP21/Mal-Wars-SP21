@@ -91,6 +91,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -156,6 +157,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -211,6 +213,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -265,6 +268,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -324,6 +328,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -383,6 +388,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -448,6 +454,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -513,6 +520,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -566,6 +574,6 @@ Assets {
   Marketplace {
     Description: "Stage 2 of Ad Holder"
   }
-  SerializationVersion: 74
+  SerializationVersion: 76
   DirectlyPublished: true
 }

@@ -168,6 +168,9 @@ Objects {
     TeamSettings {
     }
     Vfx {
+      Relevance {
+        Value: "mc:evfxrelevance:critical"
+      }
     }
   }
   InstanceHistory {

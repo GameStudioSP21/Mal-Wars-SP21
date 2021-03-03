@@ -532,6 +532,7 @@ Assets {
           Teams {
             IsEnemyCollisionEnabled: true
           }
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -898,6 +899,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          InteractWithTriggers: true
           AnimatedMesh {
             AnimationStance: "unarmed_bind_pose"
             AnimationStancePlaybackRate: 1
@@ -1015,6 +1017,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -1075,6 +1078,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -1143,6 +1147,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -1211,6 +1216,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -1279,6 +1285,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -1347,6 +1354,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -1406,6 +1414,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
               LinearDamping: 0.01
@@ -1467,6 +1476,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -1530,6 +1540,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -1593,6 +1604,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -1656,6 +1668,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -1820,6 +1833,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -1887,6 +1901,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -1956,6 +1971,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -2025,6 +2041,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -2094,6 +2111,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -2163,6 +2181,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -2232,6 +2251,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -2301,6 +2321,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -2370,6 +2391,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -2439,6 +2461,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -2508,6 +2531,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -2577,6 +2601,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -2646,6 +2671,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -2715,6 +2741,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -2784,6 +2811,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -2853,6 +2881,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -2922,6 +2951,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -2991,6 +3021,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -3060,6 +3091,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -3129,6 +3161,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -3198,6 +3231,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -3267,6 +3301,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -3336,6 +3371,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -3405,6 +3441,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -3474,6 +3511,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -3543,6 +3581,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -3612,6 +3651,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -3681,6 +3721,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -3750,6 +3791,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -3819,6 +3861,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -3888,6 +3931,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -3957,6 +4001,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -4026,6 +4071,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -4095,6 +4141,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -4164,6 +4211,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -4311,6 +4359,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -4422,6 +4471,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -4476,6 +4526,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -4530,6 +4581,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -4589,6 +4641,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -4707,6 +4760,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -4764,6 +4818,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -4821,6 +4876,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -4934,6 +4990,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -5203,6 +5260,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -5273,6 +5331,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -5344,6 +5403,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -5527,5 +5587,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 74
+  SerializationVersion: 76
 }

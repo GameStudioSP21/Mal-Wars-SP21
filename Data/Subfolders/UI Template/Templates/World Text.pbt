@@ -24,6 +24,8 @@ Assets {
         }
         Text {
           Text: "HELLO WORLD"
+          FontAsset {
+          }
           Color {
             R: 1
             G: 1
@@ -49,6 +51,6 @@ Assets {
   Marketplace {
     Description: "UI Template"
   }
-  SerializationVersion: 74
+  SerializationVersion: 76
   DirectlyPublished: true
 }

@@ -40,5 +40,5 @@ Assets {
     Version: "1.0.0"
     Description: "Upgraded Version of AOE Turret 2."
   }
-  SerializationVersion: 74
+  SerializationVersion: 76
 }

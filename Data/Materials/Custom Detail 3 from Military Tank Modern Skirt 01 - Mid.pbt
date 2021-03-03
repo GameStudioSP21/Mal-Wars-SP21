@@ -2,7 +2,7 @@ Assets {
   Id: 11793151715544887656
   Name: "Custom Detail 3 from Military Tank Modern Skirt 01 - Mid"
   PlatformAssetType: 13
-  SerializationVersion: 74
+  SerializationVersion: 76
   CustomMaterialAsset {
     BaseMaterialId: 12551967639101993409
     ParameterOverrides {

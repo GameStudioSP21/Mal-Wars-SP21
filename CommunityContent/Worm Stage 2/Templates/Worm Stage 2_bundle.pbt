@@ -40,5 +40,5 @@ Assets {
     Version: "1.0.0"
     Description: "Stage 2 of Worm"
   }
-  SerializationVersion: 74
+  SerializationVersion: 76
 }

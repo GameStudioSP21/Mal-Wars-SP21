@@ -150,6 +150,7 @@ Assets {
             IsEnemyCollisionEnabled: true
           }
           EnableCameraCollision: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -247,6 +248,9 @@ Assets {
           }
           Vfx {
             AutoPlay: true
+            Relevance {
+              Value: "mc:evfxrelevance:critical"
+            }
           }
         }
       }
@@ -283,5 +287,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 74
+  SerializationVersion: 76
 }

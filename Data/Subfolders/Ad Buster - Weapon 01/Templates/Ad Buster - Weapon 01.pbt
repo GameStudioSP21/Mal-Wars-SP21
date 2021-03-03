@@ -40,5 +40,5 @@ Assets {
     Version: "1.0.0"
     Description: "Weapon 01"
   }
-  SerializationVersion: 74
+  SerializationVersion: 76
 }

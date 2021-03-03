@@ -2,7 +2,7 @@ Assets {
   Id: 8825740031262341328
   Name: "AC_Custom Metal Greebles_GREEN"
   PlatformAssetType: 13
-  SerializationVersion: 74
+  SerializationVersion: 76
   CustomMaterialAsset {
     BaseMaterialId: 16375458881436793199
     ParameterOverrides {

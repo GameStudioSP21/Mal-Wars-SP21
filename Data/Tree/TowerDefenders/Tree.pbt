@@ -286,6 +286,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       AutoWrapText: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -1032,6 +1034,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       AutoWrapText: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -1892,6 +1896,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       AutoWrapText: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -2034,6 +2040,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       AutoWrapText: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -2173,6 +2181,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       AutoWrapText: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -3067,6 +3077,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       AutoWrapText: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -3306,6 +3318,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       AutoWrapText: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -3367,6 +3381,8 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       AutoWrapText: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -3731,6 +3747,8 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       AutoWrapText: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -3793,6 +3811,8 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       AutoWrapText: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -3858,6 +3878,8 @@ Objects {
         Value: "mc:etextjustify:left"
       }
       AutoWrapText: true
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -4458,6 +4480,8 @@ Objects {
       Size: 50
       Justification {
         Value: "mc:etextjustify:center"
+      }
+      Font {
       }
     }
     AnchorLayout {

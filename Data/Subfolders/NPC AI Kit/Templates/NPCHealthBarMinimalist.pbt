@@ -147,6 +147,7 @@ Assets {
           DisableDistanceFieldLighting: true
           DisableCastShadows: true
           DisableReceiveDecals: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -191,6 +192,7 @@ Assets {
           DisableDistanceFieldLighting: true
           DisableCastShadows: true
           DisableReceiveDecals: true
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -223,6 +225,8 @@ Assets {
         }
         Text {
           Text: "100 / 100"
+          FontAsset {
+          }
           Color {
             R: 1
             G: 1
@@ -254,5 +258,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 74
+  SerializationVersion: 76
 }

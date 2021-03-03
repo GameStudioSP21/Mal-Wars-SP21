@@ -581,6 +581,7 @@ Assets {
           Teams {
             IsEnemyCollisionEnabled: true
           }
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -935,6 +936,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          InteractWithTriggers: true
           AnimatedMesh {
             AnimationStance: "unarmed_walk_forward"
             AnimationStancePlaybackRate: 1
@@ -988,5 +990,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 74
+  SerializationVersion: 76
 }

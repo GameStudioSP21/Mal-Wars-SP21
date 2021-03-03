@@ -2,7 +2,7 @@ Assets {
   Id: 13128601564077528735
   Name: "greenEmissiveGlow"
   PlatformAssetType: 13
-  SerializationVersion: 74
+  SerializationVersion: 76
   CustomMaterialAsset {
     BaseMaterialId: 3702191406046426907
     ParameterOverrides {

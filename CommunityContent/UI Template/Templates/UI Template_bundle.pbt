@@ -64,5 +64,5 @@ Assets {
     Version: "1.0.0"
     Description: "UI Template"
   }
-  SerializationVersion: 74
+  SerializationVersion: 76
 }

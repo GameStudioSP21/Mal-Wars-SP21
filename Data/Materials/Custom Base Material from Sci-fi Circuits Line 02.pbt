@@ -2,7 +2,7 @@ Assets {
   Id: 13220855595545839952
   Name: "Custom Base Material from Sci-fi Circuits Line 02"
   PlatformAssetType: 13
-  SerializationVersion: 74
+  SerializationVersion: 76
   CustomMaterialAsset {
     BaseMaterialId: 1808822825735943136
     ParameterOverrides {
