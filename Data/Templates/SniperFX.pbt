@@ -18,8 +18,7 @@ Assets {
         ParentId: 4781671109827199097
         ChildIds: 5926095670691929179
         ChildIds: 6577575470025200319
-        ChildIds: 18207433459973423284
-        Lifespan: 1.5
+        Lifespan: 3.5
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -45,6 +44,12 @@ Assets {
           }
         }
         ParentId: 8800713323459709681
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Enable Looping"
+            Bool: false
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -99,40 +104,6 @@ Assets {
           IsAttenuationEnabled: true
         }
       }
-      Objects {
-        Id: 18207433459973423284
-        Name: "Gunshot Minigun Firing Deactivate 01 SFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 8800713323459709681
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        AudioInstance {
-          AudioAsset {
-            Id: 14938367592734691932
-          }
-          AutoPlay: true
-          Volume: 3
-          Falloff: 6000
-          Radius: 4000
-          EnableOcclusion: true
-          IsSpatializationEnabled: true
-          IsAttenuationEnabled: true
-        }
-      }
     }
     Assets {
       Id: 2408688178116456261
@@ -150,15 +121,6 @@ Assets {
       PrimaryAsset {
         AssetType: "AudioAssetRef"
         AssetId: "sfx_scifi_airlock_pressure_release_steam_01a_Cue_ref"
-      }
-    }
-    Assets {
-      Id: 14938367592734691932
-      Name: "Gunshot Minigun Firing Deactivate 01 SFX"
-      PlatformAssetType: 7
-      PrimaryAsset {
-        AssetType: "AudioAssetRef"
-        AssetId: "sfx_minigun_firing_deactivate_01_Cue_ref"
       }
     }
     PrimaryAssetId {

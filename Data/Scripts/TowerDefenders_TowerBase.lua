@@ -371,8 +371,8 @@ function Tower:_Runtime()
                     end)
                     Task.Spawn(function()
                         if not Object.IsValid(self.currentTarget) then return end
-                        self:_FireEvent("OnFired",self.currentTarget)
                         self:FireFakeProjectile()
+                        self:_FireEvent("OnFired",self.currentTarget)
                     end)
                 end
             end

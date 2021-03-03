@@ -568,7 +568,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: 113.566894
+            X: 113.566895
             Y: 370.171875
             Z: 52.7272034
           }
@@ -988,7 +988,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -321.278808
+            X: -321.278809
             Y: -496.359375
             Z: 52.7272034
           }
@@ -1168,7 +1168,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: 78.1601562
+            X: 78.1601563
             Y: -256.125488
             Z: 52.7272034
           }
@@ -1289,7 +1289,7 @@ Assets {
         Transform {
           Location {
             X: -381.334961
-            Y: -123.719726
+            Y: -123.719727
             Z: 52.7272034
           }
           Rotation {
@@ -2065,7 +2065,7 @@ Assets {
         Transform {
           Location {
             X: -715.088379
-            Y: -1293.13476
+            Y: -1293.13477
             Z: 52.7272034
           }
           Rotation {
@@ -2244,7 +2244,7 @@ Assets {
         Transform {
           Location {
             X: -737.999512
-            Y: -1217.2456
+            Y: -1217.24561
             Z: 52.7272034
           }
           Rotation {
@@ -2903,7 +2903,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: 876.813476
+            X: 876.813477
             Y: 825.34375
             Z: 52.7272034
           }
@@ -3258,7 +3258,7 @@ Assets {
         Transform {
           Location {
             X: -105.436035
-            Y: -101.973144
+            Y: -101.973145
           }
           Rotation {
             Yaw: -45.0770645
@@ -3494,7 +3494,7 @@ Assets {
         Transform {
           Location {
             X: -105.436035
-            Y: -101.973144
+            Y: -101.973145
           }
           Rotation {
             Yaw: -45.0770645
@@ -3700,7 +3700,7 @@ Assets {
         Transform {
           Location {
             X: -105.436035
-            Y: -101.973144
+            Y: -101.973145
           }
           Rotation {
             Yaw: -45.0770645
