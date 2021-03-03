@@ -40,7 +40,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 250
+      Int: 1250
     }
     Overrides {
       Name: "cs:Damage"
@@ -127,7 +127,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 250
+      Int: 750
     }
     Overrides {
       Name: "cs:Damage"
@@ -220,7 +220,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 250
+      Int: 500
     }
     Overrides {
       Name: "cs:Damage"
