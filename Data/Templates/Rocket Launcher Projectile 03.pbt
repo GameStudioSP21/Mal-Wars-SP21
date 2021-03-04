@@ -62,7 +62,6 @@ Assets {
         Name: "Cone - Bullet"
         Transform {
           Location {
-            X: 82.4643936
           }
           Rotation {
             Pitch: -90
@@ -118,9 +117,8 @@ Assets {
         Name: "Basic Projectile Trail VFX"
         Transform {
           Location {
-            X: -6.35782853e-05
-            Y: 0.000753895554
-            Z: -1613.62891
+            X: -6.35782781e-05
+            Z: 7.57445235e-12
           }
           Rotation {
             Roll: 3.55019701e-25
@@ -160,7 +158,7 @@ Assets {
           }
           Overrides {
             Name: "bp:Emissive Boost"
-            Float: 2
+            Float: 3.76491022
           }
           Overrides {
             Name: "bp:Particle Scale Multiplier"
@@ -168,7 +166,7 @@ Assets {
           }
           Overrides {
             Name: "bp:Life"
-            Float: 0.138520211
+            Float: 0.1
           }
         }
         Collidable_v2 {
