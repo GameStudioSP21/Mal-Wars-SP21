@@ -69,7 +69,7 @@ Objects {
     Overrides {
       Name: "cs:VisualProjectile"
       AssetReference {
-        Id: 44640566142195158
+        Id: 3764517000745504022
       }
     }
     Overrides {
@@ -156,7 +156,7 @@ Objects {
     Overrides {
       Name: "cs:VisualProjectile"
       AssetReference {
-        Id: 10948153152124094650
+        Id: 4993775891242854984
       }
     }
     Overrides {
@@ -255,7 +255,7 @@ Objects {
     Overrides {
       Name: "cs:VisualProjectile"
       AssetReference {
-        Id: 10948153152124094650
+        Id: 12931624179020546254
       }
     }
     Overrides {
@@ -348,7 +348,7 @@ Objects {
     Overrides {
       Name: "cs:VisualProjectile"
       AssetReference {
-        Id: 10948153152124094650
+        Id: 14014031556521938083
       }
     }
     Overrides {
