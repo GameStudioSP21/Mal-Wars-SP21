@@ -171,6 +171,10 @@ function Tick(deltaTime)
     if currentState == STATE_WALK_TO_NODE then
         local dist = (ROOT:GetWorldPosition() - nextPos).size
 
+		-- First Calculation
+		-- TODO: Get Total distance to end squared
+		-- TODO: Get Squared distance from me to next node and get the delta from total distance and my distance to the next node
+
         if ROOT:GetCustomProperty("CurrentHealth") <= 0 then
             SetState(STATE_DEAD_1)
         end
