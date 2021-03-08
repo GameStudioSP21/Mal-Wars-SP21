@@ -209,11 +209,11 @@ function Board:AddTower(tower, position, _hasRepeated)
 
     -- Replication event.
     if Environment.IsClient() and not _hasRepeated then
-        print("[Client] Sending Add tower to server.")
+        --print("[Client] Sending Add tower to server.")
         Events.BroadcastToServer("PT",tower:GetOwner(),tower:GetID(),position.x,position.y,position.z)
     elseif Environment.IsServer() and not _hasRepeated then
         print("[Server] Sending add tower to all players.")
-        CoreDebug.DrawLine(position, position + Vector3.UP * 100, { color = Color.GREEN, duration = 20000, thickness = 20 } )
+        --CoreDebug.DrawLine(position, position + Vector3.UP * 100, { color = Color.GREEN, duration = 20000, thickness = 20 } )
         Events.BroadcastToAllPlayers("PT",tower:GetOwner(),tower:GetID(),position.x,position.y,position.z)
     end
 end
@@ -221,21 +221,21 @@ end
 -- Upgrades a tower on the board when provided a tower.
 function Board:UpgradeTower(tower, _hasRepeated)
     if Environment.IsClient() then
-        print("[Client] Upgrading Tower")
+        --print("[Client] Upgrading Tower")
         local LOCAL_PLAYER = Game.GetLocalPlayer()
         -- Return if the message has been repeated to us already.
         if _hasRepeated and LOCAL_PLAYER == tower:GetOwner() then
-            print("[Client] Repeated message. Not playing again.")
+            --print("[Client] Repeated message. Not playing again.")
             return
         end
     else
-        print("[Server] Upgrading Tower")
+        --print("[Server] Upgrading Tower")
     end
 
 
     
     local nextUpgradedTowerMUID = tower:GetNextUpgradeMUID()
-    print("Creating Upgraded Tower:",nextUpgradedTowerMUID)
+    --print("Creating Upgraded Tower:",nextUpgradedTowerMUID)
     local newTower = TowerDatabase:NewTowerByMUID(nextUpgradedTowerMUID)
 
     -- Move tower to new position.
@@ -266,10 +266,10 @@ function Board:UpgradeTower(tower, _hasRepeated)
 
     -- Replication event.
     if Environment.IsClient() and not _hasRepeated then
-        print("[Client] Sending upgrade tower to server.")
+        --print("[Client] Sending upgrade tower to server.")
         Events.BroadcastToServer("UT",newTower:GetOwner(),position.x,position.y,position.z)
     elseif Environment.IsServer() and not _hasRepeated then
-        print("[Server] Sending upgrade tower to all players.")
+        --print("[Server] Sending upgrade tower to all players.")
         CoreDebug.DrawLine(position, position + Vector3.UP * 100, { color = Color.GREEN, duration = 20000, thickness = 20 } )
         Events.BroadcastToAllPlayers("UT",newTower:GetOwner(),position.x,position.y,position.z)
     end
@@ -283,20 +283,20 @@ end
 -- Sells a tower on the board when provided a tower
 function Board:SellTower(tower, _hasRepeated)
     if Environment.IsClient() then
-        print("[Client] Selling Tower")
+       --print("[Client] Selling Tower")
         local LOCAL_PLAYER = Game.GetLocalPlayer()
         -- Return if the message has been repeated to us already.
         if _hasRepeated and LOCAL_PLAYER == tower:GetOwner() then
-            print("[Client] Repeated message. Not playing again.")
+            --print("[Client] Repeated message. Not playing again.")
             return
         end
     else
-        print("[Server] Selling Tower")
+        --print("[Server] Selling Tower")
     end
 
     for i, currentTower in pairs(self.towers) do
         if currentTower:GetWorldPosition() == tower:GetWorldPosition() then
-            print("Removing current tower!")
+            --print("Removing current tower!")
             table.remove(self.towers,i)
         end
     end
@@ -305,10 +305,10 @@ function Board:SellTower(tower, _hasRepeated)
 
     -- Replication event.
     if Environment.IsClient() and not _hasRepeated then
-        print("[Client] Sending upgrade tower to server.")
+        --print("[Client] Sending upgrade tower to server.")
         Events.BroadcastToServer("ST",tower:GetOwner(),position.x,position.y,position.z)
     elseif Environment.IsServer() and not _hasRepeated then
-        print("[Server] Sending upgrade tower to all players.")
+        --print("[Server] Sending upgrade tower to all players.")
         Events.BroadcastToAllPlayers("ST",tower:GetOwner(),position.x,position.y,position.z)
     end
 

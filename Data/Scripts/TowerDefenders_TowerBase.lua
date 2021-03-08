@@ -209,16 +209,21 @@ function Tower:GetID()
     return self.data.index
 end
 
+function Tower:GetRarity()
+    return self.data.rarity
+end
+
 function Tower:GetIcon()
     return self.data.iconMUID
 end
 
 function Tower:GetMUID()
-    return self.data.towerMUID:match("^(.+):")
+    return self.data.towerMUID
 end
 
 function Tower:GetGhostMUID()
-    return self.data.towerGhostMUID:match("^(.+):")
+    --:match("^(.+):")
+    return self.data.towerGhostMUID
 end
 
 function Tower:GetCost()
@@ -229,8 +234,22 @@ function Tower:GetStat(statName)
     return self.data.stats[statName]
 end
 
+-- Returns a table containing all the stats.
+-- The key is the stat name and the value is the value for that stat.
+function Tower:GetStats()
+    return self.data.stats
+end
+
 function Tower:GetNextUpgradeMUID()
     return self.data.nextTowerMUID
+end
+
+function Tower:GetUpgradeIndex()
+    return self.data.upgradeIndex
+end
+
+function Tower:GetMaxUpgradeIndex()
+    return self.data.maxUpgradeIndex
 end
 
 function Tower:GetVisualProjectile()
@@ -242,10 +261,6 @@ function Tower:InRange(object)
         return true
     end
     return false
-end
-
-function Tower:IsPositionInRange(position)
-
 end
 
 function Tower:GetNearestEnemy()

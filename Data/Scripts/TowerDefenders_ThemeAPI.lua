@@ -11,7 +11,6 @@ local THEME_RARITIES = {}
 
 local STATS_REQUIRED_PROPERTIES = {
     "Icon",
-    "StatType"
 }
 
 local TYPES_REQUIRED_PROPERTIES = {
@@ -36,7 +35,7 @@ for _, stat in pairs(TOWER_STATS:GetChildren()) do
     HasRequiredProperties(stat,STATS_REQUIRED_PROPERTIES)
     THEME_STATS[stat.name] = {
         icon = stat:GetCustomProperty("Icon"),
-        statType = stat:GetCustomProperty("StatType")
+        color = stat:GetCustomProperty("StatColor")
     }
 end
 
@@ -59,14 +58,8 @@ for _, rarity in pairs(TOWER_RARITIES:GetChildren()) do
     }
 end
 
--- function Theme.WaitUntilLoaded()
---     while #THEME_STATS == 0 and #THEME_TYPES == 0 and #THEME_RARITIES == 0 do
---         Task.Wait()
---     end
--- end
-
 ---- STATS
--- Returns a table of stats
+-- Returns a table of avaliable stats
 function Theme.GetStats()
     return THEME_STATS
 end
@@ -77,11 +70,16 @@ function Theme.GetStatIcon(statName)
     return THEME_STATS[statName].icon
 end
 
--- Get the statType from a stat name.
-function Theme.GetStatType(statName)
-    assert(THEME_STATS[statName].statType,string.format("Tried to get the stat type for - %s that does not exist.",statName))
-    return THEME_STATS[statName].statType
+-- Get the color for the state.
+function Theme.GetStatColor(statName)
+    return THEME_STATS[statName].color
 end
+
+-- -- Get the statType from a stat name.
+-- function Theme.GetStatType(statName)
+--     assert(THEME_STATS[statName].statType,string.format("Tried to get the stat type for - %s that does not exist.",statName))
+--     return THEME_STATS[statName].statType
+-- end
 ---- STATS
 
 ---- TYPES
