@@ -89,4 +89,7 @@ function GameManager.GetNPCCurrentBoard(object)
     end
 end
 
+-- TODO: Have events for when the board is destroyed for a player
+-- TODO: Have an event for when a board is created.
+
 return GameManager

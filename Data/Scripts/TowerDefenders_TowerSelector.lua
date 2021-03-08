@@ -3,6 +3,7 @@
     Description: Blah Blah Blah pending...
 --]]
 
+
 local TowerSelector = {}
 TowerSelector.__index = TowerSelector
 
@@ -17,6 +18,10 @@ local LOCAL_PLAYER = Game.GetLocalPlayer()
 ----------------------------------------
 
 -- Provide a board object and table of selectorData
+-- Avaliable options
+-- selectorData {
+
+-- }
 function TowerSelector.New(board,selectorData)
     local self = {}
     setmetatable(self,TowerSelector)
@@ -48,6 +53,15 @@ function TowerSelector:IsActive()
     return Object.IsValid(self.selectorVisualObject)
 end
 
+-- When set to true the selector will be locked into place and not move.
+function TowerSelector:SetLocked(state)
+    self.isLocked = state
+end
+
+function TowerSelector:GetLockedState()
+    return self.isLocked
+end
+
 -- Returns the nearest tower while considering the magnetize distance threshold.
 function TowerSelector:GetNearestTower()
     return self.board:GetNearestTower(self:GetImpactPosition(),self.magnetizeDistanceThreshold,LOCAL_PLAYER)
@@ -76,9 +90,9 @@ end
 function TowerSelector:_Init(selectorData)
 
     self.selectorVisualMUID = selectorData.selectorVisualMUID
-    self.selectorTowerSwitchLerpTime = selectorData.selectorTowerSwitchLerpTime or 0.5
+    --self.selectorTowerSwitchLerpTime = selectorData.selectorTowerSwitchLerpTime or 0.5
     -- When true the selector will be positioned on the mouse instead of the center of the screen
-    self.isAttachToMouse = selectorData.isAttachToMouse or false 
+    --self.isAttachToMouse = selectorData.isAttachToMouse or false 
     self.magnetizeDistanceThreshold = selectorData.magnetizeDistanceThreshold or 0
     self.minSelectorDistance = selectorData.minSelectDistance or 50
     self.maxSelectorDistance = selectorData.maxSelectDistance or 10000
@@ -99,7 +113,7 @@ function TowerSelector:_Init(selectorData)
         end)
     end
 
-    assert(self.selectorTowerSwitchLerpTime >= 0, "selectortowerSwitchLerpTime must be a value greater than or equal to zero. You can't have negative time.")
+    --assert(self.selectorTowerSwitchLerpTime >= 0, "selectortowerSwitchLerpTime must be a value greater than or equal to zero. You can't have negative time.")
     assert(self.magnetizeDistanceThreshold >= 0, "You can not have a negative magnetizeDistanceThreshold value. Zero or positive values only.")
 end
 
@@ -136,7 +150,7 @@ function TowerSelector:_Runtime()
             
             local hitResult = self.isCamToMouseRaycasting and UI.GetCursorHitResult() or World.Raycast(startPos, endPos, {ignorePlayers = true})
 
-            if hitResult then
+            if hitResult and not self.isLocked then
                 self.rayImpactPosition = hitResult:GetImpactPosition()
                 self.selectorVisualObject.visibility = Visibility.FORCE_ON
                 if hitResult.other then
@@ -156,7 +170,7 @@ function TowerSelector:_Runtime()
                         self.selectorVisualObject:SetWorldPosition(self.rayImpactPosition)
                     end
                 end
-            else
+            elseif not self.isLocked then
                 self.selectorVisualObject.visibility = Visibility.FORCE_OFF
             end
 

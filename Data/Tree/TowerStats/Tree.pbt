@@ -23,8 +23,12 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:StatType"
-      String: "Interger"
+      Name: "cs:StatColor"
+      Color {
+        G: 0.749006391
+        B: 0.87
+        A: 1
+      }
     }
   }
   Collidable_v2 {
@@ -61,8 +65,12 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:StatType"
-      String: "Interger"
+      Name: "cs:StatColor"
+      Color {
+        R: 0.0585429929
+        G: 0.52
+        A: 1
+      }
     }
   }
   Collidable_v2 {
@@ -99,8 +107,11 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:StatType"
-      String: "Interger"
+      Name: "cs:StatColor"
+      Color {
+        R: 0.770000041
+        A: 1
+      }
     }
   }
   Collidable_v2 {

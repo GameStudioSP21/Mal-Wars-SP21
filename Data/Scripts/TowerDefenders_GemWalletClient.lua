@@ -28,7 +28,11 @@ function GemWallet.SubtractFromWallet(amount)
 end
 
 function GemWallet.HasEnough(amount)
-    if amount <= currentGemCount then
+    local spentGems = 0
+    if deltaGemCount < 0 then
+        spentGems = deltaGemCount
+    end
+    if amount <= currentGemCount - spentGems then
         return true
     end
     return false

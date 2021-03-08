@@ -203,16 +203,21 @@ function Tower:GetID()
     return self.data.index
 end
 
+function Tower:GetRarity()
+    return self.data.rarity
+end
+
 function Tower:GetIcon()
     return self.data.iconMUID
 end
 
 function Tower:GetMUID()
-    return self.data.towerMUID:match("^(.+):")
+    return self.data.towerMUID
 end
 
 function Tower:GetGhostMUID()
-    return self.data.towerGhostMUID:match("^(.+):")
+    --:match("^(.+):")
+    return self.data.towerGhostMUID
 end
 
 function Tower:GetCost()
@@ -223,8 +228,22 @@ function Tower:GetStat(statName)
     return self.data.stats[statName]
 end
 
+-- Returns a table containing all the stats.
+-- The key is the stat name and the value is the value for that stat.
+function Tower:GetStats()
+    return self.data.stats
+end
+
 function Tower:GetNextUpgradeMUID()
     return self.data.nextTowerMUID
+end
+
+function Tower:GetUpgradeIndex()
+    return self.data.upgradeIndex
+end
+
+function Tower:GetMaxUpgradeIndex()
+    return self.data.maxUpgradeIndex
 end
 
 function Tower:GetVisualProjectile()
@@ -236,10 +255,6 @@ function Tower:InRange(object)
         return true
     end
     return false
-end
-
-function Tower:IsPositionInRange(position)
-
 end
 
 function Tower:GetNearestEnemy()
@@ -300,46 +315,9 @@ end
 -- Private
 ----------------------------------------------------
 
--- local HASH_RUNTIME = "R"
--- local HASH_PERSISTENT = "P"
--- local HASH_DELIM_INTRO = "|"
--- local HASH_DELIM_STAT_BASE = "#"
--- local HASH_DELIM_STAT_BONUS = "&"
--- local HASH_DELIM_STAT_EQUALS = "="
--- local HASH_PATTERN_FULL = "^(.*)|(.*)|(.*)|(.*)|(.*)|(.*)$"
--- local HASH_PATTERN_STAT = "([#&])([^#&=]+)=(....)"
--- local HASH_INVENTORY_PATTERN = "<([^<>;]+)>([^<>;]+)<([^<>;]+)>;"
-
 function Tower:_Init(towerData)
     self.data = towerData
 end
-
--- function Tower:_IntoHash(isRuntime)
---     local hashParts = {}
---     table.insert(hashParts, isRuntime and HASH_RUNTIME or HASH_PERSISTENT)
---     table.insert(hashParts, isRuntime and Base64.Encode24(self.data.index) or self.data.towerMUID)
---     table.insert(hashParts, HASH_DELIM_INTRO)
---     table.insert(hashParts, Base64.Encode6(self.level))
---     return hashParts
--- end
-
--- function Item._FromHash(database, hash)
---     local hashType = hash:sub(1, 1)
---     local hashData = hash:sub(2)
---     local isRuntime = hashType == HASH_RUNTIME
---     local hashItemId, hashStackSize, hashEnhancementLevel, hashLimitBreakLevel, hashItemStats, backpackSubHash = hashData:match(HASH_PATTERN_FULL)
---     local itemData = nil
---     if isRuntime then
---         itemData = database:FindItemDataByIndex(Base64.Decode24(hashItemId))
---     else
---         itemData = database:FindItemDataByMUID(hashItemId)
---     end
---     if not itemData then
---         warn("unable to locate item data for hash: ", hashData)
---         return
---     end
---     return Tower.New()
--- end
 
 function Tower:_Runtime()
     
