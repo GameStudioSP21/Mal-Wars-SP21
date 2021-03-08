@@ -20,7 +20,7 @@ function Tick()
     local camPosition = LOCAL_PLAYER:GetViewWorldPosition()
     if selectedTower then
         local distance = (camPosition - selectedTower:GetWorldPosition()).size
-        local uiPosition = selectedTower:GetWorldPosition() + Vector3.UP * 50
+        local uiPosition = selectedTower:GetWorldPosition() + Vector3.UP * 100
         local towerPosition = UI.GetScreenPosition(uiPosition)
 
         if towerPosition then
@@ -42,11 +42,20 @@ UPGRADE_BUTTON.pressedEvent:Connect(function()
     end
 end)
 
-Events.Connect("DisplayTowerContexMenu",function(tower) 
+Events.Connect("DisplayTowerContexMenu",function(tower)
+
     selectedTower = tower
     statsView:DisplayTowerStats(tower)
 
-    local nextTowerMUID = selectedTower:GetNextUpgradeMUID()
+    Task.Spawn(function()
+        Task.Wait()
+        tower:DisplayRangeRadius()
+    end)
+
+
+    print("Displaying Stats")
+
+    local nextTowerMUID = tower:GetNextUpgradeMUID()
     local upgradeValueUI = UPGRADE_BUTTON:GetCustomProperty("ButtonValue"):WaitForObject()
     -- If the next upgrade exist then setup the tower context menu
     if nextTowerMUID then
@@ -66,7 +75,7 @@ UPGRADE_BUTTON.pressedEvent:Connect(function()
     if selectedTower and board and GemWallet.HasEnough(selectedTower:GetCost()) and selectedTower:GetNextUpgradeMUID() then
 
         board:UpgradeTower(selectedTower)
-        GemWallet.SubtractToWallet(selectedTower:GetCost())
+        GemWallet.SubtractFromWallet(selectedTower:GetCost())
         local nearestTower = board:GetNearestTower(selectedTower:GetWorldPosition(),0,LOCAL_PLAYER)
         selectedTower = nearestTower
         Events.Broadcast("DisplayTowerContexMenu",nearestTower)
@@ -86,5 +95,8 @@ SELL_BUTTON.pressedEvent:Connect(function()
 end)
 
 Events.Connect("HideTowerContextMenu",function()
+    if selectedTower then
+        selectedTower:RemoveRangeRadius()
+    end
     selectedTower = nil
 end)

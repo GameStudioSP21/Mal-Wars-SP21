@@ -272,7 +272,7 @@ Objects {
   Control {
     Width: 463
     Height: 385
-    UIY: -21.6000061
+    UIY: -150
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"

@@ -28,12 +28,12 @@ local selector = TowerSelector.New(board,{
 LOCAL_PLAYER.clientUserData.generalSelector = selector
 
 selector.OnLeftMouseButton:Connect(function()
-    local closestTower = selector:GetNearestTower()
-    UI.SetCursorVisible(true)
-    if closestTower then
+    local selectedTower = selector:GetNearestTower()
+    UI.SetCursorVisible(true) -- TODO: This shouldn't be here. Remove it.
+    if selectedTower then
         -- Lock the selector in place.
         selector:SetLocked(true)
-        Events.Broadcast("DisplayTowerContexMenu",closestTower)
+        Events.Broadcast("DisplayTowerContexMenu",selectedTower)
         print("Displaying tower context menu")
     end
 end)
