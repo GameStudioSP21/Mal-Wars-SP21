@@ -128,7 +128,7 @@ Objects {
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 13496367145218431849
+        SelfId: 16555092129292573516
       }
     }
     Overrides {
