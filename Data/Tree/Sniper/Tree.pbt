@@ -35,7 +35,7 @@ Objects {
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 16555092129292573516
+        SelfId: 1720409598745449251
       }
     }
     Overrides {
@@ -122,7 +122,7 @@ Objects {
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 13496367145218431849
+        SelfId: 3421316411476536376
       }
     }
     Overrides {
@@ -349,6 +349,12 @@ Objects {
       Name: "cs:VisualProjectile"
       AssetReference {
         Id: 10948153152124094650
+      }
+    }
+    Overrides {
+      Name: "cs:TowerClass"
+      AssetReference {
+        Id: 4546501338603812090
       }
     }
     Overrides {

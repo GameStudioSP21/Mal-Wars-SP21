@@ -1,6 +1,6 @@
 Assets {
   Id: 4725648800459874937
-  Name: "TowerDefenders_CompareStatsView"
+  Name: "TowerDefenders_TowerStatsView"
   PlatformAssetType: 3
   TextAsset {
     CustomParameters {
@@ -20,6 +20,12 @@ Assets {
         Name: "cs:TowerDefenders_StatsThemeAPI"
         AssetReference {
           Id: 18181533304032982468
+        }
+      }
+      Overrides {
+        Name: "cs:LevelSegement"
+        AssetReference {
+          Id: 7191920411949457933
         }
       }
     }

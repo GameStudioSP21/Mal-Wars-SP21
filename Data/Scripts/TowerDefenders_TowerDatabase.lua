@@ -5,6 +5,8 @@ local TowersThemeAPI = require(script:GetCustomProperty("ThemeApi"))
 local Tower = require(script:GetCustomProperty("TowerBase"))
 
 local DATA_TOWERS = {}
+local towerUpgradeChains = {}
+
 ------------------------------------------------------------
 -- Public
 ------------------------------------------------------------
@@ -107,25 +109,28 @@ function Database:_LoadTowersData()
 
     for i, tower in pairs(DATA_TOWERS) do
 
+        -- Required
         local towerName = tower:GetCustomProperty("Name")
         local towerIcon = tower:GetCustomProperty("Icon")
         local towerCost = tower:GetCustomProperty("Cost")
         local towerMUID = tower:GetCustomProperty("Tower")
+        local towerRarity = tower:GetCustomProperty("Rarity"):GetObject().name
         local towerType = tower:GetCustomProperty("Type"):GetObject().name
         local towerGhostMUID = tower:GetCustomProperty("TowerGhost")
         local towerNextUpgradeMUID = tower:GetCustomProperty("NextTowerUpgrade") and tower:GetCustomProperty("NextTowerUpgrade"):GetObject():GetCustomProperty("Tower")
         local towerVisualProjectile = tower:GetCustomProperty("VisualProjectile")
+
+        -- Optional
         local towerClass = tower:GetCustomProperty("TowerClass")
 
         -- TODO: ASSERTS HERE
 
         local towerStats = {}
 
-        local requiredStats = TowersThemeAPI.GetStats()
-        for statName, stat in pairs(requiredStats) do
+        local availableStats = TowersThemeAPI.GetStats()
+        for statName, stat in pairs(availableStats) do
             local statValue = tower:GetCustomProperty(statName)
             assert(not towerStats[statName], string.format("Stat - %s already exist as a custom property. You can not have duplicate stats.",statName))
-            assert(statValue ~= nil, string.format("Stat - %s does not exist on tower %s. You need to assign the stat as a custom property.",statName,towerName))
             towerStats[statName] = statValue
         end
 
@@ -138,12 +143,15 @@ function Database:_LoadTowersData()
             iconMUID = towerIcon,
             cost = towerCost,
             towerMUID = towerMUID,
+            rarity = towerRarity,
             type = towerType,
             stats = towerStats,
             towerGhostMUID = towerGhostMUID,
             nextTowerMUID = towerNextUpgradeMUID,
+            upgradeIndex = 1,
+            maxUpgradeIndex = 1,
             projectile = towerVisualProjectile,
-            towerClass = towerClass
+            towerClass = towerClass,
         }
 
         self.towerDatasByIndex[towerData.index] = towerData
@@ -151,9 +159,37 @@ function Database:_LoadTowersData()
         self.towerDatasByMUIDFull[towerData.towerMUID] = towerData
         self.towerDatasByMUID[towerData.towerMUID:match("^(.+):")] = towerData
 
+        self:_AddToUpgradeChain(towerData.towerMUID,towerData.nextTowerMUID)
+    end
+
+    self:_ApplyUpgradeChainToTowers()
+end
+
+-- This method just goes through the upgrade chains of each tower and applys an upgrade index to them.
+function Database:_ApplyUpgradeChainToTowers()
+    for _, upgradeChain in pairs(towerUpgradeChains) do
+        local maxUpgradeIndex = #upgradeChain
+        for i, towerMUID in pairs(upgradeChain) do
+            self.towerDatasByMUIDFull[towerMUID].upgradeIndex = i
+            self.towerDatasByMUIDFull[towerMUID].maxUpgradeIndex = maxUpgradeIndex
+        end
     end
 end
 
+function Database:_AddToUpgradeChain(currentTowerMUID,nextTowerMUID)
+    for _, upgradeChain in pairs(towerUpgradeChains) do
+        for i, towerMUID in pairs(upgradeChain) do
+            if towerMUID == currentTowerMUID then
+                table.insert(upgradeChain,i+1,nextTowerMUID)
+                return
+            elseif towerMUID == nextTowerMUID then
+                table.insert(upgradeChain,i-1,currentTowerMUID)
+                return
+            end
+        end
+    end
+    table.insert(towerUpgradeChains, { currentTowerMUID, nextTowerMUID } )
+end
 
 function Database:_Init()
     self.isLoaded = false

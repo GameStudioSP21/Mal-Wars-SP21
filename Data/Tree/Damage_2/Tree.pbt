@@ -33,6 +33,12 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:Rarity"
+      ObjectReference {
+        SelfId: 1720409598745449251
+      }
+    }
+    Overrides {
       Name: "cs:Cost"
       Int: 1500
     }

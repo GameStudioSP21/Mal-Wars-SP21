@@ -15,16 +15,10 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9802115243006573388
+        ParentId: 11965602890418974085
         ChildIds: 16464439384871039658
         ChildIds: 391506732089273255
         UnregisteredParameters {
-          Overrides {
-            Name: "cs:StatName"
-            ObjectReference {
-              SelfId: 841534158063459245
-            }
-          }
           Overrides {
             Name: "cs:StatValue"
             ObjectReference {
@@ -34,7 +28,19 @@ Assets {
           Overrides {
             Name: "cs:StatAfter"
             ObjectReference {
-              SelfId: 841534158063459245
+              SubObjectId: 4401261301485408513
+            }
+          }
+          Overrides {
+            Name: "cs:Arrow"
+            ObjectReference {
+              SubObjectId: 14132774770244354892
+            }
+          }
+          Overrides {
+            Name: "cs:StatIcon"
+            ObjectReference {
+              SubObjectId: 391506732089273255
             }
           }
         }
@@ -46,7 +52,7 @@ Assets {
         }
         Control {
           Width: 500
-          Height: 80
+          Height: 50
           UIY: 10
           RenderTransformPivot {
             Anchor {
@@ -159,28 +165,28 @@ Assets {
         }
         Control {
           Width: 200
-          Height: 38
           UIX: 100
-          UIY: -10
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
+          UseParentHeight: true
           Text {
-            Label: "5"
+            Label: "100"
             Color {
               R: 1
               G: 1
               B: 1
               A: 1
             }
-            Size: 45
+            Size: 40
             Justification {
               Value: "mc:etextjustify:left"
             }
             AutoWrapText: true
             Font {
+              Id: 8699906241964362491
             }
           }
           AnchorLayout {
@@ -220,20 +226,18 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:forceoff"
+          Value: "mc:evisibilitysetting:forceon"
         }
         Control {
           Width: 200
           Height: 38
           UIX: -20
-          UIY: -10
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
           Text {
-            Label: "4"
             Color {
               R: 0.132450104
               G: 1
@@ -245,6 +249,7 @@ Assets {
             }
             AutoWrapText: true
             Font {
+              Id: 8699906241964362491
             }
           }
           AnchorLayout {
@@ -263,7 +268,7 @@ Assets {
       }
       Objects {
         Id: 14132774770244354892
-        Name: "UI Image"
+        Name: "Arrow"
         Transform {
           Location {
             X: 449.398071
@@ -290,6 +295,7 @@ Assets {
           Width: 50
           Height: 50
           UIX: 40
+          UIY: 10
           RotationAngle: 90
           RenderTransformPivot {
             Anchor {
@@ -298,7 +304,7 @@ Assets {
           }
           Image {
             Brush {
-              Id: 9526761075049512681
+              Id: 14884607247857097520
             }
             Color {
               R: 1
@@ -325,7 +331,7 @@ Assets {
       }
       Objects {
         Id: 391506732089273255
-        Name: "UI Image"
+        Name: "StatIcon"
         Transform {
           Location {
             X: -8440.77441
@@ -349,14 +355,13 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Control {
-          Width: 80
-          Height: 200
+          Width: 65
+          Height: 65
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
-          UseParentHeight: true
           Image {
             Brush {
               Id: 16538320873508884468
@@ -395,12 +400,21 @@ Assets {
       }
     }
     Assets {
-      Id: 9526761075049512681
-      Name: "Center Arrow 007 Wedge"
+      Id: 8699906241964362491
+      Name: "Teko Bold"
+      PlatformAssetType: 28
+      PrimaryAsset {
+        AssetType: "FontAssetRef"
+        AssetId: "TekoBold_ref"
+      }
+    }
+    Assets {
+      Id: 14884607247857097520
+      Name: "Center Arrow 002 Wedge"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "CenterArrow_007Wedge"
+        AssetId: "CenterArrow_002Wedge"
       }
     }
     Assets {
