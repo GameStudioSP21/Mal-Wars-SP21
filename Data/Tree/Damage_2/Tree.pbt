@@ -33,6 +33,12 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:Rarity"
+      ObjectReference {
+        SelfId: 3421316411476536376
+      }
+    }
+    Overrides {
       Name: "cs:Cost"
       Int: 1500
     }
@@ -123,6 +129,12 @@ Objects {
       Name: "cs:Type"
       ObjectReference {
         SelfId: 15473447320514786512
+      }
+    }
+    Overrides {
+      Name: "cs:Rarity"
+      ObjectReference {
+        SelfId: 13496367145218431849
       }
     }
     Overrides {
@@ -219,6 +231,12 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:Rarity"
+      ObjectReference {
+        SelfId: 10069010683383961677
+      }
+    }
+    Overrides {
       Name: "cs:Cost"
       Int: 2
     }
@@ -309,6 +327,12 @@ Objects {
       Name: "cs:Type"
       ObjectReference {
         SelfId: 11435435214344133321
+      }
+    }
+    Overrides {
+      Name: "cs:Rarity"
+      ObjectReference {
+        SelfId: 10069010683383961677
       }
     }
     Overrides {

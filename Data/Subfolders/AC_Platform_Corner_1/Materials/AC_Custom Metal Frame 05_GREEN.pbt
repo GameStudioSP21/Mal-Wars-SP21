@@ -2,7 +2,7 @@ Assets {
   Id: 6873511774316195172
   Name: "AC_Custom Metal Frame 05_GREEN"
   PlatformAssetType: 13
-  SerializationVersion: 74
+  SerializationVersion: 76
   CustomMaterialAsset {
     BaseMaterialId: 14324442486380372935
     ParameterOverrides {

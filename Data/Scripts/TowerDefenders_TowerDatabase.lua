@@ -111,6 +111,7 @@ function Database:_LoadTowersData()
 
         -- Required
         local towerName = tower:GetCustomProperty("Name")
+        local towerDisplayName = tower:GetCustomProperty("DisplayName") or ""
         local towerIcon = tower:GetCustomProperty("Icon")
         local towerCost = tower:GetCustomProperty("Cost")
         local towerMUID = tower:GetCustomProperty("Tower")
@@ -140,6 +141,7 @@ function Database:_LoadTowersData()
         local towerData = {
             index = i,
             name = towerName,
+            displayName = towerDisplayName,
             iconMUID = towerIcon,
             cost = towerCost,
             towerMUID = towerMUID,

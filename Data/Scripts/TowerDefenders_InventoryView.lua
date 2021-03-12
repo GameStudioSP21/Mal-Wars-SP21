@@ -13,9 +13,7 @@ local inventory = LOCAL_PLAYER.clientUserData.towerInventory
 
 LOCAL_PLAYER.clientUserData.tempDisplay = propInventory
 
-local inventoryView = {}
-inventoryView.__index = inventoryView
+local view = {}
+view.__index = view
 
-function 
-
-return inventoryView
+return view

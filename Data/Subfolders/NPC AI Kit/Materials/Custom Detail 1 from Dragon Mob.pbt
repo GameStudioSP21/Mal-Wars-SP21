@@ -2,7 +2,7 @@ Assets {
   Id: 12466663953300815588
   Name: "Custom Detail 1 from Dragon Mob"
   PlatformAssetType: 13
-  SerializationVersion: 74
+  SerializationVersion: 76
   CustomMaterialAsset {
     BaseMaterialId: 12635414567474148992
     ParameterOverrides {

@@ -1970,6 +1970,6 @@ Assets {
   Marketplace {
     Description: "A game ad to be destroyed"
   }
-  SerializationVersion: 74
+  SerializationVersion: 76
   DirectlyPublished: true
 }

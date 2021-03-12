@@ -1,13 +1,14 @@
 --[[
-    TowerDefenders_TowerSelector : Client
+    TowerDefenders_Selector : Client
     Description: Blah Blah Blah pending...
 --]]
 
 
-local TowerSelector = {}
-TowerSelector.__index = TowerSelector
+local Selector = {}
+Selector.__index = Selector
 
 local Ease3D = require(script:GetCustomProperty("Ease3D"))
+local VISUAL_FOLDER = script:GetCustomProperty("VisualFolder")
 
 local LEFT_MOUSE_BUTTON = "ability_primary"
 local RIGHT_MOUSE_BUTTON = "ability_secondary"
@@ -22,9 +23,9 @@ local LOCAL_PLAYER = Game.GetLocalPlayer()
 -- selectorData {
 
 -- }
-function TowerSelector.New(board,selectorData)
+function Selector.New(board,selectorData)
     local self = {}
-    setmetatable(self,TowerSelector)
+    setmetatable(self,Selector)
 
     self.board = board
 
@@ -40,7 +41,7 @@ function TowerSelector.New(board,selectorData)
 end
 
 -- When set to true the selector will be active
-function TowerSelector:SetActive(state)
+function Selector:SetActive(state)
     if state == true then
         self:_CreateVisual()
         self:_Runtime()
@@ -49,51 +50,87 @@ function TowerSelector:SetActive(state)
     end
 end
 
-function TowerSelector:IsActive()
+function Selector:IsActive()
     return Object.IsValid(self.selectorVisualObject)
 end
 
 -- When set to true the selector will be locked into place and not move.
-function TowerSelector:SetLocked(state)
+function Selector:SetLocked(state)
     self.isLocked = state
 end
 
-function TowerSelector:GetLockedState()
+function Selector:GetLockedState()
     return self.isLocked
 end
 
+-- When set to true the selector will be magnetized to
+function Selector:SetMagnetize(state,magnetizeDistanceThreshold)
+    self.isMagnetizing = state
+    if magnetizeDistanceThreshold then
+        assert(magnetizeDistanceThreshold >= 0, "You can not have a negative magnetizeDistanceThreshold value. Zero or positive values only.")
+        self.magnetizeDistanceThreshold = magnetizeDistanceThreshold
+    end
+end
+
+function Selector:GetMagnetizeState()
+    return self.isMagnetizing
+end
+
 -- Returns the nearest tower while considering the magnetize distance threshold.
-function TowerSelector:GetNearestTower()
+function Selector:GetNearestTower()
     return self.board:GetNearestTower(self:GetImpactPosition(),self.magnetizeDistanceThreshold,LOCAL_PLAYER)
 end
 
-function TowerSelector:GetImpactPosition()
+function Selector:GetImpactPosition()
     return self.rayImpactPosition
 end
 
-function TowerSelector:GetSelectorObject()
+function Selector:GetSelectorObject()
     return self.selectorVisualObject
 end
 
-function TowerSelector:SetSelectorVisualMUID(muid)
+function Selector:SetSelectorVisualMUID(muid)
     self.selectorVisualMUID = muid
 end
 
-function TowerSelector:GetSelectorVisualMUID()
+function Selector:GetSelectorVisualMUID()
     return self.selectorVisualMUID
+end
+
+-- Adds a object to the selector.
+function Selector:AddVisual(object)
+    if object:IsA("CoreObject") then
+        object.parent = self.visualsFolder
+    else
+        error(string.format("Tried to add a object to the selector, but the object provided is not a type of CoreObject. %s",tostring(object)))
+    end
+end
+
+-- Destroys all additional visual children of the selector.
+function Selector:RemoveVisuals()
+    for _, childObject in pairs(self.visualsFolder:GetChildren()) do
+        if Object.IsValid(childObject) then
+            childObject:Destroy()
+        end
+    end
 end
 
 ----------------------------------------
 -- Private
 ----------------------------------------
 
-function TowerSelector:_Init(selectorData)
+function Selector:_Init(selectorData)
 
     self.selectorVisualMUID = selectorData.selectorVisualMUID
     --self.selectorTowerSwitchLerpTime = selectorData.selectorTowerSwitchLerpTime or 0.5
     -- When true the selector will be positioned on the mouse instead of the center of the screen
     --self.isAttachToMouse = selectorData.isAttachToMouse or false 
     self.magnetizeDistanceThreshold = selectorData.magnetizeDistanceThreshold or 0
+    if self.magnetizeDistanceThreshold > 0 then
+        self.isMagnetizing = true
+    else
+        self.isMagnetizing = false
+    end
     self.minSelectorDistance = selectorData.minSelectDistance or 50
     self.maxSelectorDistance = selectorData.maxSelectDistance or 10000
     self.isCamToMouseRaycasting = selectorData.isCamToMouseRaycasting or false
@@ -117,12 +154,13 @@ function TowerSelector:_Init(selectorData)
     assert(self.magnetizeDistanceThreshold >= 0, "You can not have a negative magnetizeDistanceThreshold value. Zero or positive values only.")
 end
 
-function TowerSelector:_CreateVisual()
+function Selector:_CreateVisual()
     assert(self.selectorVisualMUID, "selectorVisualMUID was not assigned in the selectorData table. Make sure you assign it as a key in a table of constructors second parameter.")
     self.selectorVisualObject = World.SpawnAsset(self.selectorVisualMUID,{ position = self.rayImpactPosition or Vector3.New() })
+    self.visualsFolder = World.SpawnAsset(VISUAL_FOLDER,{ parent = self.selectorVisualObject }) -- Will be used for additional visuals.
 end
 
-function TowerSelector:_RemoveVisual()
+function Selector:_RemoveVisual()
     if self.selectorRuntime then
         self.selectorRuntime:Cancel()
     end
@@ -131,15 +169,16 @@ function TowerSelector:_RemoveVisual()
     end
 end
 
-function TowerSelector:_Runtime()
+function Selector:_Runtime()
     local selectedTower = nil
     self.selectorRuntime = Task.Spawn(function()
         while self.selectorVisualObject do
             Task.Wait()
             local cameraPos = LOCAL_PLAYER:GetViewWorldPosition()
-            local cameraTransform = Transform.New(LOCAL_PLAYER:GetViewWorldRotation(), LOCAL_PLAYER:GetViewWorldPosition(), Vector3.New(1,1,1))
-            local camLookDirection = cameraTransform:GetForwardVector()
             local activeCamera = LOCAL_PLAYER:GetActiveCamera()
+            local cameraTransform = activeCamera:GetWorldTransform()
+            local camLookDirection = cameraTransform:GetForwardVector()
+
             local minInteractDistance = 0
             if activeCamera then
                 minInteractDistance = activeCamera.currentDistance - self.minSelectorDistance
@@ -154,7 +193,7 @@ function TowerSelector:_Runtime()
                 self.rayImpactPosition = hitResult:GetImpactPosition()
                 self.selectorVisualObject.visibility = Visibility.FORCE_ON
                 if hitResult.other then
-                    if self.magnetizeDistanceThreshold ~= 0 then
+                    if self.magnetizeDistanceThreshold ~= 0 and self.isMagnetizing then
                         local closestTower = self:GetNearestTower()
                         if closestTower and selectedTower ~= closestTower then
                             selectedTower = closestTower
@@ -178,13 +217,13 @@ function TowerSelector:_Runtime()
     end)
 end
 
-function TowerSelector:_FireEvent(eventName, ...)
+function Selector:_FireEvent(eventName, ...)
     for _,handler in ipairs(self.eventHandlers[eventName]) do
         handler(...)
     end
 end
 
-function TowerSelector:_DefineEvent(eventName)
+function Selector:_DefineEvent(eventName)
     self.eventHandlers = self.eventHandlers or {}
     self.eventHandlers[eventName] = self.eventHandlers[eventName] or {}
     self[eventName] = {
@@ -198,4 +237,4 @@ function TowerSelector:_DefineEvent(eventName)
     }
 end
 
-return TowerSelector
+return Selector

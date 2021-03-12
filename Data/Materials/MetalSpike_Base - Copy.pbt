@@ -2,7 +2,7 @@ Assets {
   Id: 9214120176668743196
   Name: "MetalSpike_Base - Copy"
   PlatformAssetType: 13
-  SerializationVersion: 74
+  SerializationVersion: 76
   CustomMaterialAsset {
     BaseMaterialId: 13333117573806912701
     ParameterOverrides {

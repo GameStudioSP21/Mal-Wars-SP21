@@ -90,9 +90,9 @@ end)
 
 function Tick()
     if towerPlacer:IsActive() then
-        CreateNonPlacementAreasAroundTowers()
+        --CreateNonPlacementAreasAroundTowers()
     else
-        RemoveNonPlacementAreasAroundTowers()
+        --RemoveNonPlacementAreasAroundTowers()
     end
 end
 

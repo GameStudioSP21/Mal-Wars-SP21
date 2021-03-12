@@ -2,7 +2,7 @@ Assets {
   Id: 14700184146930205937
   Name: "Orange Glitchy Hologram"
   PlatformAssetType: 13
-  SerializationVersion: 74
+  SerializationVersion: 76
   CustomMaterialAsset {
     BaseMaterialId: 9398129290729876131
     ParameterOverrides {

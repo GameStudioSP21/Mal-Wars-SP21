@@ -5295,6 +5295,6 @@ Assets {
   Marketplace {
     Description: "Weapon 01"
   }
-  SerializationVersion: 74
+  SerializationVersion: 76
   DirectlyPublished: true
 }

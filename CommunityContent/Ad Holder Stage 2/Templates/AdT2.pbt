@@ -566,6 +566,6 @@ Assets {
   Marketplace {
     Description: "Stage 2 of Ad Holder"
   }
-  SerializationVersion: 74
+  SerializationVersion: 76
   DirectlyPublished: true
 }

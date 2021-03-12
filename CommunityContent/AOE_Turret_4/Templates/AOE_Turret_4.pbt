@@ -5813,6 +5813,6 @@ Assets {
   Marketplace {
     Description: "An Upgraded Version of AOE Turret 3"
   }
-  SerializationVersion: 74
+  SerializationVersion: 76
   DirectlyPublished: true
 }
