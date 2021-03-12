@@ -111,6 +111,7 @@ end)
 Events.Connect("DisplayTowerContexMenu",function(tower) 
     selectedTower = tower
     statsView:DisplayTowerStats(tower)
+    tower:DisplayRangeRadius()
 
     local nextTowerMUID = selectedTower:GetNextUpgradeMUID()
     local upgradeValueUI = UPGRADE_BUTTON:GetCustomProperty("ButtonValue"):WaitForObject()
