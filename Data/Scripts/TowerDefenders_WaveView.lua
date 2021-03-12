@@ -25,3 +25,26 @@ end)
 waveManager.OnWaveComplete:Connect(function()
     PlaySFX(WaveCompleteSound)
 end)
+
+
+-- "Game Over" and "Game Complete"
+local WavesEndedCompleteSound = script:GetCustomProperty("WaveCompleteSound") -- TODO remove this
+local WavesEndedFailedSound = script:GetCustomProperty("WaveStartedSound")    -- TODO remove this
+--local WavesEndedCompleteSound = script:GetCustomProperty("WavesEndedCompleteSound") -- TODO add sound to this
+--local WavesEndedFailedSound = script:GetCustomProperty("WavesEndedFailedSound")	  -- TODO add sound to this
+
+waveManager.OnWavesEndedComplete:Connect(function()
+    PlaySFX(WavesEndedCompleteSound)
+    WAVE_TEXT.text = "Congratulations!"
+    WAVE_DISPLAYER_PANEL.visibility = Visibility.FORCE_ON
+    Task.Wait(2)
+    WAVE_DISPLAYER_PANEL.visibility = Visibility.FORCE_OFF
+end)
+
+waveManager.OnWavesEndedFailed:Connect(function()
+    PlaySFX(WavesEndedFailedSound)
+    WAVE_TEXT.text = "Game Over"
+    WAVE_DISPLAYER_PANEL.visibility = Visibility.FORCE_ON
+    Task.Wait(2)
+    WAVE_DISPLAYER_PANEL.visibility = Visibility.FORCE_OFF
+end)
