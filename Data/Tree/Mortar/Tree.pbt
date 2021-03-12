@@ -40,11 +40,11 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 600
+      Int: 500
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 90
+      Int: 120
     }
     Overrides {
       Name: "cs:Speed"
@@ -63,7 +63,7 @@ Objects {
     Overrides {
       Name: "cs:TowerGhost"
       AssetReference {
-        Id: 8998131320545634637
+        Id: 2150629678682640040
       }
     }
     Overrides {
@@ -133,7 +133,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 600
+      Int: 500
     }
     Overrides {
       Name: "cs:Damage"
@@ -141,11 +141,11 @@ Objects {
     }
     Overrides {
       Name: "cs:Speed"
-      Float: 3
+      Float: 2.5
     }
     Overrides {
       Name: "cs:Range"
-      Float: 70
+      Float: 80
     }
     Overrides {
       Name: "cs:Tower"
@@ -156,7 +156,7 @@ Objects {
     Overrides {
       Name: "cs:TowerGhost"
       AssetReference {
-        Id: 8998131320545634637
+        Id: 2150629678682640040
       }
     }
     Overrides {
@@ -232,7 +232,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 600
+      Int: 500
     }
     Overrides {
       Name: "cs:Damage"
@@ -240,11 +240,11 @@ Objects {
     }
     Overrides {
       Name: "cs:Speed"
-      Float: 3
+      Float: 2
     }
     Overrides {
       Name: "cs:Range"
-      Float: 60
+      Float: 80
     }
     Overrides {
       Name: "cs:Tower"
@@ -255,7 +255,7 @@ Objects {
     Overrides {
       Name: "cs:TowerGhost"
       AssetReference {
-        Id: 8998131320545634637
+        Id: 2150629678682640040
       }
     }
     Overrides {
@@ -331,7 +331,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 600
+      Int: 500
     }
     Overrides {
       Name: "cs:Damage"
@@ -339,11 +339,11 @@ Objects {
     }
     Overrides {
       Name: "cs:Speed"
-      Float: 3
+      Float: 2
     }
     Overrides {
       Name: "cs:Range"
-      Float: 50
+      Float: 80
     }
     Overrides {
       Name: "cs:Tower"
@@ -354,7 +354,7 @@ Objects {
     Overrides {
       Name: "cs:TowerGhost"
       AssetReference {
-        Id: 8998131320545634637
+        Id: 2150629678682640040
       }
     }
     Overrides {

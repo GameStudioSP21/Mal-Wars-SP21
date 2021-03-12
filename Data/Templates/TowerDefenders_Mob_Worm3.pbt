@@ -669,7 +669,7 @@ Assets {
         }
         ParentId: 10475406937056537840
         ChildIds: 6715981785582167665
-        ChildIds: 16451776402649008694
+        ChildIds: 17149689144016636136
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -723,24 +723,35 @@ Assets {
         }
       }
       Objects {
-        Id: 16451776402649008694
-        Name: "snakeT3_animated"
+        Id: 17149689144016636136
+        Name: "WormT3"
         Transform {
           Location {
-            X: -361.29834
-            Y: -116.565491
             Z: 100
           }
           Rotation {
+            Yaw: 180
           }
           Scale {
-            X: 1.2
-            Y: 1.2
-            Z: 1.2
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
         ParentId: 7672909072405049759
-        ChildIds: 6622739909929280093
+        ChildIds: 9228076608608241591
+        ChildIds: 17245730813515443444
+        ChildIds: 1278255828061949762
+        ChildIds: 14480507670943556861
+        ChildIds: 8544284997085051979
+        ChildIds: 10364896684029069404
+        ChildIds: 8916419131168668086
+        ChildIds: 11422745818271826330
+        ChildIds: 14189405414956027324
+        ChildIds: 12262620222966091484
+        ChildIds: 2492880073909984594
+        ChildIds: 9478013649957350512
+        ChildIds: 10771670904884559911
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -752,116 +763,34 @@ Assets {
         }
       }
       Objects {
-        Id: 6622739909929280093
-        Name: "ClientContext"
+        Id: 9228076608608241591
+        Name: "Cylinder"
         Transform {
           Location {
-            X: 100
+            X: 70
+            Y: -5
+            Z: 1.52587891e-05
           }
           Rotation {
+            Pitch: -90
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 1.2
+            Y: 2
+            Z: 2.4
           }
         }
-        ParentId: 16451776402649008694
-        ChildIds: 13243855123569639521
-        ChildIds: 10608331701851823820
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        NetworkContext {
-        }
-      }
-      Objects {
-        Id: 13243855123569639521
-        Name: "DragonMove"
-        Transform {
-          Location {
-            X: 1295
-            Y: -2050
-            Z: -120
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 6622739909929280093
+        ParentId: 17149689144016636136
         UnregisteredParameters {
           Overrides {
-            Name: "cs:Ease3D"
+            Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4932167241818183614
+              Id: 17416403521644267471
             }
           }
           Overrides {
-            Name: "cs:HeadR"
-            ObjectReference {
-              SubObjectId: 7333093679164257425
-            }
-          }
-          Overrides {
-            Name: "cs:NeckR"
-            ObjectReference {
-              SubObjectId: 7012421780785832827
-            }
-          }
-          Overrides {
-            Name: "cs:Neck2R"
-            ObjectReference {
-              SubObjectId: 11198287222917934520
-            }
-          }
-          Overrides {
-            Name: "cs:Neck3R"
-            ObjectReference {
-              SubObjectId: 7198406855680427224
-            }
-          }
-          Overrides {
-            Name: "cs:Neck4R"
-            ObjectReference {
-              SubObjectId: 4410551789690213174
-            }
-          }
-          Overrides {
-            Name: "cs:Neck5R"
-            ObjectReference {
-              SubObjectId: 6398045861181655587
-            }
-          }
-          Overrides {
-            Name: "cs:Neck6R"
-            ObjectReference {
-              SubObjectId: 6196739484715476505
-            }
-          }
-          Overrides {
-            Name: "cs:Neck7R"
-            ObjectReference {
-              SubObjectId: 4124735700126184150
-            }
-          }
-          Overrides {
-            Name: "cs:tail"
-            ObjectReference {
-              SubObjectId: 10974846828409423595
-            }
-          }
-          Overrides {
-            Name: "cs:Direction"
-            ObjectReference {
-              SubObjectId: 208192067589840694
-            }
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
           }
         }
         Collidable_v2 {
@@ -870,18 +799,30 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
-        Script {
-          ScriptAsset {
-            Id: 2023678287399212345
+        CoreMesh {
+          MeshAsset {
+            Id: 6531257921240935799
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
           }
         }
       }
       Objects {
-        Id: 10608331701851823820
-        Name: "SnakeR"
+        Id: 17245730813515443444
+        Name: "neck"
         Transform {
           Location {
-            X: 405
+            X: 505
             Y: 90
           }
           Rotation {
@@ -892,17 +833,21 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6622739909929280093
-        ChildIds: 208192067589840694
-        ChildIds: 7333093679164257425
-        ChildIds: 7012421780785832827
-        ChildIds: 11198287222917934520
-        ChildIds: 7198406855680427224
-        ChildIds: 4410551789690213174
-        ChildIds: 6398045861181655587
-        ChildIds: 6196739484715476505
-        ChildIds: 4124735700126184150
-        ChildIds: 10974846828409423595
+        ParentId: 17149689144016636136
+        ChildIds: 8560635101362952051
+        ChildIds: 16175587364321559798
+        ChildIds: 14947530829295677417
+        ChildIds: 12448854373562699306
+        ChildIds: 7048643454683465865
+        ChildIds: 8301100835136247517
+        ChildIds: 12804023429403853689
+        ChildIds: 5885009935929519882
+        ChildIds: 1984285661140101849
+        ChildIds: 16694937680738473752
+        ChildIds: 10294225988937263411
+        ChildIds: 3552324707612882620
+        ChildIds: 4286906419530168032
+        ChildIds: 4895739410965864818
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -914,13 +859,16 @@ Assets {
         }
       }
       Objects {
-        Id: 208192067589840694
-        Name: "Direction"
+        Id: 8560635101362952051
+        Name: "Pipe - 45-Degree"
         Transform {
           Location {
-            X: 405
+            X: -315
+            Y: -45
           }
           Rotation {
+            Yaw: 89.9999847
+            Roll: -89.9999847
           }
           Scale {
             X: 1
@@ -928,62 +876,55 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 10608331701851823820
+        ParentId: 17245730813515443444
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17416403521644267471
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
-        Folder {
-          IsFilePartition: true
-          FilePartitionName: "Direction"
+        CoreMesh {
+          MeshAsset {
+            Id: 13783275049652431909
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
         }
       }
       Objects {
-        Id: 7333093679164257425
-        Name: "HeadR"
-        Transform {
-          Location {
-            X: 235
-            Y: 10
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 10608331701851823820
-        ChildIds: 1321700386871445274
-        ChildIds: 9592334370448482731
-        ChildIds: 94248339547802762
-        ChildIds: 12381318764114755461
-        ChildIds: 12296349094373357068
-        ChildIds: 12377232784833248446
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 1321700386871445274
+        Id: 16175587364321559798
         Name: "Thorn"
         Transform {
           Location {
-            Y: 25
+            X: 195
+            Y: 35
             Z: 25
           }
           Rotation {
             Pitch: 20.7047958
-            Yaw: 22.207653
+            Yaw: 22.2076683
             Roll: 49.1066132
           }
           Scale {
@@ -992,7 +933,7 @@ Assets {
             Z: 1.30000007
           }
         }
-        ParentId: 7333093679164257425
+        ParentId: 17245730813515443444
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1037,11 +978,12 @@ Assets {
         }
       }
       Objects {
-        Id: 9592334370448482731
+        Id: 14947530829295677417
         Name: "Sphere - Half"
         Transform {
           Location {
-            X: -15
+            X: 180
+            Y: 10
             Z: 1.52587891e-05
           }
           Rotation {
@@ -1053,7 +995,7 @@ Assets {
             Z: 2.80000019
           }
         }
-        ParentId: 7333093679164257425
+        ParentId: 17245730813515443444
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1091,11 +1033,176 @@ Assets {
         }
       }
       Objects {
-        Id: 94248339547802762
+        Id: 12448854373562699306
+        Name: "Cylinder"
+        Transform {
+          Location {
+            X: -85
+            Y: 10
+          }
+          Rotation {
+            Pitch: -90
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1.80000019
+          }
+        }
+        ParentId: 17245730813515443444
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17416403521644267471
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6531257921240935799
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 7048643454683465865
+        Name: "Pipe - 45-Degree"
+        Transform {
+          Location {
+            X: -175
+            Y: 10
+            Z: 3.05175781e-05
+          }
+          Rotation {
+            Yaw: -89.9999847
+            Roll: -89.9999847
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17245730813515443444
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17416403521644267471
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13783275049652431909
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 8301100835136247517
+        Name: "Cylinder"
+        Transform {
+          Location {
+            X: 90
+            Y: 10
+          }
+          Rotation {
+            Pitch: -90
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1.80000019
+          }
+        }
+        ParentId: 17245730813515443444
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17416403521644267471
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6531257921240935799
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 12804023429403853689
         Name: "Sphere - Half"
         Transform {
           Location {
-            X: -15
+            X: 180
+            Y: 10
             Z: 1.52587891e-05
           }
           Rotation {
@@ -1107,7 +1214,7 @@ Assets {
             Z: 3.30000043
           }
         }
-        ParentId: 7333093679164257425
+        ParentId: 17245730813515443444
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1152,16 +1259,264 @@ Assets {
         }
       }
       Objects {
-        Id: 12381318764114755461
+        Id: 5885009935929519882
+        Name: "Cylinder"
+        Transform {
+          Location {
+            X: 90
+            Y: 10
+          }
+          Rotation {
+            Pitch: -90
+          }
+          Scale {
+            X: 0.4
+            Y: 1.2
+            Z: 1.80000007
+          }
+        }
+        ParentId: 17245730813515443444
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 4685798713724418805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.64
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6531257921240935799
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 1984285661140101849
+        Name: "Cylinder"
+        Transform {
+          Location {
+            X: -90
+            Y: 10
+          }
+          Rotation {
+            Pitch: -90
+          }
+          Scale {
+            X: 0.4
+            Y: 1.2
+            Z: 1.80000007
+          }
+        }
+        ParentId: 17245730813515443444
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 4685798713724418805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.64
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6531257921240935799
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 16694937680738473752
+        Name: "Pipe - 45-Degree"
+        Transform {
+          Location {
+            X: -175
+            Y: 10
+            Z: 3.05175781e-05
+          }
+          Rotation {
+            Yaw: -89.9999847
+            Roll: -89.9999847
+          }
+          Scale {
+            X: 1.2
+            Y: 0.5
+            Z: 1.2
+          }
+        }
+        ParentId: 17245730813515443444
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 4685798713724418805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.64
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13783275049652431909
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 10294225988937263411
+        Name: "Pipe - 45-Degree"
+        Transform {
+          Location {
+            X: -315
+            Y: -45
+          }
+          Rotation {
+            Yaw: 89.9999695
+            Roll: -89.9999924
+          }
+          Scale {
+            X: 1.1
+            Y: 0.5
+            Z: 1.1
+          }
+        }
+        ParentId: 17245730813515443444
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 4685798713724418805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.64
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13783275049652431909
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 3552324707612882620
         Name: "Thorn"
         Transform {
           Location {
-            Y: -25
+            X: 195
+            Y: -15
             Z: 25
           }
           Rotation {
             Pitch: 20.7047958
-            Yaw: -22.2076416
+            Yaw: -22.207655
             Roll: -49.1066246
           }
           Scale {
@@ -1170,7 +1525,7 @@ Assets {
             Z: 1.30000007
           }
         }
-        ParentId: 7333093679164257425
+        ParentId: 17245730813515443444
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1215,11 +1570,12 @@ Assets {
         }
       }
       Objects {
-        Id: 12296349094373357068
+        Id: 4286906419530168032
         Name: "Thorn"
         Transform {
           Location {
-            X: 30
+            X: 225
+            Y: 10
             Z: 25
           }
           Rotation {
@@ -1231,7 +1587,7 @@ Assets {
             Z: 1.30000007
           }
         }
-        ParentId: 7333093679164257425
+        ParentId: 17245730813515443444
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1276,10 +1632,12 @@ Assets {
         }
       }
       Objects {
-        Id: 12377232784833248446
+        Id: 4895739410965864818
         Name: "Cylinder"
         Transform {
           Location {
+            X: 195
+            Y: 10
           }
           Rotation {
             Pitch: -90
@@ -1291,7 +1649,7 @@ Assets {
             Z: 1.2
           }
         }
-        ParentId: 7333093679164257425
+        ParentId: 17245730813515443444
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1336,46 +1694,12 @@ Assets {
         }
       }
       Objects {
-        Id: 7012421780785832827
-        Name: "NeckR"
+        Id: 1278255828061949762
+        Name: "neck"
         Transform {
           Location {
-            X: 115
-            Y: 10
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 10608331701851823820
-        ChildIds: 13091297524363991638
-        ChildIds: 7371975783735977132
-        ChildIds: 4975646514538038415
-        ChildIds: 8950557978809899887
-        ChildIds: 1302816955708610656
-        ChildIds: 15801596831876967152
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 13091297524363991638
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: 85
-            Y: -45
-            Z: 5
+            X: 505
+            Y: -100
           }
           Rotation {
           }
@@ -1385,9 +1709,21 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7012421780785832827
-        ChildIds: 2140999767199849516
-        ChildIds: 5776796649529608369
+        ParentId: 17149689144016636136
+        ChildIds: 9845284389661480826
+        ChildIds: 9224139598992149116
+        ChildIds: 3581065322943696009
+        ChildIds: 11811010557287127424
+        ChildIds: 3466290646335423556
+        ChildIds: 4671465736020316415
+        ChildIds: 4731525143461233953
+        ChildIds: 3680341709959303468
+        ChildIds: 10319327344295340795
+        ChildIds: 8901909720567288310
+        ChildIds: 11093018965677996738
+        ChildIds: 6867242284314767926
+        ChildIds: 11165805506530201946
+        ChildIds: 16414234769731010475
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1399,130 +1735,16 @@ Assets {
         }
       }
       Objects {
-        Id: 2140999767199849516
-        Name: "Thorn"
+        Id: 9845284389661480826
+        Name: "Pipe - 45-Degree"
         Transform {
           Location {
-            X: -60
+            X: -315
+            Y: -45
           }
           Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934036
-            Roll: -136.474625
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 13091297524363991638
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 5776796649529608369
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 13091297524363991638
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 7371975783735977132
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: 85
-            Y: 45
-            Z: 5
-          }
-          Rotation {
+            Yaw: 89.9999847
+            Roll: -89.9999847
           }
           Scale {
             X: 1
@@ -1530,38 +1752,64 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 7012421780785832827
-        ChildIds: 8236771055897225063
-        ChildIds: 9820466102277071924
+        ParentId: 1278255828061949762
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17416403521644267471
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
-        Folder {
-          IsGroup: true
+        CoreMesh {
+          MeshAsset {
+            Id: 13783275049652431909
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
         }
       }
       Objects {
-        Id: 8236771055897225063
+        Id: 9224139598992149116
         Name: "Thorn"
         Transform {
           Location {
-            X: -60
+            X: 195
+            Y: 35
+            Z: 25
           }
           Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934036
-            Roll: -136.474625
+            Pitch: 20.7047958
+            Yaw: 22.2076683
+            Roll: 49.1066132
           }
           Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
+            X: 0.5
+            Y: 0.3
+            Z: 1.30000007
           }
         }
-        ParentId: 7371975783735977132
+        ParentId: 1278255828061949762
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1570,9 +1818,13 @@ Assets {
             }
           }
           Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.639215708
+              R: 0.64
               A: 1
             }
           }
@@ -1602,68 +1854,13 @@ Assets {
         }
       }
       Objects {
-        Id: 9820466102277071924
-        Name: "Thorn"
+        Id: 3581065322943696009
+        Name: "Sphere - Half"
         Transform {
           Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 7371975783735977132
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 4975646514538038415
-        Name: "Cylinder"
-        Transform {
-          Location {
-            X: 45
+            X: 180
+            Y: 10
+            Z: 1.52587891e-05
           }
           Rotation {
             Pitch: -90
@@ -1671,10 +1868,64 @@ Assets {
           Scale {
             X: 1
             Y: 1
-            Z: 1.25000012
+            Z: 2.80000019
           }
         }
-        ParentId: 7012421780785832827
+        ParentId: 1278255828061949762
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17416403521644267471
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 4957794639224726712
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 11811010557287127424
+        Name: "Cylinder"
+        Transform {
+          Location {
+            X: -85
+            Y: 10
+          }
+          Rotation {
+            Pitch: -90
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1.80000019
+          }
+        }
+        ParentId: 1278255828061949762
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -1712,40 +1963,36 @@ Assets {
         }
       }
       Objects {
-        Id: 8950557978809899887
-        Name: "Cylinder"
+        Id: 3466290646335423556
+        Name: "Pipe - 45-Degree"
         Transform {
           Location {
-            X: 45
+            X: -175
+            Y: 10
+            Z: 3.05175781e-05
           }
           Rotation {
-            Pitch: -90
+            Yaw: -89.9999847
+            Roll: -89.9999847
           }
           Scale {
-            X: 0.4
-            Y: 1.2
-            Z: 1.25
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
-        ParentId: 7012421780785832827
+        ParentId: 1278255828061949762
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4685798713724418805
+              Id: 17416403521644267471
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
             Bool: false
           }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1755,7 +2002,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 6531257921240935799
+            Id: 13783275049652431909
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -1772,624 +2019,12 @@ Assets {
         }
       }
       Objects {
-        Id: 1302816955708610656
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: 85
-            Y: 45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: -1
-          }
-        }
-        ParentId: 7012421780785832827
-        ChildIds: 18090032435834063013
-        ChildIds: 7146417717388085730
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 18090032435834063013
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: -60
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934036
-            Roll: -136.474625
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 1302816955708610656
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 7146417717388085730
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 1302816955708610656
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 15801596831876967152
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: 85
-            Y: -45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: -1
-            Z: -1
-          }
-        }
-        ParentId: 7012421780785832827
-        ChildIds: 17064662651389386769
-        ChildIds: 4495729817479403106
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 17064662651389386769
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: -60
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934036
-            Roll: -136.474625
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 15801596831876967152
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 4495729817479403106
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 15801596831876967152
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 11198287222917934520
-        Name: "Neck2R"
-        Transform {
-          Location {
-            X: -10
-            Y: 10
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 10608331701851823820
-        ChildIds: 15075846499128990455
-        ChildIds: 12338477297509451330
-        ChildIds: 16236819311149219888
-        ChildIds: 3499154473575222903
-        ChildIds: 2701709562763140508
-        ChildIds: 15230225977720210410
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 15075846499128990455
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: 15
-            Y: -45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: -1
-            Z: 1
-          }
-        }
-        ParentId: 11198287222917934520
-        ChildIds: 129060705776355514
-        ChildIds: 2891017490805043095
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 129060705776355514
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 15075846499128990455
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 2891017490805043095
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: 65
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 15075846499128990455
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 12338477297509451330
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: 15
-            Y: 45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11198287222917934520
-        ChildIds: 12627568164697739050
-        ChildIds: 17332762355263269221
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 12627568164697739050
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 12338477297509451330
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 17332762355263269221
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: 65
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 12338477297509451330
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 16236819311149219888
+        Id: 4671465736020316415
         Name: "Cylinder"
         Transform {
           Location {
-            X: 45
+            X: 90
+            Y: 10
           }
           Rotation {
             Pitch: -90
@@ -2397,10 +2032,10 @@ Assets {
           Scale {
             X: 1
             Y: 1
-            Z: 1.25000012
+            Z: 1.80000019
           }
         }
-        ParentId: 11198287222917934520
+        ParentId: 1278255828061949762
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2438,11 +2073,13 @@ Assets {
         }
       }
       Objects {
-        Id: 3499154473575222903
-        Name: "Cylinder"
+        Id: 4731525143461233953
+        Name: "Sphere - Half"
         Transform {
           Location {
-            X: 45
+            X: 180
+            Y: 10
+            Z: 1.52587891e-05
           }
           Rotation {
             Pitch: -90
@@ -2450,10 +2087,10 @@ Assets {
           Scale {
             X: 0.4
             Y: 1.2
-            Z: 1.25
+            Z: 3.30000043
           }
         }
-        ParentId: 11198287222917934520
+        ParentId: 1278255828061949762
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2468,7 +2105,68 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.639215708
+              R: 0.64
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 4957794639224726712
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 3680341709959303468
+        Name: "Cylinder"
+        Transform {
+          Location {
+            X: 90
+            Y: 10
+          }
+          Rotation {
+            Pitch: -90
+          }
+          Scale {
+            X: 0.4
+            Y: 1.2
+            Z: 1.80000007
+          }
+        }
+        ParentId: 1278255828061949762
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 4685798713724418805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.64
               A: 1
             }
           }
@@ -2498,53 +2196,23 @@ Assets {
         }
       }
       Objects {
-        Id: 2701709562763140508
-        Name: "Wingies"
+        Id: 10319327344295340795
+        Name: "Cylinder"
         Transform {
           Location {
-            X: 15
-            Y: 45
-            Z: 5
+            X: -90
+            Y: 10
           }
           Rotation {
+            Pitch: -90
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: -1
+            X: 0.4
+            Y: 1.2
+            Z: 1.80000007
           }
         }
-        ParentId: 11198287222917934520
-        ChildIds: 11257777520234650415
-        ChildIds: 12235630786550798255
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 11257777520234650415
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 2701709562763140508
+        ParentId: 1278255828061949762
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2553,9 +2221,13 @@ Assets {
             }
           }
           Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.639215708
+              R: 0.64
               A: 1
             }
           }
@@ -2568,7 +2240,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 7733007725099537116
+            Id: 6531257921240935799
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2585,24 +2257,25 @@ Assets {
         }
       }
       Objects {
-        Id: 12235630786550798255
-        Name: "Thorn"
+        Id: 8901909720567288310
+        Name: "Pipe - 45-Degree"
         Transform {
           Location {
-            X: 65
+            X: -175
+            Y: 10
+            Z: 3.05175781e-05
           }
           Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934029
-            Roll: -136.474609
+            Yaw: -89.9999847
+            Roll: -89.9999847
           }
           Scale {
-            X: 0.3
+            X: 1.2
             Y: 0.5
-            Z: 1
+            Z: 1.2
           }
         }
-        ParentId: 2701709562763140508
+        ParentId: 1278255828061949762
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2611,9 +2284,13 @@ Assets {
             }
           }
           Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.639215708
+              R: 0.64
               A: 1
             }
           }
@@ -2626,7 +2303,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 7733007725099537116
+            Id: 13783275049652431909
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2643,53 +2320,24 @@ Assets {
         }
       }
       Objects {
-        Id: 15230225977720210410
-        Name: "Wingies"
+        Id: 11093018965677996738
+        Name: "Pipe - 45-Degree"
         Transform {
           Location {
-            X: 15
+            X: -315
             Y: -45
-            Z: 5
           }
           Rotation {
+            Yaw: 89.9999695
+            Roll: -89.9999924
           }
           Scale {
-            X: 1
-            Y: -1
-            Z: -1
-          }
-        }
-        ParentId: 11198287222917934520
-        ChildIds: 12947268997793056379
-        ChildIds: 8552040793630455912
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 12947268997793056379
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
+            X: 1.1
             Y: 0.5
-            Z: 1
+            Z: 1.1
           }
         }
-        ParentId: 15230225977720210410
+        ParentId: 1278255828061949762
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2698,9 +2346,77 @@ Assets {
             }
           }
           Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.639215708
+              R: 0.64
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13783275049652431909
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 6867242284314767926
+        Name: "Thorn"
+        Transform {
+          Location {
+            X: 195
+            Y: -15
+            Z: 25
+          }
+          Rotation {
+            Pitch: 20.7047958
+            Yaw: -22.207655
+            Roll: -49.1066246
+          }
+          Scale {
+            X: 0.5
+            Y: 0.3
+            Z: 1.30000007
+          }
+        }
+        ParentId: 1278255828061949762
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 4685798713724418805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.64
               A: 1
             }
           }
@@ -2730,24 +2446,210 @@ Assets {
         }
       }
       Objects {
-        Id: 8552040793630455912
+        Id: 11165805506530201946
         Name: "Thorn"
+        Transform {
+          Location {
+            X: 225
+            Y: 10
+            Z: 25
+          }
+          Rotation {
+            Pitch: 34.9999924
+          }
+          Scale {
+            X: 0.5
+            Y: 0.3
+            Z: 1.30000007
+          }
+        }
+        ParentId: 1278255828061949762
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 4685798713724418805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.64
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 7733007725099537116
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 16414234769731010475
+        Name: "Cylinder"
+        Transform {
+          Location {
+            X: 195
+            Y: 10
+          }
+          Rotation {
+            Pitch: -90
+            Roll: -90
+          }
+          Scale {
+            X: 0.4
+            Y: 0.4
+            Z: 1.2
+          }
+        }
+        ParentId: 1278255828061949762
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 4685798713724418805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.64
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6531257921240935799
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 14480507670943556861
+        Name: "Cylinder"
+        Transform {
+          Location {
+            X: -170
+            Y: -5
+            Z: 1.52587891e-05
+          }
+          Rotation {
+            Pitch: -90
+          }
+          Scale {
+            X: 0.6
+            Y: 2.10000014
+            Z: 2.4
+          }
+        }
+        ParentId: 17149689144016636136
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 4685798713724418805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.789999962
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6531257921240935799
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 8544284997085051979
+        Name: "Cylinder"
         Transform {
           Location {
             X: 65
+            Y: -5
+            Z: 1.52587891e-05
           }
           Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934029
-            Roll: -136.474609
+            Pitch: -90
           }
           Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
+            X: 0.6
+            Y: 2.10000014
+            Z: 2.4
           }
         }
-        ParentId: 15230225977720210410
+        ParentId: 17149689144016636136
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -2756,9 +2658,245 @@ Assets {
             }
           }
           Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.639215708
+              R: 0.789999962
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6531257921240935799
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 10364896684029069404
+        Name: "Cylinder"
+        Transform {
+          Location {
+            X: -170
+            Y: -5
+            Z: 1.52587891e-05
+          }
+          Rotation {
+            Pitch: -90
+          }
+          Scale {
+            X: 1.2
+            Y: 2
+            Z: 2.4
+          }
+        }
+        ParentId: 17149689144016636136
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17416403521644267471
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6531257921240935799
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 8916419131168668086
+        Name: "Cone - Bullet"
+        Transform {
+          Location {
+            X: -290
+            Y: -5
+          }
+          Rotation {
+            Pitch: 90
+          }
+          Scale {
+            X: 1.2
+            Y: 1.99999976
+            Z: 1
+          }
+        }
+        ParentId: 17149689144016636136
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17416403521644267471
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2171564231935242179
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 11422745818271826330
+        Name: "Cone - Bullet"
+        Transform {
+          Location {
+            X: -290
+            Y: -5
+          }
+          Rotation {
+            Pitch: 90
+          }
+          Scale {
+            X: 0.6
+            Y: 2.10000014
+            Z: 1
+          }
+        }
+        ParentId: 17149689144016636136
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 4685798713724418805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.789999962
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2171564231935242179
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 14189405414956027324
+        Name: "Thorn"
+        Transform {
+          Location {
+            X: 185
+            Y: 5
+            Z: 50
+          }
+          Rotation {
+            Pitch: 34.9999542
+          }
+          Scale {
+            X: 0.5
+            Y: -0.3
+            Z: 1.30000007
+          }
+        }
+        ParentId: 17149689144016636136
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 4685798713724418805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.64
               A: 1
             }
           }
@@ -2788,4439 +2926,148 @@ Assets {
         }
       }
       Objects {
-        Id: 7198406855680427224
-        Name: "Neck3R"
+        Id: 12262620222966091484
+        Name: "Thorn"
+        Transform {
+          Location {
+            X: 75
+            Y: 5
+            Z: 50
+          }
+          Rotation {
+            Pitch: 34.999939
+          }
+          Scale {
+            X: 0.5
+            Y: -0.3
+            Z: 1.30000007
+          }
+        }
+        ParentId: 17149689144016636136
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 4685798713724418805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.64
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 7733007725099537116
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 2492880073909984594
+        Name: "Thorn"
+        Transform {
+          Location {
+            X: -35
+            Y: 5
+            Z: 50
+          }
+          Rotation {
+            Pitch: 34.999939
+          }
+          Scale {
+            X: 0.5
+            Y: -0.3
+            Z: 1.30000007
+          }
+        }
+        ParentId: 17149689144016636136
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 4685798713724418805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.64
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 7733007725099537116
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 9478013649957350512
+        Name: "Thorn"
         Transform {
           Location {
             X: -135
-            Y: 10
+            Y: 5
+            Z: 50
           }
           Rotation {
+            Pitch: 34.999939
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.5
+            Y: -0.3
+            Z: 1.30000007
           }
         }
-        ParentId: 10608331701851823820
-        ChildIds: 9695502832306702234
-        ChildIds: 8388360879074875134
-        ChildIds: 4751934805590996762
-        ChildIds: 829677100298612598
-        ChildIds: 8836000161571873552
-        ChildIds: 12375006078386190071
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 9695502832306702234
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: 15
-            Y: -45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: -1
-            Z: 1
-          }
-        }
-        ParentId: 7198406855680427224
-        ChildIds: 5306841532934216069
-        ChildIds: 5220082235456642688
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 5306841532934216069
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 9695502832306702234
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 5220082235456642688
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: 65
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 9695502832306702234
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 8388360879074875134
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: 15
-            Y: 45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 7198406855680427224
-        ChildIds: 12180189168591394018
-        ChildIds: 16922343748926646985
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 12180189168591394018
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 8388360879074875134
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 16922343748926646985
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: 65
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 8388360879074875134
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 4751934805590996762
-        Name: "Cylinder"
-        Transform {
-          Location {
-            X: 45
-          }
-          Rotation {
-            Pitch: -90
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1.25000012
-          }
-        }
-        ParentId: 7198406855680427224
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17416403521644267471
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6531257921240935799
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 829677100298612598
-        Name: "Cylinder"
-        Transform {
-          Location {
-            X: 45
-          }
-          Rotation {
-            Pitch: -90
-          }
-          Scale {
-            X: 0.4
-            Y: 1.2
-            Z: 1.25
-          }
-        }
-        ParentId: 7198406855680427224
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6531257921240935799
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 8836000161571873552
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: 15
-            Y: 45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: -1
-          }
-        }
-        ParentId: 7198406855680427224
-        ChildIds: 960790896316257889
-        ChildIds: 18224482361463596061
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 960790896316257889
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 8836000161571873552
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 18224482361463596061
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: 65
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 8836000161571873552
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 12375006078386190071
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: 15
-            Y: -45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: -1
-            Z: -1
-          }
-        }
-        ParentId: 7198406855680427224
-        ChildIds: 12364163454993988214
-        ChildIds: 13926629341218762019
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 12364163454993988214
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 12375006078386190071
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 13926629341218762019
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: 65
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 12375006078386190071
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 4410551789690213174
-        Name: "Neck4R"
-        Transform {
-          Location {
-            X: -260
-            Y: 10
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 10608331701851823820
-        ChildIds: 7903194298237891474
-        ChildIds: 5798184844075624190
-        ChildIds: 498077407098532103
-        ChildIds: 17727988434415800453
-        ChildIds: 8462790697507987668
-        ChildIds: 17337590061487958421
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 7903194298237891474
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: 20
-            Y: -45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: -1
-            Z: 1
-          }
-        }
-        ParentId: 4410551789690213174
-        ChildIds: 7923413234473329818
-        ChildIds: 1310219121228711387
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 7923413234473329818
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 7903194298237891474
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 1310219121228711387
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: 65
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 7903194298237891474
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 5798184844075624190
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: 20
-            Y: 45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 4410551789690213174
-        ChildIds: 13141508912444979130
-        ChildIds: 4286365391161570362
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 13141508912444979130
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 5798184844075624190
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 4286365391161570362
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: 65
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 5798184844075624190
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 498077407098532103
-        Name: "Cylinder"
-        Transform {
-          Location {
-            X: 45
-          }
-          Rotation {
-            Pitch: -90
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1.25000012
-          }
-        }
-        ParentId: 4410551789690213174
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17416403521644267471
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6531257921240935799
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 17727988434415800453
-        Name: "Cylinder"
-        Transform {
-          Location {
-            X: 45
-          }
-          Rotation {
-            Pitch: -90
-          }
-          Scale {
-            X: 0.4
-            Y: 1.2
-            Z: 1.25
-          }
-        }
-        ParentId: 4410551789690213174
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6531257921240935799
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 8462790697507987668
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: 20
-            Y: 45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: -1
-          }
-        }
-        ParentId: 4410551789690213174
-        ChildIds: 14174709795016988783
-        ChildIds: 3019767160933133315
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 14174709795016988783
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 8462790697507987668
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 3019767160933133315
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: 65
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 8462790697507987668
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 17337590061487958421
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: 20
-            Y: -45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: -1
-            Z: -1
-          }
-        }
-        ParentId: 4410551789690213174
-        ChildIds: 3954413052143083606
-        ChildIds: 5713653682686602915
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 3954413052143083606
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 17337590061487958421
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 5713653682686602915
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: 65
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 17337590061487958421
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 6398045861181655587
-        Name: "Neck5R"
-        Transform {
-          Location {
-            X: -385
-            Y: 10
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 10608331701851823820
-        ChildIds: 7679817558257660287
-        ChildIds: 14834729740744638773
-        ChildIds: 4718758865669586756
-        ChildIds: 8727230991837517973
-        ChildIds: 17690862057180524258
-        ChildIds: 13079074088016468794
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 7679817558257660287
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: 15
-            Y: -45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: -1
-            Z: 1
-          }
-        }
-        ParentId: 6398045861181655587
-        ChildIds: 11109043857288717815
-        ChildIds: 9056349178417736731
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 11109043857288717815
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 7679817558257660287
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 9056349178417736731
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: 65
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 7679817558257660287
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 14834729740744638773
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: 15
-            Y: 45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 6398045861181655587
-        ChildIds: 6958955177970304349
-        ChildIds: 4900174098993290349
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 6958955177970304349
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 14834729740744638773
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 4900174098993290349
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: 65
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 14834729740744638773
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 4718758865669586756
-        Name: "Cylinder"
-        Transform {
-          Location {
-            X: 45
-          }
-          Rotation {
-            Pitch: -90
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1.25000012
-          }
-        }
-        ParentId: 6398045861181655587
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17416403521644267471
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6531257921240935799
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 8727230991837517973
-        Name: "Cylinder"
-        Transform {
-          Location {
-            X: 45
-          }
-          Rotation {
-            Pitch: -90
-          }
-          Scale {
-            X: 0.4
-            Y: 1.2
-            Z: 1.25
-          }
-        }
-        ParentId: 6398045861181655587
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6531257921240935799
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 17690862057180524258
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: 15
-            Y: 45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: -1
-          }
-        }
-        ParentId: 6398045861181655587
-        ChildIds: 8760801615468676422
-        ChildIds: 17486555746442834021
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 8760801615468676422
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 17690862057180524258
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 17486555746442834021
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: 65
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 17690862057180524258
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 13079074088016468794
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: 15
-            Y: -45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: -1
-            Z: -1
-          }
-        }
-        ParentId: 6398045861181655587
-        ChildIds: 3389129352047460664
-        ChildIds: 14466844865354490722
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 3389129352047460664
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 13079074088016468794
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 14466844865354490722
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: 65
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 13079074088016468794
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 6196739484715476505
-        Name: "Neck6R"
-        Transform {
-          Location {
-            X: -510
-            Y: 10
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 10608331701851823820
-        ChildIds: 15141718519694617336
-        ChildIds: 11707583358443157333
-        ChildIds: 11133579715727827823
-        ChildIds: 18294932030027188046
-        ChildIds: 5517221101399044359
-        ChildIds: 13324806144238734804
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 15141718519694617336
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: 15
-            Y: -45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: -1
-            Z: 1
-          }
-        }
-        ParentId: 6196739484715476505
-        ChildIds: 10674927641343815877
-        ChildIds: 358919949442029937
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 10674927641343815877
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 15141718519694617336
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 358919949442029937
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: 65
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 15141718519694617336
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 11707583358443157333
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: 15
-            Y: 45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 6196739484715476505
-        ChildIds: 7521764189815158288
-        ChildIds: 9149083307942041685
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 7521764189815158288
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 11707583358443157333
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 9149083307942041685
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: 65
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 11707583358443157333
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 11133579715727827823
-        Name: "Cylinder"
-        Transform {
-          Location {
-            X: 45
-          }
-          Rotation {
-            Pitch: -90
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1.25000012
-          }
-        }
-        ParentId: 6196739484715476505
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17416403521644267471
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6531257921240935799
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 18294932030027188046
-        Name: "Cylinder"
-        Transform {
-          Location {
-            X: 45
-          }
-          Rotation {
-            Pitch: -90
-          }
-          Scale {
-            X: 0.4
-            Y: 1.2
-            Z: 1.25
-          }
-        }
-        ParentId: 6196739484715476505
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6531257921240935799
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 5517221101399044359
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: 15
-            Y: 45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: -1
-          }
-        }
-        ParentId: 6196739484715476505
-        ChildIds: 1641431258059675721
-        ChildIds: 4389526976829672367
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 1641431258059675721
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 5517221101399044359
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 4389526976829672367
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: 65
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 5517221101399044359
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 13324806144238734804
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: 15
-            Y: -45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: -1
-            Z: -1
-          }
-        }
-        ParentId: 6196739484715476505
-        ChildIds: 14581076116817221336
-        ChildIds: 5834411960967014181
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 14581076116817221336
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 13324806144238734804
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 5834411960967014181
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: 65
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 13324806144238734804
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 4124735700126184150
-        Name: "Neck7R"
-        Transform {
-          Location {
-            X: -635
-            Y: 10
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 10608331701851823820
-        ChildIds: 15878407415140350435
-        ChildIds: 14892247726504718625
-        ChildIds: 6127588198658342018
-        ChildIds: 9291869062240047905
-        ChildIds: 3296275186208847487
-        ChildIds: 7109386330857027778
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 15878407415140350435
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: 15
-            Y: -45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: -1
-            Z: 1
-          }
-        }
-        ParentId: 4124735700126184150
-        ChildIds: 4295924352890832931
-        ChildIds: 7970641896672623678
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 4295924352890832931
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 15878407415140350435
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 7970641896672623678
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: 65
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 15878407415140350435
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 14892247726504718625
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: 15
-            Y: 45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 4124735700126184150
-        ChildIds: 16640962471157550704
-        ChildIds: 11291762737182581430
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 16640962471157550704
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 14892247726504718625
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 11291762737182581430
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: 65
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 14892247726504718625
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 6127588198658342018
-        Name: "Cylinder"
-        Transform {
-          Location {
-            X: 45
-          }
-          Rotation {
-            Pitch: -90
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1.25000012
-          }
-        }
-        ParentId: 4124735700126184150
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17416403521644267471
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6531257921240935799
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 9291869062240047905
-        Name: "Cylinder"
-        Transform {
-          Location {
-            X: 45
-          }
-          Rotation {
-            Pitch: -90
-          }
-          Scale {
-            X: 0.4
-            Y: 1.2
-            Z: 1.25
-          }
-        }
-        ParentId: 4124735700126184150
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6531257921240935799
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 3296275186208847487
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: 15
-            Y: 45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: -1
-          }
-        }
-        ParentId: 4124735700126184150
-        ChildIds: 9470306787497877451
-        ChildIds: 1095056003831744777
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 9470306787497877451
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 3296275186208847487
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 1095056003831744777
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: 65
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 3296275186208847487
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 7109386330857027778
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: 15
-            Y: -45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: -1
-            Z: -1
-          }
-        }
-        ParentId: 4124735700126184150
-        ChildIds: 5744468372631220625
-        ChildIds: 6342788901433972267
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 5744468372631220625
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 7109386330857027778
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 6342788901433972267
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: 65
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 7109386330857027778
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 10974846828409423595
-        Name: "tail"
-        Transform {
-          Location {
-            X: -760
-            Y: 10
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 10608331701851823820
-        ChildIds: 18208180596053625554
-        ChildIds: 9975730464907128783
-        ChildIds: 5349531357743321951
-        ChildIds: 16105544605431349398
-        ChildIds: 9743586730716071091
-        ChildIds: 10575092781627363567
-        ChildIds: 12284946849909066772
-        ChildIds: 8742168890258967535
-        ChildIds: 7930551622366198350
-        ChildIds: 400478149437876955
-        ChildIds: 33342363042644834
-        ChildIds: 8252563705397616107
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 18208180596053625554
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: 20
-            Y: -45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: -1
-            Z: 1
-          }
-        }
-        ParentId: 10974846828409423595
-        ChildIds: 16389556762912974640
-        ChildIds: 18331835431062954289
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 16389556762912974640
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 18208180596053625554
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 18331835431062954289
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: 65
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 18208180596053625554
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 9975730464907128783
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: 20
-            Y: 45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 10974846828409423595
-        ChildIds: 1423045902412250497
-        ChildIds: 1004033225342270582
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 1423045902412250497
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 9975730464907128783
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 1004033225342270582
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: 65
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 9975730464907128783
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 5349531357743321951
-        Name: "Cylinder"
-        Transform {
-          Location {
-            X: 45
-          }
-          Rotation {
-            Pitch: -90
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1.25000012
-          }
-        }
-        ParentId: 10974846828409423595
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17416403521644267471
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6531257921240935799
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 16105544605431349398
-        Name: "Cylinder"
-        Transform {
-          Location {
-            X: 45
-          }
-          Rotation {
-            Pitch: -90
-          }
-          Scale {
-            X: 0.4
-            Y: 1.2
-            Z: 1.25
-          }
-        }
-        ParentId: 10974846828409423595
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6531257921240935799
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 9743586730716071091
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: 20
-            Y: 45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: -1
-          }
-        }
-        ParentId: 10974846828409423595
-        ChildIds: 10692963905783050761
-        ChildIds: 4022046425876429388
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 10692963905783050761
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 9743586730716071091
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 4022046425876429388
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: 65
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 9743586730716071091
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 10575092781627363567
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: 20
-            Y: -45
-            Z: 5
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: -1
-            Z: -1
-          }
-        }
-        ParentId: 10974846828409423595
-        ChildIds: 4198024036430040541
-        ChildIds: 5375882881065972771
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 4198024036430040541
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 10575092781627363567
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 5375882881065972771
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: 65
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 10575092781627363567
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 12284946849909066772
-        Name: "Sphere - Half"
-        Transform {
-          Location {
-            X: -15
-            Z: 1.52587891e-05
-          }
-          Rotation {
-            Pitch: -90
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: -2.8
-          }
-        }
-        ParentId: 10974846828409423595
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17416403521644267471
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 4957794639224726712
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 8742168890258967535
-        Name: "Sphere - Half"
-        Transform {
-          Location {
-            X: -15
-            Z: 1.52587891e-05
-          }
-          Rotation {
-            Pitch: -90
-          }
-          Scale {
-            X: 0.4
-            Y: 1.2
-            Z: -3.3
-          }
-        }
-        ParentId: 10974846828409423595
+        ParentId: 17149689144016636136
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -7248,95 +3095,6 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 4957794639224726712
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 7930551622366198350
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: -90
-            Y: -30
-          }
-          Rotation {
-            Yaw: -15
-          }
-          Scale {
-            X: 1
-            Y: -1
-            Z: -1
-          }
-        }
-        ParentId: 10974846828409423595
-        ChildIds: 1764678256599636798
-        ChildIds: 11402662041971794169
-        ChildIds: 794000485718062970
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 1764678256599636798
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: -60
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934036
-            Roll: -136.474625
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 7930551622366198350
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
             Id: 7733007725099537116
           }
           Teams {
@@ -7354,23 +3112,24 @@ Assets {
         }
       }
       Objects {
-        Id: 11402662041971794169
+        Id: 10771670904884559911
         Name: "Thorn"
         Transform {
           Location {
+            X: -290
+            Y: 5
+            Z: 50
           }
           Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
+            Pitch: 34.999939
           }
           Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
+            X: 0.5
+            Y: -0.3
+            Z: 1.30000007
           }
         }
-        ParentId: 7930551622366198350
+        ParentId: 17149689144016636136
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -7379,681 +3138,13 @@ Assets {
             }
           }
           Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 794000485718062970
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: 65
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 7930551622366198350
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 400478149437876955
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: -90
-            Y: 25
-            Z: -1.52587891e-05
-          }
-          Rotation {
-            Yaw: 15
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: -1
-          }
-        }
-        ParentId: 10974846828409423595
-        ChildIds: 7914370252303990177
-        ChildIds: 8271046948722277697
-        ChildIds: 15697556566617701115
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 7914370252303990177
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: -60
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934036
-            Roll: -136.474625
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 400478149437876955
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 8271046948722277697
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 400478149437876955
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 15697556566617701115
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: 65
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 400478149437876955
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 33342363042644834
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: -90
-            Y: 25
-            Z: -1.52587891e-05
-          }
-          Rotation {
-            Yaw: 15
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 10974846828409423595
-        ChildIds: 17283206151889624975
-        ChildIds: 7894429524955208878
-        ChildIds: 12908613866509481539
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 17283206151889624975
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: -60
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934036
-            Roll: -136.474625
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 33342363042644834
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 7894429524955208878
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 33342363042644834
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 12908613866509481539
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: 65
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 33342363042644834
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 8252563705397616107
-        Name: "Wingies"
-        Transform {
-          Location {
-            X: -90
-            Y: -30
-          }
-          Rotation {
-            Yaw: -15
-          }
-          Scale {
-            X: 1
-            Y: -1
-            Z: 1
-          }
-        }
-        ParentId: 10974846828409423595
-        ChildIds: 10276120678926411017
-        ChildIds: 13458375358047568647
-        ChildIds: 1173002926980498615
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 10276120678926411017
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: -60
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934036
-            Roll: -136.474625
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 8252563705397616107
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 13458375358047568647
-        Name: "Thorn"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -34.6537361
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 8252563705397616107
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 7733007725099537116
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 1173002926980498615
-        Name: "Thorn"
-        Transform {
-          Location {
-            X: 65
-          }
-          Rotation {
-            Pitch: -34.6537399
-            Yaw: -120.934029
-            Roll: -136.474609
-          }
-          Scale {
-            X: 0.3
-            Y: 0.5
-            Z: 1
-          }
-        }
-        ParentId: 8252563705397616107
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4685798713724418805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.639215708
+              R: 0.64
               A: 1
             }
           }
@@ -8119,6 +3210,33 @@ Assets {
       }
     }
     Assets {
+      Id: 6531257921240935799
+      Name: "Cylinder"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cylinder_002"
+      }
+    }
+    Assets {
+      Id: 17416403521644267471
+      Name: "Carbon Fiber 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_carbon-fiber_001"
+      }
+    }
+    Assets {
+      Id: 13783275049652431909
+      Name: "Pipe - 45-Degree"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_pipe_curve45_001"
+      }
+    }
+    Assets {
       Id: 7733007725099537116
       Name: "Thorn"
       PlatformAssetType: 1
@@ -8146,21 +3264,12 @@ Assets {
       }
     }
     Assets {
-      Id: 17416403521644267471
-      Name: "Carbon Fiber 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_carbon-fiber_001"
-      }
-    }
-    Assets {
-      Id: 6531257921240935799
-      Name: "Cylinder"
+      Id: 2171564231935242179
+      Name: "Cone - Bullet"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cylinder_002"
+        AssetId: "sm_bullet_001"
       }
     }
     PrimaryAssetId {

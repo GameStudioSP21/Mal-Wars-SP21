@@ -10,9 +10,9 @@ Assets {
         Name: "Mortar Turret_ghost"
         Transform {
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 3
+            Y: 3
+            Z: 3
           }
         }
         ParentId: 4781671109827199097
@@ -36,9 +36,9 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 3
-            Y: 3
-            Z: 3
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
         ParentId: 9931959524337451293

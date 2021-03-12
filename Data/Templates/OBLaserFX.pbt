@@ -16,7 +16,6 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 8485782662765531393
         ChildIds: 5051978100274737740
         ChildIds: 2915007510978308498
         ChildIds: 14233795868043464991
@@ -28,52 +27,6 @@ Assets {
         }
         Folder {
           IsGroup: true
-        }
-      }
-      Objects {
-        Id: 8485782662765531393
-        Name: "Distant Explosions Set 01 SFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 4605122028102754150
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Type"
-            Enum {
-              Value: "mc:esfx_explosions_distant:12"
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 7167383016849586648
-          }
-          TeamSettings {
-          }
-          AudioBP {
-            Pitch: 2400
-            Volume: 0.402926683
-            Falloff: 4000
-            Radius: 3000
-            EnableOcclusion: true
-            IsSpatializationEnabled: true
-            IsAttenuationEnabled: true
-          }
         }
       }
       Objects {
@@ -135,7 +88,8 @@ Assets {
           Overrides {
             Name: "bp:Secondary Color"
             Color {
-              G: 0.0264897346
+              R: 0.595364451
+              G: 0.0600000024
               B: 1
               A: 1
             }
@@ -198,10 +152,6 @@ Assets {
             Name: "bp:Beam Length"
             Float: 1000
           }
-          Overrides {
-            Name: "bp:Emissive Boost"
-            Float: 11.394949
-          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -222,15 +172,6 @@ Assets {
             }
           }
         }
-      }
-    }
-    Assets {
-      Id: 7167383016849586648
-      Name: "Distant Explosions Set 01 SFX"
-      PlatformAssetType: 10
-      PrimaryAsset {
-        AssetType: "AudioBlueprintAssetRef"
-        AssetId: "sfxabp_explosions_distant_ref"
       }
     }
     Assets {
