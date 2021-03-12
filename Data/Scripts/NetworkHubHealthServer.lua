@@ -11,13 +11,9 @@ Task.Wait(1)
 
 local singlePlayer = Game.GetPlayers()[1]
 
--- We can't guarentee that this data will be ready. Let's wait.
--- TODO: Refactor. Yield on game manager needed.
-while not singlePlayer.serverUserData.activeBoard do
-    Task.Wait()
-end
 
-local ourBoard = singlePlayer.serverUserData.activeBoard
+
+local ourBoard = GameManager.WaitForBoardFromPlayer(singlePlayer)
 local waveManager = ourBoard:GetWaveManager()
 
 waveManager.OnEnemyReachedEnd:Connect(function(enemyObject)
@@ -38,6 +34,7 @@ waveManager.OnEnemyReachedEnd:Connect(function(enemyObject)
             print("Failure!")
             waveManager:SetCurrentPhase("END_FAILED")
             GameOver.Visibility = Visibility.FORCE_ON
+            
         end
     end
 end)
