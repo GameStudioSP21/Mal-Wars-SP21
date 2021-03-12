@@ -21,7 +21,6 @@ Objects {
   ChildIds: 10722931758594424760
   ChildIds: 8512805858169632350
   ChildIds: 15885606419812222058
-  ChildIds: 15817257713880451007
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -31,32 +30,6 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
-  }
-}
-Objects {
-  Id: 15817257713880451007
-  Name: "OBLaserFX"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 4605122028102754150
-      value {
-        Overrides {
-          Name: "Name"
-          String: "OBLaserFX"
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 16110847186557738078
-    }
   }
 }
 Objects {

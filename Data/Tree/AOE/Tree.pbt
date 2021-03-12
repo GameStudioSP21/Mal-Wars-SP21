@@ -44,7 +44,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 50
+      Int: 60
     }
     Overrides {
       Name: "cs:Speed"
@@ -137,7 +137,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 40
+      Int: 45
     }
     Overrides {
       Name: "cs:Speed"
@@ -236,7 +236,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 30
+      Int: 32
     }
     Overrides {
       Name: "cs:Speed"

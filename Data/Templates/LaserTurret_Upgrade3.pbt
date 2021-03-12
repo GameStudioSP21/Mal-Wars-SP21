@@ -1995,9 +1995,9 @@ Assets {
         Name: "Barrels"
         Transform {
           Location {
-            X: -2.94306493
-            Y: -21.1031132
-            Z: 255.220551
+            X: -36.2699318
+            Y: -21.1025906
+            Z: 255.22052
           }
           Rotation {
           }
@@ -2008,7 +2008,6 @@ Assets {
           }
         }
         ParentId: 18044386475537185027
-        ChildIds: 10624328945617326131
         ChildIds: 18213668221841095622
         ChildIds: 16883135061988170767
         ChildIds: 9684795937945981095
@@ -2024,66 +2023,13 @@ Assets {
         }
       }
       Objects {
-        Id: 10624328945617326131
-        Name: "Flywheel"
-        Transform {
-          Location {
-            X: 129.332031
-            Y: -0.00244140625
-            Z: -0.0048828125
-          }
-          Rotation {
-          }
-          Scale {
-            X: -0.845208108
-            Y: 5.07124901
-            Z: 5.07124901
-          }
-        }
-        ParentId: 10117684059297645843
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_Detail1:color"
-            Color {
-              R: 0.896269679
-              G: 0.212230787
-              B: 0.0512694679
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6789604014209716330
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
         Id: 18213668221841095622
         Name: "Barrels"
         Transform {
           Location {
-            X: 517.324
-            Y: -20.480814
-            Z: -188.653671
+            X: 454.552979
+            Y: 3.2566402
+            Z: -202.357925
           }
           Rotation {
           }

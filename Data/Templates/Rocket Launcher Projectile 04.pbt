@@ -117,6 +117,9 @@ Assets {
         Name: "Basic Projectile Trail VFX"
         Transform {
           Location {
+            X: 0.00152587891
+            Y: 0.00228225882
+            Z: -4884.91895
           }
           Rotation {
             Roll: 3.55019701e-25
@@ -154,15 +157,15 @@ Assets {
           }
           Overrides {
             Name: "bp:Emissive Boost"
-            Float: 2.5
+            Float: 7.32559586
           }
           Overrides {
             Name: "bp:Particle Scale Multiplier"
-            Float: 1.82878602
+            Float: 2.35619974
           }
           Overrides {
             Name: "bp:Life"
-            Float: 0.138520211
+            Float: 0.1
           }
         }
         Collidable_v2 {

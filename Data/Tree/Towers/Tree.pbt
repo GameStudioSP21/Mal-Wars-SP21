@@ -1,194 +1,6 @@
 Name: "Towers"
 RootId: 8512805858169632350
 Objects {
-  Id: 5253375868528970036
-  Name: "Mortar Turret 3"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8512805858169632350
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 3956783414671962925
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Mortar Turret 3"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -11199.0186
-            Y: 3196.07593
-            Z: 25
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.75
-            Y: 0.75
-            Z: 0.75
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 16747458074272775562
-    }
-  }
-}
-Objects {
-  Id: 12606103333002725906
-  Name: "Mortar Turret 2"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8512805858169632350
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 12608690216509801216
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Mortar Turret 2"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -11174.0186
-            Y: 4046.07593
-            Z: 50
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.75
-            Y: 0.75
-            Z: 0.75
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 9841354837763033653
-    }
-  }
-}
-Objects {
-  Id: 11095525845086124875
-  Name: "Mortar Turret 1"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8512805858169632350
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 9931959524337451293
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Mortar Turret 1"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -11174.0186
-            Y: 4871.07617
-            Z: 25
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.75
-            Y: 0.75
-            Z: 0.75
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 6309747726861233303
-    }
-  }
-}
-Objects {
-  Id: 13643297479759800797
-  Name: "Mortar Turret 4"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8512805858169632350
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6278309810113458203
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Mortar Turret 4"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -11124.0186
-            Y: 2271.07593
-            Z: 25
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.75
-            Y: 0.75
-            Z: 0.75
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 14415463227793233083
-    }
-  }
-}
-Objects {
   Id: 12584526261017762769
   Name: "AoETower_04"
   Transform {
@@ -373,15 +185,9 @@ Objects {
   }
 }
 Objects {
-  Id: 292193556654134511
+  Id: 14412925876461815590
   Name: "LaserTurret_Upgrade4"
   Transform {
-    Location {
-      X: -11862.8535
-      Y: 2312.33105
-    }
-    Rotation {
-    }
     Scale {
       X: 1
       Y: 1
@@ -389,30 +195,6 @@ Objects {
     }
   }
   ParentId: 8512805858169632350
-  ChildIds: 16293181090018870788
-  ChildIds: 15374682841128618934
-  ChildIds: 8812951659638781290
-  ChildIds: 9917463173600348261
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:HorizontalRotator"
-      ObjectReference {
-        SelfId: 7441126464905548891
-      }
-    }
-    Overrides {
-      Name: "cs:VerticalRotator"
-      ObjectReference {
-        SelfId: 9615796082552513850
-      }
-    }
-    Overrides {
-      Name: "cs:Muzzle"
-      ObjectReference {
-        SelfId: 3286563686015664819
-      }
-    }
-  }
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -420,260 +202,31 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 292193556654134511
-    SubobjectId: 14160675516524522327
-    InstanceId: 14412925876461815590
-    TemplateId: 893641266006266770
-    WasRoot: true
-  }
-}
-Objects {
-  Id: 9917463173600348261
-  Name: "Steam Pressure Release Short 01 SFX"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 292193556654134511
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 7115571218229221495
-    }
-    AutoPlay: true
-    Transient: true
-    Volume: 1
-    Falloff: -1
-    Radius: -1
-    EnableOcclusion: true
-    IsSpatializationEnabled: true
-    IsAttenuationEnabled: true
-  }
-  InstanceHistory {
-    SelfId: 9917463173600348261
-    SubobjectId: 5272359538147948509
-    InstanceId: 14412925876461815590
-    TemplateId: 893641266006266770
-  }
-}
-Objects {
-  Id: 8812951659638781290
-  Name: "Pneumatic Impact Air Drill 01 SFX"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 292193556654134511
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 6401498020918617889
-    }
-    AutoPlay: true
-    Transient: true
-    Volume: 1.58333898
-    Falloff: -1
-    Radius: -1
-    EnableOcclusion: true
-    IsSpatializationEnabled: true
-    IsAttenuationEnabled: true
-  }
-  InstanceHistory {
-    SelfId: 8812951659638781290
-    SubobjectId: 13458765532357561042
-    InstanceId: 14412925876461815590
-    TemplateId: 893641266006266770
-  }
-}
-Objects {
-  Id: 15374682841128618934
-  Name: "Machine Servo Turret Movement Stop 01 SFX"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 292193556654134511
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 769007112956482022
-    }
-    AutoPlay: true
-    Transient: true
-    Pitch: -631.243408
-    Volume: 2.08646464
-    Falloff: -1
-    Radius: -1
-    EnableOcclusion: true
-    IsSpatializationEnabled: true
-    IsAttenuationEnabled: true
-  }
-  InstanceHistory {
-    SelfId: 15374682841128618934
-    SubobjectId: 1573761448847815694
-    InstanceId: 14412925876461815590
-    TemplateId: 893641266006266770
-  }
-}
-Objects {
-  Id: 16293181090018870788
-  Name: "Client"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 292193556654134511
-  ChildIds: 14660790963502868209
-  ChildIds: 12765230000126449803
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  NetworkContext {
-  }
-  InstanceHistory {
-    SelfId: 16293181090018870788
-    SubobjectId: 2492679474956155324
-    InstanceId: 14412925876461815590
-    TemplateId: 893641266006266770
-  }
-}
-Objects {
-  Id: 12765230000126449803
-  Name: "KickBack"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16293181090018870788
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Turret_root"
-      ObjectReference {
-        SelfId: 292193556654134511
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14160675516524522327
+      value {
+        Overrides {
+          Name: "Name"
+          String: "LaserTurret_Upgrade4"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -11862.8535
+            Y: 2312.33105
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
       }
     }
-    Overrides {
-      Name: "cs:Turret_Head"
-      ObjectReference {
-        SelfId: 13197064708504507640
-      }
+    TemplateAsset {
+      Id: 893641266006266770
     }
-    Overrides {
-      Name: "cs:Ease3D"
-      AssetReference {
-        Id: 11698430162959436393
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 14651322305719110020
-    }
-  }
-  InstanceHistory {
-    SelfId: 12765230000126449803
-    SubobjectId: 8191469566333200179
-    InstanceId: 14412925876461815590
-    TemplateId: 893641266006266770
-  }
-}
-Objects {
-  Id: 14660790963502868209
-  Name: "Geo"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16293181090018870788
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Geo"
-  }
-  InstanceHistory {
-    SelfId: 14660790963502868209
-    SubobjectId: 864498242713065801
-    InstanceId: 14412925876461815590
-    TemplateId: 893641266006266770
   }
 }
 Objects {
@@ -716,16 +269,6 @@ Objects {
         }
       }
     }
-    ParameterOverrideMap {
-      key: 10117684059297645843
-      value {
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
     TemplateAsset {
       Id: 10476688936982406841
     }
@@ -750,19 +293,6 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   TemplateInstance {
-    ParameterOverrideMap {
-      key: 8267997127683828857
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 454.55304
-            Y: 37.1948662
-            Z: 35.6345291
-          }
-        }
-      }
-    }
     ParameterOverrideMap {
       key: 16602805628744511675
       value {
@@ -826,45 +356,6 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 6420191404612785228
-      value {
-        Overrides {
-          Name: "Radius"
-          Float: 2000
-        }
-        Overrides {
-          Name: "Falloff"
-          Float: 4000
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 6595092435938181744
-      value {
-        Overrides {
-          Name: "bp:Color"
-          Color {
-            G: 0.854635775
-            B: 0.89
-            A: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 15928651382399602622
-      value {
-        Overrides {
-          Name: "Radius"
-          Float: 4000
-        }
-        Overrides {
-          Name: "Falloff"
-          Float: 6000
         }
       }
     }
