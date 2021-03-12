@@ -128,10 +128,37 @@ function Board:GetNearestTower(position,maxRadius,owner)
 
 end
 
+-- Returns true if the provided position is within a towers exclusion area.
+function Board:IsPositionInBlockedRadiusOfTower(position)
+    local allTowers = self:GetAllTowers()
+    for _, tower in pairs(allTowers) do
+        if tower:IsPositionInBlockedRadius(position) then
+            return true
+        end
+    end
+    return false
+end
+
 -- An easy way to return all a table of all enemies on the board.
 function Board:GetEnemies()
     assert(self.waveManager,"Wavemanager was not created on the board. Make sure you call yourBoard:CreateWaveManager() to construct the wave manager.")
     return self.waveManager:GetEnemies()
+end
+
+-- When called all towers will display their blocked radius
+function Board:DisplayBlockedRadiusOfTowers()
+    local allTowers = self:GetAllTowers()
+    for _, tower in pairs(allTowers) do
+        tower:DiplayBlockedRadius()
+    end
+end
+
+-- When called all towers will remove their blocked radius
+function Board:RemoveBlockedRadiusOfTowers()
+    local allTowers = self:GetAllTowers()
+    for _, tower in pairs(allTowers) do
+        tower:RemoveBlockedRadius()
+    end
 end
 
 ----------------------------------------------------
@@ -186,7 +213,10 @@ end
 -- Adds a tower to the board when provided a tower and position
 function Board:AddTower(tower, position, _hasRepeated)
 
+    assert(tower:GetOwner(),string.format("Tried to add %s tower to the board when it has no owner. Make sure you assign a owner.",tower:GetName()))
+
     tower:SetBoard(self)
+    local roundedPosition = Vector3.New(math.floor(position.x),math.floor(position.y),math.floor(position.z))
 
     if Environment.IsClient() then
         local LOCAL_PLAYER = Game.GetLocalPlayer()

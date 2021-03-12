@@ -72,7 +72,6 @@ Objects {
   ChildIds: 9423823038731708098
   ChildIds: 4439017205730984442
   ChildIds: 4409660520606648377
-  ChildIds: 3100766590497628367
   ChildIds: 16202492720055379341
   ChildIds: 2736992262683392385
   ChildIds: 17259260182889837128
@@ -80,6 +79,7 @@ Objects {
   ChildIds: 7542508715810446415
   ChildIds: 7827960862906207700
   ChildIds: 13505973121807035945
+  ChildIds: 11972045575599141693
   ChildIds: 16770122093518865646
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -117,7 +117,7 @@ Objects {
 }
 Objects {
   Id: 13696509929494567475
-  Name: "TowerContextMenu"
+  Name: "Root"
   Transform {
     Location {
       X: 5550
@@ -2317,6 +2317,32 @@ Objects {
     ScriptAsset {
       Id: 12300644303050059754
     }
+  }
+}
+Objects {
+  Id: 11972045575599141693
+  Name: "GeneralTowerHotbar"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11447076056570800100
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "GeneralTowerHotbar"
   }
 }
 Objects {
@@ -7385,41 +7411,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Indicators"
-  }
-}
-Objects {
-  Id: 3100766590497628367
-  Name: "ProjectileTester"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11447076056570800100
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:objectProjectile"
-      AssetReference {
-        Id: 13893628220512827277
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 11298225152328961584
-    }
   }
 }
 Objects {
