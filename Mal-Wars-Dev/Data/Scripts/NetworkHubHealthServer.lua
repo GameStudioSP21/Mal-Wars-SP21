@@ -30,10 +30,19 @@ waveManager.OnEnemyReachedEnd:Connect(function(enemyObject)
         local currentHealthBar = currentHealth / initalHealth
         networkHubHealthBar.progress = currentHealthBar
 
+        --When health reaches 0
         if currentHealth <= 0 then
             print("Failure!")
             waveManager:SetCurrentPhase("END_FAILED")
-            GameOver.Visibility = Visibility.FORCE_ON
+
+            --GameOver UI visibility is turned on
+            GameOver.visibility = Visibility.FORCE_ON 
+
+            --Should Destroy all enemies on the map
+            for _, enemy in pairs(waveManager:GetEnemies()) do
+                --print(enemy)
+                enemy:Destroy()
+            end
             
         end
     end
