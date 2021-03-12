@@ -44,15 +44,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13893628220512827277
-  Name: "Ball - Basketball 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_ball_basketball_01_ref"
-  }
-}
-Assets {
   Id: 13496764517644833906
   Name: "Teko"
   PlatformAssetType: 28

@@ -34,8 +34,20 @@ function BasicProjectile:SetWorldPosition(position)
     return self.object:SetWorldPosition(position)
 end
 
+function BasicProjectile:Destroy()
+    self:StopSimulation()
+    self.object:Destroy()
+end
+
 function BasicProjectile:GetMaxHeight()
     return self.maxHeight
+end
+
+function BasicProjectile:GetPositionFromTime(time)
+    local x = self.direction.x * time
+    local y = self.direction.y * time
+    local z = (self.direction.z * time + (-self.gravity*time^2)/2)
+    return self.object:GetWorldPosition() + Vector3.New(x,y,z)
 end
 
 function BasicProjectile:GetTimeToMaxHeight()
@@ -62,7 +74,7 @@ function BasicProjectile:_ProcessProjectile()
     
     -- CONSTANTS
     -- Gravity = 9.81 m/s^2
-    local G = 9.81
+    local G = self.gravity
     -- Inital Velocity
     local VO = self.direction.size
     -- Angle from z
@@ -86,18 +98,13 @@ function BasicProjectile:_ProcessProjectile()
     local oldY = 0
     local oldZ = 0
     local reachedApex = false
-    local isDone = false
 
     local endX = DIRECTION.x * TOTAL_TRAVEL_TIME
     local endY = DIRECTION.y * TOTAL_TRAVEL_TIME
     local endZ = (DIRECTION.z * TOTAL_TRAVEL_TIME + (ACCELERATION*TOTAL_TRAVEL_TIME^2)/2)
     local endingPosition = initalPosition + Vector3.New(endX, endY, endZ)
 
-    -- CHANGE
-    ---------------------------------------
-    local intensity = 40
-    local randomWeight = self.rotationDirection
-    ---------------------------------------
+    local rotationDirection = self.rotationDirection
 
     local hitResultHeight = World.Raycast(endingPosition + Vector3.UP * 100, endingPosition + Vector3.UP * -10000, { ignorePlayers = true })
     local hTime = 0
@@ -137,13 +144,11 @@ function BasicProjectile:_ProcessProjectile()
 
     Task.Spawn(function()
         while not self.isDone do
-            local deltaTime = os.clock()
             local currentTime = (os.clock() - t) * self.speedMultiplier * 10
             oldX = DIRECTION.x * currentTime
             oldY = DIRECTION.y * currentTime
             oldZ = (DIRECTION.z * currentTime + (ACCELERATION*currentTime^2)/2)
             Task.Wait()
-            deltaTime = os.clock() - deltaTime
     
             currentTime = (os.clock() - t) * self.speedMultiplier * 10
             x = DIRECTION.x * currentTime
@@ -158,21 +163,21 @@ function BasicProjectile:_ProcessProjectile()
                     end
                     local hitResult = World.Raycast(initalPosition + Vector3.New(oldX,oldY,oldZ), initalPosition + Vector3.New(x,y,z), { ignorePlayers = true })
                     if hitResult then
-                        isDone = true
+                        self.isDone = true
                         self:_FireEvent("OnHit",hitResult)
                     end
                 end
 
                 self.object:SetWorldPosition( initalPosition + Vector3.New(x,y,z))
                 
-                self.object:SetWorldRotation( Rotation.New(randomWeight.x * currentTime, randomWeight.y  * currentTime, randomWeight.z  * currentTime) )
+                self.object:SetWorldRotation( Rotation.New(rotationDirection.x * currentTime, rotationDirection.y  * currentTime, rotationDirection.z  * currentTime) )
         
                 if currentTime >= TIME_TO_APEX_FROM_GROUND and not reachedApex then
                     reachedApex = true
                     self:_FireEvent("OnReachedApex")
                 end
 
-                if (currentTime >= TOTAL_TRAVEL_TIME + hTime and not self.isRaycasting) or isDone then
+                if (currentTime >= TOTAL_TRAVEL_TIME + hTime and not self.isRaycasting) or self.isDone then
                     self.isDone = true
     
                     local hitResult = World.Raycast(initalPosition + Vector3.New(x,y,z) + Vector3.UP * 100, (initalPosition + Vector3.New(x,y,z)) - Vector3.UP * 100, { ignorePlayers = true })
@@ -194,9 +199,10 @@ end
 function BasicProjectile:_Init(projectileData)
     self.isDone = false
     assert(projectileData.object,"Can not simulate projectile without object. Make sure you have a 'object' key that has a value of a newly created object.")
-    assert(projectileData.direction,"Can not simulate projectile without object. Make sure you have a 'object' key that has a value of a newly created object.")
+    assert(projectileData.direction,"Can not simulate projectile without direction. Make sure you have a 'direction' key that has a value of a newly created object.")
     self.object = projectileData.object
     self.direction = projectileData.direction
+    self.gravity = projectileData.gravity or 9.81 -- This library does not consider if gravity is reversed. Not a direction too. Needs to be a constant.
     self.lifeTime = projectileData.lifeTime or 0
     self.rotationDirection = projectileData.rotationDirection or Vector3.New()
     self.endOffsetPosition = projectileData.endOffsetPosition or Vector3.New()
@@ -226,6 +232,4 @@ function BasicProjectile:_DefineEvent(eventName)
     }
 end
 
-
 return BasicProjectile
-

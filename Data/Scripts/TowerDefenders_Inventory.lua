@@ -18,6 +18,21 @@ function Inventory.New(database, owner, inventoryTowersString, equippedTowersStr
     return self
 end
 
+--------------------------------------
+-- Networked
+--------------------------------------
+
+function Inventory:AddTower(tower)
+
+end
+
+function Inventory:RemoveTower(tower)
+
+end
+
+--------------------------------------
+
+
 -- Returns true if the inventory contains a tower
 function Inventory:HasTower(tower)
 
@@ -91,12 +106,12 @@ function Inventory:_Init(database,owner,inventoryTowersString,equippedTowersStri
         table.insert(self.equippedTowers,tower)
     else
         for tower in inventoryTowersString:gmatch("([^,]+),") do
-            print("inventory MUID:",tower)
+            --print("inventory MUID:",tower)
             local tower = database:NewTowerByMUID(tower)
             table.insert(self.towers,tower)
         end
         for tower in equippedTowersString:gmatch("([^,]+),") do
-            print("equipped MUID:",tower)
+            --print("equipped MUID:",tower)
             local tower = database:NewTowerByMUID(tower)
             table.insert(self.equippedTowers,tower)
         end

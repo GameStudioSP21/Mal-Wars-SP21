@@ -17,5 +17,5 @@ function CollectGem()
 	script.parent:Destroy()
 end
 
-Task.Wait(pickupDelay)
+Task.Wait(pickupDelay+math.random())
 CollectGem()
