@@ -1,6 +1,8 @@
 local initalHealth = script:GetCustomProperty("HubHealth")
 local GameManager = require(script:GetCustomProperty("GameManager"))
 local networkHubHealthBar = script:GetCustomProperty("NetworkHubHealthBar"):WaitForObject()
+local GameOver = script:GetCustomProperty("GameOver"):WaitForObject()
+
 
 
 local WAVE_REGEN_HEALTH = 10
@@ -35,6 +37,7 @@ waveManager.OnEnemyReachedEnd:Connect(function(enemyObject)
         if currentHealth <= 0 then
             print("Failure!")
             waveManager:SetCurrentPhase("END_FAILED")
+            GameOver.Visibility = Visibility.FORCE_ON
         end
     end
 end)

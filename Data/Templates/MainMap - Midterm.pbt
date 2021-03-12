@@ -20,7 +20,6 @@ Assets {
         ChildIds: 10343002378212205881
         ChildIds: 17637186462734073188
         ChildIds: 15932219875191573269
-        ChildIds: 3206220189379387661
         UnregisteredParameters {
           Overrides {
             Name: "cs:Owners"
@@ -75,8 +74,10 @@ Assets {
           }
         }
         ParentId: 4162559028374586543
+        ChildIds: 3206220189379387661
         ChildIds: 6730440738920687730
         ChildIds: 1603155050493491022
+        ChildIds: 3599635422827979000
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -103,6 +104,48 @@ Assets {
                 Value: "mc:euianchor:topleft"
               }
             }
+          }
+        }
+      }
+      Objects {
+        Id: 3206220189379387661
+        Name: "NetworkHubHealthServer"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4166633234502508400
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:NetworkHubHealthBar"
+            ObjectReference {
+              SubObjectId: 6730440738920687730
+            }
+          }
+          Overrides {
+            Name: "cs:GameOver"
+            ObjectReference {
+              SubObjectId: 3599635422827979000
+            }
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 3697162705090323815
           }
         }
       }
@@ -167,7 +210,7 @@ Assets {
       }
       Objects {
         Id: 1603155050493491022
-        Name: "UI Text Box"
+        Name: "NetworkHubTextBox"
         Transform {
           Location {
           }
@@ -221,6 +264,67 @@ Assets {
             TargetAnchor {
               Anchor {
                 Value: "mc:euianchor:topcenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 3599635422827979000
+        Name: "GameOver"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4166633234502508400
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        Control {
+          Width: 600
+          Height: 275
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Text {
+            Label: "Game Over"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            Size: 100
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            AutoWrapText: true
+            Font {
+              Id: 841534158063459245
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
               }
             }
           }
@@ -78378,42 +78482,6 @@ Assets {
         }
         Folder {
           IsFilePartition: true
-        }
-      }
-      Objects {
-        Id: 3206220189379387661
-        Name: "NetworkHubHealthServer"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 4162559028374586543
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:NetworkHubHealthBar"
-            ObjectReference {
-              SubObjectId: 6730440738920687730
-            }
-          }
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 3697162705090323815
-          }
         }
       }
     }
