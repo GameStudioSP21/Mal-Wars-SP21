@@ -38,11 +38,27 @@ waveManager.OnEnemyReachedEnd:Connect(function(enemyObject)
             --GameOver UI visibility is turned on
             GameOver.visibility = Visibility.FORCE_ON 
 
-            --Should Destroy all enemies on the map
+            --Should Destroy all towers on the board
+            local towers = ourBoard:GetAllTowers()
+            for _, tower in pairs(towers) do
+                --print("I found a tower")
+                tower:Destroy()
+                --print("Tower should be destroyed")
+            end
+            --Broadcast to client to destroy all towers    *DestroyTowerClient is the event listener script
+            Events.BroadcastToAllPlayers("RAT", ourBoard:GetID())
+
+           --Should Destroy all enemies on the map
             for _, enemy in pairs(waveManager:GetEnemies()) do
                 --print(enemy)
                 enemy:Destroy()
             end
+
+            --Sets the player's money back to 300
+            singlePlayer:SetResource("Gems", 300)
+
+            --waveManager.waveIndex = 0
+            --waveManager:SetCurrentPhase("WAITING_READY")
             
         end
     end
