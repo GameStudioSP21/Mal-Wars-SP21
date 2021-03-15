@@ -18,7 +18,7 @@ Objects {
   ChildIds: 16813558807825262224
   ChildIds: 14713340454944924967
   ChildIds: 10005074784157121906
-  ChildIds: 14982843161775482339
+  ChildIds: 8772234700748848760
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -31,43 +31,30 @@ Objects {
   }
 }
 Objects {
-  Id: 14982843161775482339
-  Name: "Default Floor"
+  Id: 8772234700748848760
+  Name: "Avery_C"
   Transform {
     Location {
-      Z: -50
+      Z: -110
     }
     Rotation {
     }
     Scale {
-      X: 50
-      Y: 50
+      X: 1
+      Y: 1
       Z: 1
     }
   }
   ParentId: 4781671109827199097
-  UnregisteredParameters {
-  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-    }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Avery_C"
   }
 }
 Objects {
