@@ -2,7 +2,7 @@ Assets {
   Id: 3118156392501145832
   Name: "AC_Turretplacement"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 78
   CustomMaterialAsset {
     BaseMaterialId: 10588427474648446983
     ParameterOverrides {
