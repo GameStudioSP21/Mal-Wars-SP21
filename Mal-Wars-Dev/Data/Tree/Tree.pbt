@@ -21,6 +21,7 @@ Objects {
   ChildIds: 10722931758594424760
   ChildIds: 8512805858169632350
   ChildIds: 15885606419812222058
+  ChildIds: 2880498746515435782
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -30,6 +31,66 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 2880498746515435782
+  Name: "DestroyClientTower"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 10636913094630463375
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 10636913094630463375
+  Name: "DestroyTowerClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2880498746515435782
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:TowerDefenders_GameManager"
+      AssetReference {
+        Id: 16922964282924116369
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9025650862823812799
+    }
   }
 }
 Objects {
