@@ -1,10 +1,10 @@
 Assets {
-  Id: 12095835209017042614
-  Name: "Cube"
+  Id: 15305476051440937955
+  Name: "Cube - Bottom-Aligned"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_002"
+    AssetId: "sm_cube_001"
   }
 }
 Assets {
@@ -23,5 +23,14 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_plane_octagon_001"
+  }
+}
+Assets {
+  Id: 2470567443290005303
+  Name: "Pipe - 8-Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_eightsided_002"
   }
 }

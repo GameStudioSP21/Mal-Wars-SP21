@@ -2385,8 +2385,8 @@ Objects {
       Z: -2530
     }
     Rotation {
-      Pitch: -34.9999924
-      Yaw: -44.9999924
+      Pitch: -35
+      Yaw: -45
     }
     Scale {
       X: 200
