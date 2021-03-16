@@ -1,6 +1,60 @@
 Name: "Pathways"
 RootId: 7410907050015749181
 Objects {
+  Id: 3766161303697255264
+  Name: "whitebox path"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7410907050015749181
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11021958622741515595
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Jay\'s Whiteboxed Path"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3980.24609
+            Y: 1423.69592
+            Z: -5117.29883
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999847
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13020538738889572930
+    }
+  }
+}
+Objects {
   Id: 4202987125484953522
   Name: "Whiteboxed Path"
   Transform {
@@ -41,7 +95,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
