@@ -87,6 +87,7 @@ Task.Wait()
 local board = GameManager.GetNPCCurrentBoard(ROOT)
 local currentNode = board:GetStartNode()
 
+
 local nextNode = currentNode:GetNextNode()
 local nextPos = nextNode:GetRandomPositionPerpendicularToNodeDirection()
 

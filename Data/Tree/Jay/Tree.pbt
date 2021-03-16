@@ -11,6 +11,9 @@ Objects {
     }
   }
   ParentId: 6567560194948478976
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 10906995137207975077
@@ -59,6 +62,9 @@ Objects {
     }
   }
   ParentId: 6567560194948478976
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 11764532458977922438
@@ -107,6 +113,9 @@ Objects {
     }
   }
   ParentId: 6567560194948478976
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 5121432770197675786
@@ -155,6 +164,9 @@ Objects {
     }
   }
   ParentId: 6567560194948478976
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 10885550886106312805
@@ -203,6 +215,9 @@ Objects {
     }
   }
   ParentId: 6567560194948478976
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 6706383901961231273
@@ -263,6 +278,9 @@ Objects {
     }
   }
   ParentId: 6567560194948478976
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 14438394093168917871
@@ -311,6 +329,9 @@ Objects {
     }
   }
   ParentId: 6567560194948478976
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 7640332166641179526
@@ -359,6 +380,9 @@ Objects {
     }
   }
   ParentId: 6567560194948478976
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 10174338349677996245
@@ -407,6 +431,9 @@ Objects {
     }
   }
   ParentId: 6567560194948478976
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 40306914867147161

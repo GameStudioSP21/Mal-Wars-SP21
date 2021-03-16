@@ -6,7 +6,7 @@ local BasicProjectile = {}
 BasicProjectile.__index = BasicProjectile
 
 -- Draws some visuals for the projectiles.
-local IS_DEBUG = true
+local IS_DEBUG = false
 
 ----------------------------------
 -- Public

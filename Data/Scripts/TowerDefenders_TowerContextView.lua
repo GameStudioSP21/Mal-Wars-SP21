@@ -7,6 +7,7 @@ local STATS_PANEL = script:GetCustomProperty("TowerStatsPanel"):WaitForObject()
 local UPGRADE_BUTTON = script:GetCustomProperty("UpgradeButton"):WaitForObject()
 local SELL_BUTTON = script:GetCustomProperty("SellButton"):WaitForObject()
 local TARGET_BUTTON = script:GetCustomProperty("TargetButton"):WaitForObject()
+local TARGET_BUTTON_VALUE = script:GetCustomProperty("TargetingValueText"):WaitForObject()
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 local LEFT_MOUSE_BUTTON = "ability_primary"
 
@@ -107,6 +108,14 @@ SELL_BUTTON.pressedEvent:Connect(function()
     end
 end)
 
+TARGET_BUTTON.pressedEvent:Connect(function() 
+    local board = LOCAL_PLAYER.clientUserData.activeBoard
+    if selectedTower and board then
+        selectedTower:SwitchTargetingMode()
+        TARGET_BUTTON_VALUE.text = selectedTower:GetCurrentTargetModeString()
+    end
+end)
+
 Events.Connect("DisplayTowerContexMenu",function(tower) 
     selectedTower = tower
     statsView:DisplayTowerStats(tower)
@@ -121,6 +130,8 @@ Events.Connect("DisplayTowerContexMenu",function(tower)
     else
         upgradeValueUI.text = "Max"
     end
+
+    TARGET_BUTTON_VALUE.text = selectedTower:GetCurrentTargetModeString()
 
     local sellValueUI = SELL_BUTTON:GetCustomProperty("ButtonValue"):WaitForObject()
     sellValueUI.text = tostring(selectedTower:GetCost())

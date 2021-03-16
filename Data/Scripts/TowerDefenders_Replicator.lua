@@ -20,7 +20,12 @@ local function InitalizeServerEvents()
     -- Initalize all events that can be received by clients.
     local GameManager = require(script:GetCustomProperty("GameManager"))
 
+    -----------------------------------------------------
+    -- Board
+    -----------------------------------------------------
+
     -- Place Tower
+    -- When the player wants to place a tower.
     Events.ConnectForPlayer("PT",function(_,player,id,x,y,z)
         print("[Server] Received PLACE from:",player.name,id," ",x," ",y," ",z)
 
@@ -32,10 +37,11 @@ local function InitalizeServerEvents()
         tower:SetOwner(player)
         tower:SetBoard(board)
         board:AddTower(tower,pos,true) -- Networked function don't repeat
-        Events.BroadcastToAllPlayers("PT",tower:GetOwner(),tower:GetID(),pos.x,pos.y,pos.z)
+        Events.BroadcastToAllPlayers("PT",tower:GetOwner(),tower:GetID(),x,y,z)
     end)
 
-    -- TODO: Upgrade Tower
+    -- Upgrade Tower
+    -- When the player wants to upgrade a tower.
     Events.ConnectForPlayer("UT",function(_,player,x,y,z)
         print("[Server] Received UPGRADE from:",player.name," ",x," ",y," ",z)
 
@@ -47,7 +53,7 @@ local function InitalizeServerEvents()
             if tower:GetWorldPosition() == pos then
                 local owner = tower:GetOwner()
                 board:UpgradeTower(tower,true) -- Networked function
-                Events.BroadcastToAllPlayers("UT",tower:GetOwner(),pos.x,pos.y,pos.z)
+                Events.BroadcastToAllPlayers("UT",tower:GetOwner(),x,y,z)
                 break
             end
         end
@@ -62,7 +68,8 @@ local function InitalizeServerEvents()
 
     end)
 
-    -- TODO: Sell Tower
+    -- Remove Tower
+    -- When the player wants to remove a tower.
     Events.ConnectForPlayer("ST",function(_,player,x,y,z)
         print("[Server] Received SELL from:",player.name," ",x," ",y," ",z)
 
@@ -74,12 +81,36 @@ local function InitalizeServerEvents()
             if tower:GetWorldPosition() == pos then
                 local owner = tower:GetOwner()
                 board:SellTower(tower,true) -- Networked function
-                Events.BroadcastToAllPlayers("UT",tower:GetOwner(),pos.x,pos.y,pos.z)
+                Events.BroadcastToAllPlayers("UT",tower:GetOwner(),x,y,z)
                 break
             end
         end
     end)
 
+    -----------------------------------------------------
+    -- Tower
+    -----------------------------------------------------
+
+    -- Switch tower targeting mode
+    -- When the player wants to switch the tower to its next targeting mode.
+    Events.ConnectForPlayer("STM",function(player,x,y,z)
+        print("[Server] Received STM from:",player.name," ",x," ",y," ",z)
+        -- Current board the player is playing on.
+        local board = player.serverUserData.activeBoard
+        local pos = Vector3.New(x,y,z)
+
+        for _, tower in pairs(board:GetAllTowers()) do
+            if tower:GetWorldPosition() == pos then
+                local owner = tower:GetOwner()
+                tower:SwitchTargetingMode(true)
+                --Events.BroadcastToAllPlayers("STM",x,y,z)
+                break
+            end
+        end
+    end)
+
+    -- Gem Update
+    -- When the player's client wants to update their gem currency.
     Events.ConnectForPlayer("GU",function(player,delta)
         print("[Server] Received gems delta by player",delta)
         player:AddResource("GEMS",delta)
@@ -149,81 +180,54 @@ local function InitalizeClientEvents()
         end
     end)
 
-    -- Receive tower upgraded
+    -- Received tower sell / destroy
 
-    -- Receive tower deleted
 end
 
+-- Sets up a board from a asset.
+local function SetupBoardFromAsset(boardAsset)
+
+end
 
 -- Listens for newly created children in the active boards folder.
 -- When a child is added the board will be constructed on the client.
 local function InitalizeBoardListener()
     local LOCAL_PLAYER = Game.GetLocalPlayer()
 
-    -- TODO: Iterate through all boards and construct the towers from a network property
+    -- Client GameManager
+    local GameManager = require(script:GetCustomProperty("GameManager"))
 
+    -- TODO: Iterate through all boards and construct the towers from a network property to catch up the client.
     ACTIVE_BOARDS_GROUP.childAddedEvent:Connect(function(_,boardAsset)
-
-        print("[Client] Newly created board received.",boardAsset.name)
-
-        -- Wait for the owners custom property to populate.
-        while boardAsset:GetCustomProperty("Owners") == "" or
-            boardAsset:GetCustomProperty("Owners") == nil
-        do Task.Wait() end
-
-        local owners = boardAsset:GetCustomProperty("Owners")
-
-        -- Construct a board object given the server spawn asset MUID.
-        local boardAssetMUID = boardAsset.sourceTemplateId
-        local board = BoardDatabase:NewBoardByMUID(boardAssetMUID)
-
-        -- TODO: Move this to an api.
-        local owningPlayers = {}
-
-        for playerID in owners:gmatch("([^<>;]+)") do
-            owningPlayers[playerID] = playerID
-        end
-
-        for _, player in pairs(Game.GetPlayers()) do
-            if owningPlayers[player.id] then
-                player.clientUserData.activeBoard = board
-                owningPlayers[player.id] = player
-            end
-        end
-
-        -- Set the client owners
-        board:SetOwners(owningPlayers)
-
-        -- Assign the asset to the board since the client did not spawn it.
-        board:AssignBoardInstance(boardAsset)
-
-        -- Create the wave manager for the client.
-        board:CreateWaveManager()
-
+        GameManager.SetupBoard(boardAsset)
     end)
+
+    -- Iterate through all active boards and construct them.
+    for _, boardAsset in pairs(ACTIVE_BOARDS_GROUP:GetChildren()) do
+        GameManager.SetupBoard(boardAsset)
+    end
 end
 
+
+
 -- Initalize the databases for boards and towers.
+TowerDatabase:_Init()
+BoardDatabase:_Init()
+
 if Environment.IsServer() then
     Task.Spawn(function() 
-        TowerDatabase:_Init()
-        BoardDatabase:_Init()
         InitalizeServerEvents()
-        print("Finished Initalizing Server")
     end)
 
     Game.playerJoinedEvent:Connect(OnServerPlayerJoined)
+    print("Finished Initalizing Server")
 
 elseif Environment.IsClient() then
     Task.Spawn(function() 
-        TowerDatabase:_Init()
-        BoardDatabase:_Init()
         InitalizeClientEvents()
         InitalizeBoardListener()
     end)
 
     Game.playerJoinedEvent:Connect(OnClientPlayerJoined)
     print("Finished Initalizing Client")
-
-
 end
