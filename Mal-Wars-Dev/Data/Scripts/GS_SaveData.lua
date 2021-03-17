@@ -1,4 +1,5 @@
 local ORBITAL_LASER = script:GetCustomProperty("GS_OrbitalLaser_Server"):WaitForObject()
+local NET_HUB = script:GetCustomProperty("NetworkHubHealthServer")
 
 
 -- print("LOADING GAME MANAGER")
@@ -22,13 +23,17 @@ local saveData = {  towers = towersTable,
 Game.playerJoinedEvent:Connect(function (player)
     -- PLAYER = player
     local GAME_MANAGER = require(script:GetCustomProperty("TowerDefenders_GameManager"))
+    local NET_HUB = script:GetCustomProperty("NetworkHubHealthServer")
     local board = GAME_MANAGER.WaitForBoardFromPlayer(player)
     local waveManager = board:GetWaveManager()
     -- print(waveManager)
 
     waveManager.OnWaveStarted:Connect(function ()
-        print("Get save data")
+        print("GET SAVE DATA")
         -- local playerData = "ASSUMING PLAYERDATA RETRIEVED"
+
+        -- clear save data before writing new data
+        ClearSaveData()
         
         -- get all towers
         local allTowers = board:GetAllTowers()
@@ -37,6 +42,7 @@ Game.playerJoinedEvent:Connect(function (player)
             towerInfo.name = tower:GetName()
             towerInfo.position = tower:GetWorldPosition()
             table.insert(saveData.towers, towerInfo)
+            -- towerInfo.clear()
         end
 
         -- get laser attributes
@@ -44,6 +50,15 @@ Game.playerJoinedEvent:Connect(function (player)
         laserTable.radius = ORBITAL_LASER:GetCustomProperty("Radius")
 
         -- get gems
+
+        -- get hubHealth
+        if(NET_HUB) then
+            saveData.hubHealth = NET_HUB:GetCustomProperty("HubHealth")
+        end
+        --get waveNum
+        if(waveManager) then 
+            saveData.waveNum = waveManager:GetCurrentWave():GetName()
+        end
 
         PrintSaveData()
         -- Let's say we're saving towers
@@ -59,4 +74,27 @@ function PrintSaveData()
 
     print("laser damage: ", laserTable.damage)
     print("laser radius: ", laserTable.radius)
+
+    print("Gems:", saveData.gems)
+    print("Hub health: ", saveData.hubHealth)
+    print("Wave num: ", saveData.waveNum)
+end
+
+function ClearSaveData()
+    -- for key, value in pairs(saveData) do
+    --     value = nil
+    -- end
+
+    towersTable = {} 
+    
+    laserTable = {  damage = nil,
+                    radius = nil }
+
+    saveData = {  towers = towersTable, 
+                    laser = laserTable,
+                    gems = nil,
+                    hubHealth = nil,
+                    waveNum = nil,
+                    tutorial = nil
+                 }
 end
