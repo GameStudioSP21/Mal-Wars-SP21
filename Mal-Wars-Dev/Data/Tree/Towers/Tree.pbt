@@ -17,6 +17,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 8289574815582450845
@@ -62,6 +65,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   TemplateInstance {
     ParameterOverrideMap {
@@ -109,6 +115,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 3738680561791745842
@@ -154,6 +163,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   TemplateInstance {
     ParameterOverrideMap {
@@ -247,6 +259,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 5580396014439778102
@@ -292,7 +307,20 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 8267997127683828857
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 16602805628744511675
       value {
@@ -337,6 +365,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 248947022546621954
@@ -380,6 +411,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   TemplateInstance {
     ParameterOverrideMap {
@@ -426,6 +460,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 6089247722536784278
@@ -471,6 +508,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 17452260506508817532
@@ -500,9 +540,16 @@ Objects {
   }
 }
 Objects {
-  Id: 14587095578825936338
+  Id: 6779149520841719263
   Name: "Turret Sniper 4"
   Transform {
+    Location {
+      X: -12595.1406
+      Y: 2189.49316
+      Z: 6.14794922
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -510,38 +557,182 @@ Objects {
     }
   }
   ParentId: 8512805858169632350
-  WantsNetworking: true
+  ChildIds: 16485967959102824447
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:HorizontalRotator"
+      ObjectReference {
+        SelfId: 15684735479676967500
+      }
+    }
+    Overrides {
+      Name: "cs:VerticalRotator"
+      ObjectReference {
+        SelfId: 278454620570195196
+      }
+    }
+    Overrides {
+      Name: "cs:Muzzle"
+      ObjectReference {
+        SelfId: 4703135180442370674
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 17763091110720732155
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Turret Sniper 4"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -12595.1406
-            Y: 2189.49316
-            Z: 6.14794922
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 6779149520841719263
+    SubobjectId: 17763091110720732155
+    InstanceId: 14587095578825936338
+    TemplateId: 5149647669067471045
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 16485967959102824447
+  Name: "Client"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.6
+      Y: 1.6
+      Z: 1.6
+    }
+  }
+  ParentId: 6779149520841719263
+  ChildIds: 4301349344937855236
+  ChildIds: 4295522572156634966
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+  InstanceHistory {
+    SelfId: 16485967959102824447
+    SubobjectId: 5503013167827278299
+    InstanceId: 14587095578825936338
+    TemplateId: 5149647669067471045
+  }
+}
+Objects {
+  Id: 4295522572156634966
+  Name: "Geo"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16485967959102824447
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Geo_1"
+  }
+  InstanceHistory {
+    SelfId: 4295522572156634966
+    SubobjectId: 10595719604611203442
+    InstanceId: 14587095578825936338
+    TemplateId: 5149647669067471045
+  }
+}
+Objects {
+  Id: 4301349344937855236
+  Name: "SlideAction"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.625
+      Y: 0.625
+      Z: 0.625
+    }
+  }
+  ParentId: 16485967959102824447
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Turret_root"
+      ObjectReference {
+        SelfId: 6779149520841719263
       }
     }
-    TemplateAsset {
-      Id: 5149647669067471045
+    Overrides {
+      Name: "cs:Barrel"
+      ObjectReference {
+        SelfId: 3172184332776322308
+      }
     }
+    Overrides {
+      Name: "cs:Ease3D"
+      AssetReference {
+        Id: 11698430162959436393
+      }
+    }
+    Overrides {
+      Name: "cs:FX"
+      AssetReference {
+        Id: 898550371987577328
+      }
+    }
+    Overrides {
+      Name: "cs:Pivot"
+      ObjectReference {
+        SelfId: 6710114113026205756
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14467293000563951231
+    }
+  }
+  InstanceHistory {
+    SelfId: 4301349344937855236
+    SubobjectId: 10603227940828122912
+    InstanceId: 14587095578825936338
+    TemplateId: 5149647669067471045
   }
 }

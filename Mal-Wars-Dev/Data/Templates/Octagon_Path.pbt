@@ -117,11 +117,15 @@ Assets {
         ChildIds: 13803247272626054067
         ChildIds: 3557648251182158698
         ChildIds: 5677800738490068598
+        ChildIds: 1192064272936951302
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Folder {
           IsGroup: true
@@ -132,6 +136,7 @@ Assets {
         Name: "OctagonBases"
         Transform {
           Location {
+            Z: 51.6696854
           }
           Rotation {
           }
@@ -167,6 +172,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         Folder {
           Model {
           }
@@ -179,7 +187,7 @@ Assets {
           Location {
             X: 0.00747374445
             Y: -1120.27808
-            Z: 56.7930527
+            Z: 56.7930489
           }
           Rotation {
             Yaw: -89.9672241
@@ -214,6 +222,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 12095835209017042614
@@ -222,7 +233,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -274,6 +284,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 12095835209017042614
@@ -282,7 +295,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -334,6 +346,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 12095835209017042614
@@ -342,7 +357,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -359,7 +373,7 @@ Assets {
           Location {
             X: -792.150391
             Y: -792.161621
-            Z: 56.7930527
+            Z: 56.7930489
           }
           Rotation {
             Yaw: -134.967133
@@ -394,6 +408,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 12095835209017042614
@@ -402,7 +419,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -454,6 +470,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 12095835209017042614
@@ -462,7 +481,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -479,7 +497,7 @@ Assets {
           Location {
             X: -1120.27771
             Y: -0.00784743112
-            Z: 56.7930527
+            Z: 56.7930489
           }
           Rotation {
             Yaw: -179.967117
@@ -514,6 +532,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 12095835209017042614
@@ -522,7 +543,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -538,7 +558,7 @@ Assets {
         Transform {
           Location {
             X: -799.783325
-            Y: 799.772461
+            Y: 799.7724
             Z: 1.69791794
           }
           Rotation {
@@ -574,6 +594,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 12095835209017042614
@@ -582,7 +605,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -599,7 +621,7 @@ Assets {
           Location {
             X: -792.161621
             Y: 792.150391
-            Z: 56.7930527
+            Z: 56.7930489
           }
           Rotation {
             Yaw: 135.032913
@@ -634,6 +656,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 12095835209017042614
@@ -642,7 +667,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -658,7 +682,7 @@ Assets {
         Transform {
           Location {
             X: -0.00747374445
-            Y: 1131.05701
+            Y: 1131.05688
             Z: 1.69791794
           }
           Rotation {
@@ -694,6 +718,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 12095835209017042614
@@ -702,7 +729,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -719,7 +745,7 @@ Assets {
           Location {
             X: -0.00747374445
             Y: 1120.27771
-            Z: 56.7930527
+            Z: 56.7930489
           }
           Rotation {
             Yaw: 90.0328751
@@ -754,6 +780,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 12095835209017042614
@@ -762,7 +791,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -814,6 +842,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 12095835209017042614
@@ -822,7 +853,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -838,8 +868,8 @@ Assets {
         Transform {
           Location {
             X: 792.150391
-            Y: 792.161194
-            Z: 56.7930527
+            Y: 792.161133
+            Z: 56.7930489
           }
           Rotation {
             Yaw: 45.0328789
@@ -874,6 +904,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 12095835209017042614
@@ -882,7 +915,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -934,6 +966,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 12095835209017042614
@@ -942,7 +977,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -959,7 +993,7 @@ Assets {
           Location {
             X: 1120.27771
             Y: 0.00747374445
-            Z: 56.7930527
+            Z: 56.7930489
           }
           Rotation {
             Yaw: 0.0328805372
@@ -994,6 +1028,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 12095835209017042614
@@ -1002,7 +1039,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -1022,7 +1058,7 @@ Assets {
             Z: 1.69791794
           }
           Rotation {
-            Yaw: -44.9671
+            Yaw: -44.9671021
           }
           Scale {
             X: 0.499999732
@@ -1054,6 +1090,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 12095835209017042614
@@ -1062,7 +1101,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -1079,10 +1117,10 @@ Assets {
           Location {
             X: 792.161194
             Y: -792.150391
-            Z: 56.7930527
+            Z: 56.7930489
           }
           Rotation {
-            Yaw: -44.9671
+            Yaw: -44.9671021
           }
           Scale {
             X: 0.499999732
@@ -1114,6 +1152,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 12095835209017042614
@@ -1122,7 +1163,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -1171,6 +1211,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6267426283211994986
@@ -1179,7 +1222,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -1194,7 +1236,7 @@ Assets {
         Name: "Pipe - 8-Sided Thin"
         Transform {
           Location {
-            Z: 85.4747162
+            Z: 85.4747086
           }
           Rotation {
           }
@@ -1219,6 +1261,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 4669315293385397521
@@ -1227,7 +1272,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -1267,6 +1311,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 4669315293385397521
@@ -1275,7 +1322,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -1291,7 +1337,7 @@ Assets {
         Transform {
           Location {
             X: 867.241699
-            Z: 98.2774048
+            Z: 149.946884
           }
           Rotation {
             Yaw: -90
@@ -1326,6 +1372,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -1334,7 +1383,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -1350,7 +1398,7 @@ Assets {
         Transform {
           Location {
             X: 1001.05664
-            Z: 98.2741394
+            Z: 149.943695
           }
           Rotation {
             Yaw: -89.9999695
@@ -1385,6 +1433,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -1393,7 +1444,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -1408,9 +1458,9 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: 970.227539
-            Y: 373.448242
-            Z: 98.269165
+            X: 970.227051
+            Y: 373.448486
+            Z: 149.938675
           }
           Rotation {
             Yaw: 20
@@ -1445,6 +1495,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -1453,7 +1506,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -1468,9 +1520,9 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: 970.226563
-            Y: -378.510498
-            Z: 98.2660522
+            X: 970.226562
+            Y: -378.510254
+            Z: 149.935501
           }
           Rotation {
             Yaw: -20
@@ -1505,6 +1557,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -1513,7 +1568,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -1529,7 +1583,7 @@ Assets {
         Transform {
           Location {
             X: 977.095703
-            Z: 98.2729187
+            Z: 149.942368
           }
           Rotation {
             Yaw: -89.999939
@@ -1564,6 +1618,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -1572,7 +1629,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -1588,8 +1644,8 @@ Assets {
         Transform {
           Location {
             X: 960.597168
-            Y: -350.96582
-            Z: 98.2613525
+            Y: -350.965576
+            Z: 149.930862
           }
           Rotation {
             Yaw: -20
@@ -1624,6 +1680,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -1632,7 +1691,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -1648,8 +1706,8 @@ Assets {
         Transform {
           Location {
             X: 960.59668
-            Y: 351.19043
-            Z: 98.2596741
+            Y: 351.190552
+            Z: 149.929199
           }
           Rotation {
             Yaw: 20
@@ -1684,6 +1742,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -1692,7 +1753,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -1708,8 +1768,8 @@ Assets {
         Transform {
           Location {
             X: 863.052246
-            Y: 359.57373
-            Z: 98.272644
+            Y: 359.573853
+            Z: 149.942154
           }
           Rotation {
             Yaw: -157.750031
@@ -1744,6 +1804,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -1752,7 +1815,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -1768,8 +1830,8 @@ Assets {
         Transform {
           Location {
             X: 864.525391
-            Y: -356.009277
-            Z: 98.2715454
+            Y: -356.009033
+            Z: 149.941025
           }
           Rotation {
             Yaw: 157.249985
@@ -1804,6 +1866,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -1812,7 +1877,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -1829,7 +1893,7 @@ Assets {
           Location {
             X: 418.402344
             Y: -953.699707
-            Z: 98.2649841
+            Z: 149.934494
           }
           Rotation {
             Yaw: -65
@@ -1864,6 +1928,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -1872,7 +1939,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -1888,8 +1954,8 @@ Assets {
         Transform {
           Location {
             X: 690.90918
-            Y: -690.907227
-            Z: 98.2718506
+            Y: -690.907226
+            Z: 149.94136
           }
           Rotation {
             Yaw: -135
@@ -1924,6 +1990,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -1932,7 +2001,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -1947,9 +2015,9 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: 431.071777
-            Y: -927.40918
-            Z: 98.2602539
+            X: 431.072266
+            Y: -927.408691
+            Z: 149.929779
           }
           Rotation {
             Yaw: -65
@@ -1984,6 +2052,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -1992,7 +2063,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -2008,8 +2078,8 @@ Assets {
         Transform {
           Location {
             X: 927.571289
-            Y: -430.910645
-            Z: 98.2585754
+            Y: -430.910644
+            Z: 149.928055
           }
           Rotation {
             Yaw: -25
@@ -2044,6 +2114,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -2052,7 +2125,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -2069,7 +2141,7 @@ Assets {
           Location {
             X: 950.118164
             Y: -421.983154
-            Z: 98.2681
+            Z: 149.937592
           }
           Rotation {
             Yaw: -25
@@ -2104,6 +2176,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -2112,7 +2187,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -2129,7 +2203,7 @@ Assets {
           Location {
             X: 707.852051
             Y: -707.848633
-            Z: 98.2730408
+            Z: 149.942505
           }
           Rotation {
             Yaw: -135
@@ -2164,6 +2238,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -2172,7 +2249,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -2188,8 +2264,8 @@ Assets {
         Transform {
           Location {
             X: 613.230469
-            Y: -613.23
-            Z: 98.2763367
+            Y: -613.229736
+            Z: 149.945801
           }
           Rotation {
             Yaw: -135
@@ -2224,6 +2300,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -2232,7 +2311,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -2249,7 +2327,7 @@ Assets {
           Location {
             X: 359.57373
             Y: -863.04541
-            Z: 98.2706604
+            Z: 149.940109
           }
           Rotation {
             Yaw: 112.249908
@@ -2284,6 +2362,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -2292,7 +2373,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -2308,8 +2388,8 @@ Assets {
         Transform {
           Location {
             X: -378.510742
-            Y: -970.219727
-            Z: 98.2641602
+            Y: -970.219726
+            Z: 149.933594
           }
           Rotation {
             Yaw: -110
@@ -2344,6 +2424,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -2352,7 +2435,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -2368,7 +2450,7 @@ Assets {
         Transform {
           Location {
             Y: -977.088867
-            Z: 98.2710266
+            Z: 149.94046
           }
           Rotation {
             Yaw: 180
@@ -2403,6 +2485,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -2411,7 +2496,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -2427,8 +2511,8 @@ Assets {
         Transform {
           Location {
             X: -350.964844
-            Y: -960.58667
-            Z: 98.2594
+            Y: -960.586182
+            Z: 149.928864
           }
           Rotation {
             Yaw: -110
@@ -2463,6 +2547,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -2471,7 +2558,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -2486,9 +2572,9 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: 351.191895
-            Y: -960.588135
-            Z: 98.2576904
+            X: 351.191894
+            Y: -960.587646
+            Z: 149.927124
           }
           Rotation {
             Yaw: -70
@@ -2523,6 +2609,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -2531,7 +2620,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -2548,7 +2636,7 @@ Assets {
           Location {
             X: 373.444336
             Y: -970.220459
-            Z: 98.2672424
+            Z: 149.936676
           }
           Rotation {
             Yaw: -70
@@ -2583,6 +2671,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -2591,7 +2682,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -2608,7 +2698,7 @@ Assets {
           Location {
             X: 0.00146484375
             Y: -1001.05005
-            Z: 98.2721558
+            Z: 149.941605
           }
           Rotation {
             Yaw: 180
@@ -2643,6 +2733,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -2651,7 +2744,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -2668,7 +2760,7 @@ Assets {
           Location {
             X: -0.0009765625
             Y: -867.237549
-            Z: 98.2755127
+            Z: 149.945038
           }
           Rotation {
             Yaw: 180
@@ -2703,6 +2795,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -2711,7 +2806,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -2728,7 +2822,7 @@ Assets {
           Location {
             X: -356.007324
             Y: -864.520752
-            Z: 98.2698059
+            Z: 149.939316
           }
           Rotation {
             Yaw: 67.2498627
@@ -2763,6 +2857,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -2771,7 +2868,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -2787,8 +2883,8 @@ Assets {
         Transform {
           Location {
             X: -953.696289
-            Y: -418.39917
-            Z: 98.2633057
+            Y: -418.398926
+            Z: 149.932831
           }
           Rotation {
             Yaw: -155
@@ -2823,6 +2919,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -2831,7 +2930,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -2847,8 +2945,8 @@ Assets {
         Transform {
           Location {
             X: -690.905273
-            Y: -690.903076
-            Z: 98.2701721
+            Y: -690.902832
+            Z: 149.939697
           }
           Rotation {
             Yaw: 135
@@ -2883,6 +2981,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -2891,7 +2992,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -2907,8 +3007,8 @@ Assets {
         Transform {
           Location {
             X: -927.405762
-            Y: -431.065674
-            Z: 98.2585144
+            Y: -431.06543
+            Z: 149.928024
           }
           Rotation {
             Yaw: -155
@@ -2943,6 +3043,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -2951,7 +3054,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -2966,9 +3068,9 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -430.907227
+            X: -430.907226
             Y: -927.563721
-            Z: 98.2568359
+            Z: 149.926346
           }
           Rotation {
             Yaw: -115
@@ -3003,6 +3105,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -3011,7 +3116,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -3028,7 +3132,7 @@ Assets {
           Location {
             X: -421.983398
             Y: -950.11084
-            Z: 98.2664185
+            Z: 149.935883
           }
           Rotation {
             Yaw: -115
@@ -3063,6 +3167,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -3071,7 +3178,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -3086,9 +3192,9 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -707.849121
+            X: -707.848633
             Y: -707.849121
-            Z: 98.2713318
+            Z: 149.940842
           }
           Rotation {
             Yaw: 135
@@ -3123,6 +3229,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -3131,7 +3240,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -3147,8 +3255,8 @@ Assets {
         Transform {
           Location {
             X: -613.23
-            Y: -613.226563
-            Z: 98.2746277
+            Y: -613.226562
+            Z: 149.944092
           }
           Rotation {
             Yaw: 135
@@ -3183,6 +3291,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -3191,7 +3302,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -3208,7 +3318,7 @@ Assets {
           Location {
             X: -863.043457
             Y: -359.572266
-            Z: 98.269104
+            Z: 149.938553
           }
           Rotation {
             Yaw: 22.2498703
@@ -3243,6 +3353,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -3251,7 +3364,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -3266,9 +3378,9 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -970.216309
-            Y: 378.515625
-            Z: 98.2625732
+            X: -970.216308
+            Y: 378.515747
+            Z: 149.932068
           }
           Rotation {
             Yaw: 160
@@ -3303,6 +3415,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -3311,7 +3426,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -3328,7 +3442,7 @@ Assets {
           Location {
             X: -977.084473
             Y: 0.00390625
-            Z: 98.2694397
+            Z: 149.938934
           }
           Rotation {
             Yaw: 90
@@ -3363,6 +3477,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -3371,7 +3488,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -3386,9 +3502,9 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -960.584961
-            Y: 350.966309
-            Z: 98.2578125
+            X: -960.584473
+            Y: 350.966308
+            Z: 149.927307
           }
           Rotation {
             Yaw: 160
@@ -3423,6 +3539,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -3431,7 +3550,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -3446,9 +3564,9 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -960.583496
+            X: -960.583
             Y: -351.1875
-            Z: 98.2561
+            Z: 149.925583
           }
           Rotation {
             Yaw: -160
@@ -3483,6 +3601,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -3491,7 +3612,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -3508,7 +3628,7 @@ Assets {
           Location {
             X: -970.215332
             Y: -373.44165
-            Z: 98.265686
+            Z: 149.935135
           }
           Rotation {
             Yaw: -160
@@ -3543,6 +3663,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -3551,7 +3674,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -3568,7 +3690,7 @@ Assets {
           Location {
             X: -1001.0498
             Y: 0.00146484375
-            Z: 98.2706
+            Z: 149.940079
           }
           Rotation {
             Yaw: 90
@@ -3603,6 +3725,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -3611,7 +3736,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -3628,7 +3752,7 @@ Assets {
           Location {
             X: -867.235352
             Y: 0.00341796875
-            Z: 98.2739258
+            Z: 149.943451
           }
           Rotation {
             Yaw: 90
@@ -3663,6 +3787,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -3671,7 +3798,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -3687,8 +3813,8 @@ Assets {
         Transform {
           Location {
             X: -864.518555
-            Y: 356.010254
-            Z: 98.2683716
+            Y: 356.010376
+            Z: 149.93782
           }
           Rotation {
             Yaw: -22.7501221
@@ -3723,6 +3849,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -3731,7 +3860,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -3746,9 +3874,9 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -418.395508
+            X: -418.39502
             Y: 953.700195
-            Z: 98.2618713
+            Z: 149.931305
           }
           Rotation {
             Yaw: 115
@@ -3783,6 +3911,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -3791,7 +3922,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -3807,8 +3937,8 @@ Assets {
         Transform {
           Location {
             X: -690.899902
-            Y: 690.907227
-            Z: 98.2687378
+            Y: 690.907349
+            Z: 149.938171
           }
           Rotation {
             Yaw: 45
@@ -3843,6 +3973,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -3851,7 +3984,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -3866,9 +3998,9 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -431.064941
+            X: -431.064453
             Y: 927.408691
-            Z: 98.2571106
+            Z: 149.926575
           }
           Rotation {
             Yaw: 115
@@ -3903,6 +4035,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -3911,7 +4046,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -3926,9 +4060,9 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -927.561523
-            Y: 430.90918
-            Z: 98.2554
+            X: -927.561035
+            Y: 430.909302
+            Z: 149.924835
           }
           Rotation {
             Yaw: 155
@@ -3963,6 +4097,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -3971,7 +4108,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -3987,8 +4123,8 @@ Assets {
         Transform {
           Location {
             X: -950.10791
-            Y: 421.985352
-            Z: 98.2649536
+            Y: 421.985596
+            Z: 149.934387
           }
           Rotation {
             Yaw: 155
@@ -4023,6 +4159,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -4031,7 +4170,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -4048,7 +4186,7 @@ Assets {
           Location {
             X: -707.84668
             Y: 707.852539
-            Z: 98.2698669
+            Z: 149.939316
           }
           Rotation {
             Yaw: 45
@@ -4083,6 +4221,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -4091,7 +4232,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -4106,9 +4246,9 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -613.225586
-            Y: 613.229492
-            Z: 98.2732239
+            X: -613.225098
+            Y: 613.229736
+            Z: 149.942749
           }
           Rotation {
             Yaw: 45
@@ -4143,6 +4283,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -4151,7 +4294,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -4167,8 +4309,8 @@ Assets {
         Transform {
           Location {
             X: -359.570801
-            Y: 863.045898
-            Z: 98.2674866
+            Y: 863.045776
+            Z: 149.937027
           }
           Rotation {
             Yaw: -67.7500305
@@ -4203,6 +4345,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -4211,7 +4356,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -4226,9 +4370,9 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: 378.51709
+            X: 378.516602
             Y: 970.218262
-            Z: 98.2609863
+            Z: 149.930511
           }
           Rotation {
             Yaw: 70
@@ -4263,6 +4407,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -4271,7 +4418,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -4287,8 +4433,8 @@ Assets {
         Transform {
           Location {
             X: 0.005859375
-            Y: 977.088379
-            Z: 98.2678528
+            Y: 977.088501
+            Z: 149.937378
           }
           Rotation {
           }
@@ -4322,6 +4468,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -4330,7 +4479,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -4347,7 +4495,7 @@ Assets {
           Location {
             X: 350.967773
             Y: 960.588867
-            Z: 98.2561951
+            Z: 149.925629
           }
           Rotation {
             Yaw: 70
@@ -4382,6 +4530,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -4390,7 +4541,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -4407,7 +4557,7 @@ Assets {
           Location {
             X: -351.186035
             Y: 960.584961
-            Z: 98.2545166
+            Z: 149.924042
           }
           Rotation {
             Yaw: 110
@@ -4442,6 +4592,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -4450,7 +4603,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -4465,9 +4617,9 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -373.439453
+            X: -373.438965
             Y: 970.218262
-            Z: 98.2641
+            Z: 149.933594
           }
           Rotation {
             Yaw: 110
@@ -4502,6 +4654,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -4510,7 +4665,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -4525,9 +4679,9 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: 0.00341796875
+            X: 0.00390625
             Y: 1001.05127
-            Z: 98.2690125
+            Z: 149.938553
           }
           Rotation {
           }
@@ -4561,6 +4715,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -4569,7 +4726,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -4584,9 +4740,9 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: 0.00341796875
+            X: 0.00390625
             Y: 867.236816
-            Z: 98.2723083
+            Z: 149.941788
           }
           Rotation {
           }
@@ -4620,6 +4776,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -4628,7 +4787,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -4645,7 +4803,7 @@ Assets {
           Location {
             X: 356.010254
             Y: 864.521
-            Z: 98.2666626
+            Z: 149.936127
           }
           Rotation {
             Yaw: -112.749969
@@ -4680,6 +4838,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -4688,7 +4849,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -4704,8 +4864,8 @@ Assets {
         Transform {
           Location {
             X: 953.697266
-            Y: 418.397949
-            Z: 98.2601
+            Y: 418.398193
+            Z: 149.929596
           }
           Rotation {
             Yaw: 25
@@ -4740,6 +4900,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -4748,7 +4911,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -4765,7 +4927,7 @@ Assets {
           Location {
             X: 690.907715
             Y: 690.90332
-            Z: 98.2669678
+            Z: 149.936447
           }
           Rotation {
             Yaw: -45
@@ -4800,6 +4962,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -4808,7 +4973,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -4824,8 +4988,8 @@ Assets {
         Transform {
           Location {
             X: 927.40918
-            Y: 431.069824
-            Z: 98.2553406
+            Y: 431.069946
+            Z: 149.92482
           }
           Rotation {
             Yaw: 25
@@ -4860,6 +5024,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -4868,7 +5035,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -4883,9 +5049,9 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: 430.911133
+            X: 430.911621
             Y: 927.563
-            Z: 98.2536926
+            Z: 149.923141
           }
           Rotation {
             Yaw: 65
@@ -4920,6 +5086,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -4928,7 +5097,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -4945,7 +5113,7 @@ Assets {
           Location {
             X: 421.984863
             Y: 950.111816
-            Z: 98.2632446
+            Z: 149.932693
           }
           Rotation {
             Yaw: 65
@@ -4980,6 +5148,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -4988,7 +5159,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -5005,7 +5175,7 @@ Assets {
           Location {
             X: 707.851074
             Y: 707.849609
-            Z: 98.268158
+            Z: 149.937592
           }
           Rotation {
             Yaw: -45
@@ -5040,6 +5210,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -5048,7 +5221,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -5065,7 +5237,7 @@ Assets {
           Location {
             X: 613.230469
             Y: 613.229
-            Z: 98.2714233
+            Z: 149.940857
           }
           Rotation {
             Yaw: -45
@@ -5100,6 +5272,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -5108,7 +5283,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -5125,7 +5299,7 @@ Assets {
           Location {
             X: 487.966
             Y: 489.80304
-            Z: 164.158813
+            Z: 215.828171
           }
           Rotation {
             Yaw: -45
@@ -5160,6 +5334,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -5168,7 +5345,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -5183,9 +5359,9 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: 287.839691
+            X: 287.839294
             Y: 693.325073
-            Z: 164.172211
+            Z: 215.841507
           }
           Rotation {
             Yaw: -21.3278503
@@ -5220,6 +5396,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -5228,7 +5407,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -5245,7 +5423,7 @@ Assets {
           Location {
             X: 693.788452
             Y: 286.721222
-            Z: 164.172211
+            Z: 215.841507
           }
           Rotation {
             Yaw: -66.3278198
@@ -5280,6 +5458,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -5288,7 +5469,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -5305,7 +5485,7 @@ Assets {
           Location {
             X: 693.325439
             Y: -287.840057
-            Z: 164.172211
+            Z: 215.841507
           }
           Rotation {
             Yaw: -111.32782
@@ -5340,6 +5520,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -5348,7 +5531,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -5365,7 +5547,7 @@ Assets {
           Location {
             X: 489.80304
             Y: -487.966736
-            Z: 164.158813
+            Z: 215.828171
           }
           Rotation {
             Yaw: -135
@@ -5400,6 +5582,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -5408,7 +5593,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -5425,7 +5609,7 @@ Assets {
           Location {
             X: 286.721222
             Y: -693.789185
-            Z: 164.172211
+            Z: 215.841507
           }
           Rotation {
             Yaw: -156.327805
@@ -5460,6 +5644,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -5468,7 +5655,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -5485,7 +5671,7 @@ Assets {
           Location {
             X: -287.84079
             Y: -693.325806
-            Z: 164.172211
+            Z: 215.841507
           }
           Rotation {
             Yaw: 158.672165
@@ -5520,6 +5706,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -5528,7 +5717,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -5545,7 +5733,7 @@ Assets {
           Location {
             X: -487.96524
             Y: -489.803802
-            Z: 164.158813
+            Z: 215.828171
           }
           Rotation {
             Yaw: 135
@@ -5580,6 +5768,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -5588,7 +5779,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -5605,7 +5795,7 @@ Assets {
           Location {
             X: -693.789185
             Y: -286.721222
-            Z: 164.172211
+            Z: 215.841507
           }
           Rotation {
             Yaw: 113.672173
@@ -5640,6 +5830,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -5648,7 +5841,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -5665,7 +5857,7 @@ Assets {
           Location {
             X: -693.325073
             Y: 287.840424
-            Z: 164.172211
+            Z: 215.841507
           }
           Rotation {
             Yaw: 68.6721
@@ -5700,6 +5892,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -5708,7 +5903,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -5725,7 +5919,7 @@ Assets {
           Location {
             X: -489.80304
             Y: 487.965637
-            Z: 164.158813
+            Z: 215.828171
           }
           Rotation {
             Yaw: 45
@@ -5760,6 +5954,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -5768,7 +5965,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -5785,7 +5981,7 @@ Assets {
           Location {
             X: -286.721222
             Y: 693.789185
-            Z: 164.172211
+            Z: 215.841507
           }
           Rotation {
             Yaw: 23.6720333
@@ -5820,6 +6016,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -5828,7 +6027,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -5845,7 +6043,7 @@ Assets {
           Location {
             X: -445.642181
             Y: 1078.90979
-            Z: 107.158897
+            Z: 158.828247
           }
           Rotation {
             Yaw: 21.3454552
@@ -5880,6 +6078,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -5888,7 +6089,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -5904,8 +6104,8 @@ Assets {
         Transform {
           Location {
             X: -501.696
-            Y: 1053.16528
-            Z: 107.158897
+            Y: 1053.16516
+            Z: 158.828247
           }
           Rotation {
             Yaw: -44.3518066
@@ -5940,6 +6140,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -5948,7 +6151,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -5965,7 +6167,7 @@ Assets {
           Location {
             X: -387.360443
             Y: 1100.55371
-            Z: 107.158897
+            Z: 158.828247
           }
           Rotation {
             Yaw: -90.6572266
@@ -6000,6 +6202,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -6008,7 +6213,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -6024,8 +6228,8 @@ Assets {
         Transform {
           Location {
             X: 447.787903
-            Y: 1078.02148
-            Z: 107.158897
+            Y: 1078.02124
+            Z: 158.828247
           }
           Rotation {
             Yaw: -23.6544495
@@ -6060,6 +6264,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -6068,7 +6275,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -6085,7 +6291,7 @@ Assets {
           Location {
             X: 389.947845
             Y: 1099.45325
-            Z: 107.158897
+            Z: 158.828247
           }
           Rotation {
             Yaw: -89.3516846
@@ -6120,6 +6326,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -6128,7 +6337,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -6143,9 +6351,9 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: 504.303223
-            Y: 1052.11487
-            Z: 107.158897
+            X: 504.302856
+            Y: 1052.11462
+            Z: 158.828247
           }
           Rotation {
             Yaw: -135.657333
@@ -6180,6 +6388,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -6188,7 +6399,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -6205,7 +6415,7 @@ Assets {
           Location {
             X: -1078.02039
             Y: 447.787537
-            Z: 107.158897
+            Z: 158.828247
           }
           Rotation {
             Yaw: 66.3455582
@@ -6240,6 +6450,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -6248,7 +6461,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -6265,7 +6477,7 @@ Assets {
           Location {
             X: -1099.45435
             Y: 389.947083
-            Z: 107.158897
+            Z: 158.828247
           }
           Rotation {
             Yaw: 0.648352206
@@ -6300,6 +6512,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -6308,7 +6523,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -6325,7 +6539,7 @@ Assets {
           Location {
             X: -1052.1156
             Y: 504.302124
-            Z: 107.158897
+            Z: 158.828247
           }
           Rotation {
             Yaw: -45.6574097
@@ -6360,6 +6574,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -6368,7 +6585,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -6385,7 +6601,7 @@ Assets {
           Location {
             X: -1078.90894
             Y: -445.642181
-            Z: 107.158897
+            Z: 158.828247
           }
           Rotation {
             Yaw: 111.345551
@@ -6420,6 +6636,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -6428,7 +6647,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -6445,7 +6663,7 @@ Assets {
           Location {
             X: -1053.16418
             Y: -501.69751
-            Z: 107.158897
+            Z: 158.828247
           }
           Rotation {
             Yaw: 45.6484032
@@ -6480,6 +6698,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -6488,7 +6709,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -6505,7 +6725,7 @@ Assets {
           Location {
             X: -1100.55298
             Y: -387.362305
-            Z: 107.158897
+            Z: 158.828247
           }
           Rotation {
             Yaw: -0.657409668
@@ -6540,6 +6760,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -6548,7 +6771,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -6565,7 +6787,7 @@ Assets {
           Location {
             X: -447.78714
             Y: -1078.02075
-            Z: 107.158897
+            Z: 158.828247
           }
           Rotation {
             Yaw: 156.345581
@@ -6600,6 +6822,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -6608,7 +6833,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -6625,7 +6849,7 @@ Assets {
           Location {
             X: -389.94635
             Y: -1099.45276
-            Z: 107.158897
+            Z: 158.828247
           }
           Rotation {
             Yaw: 90.6483612
@@ -6660,6 +6884,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -6668,7 +6895,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -6685,7 +6911,7 @@ Assets {
           Location {
             X: -504.301361
             Y: -1052.11487
-            Z: 107.158897
+            Z: 158.828247
           }
           Rotation {
             Yaw: 44.342556
@@ -6720,6 +6946,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -6728,7 +6957,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -6745,7 +6973,7 @@ Assets {
           Location {
             X: 445.642181
             Y: -1078.90894
-            Z: 107.158897
+            Z: 158.828247
           }
           Rotation {
             Yaw: -158.654434
@@ -6780,6 +7008,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -6788,7 +7019,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -6803,9 +7033,9 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: 501.697144
+            X: 501.69751
             Y: -1053.16492
-            Z: 107.158897
+            Z: 158.828247
           }
           Rotation {
             Yaw: 135.648346
@@ -6840,6 +7070,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -6848,7 +7081,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -6865,7 +7097,7 @@ Assets {
           Location {
             X: 387.362671
             Y: -1100.55225
-            Z: 107.158897
+            Z: 158.828247
           }
           Rotation {
             Yaw: 89.342453
@@ -6900,6 +7132,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -6908,7 +7143,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -6925,7 +7159,7 @@ Assets {
           Location {
             X: 1078.02075
             Y: -447.787903
-            Z: 107.158897
+            Z: 158.828247
           }
           Rotation {
             Yaw: -113.654358
@@ -6960,6 +7194,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -6968,7 +7205,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -6985,7 +7221,7 @@ Assets {
           Location {
             X: 1099.45361
             Y: -389.94635
-            Z: 107.158897
+            Z: 158.828247
           }
           Rotation {
             Yaw: -179.3517
@@ -7020,6 +7256,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -7028,7 +7267,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -7045,7 +7283,7 @@ Assets {
           Location {
             X: 1052.11487
             Y: -504.301727
-            Z: 107.158897
+            Z: 158.828247
           }
           Rotation {
             Yaw: 134.342361
@@ -7080,6 +7318,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -7088,7 +7329,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -7105,7 +7345,7 @@ Assets {
           Location {
             X: 1078.9093
             Y: 445.641815
-            Z: 107.158897
+            Z: 158.828247
           }
           Rotation {
             Yaw: -68.6543274
@@ -7140,6 +7380,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -7148,7 +7391,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -7165,10 +7407,10 @@ Assets {
           Location {
             X: 1053.16418
             Y: 501.697144
-            Z: 107.158897
+            Z: 158.828247
           }
           Rotation {
-            Yaw: -134.351563
+            Yaw: -134.351562
           }
           Scale {
             X: 0.113665007
@@ -7200,6 +7442,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -7208,7 +7453,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -7225,7 +7469,7 @@ Assets {
           Location {
             X: 1100.55298
             Y: 387.362305
-            Z: 107.158897
+            Z: 158.828247
           }
           Rotation {
             Yaw: 179.34227
@@ -7260,6 +7504,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6284939371362434604
@@ -7268,8 +7515,68 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 1192064272936951302
+        Name: "Prism - 8-Sided"
+        Transform {
+          Location {
+            Z: 172.788422
+          }
+          Rotation {
+          }
+          Scale {
+            X: 9.79906368
+            Y: 9.79906368
+            Z: 0.464362442
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:IsBuildable"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 18242125999629608164
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              G: 0.0998987257
+              B: 0.201556295
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 5075754212973068898
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
           StaticMesh {
             Physics {
               Mass: 100
@@ -7324,10 +7631,19 @@ Assets {
         AssetId: "sm_plane_1m_002"
       }
     }
+    Assets {
+      Id: 5075754212973068898
+      Name: "Prism - 8-Sided"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_prism_octagon_001"
+      }
+    }
     PrimaryAssetId {
       AssetType: "None"
       AssetId: "None"
     }
   }
-  SerializationVersion: 76
+  SerializationVersion: 78
 }

@@ -14,7 +14,6 @@ local towerPlacer = Selector.New(activeBoard,{
     isCamToMouseRaycasting = true,
 })
 
-LOCAL_PLAYER.clientUserData.towerPlacer = towerPlacer
 local prepedTower = nil -- The tower we're about to place.
 
 -- Creates a visual indicator on all towers on the map of blocked placement areas.
@@ -40,18 +39,6 @@ local function ApplyTowerGhostToPlacer(name)
     -- Set the visuals on the selector.
     local towerMUID = prepedTower:GetGhostMUID()
     towerPlacer:SetSelectorVisualMUID(towerMUID)
-end
-
-local function IsOverValidSurface(position)
-	local startPos = position +  ( Vector3.UP * 2 )
-	local endPos = position + ( Vector3.UP * -20 )
-	
-	local hitResult = World.Raycast( startPos, endPos )
-	
-	if hitResult then
-		local result = hitResult.other
-		return result:GetCustomProperty("IsBuildable")
-	end
 end
 
 -- -- Check to see if the geometry is in a folder that allows for the placement of tower. Uses the dot product to make sure the placement angle doesn't exceed a value.
@@ -82,10 +69,6 @@ end
 towerPlacer.OnLeftMouseButton:Connect(function()
     local nearbyTower = towerPlacer:GetNearestTower()
     local ghostPos = towerPlacer:GetImpactPosition()
-    
-    if not IsOverValidSurface(ghostPos) then
-    	return
-    end
 
     if nearbyTower and nearbyTower:IsPositionInBlockedRadius(ghostPos) then
         return

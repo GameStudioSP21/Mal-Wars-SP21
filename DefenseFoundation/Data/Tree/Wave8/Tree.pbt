@@ -1,0 +1,54 @@
+Name: "Wave8"
+RootId: 77713376610644657
+Objects {
+  Id: 10292693431761393632
+  Name: "1 ReWo"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 77713376610644657
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Enemy"
+      AssetReference {
+        Id: 1423561447277532929
+      }
+    }
+    Overrides {
+      Name: "cs:Amount"
+      Vector2 {
+        X: 1
+        Y: 1
+      }
+    }
+    Overrides {
+      Name: "cs:HealthMultiplier"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:SpeedMultiplier"
+      Int: 1
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "1 ReWo"
+  }
+}

@@ -1,6 +1,7 @@
 Name: "WhiteboxNew"
 RootId: 16158780439152817356
 Objects {
+<<<<<<< Updated upstream
   Id: 2254021700219062407
   Name: "Platforms"
   Transform {
@@ -22,12 +23,17 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsFilePartition: true
     FilePartitionName: "Platforms"
   }
 }
 Objects {
+=======
+>>>>>>> Stashed changes
   Id: 1854389952843736542
   Name: "WhiteboxMap"
   Transform {
@@ -49,6 +55,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true

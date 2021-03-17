@@ -2,7 +2,7 @@ Assets {
   Id: 4581518523713431825
   Name: "Custom Edge Line Sharp"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 78
   CustomMaterialAsset {
     BaseMaterialId: 10588427474648446983
     ParameterOverrides {
@@ -32,15 +32,15 @@ Assets {
       }
       Overrides {
         Name: "fresnel"
-        Float: 1
+        Float: 3
       }
       Overrides {
         Name: "fresnel brightness"
-        Float: 50
+        Float: 1.87050033
       }
       Overrides {
         Name: "vertical fade"
-        Float: 4.39429569
+        Float: -0.5
       }
       Overrides {
         Name: "noise scale"
@@ -60,6 +60,11 @@ Assets {
           G: 0.1
           B: 0.2
           A: 1
+        }
+      }
+      Overrides {
+        Name: "speed"
+        Vector {
         }
       }
     }

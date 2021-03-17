@@ -2,7 +2,7 @@ Assets {
   Id: 1299715741692116615
   Name: "Custom Detail 3 from Sci-fi Terminal Keyboard 01"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 78
   CustomMaterialAsset {
     BaseMaterialId: 245332366454825040
     ParameterOverrides {

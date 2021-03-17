@@ -1,6 +1,7 @@
 local LASER_FX = script:GetCustomProperty("LaserBeamVFX")
 local GAME_MANAGER = require(script:GetCustomProperty("TowerDefenders_GameManager"))
-local RADIAL_VIEW = require(script:GetCustomProperty("TowerDefenders_RadialView"))
+
+--local RADIAL_VIEW = require(script:GetCustomProperty("TowerDefenders_RadialView"))
 local ProgressBar = script:GetCustomProperty("UIProgressBar"):WaitForObject()
 local COOL_DOWN_TIMER = script:GetCustomProperty("CoolDownTimer")
 
@@ -46,14 +47,15 @@ function CheckView()
     local towerPlacer = LOCAL_PLAYER.clientUserData.towerPlacer
     local upgraderSelector = LOCAL_PLAYER.clientUserData.upgradeSelector
 
-    Task.Wait()
-    if buildMenu:IsVisible() or towerMenu:IsVisible() or towerPlacer:IsActive() or upgraderSelector:IsActive() then
-        -- print("Menu open or placing turret")
-        return false
-    else
-        -- print("Nothing open")
-        return true
-    end
+    return true
+    -- Task.Wait()
+    -- if buildMenu:IsVisible() or towerMenu:IsVisible() or towerPlacer:IsActive() or upgraderSelector:IsActive() then
+    --     -- print("Menu open or placing turret")
+    --     return false
+    -- else
+    --     -- print("Nothing open")
+    --     return true
+    -- end
 end
 
 function DamageEnemies(hitResult)
@@ -100,5 +102,6 @@ function Tick(dt)
         ProgressBar.progress = CoreMath.Clamp(ProgressBar.progress + (dt * (1 / COOL_DOWN_TIMER)))
     end
 end
+
 
 LOCAL_PLAYER.bindingPressedEvent:Connect(OnBindingPressed)

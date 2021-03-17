@@ -6,6 +6,7 @@ Objects {
   Transform {
     Location {
       X: -6000
+      Z: -98.2919922
     }
     Rotation {
     }
@@ -27,6 +28,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsGroup: true
@@ -51,6 +55,9 @@ Objects {
     }
   }
   ParentId: 8324161319524091147
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 1444108161883601747
@@ -83,6 +90,32 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 5283218134908423829
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            G: 0.0998987257
+            B: 0.201556295
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13346783700512204795
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            G: 0.0998987257
+            B: 0.201556295
+            A: 1
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 5103973752602277390
     }
@@ -99,6 +132,9 @@ Objects {
     }
   }
   ParentId: 8324161319524091147
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 8915900068762014425
@@ -108,19 +144,16 @@ Objects {
           String: "Octagon_Path"
         }
         Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.30665755
-            Y: 1.30665755
-            Z: 1.30665755
-          }
-        }
-        Overrides {
           Name: "Position"
           Vector {
             X: -3000
             Y: -3000
             Z: -38
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
           }
         }
       }
@@ -146,16 +179,71 @@ Objects {
   }
   ParentId: 8324161319524091147
   ChildIds: 2074308503116049477
-  ChildIds: 14489510459068001269
   ChildIds: 937814005387244073
+  ChildIds: 1753225169728989813
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 1753225169728989813
+  Name: "Bevel_Path"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8488411900768639064
+<<<<<<< Updated upstream
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+=======
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+>>>>>>> Stashed changes
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 15715088021643346016
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Bevel_Path"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2224.552
+            Y: -2212.98242
+            Z: 55.0733032
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -89.9999466
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13278643246804230371
+    }
   }
 }
 Objects {
@@ -169,6 +257,9 @@ Objects {
     }
   }
   ParentId: 8488411900768639064
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 1444108161883601747
@@ -201,57 +292,34 @@ Objects {
         }
       }
     }
-    TemplateAsset {
-      Id: 5103973752602277390
-    }
-  }
-}
-Objects {
-  Id: 14489510459068001269
-  Name: "Bevel_Path"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8488411900768639064
-  TemplateInstance {
     ParameterOverrideMap {
-      key: 4548963664257115455
+      key: 5283218134908423829
       value {
         Overrides {
-          Name: "Name"
-          String: "Bevel_Path"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: -1
-            Y: -1
-            Z: -1
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            G: 0.0998987257
+            B: 0.201556295
+            A: 1
           }
         }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13346783700512204795
+      value {
         Overrides {
-          Name: "Position"
-          Vector {
-            X: 2230.71582
-            Y: -2215.31738
-            Z: 50
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -90
-            Roll: 180
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            G: 0.0998987257
+            B: 0.201556295
+            A: 1
           }
         }
       }
     }
     TemplateAsset {
-      Id: 17682285057788558240
+      Id: 5103973752602277390
     }
   }
 }
@@ -266,6 +334,9 @@ Objects {
     }
   }
   ParentId: 8488411900768639064
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 1444108161883601747
@@ -294,6 +365,32 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: -90
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5283218134908423829
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            G: 0.0998987257
+            B: 0.201556295
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13346783700512204795
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            G: 0.0998987257
+            B: 0.201556295
+            A: 1
           }
         }
       }
@@ -327,6 +424,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsGroup: true
   }
@@ -350,6 +450,9 @@ Objects {
     }
   }
   ParentId: 16859114242142075133
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 1444108161883601747
@@ -382,6 +485,32 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 5283218134908423829
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            G: 0.0998987257
+            B: 0.201556295
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13346783700512204795
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            G: 0.0998987257
+            B: 0.201556295
+            A: 1
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 5103973752602277390
     }
@@ -398,6 +527,9 @@ Objects {
     }
   }
   ParentId: 16859114242142075133
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 4548963664257115455
@@ -429,6 +561,45 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 5646767537828364222
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            G: 0.0998987257
+            B: 0.201556295
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9067812673606497976
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            G: 0.0998987257
+            B: 0.201556295
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9290826746892888166
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            G: 0.0998987257
+            B: 0.201556295
+            A: 1
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 14354538748138618336
     }
@@ -445,6 +616,9 @@ Objects {
     }
   }
   ParentId: 16859114242142075133
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 1444108161883601747
@@ -477,6 +651,38 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 5283218134908423829
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            G: 0.0998987257
+            B: 0.201556295
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: -359.999969
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13346783700512204795
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            G: 0.0998987257
+            B: 0.201556295
+            A: 1
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 5103973752602277390
     }
@@ -493,6 +699,9 @@ Objects {
     }
   }
   ParentId: 8324161319524091147
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 8915900068762014425
@@ -527,6 +736,9 @@ Objects {
     }
   }
   ParentId: 8324161319524091147
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 1444108161883601747
@@ -555,6 +767,19 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: 135
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13346783700512204795
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            G: 0.0998987257
+            B: 0.201556295
+            A: 1
           }
         }
       }

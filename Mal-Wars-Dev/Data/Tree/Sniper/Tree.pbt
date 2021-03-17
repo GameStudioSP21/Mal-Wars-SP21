@@ -73,6 +73,12 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:TowerClass"
+      AssetReference {
+        Id: 4546501338603812090
+      }
+    }
+    Overrides {
       Name: "cs:VisualProjectile:tooltip"
       String: "Purely Visual. This is for making your tower attacks look pretty."
     }
@@ -82,6 +88,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsGroup: true
@@ -166,6 +175,12 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:TowerClass"
+      AssetReference {
+        Id: 4546501338603812090
+      }
+    }
+    Overrides {
       Name: "cs:VisualProjectile:tooltip"
       String: "Purely Visual. This is for making your tower attacks look pretty."
     }
@@ -175,6 +190,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsGroup: true
@@ -259,6 +277,12 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:TowerClass"
+      AssetReference {
+        Id: 4546501338603812090
+      }
+    }
+    Overrides {
       Name: "cs:VisualProjectile:tooltip"
       String: "Purely Visual. This is for making your tower attacks look pretty."
     }
@@ -268,6 +292,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsGroup: true
@@ -367,6 +394,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsGroup: true
