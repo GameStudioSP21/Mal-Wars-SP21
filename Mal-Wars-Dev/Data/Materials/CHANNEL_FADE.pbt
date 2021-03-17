@@ -1,62 +1,56 @@
 Assets {
-  Id: 4464215658024061473
-  Name: "Additive Edgeline GREEN"
+  Id: 2094366942435729383
+  Name: "CHANNEL_FADE"
   PlatformAssetType: 13
   SerializationVersion: 78
   CustomMaterialAsset {
     BaseMaterialId: 12084768731772136090
     ParameterOverrides {
       Overrides {
-        Name: "color"
+        Name: "edge line color"
         Color {
-          G: 0.85
-          B: 0.0394039862
-          A: 1
-        }
-      }
-      Overrides {
-        Name: "noise color"
-        Color {
-          R: 0.00980120152
-          G: 0.74
           A: 1
         }
       }
       Overrides {
         Name: "overall brightness"
-        Float: 2.35373235
+        Float: 2.06484127
       }
       Overrides {
         Name: "edge line brightness"
-        Float: 20.3522301
+        Float: 71.6303787
       }
       Overrides {
         Name: "vertical fade"
-        Float: 6.52601957
-      }
-      Overrides {
-        Name: "fresnel"
-        Float: 2.23038387
+        Float: 5.22601032
       }
       Overrides {
         Name: "fresnel brightness"
-        Float: 18.4817314
+        Float: 11.7719612
+      }
+      Overrides {
+        Name: "noise spread"
+        Float: 137.254059
       }
       Overrides {
         Name: "noise sharpness"
-        Float: 0.282967329
-      }
-      Overrides {
-        Name: "noise scale"
-        Float: 1.41483665
-      }
-      Overrides {
-        Name: "edge line sharpness"
-        Float: 0.622414231
+        Float: 0.008
       }
       Overrides {
         Name: "edge line spread"
-        Float: 514.080078
+        Float: 32
+      }
+      Overrides {
+        Name: "speed 2"
+        Vector {
+          X: 1.69654095
+        }
+      }
+      Overrides {
+        Name: "speed"
+        Vector {
+          X: -1.06030405
+        }
       }
     }
     Assets {

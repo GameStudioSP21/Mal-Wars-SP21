@@ -40,7 +40,8 @@ Objects {
         Id: 1061887584718928171
       }
       Color {
-        R: 0.269999981
+        G: 0.0337748
+        B: 0.149999976
         A: 0.389000028
       }
       TeamSettings {
@@ -208,9 +209,144 @@ Objects {
         Id: 1735192838551116887
       }
       Color {
-        R: 0.0235098954
-        G: 0.710000038
+        G: 0.0985429138
+        B: 0.929999948
         A: 1
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomleft"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9194768012864567459
+    SubobjectId: 9083786907936745213
+    InstanceId: 4036173448899885274
+    TemplateId: 9142428695657765879
+  }
+}
+Objects {
+  Id: 5397478933411207505
+  Name: "base_1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1035024178581031466
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Width: 219
+    Height: 227
+    UIX: -19.9431152
+    UIY: 325.234375
+    RotationAngle: 45
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 1735192838551116887
+      }
+      Color {
+        G: 0.0985429138
+        B: 0.929999948
+        A: 1
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomleft"
+        }
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9194768012864567459
+    SubobjectId: 9083786907936745213
+    InstanceId: 4036173448899885274
+    TemplateId: 9142428695657765879
+  }
+}
+Objects {
+  Id: 13615907950559424954
+  Name: "base_1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1035024178581031466
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Width: 217
+    Height: 222
+    UIX: -16.2037048
+    UIY: -101.259521
+    RotationAngle: 45
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 1735192838551116887
+      }
+      Color {
+        R: 0.0520833321
+        G: 0.0520833321
+        B: 0.0520833321
+        A: 0.5
       }
       TeamSettings {
       }

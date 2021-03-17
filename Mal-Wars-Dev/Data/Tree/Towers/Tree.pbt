@@ -247,6 +247,7 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+<<<<<<< Updated upstream
   Folder {
     IsGroup: true
   }
@@ -450,6 +451,28 @@ Objects {
       Name: "cs:Turret_root"
       ObjectReference {
         SelfId: 292193556654134511
+=======
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14160675516524522327
+      value {
+        Overrides {
+          Name: "Name"
+          String: "LaserTurret_Upgrade4"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -11862.8535
+            Y: 2312.33105
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+>>>>>>> Stashed changes
       }
     }
     Overrides {
@@ -707,7 +730,7 @@ Objects {
           Name: "Position"
           Vector {
             X: -12535.1367
-            Y: 4893.16895
+            Y: 4893.16894
             Z: 76.1421204
           }
         }

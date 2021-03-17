@@ -9,18 +9,18 @@ Assets {
       Overrides {
         Name: "color"
         Color {
-          G: 0.940000057
-          B: 0.0622517765
+          G: 0.753244936
+          B: 0.940000057
           A: 1
         }
       }
       Overrides {
         Name: "emissiveboost"
-        Float: 50
+        Float: 10.8959351
       }
       Overrides {
         Name: "linethickness"
-        Float: 0.0271255225
+        Float: 0.0236772671
       }
       Overrides {
         Name: "material_scale"
@@ -28,7 +28,13 @@ Assets {
       }
       Overrides {
         Name: "usealphafortransparency"
-        Bool: false
+        Bool: true
+      }
+      Overrides {
+        Name: "color_secondary"
+        Color {
+          A: 0.0990000069
+        }
       }
     }
     Assets {
