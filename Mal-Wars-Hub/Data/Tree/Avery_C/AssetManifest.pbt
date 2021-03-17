@@ -17,15 +17,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15725872518987545442
-  Name: "Ring - Quarter Thick"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_quarter_torus_003"
-  }
-}
-Assets {
   Id: 15004977114115670754
   Name: "Prism - 3-Sided"
   PlatformAssetType: 1

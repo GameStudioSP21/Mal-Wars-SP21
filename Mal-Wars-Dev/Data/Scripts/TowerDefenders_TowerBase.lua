@@ -41,6 +41,10 @@ function Tower.New(towerData, board, owner)
     -- self.migrate is a table that will be moved over when the tower upgrades.
     self.migrate.targetingMode = INITAL_TARGETING_MODE
 
+    self:_DefineEvent("OnFired") -- Done
+    self:_DefineEvent("OnTargetEnemy") -- Not used yet.
+
+
     self:_Init(towerData)
 
     return self
@@ -78,6 +82,8 @@ function Tower:SpawnAsset()
         World.SpawnAsset(OWNERSHIP_DECAL,{ parent = towerModel })
     end
 
+    self.towerAssetInstance.clientUserData.tower = self
+
     self._horizontalRotator = towerModel:GetCustomProperty("HorizontalRotator"):GetObject()
     self._verticalRotator = towerModel:GetCustomProperty("VerticalRotator"):GetObject()
     self._muzzle = towerModel:GetCustomProperty("Muzzle"):GetObject()
@@ -101,6 +107,8 @@ function Tower:SpawnAssetSpecial()
 
     local towerModel = World.SpawnAsset(self:GetMUID(),{ position = self.position, parent = boardAsset })
     self.towerAssetInstance = towerModel
+
+    self.towerAssetInstance.clientUserData.tower = self
 
     -- If the owner of the tower placed then there will be a ring below the the tower
     -- indicating they own it.
@@ -373,6 +381,26 @@ function Tower:_HasValidTarget()
     return false
 end
 
+function Tower:_FireEvent(eventName, ...)
+    for _,handler in ipairs(self.eventHandlers[eventName]) do
+        handler(...)
+    end
+end
+
+function Tower:_DefineEvent(eventName)
+    self.eventHandlers = self.eventHandlers or {}
+    self.eventHandlers[eventName] = self.eventHandlers[eventName] or {}
+    self[eventName] = {
+        Connect = function(_, handler)
+            table.insert(self.eventHandlers[eventName], handler)
+            return self[eventName]
+        end,
+        Disconnect = function(_, handler)
+            table.remove(self.eventHandlers[eventName], handler)
+        end
+    }
+end
+
 function Tower:_Runtime()
 
     self.currentTarget = nil
@@ -406,6 +434,7 @@ function Tower:_Runtime()
                     Task.Spawn(function()
                         if not Object.IsValid(self.currentTarget) then return end
                         self:FireFakeProjectile(self.currentTarget)
+                        self:_FireEvent("OnFired",self.currentTarget)
                     end)
                     Task.Spawn(function()
                         if not Object.IsValid(self.currentTarget) then return end
@@ -442,6 +471,7 @@ function Tower:_Runtime()
                 Task.Wait(self:GetStat("Speed"))
                 if self:_HasValidTarget() then
                     self:DamageEnemy(self.currentTarget)
+                    self:_FireEvent("OnFired",self.currentTarget)
                 end
             end
         end)

@@ -19,7 +19,6 @@ Objects {
   ChildIds: 14293579930613948469
   ChildIds: 10005074784157121906
   ChildIds: 10722931758594424760
-  ChildIds: 8512805858169632350
   ChildIds: 15885606419812222058
   ChildIds: 2880498746515435782
   UnregisteredParameters {
@@ -150,37 +149,6 @@ Objects {
     TemplateAsset {
       Id: 16462681254409379470
     }
-  }
-}
-Objects {
-  Id: 8512805858169632350
-  Name: "Towers"
-  Transform {
-    Location {
-      X: -325.981445
-      Y: 2653.92407
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Towers"
   }
 }
 Objects {

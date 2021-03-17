@@ -1,4 +1,4 @@
-﻿local BoardDatabase = require(script:GetCustomProperty("BoardDatabase"))
+local BoardDatabase = require(script:GetCustomProperty("BoardDatabase"))
 local TowerDatabase = require(script:GetCustomProperty("TowerDatabase"))
 
 print("Board database has loaded")
@@ -10,6 +10,7 @@ local GameManager = {}
 
 local activeBoards = {}
 
+-- Server
 function GameManager.CreateGame(players)
     if not players then return end
 
@@ -18,15 +19,7 @@ function GameManager.CreateGame(players)
 
         local allPlayers = Game.GetPlayers()
 
-        -- Creates the board and initalizes the owners of that board.
-        prototypeBoard:CreateBoard(Vector3.New(),allPlayers)
-
-        -- Store a reference to our board on the owning player
-        for _, player in pairs(allPlayers) do
-            player.serverUserData.activeBoard = prototypeBoard
-            -- MOVE TO A STATIC DATA SCRIPT THAT CAN BE CHANGE EASILY.
-            player:SetResource("GEMS", 300)
-        end
+        prototypeBoard:Setup(Vector3.New(),allPlayers)
 
         table.insert(activeBoards,prototypeBoard)
         return prototypeBoard
@@ -47,6 +40,40 @@ function GameManager.CreateGame(players)
         return prototypeBoard
     end
 
+end
+
+-- Both
+-- Call this method if you're wanting a board asset to be associated with a board class.
+function GameManager.SetupBoard(boardAsset)
+
+    if Environment.IsClient() then
+        -- Wait for the owners custom property to populate.
+        while boardAsset:GetCustomProperty("Owners") == "" or
+            boardAsset:GetCustomProperty("Owners") == nil
+        do Task.Wait() end
+    end
+
+    local owners = boardAsset:GetCustomProperty("Owners")
+
+    -- Construct a board object given the server spawn asset MUID.
+    local boardAssetMUID = boardAsset.sourceTemplateId
+    local board = BoardDatabase:NewBoardByMUID(boardAssetMUID)
+
+    -- TODO: Move this to an api
+    local owningPlayers = {}
+
+    for playerID in owners:gmatch("([^<>;]+)") do
+        owningPlayers[playerID] = playerID
+    end
+
+    for _, player in pairs(Game.GetPlayers()) do
+        if owningPlayers[player.id] then
+            owningPlayers[player.id] = player
+        end
+    end
+
+    board:Setup(Vector3.New(),owningPlayers,boardAsset)
+    table.insert(activeBoards,board)
 end
 
 -- Return the current board the player is playing on.

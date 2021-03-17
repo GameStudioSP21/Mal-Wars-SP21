@@ -1,4 +1,4 @@
-﻿local PathNode = {}
+local PathNode = {}
 PathNode.__index = PathNode
 
 local MAX_DISTANCE_SQUARED = 12^2
@@ -86,14 +86,15 @@ function PathNode:GetRandomPositionPerpendicularToNodeDirection()
 end
 
 -- Climbs through the path nodes to the end to get the total distance squared.
-function PathNode:GetTotalDistanceToEnd()
+function PathNode:GetTotalDistanceSquaredToEnd()
     local distanceSquared = 0
     local function Distance_R(root)
         if root:GetNextNode() then
-            local distS = (root:GetWorldPosition() - root.nextNode:GetWorldPosition()).sizeSquared
+            local nextNode = root:GetNextNode()
+            local distS = (root:GetWorldPosition() - nextNode:GetWorldPosition()).sizeSquared
             root:GetRandomPositionPerpendicularToNodeDirection()
             distanceSquared = distanceSquared + distS
-            Distance_R(root.nextNode)
+            Distance_R(nextNode)
         end
     end
     Distance_R(self)

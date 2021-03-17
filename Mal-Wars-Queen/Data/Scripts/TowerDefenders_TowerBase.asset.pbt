@@ -5,6 +5,12 @@ Assets {
   TextAsset {
     CustomParameters {
       Overrides {
+        Name: "cs:TowerTargeting"
+        AssetReference {
+          Id: 17650149989283630494
+        }
+      }
+      Overrides {
         Name: "cs:SpawnVFX"
         AssetReference {
           Id: 6511019297952696323
@@ -54,5 +60,5 @@ Assets {
       }
     }
   }
-  SerializationVersion: 76
+  SerializationVersion: 78
 }

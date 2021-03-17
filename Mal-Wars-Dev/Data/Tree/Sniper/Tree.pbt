@@ -73,6 +73,12 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:TowerClass"
+      AssetReference {
+        Id: 4546501338603812090
+      }
+    }
+    Overrides {
       Name: "cs:VisualProjectile:tooltip"
       String: "Purely Visual. This is for making your tower attacks look pretty."
     }
@@ -169,6 +175,12 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:TowerClass"
+      AssetReference {
+        Id: 4546501338603812090
+      }
+    }
+    Overrides {
       Name: "cs:VisualProjectile:tooltip"
       String: "Purely Visual. This is for making your tower attacks look pretty."
     }
@@ -262,6 +274,12 @@ Objects {
       Name: "cs:VisualProjectile"
       AssetReference {
         Id: 10948153152124094650
+      }
+    }
+    Overrides {
+      Name: "cs:TowerClass"
+      AssetReference {
+        Id: 4546501338603812090
       }
     }
     Overrides {
