@@ -21,6 +21,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsFilePartition: true
     FilePartitionName: "Body Overlayed details"
@@ -37,17 +40,18 @@ Objects {
   Name: "Pipe"
   Transform {
     Location {
-      Y: 7.8581543
-      Z: 52.9976807
+      X: -1285.07275
+      Y: -1337.63452
+      Z: 52.9977188
     }
     Rotation {
-      Yaw: -89.999939
-      Roll: -179.999969
+      Yaw: -113.557785
+      Roll: 180
     }
     Scale {
       X: 0.953913629
       Y: 2.41381621
-      Z: 0.161602527
+      Z: 0.161602512
     }
   }
   ParentId: 664612160337594249
@@ -143,6 +147,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 6369574103405882280
@@ -151,7 +158,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -172,15 +178,16 @@ Objects {
   Name: "Pipe"
   Transform {
     Location {
-      Y: -7.8581543
+      X: -1291.3512
+      Y: -1352.04834
     }
     Rotation {
-      Yaw: 89.9999771
+      Yaw: 66.4418945
     }
     Scale {
       X: 0.953913629
       Y: 2.41381621
-      Z: 0.191037029
+      Z: 0.191037014
     }
   }
   ParentId: 664612160337594249
@@ -276,6 +283,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 6369574103405882280
@@ -284,7 +294,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {

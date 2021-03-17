@@ -11,6 +11,9 @@ Objects {
     }
   }
   ParentId: 15855902819366650372
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 8014650375856875642

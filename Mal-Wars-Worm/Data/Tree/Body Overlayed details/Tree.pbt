@@ -5,17 +5,18 @@ Objects {
   Name: "Pipe"
   Transform {
     Location {
-      Y: -7.99316406
-      Z: 53.4998779
+      X: -1291.42786
+      Y: -1352.21094
+      Z: 53.5
     }
     Rotation {
-      Yaw: 90
+      Yaw: 66.441925
       Roll: 180
     }
     Scale {
-      X: 0.965729773
+      X: 0.965729833
       Y: -2.414
-      Z: 0.165537715
+      Z: 0.16553767
     }
   }
   ParentId: 7015415583522506837
@@ -111,6 +112,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 6369574103405882280
@@ -119,7 +123,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -140,16 +143,17 @@ Objects {
   Name: "Pipe"
   Transform {
     Location {
-      Y: 7.99304199
-      Z: -0.0614776611
+      X: -1285.03357
+      Y: -1337.54688
+      Z: -0.0615234375
     }
     Rotation {
-      Yaw: -90
+      Yaw: -113.55777
     }
     Scale {
       X: 0.970439672
       Y: -2.414
-      Z: 0.191037029
+      Z: 0.191037014
     }
   }
   ParentId: 7015415583522506837
@@ -245,6 +249,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 6369574103405882280
@@ -253,7 +260,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -274,17 +280,18 @@ Objects {
   Name: "Pipe"
   Transform {
     Location {
-      Y: 7.92041
-      Z: 53.4998779
+      X: -1285.05078
+      Y: -1337.58118
+      Z: 53.4999962
     }
     Rotation {
-      Yaw: -89.999939
-      Roll: -179.999969
+      Yaw: -113.557785
+      Roll: 180
     }
     Scale {
-      X: 0.965729773
+      X: 0.965729833
       Y: 2.41381621
-      Z: 0.165537715
+      Z: 0.16553767
     }
   }
   ParentId: 7015415583522506837
@@ -380,6 +387,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 6369574103405882280
@@ -388,7 +398,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -409,16 +418,17 @@ Objects {
   Name: "Pipe"
   Transform {
     Location {
-      Y: -8.06066895
-      Z: -0.0614776611
+      X: -1291.4436
+      Y: -1352.23206
+      Z: -0.0615234338
     }
     Rotation {
-      Yaw: 89.9999771
+      Yaw: 66.4418945
     }
     Scale {
       X: 0.970439672
       Y: 2.41381621
-      Z: 0.191037029
+      Z: 0.191037014
     }
   }
   ParentId: 7015415583522506837
@@ -514,6 +524,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 6369574103405882280
@@ -522,7 +535,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {

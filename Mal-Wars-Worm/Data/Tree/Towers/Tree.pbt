@@ -17,6 +17,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 8289574815582450845
@@ -28,15 +31,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -13385.8838
-            Y: 2176.03394
+            X: 2984.73145
+            Y: -22672.9785
             Z: 173.799316
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -89.9999847
+            Yaw: -90
           }
         }
       }
@@ -63,6 +66,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 14748767582748543676
@@ -74,15 +80,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -13438.6377
-            Y: 3211.07593
+            X: 2931.97754
+            Y: -21637.9395
             Z: 159.537598
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -89.9999924
+            Yaw: -90
           }
         }
       }
@@ -109,6 +115,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 3738680561791745842
@@ -120,15 +129,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -13429.0186
-            Y: 4216.07617
+            X: 2941.59668
+            Y: -20632.9375
             Z: 130
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -89.9999924
+            Yaw: -90
           }
         }
       }
@@ -155,6 +164,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 10765659186691536428
@@ -166,8 +178,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -13421.0498
-            Y: 4863.64746
+            X: 2949.56543
+            Y: -19985.3652
             Z: 130
           }
         }
@@ -202,6 +214,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 14160675516524522327
@@ -213,8 +228,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -11862.8535
-            Y: 2312.33105
+            X: 4507.76172
+            Y: -22536.6816
           }
         }
         Overrides {
@@ -247,6 +262,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 5580396014439778102
@@ -258,8 +276,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -11891.1338
-            Y: 3193.58203
+            X: 4479.48145
+            Y: -21655.4316
           }
         }
         Overrides {
@@ -292,6 +310,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 16602805628744511675
@@ -303,8 +324,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -11916.4111
-            Y: 4067.20215
+            X: 4454.2041
+            Y: -20781.8125
           }
         }
         Overrides {
@@ -337,6 +358,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 248947022546621954
@@ -348,8 +372,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -11906.3545
-            Y: 4895.58105
+            X: 4464.26074
+            Y: -19953.4316
           }
         }
         Overrides {
@@ -381,6 +405,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 15383162064504641718
@@ -392,8 +419,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -12535.1367
-            Y: 4893.16895
+            X: 3835.47852
+            Y: -19955.8438
             Z: 76.1421204
           }
         }
@@ -426,6 +453,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 6089247722536784278
@@ -437,8 +467,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -12597.5879
-            Y: 4061.66846
+            X: 3773.02734
+            Y: -20787.3457
             Z: 60.1005859
           }
         }
@@ -471,6 +501,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 17452260506508817532
@@ -482,8 +515,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -12687.1865
-            Y: 3198.03027
+            X: 3683.42871
+            Y: -21650.9844
             Z: -5.59698486
           }
         }
@@ -517,6 +550,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 17763091110720732155
@@ -528,8 +564,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -12595.1406
-            Y: 2189.49316
+            X: 3775.47461
+            Y: -22659.5215
             Z: 6.14794922
           }
         }

@@ -2,7 +2,7 @@ Assets {
   Id: 10650215087548778439
   Name: "StairIron_NONGradient"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 78
   CustomMaterialAsset {
     BaseMaterialId: 2251351275617310618
     ParameterOverrides {

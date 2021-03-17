@@ -11,6 +11,9 @@ Objects {
     }
   }
   ParentId: 10018957074452998709
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 10906995137207975077
@@ -22,15 +25,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 13140
-            Y: -4590
+            X: 14945.709
+            Y: -9708.1
             Z: 5635
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -45
+            Yaw: -68.5578
           }
         }
         Overrides {
@@ -59,6 +62,9 @@ Objects {
     }
   }
   ParentId: 10018957074452998709
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 11764532458977922438
@@ -70,15 +76,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 11810
-            Y: -5820
+            X: 13234.958
+            Y: -10304.0146
             Z: 5640
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -45
+            Yaw: -68.5578
           }
         }
         Overrides {
@@ -107,6 +113,9 @@ Objects {
     }
   }
   ParentId: 10018957074452998709
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 5121432770197675786
@@ -118,15 +127,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 11346.0732
-            Y: -6542.50488
+            X: 12520.9277
+            Y: -10780.8779
             Z: 5365
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -45
+            Yaw: -68.5578
           }
         }
         Overrides {
@@ -155,6 +164,9 @@ Objects {
     }
   }
   ParentId: 10018957074452998709
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 10885550886106312805
@@ -166,15 +178,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 12215
-            Y: -5190
+            X: 13858.001
+            Y: -9888.38867
             Z: 5665
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -45
+            Yaw: -68.5578
           }
         }
         Overrides {
@@ -203,6 +215,9 @@ Objects {
     }
   }
   ParentId: 10018957074452998709
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 6706383901961231273
@@ -226,15 +241,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 10875
-            Y: -6530
+            X: 12094.1152
+            Y: -10581.1406
             Z: 5760
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -45
+            Yaw: -68.5578
           }
         }
         Overrides {
@@ -263,6 +278,9 @@ Objects {
     }
   }
   ParentId: 10018957074452998709
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 14438394093168917871
@@ -274,15 +292,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 9716.19238
-            Y: -7946.1123
+            X: 10465.8975
+            Y: -11416.0742
             Z: 5685
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -45
+            Yaw: -68.5578
           }
         }
         Overrides {
@@ -311,6 +329,9 @@ Objects {
     }
   }
   ParentId: 10018957074452998709
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 7640332166641179526
@@ -322,15 +343,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 10345.5176
-            Y: -7246.07617
+            X: 11322.5605
+            Y: -11025.9141
             Z: 5615
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -45
+            Yaw: -68.5578
           }
         }
         Overrides {
@@ -359,6 +380,9 @@ Objects {
     }
   }
   ParentId: 10018957074452998709
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 10174338349677996245
@@ -370,15 +394,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 11271.8271
-            Y: -6666.24902
+            X: 12403.4102
+            Y: -10864.6377
             Z: 5320
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -45
+            Yaw: -68.5578
           }
         }
         Overrides {
@@ -407,6 +431,9 @@ Objects {
     }
   }
   ParentId: 10018957074452998709
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 40306914867147161
@@ -418,15 +445,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 11243.543
-            Y: -6800.59961
+            X: 12323.7891
+            Y: -10976.4863
             Z: 5310
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -45
+            Yaw: -68.5578
           }
         }
         Overrides {
