@@ -207,8 +207,6 @@ Objects {
     }
   }
   ParentId: 8512805858169632350
-<<<<<<< HEAD
-=======
   ChildIds: 16293181090018870788
   ChildIds: 15374682841128618934
   ChildIds: 8812951659638781290
@@ -359,7 +357,6 @@ Objects {
     }
   }
   ParentId: 292193556654134511
->>>>>>> parent of 6d0642c (UI Art and Bridge Channels Added!)
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -367,28 +364,6 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-<<<<<<< HEAD
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 14160675516524522327
-      value {
-        Overrides {
-          Name: "Name"
-          String: "LaserTurret_Upgrade4"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -11862.8535
-            Y: 2312.33105
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-=======
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -481,7 +456,6 @@ Objects {
       Name: "cs:Ease3D"
       AssetReference {
         Id: 11698430162959436393
->>>>>>> parent of 6d0642c (UI Art and Bridge Channels Added!)
       }
     }
     TemplateAsset {
