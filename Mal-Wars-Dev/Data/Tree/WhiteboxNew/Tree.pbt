@@ -1,6 +1,7 @@
 Name: "WhiteboxNew"
 RootId: 16158780439152817356
 Objects {
+<<<<<<< Updated upstream
   Id: 2254021700219062407
   Name: "Platforms"
   Transform {
@@ -31,6 +32,8 @@ Objects {
   }
 }
 Objects {
+=======
+>>>>>>> Stashed changes
   Id: 1854389952843736542
   Name: "WhiteboxMap"
   Transform {

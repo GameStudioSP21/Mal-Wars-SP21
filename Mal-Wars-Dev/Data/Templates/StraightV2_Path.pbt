@@ -22,6 +22,10 @@ Assets {
         ChildIds: 1475660745411444803
         ChildIds: 16307339877972816557
         ChildIds: 12234089294666121479
+        ChildIds: 5283218134908423829
+        ChildIds: 13346783700512204795
+        ChildIds: 15783661469973477909
+        ChildIds: 6388663770012813833
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -41,8 +45,9 @@ Assets {
         Name: "Base"
         Transform {
           Location {
-            X: 11.7687988
+            X: 11.7685537
             Y: 0.109863281
+            Z: 66.9706421
           }
           Rotation {
           }
@@ -71,8 +76,9 @@ Assets {
         Name: "Pathway"
         Transform {
           Location {
-            X: -0.0705566406
-            Y: 1.21069336
+            X: -0.0703125
+            Y: 1.2104491
+            Z: 66.9706421
           }
           Rotation {
           }
@@ -131,9 +137,9 @@ Assets {
         Name: "Half Sphere"
         Transform {
           Location {
-            X: -3.8996582
-            Y: -0.440429688
-            Z: 49.4790039
+            X: -3.89941359
+            Y: -0.440429449
+            Z: 116.449646
           }
           Rotation {
           }
@@ -162,9 +168,9 @@ Assets {
         Name: "Plane-Top to HalfSphere"
         Transform {
           Location {
-            X: -3.4987793
-            Y: -3.83056641
-            Z: 50.1621094
+            X: -3.4990232
+            Y: -3.83056569
+            Z: 117.132751
           }
           Rotation {
           }
@@ -223,9 +229,9 @@ Assets {
         Name: "Half Sphere"
         Transform {
           Location {
-            X: -4.29956055
-            Y: 2.94970703
-            Z: 49.4790039
+            X: -4.29980373
+            Y: 2.94970655
+            Z: 116.449646
           }
           Rotation {
             Roll: -179.999954
@@ -285,8 +291,9 @@ Assets {
         Name: "Straight_Path"
         Transform {
           Location {
-            X: 1249.92969
-            Y: 1.21057129
+            X: 1249.92957
+            Y: 1.2109375
+            Z: 66.9706421
           }
           Rotation {
           }
@@ -4564,7 +4571,7 @@ Assets {
         Transform {
           Location {
             X: -105.436035
-            Y: -101.973145
+            Y: -101.973144
           }
           Rotation {
             Yaw: -45.0770645
@@ -4779,7 +4786,7 @@ Assets {
         Transform {
           Location {
             X: -105.436035
-            Y: -101.973145
+            Y: -101.973144
           }
           Rotation {
             Yaw: -45.0770645
@@ -5027,7 +5034,7 @@ Assets {
         Transform {
           Location {
             X: -105.436035
-            Y: -101.973145
+            Y: -101.973144
           }
           Rotation {
             Yaw: -45.0770645
@@ -5242,7 +5249,7 @@ Assets {
         Transform {
           Location {
             X: -105.436035
-            Y: -101.973145
+            Y: -101.973144
           }
           Rotation {
             Yaw: -45.0770645
@@ -5382,7 +5389,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 3310745641829702281
+              Id: 12084768731772136090
             }
           }
           Overrides {
@@ -7660,7 +7667,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -0.0239257813
+            X: -0.0239257812
             Y: 0.0797119141
           }
           Rotation {
@@ -7997,7 +8004,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -0.0239257813
+            X: -0.0239257812
             Y: 0.0797119141
           }
           Rotation {
@@ -9210,6 +9217,258 @@ Assets {
           }
         }
       }
+      Objects {
+        Id: 5283218134908423829
+        Name: "Cube - Polished"
+        Transform {
+          Location {
+            Y: -359.999969
+          }
+          Rotation {
+            Yaw: 2.73207515e-05
+          }
+          Scale {
+            X: 25
+            Y: 10
+            Z: 1
+          }
+        }
+        ParentId: 1444108161883601747
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:IsBuildable"
+            Bool: true
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 18242125999629608164
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              G: 0.0998987257
+              B: 0.201556295
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 13346783700512204795
+        Name: "Cube - Polished"
+        Transform {
+          Location {
+            Y: 359.999969
+          }
+          Rotation {
+            Yaw: 1.70754702e-05
+          }
+          Scale {
+            X: 25
+            Y: 10
+            Z: 1
+          }
+        }
+        ParentId: 1444108161883601747
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:IsBuildable"
+            Bool: true
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 18242125999629608164
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              G: 0.0998987257
+              B: 0.201556295
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 15783661469973477909
+        Name: "Cube - Polished"
+        Transform {
+          Location {
+            Y: 856.422729
+            Z: -295.670471
+          }
+          Rotation {
+            Roll: 90
+          }
+          Scale {
+            X: 25.0000134
+            Y: 5.87912178
+            Z: 1.00000048
+          }
+        }
+        ParentId: 1444108161883601747
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:IsBuildable"
+            Bool: true
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 11361855199625661596
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              G: 0.0998987257
+              B: 0.201556295
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 6388663770012813833
+        Name: "Cube - Polished"
+        Transform {
+          Location {
+            X: -6.10351562e-05
+            Y: -853.14978
+            Z: -294.435211
+          }
+          Rotation {
+            Yaw: 180
+            Roll: 90
+          }
+          Scale {
+            X: 25.0000134
+            Y: 5.87912178
+            Z: 1.00000048
+          }
+        }
+        ParentId: 1444108161883601747
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:IsBuildable"
+            Bool: true
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 11361855199625661596
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              G: 0.0998987257
+              B: 0.201556295
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
     }
     Assets {
       Id: 12095835209017042614
@@ -9266,12 +9525,30 @@ Assets {
       }
     }
     Assets {
+      Id: 12084768731772136090
+      Name: "Additive Edgeline Top Fade"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "fxmi_add_edgeline_sharpline_topfade"
+      }
+    }
+    Assets {
       Id: 3192052139210163942
       Name: "Plane Trapezoid - One Sided"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_plane_trapezoid_001"
+      }
+    }
+    Assets {
+      Id: 13621259958132264851
+      Name: "Plane 1m - One Sided"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_plane_1m_001"
       }
     }
     PrimaryAssetId {
