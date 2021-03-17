@@ -1,7 +1,7 @@
 Name: "TowerRarities"
-RootId: 1007787193999714619
+RootId: 4554513487813514407
 Objects {
-  Id: 1720409598745449251
+  Id: 13633486290560505871
   Name: "Heroic"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1007787193999714619
+  ParentId: 4554513487813514407
   UnregisteredParameters {
     Overrides {
       Name: "cs:Color"
@@ -39,7 +39,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3421316411476536376
+  Id: 4159285884801285110
   Name: "Legendary"
   Transform {
     Location {
@@ -52,7 +52,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1007787193999714619
+  ParentId: 4554513487813514407
   UnregisteredParameters {
     Overrides {
       Name: "cs:Color"
@@ -78,7 +78,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16555092129292573516
+  Id: 15350618491544726040
   Name: "Epic"
   Transform {
     Location {
@@ -91,7 +91,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1007787193999714619
+  ParentId: 4554513487813514407
   UnregisteredParameters {
     Overrides {
       Name: "cs:Color"
@@ -117,7 +117,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13496367145218431849
+  Id: 7830532175995427065
   Name: "Rare"
   Transform {
     Location {
@@ -130,7 +130,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1007787193999714619
+  ParentId: 4554513487813514407
   UnregisteredParameters {
     Overrides {
       Name: "cs:Color"
@@ -157,7 +157,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10069010683383961677
+  Id: 3322990531156343455
   Name: "Uncommon"
   Transform {
     Location {
@@ -170,7 +170,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1007787193999714619
+  ParentId: 4554513487813514407
   UnregisteredParameters {
     Overrides {
       Name: "cs:Color"
@@ -197,7 +197,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5885690553894889409
+  Id: 14089434546899295687
   Name: "Common"
   Transform {
     Location {
@@ -210,7 +210,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1007787193999714619
+  ParentId: 4554513487813514407
   UnregisteredParameters {
     Overrides {
       Name: "cs:Color"

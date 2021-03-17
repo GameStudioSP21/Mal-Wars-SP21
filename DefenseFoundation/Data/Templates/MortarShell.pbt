@@ -81,6 +81,7 @@ Assets {
         }
         ParentId: 6001727932717870896
         ChildIds: 11164783066581082768
+        ChildIds: 4659422187470784461
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -91,8 +92,8 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.927550554
-              B: 0.940000057
+              G: 0.647350907
+              B: 0.85
               A: 1
             }
           }
@@ -144,24 +145,25 @@ Assets {
           Overrides {
             Name: "bp:Color"
             Color {
-              R: 0.85
-              B: 0.743046403
+              G: 0.872317553
+              B: 0.89
               A: 1
             }
           }
           Overrides {
             Name: "bp:ColorB"
             Color {
-              R: 0.87
-              B: 0.829668462
+              R: 0.0400000215
+              G: 1
+              B: 0.33245033
               A: 1
             }
           }
           Overrides {
             Name: "bp:ColorC"
             Color {
-              R: 0.590000033
-              B: 0.586092591
+              G: 0.864635944
+              B: 0.960000038
               A: 1
             }
           }
@@ -201,6 +203,49 @@ Assets {
           Value: "mc:eproxyrelevance:critical"
         }
       }
+      Objects {
+        Id: 4659422187470784461
+        Name: "Speed Bubble"
+        Transform {
+          Location {
+            Y: 9.87617677e-05
+            Z: -105.759415
+          }
+          Rotation {
+            Pitch: 90
+            Yaw: 1.6876303
+            Roll: 1.68763065
+          }
+          Scale {
+            X: 10.7499981
+            Y: 1.75
+            Z: 1.75
+          }
+        }
+        ParentId: 4490653556984723173
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 11781156969107701034
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
     }
     Assets {
       Id: 2264041107168619230
@@ -227,6 +272,15 @@ Assets {
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
         AssetId: "fxbp_basic_projectile_trail"
+      }
+    }
+    Assets {
+      Id: 11781156969107701034
+      Name: "Speed Bubble"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_speed_bubble1"
       }
     }
     PrimaryAssetId {

@@ -2,7 +2,7 @@ Assets {
   Id: 14862853698466497562
   Name: "EdgeStripe_Turret_Color2"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 78
   CustomMaterialAsset {
     BaseMaterialId: 17657810120729887906
     ParameterOverrides {

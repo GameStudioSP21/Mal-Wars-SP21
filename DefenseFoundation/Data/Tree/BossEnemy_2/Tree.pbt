@@ -1,2 +1,0 @@
-Name: "BossEnemy_2"
-RootId: 2212650361891216688

@@ -1,7 +1,7 @@
 Name: "WavesTable"
-RootId: 3193928273116090067
+RootId: 18377077852027394286
 Objects {
-  Id: 11302024653263081212
+  Id: 10102728373612510772
   Name: "Citadel"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3193928273116090067
+  ParentId: 18377077852027394286
   UnregisteredParameters {
     Overrides {
       Name: "cs:IsEndless"

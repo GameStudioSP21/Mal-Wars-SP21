@@ -21,6 +21,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsGroup: true
   }
@@ -45,6 +48,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Script {
     ScriptAsset {
@@ -79,19 +85,22 @@ Objects {
   ChildIds: 7542508715810446415
   ChildIds: 7827960862906207700
   ChildIds: 13505973121807035945
-  ChildIds: 11972045575599141693
-  ChildIds: 16770122093518865646
+  ChildIds: 14160872098724923258
+  ChildIds: 17300304144631947159
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   NetworkContext {
   }
 }
 Objects {
-  Id: 16770122093518865646
+  Id: 17300304144631947159
   Name: "GeneralSelector"
   Transform {
     Location {
@@ -105,18 +114,21 @@ Objects {
     }
   }
   ParentId: 11447076056570800100
-  ChildIds: 13696509929494567475
+  ChildIds: 893565772687862795
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   NetworkContext {
   }
 }
 Objects {
-  Id: 13696509929494567475
+  Id: 893565772687862795
   Name: "Root"
   Transform {
     Location {
@@ -133,14 +145,17 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16770122093518865646
-  ChildIds: 4358427493419754497
-  ChildIds: 14747893651395275514
+  ParentId: 17300304144631947159
+  ChildIds: 9119752478472198740
+  ChildIds: 17812299635845756591
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     RenderTransformPivot {
@@ -165,7 +180,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14747893651395275514
+  Id: 17812299635845756591
   Name: "TowerDefenders_GeneralSelector"
   Transform {
     Location {
@@ -182,7 +197,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13696509929494567475
+  ParentId: 893565772687862795
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -191,6 +206,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Script {
     ScriptAsset {
       Id: 4054737236480700477
@@ -198,7 +216,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4358427493419754497
+  Id: 9119752478472198740
   Name: "MainPanel"
   Transform {
     Location {
@@ -212,14 +230,17 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13696509929494567475
-  ChildIds: 2816304208316334827
-  ChildIds: 7243657966539892556
+  ParentId: 893565772687862795
+  ChildIds: 7712804908764194046
+  ChildIds: 18438445053815151065
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 464
@@ -248,7 +269,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7243657966539892556
+  Id: 18438445053815151065
   Name: "MainContextBody"
   Transform {
     Location {
@@ -261,18 +282,21 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4358427493419754497
-  ChildIds: 2734471747383551986
+  ParentId: 9119752478472198740
+  ChildIds: 5014968432482108321
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Control {
     Width: 463
     Height: 385
-    UIY: -150
+    UIY: -21.6000061
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -304,7 +328,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2734471747383551986
+  Id: 5014968432482108321
   Name: "TowerStatsPanel"
   Transform {
     Location {
@@ -321,60 +345,60 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7243657966539892556
-  ChildIds: 17636400968366125958
-  ChildIds: 3127560834299176385
-  ChildIds: 9664045959248547687
-  ChildIds: 11965602890418974085
-  ChildIds: 12765390659417456373
-  ChildIds: 3789760451182081498
-  ChildIds: 15303762117264868987
-  ChildIds: 6776697103670203333
-  ChildIds: 14774747903834294604
-  ChildIds: 16768233185140646849
-  ChildIds: 8308246237292986629
-  ChildIds: 1045968463840459998
-  ChildIds: 2400756636550331437
-  ChildIds: 3335848274392204233
-  ChildIds: 10615316735125101488
-  ChildIds: 4153690583223933394
-  ChildIds: 5823820550143614487
-  ChildIds: 4506964728166289100
+  ParentId: 18438445053815151065
+  ChildIds: 8153785442795800575
+  ChildIds: 5575215876741650560
+  ChildIds: 12279021829743691201
+  ChildIds: 13171073465964316000
+  ChildIds: 15208949048268736324
+  ChildIds: 14447212487423802697
+  ChildIds: 519105274671793744
+  ChildIds: 6422745239384666162
+  ChildIds: 6212117178598630608
+  ChildIds: 17197657388162775481
+  ChildIds: 15337888722814292750
+  ChildIds: 6292599447011018779
+  ChildIds: 16249836540662711359
+  ChildIds: 13567646033152028308
+  ChildIds: 2661313515650739046
+  ChildIds: 18170553197918261079
+  ChildIds: 9047162616268555714
+  ChildIds: 1306300888803691181
   UnregisteredParameters {
     Overrides {
       Name: "cs:TowerIcon"
       ObjectReference {
-        SelfId: 6776697103670203333
+        SelfId: 6422745239384666162
       }
     }
     Overrides {
       Name: "cs:TowerDescription"
       ObjectReference {
-        SelfId: 3789760451182081498
+        SelfId: 14447212487423802697
       }
     }
     Overrides {
       Name: "cs:TowerName"
       ObjectReference {
-        SelfId: 15303762117264868987
+        SelfId: 519105274671793744
       }
     }
     Overrides {
       Name: "cs:UIScrollPanel"
       ObjectReference {
-        SelfId: 11965602890418974085
+        SelfId: 13171073465964316000
       }
     }
     Overrides {
       Name: "cs:RarityPanel"
       ObjectReference {
-        SelfId: 8308246237292986629
+        SelfId: 15337888722814292750
       }
     }
     Overrides {
       Name: "cs:LevelPanel"
       ObjectReference {
-        SelfId: 1045968463840459998
+        SelfId: 6292599447011018779
       }
     }
   }
@@ -382,7 +406,10 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 463
@@ -410,7 +437,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4506964728166289100
+  Id: 1306300888803691181
   Name: "TragetingButton"
   Transform {
     Location {
@@ -427,14 +454,14 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2734471747383551986
-  ChildIds: 9676620139439378201
-  ChildIds: 6718472746392740261
+  ParentId: 5014968432482108321
+  ChildIds: 17118678333538171541
+  ChildIds: 1009843983070320767
   UnregisteredParameters {
     Overrides {
       Name: "cs:ButtonValue"
       ObjectReference {
-        SelfId: 9676620139439378201
+        SelfId: 17118678333538171541
       }
     }
   }
@@ -443,6 +470,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: -245
@@ -491,6 +521,8 @@ Objects {
       ClickMode {
         Value: "mc:ebuttonclickmode:default"
       }
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -507,7 +539,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6718472746392740261
+  Id: 1009843983070320767
   Name: "UI Text Box"
   Transform {
     Location {
@@ -523,12 +555,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4506964728166289100
+  ParentId: 1306300888803691181
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 90
@@ -571,7 +606,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9676620139439378201
+  Id: 17118678333538171541
   Name: "TargetValue"
   Transform {
     Location {
@@ -587,12 +622,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4506964728166289100
+  ParentId: 1306300888803691181
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 123
@@ -635,7 +673,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5823820550143614487
+  Id: 9047162616268555714
   Name: "UpgradeButton"
   Transform {
     Location {
@@ -652,14 +690,14 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2734471747383551986
-  ChildIds: 17795291298801114325
-  ChildIds: 18097270193773209209
+  ParentId: 5014968432482108321
+  ChildIds: 7819679781384941163
+  ChildIds: 9929220129120118193
   UnregisteredParameters {
     Overrides {
       Name: "cs:ButtonValue"
       ObjectReference {
-        SelfId: 17795291298801114325
+        SelfId: 7819679781384941163
       }
     }
   }
@@ -668,6 +706,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: -245
@@ -717,6 +758,8 @@ Objects {
       ClickMode {
         Value: "mc:ebuttonclickmode:default"
       }
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -733,7 +776,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18097270193773209209
+  Id: 9929220129120118193
   Name: "UI Text Box"
   Transform {
     Location {
@@ -749,12 +792,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5823820550143614487
+  ParentId: 9047162616268555714
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 90
@@ -797,7 +843,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17795291298801114325
+  Id: 7819679781384941163
   Name: "UI Text Box"
   Transform {
     Location {
@@ -813,12 +859,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5823820550143614487
+  ParentId: 9047162616268555714
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 99
@@ -860,7 +909,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4153690583223933394
+  Id: 18170553197918261079
   Name: "SellButton"
   Transform {
     Location {
@@ -877,14 +926,14 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2734471747383551986
-  ChildIds: 15417970146743584199
-  ChildIds: 16783293976699559129
+  ParentId: 5014968432482108321
+  ChildIds: 3728971970412306770
+  ChildIds: 12330170248630243024
   UnregisteredParameters {
     Overrides {
       Name: "cs:ButtonValue"
       ObjectReference {
-        SelfId: 15417970146743584199
+        SelfId: 3728971970412306770
       }
     }
   }
@@ -893,6 +942,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: -245
@@ -941,6 +993,8 @@ Objects {
       ClickMode {
         Value: "mc:ebuttonclickmode:default"
       }
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -957,7 +1011,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16783293976699559129
+  Id: 12330170248630243024
   Name: "UI Text Box"
   Transform {
     Location {
@@ -973,12 +1027,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4153690583223933394
+  ParentId: 18170553197918261079
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 90
@@ -1021,7 +1078,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15417970146743584199
+  Id: 3728971970412306770
   Name: "UI Text Box"
   Transform {
     Location {
@@ -1037,12 +1094,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4153690583223933394
+  ParentId: 18170553197918261079
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 114
@@ -1084,7 +1144,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10615316735125101488
+  Id: 2661313515650739046
   Name: "LowerSection"
   Transform {
     Location {
@@ -1101,12 +1161,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2734471747383551986
+  ParentId: 5014968432482108321
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 200
@@ -1145,7 +1208,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3335848274392204233
+  Id: 13567646033152028308
   Name: "LowerSectionGradient"
   Transform {
     Location {
@@ -1162,12 +1225,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2734471747383551986
+  ParentId: 5014968432482108321
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 200
@@ -1207,7 +1273,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2400756636550331437
+  Id: 16249836540662711359
   Name: "Arrow"
   Transform {
     Location {
@@ -1224,12 +1290,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2734471747383551986
+  ParentId: 5014968432482108321
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 80
@@ -1266,7 +1335,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1045968463840459998
+  Id: 6292599447011018779
   Name: "LevelPanel"
   Transform {
     Location {
@@ -1283,13 +1352,16 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2734471747383551986
-  ChildIds: 13326574431694493501
+  ParentId: 5014968432482108321
+  ChildIds: 6935912212859583509
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: -32
@@ -1319,7 +1391,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13326574431694493501
+  Id: 6935912212859583509
   Name: "LevelSegment"
   Transform {
     Scale {
@@ -1328,7 +1400,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1045968463840459998
+  ParentId: 6292599447011018779
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 5213538009799198311
@@ -1362,7 +1437,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8308246237292986629
+  Id: 15337888722814292750
   Name: "RarityPanel"
   Transform {
     Location {
@@ -1379,56 +1454,56 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2734471747383551986
-  ChildIds: 175933524076591072
-  ChildIds: 2000305035152175264
+  ParentId: 5014968432482108321
+  ChildIds: 1364248322327006386
+  ChildIds: 16858375595258852548
   UnregisteredParameters {
     Overrides {
       Name: "cs:TowerNameBackground"
       ObjectReference {
-        SelfId: 15303762117264868987
+        SelfId: 519105274671793744
       }
     }
     Overrides {
       Name: "cs:LowerSection"
       ObjectReference {
-        SelfId: 10615316735125101488
+        SelfId: 2661313515650739046
       }
     }
     Overrides {
       Name: "cs:UpperSection"
       ObjectReference {
-        SelfId: 3127560834299176385
+        SelfId: 5575215876741650560
       }
     }
     Overrides {
       Name: "cs:Outline"
       ObjectReference {
-        SelfId: 12765390659417456373
+        SelfId: 15208949048268736324
       }
     }
     Overrides {
       Name: "cs:TowerFrame"
       ObjectReference {
-        SelfId: 5945299168943369077
+        SelfId: 2445779134173981887
       }
     }
     Overrides {
       Name: "cs:Arrow"
       ObjectReference {
-        SelfId: 2400756636550331437
+        SelfId: 16249836540662711359
       }
     }
     Overrides {
       Name: "cs:LowerSectionGradient"
       ObjectReference {
-        SelfId: 3335848274392204233
+        SelfId: 13567646033152028308
       }
     }
     Overrides {
       Name: "cs:UperSectionGradient"
       ObjectReference {
-        SelfId: 9664045959248547687
+        SelfId: 12279021829743691201
       }
     }
   }
@@ -1437,6 +1512,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 305
@@ -1465,7 +1543,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2000305035152175264
+  Id: 16858375595258852548
   Name: "BackgroundRarityText"
   Transform {
     Location {
@@ -1482,12 +1560,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8308246237292986629
+  ParentId: 15337888722814292750
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 200
@@ -1530,7 +1611,7 @@ Objects {
   }
 }
 Objects {
-  Id: 175933524076591072
+  Id: 1364248322327006386
   Name: "RarityBackground"
   Transform {
     Location {
@@ -1547,12 +1628,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8308246237292986629
+  ParentId: 15337888722814292750
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 107
@@ -1591,7 +1675,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16768233185140646849
+  Id: 17197657388162775481
   Name: "BottomShadow"
   Transform {
     Location {
@@ -1605,12 +1689,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2734471747383551986
+  ParentId: 5014968432482108321
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 30
@@ -1648,7 +1735,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14774747903834294604
+  Id: 6212117178598630608
   Name: "TopShadow"
   Transform {
     Location {
@@ -1664,12 +1751,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2734471747383551986
+  ParentId: 5014968432482108321
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 30
@@ -1706,7 +1796,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6776697103670203333
+  Id: 6422745239384666162
   Name: "TowerIcon"
   Transform {
     Location {
@@ -1723,13 +1813,16 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2734471747383551986
-  ChildIds: 5945299168943369077
+  ParentId: 5014968432482108321
+  ChildIds: 2445779134173981887
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 90
@@ -1769,7 +1862,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5945299168943369077
+  Id: 2445779134173981887
   Name: "TowerFrame"
   Transform {
     Location {
@@ -1786,12 +1879,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6776697103670203333
+  ParentId: 6422745239384666162
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 90
@@ -1829,7 +1925,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15303762117264868987
+  Id: 519105274671793744
   Name: "TowerName"
   Transform {
     Location {
@@ -1846,12 +1942,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2734471747383551986
+  ParentId: 5014968432482108321
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 226
@@ -1895,7 +1994,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3789760451182081498
+  Id: 14447212487423802697
   Name: "TowerDescription"
   Transform {
     Location {
@@ -1912,12 +2011,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2734471747383551986
+  ParentId: 5014968432482108321
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: -150
@@ -1963,7 +2065,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12765390659417456373
+  Id: 15208949048268736324
   Name: "Outline"
   Transform {
     Location {
@@ -1980,12 +2082,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2734471747383551986
+  ParentId: 5014968432482108321
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 200
@@ -2025,7 +2130,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11965602890418974085
+  Id: 13171073465964316000
   Name: "UI Scroll Panel"
   Transform {
     Location {
@@ -2042,12 +2147,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2734471747383551986
+  ParentId: 5014968432482108321
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: -28
@@ -2079,7 +2187,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9664045959248547687
+  Id: 12279021829743691201
   Name: "UperSectionGradient"
   Transform {
     Location {
@@ -2096,12 +2204,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2734471747383551986
+  ParentId: 5014968432482108321
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 200
@@ -2141,7 +2252,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3127560834299176385
+  Id: 5575215876741650560
   Name: "UpperSection"
   Transform {
     Location {
@@ -2158,12 +2269,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2734471747383551986
+  ParentId: 5014968432482108321
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 200
@@ -2202,7 +2316,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17636400968366125958
+  Id: 8153785442795800575
   Name: "Background"
   Transform {
     Location {
@@ -2219,12 +2333,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2734471747383551986
+  ParentId: 5014968432482108321
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 200
@@ -2261,7 +2378,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2816304208316334827
+  Id: 7712804908764194046
   Name: "TowerDefenders_TowerContextView"
   Transform {
     Location {
@@ -2274,36 +2391,42 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4358427493419754497
+  ParentId: 9119752478472198740
   UnregisteredParameters {
     Overrides {
       Name: "cs:MainPanel"
       ObjectReference {
-        SelfId: 4358427493419754497
+        SelfId: 9119752478472198740
       }
     }
     Overrides {
       Name: "cs:TowerStatsPanel"
       ObjectReference {
-        SelfId: 2734471747383551986
+        SelfId: 5014968432482108321
       }
     }
     Overrides {
       Name: "cs:SellButton"
       ObjectReference {
-        SelfId: 4153690583223933394
+        SelfId: 18170553197918261079
       }
     }
     Overrides {
       Name: "cs:UpgradeButton"
       ObjectReference {
-        SelfId: 5823820550143614487
+        SelfId: 9047162616268555714
       }
     }
     Overrides {
       Name: "cs:TargetButton"
       ObjectReference {
-        SelfId: 4506964728166289100
+        SelfId: 1306300888803691181
+      }
+    }
+    Overrides {
+      Name: "cs:TargetingValueText"
+      ObjectReference {
+        SelfId: 17118678333538171541
       }
     }
   }
@@ -2313,6 +2436,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Script {
     ScriptAsset {
       Id: 12300644303050059754
@@ -2320,7 +2446,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11972045575599141693
+  Id: 14160872098724923258
   Name: "GeneralTowerHotbar"
   Transform {
     Location {
@@ -2339,6 +2465,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true
@@ -2371,6 +2500,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     RenderTransformPivot {
@@ -2415,6 +2547,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 793
@@ -2461,6 +2596,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 200
@@ -2518,6 +2656,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 200
@@ -2607,6 +2748,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Script {
     ScriptAsset {
       Id: 14491006189858404754
@@ -2635,6 +2779,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     RenderTransformPivot {
@@ -2679,6 +2826,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 785
@@ -2743,6 +2893,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 500
@@ -2817,6 +2970,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Control {
     Width: 100
     Height: 94
@@ -2863,6 +3019,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Control {
     Width: 50
     Height: 50
@@ -2908,6 +3067,8 @@ Objects {
       ClickMode {
         Value: "mc:ebuttonclickmode:default"
       }
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -2944,6 +3105,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 50
@@ -2990,6 +3154,8 @@ Objects {
       ClickMode {
         Value: "mc:ebuttonclickmode:default"
       }
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -3029,6 +3195,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 713
@@ -3092,6 +3261,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Control {
     Width: 713
     Height: 2
@@ -3149,6 +3321,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 30
@@ -3210,6 +3385,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Control {
     Width: 30
     Height: 30
@@ -3268,6 +3446,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 200
@@ -3333,6 +3514,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Control {
     Width: 90
     Height: 90
@@ -3395,6 +3579,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Control {
     Width: 90
     Height: 90
@@ -3454,6 +3641,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 200
@@ -3519,6 +3709,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Control {
     Width: 718
     Height: 349
@@ -3563,6 +3756,9 @@ Objects {
     }
   }
   ParentId: 6311100951252094683
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 1241610363785578103
@@ -3707,6 +3903,9 @@ Objects {
     }
   }
   ParentId: 6311100951252094683
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 1241610363785578103
@@ -3872,6 +4071,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Control {
     Width: 200
     Height: 14
@@ -3933,6 +4135,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 200
@@ -3998,6 +4203,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Control {
     Width: 759
     Height: 32
@@ -4048,6 +4256,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Control {
     Width: 189
     Height: 50
@@ -4091,6 +4302,8 @@ Objects {
       ClickMode {
         Value: "mc:ebuttonclickmode:default"
       }
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -4127,6 +4340,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 200
@@ -4192,6 +4408,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Control {
     Width: 189
     Height: 50
@@ -4235,6 +4454,8 @@ Objects {
       ClickMode {
         Value: "mc:ebuttonclickmode:default"
       }
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -4271,6 +4492,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 200
@@ -4336,6 +4560,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Control {
     Width: 189
     Height: 50
@@ -4376,6 +4603,8 @@ Objects {
       ClickMode {
         Value: "mc:ebuttonclickmode:default"
       }
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -4412,6 +4641,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 200
@@ -4478,6 +4710,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 200
@@ -4572,6 +4807,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Script {
     ScriptAsset {
       Id: 5180680523298024816
@@ -4601,6 +4839,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     RenderTransformPivot {
@@ -4647,6 +4888,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:forceon"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 100
@@ -4704,6 +4948,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Control {
     Width: 170
     Height: 149
@@ -4749,6 +4996,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 100
@@ -4809,6 +5059,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:forceoff"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Control {
     Width: 100
     Height: 100
@@ -4868,6 +5121,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:forceoff"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Control {
     Width: 100
     Height: 100
@@ -4926,6 +5182,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:forceoff"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Control {
     Width: 100
     Height: 100
@@ -4983,6 +5242,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 100
@@ -5110,6 +5372,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:forceoff"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Control {
     Width: 454
     Height: 352
@@ -5161,6 +5426,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Control {
     Width: 420
     Height: 28
@@ -5197,6 +5465,9 @@ Objects {
     }
   }
   ParentId: 11883191994911339870
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 5213538009799198311
@@ -5261,6 +5532,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Control {
     Width: 205
     Height: 70
@@ -5311,6 +5585,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 152
@@ -5370,6 +5647,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 70
@@ -5432,6 +5712,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 64
@@ -5500,6 +5783,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Control {
     Width: 225
     Height: 65
@@ -5550,6 +5836,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 200
@@ -5616,6 +5905,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Control {
     Width: 200
     Height: 64
@@ -5679,6 +5971,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Control {
     Width: 107
     Height: 200
@@ -5737,6 +6032,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 30
@@ -5797,6 +6095,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Control {
     Width: 30
     Height: 30
@@ -5856,6 +6157,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 90
@@ -5919,6 +6223,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Control {
     Width: 90
     Height: 90
@@ -5979,6 +6286,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 226
@@ -6045,6 +6355,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Control {
     Width: 226
     Height: 48
@@ -6108,6 +6421,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: -150
@@ -6176,6 +6492,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Control {
     Width: 200
     Height: 55
@@ -6237,6 +6556,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 416
@@ -6300,6 +6622,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Control {
     Width: -39
     Height: 91
@@ -6344,6 +6669,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   TemplateInstance {
     ParameterOverrideMap {
@@ -6395,6 +6723,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 200
@@ -6458,6 +6789,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Control {
     Width: 200
     Height: 135
@@ -6518,6 +6852,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 200
@@ -6636,6 +6973,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Script {
     ScriptAsset {
       Id: 3535980206157314427
@@ -6665,6 +7005,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:forceon"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 315
@@ -6716,6 +7059,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 300
@@ -6775,6 +7121,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Control {
     Width: 210
     Height: 181
@@ -6829,6 +7178,9 @@ Objects {
   }
   ParentId: 8671196899680944926
   ChildIds: 1035024178581031466
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsGroup: true
   }
@@ -6860,6 +7212,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true
@@ -6901,6 +7256,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Script {
     ScriptAsset {
       Id: 6334518436137849359
@@ -6928,6 +7286,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     RenderTransformPivot {
@@ -6971,6 +7332,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:forceon"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 170
@@ -7019,6 +7383,8 @@ Objects {
       ClickMode {
         Value: "mc:ebuttonclickmode:default"
       }
+      Font {
+      }
     }
     AnchorLayout {
       SelfAnchor {
@@ -7056,6 +7422,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     RenderTransformPivot {
@@ -7099,6 +7468,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 680
@@ -7166,6 +7538,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Script {
     ScriptAsset {
       Id: 17814085994244646499
@@ -7194,6 +7569,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     RenderTransformPivot {
@@ -7237,6 +7615,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 680
@@ -7311,6 +7692,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Script {
     ScriptAsset {
       Id: 14915196541471507362
@@ -7338,6 +7722,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsFilePartition: true
     FilePartitionName: "Segments_1"
@@ -7364,6 +7751,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     RenderTransformPivot {
@@ -7408,6 +7798,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsFilePartition: true
     FilePartitionName: "Indicators"
@@ -7441,6 +7834,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Script {
     ScriptAsset {
@@ -7488,6 +7884,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Script {
     ScriptAsset {
@@ -7546,6 +7945,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Script {
     ScriptAsset {
       Id: 6126369704824496250
@@ -7579,6 +7981,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Script {
     ScriptAsset {
       Id: 3066049093692743548
@@ -7605,6 +8010,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Script {
     ScriptAsset {
@@ -7633,6 +8041,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsFilePartition: true
     FilePartitionName: "Replicators"
@@ -7658,6 +8069,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true
@@ -7685,6 +8099,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsFilePartition: true
     FilePartitionName: "TowerStats"
@@ -7710,6 +8127,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true
@@ -7737,6 +8157,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsFilePartition: true
     FilePartitionName: "TowerRarities"
@@ -7762,6 +8185,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true
@@ -7789,6 +8215,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsFilePartition: true
     FilePartitionName: "RegisteredBoards"
@@ -7814,6 +8243,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true

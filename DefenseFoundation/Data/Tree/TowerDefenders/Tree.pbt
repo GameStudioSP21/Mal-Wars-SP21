@@ -8056,7 +8056,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15995946423381434303
+  Id: 11934839962003810344
   Name: "TowerStats"
   Transform {
     Location {
@@ -8085,7 +8085,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15720114564533439334
+  Id: 12134747465512615873
   Name: "TowerTypes"
   Transform {
     Location {
@@ -8114,7 +8114,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1007787193999714619
+  Id: 4554513487813514407
   Name: "TowerRarities"
   Transform {
     Location {
@@ -8143,7 +8143,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3193928273116090067
+  Id: 18377077852027394286
   Name: "WavesTable"
   Transform {
     Location {
@@ -8201,7 +8201,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11526533163983201621
+  Id: 798472337702214757
   Name: "RegisteredTowers"
   Transform {
     Location {

@@ -10,6 +10,11 @@ Assets {
           Id: 16922964282924116369
         }
       }
+      Overrides {
+        Name: "cs:ROOT"
+        ObjectReference {
+        }
+      }
     }
   }
   SerializationVersion: 78

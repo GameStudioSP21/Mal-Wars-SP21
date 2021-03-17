@@ -7,7 +7,7 @@ Assets {
       Overrides {
         Name: "cs:RegisteredTowers"
         ObjectReference {
-          SelfId: 11526533163983201621
+          SelfId: 798472337702214757
         }
       }
       Overrides {

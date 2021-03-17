@@ -145,6 +145,10 @@ function WaveManager:NextWave()
     end
 end
 
+function WaveManager:GetWaveIndex()
+    return self.waveIndex
+end
+
 ----------------------------------------------------
 -- Private
 ----------------------------------------------------
@@ -170,6 +174,7 @@ function WaveManager:_Init(board,waveManagerObject)
     self.waveIndex = 0
 
     -- Construct the wave stack that will be the order in which waves will play out.
+    -- TODO: Refactor.
     local waveObject = board.data.waveObject:GetObject()
     self:_BuildWaveStack(waveObject)
 

@@ -1,7 +1,7 @@
 Name: "Citadel"
-RootId: 11302024653263081212
+RootId: 10102728373612510772
 Objects {
-  Id: 14859154552068645018
+  Id: 77713376610644657
   Name: "Wave8"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11302024653263081212
+  ParentId: 10102728373612510772
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
@@ -56,7 +56,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2006978697845648767
+  Id: 10615556803480756310
   Name: "Wave7"
   Transform {
     Location {
@@ -69,11 +69,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11302024653263081212
+  ParentId: 10102728373612510772
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
-      Float: 0.5
+      Float: 1.5
     }
     Overrides {
       Name: "cs:InOrderSpawning"
@@ -111,7 +111,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13838315464293966470
+  Id: 14318879951368805710
   Name: "Wave6"
   Transform {
     Location {
@@ -124,7 +124,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11302024653263081212
+  ParentId: 10102728373612510772
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
@@ -166,7 +166,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17734512529401566660
+  Id: 818819415016676315
   Name: "Wave5"
   Transform {
     Location {
@@ -179,7 +179,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11302024653263081212
+  ParentId: 10102728373612510772
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
@@ -221,7 +221,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17365817214076692164
+  Id: 16991571080482785144
   Name: "Wave4"
   Transform {
     Location {
@@ -234,11 +234,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11302024653263081212
+  ParentId: 10102728373612510772
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
-      Float: 0.3
+      Float: 0.7
     }
     Overrides {
       Name: "cs:InOrderSpawning"
@@ -276,7 +276,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4669332663382257044
+  Id: 15114836116771237994
   Name: "Wave3"
   Transform {
     Location {
@@ -289,11 +289,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11302024653263081212
+  ParentId: 10102728373612510772
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
-      Float: 1
+      Float: 0.65
     }
     Overrides {
       Name: "cs:InOrderSpawning"
@@ -331,7 +331,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5161887533204845570
+  Id: 3720045711361249700
   Name: "Wave2"
   Transform {
     Location {
@@ -344,11 +344,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11302024653263081212
+  ParentId: 10102728373612510772
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
-      Float: 0.3
+      Float: 0.5
     }
     Overrides {
       Name: "cs:InOrderSpawning"
@@ -386,7 +386,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2846107153629823890
+  Id: 7701626640298712422
   Name: "Wave1"
   Transform {
     Location {
@@ -399,11 +399,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11302024653263081212
+  ParentId: 10102728373612510772
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
-      Float: 0.5
+      Float: 0.65
     }
     Overrides {
       Name: "cs:InOrderSpawning"

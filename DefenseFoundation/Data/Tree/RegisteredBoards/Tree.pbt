@@ -33,7 +33,7 @@ Objects {
     Overrides {
       Name: "cs:Waves"
       ObjectReference {
-        SelfId: 11302024653263081212
+        SelfId: 10102728373612510772
       }
     }
   }

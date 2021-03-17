@@ -7,7 +7,7 @@ Assets {
       RootId: 15827546501766066131
       Objects {
         Id: 15827546501766066131
-        Name: "TowerDefenders_SelectorGhost"
+        Name: "TowerDefenders_UpgradeGhost"
         Transform {
           Scale {
             X: 1
@@ -23,6 +23,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         Folder {
           IsFilePartition: true
         }
@@ -36,9 +39,9 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 10
-            Y: 10
-            Z: 10
+            X: 5.71347141
+            Y: 5.71347141
+            Z: 5.71347141
           }
         }
         ParentId: 15827546501766066131
@@ -47,14 +50,14 @@ Assets {
           Overrides {
             Name: "bp:Color"
             Color {
-              G: 0.387814194
-              B: 0.960000038
+              G: 0.30503279
+              B: 0.940000057
               A: 1
             }
           }
           Overrides {
             Name: "bp:Emissive Boost"
-            Float: 1.80639791
+            Float: 0.862430394
           }
           Overrides {
             Name: "bp:Life"
@@ -99,6 +102,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         Blueprint {
           BlueprintAsset {
             Id: 10757139744816691694
@@ -107,10 +113,10 @@ Assets {
           }
           Vfx {
             AutoPlay: true
-            Relevance {
-              Value: "mc:evfxrelevance:critical"
-            }
           }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -166,6 +172,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         Blueprint {
           BlueprintAsset {
             Id: 7710529535930786034
@@ -174,10 +183,10 @@ Assets {
           }
           Vfx {
             AutoPlay: true
-            Relevance {
-              Value: "mc:evfxrelevance:critical"
-            }
           }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
     }
@@ -204,5 +213,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 76
+  SerializationVersion: 78
 }

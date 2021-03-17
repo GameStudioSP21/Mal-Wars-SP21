@@ -24,7 +24,6 @@ local PathNode = require(script:GetCustomProperty("TowerDefenders_PathNode"))
 local WaveManager = require(script:GetCustomProperty("TowerDefenders_WaveManager"))
 local TowerDatabase = require(script:GetCustomProperty("TowerDefenders_TowerDatabase"))
 
--- TODO: Change this to a CoreObjectReference
 local ACTIVE_BOARDS_GROUP = World.FindObjectByName("ActiveBoards")
 
 ----------------------------------------------------
@@ -40,6 +39,34 @@ function Board.New(boardData, boardInstance)
     return self
 end
 
+-- When called on either context the board will be setup.
+function Board:Setup(position, playerOwners, boardAsset)
+    self:SetOwners(playerOwners)
+
+    if Environment.IsServer() then
+        -- The server spawns the board so we don't need to provide a board asset
+        self:_SpawnBoard(position)
+
+        -- Move this to an API.
+        local playersString = ""
+        for _, player in pairs(self.owners) do
+            player:SetResource("GEMS", 300) -- TODO: Have this refer to a property from the board static data.
+            playersString = playersString .. tostring(player.id) .. ";"
+        end
+    
+        local boardInstance = self:GetBoardAssetInstance()
+        local owners = boardInstance:SetNetworkedCustomProperty("Owners",playersString)
+    else
+        assert(boardAsset,string.format("Can not setup board for %s as the board asset was not provided in the Setup method.",self:GetName()))
+        self.boardAssetInstance = boardAsset
+    end
+
+    -- Contruct wave manager
+    self:_SetupWalkNodes()
+    self:_SetupPlayerSpawns()
+    self:CreateWaveManager()
+end
+
 -- Returns the name of the board
 function Board:GetName()
     return self.data.name
@@ -53,9 +80,12 @@ end
 
 -- Assign the owner of the board.
 function Board:SetOwners(players)
-    assert(type(players) == "table", "You must provide a table of player objects to set the owners of a board.")
+    local ERR_MESSAGE = "You must provide a table of player objects to set the owners of a board."
+    local scriptContext = Environment.IsServer() and "serverUserData" or "clientUserData"
+    assert(type(players) == "table", ERR_MESSAGE)
     for _, player in pairs(players) do
-        assert(player:IsA("Player"), "Setting the owners of a board requires a table of player objects only.")
+        assert(player:IsA("Player"), ERR_MESSAGE)
+        player[scriptContext].activeBoard = self
     end
     self.owners = players
 end
@@ -90,7 +120,7 @@ function Board:GetID()
     return self.boardAssetInstance.id:match("^(.+):")
 end
 
--- Returns a reference to an instance of the board template.
+-- Returns a reference to an instance of the board template in the hierarchy.
 function Board:GetBoardAssetInstance()
     return self.boardAssetInstance
 end
@@ -107,7 +137,7 @@ function Board:GetNearestTower(position,maxRadius,owner)
     if maxRadius ~= 0 then
         for _, tower in pairs(towers) do
             local towerPos = tower:GetWorldPosition()
-            if (towerPos - position).sizeSquared <= maxRadius and ((owner ~= nil and tower:GetOwner() == owner) or owner == nil) then
+            if (towerPos - position).sizeSquared <= maxRadius and ((owner and tower:GetOwner() == owner) or owner == nil) then
                 return tower
             end
         end
@@ -116,10 +146,10 @@ function Board:GetNearestTower(position,maxRadius,owner)
         for _, tower in pairs(towers) do
             if not closest then
                 closest = tower
-            end
-            if closest and 
+            elseif closest and
                 (tower:GetWorldPosition() - position).sizeSquared < (closest:GetWorldPosition() - position).sizeSquared and
-                ((owner ~= nil and tower:GetOwner() == owner) or owner == nil) then
+                ((owner and tower:GetOwner() == owner) or owner == nil) then
+
                 closest = tower
             end
         end
@@ -161,38 +191,9 @@ function Board:RemoveBlockedRadiusOfTowers()
     end
 end
 
-----------------------------------------------------
--- Public : Server
-----------------------------------------------------
-
--- Creates an instance of the board and initiates the runtime.
-function Board:CreateBoard(position, playerOwners)
-    self.owners = playerOwners
-    self:_SpawnBoard(position)
-    local boardInstance = self:GetBoardAssetInstance()
-
-    -- Contruct wave manager
-    self:CreateWaveManager()
-
-    Task.Wait(1)
-
-    local playersString = ""
-    for _, player in pairs(self.owners) do
-        playersString = playersString .. tostring(player.id) .. ";"
-    end
-
-    local owners = boardInstance:SetNetworkedCustomProperty("Owners",playersString)
-
-    self:_SetupWalkNodes()
-    self:_SetupPlayerSpawns()
-
-    -- TODO: Move this to a private method.
-    for _, player in pairs(self.owners) do
-        local spawnNode = self.spawnNodes[math.random(1,#self.spawnNodes)]
-        player:SetWorldPosition(spawnNode:GetWorldPosition())
-    end
-
-    -- TODO: Move this to a private method and have it called elsewhere.
+-- Gets the total distance from the begin node to the end node squared
+function Board:GetTotalDistanceSquaredToEnd()
+    return self.distanceToEndSquared
 end
 
 -- TODO: Change this so there can be multiple start nodes
@@ -207,7 +208,7 @@ end
 
 ----------------------------------------------------
 -- Public ( Networked and Replicated )
--- Can be called from client or server.
+-- Can be called from client or server context.
 ----------------------------------------------------
 
 -- Adds a tower to the board when provided a tower and position
@@ -226,7 +227,9 @@ function Board:AddTower(tower, position, _hasRepeated)
         end
     end
 
-    tower:SetWorldPosition(position)
+    tower:SetWorldPosition(roundedPosition)
+    
+    -- REFACTOR THIS.
     table.insert(self.towers,tower)
 
     tower:BeginRuntime()
@@ -277,6 +280,9 @@ function Board:UpgradeTower(tower, _hasRepeated)
 
     for i, currentTower in pairs(self.towers) do
         if currentTower:GetWorldPosition() == newTower:GetWorldPosition() then
+            --print("Removing current tower!")
+            -- Copy over the dynamic variables of the tower.
+            newTower.migrate = currentTower.migrate
             table.remove(self.towers,i)
         end
     end
@@ -348,7 +354,6 @@ function Board:SellTower(tower, _hasRepeated)
     end)
 end
 
-
 ----------------------------------------------------
 -- Private
 ----------------------------------------------------
@@ -362,10 +367,7 @@ function Board:_Init(boardData, boardInstance)
     else
         self.boardAssetInstance = nil -- Instance of the board.
     end
-    --self.waveManager = WaveManager.New() -- TODO: Construct wave manager here. Gets constructed as a networked component of the board.
-
     self.nodes = nil
-
     self.enemies = {}
 end
 
@@ -386,9 +388,10 @@ function Board:_SetupWalkNodes()
     local nodes = nodesFolder:GetObject():GetChildren()
     local previousNode = nil
 
+    local scriptContext = Environment.IsServer() and "serverUserData" or "clientUserData"
+
     local function SetupNodes_R(nodeGroup,folder)
         for i, node in pairs(nodeGroup) do
-
             -- Check to see if it's a folder.
             -- If so then setup sub nodes and associate the sub
             if node:IsA("Folder") then
@@ -397,28 +400,28 @@ function Board:_SetupWalkNodes()
             elseif i == 1 and nodeGroup[i] then
                 local newNode = PathNode.New(node)
                 if folder then
-                    node.serverUserData.nodeInstance = newNode
-                    folder.serverUserData.startNode = newNode
+                    node[scriptContext].nodeInstance = newNode
+                    folder[scriptContext].startNode = newNode
                     --print("Beginning of sub node",i)
                 else
                     self.startNode = newNode
-                    node.serverUserData.nodeInstance = newNode
+                    node[scriptContext].nodeInstance = newNode
                     --print("beginning",i)
                 end
             elseif not nodeGroup[i+1] then
                 local newNode = PathNode.New(node)
                 if folder then
-                    node.serverUserData.nodeInstance = newNode
-                    folder.serverUserData.endNode = newNode
+                    node[scriptContext].nodeInstance = newNode
+                    folder[scriptContext].endNode = newNode
                     --print("ending of sub node",i)
                 else
                     self.endNode = newNode
-                    node.serverUserData.nodeInstance = newNode
+                    node[scriptContext].nodeInstance = newNode
                     --print("ending",i)
                 end
             else
                 local newNode = PathNode.New(node)
-                node.serverUserData.nodeInstance = newNode
+                node[scriptContext].nodeInstance = newNode
                 --print("node:",i)
             end
         end
@@ -428,18 +431,16 @@ function Board:_SetupWalkNodes()
 
     local function ConnectPaths_R(nodesGroup,folder)
         --print("Checking branch")
-
-
         for i, node in pairs(nodesGroup) do
             -- Check to see if it's a folder.
             -- If so then setup sub nodes and associate the sub
             if nodesGroup[i+1] then
-                local previousNode = node.serverUserData.nodeInstance
+                local previousNode = node[scriptContext].nodeInstance
                 local nextNode = nodesGroup[i+1]
                 if nodesGroup[i+1]:IsA("Folder") then
                     --print("Next is branch. Back connecting",i)
                     local previousNode = nodesGroup[i+1]:GetCustomProperty("BeginNode"):GetObject()
-                    previousNode.serverUserData.nodeInstance:SetNextNode(nodesGroup[i+1].serverUserData.startNode)
+                    previousNode[scriptContext].nodeInstance:SetNextNode(nodesGroup[i+1][scriptContext].startNode)
                     --CoreDebug.DrawLine(previousNode.serverUserData.nodeInstance:GetWorldPosition(),nodesGroup[i+1].serverUserData.startNode:GetWorldPosition(),{ duration = 2000, thickness = 5, color = Color.YELLOW })
                     ConnectPaths_R(nodesGroup[i+1]:GetChildren(),nodesGroup[i+1])
                     -- If it's a folder then back connect
@@ -447,7 +448,7 @@ function Board:_SetupWalkNodes()
                     --print("Regular connect:",i,folder)
                     if previousNode then
                         --CoreDebug.DrawLine(previousNode:GetWorldPosition(),nextNode.serverUserData.nodeInstance:GetWorldPosition(),{ duration = 2000, thickness = 5, color =  Color.BLUE })
-                        previousNode:SetNextNode(nextNode.serverUserData.nodeInstance)
+                        previousNode:SetNextNode(nextNode[scriptContext].nodeInstance)
                     end
                     -- If it's not a folder then regular connect
                 end
@@ -456,26 +457,17 @@ function Board:_SetupWalkNodes()
                 if folder then
                     -- If we reach the end of the folder then check to see if it reconnect back.
                     --print("reached end of branch")
-                    local previousNode = node.serverUserData.nodeInstance
+                    local previousNode = node[scriptContext].nodeInstance
                     local nextNode = folder:GetCustomProperty("NextNode")
                     if nextNode then
                         nextNode = folder:GetCustomProperty("NextNode"):GetObject()
                         --CoreDebug.DrawLine(previousNode:GetWorldPosition(),nextNode.serverUserData.nodeInstance:GetWorldPosition(),{ duration = 2000, thickness = 5, color = Color.GREEN })
                         --print("Reconnecting to ancestor.")
-                        previousNode:SetNextNode(nextNode.serverUserData.nodeInstance)
+                        previousNode:SetNextNode(nextNode[scriptContext].nodeInstance)
                         return
                     end
-                else
-                    --print("Reach end")
                 end
-            else
-
             end
-            -- if node:IsA("Folder") then
-            --     local folder = node -- Just to make it easier to understand.
-            --     print("Checking branch",i)
-
-            -- end
         end
     end
 
@@ -487,11 +479,11 @@ function Board:_SetupWalkNodes()
             -- Check to see if it's a folder.
             -- If so then setup sub nodes and associate the sub
             if nodesGroup[i+1] then
-                local previousNode = node.serverUserData.nodeInstance
+                local previousNode = node[scriptContext].nodeInstance
                 local nextNode = nodesGroup[i+1]
                 if nodesGroup[i+1]:IsA("Folder") then
                     --print("Next is branch. Back connecting",i)
-                    local previousNode = nodesGroup[i+1]:GetCustomProperty("BeginNode"):GetObject().serverUserData.nodeInstance
+                    local previousNode = nodesGroup[i+1]:GetCustomProperty("BeginNode"):GetObject()[scriptContext].nodeInstance
                     previousNode:DebugDrawCurrentPath()
                     DrawPaths_R(nodesGroup[i+1]:GetChildren(),nodesGroup[i+1])
                     -- If it's a folder then back connect
@@ -507,7 +499,7 @@ function Board:_SetupWalkNodes()
                 if folder then
                     -- If we reach the end of the folder then check to see if it reconnect back.
                     --print("reached end of branch")
-                    local previousNode = node.serverUserData.nodeInstance
+                    local previousNode = node[scriptContext].nodeInstance
                     local nextNode = folder:GetCustomProperty("NextNode")
                     if nextNode then
                         previousNode:DebugDrawCurrentPath()
@@ -517,26 +509,18 @@ function Board:_SetupWalkNodes()
                         -- previousNode:SetNextNode(nextNode.serverUserData.nodeInstance)
                         return
                     end
-                else
-                    --print("Reach end")
                 end
-            else
-
             end
-            -- if node:IsA("Folder") then
-            --     local folder = node -- Just to make it easier to understand.
-            --     print("Checking branch",i)
-
-            -- end
         end
     end
 
     DrawPaths_R(nodes)
 
+    self.distanceToEndSquared = self:GetStartNode():GetTotalDistanceSquaredToEnd()
+
+    print("TOTAL DISTANCE TO END:",self.distanceToEndSquared)
+
     --TODO: Connect all paths.
-
-
-
     -- local function DrawConnections_R(root)
     --     if root and root:GetNextNode() then
     --         root:DebugDrawCurrentPath()
