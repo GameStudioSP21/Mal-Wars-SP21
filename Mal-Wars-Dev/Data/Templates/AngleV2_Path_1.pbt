@@ -37,9 +37,8 @@ Assets {
         Name: "Base"
         Transform {
           Location {
-            X: 431.708954
-            Y: -474.999908
-            Z: 66.3175201
+            X: 431.708984
+            Y: -475
           }
           Rotation {
           }
@@ -191,9 +190,9 @@ Assets {
         Name: "Outline"
         Transform {
           Location {
-            X: 1196.00671
-            Y: -331.443359
-            Z: -0.710800171
+            X: 1196.03125
+            Y: -331.443726
+            Z: -67.0283203
           }
           Rotation {
           }
@@ -1216,9 +1215,9 @@ Assets {
         Name: "Design Bits"
         Transform {
           Location {
-            X: 1796.48816
-            Y: -1.02246094
-            Z: 116.705215
+            X: 1796.51758
+            Y: -1.0222168
+            Z: 50.3876953
           }
           Rotation {
           }
@@ -1815,7 +1814,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -0.0239257812
+            X: -0.0239257813
             Y: 0.0797119141
           }
           Rotation {
@@ -2153,7 +2152,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -0.0239257812
+            X: -0.0239257813
             Y: 0.0797119141
           }
           Rotation {
@@ -2335,7 +2334,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -554.782226
+            X: -554.782227
             Y: 104.248657
             Z: 0.000244140625
           }
@@ -3227,7 +3226,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -0.0239257812
+            X: -0.0239257813
             Y: 0.0797119141
           }
           Rotation {
@@ -3565,7 +3564,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -0.0239257812
+            X: -0.0239257813
             Y: 0.0797119141
           }
           Rotation {
@@ -3747,7 +3746,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -554.782226
+            X: -554.782227
             Y: 104.248657
             Z: 0.000244140625
           }
@@ -6147,7 +6146,7 @@ Assets {
         Transform {
           Location {
             X: -105.436035
-            Y: -101.973144
+            Y: -101.973145
           }
           Rotation {
             Yaw: -45.0770645
@@ -6362,7 +6361,7 @@ Assets {
         Transform {
           Location {
             X: -105.436035
-            Y: -101.973144
+            Y: -101.973145
           }
           Rotation {
             Yaw: -45.0770645
@@ -6610,7 +6609,7 @@ Assets {
         Transform {
           Location {
             X: -105.436035
-            Y: -101.973144
+            Y: -101.973145
           }
           Rotation {
             Yaw: -45.0770645
@@ -6825,7 +6824,7 @@ Assets {
         Transform {
           Location {
             X: -105.436035
-            Y: -101.973144
+            Y: -101.973145
           }
           Rotation {
             Yaw: -45.0770645
@@ -7103,7 +7102,7 @@ Assets {
         Transform {
           Location {
             X: -105.436035
-            Y: -101.973144
+            Y: -101.973145
           }
           Rotation {
             Yaw: -45.0770645
@@ -7318,7 +7317,7 @@ Assets {
         Transform {
           Location {
             X: -105.436035
-            Y: -101.973144
+            Y: -101.973145
           }
           Rotation {
             Yaw: -45.0770645
@@ -7566,7 +7565,7 @@ Assets {
         Transform {
           Location {
             X: -105.436035
-            Y: -101.973144
+            Y: -101.973145
           }
           Rotation {
             Yaw: -45.0770645
@@ -7781,7 +7780,7 @@ Assets {
         Transform {
           Location {
             X: -105.436035
-            Y: -101.973144
+            Y: -101.973145
           }
           Rotation {
             Yaw: -45.0770645

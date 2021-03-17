@@ -32,15 +32,15 @@ Assets {
       }
       Overrides {
         Name: "fresnel"
-        Float: 3
+        Float: 1
       }
       Overrides {
         Name: "fresnel brightness"
-        Float: 1.87050033
+        Float: 50
       }
       Overrides {
         Name: "vertical fade"
-        Float: -0.5
+        Float: 4.39429569
       }
       Overrides {
         Name: "noise scale"
@@ -60,11 +60,6 @@ Assets {
           G: 0.1
           B: 0.2
           A: 1
-        }
-      }
-      Overrides {
-        Name: "speed"
-        Vector {
         }
       }
     }
