@@ -130,15 +130,15 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 100
+      Int: 1
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 12
+      Int: 6
     }
     Overrides {
       Name: "cs:Speed"
-      Float: 0.4
+      Float: 0.2
     }
     Overrides {
       Name: "cs:Range"
