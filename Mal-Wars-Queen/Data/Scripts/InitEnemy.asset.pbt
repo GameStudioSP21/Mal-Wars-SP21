@@ -1,13 +1,9 @@
 Assets {
-  Id: 3697162705090323815
-  Name: "NetworkHubHealthServer"
+  Id: 13356258329422356084
+  Name: "InitEnemy"
   PlatformAssetType: 3
   TextAsset {
     CustomParameters {
-      Overrides {
-        Name: "cs:HubHealth"
-        Int: 100
-      }
       Overrides {
         Name: "cs:GameManager"
         AssetReference {
@@ -15,14 +11,9 @@ Assets {
         }
       }
       Overrides {
-        Name: "cs:NetworkHubHealthBar"
+        Name: "cs:ROOT"
         ObjectReference {
-          SelfId: 14748697623827796392
         }
-      }
-      Overrides {
-        Name: "cs:HubHealth:isrep"
-        Bool: true
       }
     }
   }

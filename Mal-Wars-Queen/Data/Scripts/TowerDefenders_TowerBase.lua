@@ -1,5 +1,15 @@
-﻿local Tower = {}
+--[[
+    TowerDefenders - TowerBase
+
+    Description here. Pending...
+]]--
+
+
+local Tower = {}
 Tower.__index = Tower
+
+local TowerTargeting = require(script:GetCustomProperty("TowerTargeting"))
+local Ease3D = require(script:GetCustomProperty("Ease3D"))
 
 local SPAWN_VFX = script:GetCustomProperty("SpawnVFX")
 local PRE_SPAWN_ASSET = script:GetCustomProperty("PreSpawnAsset")
@@ -7,9 +17,11 @@ local PRE_END_SPAWN_ASSET = script:GetCustomProperty("PreEndSpawnAsset")
 local OWNERSHIP_DECAL = script:GetCustomProperty("TowerOwnershipDecal")
 local RADIUS_DECAL = script:GetCustomProperty("RangeRadiusDecal")
 local BLOCKED_RADIUS = script:GetCustomProperty("BlockedRadius")
-local Ease3D = require(script:GetCustomProperty("Ease3D"))
+local BLOCKED_RANGE = 125 -- CUSTOM PROPERTY HERE
 
-local BLOCKED_RANGE = 300 -- CUSTOM PROPERTY HERE
+local TARGETING_PERIOD = 0.1
+
+local INITAL_TARGETING_MODE = TowerTargeting.TARGETING_MODE.FIRST
 
 ----------------------------------------------------
 -- Public
@@ -24,9 +36,10 @@ function Tower.New(towerData, board, owner)
     self.towerAssetInstance = nil
     self.currentTarget = nil
     self.runtimes = {}
+    self.migrate = {}
 
-    self:_DefineEvent("OnFired") -- Done
-    self:_DefineEvent("OnTargetEnemy") -- Not used yet.
+    -- self.migrate is a table that will be moved over when the tower upgrades.
+    self.migrate.targetingMode = INITAL_TARGETING_MODE
 
     self:_Init(towerData)
 
@@ -38,18 +51,9 @@ function Tower:BeginRuntime()
 end
 
 function Tower:Destroy()
-    if Environment.IsClient() then
-        print("[Client] Runtimes:",self.runtimes)
-        for _, runtime in pairs(self.runtimes) do
-            runtime:Cancel()
-        end
-    else
-        print("[Server] Runtimes:",self.runtimes)
-        for _, runtime in pairs(self.runtimes) do
-            runtime:Cancel()
-        end
+    for _, runtime in pairs(self.runtimes) do
+        runtime:Cancel()
     end
-
     if Object.IsValid(self.towerAssetInstance) then
         self.towerAssetInstance:Destroy()
     end
@@ -58,6 +62,7 @@ function Tower:Destroy()
     self.board = nil
 end
 
+-- This just spawns the tower asset instantly.
 function Tower:SpawnAsset()
     local boardAsset = self.board:GetBoardAssetInstance()
 
@@ -66,8 +71,6 @@ function Tower:SpawnAsset()
 
     local towerModel = World.SpawnAsset(self:GetMUID(),{ position = self.position, parent = boardAsset })
     self.towerAssetInstance = towerModel
-
-    self.towerAssetInstance.clientUserData.tower = self
 
     -- If the owner of the tower placed then there will be a ring below the the tower
     -- indicating they own it.
@@ -81,6 +84,7 @@ function Tower:SpawnAsset()
     self._muzzleEffects = self._muzzle:GetChildren()
 end
 
+-- This spawns the tower in its little drop pod.
 function Tower:SpawnAssetSpecial()
     local boardAsset = self.board:GetBoardAssetInstance()
 
@@ -97,7 +101,6 @@ function Tower:SpawnAssetSpecial()
 
     local towerModel = World.SpawnAsset(self:GetMUID(),{ position = self.position, parent = boardAsset })
     self.towerAssetInstance = towerModel
-    self.towerAssetInstance.clientUserData.tower = self
 
     -- If the owner of the tower placed then there will be a ring below the the tower
     -- indicating they own it.
@@ -112,10 +115,6 @@ function Tower:SpawnAssetSpecial()
     self._verticalRotator = towerModel:GetCustomProperty("VerticalRotator"):GetObject()
     self._muzzle = towerModel:GetCustomProperty("Muzzle"):GetObject()
     self._muzzleEffects = self._muzzle:GetChildren()
-end
-
-function Tower:GetBlockedRadius()
-    return BLOCKED_RANGE
 end
 
 function Tower:IsPositionInBlockedRadius(position)
@@ -154,6 +153,7 @@ function Tower:DisplayRangeRadius()
     self.rangeRadiusVisual = radius
 end
 
+-- Client
 function Tower:RemoveRangeRadius()
     if Object.IsValid(self.rangeRadiusVisual) then
         self.rangeRadiusVisual:Destroy()
@@ -248,6 +248,10 @@ function Tower:GetUpgradeIndex()
     return self.data.upgradeIndex
 end
 
+function Tower:GetBlockedRadius()
+    return BLOCKED_RANGE
+end
+
 function Tower:GetMaxUpgradeIndex()
     return self.data.maxUpgradeIndex
 end
@@ -264,27 +268,64 @@ function Tower:InRange(object)
 end
 
 function Tower:GetNearestEnemy()
+    warn("DEPRECATED!")
     local waveManager = self:GetBoardReference():GetWaveManager()
     local closestEnemy = waveManager:GetNearestAliveEnemy(self:GetWorldPosition())
     return closestEnemy
+end
+
+-- Returns the target from the targeting mode
+function Tower:GetTarget()
+    -- Calls the targeting mode so we get our target.
+    return self.migrate.targetingMode(self)
+end
+
+-- Returns the targeting function used to get enemies.
+function Tower:GetCurrentTargetingMode()
+    return self.migrate.targetingMode
+end
+
+-- Returns the string name of the targeting function.
+function Tower:GetCurrentTargetModeString()
+    return TowerTargeting.GetString(self.migrate.targetingMode)
+end
+
+----------------------------------------------------
+-- Public Networked
+-- Can be called from client or server context.
+----------------------------------------------------
+
+-- Switch to the next targeting mode.
+function Tower:SwitchTargetingMode(_hasRepeated)
+    self.migrate.targetingMode = TowerTargeting.GetNextMode(self:GetCurrentTargetingMode())
+
+    if Environment.IsClient() and not _hasRepeated then
+        print("[Client] Switching targeting mode for tower:",self:GetName())
+        local worldPosition = self:GetWorldPosition()
+        Events.BroadcastToServer("STM",worldPosition.x,worldPosition.y,worldPosition.z)
+    elseif Environment.IsServer() and not _hasRepeated then
+        print("[Server] Switching targeting mode for tower:",self:GetName())
+        -- TODO: Make this.
+    end
 end
 
 ----------------------------------------------------
 -- Virtual
 ----------------------------------------------------
 -- These methods are overridable. You may redefine these in inherited classes.
+-- If you don't want one of these methods to load then
 
 ----------- CLIENT -----------
 
-function Tower:HorizontalRotation()
-    local dir = (self:GetWorldPosition() - self.currentTarget:GetWorldPosition()):GetNormalized()
+function Tower:HorizontalRotation(target)
+    local dir = (self:GetWorldPosition() - target:GetWorldPosition()):GetNormalized()
     local angle = math.atan(dir.x,dir.y)
     local hr = Rotation.New(0,0,-math.deg(angle)+270)
     self._horizontalRotator:RotateTo(hr,0.1,false)
 end
 
-function Tower:VerticalRotation()
-    local dir = (self:GetWorldPosition() - self.currentTarget:GetWorldPosition()):GetNormalized()
+function Tower:VerticalRotation(target)
+    local dir = (self:GetWorldPosition() - target:GetWorldPosition()):GetNormalized()
     local angle = math.atan(dir.x,dir.y)
     local hr = Rotation.New(0,0,-math.deg(angle)+270)
     local angle = math.atan(dir.z)
@@ -292,8 +333,8 @@ function Tower:VerticalRotation()
     self._verticalRotator:RotateTo(r,0.1,false)
 end
 
-function Tower:FireFakeProjectile()
-    local dir = (self:GetWorldPosition() - self.currentTarget:GetWorldPosition())
+function Tower:FireFakeProjectile(target)
+    local dir = (self:GetWorldPosition() - target:GetWorldPosition())
     local projectile = Projectile.Spawn(self:GetVisualProjectile(),self._muzzle:GetWorldPosition(), -dir)
     local mag = dir.size
     projectile.gravityScale = 0
@@ -310,11 +351,11 @@ end
 
 ----------- SERVER -----------
 
-function Tower:DamageEnemy(enemy)
-    if not Object.IsValid(enemy) then return end
-    local health = enemy:GetCustomProperty("CurrentHealth")
+function Tower:DamageEnemy(target)
+    if not Object.IsValid(target) then return end
+    local health = target:GetCustomProperty("CurrentHealth")
     health = health - self:GetStat("Damage")
-    enemy:SetNetworkedCustomProperty("CurrentHealth",health)
+    target:SetNetworkedCustomProperty("CurrentHealth",health)
 end
 
 ----------------------------------------------------
@@ -325,48 +366,30 @@ function Tower:_Init(towerData)
     self.data = towerData
 end
 
-
-function Tower:_FireEvent(eventName, ...)
-    for _,handler in ipairs(self.eventHandlers[eventName]) do
-        handler(...)
+function Tower:_HasValidTarget()
+    if Object.IsValid(self.currentTarget) and self:InRange(self.currentTarget) then
+        return true
     end
+    return false
 end
-
-function Tower:_DefineEvent(eventName)
-    self.eventHandlers = self.eventHandlers or {}
-    self.eventHandlers[eventName] = self.eventHandlers[eventName] or {}
-    self[eventName] = {
-        Connect = function(_, handler)
-            table.insert(self.eventHandlers[eventName], handler)
-            return self[eventName]
-        end,
-        Disconnect = function(_, handler)
-            table.remove(self.eventHandlers[eventName], handler)
-        end
-    }
-end
-
 
 function Tower:_Runtime()
-    
-    local position = self:GetWorldPosition()
-    self.isrunning = true
+
     self.currentTarget = nil
     
     if Environment.IsClient() then
-        -- Rotating Runtime
+        -- Rotating Runtime and targeting
         local rotatingRuntime = Task.Spawn(function()
             while true do
-                Task.Wait(0.1)
+                Task.Wait(TARGETING_PERIOD)
 
                 if self.towerAssetInstance then
-                    if not Object.IsValid(self.currentTarget) then
-                        self.currentTarget = self:GetNearestEnemy()
-                    elseif Object.IsValid(self.currentTarget) and self:InRange(self.currentTarget) and self._horizontalRotator then
-                        self:HorizontalRotation()
-                        self:VerticalRotation()
-                        local health = self.currentTarget:GetCustomProperty("CurrentHealth")
-                        if health <= 0 then
+                    if not self:_HasValidTarget() then
+                        self.currentTarget = self:GetTarget()
+                    elseif self:_HasValidTarget() and self._horizontalRotator then
+                        self:HorizontalRotation(self.currentTarget)
+                        self:VerticalRotation(self.currentTarget)
+                        if self.currentTarget:GetCustomProperty("CurrentHealth") <= 0 then
                             self.currentTarget = nil
                         end
                     else
@@ -379,15 +402,14 @@ function Tower:_Runtime()
         local firingRuntime = Task.Spawn(function()
             while true do
                 Task.Wait(self:GetStat("Speed"))
-                if Object.IsValid(self.currentTarget) and self:InRange(self.currentTarget) and self._horizontalRotator then
+                if self:_HasValidTarget() and self._horizontalRotator then
                     Task.Spawn(function()
                         if not Object.IsValid(self.currentTarget) then return end
-                        self:PlayMuzzleEffects()
+                        self:FireFakeProjectile(self.currentTarget)
                     end)
                     Task.Spawn(function()
                         if not Object.IsValid(self.currentTarget) then return end
-                        self:FireFakeProjectile()
-                        self:_FireEvent("OnFired",self.currentTarget)
+                        self:PlayMuzzleEffects()
                     end)
                 end
             end
@@ -400,11 +422,11 @@ function Tower:_Runtime()
         -- Targeting
         local targetingRuntime = Task.Spawn(function() 
             while true do
-                Task.Wait(0.1)
+                Task.Wait(TARGETING_PERIOD)
 
-                if not Object.IsValid(self.currentTarget) then
-                    self.currentTarget = self:GetNearestEnemy()
-                elseif Object.IsValid(self.currentTarget) and self:InRange(self.currentTarget) then
+                if not self:_HasValidTarget() then
+                    self.currentTarget = self:GetTarget()
+                elseif self:_HasValidTarget() then
                     local health = self.currentTarget:GetCustomProperty("CurrentHealth")
                     if self.currentTarget:GetCustomProperty("CurrentHealth") <= 0 then
                         self.currentTarget = nil
@@ -418,12 +440,8 @@ function Tower:_Runtime()
         local attackingRuntime = Task.Spawn(function()
             while true do
                 Task.Wait(self:GetStat("Speed"))
-                if Object.IsValid(self.currentTarget) and self:InRange(self.currentTarget) then
-                    self:_FireEvent("OnFired",self.currentTarget)
+                if self:_HasValidTarget() then
                     self:DamageEnemy(self.currentTarget)
-                    if self.currentTarget:GetCustomProperty("CurrentHealth") <= 0 then
-                        self.currentTarget = nil
-                    end
                 end
             end
         end)
