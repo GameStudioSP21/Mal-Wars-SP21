@@ -60,6 +60,8 @@ Game.playerJoinedEvent:Connect(function (player)
             saveData.waveNum = waveManager:GetCurrentWave():GetName()
         end
 
+        Storage.SetPlayerData(player, saveData)
+
         PrintSaveData()
         -- Let's say we're saving towers
         --table.insert(playerData.towers, { name = "Mortar", position = Vector3.New(0,0,0) }
