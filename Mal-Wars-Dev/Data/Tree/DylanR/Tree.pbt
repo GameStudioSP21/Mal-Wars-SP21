@@ -5,7 +5,7 @@ Objects {
   Name: "WallLights"
   Transform {
     Location {
-      X: -4502.57226
+      X: -4502.57227
       Y: -408.641113
       Z: -11305.4961
     }
@@ -847,7 +847,7 @@ Objects {
   Transform {
     Location {
       X: 8041.70703
-      Y: -5153.9956
+      Y: -5153.99561
       Z: 1741.16016
     }
     Rotation {
@@ -1172,7 +1172,6 @@ Objects {
   }
 }
 Objects {
-<<<<<<< Updated upstream
   Id: 5820702334396238056
   Name: "ChannelsTEMPORARY"
   Transform {
@@ -1205,8 +1204,6 @@ Objects {
   }
 }
 Objects {
-=======
->>>>>>> Stashed changes
   Id: 9727394318699712712
   Name: "AoE Tower Placement Effects"
   Transform {
@@ -8646,8 +8643,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        G: 0.0998987257
-        B: 0.201556295
+        G: 3.00000072
         A: 1
       }
     }
@@ -12980,7 +12976,7 @@ Objects {
     Location {
       X: 103.67878
       Y: -206.41597
-      Z: 2514.34228
+      Z: 2514.34229
     }
     Rotation {
       Pitch: 3.4533093
@@ -13619,7 +13615,7 @@ Objects {
   Transform {
     Location {
       X: 154.239
-      Y: -1057.2456
+      Y: -1057.24561
       Z: 3773.67578
     }
     Rotation {
@@ -13684,7 +13680,7 @@ Objects {
     Location {
       X: 398.110779
       Y: -638.997437
-      Z: 4088.88476
+      Z: 4088.88477
     }
     Rotation {
       Pitch: 2.68750167
@@ -16563,7 +16559,7 @@ Objects {
     Location {
       X: 494.762817
       Y: 1084.01721
-      Z: 4680.71142
+      Z: 4680.71143
     }
     Rotation {
       Pitch: 34.2643776
