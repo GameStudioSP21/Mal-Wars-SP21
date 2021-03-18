@@ -59,7 +59,7 @@ Game.playerJoinedEvent:Connect(function (player)
 
         --get waveNum
         if(waveManager) then 
-            saveData.waveNum = waveManager:GetCurrentWave():GetName()
+            saveData.waveNum = waveManager:GetWaveIndex()
         end
 
         Storage.SetPlayerData(player, saveData)
