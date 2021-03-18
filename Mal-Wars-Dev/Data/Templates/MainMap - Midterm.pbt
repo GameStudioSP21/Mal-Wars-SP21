@@ -81644,6 +81644,10 @@ Assets {
               SubObjectId: 3206220189379387661
             }
           }
+          Overrides {
+            Name: "cs:LoadSaveOnStart"
+            Bool: false
+          }
         }
         WantsNetworking: true
         Collidable_v2 {
