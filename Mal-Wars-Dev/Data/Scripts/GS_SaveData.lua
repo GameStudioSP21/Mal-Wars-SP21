@@ -6,7 +6,7 @@ local NET_HUB = script:GetCustomProperty("NetworkHubHealthServer")
 
 -- print("GAME MANAGER LOADED")
 local towersTable = { 
-    --{name = nil, position = nil},
+    -- {name = nil, position = nil},
 } 
 
 local laserTable = {damage = nil,
@@ -35,6 +35,9 @@ Game.playerJoinedEvent:Connect(function (player)
         -- clear save data before writing new data
         ClearSaveData()
         
+        -- load save data
+        saveData = Storage.GetPlayerData(player)
+        
         -- get all towers
         local allTowers = board:GetAllTowers()
         for key, tower in pairs(allTowers) do
@@ -57,17 +60,16 @@ Game.playerJoinedEvent:Connect(function (player)
             saveData.hubHealth = NET_HUB:GetCustomProperty("HubHealth")
         end
 
-        --get waveNum
+        -- get waveNum
         if(waveManager) then 
             saveData.waveNum = waveManager:GetCurrentWave():GetName()
         end
 
         Storage.SetPlayerData(player, saveData)
-        saveData = Storage.GetPlayerData(player)
-
+        
         PrintSaveData()
         -- Let's say we're saving towers
-        --table.insert(playerData.towers, { name = "Mortar", position = Vector3.New(0,0,0) }
+        -- table.insert(playerData.towers, { name = "Mortar", position = Vector3.New(0,0,0) }
     end)
 end)
 
