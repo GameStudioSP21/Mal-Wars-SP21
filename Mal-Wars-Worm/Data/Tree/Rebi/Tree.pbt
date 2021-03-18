@@ -1331,8 +1331,8 @@ Objects {
   Name: "Network Hub"
   Transform {
     Location {
-      X: -16511.0898
-      Y: 437.44104
+      X: -18775.5898
+      Y: 1108.30273
       Z: -4081.58
     }
     Rotation {

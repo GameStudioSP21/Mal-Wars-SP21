@@ -28,9 +28,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -3980.24609
-            Y: 1423.69592
-            Z: -5117.29883
+            X: -6068.0376
+            Y: 2264.91162
+            Z: -5175.55762
           }
         }
         Overrides {
@@ -42,9 +42,9 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 1.45675147
+            Y: 1.45675147
+            Z: 1.45675147
           }
         }
       }
@@ -1438,17 +1438,86 @@ Objects {
   ChildIds: 14489510459068001269
   ChildIds: 3554312644639698247
   ChildIds: 1326129448264049267
+  ChildIds: 8539972571043944827
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 8539972571043944827
+  Name: "Octagon_Path"
+  Transform {
+    Location {
+      X: -19005.2285
+      Y: -3224.16748
+      Z: -5232.89551
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.30665755
+      Y: 1.30665755
+      Z: 1.30665755
+    }
+  }
+  ParentId: 8324161319524091147
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6484981636932194908
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: 85.4746933
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8915900068762014425
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Octagon_Path"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6988.47266
+            Y: -973.224121
+            Z: -78.7661133
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.30665755
+            Y: 1.30665755
+            Z: 1.30665755
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14010634432504038220
+    }
   }
 }
 Objects {
