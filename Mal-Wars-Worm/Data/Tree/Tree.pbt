@@ -20,6 +20,9 @@ Objects {
   ChildIds: 10005074784157121906
   ChildIds: 10722931758594424760
   ChildIds: 8512805858169632350
+  ChildIds: 12731644086956395786
+  ChildIds: 1911566274116999624
+  ChildIds: 9963121774319304172
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -32,6 +35,162 @@ Objects {
     Value: "mc:ecollisionsetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 9963121774319304172
+  Name: "Bevel_Path"
+  Transform {
+    Location {
+      X: 413.73233
+      Y: 7196.13965
+      Z: 2.28881836e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 15715088021643346016
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Bevel_Path"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 413.73233
+            Y: 7196.13965
+            Z: 2.28881836e-05
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13278643246804230371
+    }
+  }
+}
+Objects {
+  Id: 1911566274116999624
+  Name: "AngleV2_Path"
+  Transform {
+    Location {
+      X: -2241.28
+      Y: 5119.59863
+      Z: 2.28881836e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: -1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16141471332909758295
+      value {
+        Overrides {
+          Name: "Name"
+          String: "AngleV2_Path"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2241.28
+            Y: 5119.59863
+            Z: 2.28881836e-05
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15333185848817785080
+    }
+  }
+}
+Objects {
+  Id: 12731644086956395786
+  Name: "AngleV2Flipped_Path"
+  Transform {
+    Location {
+      X: -374.081238
+      Y: 5119.59863
+      Z: 2.28881836e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16141471332909758295
+      value {
+        Overrides {
+          Name: "Name"
+          String: "AngleV2Flipped_Path"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -374.081238
+            Y: 5119.59863
+            Z: 2.28881836e-05
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8308661542673421801
+    }
   }
 }
 Objects {
