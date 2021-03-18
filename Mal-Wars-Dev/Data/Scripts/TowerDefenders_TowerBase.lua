@@ -329,7 +329,7 @@ function Tower:HorizontalRotation(target)
     local dir = (self:GetWorldPosition() - target:GetWorldPosition()):GetNormalized()
     local angle = math.atan(dir.x,dir.y)
     local hr = Rotation.New(0,0,-math.deg(angle)+270)
-    self._horizontalRotator:RotateTo(hr,0.1,false)
+    self._horizontalRotator:RotateTo(hr,0.2,false)
 end
 
 function Tower:VerticalRotation(target)
@@ -338,7 +338,7 @@ function Tower:VerticalRotation(target)
     local hr = Rotation.New(0,0,-math.deg(angle)+270)
     local angle = math.atan(dir.z)
     local r = hr + Rotation.New(0,-math.deg(angle),0)
-    self._verticalRotator:RotateTo(r,0.1,false)
+    self._verticalRotator:RotateTo(r,0.2,false)
 end
 
 function Tower:FireFakeProjectile(target)
@@ -404,6 +404,9 @@ end
 function Tower:_Runtime()
 
     self.currentTarget = nil
+
+    -- If an enemy has been attacked in range after the attacking period then we are for sure ready to attack once detected.
+    self.readyToAttack = false
     
     if Environment.IsClient() then
         -- Rotating Runtime and targeting
@@ -429,8 +432,10 @@ function Tower:_Runtime()
         -- Firing Runtime
         local firingRuntime = Task.Spawn(function()
             while true do
-                Task.Wait(self:GetStat("Speed"))
+                Task.Wait(self.readyToAttack and TARGETING_PERIOD or self:GetStat("Speed"))
+
                 if self:_HasValidTarget() and self._horizontalRotator then
+                    self.readyToAttack = false
                     Task.Spawn(function()
                         if not Object.IsValid(self.currentTarget) then return end
                         self:FireFakeProjectile(self.currentTarget)
@@ -440,6 +445,8 @@ function Tower:_Runtime()
                         if not Object.IsValid(self.currentTarget) then return end
                         self:PlayMuzzleEffects()
                     end)
+                else
+                    self.readyToAttack = true
                 end
             end
         end)
@@ -468,10 +475,13 @@ function Tower:_Runtime()
         -- Attacking
         local attackingRuntime = Task.Spawn(function()
             while true do
-                Task.Wait(self:GetStat("Speed"))
+                Task.Wait(self.readyToAttack and TARGETING_PERIOD or self:GetStat("Speed"))
                 if self:_HasValidTarget() then
+                    self.readyToAttack = false
                     self:DamageEnemy(self.currentTarget)
                     self:_FireEvent("OnFired",self.currentTarget)
+                else
+                    self.readyToAttack = true
                 end
             end
         end)
