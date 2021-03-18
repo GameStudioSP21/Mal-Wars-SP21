@@ -23,7 +23,7 @@ local saveData = {  towers = towersTable,
 Game.playerJoinedEvent:Connect(function (player)
     -- PLAYER = player
     local GAME_MANAGER = require(script:GetCustomProperty("TowerDefenders_GameManager"))
-    local NET_HUB = script:GetCustomProperty("NetworkHubHealthServer")
+    local NET_HUB = script:GetCustomProperty("NetworkHubHealthServer"):WaitForObject()
     local board = GAME_MANAGER.WaitForBoardFromPlayer(player)
     local waveManager = board:GetWaveManager()
     -- print(waveManager)
@@ -50,17 +50,20 @@ Game.playerJoinedEvent:Connect(function (player)
         laserTable.radius = ORBITAL_LASER:GetCustomProperty("Radius")
 
         -- get gems
+        saveData.gems = player:GetResource("GEMS")
 
         -- get hubHealth
         if(NET_HUB) then
             saveData.hubHealth = NET_HUB:GetCustomProperty("HubHealth")
         end
+
         --get waveNum
         if(waveManager) then 
             saveData.waveNum = waveManager:GetCurrentWave():GetName()
         end
 
         Storage.SetPlayerData(player, saveData)
+        saveData = Storage.GetPlayerData(player)
 
         PrintSaveData()
         -- Let's say we're saving towers

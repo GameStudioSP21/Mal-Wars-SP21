@@ -20,6 +20,7 @@ Assets {
         ChildIds: 10343002378212205881
         ChildIds: 17637186462734073188
         ChildIds: 15932219875191573269
+        ChildIds: 12998372047861030760
         UnregisteredParameters {
           Overrides {
             Name: "cs:Owners"
@@ -1398,7 +1399,7 @@ Assets {
         Transform {
           Location {
             X: -7576.50391
-            Y: -1561.97558
+            Y: -1561.97559
             Z: -107.043518
           }
           Rotation {
@@ -1448,7 +1449,7 @@ Assets {
         Name: "GenericAnchor"
         Transform {
           Location {
-            X: -3916.00976
+            X: -3916.00977
             Y: 898.807373
             Z: -59.2177734
           }
@@ -2459,7 +2460,7 @@ Assets {
         Name: "GenericAnchor"
         Transform {
           Location {
-            X: 8170.16308
+            X: 8170.16309
             Y: 5286.59082
             Z: -49.404541
           }
@@ -2817,7 +2818,7 @@ Assets {
         Transform {
           Location {
             X: 4744.90039
-            Y: 3508.46728
+            Y: 3508.46729
             Z: -68.7392578
           }
           Rotation {
@@ -54759,7 +54760,7 @@ Assets {
         Name: "Sci-fi Trim 01"
         Transform {
           Location {
-            X: 2562.64062
+            X: 2562.64063
             Y: 485.50174
             Z: 815.000916
           }
@@ -58948,7 +58949,7 @@ Assets {
         Name: "Sci-fi Trim 01"
         Transform {
           Location {
-            X: 2562.64062
+            X: 2562.64063
             Y: 485.50174
             Z: 815.000916
           }
@@ -66052,7 +66053,7 @@ Assets {
         Name: "Sci-fi Trim 01"
         Transform {
           Location {
-            X: 2562.64062
+            X: 2562.64063
             Y: 485.50174
             Z: 815.000916
           }
@@ -70241,7 +70242,7 @@ Assets {
         Name: "Sci-fi Trim 01"
         Transform {
           Location {
-            X: 2562.64062
+            X: 2562.64063
             Y: 485.50174
             Z: 815.000916
           }
@@ -72061,7 +72062,7 @@ Assets {
         Transform {
           Location {
             X: -1650.2002
-            Y: 7474.8081
+            Y: 7474.80811
             Z: -166.515198
           }
           Rotation {
@@ -74973,7 +74974,7 @@ Assets {
         Name: "Plateform_Angle"
         Transform {
           Location {
-            X: -6069.60058
+            X: -6069.60059
             Y: 7546.44
             Z: -166.515137
           }
@@ -81577,6 +81578,87 @@ Assets {
         }
         Folder {
           IsFilePartition: true
+        }
+      }
+      Objects {
+        Id: 12998372047861030760
+        Name: "SaveData"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4162559028374586543
+        ChildIds: 6517464997569466405
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 6517464997569466405
+        Name: "GS_SaveData"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12998372047861030760
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:TowerDefenders_GameManager"
+            AssetReference {
+              Id: 16922964282924116369
+            }
+          }
+          Overrides {
+            Name: "cs:GS_OrbitalLaser_Server"
+            ObjectReference {
+              SelfId: 7666823538778478365
+            }
+          }
+          Overrides {
+            Name: "cs:NetworkHubHealthServer"
+            ObjectReference {
+              SubObjectId: 3206220189379387661
+            }
+          }
+        }
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 14397388049759306212
+          }
         }
       }
     }

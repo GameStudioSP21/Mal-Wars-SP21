@@ -1,50 +1,6 @@
 Name: "Asante"
 RootId: 1187155345345434260
 Objects {
-  Id: 2491934239746368153
-  Name: "GS_SaveData"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1187155345345434260
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:GS_OrbitalLaser_Server"
-      ObjectReference {
-        SelfId: 7666823538778478365
-      }
-    }
-    Overrides {
-      Name: "cs:TowerDefenders_GameManager"
-      AssetReference {
-        Id: 16922964282924116369
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 14397388049759306212
-    }
-  }
-}
-Objects {
   Id: 7666823538778478365
   Name: "GS_OrbitalLaser_Server"
   Transform {
