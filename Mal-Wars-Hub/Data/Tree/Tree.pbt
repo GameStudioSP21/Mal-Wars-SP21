@@ -19,7 +19,7 @@ Objects {
   ChildIds: 14713340454944924967
   ChildIds: 10005074784157121906
   ChildIds: 8772234700748848760
-  ChildIds: 14607687699607305245
+  ChildIds: 10844526929872306806
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -35,9 +35,16 @@ Objects {
   }
 }
 Objects {
-  Id: 14607687699607305245
-  Name: "lobbyBlockout"
+  Id: 10844526929872306806
+  Name: "Yesenia_Sidney "
   Transform {
+    Location {
+      X: -1150
+      Z: -545
+    }
+    Rotation {
+      Yaw: 90
+    }
     Scale {
       X: 1
       Y: 1
@@ -51,32 +58,19 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 17478685473395879143
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Yesenia_Sidney "
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 90
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1150
-            Z: -545
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 7105272645578194033
-    }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "lobbyBlockout"
+  }
+  InstanceHistory {
+    SelfId: 10844526929872306806
+    SubobjectId: 17478685473395879143
+    InstanceId: 14607687699607305245
+    TemplateId: 7105272645578194033
+    WasRoot: true
   }
 }
 Objects {
@@ -197,7 +191,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 3.5
+      Float: 0.5
     }
     Overrides {
       Name: "bp:Sun Disc Color"
@@ -271,7 +265,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 3
+      Float: 0.863859892
     }
     Overrides {
       Name: "bp:Lower Hemisphere Color"

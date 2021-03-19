@@ -70,7 +70,7 @@ Assets {
         Transform {
           Location {
             X: 2.47058105
-            Y: -426.969726
+            Y: -426.969727
             Z: 50
           }
           Rotation {
@@ -622,7 +622,7 @@ Assets {
         Name: "Sign Font 1 Neon Outline: W"
         Transform {
           Location {
-            Y: -426.969726
+            Y: -426.969727
             Z: -100
           }
           Rotation {

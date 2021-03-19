@@ -57,7 +57,7 @@ Objects {
     Overrides {
       Name: "cs:Tower"
       AssetReference {
-        Id: 8005972613852332238
+        Id: 7940338914546974360
       }
     }
     Overrides {
@@ -255,7 +255,7 @@ Objects {
     Overrides {
       Name: "cs:Tower"
       AssetReference {
-        Id: 5285178350319429515
+        Id: 17477771493771331873
       }
     }
     Overrides {
@@ -357,7 +357,7 @@ Objects {
     Overrides {
       Name: "cs:Tower"
       AssetReference {
-        Id: 15116686596486310544
+        Id: 15791453381227726310
       }
     }
     Overrides {

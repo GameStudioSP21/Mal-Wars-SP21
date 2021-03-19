@@ -29,6 +29,10 @@ Objects {
       Bool: false
     }
     Overrides {
+      Name: "cs:WavePayout"
+      Int: 0
+    }
+    Overrides {
       Name: "cs:SpawnDelay:tooltip"
       String: "How often an enemy should spawn from the enemy table below"
     }
@@ -82,6 +86,10 @@ Objects {
     Overrides {
       Name: "cs:IsBossWave"
       Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 0
     }
     Overrides {
       Name: "cs:SpawnDelay:tooltip"
@@ -139,6 +147,10 @@ Objects {
       Bool: false
     }
     Overrides {
+      Name: "cs:WavePayout"
+      Int: 0
+    }
+    Overrides {
       Name: "cs:SpawnDelay:tooltip"
       String: "How often an enemy should spawn from the enemy table below"
     }
@@ -192,6 +204,10 @@ Objects {
     Overrides {
       Name: "cs:IsBossWave"
       Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 0
     }
     Overrides {
       Name: "cs:SpawnDelay:tooltip"
@@ -249,6 +265,10 @@ Objects {
       Bool: false
     }
     Overrides {
+      Name: "cs:WavePayout"
+      Int: 0
+    }
+    Overrides {
       Name: "cs:SpawnDelay:tooltip"
       String: "How often an enemy should spawn from the enemy table below"
     }
@@ -302,6 +322,10 @@ Objects {
     Overrides {
       Name: "cs:IsBossWave"
       Bool: true
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 0
     }
     Overrides {
       Name: "cs:SpawnDelay:tooltip"
@@ -359,6 +383,10 @@ Objects {
       Bool: false
     }
     Overrides {
+      Name: "cs:WavePayout"
+      Int: 0
+    }
+    Overrides {
       Name: "cs:SpawnDelay:tooltip"
       String: "How often an enemy should spawn from the enemy table below"
     }
@@ -412,6 +440,10 @@ Objects {
     Overrides {
       Name: "cs:IsBossWave"
       Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 999
     }
     Overrides {
       Name: "cs:SpawnDelay:tooltip"

@@ -88,6 +88,10 @@ function Wave:IsBossWave()
     return self.isBossWave
 end
 
+function Wave:GetPayout()
+	return self.wavePayout
+end
+
 -------------------------------------
 -- Private
 -------------------------------------
@@ -99,6 +103,7 @@ function Wave:_Init(waveManager,waveObject)
     self.spawnDelay = waveObject:GetCustomProperty("SpawnDelay") or 0.2
     self.inOrderSpawning = waveObject:GetCustomProperty("InOrderSpawning") or false
     self.isBossWave = waveObject:GetCustomProperty("IsBossWave") or false
+    self.wavePayout = waveObject:GetCustomProperty("WavePayout") or 100
     self.groups = {}
     for _, enemyGroup in pairs(waveObject:GetChildren()) do
         local enemy = enemyGroup:GetCustomProperty("Enemy")
