@@ -21,6 +21,9 @@ Objects {
   ChildIds: 10722931758594424760
   ChildIds: 15885606419812222058
   ChildIds: 2880498746515435782
+  ChildIds: 8763712309574162106
+  ChildIds: 2411720685221093008
+  ChildIds: 17373044476612761359
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -33,6 +36,129 @@ Objects {
     Value: "mc:ecollisionsetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 17373044476612761359
+  Name: "MortarTower_Lv4_Witcher"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17598398997086142235
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MortarTower_Lv4_Witcher"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -16355
+            Y: 4260
+            Z: 1705
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7940338914546974360
+    }
+  }
+}
+Objects {
+  Id: 2411720685221093008
+  Name: "MortarTower_Lv2_Witcher"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8930437032699802492
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MortarTower_Lv2_Witcher"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -13820
+            Y: 2160
+            Z: 30
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 17477771493771331873
+    }
+  }
+}
+Objects {
+  Id: 8763712309574162106
+  Name: "MortarTower_Lv1_Witcher"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16131273036678633745
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MortarTower_Lv1_Witcher"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -15120
+            Y: 1870
+            Z: 45
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15791453381227726310
+    }
   }
 }
 Objects {
