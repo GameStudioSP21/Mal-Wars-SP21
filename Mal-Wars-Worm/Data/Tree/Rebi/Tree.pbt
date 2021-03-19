@@ -1331,9 +1331,9 @@ Objects {
   Name: "Network Hub"
   Transform {
     Location {
-      X: -18775.5898
-      Y: 1108.30273
-      Z: -4081.58
+      X: -15321.1689
+      Y: 1668.91431
+      Z: -4132.37891
     }
     Rotation {
     }
@@ -1692,7 +1692,8 @@ Objects {
   Name: "Platforms-Hubs"
   Transform {
     Location {
-      X: 1530
+      X: 33.4619141
+      Y: -3293.35132
       Z: -21.4415283
     }
     Rotation {
@@ -1723,7 +1724,7 @@ Objects {
   Name: "Prism - 8-Sided"
   Transform {
     Location {
-      X: 8910.72
+      X: 11935.7109
       Z: -5218.25684
     }
     Rotation {
