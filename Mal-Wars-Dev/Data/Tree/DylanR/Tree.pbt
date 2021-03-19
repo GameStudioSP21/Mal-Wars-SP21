@@ -5,7 +5,7 @@ Objects {
   Name: "WallLights"
   Transform {
     Location {
-      X: -4502.57226
+      X: -4502.57227
       Y: -408.641113
       Z: -11305.4961
     }
@@ -847,7 +847,7 @@ Objects {
   Transform {
     Location {
       X: 8041.70703
-      Y: -5153.9956
+      Y: -5153.99561
       Z: 1741.16016
     }
     Rotation {
@@ -1169,6 +1169,38 @@ Objects {
     SubobjectId: 86843033716788032
     InstanceId: 3017056186635184869
     TemplateId: 1585974805764857681
+  }
+}
+Objects {
+  Id: 5820702334396238056
+  Name: "ChannelsTEMPORARY"
+  Transform {
+    Location {
+      X: -6010.06
+      Y: -1.19503784
+      Z: -50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15062001147149131720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "ChannelsTEMPORARY"
   }
 }
 Objects {
@@ -12944,7 +12976,7 @@ Objects {
     Location {
       X: 103.67878
       Y: -206.41597
-      Z: 2514.34228
+      Z: 2514.34229
     }
     Rotation {
       Pitch: 3.4533093
@@ -13583,7 +13615,7 @@ Objects {
   Transform {
     Location {
       X: 154.239
-      Y: -1057.2456
+      Y: -1057.24561
       Z: 3773.67578
     }
     Rotation {
@@ -13648,7 +13680,7 @@ Objects {
     Location {
       X: 398.110779
       Y: -638.997437
-      Z: 4088.88476
+      Z: 4088.88477
     }
     Rotation {
       Pitch: 2.68750167
@@ -16527,7 +16559,7 @@ Objects {
     Location {
       X: 494.762817
       Y: 1084.01721
-      Z: 4680.71142
+      Z: 4680.71143
     }
     Rotation {
       Pitch: 34.2643776

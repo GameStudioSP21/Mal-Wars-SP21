@@ -20,7 +20,6 @@ Assets {
         ChildIds: 10343002378212205881
         ChildIds: 17637186462734073188
         ChildIds: 15932219875191573269
-        ChildIds: 12998372047861030760
         UnregisteredParameters {
           Overrides {
             Name: "cs:Owners"
@@ -81578,87 +81577,6 @@ Assets {
         }
         Folder {
           IsFilePartition: true
-        }
-      }
-      Objects {
-        Id: 12998372047861030760
-        Name: "SaveData"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 4162559028374586543
-        ChildIds: 6517464997569466405
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 6517464997569466405
-        Name: "GS_SaveData"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 12998372047861030760
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:TowerDefenders_GameManager"
-            AssetReference {
-              Id: 16922964282924116369
-            }
-          }
-          Overrides {
-            Name: "cs:GS_OrbitalLaser_Server"
-            ObjectReference {
-              SelfId: 7666823538778478365
-            }
-          }
-          Overrides {
-            Name: "cs:NetworkHubHealthServer"
-            ObjectReference {
-              SubObjectId: 3206220189379387661
-            }
-          }
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 14397388049759306212
-          }
         }
       }
     }

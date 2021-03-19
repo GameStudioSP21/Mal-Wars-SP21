@@ -5651,7 +5651,7 @@ Assets {
         Name: "LegLift"
         Transform {
           Location {
-            X: -104.632812
+            X: -104.632813
             Y: 40.4859619
             Z: 52.6731873
           }
