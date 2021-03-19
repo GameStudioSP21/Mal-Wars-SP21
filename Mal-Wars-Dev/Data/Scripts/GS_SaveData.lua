@@ -1,5 +1,6 @@
 local ORBITAL_LASER = script:GetCustomProperty("GS_OrbitalLaser_Server"):WaitForObject()
 local NET_HUB = script:GetCustomProperty("NetworkHubHealthServer")
+local LoadSaveOnStart = script:GetCustomProperty("LoadSaveOnStart")
 
 
 -- print("LOADING GAME MANAGER")
@@ -27,6 +28,14 @@ Game.playerJoinedEvent:Connect(function (player)
     local board = GAME_MANAGER.WaitForBoardFromPlayer(player)
     local waveManager = board:GetWaveManager()
     -- print(waveManager)
+    -- local temp = Storage.GetPlayerData(player)
+    -- if temp then
+    --     PrintSaveData(temp)
+    -- end
+    if(LoadSaveOnStart) then
+        LoadSave(player, board, waveManager)
+    end
+
 
     waveManager.OnWaveStarted:Connect(function ()
         print("GET SAVE DATA")
@@ -36,7 +45,7 @@ Game.playerJoinedEvent:Connect(function (player)
         ClearSaveData()
         
         -- load save data
-        saveData = Storage.GetPlayerData(player)
+        -- saveData = Storage.GetPlayerData(player)
         
         -- get all towers
         local allTowers = board:GetAllTowers()
@@ -62,29 +71,34 @@ Game.playerJoinedEvent:Connect(function (player)
 
         -- get waveNum
         if(waveManager) then 
-            saveData.waveNum = waveManager:GetCurrentWave():GetName()
+            saveData.waveNum = waveManager:GetWaveIndex()
         end
 
         Storage.SetPlayerData(player, saveData)
+        local temp = Storage.GetPlayerData(player)
         
-        PrintSaveData()
+        PrintSaveData(temp)
         -- Let's say we're saving towers
         -- table.insert(playerData.towers, { name = "Mortar", position = Vector3.New(0,0,0) }
     end)
 end)
 
-function PrintSaveData()
-    for key, tower in pairs(saveData.towers) do
-        print("tower ", key, " :", tower.name)
-        print("tower ", key, " :", tower.position)
+function PrintSaveData(data)
+    if(#data.towers > 0) then
+        for key, tower in pairs(data.towers) do
+            print("tower ", key, " :", tower.name)
+            print("tower ", key, " :", tower.position)
+        end
+    else
+        print("No towers saved")
     end
 
-    print("laser damage: ", laserTable.damage)
-    print("laser radius: ", laserTable.radius)
+    print("laser damage: ", data.laser.damage)
+    print("laser radius: ", data.laser.radius)
 
-    print("Gems:", saveData.gems)
-    print("Hub health: ", saveData.hubHealth)
-    print("Wave num: ", saveData.waveNum)
+    print("Gems:", data.gems)
+    print("Hub health: ", data.hubHealth)
+    print("Wave num: ", data.waveNum)
 end
 
 function ClearSaveData()
@@ -97,11 +111,32 @@ function ClearSaveData()
     laserTable = {  damage = nil,
                     radius = nil }
 
-    saveData = {  towers = towersTable, 
+    saveData =  {   towers = towersTable, 
                     laser = laserTable,
                     gems = nil,
                     hubHealth = nil,
                     waveNum = nil,
                     tutorial = nil
-                 }
+                }
+end
+
+function LoadSave(player, board, waveManager)
+    local data = Storage.GetPlayerData(player)
+    if(data) then
+        -- reconstruct towers
+        -- for i, tower in pairs(data.towers) do
+        --     board:AddTower(tower.name, tower.position, false)
+        -- end
+
+        -- assign laser properties
+        ORBITAL_LASER:SetNetworkedCustomProperty("Damage", data.laser.damage)
+        ORBITAL_LASER:SetNetworkedCustomProperty("Radius", data.laser.radius)
+
+        -- add gems to wallet
+        player:SetResource("GEMS", data.gems)
+
+        -- set wave index on wave manager
+        waveManager:RedoWaveIndex(data.waveNum)
+        
+    end
 end
