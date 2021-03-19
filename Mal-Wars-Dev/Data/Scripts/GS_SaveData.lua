@@ -1,5 +1,5 @@
 local ORBITAL_LASER = script:GetCustomProperty("GS_OrbitalLaser_Server"):WaitForObject()
-local NET_HUB = script:GetCustomProperty("NetworkHubHealthServer")
+local NET_HUB = script:GetCustomProperty("NetworkHubHealthServer"):WaitForObject()
 local LoadSaveOnStart = script:GetCustomProperty("LoadSaveOnStart")
 
 
@@ -24,7 +24,7 @@ local saveData = {  towers = towersTable,
 Game.playerJoinedEvent:Connect(function (player)
     -- PLAYER = player
     local GAME_MANAGER = require(script:GetCustomProperty("TowerDefenders_GameManager"))
-    local NET_HUB = script:GetCustomProperty("NetworkHubHealthServer"):WaitForObject()
+    -- local NET_HUB = script:GetCustomProperty("NetworkHubHealthServer"):WaitForObject()
     local board = GAME_MANAGER.WaitForBoardFromPlayer(player)
     local waveManager = board:GetWaveManager()
     -- print(waveManager)
@@ -128,6 +128,8 @@ function LoadSave(player, board, waveManager)
         --     board:AddTower(tower.name, tower.position, false)
         -- end
 
+        --encode table of all towers into a BIG string
+
         -- assign laser properties
         ORBITAL_LASER:SetNetworkedCustomProperty("Damage", data.laser.damage)
         ORBITAL_LASER:SetNetworkedCustomProperty("Radius", data.laser.radius)
@@ -135,8 +137,18 @@ function LoadSave(player, board, waveManager)
         -- add gems to wallet
         player:SetResource("GEMS", data.gems)
 
+        -- set net hub health
+        NET_HUB:SetNetworkedCustomProperty("HubHealth", data.hubHealth)
+
         -- set wave index on wave manager
         waveManager:RedoWaveIndex(data.waveNum)
+        
+    end
+end
+
+function EncodeTowers(towers)
+    local encodedData = nil
+    for i, tower in pairs(towers) do
         
     end
 end
