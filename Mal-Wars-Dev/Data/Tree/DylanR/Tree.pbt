@@ -1172,38 +1172,6 @@ Objects {
   }
 }
 Objects {
-  Id: 5820702334396238056
-  Name: "ChannelsTEMPORARY"
-  Transform {
-    Location {
-      X: -6010.06
-      Y: -1.19503784
-      Z: -50
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15062001147149131720
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "ChannelsTEMPORARY"
-  }
-}
-Objects {
   Id: 9727394318699712712
   Name: "AoE Tower Placement Effects"
   Transform {
