@@ -6,6 +6,7 @@ Objects {
   Transform {
     Location {
       X: -6000
+      Z: -88.8691406
     }
     Rotation {
     }
@@ -155,7 +156,7 @@ Objects {
   }
   ParentId: 8324161319524091147
   ChildIds: 2074308503116049477
-  ChildIds: 14489510459068001269
+  ChildIds: 8774478298169147506
   ChildIds: 937814005387244073
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -222,7 +223,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14489510459068001269
+  Id: 8774478298169147506
   Name: "Bevel_Path"
   Transform {
     Scale {
@@ -232,44 +233,48 @@ Objects {
     }
   }
   ParentId: 8488411900768639064
-  CameraCollidable {
+  Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 4548963664257115455
+      key: 15715088021643346016
       value {
         Overrides {
           Name: "Name"
           String: "Bevel_Path"
         }
         Overrides {
-          Name: "Scale"
-          Vector {
-            X: -1
-            Y: -1
-            Z: -1
-          }
-        }
-        Overrides {
           Name: "Position"
           Vector {
-            X: 2230.71582
+            X: 2230.71606
             Y: -2215.31738
-            Z: 50
+            Z: 50.0000038
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -90
-            Roll: 180
+            Pitch: 1.36603776e-05
+            Yaw: -180
+            Roll: -180
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: -1
+            Z: -1
           }
         }
       }
     }
     TemplateAsset {
-      Id: 17682285057788558240
+      Id: 13278643246804230371
     }
   }
 }

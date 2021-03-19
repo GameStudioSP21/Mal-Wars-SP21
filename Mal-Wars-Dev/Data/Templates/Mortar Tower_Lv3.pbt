@@ -4276,7 +4276,7 @@ Assets {
         Name: "Sci-fi Ship Engine 01"
         Transform {
           Location {
-            Y: -0.000122070313
+            Y: -0.000122070312
             Z: -0.000244140625
           }
           Rotation {
@@ -4582,7 +4582,7 @@ Assets {
           Location {
             X: -3.05175781e-05
             Y: 35.2158203
-            Z: -0.00219726563
+            Z: -0.00219726562
           }
           Rotation {
             Yaw: 25.7749863
@@ -4673,7 +4673,7 @@ Assets {
         Name: "Sci-fi Cockpit Control Terminal 01"
         Transform {
           Location {
-            X: 21.3969727
+            X: 21.3969726
             Y: 44.5732422
             Z: -34.9482422
           }
@@ -5392,7 +5392,7 @@ Assets {
         Transform {
           Location {
             X: -35.0036583
-            Y: -0.000610351563
+            Y: -0.000610351562
             Z: 80
           }
           Rotation {
@@ -5450,7 +5450,7 @@ Assets {
         Transform {
           Location {
             X: 224.997986
-            Y: 217.785645
+            Y: 217.785644
             Z: -20
           }
           Rotation {
@@ -5764,7 +5764,7 @@ Assets {
         Transform {
           Location {
             X: -35.0036583
-            Y: -0.000610351563
+            Y: -0.000610351562
             Z: 80
           }
           Rotation {
@@ -6136,7 +6136,7 @@ Assets {
         Transform {
           Location {
             X: -35.0036583
-            Y: -0.000610351563
+            Y: -0.000610351562
             Z: 80
           }
           Rotation {
