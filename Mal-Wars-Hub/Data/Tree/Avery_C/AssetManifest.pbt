@@ -17,24 +17,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15004977114115670754
-  Name: "Prism - 3-Sided"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prism_001"
-  }
-}
-Assets {
-  Id: 14921151049607929236
-  Name: "Wedge"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_wedge_001"
-  }
-}
-Assets {
   Id: 14610682697426536564
   Name: "Prism - 6-Sided Half"
   PlatformAssetType: 1
@@ -125,15 +107,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7875268209733581835
-  Name: "Glass 01 (no distortion)"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_basic_glass_001"
-  }
-}
-Assets {
   Id: 6186965317364877061
   Name: "Pipe - T-Intersection"
   PlatformAssetType: 1
@@ -158,14 +131,5 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "fxmi_add_edgeline_sharpline_topfade"
-  }
-}
-Assets {
-  Id: 2740323428973168817
-  Name: "Cube - Bottom-Aligned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_001"
   }
 }
