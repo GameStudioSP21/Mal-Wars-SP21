@@ -1,5 +1,5 @@
 local GemWallet = require("E00FCC2775D5EB06")
-
+local CoolEffect = require("3FA32407A403C36C")
 Tooltips = {}
 
 local root = World.FindObjectById('E3216DC1771A66B2')

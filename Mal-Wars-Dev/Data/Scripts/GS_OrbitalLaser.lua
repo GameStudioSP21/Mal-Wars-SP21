@@ -1,6 +1,6 @@
 local LASER_FX = script:GetCustomProperty("LaserBeamVFX")
 local GAME_MANAGER = require(script:GetCustomProperty("TowerDefenders_GameManager"))
-
+local CoolEffect = require("3FA32407A403C36C")
 --local RADIAL_VIEW = require(script:GetCustomProperty("TowerDefenders_RadialView"))
 local ProgressBar = script:GetCustomProperty("UIProgressBar"):WaitForObject()
 local COOL_DOWN_TIMER = script:GetCustomProperty("CoolDownTimer")
@@ -29,10 +29,12 @@ function OnBindingPressed(LOCAL_PLAYER, binding)
                 DamageEnemies(hitResult)
                 onCoolDown = true
                 ProgressBar.progress = 0
+                CoolEffect:Play(CoolEffect.sound01)
                 Task.Wait(COOL_DOWN_TIMER)
                 -- timeAtFire = time()
                 -- UpdateProgressBar()
                 onCoolDown = false
+                CoolEffect:Play(CoolEffect.sound02)
             else
                 print("hit result nil")
             end
@@ -59,13 +61,14 @@ function CheckView()
 end
 
 function DamageEnemies(hitResult)
+	CoolEffect:Play(CoolEffect.sound03)
     Events.BroadcastToServer("OLD", hitResult:GetImpactPosition())
 end
 
 function PlayAnimation(hitPos) 
     --LASER_VFX:SetWorldPosition(hitPos)
     -- LASER_VFX.visibilty = Visibility.FORCE_ON
-    
+    CoolEffect:Play(CoolEffect.sound04)
 
     local laser69 
     laser69 = World.SpawnAsset(LASER_FX, {position = hitPos})

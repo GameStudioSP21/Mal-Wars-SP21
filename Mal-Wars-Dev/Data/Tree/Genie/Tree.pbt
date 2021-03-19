@@ -1,6 +1,46 @@
 Name: "Genie"
 RootId: 17279088920053467177
 Objects {
+  Id: 3369817896675339827
+  Name: "uiCoolEffect"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17279088920053467177
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3334356302942002443
+      value {
+        Overrides {
+          Name: "Name"
+          String: "uiCoolEffect"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 17226620221455157735
+    }
+  }
+}
+Objects {
   Id: 7824200590109447002
   Name: "uiTooltips"
   Transform {
