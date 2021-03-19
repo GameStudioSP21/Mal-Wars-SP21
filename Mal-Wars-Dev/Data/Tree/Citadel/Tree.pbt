@@ -443,7 +443,7 @@ Objects {
     }
     Overrides {
       Name: "cs:WavePayout"
-      Int: 0
+      Int: 999
     }
     Overrides {
       Name: "cs:SpawnDelay:tooltip"
