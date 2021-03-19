@@ -47,7 +47,7 @@ Assets {
           Location {
             X: 0.288208
             Y: 0.728027344
-            Z: 6.10351562e-05
+            Z: 6.10351563e-05
           }
           Rotation {
             Pitch: 90
@@ -9186,7 +9186,7 @@ Assets {
           Location {
             X: 7.31195068
             Y: 0.728027344
-            Z: 6.10351562e-05
+            Z: 6.10351563e-05
           }
           Rotation {
             Pitch: 90
@@ -9520,7 +9520,7 @@ Assets {
         Transform {
           Location {
             X: 5.55702209
-            Y: 306.188476
+            Y: 306.188477
             Z: 646.986572
           }
           Rotation {

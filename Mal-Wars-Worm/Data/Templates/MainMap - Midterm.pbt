@@ -1398,7 +1398,7 @@ Assets {
         Transform {
           Location {
             X: -7576.50391
-            Y: -1561.97559
+            Y: -1561.97558
             Z: -107.043518
           }
           Rotation {
@@ -1448,7 +1448,7 @@ Assets {
         Name: "GenericAnchor"
         Transform {
           Location {
-            X: -3916.00977
+            X: -3916.00976
             Y: 898.807373
             Z: -59.2177734
           }
@@ -2459,7 +2459,7 @@ Assets {
         Name: "GenericAnchor"
         Transform {
           Location {
-            X: 8170.16309
+            X: 8170.16308
             Y: 5286.59082
             Z: -49.404541
           }
@@ -2817,7 +2817,7 @@ Assets {
         Transform {
           Location {
             X: 4744.90039
-            Y: 3508.46729
+            Y: 3508.46728
             Z: -68.7392578
           }
           Rotation {
@@ -54759,7 +54759,7 @@ Assets {
         Name: "Sci-fi Trim 01"
         Transform {
           Location {
-            X: 2562.64063
+            X: 2562.64062
             Y: 485.50174
             Z: 815.000916
           }
@@ -58948,7 +58948,7 @@ Assets {
         Name: "Sci-fi Trim 01"
         Transform {
           Location {
-            X: 2562.64063
+            X: 2562.64062
             Y: 485.50174
             Z: 815.000916
           }
@@ -66052,7 +66052,7 @@ Assets {
         Name: "Sci-fi Trim 01"
         Transform {
           Location {
-            X: 2562.64063
+            X: 2562.64062
             Y: 485.50174
             Z: 815.000916
           }
@@ -70241,7 +70241,7 @@ Assets {
         Name: "Sci-fi Trim 01"
         Transform {
           Location {
-            X: 2562.64063
+            X: 2562.64062
             Y: 485.50174
             Z: 815.000916
           }
@@ -72061,7 +72061,7 @@ Assets {
         Transform {
           Location {
             X: -1650.2002
-            Y: 7474.80811
+            Y: 7474.8081
             Z: -166.515198
           }
           Rotation {
@@ -74973,7 +74973,7 @@ Assets {
         Name: "Plateform_Angle"
         Transform {
           Location {
-            X: -6069.60059
+            X: -6069.60058
             Y: 7546.44
             Z: -166.515137
           }

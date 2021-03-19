@@ -1,4 +1,4 @@
---local TURRET_ROOT = script:GetCustomProperty("Turret_root"):WaitForObject()
+local TURRET_ROOT = script:GetCustomProperty("Turret_root"):WaitForObject()
 
 -- ease3D script required for movement of any parts
 local Ease3D = require(script:GetCustomProperty("Ease3D"))
@@ -14,7 +14,7 @@ local AMMO = script:GetCustomProperty("Ammo"):WaitForObject()
 -- needs to wait for some reason(?)
 -- tower data might not be available immediately
 Task.Wait()
---local ourTower = TURRET_ROOT.clientUserData.tower
+local ourTower = TURRET_ROOT.clientUserData.tower
 
 -- we already have access to ourTower
 --local relSpeed = ourTower:GetStat("Speed")
@@ -27,15 +27,15 @@ local PivotPosition = PIVOT:GetPosition()
 local MagPosition = MAGAZINE:GetPosition()
 local AmmoPosition = AMMO:GetPosition()
     
---ourTower.OnFired:Connect(function() 
-function Tick()
+ourTower.OnFired:Connect(function() 
+--function Tick()
     print('Firing gun...')
     local AmmoRotation = AMMO:GetRotation()
-    Task.Wait(1)
+    --Task.Wait(1)
     --Anticipation before firing
-    Ease3D.EasePosition(BARREL, (initialPosition + Vector3.New(15, 0, 0)), 1, Ease3D.EasingEquation.SINE, Ease3D.EasingDirection.INOUT)
+    --Ease3D.EasePosition(BARREL, (initialPosition + Vector3.New(15, 0, 0)), 1, Ease3D.EasingEquation.SINE, Ease3D.EasingDirection.INOUT)
     --Ease3D.EaseRotation(VERTROT, Rotation.New(0, 50, 0), 1, Ease3D.EasingEquation.CUBIC, Ease3D.EasingDirection.OUT)
-    Task.Wait(1)
+    --Task.Wait(1)
     --Firing should be quick
     Ease3D.EasePosition(BARREL, (initialPosition - Vector3.New(120, 0, 0)), 0.1, Ease3D.EasingEquation.BACK, Ease3D.EasingDirection.OUT)
     Task.Wait(.11)
@@ -61,5 +61,5 @@ function Tick()
     Ease3D.EasePosition(AMMO, AmmoPosition, .5, Ease3D.EasingEquation.CUBIC, Ease3D.EasingDirection.OUT)
     Task.Wait(.4)
     Ease3D.EasePosition(MAGAZINE, MagPosition, .5, Ease3D.EasingEquation.BOUNCE, Ease3D.EasingDirection.OUT)
-end
---end)
+--end
+end)

@@ -33,7 +33,7 @@ Assets {
           }
           Overrides {
             Name: "cs:CurrentHealth"
-            Float: 5
+            Float: 10
           }
           Overrides {
             Name: "cs:MoveSpeed"
@@ -622,6 +622,12 @@ Assets {
             Name: "cs:ForwardNode"
             ObjectReference {
               SubObjectId: 16697826837440770313
+            }
+          }
+          Overrides {
+            Name: "cs:DestroyedVFX"
+            AssetReference {
+              Id: 8272698281612730862
             }
           }
         }
@@ -1319,7 +1325,7 @@ Assets {
         Name: "Coral Branches Small"
         Transform {
           Location {
-            X: 24.5507812
+            X: 24.5507813
             Y: 261.806641
             Z: 32.7275391
           }
@@ -1383,7 +1389,7 @@ Assets {
         Transform {
           Location {
             X: 28.2275391
-            Y: 276.851562
+            Y: 276.851563
             Z: 17.5639648
           }
           Rotation {
@@ -2211,7 +2217,7 @@ Assets {
         Transform {
           Location {
             X: -23.6972656
-            Y: 266.226562
+            Y: 266.226563
             Z: 18.8432617
           }
           Rotation {

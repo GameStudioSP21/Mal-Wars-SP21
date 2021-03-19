@@ -150,10 +150,7 @@ end
 
 -- When called the current wave stack will be refreshed from a saved copy. All wave states will be back to their inital values.
 function WaveManager:ResetWaveStack()
-    self.waveStack = {}
-    for _, savedWave in pairs(self.savedWaveStack) do
-        table.insert(self.waveStack,self:Copy(savedWave))
-    end
+    self.waveStack = self:Copy(self.savedWaveStack)
 end
 
 -- Progresses the current wave by removing off the top of the wave stack.

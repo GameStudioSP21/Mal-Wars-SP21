@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 8512805858169632350
         ChildIds: 231791474475839001
         UnregisteredParameters {
           Overrides {
@@ -33,7 +33,7 @@ Assets {
           Overrides {
             Name: "cs:Muzzle"
             ObjectReference {
-              SelfId: 841534158063459245
+              SubObjectId: 10201914475493489945
             }
           }
         }
@@ -143,13 +143,18 @@ Assets {
           Overrides {
             Name: "cs:Turret_root"
             ObjectReference {
-              SubObjectId: 4523985458823637261
+              SubObjectId: 16131273036678633745
             }
           }
           Overrides {
             Name: "cs:Barrel"
             ObjectReference {
               SubObjectId: 2827304889154251437
+            }
+          }
+          Overrides {
+            Name: "cs:Pivot"
+            ObjectReference {
             }
           }
         }
@@ -2117,7 +2122,7 @@ Assets {
         Name: "Sci-fi Ship Engine 01"
         Transform {
           Location {
-            Y: -0.000122070312
+            Y: -0.000122070313
             Z: -0.000244140625
           }
           Rotation {
