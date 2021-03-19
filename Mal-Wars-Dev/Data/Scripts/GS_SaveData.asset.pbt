@@ -7,7 +7,13 @@ Assets {
       Overrides {
         Name: "cs:TowerDefenders_GameManager"
         AssetReference {
-          Id: 2684181705187205323
+          Id: 16922964282924116369
+        }
+      }
+      Overrides {
+        Name: "cs:TowerDatabase"
+        AssetReference {
+          Id: 7419352943805787130
         }
       }
     }
