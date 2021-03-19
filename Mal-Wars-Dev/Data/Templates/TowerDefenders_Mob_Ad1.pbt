@@ -624,6 +624,12 @@ Assets {
               SubObjectId: 1851438399598120376
             }
           }
+          Overrides {
+            Name: "cs:DestroyedVFX"
+            AssetReference {
+              Id: 8272698281612730862
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"

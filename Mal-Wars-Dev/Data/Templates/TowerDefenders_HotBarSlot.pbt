@@ -15,9 +15,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 2627425445233643571
-        ChildIds: 15593991234335315469
-        ChildIds: 16321904843654340061
+        ParentId: 7732915126683645907
+        ChildIds: 6207326709131978749
+        ChildIds: 3479079168797397805
+        ChildIds: 3884539629116136755
+        ChildIds: 6205070036390668351
         ChildIds: 8854590730564639316
         ChildIds: 1365805321114563690
         ChildIds: 3828586942098024263
@@ -59,10 +61,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:forceon"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -93,8 +92,8 @@ Assets {
         }
       }
       Objects {
-        Id: 15593991234335315469
-        Name: "UI Image"
+        Id: 6207326709131978749
+        Name: "Fade"
         Transform {
           Location {
           }
@@ -117,9 +116,8 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Control {
-          Width: 111
-          Height: 5
-          UIY: 94.2714844
+          Width: 142
+          Height: 200
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -127,11 +125,11 @@ Assets {
           }
           Image {
             Brush {
-              Id: 14181907923780825424
+              Id: 16297094358569992731
             }
             Color {
-              G: 0.403774858
-              B: 0.909999967
+              G: 0.0258277692
+              B: 0.39
               A: 1
             }
             TeamSettings {
@@ -152,7 +150,7 @@ Assets {
         }
       }
       Objects {
-        Id: 16321904843654340061
+        Id: 3479079168797397805
         Name: "UI Image"
         Transform {
           Location {
@@ -176,8 +174,9 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Control {
-          Width: 124
-          Height: 200
+          Width: 110
+          Height: 15
+          UIY: 88
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -185,13 +184,135 @@ Assets {
           }
           Image {
             Brush {
-              Id: 17035680932399989717
+              Id: 7913378159893191242
             }
             Color {
-              R: 0.0799999833
-              G: 0.707549572
+              R: 0.00500000035
+              G: 0.869
               B: 1
-              A: 0.217000008
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 3884539629116136755
+        Name: "UI Image"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8769998820704105947
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Control {
+          Width: 6
+          Height: 148
+          UIX: -62.5432129
+          UIY: 2.71868896
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Image {
+            Brush {
+              Id: 7913378159893191242
+            }
+            Color {
+              R: 0.00500000035
+              G: 0.869
+              B: 1
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 6205070036390668351
+        Name: "UI Image"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8769998820704105947
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Control {
+          Width: 6
+          Height: 148
+          UIX: 63.902832
+          UIY: 2.71868896
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Image {
+            Brush {
+              Id: 7913378159893191242
+            }
+            Color {
+              R: 0.00500000035
+              G: 0.869
+              B: 1
+              A: 1
             }
             TeamSettings {
             }
@@ -539,21 +660,21 @@ Assets {
       }
     }
     Assets {
-      Id: 14181907923780825424
-      Name: "BG Gradient 004"
+      Id: 16297094358569992731
+      Name: "BG Highlighted 003"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "BackgroundFlat_022"
+        AssetId: "BackgroundHighlighted_021"
       }
     }
     Assets {
-      Id: 17035680932399989717
-      Name: "BG Highlighted 001"
+      Id: 7913378159893191242
+      Name: "BG Highlighted 006"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "BackgroundHighlighted_020"
+        AssetId: "BackgroundHighlighted_015"
       }
     }
     Assets {

@@ -24,39 +24,7 @@ Assets {
       }
       Overrides {
         Name: "overall brightness"
-        Float: 2.35373235
-      }
-      Overrides {
-        Name: "edge line brightness"
-        Float: 20.3522301
-      }
-      Overrides {
-        Name: "vertical fade"
-        Float: 6.52601957
-      }
-      Overrides {
-        Name: "fresnel"
-        Float: 2.23038387
-      }
-      Overrides {
-        Name: "fresnel brightness"
-        Float: 18.4817314
-      }
-      Overrides {
-        Name: "noise sharpness"
-        Float: 0.282967329
-      }
-      Overrides {
-        Name: "noise scale"
-        Float: 1.41483665
-      }
-      Overrides {
-        Name: "edge line sharpness"
-        Float: 0.622414231
-      }
-      Overrides {
-        Name: "edge line spread"
-        Float: 514.080078
+        Float: 1.12594569
       }
     }
     Assets {

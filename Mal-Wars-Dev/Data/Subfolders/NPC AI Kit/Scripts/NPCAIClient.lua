@@ -15,7 +15,10 @@ local MOVE_SPEED = ROOT:GetCustomProperty("MoveSpeed") or 400
 local TURN_SPEED = ROOT:GetCustomProperty("TurnSpeed") or 2
 local PATROL_SPEED = ROOT:GetCustomProperty("PatrolSpeed") or (MOVE_SPEED / 3)
 
+local DESTROY_VFX = script:GetCustomProperty("DestroyedVFX")
+
 function OnDestroyed(obj)
+	World.SpawnAsset(DESTROY_VFX,{ position = GEO_ROOT:GetWorldPosition() })
 	GEO_ROOT:StopMove()
 	GEO_ROOT:StopRotate()
 	GEO_ROOT:Destroy()

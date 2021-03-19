@@ -33,7 +33,7 @@ Assets {
           }
           Overrides {
             Name: "cs:CurrentHealth"
-            Float: 5
+            Float: 10
           }
           Overrides {
             Name: "cs:MoveSpeed"
@@ -622,6 +622,12 @@ Assets {
             Name: "cs:ForwardNode"
             ObjectReference {
               SubObjectId: 16697826837440770313
+            }
+          }
+          Overrides {
+            Name: "cs:DestroyedVFX"
+            AssetReference {
+              Id: 8272698281612730862
             }
           }
         }

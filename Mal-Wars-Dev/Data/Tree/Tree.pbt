@@ -19,15 +19,8 @@ Objects {
   ChildIds: 14293579930613948469
   ChildIds: 10005074784157121906
   ChildIds: 10722931758594424760
-  ChildIds: 8512805858169632350
   ChildIds: 15885606419812222058
-  ChildIds: 5227196607774786266
-  ChildIds: 4270494340367389766
-  ChildIds: 10009442839646208636
-  ChildIds: 95203013215460655
-  ChildIds: 4211680540756996700
-  ChildIds: 3631326633161962334
-  ChildIds: 7693439673052494072
+  ChildIds: 2880498746515435782
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -43,135 +36,13 @@ Objects {
   }
 }
 Objects {
-  Id: 7693439673052494072
-  Name: "Laser Beam VFX"
+  Id: 2880498746515435782
+  Name: "DestroyClientTower"
   Transform {
     Location {
-      X: -10207.3184
-      Y: 23452.2734
-      Z: 11.7639771
     }
     Rotation {
     }
-    Scale {
-      X: 0.625581741
-      Y: 0.625581741
-      Z: 0.625581741
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Beam Length"
-      Float: 500
-    }
-    Overrides {
-      Name: "bp:Beam Width Scale"
-      Float: 1.09249282
-    }
-    Overrides {
-      Name: "bp:Local Space"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Spiral Width Multiplier"
-      Float: 0.391469032
-    }
-    Overrides {
-      Name: "bp:Spiral Rotation Multiplier"
-      Int: 5
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 15874520629520316333
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 3631326633161962334
-  Name: "Laser Beam VFX"
-  Transform {
-    Location {
-      X: -10458.5752
-      Y: 23452.2734
-      Z: 223.286926
-    }
-    Rotation {
-    }
-    Scale {
-      X: 5.01471186
-      Y: 5.01471186
-      Z: 5.01471186
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Beam Length"
-      Float: 500
-    }
-    Overrides {
-      Name: "bp:Beam Width Scale"
-      Float: 1.09249282
-    }
-    Overrides {
-      Name: "bp:Local Space"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Spiral Width Multiplier"
-      Float: 0.391469032
-    }
-    Overrides {
-      Name: "bp:Spiral Rotation Multiplier"
-      Int: 5
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 15874520629520316333
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 4211680540756996700
-  Name: "BevelFlipped_Path"
-  Transform {
     Scale {
       X: 1
       Y: 1
@@ -179,236 +50,54 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  ChildIds: 10636913094630463375
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-<<<<<<< Updated upstream
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   NetworkContext {
-=======
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 4548963664257115455
-      value {
-        Overrides {
-          Name: "Name"
-          String: "BevelFlipped_Path"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -9864.5293
-            Y: 24035.4102
-            Z: 100
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 14354538748138618336
-    }
->>>>>>> Stashed changes
   }
 }
 Objects {
-  Id: 95203013215460655
-  Name: "Octagon_Path"
+  Id: 10636913094630463375
+  Name: "DestroyTowerClient"
   Transform {
+    Location {
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 8915900068762014425
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Octagon_Path"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -6259.24219
-            Y: 30917.7461
-            Z: 100
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
+  ParentId: 2880498746515435782
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:TowerDefenders_GameManager"
+      AssetReference {
+        Id: 16922964282924116369
       }
     }
-    TemplateAsset {
-      Id: 14010634432504038220
-    }
   }
-}
-Objects {
-  Id: 10009442839646208636
-  Name: "StraightV2_Path"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 1444108161883601747
-      value {
-        Overrides {
-          Name: "Name"
-          String: "StraightV2_Path"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -6256.42285
-            Y: 28259.5195
-            Z: 100
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -90
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5103973752602277390
-    }
-  }
-}
-Objects {
-  Id: 4270494340367389766
-  Name: "AngleV2_Path"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-<<<<<<< Updated upstream
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Script {
     ScriptAsset {
       Id: 9025650862823812799
-=======
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 4596735510687181324
-      value {
-        Overrides {
-          Name: "Name"
-          String: "AngleV2_Path"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -6270.72266
-            Y: 24817.3125
-            Z: 100
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 180
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 1197293901643118191
-    }
-  }
-}
-Objects {
-  Id: 5227196607774786266
-  Name: "AngleV2Flipped_Path"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 16141471332909758295
-      value {
-        Overrides {
-          Name: "Name"
-          String: "AngleV2Flipped_Path"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -10652.7666
-            Y: 17467.377
-            Z: 97.4933167
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 90
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 8308661542673421801
->>>>>>> Stashed changes
     }
   }
 }
@@ -460,37 +149,6 @@ Objects {
     TemplateAsset {
       Id: 16462681254409379470
     }
-  }
-}
-Objects {
-  Id: 8512805858169632350
-  Name: "Towers"
-  Transform {
-    Location {
-      X: -325.981445
-      Y: 2653.92407
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Towers"
   }
 }
 Objects {

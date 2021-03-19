@@ -1,6 +1,6 @@
 Assets {
-  Id: 16544962652140379644
-  Name: "GraidentStrobe"
+  Id: 15712913469023082707
+  Name: "test"
   PlatformAssetType: 3
   TextAsset {
   }

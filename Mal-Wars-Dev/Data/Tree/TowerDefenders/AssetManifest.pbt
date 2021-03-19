@@ -1,19 +1,10 @@
 Assets {
-  Id: 18184639243249095456
+  Id: 18205901165277488059
   Name: "UI Basic Frame 001"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Basic_Frame_001"
-  }
-}
-Assets {
-  Id: 17217203953804637702
-  Name: "Oswald"
-  PlatformAssetType: 28
-  PrimaryAsset {
-    AssetType: "FontAssetRef"
-    AssetId: "OswaldRegular_ref"
   }
 }
 Assets {
@@ -35,15 +26,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16764442322436066450
-  Name: "BG Flat 015"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "BackgroundNoOutline_32"
-  }
-}
-Assets {
   Id: 16221751307075850195
   Name: "UI Gradient Rectangular 001"
   PlatformAssetType: 9
@@ -53,12 +35,21 @@ Assets {
   }
 }
 Assets {
-  Id: 16197024018348387028
-  Name: "BG Gradient 013"
+  Id: 16011685488087387900
+  Name: "Center Tri 001"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "BackgroundFlat_030"
+    AssetId: "CenterTri_001"
+  }
+}
+Assets {
+  Id: 15831142259196879974
+  Name: "UI Basic Frame 005"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Basic_Frame_005"
   }
 }
 Assets {
@@ -71,15 +62,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14672783022125787558
-  Name: "Frame Highlighted 003"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "FrameHighlighted_021"
-  }
-}
-Assets {
   Id: 14461161754893801878
   Name: "BG Gradient 001"
   PlatformAssetType: 9
@@ -89,12 +71,12 @@ Assets {
   }
 }
 Assets {
-  Id: 14181907923780825424
-  Name: "BG Gradient 004"
+  Id: 13817669737259290315
+  Name: "BG Gradient 015"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "BackgroundFlat_022"
+    AssetId: "BackgroundFlat_032"
   }
 }
 Assets {
@@ -116,15 +98,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12012348962245101013
-  Name: "Emblem 002"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Military_Icon_052"
-  }
-}
-Assets {
   Id: 10430942501047658489
   Name: "BG Flat 002"
   PlatformAssetType: 9
@@ -143,48 +116,12 @@ Assets {
   }
 }
 Assets {
-  Id: 9641893826738972339
-  Name: "BG Flat 016"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "BackgroundNoOutline_33"
-  }
-}
-Assets {
-  Id: 9311484315571525511
-  Name: "BG Highlighted 016"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "BackgroundHighlighted_033"
-  }
-}
-Assets {
-  Id: 9242740550832368011
-  Name: "UI Gradient Circular 001"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Basic_Shape_001"
-  }
-}
-Assets {
   Id: 8699906241964362491
   Name: "Teko Bold"
   PlatformAssetType: 28
   PrimaryAsset {
     AssetType: "FontAssetRef"
     AssetId: "TekoBold_ref"
-  }
-}
-Assets {
-  Id: 8630064686706403431
-  Name: "BG Flat 003"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "BackgroundNoOutline_21"
   }
 }
 Assets {
@@ -197,12 +134,12 @@ Assets {
   }
 }
 Assets {
-  Id: 7529887695245466286
-  Name: "Icon Alert"
+  Id: 7913378159893191242
+  Name: "BG Highlighted 006"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_Alert"
+    AssetId: "BackgroundHighlighted_015"
   }
 }
 Assets {
@@ -224,6 +161,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5740528680513513125
+  Name: "Sci-fi Frame 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Scifi_Frame_002"
+  }
+}
+Assets {
   Id: 5691790018053066092
   Name: "Center Arrow 004 Wedge"
   PlatformAssetType: 9
@@ -242,12 +188,12 @@ Assets {
   }
 }
 Assets {
-  Id: 3804068402321992611
-  Name: "Corner Beveled 010"
+  Id: 4862799867033268077
+  Name: "BG Gradient 016"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "CornerBeveled_010"
+    AssetId: "BackgroundFlat_033"
   }
 }
 Assets {
@@ -260,15 +206,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3158308427558335058
-  Name: "Sci-fi Frame 002"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Scifi_Frame_002"
-  }
-}
-Assets {
   Id: 3065298231171894533
   Name: "Teko Light"
   PlatformAssetType: 28
@@ -278,21 +215,21 @@ Assets {
   }
 }
 Assets {
+  Id: 2626267817006011674
+  Name: "Play Bold"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "PlayBold_ref"
+  }
+}
+Assets {
   Id: 1477577173296343396
   Name: "BG Gradient 010"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "BackgroundFlat_027"
-  }
-}
-Assets {
-  Id: 1061887584718928171
-  Name: "UI Basic Shape Triangle"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Basic_Shape_Triangle"
   }
 }
 Assets {
