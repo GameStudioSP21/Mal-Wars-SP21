@@ -85,7 +85,7 @@ Assets {
         Name: "UI Image"
         Transform {
           Location {
-            X: -5189.53808
+            X: -5189.53809
             Y: 2467.22754
             Z: -1301.5415
           }

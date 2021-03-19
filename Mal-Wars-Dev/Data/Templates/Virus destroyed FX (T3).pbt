@@ -18,6 +18,9 @@ Assets {
         ParentId: 4781671109827199097
         ChildIds: 6145573014342089127
         ChildIds: 1115218300148748763
+        ChildIds: 14710525427919025101
+        ChildIds: 13598529876280505654
+        Lifespan: 3
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -63,7 +66,7 @@ Assets {
           }
           Overrides {
             Name: "bp:Gravity"
-            Float: -3
+            Float: 5.78750515
           }
           Overrides {
             Name: "bp:Life"
@@ -100,10 +103,11 @@ Assets {
           TeamSettings {
           }
           Vfx {
+            AutoPlay: true
           }
         }
         Relevance {
-          Value: "mc:eproxyrelevance:critical"
+          Value: "mc:eproxyrelevance:medium"
         }
       }
       Objects {
@@ -155,10 +159,93 @@ Assets {
           TeamSettings {
           }
           Vfx {
+            AutoPlay: true
           }
         }
         Relevance {
           Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 14710525427919025101
+        Name: "Balloon Pop Explode Burst 03 SFX"
+        Transform {
+          Location {
+            X: -272.75
+            Y: -426.011
+            Z: -218.775116
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2478729143987170680
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 3970178774572022008
+          }
+          AutoPlay: true
+          Transient: true
+          Pitch: -172.896
+          Volume: 2.56379747
+          Falloff: 4000
+          Radius: 3000
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
+        }
+      }
+      Objects {
+        Id: 13598529876280505654
+        Name: "Sci-fi Mech Robotic Glitchy Sequence Randomized 01 SFX"
+        Transform {
+          Location {
+            X: -272.75
+            Y: -426.011
+            Z: -218.775116
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2478729143987170680
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 13286220018306394914
+          }
+          AutoPlay: true
+          Transient: true
+          Pitch: -940.143555
+          Volume: 3.52285695
+          Falloff: 4000
+          Radius: 3000
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
         }
       }
     }
@@ -178,6 +265,24 @@ Assets {
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
         AssetId: "fxbp_plasma_impact"
+      }
+    }
+    Assets {
+      Id: 3970178774572022008
+      Name: "Balloon Pop Explode Burst 03 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_balloon_pop_explode_burst_03_Cue_ref"
+      }
+    }
+    Assets {
+      Id: 13286220018306394914
+      Name: "Sci-fi Mech Robotic Glitchy Sequence Randomized 01 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_scifi_mech_robotic_glitchy_sequence_randomized_01_Cue_ref"
       }
     }
     PrimaryAssetId {

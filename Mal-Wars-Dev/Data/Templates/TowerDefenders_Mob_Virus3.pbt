@@ -624,6 +624,12 @@ Assets {
               SubObjectId: 3959947134571901165
             }
           }
+          Overrides {
+            Name: "cs:DestroyedVFX"
+            AssetReference {
+              Id: 3649745444326025272
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -5651,7 +5657,7 @@ Assets {
         Name: "LegLift"
         Transform {
           Location {
-            X: -104.632812
+            X: -104.632813
             Y: 40.4859619
             Z: 52.6731873
           }

@@ -624,6 +624,12 @@ Assets {
               SubObjectId: 10811125277418311280
             }
           }
+          Overrides {
+            Name: "cs:DestroyedVFX"
+            AssetReference {
+              Id: 17141310704331956643
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -800,7 +806,7 @@ Assets {
         Name: "AdT2"
         Transform {
           Location {
-            Y: 14.6445312
+            Y: 14.6445313
           }
           Rotation {
             Yaw: -90

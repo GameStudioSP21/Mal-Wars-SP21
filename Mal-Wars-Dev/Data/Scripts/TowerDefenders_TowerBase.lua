@@ -329,7 +329,7 @@ function Tower:HorizontalRotation(target)
     local dir = (self:GetWorldPosition() - target:GetWorldPosition()):GetNormalized()
     local angle = math.atan(dir.x,dir.y)
     local hr = Rotation.New(0,0,-math.deg(angle)+270)
-    self._horizontalRotator:RotateTo(hr,0.2,false)
+    self._horizontalRotator:RotateTo(hr,0,false)
 end
 
 function Tower:VerticalRotation(target)
@@ -338,7 +338,7 @@ function Tower:VerticalRotation(target)
     local hr = Rotation.New(0,0,-math.deg(angle)+270)
     local angle = math.atan(dir.z)
     local r = hr + Rotation.New(0,-math.deg(angle),0)
-    self._verticalRotator:RotateTo(r,0.2,false)
+    self._verticalRotator:RotateTo(r,0,false)
 end
 
 function Tower:FireFakeProjectile(target)
@@ -456,10 +456,9 @@ function Tower:_Runtime()
 
     elseif Environment.IsServer() then
         -- Targeting
-        local targetingRuntime = Task.Spawn(function() 
+        local targetingRuntime = Task.Spawn(function()
             while true do
                 Task.Wait(TARGETING_PERIOD)
-
                 if not self:_HasValidTarget() then
                     self.currentTarget = self:GetTarget()
                 elseif self:_HasValidTarget() then
