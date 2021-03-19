@@ -45,6 +45,7 @@ function WaveManager.New(board,waveManagerObject)
     end
 
     self:_DefineEvent("OnEnemyReachedEnd")
+    self:_DefineEvent("OnBossWaveStarted") -- Fires when a wave is marked as IsBossWave
     --
 
     self.currentPhase = INITAL_PHASE
@@ -306,7 +307,11 @@ function WaveManager:_StepStates()
 
     elseif self:GetCurrentPhase() == MANAGER_PHASE.ATTACKING then
         print("[Wave Manager] Commencing Attack.")
-        Task.Wait(1) 
+        if self:GetCurrentWave():IsBossWave() then
+            self:_FireEvent("OnBossWaveStarted")
+        end
+
+        Task.Wait(1)
 
         -- If the current wave is not cleared and we're still in the attacking phase.
         while not self.currentWave:IsCleared() and self:GetCurrentPhase() == MANAGER_PHASE.ATTACKING do

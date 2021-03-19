@@ -49,6 +49,7 @@ local function InitalizeServerEvents()
         local board = player.serverUserData.activeBoard
         local pos = Vector3.New(x,y,z)
 
+        -- TODO: Get this to be in O(1) instead of O(n)
         for _, tower in pairs(board:GetAllTowers()) do
             if tower:GetWorldPosition() == pos then
                 local owner = tower:GetOwner()
@@ -57,15 +58,6 @@ local function InitalizeServerEvents()
                 break
             end
         end
-
-        -- local tower = TowerDatabase:NewTowerByID(id)
-        -- local pos = Vector3.New(x,y,z)
-        
-        -- tower:SetOwner(player)
-        -- tower:SetBoard(board)
-        -- local ID = tower:GetID()
-        -- board:UpgradeTower(tower,pos,true) -- Networked function don't repeat
-
     end)
 
     -- Remove Tower
@@ -77,6 +69,7 @@ local function InitalizeServerEvents()
         local board = player.serverUserData.activeBoard
         local pos = Vector3.New(x,y,z)
 
+        -- TODO: Get this to be in O(1) instead of O(n)
         for _, tower in pairs(board:GetAllTowers()) do
             if tower:GetWorldPosition() == pos then
                 local owner = tower:GetOwner()
@@ -99,6 +92,7 @@ local function InitalizeServerEvents()
         local board = player.serverUserData.activeBoard
         local pos = Vector3.New(x,y,z)
 
+        -- TODO: Get this to be in O(1) instead of O(n)
         for _, tower in pairs(board:GetAllTowers()) do
             if tower:GetWorldPosition() == pos then
                 local owner = tower:GetOwner()
