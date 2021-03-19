@@ -1,4 +1,4 @@
---local TURRET_ROOT = script:GetCustomProperty("Turret_root"):WaitForObject()
+local TURRET_ROOT = script:GetCustomProperty("Turret_root"):WaitForObject()
 
 -- ease3D script required for movement of any parts
 local Ease3D = require(script:GetCustomProperty("Ease3D"))
@@ -14,7 +14,7 @@ local DRUM2 = script:GetCustomProperty("Drum2"):WaitForObject()
 -- needs to wait for some reason(?)
 -- tower data might not be available immediately
 Task.Wait()
---local ourTower = TURRET_ROOT.clientUserData.tower
+local ourTower = TURRET_ROOT.clientUserData.tower
 
 -- we already have access to ourTower
 --local relSpeed = ourTower:GetStat("Speed")
@@ -25,17 +25,17 @@ local VertPosition = VERTROT:GetPosition()
 local VertRotation = VERTROT:GetRotation()
 local PivotPosition = PIVOT:GetPosition()
 
---ourTower.OnFired:Connect(function() 
-function Tick()
+ourTower.OnFired:Connect(function() 
+--function Tick()
     print('Firing gun...')
     local Drum1Rotation = DRUM1:GetRotation()
     local Drum2Rotation = DRUM2:GetRotation()
-    Task.Wait(1)
+    --Task.Wait(1)
     --Anticipation before firing
-    Ease3D.EasePosition(BARREL, (initialPosition + Vector3.New(10, 0, 0)), 1, Ease3D.EasingEquation.SINE, Ease3D.EasingDirection.INOUT)
+    --Ease3D.EasePosition(BARREL, (initialPosition + Vector3.New(10, 0, 0)), 1, Ease3D.EasingEquation.SINE, Ease3D.EasingDirection.INOUT)
     --Ease3D.EaseRotation(VERTROT, Rotation.New(0, 50, 0), 1, Ease3D.EasingEquation.CUBIC, Ease3D.EasingDirection.OUT)
     Ease3D.EaseRotation(PIVOT, Rotation.New(180, 0, 180), 1, Ease3D.EasingEquation.CUBIC, Ease3D.EasingDirection.INOUT)
-    Task.Wait(1)
+    --Task.Wait(1)
     --Firing should be quick
     Ease3D.EasePosition(BARREL, (initialPosition - Vector3.New(40, 0, 0)), 0.1, Ease3D.EasingEquation.BACK, Ease3D.EasingDirection.OUT)
     Task.Wait(.1)
@@ -58,5 +58,5 @@ function Tick()
     Ease3D.EaseRotation(PIVOT, Rotation.New(360, 0, 180), .8, Ease3D.EasingEquation.ELASTIC, Ease3D.EasingDirection.INOUT)
     Ease3D.EasePosition(PIVOT, PivotPosition, .8, Ease3D.EasingEquation.ELASTIC, Ease3D.EasingDirection.INOUT)
     Task.Wait(.8)
-end
---end)
+--end
+end)
