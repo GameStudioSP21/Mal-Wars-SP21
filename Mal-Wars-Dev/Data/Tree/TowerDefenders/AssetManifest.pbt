@@ -1,4 +1,13 @@
 Assets {
+  Id: 18205901165277488059
+  Name: "UI Basic Frame 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Basic_Frame_001"
+  }
+}
+Assets {
   Id: 17035680932399989717
   Name: "BG Highlighted 001"
   PlatformAssetType: 9
@@ -26,6 +35,24 @@ Assets {
   }
 }
 Assets {
+  Id: 16011685488087387900
+  Name: "Center Tri 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "CenterTri_001"
+  }
+}
+Assets {
+  Id: 15831142259196879974
+  Name: "UI Basic Frame 005"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Basic_Frame_005"
+  }
+}
+Assets {
   Id: 15114558003167156017
   Name: "Frame Beveled 001"
   PlatformAssetType: 9
@@ -41,6 +68,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "BackgroundFlat_020"
+  }
+}
+Assets {
+  Id: 13817669737259290315
+  Name: "BG Gradient 015"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundFlat_032"
   }
 }
 Assets {
@@ -98,6 +134,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7913378159893191242
+  Name: "BG Highlighted 006"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundHighlighted_015"
+  }
+}
+Assets {
   Id: 7307343374490511592
   Name: "BG Flat 001"
   PlatformAssetType: 9
@@ -113,6 +158,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "BackgroundHighlighted_027"
+  }
+}
+Assets {
+  Id: 5740528680513513125
+  Name: "Sci-fi Frame 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Scifi_Frame_002"
   }
 }
 Assets {
@@ -134,6 +188,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4862799867033268077
+  Name: "BG Gradient 016"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundFlat_033"
+  }
+}
+Assets {
   Id: 3648601778459717986
   Name: "Fantasy Craft Gem 007"
   PlatformAssetType: 9
@@ -149,6 +212,15 @@ Assets {
   PrimaryAsset {
     AssetType: "FontAssetRef"
     AssetId: "TekoLight_ref"
+  }
+}
+Assets {
+  Id: 2626267817006011674
+  Name: "Play Bold"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "PlayBold_ref"
   }
 }
 Assets {
