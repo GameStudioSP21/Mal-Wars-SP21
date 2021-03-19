@@ -441,7 +441,7 @@ Assets {
         Name: "Trigger"
         Transform {
           Location {
-            X: 36.2851562
+            X: 36.2851563
             Z: -2.08959961
           }
           Rotation {

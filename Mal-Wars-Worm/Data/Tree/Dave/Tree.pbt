@@ -6,15 +6,15 @@ Objects {
   Transform {
     Location {
       X: -14900
-      Y: 15.6870728
+      Y: 15.6870117
       Z: -10710
     }
     Rotation {
     }
     Scale {
-      X: 0.5
-      Y: 0.5
-      Z: 0.5
+      X: 0.475
+      Y: 0.475
+      Z: 0.475
     }
   }
   ParentId: 14081436481186185311
@@ -66,6 +66,12 @@ Objects {
   ChildIds: 13385835920613543560
   ChildIds: 1020070377164248329
   ChildIds: 2562977274676052987
+  ChildIds: 97135077590665992
+  ChildIds: 1304039279765660535
+  ChildIds: 16718107585838051931
+  ChildIds: 10188763820125395613
+  ChildIds: 13719196747792266655
+  ChildIds: 4262166577594371489
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -80,11 +86,384 @@ Objects {
   }
 }
 Objects {
+  Id: 4262166577594371489
+  Name: "MetalWall"
+  Transform {
+    Location {
+      X: 10560
+      Y: 9130
+      Z: -6675
+    }
+    Rotation {
+      Yaw: 135
+      Roll: -10.0000153
+    }
+    Scale {
+      X: 1.89999986
+      Y: 1.89999986
+      Z: 1.89999986
+    }
+  }
+  ParentId: 13371803202469657324
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11286875131109408001
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MetalWall"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -19768.4219
+            Y: 17745.9219
+            Z: 8494.7373
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -135
+            Roll: -10.0000439
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3.99999976
+            Y: 3.99999976
+            Z: 3.99999976
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2143567921536890677
+    }
+  }
+}
+Objects {
+  Id: 13719196747792266655
+  Name: "MetalWall"
+  Transform {
+    Location {
+      X: 11710
+      Y: -8675
+      Z: -6675
+    }
+    Rotation {
+      Yaw: 44.9999962
+      Roll: -10.0000143
+    }
+    Scale {
+      X: 1.89999986
+      Y: 1.89999986
+      Z: 1.89999986
+    }
+  }
+  ParentId: 13371803202469657324
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11286875131109408001
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MetalWall"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -17642.1055
+            Y: -19275.1328
+            Z: 8378.94727
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -44.9999847
+            Roll: -10.0000429
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 4.21052694
+            Y: 4.21052694
+            Z: 4.21052694
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2143567921536890677
+    }
+  }
+}
+Objects {
+  Id: 10188763820125395613
+  Name: "MetalWall"
+  Transform {
+    Location {
+      X: 10560
+      Y: 9130
+      Z: -6675
+    }
+    Rotation {
+      Yaw: 135
+      Roll: -10.0000153
+    }
+    Scale {
+      X: 1.89999986
+      Y: 1.89999986
+      Z: 1.89999986
+    }
+  }
+  ParentId: 13371803202469657324
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11286875131109408001
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MetalWall"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 56021.0547
+            Y: -18296.1855
+            Z: 8494.7373
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 44.9999847
+            Roll: -10.0000429
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3.99999976
+            Y: 3.99999976
+            Z: 3.99999976
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2143567921536890677
+    }
+  }
+}
+Objects {
+  Id: 16718107585838051931
+  Name: "MetalWall"
+  Transform {
+    Location {
+      X: -6600
+      Y: 11910
+      Z: -5225
+    }
+    Rotation {
+      Yaw: -179.999985
+      Roll: -10.0000124
+    }
+    Scale {
+      X: 1.80000007
+      Y: 1.80000007
+      Z: 1.80000007
+    }
+  }
+  ParentId: 13371803202469657324
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11286875131109408001
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MetalWall"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 53600
+            Y: 19188.0273
+            Z: 8494.7373
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 135
+            Roll: -10.0000439
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3.99999976
+            Y: 3.99999976
+            Z: 3.99999976
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2143567921536890677
+    }
+  }
+}
+Objects {
+  Id: 1304039279765660535
+  Name: "MetalWall"
+  Transform {
+    Location {
+      X: -5230
+      Y: -12460
+      Z: -5230
+    }
+    Rotation {
+      Roll: -10.0000143
+    }
+    Scale {
+      X: 1.80000007
+      Y: 1.80000007
+      Z: 1.80000007
+    }
+  }
+  ParentId: 13371803202469657324
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11286875131109408001
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MetalWall"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 17473.6855
+            Y: 25040.6582
+            Z: 11547.3691
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -179.999954
+            Roll: -10.0000401
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3.78947401
+            Y: 3.78947401
+            Z: 3.78947401
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2143567921536890677
+    }
+  }
+}
+Objects {
+  Id: 97135077590665992
+  Name: "MetalWall"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13371803202469657324
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11286875131109408001
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MetalWall"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 20357.8945
+            Y: -26264.6055
+            Z: 11536.8428
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Roll: -10.0000591
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3.78947401
+            Y: 3.78947401
+            Z: 3.78947401
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2143567921536890677
+    }
+  }
+}
+Objects {
   Id: 2562977274676052987
   Name: "Whitebox Wall 01 Triangle Top"
   Transform {
     Location {
-      X: 66850.0312
+      X: 66850.0313
       Y: 3158.59424
       Z: 28750
     }
@@ -665,7 +1044,7 @@ Objects {
   Name: "Pipe - 8-Sided"
   Transform {
     Location {
-      X: 27.9882812
+      X: 27.9882813
       Y: -44.4267578
       Z: 3039.7334
     }
@@ -753,7 +1132,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95312
+      X: -1228.95313
       Y: -1519.06641
     }
     Rotation {
@@ -796,7 +1175,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95312
+      X: -1228.95313
       Y: -1519.06641
       Z: 4733.59473
     }
@@ -1263,7 +1642,7 @@ Objects {
   Name: "Pipe - 8-Sided"
   Transform {
     Location {
-      X: 27.9882812
+      X: 27.9882813
       Y: -44.4267578
       Z: 3039.7334
     }
@@ -1351,7 +1730,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95312
+      X: -1228.95313
       Y: -1519.06641
     }
     Rotation {
@@ -1394,7 +1773,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95312
+      X: -1228.95313
       Y: -1519.06641
       Z: 4733.59473
     }
@@ -1902,7 +2281,7 @@ Objects {
   Name: "Pipe - 8-Sided"
   Transform {
     Location {
-      X: 27.9882812
+      X: 27.9882813
       Y: -44.4267578
       Z: 3039.7334
     }
@@ -1990,7 +2369,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95312
+      X: -1228.95313
       Y: -1519.06641
     }
     Rotation {
@@ -2033,7 +2412,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95312
+      X: -1228.95313
       Y: -1519.06641
       Z: 4733.59473
     }
@@ -2122,7 +2501,7 @@ Objects {
   Transform {
     Location {
       X: -225
-      Y: 103.625976
+      Y: 103.625977
     }
     Rotation {
     }
@@ -2541,7 +2920,7 @@ Objects {
   Name: "Pipe - 8-Sided"
   Transform {
     Location {
-      X: 27.9882812
+      X: 27.9882813
       Y: -44.4267578
       Z: 3039.7334
     }
@@ -2629,7 +3008,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95312
+      X: -1228.95313
       Y: -1519.06641
     }
     Rotation {
@@ -2672,7 +3051,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95312
+      X: -1228.95313
       Y: -1519.06641
       Z: 4733.59473
     }
@@ -2761,7 +3140,7 @@ Objects {
   Transform {
     Location {
       X: 205
-      Y: 113.625976
+      Y: 113.625977
     }
     Rotation {
     }
@@ -3006,7 +3385,7 @@ Objects {
   Name: "Whitebox -Hole Details"
   Transform {
     Location {
-      X: -159.101562
+      X: -159.101563
       Y: 160.549805
       Z: 10121.1582
     }
@@ -3180,7 +3559,7 @@ Objects {
   Name: "Pipe - 8-Sided"
   Transform {
     Location {
-      X: 27.9882812
+      X: 27.9882813
       Y: -44.4267578
       Z: 3039.7334
     }
@@ -3268,7 +3647,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95312
+      X: -1228.95313
       Y: -1519.06641
     }
     Rotation {
@@ -3311,7 +3690,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95312
+      X: -1228.95313
       Y: -1519.06641
       Z: 4733.59473
     }
@@ -3866,7 +4245,7 @@ Objects {
   Name: "Pipe - 8-Sided"
   Transform {
     Location {
-      X: 27.9882812
+      X: 27.9882813
       Y: -44.4267578
       Z: 3039.7334
     }
@@ -3954,7 +4333,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95312
+      X: -1228.95313
       Y: -1519.06641
     }
     Rotation {
@@ -3997,7 +4376,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95312
+      X: -1228.95313
       Y: -1519.06641
       Z: 4733.59473
     }
@@ -5333,7 +5712,7 @@ Objects {
   Name: "Prism - 6-Sided Half"
   Transform {
     Location {
-      X: -14756.0058
+      X: -14756.0059
       Y: 15008.626
       Z: -2530
     }
@@ -5814,7 +6193,7 @@ Objects {
           Name: "Position"
           Vector {
             X: 4287.09619
-            Y: -14642.081
+            Y: -14642.0811
             Z: 4925.77295
           }
         }
@@ -6057,7 +6436,7 @@ Objects {
           Name: "Position"
           Vector {
             X: 8073.62842
-            Y: -13798.0644
+            Y: -13798.0645
             Z: 5060
           }
         }

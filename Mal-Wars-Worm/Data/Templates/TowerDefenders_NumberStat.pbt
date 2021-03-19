@@ -217,7 +217,7 @@ Assets {
         Name: "StatValue"
         Transform {
           Location {
-            X: -9048.32226
+            X: -9048.32227
             Y: 8968.53418
             Z: -565.881348
           }
