@@ -28,10 +28,10 @@ ourTower.OnFired:Connect(function()
 
     --Firing should be quick
     -- Ease3D.EasePosition(BARREL, (initialPosition - Vector3.New(224, 0, 0)), 0.1)
-    Ease3D.EaseRotation(TURRET_HEAD, (initialRotation - Rotation.New(0, -15, 0)), 0.1)
-    Ease3D.EasePosition(TURRET_HEAD, (initialPosition - Vector3.New(20, 0, 0)), 0.1)
+    Ease3D.EaseRotation(TURRET_HEAD, (initialRotation - Rotation.New(0, -8, 0)), 0.1, Ease3D.EasingEquation.BACK, Ease3D.EasingDirection.OUT)
+    Ease3D.EasePosition(TURRET_HEAD, (initialPosition - Vector3.New(20, 0, 0)), 0.1, Ease3D.EasingEquation.BACK, Ease3D.EasingDirection.OUT)
 
-    Ease3D.EasePosition(BARRELS, (initialBarrelPosition - Vector3.New(60, 0,0)), 0.1)
+    Ease3D.EasePosition(BARRELS, (initialBarrelPosition - Vector3.New(90, 0,0)), 0.1, Ease3D.EasingEquation.BACK, Ease3D.EasingDirection.OUT)
 
 
     Task.Wait(0.1)
@@ -41,10 +41,10 @@ ourTower.OnFired:Connect(function()
     
 
     --reload, not so much
-    Ease3D.EaseRotation(TURRET_HEAD, initialRotation, 0.1)
-    Ease3D.EasePosition(TURRET_HEAD, initialPosition, 0.1)
+    Ease3D.EaseRotation(TURRET_HEAD, initialRotation, 0.1, Ease3D.EasingEquation.CUBIC, Ease3D.EasingDirection.INOUT)
+    Ease3D.EasePosition(TURRET_HEAD, initialPosition, 0.1, Ease3D.EasingEquation.CUBIC, Ease3D.EasingDirection.INOUT)
 
     --reset barrel(s) positions
-    Ease3D.EasePosition(BARRELS, initialBarrelPosition, 0.1)
+    Ease3D.EasePosition(BARRELS, initialBarrelPosition, 0.1, Ease3D.EasingEquation.CUBIC, Ease3D.EasingDirection.INOUT)
 
 end)
