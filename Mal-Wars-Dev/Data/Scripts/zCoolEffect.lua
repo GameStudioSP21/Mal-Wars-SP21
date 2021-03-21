@@ -35,7 +35,7 @@ function CoolEffect:Play(name)
 	end
 end
 
---[
+--[[
 Game.playerJoinedEvent:Connect(function (player)
 	player.bindingPressedEvent:Connect(function (player, binding)
 		if (binding == "ability_secondary") then
