@@ -99,33 +99,9 @@ Assets {
             }
           }
           Overrides {
-            Name: "cs:sound05"
+            Name: "cs:BubblePopCoinCollect01SFX"
             AssetReference {
-              Id: 12170237532852083792
-            }
-          }
-          Overrides {
-            Name: "cs:sound06"
-            AssetReference {
-              Id: 10532234871004689546
-            }
-          }
-          Overrides {
-            Name: "cs:sound07"
-            AssetReference {
-              Id: 17135070932311283698
-            }
-          }
-          Overrides {
-            Name: "cs:sound08"
-            AssetReference {
-              Id: 9511149547178553888
-            }
-          }
-          Overrides {
-            Name: "cs:sound09"
-            AssetReference {
-              Id: 14397242787095858623
+              Id: 3463473710022165698
             }
           }
         }
@@ -180,48 +156,12 @@ Assets {
       }
     }
     Assets {
-      Id: 12170237532852083792
-      Name: "Magic Cute Warp Powerup 01 SFX"
+      Id: 3463473710022165698
+      Name: "Bubble Pop Coin Collect 01 SFX"
       PlatformAssetType: 7
       PrimaryAsset {
         AssetType: "AudioAssetRef"
-        AssetId: "sfx_cute_magic_warp_powerup_01a_Cue_ref"
-      }
-    }
-    Assets {
-      Id: 10532234871004689546
-      Name: "Magic Dark Ding Bell Spell Cast 01 SFX"
-      PlatformAssetType: 7
-      PrimaryAsset {
-        AssetType: "AudioAssetRef"
-        AssetId: "sfx_magic_dark_ding_bell_spell_cast_01_Cue_ref"
-      }
-    }
-    Assets {
-      Id: 17135070932311283698
-      Name: "Magic Dark Item Collect 01 SFX"
-      PlatformAssetType: 7
-      PrimaryAsset {
-        AssetType: "AudioAssetRef"
-        AssetId: "sfx_magic_dark_item_collect_01_Cue_ref"
-      }
-    }
-    Assets {
-      Id: 9511149547178553888
-      Name: "Magic Fire Swift Attack 01 SFX"
-      PlatformAssetType: 7
-      PrimaryAsset {
-        AssetType: "AudioAssetRef"
-        AssetId: "sfx_magic_fire_swift_attack_01_Cue_ref"
-      }
-    }
-    Assets {
-      Id: 14397242787095858623
-      Name: "Magic Fireball Medium Impact 01 SFX"
-      PlatformAssetType: 7
-      PrimaryAsset {
-        AssetType: "AudioAssetRef"
-        AssetId: "sfx_magic_fireball_medium_impact_02_Cue_ref"
+        AssetId: "sfx_bubble_pop_coin_collect_01_Cue_ref"
       }
     }
     PrimaryAssetId {

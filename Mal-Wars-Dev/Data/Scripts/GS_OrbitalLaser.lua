@@ -29,12 +29,12 @@ function OnBindingPressed(LOCAL_PLAYER, binding)
                 DamageEnemies(hitResult)
                 onCoolDown = true
                 ProgressBar.progress = 0
-                CoolEffect:Play(CoolEffect.sound01)
+                CoolEffect:Play("sound01")
                 Task.Wait(COOL_DOWN_TIMER)
                 -- timeAtFire = time()
                 -- UpdateProgressBar()
                 onCoolDown = false
-                CoolEffect:Play(CoolEffect.sound02)
+                CoolEffect:Play("sound02")
             else
                 print("hit result nil")
             end
@@ -61,14 +61,14 @@ function CheckView()
 end
 
 function DamageEnemies(hitResult)
-	CoolEffect:Play(CoolEffect.sound03)
+	CoolEffect:Play("sound03")
     Events.BroadcastToServer("OLD", hitResult:GetImpactPosition())
 end
 
 function PlayAnimation(hitPos) 
     --LASER_VFX:SetWorldPosition(hitPos)
     -- LASER_VFX.visibilty = Visibility.FORCE_ON
-    CoolEffect:Play(CoolEffect.sound04)
+    CoolEffect:Play("sound04")
 
     local laser69 
     laser69 = World.SpawnAsset(LASER_FX, {position = hitPos})

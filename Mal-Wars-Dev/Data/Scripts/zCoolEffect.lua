@@ -1,52 +1,49 @@
--- CoolEffect.lua
+-- zCoolEffect.lua
+-- Play Sound Effect with customizable sound settings
+-- Created by Genie Tu
 
 --[[
-
-CoolEffect:
-	Add Cool Sound Effect to Lua Module
 	
 Setup:
-	Find CoolEffect Folder in Hierarchy
-	drap sound from Sound Effects into Custom Property slot sound01 to sound09
+	"Deinstance This Object" for "CoolEffect" folder in Hierarchy
+	Drag "Audio Sound" from Core Content to "Add Custom Property"
+	"Update Template From This" for CoolEffect folder in Hierarchy
 	
-Code in Lua Module:
+	e.g.
+		search "Bubble Pop Coin Collect 01 SFX' in Core Content
+		drag "Bubble Pop Coin Collect 01 SFX" to "Add Custom Property" for "CoolEffect" folder in Hierarchy
+		copy name "BubblePopCoinCollect01SFX" from Custom Property
+		
+		CoolEffect:Play("BubblePopCoinCollect01SFX")
+	
+Usage:
 
 	local CoolEffect = require("3FA32407A403C36C")
 	
-	CoolEffect:Play(CoolEffect.sound01)
+	CoolEffect:Play("BubblePopCoinCollect01SFX")
 
 --]]
 
 CoolEffect = {}
 
 local root = World.FindObjectByName("CoolEffect")
-CoolEffect.sound01 = World.SpawnAsset(root:GetCustomProperty("sound01"),{parent=root})
-CoolEffect.sound02 = World.SpawnAsset(root:GetCustomProperty("sound02"),{parent=root})
-CoolEffect.sound03 = World.SpawnAsset(root:GetCustomProperty("sound03"),{parent=root})
-CoolEffect.sound04 = World.SpawnAsset(root:GetCustomProperty("sound04"),{parent=root})
-CoolEffect.sound05 = World.SpawnAsset(root:GetCustomProperty("sound05"),{parent=root})
-CoolEffect.sound06 = World.SpawnAsset(root:GetCustomProperty("sound06"),{parent=root})
-CoolEffect.sound07 = World.SpawnAsset(root:GetCustomProperty("sound07"),{parent=root})
-CoolEffect.sound08 = World.SpawnAsset(root:GetCustomProperty("sound08"),{parent=root})
-CoolEffect.sound09 = World.SpawnAsset(root:GetCustomProperty("sound09"),{parent=root})
 
-for _,effect in pairs(CoolEffect) do
-	effect.isAttenuationEnabled = false
-end
-
-function CoolEffect:Play(effect)
-	--print("CoolEffect")
-	effect:Play()
+function CoolEffect:Play(name)
+	local sound = root:GetCustomProperty(name)
+	if (sound ~= nil) then
+		local audio = World.SpawnAsset(sound)
+		audio.isAttenuationEnabled = false
+		audio.isTransient = true
+		audio:Play()
+		print('CoolEffect:Play("' .. name .. '") = "' .. sound .. '"')
+	end
 end
 
 --[[
 Game.playerJoinedEvent:Connect(function (player)
 	player.bindingPressedEvent:Connect(function (player, binding)
 		if (binding == "ability_secondary") then
-			for _,effect in pairs(CoolEffect) do
-				effect:Play()
-				Task.Wait(3)
-			end		    
+			CoolEffect:Play("BubblePopCoinCollect01SFX")    
 		end
 	end)
 end)	
