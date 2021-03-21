@@ -1,12 +1,16 @@
 -- zCoolEffect.lua
 -- Play Sound Effect with customizable sound settings
+-- Created by Genie Tu
 
 --[[
 	
 Setup:
+	"Deinstance This Object" for "CoolEffect" folder in Hierarchy
 	Drag "Audio Sound" from Core Content to "Add Custom Property"
+	"Update Template From This" for CoolEffect folder in Hierarchy
 	
 	e.g.
+		search "Bubble Pop Coin Collect 01 SFX' in Core Content
 		drag "Bubble Pop Coin Collect 01 SFX" to "Add Custom Property" for "CoolEffect" folder in Hierarchy
 		copy name "BubblePopCoinCollect01SFX" from Custom Property
 		
