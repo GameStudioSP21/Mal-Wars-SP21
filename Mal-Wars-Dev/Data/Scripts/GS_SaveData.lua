@@ -18,14 +18,14 @@ local saveData = {  towers = towersTable,
                     hubHealth = nil,
                     waveNum = nil,
                     tutorial = nil,
+                    hasPlayed = false 
                  }
 
 function LoadSave(player, board, waveManager)
+    print("-----LOADING PLAYER DATA------")
     saveData = Storage.GetPlayerData(player)
-    print("Load of player data attempted:",saveData)
-    if(saveData) then
+    if(saveData and saveData.hasPlayed) then
         -- reconstruct towers
-        print("Attempting to rescontruct towers.")
         for i, tower in pairs(saveData.towers) do
             print("Spawning Tower ",i)
             local newTower = TowerDatabase:NewTowerByName(tower.name)
@@ -46,6 +46,7 @@ function LoadSave(player, board, waveManager)
         waveManager:RedoWaveIndex(saveData.waveNum)
         
     end
+    saveData.hasPlayed = true
 end
 
 -- PLAYER = player
@@ -53,28 +54,35 @@ local player = Game.GetPlayers()[1]
 local GAME_MANAGER = require(script:GetCustomProperty("TowerDefenders_GameManager"))
 local NET_HUB = script:GetCustomProperty("NetworkHubHealthServer"):WaitForObject()
 local board = GAME_MANAGER.WaitForBoardFromPlayer(player)
-local waveManager = board:WaitForWaveManager()
+Task.Wait(1)
+local waveManager = board:GetWaveManager()
+-- print(waveManager)
+-- local temp = Storage.GetPlayerData(player)
+-- if temp then
+--     PrintSaveData(temp)
+-- end
+LoadSave(player, board, waveManager)
+
+print("Player Joined")
+print(waveManager)
 
 Chat.receiveMessageHook:Connect(function (speaker, params)
     local message = string.lower(params.message)
-
     if message == "/deletesave" then
         ClearLocalData()
         Storage.SetPlayerData(speaker, saveData)
     end
 end)
 
-waveManager.OnWaveStarted:Connect(function ()
+waveManager.OnWaitingReady:Connect(function ()
     -- load save data
     if (waveManager:GetWaveIndex() == 1) then
-        print("-----------------------------------------")
-        print("Loading save")
-        print("-----------------------------------------")
         LoadSave(player, board, waveManager)
     end
 end)
 
 waveManager.OnWaveStarted:Connect(function ()
+    print("GET SAVE DATA")
     -- local playerData = "ASSUMING PLAYERDATA RETRIEVED"
 
     -- clear save data before writing new data
@@ -85,7 +93,7 @@ waveManager.OnWaveStarted:Connect(function ()
     -- get all towers
     local allTowers = board:GetAllTowers()
     for key, tower in pairs(allTowers) do
-        local towerInfo = {}
+        local towerInfo = {name = nil, position = nil}
         towerInfo.name = tower:GetName()
         towerInfo.position = tower:GetWorldPosition()
         table.insert(saveData.towers, towerInfo)
@@ -109,9 +117,6 @@ waveManager.OnWaveStarted:Connect(function ()
         saveData.waveNum = waveManager:GetWaveIndex()
     end
 
-    print("-------------------------")
-    print("Saving player board data")
-    print("-------------------------")
     Storage.SetPlayerData(player, saveData)
     local temp = Storage.GetPlayerData(player)
     
