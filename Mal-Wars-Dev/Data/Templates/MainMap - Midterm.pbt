@@ -81646,7 +81646,7 @@ Assets {
           }
           Overrides {
             Name: "cs:LoadSaveOnStart"
-            Bool: false
+            Bool: true
           }
         }
         WantsNetworking: true
