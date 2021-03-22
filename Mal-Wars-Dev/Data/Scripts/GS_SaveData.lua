@@ -68,7 +68,7 @@ print(waveManager)
 
 Chat.receiveMessageHook:Connect(function (speaker, params)
     local message = string.lower(params.message)
-    if message == "/deleteSave" then
+    if message == "/deletesave" then
         ClearLocalData()
         Storage.SetPlayerData(speaker, saveData)
     end
