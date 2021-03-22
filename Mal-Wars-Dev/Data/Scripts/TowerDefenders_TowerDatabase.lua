@@ -195,7 +195,6 @@ function Database:_Init()
     self.isLoaded = false
     Task.Spawn(function()
         _LoadTowers_R(REGISTERED_TOWERS)
-        Task.Wait()
         self:_LoadTowersData()
         self.isLoaded = true
     end)

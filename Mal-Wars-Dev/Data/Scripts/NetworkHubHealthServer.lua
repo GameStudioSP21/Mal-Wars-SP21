@@ -14,7 +14,7 @@ local singlePlayer = Game.GetPlayers()[1]
 
 
 local ourBoard = GameManager.WaitForBoardFromPlayer(singlePlayer)
-local waveManager = ourBoard:GetWaveManager()
+local waveManager = ourBoard:WaitForWaveManager()
 
 waveManager.OnEnemyReachedEnd:Connect(function(enemyObject)
     local hubHealth = script:GetCustomProperty("HubHealth")

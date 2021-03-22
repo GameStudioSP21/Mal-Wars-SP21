@@ -111,7 +111,6 @@ function Database:_Init()
     self.isLoaded = false
     Task.Spawn(function() 
         _LoadBoards_R(REGISTERED_BOARDS)
-        Task.Wait()
         self:_LoadBoardsData()
         self.isLoaded = true
     end)

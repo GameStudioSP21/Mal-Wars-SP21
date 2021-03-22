@@ -54,8 +54,7 @@ local player = Game.GetPlayers()[1]
 local GAME_MANAGER = require(script:GetCustomProperty("TowerDefenders_GameManager"))
 local NET_HUB = script:GetCustomProperty("NetworkHubHealthServer"):WaitForObject()
 local board = GAME_MANAGER.WaitForBoardFromPlayer(player)
-Task.Wait(1)
-local waveManager = board:GetWaveManager()
+local waveManager = board:WaitForWaveManager()
 -- print(waveManager)
 -- local temp = Storage.GetPlayerData(player)
 -- if temp then
