@@ -47,7 +47,7 @@ end
 
 -- Server
 
-function TowerSniper:DamageEnemy()
+function TowerSniper:DamageEnemy(target)
     self.waveManager = self:GetBoardReference():GetWaveManager()
     Task.Spawn(function()
         --Task.Wait(self.impactTime)

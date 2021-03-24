@@ -275,13 +275,6 @@ function Tower:InRange(object)
     return false
 end
 
-function Tower:GetNearestEnemy()
-    warn("DEPRECATED!")
-    local waveManager = self:GetBoardReference():GetWaveManager()
-    local closestEnemy = waveManager:GetNearestAliveEnemy(self:GetWorldPosition())
-    return closestEnemy
-end
-
 -- Returns the target from the targeting mode
 function Tower:GetTarget()
     -- Calls the targeting mode so we get our target.
@@ -318,10 +311,11 @@ function Tower:SwitchTargetingMode(_hasRepeated)
 end
 
 ----------------------------------------------------
--- Virtual
+-- Public Virtual
 ----------------------------------------------------
 -- These methods are overridable. You may redefine these in inherited classes.
--- If you don't want one of these methods to load then
+-- If you don't want one of these methods to load then redefine them in the inherited class, but leave them blank.
+-- Refer to TowerDefenders_Sniper in project content for a good example.
 
 ----------- CLIENT -----------
 
@@ -409,6 +403,7 @@ function Tower:_Runtime()
     self.readyToAttack = false
     
     if Environment.IsClient() then
+
         -- Rotating Runtime and targeting
         local rotatingRuntime = Task.Spawn(function()
             while true do
@@ -429,6 +424,7 @@ function Tower:_Runtime()
                 end
             end
         end)
+
         -- Firing Runtime
         local firingRuntime = Task.Spawn(function()
             while true do
@@ -455,6 +451,7 @@ function Tower:_Runtime()
         table.insert(self.runtimes,firingRuntime)
 
     elseif Environment.IsServer() then
+
         -- Targeting
         local targetingRuntime = Task.Spawn(function()
             while true do
@@ -471,6 +468,7 @@ function Tower:_Runtime()
                 end
             end
         end)
+
         -- Attacking
         local attackingRuntime = Task.Spawn(function()
             while true do

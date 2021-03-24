@@ -37,7 +37,7 @@ end
 
 function TowerMortar:HorizontalRotation()
 	--Get the enemy's position and extrapolate it by its current direction and speed to get a predicted position.
-	self.targetPos = ( self.currentTarget:GetWorldPosition() + ( self.currentTarget:GetTransform():GetForwardVector() * 400 * self.impactTime ) )
+	self.targetPos = ( self.currentTarget:GetWorldPosition() + ( self.currentTarget:GetTransform():GetForwardVector() * self.impactTime ) )
 	self.hPivotPos = self._horizontalRotator:GetWorldPosition()
 		
 	--Use trigonometry to get a horizontal angle.
