@@ -22,7 +22,6 @@ local initialPosition = TURRET_HEAD:GetPosition()
 
 
 ourTower.OnFired:Connect(function() 
-    print('Firing gun...')
 
     --Firing should be quick
     -- Ease3D.EasePosition(BARREL, (initialPosition - Vector3.New(224, 0, 0)), 0.1)

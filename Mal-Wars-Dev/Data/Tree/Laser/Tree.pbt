@@ -40,7 +40,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 100
+      Int: 1
     }
     Overrides {
       Name: "cs:Damage"
@@ -226,7 +226,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 100
+      Int: 1
     }
     Overrides {
       Name: "cs:Damage"
