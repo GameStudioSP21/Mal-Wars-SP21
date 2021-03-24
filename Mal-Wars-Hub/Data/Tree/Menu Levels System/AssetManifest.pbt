@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10796354255035333417
+  Name: "Bank"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Urban_Icon_013"
+  }
+}
+Assets {
   Id: 8819428978678124247
   Name: "Sci-fi Corners 002"
   PlatformAssetType: 9
@@ -32,5 +41,14 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Scifi_Frame_010"
+  }
+}
+Assets {
+  Id: 4072195352443966872
+  Name: "Bear"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Icon_Bear"
   }
 }

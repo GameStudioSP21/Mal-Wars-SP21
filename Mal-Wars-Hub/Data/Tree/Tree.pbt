@@ -571,7 +571,6 @@ Objects {
   }
   Camera {
     UseAsDefault: true
-    AttachToLocalPlayer: true
     InitialDistance: 400
     MinDistance: 300
     MaxDistance: 600
@@ -582,6 +581,7 @@ Objects {
     }
     FieldOfView: 90
     ViewWidth: 1200
+    UseCameraSocket: true
     RotationMode {
       Value: "mc:erotationmode:lookangle"
     }

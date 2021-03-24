@@ -357,7 +357,7 @@ Objects {
         A: 0.916000068
       }
       Brush {
-        Id: 841534158063459245
+        Id: 10796354255035333417
       }
       IsButtonEnabled: true
       ClickMode {
@@ -444,7 +444,7 @@ Objects {
         A: 0.916000068
       }
       Brush {
-        Id: 841534158063459245
+        Id: 4072195352443966872
       }
       IsButtonEnabled: true
       ClickMode {
@@ -531,7 +531,7 @@ Objects {
         A: 0.916000068
       }
       Brush {
-        Id: 841534158063459245
+        Id: 13161971245761967955
       }
       IsButtonEnabled: true
       ClickMode {
