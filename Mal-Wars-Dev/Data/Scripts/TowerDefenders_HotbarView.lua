@@ -15,15 +15,12 @@ local hotbarView = {}
 
 LOCAL_PLAYER.clientUserData.hotbarView = hotbarView
 
-function hotbarView:CreateSlotsFromLocalInventory()
-    local inventory = LOCAL_PLAYER.clientUserData.towerInventory
-    local equippedTowers = inventory:GetEquippedTowers()
-
+function hotbarView:CreateSlotsFromTowerTable(towerTable)
     local HORIZONTAL_SPACING = 150
-    local INITAL_HORIZONTAL_SPACING = math.floor((#equippedTowers * HORIZONTAL_SPACING)/2)
+    local INITAL_HORIZONTAL_SPACING = math.floor((#towerTable * HORIZONTAL_SPACING)/2)
 
     -- Construct slots for the equipped towers.
-    for i, tower in pairs(equippedTowers) do
+    for i, tower in pairs(towerTable) do
         local hotbarSlotElement = World.SpawnAsset(HOT_BAR_SLOT,{ parent = HOT_BAR_PANEL })
         hotbarSlotElement.x = -INITAL_HORIZONTAL_SPACING + ((i-0.5) * HORIZONTAL_SPACING)
 
@@ -38,6 +35,12 @@ function hotbarView:CreateSlotsFromLocalInventory()
             Events.Broadcast("GeneralSelectorBeginPlacement",newTower)
         end)
     end
+end
+
+function hotbarView:CreateSlotsFromLocalInventory()
+    local inventory = LOCAL_PLAYER.clientUserData.towerInventory
+    local equippedTowers = inventory:GetEquippedTowers()
+    self:CreateSlotsFromTowerTable(equippedTowers)
 end
 
 function hotbarView:SetupSlot(slot,tower)

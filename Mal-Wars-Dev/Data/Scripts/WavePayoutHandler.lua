@@ -1,7 +1,7 @@
 Game.playerJoinedEvent:Connect(function(player)
 	local GameManager = require(script:GetCustomProperty("GameManager"))
 	local board = GameManager.WaitForBoardFromPlayer(player)
-	local waveManager = board:GetWaveManager()
+	local waveManager = board:WaitForWaveManager()
 	
 	waveManager.OnWaveComplete:Connect(function()
 		local wave = waveManager:GetCurrentWave()

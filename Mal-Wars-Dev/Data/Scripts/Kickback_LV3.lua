@@ -24,7 +24,6 @@ local initialPosition = TURRET_HEAD:GetPosition()
 
 
 ourTower.OnFired:Connect(function() 
-    print('Firing gun...')
 
     --adjust for the new barrle rotation at this point
     local currentBarrelRot = BARRELS:GetRotation()

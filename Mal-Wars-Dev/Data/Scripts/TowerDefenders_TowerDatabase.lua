@@ -13,7 +13,6 @@ local towerUpgradeChains = {}
 
 function Database:WaitUntilLoaded()
     while not self.isLoaded do
-        --print("Waiting")
         Task.Wait()
     end
 end
@@ -29,7 +28,6 @@ function Database:NewTowerByName(name)
     assert(towerData, string.format("Tower - %s does not exist in in the database.", name))
     local newTower = nil
     if towerData.towerClass then
-        print("Tower does have a unique class.")
         newTower = require(towerData.towerClass).New(towerData)
     else
         newTower = Tower.New(towerData)
@@ -197,7 +195,6 @@ function Database:_Init()
     self.isLoaded = false
     Task.Spawn(function()
         _LoadTowers_R(REGISTERED_TOWERS)
-        Task.Wait()
         self:_LoadTowersData()
         self.isLoaded = true
     end)

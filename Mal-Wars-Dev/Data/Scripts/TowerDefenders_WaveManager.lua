@@ -200,6 +200,8 @@ function WaveManager:_Init(board,waveManagerObject)
     if waveManagerObject then
         self.waveManagerObject = waveManagerObject
     else
+        -- If the wave manager object hasen't replicated to the client yet then we must wait for it to exist.
+        while not board:GetBoardAssetInstance():FindChildByName("TowerDefenders_WaveManager") do Task.Wait() end
         self.waveManagerObject = board:GetBoardAssetInstance():FindChildByName("TowerDefenders_WaveManager")
     end
 

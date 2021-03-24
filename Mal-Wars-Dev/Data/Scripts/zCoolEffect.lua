@@ -4,11 +4,12 @@
 --[[
 	
 Setup:
-	Drag "Audio Sound" from Core Content to "Add Custom Property"
+	Find "CoolEffect" folder in Hierarchy and Deinstance This Object
+	Drag "Sound Effect" from Core Content to "Add Custom Property"
 	
 	e.g.
-		drag "Bubble Pop Coin Collect 01 SFX" to "Add Custom Property" for "CoolEffect" folder in Hierarchy
-		copy name "BubblePopCoinCollect01SFX" from Custom Property
+		Drag "Bubble Pop Coin Collect 01 SFX" to "Add Custom Property"
+		Copy name "BubblePopCoinCollect01SFX" from Custom Property
 		
 		CoolEffect:Play("BubblePopCoinCollect01SFX")
 	
@@ -39,7 +40,7 @@ end
 Game.playerJoinedEvent:Connect(function (player)
 	player.bindingPressedEvent:Connect(function (player, binding)
 		if (binding == "ability_secondary") then
-			CoolEffect:Play("BubblePopCoinCollect01SFX")    
+			CoolEffect:Play("BubblePopCoinCollect01SFX")
 		end
 	end)
 end)	

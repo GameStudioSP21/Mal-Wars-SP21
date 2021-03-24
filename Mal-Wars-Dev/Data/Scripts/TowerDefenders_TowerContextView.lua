@@ -87,14 +87,18 @@ end)
 
 UPGRADE_BUTTON.pressedEvent:Connect(function()
     local board = LOCAL_PLAYER.clientUserData.activeBoard
-    if selectedTower and board and GemWallet.HasEnough(selectedTower:GetCost()) and selectedTower:GetNextUpgradeMUID() then
-        board:UpgradeTower(selectedTower)
-        local nearestTower = board:GetNearestTower(selectedTower:GetWorldPosition(),0,LOCAL_PLAYER)
-        GemWallet.SubtractFromWallet(nearestTower:GetCost())
-        selectedTower = nearestTower
-        Events.Broadcast("DisplayTowerContexMenu",nearestTower)
-    else
-        -- TODO: Play deny sound.
+    if selectedTower and board and selectedTower:GetNextUpgradeMUID() then
+        local upgradedTower = TowerDatabase:NewTowerByMUID(selectedTower:GetNextUpgradeMUID())
+        if GemWallet.HasEnough(upgradedTower:GetCost()) then
+            board:UpgradeTower(selectedTower)
+            GemWallet.SubtractFromWallet(upgradedTower:GetCost())
+
+            local nearestTower = board:GetTowerFromPosition(selectedTower:GetWorldPosition())
+            selectedTower = nearestTower
+            Events.Broadcast("DisplayTowerContexMenu",nearestTower)
+        else
+            -- TODO: Play deny sound.
+        end
     end
 end)
 

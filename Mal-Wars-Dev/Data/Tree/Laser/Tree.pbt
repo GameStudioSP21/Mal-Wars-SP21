@@ -40,19 +40,19 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 100
+      Int: 500
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 10
+      Int: 47
     }
     Overrides {
       Name: "cs:Speed"
-      Float: 0.2
+      Float: 0.25
     }
     Overrides {
       Name: "cs:Range"
-      Float: 50
+      Float: 35
     }
     Overrides {
       Name: "cs:Tower"
@@ -130,19 +130,19 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 1
+      Int: 100
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 6
+      Int: 21
     }
     Overrides {
       Name: "cs:Speed"
-      Float: 0.2
+      Float: 0.5
     }
     Overrides {
       Name: "cs:Range"
-      Float: 45
+      Float: 35
     }
     Overrides {
       Name: "cs:Tower"
@@ -226,11 +226,11 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 100
+      Int: 50
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 12
+      Int: 11
     }
     Overrides {
       Name: "cs:Speed"
@@ -238,7 +238,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Range"
-      Float: 40
+      Float: 35
     }
     Overrides {
       Name: "cs:NextTowerUpgrade"

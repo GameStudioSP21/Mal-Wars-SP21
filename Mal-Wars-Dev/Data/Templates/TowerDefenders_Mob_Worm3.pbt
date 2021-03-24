@@ -33,11 +33,11 @@ Assets {
           }
           Overrides {
             Name: "cs:CurrentHealth"
-            Float: 40000
+            Float: 80000
           }
           Overrides {
             Name: "cs:MoveSpeed"
-            Float: 150
+            Float: 200
           }
           Overrides {
             Name: "cs:TurnSpeed"
@@ -109,7 +109,7 @@ Assets {
           }
           Overrides {
             Name: "cs:RewardResourceAmount"
-            Int: 500
+            Int: 2000
           }
           Overrides {
             Name: "cs:LootId"
@@ -729,9 +729,9 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 2
+            Y: 2
+            Z: 2
           }
         }
         ParentId: 10475406937056537840
