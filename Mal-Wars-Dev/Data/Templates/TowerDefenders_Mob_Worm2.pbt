@@ -33,11 +33,11 @@ Assets {
           }
           Overrides {
             Name: "cs:CurrentHealth"
-            Float: 5000
+            Float: 20000
           }
           Overrides {
             Name: "cs:MoveSpeed"
-            Float: 250
+            Float: 300
           }
           Overrides {
             Name: "cs:TurnSpeed"
@@ -109,7 +109,7 @@ Assets {
           }
           Overrides {
             Name: "cs:RewardResourceAmount"
-            Int: 150
+            Int: 1000
           }
           Overrides {
             Name: "cs:LootId"
