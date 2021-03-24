@@ -4,6 +4,12 @@ local CoolEffect = require("3FA32407A403C36C")
 --local RADIAL_VIEW = require(script:GetCustomProperty("TowerDefenders_RadialView"))
 local ProgressBar = script:GetCustomProperty("UIProgressBar"):WaitForObject()
 local COOL_DOWN_TIMER = script:GetCustomProperty("CoolDownTimer")
+-- local ORBITAL_BALL = script:GetCustomProperty("Sphere"):WaitForObject()
+-- local ORBIT_RADIUS = script:GetCustomProperty("OrbitRadius")
+-- local ORBIT_SPEED = script:GetCustomProperty("OrbitSpeed")
+-- local ORBIT_OFFSET = ORBITAL_BALL:GetWorldPosition()
+-- local Ease3D = require(script:GetCustomProperty("Ease3D"))
+-- local time = time()
 
 local LOCAL_PLAYER = Game:GetLocalPlayer()
 
@@ -14,6 +20,11 @@ local onCoolDown = false
 local timeAtFire
 local interval = 1 / COOL_DOWN_DIVISIONS
 ProgressBar.progress = 1
+
+
+
+--circle equation 
+-- (x - h)^2 + (y - k)^2 = r^2
 
 -- print("getting board")
 local board = GAME_MANAGER.WaitForBoardFromPlayer(LOCAL_PLAYER)
@@ -104,7 +115,14 @@ function Tick(dt)
     if (ProgressBar.progress < 1) then
         ProgressBar.progress = CoreMath.Clamp(ProgressBar.progress + (dt * (1 / COOL_DOWN_TIMER)))
     end
+    -- Orbit(dt)
 end
+
+-- function Orbit(dt)
+--     time = time + dt * ORBIT_SPEED
+--     local position = Vector3.New((math.cos(time) * ORBIT_RADIUS) + ORBIT_OFFSET.x, (math.sin(time) * ORBIT_RADIUS) + ORBIT_OFFSET.y, ORBIT_OFFSET.z)
+--     ORBITAL_BALL:SetWorldPosition(position)
+-- end
 
 
 LOCAL_PLAYER.bindingPressedEvent:Connect(OnBindingPressed)

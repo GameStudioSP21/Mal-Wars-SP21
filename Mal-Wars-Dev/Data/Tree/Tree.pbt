@@ -21,7 +21,6 @@ Objects {
   ChildIds: 10722931758594424760
   ChildIds: 15885606419812222058
   ChildIds: 2880498746515435782
-  ChildIds: 4855365817476382941
   ChildIds: 7571376370741754032
   UnregisteredParameters {
   }
@@ -64,49 +63,6 @@ Objects {
   Script {
     ScriptAsset {
       Id: 3142027126795627660
-    }
-  }
-}
-Objects {
-  Id: 4855365817476382941
-  Name: "MainMap - Midterm"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 4162559028374586543
-      value {
-        Overrides {
-          Name: "Name"
-          String: "MainMap - Midterm"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 16367089715654613383
     }
   }
 }
