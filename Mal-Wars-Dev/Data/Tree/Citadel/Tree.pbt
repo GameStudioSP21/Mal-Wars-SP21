@@ -266,7 +266,7 @@ Objects {
     }
     Overrides {
       Name: "cs:WavePayout"
-      Int: 0
+      Int: 400
     }
     Overrides {
       Name: "cs:SpawnDelay:tooltip"
@@ -325,7 +325,7 @@ Objects {
     }
     Overrides {
       Name: "cs:WavePayout"
-      Int: 0
+      Int: 300
     }
     Overrides {
       Name: "cs:SpawnDelay:tooltip"
@@ -384,7 +384,7 @@ Objects {
     }
     Overrides {
       Name: "cs:WavePayout"
-      Int: 0
+      Int: 200
     }
     Overrides {
       Name: "cs:SpawnDelay:tooltip"
@@ -443,7 +443,7 @@ Objects {
     }
     Overrides {
       Name: "cs:WavePayout"
-      Int: 999
+      Int: 100
     }
     Overrides {
       Name: "cs:SpawnDelay:tooltip"

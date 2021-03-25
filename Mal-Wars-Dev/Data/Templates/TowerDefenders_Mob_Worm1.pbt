@@ -33,11 +33,11 @@ Assets {
           }
           Overrides {
             Name: "cs:CurrentHealth"
-            Float: 1500
+            Float: 5000
           }
           Overrides {
             Name: "cs:MoveSpeed"
-            Float: 500
+            Float: 400
           }
           Overrides {
             Name: "cs:TurnSpeed"
@@ -735,9 +735,9 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 2
+            Y: 2
+            Z: 2
           }
         }
         ParentId: 917713335989960180
