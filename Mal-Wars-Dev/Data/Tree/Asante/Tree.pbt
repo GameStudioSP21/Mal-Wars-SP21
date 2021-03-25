@@ -422,9 +422,15 @@ Objects {
       Float: 0.5
     }
     Overrides {
-      Name: "cs:LaserBeamVFX"
+      Name: "cs:LaserBeamFX"
       AssetReference {
         Id: 16110847186557738078
+      }
+    }
+    Overrides {
+      Name: "cs:OBLaserHitFX"
+      AssetReference {
+        Id: 14168462304322439336
       }
     }
     Overrides {

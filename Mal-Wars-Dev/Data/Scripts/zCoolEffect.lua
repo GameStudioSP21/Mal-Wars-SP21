@@ -32,7 +32,7 @@ function CoolEffect:Play(name)
 		audio.isAttenuationEnabled = false
 		audio.isTransient = true
 		audio:Play()
-		print('CoolEffect:Play("' .. name .. '") = "' .. sound .. '"')
+		-- print('CoolEffect:Play("' .. name .. '") = "' .. sound .. '"')
 	end
 end
 

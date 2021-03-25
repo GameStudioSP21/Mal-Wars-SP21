@@ -1,4 +1,5 @@
-local LASER_FX = script:GetCustomProperty("LaserBeamVFX")
+local LASER_FX = script:GetCustomProperty("LaserBeamFX")
+local LASER_HIT_FX = script:GetCustomProperty("OBLaserHitFX")
 local GAME_MANAGER = require(script:GetCustomProperty("TowerDefenders_GameManager"))
 local CoolEffect = require("3FA32407A403C36C")
 --local RADIAL_VIEW = require(script:GetCustomProperty("TowerDefenders_RadialView"))
@@ -81,10 +82,14 @@ function PlayAnimation(hitPos)
 
     local laser69 
     laser69 = World.SpawnAsset(LASER_FX, {position = ORBITAL_BALL:GetWorldPosition()})
-    Ease3D.EaseWorldPosition(laser69, hitPos, .5, Ease3D.EasingEquation.EXPONENTIAL)
+    Ease3D.EaseWorldPosition(laser69, hitPos, .3, Ease3D.EasingEquation.LINEAR)
     Task.Spawn(function() 
-        Task.Wait(1)    
+        Task.Wait(.2)
+        local hitFX = World.SpawnAsset(LASER_HIT_FX, {position = hitPos})
+        Task.Wait(.3)
         laser69:Destroy()
+        Task.Wait(.5)
+        hitFX:Destroy()
     end)
 
     -- LASER_VFX:Play()
