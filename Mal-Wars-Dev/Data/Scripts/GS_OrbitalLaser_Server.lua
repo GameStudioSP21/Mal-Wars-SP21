@@ -10,7 +10,7 @@ local fireRadiusSqaured = RADIUS^2
 Events.ConnectForPlayer("OLD", function(player, impactPosition)
     local board = GAMER_MANAGER.GetCurrentBoard(player)
 
-    local waveManager = player.serverUserData.activeBoardWaveManager
+    local waveManager = board:WaitForWaveManager()
     local currWaveNumber = waveManager:GetWaveIndex() + 1
 
     local enemies = board:GetEnemies()

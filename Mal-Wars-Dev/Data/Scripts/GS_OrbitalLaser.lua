@@ -4,12 +4,10 @@ local CoolEffect = require("3FA32407A403C36C")
 --local RADIAL_VIEW = require(script:GetCustomProperty("TowerDefenders_RadialView"))
 local ProgressBar = script:GetCustomProperty("UIProgressBar"):WaitForObject()
 local COOL_DOWN_TIMER = script:GetCustomProperty("CoolDownTimer")
--- local ORBITAL_BALL = script:GetCustomProperty("Sphere"):WaitForObject()
--- local ORBIT_RADIUS = script:GetCustomProperty("OrbitRadius")
--- local ORBIT_SPEED = script:GetCustomProperty("OrbitSpeed")
--- local ORBIT_OFFSET = ORBITAL_BALL:GetWorldPosition()
--- local Ease3D = require(script:GetCustomProperty("Ease3D"))
--- local time = time()
+local ORBITAL_BALL = script:GetCustomProperty("OrbitalBall"):WaitForObject()
+-- local ORBITAL_MOVEMENT = require(script:GetCustomProperty("OrbitMovement"))
+local Ease3D = require(script:GetCustomProperty("Ease3D"))
+
 
 local LOCAL_PLAYER = Game:GetLocalPlayer()
 
@@ -82,7 +80,8 @@ function PlayAnimation(hitPos)
     CoolEffect:Play("sound04")
 
     local laser69 
-    laser69 = World.SpawnAsset(LASER_FX, {position = hitPos})
+    laser69 = World.SpawnAsset(LASER_FX, {position = ORBITAL_BALL:GetWorldPosition()})
+    Ease3D.EaseWorldPosition(laser69, hitPos, .5, Ease3D.EasingEquation.EXPONENTIAL)
     Task.Spawn(function() 
         Task.Wait(1)    
         laser69:Destroy()

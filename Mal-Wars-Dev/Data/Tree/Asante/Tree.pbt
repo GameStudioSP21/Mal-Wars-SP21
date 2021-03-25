@@ -1,130 +1,6 @@
 Name: "Asante"
 RootId: 1187155345345434260
 Objects {
-  Id: 16152422187185825082
-  Name: "OrbitMovement"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1187155345345434260
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Sphere"
-      ObjectReference {
-        SelfId: 12787185638344987755
-      }
-    }
-    Overrides {
-      Name: "cs:OrbitRadius"
-      Float: 5000
-    }
-    Overrides {
-      Name: "cs:OrbitSpeed"
-      Int: 1
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 1119669560862901809
-    }
-  }
-}
-Objects {
-  Id: 2112157011057917372
-  Name: "ServerContext"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1187155345345434260
-  ChildIds: 12787185638344987755
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  NetworkContext {
-    Type: Server
-  }
-}
-Objects {
-  Id: 12787185638344987755
-  Name: "Sphere"
-  Transform {
-    Location {
-      X: -6000
-      Y: 140
-      Z: 2500
-    }
-    Rotation {
-    }
-    Scale {
-      X: 3
-      Y: 3
-      Z: 3
-    }
-  }
-  ParentId: 2112157011057917372
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 1413196292823476264
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
   Id: 7666823538778478365
   Name: "GS_OrbitalLaser_Server"
   Transform {
@@ -202,6 +78,8 @@ Objects {
   ParentId: 1187155345345434260
   ChildIds: 997332275306158636
   ChildIds: 5482961795826328366
+  ChildIds: 12787185638344987755
+  ChildIds: 16152422187185825082
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -212,6 +90,101 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   NetworkContext {
+  }
+}
+Objects {
+  Id: 16152422187185825082
+  Name: "OrbitMovement"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7420073517901404684
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Sphere"
+      ObjectReference {
+        SelfId: 12787185638344987755
+      }
+    }
+    Overrides {
+      Name: "cs:OrbitRadius"
+      Float: 5000
+    }
+    Overrides {
+      Name: "cs:OrbitSpeed"
+      Int: 1
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 1119669560862901809
+    }
+  }
+}
+Objects {
+  Id: 12787185638344987755
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -6000
+      Y: 140
+      Z: 2500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 7420073517901404684
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1413196292823476264
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
   }
 }
 Objects {
@@ -452,6 +425,18 @@ Objects {
       Name: "cs:LaserBeamVFX"
       AssetReference {
         Id: 16110847186557738078
+      }
+    }
+    Overrides {
+      Name: "cs:OrbitalBall"
+      ObjectReference {
+        SelfId: 12787185638344987755
+      }
+    }
+    Overrides {
+      Name: "cs:Ease3D"
+      AssetReference {
+        Id: 11698430162959436393
       }
     }
   }
