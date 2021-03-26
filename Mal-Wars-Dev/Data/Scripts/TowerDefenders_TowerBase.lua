@@ -351,7 +351,7 @@ function Tower:PlayMuzzleEffects()
     -- Play all the effects attached to the muzzle
     for _, effect in pairs(self._muzzleEffects) do
         
-        SoundRandomizer.SoundChange(effect)
+        SoundRandomizer.SoundChange(effect, 3, -5, 5)
         effect:Play()
     end
 end
