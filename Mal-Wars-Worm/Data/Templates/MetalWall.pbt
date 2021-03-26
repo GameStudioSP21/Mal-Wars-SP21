@@ -86,7 +86,7 @@ Assets {
         Transform {
           Location {
             X: -300
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
             Yaw: -2.73207588e-05
@@ -294,7 +294,7 @@ Assets {
         Transform {
           Location {
             X: -235
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
             Yaw: -2.73207588e-05
@@ -14100,7 +14100,7 @@ Assets {
           Location {
             X: -155
             Y: -5
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
           }
@@ -17087,7 +17087,7 @@ Assets {
         Transform {
           Location {
             X: 60
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 70
           }
           Rotation {
@@ -17276,7 +17276,7 @@ Assets {
         Transform {
           Location {
             X: -60
-            Y: -0.000122070313
+            Y: -0.000122070312
             Z: 70
           }
           Rotation {
@@ -18174,7 +18174,7 @@ Assets {
         Transform {
           Location {
             X: 60
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 70
           }
           Rotation {
@@ -18363,7 +18363,7 @@ Assets {
         Transform {
           Location {
             X: -60
-            Y: -0.000122070313
+            Y: -0.000122070312
             Z: 70
           }
           Rotation {
@@ -18553,7 +18553,7 @@ Assets {
           Location {
             X: 20
             Y: 105
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
             Yaw: -89.9999924
@@ -19118,7 +19118,7 @@ Assets {
         Transform {
           Location {
             X: 60
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 70
           }
           Rotation {
@@ -19306,7 +19306,7 @@ Assets {
         Transform {
           Location {
             X: -60
-            Y: -0.000122070313
+            Y: -0.000122070312
             Z: 70
           }
           Rotation {
@@ -19687,7 +19687,7 @@ Assets {
         Name: "Pipe - 45-Degree Long "
         Transform {
           Location {
-            X: 6.10351563e-05
+            X: 6.10351562e-05
             Y: -15
             Z: 480
           }
@@ -19742,7 +19742,7 @@ Assets {
         Name: "Pipe - 45-Degree Long "
         Transform {
           Location {
-            X: -6.10351563e-05
+            X: -6.10351562e-05
             Y: 100
             Z: 200
           }
@@ -19846,7 +19846,7 @@ Assets {
         Name: "Pipe - 45-Degree Long "
         Transform {
           Location {
-            X: -6.10351563e-05
+            X: -6.10351562e-05
           }
           Rotation {
             Pitch: -1.36603776e-05
@@ -20487,7 +20487,7 @@ Assets {
         Transform {
           Location {
             X: 60
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 70
           }
           Rotation {
@@ -20675,7 +20675,7 @@ Assets {
         Transform {
           Location {
             X: -60
-            Y: -0.000122070313
+            Y: -0.000122070312
             Z: 70
           }
           Rotation {
@@ -20864,7 +20864,7 @@ Assets {
           Location {
             X: -725
             Y: 105
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
             Yaw: -89.9999847
@@ -21429,7 +21429,7 @@ Assets {
         Transform {
           Location {
             X: 60
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 70
           }
           Rotation {
@@ -21617,7 +21617,7 @@ Assets {
         Transform {
           Location {
             X: -60
-            Y: -0.000122070313
+            Y: -0.000122070312
             Z: 70
           }
           Rotation {
@@ -21998,7 +21998,7 @@ Assets {
         Name: "Pipe - 45-Degree Long "
         Transform {
           Location {
-            X: 6.10351563e-05
+            X: 6.10351562e-05
             Y: -15
             Z: 480
           }
@@ -22053,7 +22053,7 @@ Assets {
         Name: "Pipe - 45-Degree Long "
         Transform {
           Location {
-            X: -6.10351563e-05
+            X: -6.10351562e-05
             Y: 100
             Z: 200
           }
@@ -22157,7 +22157,7 @@ Assets {
         Name: "Pipe - 45-Degree Long "
         Transform {
           Location {
-            X: -6.10351563e-05
+            X: -6.10351562e-05
           }
           Rotation {
             Pitch: -1.36603776e-05
@@ -22798,7 +22798,7 @@ Assets {
         Transform {
           Location {
             X: 60
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 70
           }
           Rotation {
@@ -22986,7 +22986,7 @@ Assets {
         Transform {
           Location {
             X: -60
-            Y: -0.000122070313
+            Y: -0.000122070312
             Z: 70
           }
           Rotation {
@@ -23741,7 +23741,7 @@ Assets {
         Transform {
           Location {
             X: 60
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 70
           }
           Rotation {
@@ -23929,7 +23929,7 @@ Assets {
         Transform {
           Location {
             X: -60
-            Y: -0.000122070313
+            Y: -0.000122070312
             Z: 70
           }
           Rotation {
@@ -24310,7 +24310,7 @@ Assets {
         Name: "Pipe - 45-Degree Long "
         Transform {
           Location {
-            X: 6.10351563e-05
+            X: 6.10351562e-05
             Y: -15
             Z: 480
           }
@@ -24365,7 +24365,7 @@ Assets {
         Name: "Pipe - 45-Degree Long "
         Transform {
           Location {
-            X: -6.10351563e-05
+            X: -6.10351562e-05
             Y: 100
             Z: 200
           }
@@ -24469,7 +24469,7 @@ Assets {
         Name: "Pipe - 45-Degree Long "
         Transform {
           Location {
-            X: -6.10351563e-05
+            X: -6.10351562e-05
           }
           Rotation {
             Pitch: -1.36603776e-05
@@ -25110,7 +25110,7 @@ Assets {
         Transform {
           Location {
             X: 60
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 70
           }
           Rotation {
@@ -25298,7 +25298,7 @@ Assets {
         Transform {
           Location {
             X: -60
-            Y: -0.000122070313
+            Y: -0.000122070312
             Z: 70
           }
           Rotation {
@@ -26053,7 +26053,7 @@ Assets {
         Transform {
           Location {
             X: 60
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 70
           }
           Rotation {
@@ -26241,7 +26241,7 @@ Assets {
         Transform {
           Location {
             X: -60
-            Y: -0.000122070313
+            Y: -0.000122070312
             Z: 70
           }
           Rotation {
@@ -26622,7 +26622,7 @@ Assets {
         Name: "Pipe - 45-Degree Long "
         Transform {
           Location {
-            X: 6.10351563e-05
+            X: 6.10351562e-05
             Y: -15
             Z: 480
           }
@@ -26677,7 +26677,7 @@ Assets {
         Name: "Pipe - 45-Degree Long "
         Transform {
           Location {
-            X: -6.10351563e-05
+            X: -6.10351562e-05
             Y: 100
             Z: 200
           }
@@ -26781,7 +26781,7 @@ Assets {
         Name: "Pipe - 45-Degree Long "
         Transform {
           Location {
-            X: -6.10351563e-05
+            X: -6.10351562e-05
           }
           Rotation {
             Pitch: -1.36603776e-05
@@ -27422,7 +27422,7 @@ Assets {
         Transform {
           Location {
             X: 60
-            Y: 0.000122070313
+            Y: 0.000122070312
             Z: 70
           }
           Rotation {
@@ -27610,7 +27610,7 @@ Assets {
         Transform {
           Location {
             X: -60
-            Y: -0.000122070313
+            Y: -0.000122070312
             Z: 70
           }
           Rotation {

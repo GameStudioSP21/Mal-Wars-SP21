@@ -806,7 +806,7 @@ Assets {
         Name: "AdT2"
         Transform {
           Location {
-            Y: 14.6445313
+            Y: 14.6445312
           }
           Rotation {
             Yaw: -90

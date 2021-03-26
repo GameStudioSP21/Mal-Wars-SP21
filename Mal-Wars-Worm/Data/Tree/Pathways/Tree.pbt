@@ -19,6 +19,19 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 5048194289824268104
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -485
+            Y: 2480
+            Z: -50
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 11021958622741515595
       value {
         Overrides {
@@ -65,7 +78,7 @@ Objects {
   Name: "Pathways-Center Pivot"
   Transform {
     Location {
-      X: -7417.66895
+      X: -7417.66894
       Y: -3336.13037
     }
     Rotation {
@@ -218,14 +231,6 @@ Objects {
           Rotator {
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
       }
     }
     TemplateAsset {
@@ -280,14 +285,6 @@ Objects {
             Yaw: -90
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
       }
     }
     TemplateAsset {
@@ -340,14 +337,6 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: -179.999969
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: -1
-            Y: 1
-            Z: 1
           }
         }
       }
@@ -1270,7 +1259,7 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 15768.9727
+            X: 15768.9726
             Y: 761.197754
             Z: -5280.62695
           }

@@ -431,7 +431,7 @@ Assets {
         Name: "Cube"
         Transform {
           Location {
-            X: 1513.14893
+            X: 1513.14892
             Y: 614.502441
           }
           Rotation {
@@ -1420,7 +1420,7 @@ Assets {
         Name: "Sci-fi Panel 2x3m Triangle"
         Transform {
           Location {
-            X: 1805.53809
+            X: 1805.53808
             Y: -108.483
             Z: 0.727613449
           }

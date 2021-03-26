@@ -148,9 +148,9 @@ Objects {
   Name: "WallLights"
   Transform {
     Location {
-      X: -4502.57227
+      X: -4502.57226
       Y: -408.641113
-      Z: -16768.6563
+      Z: -16768.6562
     }
     Rotation {
     }
@@ -978,7 +978,7 @@ Objects {
   Transform {
     Location {
       X: 8041.70703
-      Y: -5153.99561
+      Y: -5153.9956
       Z: 4809.71289
     }
     Rotation {
