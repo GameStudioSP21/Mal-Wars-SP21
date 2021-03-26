@@ -80,6 +80,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8585559618980999928
+  Name: "Metal Iron Rusted 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_iron_003"
+  }
+}
+Assets {
   Id: 7733007725099537116
   Name: "Thorn"
   PlatformAssetType: 1
