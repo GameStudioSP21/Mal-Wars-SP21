@@ -3853,7 +3853,7 @@ Objects {
     }
     Rotation {
       Pitch: 21.3558426
-      Yaw: 156.441894
+      Yaw: 156.441895
       Roll: -89.3781738
     }
     Scale {
@@ -4800,7 +4800,7 @@ Objects {
   Transform {
     Location {
       X: -1292.74646
-      Y: -1314.26562
+      Y: -1314.26563
       Z: 9.3242178
     }
     Rotation {
@@ -9301,7 +9301,7 @@ Objects {
   Transform {
     Location {
       X: -1288.94409
-      Y: -1360.97558
+      Y: -1360.97559
       Z: 18.7299805
     }
     Rotation {
@@ -11001,7 +11001,7 @@ Objects {
   Name: "Pipe"
   Transform {
     Location {
-      X: -1270.83642
+      X: -1270.83643
       Y: -1368.65576
       Z: 9.56380177
     }
@@ -12420,7 +12420,7 @@ Objects {
     }
     Rotation {
       Pitch: 41.6045456
-      Yaw: 156.441894
+      Yaw: 156.441895
       Roll: 180
     }
     Scale {

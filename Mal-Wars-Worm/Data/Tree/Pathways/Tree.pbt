@@ -78,7 +78,7 @@ Objects {
   Name: "Pathways-Center Pivot"
   Transform {
     Location {
-      X: -7417.66894
+      X: -7417.66895
       Y: -3336.13037
     }
     Rotation {
@@ -1259,7 +1259,7 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 15768.9726
+            X: 15768.9727
             Y: 761.197754
             Z: -5280.62695
           }

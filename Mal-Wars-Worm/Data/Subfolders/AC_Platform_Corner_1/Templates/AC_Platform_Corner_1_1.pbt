@@ -2338,7 +2338,7 @@ Assets {
         Name: "Sci-fi Trim 01"
         Transform {
           Location {
-            X: 2562.64062
+            X: 2562.64063
             Y: 485.50174
             Z: 815.000916
           }

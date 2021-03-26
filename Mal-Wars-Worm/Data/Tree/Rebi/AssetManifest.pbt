@@ -44,6 +44,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11278864538517343814
+  Name: "Prism - 6-Sided Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_half_hexagon_001"
+  }
+}
+Assets {
   Id: 8991768404381927472
   Name: "Rock Block 01"
   PlatformAssetType: 1
@@ -68,6 +77,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prism_octagon_001"
+  }
+}
+Assets {
+  Id: 4247430867898109902
+  Name: "Stucco Tintable"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_stucco_tint_001_uv"
   }
 }
 Assets {
