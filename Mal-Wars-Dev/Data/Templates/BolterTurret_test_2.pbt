@@ -446,7 +446,7 @@ Assets {
         Name: "Cylinder - Chamfered"
         Transform {
           Location {
-            X: 52.1601563
+            X: 52.1601562
             Y: -10.4029236
             Z: 18.5814514
           }
@@ -2943,7 +2943,7 @@ Assets {
         Name: "Military Ammo Crate Small"
         Transform {
           Location {
-            X: -57.0195313
+            X: -57.0195312
             Y: 16.8563385
             Z: 14.3648682
           }

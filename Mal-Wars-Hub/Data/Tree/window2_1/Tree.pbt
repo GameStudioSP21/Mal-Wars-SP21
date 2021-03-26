@@ -1,7 +1,7 @@
 Name: "window2_1"
-RootId: 10378175792634667740
+RootId: 11430942074312819653
 Objects {
-  Id: 15781009479130832587
+  Id: 9879255117494670432
   Name: "Whitebox Wall 01"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 0.3
     }
   }
-  ParentId: 10378175792634667740
+  ParentId: 11430942074312819653
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -44,14 +44,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 15781009479130832587
+    SelfId: 5286241282794097594
     SubobjectId: 13830225286174781530
-    InstanceId: 14607687699607305245
-    TemplateId: 7105272645578194033
+    InstanceId: 2585132023508260079
+    TemplateId: 17735093090777977581
   }
 }
 Objects {
-  Id: 6417894517526902223
+  Id: 6251325591575629207
   Name: "Whitebox Wall 01 Doorway 01 Frame"
   Transform {
     Location {
@@ -68,7 +68,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 10378175792634667740
+  ParentId: 11430942074312819653
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -94,14 +94,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 6417894517526902223
+    SelfId: 14649393739509194942
     SubobjectId: 4467374097791638366
-    InstanceId: 14607687699607305245
-    TemplateId: 7105272645578194033
+    InstanceId: 2585132023508260079
+    TemplateId: 17735093090777977581
   }
 }
 Objects {
-  Id: 1622973468612523336
+  Id: 3515850806330038207
   Name: "Whitebox Wall 01"
   Transform {
     Location {
@@ -118,7 +118,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 10378175792634667740
+  ParentId: 11430942074312819653
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -144,9 +144,9 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 1622973468612523336
+    SelfId: 9572433133220962361
     SubobjectId: 8244483262570863577
-    InstanceId: 14607687699607305245
-    TemplateId: 7105272645578194033
+    InstanceId: 2585132023508260079
+    TemplateId: 17735093090777977581
   }
 }

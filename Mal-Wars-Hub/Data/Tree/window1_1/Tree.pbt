@@ -1,13 +1,13 @@
 Name: "window1_1"
-RootId: 16774779357182377682
+RootId: 14214523902964890090
 Objects {
-  Id: 1961523464159791404
+  Id: 9786619514279529323
   Name: "Whitebox Wall 01"
   Transform {
     Location {
       X: -92.0175705
       Y: -120.01001
-      Z: 479.999817
+      Z: 624.170166
     }
     Rotation {
       Yaw: 51.0000038
@@ -15,10 +15,10 @@ Objects {
     Scale {
       X: 1.2
       Y: 1
-      Z: 0.5
+      Z: 0.709052
     }
   }
-  ParentId: 16774779357182377682
+  ParentId: 14214523902964890090
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -44,14 +44,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 1961523464159791404
+    SelfId: 9900411441462008925
     SubobjectId: 9211839463291774909
-    InstanceId: 14607687699607305245
-    TemplateId: 7105272645578194033
+    InstanceId: 2585132023508260079
+    TemplateId: 17735093090777977581
   }
 }
 Objects {
-  Id: 5055515742241185211
+  Id: 5417028987363616031
   Name: "Whitebox Wall 01"
   Transform {
     Location {
@@ -68,7 +68,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 16774779357182377682
+  ParentId: 14214523902964890090
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -94,20 +94,20 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 5055515742241185211
+    SelfId: 15309182342761187530
     SubobjectId: 2506095780169167658
-    InstanceId: 14607687699607305245
-    TemplateId: 7105272645578194033
+    InstanceId: 2585132023508260079
+    TemplateId: 17735093090777977581
   }
 }
 Objects {
-  Id: 16369384560900048193
+  Id: 2931606255325247028
   Name: "Whitebox Wall 01 Doorway 01 Frame"
   Transform {
     Location {
       X: -107.010963
       Y: -110.007561
-      Z: 109.999817
+      Z: 111.583099
     }
     Rotation {
       Yaw: 50.9999886
@@ -115,10 +115,10 @@ Objects {
     Scale {
       X: 4
       Y: 1
-      Z: 1.1
+      Z: 1.54952681
     }
   }
-  ParentId: 16774779357182377682
+  ParentId: 14214523902964890090
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -144,9 +144,9 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 16369384560900048193
+    SelfId: 8175815036660273200
     SubobjectId: 9782944953097186256
-    InstanceId: 14607687699607305245
-    TemplateId: 7105272645578194033
+    InstanceId: 2585132023508260079
+    TemplateId: 17735093090777977581
   }
 }

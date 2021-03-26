@@ -1993,7 +1993,7 @@ Assets {
         Name: "Head"
         Transform {
           Location {
-            X: -210.504395
+            X: -210.504394
             Y: 30.8373852
             Z: 89.6265411
           }

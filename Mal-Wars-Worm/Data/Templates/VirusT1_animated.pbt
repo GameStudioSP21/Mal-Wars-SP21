@@ -521,7 +521,7 @@ Assets {
         Name: "Coral Branches Small"
         Transform {
           Location {
-            X: 24.5507813
+            X: 24.5507812
             Y: 261.806641
             Z: 32.7275391
           }
@@ -585,7 +585,7 @@ Assets {
         Transform {
           Location {
             X: 28.2275391
-            Y: 276.851563
+            Y: 276.851562
             Z: 17.5639648
           }
           Rotation {
@@ -1413,7 +1413,7 @@ Assets {
         Transform {
           Location {
             X: -23.6972656
-            Y: 266.226563
+            Y: 266.226562
             Z: 18.8432617
           }
           Rotation {

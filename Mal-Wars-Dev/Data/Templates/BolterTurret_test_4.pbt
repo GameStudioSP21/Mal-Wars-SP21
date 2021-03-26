@@ -1694,7 +1694,7 @@ Assets {
         Name: "Modern Weapon - Gas Cylinder 01"
         Transform {
           Location {
-            X: 111.414063
+            X: 111.414062
             Y: -10.1846619
             Z: 18.3021545
           }
@@ -3214,7 +3214,7 @@ Assets {
         Name: "Military Ammo Crate Small"
         Transform {
           Location {
-            X: -57.0195313
+            X: -57.0195312
             Y: 16.8563385
             Z: 14.3648682
           }

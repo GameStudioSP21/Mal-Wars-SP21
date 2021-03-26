@@ -1,7 +1,40 @@
 Name: "Armory Label Sign"
-RootId: 16326411052578902
+RootId: 14907500977411845432
 Objects {
-  Id: 2511817156169532949
+  Id: 15696219155026511075
+  Name: "Neon Lettering_Armory"
+  Transform {
+    Location {
+      X: -0.435013026
+      Y: -73.9599915
+      Z: 0.502728164
+    }
+    Rotation {
+      Yaw: -2.73207461e-05
+    }
+    Scale {
+      X: 1.44149435
+      Y: 1.44149435
+      Z: 1.44149435
+    }
+  }
+  ParentId: 14907500977411845432
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Neon Lettering_Armory"
+  }
+}
+Objects {
+  Id: 15520184442811888832
   Name: "Armory Plaque Panel"
   Transform {
     Location {
@@ -10,7 +43,7 @@ Objects {
       Z: 59.0018768
     }
     Rotation {
-      Yaw: -2.39056571e-05
+      Yaw: -3.05175781e-05
     }
     Scale {
       X: 3.20929956
@@ -18,9 +51,9 @@ Objects {
       Z: 3.20929956
     }
   }
-  ParentId: 16326411052578902
-  ChildIds: 7740946380418115484
-  ChildIds: 8360816669551591579
+  ParentId: 14907500977411845432
+  ChildIds: 5918630360453999973
+  ChildIds: 10014479311310419514
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -35,7 +68,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8360816669551591579
+  Id: 10014479311310419514
   Name: "Cube - Rounded"
   Transform {
     Location {
@@ -51,7 +84,7 @@ Objects {
       Z: 0.870106339
     }
   }
-  ParentId: 2511817156169532949
+  ParentId: 15520184442811888832
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -86,7 +119,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7740946380418115484
+  Id: 5918630360453999973
   Name: "Sci-fi Ship Cockpit Back 03"
   Transform {
     Location {
@@ -105,7 +138,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2511817156169532949
+  ParentId: 15520184442811888832
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -137,37 +170,5 @@ Objects {
         LinearDamping: 0.01
       }
     }
-  }
-}
-Objects {
-  Id: 3254151979208226859
-  Name: "Armory Lettering"
-  Transform {
-    Location {
-      X: -0.000703854719
-      Y: 3.35623862e-10
-      Z: 25.0144024
-    }
-    Rotation {
-      Yaw: -3.05175781e-05
-    }
-    Scale {
-      X: 1.109851
-      Y: 1.109851
-      Z: 1.109851
-    }
-  }
-  ParentId: 16326411052578902
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
   }
 }

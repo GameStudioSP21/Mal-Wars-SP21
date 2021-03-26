@@ -188,7 +188,7 @@ Objects {
           Vector {
             X: -17642.1055
             Y: -19275.1328
-            Z: 8378.94727
+            Z: 8378.94726
           }
         }
         Overrides {
@@ -463,7 +463,7 @@ Objects {
   Name: "Whitebox Wall 01 Triangle Top"
   Transform {
     Location {
-      X: 66850.0313
+      X: 66850.0312
       Y: 3158.59424
       Z: 28750
     }
@@ -1077,7 +1077,7 @@ Objects {
   Name: "Pipe - 8-Sided"
   Transform {
     Location {
-      X: 27.9882813
+      X: 27.9882812
       Y: -44.4267578
       Z: 3039.7334
     }
@@ -1182,7 +1182,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95313
+      X: -1228.95312
       Y: -1519.06641
     }
     Rotation {
@@ -1225,7 +1225,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95313
+      X: -1228.95312
       Y: -1519.06641
       Z: 4733.59473
     }
@@ -1725,7 +1725,7 @@ Objects {
   Name: "Pipe - 8-Sided"
   Transform {
     Location {
-      X: 27.9882813
+      X: 27.9882812
       Y: -44.4267578
       Z: 3039.7334
     }
@@ -1830,7 +1830,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95313
+      X: -1228.95312
       Y: -1519.06641
     }
     Rotation {
@@ -1873,7 +1873,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95313
+      X: -1228.95312
       Y: -1519.06641
       Z: 4733.59473
     }
@@ -2414,7 +2414,7 @@ Objects {
   Name: "Pipe - 8-Sided"
   Transform {
     Location {
-      X: 27.9882813
+      X: 27.9882812
       Y: -44.4267578
       Z: 3039.7334
     }
@@ -2519,7 +2519,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95313
+      X: -1228.95312
       Y: -1519.06641
     }
     Rotation {
@@ -2562,7 +2562,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95313
+      X: -1228.95312
       Y: -1519.06641
       Z: 4733.59473
     }
@@ -2651,7 +2651,7 @@ Objects {
   Transform {
     Location {
       X: -225
-      Y: 103.625977
+      Y: 103.625976
     }
     Rotation {
     }
@@ -3103,7 +3103,7 @@ Objects {
   Name: "Pipe - 8-Sided"
   Transform {
     Location {
-      X: 27.9882813
+      X: 27.9882812
       Y: -44.4267578
       Z: 3039.7334
     }
@@ -3208,7 +3208,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95313
+      X: -1228.95312
       Y: -1519.06641
     }
     Rotation {
@@ -3251,7 +3251,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95313
+      X: -1228.95312
       Y: -1519.06641
       Z: 4733.59473
     }
@@ -3340,7 +3340,7 @@ Objects {
   Transform {
     Location {
       X: 205
-      Y: 113.625977
+      Y: 113.625976
     }
     Rotation {
     }
@@ -3585,7 +3585,7 @@ Objects {
   Name: "Whitebox -Hole Details"
   Transform {
     Location {
-      X: -159.101563
+      X: -159.101562
       Y: 160.549805
       Z: 10121.1582
     }
@@ -3792,7 +3792,7 @@ Objects {
   Name: "Pipe - 8-Sided"
   Transform {
     Location {
-      X: 27.9882813
+      X: 27.9882812
       Y: -44.4267578
       Z: 3039.7334
     }
@@ -3897,7 +3897,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95313
+      X: -1228.95312
       Y: -1519.06641
     }
     Rotation {
@@ -3940,7 +3940,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95313
+      X: -1228.95312
       Y: -1519.06641
       Z: 4733.59473
     }
@@ -4528,7 +4528,7 @@ Objects {
   Name: "Pipe - 8-Sided"
   Transform {
     Location {
-      X: 27.9882813
+      X: 27.9882812
       Y: -44.4267578
       Z: 3039.7334
     }
@@ -4633,7 +4633,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95313
+      X: -1228.95312
       Y: -1519.06641
     }
     Rotation {
@@ -4676,7 +4676,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95313
+      X: -1228.95312
       Y: -1519.06641
       Z: 4733.59473
     }
@@ -6012,7 +6012,7 @@ Objects {
   Name: "Prism - 6-Sided Half"
   Transform {
     Location {
-      X: -14756.0059
+      X: -14756.0058
       Y: 15008.626
       Z: -2530
     }
@@ -6781,7 +6781,7 @@ Objects {
   Transform {
     Location {
       X: -83.175293
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
     }
@@ -6837,7 +6837,7 @@ Objects {
   Transform {
     Location {
       X: -83.175293
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
       Yaw: 1.36603685e-05
@@ -6895,7 +6895,7 @@ Objects {
   Transform {
     Location {
       X: 83.175293
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
       Yaw: -179.999985
@@ -6953,7 +6953,7 @@ Objects {
   Transform {
     Location {
       X: 83.175293
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
       Yaw: -179.999969
@@ -7010,7 +7010,7 @@ Objects {
   Transform {
     Location {
       X: -80
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
     }
@@ -7073,7 +7073,7 @@ Objects {
   Transform {
     Location {
       X: -80
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
       Yaw: 1.3660373e-05
@@ -7138,7 +7138,7 @@ Objects {
   Transform {
     Location {
       X: 80
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
       Yaw: 180
@@ -7203,7 +7203,7 @@ Objects {
   Transform {
     Location {
       X: 80
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
       Yaw: -179.999985
@@ -10442,7 +10442,7 @@ Objects {
       Z: 61.3911438
     }
     Rotation {
-      Pitch: -7.49414063
+      Pitch: -7.49414062
       Yaw: 18.4092083
       Roll: 34.0127335
     }
@@ -12479,7 +12479,7 @@ Objects {
     Location {
       X: 288.418304
       Y: 763.298523
-      Z: 495.032227
+      Z: 495.032226
     }
     Rotation {
       Pitch: -27.3190613
@@ -13798,7 +13798,7 @@ Objects {
   Transform {
     Location {
       X: 370.944672
-      Y: 688.219727
+      Y: 688.219726
       Z: 781.76593
     }
     Rotation {
@@ -15206,7 +15206,7 @@ Objects {
   Transform {
     Location {
       X: -83.175293
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
     }
@@ -15262,7 +15262,7 @@ Objects {
   Transform {
     Location {
       X: -83.175293
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
       Yaw: 1.36603685e-05
@@ -15320,7 +15320,7 @@ Objects {
   Transform {
     Location {
       X: 83.175293
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
       Yaw: -179.999985
@@ -15378,7 +15378,7 @@ Objects {
   Transform {
     Location {
       X: 83.175293
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
       Yaw: -179.999969
@@ -15435,7 +15435,7 @@ Objects {
   Transform {
     Location {
       X: -80
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
     }
@@ -15498,7 +15498,7 @@ Objects {
   Transform {
     Location {
       X: -80
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
       Yaw: 1.3660373e-05
@@ -15563,7 +15563,7 @@ Objects {
   Transform {
     Location {
       X: 80
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
       Yaw: 180
@@ -15628,7 +15628,7 @@ Objects {
   Transform {
     Location {
       X: 80
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
       Yaw: -179.999985
@@ -19397,7 +19397,7 @@ Objects {
     Location {
       X: 9.99999905
       Y: 15.000062
-      Z: -6.10351563e-05
+      Z: -6.10351562e-05
     }
     Rotation {
     }
@@ -19461,7 +19461,7 @@ Objects {
     Location {
       X: 9.99999905
       Y: 15.000062
-      Z: -6.10351563e-05
+      Z: -6.10351562e-05
     }
     Rotation {
     }
@@ -20875,7 +20875,7 @@ Objects {
           Name: "Position"
           Vector {
             X: 4287.09619
-            Y: -14642.0811
+            Y: -14642.081
             Z: 4925.77295
           }
         }
@@ -21118,7 +21118,7 @@ Objects {
           Name: "Position"
           Vector {
             X: 8073.62842
-            Y: -13798.0645
+            Y: -13798.0644
             Z: 5060
           }
         }

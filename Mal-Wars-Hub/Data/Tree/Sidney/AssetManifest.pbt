@@ -26,6 +26,24 @@ Assets {
   }
 }
 Assets {
+  Id: 15464952249626306512
+  Name: "Prism - 6-Sided Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_half_hexagon_001"
+  }
+}
+Assets {
+  Id: 14068053303232782567
+  Name: "Sphere"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_sphere_002"
+  }
+}
+Assets {
   Id: 13400657148102948374
   Name: "Military Tank Modern Light 02"
   PlatformAssetType: 1
@@ -53,12 +71,12 @@ Assets {
   }
 }
 Assets {
-  Id: 11693069678729816421
-  Name: "Sign Font 1 Neon Outline: A"
-  PlatformAssetType: 1
+  Id: 11507613115271256803
+  Name: "Metal Steel Hexagon 01"
+  PlatformAssetType: 2
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeNeon_Outline_01_Text_000"
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_steel_hex_001"
   }
 }
 Assets {
@@ -107,12 +125,12 @@ Assets {
   }
 }
 Assets {
-  Id: 8772843040723794250
-  Name: "Cylinder - Chamfered"
+  Id: 7725759676246772278
+  Name: "Sci-fi Ship Fuselage 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_chamfer"
+    AssetId: "sm_scf_ship_fuselage_002_ref"
   }
 }
 Assets {
@@ -125,6 +143,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7115571218229221495
+  Name: "Steam Pressure Release Short 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_steam_pressure_release_medium_01a_Cue_ref"
+  }
+}
+Assets {
   Id: 6789604014209716330
   Name: "Sci-fi Ship Engine 01"
   PlatformAssetType: 1
@@ -134,39 +161,30 @@ Assets {
   }
 }
 Assets {
-  Id: 6549299496659788022
-  Name: "Sign Font 1 Neon Outline: R"
-  PlatformAssetType: 1
+  Id: 6401498020918617889
+  Name: "Pneumatic Impact Air Drill 01 SFX"
+  PlatformAssetType: 7
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeNeon_Outline_01_Text_017"
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_air_pneumatic_impact_drill_repair_01_Cue_ref"
   }
 }
 Assets {
-  Id: 3551479728047951647
-  Name: "Sign Font 1 Neon Outline: Y"
+  Id: 5717544946372160630
+  Name: "Sci-fi Cockpit Back 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeNeon_Outline_01_Text_024"
+    AssetId: "sm_scf_ship_cockpit_back_001_ref"
   }
 }
 Assets {
-  Id: 3312852914940686921
-  Name: "Tech Panel 04"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_sf_gen_tech-panel_004_uv"
-  }
-}
-Assets {
-  Id: 3015765968112204303
-  Name: "Sign Font 1 Neon Outline: M"
+  Id: 2566880633644170439
+  Name: "Barrier Light"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeNeon_Outline_01_Text_012"
+    AssetId: "sm_prop_urb_barrier_light_001"
   }
 }
 Assets {
@@ -179,12 +197,12 @@ Assets {
   }
 }
 Assets {
-  Id: 1693932400979896338
-  Name: "Sign Font 1 Neon Outline: O"
+  Id: 1748985416970121260
+  Name: "Military Tank Modern Tread Frame 01 - Mid 1m"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeNeon_Outline_01_Text_014"
+    AssetId: "sm_mil_tank_mod_tread_frame_001_mid_1m_ref"
   }
 }
 Assets {
@@ -194,5 +212,14 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_radio_01_01_ref"
+  }
+}
+Assets {
+  Id: 769007112956482022
+  Name: "Machine Servo Turret Movement Stop 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_machine_servo_turret_movement_stop_01a_Cue_ref"
   }
 }
