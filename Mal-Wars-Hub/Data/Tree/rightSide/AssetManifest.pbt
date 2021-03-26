@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11507613115271256803
+  Name: "Metal Steel Hexagon 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_steel_hex_001"
+  }
+}
+Assets {
   Id: 10910981642376160585
   Name: "Whitebox Wall 01 Triangle"
   PlatformAssetType: 1

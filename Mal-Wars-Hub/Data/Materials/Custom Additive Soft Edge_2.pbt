@@ -1,26 +1,25 @@
 Assets {
-  Id: 9012091652159111576
-  Name: "Custom Basic Hologram Turret MAterial"
+  Id: 10146955218246400503
+  Name: "Custom Additive Soft Edge"
   PlatformAssetType: 13
   SerializationVersion: 78
   CustomMaterialAsset {
-    BaseMaterialId: 13210385242785528853
+    BaseMaterialId: 17927785296012505733
     ParameterOverrides {
       Overrides {
         Name: "color"
         Color {
-          R: 0.64
           A: 1
         }
       }
     }
     Assets {
-      Id: 13210385242785528853
-      Name: "Basic Hologram"
+      Id: 17927785296012505733
+      Name: "Additive Soft Edge"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "fxmi_basic_hologram"
+        AssetId: "fxma_additive_edgefade"
       }
     }
   }

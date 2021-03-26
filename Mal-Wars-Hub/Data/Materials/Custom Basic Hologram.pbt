@@ -1,6 +1,6 @@
 Assets {
-  Id: 9012091652159111576
-  Name: "Custom Basic Hologram Turret MAterial"
+  Id: 12426720130352372626
+  Name: "Custom Basic Hologram"
   PlatformAssetType: 13
   SerializationVersion: 78
   CustomMaterialAsset {
@@ -9,7 +9,8 @@ Assets {
       Overrides {
         Name: "color"
         Color {
-          R: 0.64
+          R: 0.85
+          G: 0.23642382
           A: 1
         }
       }
