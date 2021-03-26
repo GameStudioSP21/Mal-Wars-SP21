@@ -34,7 +34,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Radius"
-      Float: 800
+      Float: 500
     }
     Overrides {
       Name: "cs:Damage:isrep"
@@ -116,11 +116,11 @@ Objects {
     }
     Overrides {
       Name: "cs:OrbitRadius"
-      Float: 5000
+      Float: 8000
     }
     Overrides {
       Name: "cs:OrbitSpeed"
-      Int: 1
+      Int: 5
     }
   }
   Collidable_v2 {
@@ -145,7 +145,7 @@ Objects {
     Location {
       X: -6000
       Y: 140
-      Z: 2500
+      Z: 18000
     }
     Rotation {
     }
