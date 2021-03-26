@@ -30,11 +30,11 @@ Objects {
     }
     Overrides {
       Name: "cs:Damage"
-      Float: 10
+      Float: 200
     }
     Overrides {
       Name: "cs:Radius"
-      Float: 200
+      Float: 800
     }
     Overrides {
       Name: "cs:Damage:isrep"
@@ -419,7 +419,7 @@ Objects {
     }
     Overrides {
       Name: "cs:CoolDownTimer"
-      Float: 0.5
+      Float: 5
     }
     Overrides {
       Name: "cs:LaserBeamFX"
@@ -444,6 +444,10 @@ Objects {
       AssetReference {
         Id: 11698430162959436393
       }
+    }
+    Overrides {
+      Name: "cs:EaseDuration"
+      Float: 0.3
     }
   }
   Collidable_v2 {
