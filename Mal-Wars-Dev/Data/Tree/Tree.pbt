@@ -23,6 +23,7 @@ Objects {
   ChildIds: 2880498746515435782
   ChildIds: 4855365817476382941
   ChildIds: 7571376370741754032
+  ChildIds: 10570752359734628302
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -35,6 +36,54 @@ Objects {
     Value: "mc:ecollisionsetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 10570752359734628302
+  Name: "Sound_Randomizer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Pitch_Start"
+      Float: 0
+    }
+    Overrides {
+      Name: "cs:Pitch_End"
+      Float: 0
+    }
+    Overrides {
+      Name: "cs:Volume_Start"
+      Float: 0
+    }
+    Overrides {
+      Name: "cs:Volume_End"
+      Float: 0
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 2992760096040209657
+    }
   }
 }
 Objects {

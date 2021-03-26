@@ -19,6 +19,9 @@ local RADIUS_DECAL = script:GetCustomProperty("RangeRadiusDecal")
 local BLOCKED_RADIUS = script:GetCustomProperty("BlockedRadius")
 local BLOCKED_RANGE = 125 -- CUSTOM PROPERTY HERE
 
+local SoundRandomizer = require(script:GetCustomProperty("Sound_Randomizer"))
+
+
 local TARGETING_PERIOD = 0.1
 
 local INITAL_TARGETING_MODE = TowerTargeting.TARGETING_MODE.FIRST
@@ -347,6 +350,8 @@ end
 function Tower:PlayMuzzleEffects()
     -- Play all the effects attached to the muzzle
     for _, effect in pairs(self._muzzleEffects) do
+        
+        SoundRandomizer.SoundChange(effect)
         effect:Play()
     end
 end
