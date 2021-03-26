@@ -6,6 +6,7 @@ local CoolEffect = require("3FA32407A403C36C")
 local ProgressBar = script:GetCustomProperty("UIProgressBar"):WaitForObject()
 local COOL_DOWN_TIMER = script:GetCustomProperty("CoolDownTimer")
 local ORBITAL_BALL = script:GetCustomProperty("OrbitalBall"):WaitForObject()
+local EaseDuration = script:GetCustomProperty("EaseDuration")
 -- local ORBITAL_MOVEMENT = require(script:GetCustomProperty("OrbitMovement"))
 local Ease3D = require(script:GetCustomProperty("Ease3D"))
 
@@ -43,7 +44,6 @@ function OnBindingPressed(LOCAL_PLAYER, binding)
                 -- timeAtFire = time()
                 -- UpdateProgressBar()
                 onCoolDown = false
-                DamageEnemies(hitResult)
                 CoolEffect:Play("sound02")
             else
                 print("hit result nil")
@@ -70,9 +70,9 @@ function CheckView()
     -- end
 end
 
-function DamageEnemies(hitResult)
+function DamageEnemies(hitResultPos)
 	CoolEffect:Play("sound03")
-    Events.BroadcastToServer("OLD", hitResult:GetImpactPosition())
+    Events.BroadcastToServer("OLD", hitResultPos)
 end
 
 function PlayAnimation(hitPos) 
@@ -82,9 +82,10 @@ function PlayAnimation(hitPos)
 
     local laser69 
     laser69 = World.SpawnAsset(LASER_FX, {position = ORBITAL_BALL:GetWorldPosition()})
-    Ease3D.EaseWorldPosition(laser69, hitPos, .3, Ease3D.EasingEquation.LINEAR)
+    Ease3D.EaseWorldPosition(laser69, hitPos, EaseDuration, Ease3D.EasingEquation.LINEAR)
     Task.Spawn(function() 
-        Task.Wait(.2)
+        Task.Wait(EaseDuration)
+        DamageEnemies(hitPos)
         local hitFX = World.SpawnAsset(LASER_HIT_FX, {position = hitPos})
         Task.Wait(.3)
         -- Delete Projectile, but not trail

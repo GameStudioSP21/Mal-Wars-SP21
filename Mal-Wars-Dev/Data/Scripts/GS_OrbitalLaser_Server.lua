@@ -10,8 +10,8 @@ local fireRadiusSqaured = RADIUS^2
 Events.ConnectForPlayer("OLD", function(player, impactPosition)
     local board = GAMER_MANAGER.GetCurrentBoard(player)
 
-    local waveManager = board:WaitForWaveManager()
-    local currWaveNumber = waveManager:GetWaveIndex() + 1
+    -- local waveManager = board:WaitForWaveManager()
+    -- local currWaveNumber = waveManager:GetWaveIndex() + 1
 
     local enemies = board:GetEnemies()
     for i, enemy in pairs(enemies) do
@@ -23,7 +23,7 @@ Events.ConnectForPlayer("OLD", function(player, impactPosition)
                 --Attack Data table keys = {object, damage, source, position, rotation, tags}
                 -- local attackData = {object = enemy, damage = LASER_DAMAGE, source = player, position = impactPosition}
                 -- COMBAT_WRAP().ApplyDamage(attackData)
-                enemy:SetNetworkedCustomProperty("CurrentHealth", (enemyCurrHealth - (LASER_DAMAGE * currWaveNumber)))
+                enemy:SetNetworkedCustomProperty("CurrentHealth", (enemyCurrHealth - LASER_DAMAGE))
                 -- print("Did ", LASER_DAMAGE * currWaveNumber, " damage")
             end
         end
