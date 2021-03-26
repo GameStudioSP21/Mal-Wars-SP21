@@ -1,22 +1,4 @@
 Assets {
-  Id: 13266836034781074879
-  Name: "Cliff 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_cliff_001_uv"
-  }
-}
-Assets {
-  Id: 12095835209017042614
-  Name: "Cube"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_002"
-  }
-}
-Assets {
   Id: 11580750779458949993
   Name: "Metal Frame 01"
   PlatformAssetType: 2
