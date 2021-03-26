@@ -21,9 +21,8 @@ Objects {
   ChildIds: 10722931758594424760
   ChildIds: 15885606419812222058
   ChildIds: 2880498746515435782
-  ChildIds: 4855365817476382941
   ChildIds: 7571376370741754032
-  ChildIds: 10570752359734628302
+  ChildIds: 303502757073377208
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -39,12 +38,15 @@ Objects {
   }
 }
 Objects {
-  Id: 10570752359734628302
-  Name: "Sound_Randomizer"
+  Id: 303502757073377208
+  Name: "UI Progress Bar"
   Transform {
     Location {
+      X: -6400
+      Y: 24000
     }
     Rotation {
+      Yaw: -135
     }
     Scale {
       X: 1
@@ -53,24 +55,6 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Pitch_Start"
-      Float: 0
-    }
-    Overrides {
-      Name: "cs:Pitch_End"
-      Float: 0
-    }
-    Overrides {
-      Name: "cs:Volume_Start"
-      Float: 0
-    }
-    Overrides {
-      Name: "cs:Volume_End"
-      Float: 0
-    }
-  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -80,9 +64,39 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
-  Script {
-    ScriptAsset {
-      Id: 2992760096040209657
+  Control {
+    Width: 200
+    Height: 60
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    StatBar {
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      BackgroundColor {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+        A: 1
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
     }
   }
 }
@@ -113,49 +127,6 @@ Objects {
   Script {
     ScriptAsset {
       Id: 3142027126795627660
-    }
-  }
-}
-Objects {
-  Id: 4855365817476382941
-  Name: "MainMap - Midterm"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 4162559028374586543
-      value {
-        Overrides {
-          Name: "Name"
-          String: "MainMap - Midterm"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 16367089715654613383
     }
   }
 }

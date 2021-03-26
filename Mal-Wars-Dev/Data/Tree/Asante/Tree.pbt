@@ -30,11 +30,11 @@ Objects {
     }
     Overrides {
       Name: "cs:Damage"
-      Float: 10
+      Float: 200
     }
     Overrides {
       Name: "cs:Radius"
-      Float: 200
+      Float: 500
     }
     Overrides {
       Name: "cs:Damage:isrep"
@@ -78,6 +78,8 @@ Objects {
   ParentId: 1187155345345434260
   ChildIds: 997332275306158636
   ChildIds: 5482961795826328366
+  ChildIds: 12787185638344987755
+  ChildIds: 16152422187185825082
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -88,6 +90,101 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   NetworkContext {
+  }
+}
+Objects {
+  Id: 16152422187185825082
+  Name: "OrbitMovement"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7420073517901404684
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Sphere"
+      ObjectReference {
+        SelfId: 12787185638344987755
+      }
+    }
+    Overrides {
+      Name: "cs:OrbitRadius"
+      Float: 8000
+    }
+    Overrides {
+      Name: "cs:OrbitSpeed"
+      Int: 5
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 1119669560862901809
+    }
+  }
+}
+Objects {
+  Id: 12787185638344987755
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -6000
+      Y: 140
+      Z: 18000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 7420073517901404684
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1413196292823476264
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
   }
 }
 Objects {
@@ -322,13 +419,35 @@ Objects {
     }
     Overrides {
       Name: "cs:CoolDownTimer"
-      Float: 0.5
+      Float: 5
     }
     Overrides {
-      Name: "cs:LaserBeamVFX"
+      Name: "cs:LaserBeamFX"
       AssetReference {
         Id: 16110847186557738078
       }
+    }
+    Overrides {
+      Name: "cs:OBLaserHitFX"
+      AssetReference {
+        Id: 14168462304322439336
+      }
+    }
+    Overrides {
+      Name: "cs:OrbitalBall"
+      ObjectReference {
+        SelfId: 12787185638344987755
+      }
+    }
+    Overrides {
+      Name: "cs:Ease3D"
+      AssetReference {
+        Id: 11698430162959436393
+      }
+    }
+    Overrides {
+      Name: "cs:EaseDuration"
+      Float: 0.3
     }
   }
   Collidable_v2 {

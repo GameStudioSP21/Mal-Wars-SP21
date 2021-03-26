@@ -1,19 +1,10 @@
 Assets {
-  Id: 16168555887866468607
-  Name: "Sign Font 1 Bulbs: R"
-  PlatformAssetType: 1
+  Id: 16257540031996801276
+  Name: "Metal Floor Panel 03"
+  PlatformAssetType: 2
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeBulb_01_Text_017"
-  }
-}
-Assets {
-  Id: 11243752830672178585
-  Name: "Sign Font 1 Bulbs: M"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeBulb_01_Text_012"
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_simple_floor_panel_003_uv"
   }
 }
 Assets {
@@ -41,32 +32,5 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "universal_material_001"
-  }
-}
-Assets {
-  Id: 1546211914238091360
-  Name: "Sign Font 1 Bulbs: A"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeBulb_01_Text_000"
-  }
-}
-Assets {
-  Id: 350446013300823452
-  Name: "Sign Font 1 Bulbs: Y"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeBulb_01_Text_024"
-  }
-}
-Assets {
-  Id: 200899605350913733
-  Name: "Sign Font 1 Bulbs: O"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeBulb_01_Text_014"
   }
 }

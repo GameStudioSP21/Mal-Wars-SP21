@@ -1019,7 +1019,7 @@ Assets {
           AudioBP {
             Volume: 1
             Falloff: 4000
-            Radius: 2000
+            Radius: 750
             EnableOcclusion: true
             IsSpatializationEnabled: true
             IsAttenuationEnabled: true
@@ -1067,7 +1067,7 @@ Assets {
           AudioBP {
             Volume: 1
             Falloff: 4000
-            Radius: 2000
+            Radius: 750
             EnableOcclusion: true
             IsSpatializationEnabled: true
             IsAttenuationEnabled: true
