@@ -37,6 +37,41 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 7637014857338230592
+      value {
+        Overrides {
+          Name: "cs:sound02"
+          AssetReference {
+            Id: 3595088146977638786
+          }
+        }
+        Overrides {
+          Name: "cs:sound03"
+          AssetReference {
+            Id: 15542232095844191262
+          }
+        }
+        Overrides {
+          Name: "cs:sound01"
+          AssetReference {
+            Id: 6367806081794526052
+          }
+        }
+        Overrides {
+          Name: "cs:sound04"
+          AssetReference {
+            Id: 7610993156085012220
+          }
+        }
+        Overrides {
+          Name: "cs:BubblePopCoinCollect01SFX"
+          AssetReference {
+            Id: 10792606996870451201
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 17226620221455157735
     }

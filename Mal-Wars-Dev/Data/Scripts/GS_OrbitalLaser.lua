@@ -36,7 +36,6 @@ function OnBindingPressed(LOCAL_PLAYER, binding)
             if(hitResult) then
                 local hitPos = Vector3.New(hitResult:GetImpactPosition())
                 PlayAnimation(hitPos)
-                DamageEnemies(hitResult)
                 onCoolDown = true
                 ProgressBar.progress = 0
                 CoolEffect:Play("sound01")
@@ -44,6 +43,7 @@ function OnBindingPressed(LOCAL_PLAYER, binding)
                 -- timeAtFire = time()
                 -- UpdateProgressBar()
                 onCoolDown = false
+                DamageEnemies(hitResult)
                 CoolEffect:Play("sound02")
             else
                 print("hit result nil")
@@ -87,8 +87,9 @@ function PlayAnimation(hitPos)
         Task.Wait(.2)
         local hitFX = World.SpawnAsset(LASER_HIT_FX, {position = hitPos})
         Task.Wait(.3)
-        laser69:Destroy()
+        -- Delete Projectile, but not trail
         Task.Wait(.5)
+        laser69:Destroy()
         hitFX:Destroy()
     end)
 
