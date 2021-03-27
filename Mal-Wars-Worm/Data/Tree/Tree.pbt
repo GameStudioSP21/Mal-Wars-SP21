@@ -1088,7 +1088,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Falloff"
-      Float: 0.182474896
+      Float: 0.23
     }
   }
   Collidable_v2 {
