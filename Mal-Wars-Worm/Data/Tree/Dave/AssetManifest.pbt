@@ -215,6 +215,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1750631733211130857
+  Name: "Metal Iron Rusted 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_iron_002"
+  }
+}
+Assets {
   Id: 1182755327248551377
   Name: "Whitebox Wall 01 Triangle"
   PlatformAssetType: 1
