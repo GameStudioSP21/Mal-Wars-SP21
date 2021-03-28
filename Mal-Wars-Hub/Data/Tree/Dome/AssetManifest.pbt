@@ -17,15 +17,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13921976468758495621
-  Name: "Plastic Matte"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "plastic_matte_001"
-  }
-}
-Assets {
   Id: 2740323428973168817
   Name: "Cube - Bottom-Aligned"
   PlatformAssetType: 1
