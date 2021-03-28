@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8512805858169632350
+        ParentId: 4781671109827199097
         ChildIds: 6804200232825612610
         ChildIds: 10654290727477644567
         ChildIds: 14909875443712856994
@@ -1555,7 +1555,7 @@ Assets {
             Pitch: -376.063965
             Volume: 1.23958158
             Falloff: 4000
-            Radius: 2000
+            Radius: 750
             EnableOcclusion: true
             IsSpatializationEnabled: true
             IsAttenuationEnabled: true
@@ -1592,7 +1592,7 @@ Assets {
           }
           Volume: 1
           Falloff: 4000
-          Radius: 2000
+          Radius: 750
           EnableOcclusion: true
           IsSpatializationEnabled: true
           IsAttenuationEnabled: true
@@ -1629,7 +1629,7 @@ Assets {
           Pitch: -161.48877
           Volume: 1
           Falloff: 4000
-          Radius: 2000
+          Radius: 750
           EnableOcclusion: true
           IsSpatializationEnabled: true
           IsAttenuationEnabled: true

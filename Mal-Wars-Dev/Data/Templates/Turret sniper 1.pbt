@@ -335,8 +335,8 @@ Assets {
           }
           Pitch: 964.246826
           Volume: 1.43028605
-          Falloff: -1
-          Radius: 5000
+          Falloff: 4500
+          Radius: 1000
           EnableOcclusion: true
           IsSpatializationEnabled: true
           IsAttenuationEnabled: true
@@ -382,8 +382,8 @@ Assets {
           }
           AudioBP {
             Volume: 1.6227982
-            Falloff: 3600
-            Radius: 5000
+            Falloff: 4500
+            Radius: 1000
             EnableOcclusion: true
             IsSpatializationEnabled: true
             IsAttenuationEnabled: true
@@ -2546,7 +2546,7 @@ Assets {
         Name: "Top"
         Transform {
           Location {
-            X: -6.10351562e-05
+            X: -6.10351563e-05
             Z: 290.000092
           }
           Rotation {
@@ -2578,7 +2578,7 @@ Assets {
         Name: "Military Tank Modern Hatch 01"
         Transform {
           Location {
-            X: 6.10351562e-05
+            X: 6.10351563e-05
             Z: 49.9999695
           }
           Rotation {
@@ -2623,7 +2623,7 @@ Assets {
         Name: "Sci-fi Ship Engine 01"
         Transform {
           Location {
-            X: -6.10351562e-05
+            X: -6.10351563e-05
           }
           Rotation {
             Pitch: -90

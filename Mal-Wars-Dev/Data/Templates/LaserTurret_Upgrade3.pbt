@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8512805858169632350
+        ParentId: 4781671109827199097
         ChildIds: 6792739052069957774
         ChildIds: 11099337608275167044
         ChildIds: 2622926777500841976
@@ -3116,8 +3116,8 @@ Assets {
           }
           AudioBP {
             Volume: 1
-            Falloff: 6000
-            Radius: 2000
+            Falloff: 4000
+            Radius: 750
             EnableOcclusion: true
             IsSpatializationEnabled: true
             IsAttenuationEnabled: true
@@ -3156,8 +3156,8 @@ Assets {
             Id: 17772688341795286021
           }
           Volume: 1
-          Falloff: 6000
-          Radius: 2000
+          Falloff: 4000
+          Radius: 750
           EnableOcclusion: true
           IsSpatializationEnabled: true
           IsAttenuationEnabled: true
@@ -3192,8 +3192,8 @@ Assets {
             Id: 4827566767209403560
           }
           Volume: 1.86542594
-          Falloff: 6000
-          Radius: 2000
+          Falloff: 4000
+          Radius: 750
           EnableOcclusion: true
           IsSpatializationEnabled: true
           IsAttenuationEnabled: true

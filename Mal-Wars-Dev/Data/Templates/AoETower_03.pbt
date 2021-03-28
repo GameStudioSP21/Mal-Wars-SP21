@@ -4278,8 +4278,8 @@ Assets {
           }
           AudioBP {
             Volume: 4
-            Falloff: 6000
-            Radius: 4000
+            Falloff: 4000
+            Radius: 750
             EnableOcclusion: true
             IsSpatializationEnabled: true
             IsAttenuationEnabled: true
