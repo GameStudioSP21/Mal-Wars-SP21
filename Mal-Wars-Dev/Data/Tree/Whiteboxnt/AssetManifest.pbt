@@ -1,4 +1,13 @@
 Assets {
+  Id: 16177516181798898887
+  Name: "Gem - Baguette Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_gem_baguette_polished_001"
+  }
+}
+Assets {
   Id: 13621259958132264851
   Name: "Plane 1m - One Sided"
   PlatformAssetType: 1
