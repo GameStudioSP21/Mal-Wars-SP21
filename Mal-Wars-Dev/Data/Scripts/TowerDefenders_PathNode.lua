@@ -114,7 +114,11 @@ function PathNode:SetNextNode(nextNode)
     table.insert(self.nextNode,nextNode)
 
     local direction = (self:GetWorldPosition() - nextNode:GetWorldPosition()):GetNormalized()
-    local hitResult = World.Raycast(self:GetWorldPosition(), self:GetWorldPosition() + Vector3.UP * -500)
+    local hitResult = World.Raycast(self:GetWorldPosition(), self:GetWorldPosition() + Vector3.UP * -5000)
+    if not hitResult then
+        CoreDebug.DrawLine(self:GetWorldPosition(), self:GetWorldPosition() + Vector3.UP * 200, { duration = 2000, thickness = 20, color = Color.RED })
+        error(string.format("Path node - %s - is not on a surface. Drawing debug arrow to show you which node is not placed right.",self.object.name))
+    end
     local normal = hitResult:GetImpactNormal()
     local cross = direction ^ normal
 
