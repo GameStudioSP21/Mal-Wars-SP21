@@ -17,15 +17,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17033141427451298610
-  Name: "Sci-fi Ability Purple 025"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_SciFi_Ability_Purple_025"
-  }
-}
-Assets {
   Id: 16221751307075850195
   Name: "UI Gradient Rectangular 001"
   PlatformAssetType: 9
@@ -59,6 +50,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "FrameSolid8px_020"
+  }
+}
+Assets {
+  Id: 14884607247857097520
+  Name: "Center Arrow 002 Wedge"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "CenterArrow_002Wedge"
   }
 }
 Assets {
@@ -98,15 +98,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10430942501047658489
-  Name: "BG Flat 002"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "BackgroundNoOutline_019"
-  }
-}
-Assets {
   Id: 10235821765507969510
   Name: "Frame Outline Thin 001"
   PlatformAssetType: 9
@@ -116,21 +107,30 @@ Assets {
   }
 }
 Assets {
+  Id: 9521975922998819981
+  Name: "Sci-fi Ability Green 014"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_SciFi_Ability_Green_014"
+  }
+}
+Assets {
+  Id: 8714815921343760826
+  Name: "Fantasy Craft Gem 020"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Crafting_Gem_020"
+  }
+}
+Assets {
   Id: 8699906241964362491
   Name: "Teko Bold"
   PlatformAssetType: 28
   PrimaryAsset {
     AssetType: "FontAssetRef"
     AssetId: "TekoBold_ref"
-  }
-}
-Assets {
-  Id: 8414801238470530538
-  Name: "Sci-fi Ability Blue 021"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_SciFi_Ability_Blue_021"
   }
 }
 Assets {
@@ -194,6 +194,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "BackgroundFlat_033"
+  }
+}
+Assets {
+  Id: 4394833147861332425
+  Name: "Fantasy Craft Gem 027"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Crafting_Gem_027"
   }
 }
 Assets {

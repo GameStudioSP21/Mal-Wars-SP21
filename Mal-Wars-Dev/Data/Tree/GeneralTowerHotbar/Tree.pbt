@@ -129,6 +129,7 @@ Objects {
   }
   ParentId: 101890935892169219
   ChildIds: 10749656220653698260
+  ChildIds: 17610482311644155048
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -159,6 +160,48 @@ Objects {
           Value: "mc:euianchor:bottomcenter"
         }
       }
+    }
+  }
+}
+Objects {
+  Id: 17610482311644155048
+  Name: "TowerDefenders_HotBarSlot"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7732915126683645907
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8769998820704105947
+      value {
+        Overrides {
+          Name: "Name"
+          String: "TowerDefenders_HotBarSlot"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 17856611674278834355
     }
   }
 }

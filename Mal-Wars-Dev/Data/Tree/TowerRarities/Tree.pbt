@@ -215,8 +215,8 @@ Objects {
     Overrides {
       Name: "cs:Color"
       Color {
-        R: 1
-        G: 1
+        R: 0.63
+        G: 0.99999994
         B: 1
         A: 1
       }

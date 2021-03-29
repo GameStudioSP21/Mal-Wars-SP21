@@ -10,6 +10,7 @@ local HOT_BAR_PANEL = script:GetCustomProperty("HotBarPanel"):WaitForObject()
 
 -- While the clients inventory has not loaded yet then just wait for it to load.
 while not LOCAL_PLAYER.clientUserData.towerInventory do Task.Wait() end
+local inventory = LOCAL_PLAYER.clientUserData.towerInventory
 
 local hotbarView = {}
 
@@ -17,33 +18,86 @@ LOCAL_PLAYER.clientUserData.hotbarView = hotbarView
 
 function hotbarView:CreateSlotsFromTowerTable(towerTable)
     local HORIZONTAL_SPACING = 150
-    local INITAL_HORIZONTAL_SPACING = math.floor((#towerTable * HORIZONTAL_SPACING)/2)
+    local INITAL_HORIZONTAL_SPACING = math.floor((inventory.MAX_TOWERS_EQUIPPED * HORIZONTAL_SPACING)/2)
 
-    -- Construct slots for the equipped towers.
-    for i, tower in pairs(towerTable) do
+    self:ClearSlots()
+
+    -- -- Construct slots for the equipped towers.
+    for i=1,inventory.MAX_TOWERS_EQUIPPED do
         local hotbarSlotElement = World.SpawnAsset(HOT_BAR_SLOT,{ parent = HOT_BAR_PANEL })
         hotbarSlotElement.x = -INITAL_HORIZONTAL_SPACING + ((i-0.5) * HORIZONTAL_SPACING)
 
-        -- Assign the tower to the slot element
-        hotbarSlotElement.clientUserData.tower = tower
+        if towerTable[i] then
+            local tower = towerTable[i]
+            -- Assign the tower to the slot element
+            hotbarSlotElement.clientUserData.tower = tower
+            self:_SetupSlot(hotbarSlotElement,tower)
 
-        self:SetupSlot(hotbarSlotElement,tower)
-    
-        local purchaseButton = hotbarSlotElement:GetCustomProperty("PurchaseButton"):WaitForObject()
-        purchaseButton.pressedEvent:Connect(function()
-            local newTower = TowerDatabase:NewTowerByName(tower:GetName())
-            Events.Broadcast("GeneralSelectorBeginPlacement",newTower)
-        end)
+            
+            if self.isEquipping then
+                local unequipButton = hotbarSlotElement:GetCustomProperty("UnEquip"):WaitForObject()
+                unequipButton.visibility = Visibility.FORCE_ON
+                local unequipHandle = unequipButton.pressedEvent:Connect(function() 
+                    -- Todo: Have inventory unequip the tower then rebuild slots
+                end)
+                hotbarSlotElement.clientUserData.unequipHandle = unequipHandle
+            else
+                local purchaseButton = hotbarSlotElement:GetCustomProperty("PurchaseButton"):WaitForObject()
+                local purchaseHandle = purchaseButton.pressedEvent:Connect(function()
+                    --local newTower = TowerDatabase:NewTowerByName(tower:GetName()) -- Is this needed???
+                    Events.Broadcast("GeneralSelectorBeginPlacement",tower)
+                end)
+                hotbarSlotElement.clientUserData.purchaseHandle = purchaseHandle
+            end
+
+        end
     end
 end
 
 function hotbarView:CreateSlotsFromLocalInventory()
-    local inventory = LOCAL_PLAYER.clientUserData.towerInventory
     local equippedTowers = inventory:GetEquippedTowers()
     self:CreateSlotsFromTowerTable(equippedTowers)
 end
 
-function hotbarView:SetupSlot(slot,tower)
+function hotbarView:ClearSlots()
+    for _, slot in pairs(HOT_BAR_PANEL:GetChildren()) do
+        if Object.IsValid(slot) and slot.sourceTemplateId == HOT_BAR_SLOT:match("^(.+):") then
+            if slot.clientUserData.purchaseHandle then
+                slot.clientUserData.purchaseHandle:Disconnect()
+            end
+            if slot.clientUserData.unequipHandle then
+                slot.clientUserData.unequipHandle:Disconnect()
+            end
+            print("DESTROYED SLOTS")
+            slot:Destroy()
+        end
+    end
+end
+
+function hotbarView:EnableUnequipping()
+    self.isEquipping = true
+    -- Rebuild the hotbar
+    self:CreateSlotsFromLocalInventory()
+end
+
+function hotbarView:DisableUnequipping()
+    self.isEquipping = false
+    -- Rebuild the hotbar
+    self:CreateSlotsFromLocalInventory()
+end
+
+function hotbarView:Destroy()
+    self:ClearSlots()
+    if Object.IsValid(script.parent) then
+        script.parent:Destroy()
+    end
+end
+
+---------------------------------
+-- Private
+---------------------------------
+
+function hotbarView:_SetupSlot(slot,tower)
     local iconImage = slot:GetCustomProperty("Icon"):GetObject()
     iconImage:SetImage(tower:GetIcon())
 
@@ -62,15 +116,7 @@ function hotbarView:SetupSlot(slot,tower)
     background:SetColor(rarityColor - Color.New(0,0,0,backgroundAlpha))
 end
 
-function hotbarView:ClearSlots()
-    for _, slot in pairs(HOT_BAR_PANEL:GetChildren()) do
-        if Object.IsValid(slot) then
-            slot:Destroy()
-        end
-    end
-end
-
-function hotbarView:UpdateSlotPrices()
+function hotbarView:_UpdateSlotPrices()
     for i, slot in pairs(HOT_BAR_PANEL:GetChildren()) do
         if slot.clientUserData.tower then
             local tower = slot.clientUserData.tower
@@ -84,14 +130,17 @@ function hotbarView:UpdateSlotPrices()
     end
 end
 
-function hotbarView:Init()
+function hotbarView:_Init()
+    self.isEquipping = false
+
     -- Construct the slots.
     self:CreateSlotsFromLocalInventory()
 
     -- Continusely update the slots prices colors so the player knows what they can afford and what they can not afford.
-    Task.Spawn(function()
-        self:UpdateSlotPrices()
-    end).repeatCount = -1
+    self.updatePriceHandle = Task.Spawn(function()
+        self:_UpdateSlotPrices()
+    end)
+    self.updatePriceHandle.repeatCount = -1
 end
 
-hotbarView:Init()
+hotbarView:_Init()

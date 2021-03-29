@@ -7,7 +7,7 @@ Assets {
       RootId: 15126348350632175787
       Objects {
         Id: 15126348350632175787
-        Name: "Tower"
+        Name: "InventoryTowerEntry"
         Transform {
           Scale {
             X: 1
@@ -16,11 +16,7 @@ Assets {
           }
         }
         ParentId: 6311100951252094683
-        ChildIds: 16263645938227480392
-        ChildIds: 1241610363785578103
-        ChildIds: 17182501234835023399
-        ChildIds: 15292033991037130188
-        ChildIds: 17027764566764175258
+        ChildIds: 17274733873754395374
         UnregisteredParameters {
           Overrides {
             Name: "cs:NameLabel"
@@ -64,6 +60,24 @@ Assets {
               SubObjectId: 16263645938227480392
             }
           }
+          Overrides {
+            Name: "cs:SelectButton"
+            ObjectReference {
+              SubObjectId: 14686369427885429346
+            }
+          }
+          Overrides {
+            Name: "cs:TowerFrame"
+            ObjectReference {
+              SubObjectId: 12954181827494282705
+            }
+          }
+          Overrides {
+            Name: "cs:MovingPanel"
+            ObjectReference {
+              SubObjectId: 6285395150321388009
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -89,7 +103,6 @@ Assets {
               R: 1
               G: 1
               B: 1
-              A: 0.078
             }
             TeamSettings {
             }
@@ -109,15 +122,15 @@ Assets {
         }
       }
       Objects {
-        Id: 16263645938227480392
-        Name: "BackgroundFrame"
+        Id: 17274733873754395374
+        Name: "Clipping"
         Transform {
           Location {
-            X: 0.000976562267
-            Y: 0.00390625
+            X: 0.0136718713
+            Y: 0.0136718787
           }
           Rotation {
-            Yaw: 3.4150944e-06
+            Yaw: 1.36603776e-05
           }
           Scale {
             X: 1
@@ -126,6 +139,7 @@ Assets {
           }
         }
         ParentId: 15126348350632175787
+        ChildIds: 6285395150321388009
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -136,8 +150,118 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Control {
-          Width: 200
-          Height: 200
+          Width: 100
+          Height: 100
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          UseParentWidth: true
+          Panel {
+            IsClipping: true
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 6285395150321388009
+        Name: "MovingPanel"
+        Transform {
+          Location {
+            X: 0.0009765625
+            Y: 0.001953125
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17274733873754395374
+        ChildIds: 14686369427885429346
+        ChildIds: 1241610363785578103
+        ChildIds: 17182501234835023399
+        ChildIds: 15292033991037130188
+        ChildIds: 17027764566764175258
+        ChildIds: 16263645938227480392
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Control {
+          Width: 100
+          Height: 100
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          UseParentWidth: true
+          Panel {
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 14686369427885429346
+        Name: "SelectButton"
+        Transform {
+          Location {
+            X: 0.0136718713
+            Y: 0.0136718787
+          }
+          Rotation {
+            Yaw: 1.36603776e-05
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6285395150321388009
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Control {
+          Width: 100
+          Height: 30
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -145,17 +269,40 @@ Assets {
           }
           UseParentWidth: true
           UseParentHeight: true
-          Image {
-            Brush {
-              Id: 10235821765507969510
+          Button {
+            FontColor {
+              A: 1
             }
-            Color {
+            FontSize: 20
+            ButtonColor {
               R: 1
               G: 1
               B: 1
-              A: 0.692000031
+              A: 0.00500000035
             }
-            TeamSettings {
+            HoveredColor {
+              R: 1
+              G: 1
+              B: 1
+              A: 0.138000011
+            }
+            PressedColor {
+              A: 0.721
+            }
+            DisabledColor {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            Brush {
+              Id: 841534158063459245
+            }
+            IsButtonEnabled: true
+            ClickMode {
+              Value: "mc:ebuttonclickmode:default"
+            }
+            Font {
             }
           }
           AnchorLayout {
@@ -189,7 +336,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15126348350632175787
+        ParentId: 6285395150321388009
         ChildIds: 15040041828198102406
         ChildIds: 14187911197169058519
         Collidable_v2 {
@@ -213,13 +360,11 @@ Assets {
           }
           Image {
             Brush {
-              Id: 17035680932399989717
+              Id: 16162812930698369196
             }
             Color {
               R: 1
-              G: 1
-              B: 1
-              A: 0.478000015
+              A: 0.668000042
             }
             TeamSettings {
             }
@@ -384,7 +529,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15126348350632175787
+        ParentId: 6285395150321388009
         ChildIds: 18024865804941292390
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -407,13 +552,11 @@ Assets {
           }
           Image {
             Brush {
-              Id: 17035680932399989717
+              Id: 14710518860494901128
             }
             Color {
               R: 1
-              G: 1
-              B: 1
-              A: 0.478000015
+              A: 0.478431404
             }
             TeamSettings {
             }
@@ -469,11 +612,9 @@ Assets {
           }
           UseParentWidth: true
           Text {
-            Label: "Legendary"
+            Label: "Heroic"
             Color {
-              R: 1
-              G: 1
-              B: 1
+              R: 0.950000048
               A: 1
             }
             Size: 20
@@ -515,7 +656,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15126348350632175787
+        ParentId: 6285395150321388009
         ChildIds: 12954181827494282705
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -538,7 +679,7 @@ Assets {
           }
           Image {
             Brush {
-              Id: 353440111348351749
+              Id: 8414801238470530538
             }
             Color {
               R: 1
@@ -602,7 +743,7 @@ Assets {
           UseParentHeight: true
           Image {
             Brush {
-              Id: 5109516298776228162
+              Id: 10235821765507969510
             }
             Color {
               R: 1
@@ -644,7 +785,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 15126348350632175787
+        ParentId: 6285395150321388009
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -666,9 +807,7 @@ Assets {
           Text {
             Label: "Bolter Toxic"
             Color {
-              R: 1
-              G: 1
-              B: 1
+              R: 0.960000038
               A: 1
             }
             Size: 25
@@ -693,23 +832,78 @@ Assets {
           }
         }
       }
-    }
-    Assets {
-      Id: 10235821765507969510
-      Name: "Frame Outline Thin 001"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "FrameOutline_020"
+      Objects {
+        Id: 16263645938227480392
+        Name: "BackgroundFrame"
+        Transform {
+          Location {
+            X: 0.000976562267
+            Y: 0.00390625
+          }
+          Rotation {
+            Yaw: 3.4150944e-06
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6285395150321388009
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Control {
+          Width: 200
+          Height: 200
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+              Id: 10235821765507969510
+            }
+            Color {
+              R: 1
+              G: 0.00999999
+              B: 0.00999999
+              A: 0.692000031
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+          }
+        }
       }
     }
     Assets {
-      Id: 17035680932399989717
-      Name: "BG Highlighted 001"
+      Id: 16162812930698369196
+      Name: "BG Highlighted 016"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "BackgroundHighlighted_020"
+        AssetId: "BackgroundHighlighted_033"
       }
     }
     Assets {
@@ -722,21 +916,30 @@ Assets {
       }
     }
     Assets {
-      Id: 353440111348351749
-      Name: "Fantasy Ability Blue 023"
+      Id: 14710518860494901128
+      Name: "BG Gradient 009"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_Fantasy_Ability_Blue_023"
+        AssetId: "BackgroundFlat_026"
       }
     }
     Assets {
-      Id: 5109516298776228162
-      Name: "Frame Outlined Thick 001"
+      Id: 8414801238470530538
+      Name: "Sci-fi Ability Blue 021"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "FrameFlat_020"
+        AssetId: "UI_SciFi_Ability_Blue_021"
+      }
+    }
+    Assets {
+      Id: 10235821765507969510
+      Name: "Frame Outline Thin 001"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "FrameOutline_020"
       }
     }
     PrimaryAssetId {

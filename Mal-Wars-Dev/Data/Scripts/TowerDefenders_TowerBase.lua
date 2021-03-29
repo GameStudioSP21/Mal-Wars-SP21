@@ -489,4 +489,11 @@ function Tower:_Runtime()
     end
 end
 
+Tower.__eq = function(tower1, tower2)
+    if tower1:GetMUID() == tower2:GetMUID() then
+        return true
+    end
+    return false
+end
+
 return Tower

@@ -64,6 +64,10 @@ function Theme.GetStats()
     return THEME_STATS
 end
 
+function Theme.IsValidStat(statName)
+    return THEME_STATS[statName] and true or false
+end
+
 -- Get the icon from a stat name.
 function Theme.GetStatIcon(statName)
     assert(THEME_STATS[statName].icon,string.format("Tried to get the icon for - %s that does not exist.",statName))
@@ -74,15 +78,21 @@ end
 function Theme.GetStatColor(statName)
     return THEME_STATS[statName].color
 end
-
--- -- Get the statType from a stat name.
--- function Theme.GetStatType(statName)
---     assert(THEME_STATS[statName].statType,string.format("Tried to get the stat type for - %s that does not exist.",statName))
---     return THEME_STATS[statName].statType
--- end
 ---- STATS
 
----- TYPES
+-----------------------------
+-- Types
+-----------------------------
+
+-- Returns a table of all tower types.
+function Theme.GetTypes()
+    return THEME_TYPES
+end
+
+function Theme.IsValidType(typeName)
+    return THEME_TYPES[typeName] and true or false
+end
+
 function Theme.GetTypeIcon(typeName)
     assert(THEME_TYPES[typeName].icon,string.format("Tried to get the tower type icon for - %s that does not exist.",typeName))
     return THEME_TYPES[typeName].icon
@@ -94,7 +104,15 @@ function Theme.GetTypeColor(typeName)
 end
 ---- TYPES
 
+-----------------------------
+-- Rarity
+-----------------------------
+
 ---- RARITY
+function Theme.IsValidRarity(rarityName)
+    return THEME_RARITIES[rarityName] and true or false
+end
+
 function Theme.GetRarityColor(rarityName)
     assert(THEME_RARITIES[rarityName].color,string.format("Tried to get the tower rarity for - %s that does not exist.",rarityName))
     return THEME_RARITIES[rarityName].color

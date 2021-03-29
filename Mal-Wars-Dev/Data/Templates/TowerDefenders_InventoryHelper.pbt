@@ -28,10 +28,6 @@ Assets {
             String: ""
           }
           Overrides {
-            Name: "cs:EQUIPPED_TOWERS"
-            String: ""
-          }
-          Overrides {
             Name: "cs:TOWERS:isrep"
             Bool: true
           }
@@ -45,10 +41,6 @@ Assets {
           }
           Overrides {
             Name: "cs:OWNER:isrep"
-            Bool: true
-          }
-          Overrides {
-            Name: "cs:EQUIPPED_TOWERS:isrep"
             Bool: true
           }
         }

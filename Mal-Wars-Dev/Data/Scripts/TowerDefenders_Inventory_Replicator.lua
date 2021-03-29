@@ -18,40 +18,36 @@ while not OWNER do
 end
 
 local function ServerSaveInventory(inventory)
-
+    local inventory = OWNER.serverUserData.towerInventory
+    local playerData = Storage.GetPlayerData(OWNER)
+    playerData.towerInventory = inventory:ToString()
+    Storage.SetPlayerData()
 end
 
-local function ServerGetPlayerData(player)
+local function ServerGetPlayerTowerData(player)
     local playerData = Storage.GetPlayerData(player)
-    if playerData.towerInventory and playerData.equippedTowers then
-        return playerData.towerInventory, playerData.equippedTowers
+    if playerData.towerInventory then
+        return playerData.towerInventory
     end
-    return nil, nil
+    return nil
 end
 
 local function ServerInitInventory()
-    local towersInventoryString,  equippedTowersString = ServerGetPlayerData(OWNER)
-    local inventory = Inventory.New(TowerDatabase, OWNER, towersInventoryString, equippedTowersString)
+    local towersInventoryString = ServerGetPlayerTowerData(OWNER)
+    local inventory = Inventory.New(TowerDatabase, OWNER, towersInventoryString)
 
-    local inventoryString = inventory:InventoryToString()
-    local equippedString = inventory:EquippedToString()
+    local inventoryString = inventory:ToString()
 
     INVENTORY_HELPER:SetNetworkedCustomProperty("TOWERS",inventoryString)
-    INVENTORY_HELPER:SetNetworkedCustomProperty("EQUIPPED_TOWERS",equippedString)
 
     OWNER.serverUserData.towerInventory = inventory
 end
 
 local function ClientInitInventoryLocal()
-    while INVENTORY_HELPER:GetCustomProperty("TOWERS") == ""  and
-                INVENTORY_HELPER:GetCustomProperty("EQUIPPED_TOWERS") == "" 
-            do Task.Wait() end
+    while INVENTORY_HELPER:GetCustomProperty("TOWERS") == "" do Task.Wait() end
     
     local towersInventoryString = INVENTORY_HELPER:GetCustomProperty("TOWERS")
-    local equippedTowersString = INVENTORY_HELPER:GetCustomProperty("EQUIPPED_TOWERS")
-    print("[CLIENT INV REP] RECEIVED:", towersInventoryString, equippedTowersString)
-    local inventory = Inventory.New(TowerDatabase, OWNER, towersInventoryString, equippedTowersString)
-
+    local inventory = Inventory.New(TowerDatabase, OWNER, towersInventoryString)
 
     OWNER.clientUserData.towerInventory = inventory
 end 

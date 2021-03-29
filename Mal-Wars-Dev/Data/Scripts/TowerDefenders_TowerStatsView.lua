@@ -22,6 +22,7 @@ end
 
 function view:DisplayTowerStats(tower)
 
+    -- Clear all stat elements
     for _, element in pairs(self.SCROLL_PANEL:GetChildren()) do
         element:Destroy()
     end
@@ -76,18 +77,20 @@ function view:DisplayTowerStats(tower)
     local yOffset = 0
     self.MAIN_PANEL.height = self.MAIN_PANEL_INITAL_HEIGHT
     for statName, statValue in pairs(tower:GetStats()) do
-        local statIcon = TowerThemes.GetStatIcon(statName)
-        local numberAsset = World.SpawnAsset(NUMBER_STAT,{ parent = self.SCROLL_PANEL })
-        yOffset = yOffset + 80 -- TODO: Change to custom property.
-        numberAsset.y = yOffset - 80
-
-        -- SETUP
-        local statValue = numberAsset:GetCustomProperty("StatValue"):GetObject()
-        statValue.text = string.format('%.01f', tower:GetStat(statName))
-
-        local statIcon = numberAsset:GetCustomProperty("StatIcon"):GetObject()
-        statIcon:SetImage(TowerThemes.GetStatIcon(statName))
-        statIcon:SetColor(TowerThemes.GetStatColor(statName))
+        if statValue > 0 then
+            local statIcon = TowerThemes.GetStatIcon(statName)
+            local numberAsset = World.SpawnAsset(NUMBER_STAT,{ parent = self.SCROLL_PANEL })
+            yOffset = yOffset + 80 -- TODO: Change to custom property.
+            numberAsset.y = yOffset - 80
+    
+            -- SETUP
+            local statValue = numberAsset:GetCustomProperty("StatValue"):GetObject()
+            statValue.text = string.format('%.01f', tower:GetStat(statName))
+    
+            local statIcon = numberAsset:GetCustomProperty("StatIcon"):GetObject()
+            statIcon:SetImage(TowerThemes.GetStatIcon(statName))
+            statIcon:SetColor(TowerThemes.GetStatColor(statName))
+        end
     end
 
     self.MAIN_PANEL.height = self.MAIN_PANEL.height + yOffset

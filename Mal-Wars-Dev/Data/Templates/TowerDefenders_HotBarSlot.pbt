@@ -25,6 +25,7 @@ Assets {
         ChildIds: 3828586942098024263
         ChildIds: 14221714271539951665
         ChildIds: 6115467090842149310
+        ChildIds: 13550252230654447636
         UnregisteredParameters {
           Overrides {
             Name: "cs:Icon"
@@ -54,6 +55,12 @@ Assets {
             Name: "cs:PurchaseButton"
             ObjectReference {
               SubObjectId: 6115467090842149310
+            }
+          }
+          Overrides {
+            Name: "cs:UnEquip"
+            ObjectReference {
+              SubObjectId: 13550252230654447636
             }
           }
         }
@@ -425,7 +432,7 @@ Assets {
           }
           Image {
             Brush {
-              Id: 15044802355910700858
+              Id: 10235821765507969510
             }
             Color {
               R: 1
@@ -545,7 +552,7 @@ Assets {
             }
           }
           Text {
-            Label: "250"
+            Label: "None"
             Color {
               R: 1
               G: 1
@@ -658,6 +665,96 @@ Assets {
           }
         }
       }
+      Objects {
+        Id: 13550252230654447636
+        Name: "UnEquip"
+        Transform {
+          Location {
+            X: -10826.0234
+            Y: -12516.5176
+            Z: -799.080566
+          }
+          Rotation {
+            Yaw: -86.166626
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8769998820704105947
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Control {
+          Width: 50
+          Height: 50
+          UIX: -29.9749146
+          UIY: 28.2128906
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Button {
+            Label: "X"
+            FontColor {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            FontSize: 25
+            ButtonColor {
+              R: 0.800000072
+              G: 0.349019617
+              A: 1
+            }
+            HoveredColor {
+              R: 0.415000021
+              G: 0.181053817
+              A: 1
+            }
+            PressedColor {
+              R: 0.168000013
+              G: 0.0732940733
+              A: 1
+            }
+            DisabledColor {
+              A: 0.00500000035
+            }
+            Brush {
+              Id: 5269256908057536483
+            }
+            IsButtonEnabled: true
+            ClickMode {
+              Value: "mc:ebuttonclickmode:default"
+            }
+            Font {
+              Id: 2626267817006011674
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomleft"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topright"
+              }
+            }
+          }
+        }
+      }
     }
     Assets {
       Id: 16297094358569992731
@@ -687,12 +784,12 @@ Assets {
       }
     }
     Assets {
-      Id: 15044802355910700858
-      Name: "Sci-fi Ability Blue 033"
+      Id: 10235821765507969510
+      Name: "Frame Outline Thin 001"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_SciFi_Ability_Blue_033"
+        AssetId: "FrameOutline_020"
       }
     }
     Assets {
@@ -711,6 +808,24 @@ Assets {
       PrimaryAsset {
         AssetType: "FontAssetRef"
         AssetId: "TekoBold_ref"
+      }
+    }
+    Assets {
+      Id: 5269256908057536483
+      Name: "BG Gradient 006"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "BackgroundFlat_015"
+      }
+    }
+    Assets {
+      Id: 2626267817006011674
+      Name: "Play Bold"
+      PlatformAssetType: 28
+      PrimaryAsset {
+        AssetType: "FontAssetRef"
+        AssetId: "PlayBold_ref"
       }
     }
     PrimaryAssetId {
