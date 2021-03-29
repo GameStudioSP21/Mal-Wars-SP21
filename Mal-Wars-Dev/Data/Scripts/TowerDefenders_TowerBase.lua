@@ -17,7 +17,7 @@ local PRE_END_SPAWN_ASSET = script:GetCustomProperty("PreEndSpawnAsset")
 local OWNERSHIP_DECAL = script:GetCustomProperty("TowerOwnershipDecal")
 local RADIUS_DECAL = script:GetCustomProperty("RangeRadiusDecal")
 local BLOCKED_RADIUS = script:GetCustomProperty("BlockedRadius")
-local BLOCKED_RANGE = 300 -- CUSTOM PROPERTY HERE
+local BLOCKED_RANGE = 125 -- CUSTOM PROPERTY HERE
 
 local SoundRandomizer = require(script:GetCustomProperty("Sound_Randomizer"))
 
