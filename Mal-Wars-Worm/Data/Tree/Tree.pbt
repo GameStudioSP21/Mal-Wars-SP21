@@ -903,7 +903,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 2.52135968
+      Float: 2.31698775
     }
     Overrides {
       Name: "bp:Color A"
@@ -1040,7 +1040,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Fog Density"
-      Float: 10
+      Float: 8.82251358
     }
     Overrides {
       Name: "bp:Volumetric Fog"
@@ -1049,42 +1049,46 @@ Objects {
     Overrides {
       Name: "bp:Color"
       Color {
-        R: 0.0221853908
-        G: 0.669999957
+        R: 0.964686573
         A: 1
       }
     }
     Overrides {
       Name: "bp:Albedo"
       Color {
-        R: 0.130860895
-        G: 0.52
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
     }
     Overrides {
       Name: "bp:Light Absorption Amount"
-      Float: 0.270199418
+      Float: 0.1
     }
     Overrides {
       Name: "bp:Beam View Direction"
-      Float: 0.409238964
+      Float: 0.125631496
     }
     Overrides {
       Name: "bp:View Distance"
-      Float: 6075.44189
+      Float: 1482.41675
     }
     Overrides {
       Name: "bp:Directional Inscattering Color"
       Color {
         R: 0.054
-        G: 2.57492072e-08
+        G: 2.89678574e-08
         A: 1
       }
     }
     Overrides {
       Name: "bp:Layered Fog Density"
       Float: 0
+    }
+    Overrides {
+      Name: "bp:Falloff"
+      Float: 0.23
     }
   }
   Collidable_v2 {

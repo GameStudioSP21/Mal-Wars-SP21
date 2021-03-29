@@ -922,8 +922,8 @@ Assets {
           AudioBP {
             Pitch: -3000
             Volume: 1.35922492
-            Falloff: 6000
-            Radius: 5000
+            Falloff: 4500
+            Radius: 1000
             EnableOcclusion: true
             IsSpatializationEnabled: true
             IsAttenuationEnabled: true

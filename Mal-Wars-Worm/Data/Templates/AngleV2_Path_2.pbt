@@ -169,8 +169,8 @@ Assets {
         Name: "Cube - Polished"
         Transform {
           Location {
-            X: 132.623047
-            Y: -1534.23328
+            X: 312.251953
+            Y: -1534.23267
           }
           Rotation {
             Yaw: 89.999939

@@ -7,7 +7,7 @@ Assets {
       RootId: 15383162064504641718
       Objects {
         Id: 15383162064504641718
-        Name: "Turret Sniper 1"
+        Name: "Turret sniper 1"
         Transform {
           Scale {
             X: 1
@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8512805858169632350
+        ParentId: 4781671109827199097
         ChildIds: 15278186698188901302
         UnregisteredParameters {
           Overrides {
@@ -126,6 +126,12 @@ Assets {
               SubObjectId: 5882785446510068502
             }
           }
+          Overrides {
+            Name: "cs:Turret_head"
+            ObjectReference {
+              SubObjectId: 15435151535405632142
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -221,7 +227,6 @@ Assets {
         ParentId: 7441902719929520184
         ChildIds: 12309471452013628026
         ChildIds: 2664977805362409023
-        ChildIds: 5882785446510068502
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -251,6 +256,7 @@ Assets {
           }
         }
         ParentId: 9499794316670928547
+        ChildIds: 17086030062558109867
         ChildIds: 15435151535405632142
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -266,44 +272,12 @@ Assets {
         }
       }
       Objects {
-        Id: 15435151535405632142
-        Name: "TurretHead"
+        Id: 17086030062558109867
+        Name: "Muzzle"
         Transform {
           Location {
-            Y: -0.0679438114
-            Z: -53.1914864
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 12309471452013628026
-        ChildIds: 13929273698455883190
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 13929273698455883190
-        Name: "Head"
-        Transform {
-          Location {
-            X: -14.8428144
-            Y: 0.0679438114
-            Z: -3.17516565
+            X: 325.754395
+            Z: 20.6546516
           }
           Rotation {
           }
@@ -313,147 +287,7 @@ Assets {
             Z: 0.425531894
           }
         }
-        ParentId: 15435151535405632142
-        ChildIds: 6826136172175427483
-        ChildIds: 17138048104392822678
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 6826136172175427483
-        Name: "Sniper barrel"
-        Transform {
-          Location {
-            X: 350.403961
-            Z: 174.999985
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 13929273698455883190
-        ChildIds: 11168054719427939347
-        ChildIds: 17086030062558109867
-        ChildIds: 11746730667030629668
-        ChildIds: 8826674162366361739
-        ChildIds: 13961256006271393280
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 11168054719427939347
-        Name: "Sci-fi Ship Light 02"
-        Transform {
-          Location {
-            X: 310
-            Z: 101.569824
-          }
-          Rotation {
-            Roll: -179.999985
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 6826136172175427483
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.715694
-              G: 0.715694
-              B: 0.715694
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Trim:color"
-            Color {
-              R: 0.147027284
-              G: 0.147027284
-              B: 0.147027284
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_Detail1:color"
-            Color {
-              R: 0.0512694679
-              G: 0.896269679
-              B: 0.665387452
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 4940914485142911592
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 17086030062558109867
-        Name: "Muzzle"
-        Transform {
-          Location {
-            X: 450
-            Z: 6.00002527
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 6826136172175427483
+        ParentId: 12309471452013628026
         ChildIds: 14451779870025807362
         ChildIds: 10444199409496976566
         ChildIds: 6520552589567856001
@@ -501,8 +335,8 @@ Assets {
           }
           Pitch: 964.246826
           Volume: 1.43028605
-          Falloff: -1
-          Radius: 5000
+          Falloff: 4500
+          Radius: 1000
           EnableOcclusion: true
           IsSpatializationEnabled: true
           IsAttenuationEnabled: true
@@ -548,8 +382,8 @@ Assets {
           }
           AudioBP {
             Volume: 1.6227982
-            Falloff: 3600
-            Radius: 5000
+            Falloff: 4500
+            Radius: 1000
             EnableOcclusion: true
             IsSpatializationEnabled: true
             IsAttenuationEnabled: true
@@ -662,6 +496,177 @@ Assets {
         }
         Relevance {
           Value: "mc:eproxyrelevance:medium"
+        }
+      }
+      Objects {
+        Id: 15435151535405632142
+        Name: "TurretHead"
+        Transform {
+          Location {
+            Y: -0.0679461136
+            Z: -53.1914749
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12309471452013628026
+        ChildIds: 13929273698455883190
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 13929273698455883190
+        Name: "Head"
+        Transform {
+          Location {
+            X: -14.8428144
+            Y: 0.0679438114
+            Z: -3.17516565
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.425531894
+            Y: 0.425531894
+            Z: 0.425531894
+          }
+        }
+        ParentId: 15435151535405632142
+        ChildIds: 6826136172175427483
+        ChildIds: 17138048104392822678
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 6826136172175427483
+        Name: "Sniper barrel"
+        Transform {
+          Location {
+            X: 350.403961
+            Z: 174.999985
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13929273698455883190
+        ChildIds: 11168054719427939347
+        ChildIds: 11746730667030629668
+        ChildIds: 8826674162366361739
+        ChildIds: 13961256006271393280
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 11168054719427939347
+        Name: "Sci-fi Ship Light 02"
+        Transform {
+          Location {
+            X: 310
+            Z: 101.569824
+          }
+          Rotation {
+            Roll: -179.999985
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6826136172175427483
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.715694
+              G: 0.715694
+              B: 0.715694
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:color"
+            Color {
+              R: 0.147027284
+              G: 0.147027284
+              B: 0.147027284
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:color"
+            Color {
+              R: 0.0512694679
+              G: 0.896269679
+              B: 0.665387452
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 4940914485142911592
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
         }
       }
       Objects {
@@ -1798,13 +1803,12 @@ Assets {
         ParentId: 13929273698455883190
         ChildIds: 14680899364926678871
         ChildIds: 15889505953829995437
-        ChildIds: 13747635608330156182
-        ChildIds: 3724118529242689448
         ChildIds: 5744889292513752443
         ChildIds: 2106752974191681477
         ChildIds: 2408791439704062529
         ChildIds: 15414062508350352090
         ChildIds: 17144799102920006673
+        ChildIds: 5882785446510068502
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1949,118 +1953,6 @@ Assets {
         CoreMesh {
           MeshAsset {
             Id: 17656879326769127107
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 13747635608330156182
-        Name: "Sci-fi Chest Common Base 01"
-        Transform {
-          Location {
-            X: -120.119385
-            Y: -145
-            Z: 1.56982422
-          }
-          Rotation {
-            Yaw: -90
-          }
-          Scale {
-            X: 0.6
-            Y: 1.6
-            Z: 1.39999986
-          }
-        }
-        ParentId: 17138048104392822678
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_Detail2:color"
-            Color {
-              R: 0.0512694679
-              G: 0.896269679
-              B: 0.665387452
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 12548354478767743501
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 3724118529242689448
-        Name: "Sci-fi Chest Common Base 01"
-        Transform {
-          Location {
-            X: -120.119385
-            Y: 145
-            Z: 1.56982422
-          }
-          Rotation {
-            Yaw: -90
-          }
-          Scale {
-            X: 0.6
-            Y: 1.6
-            Z: 1.39999986
-          }
-        }
-        ParentId: 17138048104392822678
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_Detail2:color"
-            Color {
-              R: 0.0512694679
-              G: 0.896269679
-              B: 0.665387452
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 12548354478767743501
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -2390,6 +2282,36 @@ Assets {
         }
       }
       Objects {
+        Id: 5882785446510068502
+        Name: "SpawnPivot"
+        Transform {
+          Location {
+            X: -543.971069
+            Z: 106.833153
+          }
+          Rotation {
+          }
+          Scale {
+            X: 2.35
+            Y: 2.35
+            Z: 2.35
+          }
+        }
+        ParentId: 17138048104392822678
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
         Id: 2664977805362409023
         Name: "Sniper Turret Hinge"
         Transform {
@@ -2400,6 +2322,8 @@ Assets {
           }
         }
         ParentId: 9499794316670928547
+        ChildIds: 3724118529242689448
+        ChildIds: 13747635608330156182
         ChildIds: 4627839606623571686
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2412,6 +2336,118 @@ Assets {
         }
         Folder {
           IsGroup: true
+        }
+      }
+      Objects {
+        Id: 3724118529242689448
+        Name: "Sci-fi Chest Common Base 01"
+        Transform {
+          Location {
+            X: 4.9991045
+            Y: 145
+            Z: 109.999992
+          }
+          Rotation {
+            Yaw: -89.9999924
+          }
+          Scale {
+            X: 0.599999964
+            Y: 1.6
+            Z: 1.39999974
+          }
+        }
+        ParentId: 2664977805362409023
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_Detail2:color"
+            Color {
+              R: 0.0512694679
+              G: 0.896269679
+              B: 0.665387452
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12548354478767743501
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 13747635608330156182
+        Name: "Sci-fi Chest Common Base 01"
+        Transform {
+          Location {
+            X: 4.9991045
+            Y: -145
+            Z: 109.999992
+          }
+          Rotation {
+            Yaw: -89.9999924
+          }
+          Scale {
+            X: 0.599999964
+            Y: 1.6
+            Z: 1.39999974
+          }
+        }
+        ParentId: 2664977805362409023
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_Detail2:color"
+            Color {
+              R: 0.0512694679
+              G: 0.896269679
+              B: 0.665387452
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12548354478767743501
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
         }
       }
       Objects {
@@ -2474,36 +2510,6 @@ Assets {
               LinearDamping: 0.01
             }
           }
-        }
-      }
-      Objects {
-        Id: 5882785446510068502
-        Name: "SpawnPivot"
-        Transform {
-          Location {
-            X: -178.234863
-            Z: 91.6014099
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 9499794316670928547
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
         }
       }
       Objects {
@@ -2911,15 +2917,6 @@ Assets {
       }
     }
     Assets {
-      Id: 4940914485142911592
-      Name: "Sci-fi Ship Light 02"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_scf_ship_light_002_ref"
-      }
-    }
-    Assets {
       Id: 6056284838293397328
       Name: "Gunshot Boom Sweetener 01 SFX"
       PlatformAssetType: 7
@@ -2953,6 +2950,15 @@ Assets {
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
         AssetId: "fxbp_SciFi_RadialElement"
+      }
+    }
+    Assets {
+      Id: 4940914485142911592
+      Name: "Sci-fi Ship Light 02"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_scf_ship_light_002_ref"
       }
     }
     Assets {
@@ -3001,15 +3007,6 @@ Assets {
       }
     }
     Assets {
-      Id: 12548354478767743501
-      Name: "Sci-fi Chest Common Base 01"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_prop_scf_crate_small_001_ref"
-      }
-    }
-    Assets {
       Id: 10993237832432372474
       Name: "Sci-fi Console Screen 01"
       PlatformAssetType: 1
@@ -3043,6 +3040,15 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_cylinder_002"
+      }
+    }
+    Assets {
+      Id: 12548354478767743501
+      Name: "Sci-fi Chest Common Base 01"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_prop_scf_crate_small_001_ref"
       }
     }
     Assets {

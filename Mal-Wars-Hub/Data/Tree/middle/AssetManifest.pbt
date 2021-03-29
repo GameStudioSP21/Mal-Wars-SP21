@@ -1,10 +1,10 @@
 Assets {
-  Id: 15464952249626306512
-  Name: "Prism - 6-Sided Half"
+  Id: 17600359723065005811
+  Name: "Whitebox Wall 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_half_hexagon_001"
+    AssetId: "sm_ts_gen_whitebox_wall_001"
   }
 }
 Assets {
@@ -17,11 +17,20 @@ Assets {
   }
 }
 Assets {
-  Id: 9906491685923217027
-  Name: "Whitebox Stairs 01 Straight 150cm"
+  Id: 9434166954781941955
+  Name: "Plane 1m - One Sided"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_stairs_001_150cm"
+    AssetId: "sm_plane_1m_001"
+  }
+}
+Assets {
+  Id: 3503739722299970262
+  Name: "Metal Grates 03"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_grates_006_uv"
   }
 }
