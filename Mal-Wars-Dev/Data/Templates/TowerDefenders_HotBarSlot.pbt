@@ -26,6 +26,7 @@ Assets {
         ChildIds: 14221714271539951665
         ChildIds: 6115467090842149310
         ChildIds: 13550252230654447636
+        ChildIds: 297290714058885028
         UnregisteredParameters {
           Overrides {
             Name: "cs:Icon"
@@ -61,6 +62,18 @@ Assets {
             Name: "cs:UnEquip"
             ObjectReference {
               SubObjectId: 13550252230654447636
+            }
+          }
+          Overrides {
+            Name: "cs:HoverLabel"
+            ObjectReference {
+              SubObjectId: 297290714058885028
+            }
+          }
+          Overrides {
+            Name: "cs:HoverLabelText"
+            ObjectReference {
+              SubObjectId: 9347282939632281182
             }
           }
         }
@@ -135,8 +148,8 @@ Assets {
               Id: 16297094358569992731
             }
             Color {
-              G: 0.0258277692
-              B: 0.39
+              G: 0.0235294141
+              B: 0.388235331
               A: 1
             }
             TeamSettings {
@@ -421,15 +434,18 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Control {
-          Width: 82
-          Height: 82
-          UIX: 9.88647461
-          UIY: 9.88647461
+          Width: -12
+          Height: -12
+          UIX: 5.78527832
+          UIY: 6.7545166
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
           Image {
             Brush {
               Id: 10235821765507969510
@@ -545,7 +561,7 @@ Assets {
         Control {
           Width: 141
           Height: 43
-          UIY: -3.29541016
+          UIY: -9.24261475
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -755,6 +771,127 @@ Assets {
           }
         }
       }
+      Objects {
+        Id: 297290714058885028
+        Name: "HoverLabel"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8769998820704105947
+        ChildIds: 9347282939632281182
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Control {
+          Width: 209
+          Height: 33
+          UIY: 1.48681641
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Image {
+            Brush {
+              Id: 16221751307075850195
+            }
+            Color {
+              G: 0.0832846
+              B: 0.922000051
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomcenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 9347282939632281182
+        Name: "HoverLabelText"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 297290714058885028
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Control {
+          Width: 120
+          Height: 29
+          UIY: -5.94702148
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Text {
+            Label: "Long Name"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+            }
+            Size: 23
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            Font {
+              Id: 13496764517644833906
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
     }
     Assets {
       Id: 16297094358569992731
@@ -826,6 +963,24 @@ Assets {
       PrimaryAsset {
         AssetType: "FontAssetRef"
         AssetId: "PlayBold_ref"
+      }
+    }
+    Assets {
+      Id: 16221751307075850195
+      Name: "UI Gradient Rectangular 001"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "UI_Basic_Shape_002"
+      }
+    }
+    Assets {
+      Id: 13496764517644833906
+      Name: "Teko"
+      PlatformAssetType: 28
+      PrimaryAsset {
+        AssetType: "FontAssetRef"
+        AssetId: "TekoRegular_ref"
       }
     }
     PrimaryAssetId {

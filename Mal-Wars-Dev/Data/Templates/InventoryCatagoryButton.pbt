@@ -124,15 +124,13 @@ Assets {
         }
         Control {
           Width: 200
-          Height: 60
-          UIY: 10
+          Height: 35
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
           UseParentWidth: true
-          UseParentHeight: true
           Text {
             Label: "Damage"
             Color {
@@ -147,17 +145,18 @@ Assets {
             }
             AutoWrapText: true
             Font {
+              Id: 8699906241964362491
             }
           }
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:topleft"
+                Value: "mc:euianchor:bottomcenter"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:topleft"
+                Value: "mc:euianchor:bottomcenter"
               }
             }
           }
@@ -233,6 +232,15 @@ Assets {
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "BackgroundNoOutline_019"
+      }
+    }
+    Assets {
+      Id: 8699906241964362491
+      Name: "Teko Bold"
+      PlatformAssetType: 28
+      PrimaryAsset {
+        AssetType: "FontAssetRef"
+        AssetId: "TekoBold_ref"
       }
     }
     Assets {

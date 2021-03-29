@@ -2,6 +2,8 @@ local TowerThemeAPI = require(script:GetCustomProperty("ThemeAPI"))
 local StatsView = require(script:GetCustomProperty("StatsView"))
 local EaseUI = require(script:GetCustomProperty("EaseUI"))
 
+local MAIN_PANEL = script:GetCustomProperty("MainPanel"):WaitForObject()
+
 local TOWER_PANEL = script:GetCustomProperty("TowerPanel"):WaitForObject()
 local CATAGORY_PANEL = script:GetCustomProperty("CatagoryPanel"):WaitForObject()
 local STATS_PANEL = script:GetCustomProperty("StatsPanel"):WaitForObject()
@@ -80,6 +82,21 @@ function view:GetDisplayingType()
     return self.currentType
 end
 
+function view:IsVisible()
+    if MAIN_PANEL.visibility == Visibility.FORCE_ON then
+        return true
+    end
+    return false
+end
+
+function view:SetVisibility(state)
+    if state then
+        MAIN_PANEL.visibility = Visibility.FORCE_ON
+    else
+        MAIN_PANEL.visibility = Visibility.FORCE_OFF
+    end
+end
+
 function view:SetupCatagoryButtonFromType(button,typeName)
     assert(TowerThemeAPI.IsValidType(typeName),string.format("Tower type - %s is not a valid tower type.",typeName))
     local typeColor = TowerThemeAPI.GetTypeColor(typeName)
@@ -133,9 +150,9 @@ function view:SetupTowerEntry(towerEntry,tower)
     RARITY_LABEL.text = tower:GetRarity()
     RARITY_LABEL:SetColor(rarityColor)
 
-    RARITY_FRAME:SetColor(rarityColor)
+    RARITY_FRAME:SetColor(rarityColor/2)
 
-    COST_FRAME:SetColor(rarityColor)
+    COST_FRAME:SetColor(rarityColor/2)
     COST_LABEL.text = tostring(tower:GetCost())
 
     BACKGROUND_FRAME:SetColor(rarityColor)
@@ -149,9 +166,72 @@ function view:SetupTowerEntry(towerEntry,tower)
 
     local pressedHandle = SELECT_BUTTON.pressedEvent:Connect(function()
         print("You selected:",tower:GetName())
+        statsView:SetVisibility(true)
         statsView:DisplayTowerStats(tower)
 
+        local equipButton = STATS_PANEL:GetCustomProperty("EquipButton"):WaitForObject()
+        local nextButton = STATS_PANEL:GetCustomProperty("NextButton"):WaitForObject()
+        
+
+        if STATS_PANEL.clientUserData.equipHandle then
+            STATS_PANEL.clientUserData.equipHandle:Disconnect()
+            STATS_PANEL.clientUserData.nextHandle:Disconnect()
+            STATS_PANEL.clientUserData.hoverHandle:Disconnect()
+            STATS_PANEL.clientUserData.unhoverHandle:Disconnect()
+        end
+
+        local equipHandle = equipButton.pressedEvent:Connect(function()
+            print("EQUIPPING...")
+            localInventory:EquipTower(tower)
+            statsView:SetVisibility(false)
+        end)
+
+        local nextHandle = nextButton.pressedEvent:Connect(function()
+            local towerDatabase = localInventory:GetDatabase()
+            local nextTowerMUID = statsView:GetDisplayedTower():GetNextUpgradeMUID()
+            if nextTowerMUID then
+                local nextUpgradeTower = towerDatabase:NewTowerByMUID(nextTowerMUID)
+                statsView:DisplayTowerStats(nextUpgradeTower)
+
+                -- When the user clicks on the next button they'll still be on the next button 
+                -- so we should show them the stats of the next tower if possible.
+                local nextTowerMUID = statsView:GetDisplayedTower():GetNextUpgradeMUID()
+                if nextTowerMUID then
+                    local nextUpgradeTower = towerDatabase:NewTowerByMUID(nextTowerMUID)
+                    statsView:CompareToTower(nextUpgradeTower)
+                end
+            else
+                statsView:DisplayTowerStats(tower)
+                local nextTowerMUID = statsView:GetDisplayedTower():GetNextUpgradeMUID()
+                if nextTowerMUID then
+                    local nextUpgradeTower = towerDatabase:NewTowerByMUID(nextTowerMUID)
+                    statsView:CompareToTower(nextUpgradeTower)
+                end
+            end
+        end)
+
+        -- When hovering over the next button on the stats panel
+        local hoverHandle = nextButton.hoveredEvent:Connect(function()
+            local towerDatabase = localInventory:GetDatabase()
+            local nextTowerMUID = statsView:GetDisplayedTower():GetNextUpgradeMUID()
+            if nextTowerMUID then
+                local nextUpgradeTower = towerDatabase:NewTowerByMUID(nextTowerMUID)
+                statsView:CompareToTower(nextUpgradeTower)
+            end
+        end)
+
+        local unhoverHandle = nextButton.unhoveredEvent:Connect(function() 
+            statsView:DisplayTowerStats(tower)
+        end)
+
+        STATS_PANEL.clientUserData.equipHandle = equipHandle
+        STATS_PANEL.clientUserData.nextHandle = nextHandle
+        STATS_PANEL.clientUserData.hoverHandle = hoverHandle
+        STATS_PANEL.clientUserData.unhoverHandle = unhoverHandle
     end)
+
+
+
 
     towerEntry.clientUserData.pressedHandle = pressedHandle
 end
@@ -198,8 +278,6 @@ function view:DisplayTowerTypes(typeName,pageNumber)
 
     self:DisplayPageIndicators(typeName,pageNumber)
 
-    local allTypeTower = localInventory:GetTowersOfType(typeName)
-
     local xCount = 0
     local yCount = 0
     local _HORIZONTAL_SPACING = 10
@@ -209,6 +287,10 @@ function view:DisplayTowerTypes(typeName,pageNumber)
             towerEntry:Destroy()
         end
     end
+
+    local allTypeTower = localInventory:GetUnequippedTowerTypes(typeName)
+    if not allTypeTower then return end
+
     -- ReBuild all tower entries
     local count = 0
     for _, tower in pairs(allTypeTower) do
@@ -273,12 +355,11 @@ function view:CreateCatagoryButtons()
     end
 end
 
-
--- function Tick()
---     --if view:IsVisible() then
---         --view:Update()
---     --end
--- end
 view:Setup()
+
+-- When the contents of the inventory change make sure to the view
+localInventory.onChanged:Connect(function()
+    view:DisplayTowerTypes(view:GetDisplayingType(),1)
+end)
 
 return view

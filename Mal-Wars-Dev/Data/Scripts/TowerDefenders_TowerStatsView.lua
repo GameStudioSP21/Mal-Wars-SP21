@@ -1,6 +1,7 @@
 local view = {}
 view.__index = view
 
+local EaseUI = require(script:GetCustomProperty("EaseUI"))
 local TowerThemes = require(script:GetCustomProperty("TowerDefenders_StatsThemeAPI"))
 
 local NUMBER_STAT = script:GetCustomProperty("NumberStat")
@@ -99,6 +100,7 @@ end
 -- Given a tower the stats of the tower will be compared to the current displayed tower.
 function view:CompareToTower(comparedTower)
     
+    self.comparedTower = comparedTower
     for _, statObject in pairs(self.SCROLL_PANEL:GetChildren()) do
         statObject:Destroy()
     end
@@ -106,25 +108,35 @@ function view:CompareToTower(comparedTower)
     local yOffset = 0
     -- It's easier to just reload the stats view.
     for statName, statValue in pairs(self.tower:GetStats()) do
-        local statIcon = TowerThemes.GetStatIcon(statName)
-        local numberAsset = World.SpawnAsset(NUMBER_STAT,{ parent = self.SCROLL_PANEL })
-        yOffset = yOffset + 80 -- TODO: Change to custom property.
-        numberAsset.y = yOffset - 80
-
-        -- SETUP
-        local statValue = numberAsset:GetCustomProperty("StatValue"):GetObject()
-        statValue.text = string.format('%.01f', self.tower:GetStat(statName) or 0)
-
-        if comparedTower:GetStat(statName) ~= self.tower:GetStat(statName) then
-            local statValue = numberAsset:GetCustomProperty("StatAfter"):GetObject()
-            statValue.text = string.format('%.01f', comparedTower:GetStat(statName))
-            numberAsset:GetCustomProperty("Arrow"):GetObject().visibility = Visibility.FORCE_ON
+        if statValue > 0 or statValue <= comparedTower:GetStat(statName) then
+            local statIcon = TowerThemes.GetStatIcon(statName)
+            local numberAsset = World.SpawnAsset(NUMBER_STAT,{ parent = self.SCROLL_PANEL })
+            yOffset = yOffset + 80 -- TODO: Change to custom property.
+            numberAsset.y = yOffset - 80
+    
+            -- SETUP
+            local statValue = numberAsset:GetCustomProperty("StatValue"):GetObject()
+            statValue.text = string.format('%.01f', self.tower:GetStat(statName) or 0)
+    
+            if comparedTower:GetStat(statName) ~= self.tower:GetStat(statName) then
+                local statValue = numberAsset:GetCustomProperty("StatAfter"):GetObject()
+                statValue.text = string.format('%.01f', comparedTower:GetStat(statName))
+                numberAsset:GetCustomProperty("Arrow"):GetObject().visibility = Visibility.FORCE_ON
+            end
+    
+            local statIcon = numberAsset:GetCustomProperty("StatIcon"):GetObject()
+            statIcon:SetImage(TowerThemes.GetStatIcon(statName))
+            statIcon:SetColor(TowerThemes.GetStatColor(statName))
         end
-
-        local statIcon = numberAsset:GetCustomProperty("StatIcon"):GetObject()
-        statIcon:SetImage(TowerThemes.GetStatIcon(statName))
-        statIcon:SetColor(TowerThemes.GetStatColor(statName))
     end
+end
+
+function view:GetDisplayedTower()
+    return self.tower
+end
+
+function view:GetComparedTower()
+    return self.comparedTower
 end
 
 function view:SetVisibility(state)

@@ -15,6 +15,7 @@ function Inventory.New(database, owner, inventoryTowersString)
     setmetatable(self,Inventory)
 
     self:_DefineEvent("onEquipped")
+    self:_DefineEvent("onUnequipped")
     self:_DefineEvent("onAdded")
     self:_DefineEvent("onRemoved")
     self:_DefineEvent("onChanged")
@@ -30,22 +31,47 @@ end
 -- These methods are callable on both client and server
 
 function Inventory:AddTower(tower, _hasRepeated)
-
+    self:_FireEvent("onChanged")
 end
 
 function Inventory:RemoveTower(tower, _hasRepeated)
 
+    self:_FireEvent("onChanged")
 end
 
 function Inventory:EquipTower(tower, _hasRepeated)
+    if self:CanEquipTower(tower) then
+        for i, unequippedTower in self:IterateUnequipped() do
+            print(unequippedTower:GetMUID(),tower:GetMUID(),unequippedTower:GetMUID() == tower:GetMUID())
+            if unequippedTower == tower then
+                self.equippedTowers[self:GetEmptyEquipSlotIndex()] = unequippedTower
+                table.remove(self.towers,i)
+            end
+        end
+        self:_FireEvent("onChanged")
+    end
+end
 
+function Inventory:UnEquipTower(tower, _hasRepeated)
+    for i, equippedTower in self:IterateEquipped() do
+        if equippedTower == tower then
+            table.insert(self.towers,1,equippedTower)
+            self.equippedTowers[i] = nil
+        end
+    end
+    self:_FireEvent("onChanged")
+end
+
+function Inventory:UnEquipSlot(slotIndex, _hasRepeated)
+    -- TODO
+    self:_FireEvent("onChanged")
 end
 
 --------------------------------------
 
+-- Returns true if the inventory doesn't have the tower already equipped, contains the tower, and there is avaliable slots.
 function Inventory:CanEquipTower(tower)
-    local hasTower = self:HasTower(tower)
-    if hasTower and #self.equippedTowers < self.MAX_TOWERS_EQUIPPED then
+    if self:HasTower(tower) and not self:HasTowerEquipped(tower) and self:GetAmountOfEquippedTowers() < self.MAX_TOWERS_EQUIPPED then
         return true
     end
     return false
@@ -62,7 +88,7 @@ function Inventory:HasTower(tower)
 end
 
 function Inventory:HasTowerEquipped(tower)
-    for _, equippedTower in pairs(self:GetEquippedTowers()) do
+    for _, equippedTower in self:IterateEquipped() do
         if equippedTower == tower then
             return true
         end
@@ -73,7 +99,7 @@ end
 -- Returns true if the inventory contains a tower of a given type.
 function Inventory:HasTowerOfType(typeName)
     assert(TowerThemeAPI.IsValidType(typeName),string.format("Tower type - %s is not a valid tower type.",typeName))
-    for _, tower in pairs(self:GetUnequippedTowers()) do
+    for _, tower in pairs(self:GetTowers()) do
         if tower:GetType() == typeName then
             return true
         end
@@ -93,21 +119,48 @@ function Inventory:GetDatabase()
     return self.database
 end
 
+function Inventory:GetMaxEquippedTowers()
+    return self.MAX_TOWERS_EQUIPPED
+end
+
+function Inventory:GetAmountOfEquippedTowers()
+    local count = 0
+    for i, tower in self:IterateEquipped() do
+        if tower then
+            count = count + 1
+        end
+    end
+    return count
+end
+
 -- Returns a table of all towers including equipped.
 function Inventory:GetTowers()
     local towers = {}
-    for _, tower in pairs(self:GetUnequippedTowers()) do
+    for _, tower in self:IterateUnequipped() do
         table.insert(towers,tower)
     end
-    for _, tower in pairs(self:GetEquippedTowers()) do
+    for _, tower in self:IterateEquipped() do
         table.insert(towers,tower)
+    end
+    return towers
+end
+
+-- Returns a table of all unequipped towers of a type
+function Inventory:GetUnequippedTowerTypes(typeName)
+    assert(TowerThemeAPI.IsValidType(typeName),string.format("Tower type - %s is not a valid tower type.",typeName))
+    local towers = {}
+    for _, tower in self:IterateUnequipped() do
+        local towerType = tower:GetType()
+        if towerType == typeName then
+            table.insert(towers,tower)
+        end
     end
     return towers
 end
 
 -- Returns a table of all towers of a given type.
 function Inventory:GetTowersOfType(typeName)
-    assert(TowerThemeAPI.IsValidType(typeName),string.format("Tower type - %s is not a valid tower type.",towerTypeName))
+    assert(TowerThemeAPI.IsValidType(typeName),string.format("Tower type - %s is not a valid tower type.",typeName))
     local towers = {}
     for _, tower in pairs(self:GetTowers()) do
         local towerType = tower:GetType()
@@ -121,6 +174,14 @@ end
 function Inventory:GetEquippedTower(slotIndex)
     assert(slotIndex <= self.MAX_TOWERS_EQUIPPED and slotIndex > 0,string.format("Invalid slot index for equipped towers - %s",slotIndex))
     return self.equippedTowers[slotIndex]
+end
+
+function Inventory:GetEmptyEquipSlotIndex()
+    for i, tower in self:IterateEquipped() do
+        if not tower then
+            return i
+        end
+    end
 end
 
 -- Returns a table of towers that are in the inventory only and not equipped.
@@ -137,11 +198,21 @@ end
 -- Iterators 
 --------------------------------------
 
-function Inventory:IterateEquipSlots()
+function Inventory:IterateEquipped()
     local function iter(_, slotIndex)
         slotIndex = slotIndex + 1
-        if slotIndex <= #self.MAX_TOWERS_EQUIPPED then
-            return slotIndex, self:GetItem(slotIndex)
+        if slotIndex <= self.MAX_TOWERS_EQUIPPED then
+            return slotIndex, self.equippedTowers[slotIndex]
+        end
+    end
+    return iter, nil, 0 
+end
+
+function Inventory:IterateUnequipped()
+    local function iter(_, i)
+        i = i + 1
+        if i <= #self.towers then
+            return i, self.towers[i]
         end
     end
     return iter, nil, 0 
@@ -199,19 +270,12 @@ function Inventory:_Init(database,owner,inventoryTowersString)
         -- Create starter towers if the player has none. ( TEMP )
         local tower = database:NewTowerByName("Bank")
         table.insert(self.towers,tower)
-        local tower = database:NewTowerByName("Greater Sniper")
-        table.insert(self.towers,tower)
 
         local tower = database:NewTowerByID(1)
         table.insert(self.equippedTowers,tower)
 
         local tower = database:NewTowerByName("Sniper Turret")
         table.insert(self.equippedTowers,tower)
-
-        local tower = database:NewTowerByName("Superior Sniper")
-        table.insert(self.towers,tower)
-        local tower = database:NewTowerByName("Ultimate Sniper")
-        table.insert(self.towers,tower)
 
         local tower = database:NewTowerByName("AOE Turret")
         table.insert(self.equippedTowers,tower)

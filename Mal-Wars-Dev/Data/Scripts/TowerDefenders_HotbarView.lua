@@ -23,7 +23,7 @@ function hotbarView:CreateSlotsFromTowerTable(towerTable)
     self:ClearSlots()
 
     -- -- Construct slots for the equipped towers.
-    for i=1,inventory.MAX_TOWERS_EQUIPPED do
+    for i=1,inventory:GetMaxEquippedTowers() do
         local hotbarSlotElement = World.SpawnAsset(HOT_BAR_SLOT,{ parent = HOT_BAR_PANEL })
         hotbarSlotElement.x = -INITAL_HORIZONTAL_SPACING + ((i-0.5) * HORIZONTAL_SPACING)
 
@@ -33,23 +33,88 @@ function hotbarView:CreateSlotsFromTowerTable(towerTable)
             hotbarSlotElement.clientUserData.tower = tower
             self:_SetupSlot(hotbarSlotElement,tower)
 
+            -- Animation variables
+            ----------------------------
+
+            local initialWidth = hotbarSlotElement.width
+            local initialHeight = hotbarSlotElement.height
+
+            -- Inital y of the hovering label
+            local initialHoverLabelY = hotbarSlotElement:GetCustomProperty("HoverLabel"):WaitForObject().y
+
+            local propHoverLabel = hotbarSlotElement:GetCustomProperty("HoverLabel"):WaitForObject()
+            local propHoverLabelText = hotbarSlotElement:GetCustomProperty("HoverLabelText"):WaitForObject()
+            propHoverLabelText.text = tower:GetName()
+
+            local initalHoverLabelColor = propHoverLabel:GetColor()
+            local initalHoverLabelTextColor = propHoverLabelText:GetColor()
+
+            ----------------------------
+
+            local purchaseButton = hotbarSlotElement:GetCustomProperty("PurchaseButton"):WaitForObject()
             
+            local purchaseHoverHandle = purchaseButton.hoveredEvent:Connect(function()
+
+                if hotbarSlotElement.clientUserData.coolWooshHandle then
+                    hotbarSlotElement.clientUserData.coolWooshHandle:Cancel()
+                end
+
+                local coolWooshHandle = Task.Spawn(function()
+                    local MAX = 30
+                    for i=1,MAX do
+                        local newColor = Color.Lerp(initalHoverLabelColor, initalHoverLabelColor + Color.New(0,0,0,1), i/MAX)
+                        propHoverLabel:SetColor(newColor)
+                        local newColor = Color.Lerp(initalHoverLabelTextColor, initalHoverLabelTextColor + Color.New(0,0,0,1), i/MAX)
+                        propHoverLabelText:SetColor(newColor)
+                        Task.Wait()
+                    end
+                end)
+                hotbarSlotElement.clientUserData.coolWooshHandle = coolWooshHandle
+
+
+                EaseUI.EaseWidth(hotbarSlotElement,initialWidth + 10, 0.1, EaseUI.EasingEquation.SINE, EaseUI.EasingDirection.INOUT)
+                EaseUI.EaseHeight(hotbarSlotElement,initialHeight + 10, 0.1, EaseUI.EasingEquation.SINE, EaseUI.EasingDirection.INOUT)
+            end)
+            local purchaseUnhoverHandle = purchaseButton.unhoveredEvent:Connect(function()
+                if hotbarSlotElement.clientUserData.coolWooshHandle then
+                    hotbarSlotElement.clientUserData.coolWooshHandle:Cancel()
+                end
+
+                local coolWooshHandle = Task.Spawn(function()
+                    local MAX = 30
+                    for i=1,MAX do
+                        local newColor = Color.Lerp(initalHoverLabelColor, initalHoverLabelColor - Color.New(0,0,0,1), i/MAX)
+                        propHoverLabel:SetColor(newColor)
+                        local newColor = Color.Lerp(initalHoverLabelTextColor, initalHoverLabelTextColor - Color.New(0,0,0,1), i/MAX)
+                        propHoverLabelText:SetColor(newColor)
+                        Task.Wait()
+                    end
+                end)
+                hotbarSlotElement.clientUserData.coolWooshHandle = coolWooshHandle
+
+                EaseUI.EaseWidth(hotbarSlotElement,initialWidth, 0.2, EaseUI.EasingEquation.SINE, EaseUI.EasingDirection.INOUT)
+                EaseUI.EaseHeight(hotbarSlotElement,initialHeight, 0.2, EaseUI.EasingEquation.SINE, EaseUI.EasingDirection.INOUT)
+            end)
+
+            hotbarSlotElement.clientUserData.hoverHandle = purchaseHoverHandle
+            hotbarSlotElement.clientUserData.purchaseUnhoverHandle = purchaseUnhoverHandle
+
             if self.isEquipping then
                 local unequipButton = hotbarSlotElement:GetCustomProperty("UnEquip"):WaitForObject()
                 unequipButton.visibility = Visibility.FORCE_ON
                 local unequipHandle = unequipButton.pressedEvent:Connect(function() 
-                    -- Todo: Have inventory unequip the tower then rebuild slots
+                    inventory:UnEquipTower(tower)
+                    self:CreateSlotsFromLocalInventory()
                 end)
                 hotbarSlotElement.clientUserData.unequipHandle = unequipHandle
             else
-                local purchaseButton = hotbarSlotElement:GetCustomProperty("PurchaseButton"):WaitForObject()
                 local purchaseHandle = purchaseButton.pressedEvent:Connect(function()
                     --local newTower = TowerDatabase:NewTowerByName(tower:GetName()) -- Is this needed???
                     Events.Broadcast("GeneralSelectorBeginPlacement",tower)
                 end)
+                -- TODO: Make this into a handle table to shorten the code down.
                 hotbarSlotElement.clientUserData.purchaseHandle = purchaseHandle
             end
-
         end
     end
 end
@@ -68,7 +133,6 @@ function hotbarView:ClearSlots()
             if slot.clientUserData.unequipHandle then
                 slot.clientUserData.unequipHandle:Disconnect()
             end
-            print("DESTROYED SLOTS")
             slot:Destroy()
         end
     end
@@ -109,11 +173,8 @@ function hotbarView:_SetupSlot(slot,tower)
     local frame = slot:GetCustomProperty("Frame"):GetObject()
     local background = slot:GetCustomProperty("Background"):GetObject()
 
-    local frameAlpha = frame:GetColor().a
-    local backgroundAlpha = background:GetColor().a
-
-    frame:SetColor(rarityColor - Color.New(0,0,0,frameAlpha))
-    background:SetColor(rarityColor - Color.New(0,0,0,backgroundAlpha))
+    frame:SetColor(rarityColor + Color.New(0,0,0,1))
+    background:SetColor(rarityColor + Color.New(0,0,0,1))
 end
 
 function hotbarView:_UpdateSlotPrices()
@@ -141,6 +202,10 @@ function hotbarView:_Init()
         self:_UpdateSlotPrices()
     end)
     self.updatePriceHandle.repeatCount = -1
+
+    inventory.onChanged:Connect(function()
+        self:CreateSlotsFromLocalInventory()
+    end)
 end
 
 hotbarView:_Init()

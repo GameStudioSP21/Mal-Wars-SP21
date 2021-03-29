@@ -3670,7 +3670,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3790,7 +3790,7 @@ Objects {
   }
   Control {
     Width: -48
-    Height: 700
+    Height: 646
     UIY: -50
     RenderTransformPivot {
       Anchor {
@@ -3871,7 +3871,7 @@ Objects {
 }
 Objects {
   Id: 16858083264466545746
-  Name: "UI Panel"
+  Name: "SortingButtonsPanel"
   Transform {
     Location {
       Y: -0.0009765625
@@ -3885,6 +3885,8 @@ Objects {
     }
   }
   ParentId: 2802401361355318934
+  ChildIds: 7048138415420138806
+  ChildIds: 10713421616335499138
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3896,23 +3898,176 @@ Objects {
   }
   Control {
     Width: 100
-    Height: 100
+    Height: 61
+    UIY: -77.3134155
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
+    UseParentWidth: true
     Panel {
     }
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:bottomleft"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:bottomleft"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 10713421616335499138
+  Name: "UI Text Box"
+  Transform {
+    Location {
+      Y: -0.0009765625
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16858083264466545746
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Width: 200
+    Height: 60
+    UIX: 40.1427612
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "Sort"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 35
+      Justification {
+        Value: "mc:etextjustify:left"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 3065298231171894533
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middleleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middleleft"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 7048138415420138806
+  Name: "UI Button"
+  Transform {
+    Location {
+      Y: -0.0009765625
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16858083264466545746
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Width: 164
+    Height: 46
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Button {
+      FontColor {
+        A: 1
+      }
+      FontSize: 20
+      ButtonColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 7307343374490511592
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+      Font {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
         }
       }
     }
@@ -4232,6 +4387,18 @@ Objects {
       Name: "cs:LevelPanel"
       ObjectReference {
         SelfId: 7566110107813944220
+      }
+    }
+    Overrides {
+      Name: "cs:EquipButton"
+      ObjectReference {
+        SelfId: 6398326522637148227
+      }
+    }
+    Overrides {
+      Name: "cs:NextButton"
+      ObjectReference {
+        SelfId: 10431075362441011014
       }
     }
   }
@@ -5765,7 +5932,7 @@ Objects {
     Width: 713
     Height: 2
     UIX: 37.2955322
-    UIY: 550
+    UIY: 500.93573
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -5940,7 +6107,6 @@ Objects {
     }
   }
   ParentId: 16709910935714366213
-  ChildIds: 10774510418340020405
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5968,72 +6134,6 @@ Objects {
         A: 1
       }
       TeamSettings {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:bottomcenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-    }
-  }
-}
-Objects {
-  Id: 10774510418340020405
-  Name: "UI Text Box"
-  Transform {
-    Location {
-      X: 2718.36523
-      Y: 6490.69043
-      Z: 1104.78711
-    }
-    Rotation {
-      Yaw: 23.1821842
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14409054445701289672
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Control {
-    Width: 200
-    Height: 30
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    Text {
-      Label: "Before"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      Size: 25
-      Justification {
-        Value: "mc:etextjustify:center"
-      }
-      AutoWrapText: true
-      Font {
       }
     }
     AnchorLayout {
@@ -6134,7 +6234,6 @@ Objects {
     }
   }
   ParentId: 16709910935714366213
-  ChildIds: 309341490458113434
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6146,9 +6245,9 @@ Objects {
   }
   Control {
     Width: 718
-    Height: 349
+    Height: 306
     UIX: 34.2064819
-    UIY: 194.049988
+    UIY: 192.563171
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -6167,52 +6266,6 @@ Objects {
           Value: "mc:euianchor:topleft"
         }
       }
-    }
-  }
-}
-Objects {
-  Id: 309341490458113434
-  Name: "InventoryTowerEntry"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6311100951252094683
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 15126348350632175787
-      value {
-        Overrides {
-          Name: "Name"
-          String: "InventoryTowerEntry"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -10394.4287
-            Y: 10826.8877
-            Z: -696.238403
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 98.9089737
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 9249867650405085070
     }
   }
 }
@@ -6287,7 +6340,7 @@ Objects {
 }
 Objects {
   Id: 17972125630122282865
-  Name: "CurrencyPanel"
+  Name: "PremiumCurrency"
   Transform {
     Location {
       X: -9483.19336
@@ -6318,8 +6371,8 @@ Objects {
   Control {
     Width: 212
     Height: 50
-    UIX: 347.915771
-    UIY: 60.5691833
+    UIX: 333.047729
+    UIY: 45.7012482
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -6371,8 +6424,7 @@ Objects {
   Control {
     Width: 153
     Height: 50
-    UIX: 60
-    UIY: -5
+    UIY: -10
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -6385,24 +6437,24 @@ Objects {
         G: 0.114039734
         A: 1
       }
-      Size: 30
+      Size: 40
       Justification {
         Value: "mc:etextjustify:left"
       }
       AutoWrapText: true
       Font {
-        Id: 841534158063459245
+        Id: 13496764517644833906
       }
     }
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:middleright"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:middleright"
         }
       }
     }
@@ -6473,7 +6525,7 @@ Objects {
 }
 Objects {
   Id: 16024501382157484435
-  Name: "CurrencyPanel"
+  Name: "RegularCurrency"
   Transform {
     Location {
       X: -9483.19629
@@ -6505,7 +6557,7 @@ Objects {
     Width: 212
     Height: 50
     UIX: 130.468628
-    UIY: 60.5691833
+    UIY: 45.7012329
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -6555,10 +6607,9 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    Width: 153
+    Width: 160
     Height: 50
-    UIX: 60
-    UIY: -5
+    UIY: -10
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -6571,24 +6622,24 @@ Objects {
         B: 0.919999957
         A: 1
       }
-      Size: 30
+      Size: 40
       Justification {
         Value: "mc:etextjustify:left"
       }
       AutoWrapText: true
       Font {
-        Id: 841534158063459245
+        Id: 13496764517644833906
       }
     }
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:middleright"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:middleright"
         }
       }
     }
@@ -6710,7 +6761,7 @@ Objects {
       AutoWrapText: true
       ClipTextToSize: true
       Font {
-        Id: 841534158063459245
+        Id: 13496764517644833906
       }
     }
     AnchorLayout {
@@ -7013,10 +7064,6 @@ Objects {
           Rotator {
           }
         }
-        Overrides {
-          Name: "Height"
-          Int: 50
-        }
       }
     }
     TemplateAsset {
@@ -7148,6 +7195,12 @@ Objects {
       Name: "cs:PageSelectPanel"
       ObjectReference {
         SelfId: 804270811779917704
+      }
+    }
+    Overrides {
+      Name: "cs:MainPanel"
+      ObjectReference {
+        SelfId: 9619153607841163361
       }
     }
   }

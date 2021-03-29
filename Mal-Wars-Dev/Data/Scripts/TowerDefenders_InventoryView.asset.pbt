@@ -23,6 +23,11 @@ Assets {
         }
       }
       Overrides {
+        Name: "cs:MainPanel"
+        ObjectReference {
+        }
+      }
+      Overrides {
         Name: "cs:ThemeAPI"
         AssetReference {
           Id: 18181533304032982468

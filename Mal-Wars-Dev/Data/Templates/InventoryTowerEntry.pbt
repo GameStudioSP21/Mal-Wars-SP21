@@ -490,12 +490,13 @@ Assets {
               B: 1
               A: 1
             }
-            Size: 20
+            Size: 24
             Justification {
               Value: "mc:etextjustify:left"
             }
             AutoWrapText: true
             Font {
+              Id: 13496764517644833906
             }
           }
           AnchorLayout {
@@ -552,7 +553,7 @@ Assets {
           }
           Image {
             Brush {
-              Id: 14710518860494901128
+              Id: 3313157978765664142
             }
             Color {
               R: 1
@@ -617,12 +618,13 @@ Assets {
               R: 0.950000048
               A: 1
             }
-            Size: 20
+            Size: 23
             Justification {
               Value: "mc:etextjustify:center"
             }
             AutoWrapText: true
             Font {
+              Id: 13496764517644833906
             }
           }
           AnchorLayout {
@@ -810,12 +812,13 @@ Assets {
               R: 0.960000038
               A: 1
             }
-            Size: 25
+            Size: 30
             Justification {
               Value: "mc:etextjustify:left"
             }
             AutoWrapText: true
             Font {
+              Id: 3065298231171894533
             }
           }
           AnchorLayout {
@@ -916,12 +919,21 @@ Assets {
       }
     }
     Assets {
-      Id: 14710518860494901128
-      Name: "BG Gradient 009"
+      Id: 13496764517644833906
+      Name: "Teko"
+      PlatformAssetType: 28
+      PrimaryAsset {
+        AssetType: "FontAssetRef"
+        AssetId: "TekoRegular_ref"
+      }
+    }
+    Assets {
+      Id: 3313157978765664142
+      Name: "BG Highlighted 015"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "BackgroundFlat_026"
+        AssetId: "BackgroundHighlighted_032"
       }
     }
     Assets {
@@ -940,6 +952,15 @@ Assets {
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "FrameOutline_020"
+      }
+    }
+    Assets {
+      Id: 3065298231171894533
+      Name: "Teko Light"
+      PlatformAssetType: 28
+      PrimaryAsset {
+        AssetType: "FontAssetRef"
+        AssetId: "TekoLight_ref"
       }
     }
     PrimaryAssetId {

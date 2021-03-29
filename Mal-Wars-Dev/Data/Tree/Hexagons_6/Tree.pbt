@@ -689,8 +689,8 @@ Objects {
   Name: "Tunnel opening"
   Transform {
     Location {
-      X: 2252.5581
-      Y: -1682.53808
+      X: 2252.55811
+      Y: -1682.53809
       Z: -15232.1768
     }
     Rotation {
