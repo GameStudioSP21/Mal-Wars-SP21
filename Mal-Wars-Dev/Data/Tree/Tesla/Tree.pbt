@@ -18,7 +18,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
-      String: "Ultimate Mortar"
+      String: "Ultimate Tesla"
     }
     Overrides {
       Name: "cs:Icon"
@@ -114,7 +114,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
-      String: "Superior Mortar"
+      String: "Superior Tesla"
     }
     Overrides {
       Name: "cs:Icon"
@@ -216,7 +216,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
-      String: "Greater Mortar"
+      String: "Greater Tesla"
     }
     Overrides {
       Name: "cs:Icon"
@@ -318,7 +318,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
-      String: "Mortar Turret"
+      String: "Tesla Turret"
     }
     Overrides {
       Name: "cs:Icon"
