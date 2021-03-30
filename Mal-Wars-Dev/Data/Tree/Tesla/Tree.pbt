@@ -57,25 +57,25 @@ Objects {
     Overrides {
       Name: "cs:Tower"
       AssetReference {
-        Id: 7940338914546974360
+        Id: 3908152756054639307
       }
     }
     Overrides {
       Name: "cs:TowerGhost"
       AssetReference {
-        Id: 8998131320545634637
+        Id: 11669609216019787169
       }
     }
     Overrides {
       Name: "cs:VisualProjectile"
       AssetReference {
-        Id: 1038682376405309396
+        Id: 9766628769441997678
       }
     }
     Overrides {
       Name: "cs:TowerClass"
       AssetReference {
-        Id: 13847017050842209487
+        Id: 8661963944275162795
       }
     }
     Overrides {
@@ -153,25 +153,25 @@ Objects {
     Overrides {
       Name: "cs:Tower"
       AssetReference {
-        Id: 18246923598996717764
+        Id: 16723427651549567121
       }
     }
     Overrides {
       Name: "cs:TowerGhost"
       AssetReference {
-        Id: 8998131320545634637
+        Id: 11669609216019787169
       }
     }
     Overrides {
       Name: "cs:VisualProjectile"
       AssetReference {
-        Id: 13707074952106958191
+        Id: 10755428346575585019
       }
     }
     Overrides {
       Name: "cs:TowerClass"
       AssetReference {
-        Id: 13847017050842209487
+        Id: 8661963944275162795
       }
     }
     Overrides {
@@ -255,25 +255,25 @@ Objects {
     Overrides {
       Name: "cs:Tower"
       AssetReference {
-        Id: 17477771493771331873
+        Id: 1111472039125090498
       }
     }
     Overrides {
       Name: "cs:TowerGhost"
       AssetReference {
-        Id: 8998131320545634637
+        Id: 11669609216019787169
       }
     }
     Overrides {
       Name: "cs:VisualProjectile"
       AssetReference {
-        Id: 16375787667802174655
+        Id: 355489405948657621
       }
     }
     Overrides {
       Name: "cs:TowerClass"
       AssetReference {
-        Id: 13847017050842209487
+        Id: 8661963944275162795
       }
     }
     Overrides {
@@ -357,25 +357,25 @@ Objects {
     Overrides {
       Name: "cs:Tower"
       AssetReference {
-        Id: 15791453381227726310
+        Id: 1111410444814437710
       }
     }
     Overrides {
       Name: "cs:TowerGhost"
       AssetReference {
-        Id: 8998131320545634637
+        Id: 11669609216019787169
       }
     }
     Overrides {
       Name: "cs:VisualProjectile"
       AssetReference {
-        Id: 4711965853694341478
+        Id: 9120262988407694970
       }
     }
     Overrides {
       Name: "cs:TowerClass"
       AssetReference {
-        Id: 13847017050842209487
+        Id: 8661963944275162795
       }
     }
     Overrides {
