@@ -6,7 +6,7 @@ Assets {
     CustomParameters {
       Overrides {
         Name: "cs:MaxEquippedTowers"
-        Int: 4
+        Int: 5
       }
       Overrides {
         Name: "cs:AllowUpgradedTowers"
