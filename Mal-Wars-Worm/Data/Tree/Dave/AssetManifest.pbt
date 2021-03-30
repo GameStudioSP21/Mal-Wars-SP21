@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17118778868662266803
+  Name: "Metal Grates 03"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_grates_006_uv"
+  }
+}
+Assets {
   Id: 16522965454647573055
   Name: "Wedge - Concave"
   PlatformAssetType: 1
@@ -53,6 +62,24 @@ Assets {
   }
 }
 Assets {
+  Id: 15144130767241674297
+  Name: "Pipe - 45-Degree Long "
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_curve45_004"
+  }
+}
+Assets {
+  Id: 14359217783623684227
+  Name: "Rubber Basic 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_rubber_panels_004_uv"
+  }
+}
+Assets {
   Id: 14167894031540219039
   Name: "Whitebox Wall 01 Triangle Top"
   PlatformAssetType: 1
@@ -62,12 +89,39 @@ Assets {
   }
 }
 Assets {
+  Id: 13783275049652431909
+  Name: "Pipe - 45-Degree"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_curve45_001"
+  }
+}
+Assets {
   Id: 13541933108655266337
   Name: "Rock Hexagonal"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_rock_generic_008"
+  }
+}
+Assets {
+  Id: 12888726374622842928
+  Name: "Modern Weapon - Disc 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_modern_disc_001"
+  }
+}
+Assets {
+  Id: 12727423074974900645
+  Name: "Cylinder - Bottom-Aligned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_001"
   }
 }
 Assets {
@@ -89,6 +143,24 @@ Assets {
   }
 }
 Assets {
+  Id: 10851872944872800303
+  Name: "Sphere"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_sphere_002"
+  }
+}
+Assets {
+  Id: 10490007734125876673
+  Name: "Cube - Bottom-Aligned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_001"
+  }
+}
+Assets {
   Id: 10454114495457897628
   Name: "Energy Tube Glow"
   PlatformAssetType: 2
@@ -104,6 +176,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_quarter_hemisphere_001"
+  }
+}
+Assets {
+  Id: 8630029883551461823
+  Name: "Pipe - Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_half-pipe_001"
   }
 }
 Assets {
@@ -134,6 +215,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6810300252682921787
+  Name: "Plastic Shiny"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "plastic_shiny_001"
+  }
+}
+Assets {
   Id: 6531257921240935799
   Name: "Cylinder"
   PlatformAssetType: 1
@@ -161,12 +251,66 @@ Assets {
   }
 }
 Assets {
+  Id: 4932480955011522001
+  Name: "Pipe"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_001"
+  }
+}
+Assets {
+  Id: 4690676719249469207
+  Name: "Prism - 6-Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prism_hexagon_001"
+  }
+}
+Assets {
   Id: 4685798713724418805
   Name: "Energy Tube Glow"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "Energy_Tube_Glow"
+  }
+}
+Assets {
+  Id: 3981647816487563117
+  Name: "Pipe - 90-Degree Short Thick"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_curve90_003"
+  }
+}
+Assets {
+  Id: 3753226730941874512
+  Name: "Lens"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_lense_001"
+  }
+}
+Assets {
+  Id: 3746503301462555493
+  Name: "Cone - Truncated Wide"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cone_truncated_003"
+  }
+}
+Assets {
+  Id: 3711109594887174428
+  Name: "Wedge - Convex"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wedge_curved_convex_001"
   }
 }
 Assets {
@@ -221,6 +365,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_iron_002"
+  }
+}
+Assets {
+  Id: 1231622191693595424
+  Name: "Sphere - Half Quarter Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_quarter_hemisphere_002"
   }
 }
 Assets {
