@@ -8,7 +8,7 @@ local TowerMortar = {}
 TowerMortar.__index = TowerMortar
 setmetatable(TowerMortar,TowerBase)
 
-local EXPLOSION_DAMAGE_RADIUS_SQUARED = 800^2
+local EXPLOSION_DAMAGE_RADIUS_SQUARED = 300^2
 
 function TowerMortar.New(towerData)
     local self = TowerBase.New(towerData)
