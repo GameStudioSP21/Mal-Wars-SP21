@@ -282,6 +282,9 @@ function Inventory:_Init(database,owner,inventoryTowersString)
 
         local tower = database:NewTowerByName("Mortar Turret")
         table.insert(self.equippedTowers,tower)
+        
+        local tower = database:NewTowerByName("Tesla Turret")
+        table.insert(self.equippedTowers,tower)
     else
         self:_Load(inventoryTowersString)
         -- local tower = database:NewTowerByName("Bank")
