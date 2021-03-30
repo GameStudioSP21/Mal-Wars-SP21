@@ -48,6 +48,26 @@ Assets {
         }
         ParentId: 4605122028102754150
         UnregisteredParameters {
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 0
+          }
+          Overrides {
+            Name: "bp:Outer Core Size"
+            Float: 3
+          }
+          Overrides {
+            Name: "bp:Ring Size"
+            Float: 0.999495745
+          }
+          Overrides {
+            Name: "bp:Energy Particle Life"
+            Float: 0.05
+          }
+          Overrides {
+            Name: "bp:Local Space"
+            Bool: true
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -94,7 +114,7 @@ Assets {
           }
           Overrides {
             Name: "bp:Emissive Boost"
-            Float: 20
+            Float: 31.6860199
           }
           Overrides {
             Name: "bp:Mask Index"
@@ -102,9 +122,42 @@ Assets {
           }
           Overrides {
             Name: "bp:Particle Scale Multiplier"
-            Float: 1.5
+            Float: 3.43762016
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 0.351523638
+          }
+          Overrides {
+            Name: "bp:Local Space"
+            Bool: true
+          }
+          Overrides {
+            Name: "bp:ColorB"
+            Color {
+              G: 0.0140395584
+              B: 0.53
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:ColorC"
+            Color {
+              R: 0.0168876313
+              B: 0.51
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.0105960872
+              B: 0.200000048
+              A: 1
+            }
           }
         }
+        Lifespan: 1
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -125,7 +178,7 @@ Assets {
           }
         }
         Relevance {
-          Value: "mc:eproxyrelevance:medium"
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -146,7 +199,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "bp:Gravity"
-            Float: 3.64265823
+            Float: 0
           }
           Overrides {
             Name: "bp:Wind Speed"
@@ -155,19 +208,27 @@ Assets {
           }
           Overrides {
             Name: "bp:Particle Scale Multiplier"
-            Float: 5
+            Float: 3.2774632
           }
           Overrides {
             Name: "bp:Density"
-            Float: 0.1
+            Float: 4.13004208
           }
           Overrides {
             Name: "bp:Life"
-            Float: 1
+            Float: 0.98568058
           }
           Overrides {
             Name: "bp:Sort Priority Adjustment"
             Int: -10
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.0062252
+              B: 0.470000029
+              A: 1
+            }
           }
         }
         Collidable_v2 {

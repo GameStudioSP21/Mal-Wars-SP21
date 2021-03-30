@@ -79,10 +79,15 @@ Assets {
           }
         }
         ParentId: 4162559028374586543
+        ChildIds: 14868177815837145192
         ChildIds: 3206220189379387661
         ChildIds: 6730440738920687730
+        ChildIds: 18307237508811667048
+        ChildIds: 13032979126687941560
         ChildIds: 1603155050493491022
         ChildIds: 3599635422827979000
+        ChildIds: 7971011266088508511
+        ChildIds: 6724466807050092647
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -110,6 +115,65 @@ Assets {
             TargetAnchor {
               Anchor {
                 Value: "mc:euianchor:topleft"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 14868177815837145192
+        Name: "UI Image"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4166633234502508400
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Control {
+          Width: 1055
+          Height: 200
+          UIY: 153.295441
+          RotationAngle: 180
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Image {
+            Brush {
+              Id: 17035680932399989717
+            }
+            Color {
+              A: 0.60800004
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
               }
             }
           }
@@ -198,15 +262,145 @@ Assets {
           }
           StatBar {
             Color {
-              G: 0.762000084
-              B: 0.0241903868
+              R: 0.0600000024
+              G: 0.215628862
+              B: 1
               A: 1
             }
             BackgroundColor {
-              R: 0.68200016
-              A: 1
+              G: 0.00635760184
+              B: 0.0599999428
+              A: 0.88500005
             }
             Percent: 1
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 18307237508811667048
+        Name: "UI Image"
+        Transform {
+          Location {
+            X: 7791.79639
+            Y: -3968.47266
+            Z: 42.2406
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4166633234502508400
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Control {
+          Width: 1001
+          Height: 18
+          UIY: 67.9377365
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Image {
+            Brush {
+              Id: 17035680932399989717
+            }
+            Color {
+              R: 0.24000001
+              G: 0.999999821
+              B: 1
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 13032979126687941560
+        Name: "NetworkHubTextBox"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4166633234502508400
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Control {
+          Width: 1000
+          Height: 60
+          UIY: 79.5974884
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Text {
+            Label: "NETWORK HUB"
+            Color {
+              G: 0.0427814312
+              B: 0.190000057
+              A: 1
+            }
+            Size: 43
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            AutoWrapText: true
+            Font {
+              Id: 2626267817006011674
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -250,17 +444,17 @@ Assets {
         Control {
           Width: 1000
           Height: 60
-          UIY: 100
+          UIY: 79.5974884
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
           Text {
-            Label: "Network Hub"
+            Label: "NETWORK HUB"
             Color {
-              R: 1
-              G: 1
+              R: 0.170000017
+              G: 0.999999821
               B: 1
               A: 1
             }
@@ -270,6 +464,7 @@ Assets {
             }
             AutoWrapText: true
             Font {
+              Id: 2626267817006011674
             }
           }
           AnchorLayout {
@@ -345,6 +540,130 @@ Assets {
             TargetAnchor {
               Anchor {
                 Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 7971011266088508511
+        Name: "UI Image"
+        Transform {
+          Location {
+            X: 7791.79639
+            Y: -3968.47266
+            Z: 42.2406
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4166633234502508400
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Control {
+          Width: 1001
+          Height: 18
+          UIY: 43.5497971
+          RotationAngle: 180
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Image {
+            Brush {
+              Id: 17035680932399989717
+            }
+            Color {
+              R: 0.24000001
+              G: 0.999999821
+              B: 1
+              A: 1
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 6724466807050092647
+        Name: "UI Image"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4166633234502508400
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Control {
+          Width: 3524
+          Height: 31
+          UIY: 24.3878937
+          RotationAngle: 180
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Image {
+            Brush {
+              Id: 17035680932399989717
+            }
+            Color {
+              A: 0.60800004
+            }
+            TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
               }
             }
           }
@@ -513,7 +832,8 @@ Assets {
         Name: "Node"
         Transform {
           Location {
-            X: 1000
+            X: 635
+            Y: 345
           }
           Rotation {
           }
@@ -563,7 +883,8 @@ Assets {
         Name: "Node"
         Transform {
           Location {
-            X: 500
+            X: 655
+            Y: 1755
           }
           Rotation {
           }
@@ -613,6 +934,8 @@ Assets {
         Name: "Node"
         Transform {
           Location {
+            X: 645
+            Y: 2255
           }
           Rotation {
           }
@@ -662,8 +985,8 @@ Assets {
         Name: "Node"
         Transform {
           Location {
-            X: -500
-            Y: 500
+            X: 625
+            Y: 2935
           }
           Rotation {
           }
@@ -713,8 +1036,8 @@ Assets {
         Name: "Node"
         Transform {
           Location {
-            X: -1000
-            Y: 1000
+            X: -65
+            Y: 2960
             Z: 0.000244140625
           }
           Rotation {
@@ -765,8 +1088,8 @@ Assets {
         Name: "Node"
         Transform {
           Location {
-            X: -1500
-            Y: 1500
+            X: -695
+            Y: 2945
             Z: 0.000244140625
           }
           Rotation {
@@ -817,8 +1140,8 @@ Assets {
         Name: "Node"
         Transform {
           Location {
-            X: -2000
-            Y: 2000
+            X: -1315
+            Y: 2950
             Z: 0.000244140625
           }
           Rotation {
@@ -937,8 +1260,8 @@ Assets {
         Name: "Node"
         Transform {
           Location {
-            X: 4000
-            Y: 2300
+            X: 4180
+            Y: 3240
             Z: 0.000244140625
           }
           Rotation {
@@ -990,7 +1313,7 @@ Assets {
         Transform {
           Location {
             X: 4150
-            Y: 2750
+            Y: 3550
             Z: 0.000244140625
           }
           Rotation {
@@ -1041,8 +1364,8 @@ Assets {
         Name: "Node"
         Transform {
           Location {
-            X: 4150
-            Y: 3400.15674
+            X: 3895
+            Y: 3890
             Z: 0.00048828125
           }
           Rotation {
@@ -2131,8 +2454,8 @@ Assets {
         Name: "Node"
         Transform {
           Location {
-            X: -3450
-            Y: -1850
+            X: -3771.10547
+            Y: -2163.47485
             Z: 0.00048828125
           }
           Rotation {
@@ -2183,8 +2506,8 @@ Assets {
         Name: "Node"
         Transform {
           Location {
-            X: -3750
-            Y: -2050
+            X: -4105.80469
+            Y: -2556.07251
             Z: 0.00048828125
           }
           Rotation {
@@ -2304,8 +2627,8 @@ Assets {
         Name: "Node"
         Transform {
           Location {
-            X: -3750
-            Y: -2050
+            X: -4129.9751
+            Y: -2594.98633
             Z: 0.00048828125
           }
           Rotation {
@@ -2356,8 +2679,8 @@ Assets {
         Name: "Node"
         Transform {
           Location {
-            X: -3450
-            Y: -1850
+            X: -3774.95947
+            Y: -2109.97852
             Z: 0.00048828125
           }
           Rotation {
@@ -3446,8 +3769,8 @@ Assets {
         Name: "Node"
         Transform {
           Location {
-            X: 4150
-            Y: 3400.15674
+            X: 3822.29883
+            Y: 3803.27808
             Z: 0.00048828125
           }
           Rotation {
@@ -3498,8 +3821,8 @@ Assets {
         Name: "Node"
         Transform {
           Location {
-            X: 4150
-            Y: 2750
+            X: 4129.44141
+            Y: 3428.26636
             Z: 0.000244140625
           }
           Rotation {
@@ -3550,8 +3873,8 @@ Assets {
         Name: "Node"
         Transform {
           Location {
-            X: 3999.98096
-            Y: 2300
+            X: 4167.44824
+            Y: 3179.51245
             Z: 0.000244140625
           }
           Rotation {
@@ -3602,9 +3925,9 @@ Assets {
         Name: "Node"
         Transform {
           Location {
-            X: -10000
-            Y: -2000
-            Z: 0.000244140625
+            X: -10365
+            Y: -2954.58691
+            Z: 25
           }
           Rotation {
           }
@@ -3654,9 +3977,9 @@ Assets {
         Name: "Node"
         Transform {
           Location {
-            X: -10500
-            Y: -1500
-            Z: 0.000244140625
+            X: -10820
+            Y: -2960
+            Z: 15
           }
           Rotation {
           }
@@ -3706,9 +4029,9 @@ Assets {
         Name: "Node"
         Transform {
           Location {
-            X: -11000
-            Y: -1000
-            Z: 0.000244140625
+            X: -11385.9141
+            Y: -2953.2793
+            Z: 15
           }
           Rotation {
           }
@@ -3758,9 +4081,9 @@ Assets {
         Name: "Node"
         Transform {
           Location {
-            X: -11500
-            Y: -500
-            Z: 0.000244140625
+            X: -12449.5684
+            Y: -2945.99121
+            Z: 10
           }
           Rotation {
           }
@@ -3810,8 +4133,9 @@ Assets {
         Name: "Node"
         Transform {
           Location {
-            X: -11500
-            Z: 0.000244140625
+            X: -12495
+            Y: -1017.54736
+            Z: 5
           }
           Rotation {
           }
@@ -3861,8 +4185,8 @@ Assets {
         Name: "Node"
         Transform {
           Location {
-            X: -12000
-            Z: 0.000244140625
+            X: -13263.502
+            Z: 15
           }
           Rotation {
           }
@@ -4225,6 +4549,24 @@ Assets {
             Id: 16323948595833752729
           }
         }
+      }
+    }
+    Assets {
+      Id: 17035680932399989717
+      Name: "BG Highlighted 001"
+      PlatformAssetType: 9
+      PrimaryAsset {
+        AssetType: "PlatformBrushAssetRef"
+        AssetId: "BackgroundHighlighted_020"
+      }
+    }
+    Assets {
+      Id: 2626267817006011674
+      Name: "Play Bold"
+      PlatformAssetType: 28
+      PrimaryAsset {
+        AssetType: "FontAssetRef"
+        AssetId: "PlayBold_ref"
       }
     }
     Assets {

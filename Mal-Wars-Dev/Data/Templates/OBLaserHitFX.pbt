@@ -85,7 +85,7 @@ Assets {
           Overrides {
             Name: "bp:Type"
             Enum {
-              Value: "mc:esfx_explosions_distant:12"
+              Value: "mc:esfx_explosions_distant:20"
             }
           }
         }
@@ -106,7 +106,7 @@ Assets {
           }
           AudioBP {
             Pitch: 2400
-            Volume: 0.402926683
+            Volume: 0.830854356
             Falloff: 4000
             Radius: 3000
             EnableOcclusion: true

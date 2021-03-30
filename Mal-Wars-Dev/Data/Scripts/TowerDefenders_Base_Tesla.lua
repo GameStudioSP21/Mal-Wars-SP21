@@ -4,15 +4,15 @@ local Ease3D = require(script:GetCustomProperty("Ease3D"))
 
 local ExplosionAsset = script:GetCustomProperty("Explosion")
 
-local TowerMortar = {}
-TowerMortar.__index = TowerMortar
-setmetatable(TowerMortar,TowerBase)
+local TowerTesla = {}
+TowerTesla.__index = TowerTesla
+setmetatable(TowerTesla,TowerBase)
 
 local EXPLOSION_DAMAGE_RADIUS_SQUARED = 300^2
 
-function TowerMortar.New(towerData)
+function TowerTesla.New(towerData)
     local self = TowerBase.New(towerData)
-    setmetatable(self,TowerMortar)
+    setmetatable(self,TowerTesla)
 
     --Independent Variables
 	self.impactTime = 1
@@ -35,7 +35,7 @@ end
 
 -- Client
 
-function TowerMortar:HorizontalRotation()
+function TowerTesla:HorizontalRotation()
 	--Get the enemy's position and extrapolate it by its current direction and speed to get a predicted position.
 	self.targetPos = ( self.currentTarget:GetWorldPosition() + ( self.currentTarget:GetTransform():GetForwardVector() * self.impactTime ) )
 	self.hPivotPos = self._horizontalRotator:GetWorldPosition()
@@ -49,7 +49,7 @@ function TowerMortar:HorizontalRotation()
 	self._horizontalRotator:RotateTo( hr, 0.1, false )
 end
 
-function TowerMortar:VerticalRotation()
+function TowerTesla:VerticalRotation()
 	self.targetPos = ( self.currentTarget:GetWorldPosition() + ( self.currentTarget:GetTransform():GetForwardVector() * 400 * self.impactTime ) )
 	self.vPivotPos = self._verticalRotator:GetWorldPosition()
 	
@@ -83,7 +83,7 @@ function TowerMortar:VerticalRotation()
 	self.gravityGamma = ( self.targetPos.z - hv - h0 ) / ( -0.5 * 981 * self.gravityFactor * ( self.impactTime ^ 2 ) )
 end
 
-function TowerMortar:FireFakeProjectile()	
+function TowerTesla:FireFakeProjectile()	
 	if self.rotation then
 		local dir = Transform.New( self.rotation, Vector3.New(), Vector3.New() ):GetForwardVector()
 		local projectile = Projectile.Spawn( self:GetVisualProjectile(), self._muzzle:GetWorldPosition(), dir )
@@ -98,7 +98,7 @@ end
 
 -- Server
 
-function TowerMortar:DamageEnemy()
+function TowerTesla:DamageEnemy()
     self.waveManager = self:GetBoardReference():GetWaveManager()
     Task.Spawn(function()
         Task.Wait(self.impactTime)
@@ -116,4 +116,4 @@ function TowerMortar:DamageEnemy()
     end)
 end
 
-return TowerMortar
+return TowerTesla
