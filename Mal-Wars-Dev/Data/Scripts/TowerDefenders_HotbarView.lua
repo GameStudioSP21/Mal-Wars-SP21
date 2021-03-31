@@ -8,6 +8,9 @@ local HOT_BAR_SLOT = script:GetCustomProperty("TowerDefenders_HotBarSlot")
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 local HOT_BAR_PANEL = script:GetCustomProperty("HotBarPanel"):WaitForObject()
 
+local SLOT_AVAILABLE_COLOR = script:GetCustomProperty("SlotAvailableColor")
+local SLOT_NOT_AVAILABLE_COLOR = script:GetCustomProperty("SlotNotAvailableColor")
+
 
 -- While the clients inventory has not loaded yet then just wait for it to load.
 while not LOCAL_PLAYER.clientUserData.towerInventory do Task.Wait() end
@@ -185,9 +188,9 @@ function hotbarView:_UpdateSlotPrices()
             local tower = slot.clientUserData.tower
             local priceText = slot:GetCustomProperty("Price"):GetObject()
             if GemWallet.HasEnough(tower:GetCost()) then
-                priceText:SetColor(Color.WHITE)
+                priceText:SetColor(SLOT_AVAILABLE_COLOR)
             else
-                priceText:SetColor(Color.RED)
+                priceText:SetColor(SLOT_NOT_AVAILABLE_COLOR)
             end
         end
     end
