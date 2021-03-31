@@ -21,6 +21,14 @@ Objects {
       String: "Ultimate Laser"
     }
     Overrides {
+      Name: "cs:DisplayName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
+    }
+    Overrides {
       Name: "cs:Icon"
       AssetReference {
         Id: 11710471924434565244
@@ -111,6 +119,14 @@ Objects {
       String: "Superior Laser"
     }
     Overrides {
+      Name: "cs:DisplayName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
+    }
+    Overrides {
       Name: "cs:Icon"
       AssetReference {
         Id: 11710471924434565244
@@ -137,12 +153,12 @@ Objects {
       Int: 24
     }
     Overrides {
-      Name: "cs:Speed"
-      Float: 0.6
-    }
-    Overrides {
       Name: "cs:Range"
       Float: 45
+    }
+    Overrides {
+      Name: "cs:Speed"
+      Float: 0.6
     }
     Overrides {
       Name: "cs:Tower"
@@ -207,6 +223,14 @@ Objects {
       String: "Greater Laser"
     }
     Overrides {
+      Name: "cs:DisplayName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
+    }
+    Overrides {
       Name: "cs:Icon"
       AssetReference {
         Id: 11710471924434565244
@@ -233,12 +257,12 @@ Objects {
       Int: 14
     }
     Overrides {
-      Name: "cs:Speed"
-      Float: 0.7
-    }
-    Overrides {
       Name: "cs:Range"
       Float: 40
+    }
+    Overrides {
+      Name: "cs:Speed"
+      Float: 0.7
     }
     Overrides {
       Name: "cs:NextTowerUpgrade"
@@ -303,6 +327,14 @@ Objects {
       String: "Laser Turret"
     }
     Overrides {
+      Name: "cs:DisplayName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
+    }
+    Overrides {
       Name: "cs:Icon"
       AssetReference {
         Id: 11710471924434565244
@@ -329,12 +361,12 @@ Objects {
       Int: 8
     }
     Overrides {
-      Name: "cs:Speed"
-      Float: 0.8
-    }
-    Overrides {
       Name: "cs:Range"
       Float: 35
+    }
+    Overrides {
+      Name: "cs:Speed"
+      Float: 0.8
     }
     Overrides {
       Name: "cs:NextTowerUpgrade"

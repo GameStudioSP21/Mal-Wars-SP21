@@ -21,7 +21,6 @@ Objects {
   ChildIds: 10722931758594424760
   ChildIds: 15885606419812222058
   ChildIds: 2880498746515435782
-  ChildIds: 7571376370741754032
   ChildIds: 303502757073377208
   UnregisteredParameters {
   }
@@ -97,44 +96,6 @@ Objects {
           Value: "mc:euianchor:topleft"
         }
       }
-    }
-  }
-}
-Objects {
-  Id: 7571376370741754032
-  Name: "TowerDefenders_NetworkEvents"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Theme"
-      AssetReference {
-        Id: 18181533304032982468
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 3142027126795627660
     }
   }
 }

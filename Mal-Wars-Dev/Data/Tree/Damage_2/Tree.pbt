@@ -21,6 +21,14 @@ Objects {
       String: "Bank"
     }
     Overrides {
+      Name: "cs:DisplayName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
+    }
+    Overrides {
       Name: "cs:Icon"
       AssetReference {
         Id: 17499171427180200450
@@ -47,12 +55,12 @@ Objects {
       Int: 0
     }
     Overrides {
-      Name: "cs:Speed"
-      Float: 0.2
-    }
-    Overrides {
       Name: "cs:Range"
       Float: 0
+    }
+    Overrides {
+      Name: "cs:Speed"
+      Float: 0.2
     }
     Overrides {
       Name: "cs:Tower"

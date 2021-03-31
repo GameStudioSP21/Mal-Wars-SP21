@@ -21,6 +21,14 @@ Objects {
       String: "Ultimate AOE"
     }
     Overrides {
+      Name: "cs:DisplayName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
+    }
+    Overrides {
       Name: "cs:Icon"
       AssetReference {
         Id: 6122266822409686564
@@ -47,12 +55,12 @@ Objects {
       Int: 360
     }
     Overrides {
-      Name: "cs:Speed"
-      Float: 3
-    }
-    Overrides {
       Name: "cs:Range"
       Float: 40
+    }
+    Overrides {
+      Name: "cs:Speed"
+      Float: 3
     }
     Overrides {
       Name: "cs:Tower"
@@ -117,6 +125,14 @@ Objects {
       String: "Superior AOE"
     }
     Overrides {
+      Name: "cs:DisplayName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
+    }
+    Overrides {
       Name: "cs:Icon"
       AssetReference {
         Id: 6122266822409686564
@@ -143,12 +159,12 @@ Objects {
       Int: 180
     }
     Overrides {
-      Name: "cs:Speed"
-      Float: 3
-    }
-    Overrides {
       Name: "cs:Range"
       Float: 36
+    }
+    Overrides {
+      Name: "cs:Speed"
+      Float: 3
     }
     Overrides {
       Name: "cs:Tower"
@@ -219,6 +235,14 @@ Objects {
       String: "Greater AOE"
     }
     Overrides {
+      Name: "cs:DisplayName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
+    }
+    Overrides {
       Name: "cs:Icon"
       AssetReference {
         Id: 6122266822409686564
@@ -245,12 +269,12 @@ Objects {
       Int: 90
     }
     Overrides {
-      Name: "cs:Speed"
-      Float: 3
-    }
-    Overrides {
       Name: "cs:Range"
       Float: 32
+    }
+    Overrides {
+      Name: "cs:Speed"
+      Float: 3
     }
     Overrides {
       Name: "cs:Tower"
@@ -321,6 +345,14 @@ Objects {
       String: "AOE Turret"
     }
     Overrides {
+      Name: "cs:DisplayName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
+    }
+    Overrides {
       Name: "cs:Icon"
       AssetReference {
         Id: 6122266822409686564
@@ -347,12 +379,12 @@ Objects {
       Int: 45
     }
     Overrides {
-      Name: "cs:Speed"
-      Float: 3
-    }
-    Overrides {
       Name: "cs:Range"
       Float: 30
+    }
+    Overrides {
+      Name: "cs:Speed"
+      Float: 3
     }
     Overrides {
       Name: "cs:Tower"

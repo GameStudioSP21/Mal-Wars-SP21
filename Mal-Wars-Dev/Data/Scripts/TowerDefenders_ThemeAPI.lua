@@ -1,5 +1,4 @@
 local Theme = {}
-Theme.__index = Theme
 
 local TOWER_STATS = script:GetCustomProperty("TowerStats"):WaitForObject()
 local TOWER_TYPES = script:GetCustomProperty("TowerTypes"):WaitForObject()
@@ -109,6 +108,10 @@ end
 -----------------------------
 
 ---- RARITY
+function Theme.GetRarities()
+    return THEME_RARITIES
+end
+
 function Theme.IsValidRarity(rarityName)
     return THEME_RARITIES[rarityName] and true or false
 end

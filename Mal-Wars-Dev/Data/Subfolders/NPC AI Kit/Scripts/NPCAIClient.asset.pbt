@@ -26,6 +26,12 @@ Assets {
         }
       }
       Overrides {
+        Name: "cs:GemWalletClient"
+        AssetReference {
+          Id: 16145347658999261958
+        }
+      }
+      Overrides {
         Name: "cs:Root:tooltip"
         String: "A reference to the root of the template, where most of the NPC\'s custom properties are set."
       }

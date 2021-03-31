@@ -21,6 +21,14 @@ Objects {
       String: "Ultimate Sniper"
     }
     Overrides {
+      Name: "cs:DisplayName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
+    }
+    Overrides {
       Name: "cs:Icon"
       AssetReference {
         Id: 17342885316533049253
@@ -29,7 +37,7 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 15473447320514786512
+        SelfId: 11435435214344133321
       }
     }
     Overrides {
@@ -47,12 +55,12 @@ Objects {
       Int: 400
     }
     Overrides {
-      Name: "cs:Speed"
-      Float: 2
-    }
-    Overrides {
       Name: "cs:Range"
       Float: 90
+    }
+    Overrides {
+      Name: "cs:Speed"
+      Float: 2
     }
     Overrides {
       Name: "cs:Tower"
@@ -117,6 +125,14 @@ Objects {
       String: "Superior Sniper"
     }
     Overrides {
+      Name: "cs:DisplayName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
+    }
+    Overrides {
       Name: "cs:Icon"
       AssetReference {
         Id: 17342885316533049253
@@ -125,7 +141,7 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 15473447320514786512
+        SelfId: 11435435214344133321
       }
     }
     Overrides {
@@ -143,12 +159,12 @@ Objects {
       Int: 200
     }
     Overrides {
-      Name: "cs:Speed"
-      Float: 2
-    }
-    Overrides {
       Name: "cs:Range"
       Float: 90
+    }
+    Overrides {
+      Name: "cs:Speed"
+      Float: 2
     }
     Overrides {
       Name: "cs:Tower"
@@ -219,6 +235,14 @@ Objects {
       String: "Greater Sniper"
     }
     Overrides {
+      Name: "cs:DisplayName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
+    }
+    Overrides {
       Name: "cs:Icon"
       AssetReference {
         Id: 17342885316533049253
@@ -227,7 +251,7 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 15473447320514786512
+        SelfId: 11435435214344133321
       }
     }
     Overrides {
@@ -245,12 +269,12 @@ Objects {
       Int: 100
     }
     Overrides {
-      Name: "cs:Speed"
-      Float: 2
-    }
-    Overrides {
       Name: "cs:Range"
       Float: 90
+    }
+    Overrides {
+      Name: "cs:Speed"
+      Float: 2
     }
     Overrides {
       Name: "cs:NextTowerUpgrade"
@@ -321,6 +345,14 @@ Objects {
       String: "Sniper Turret"
     }
     Overrides {
+      Name: "cs:DisplayName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
+    }
+    Overrides {
       Name: "cs:Icon"
       AssetReference {
         Id: 17342885316533049253
@@ -329,7 +361,7 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 15473447320514786512
+        SelfId: 11435435214344133321
       }
     }
     Overrides {
@@ -347,12 +379,12 @@ Objects {
       Int: 50
     }
     Overrides {
-      Name: "cs:Speed"
-      Float: 2
-    }
-    Overrides {
       Name: "cs:Range"
       Float: 90
+    }
+    Overrides {
+      Name: "cs:Speed"
+      Float: 2
     }
     Overrides {
       Name: "cs:NextTowerUpgrade"

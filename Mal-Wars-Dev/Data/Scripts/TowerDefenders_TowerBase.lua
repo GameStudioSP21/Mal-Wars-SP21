@@ -17,7 +17,7 @@ local PRE_END_SPAWN_ASSET = script:GetCustomProperty("PreEndSpawnAsset")
 local OWNERSHIP_DECAL = script:GetCustomProperty("TowerOwnershipDecal")
 local RADIUS_DECAL = script:GetCustomProperty("RangeRadiusDecal")
 local BLOCKED_RADIUS = script:GetCustomProperty("BlockedRadius")
-local BLOCKED_RANGE = 125 -- CUSTOM PROPERTY HERE
+local BLOCKED_RANGE = 300 -- CUSTOM PROPERTY HERE
 
 local SoundRandomizer = require(script:GetCustomProperty("Sound_Randomizer"))
 
@@ -214,6 +214,14 @@ end
 
 function Tower:GetName()
     return self.data.name
+end
+
+function Tower:GetDisplayName()
+    return self.data.displayName
+end
+
+function Tower:GetDescription()
+    return self.data.description
 end
 
 function Tower:GetID()
@@ -494,11 +502,11 @@ function Tower:_Runtime()
     end
 end
 
-Tower.__eq = function(tower1, tower2)
-    if tower1:GetMUID() == tower2:GetMUID() then
-        return true
-    end
-    return false
-end
+-- Tower.__eq = function(tower1, tower2)
+--     if tower1:GetMUID() == tower2:GetMUID() then
+--         return true
+--     end
+--     return false
+-- end
 
 return Tower

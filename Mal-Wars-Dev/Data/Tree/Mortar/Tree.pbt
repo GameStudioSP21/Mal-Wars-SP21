@@ -21,6 +21,14 @@ Objects {
       String: "Ultimate Mortar"
     }
     Overrides {
+      Name: "cs:DisplayName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
+    }
+    Overrides {
       Name: "cs:Icon"
       AssetReference {
         Id: 9135958796443303817
@@ -47,12 +55,12 @@ Objects {
       Int: 200
     }
     Overrides {
-      Name: "cs:Speed"
-      Float: 3
-    }
-    Overrides {
       Name: "cs:Range"
       Float: 80
+    }
+    Overrides {
+      Name: "cs:Speed"
+      Float: 3
     }
     Overrides {
       Name: "cs:Tower"
@@ -117,6 +125,14 @@ Objects {
       String: "Superior Mortar"
     }
     Overrides {
+      Name: "cs:DisplayName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
+    }
+    Overrides {
       Name: "cs:Icon"
       AssetReference {
         Id: 9135958796443303817
@@ -143,12 +159,12 @@ Objects {
       Int: 100
     }
     Overrides {
-      Name: "cs:Speed"
-      Float: 3
-    }
-    Overrides {
       Name: "cs:Range"
       Float: 60
+    }
+    Overrides {
+      Name: "cs:Speed"
+      Float: 3
     }
     Overrides {
       Name: "cs:Tower"
@@ -219,6 +235,14 @@ Objects {
       String: "Greater Mortar"
     }
     Overrides {
+      Name: "cs:DisplayName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
+    }
+    Overrides {
       Name: "cs:Icon"
       AssetReference {
         Id: 9135958796443303817
@@ -245,12 +269,12 @@ Objects {
       Int: 50
     }
     Overrides {
-      Name: "cs:Speed"
-      Float: 3
-    }
-    Overrides {
       Name: "cs:Range"
       Float: 50
+    }
+    Overrides {
+      Name: "cs:Speed"
+      Float: 3
     }
     Overrides {
       Name: "cs:Tower"
@@ -321,6 +345,14 @@ Objects {
       String: "Mortar Turret"
     }
     Overrides {
+      Name: "cs:DisplayName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
+    }
+    Overrides {
       Name: "cs:Icon"
       AssetReference {
         Id: 9135958796443303817
@@ -347,12 +379,12 @@ Objects {
       Int: 25
     }
     Overrides {
-      Name: "cs:Speed"
-      Float: 2
-    }
-    Overrides {
       Name: "cs:Range"
       Float: 40
+    }
+    Overrides {
+      Name: "cs:Speed"
+      Float: 2
     }
     Overrides {
       Name: "cs:Tower"

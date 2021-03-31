@@ -15,11 +15,15 @@ local BOTTOM_SEPERATOR = script:GetCustomProperty("BottomSeperator"):WaitForObje
 local LEFT_PAGE_BUTTON = script:GetCustomProperty("LeftButton"):WaitForObject()
 local RIGHT_PAGE_BUTTON = script:GetCustomProperty("RightButton"):WaitForObject()
 
--- Tower entry template
+-- Entry Templates
 local TOWER_ENTRY = script:GetCustomProperty("TowerEntry")
--- Tower Catagory template
 local PAGE_INDICATOR_ENTRY = script:GetCustomProperty("PageIndicator")
 local CATAGORY_BUTTON_ENTRY = script:GetCustomProperty("CatagoryButtonEntry")
+
+-- Sounds
+local REFRESH_ENTRIES_SOUND = script:GetCustomProperty("RefreshEntriesSound")
+local TOWER_EQUIP_SOUND = script:GetCustomProperty("TowerEquipSound")
+local TOWER_DENY_SOUND = script:GetCustomProperty("TowerEquipDenySound")
 
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 
@@ -37,6 +41,10 @@ LOCAL_PLAYER.clientUserData.tempDisplay = view
 local MAX_TOWER_COLUMNS = 2
 local MAX_TOWER_ROWS = 3
 local MAX_ENTRIES = MAX_TOWER_COLUMNS * MAX_TOWER_ROWS
+
+local function PlaySFX(sfxMUID)
+    World.SpawnAsset(sfxMUID,{ parent = script.parent })
+end
 
 function view:Setup()
     -- Setup catagory buttons
@@ -132,39 +140,22 @@ end
 function view:SetupTowerEntry(towerEntry,tower)
     local NAME_LABEL = towerEntry:GetCustomProperty("NameLabel"):WaitForObject()
     local ICON = towerEntry:GetCustomProperty("Icon"):WaitForObject()
-    local ICON_FRAME = towerEntry:GetCustomProperty("TowerFrame"):WaitForObject()
-    local RARITY_LABEL = towerEntry:GetCustomProperty("RarityText"):WaitForObject()
     local RARITY_FRAME = towerEntry:GetCustomProperty("RarityFrame"):WaitForObject()
     local COST_FRAME = towerEntry:GetCustomProperty("CostFrame"):WaitForObject()
     local COST_LABEL = towerEntry:GetCustomProperty("CostText"):WaitForObject()
     local BACKGROUND_FRAME = towerEntry:GetCustomProperty("BackgroundFrame"):WaitForObject()
     local SELECT_BUTTON = towerEntry:GetCustomProperty("SelectButton"):WaitForObject()
+    local EQUIP_BUTTON = towerEntry:GetCustomProperty("EquipButton"):WaitForObject()
 
     local rarityColor = TowerThemeAPI.GetRarityColor(tower:GetRarity())
 
     NAME_LABEL.text = tower:GetName()
-    NAME_LABEL:SetColor(Color.WHITE)
-
-    ICON_FRAME:SetColor(rarityColor/2)
-
-    RARITY_LABEL.text = tower:GetRarity()
-    RARITY_LABEL:SetColor(rarityColor)
-
-    RARITY_FRAME:SetColor(rarityColor/2)
-
-    COST_FRAME:SetColor(rarityColor/2)
     COST_LABEL.text = tostring(tower:GetCost())
 
-    BACKGROUND_FRAME:SetColor(rarityColor)
-
+    RARITY_FRAME:SetColor(rarityColor)
     ICON:SetImage(tower:GetIcon())
 
-    -- Rarity Coloring
-    RARITY_LABEL:SetColor(rarityColor)
-
-    SELECT_BUTTON:SetHoveredColor(rarityColor/4)
-
-    local pressedHandle = SELECT_BUTTON.pressedEvent:Connect(function()
+    local examineHandle = SELECT_BUTTON.pressedEvent:Connect(function()
         print("You selected:",tower:GetName())
         statsView:SetVisibility(true)
         statsView:DisplayTowerStats(tower)
@@ -181,9 +172,13 @@ function view:SetupTowerEntry(towerEntry,tower)
         end
 
         local equipHandle = equipButton.pressedEvent:Connect(function()
-            print("EQUIPPING...")
-            localInventory:EquipTower(tower)
-            statsView:SetVisibility(false)
+            if localInventory:CanEquipTower(tower) then
+                PlaySFX(TOWER_EQUIP_SOUND)
+                localInventory:EquipTower(tower)
+                statsView:SetVisibility(false)
+            else
+                PlaySFX(TOWER_DENY_SOUND)
+            end
         end)
 
         local nextHandle = nextButton.pressedEvent:Connect(function()
@@ -230,10 +225,19 @@ function view:SetupTowerEntry(towerEntry,tower)
         STATS_PANEL.clientUserData.unhoverHandle = unhoverHandle
     end)
 
+    EQUIP_BUTTON.pressedEvent:Connect(function() 
+        if localInventory:CanEquipTower(tower) then
+            PlaySFX(TOWER_EQUIP_SOUND)
+            localInventory:EquipTower(tower)
+            if statsView:GetDisplayedTower() == tower then
+                statsView:SetVisibility(false)
+            end
+        else
+            PlaySFX(TOWER_DENY_SOUND)
+        end
+    end)
 
-
-
-    towerEntry.clientUserData.pressedHandle = pressedHandle
+    towerEntry.clientUserData.examineHandle = examineHandle
 end
 
 -- Returns the amount of pages that are possible from the players inventory when given a tower type.
@@ -275,6 +279,8 @@ end
 function view:DisplayTowerTypes(typeName,pageNumber)
     self.currentPage = pageNumber
     self.currentType = typeName
+    
+    PlaySFX(REFRESH_ENTRIES_SOUND)
 
     self:DisplayPageIndicators(typeName,pageNumber)
 

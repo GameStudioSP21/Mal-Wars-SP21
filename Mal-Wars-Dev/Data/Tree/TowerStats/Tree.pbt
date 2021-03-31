@@ -25,8 +25,9 @@ Objects {
     Overrides {
       Name: "cs:StatColor"
       Color {
-        G: 0.749006391
-        B: 0.87
+        R: 0.188235313
+        G: 0.321568638
+        B: 1
         A: 1
       }
     }
@@ -70,8 +71,9 @@ Objects {
     Overrides {
       Name: "cs:StatColor"
       Color {
-        R: 0.0585429929
-        G: 0.52
+        R: 0.321568638
+        G: 1
+        B: 0.188235313
         A: 1
       }
     }

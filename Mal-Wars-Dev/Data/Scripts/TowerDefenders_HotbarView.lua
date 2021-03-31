@@ -1,4 +1,5 @@
 local TowerThemes = require(script:GetCustomProperty("TowerThemesAPI"))
+
 local TowerDatabase = require(script:GetCustomProperty("TowerDatabase"))
 local EaseUI = require(script:GetCustomProperty("EaseUI"))
 local GemWallet = require(script:GetCustomProperty("GemWallet"))
@@ -168,13 +169,14 @@ function hotbarView:_SetupSlot(slot,tower)
     local priceLabel = slot:GetCustomProperty("Price"):GetObject()
     priceLabel.text = tostring(tower:GetCost())
 
-    local rarityColor = TowerThemes.GetRarityColor(tower:GetRarity())
-
     local frame = slot:GetCustomProperty("Frame"):GetObject()
     local background = slot:GetCustomProperty("Background"):GetObject()
 
-    frame:SetColor(rarityColor + Color.New(0,0,0,1))
-    background:SetColor(rarityColor + Color.New(0,0,0,1))
+    local rarityColor = TowerThemes.GetRarityColor(tower:GetRarity())
+    print("COLOR:",rarityColor)
+
+    frame:SetColor(rarityColor)
+    background:SetColor(rarityColor)
 end
 
 function hotbarView:_UpdateSlotPrices()
