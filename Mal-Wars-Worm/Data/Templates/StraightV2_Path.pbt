@@ -4569,7 +4569,7 @@ Assets {
         Transform {
           Location {
             X: -105.436035
-            Y: -101.973144
+            Y: -101.973145
           }
           Rotation {
             Yaw: -45.0770645
@@ -4778,7 +4778,7 @@ Assets {
         Transform {
           Location {
             X: -105.436035
-            Y: -101.973144
+            Y: -101.973145
           }
           Rotation {
             Yaw: -45.0770645
@@ -5019,7 +5019,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -106.066894
+            X: -106.066895
             Y: -101.972656
           }
           Rotation {
@@ -5228,7 +5228,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -106.066894
+            X: -106.066895
             Y: -101.972656
           }
           Rotation {
@@ -7584,7 +7584,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -0.0239257812
+            X: -0.0239257813
             Y: 0.0797119141
           }
           Rotation {
@@ -7701,7 +7701,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -251.507812
+            X: -251.507813
             Y: 59.8828125
           }
           Rotation {
@@ -7911,7 +7911,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -0.0239257812
+            X: -0.0239257813
             Y: 0.0797119141
           }
           Rotation {
@@ -8028,7 +8028,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -251.507812
+            X: -251.507813
             Y: 59.8828125
           }
           Rotation {
@@ -9093,7 +9093,7 @@ Assets {
         Name: "Cube - Polished"
         Transform {
           Location {
-            X: -6.10351562e-05
+            X: -6.10351563e-05
             Y: -846.317749
           }
           Rotation {
@@ -9700,7 +9700,7 @@ Assets {
         Transform {
           Location {
             X: -1220.73035
-            Y: -22.4438476
+            Y: -22.4438477
             Z: 25.0674438
           }
           Rotation {
@@ -9816,7 +9816,7 @@ Assets {
         Transform {
           Location {
             X: 1266.54285
-            Y: -22.4414062
+            Y: -22.4414063
             Z: 25.0680313
           }
           Rotation {
@@ -10895,7 +10895,7 @@ Assets {
         Name: "Cube - Polished"
         Transform {
           Location {
-            X: 6.10351562e-05
+            X: 6.10351563e-05
             Y: 846.317
           }
           Rotation {

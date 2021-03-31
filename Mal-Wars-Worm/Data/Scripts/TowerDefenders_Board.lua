@@ -1,4 +1,4 @@
-﻿--[[
+--[[
     TowerDefenders - Board
 
     This contains the logical representation of a tower defense board.
@@ -24,7 +24,6 @@ local PathNode = require(script:GetCustomProperty("TowerDefenders_PathNode"))
 local WaveManager = require(script:GetCustomProperty("TowerDefenders_WaveManager"))
 local TowerDatabase = require(script:GetCustomProperty("TowerDefenders_TowerDatabase"))
 
--- TODO: Change this to a CoreObjectReference
 local ACTIVE_BOARDS_GROUP = World.FindObjectByName("ActiveBoards")
 
 ----------------------------------------------------
@@ -40,6 +39,34 @@ function Board.New(boardData, boardInstance)
     return self
 end
 
+-- When called on either context the board will be setup.
+function Board:Setup(position, playerOwners, boardAsset)
+    self:SetOwners(playerOwners)
+
+
+    if Environment.IsServer() then
+        -- The server spawns the board so we don't need to provide a board asset
+        self:_SpawnBoard(position)
+
+        -- Move this to an API.
+        local playersString = ""
+        for _, player in pairs(self.owners) do
+            player:SetResource("GEMS", 300) -- TODO: Have this refer to a property from the board static data.
+            playersString = playersString .. tostring(player.id) .. ";"
+        end
+    
+        local boardInstance = self:GetBoardAssetInstance()
+        local owners = boardInstance:SetNetworkedCustomProperty("Owners",playersString)
+    else
+        assert(boardAsset,string.format("Can not setup board for %s as the board asset was not provided in the Setup method.",self:GetName()))
+        self.boardAssetInstance = boardAsset
+    end
+
+    self:_SetupWalkNodes()
+    self:_SetupPlayerSpawns()
+    self:CreateWaveManager()
+end
+
 -- Returns the name of the board
 function Board:GetName()
     return self.data.name
@@ -53,9 +80,12 @@ end
 
 -- Assign the owner of the board.
 function Board:SetOwners(players)
-    assert(type(players) == "table", "You must provide a table of player objects to set the owners of a board.")
+    local ERR_MESSAGE = "You must provide a table of player objects to set the owners of a board."
+    local scriptContext = Environment.IsServer() and "serverUserData" or "clientUserData"
+    assert(type(players) == "table", ERR_MESSAGE)
     for _, player in pairs(players) do
-        assert(player:IsA("Player"), "Setting the owners of a board requires a table of player objects only.")
+        assert(player:IsA("Player"), ERR_MESSAGE)
+        player[scriptContext].activeBoard = self
     end
     self.owners = players
 end
@@ -75,6 +105,12 @@ function Board:GetWaveManager()
     return self.waveManager
 end
 
+-- Waits until the wave manager is constructed. Returns the wave manager once it exist.
+function Board:WaitForWaveManager()
+    while not self.waveManager do Task.Wait() end
+    return self.waveManager
+end
+
 -- Returns the MUID of the board in project content.
 function Board:GetBoardTemplate()
     return self.data.boardAsset
@@ -90,7 +126,7 @@ function Board:GetID()
     return self.boardAssetInstance.id:match("^(.+):")
 end
 
--- Returns a reference to an instance of the board template.
+-- Returns a reference to an instance of the board template in the hierarchy.
 function Board:GetBoardAssetInstance()
     return self.boardAssetInstance
 end
@@ -100,6 +136,11 @@ function Board:GetAllTowers()
     return self.towers
 end
 
+-- Returns a tower given a position. Position must match a tower with the existing position.
+function Board:GetTowerFromPosition(position)
+    return self.towers[tostring(position)]
+end
+
 -- Returns the nearest tower given a position and max search radius and optionally an owner.
 function Board:GetNearestTower(position,maxRadius,owner)
     local towers = self:GetAllTowers()
@@ -107,7 +148,7 @@ function Board:GetNearestTower(position,maxRadius,owner)
     if maxRadius ~= 0 then
         for _, tower in pairs(towers) do
             local towerPos = tower:GetWorldPosition()
-            if (towerPos - position).sizeSquared <= maxRadius and ((owner ~= nil and tower:GetOwner() == owner) or owner == nil) then
+            if (towerPos - position).sizeSquared <= maxRadius and ((owner and tower:GetOwner() == owner) or owner == nil) then
                 return tower
             end
         end
@@ -116,10 +157,10 @@ function Board:GetNearestTower(position,maxRadius,owner)
         for _, tower in pairs(towers) do
             if not closest then
                 closest = tower
-            end
-            if closest and 
+            elseif closest and
                 (tower:GetWorldPosition() - position).sizeSquared < (closest:GetWorldPosition() - position).sizeSquared and
-                ((owner ~= nil and tower:GetOwner() == owner) or owner == nil) then
+                ((owner and tower:GetOwner() == owner) or owner == nil) then
+
                 closest = tower
             end
         end
@@ -161,38 +202,9 @@ function Board:RemoveBlockedRadiusOfTowers()
     end
 end
 
-----------------------------------------------------
--- Public : Server
-----------------------------------------------------
-
--- Creates an instance of the board and initiates the runtime.
-function Board:CreateBoard(position, playerOwners)
-    self.owners = playerOwners
-    self:_SpawnBoard(position)
-    local boardInstance = self:GetBoardAssetInstance()
-
-    -- Contruct wave manager
-    self:CreateWaveManager()
-
-    Task.Wait(1)
-
-    local playersString = ""
-    for _, player in pairs(self.owners) do
-        playersString = playersString .. tostring(player.id) .. ";"
-    end
-
-    local owners = boardInstance:SetNetworkedCustomProperty("Owners",playersString)
-
-    self:_SetupWalkNodes()
-    self:_SetupPlayerSpawns()
-
-    -- TODO: Move this to a private method.
-    for _, player in pairs(self.owners) do
-        local spawnNode = self.spawnNodes[math.random(1,#self.spawnNodes)]
-        player:SetWorldPosition(spawnNode:GetWorldPosition())
-    end
-
-    -- TODO: Move this to a private method and have it called elsewhere.
+-- Gets the total distance from the begin node to the end node squared
+function Board:GetTotalDistanceSquaredToEnd()
+    return self.distanceToEndSquared
 end
 
 -- TODO: Change this so there can be multiple start nodes
@@ -207,82 +219,70 @@ end
 
 ----------------------------------------------------
 -- Public ( Networked and Replicated )
--- Can be called from client or server.
+-- Can be called from client or server context.
 ----------------------------------------------------
 
 -- Adds a tower to the board when provided a tower and position
 function Board:AddTower(tower, position, _hasRepeated)
 
-    assert(tower:GetOwner(),string.format("Tried to add %s tower to the board when it has no owner. Make sure you assign a owner.",tower:GetName()))
+    assert(tower:GetOwner(),string.format("Tried to add %s tower to the board when it has no owner. Make sure you assign am owner to the tower.",tower:GetName()))
 
-    tower:SetBoard(self)
     local roundedPosition = Vector3.New(math.floor(position.x),math.floor(position.y),math.floor(position.z))
 
-    if Environment.IsClient() then
-        local LOCAL_PLAYER = Game.GetLocalPlayer()
-        -- Return if the message has been repeated to us already.
-        if _hasRepeated and LOCAL_PLAYER == tower:GetOwner() then
-            return
+    if _hasRepeated or Environment.IsServer() then
+        tower:SetBoard(self)
+        tower:SetWorldPosition(roundedPosition)
+    
+        -- Store the tower by its position since towers can't be on top of each other.
+        self.towers[tostring(roundedPosition)] = tower
+    
+        tower:BeginRuntime()
+        if Environment.IsClient() then
+            Task.Spawn(function() 
+                tower:SpawnAssetSpecial()
+            end)
         end
-    end
-
-    tower:SetWorldPosition(position)
-    table.insert(self.towers,tower)
-
-    tower:BeginRuntime()
-
-    if Environment.IsClient() then
-        Task.Spawn(function() 
-            tower:SpawnAssetSpecial()
-        end)
     end
 
     -- Replication event.
     if Environment.IsClient() and not _hasRepeated then
-        --print("[Client] Sending Add tower to server.")
-        Events.BroadcastToServer("PT",tower:GetOwner(),tower:GetID(),position.x,position.y,position.z)
+        print("[Client] Sending Add tower to server.")
+        Events.BroadcastToServer("PT",tower:GetOwner(),tower:GetID(),roundedPosition)
     elseif Environment.IsServer() and not _hasRepeated then
         print("[Server] Sending add tower to all players.")
-        --CoreDebug.DrawLine(position, position + Vector3.UP * 100, { color = Color.GREEN, duration = 20000, thickness = 20 } )
-        Events.BroadcastToAllPlayers("PT",tower:GetOwner(),tower:GetID(),position.x,position.y,position.z)
+        Events.BroadcastToAllPlayers("PT",tower:GetOwner(),tower:GetID(),roundedPosition)
     end
 end
 
 -- Upgrades a tower on the board when provided a tower.
 function Board:UpgradeTower(tower, _hasRepeated)
+
     if Environment.IsClient() then
-        --print("[Client] Upgrading Tower")
         local LOCAL_PLAYER = Game.GetLocalPlayer()
         -- Return if the message has been repeated to us already.
         if _hasRepeated and LOCAL_PLAYER == tower:GetOwner() then
-            --print("[Client] Repeated message. Not playing again.")
             return
         end
-    else
-        --print("[Server] Upgrading Tower")
     end
 
+    -- Get the tower that matches the one we provided.
+    local oldTower = self:GetTowerFromPosition(tower:GetWorldPosition())
+    local towerPosition = oldTower:GetWorldPosition()
 
-    
-    local nextUpgradedTowerMUID = tower:GetNextUpgradeMUID()
-    --print("Creating Upgraded Tower:",nextUpgradedTowerMUID)
+    --  Construct the next upgrade for our current tower.
+    local nextUpgradedTowerMUID = oldTower:GetNextUpgradeMUID()
     local newTower = TowerDatabase:NewTowerByMUID(nextUpgradedTowerMUID)
 
-    -- Move tower to new position.
-    newTower:SetWorldPosition(tower:GetWorldPosition())
-    newTower:SetOwner(tower:GetOwner())
-    local board = tower:GetBoardReference()
-    newTower:SetBoard(board)
+    -- Update the properties of our new tower
+    newTower:SetWorldPosition(towerPosition)
+    newTower:SetOwner(oldTower:GetOwner())
+    newTower:SetBoard(self)
 
+    -- Migrate dynamic values to the new tower.
+    newTower.migrate = oldTower.migrate
 
-    for i, currentTower in pairs(self.towers) do
-        if currentTower:GetWorldPosition() == newTower:GetWorldPosition() then
-            table.remove(self.towers,i)
-        end
-    end
-
-    table.insert(self.towers,newTower)
-    
+    -- Reassign the new tower on top of our old one.
+    self.towers[tostring(towerPosition)] = newTower
 
     if Environment.IsClient() then
         Task.Spawn(function()
@@ -290,64 +290,53 @@ function Board:UpgradeTower(tower, _hasRepeated)
         end)
     end
 
-    local position = newTower:GetWorldPosition()
-
     newTower:BeginRuntime()
-
-    -- Replication event.
-    if Environment.IsClient() and not _hasRepeated then
-        --print("[Client] Sending upgrade tower to server.")
-        Events.BroadcastToServer("UT",newTower:GetOwner(),position.x,position.y,position.z)
-    elseif Environment.IsServer() and not _hasRepeated then
-        --print("[Server] Sending upgrade tower to all players.")
-        CoreDebug.DrawLine(position, position + Vector3.UP * 100, { color = Color.GREEN, duration = 20000, thickness = 20 } )
-        Events.BroadcastToAllPlayers("UT",newTower:GetOwner(),position.x,position.y,position.z)
-    end
 
     -- Destroy the old tower.
     Task.Spawn(function()
-        tower:Destroy()
+        oldTower:Destroy()
     end)
+
+    -- Replication event.
+    if Environment.IsClient() and not _hasRepeated then
+        print("[Client] Sending upgrade tower to server.")
+        Events.BroadcastToServer("UT",newTower:GetOwner(),towerPosition)
+    elseif Environment.IsServer() and not _hasRepeated then
+        print("[Server] Sending upgrade tower to all players.")
+        Events.BroadcastToAllPlayers("UT",newTower:GetOwner(),towerPosition)
+    end
 end
 
 -- Sells a tower on the board when provided a tower
 function Board:SellTower(tower, _hasRepeated)
+
     if Environment.IsClient() then
-       --print("[Client] Selling Tower")
+        --print("[Client] Selling Tower")
         local LOCAL_PLAYER = Game.GetLocalPlayer()
         -- Return if the message has been repeated to us already.
         if _hasRepeated and LOCAL_PLAYER == tower:GetOwner() then
             --print("[Client] Repeated message. Not playing again.")
             return
         end
-    else
-        --print("[Server] Selling Tower")
-    end
-
-    for i, currentTower in pairs(self.towers) do
-        if currentTower:GetWorldPosition() == tower:GetWorldPosition() then
-            --print("Removing current tower!")
-            table.remove(self.towers,i)
-        end
     end
 
     local position = tower:GetWorldPosition()
-
-    -- Replication event.
-    if Environment.IsClient() and not _hasRepeated then
-        --print("[Client] Sending upgrade tower to server.")
-        Events.BroadcastToServer("ST",tower:GetOwner(),position.x,position.y,position.z)
-    elseif Environment.IsServer() and not _hasRepeated then
-        --print("[Server] Sending upgrade tower to all players.")
-        Events.BroadcastToAllPlayers("ST",tower:GetOwner(),position.x,position.y,position.z)
-    end
+    local oldTower = self:GetTowerFromPosition(position)
 
     -- Destroy the old tower.
     Task.Spawn(function()
-        tower:Destroy()
+        oldTower:Destroy()
     end)
-end
 
+    -- Replication event.
+    if Environment.IsClient() and not _hasRepeated then
+        print("[Client] Sending upgrade tower to server.")
+        Events.BroadcastToServer("ST",tower:GetOwner(),position)
+    elseif Environment.IsServer() and not _hasRepeated then
+        print("[Server] Sending upgrade tower to all players.")
+        Events.BroadcastToAllPlayers("ST",tower:GetOwner(),position)
+    end
+end
 
 ----------------------------------------------------
 -- Private
@@ -362,10 +351,7 @@ function Board:_Init(boardData, boardInstance)
     else
         self.boardAssetInstance = nil -- Instance of the board.
     end
-    --self.waveManager = WaveManager.New() -- TODO: Construct wave manager here. Gets constructed as a networked component of the board.
-
     self.nodes = nil
-
     self.enemies = {}
 end
 
@@ -383,12 +369,14 @@ function Board:_SetupWalkNodes()
     local nodesFolder = self.boardAssetInstance:GetCustomProperty("PathNodes")
     assert(nodesFolder,string.format("Board - %s does not have a PathNodes folder assigned as a CoreObjectReference custom property to the root of the board template.",self:GetName()))
 
+    Task.Wait(1)
     local nodes = nodesFolder:GetObject():GetChildren()
     local previousNode = nil
 
+    local scriptContext = Environment.IsServer() and "serverUserData" or "clientUserData"
+
     local function SetupNodes_R(nodeGroup,folder)
         for i, node in pairs(nodeGroup) do
-
             -- Check to see if it's a folder.
             -- If so then setup sub nodes and associate the sub
             if node:IsA("Folder") then
@@ -397,28 +385,28 @@ function Board:_SetupWalkNodes()
             elseif i == 1 and nodeGroup[i] then
                 local newNode = PathNode.New(node)
                 if folder then
-                    node.serverUserData.nodeInstance = newNode
-                    folder.serverUserData.startNode = newNode
+                    node[scriptContext].nodeInstance = newNode
+                    folder[scriptContext].startNode = newNode
                     --print("Beginning of sub node",i)
                 else
                     self.startNode = newNode
-                    node.serverUserData.nodeInstance = newNode
+                    node[scriptContext].nodeInstance = newNode
                     --print("beginning",i)
                 end
             elseif not nodeGroup[i+1] then
                 local newNode = PathNode.New(node)
                 if folder then
-                    node.serverUserData.nodeInstance = newNode
-                    folder.serverUserData.endNode = newNode
+                    node[scriptContext].nodeInstance = newNode
+                    folder[scriptContext].endNode = newNode
                     --print("ending of sub node",i)
                 else
                     self.endNode = newNode
-                    node.serverUserData.nodeInstance = newNode
+                    node[scriptContext].nodeInstance = newNode
                     --print("ending",i)
                 end
             else
                 local newNode = PathNode.New(node)
-                node.serverUserData.nodeInstance = newNode
+                node[scriptContext].nodeInstance = newNode
                 --print("node:",i)
             end
         end
@@ -428,18 +416,16 @@ function Board:_SetupWalkNodes()
 
     local function ConnectPaths_R(nodesGroup,folder)
         --print("Checking branch")
-
-
         for i, node in pairs(nodesGroup) do
             -- Check to see if it's a folder.
             -- If so then setup sub nodes and associate the sub
             if nodesGroup[i+1] then
-                local previousNode = node.serverUserData.nodeInstance
+                local previousNode = node[scriptContext].nodeInstance
                 local nextNode = nodesGroup[i+1]
                 if nodesGroup[i+1]:IsA("Folder") then
                     --print("Next is branch. Back connecting",i)
                     local previousNode = nodesGroup[i+1]:GetCustomProperty("BeginNode"):GetObject()
-                    previousNode.serverUserData.nodeInstance:SetNextNode(nodesGroup[i+1].serverUserData.startNode)
+                    previousNode[scriptContext].nodeInstance:SetNextNode(nodesGroup[i+1][scriptContext].startNode)
                     --CoreDebug.DrawLine(previousNode.serverUserData.nodeInstance:GetWorldPosition(),nodesGroup[i+1].serverUserData.startNode:GetWorldPosition(),{ duration = 2000, thickness = 5, color = Color.YELLOW })
                     ConnectPaths_R(nodesGroup[i+1]:GetChildren(),nodesGroup[i+1])
                     -- If it's a folder then back connect
@@ -447,7 +433,7 @@ function Board:_SetupWalkNodes()
                     --print("Regular connect:",i,folder)
                     if previousNode then
                         --CoreDebug.DrawLine(previousNode:GetWorldPosition(),nextNode.serverUserData.nodeInstance:GetWorldPosition(),{ duration = 2000, thickness = 5, color =  Color.BLUE })
-                        previousNode:SetNextNode(nextNode.serverUserData.nodeInstance)
+                        previousNode:SetNextNode(nextNode[scriptContext].nodeInstance)
                     end
                     -- If it's not a folder then regular connect
                 end
@@ -456,26 +442,17 @@ function Board:_SetupWalkNodes()
                 if folder then
                     -- If we reach the end of the folder then check to see if it reconnect back.
                     --print("reached end of branch")
-                    local previousNode = node.serverUserData.nodeInstance
+                    local previousNode = node[scriptContext].nodeInstance
                     local nextNode = folder:GetCustomProperty("NextNode")
                     if nextNode then
                         nextNode = folder:GetCustomProperty("NextNode"):GetObject()
                         --CoreDebug.DrawLine(previousNode:GetWorldPosition(),nextNode.serverUserData.nodeInstance:GetWorldPosition(),{ duration = 2000, thickness = 5, color = Color.GREEN })
                         --print("Reconnecting to ancestor.")
-                        previousNode:SetNextNode(nextNode.serverUserData.nodeInstance)
+                        previousNode:SetNextNode(nextNode[scriptContext].nodeInstance)
                         return
                     end
-                else
-                    --print("Reach end")
                 end
-            else
-
             end
-            -- if node:IsA("Folder") then
-            --     local folder = node -- Just to make it easier to understand.
-            --     print("Checking branch",i)
-
-            -- end
         end
     end
 
@@ -487,11 +464,11 @@ function Board:_SetupWalkNodes()
             -- Check to see if it's a folder.
             -- If so then setup sub nodes and associate the sub
             if nodesGroup[i+1] then
-                local previousNode = node.serverUserData.nodeInstance
+                local previousNode = node[scriptContext].nodeInstance
                 local nextNode = nodesGroup[i+1]
                 if nodesGroup[i+1]:IsA("Folder") then
                     --print("Next is branch. Back connecting",i)
-                    local previousNode = nodesGroup[i+1]:GetCustomProperty("BeginNode"):GetObject().serverUserData.nodeInstance
+                    local previousNode = nodesGroup[i+1]:GetCustomProperty("BeginNode"):GetObject()[scriptContext].nodeInstance
                     previousNode:DebugDrawCurrentPath()
                     DrawPaths_R(nodesGroup[i+1]:GetChildren(),nodesGroup[i+1])
                     -- If it's a folder then back connect
@@ -507,7 +484,7 @@ function Board:_SetupWalkNodes()
                 if folder then
                     -- If we reach the end of the folder then check to see if it reconnect back.
                     --print("reached end of branch")
-                    local previousNode = node.serverUserData.nodeInstance
+                    local previousNode = node[scriptContext].nodeInstance
                     local nextNode = folder:GetCustomProperty("NextNode")
                     if nextNode then
                         previousNode:DebugDrawCurrentPath()
@@ -517,26 +494,16 @@ function Board:_SetupWalkNodes()
                         -- previousNode:SetNextNode(nextNode.serverUserData.nodeInstance)
                         return
                     end
-                else
-                    --print("Reach end")
                 end
-            else
-
             end
-            -- if node:IsA("Folder") then
-            --     local folder = node -- Just to make it easier to understand.
-            --     print("Checking branch",i)
-
-            -- end
         end
     end
 
     DrawPaths_R(nodes)
 
+    self.distanceToEndSquared = self:GetStartNode():GetTotalDistanceSquaredToEnd()
+
     --TODO: Connect all paths.
-
-
-
     -- local function DrawConnections_R(root)
     --     if root and root:GetNextNode() then
     --         root:DebugDrawCurrentPath()
@@ -552,19 +519,12 @@ function Board:_SetupWalkNodes()
     --     Task.Wait()
     --     self.startNode:DebugDrawLinePath()
     -- end
-
-    
-
 end
 
 function Board:_SetupPlayerSpawns()
     local spawnNodes = self.boardAssetInstance:GetCustomProperty("PlayerSpawns"):GetObject():GetChildren()
     assert(#spawnNodes > 0, string.format("%s may not have any player spawn nodes. Make sure there is spawn nodes.",self:GetName()))
     self.spawnNodes = spawnNodes
-end
-
-function Board:_Runtime()
-    -- Infinite Loop here.
 end
 
 return Board

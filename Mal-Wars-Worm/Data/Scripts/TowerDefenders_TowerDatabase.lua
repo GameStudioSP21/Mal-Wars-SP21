@@ -13,7 +13,6 @@ local towerUpgradeChains = {}
 
 function Database:WaitUntilLoaded()
     while not self.isLoaded do
-        --print("Waiting")
         Task.Wait()
     end
 end
@@ -29,7 +28,6 @@ function Database:NewTowerByName(name)
     assert(towerData, string.format("Tower - %s does not exist in in the database.", name))
     local newTower = nil
     if towerData.towerClass then
-        print("Tower does have a unique class.")
         newTower = require(towerData.towerClass).New(towerData)
     else
         newTower = Tower.New(towerData)
@@ -107,11 +105,12 @@ function Database:_LoadTowersData()
     self.towerDatasByMUIDFull = {}
     self.towerDatasByMUID = {}
 
-    for i, tower in pairs(DATA_TOWERS) do
+    for i, tower in ipairs(DATA_TOWERS) do
 
         -- Required
         local towerName = tower:GetCustomProperty("Name")
         local towerDisplayName = tower:GetCustomProperty("DisplayName") or ""
+        local towerDescription = tower:GetCustomProperty("Description") or ""
         local towerIcon = tower:GetCustomProperty("Icon")
         local towerCost = tower:GetCustomProperty("Cost")
         local towerMUID = tower:GetCustomProperty("Tower")
@@ -142,6 +141,7 @@ function Database:_LoadTowersData()
             index = i,
             name = towerName,
             displayName = towerDisplayName,
+            description = towerDescription,
             iconMUID = towerIcon,
             cost = towerCost,
             towerMUID = towerMUID,
@@ -197,7 +197,6 @@ function Database:_Init()
     self.isLoaded = false
     Task.Spawn(function()
         _LoadTowers_R(REGISTERED_TOWERS)
-        Task.Wait()
         self:_LoadTowersData()
         self.isLoaded = true
     end)
