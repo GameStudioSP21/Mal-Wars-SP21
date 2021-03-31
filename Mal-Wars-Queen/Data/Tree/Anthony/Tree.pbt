@@ -1,7 +1,7 @@
 Name: "Anthony"
-RootId: 2854307414044987448
+RootId: 12571140361858216594
 Objects {
-  Id: 10010641458022735028
+  Id: 8510453869242228128
   Name: "Hologram_Barrel"
   Transform {
     Scale {
@@ -10,7 +10,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2854307414044987448
+  ParentId: 12571140361858216594
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 8678801925397202178
@@ -49,7 +52,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7245358190362313590
+  Id: 17968140420305417957
   Name: "Hologram_Crystal"
   Transform {
     Scale {
@@ -58,7 +61,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2854307414044987448
+  ParentId: 12571140361858216594
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 18278210287629129495
@@ -97,7 +103,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1944016473955752240
+  Id: 6721305113212549397
   Name: "Hologram_Terminal"
   Transform {
     Scale {
@@ -106,7 +112,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2854307414044987448
+  ParentId: 12571140361858216594
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 13266789056325864505
@@ -145,7 +154,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17719874899973442420
+  Id: 5004676982469756564
   Name: "Hologram_Barrier"
   Transform {
     Scale {
@@ -154,7 +163,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2854307414044987448
+  ParentId: 12571140361858216594
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 13846415671135181259
@@ -193,7 +205,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3474887200472555195
+  Id: 4231536779204939740
   Name: "Hologram_Cube"
   Transform {
     Scale {
@@ -202,7 +214,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2854307414044987448
+  ParentId: 12571140361858216594
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 682771805962517056

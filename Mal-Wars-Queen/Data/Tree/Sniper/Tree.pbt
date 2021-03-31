@@ -1,7 +1,7 @@
 Name: "Sniper"
-RootId: 287725104296604219
+RootId: 4685643936803749420
 Objects {
-  Id: 7727868994133219127
+  Id: 4400151029799673847
   Name: "Sniper4"
   Transform {
     Location {
@@ -14,11 +14,19 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 287725104296604219
+  ParentId: 4685643936803749420
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
       String: "Ultimate Sniper"
+    }
+    Overrides {
+      Name: "cs:DisplayName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
     }
     Overrides {
       Name: "cs:Icon"
@@ -29,30 +37,30 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 15473447320514786512
+        SelfId: 15756540915097667110
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 1720409598745449251
+        SelfId: 17596499846118634938
       }
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 250
+      Int: 1000
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 150
+      Int: 400
+    }
+    Overrides {
+      Name: "cs:Range"
+      Float: 90
     }
     Overrides {
       Name: "cs:Speed"
       Float: 2
-    }
-    Overrides {
-      Name: "cs:Range"
-      Float: 120
     }
     Overrides {
       Name: "cs:Tower"
@@ -73,6 +81,12 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:TowerClass"
+      AssetReference {
+        Id: 4546501338603812090
+      }
+    }
+    Overrides {
       Name: "cs:VisualProjectile:tooltip"
       String: "Purely Visual. This is for making your tower attacks look pretty."
     }
@@ -83,12 +97,15 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsGroup: true
   }
 }
 Objects {
-  Id: 8338390766626948294
+  Id: 4611530754770718104
   Name: "Sniper3"
   Transform {
     Location {
@@ -101,11 +118,19 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 287725104296604219
+  ParentId: 4685643936803749420
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
       String: "Superior Sniper"
+    }
+    Overrides {
+      Name: "cs:DisplayName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
     }
     Overrides {
       Name: "cs:Icon"
@@ -116,30 +141,30 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 15473447320514786512
+        SelfId: 15756540915097667110
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 3421316411476536376
+        SelfId: 10135958973244754419
       }
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 250
+      Int: 650
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 108
+      Int: 200
+    }
+    Overrides {
+      Name: "cs:Range"
+      Float: 90
     }
     Overrides {
       Name: "cs:Speed"
       Float: 2
-    }
-    Overrides {
-      Name: "cs:Range"
-      Float: 110
     }
     Overrides {
       Name: "cs:Tower"
@@ -162,7 +187,13 @@ Objects {
     Overrides {
       Name: "cs:NextTowerUpgrade"
       ObjectReference {
-        SelfId: 7727868994133219127
+        SelfId: 4400151029799673847
+      }
+    }
+    Overrides {
+      Name: "cs:TowerClass"
+      AssetReference {
+        Id: 4546501338603812090
       }
     }
     Overrides {
@@ -176,12 +207,15 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsGroup: true
   }
 }
 Objects {
-  Id: 4141989359027384149
+  Id: 16446905727886295927
   Name: "Sniper2"
   Transform {
     Location {
@@ -194,11 +228,19 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 287725104296604219
+  ParentId: 4685643936803749420
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
       String: "Greater Sniper"
+    }
+    Overrides {
+      Name: "cs:DisplayName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
     }
     Overrides {
       Name: "cs:Icon"
@@ -209,35 +251,35 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 15473447320514786512
+        SelfId: 15756540915097667110
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 10069010683383961677
+        SelfId: 16588585240034428004
       }
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 250
+      Int: 350
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 72
+      Int: 100
+    }
+    Overrides {
+      Name: "cs:Range"
+      Float: 90
     }
     Overrides {
       Name: "cs:Speed"
       Float: 2
     }
     Overrides {
-      Name: "cs:Range"
-      Float: 100
-    }
-    Overrides {
       Name: "cs:NextTowerUpgrade"
       ObjectReference {
-        SelfId: 8338390766626948294
+        SelfId: 4611530754770718104
       }
     }
     Overrides {
@@ -259,6 +301,12 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:TowerClass"
+      AssetReference {
+        Id: 4546501338603812090
+      }
+    }
+    Overrides {
       Name: "cs:VisualProjectile:tooltip"
       String: "Purely Visual. This is for making your tower attacks look pretty."
     }
@@ -269,12 +317,15 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsGroup: true
   }
 }
 Objects {
-  Id: 15521148768500268594
+  Id: 4289493588678984223
   Name: "Sniper1"
   Transform {
     Location {
@@ -287,11 +338,19 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 287725104296604219
+  ParentId: 4685643936803749420
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
       String: "Sniper Turret"
+    }
+    Overrides {
+      Name: "cs:DisplayName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
     }
     Overrides {
       Name: "cs:Icon"
@@ -302,35 +361,35 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 15473447320514786512
+        SelfId: 15756540915097667110
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 5885690553894889409
+        SelfId: 6822374765711880078
       }
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 250
+      Int: 400
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 45
-    }
-    Overrides {
-      Name: "cs:Speed"
-      Float: 2
+      Int: 50
     }
     Overrides {
       Name: "cs:Range"
       Float: 90
     }
     Overrides {
+      Name: "cs:Speed"
+      Float: 2
+    }
+    Overrides {
       Name: "cs:NextTowerUpgrade"
       ObjectReference {
-        SelfId: 4141989359027384149
+        SelfId: 16446905727886295927
       }
     }
     Overrides {
@@ -367,6 +426,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsGroup: true

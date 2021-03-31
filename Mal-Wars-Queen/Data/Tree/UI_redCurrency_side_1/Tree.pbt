@@ -1,7 +1,7 @@
 Name: "UI_redCurrency_side_1"
-RootId: 7963690045659899569
+RootId: 15348982842129688269
 Objects {
-  Id: 8585386990455625030
+  Id: 15622687566224315046
   Name: "shadow"
   Transform {
     Location {
@@ -14,12 +14,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7963690045659899569
+  ParentId: 15348982842129688269
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 129
@@ -64,7 +67,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15812548432820023066
+  Id: 4261395463969751953
   Name: "shine"
   Transform {
     Location {
@@ -77,12 +80,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7963690045659899569
+  ParentId: 15348982842129688269
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 72
@@ -129,7 +135,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16066318635037696914
+  Id: 17225881666827374499
   Name: "symbol"
   Transform {
     Location {
@@ -142,12 +148,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7963690045659899569
+  ParentId: 15348982842129688269
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true
@@ -161,7 +170,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3684899245914521650
+  Id: 9044037517430314521
   Name: "base_1"
   Transform {
     Location {
@@ -174,12 +183,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7963690045659899569
+  ParentId: 15348982842129688269
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 200

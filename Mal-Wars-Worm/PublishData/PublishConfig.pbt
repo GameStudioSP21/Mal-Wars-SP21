@@ -8,7 +8,9 @@ Tags: "Scifi"
 Tags: "TowerDefense"
 Tags: "Action"
 Tags: "Casual"
-ScreenshotPaths: "D:/Documents/CORE/Mal-Wars-SP21/Screenshots/Screenshot0002.png"
-ReleaseNotes: "Actual midterm release version."
+ScreenshotPaths: "D:/Documents/CORE/Mal-Wars-SP21/Mal-Wars-Worm/Screenshots/Screenshot0001.png"
+ReleaseNotes: "First push; is broke"
 OwnerId: "915299ba3314494bbd5eb7a67d954099"
 SerializationVersion: 1
+PublishedState: Child
+ParentGameId: "f49b7617417b4baa81ad626708683d94"

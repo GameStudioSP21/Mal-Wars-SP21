@@ -1,7 +1,7 @@
 Name: "Wave3"
-RootId: 4669332663382257044
+RootId: 13851264412821555693
 Objects {
-  Id: 8139554918538919928
+  Id: 6158017177033809594
   Name: "5 YeAd"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4669332663382257044
+  ParentId: 13851264412821555693
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -39,6 +39,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true
@@ -46,7 +49,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2375911973282255680
+  Id: 6811359151236685850
   Name: "10 YeVi"
   Transform {
     Location {
@@ -59,7 +62,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4669332663382257044
+  ParentId: 13851264412821555693
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -84,6 +87,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true
@@ -91,7 +97,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17183780083278616384
+  Id: 17476846464505228222
   Name: "5 YeAd"
   Transform {
     Location {
@@ -104,7 +110,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4669332663382257044
+  ParentId: 13851264412821555693
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -129,6 +135,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true
@@ -136,7 +145,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10362478122985804891
+  Id: 2804276504097702925
   Name: "10 YeVi"
   Transform {
     Location {
@@ -149,7 +158,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4669332663382257044
+  ParentId: 13851264412821555693
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -174,6 +183,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true
@@ -181,7 +193,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7514596358610692375
+  Id: 17207869596819619748
   Name: "5 YeAd"
   Transform {
     Location {
@@ -194,7 +206,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4669332663382257044
+  ParentId: 13851264412821555693
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -219,6 +231,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true
@@ -226,7 +241,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10386327955603363508
+  Id: 8015031021868409684
   Name: "10 YeVi"
   Transform {
     Location {
@@ -239,7 +254,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4669332663382257044
+  ParentId: 13851264412821555693
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -265,13 +280,16 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsFilePartition: true
     FilePartitionName: "10 YeVi_2"
   }
 }
 Objects {
-  Id: 8091486437651026079
+  Id: 10610486911290571396
   Name: "5 YeAd"
   Transform {
     Location {
@@ -284,7 +302,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4669332663382257044
+  ParentId: 13851264412821555693
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -310,13 +328,16 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsFilePartition: true
     FilePartitionName: "5 YeAd_3"
   }
 }
 Objects {
-  Id: 15104020621126101310
+  Id: 16685363657918609588
   Name: "10 YeVi"
   Transform {
     Location {
@@ -329,7 +350,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4669332663382257044
+  ParentId: 13851264412821555693
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -354,6 +375,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true

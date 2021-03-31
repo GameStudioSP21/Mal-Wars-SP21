@@ -1,7 +1,7 @@
 Name: "Effects"
-RootId: 16351936997751930104
+RootId: 15469015883752608541
 Objects {
-  Id: 920358287661684290
+  Id: 18218969288522374015
   Name: "Disable Aim Sound"
   Transform {
     Location {
@@ -14,12 +14,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16351936997751930104
+  ParentId: 15469015883752608541
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   AudioInstance {
     AudioAsset {
@@ -37,7 +40,7 @@ Objects {
   }
 }
 Objects {
-  Id: 813638419141599382
+  Id: 10859144640140610393
   Name: "Enable Aim Sound"
   Transform {
     Location {
@@ -50,12 +53,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16351936997751930104
+  ParentId: 15469015883752608541
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   AudioInstance {
     AudioAsset {
@@ -73,7 +79,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18110589549891886865
+  Id: 5599545780186272821
   Name: "WeaponAimSoundClient"
   Transform {
     Location {
@@ -86,18 +92,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16351936997751930104
+  ParentId: 15469015883752608541
   UnregisteredParameters {
     Overrides {
       Name: "cs:EnableAimSound"
       ObjectReference {
-        SelfId: 813638419141599382
+        SelfId: 10859144640140610393
       }
     }
     Overrides {
       Name: "cs:DisableAimSound"
       ObjectReference {
-        SelfId: 920358287661684290
+        SelfId: 18218969288522374015
       }
     }
   }
@@ -106,6 +112,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Script {
     ScriptAsset {
@@ -120,7 +129,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4134751099749673279
+  Id: 330363924573147709
   Name: "Shell Ejection VFX"
   Transform {
     Location {
@@ -136,7 +145,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16351936997751930104
+  ParentId: 15469015883752608541
   UnregisteredParameters {
     Overrides {
       Name: "bp:Size"
@@ -161,6 +170,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Blueprint {
     BlueprintAsset {
       Id: 5983425460981411439
@@ -168,9 +180,6 @@ Objects {
     TeamSettings {
     }
     Vfx {
-      Relevance {
-        Value: "mc:evfxrelevance:critical"
-      }
     }
   }
   InstanceHistory {
@@ -179,9 +188,12 @@ Objects {
     InstanceId: 6321793960756582467
     TemplateId: 519028158045712135
   }
+  Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
-  Id: 12303294960722502944
+  Id: 10599864155957111818
   Name: "WeaponShellEjectionEffectClient"
   Transform {
     Location {
@@ -194,12 +206,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16351936997751930104
+  ParentId: 15469015883752608541
   UnregisteredParameters {
     Overrides {
       Name: "cs:ShellEffect"
       ObjectReference {
-        SelfId: 4134751099749673279
+        SelfId: 330363924573147709
       }
     }
   }
@@ -208,6 +220,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Script {
     ScriptAsset {
@@ -222,7 +237,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16210649745437799923
+  Id: 363390537834220873
   Name: "WeaponReloadCastSoundClient"
   Transform {
     Location {
@@ -235,7 +250,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16351936997751930104
+  ParentId: 15469015883752608541
   UnregisteredParameters {
     Overrides {
       Name: "cs:PlayCount"
@@ -247,6 +262,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Script {
     ScriptAsset {
@@ -261,7 +279,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13620396397393616660
+  Id: 1491585259066224213
   Name: "WeaponLowAmmoFeedbackClient"
   Transform {
     Location {
@@ -274,7 +292,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16351936997751930104
+  ParentId: 15469015883752608541
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -282,6 +300,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Script {
     ScriptAsset {

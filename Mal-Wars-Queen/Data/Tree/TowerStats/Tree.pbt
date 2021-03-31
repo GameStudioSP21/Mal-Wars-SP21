@@ -1,7 +1,7 @@
 Name: "TowerStats"
-RootId: 15995946423381434303
+RootId: 5888832676191927814
 Objects {
-  Id: 974670064461649287
+  Id: 12074593179399455719
   Name: "Speed"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15995946423381434303
+  ParentId: 5888832676191927814
   UnregisteredParameters {
     Overrides {
       Name: "cs:Icon"
@@ -25,8 +25,9 @@ Objects {
     Overrides {
       Name: "cs:StatColor"
       Color {
-        G: 0.749006391
-        B: 0.87
+        R: 0.188235313
+        G: 0.321568638
+        B: 1
         A: 1
       }
     }
@@ -37,13 +38,16 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsFilePartition: true
     FilePartitionName: "Speed"
   }
 }
 Objects {
-  Id: 5464018910509960713
+  Id: 6837383402618963401
   Name: "Range"
   Transform {
     Location {
@@ -56,7 +60,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15995946423381434303
+  ParentId: 5888832676191927814
   UnregisteredParameters {
     Overrides {
       Name: "cs:Icon"
@@ -67,8 +71,9 @@ Objects {
     Overrides {
       Name: "cs:StatColor"
       Color {
-        R: 0.0585429929
-        G: 0.52
+        R: 0.321568638
+        G: 1
+        B: 0.188235313
         A: 1
       }
     }
@@ -79,13 +84,16 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsFilePartition: true
     FilePartitionName: "Range"
   }
 }
 Objects {
-  Id: 2618123429161106138
+  Id: 14107643852007848334
   Name: "Damage"
   Transform {
     Location {
@@ -98,7 +106,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15995946423381434303
+  ParentId: 5888832676191927814
   UnregisteredParameters {
     Overrides {
       Name: "cs:Icon"
@@ -119,6 +127,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true

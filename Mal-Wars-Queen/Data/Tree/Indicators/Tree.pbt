@@ -1,7 +1,7 @@
 Name: "Indicators"
-RootId: 10438349949975576070
+RootId: 4784541408256441459
 Objects {
-  Id: 9453578895673896976
+  Id: 561093394494479328
   Name: "Indicators"
   Transform {
     Location {
@@ -14,14 +14,17 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10438349949975576070
-  ChildIds: 11143183324752404897
-  ChildIds: 18389332038844203660
+  ParentId: 4784541408256441459
+  ChildIds: 14900119426391599423
+  ChildIds: 3257744711464819132
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 95
@@ -58,7 +61,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18389332038844203660
+  Id: 3257744711464819132
   Name: "UI Text Box"
   Transform {
     Location {
@@ -71,12 +74,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9453578895673896976
+  ParentId: 561093394494479328
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 152
@@ -118,7 +124,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11143183324752404897
+  Id: 14900119426391599423
   Name: "UI Image"
   Transform {
     Location {
@@ -131,12 +137,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9453578895673896976
+  ParentId: 561093394494479328
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 81
@@ -176,7 +185,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17851178533822701615
+  Id: 13024874599181709539
   Name: "Indicators"
   Transform {
     Location {
@@ -189,14 +198,17 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10438349949975576070
-  ChildIds: 5587505124624751027
-  ChildIds: 13755343194505944208
+  ParentId: 4784541408256441459
+  ChildIds: 7294916186282088463
+  ChildIds: 1203103700120130957
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 95
@@ -233,7 +245,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13755343194505944208
+  Id: 1203103700120130957
   Name: "UI Text Box"
   Transform {
     Location {
@@ -246,12 +258,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17851178533822701615
+  ParentId: 13024874599181709539
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 152
@@ -293,7 +308,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5587505124624751027
+  Id: 7294916186282088463
   Name: "UI Image"
   Transform {
     Location {
@@ -306,12 +321,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17851178533822701615
+  ParentId: 13024874599181709539
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 81

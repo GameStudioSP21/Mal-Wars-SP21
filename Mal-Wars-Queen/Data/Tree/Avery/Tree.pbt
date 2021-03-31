@@ -1,7 +1,7 @@
 Name: "Avery"
-RootId: 4865664388657450589
+RootId: 7450670863643585766
 Objects {
-  Id: 1744812646013471940
+  Id: 7353278566637063744
   Name: "AC_Platform_Corner_1"
   Transform {
     Scale {
@@ -10,7 +10,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4865664388657450589
+  ParentId: 7450670863643585766
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 13059218851397951357
@@ -49,7 +52,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4623695186886807151
+  Id: 15314253204547440903
   Name: "Platform_Long_1"
   Transform {
     Location {
@@ -66,12 +69,15 @@ Objects {
       Z: 0.900000036
     }
   }
-  ParentId: 4865664388657450589
+  ParentId: 7450670863643585766
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceon"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true
@@ -79,7 +85,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12518930775918030392
+  Id: 18291643277975099445
   Name: "Platform_Small_1"
   Transform {
     Location {
@@ -96,12 +102,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4865664388657450589
+  ParentId: 7450670863643585766
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true

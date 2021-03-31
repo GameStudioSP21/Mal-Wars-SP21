@@ -7,22 +7,22 @@ Assets {
       Overrides {
         Name: "cs:TowerStats"
         ObjectReference {
-          SelfId: 15995946423381434303
+          SelfId: 5888832676191927814
         }
       }
       Overrides {
         Name: "cs:TowerTypes"
         ObjectReference {
-          SelfId: 15720114564533439334
+          SelfId: 17784005457436793532
         }
       }
       Overrides {
         Name: "cs:TowerRarities"
         ObjectReference {
-          SelfId: 1007787193999714619
+          SelfId: 2522256648528214949
         }
       }
     }
   }
-  SerializationVersion: 76
+  SerializationVersion: 78
 }

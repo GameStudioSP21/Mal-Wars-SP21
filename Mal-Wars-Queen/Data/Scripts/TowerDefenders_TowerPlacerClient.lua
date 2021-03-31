@@ -41,6 +41,18 @@ local function ApplyTowerGhostToPlacer(name)
     towerPlacer:SetSelectorVisualMUID(towerMUID)
 end
 
+local function IsOverValidSurface(position)
+	local startPos = position +  ( Vector3.UP * 2 )
+	local endPos = position + ( Vector3.UP * -20 )
+	
+	local hitResult = World.Raycast( startPos, endPos )
+	
+	if hitResult then
+		local result = hitResult.other
+		return result:GetCustomProperty("IsBuildable")
+	end
+end
+
 -- -- Check to see if the geometry is in a folder that allows for the placement of tower. Uses the dot product to make sure the placement angle doesn't exceed a value.
 -- local function CanPlace(position)
 
@@ -69,7 +81,15 @@ end
 towerPlacer.OnLeftMouseButton:Connect(function()
     local nearbyTower = towerPlacer:GetNearestTower()
     local ghostPos = towerPlacer:GetImpactPosition()
-
+    
+    print("CHECKING FOR TOWER VALIDITY")
+    
+    if not IsOverValidSurface(ghostPos) then
+    	return
+    end
+    
+    print("YEET")
+    
     if nearbyTower and nearbyTower:IsPositionInBlockedRadius(ghostPos) then
         return
     end

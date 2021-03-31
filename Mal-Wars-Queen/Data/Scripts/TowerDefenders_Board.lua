@@ -43,6 +43,7 @@ end
 function Board:Setup(position, playerOwners, boardAsset)
     self:SetOwners(playerOwners)
 
+
     if Environment.IsServer() then
         -- The server spawns the board so we don't need to provide a board asset
         self:_SpawnBoard(position)
@@ -61,7 +62,6 @@ function Board:Setup(position, playerOwners, boardAsset)
         self.boardAssetInstance = boardAsset
     end
 
-    -- Contruct wave manager
     self:_SetupWalkNodes()
     self:_SetupPlayerSpawns()
     self:CreateWaveManager()
@@ -105,6 +105,12 @@ function Board:GetWaveManager()
     return self.waveManager
 end
 
+-- Waits until the wave manager is constructed. Returns the wave manager once it exist.
+function Board:WaitForWaveManager()
+    while not self.waveManager do Task.Wait() end
+    return self.waveManager
+end
+
 -- Returns the MUID of the board in project content.
 function Board:GetBoardTemplate()
     return self.data.boardAsset
@@ -128,6 +134,11 @@ end
 -- Returns a table containing all towers on the board.
 function Board:GetAllTowers()
     return self.towers
+end
+
+-- Returns a tower given a position. Position must match a tower with the existing position.
+function Board:GetTowerFromPosition(position)
+    return self.towers[tostring(position)]
 end
 
 -- Returns the nearest tower given a position and max search radius and optionally an owner.
@@ -214,81 +225,64 @@ end
 -- Adds a tower to the board when provided a tower and position
 function Board:AddTower(tower, position, _hasRepeated)
 
-    assert(tower:GetOwner(),string.format("Tried to add %s tower to the board when it has no owner. Make sure you assign a owner.",tower:GetName()))
+    assert(tower:GetOwner(),string.format("Tried to add %s tower to the board when it has no owner. Make sure you assign am owner to the tower.",tower:GetName()))
 
-    tower:SetBoard(self)
     local roundedPosition = Vector3.New(math.floor(position.x),math.floor(position.y),math.floor(position.z))
 
-    if Environment.IsClient() then
-        local LOCAL_PLAYER = Game.GetLocalPlayer()
-        -- Return if the message has been repeated to us already.
-        if _hasRepeated and LOCAL_PLAYER == tower:GetOwner() then
-            return
-        end
-    end
-
-    tower:SetWorldPosition(roundedPosition)
+    if _hasRepeated or Environment.IsServer() then
+        tower:SetBoard(self)
+        tower:SetWorldPosition(roundedPosition)
     
-    -- REFACTOR THIS.
-    table.insert(self.towers,tower)
-
-    tower:BeginRuntime()
-
-    if Environment.IsClient() then
-        Task.Spawn(function() 
-            tower:SpawnAssetSpecial()
-        end)
+        -- Store the tower by its position since towers can't be on top of each other.
+        self.towers[tostring(roundedPosition)] = tower
+    
+        tower:BeginRuntime()
+        if Environment.IsClient() then
+            Task.Spawn(function() 
+                tower:SpawnAssetSpecial()
+            end)
+        end
     end
 
     -- Replication event.
     if Environment.IsClient() and not _hasRepeated then
-        --print("[Client] Sending Add tower to server.")
-        Events.BroadcastToServer("PT",tower:GetOwner(),tower:GetID(),position.x,position.y,position.z)
+        print("[Client] Sending Add tower to server.")
+        Events.BroadcastToServer("PT",tower:GetOwner(),tower:GetID(),roundedPosition)
     elseif Environment.IsServer() and not _hasRepeated then
         print("[Server] Sending add tower to all players.")
-        --CoreDebug.DrawLine(position, position + Vector3.UP * 100, { color = Color.GREEN, duration = 20000, thickness = 20 } )
-        Events.BroadcastToAllPlayers("PT",tower:GetOwner(),tower:GetID(),position.x,position.y,position.z)
+        Events.BroadcastToAllPlayers("PT",tower:GetOwner(),tower:GetID(),roundedPosition)
     end
 end
 
 -- Upgrades a tower on the board when provided a tower.
 function Board:UpgradeTower(tower, _hasRepeated)
+
     if Environment.IsClient() then
-        --print("[Client] Upgrading Tower")
         local LOCAL_PLAYER = Game.GetLocalPlayer()
         -- Return if the message has been repeated to us already.
         if _hasRepeated and LOCAL_PLAYER == tower:GetOwner() then
-            --print("[Client] Repeated message. Not playing again.")
             return
         end
-    else
-        --print("[Server] Upgrading Tower")
     end
 
+    -- Get the tower that matches the one we provided.
+    local oldTower = self:GetTowerFromPosition(tower:GetWorldPosition())
+    local towerPosition = oldTower:GetWorldPosition()
 
-    
-    local nextUpgradedTowerMUID = tower:GetNextUpgradeMUID()
-    --print("Creating Upgraded Tower:",nextUpgradedTowerMUID)
+    --  Construct the next upgrade for our current tower.
+    local nextUpgradedTowerMUID = oldTower:GetNextUpgradeMUID()
     local newTower = TowerDatabase:NewTowerByMUID(nextUpgradedTowerMUID)
 
-    -- Move tower to new position.
-    newTower:SetWorldPosition(tower:GetWorldPosition())
-    newTower:SetOwner(tower:GetOwner())
-    local board = tower:GetBoardReference()
-    newTower:SetBoard(board)
+    -- Update the properties of our new tower
+    newTower:SetWorldPosition(towerPosition)
+    newTower:SetOwner(oldTower:GetOwner())
+    newTower:SetBoard(self)
 
+    -- Migrate dynamic values to the new tower.
+    newTower.migrate = oldTower.migrate
 
-    for i, currentTower in pairs(self.towers) do
-        if currentTower:GetWorldPosition() == newTower:GetWorldPosition() then
-            --print("Removing current tower!")
-            -- Copy over the dynamic variables of the tower.
-            newTower.migrate = currentTower.migrate
-            table.remove(self.towers,i)
-        end
-    end
-
-    table.insert(self.towers,newTower)
-    
+    -- Reassign the new tower on top of our old one.
+    self.towers[tostring(towerPosition)] = newTower
 
     if Environment.IsClient() then
         Task.Spawn(function()
@@ -296,62 +290,52 @@ function Board:UpgradeTower(tower, _hasRepeated)
         end)
     end
 
-    local position = newTower:GetWorldPosition()
-
     newTower:BeginRuntime()
-
-    -- Replication event.
-    if Environment.IsClient() and not _hasRepeated then
-        --print("[Client] Sending upgrade tower to server.")
-        Events.BroadcastToServer("UT",newTower:GetOwner(),position.x,position.y,position.z)
-    elseif Environment.IsServer() and not _hasRepeated then
-        --print("[Server] Sending upgrade tower to all players.")
-        CoreDebug.DrawLine(position, position + Vector3.UP * 100, { color = Color.GREEN, duration = 20000, thickness = 20 } )
-        Events.BroadcastToAllPlayers("UT",newTower:GetOwner(),position.x,position.y,position.z)
-    end
 
     -- Destroy the old tower.
     Task.Spawn(function()
-        tower:Destroy()
+        oldTower:Destroy()
     end)
+
+    -- Replication event.
+    if Environment.IsClient() and not _hasRepeated then
+        print("[Client] Sending upgrade tower to server.")
+        Events.BroadcastToServer("UT",newTower:GetOwner(),towerPosition)
+    elseif Environment.IsServer() and not _hasRepeated then
+        print("[Server] Sending upgrade tower to all players.")
+        Events.BroadcastToAllPlayers("UT",newTower:GetOwner(),towerPosition)
+    end
 end
 
 -- Sells a tower on the board when provided a tower
 function Board:SellTower(tower, _hasRepeated)
+
     if Environment.IsClient() then
-       --print("[Client] Selling Tower")
+        --print("[Client] Selling Tower")
         local LOCAL_PLAYER = Game.GetLocalPlayer()
         -- Return if the message has been repeated to us already.
         if _hasRepeated and LOCAL_PLAYER == tower:GetOwner() then
             --print("[Client] Repeated message. Not playing again.")
             return
         end
-    else
-        --print("[Server] Selling Tower")
-    end
-
-    for i, currentTower in pairs(self.towers) do
-        if currentTower:GetWorldPosition() == tower:GetWorldPosition() then
-            --print("Removing current tower!")
-            table.remove(self.towers,i)
-        end
     end
 
     local position = tower:GetWorldPosition()
-
-    -- Replication event.
-    if Environment.IsClient() and not _hasRepeated then
-        --print("[Client] Sending upgrade tower to server.")
-        Events.BroadcastToServer("ST",tower:GetOwner(),position.x,position.y,position.z)
-    elseif Environment.IsServer() and not _hasRepeated then
-        --print("[Server] Sending upgrade tower to all players.")
-        Events.BroadcastToAllPlayers("ST",tower:GetOwner(),position.x,position.y,position.z)
-    end
+    local oldTower = self:GetTowerFromPosition(position)
 
     -- Destroy the old tower.
     Task.Spawn(function()
-        tower:Destroy()
+        oldTower:Destroy()
     end)
+
+    -- Replication event.
+    if Environment.IsClient() and not _hasRepeated then
+        print("[Client] Sending upgrade tower to server.")
+        Events.BroadcastToServer("ST",tower:GetOwner(),position)
+    elseif Environment.IsServer() and not _hasRepeated then
+        print("[Server] Sending upgrade tower to all players.")
+        Events.BroadcastToAllPlayers("ST",tower:GetOwner(),position)
+    end
 end
 
 ----------------------------------------------------
@@ -385,6 +369,7 @@ function Board:_SetupWalkNodes()
     local nodesFolder = self.boardAssetInstance:GetCustomProperty("PathNodes")
     assert(nodesFolder,string.format("Board - %s does not have a PathNodes folder assigned as a CoreObjectReference custom property to the root of the board template.",self:GetName()))
 
+    Task.Wait(1)
     local nodes = nodesFolder:GetObject():GetChildren()
     local previousNode = nil
 
@@ -518,8 +503,6 @@ function Board:_SetupWalkNodes()
 
     self.distanceToEndSquared = self:GetStartNode():GetTotalDistanceSquaredToEnd()
 
-    print("TOTAL DISTANCE TO END:",self.distanceToEndSquared)
-
     --TODO: Connect all paths.
     -- local function DrawConnections_R(root)
     --     if root and root:GetNextNode() then
@@ -536,19 +519,12 @@ function Board:_SetupWalkNodes()
     --     Task.Wait()
     --     self.startNode:DebugDrawLinePath()
     -- end
-
-    
-
 end
 
 function Board:_SetupPlayerSpawns()
     local spawnNodes = self.boardAssetInstance:GetCustomProperty("PlayerSpawns"):GetObject():GetChildren()
     assert(#spawnNodes > 0, string.format("%s may not have any player spawn nodes. Make sure there is spawn nodes.",self:GetName()))
     self.spawnNodes = spawnNodes
-end
-
-function Board:_Runtime()
-    -- Infinite Loop here.
 end
 
 return Board

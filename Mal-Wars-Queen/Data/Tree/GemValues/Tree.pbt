@@ -1,7 +1,7 @@
 Name: "GemValues"
-RootId: 9072120032930405109
+RootId: 10509464457159844655
 Objects {
-  Id: 8212110616642846448
+  Id: 1592333638408784035
   Name: "Very Low Gem"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9072120032930405109
+  ParentId: 10509464457159844655
   UnregisteredParameters {
     Overrides {
       Name: "cs:Gem"
@@ -33,12 +33,15 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsGroup: true
   }
 }
 Objects {
-  Id: 14132701440215703108
+  Id: 14397258042081677477
   Name: "Low Gem"
   Transform {
     Location {
@@ -51,7 +54,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9072120032930405109
+  ParentId: 10509464457159844655
   UnregisteredParameters {
     Overrides {
       Name: "cs:Gem"
@@ -70,12 +73,15 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsGroup: true
   }
 }
 Objects {
-  Id: 5126090848949251352
+  Id: 8113805135117992943
   Name: "Medium Gem"
   Transform {
     Location {
@@ -88,7 +94,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9072120032930405109
+  ParentId: 10509464457159844655
   UnregisteredParameters {
     Overrides {
       Name: "cs:Gem"
@@ -107,12 +113,15 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsGroup: true
   }
 }
 Objects {
-  Id: 9009809285727350717
+  Id: 10253211494795132892
   Name: "High Gem"
   Transform {
     Location {
@@ -125,7 +134,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9072120032930405109
+  ParentId: 10509464457159844655
   UnregisteredParameters {
     Overrides {
       Name: "cs:Gem"
@@ -144,12 +153,15 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsGroup: true
   }
 }
 Objects {
-  Id: 6795369730479597287
+  Id: 6353437479571678760
   Name: "Very High Gem"
   Transform {
     Location {
@@ -162,7 +174,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9072120032930405109
+  ParentId: 10509464457159844655
   UnregisteredParameters {
     Overrides {
       Name: "cs:Gem"
@@ -181,12 +193,15 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsGroup: true
   }
 }
 Objects {
-  Id: 15122138015977928003
+  Id: 10093544516310900934
   Name: "Ultra Gem"
   Transform {
     Location {
@@ -199,7 +214,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9072120032930405109
+  ParentId: 10509464457159844655
   UnregisteredParameters {
     Overrides {
       Name: "cs:Gem"
@@ -218,12 +233,15 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsGroup: true
   }
 }
 Objects {
-  Id: 17159329058013164532
+  Id: 1302956742921150609
   Name: "Ultra+ Gem"
   Transform {
     Location {
@@ -236,7 +254,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9072120032930405109
+  ParentId: 10509464457159844655
   UnregisteredParameters {
     Overrides {
       Name: "cs:Gem"
@@ -254,6 +272,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsGroup: true

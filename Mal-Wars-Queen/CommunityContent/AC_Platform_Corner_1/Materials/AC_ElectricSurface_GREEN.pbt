@@ -2,7 +2,7 @@ Assets {
   Id: 5509578525402657516
   Name: "AC_ElectricSurface_GREEN"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 78
   CustomMaterialAsset {
     BaseMaterialId: 8814929148438455547
     ParameterOverrides {

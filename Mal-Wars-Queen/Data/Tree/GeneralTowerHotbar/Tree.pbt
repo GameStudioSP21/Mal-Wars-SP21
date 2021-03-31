@@ -1,7 +1,7 @@
 Name: "GeneralTowerHotbar"
-RootId: 11972045575599141693
+RootId: 13426690658318593852
 Objects {
-  Id: 12146288821260915909
+  Id: 1041357578245329615
   Name: "TowerHotbar"
   Transform {
     Location {
@@ -14,15 +14,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11972045575599141693
-  ChildIds: 5033527973406881944
-  ChildIds: 2627425445233643571
-  ChildIds: 3483277928921579942
+  ParentId: 13426690658318593852
+  ChildIds: 5008825243947446726
+  ChildIds: 8961372077652719775
+  ChildIds: 7806639945015255418
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     RenderTransformPivot {
@@ -47,7 +50,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3483277928921579942
+  Id: 7806639945015255418
   Name: "BottomScreenGradient"
   Transform {
     Location {
@@ -64,12 +67,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12146288821260915909
+  ParentId: 1041357578245329615
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 96
@@ -108,7 +114,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2627425445233643571
+  Id: 8961372077652719775
   Name: "BottomPanel"
   Transform {
     Location {
@@ -121,12 +127,17 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12146288821260915909
+  ParentId: 1041357578245329615
+  ChildIds: 4865174252148706367
+  ChildIds: 839581440757755548
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 885
@@ -153,7 +164,113 @@ Objects {
   }
 }
 Objects {
-  Id: 5033527973406881944
+  Id: 839581440757755548
+  Name: "TowerDefenders_HotBarSlot"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8961372077652719775
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8769998820704105947
+      value {
+        Overrides {
+          Name: "Name"
+          String: "TowerDefenders_HotBarSlot"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 17856611674278834355
+    }
+  }
+}
+Objects {
+  Id: 4865174252148706367
+  Name: "UI Image"
+  Transform {
+    Location {
+      X: -10972.4346
+      Y: -13440.0078
+      Z: 804.090088
+    }
+    Rotation {
+      Yaw: -89.9843292
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8961372077652719775
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Width: 200
+    Height: 200
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    UseParentWidth: true
+    UseParentHeight: true
+    Image {
+      Brush {
+        Id: 17035680932399989717
+      }
+      Color {
+        G: 0.135761365
+        B: 0.820000052
+        A: 1
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 5008825243947446726
   Name: "TowerDefenders_HotbarView"
   Transform {
     Location {
@@ -166,12 +283,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12146288821260915909
+  ParentId: 1041357578245329615
   UnregisteredParameters {
     Overrides {
       Name: "cs:HotBarPanel"
       ObjectReference {
-        SelfId: 2627425445233643571
+        SelfId: 8961372077652719775
       }
     }
   }
@@ -180,6 +297,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Script {
     ScriptAsset {

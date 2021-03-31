@@ -1,7 +1,7 @@
 Name: "Yesenia"
-RootId: 10589467010113517291
+RootId: 979708705801182882
 Objects {
-  Id: 6962872381100497848
+  Id: 3758744857545411950
   Name: "UI test"
   Transform {
     Location {
@@ -16,12 +16,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10589467010113517291
+  ParentId: 979708705801182882
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true
@@ -29,7 +32,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12088007610701178479
+  Id: 7783073189717754953
   Name: "TOWER_BOTTOM"
   Transform {
     Scale {
@@ -38,7 +41,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10589467010113517291
+  ParentId: 979708705801182882
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 12609115820068120168

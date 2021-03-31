@@ -1,5 +1,4 @@
 local EaseUI = require(script:GetCustomProperty("EaseUI"))
-local Tooltips = require('D59186313879C18D')
 -- Sounds
 local SECTION_SWITCH_SOUND = script:GetCustomProperty("SectionHoverSound")
 local SECTION_CLICKED_SOUND = script:GetCustomProperty("SectionClickSound")

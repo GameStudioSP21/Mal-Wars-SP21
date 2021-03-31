@@ -1,7 +1,7 @@
 Name: "UI_redCurrency_side"
-RootId: 1035024178581031466
+RootId: 334841060662680060
 Objects {
-  Id: 4961823437156450910
+  Id: 16722178879815297591
   Name: "shadow"
   Transform {
     Location {
@@ -14,12 +14,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1035024178581031466
+  ParentId: 334841060662680060
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 129
@@ -64,7 +67,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5548082385355241530
+  Id: 10998100363907852632
   Name: "shine"
   Transform {
     Location {
@@ -77,12 +80,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1035024178581031466
+  ParentId: 334841060662680060
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 72
@@ -129,7 +135,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9242944018893178406
+  Id: 451751058393637677
   Name: "symbol"
   Transform {
     Location {
@@ -142,12 +148,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1035024178581031466
+  ParentId: 334841060662680060
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true
@@ -161,7 +170,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13899227365412811202
+  Id: 9252280261758907808
   Name: "base_1"
   Transform {
     Location {
@@ -174,12 +183,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1035024178581031466
+  ParentId: 334841060662680060
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 200
@@ -196,8 +208,8 @@ Objects {
         Id: 1735192838551116887
       }
       Color {
-        R: 0.0235098954
-        G: 0.710000038
+        G: 0.00582742691
+        B: 0.88
         A: 1
       }
       TeamSettings {

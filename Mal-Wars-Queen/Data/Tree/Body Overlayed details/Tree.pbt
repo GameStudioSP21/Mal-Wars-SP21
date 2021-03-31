@@ -1,7 +1,7 @@
 Name: "Body Overlayed details"
-RootId: 7015415583522506837
+RootId: 3937589025267304773
 Objects {
-  Id: 3244329691965603703
+  Id: 3646529185172639130
   Name: "Pipe"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 0.165537715
     }
   }
-  ParentId: 7015415583522506837
+  ParentId: 3937589025267304773
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -111,6 +111,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 6369574103405882280
@@ -119,7 +122,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -136,7 +138,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9511116740446893127
+  Id: 16033008334426826
   Name: "Pipe"
   Transform {
     Location {
@@ -152,7 +154,7 @@ Objects {
       Z: 0.191037029
     }
   }
-  ParentId: 7015415583522506837
+  ParentId: 3937589025267304773
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -245,6 +247,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 6369574103405882280
@@ -253,7 +258,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -270,7 +274,7 @@ Objects {
   }
 }
 Objects {
-  Id: 443225681814204599
+  Id: 8025010440975278705
   Name: "Pipe"
   Transform {
     Location {
@@ -287,7 +291,7 @@ Objects {
       Z: 0.165537715
     }
   }
-  ParentId: 7015415583522506837
+  ParentId: 3937589025267304773
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -380,6 +384,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 6369574103405882280
@@ -388,7 +395,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -405,7 +411,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3575524216216536791
+  Id: 16557080700435654800
   Name: "Pipe"
   Transform {
     Location {
@@ -421,7 +427,7 @@ Objects {
       Z: 0.191037029
     }
   }
-  ParentId: 7015415583522506837
+  ParentId: 3937589025267304773
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -514,6 +520,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 6369574103405882280
@@ -522,7 +531,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {

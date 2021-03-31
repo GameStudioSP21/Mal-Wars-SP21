@@ -28,10 +28,6 @@ Assets {
             String: ""
           }
           Overrides {
-            Name: "cs:EQUIPPED_TOWERS"
-            String: ""
-          }
-          Overrides {
             Name: "cs:TOWERS:isrep"
             Bool: true
           }
@@ -47,10 +43,6 @@ Assets {
             Name: "cs:OWNER:isrep"
             Bool: true
           }
-          Overrides {
-            Name: "cs:EQUIPPED_TOWERS:isrep"
-            Bool: true
-          }
         }
         WantsNetworking: true
         Collidable_v2 {
@@ -58,6 +50,9 @@ Assets {
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Folder {
           IsFilePartition: true
@@ -86,6 +81,9 @@ Assets {
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
           Type: Server
@@ -120,6 +118,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         Script {
           ScriptAsset {
             Id: 13778579132598531631
@@ -148,6 +149,9 @@ Assets {
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
         }
@@ -181,6 +185,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         Script {
           ScriptAsset {
             Id: 13778579132598531631
@@ -193,5 +200,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 76
+  SerializationVersion: 78
 }

@@ -7,7 +7,7 @@ Assets {
       Overrides {
         Name: "cs:RegisteredTowers"
         ObjectReference {
-          SelfId: 11526533163983201621
+          SelfId: 12159158986924950872
         }
       }
       Overrides {
@@ -24,5 +24,5 @@ Assets {
       }
     }
   }
-  SerializationVersion: 76
+  SerializationVersion: 78
 }

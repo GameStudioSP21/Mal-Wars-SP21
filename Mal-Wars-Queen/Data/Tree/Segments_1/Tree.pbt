@@ -1,7 +1,7 @@
 Name: "Segments_1"
-RootId: 13761554686699928317
+RootId: 14337124931089392796
 Objects {
-  Id: 1559548699520519759
+  Id: 222913904594479276
   Name: "Repair"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13761554686699928317
+  ParentId: 14337124931089392796
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -33,12 +33,15 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsGroup: true
   }
 }
 Objects {
-  Id: 1452839173018122055
+  Id: 14496057031289686726
   Name: "Sell"
   Transform {
     Location {
@@ -51,7 +54,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13761554686699928317
+  ParentId: 14337124931089392796
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -70,12 +73,15 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsGroup: true
   }
 }
 Objects {
-  Id: 901709102845067541
+  Id: 8346954486768666926
   Name: "Upgrade"
   Transform {
     Location {
@@ -88,7 +94,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13761554686699928317
+  ParentId: 14337124931089392796
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -107,12 +113,15 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsGroup: true
   }
 }
 Objects {
-  Id: 14460339150729682494
+  Id: 15214497303160337372
   Name: "Build"
   Transform {
     Location {
@@ -125,7 +134,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13761554686699928317
+  ParentId: 14337124931089392796
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -143,6 +152,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsGroup: true

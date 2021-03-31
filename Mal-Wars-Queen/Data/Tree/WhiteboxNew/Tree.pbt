@@ -1,7 +1,7 @@
 Name: "WhiteboxNew"
-RootId: 16158780439152817356
+RootId: 208013180029612962
 Objects {
-  Id: 2254021700219062407
+  Id: 579740372693854122
   Name: "Platforms"
   Transform {
     Location {
@@ -15,12 +15,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16158780439152817356
+  ParentId: 208013180029612962
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true
@@ -28,7 +31,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1854389952843736542
+  Id: 15327231592820130110
   Name: "WhiteboxMap"
   Transform {
     Location {
@@ -43,12 +46,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16158780439152817356
+  ParentId: 208013180029612962
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true

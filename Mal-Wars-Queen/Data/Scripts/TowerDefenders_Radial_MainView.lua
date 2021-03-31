@@ -1,7 +1,6 @@
 
 -- Derive from radial view
 local RadialView = require(script:GetCustomProperty("TowerDefenders_RadialView"))
-local Tooltips = require('D59186313879C18D')
 local MENU_UI = script:GetCustomProperty("Menu"):WaitForObject()
 local SEGMENT_ASSET = script:GetCustomProperty("SegmentAsset")
 local SEGMENTS_DATA = script:GetCustomProperty("Segments")

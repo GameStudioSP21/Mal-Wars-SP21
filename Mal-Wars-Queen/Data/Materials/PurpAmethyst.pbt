@@ -2,7 +2,7 @@ Assets {
   Id: 14910626681599465280
   Name: "PurpAmethyst"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 78
   CustomMaterialAsset {
     BaseMaterialId: 14174865565636939116
     ParameterOverrides {

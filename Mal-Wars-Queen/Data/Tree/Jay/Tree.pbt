@@ -1,7 +1,44 @@
 Name: "Jay"
-RootId: 10018957074452998709
+RootId: 7612938433241425474
 Objects {
-  Id: 10313415483311021944
+  Id: 18129980128179991199
+  Name: "Pit environment"
+  Transform {
+    Location {
+      Z: -11375.8369
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7612938433241425474
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Pit environment"
+  }
+  InstanceHistory {
+    SelfId: 16576151952906309400
+    SubobjectId: 12423460361418240724
+    InstanceId: 2637488479409450240
+    TemplateId: 13621542147476303627
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 16147000694426011817
   Name: "Ad Buster - Single Ladies Ad"
   Transform {
     Scale {
@@ -10,7 +47,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10018957074452998709
+  ParentId: 7612938433241425474
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 10906995137207975077
@@ -49,7 +89,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10045672767467733483
+  Id: 15749144998292125832
   Name: "Ad Buster - Sketchy Game Ad"
   Transform {
     Scale {
@@ -58,7 +98,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10018957074452998709
+  ParentId: 7612938433241425474
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 11764532458977922438
@@ -97,7 +140,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8004852044998159091
+  Id: 6809792052102903846
   Name: "Ad Buster - snippets"
   Transform {
     Scale {
@@ -106,7 +149,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10018957074452998709
+  ParentId: 7612938433241425474
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 5121432770197675786
@@ -145,7 +191,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6841810357041978717
+  Id: 12372854823815712426
   Name: "Ad Buster - Winner Ad"
   Transform {
     Scale {
@@ -154,7 +200,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10018957074452998709
+  ParentId: 7612938433241425474
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 10885550886106312805
@@ -193,7 +242,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2392440356472893566
+  Id: 8655260051733363982
   Name: "Ad Buster - Amy\'s Ad"
   Transform {
     Scale {
@@ -202,7 +251,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10018957074452998709
+  ParentId: 7612938433241425474
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 6706383901961231273
@@ -253,7 +305,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3540692804259347206
+  Id: 5189185790454640697
   Name: "Ad Buster - Obviously A Virus Ad"
   Transform {
     Scale {
@@ -262,7 +314,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10018957074452998709
+  ParentId: 7612938433241425474
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 14438394093168917871
@@ -301,7 +356,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6443812831244257891
+  Id: 14726529059144636513
   Name: "Ad Buster - Fake Anti Malware Ad"
   Transform {
     Scale {
@@ -310,7 +365,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10018957074452998709
+  ParentId: 7612938433241425474
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 7640332166641179526
@@ -349,7 +407,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6325741449106832934
+  Id: 5980001595556963939
   Name: "Ad Buster - bits"
   Transform {
     Scale {
@@ -358,7 +416,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10018957074452998709
+  ParentId: 7612938433241425474
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 10174338349677996245
@@ -397,7 +458,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4961101487415882281
+  Id: 220075347665990744
   Name: "Ad Buster - crypto"
   Transform {
     Scale {
@@ -406,7 +467,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10018957074452998709
+  ParentId: 7612938433241425474
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 40306914867147161

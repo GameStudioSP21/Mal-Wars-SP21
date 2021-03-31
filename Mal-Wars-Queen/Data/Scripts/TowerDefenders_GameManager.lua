@@ -1,11 +1,6 @@
 local BoardDatabase = require(script:GetCustomProperty("BoardDatabase"))
 local TowerDatabase = require(script:GetCustomProperty("TowerDatabase"))
 
-print("Board database has loaded")
-BoardDatabase:WaitUntilLoaded()
-print("Tower database has loaded")
-TowerDatabase:WaitUntilLoaded()
-
 local GameManager = {}
 
 local activeBoards = {}

@@ -1,7 +1,7 @@
 Name: "AoE Tower Placement Effects"
-RootId: 9727394318699712712
+RootId: 10430026805128273121
 Objects {
-  Id: 18298168105922593498
+  Id: 17547148693618086262
   Name: "Turret Placement FX AOE 1"
   Transform {
     Location {
@@ -17,7 +17,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9727394318699712712
+  ParentId: 10430026805128273121
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 17082045193770524294
@@ -55,7 +58,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2193693262012816811
+  Id: 15790671359890522372
   Name: "Turret Placement FX AOE 2"
   Transform {
     Location {
@@ -71,7 +74,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9727394318699712712
+  ParentId: 10430026805128273121
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 5037903600026239369
@@ -109,7 +115,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5765549656008294785
+  Id: 14620508874322191281
   Name: "Turret Placement FX AOE 3"
   Transform {
     Location {
@@ -125,7 +131,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9727394318699712712
+  ParentId: 10430026805128273121
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 4360120271608740050
@@ -176,7 +185,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16597998040196436185
+  Id: 15849367711630080873
   Name: "Turret Placement FX AOE 4"
   Transform {
     Location {
@@ -192,7 +201,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9727394318699712712
+  ParentId: 10430026805128273121
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 1122707803854556606
@@ -263,7 +275,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11731703656807568077
+  Id: 16005202293998177115
   Name: "Turret Placement FX recolor 1"
   Transform {
     Location {
@@ -279,7 +291,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9727394318699712712
+  ParentId: 10430026805128273121
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 608324519550176182
@@ -376,7 +391,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9783418351174377206
+  Id: 1555986604590707892
   Name: "AOE_turret_ghost"
   Transform {
     Scale {
@@ -385,7 +400,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9727394318699712712
+  ParentId: 10430026805128273121
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 16835282159599115198

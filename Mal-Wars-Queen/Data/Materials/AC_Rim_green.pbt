@@ -2,7 +2,7 @@ Assets {
   Id: 10752608179961328390
   Name: "AC_Rim_green"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 78
   CustomMaterialAsset {
     BaseMaterialId: 13693718657191562810
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 11038508053254085043
   Name: "AC_Custom Hex Energy Cycling Tile_CorrectTest"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 78
   CustomMaterialAsset {
     BaseMaterialId: 14896555147399072228
     ParameterOverrides {

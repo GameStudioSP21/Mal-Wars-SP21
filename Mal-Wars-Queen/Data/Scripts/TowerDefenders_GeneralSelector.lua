@@ -29,7 +29,7 @@ local preparedTower = nil
 
 local selector = TowerSelector.New(board,{
     selectorVisualMUID = SELECTOR_GHOST,
-    magnetizeDistanceThreshold = 5000,
+    magnetizeDistanceThreshold = 40000,
     isCamToMouseRaycasting = true,
     usesMouseInput = true,
 })
@@ -71,6 +71,9 @@ selector.OnRightMouseButton:Connect(function()
 end)
 
 selector.OnMagnetized:Connect(function()
+    if Object.IsValid(magnetizeGhost) then
+        magnetizeGhost:Destroy()
+    end
     local selectorObject = selector:GetSelectorObject()
     magnetizeGhost = World.SpawnAsset(SELECTOR_MAGNETIZED_GHOST,{ parent = selectorObject })
 end)

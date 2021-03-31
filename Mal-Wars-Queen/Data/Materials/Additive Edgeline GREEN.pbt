@@ -2,7 +2,7 @@ Assets {
   Id: 4464215658024061473
   Name: "Additive Edgeline GREEN"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 78
   CustomMaterialAsset {
     BaseMaterialId: 12084768731772136090
     ParameterOverrides {

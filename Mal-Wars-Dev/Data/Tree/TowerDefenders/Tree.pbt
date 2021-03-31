@@ -73,7 +73,7 @@ Objects {
     }
   }
   ParentId: 9567968853289757796
-  ChildIds: 5241460585495244552
+  ChildIds: 17658400194677418852
   ChildIds: 7881851193648080209
   ChildIds: 9423823038731708098
   ChildIds: 4439017205730984442
@@ -11144,7 +11144,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5241460585495244552
+  Id: 17658400194677418852
   Name: "TowerDefenders_UIController"
   Transform {
     Location {
