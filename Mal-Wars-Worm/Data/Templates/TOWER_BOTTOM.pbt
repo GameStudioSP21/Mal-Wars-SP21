@@ -1545,7 +1545,7 @@ Assets {
         Transform {
           Location {
             X: -258.623779
-            Y: 667.216308
+            Y: 667.216309
             Z: 396.861206
           }
           Rotation {
@@ -3536,7 +3536,7 @@ Assets {
           }
           Rotation {
             Yaw: 180
-            Roll: -6.10351562e-05
+            Roll: -6.10351563e-05
           }
           Scale {
             X: 1.62003756
@@ -4346,7 +4346,7 @@ Assets {
         Name: "Sci-fi Panel 1x3m Angled Left"
         Transform {
           Location {
-            X: 852.903808
+            X: 852.903809
             Y: -24.0031204
             Z: -25.5973244
           }
@@ -5102,7 +5102,7 @@ Assets {
           }
           Rotation {
             Yaw: 180
-            Roll: -6.10351562e-05
+            Roll: -6.10351563e-05
           }
           Scale {
             X: -1.598
@@ -5291,7 +5291,7 @@ Assets {
           }
           Rotation {
             Yaw: 180
-            Roll: -6.10351562e-05
+            Roll: -6.10351563e-05
           }
           Scale {
             X: 1.62003756
@@ -6101,7 +6101,7 @@ Assets {
         Name: "Sci-fi Panel 1x3m Angled Left"
         Transform {
           Location {
-            X: 852.903808
+            X: 852.903809
             Y: -24.0031204
             Z: -25.5973244
           }
@@ -7136,7 +7136,7 @@ Assets {
           }
           Rotation {
             Yaw: 180
-            Roll: -6.10351562e-05
+            Roll: -6.10351563e-05
           }
           Scale {
             X: 1.62003756
@@ -7946,7 +7946,7 @@ Assets {
         Name: "Sci-fi Panel 1x3m Angled Left"
         Transform {
           Location {
-            X: 852.903808
+            X: 852.903809
             Y: -24.0031204
             Z: -25.5973244
           }
@@ -8828,7 +8828,7 @@ Assets {
           }
           Rotation {
             Yaw: 180
-            Roll: -6.10351562e-05
+            Roll: -6.10351563e-05
           }
           Scale {
             X: 1.62003756
@@ -9638,7 +9638,7 @@ Assets {
         Name: "Sci-fi Panel 1x3m Angled Left"
         Transform {
           Location {
-            X: 852.903808
+            X: 852.903809
             Y: -24.0031204
             Z: -25.5973244
           }
@@ -10677,7 +10677,7 @@ Assets {
           }
           Rotation {
             Yaw: 180
-            Roll: -6.10351562e-05
+            Roll: -6.10351563e-05
           }
           Scale {
             X: 1.62003756
@@ -11487,7 +11487,7 @@ Assets {
         Name: "Sci-fi Panel 1x3m Angled Left"
         Transform {
           Location {
-            X: 852.903808
+            X: 852.903809
             Y: -24.0031204
             Z: -25.5973244
           }
@@ -12308,7 +12308,7 @@ Assets {
           Rotation {
             Pitch: 90
             Yaw: 90
-            Roll: -6.10351562e-05
+            Roll: -6.10351563e-05
           }
           Scale {
             X: -0.346757561
@@ -12433,7 +12433,7 @@ Assets {
           }
           Rotation {
             Yaw: 180
-            Roll: -6.10351562e-05
+            Roll: -6.10351563e-05
           }
           Scale {
             X: 1.62003756
@@ -13243,7 +13243,7 @@ Assets {
         Name: "Sci-fi Panel 1x3m Angled Left"
         Transform {
           Location {
-            X: 852.903808
+            X: 852.903809
             Y: -24.0031204
             Z: -25.5973244
           }
@@ -14281,7 +14281,7 @@ Assets {
           }
           Rotation {
             Yaw: 180
-            Roll: -6.10351562e-05
+            Roll: -6.10351563e-05
           }
           Scale {
             X: 1.62003756
@@ -15091,7 +15091,7 @@ Assets {
         Name: "Sci-fi Panel 1x3m Angled Left"
         Transform {
           Location {
-            X: 852.903808
+            X: 852.903809
             Y: -24.0031204
             Z: -25.5973244
           }
@@ -15974,7 +15974,7 @@ Assets {
           }
           Rotation {
             Yaw: 180
-            Roll: -6.10351562e-05
+            Roll: -6.10351563e-05
           }
           Scale {
             X: 1.62003756
@@ -16784,7 +16784,7 @@ Assets {
         Name: "Sci-fi Panel 1x3m Angled Left"
         Transform {
           Location {
-            X: 852.903808
+            X: 852.903809
             Y: -24.0031204
             Z: -25.5973244
           }
@@ -19338,7 +19338,7 @@ Assets {
         Name: "sidePaneling_4"
         Transform {
           Location {
-            X: -413.066894
+            X: -413.066895
             Y: -72.6606
           }
           Rotation {

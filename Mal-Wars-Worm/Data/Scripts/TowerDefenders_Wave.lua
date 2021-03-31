@@ -14,24 +14,32 @@ function Wave.New(waveManager,waveObject)
     return self
 end
 
+-- Server
 -- Spawn an enemy and reduce the budget that is allowed to spawn that enemy for that group
 function Wave:SpawnEnemy()
-    if self:IsInOrder() then
-        local currentGroup = self.groups[1]
-        local currentEnemy = currentGroup.enemy
-        local healthMultiplier = currentGroup.healthMultiplier
-        local speedMultiplier = currentGroup.speedMultiplier
-        local enemy = World.SpawnAsset(currentEnemy,{ parent = self.waveManager:GetEnemiesFolder(), position = self.waveManager:GetBoard():GetStartNode():GetWorldPosition() })
+    local currentGroup = nil
+    local currentGroupIndex = 1
 
-        currentGroup.amount = currentGroup.amount - 1 -- Reduce the spawn budget for this group.
-        if currentGroup.amount <= 0 then
-            table.remove(self.groups,1)
-        end
+    if self:IsInOrder() then
+        currentGroup = self.groups[currentGroupIndex]
         -- Apply multipliers
-        enemy:SetNetworkedCustomProperty("CurrentHealth",enemy:GetCustomProperty("CurrentHealth") * healthMultiplier)
+        -- TODO: REFACTOR THIS AS THIS DOESN'T WORK TOO WELL!
     else
-        -- TODO: Pick a random group to spawn an enemy from.
+        currentGroupIndex = math.random(1,#self.groups)
+        currentGroup = self.groups[currentGroupIndex]
     end
+
+    local currentEnemy = currentGroup.enemy
+    local healthMultiplier = currentGroup.healthMultiplier
+    local speedMultiplier = currentGroup.speedMultiplier
+    local enemy = World.SpawnAsset(currentEnemy,{ parent = self.waveManager:GetEnemiesFolder(), position = self.waveManager:GetBoard():GetStartNode():GetWorldPosition() })
+
+    currentGroup.amount = currentGroup.amount - 1 -- Reduce the spawn budget for this group.
+    if currentGroup.amount <= 0 then
+        table.remove(self.groups,currentGroupIndex)
+    end
+
+    enemy:SetNetworkedCustomProperty("CurrentHealth",enemy:GetCustomProperty("CurrentHealth") * healthMultiplier)
 end
 
 function Wave:GetName()
@@ -80,6 +88,10 @@ function Wave:IsBossWave()
     return self.isBossWave
 end
 
+function Wave:GetPayout()
+	return self.wavePayout
+end
+
 -------------------------------------
 -- Private
 -------------------------------------
@@ -91,6 +103,7 @@ function Wave:_Init(waveManager,waveObject)
     self.spawnDelay = waveObject:GetCustomProperty("SpawnDelay") or 0.2
     self.inOrderSpawning = waveObject:GetCustomProperty("InOrderSpawning") or false
     self.isBossWave = waveObject:GetCustomProperty("IsBossWave") or false
+    self.wavePayout = waveObject:GetCustomProperty("WavePayout") or 100
     self.groups = {}
     for _, enemyGroup in pairs(waveObject:GetChildren()) do
         local enemy = enemyGroup:GetCustomProperty("Enemy")

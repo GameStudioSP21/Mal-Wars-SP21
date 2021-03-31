@@ -5,7 +5,7 @@ Objects {
   Name: "Floor"
   Transform {
     Location {
-      X: -6140.63476
+      X: -6140.63477
       Y: -37.6147385
       Z: -13764.25
     }
@@ -293,7 +293,7 @@ Objects {
   Transform {
     Location {
       X: 18554.2324
-      Y: -17223.4726
+      Y: -17223.4727
       Z: 1926.4762
     }
     Rotation {
@@ -416,7 +416,7 @@ Objects {
   Transform {
     Location {
       X: -18553.7715
-      Y: -17223.4726
+      Y: -17223.4727
       Z: 1926.4762
     }
     Rotation {
@@ -477,7 +477,7 @@ Objects {
   Transform {
     Location {
       X: -33593.7852
-      Y: -14562.1728
+      Y: -14562.1729
       Z: 3900.00024
     }
     Rotation {
@@ -961,7 +961,7 @@ Objects {
   Name: "Rock 01"
   Transform {
     Location {
-      X: 845.226562
+      X: 845.226563
       Y: 222.531738
       Z: 567.706543
     }
@@ -1578,9 +1578,9 @@ Objects {
   Name: "Rock Hexagonal"
   Transform {
     Location {
-      X: 1953.16894
+      X: 1953.16895
       Y: -1521.69141
-      Z: 4224.16308
+      Z: 4224.16309
     }
     Rotation {
     }
@@ -1728,7 +1728,7 @@ Objects {
   Transform {
     Location {
       X: 8930.7334
-      Y: -3302.78808
+      Y: -3302.78809
       Z: -5013.77
     }
     Rotation {
@@ -1842,7 +1842,7 @@ Objects {
   Name: "WallLights"
   Transform {
     Location {
-      X: -4502.57226
+      X: -4502.57227
       Y: -408.641113
       Z: -17763.4824
     }
@@ -2672,7 +2672,7 @@ Objects {
   Transform {
     Location {
       X: 8041.70703
-      Y: -5153.9956
+      Y: -5153.99561
       Z: 4809.71289
     }
     Rotation {
@@ -3356,7 +3356,8 @@ Objects {
   Name: "PlayerJail"
   Transform {
     Location {
-      X: -7000
+      X: -6999.99902
+      Z: -1900
     }
     Rotation {
     }

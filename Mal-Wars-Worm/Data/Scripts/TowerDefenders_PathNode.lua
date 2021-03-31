@@ -1,4 +1,4 @@
-﻿local PathNode = {}
+local PathNode = {}
 PathNode.__index = PathNode
 
 local MAX_DISTANCE_SQUARED = 12^2
@@ -86,14 +86,15 @@ function PathNode:GetRandomPositionPerpendicularToNodeDirection()
 end
 
 -- Climbs through the path nodes to the end to get the total distance squared.
-function PathNode:GetTotalDistanceToEnd()
+function PathNode:GetTotalDistanceSquaredToEnd()
     local distanceSquared = 0
     local function Distance_R(root)
         if root:GetNextNode() then
-            local distS = (root:GetWorldPosition() - root.nextNode:GetWorldPosition()).sizeSquared
+            local nextNode = root:GetNextNode()
+            local distS = (root:GetWorldPosition() - nextNode:GetWorldPosition()).sizeSquared
             root:GetRandomPositionPerpendicularToNodeDirection()
             distanceSquared = distanceSquared + distS
-            Distance_R(root.nextNode)
+            Distance_R(nextNode)
         end
     end
     Distance_R(self)
@@ -113,7 +114,11 @@ function PathNode:SetNextNode(nextNode)
     table.insert(self.nextNode,nextNode)
 
     local direction = (self:GetWorldPosition() - nextNode:GetWorldPosition()):GetNormalized()
-    local hitResult = World.Raycast(self:GetWorldPosition(), self:GetWorldPosition() + Vector3.UP * -500)
+    local hitResult = World.Raycast(self:GetWorldPosition(), self:GetWorldPosition() + Vector3.UP * -5000)
+    if not hitResult then
+        CoreDebug.DrawLine(self:GetWorldPosition(), self:GetWorldPosition() + Vector3.UP * 200, { duration = 2000, thickness = 20, color = Color.RED })
+        error(string.format("Path node - %s - is not on a surface. Drawing debug arrow to show you which node is not placed right.",self.object.name))
+    end
     local normal = hitResult:GetImpactNormal()
     local cross = direction ^ normal
 

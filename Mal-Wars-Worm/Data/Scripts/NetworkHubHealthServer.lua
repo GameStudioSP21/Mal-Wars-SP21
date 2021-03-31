@@ -14,7 +14,7 @@ local singlePlayer = Game.GetPlayers()[1]
 
 
 local ourBoard = GameManager.WaitForBoardFromPlayer(singlePlayer)
-local waveManager = ourBoard:GetWaveManager()
+local waveManager = ourBoard:WaitForWaveManager()
 
 waveManager.OnEnemyReachedEnd:Connect(function(enemyObject)
     local hubHealth = script:GetCustomProperty("HubHealth")
@@ -30,10 +30,43 @@ waveManager.OnEnemyReachedEnd:Connect(function(enemyObject)
         local currentHealthBar = currentHealth / initalHealth
         networkHubHealthBar.progress = currentHealthBar
 
+        --When health reaches 0
         if currentHealth <= 0 then
             print("Failure!")
             waveManager:SetCurrentPhase("END_FAILED")
-            GameOver.Visibility = Visibility.FORCE_ON
+
+            --GameOver UI visibility is turned on
+            --GameOver.visibility = Visibility.FORCE_ON 
+
+            --Should Destroy all towers on the board
+            local towers = ourBoard:GetAllTowers()
+            for _, tower in pairs(towers) do
+                --print("I found a tower")
+                tower:Destroy()
+                --print("Tower should be destroyed")
+            end
+            --Broadcast to client to destroy all towers    *DestroyTowerClient is the event listener script
+            Events.BroadcastToAllPlayers("RAT", ourBoard:GetID())
+
+           --Should Destroy all enemies on the map
+            for _, enemy in pairs(waveManager:GetEnemies()) do
+                --print(enemy)
+                enemy:Destroy()
+            end
+
+            --Sets the player's money back to 300
+            singlePlayer:SetResource("GEMS", 300)
+
+            --Resets the wave stack to the saved copy
+            waveManager:ResetWaveStack()
+            --Go to specified Wave Index
+            waveManager:RedoWaveIndex(1)
+
+            waveManager:SetCurrentPhase("WAITING_READY")
+
+            --Adjusts the Health Bar back to full
+            script:SetNetworkedCustomProperty("HubHealth", 100)
+            networkHubHealthBar.progress = 1
             
         end
     end
