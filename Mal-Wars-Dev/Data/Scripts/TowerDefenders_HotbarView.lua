@@ -1,4 +1,5 @@
 local TowerThemes = require(script:GetCustomProperty("TowerThemesAPI"))
+
 local TowerDatabase = require(script:GetCustomProperty("TowerDatabase"))
 local EaseUI = require(script:GetCustomProperty("EaseUI"))
 local GemWallet = require(script:GetCustomProperty("GemWallet"))
@@ -6,6 +7,9 @@ local GemWallet = require(script:GetCustomProperty("GemWallet"))
 local HOT_BAR_SLOT = script:GetCustomProperty("TowerDefenders_HotBarSlot")
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 local HOT_BAR_PANEL = script:GetCustomProperty("HotBarPanel"):WaitForObject()
+
+local SLOT_AVAILABLE_COLOR = script:GetCustomProperty("SlotAvailableColor")
+local SLOT_NOT_AVAILABLE_COLOR = script:GetCustomProperty("SlotNotAvailableColor")
 
 
 -- While the clients inventory has not loaded yet then just wait for it to load.
@@ -168,13 +172,14 @@ function hotbarView:_SetupSlot(slot,tower)
     local priceLabel = slot:GetCustomProperty("Price"):GetObject()
     priceLabel.text = tostring(tower:GetCost())
 
-    local rarityColor = TowerThemes.GetRarityColor(tower:GetRarity())
-
     local frame = slot:GetCustomProperty("Frame"):GetObject()
     local background = slot:GetCustomProperty("Background"):GetObject()
 
-    frame:SetColor(rarityColor + Color.New(0,0,0,1))
-    background:SetColor(rarityColor + Color.New(0,0,0,1))
+    local rarityColor = TowerThemes.GetRarityColor(tower:GetRarity())
+    print("COLOR:",rarityColor)
+
+    frame:SetColor(rarityColor)
+    background:SetColor(rarityColor)
 end
 
 function hotbarView:_UpdateSlotPrices()
@@ -183,9 +188,9 @@ function hotbarView:_UpdateSlotPrices()
             local tower = slot.clientUserData.tower
             local priceText = slot:GetCustomProperty("Price"):GetObject()
             if GemWallet.HasEnough(tower:GetCost()) then
-                priceText:SetColor(Color.WHITE)
+                priceText:SetColor(SLOT_AVAILABLE_COLOR)
             else
-                priceText:SetColor(Color.RED)
+                priceText:SetColor(SLOT_NOT_AVAILABLE_COLOR)
             end
         end
     end

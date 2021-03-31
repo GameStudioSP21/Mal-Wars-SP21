@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8512805858169632350
+        ParentId: 4781671109827199097
         ChildIds: 6804200232825612610
         ChildIds: 10654290727477644567
         ChildIds: 14909875443712856994
@@ -47,6 +47,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         Folder {
           IsGroup: true
         }
@@ -67,13 +70,16 @@ Assets {
         }
         ParentId: 16602805628744511675
         ChildIds: 9192463988835078665
-        ChildIds: 10099975640552847658
+        ChildIds: 3650767687635156924
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
         }
@@ -101,6 +107,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         Folder {
           IsFilePartition: true
           FilePartitionName: "Geo"
@@ -127,6 +136,9 @@ Assets {
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Folder {
           IsFilePartition: true
@@ -156,6 +168,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         Folder {
           IsGroup: true
         }
@@ -178,12 +193,14 @@ Assets {
         ParentId: 2103609825925146018
         ChildIds: 6550786710079370492
         ChildIds: 3884702067678848293
-        ChildIds: 18370666367535385090
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Folder {
           IsGroup: true
@@ -210,6 +227,9 @@ Assets {
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Folder {
           IsGroup: true
@@ -240,6 +260,9 @@ Assets {
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Folder {
           IsGroup: true
@@ -276,6 +299,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         Folder {
           IsGroup: true
         }
@@ -303,6 +329,9 @@ Assets {
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Folder {
           IsGroup: true
@@ -353,6 +382,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 7917643843895697114
@@ -361,7 +393,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -425,6 +456,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6239601473014965529
@@ -433,7 +467,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -505,6 +538,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 405236317939450680
@@ -513,7 +549,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -561,6 +596,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6789604014209716330
@@ -569,7 +607,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -604,6 +641,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 9778899347684737374
@@ -612,7 +652,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -658,6 +697,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 1678978340045821419
@@ -666,7 +708,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -712,6 +753,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 1678978340045821419
@@ -720,7 +764,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -735,9 +778,6 @@ Assets {
         Name: "Barrels"
         Transform {
           Location {
-            X: 454.55304
-            Y: 37.1948662
-            Z: 35.6345291
           }
           Rotation {
           }
@@ -748,35 +788,6 @@ Assets {
           }
         }
         ParentId: 4236445129844939993
-        ChildIds: 4754158005416086656
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 4754158005416086656
-        Name: "Barrels"
-        Transform {
-          Location {
-            X: -158.231552
-            Y: -230.723206
-            Z: 13.2097282
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1.62775981
-            Y: 1.62775981
-            Z: 1.62775981
-          }
-        }
-        ParentId: 8267997127683828857
         ChildIds: 7865335880430693721
         ChildIds: 2536267413375490876
         Collidable_v2 {
@@ -784,6 +795,9 @@ Assets {
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Folder {
           IsGroup: true
@@ -794,18 +808,19 @@ Assets {
         Name: "Barrel 2"
         Transform {
           Location {
-            Y: 245
-            Z: -90.0001526
+            X: 369.411743
+            Y: 209.391174
+            Z: -133.288879
           }
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 1.62775958
+            Y: 1.62775958
+            Z: 1.62775958
           }
         }
-        ParentId: 4754158005416086656
+        ParentId: 8267997127683828857
         ChildIds: 13508145123964798297
         ChildIds: 6343268069216544397
         ChildIds: 12235604477132945341
@@ -815,6 +830,9 @@ Assets {
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Folder {
           IsGroup: true
@@ -864,6 +882,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 10780552303138620685
@@ -872,7 +893,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -920,6 +940,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6183130606669934264
@@ -928,7 +951,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -976,6 +998,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6183130606669934264
@@ -984,7 +1009,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -1030,6 +1054,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6183130606669934264
@@ -1038,7 +1065,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -1053,18 +1079,19 @@ Assets {
         Name: "Barrel 2"
         Transform {
           Location {
-            Y: -45
-            Z: -90.0001526
+            X: 369.411743
+            Y: -262.659363
+            Z: -133.288879
           }
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 1.62775958
+            Y: 1.62775958
+            Z: 1.62775958
           }
         }
-        ParentId: 4754158005416086656
+        ParentId: 8267997127683828857
         ChildIds: 7099491044081325799
         ChildIds: 11578006331746254982
         ChildIds: 14171304309424943427
@@ -1074,6 +1101,9 @@ Assets {
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Folder {
           IsGroup: true
@@ -1123,6 +1153,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 10780552303138620685
@@ -1131,7 +1164,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -1179,6 +1211,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6183130606669934264
@@ -1187,7 +1222,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -1235,6 +1269,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6183130606669934264
@@ -1243,7 +1280,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -1289,6 +1325,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6183130606669934264
@@ -1297,7 +1336,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -1313,8 +1351,8 @@ Assets {
         Transform {
           Location {
             X: 338.050781
-            Y: 91.578064
-            Z: 148.374954
+            Y: 3.87402344
+            Z: 148.374939
           }
           Rotation {
           }
@@ -1325,27 +1363,171 @@ Assets {
           }
         }
         ParentId: 4150948000899998924
-        ChildIds: 9992928858727358289
-        ChildIds: 6764276918562265341
-        ChildIds: 13128080058922914833
+        ChildIds: 9849651499082728798
+        ChildIds: 1608089441853255131
+        ChildIds: 1243166680564342104
+        ChildIds: 4323846507996057562
+        ChildIds: 15811372923337144528
+        ChildIds: 18110251998958340271
+        ChildIds: 14648476876160351326
+        ChildIds: 7114984703888276969
+        ChildIds: 6161928281926304955
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         Folder {
           IsGroup: true
         }
       }
       Objects {
-        Id: 9992928858727358289
-        Name: "Advanced Muzzleflash VFX"
+        Id: 9849651499082728798
+        Name: "Rocket Launcher Muzzleflash VFX"
+        Transform {
+          Location {
+            X: 4.34179688
+            Y: 100
+            Z: -13.9130859
+          }
+          Rotation {
+            Pitch: -85
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 2
+          }
+        }
+        ParentId: 3884702067678848293
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Enable Smoke"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Enable Sparks"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Enable Muzzle Flash"
+            Bool: true
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.449933767
+              G: 0.789999962
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 23.6903496
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 2032514755182163228
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+      }
+      Objects {
+        Id: 1608089441853255131
+        Name: "Rocket Launcher Muzzleflash VFX"
+        Transform {
+          Location {
+            X: 4.34179688
+            Y: -100
+            Z: -13.9130859
+          }
+          Rotation {
+            Pitch: -85
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 2
+          }
+        }
+        ParentId: 3884702067678848293
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Enable Smoke"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Enable Sparks"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Enable Muzzle Flash"
+            Bool: true
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.449933767
+              G: 0.789999962
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 23.6903496
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 2032514755182163228
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+      }
+      Objects {
+        Id: 1243166680564342104
+        Name: "Gunshot Laser Rifle Set 01 SFX"
         Transform {
           Location {
           }
           Rotation {
-            Pitch: -90
           }
           Scale {
             X: 1
@@ -1354,24 +1536,131 @@ Assets {
           }
         }
         ParentId: 3884702067678848293
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 13330580655975707345
+          }
+          TeamSettings {
+          }
+          AudioBP {
+            Pitch: -376.063965
+            Volume: 1.23958158
+            Falloff: 4000
+            Radius: 750
+            EnableOcclusion: true
+            IsSpatializationEnabled: true
+            IsAttenuationEnabled: true
+          }
+        }
+      }
+      Objects {
+        Id: 4323846507996057562
+        Name: "Gunshot Punchy Sweetener 01 SFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 3884702067678848293
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 11295300757928505143
+          }
+          Volume: 1
+          Falloff: 4000
+          Radius: 750
+          EnableOcclusion: true
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
+        }
+      }
+      Objects {
+        Id: 15811372923337144528
+        Name: "Gunshot Boom Sweetener 02 SFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 3884702067678848293
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 17772688341795286021
+          }
+          Pitch: -161.48877
+          Volume: 1
+          Falloff: 4000
+          Radius: 750
+          EnableOcclusion: true
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
+        }
+      }
+      Objects {
+        Id: 18110251998958340271
+        Name: "Generic Muzzleflash VFX"
+        Transform {
+          Location {
+            X: -63.5751953
+            Y: -122.057129
+            Z: -13.9130554
+          }
+          Rotation {
+            Yaw: -50.0000038
+            Roll: -94.9999924
+          }
+          Scale {
+            X: 1.1930753
+            Y: 1.0000006
+            Z: 1.72166991
+          }
+        }
+        ParentId: 3884702067678848293
         UnregisteredParameters {
-          Overrides {
-            Name: "bp:Emissive Boost"
-            Float: 14.8698549
-          }
-          Overrides {
-            Name: "bp:Particle Size Multiplier"
-            Float: 2.13276052
-          }
-          Overrides {
-            Name: "bp:Number Of Flares"
-            Int: 5
-          }
           Overrides {
             Name: "bp:Color"
             Color {
-              G: 0.960000038
-              B: 0.0254306048
+              R: 0.571655512
+              G: 0.830000043
               A: 1
             }
           }
@@ -1382,174 +1671,49 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         Blueprint {
           BlueprintAsset {
-            Id: 3125335314262154541
+            Id: 16322635077100878811
           }
           TeamSettings {
           }
           Vfx {
-            Relevance {
-              Value: "mc:evfxrelevance:critical"
-            }
+            AutoPlay: true
           }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
         }
       }
       Objects {
-        Id: 6764276918562265341
-        Name: "Gunshot Laser Pistol Set 01 SFX"
+        Id: 14648476876160351326
+        Name: "Generic Muzzleflash VFX"
         Transform {
           Location {
+            X: -63.5751953
+            Y: 65.621582
+            Z: -13.9130554
           }
           Rotation {
+            Yaw: -50.0000038
+            Roll: -94.9999924
           }
           Scale {
-            X: 2
-            Y: 2
-            Z: 2
+            X: 1.1930753
+            Y: 1.0000006
+            Z: 1.72166991
           }
         }
         ParentId: 3884702067678848293
         UnregisteredParameters {
-          Overrides {
-            Name: "bp:Type"
-            Enum {
-              Value: "mc:esfx_gunshot_laserpistol_01:10"
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 8059305762076781460
-          }
-          TeamSettings {
-          }
-          AudioBP {
-            Volume: 1
-            Falloff: 3600
-            Radius: 400
-            EnableOcclusion: true
-            IsSpatializationEnabled: true
-            IsAttenuationEnabled: true
-          }
-        }
-      }
-      Objects {
-        Id: 13128080058922914833
-        Name: "Gunshot Laser Rifle Set 01 SFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 2
-            Y: 2
-            Z: 2
-          }
-        }
-        ParentId: 3884702067678848293
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Type"
-            Enum {
-              Value: "mc:esfx_gunshot_laserrifle_01:12"
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 13330580655975707345
-          }
-          TeamSettings {
-          }
-          AudioBP {
-            Volume: 1
-            Falloff: 3600
-            Radius: 400
-            EnableOcclusion: true
-            IsSpatializationEnabled: true
-            IsAttenuationEnabled: true
-          }
-        }
-      }
-      Objects {
-        Id: 18370666367535385090
-        Name: "Muzzle"
-        Transform {
-          Location {
-            X: 338.050781
-            Y: -90.5024414
-            Z: 148.374954
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 4150948000899998924
-        ChildIds: 5147752625332970855
-        ChildIds: 12970858709435296764
-        ChildIds: 13068258621491225793
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 5147752625332970855
-        Name: "Advanced Muzzleflash VFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -90
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 18370666367535385090
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Emissive Boost"
-            Float: 14.8698549
-          }
-          Overrides {
-            Name: "bp:Particle Size Multiplier"
-            Float: 2.13276052
-          }
-          Overrides {
-            Name: "bp:Number Of Flares"
-            Int: 5
-          }
           Overrides {
             Name: "bp:Color"
             Color {
-              G: 0.960000038
-              B: 0.0254306048
+              R: 0.571655512
+              G: 0.830000043
               A: 1
             }
           }
@@ -1560,39 +1724,50 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         Blueprint {
           BlueprintAsset {
-            Id: 3125335314262154541
+            Id: 16322635077100878811
           }
           TeamSettings {
           }
           Vfx {
-            Relevance {
-              Value: "mc:evfxrelevance:critical"
-            }
+            AutoPlay: true
           }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
         }
       }
       Objects {
-        Id: 12970858709435296764
-        Name: "Gunshot Laser Pistol Set 01 SFX"
+        Id: 7114984703888276969
+        Name: "Generic Muzzleflash VFX"
         Transform {
           Location {
+            X: -63.5751953
+            Y: 126.32373
+            Z: -13.9130554
           }
           Rotation {
+            Yaw: -131.235168
+            Roll: -95
           }
           Scale {
-            X: 2
-            Y: 2
-            Z: 2
+            X: 1.1930753
+            Y: 1.0000006
+            Z: 1.72166991
           }
         }
-        ParentId: 18370666367535385090
+        ParentId: 3884702067678848293
         UnregisteredParameters {
           Overrides {
-            Name: "bp:Type"
-            Enum {
-              Value: "mc:esfx_gunshot_laserpistol_01:10"
+            Name: "bp:Color"
+            Color {
+              R: 0.571655512
+              G: 0.830000043
+              A: 1
             }
           }
         }
@@ -1602,42 +1777,50 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         Blueprint {
           BlueprintAsset {
-            Id: 8059305762076781460
+            Id: 16322635077100878811
           }
           TeamSettings {
           }
-          AudioBP {
-            Volume: 1
-            Falloff: 3600
-            Radius: 400
-            EnableOcclusion: true
-            IsSpatializationEnabled: true
-            IsAttenuationEnabled: true
+          Vfx {
+            AutoPlay: true
           }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
         }
       }
       Objects {
-        Id: 13068258621491225793
-        Name: "Gunshot Laser Rifle Set 01 SFX"
+        Id: 6161928281926304955
+        Name: "Generic Muzzleflash VFX"
         Transform {
           Location {
+            X: -63.5751953
+            Y: -62.6792
+            Z: -13.9130554
           }
           Rotation {
+            Yaw: -131.235168
+            Roll: -95
           }
           Scale {
-            X: 2
-            Y: 2
-            Z: 2
+            X: 1.1930753
+            Y: 1.0000006
+            Z: 1.72166991
           }
         }
-        ParentId: 18370666367535385090
+        ParentId: 3884702067678848293
         UnregisteredParameters {
           Overrides {
-            Name: "bp:Type"
-            Enum {
-              Value: "mc:esfx_gunshot_laserrifle_01:12"
+            Name: "bp:Color"
+            Color {
+              R: 0.571655512
+              G: 0.830000043
+              A: 1
             }
           }
         }
@@ -1647,20 +1830,21 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         Blueprint {
           BlueprintAsset {
-            Id: 13330580655975707345
+            Id: 16322635077100878811
           }
           TeamSettings {
           }
-          AudioBP {
-            Volume: 1
-            Falloff: 3600
-            Radius: 400
-            EnableOcclusion: true
-            IsSpatializationEnabled: true
-            IsAttenuationEnabled: true
+          Vfx {
+            AutoPlay: true
           }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
         }
       }
       Objects {
@@ -1689,6 +1873,9 @@ Assets {
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Folder {
           IsGroup: true
@@ -1736,6 +1923,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 10907541228584546672
@@ -1744,7 +1934,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -1790,6 +1979,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 7725759676246772278
@@ -1798,7 +1990,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -1843,6 +2034,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 7725759676246772278
@@ -1851,7 +2045,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -1899,6 +2092,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
         CoreMesh {
           MeshAsset {
             Id: 6789604014209716330
@@ -1907,7 +2103,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -1918,8 +2113,8 @@ Assets {
         }
       }
       Objects {
-        Id: 10099975640552847658
-        Name: "KickBack"
+        Id: 3650767687635156924
+        Name: "KickBack_LV2"
         Transform {
           Location {
           }
@@ -1940,7 +2135,13 @@ Assets {
             }
           }
           Overrides {
-            Name: "cs:Turret_Head"
+            Name: "cs:Barrels"
+            ObjectReference {
+              SubObjectId: 8267997127683828857
+            }
+          }
+          Overrides {
+            Name: "cs:Turret_head"
             ObjectReference {
               SubObjectId: 6550786710079370492
             }
@@ -1958,9 +2159,12 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         Script {
           ScriptAsset {
-            Id: 14651322305719110020
+            Id: 1114612149181425991
           }
         }
       }
@@ -1985,6 +2189,9 @@ Assets {
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         AudioInstance {
           AudioAsset {
@@ -2023,6 +2230,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         AudioInstance {
           AudioAsset {
             Id: 6401498020918617889
@@ -2058,6 +2268,9 @@ Assets {
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         AudioInstance {
           AudioAsset {
@@ -2147,21 +2360,12 @@ Assets {
       }
     }
     Assets {
-      Id: 3125335314262154541
-      Name: "Advanced Muzzleflash VFX"
+      Id: 2032514755182163228
+      Name: "Rocket Launcher Muzzleflash VFX"
       PlatformAssetType: 8
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_muzzleflash_alt"
-      }
-    }
-    Assets {
-      Id: 8059305762076781460
-      Name: "Gunshot Laser Pistol Set 01 SFX"
-      PlatformAssetType: 10
-      PrimaryAsset {
-        AssetType: "AudioBlueprintAssetRef"
-        AssetId: "sfxabp_gunshot_laser_pistol_ref"
+        AssetId: "fxbp_rocket_launcher_muzzleflash"
       }
     }
     Assets {
@@ -2171,6 +2375,33 @@ Assets {
       PrimaryAsset {
         AssetType: "AudioBlueprintAssetRef"
         AssetId: "sfxabp_gunshot_laserrifle_ref"
+      }
+    }
+    Assets {
+      Id: 11295300757928505143
+      Name: "Gunshot Punchy Sweetener 01 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_gunsweetener_punchy_01_Cue_ref"
+      }
+    }
+    Assets {
+      Id: 17772688341795286021
+      Name: "Gunshot Boom Sweetener 02 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_gunshot_boom_sweetener_02_Cue_ref"
+      }
+    }
+    Assets {
+      Id: 16322635077100878811
+      Name: "Generic Muzzleflash VFX"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_generic_muzzleflash"
       }
     }
     Assets {
@@ -2223,5 +2454,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 76
+  SerializationVersion: 78
 }

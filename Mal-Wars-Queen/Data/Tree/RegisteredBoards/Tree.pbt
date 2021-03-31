@@ -1,7 +1,7 @@
 Name: "RegisteredBoards"
-RootId: 9446823694051834191
+RootId: 12831432416790739506
 Objects {
-  Id: 9838469381758894043
+  Id: 18058253293446394335
   Name: "Temp Board"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9446823694051834191
+  ParentId: 12831432416790739506
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -33,7 +33,7 @@ Objects {
     Overrides {
       Name: "cs:Waves"
       ObjectReference {
-        SelfId: 11302024653263081212
+        SelfId: 6738401265048813632
       }
     }
   }
@@ -42,6 +42,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsGroup: true

@@ -58,6 +58,12 @@ Assets {
           Id: 9669057047104863758
         }
       }
+      Overrides {
+        Name: "cs:Sound_Randomizer"
+        AssetReference {
+          Id: 2992760096040209657
+        }
+      }
     }
   }
   SerializationVersion: 78

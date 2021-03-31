@@ -98,6 +98,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10792346258853100359
+  Name: "Fantasy Craft Gem 025"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Crafting_Gem_025"
+  }
+}
+Assets {
   Id: 10235821765507969510
   Name: "Frame Outline Thin 001"
   PlatformAssetType: 9
@@ -194,15 +203,6 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "BackgroundFlat_033"
-  }
-}
-Assets {
-  Id: 4394833147861332425
-  Name: "Fantasy Craft Gem 027"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Crafting_Gem_027"
   }
 }
 Assets {

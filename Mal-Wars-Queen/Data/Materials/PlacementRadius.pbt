@@ -2,7 +2,7 @@ Assets {
   Id: 16453784447801344809
   Name: "PlacementRadius"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 78
   CustomMaterialAsset {
     BaseMaterialId: 9347718693920754272
     ParameterOverrides {

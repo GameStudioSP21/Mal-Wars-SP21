@@ -1,7 +1,7 @@
 Name: "Sydney"
-RootId: 2102529274754680403
+RootId: 5219920142216700295
 Objects {
-  Id: 7410907050015749181
+  Id: 8940948608583269735
   Name: "Whiteboxnt"
   Transform {
     Location {
@@ -14,12 +14,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2102529274754680403
+  ParentId: 5219920142216700295
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true
@@ -27,7 +30,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8592356074963554601
+  Id: 4929396964861420751
   Name: "PlayerJail"
   Transform {
     Location {
@@ -42,12 +45,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2102529274754680403
+  ParentId: 5219920142216700295
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true
@@ -55,7 +61,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16158780439152817356
+  Id: 208013180029612962
   Name: "WhiteboxNew"
   Transform {
     Location {
@@ -68,12 +74,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2102529274754680403
+  ParentId: 5219920142216700295
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true

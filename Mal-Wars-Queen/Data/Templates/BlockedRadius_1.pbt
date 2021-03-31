@@ -7,7 +7,7 @@ Assets {
       RootId: 13948620039572573407
       Objects {
         Id: 13948620039572573407
-        Name: "Sphere"
+        Name: "BlockedRadius"
         Transform {
           Scale {
             X: 1
@@ -17,11 +17,23 @@ Assets {
         }
         ParentId: 4781671109827199097
         ChildIds: 484899983104617624
+        ChildIds: 4001195459148821504
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 841534158063459245
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:forceoff"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
         }
         CoreMesh {
           MeshAsset {
@@ -31,7 +43,6 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          EnableCameraCollision: true
           InteractWithTriggers: true
           StaticMesh {
             Physics {
@@ -46,13 +57,14 @@ Assets {
         Name: "BlockedRadius"
         Transform {
           Location {
+            Z: -1.68052673
           }
           Rotation {
           }
           Scale {
             X: 0.389905185
             Y: 0.389905185
-            Z: 1.03304565
+            Z: -0.0393586345
           }
         }
         ParentId: 13948620039572573407
@@ -111,6 +123,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:forceon"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         Blueprint {
           BlueprintAsset {
             Id: 12639445817240610799
@@ -118,6 +133,64 @@ Assets {
           TeamSettings {
           }
           DecalBP {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 4001195459148821504
+        Name: "Cylinder"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 0.01715184
+          }
+        }
+        ParentId: 13948620039572573407
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 3671696690231627950
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.909999967
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceon"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 10907541228584546672
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
           }
         }
       }
@@ -140,10 +213,19 @@ Assets {
         AssetId: "dcl_basicShapes"
       }
     }
+    Assets {
+      Id: 10907541228584546672
+      Name: "Cylinder"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cylinder_002"
+      }
+    }
     PrimaryAssetId {
       AssetType: "None"
       AssetId: "None"
     }
   }
-  SerializationVersion: 76
+  SerializationVersion: 78
 }

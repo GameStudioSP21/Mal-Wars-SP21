@@ -22,6 +22,9 @@ Assets {
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         Text {
           Text: "HELLO WORLD"
           FontAsset {
@@ -51,6 +54,6 @@ Assets {
   Marketplace {
     Description: "UI Template"
   }
-  SerializationVersion: 76
+  SerializationVersion: 78
   DirectlyPublished: true
 }

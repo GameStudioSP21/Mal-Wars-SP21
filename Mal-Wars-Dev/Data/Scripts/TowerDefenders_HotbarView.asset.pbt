@@ -39,6 +39,32 @@ Assets {
         ObjectReference {
         }
       }
+      Overrides {
+        Name: "cs:SlotAvailableColor"
+        Color {
+          R: 0.321568638
+          G: 1
+          B: 0.188235313
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "cs:SlotNotAvailableColor"
+        Color {
+          R: 1
+          G: 0.188235313
+          B: 0.321568638
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "cs:SlotNotAvailableColor:tooltip"
+        String: "The color of the price text when the tower can\'t be purchased."
+      }
+      Overrides {
+        Name: "cs:SlotAvailableColor:tooltip"
+        String: "The color of the price text when the tower can be purchased"
+      }
     }
   }
   SerializationVersion: 78

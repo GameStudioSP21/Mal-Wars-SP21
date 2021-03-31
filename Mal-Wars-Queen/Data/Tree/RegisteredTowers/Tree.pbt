@@ -1,7 +1,7 @@
 Name: "RegisteredTowers"
-RootId: 11526533163983201621
+RootId: 12159158986924950872
 Objects {
-  Id: 16246016697899800199
+  Id: 6988020826475114018
   Name: "Utility"
   Transform {
     Location {
@@ -14,12 +14,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11526533163983201621
+  ParentId: 12159158986924950872
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true
@@ -27,7 +30,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5239288681619449188
+  Id: 10498726527847645372
   Name: "Support"
   Transform {
     Location {
@@ -40,12 +43,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11526533163983201621
+  ParentId: 12159158986924950872
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true
@@ -53,7 +59,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7130910895738376355
+  Id: 14365916899838082376
   Name: "Damage"
   Transform {
     Location {
@@ -66,12 +72,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11526533163983201621
+  ParentId: 12159158986924950872
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true

@@ -125,15 +125,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2264041107168619230
-  Name: "Cone - Bullet"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_bullet_001"
-  }
-}
-Assets {
   Id: 1678978340045821419
   Name: "Sci-fi Ship Nacelle 02"
   PlatformAssetType: 1

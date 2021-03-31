@@ -23,11 +23,6 @@ Assets {
         }
       }
       Overrides {
-        Name: "cs:MainPanel"
-        ObjectReference {
-        }
-      }
-      Overrides {
         Name: "cs:ThemeAPI"
         AssetReference {
           Id: 18181533304032982468
@@ -55,6 +50,24 @@ Assets {
         Name: "cs:EaseUI"
         AssetReference {
           Id: 2158732962862843739
+        }
+      }
+      Overrides {
+        Name: "cs:RefreshEntriesSound"
+        AssetReference {
+          Id: 7826089747522051530
+        }
+      }
+      Overrides {
+        Name: "cs:TowerEquipSound"
+        AssetReference {
+          Id: 12798693491465116198
+        }
+      }
+      Overrides {
+        Name: "cs:TowerEquipDenySound"
+        AssetReference {
+          Id: 13392073712604546117
         }
       }
     }

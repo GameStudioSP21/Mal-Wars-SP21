@@ -1,7 +1,7 @@
 Name: "Dave"
-RootId: 14081436481186185311
+RootId: 927802473666677546
 Objects {
-  Id: 13029330114079343391
+  Id: 8488969387664346512
   Name: "VirusT1"
   Transform {
     Scale {
@@ -10,12 +10,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14081436481186185311
+  ParentId: 927802473666677546
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   TemplateInstance {
     ParameterOverrideMap {
@@ -47,7 +50,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3063306330131125502
+  Id: 12060071541705070329
   Name: "VirusT2"
   Transform {
     Scale {
@@ -56,12 +59,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14081436481186185311
+  ParentId: 927802473666677546
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   TemplateInstance {
     ParameterOverrideMap {
@@ -93,7 +99,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1045351340013600952
+  Id: 8009628386284104085
   Name: "VirusT3"
   Transform {
     Scale {
@@ -102,12 +108,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14081436481186185311
+  ParentId: 927802473666677546
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   TemplateInstance {
     ParameterOverrideMap {
@@ -139,7 +148,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4557158750917046972
+  Id: 14230208183444888353
   Name: "WormT3"
   Transform {
     Scale {
@@ -148,7 +157,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14081436481186185311
+  ParentId: 927802473666677546
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 4526086092065166152
@@ -187,7 +199,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14383217356100252782
+  Id: 2833248914139649434
   Name: "WormT2"
   Transform {
     Scale {
@@ -196,7 +208,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14081436481186185311
+  ParentId: 927802473666677546
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 6435159486272343449
@@ -235,7 +250,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18434978578942335693
+  Id: 7116340066142246988
   Name: "WormT1"
   Transform {
     Scale {
@@ -244,12 +259,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14081436481186185311
+  ParentId: 927802473666677546
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   TemplateInstance {
     ParameterOverrideMap {
@@ -281,7 +299,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5971386782816839817
+  Id: 8362914290684495301
   Name: "AdT2"
   Transform {
     Scale {
@@ -290,7 +308,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14081436481186185311
+  ParentId: 927802473666677546
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 12091373542574086679
@@ -329,7 +350,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10476529203000175817
+  Id: 18238089859295229508
   Name: "AdT3"
   Transform {
     Scale {
@@ -338,7 +359,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14081436481186185311
+  ParentId: 927802473666677546
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 1910906516429423080
@@ -377,7 +401,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9297058304776675204
+  Id: 8686485986924676862
   Name: "AdT1"
   Transform {
     Scale {
@@ -386,7 +410,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14081436481186185311
+  ParentId: 927802473666677546
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 16651082071151057379

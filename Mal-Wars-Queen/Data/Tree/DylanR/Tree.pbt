@@ -1,7 +1,76 @@
 Name: "DylanR"
-RootId: 15062001147149131720
+RootId: 5823552244372638437
 Objects {
-  Id: 18326046865902055722
+  Id: 17058580255418131562
+  Name: "PulsingObject"
+  Transform {
+    Location {
+      X: -5658.7334
+      Y: -130.170898
+      Z: -277.355347
+    }
+    Rotation {
+    }
+    Scale {
+      X: -70.1311874
+      Y: -70.1311874
+      Z: -10.6014204
+    }
+  }
+  ParentId: 5823552244372638437
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 4264247987628981671
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0500000119
+        G: 1
+        B: 0.962251663
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 0.125
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.125
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10047245790400686352
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 8169652830574293073
   Name: "WallLights"
   Transform {
     Location {
@@ -17,29 +86,32 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15062001147149131720
-  ChildIds: 16067838114281207773
-  ChildIds: 6285285014326430138
-  ChildIds: 2642761934904125761
-  ChildIds: 7520366504890206526
-  ChildIds: 17738264119593609893
-  ChildIds: 4339985491875436402
-  ChildIds: 1905348023716977155
-  ChildIds: 10252899930644076126
-  ChildIds: 7400707949297345494
-  ChildIds: 7871121427454909045
-  ChildIds: 5483704339939772655
-  ChildIds: 11737309630047022353
-  ChildIds: 15966713172308660222
-  ChildIds: 12437731355426381616
-  ChildIds: 3950946395584449279
-  ChildIds: 4712098878941946340
-  ChildIds: 15963752311494164861
+  ParentId: 5823552244372638437
+  ChildIds: 8035198043087465787
+  ChildIds: 3613851688402226195
+  ChildIds: 16756446768436148489
+  ChildIds: 13691061961745434562
+  ChildIds: 6465848741635337420
+  ChildIds: 2974355287396538646
+  ChildIds: 10906036835830386759
+  ChildIds: 15103014121891869582
+  ChildIds: 17755791721975805883
+  ChildIds: 5871516296130867442
+  ChildIds: 6337577567611961251
+  ChildIds: 17454451736559151868
+  ChildIds: 1442405365359832700
+  ChildIds: 17192460752137631873
+  ChildIds: 7368862866925299592
+  ChildIds: 15515542930665675898
+  ChildIds: 6513305720675793078
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsGroup: true
@@ -53,7 +125,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15963752311494164861
+  Id: 6513305720675793078
   Name: "Spotlight"
   Transform {
     Location {
@@ -72,12 +144,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18326046865902055722
+  ParentId: 8169652830574293073
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Light {
     Intensity: 40.0846558
@@ -110,7 +185,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4712098878941946340
+  Id: 15515542930665675898
   Name: "Spotlight"
   Transform {
     Location {
@@ -129,12 +204,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18326046865902055722
+  ParentId: 8169652830574293073
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Light {
     Intensity: 100
@@ -173,7 +251,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3950946395584449279
+  Id: 7368862866925299592
   Name: "Spotlight"
   Transform {
     Location {
@@ -192,12 +270,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18326046865902055722
+  ParentId: 8169652830574293073
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Light {
     Intensity: 100
@@ -236,7 +317,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12437731355426381616
+  Id: 17192460752137631873
   Name: "Spotlight"
   Transform {
     Location {
@@ -255,12 +336,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18326046865902055722
+  ParentId: 8169652830574293073
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Light {
     Intensity: 100
@@ -299,7 +383,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15966713172308660222
+  Id: 1442405365359832700
   Name: "Spotlight"
   Transform {
     Location {
@@ -318,12 +402,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18326046865902055722
+  ParentId: 8169652830574293073
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Light {
     Intensity: 100
@@ -362,7 +449,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11737309630047022353
+  Id: 17454451736559151868
   Name: "Spotlight"
   Transform {
     Location {
@@ -381,12 +468,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18326046865902055722
+  ParentId: 8169652830574293073
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Light {
     Intensity: 100
@@ -425,7 +515,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5483704339939772655
+  Id: 6337577567611961251
   Name: "Spotlight"
   Transform {
     Location {
@@ -444,12 +534,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18326046865902055722
+  ParentId: 8169652830574293073
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Light {
     Intensity: 100
@@ -488,7 +581,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7871121427454909045
+  Id: 5871516296130867442
   Name: "Spotlight"
   Transform {
     Location {
@@ -507,12 +600,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18326046865902055722
+  ParentId: 8169652830574293073
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Light {
     Intensity: 100
@@ -551,7 +647,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7400707949297345494
+  Id: 17755791721975805883
   Name: "Spotlight"
   Transform {
     Location {
@@ -570,12 +666,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18326046865902055722
+  ParentId: 8169652830574293073
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Light {
     Intensity: 100
@@ -614,7 +713,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10252899930644076126
+  Id: 15103014121891869582
   Name: "Spotlight"
   Transform {
     Location {
@@ -633,12 +732,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18326046865902055722
+  ParentId: 8169652830574293073
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Light {
     Intensity: 100
@@ -677,7 +779,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1905348023716977155
+  Id: 10906036835830386759
   Name: "Spotlight"
   Transform {
     Location {
@@ -696,12 +798,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18326046865902055722
+  ParentId: 8169652830574293073
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Light {
     Intensity: 100
@@ -740,7 +845,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4339985491875436402
+  Id: 2974355287396538646
   Name: "Spotlight"
   Transform {
     Location {
@@ -759,12 +864,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18326046865902055722
+  ParentId: 8169652830574293073
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Light {
     Intensity: 100
@@ -803,7 +911,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17738264119593609893
+  Id: 6465848741635337420
   Name: "Spotlight"
   Transform {
     Location {
@@ -822,12 +930,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18326046865902055722
+  ParentId: 8169652830574293073
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Light {
     Intensity: 100
@@ -866,7 +977,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7520366504890206526
+  Id: 13691061961745434562
   Name: "Spotlight"
   Transform {
     Location {
@@ -885,12 +996,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18326046865902055722
+  ParentId: 8169652830574293073
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Light {
     Intensity: 100
@@ -929,7 +1043,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2642761934904125761
+  Id: 16756446768436148489
   Name: "Spotlight"
   Transform {
     Location {
@@ -948,12 +1062,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18326046865902055722
+  ParentId: 8169652830574293073
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Light {
     Intensity: 100
@@ -992,7 +1109,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6285285014326430138
+  Id: 3613851688402226195
   Name: "Spotlight"
   Transform {
     Location {
@@ -1011,12 +1128,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18326046865902055722
+  ParentId: 8169652830574293073
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Light {
     Intensity: 100
@@ -1055,7 +1175,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16067838114281207773
+  Id: 8035198043087465787
   Name: "Spotlight"
   Transform {
     Location {
@@ -1074,12 +1194,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18326046865902055722
+  ParentId: 8169652830574293073
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Light {
     Intensity: 100
@@ -1118,36 +1241,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5820702334396238056
-  Name: "ChannelsTEMPORARY"
-  Transform {
-    Location {
-      X: -6010.06
-      Y: -1.19503784
-      Z: -50
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15062001147149131720
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "ChannelsTEMPORARY"
-  }
-}
-Objects {
-  Id: 9727394318699712712
+  Id: 10430026805128273121
   Name: "AoE Tower Placement Effects"
   Transform {
     Location {
@@ -1160,12 +1254,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15062001147149131720
+  ParentId: 5823552244372638437
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true
@@ -1173,7 +1270,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12886719881952382814
+  Id: 7314882008716236405
   Name: "ArenaWalls"
   Transform {
     Location {
@@ -1189,12 +1286,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15062001147149131720
+  ParentId: 5823552244372638437
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true
@@ -1202,7 +1302,7 @@ Objects {
   }
 }
 Objects {
-  Id: 565739784558394111
+  Id: 4449851327093948531
   Name: "NetworkHubSphere"
   Transform {
     Scale {
@@ -1211,126 +1311,14 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15062001147149131720
+  ParentId: 5823552244372638437
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
-    ParameterOverrideMap {
-      key: 65186759432382668
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 6334174859217068708
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 1339151006891240960
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 6334174859217068708
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 1867388367014714584
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 6334174859217068708
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 3073802648986103955
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 6334174859217068708
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 3857083285229537837
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 6334174859217068708
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 4561072375613653874
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 6334174859217068708
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 5650558505551839509
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 6334174859217068708
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 6118412640116624411
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 6334174859217068708
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 6202985001731874717
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 6334174859217068708
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 6329032395735361669
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 15281791623124508840
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -150.417969
-            Y: -321.738861
-            Z: -190.054535
-          }
-        }
-      }
-    }
     ParameterOverrideMap {
       key: 6484072869494528217
       value {
@@ -1341,7 +1329,7 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -13973.0801
+            X: -15350
             Y: 322.484375
             Z: 44.5171661
           }
@@ -1349,135 +1337,6 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 7255830621971346783
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 6334174859217068708
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 7435047424276464894
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 6334174859217068708
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 10401350167449882329
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 6334174859217068708
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 12306041948935668050
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 6334174859217068708
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 12524972479225552594
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 6334174859217068708
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 15412381163375562933
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 6334174859217068708
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 15553887102062665017
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 6334174859217068708
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 16111731791558383888
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 6334174859217068708
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 16640910963629052503
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 6334174859217068708
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 17070258254181575932
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 6334174859217068708
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 17877761223531081795
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 6334174859217068708
           }
         }
       }
@@ -1488,7 +1347,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7962166681595736653
+  Id: 10449484516635932030
   Name: "CentralTower"
   Transform {
     Location {
@@ -1505,92 +1364,95 @@ Objects {
       Z: 12.0000019
     }
   }
-  ParentId: 15062001147149131720
-  ChildIds: 3158995457457555742
-  ChildIds: 14487458214398480680
-  ChildIds: 9024586556799881794
-  ChildIds: 9016987253887410275
-  ChildIds: 5314563646288976467
-  ChildIds: 13416527443792095347
-  ChildIds: 656829976650135408
-  ChildIds: 17905755434258921782
-  ChildIds: 2198787731128204635
-  ChildIds: 10794462287403851756
-  ChildIds: 17238478673550993250
-  ChildIds: 1898241250908488750
-  ChildIds: 15535990821048100396
-  ChildIds: 2228802629760617866
-  ChildIds: 14981186353330947965
-  ChildIds: 3069072447399703157
-  ChildIds: 4932587503223533981
-  ChildIds: 3891913663458104763
-  ChildIds: 14128274218333491054
-  ChildIds: 9275485896378108643
-  ChildIds: 15605307783378417557
-  ChildIds: 669461294784592563
-  ChildIds: 1404091854388343774
-  ChildIds: 4383636301805247036
-  ChildIds: 4709201628964312864
-  ChildIds: 2906157024138307192
-  ChildIds: 6089279618214558209
-  ChildIds: 14809852228675267264
-  ChildIds: 12265818875156847742
-  ChildIds: 2399954221330390506
-  ChildIds: 16527444339586443302
-  ChildIds: 8217389384303476407
-  ChildIds: 992739902455656544
-  ChildIds: 14795110335889898838
-  ChildIds: 12290200220851447463
-  ChildIds: 13267862774254936671
-  ChildIds: 10115858069439804110
-  ChildIds: 13839763141604831615
-  ChildIds: 3928590204980956022
-  ChildIds: 6526185373707703381
-  ChildIds: 17908521678863920486
-  ChildIds: 12215978055080477824
-  ChildIds: 2585834197976044129
-  ChildIds: 2113418017520571498
-  ChildIds: 12041242784148414630
-  ChildIds: 2571029884577951807
-  ChildIds: 5159882154592704731
-  ChildIds: 15392166654292745950
-  ChildIds: 9719394151702965744
-  ChildIds: 5564828988282892099
-  ChildIds: 14669264112945908900
-  ChildIds: 14317178715427718323
-  ChildIds: 5732900706658649251
-  ChildIds: 12197830451990987915
-  ChildIds: 3024747535936507313
-  ChildIds: 214062935720313901
-  ChildIds: 14569134229808535408
-  ChildIds: 9283423481852545664
-  ChildIds: 11927357603892183162
-  ChildIds: 3708372322423339756
-  ChildIds: 12397628080103975194
-  ChildIds: 5581515380909163552
-  ChildIds: 18297721675171557531
-  ChildIds: 2222331503659366900
-  ChildIds: 12986581349634691740
-  ChildIds: 1713532915629746570
-  ChildIds: 11972920943860276684
-  ChildIds: 14560874946951762574
-  ChildIds: 3967006031455284573
-  ChildIds: 158669312744537432
-  ChildIds: 1536921435724879389
-  ChildIds: 8408442132373303294
-  ChildIds: 4584551613413233790
+  ParentId: 5823552244372638437
+  ChildIds: 15138221448974010139
+  ChildIds: 15184933218952935432
+  ChildIds: 12388069920982363597
+  ChildIds: 10091482567284239396
+  ChildIds: 14808214063722638
+  ChildIds: 1004343833961210456
+  ChildIds: 5467198940274323244
+  ChildIds: 13600823580565012721
+  ChildIds: 10749565324424160331
+  ChildIds: 9114912850926684497
+  ChildIds: 15181008260176714162
+  ChildIds: 10638463187032066833
+  ChildIds: 16106105468192445276
+  ChildIds: 2266691766077281883
+  ChildIds: 7305409419464519887
+  ChildIds: 8405531883892054641
+  ChildIds: 3379648220576754103
+  ChildIds: 1200691601359631080
+  ChildIds: 3244498609574764121
+  ChildIds: 1023330731577024787
+  ChildIds: 13013850355944139697
+  ChildIds: 755700735894837142
+  ChildIds: 7045023122257415572
+  ChildIds: 8701332814035540642
+  ChildIds: 10359231531558884299
+  ChildIds: 17457725754960477306
+  ChildIds: 8007614641282672563
+  ChildIds: 4193157226708199840
+  ChildIds: 11961718070688606998
+  ChildIds: 9373131230552019183
+  ChildIds: 1255565064884022204
+  ChildIds: 11531364300491705246
+  ChildIds: 12476346725762643057
+  ChildIds: 9695628455171251033
+  ChildIds: 14175611214099834394
+  ChildIds: 7325508585918892493
+  ChildIds: 5205822101927741901
+  ChildIds: 12569731471343813651
+  ChildIds: 2312659528712851936
+  ChildIds: 17977331748198034464
+  ChildIds: 4708336329077825548
+  ChildIds: 5186450853687588780
+  ChildIds: 13591913551896845810
+  ChildIds: 17234973066636481657
+  ChildIds: 9782488922749186178
+  ChildIds: 12497901236735971705
+  ChildIds: 17556093415467675298
+  ChildIds: 5042271538643398634
+  ChildIds: 16762125486212092417
+  ChildIds: 14291902907634666481
+  ChildIds: 13321437879119793565
+  ChildIds: 4495307768742341015
+  ChildIds: 6603126216863443754
+  ChildIds: 16135752355701648752
+  ChildIds: 6463439686186926139
+  ChildIds: 17446790113228079421
+  ChildIds: 8462910887309441593
+  ChildIds: 14643771988101893493
+  ChildIds: 16625875148504117312
+  ChildIds: 14138344038879512464
+  ChildIds: 1169125100054989206
+  ChildIds: 16266697783450682700
+  ChildIds: 2185329326188379718
+  ChildIds: 17141637401557592732
+  ChildIds: 10038199495629685637
+  ChildIds: 12091052493721792480
+  ChildIds: 10039300032566321503
+  ChildIds: 15678823692947543644
+  ChildIds: 16178195835508550963
+  ChildIds: 7174170093979568319
+  ChildIds: 2811544850091582912
+  ChildIds: 10596058253450944338
+  ChildIds: 1707985959307649646
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsGroup: true
   }
 }
 Objects {
-  Id: 4584551613413233790
+  Id: 1707985959307649646
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -1607,7 +1469,7 @@ Objects {
       Z: 8.24999714
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1625,6 +1487,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -1633,7 +1498,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -1644,7 +1508,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8408442132373303294
+  Id: 10596058253450944338
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -1662,7 +1526,7 @@ Objects {
       Z: 7.49999428
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -1691,6 +1555,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -1699,7 +1566,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -1710,7 +1576,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1536921435724879389
+  Id: 2811544850091582912
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -1727,7 +1593,7 @@ Objects {
       Z: 7.49999428
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -1756,6 +1622,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -1764,7 +1633,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -1775,7 +1643,7 @@ Objects {
   }
 }
 Objects {
-  Id: 158669312744537432
+  Id: 7174170093979568319
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -1793,7 +1661,7 @@ Objects {
       Z: 8.24999714
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1811,6 +1679,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -1819,7 +1690,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -1830,7 +1700,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3967006031455284573
+  Id: 16178195835508550963
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -1848,7 +1718,7 @@ Objects {
       Z: 8.24999714
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1866,6 +1736,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -1874,7 +1747,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -1885,7 +1757,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14560874946951762574
+  Id: 15678823692947543644
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -1902,7 +1774,7 @@ Objects {
       Z: 7.49999428
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -1931,6 +1803,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -1939,7 +1814,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -1950,7 +1824,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11972920943860276684
+  Id: 10039300032566321503
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -1967,7 +1841,7 @@ Objects {
       Z: 8.24999714
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1985,6 +1859,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -1993,7 +1870,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -2004,7 +1880,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1713532915629746570
+  Id: 12091052493721792480
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -2022,7 +1898,7 @@ Objects {
       Z: 7.49999428
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -2051,6 +1927,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -2059,7 +1938,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -2070,7 +1948,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12986581349634691740
+  Id: 10038199495629685637
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -2088,7 +1966,7 @@ Objects {
       Z: 8.24999714
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2106,6 +1984,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -2114,7 +1995,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -2125,7 +2005,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2222331503659366900
+  Id: 17141637401557592732
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -2143,7 +2023,7 @@ Objects {
       Z: 7.49999428
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -2172,6 +2052,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -2180,7 +2063,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -2191,7 +2073,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18297721675171557531
+  Id: 2185329326188379718
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -2209,7 +2091,7 @@ Objects {
       Z: 7.49999428
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -2238,6 +2120,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -2246,7 +2131,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -2257,7 +2141,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5581515380909163552
+  Id: 16266697783450682700
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -2275,7 +2159,7 @@ Objects {
       Z: 8.24999714
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2293,6 +2177,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -2301,7 +2188,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -2312,7 +2198,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12397628080103975194
+  Id: 1169125100054989206
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -2330,7 +2216,7 @@ Objects {
       Z: 8.24999714
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2348,6 +2234,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -2356,7 +2245,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -2367,7 +2255,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3708372322423339756
+  Id: 14138344038879512464
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -2385,7 +2273,7 @@ Objects {
       Z: 7.49999428
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -2414,6 +2302,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -2422,7 +2313,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -2433,7 +2323,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11927357603892183162
+  Id: 16625875148504117312
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -2451,7 +2341,7 @@ Objects {
       Z: 8.24999714
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2469,6 +2359,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -2477,7 +2370,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -2488,7 +2380,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9283423481852545664
+  Id: 14643771988101893493
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -2506,7 +2398,7 @@ Objects {
       Z: 7.49999428
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -2535,6 +2427,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -2543,7 +2438,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -2554,7 +2448,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14569134229808535408
+  Id: 8462910887309441593
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -2572,7 +2466,7 @@ Objects {
       Z: 8.24999714
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2590,6 +2484,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -2598,7 +2495,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -2609,7 +2505,7 @@ Objects {
   }
 }
 Objects {
-  Id: 214062935720313901
+  Id: 17446790113228079421
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -2627,7 +2523,7 @@ Objects {
       Z: 7.49999428
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -2656,6 +2552,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -2664,7 +2563,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -2675,7 +2573,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3024747535936507313
+  Id: 6463439686186926139
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -2693,7 +2591,7 @@ Objects {
       Z: 7.49999428
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -2722,6 +2620,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -2730,7 +2631,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -2741,7 +2641,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12197830451990987915
+  Id: 16135752355701648752
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -2759,7 +2659,7 @@ Objects {
       Z: 8.24999714
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2777,6 +2677,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -2785,7 +2688,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -2796,7 +2698,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5732900706658649251
+  Id: 6603126216863443754
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -2814,7 +2716,7 @@ Objects {
       Z: 8.24999714
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2832,6 +2734,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -2840,7 +2745,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -2851,7 +2755,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14317178715427718323
+  Id: 4495307768742341015
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -2869,7 +2773,7 @@ Objects {
       Z: 7.49999428
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -2898,6 +2802,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -2906,7 +2813,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -2917,7 +2823,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14669264112945908900
+  Id: 13321437879119793565
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -2935,7 +2841,7 @@ Objects {
       Z: 8.24999714
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2953,6 +2859,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -2961,7 +2870,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -2972,7 +2880,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5564828988282892099
+  Id: 14291902907634666481
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -2990,7 +2898,7 @@ Objects {
       Z: 7.49999428
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -3019,6 +2927,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -3027,7 +2938,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -3038,7 +2948,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9719394151702965744
+  Id: 16762125486212092417
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -3056,7 +2966,7 @@ Objects {
       Z: 8.24999714
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -3074,6 +2984,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -3082,7 +2995,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -3093,7 +3005,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15392166654292745950
+  Id: 5042271538643398634
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -3111,7 +3023,7 @@ Objects {
       Z: 7.49999428
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -3140,6 +3052,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -3148,7 +3063,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -3159,7 +3073,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5159882154592704731
+  Id: 17556093415467675298
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -3177,7 +3091,7 @@ Objects {
       Z: 7.49999428
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -3206,6 +3120,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -3214,7 +3131,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -3225,7 +3141,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2571029884577951807
+  Id: 12497901236735971705
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -3243,7 +3159,7 @@ Objects {
       Z: 8.24999714
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -3261,6 +3177,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -3269,7 +3188,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -3280,7 +3198,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12041242784148414630
+  Id: 9782488922749186178
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -3298,7 +3216,7 @@ Objects {
       Z: 8.24999714
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -3316,6 +3234,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -3324,7 +3245,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -3335,7 +3255,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2113418017520571498
+  Id: 17234973066636481657
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -3353,7 +3273,7 @@ Objects {
       Z: 7.49999428
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -3382,6 +3302,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -3390,7 +3313,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -3401,7 +3323,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2585834197976044129
+  Id: 13591913551896845810
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -3419,7 +3341,7 @@ Objects {
       Z: 8.24999714
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -3437,6 +3359,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -3445,7 +3370,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -3456,7 +3380,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12215978055080477824
+  Id: 5186450853687588780
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -3474,7 +3398,7 @@ Objects {
       Z: 7.49999428
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -3503,6 +3427,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -3511,7 +3438,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -3522,7 +3448,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17908521678863920486
+  Id: 4708336329077825548
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -3540,7 +3466,7 @@ Objects {
       Z: 8.24999714
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -3558,6 +3484,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -3566,7 +3495,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -3577,7 +3505,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6526185373707703381
+  Id: 17977331748198034464
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -3594,7 +3522,7 @@ Objects {
       Z: 7.49999428
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -3623,6 +3551,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -3631,7 +3562,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -3642,7 +3572,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3928590204980956022
+  Id: 2312659528712851936
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -3660,7 +3590,7 @@ Objects {
       Z: 7.49999428
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -3689,6 +3619,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -3697,7 +3630,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -3708,7 +3640,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13839763141604831615
+  Id: 12569731471343813651
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -3725,7 +3657,7 @@ Objects {
       Z: 8.24999714
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -3743,6 +3675,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -3751,7 +3686,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -3762,7 +3696,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10115858069439804110
+  Id: 5205822101927741901
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -3779,7 +3713,7 @@ Objects {
       Z: 8.24999714
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -3797,6 +3731,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -3805,7 +3742,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -3816,7 +3752,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13267862774254936671
+  Id: 7325508585918892493
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -3834,7 +3770,7 @@ Objects {
       Z: 7.49999428
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -3863,6 +3799,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -3871,7 +3810,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -3882,7 +3820,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12290200220851447463
+  Id: 14175611214099834394
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -3900,7 +3838,7 @@ Objects {
       Z: 8.24999714
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -3918,6 +3856,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -3926,7 +3867,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -3937,7 +3877,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14795110335889898838
+  Id: 9695628455171251033
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -3954,7 +3894,7 @@ Objects {
       Z: 7.49999428
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -3983,6 +3923,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -3991,7 +3934,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -4002,7 +3944,7 @@ Objects {
   }
 }
 Objects {
-  Id: 992739902455656544
+  Id: 12476346725762643057
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -4020,7 +3962,7 @@ Objects {
       Z: 8.24999714
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -4038,6 +3980,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -4046,7 +3991,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -4057,7 +4001,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8217389384303476407
+  Id: 11531364300491705246
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -4075,7 +4019,7 @@ Objects {
       Z: 7.49999428
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -4104,6 +4048,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -4112,7 +4059,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -4123,7 +4069,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16527444339586443302
+  Id: 1255565064884022204
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -4141,7 +4087,7 @@ Objects {
       Z: 7.49999428
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -4170,6 +4116,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -4178,7 +4127,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -4189,7 +4137,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2399954221330390506
+  Id: 9373131230552019183
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -4207,7 +4155,7 @@ Objects {
       Z: 8.24999714
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -4225,6 +4173,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -4233,7 +4184,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -4244,7 +4194,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12265818875156847742
+  Id: 11961718070688606998
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -4262,7 +4212,7 @@ Objects {
       Z: 8.24999714
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -4280,6 +4230,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -4288,7 +4241,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -4299,7 +4251,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14809852228675267264
+  Id: 4193157226708199840
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -4317,7 +4269,7 @@ Objects {
       Z: 7.49999428
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -4346,6 +4298,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -4354,7 +4309,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -4365,7 +4319,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6089279618214558209
+  Id: 8007614641282672563
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -4383,7 +4337,7 @@ Objects {
       Z: 8.24999714
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -4401,6 +4355,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -4409,7 +4366,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -4420,7 +4376,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2906157024138307192
+  Id: 17457725754960477306
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -4438,7 +4394,7 @@ Objects {
       Z: 7.49999428
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -4467,6 +4423,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -4475,7 +4434,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -4486,7 +4444,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4709201628964312864
+  Id: 10359231531558884299
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -4504,7 +4462,7 @@ Objects {
       Z: 8.24999714
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -4522,6 +4480,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -4530,7 +4491,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -4541,7 +4501,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4383636301805247036
+  Id: 8701332814035540642
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -4559,7 +4519,7 @@ Objects {
       Z: 7.49999523
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -4588,6 +4548,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -4596,7 +4559,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -4607,7 +4569,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1404091854388343774
+  Id: 7045023122257415572
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -4625,7 +4587,7 @@ Objects {
       Z: 7.49999475
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -4654,6 +4616,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -4662,7 +4627,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -4673,7 +4637,7 @@ Objects {
   }
 }
 Objects {
-  Id: 669461294784592563
+  Id: 755700735894837142
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -4691,7 +4655,7 @@ Objects {
       Z: 8.24999714
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -4709,6 +4673,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -4717,7 +4684,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -4728,7 +4694,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15605307783378417557
+  Id: 13013850355944139697
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -4746,7 +4712,7 @@ Objects {
       Z: 8.24999714
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -4764,6 +4730,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -4772,7 +4741,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -4783,7 +4751,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9275485896378108643
+  Id: 1023330731577024787
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -4801,7 +4769,7 @@ Objects {
       Z: 7.49999523
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -4830,6 +4798,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -4838,7 +4809,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -4849,7 +4819,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14128274218333491054
+  Id: 3244498609574764121
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -4867,7 +4837,7 @@ Objects {
       Z: 8.24999714
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -4885,6 +4855,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -4893,7 +4866,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -4904,7 +4876,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3891913663458104763
+  Id: 1200691601359631080
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -4922,7 +4894,7 @@ Objects {
       Z: 7.49999571
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -4951,6 +4923,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -4959,7 +4934,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -4970,7 +4944,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4932587503223533981
+  Id: 3379648220576754103
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -4988,7 +4962,7 @@ Objects {
       Z: 7.5
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -5017,6 +4991,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -5025,7 +5002,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -5036,7 +5012,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3069072447399703157
+  Id: 8405531883892054641
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -5054,7 +5030,7 @@ Objects {
       Z: 8.24999714
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -5072,6 +5048,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -5080,7 +5059,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -5091,7 +5069,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14981186353330947965
+  Id: 7305409419464519887
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -5109,7 +5087,7 @@ Objects {
       Z: 7.50000048
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -5138,6 +5116,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -5146,7 +5127,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -5157,7 +5137,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2228802629760617866
+  Id: 2266691766077281883
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -5176,7 +5156,7 @@ Objects {
       Z: 8.24999714
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -5194,6 +5174,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -5202,7 +5185,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -5213,7 +5195,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15535990821048100396
+  Id: 16106105468192445276
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -5231,7 +5213,7 @@ Objects {
       Z: 7.49999952
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -5260,6 +5242,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -5268,7 +5253,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -5279,7 +5263,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1898241250908488750
+  Id: 10638463187032066833
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -5298,7 +5282,7 @@ Objects {
       Z: 8.24999905
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -5316,6 +5300,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -5324,7 +5311,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -5335,7 +5321,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17238478673550993250
+  Id: 15181008260176714162
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -5353,7 +5339,7 @@ Objects {
       Z: 7.5
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -5382,6 +5368,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -5390,7 +5379,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -5401,7 +5389,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10794462287403851756
+  Id: 9114912850926684497
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -5419,7 +5407,7 @@ Objects {
       Z: 8.25
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -5437,6 +5425,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -5445,7 +5436,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -5456,7 +5446,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2198787731128204635
+  Id: 10749565324424160331
   Name: "Sci-fi Base Girder Corner 01"
   Transform {
     Location {
@@ -5473,7 +5463,7 @@ Objects {
       Z: 1.4999994
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -5490,6 +5480,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 795932075519654652
@@ -5498,7 +5491,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -5509,7 +5501,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17905755434258921782
+  Id: 13600823580565012721
   Name: "Sci-fi Base Girder Corner 01"
   Transform {
     Location {
@@ -5526,7 +5518,7 @@ Objects {
       Z: 1.4999994
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -5543,6 +5535,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 795932075519654652
@@ -5551,7 +5546,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -5562,7 +5556,7 @@ Objects {
   }
 }
 Objects {
-  Id: 656829976650135408
+  Id: 5467198940274323244
   Name: "Sci-fi Base Girder Corner 01"
   Transform {
     Location {
@@ -5579,7 +5573,7 @@ Objects {
       Z: 1.4999994
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -5596,6 +5590,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 795932075519654652
@@ -5604,7 +5601,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -5615,7 +5611,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13416527443792095347
+  Id: 1004343833961210456
   Name: "Sci-fi Base Girder Corner 01"
   Transform {
     Location {
@@ -5632,7 +5628,7 @@ Objects {
       Z: 1.4999994
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -5649,6 +5645,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 795932075519654652
@@ -5657,7 +5656,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -5668,7 +5666,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5314563646288976467
+  Id: 14808214063722638
   Name: "Sci-fi Base Girder Corner 01"
   Transform {
     Location {
@@ -5685,7 +5683,7 @@ Objects {
       Z: 1.4999994
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -5702,6 +5700,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 795932075519654652
@@ -5710,7 +5711,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -5721,7 +5721,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9016987253887410275
+  Id: 10091482567284239396
   Name: "Sci-fi Base Girder Corner 01"
   Transform {
     Location {
@@ -5738,7 +5738,7 @@ Objects {
       Z: 1.4999994
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -5755,6 +5755,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 795932075519654652
@@ -5763,7 +5766,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -5774,7 +5776,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9024586556799881794
+  Id: 12388069920982363597
   Name: "Sci-fi Base Girder Corner 01"
   Transform {
     Location {
@@ -5791,7 +5793,7 @@ Objects {
       Z: 1.49999964
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -5808,6 +5810,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 795932075519654652
@@ -5816,7 +5821,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -5827,7 +5831,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14487458214398480680
+  Id: 15184933218952935432
   Name: "Sci-fi Base Girder Corner 01"
   Transform {
     Location {
@@ -5844,7 +5848,7 @@ Objects {
       Z: 1.5
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -5861,6 +5865,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 795932075519654652
@@ -5869,7 +5876,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -5880,7 +5886,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3158995457457555742
+  Id: 15138221448974010139
   Name: "Prism - 8-Sided"
   Transform {
     Location {
@@ -5896,7 +5902,7 @@ Objects {
       Z: 7.19230556
     }
   }
-  ParentId: 7962166681595736653
+  ParentId: 10449484516635932030
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -5911,6 +5917,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 5075754212973068898
@@ -5919,7 +5928,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -5930,7 +5938,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17935591131925616529
+  Id: 2245818712896713246
   Name: "Pillar"
   Transform {
     Location {
@@ -5946,33 +5954,36 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15062001147149131720
-  ChildIds: 5513831335081163581
-  ChildIds: 9219019905821536156
-  ChildIds: 5862020756475002495
-  ChildIds: 3946172038671113856
-  ChildIds: 16795191694277462228
-  ChildIds: 5134461011310080938
-  ChildIds: 16529314022809480237
-  ChildIds: 17360948756645483467
-  ChildIds: 6315725119498554656
-  ChildIds: 1411941072360147356
-  ChildIds: 4902074280675714531
-  ChildIds: 16616688993246455496
-  ChildIds: 16882101435055595350
-  ChildIds: 11825659300023931680
+  ParentId: 5823552244372638437
+  ChildIds: 10102495643849879755
+  ChildIds: 9221388891239323117
+  ChildIds: 8769151795065785267
+  ChildIds: 18016625324640046547
+  ChildIds: 16698656541405355824
+  ChildIds: 1765924235707251863
+  ChildIds: 11019880529718269850
+  ChildIds: 14711096055768529240
+  ChildIds: 13532127090426353818
+  ChildIds: 3542577519399099664
+  ChildIds: 13362771465076984025
+  ChildIds: 6162564508599100167
+  ChildIds: 2401067330727651895
+  ChildIds: 14485425930822326695
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsGroup: true
   }
 }
 Objects {
-  Id: 11825659300023931680
+  Id: 14485425930822326695
   Name: "GlowyBit"
   Transform {
     Location {
@@ -5989,14 +6000,17 @@ Objects {
       Z: 2.7773242
     }
   }
-  ParentId: 17935591131925616529
-  ChildIds: 1624176257829628048
-  ChildIds: 9951253120787693323
+  ParentId: 2245818712896713246
+  ChildIds: 4424197294268315373
+  ChildIds: 12075018238061191180
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     Model {
@@ -6004,7 +6018,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9951253120787693323
+  Id: 12075018238061191180
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -6021,7 +6035,7 @@ Objects {
       Z: 14.4374981
     }
   }
-  ParentId: 11825659300023931680
+  ParentId: 14485425930822326695
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6048,6 +6062,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -6056,7 +6073,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -6067,7 +6083,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1624176257829628048
+  Id: 4424197294268315373
   Name: "Sci-fi Cockpit Siderail 01"
   Transform {
     Location {
@@ -6085,7 +6101,7 @@ Objects {
       Z: 13.124999
     }
   }
-  ParentId: 11825659300023931680
+  ParentId: 14485425930822326695
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -6114,6 +6130,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 11024977997119225113
@@ -6122,7 +6141,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -6133,7 +6151,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16882101435055595350
+  Id: 2401067330727651895
   Name: "Sci-fi Ship Wing Small 01"
   Transform {
     Location {
@@ -6152,7 +6170,7 @@ Objects {
       Z: 19.4999733
     }
   }
-  ParentId: 17935591131925616529
+  ParentId: 2245818712896713246
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6190,6 +6208,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 8120172434194110335
@@ -6198,7 +6219,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -6209,7 +6229,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16616688993246455496
+  Id: 6162564508599100167
   Name: "Sci-fi Ship Nacelle 02"
   Transform {
     Location {
@@ -6227,7 +6247,7 @@ Objects {
       Z: 20.6531048
     }
   }
-  ParentId: 17935591131925616529
+  ParentId: 2245818712896713246
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6251,6 +6271,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 1678978340045821419
@@ -6259,7 +6282,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -6270,7 +6292,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4902074280675714531
+  Id: 13362771465076984025
   Name: "Capsule"
   Transform {
     Location {
@@ -6288,7 +6310,7 @@ Objects {
       Z: 2.75
     }
   }
-  ParentId: 17935591131925616529
+  ParentId: 2245818712896713246
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6311,6 +6333,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 18245801099677651177
@@ -6319,7 +6344,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -6330,7 +6354,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1411941072360147356
+  Id: 3542577519399099664
   Name: "Capsule"
   Transform {
     Location {
@@ -6349,7 +6373,7 @@ Objects {
       Z: 2.75
     }
   }
-  ParentId: 17935591131925616529
+  ParentId: 2245818712896713246
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6372,6 +6396,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 18245801099677651177
@@ -6380,7 +6407,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -6391,7 +6417,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6315725119498554656
+  Id: 13532127090426353818
   Name: "Capsule"
   Transform {
     Location {
@@ -6409,7 +6435,7 @@ Objects {
       Z: 1.5
     }
   }
-  ParentId: 17935591131925616529
+  ParentId: 2245818712896713246
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6432,6 +6458,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 18245801099677651177
@@ -6440,7 +6469,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -6451,7 +6479,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17360948756645483467
+  Id: 14711096055768529240
   Name: "Capsule"
   Transform {
     Location {
@@ -6469,7 +6497,7 @@ Objects {
       Z: 1.5
     }
   }
-  ParentId: 17935591131925616529
+  ParentId: 2245818712896713246
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6492,6 +6520,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 18245801099677651177
@@ -6500,7 +6531,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -6511,7 +6541,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16529314022809480237
+  Id: 11019880529718269850
   Name: "Capsule"
   Transform {
     Location {
@@ -6529,7 +6559,7 @@ Objects {
       Z: 1.5
     }
   }
-  ParentId: 17935591131925616529
+  ParentId: 2245818712896713246
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6552,6 +6582,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 18245801099677651177
@@ -6560,7 +6593,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -6571,7 +6603,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5134461011310080938
+  Id: 1765924235707251863
   Name: "Capsule"
   Transform {
     Location {
@@ -6589,7 +6621,7 @@ Objects {
       Z: 1.5
     }
   }
-  ParentId: 17935591131925616529
+  ParentId: 2245818712896713246
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6612,6 +6644,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 18245801099677651177
@@ -6620,7 +6655,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -6631,7 +6665,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16795191694277462228
+  Id: 16698656541405355824
   Name: "Capsule"
   Transform {
     Location {
@@ -6649,7 +6683,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17935591131925616529
+  ParentId: 2245818712896713246
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6672,6 +6706,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 18245801099677651177
@@ -6680,7 +6717,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -6691,7 +6727,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3946172038671113856
+  Id: 18016625324640046547
   Name: "Capsule"
   Transform {
     Location {
@@ -6709,7 +6745,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17935591131925616529
+  ParentId: 2245818712896713246
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6732,6 +6768,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 18245801099677651177
@@ -6740,7 +6779,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -6751,7 +6789,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5862020756475002495
+  Id: 8769151795065785267
   Name: "Sci-fi Ship Nacelle 02"
   Transform {
     Location {
@@ -6769,7 +6807,7 @@ Objects {
       Z: 9.5
     }
   }
-  ParentId: 17935591131925616529
+  ParentId: 2245818712896713246
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6793,6 +6831,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 1678978340045821419
@@ -6801,7 +6842,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -6812,7 +6852,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9219019905821536156
+  Id: 9221388891239323117
   Name: "Sci-fi Ship Nacelle 02"
   Transform {
     Location {
@@ -6829,7 +6869,7 @@ Objects {
       Z: 15.0000057
     }
   }
-  ParentId: 17935591131925616529
+  ParentId: 2245818712896713246
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6853,6 +6893,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 1678978340045821419
@@ -6861,7 +6904,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -6872,7 +6914,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5513831335081163581
+  Id: 10102495643849879755
   Name: "Sci-fi Ship Nacelle 03"
   Transform {
     Location {
@@ -6891,7 +6933,7 @@ Objects {
       Z: 5.50000143
     }
   }
-  ParentId: 17935591131925616529
+  ParentId: 2245818712896713246
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -6915,6 +6957,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 8936483106303992826
@@ -6923,7 +6968,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -6934,7 +6978,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17745281945426585442
+  Id: 16400023598816364162
   Name: "CentralPlatform"
   Transform {
     Location {
@@ -6949,55 +6993,93 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15062001147149131720
-  ChildIds: 1663440911847662303
-  ChildIds: 15919531974641966899
-  ChildIds: 9832059966693644712
-  ChildIds: 2180402588406319840
-  ChildIds: 6200714019056672252
-  ChildIds: 8243735348710088855
-  ChildIds: 18315595460175694067
-  ChildIds: 15889434563729043875
-  ChildIds: 4713327153752768229
-  ChildIds: 12527532807464487606
-  ChildIds: 2715616081798855841
-  ChildIds: 911405132385002779
-  ChildIds: 11641432491733177114
-  ChildIds: 7890817577593128027
-  ChildIds: 1812487178336310679
-  ChildIds: 7408672791722049283
-  ChildIds: 12295611409147876555
-  ChildIds: 3409611030529738998
-  ChildIds: 13420449112498813434
-  ChildIds: 17947260633185166432
-  ChildIds: 14009150997035918134
+  ParentId: 5823552244372638437
+  ChildIds: 3012978193034938632
+  ChildIds: 9132768152100035743
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsGroup: true
   }
 }
 Objects {
-  Id: 14009150997035918134
+  Id: 9132768152100035743
   Name: "Prism - 8-Sided"
   Transform {
     Location {
-      X: 1473.0188
-      Z: -22.6276855
+      X: 3617.37109
+      Y: 4.46836519
+      Z: -196.882813
+    }
+    Rotation {
+      Yaw: 6.83018516e-06
+    }
+    Scale {
+      X: 43.7541924
+      Y: 41.4126434
+      Z: 3.1562674
+    }
+  }
+  ParentId: 16400023598816364162
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 15281791623124508840
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5075754212973068898
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3012978193034938632
+  Name: "Prism - 8-Sided"
+  Transform {
+    Location {
+      X: 764.716553
+      Y: 4.46971321
+      Z: 13.9599609
     }
     Rotation {
     }
     Scale {
-      X: 33.7915726
-      Y: 33.7915726
+      X: 22.7483158
+      Y: 17.0407791
       Z: 1.34289706
     }
   }
-  ParentId: 17745281945426585442
+  ParentId: 16400023598816364162
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -7011,6 +7093,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
   }
   CoreMesh {
     MeshAsset {
@@ -7020,7 +7105,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -7031,1185 +7115,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17947260633185166432
-  Name: "Cube"
-  Transform {
-    Location {
-      X: 792.161377
-      Y: -792.150635
-      Z: 6.7930603
-    }
-    Rotation {
-      Yaw: -44.9671021
-    }
-    Scale {
-      X: 0.419565797
-      Y: 10.6738739
-      Z: 0.71774894
-    }
-  }
-  ParentId: 17745281945426585442
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4247430867898109902
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.114482917
-        G: 0.114482917
-        B: 0.128
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 13420449112498813434
-  Name: "Cube"
-  Transform {
-    Location {
-      X: 799.783264
-      Y: -799.772217
-      Z: -48.3020935
-    }
-    Rotation {
-      Yaw: -44.9671021
-    }
-    Scale {
-      X: 0.419565797
-      Y: 10.6738739
-      Z: 0.555586517
-    }
-  }
-  ParentId: 17745281945426585442
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4247430867898109902
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.114482917
-        G: 0.114482917
-        B: 0.128
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 3409611030529738998
-  Name: "Cube"
-  Transform {
-    Location {
-      X: 1120.27771
-      Y: 0.00756835938
-      Z: 6.7930603
-    }
-    Rotation {
-      Yaw: 0.0328805372
-    }
-    Scale {
-      X: 0.419565797
-      Y: 10.6738739
-      Z: 0.71774894
-    }
-  }
-  ParentId: 17745281945426585442
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4247430867898109902
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.114482917
-        G: 0.114482917
-        B: 0.128
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 12295611409147876555
-  Name: "Cube"
-  Transform {
-    Location {
-      X: 1131.05664
-      Y: 0.0078125
-      Z: -48.3020935
-    }
-    Rotation {
-      Yaw: 0.0328805372
-    }
-    Scale {
-      X: 0.419565797
-      Y: 10.6738739
-      Z: 0.555586517
-    }
-  }
-  ParentId: 17745281945426585442
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4247430867898109902
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.114482917
-        G: 0.114482917
-        B: 0.128
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 7408672791722049283
-  Name: "Cube"
-  Transform {
-    Location {
-      X: 792.150635
-      Y: 792.161377
-      Z: 6.7930603
-    }
-    Rotation {
-      Yaw: 45.0328598
-    }
-    Scale {
-      X: 0.419565797
-      Y: 10.6738739
-      Z: 0.71774894
-    }
-  }
-  ParentId: 17745281945426585442
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4247430867898109902
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.114482917
-        G: 0.114482917
-        B: 0.128
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 1812487178336310679
-  Name: "Cube"
-  Transform {
-    Location {
-      X: 799.772461
-      Y: 799.783447
-      Z: -48.3020935
-    }
-    Rotation {
-      Yaw: 45.0328598
-    }
-    Scale {
-      X: 0.419565797
-      Y: 10.6738739
-      Z: 0.555586517
-    }
-  }
-  ParentId: 17745281945426585442
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4247430867898109902
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.114482917
-        G: 0.114482917
-        B: 0.128
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 7890817577593128027
-  Name: "Cube"
-  Transform {
-    Location {
-      X: -0.00769042969
-      Y: 1131.05688
-      Z: 62.949585
-    }
-    Rotation {
-      Yaw: 90.0328751
-    }
-    Scale {
-      X: 0.419565946
-      Y: 9.43610764
-      Z: 0.555586517
-    }
-  }
-  ParentId: 17745281945426585442
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4247430867898109902
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.114482917
-        G: 0.114482917
-        B: 0.128
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 11641432491733177114
-  Name: "Cube"
-  Transform {
-    Location {
-      X: -0.00769042969
-      Y: 1120.27783
-      Z: 6.7930603
-    }
-    Rotation {
-      Yaw: 90.0328751
-    }
-    Scale {
-      X: 0.419565797
-      Y: 10.6738739
-      Z: 0.71774894
-    }
-  }
-  ParentId: 17745281945426585442
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4247430867898109902
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.114482917
-        G: 0.114482917
-        B: 0.128
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 911405132385002779
-  Name: "Cube"
-  Transform {
-    Location {
-      X: -0.00769042969
-      Y: 1131.05688
-      Z: -48.3020935
-    }
-    Rotation {
-      Yaw: 90.0328751
-    }
-    Scale {
-      X: 0.419565797
-      Y: 10.6738739
-      Z: 0.555586517
-    }
-  }
-  ParentId: 17745281945426585442
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4247430867898109902
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.114482917
-        G: 0.114482917
-        B: 0.128
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 2715616081798855841
-  Name: "Cube"
-  Transform {
-    Location {
-      X: -792.161499
-      Y: 792.150635
-      Z: 6.7930603
-    }
-    Rotation {
-      Yaw: 135.032913
-    }
-    Scale {
-      X: 0.419565797
-      Y: 10.6738739
-      Z: 0.71774894
-    }
-  }
-  ParentId: 17745281945426585442
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4247430867898109902
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.114482917
-        G: 0.114482917
-        B: 0.128
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 12527532807464487606
-  Name: "Cube"
-  Transform {
-    Location {
-      X: -799.783447
-      Y: 799.772583
-      Z: -48.3020935
-    }
-    Rotation {
-      Yaw: 135.032913
-    }
-    Scale {
-      X: 0.419565797
-      Y: 10.6738739
-      Z: 0.555586517
-    }
-  }
-  ParentId: 17745281945426585442
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4247430867898109902
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.114482917
-        G: 0.114482917
-        B: 0.128
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 4713327153752768229
-  Name: "Cube"
-  Transform {
-    Location {
-      X: -1120.27795
-      Y: -0.00772094727
-      Z: 6.7930603
-    }
-    Rotation {
-      Yaw: -179.967133
-    }
-    Scale {
-      X: 0.419565797
-      Y: 10.6738739
-      Z: 0.71774894
-    }
-  }
-  ParentId: 17745281945426585442
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4247430867898109902
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.114482917
-        G: 0.114482917
-        B: 0.128
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 15889434563729043875
-  Name: "Cube"
-  Transform {
-    Location {
-      X: -1131.05713
-      Y: -0.00778198242
-      Z: -48.3020935
-    }
-    Rotation {
-      Yaw: -179.967133
-    }
-    Scale {
-      X: 0.419565797
-      Y: 10.6738739
-      Z: 0.555586517
-    }
-  }
-  ParentId: 17745281945426585442
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4247430867898109902
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.114482917
-        G: 0.114482917
-        B: 0.128
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 18315595460175694067
-  Name: "Cube"
-  Transform {
-    Location {
-      X: -792.150635
-      Y: -792.161621
-      Z: 6.7930603
-    }
-    Rotation {
-      Yaw: -134.967178
-    }
-    Scale {
-      X: 0.419565797
-      Y: 10.6738739
-      Z: 0.71774894
-    }
-  }
-  ParentId: 17745281945426585442
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4247430867898109902
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.114482917
-        G: 0.114482917
-        B: 0.128
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 8243735348710088855
-  Name: "Cube"
-  Transform {
-    Location {
-      X: -799.772705
-      Y: -799.783691
-      Z: -48.3020935
-    }
-    Rotation {
-      Yaw: -134.967178
-    }
-    Scale {
-      X: 0.419565797
-      Y: 10.6738739
-      Z: 0.555586517
-    }
-  }
-  ParentId: 17745281945426585442
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4247430867898109902
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.114482917
-        G: 0.114482917
-        B: 0.128
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 6200714019056672252
-  Name: "Cube"
-  Transform {
-    Location {
-      X: 0.0078125
-      Y: -1131.05737
-      Z: 62.949585
-    }
-    Rotation {
-      Yaw: -89.9672241
-    }
-    Scale {
-      X: 0.419565946
-      Y: 9.43610764
-      Z: 0.555586517
-    }
-  }
-  ParentId: 17745281945426585442
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4247430867898109902
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.114482917
-        G: 0.114482917
-        B: 0.128
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 2180402588406319840
-  Name: "Cube"
-  Transform {
-    Location {
-      X: 0.0078125
-      Y: -1131.05737
-      Z: -48.3020935
-    }
-    Rotation {
-      Yaw: -89.9672241
-    }
-    Scale {
-      X: 0.419565797
-      Y: 10.6738739
-      Z: 0.555586517
-    }
-  }
-  ParentId: 17745281945426585442
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4247430867898109902
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.114482917
-        G: 0.114482917
-        B: 0.128
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 9832059966693644712
-  Name: "Cube"
-  Transform {
-    Location {
-      X: 0.0078125
-      Y: -1120.27808
-      Z: 6.7930603
-    }
-    Rotation {
-      Yaw: -89.9672241
-    }
-    Scale {
-      X: 0.419565797
-      Y: 10.6738739
-      Z: 0.71774894
-    }
-  }
-  ParentId: 17745281945426585442
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4247430867898109902
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.114482917
-        G: 0.114482917
-        B: 0.128
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 15919531974641966899
-  Name: "Cube - Bottom-Aligned"
-  Transform {
-    Location {
-      X: -1135.98
-      Z: -56.0661774
-    }
-    Rotation {
-      Yaw: 45
-    }
-    Scale {
-      X: 6.75857258
-      Y: 6.75857258
-      Z: 1.0105648
-    }
-  }
-  ParentId: 17745281945426585442
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 15281791623124508840
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 15305476051440937955
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 1663440911847662303
-  Name: "Prism - 8-Sided"
-  Transform {
-    Location {
-      Z: -5
-    }
-    Rotation {
-    }
-    Scale {
-      X: 24.6924629
-      Y: 24.6924629
-      Z: 0.981293321
-    }
-  }
-  ParentId: 17745281945426585442
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 15281791623124508840
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 5075754212973068898
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 17380820814880252260
+  Id: 14388121191630319353
   Name: "Background Scenery"
   Transform {
     Location {
@@ -8222,19 +7128,22 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15062001147149131720
+  ParentId: 5823552244372638437
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsGroup: true
   }
 }
 Objects {
-  Id: 2253038029340938273
+  Id: 15835924387090647626
   Name: "Lights"
   Transform {
     Location {
@@ -8247,20 +7156,23 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15062001147149131720
-  ChildIds: 3214040431739047506
+  ParentId: 5823552244372638437
+  ChildIds: 16627302353037513841
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsGroup: true
   }
 }
 Objects {
-  Id: 3214040431739047506
+  Id: 16627302353037513841
   Name: "Area Light"
   Transform {
     Location {
@@ -8277,12 +7189,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2253038029340938273
+  ParentId: 15835924387090647626
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Light {
     Intensity: 100
@@ -8311,7 +7226,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5425249898154007266
+  Id: 8336450053148906975
   Name: "PulsingObject"
   Transform {
     Location {
@@ -8327,7 +7242,7 @@ Objects {
       Z: 45.3444214
     }
   }
-  ParentId: 15062001147149131720
+  ParentId: 5823552244372638437
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8357,6 +7272,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 10047245790400686352
@@ -8365,7 +7283,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -8376,7 +7293,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13421885988303722665
+  Id: 2021850061747315643
   Name: "CentralPlatform"
   Transform {
     Location {
@@ -8390,36 +7307,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15062001147149131720
-  ChildIds: 10809388583088706828
-  ChildIds: 4035002148876660823
-  ChildIds: 15914465449931609828
-  ChildIds: 836355799392890470
-  ChildIds: 17453701435709806263
-  ChildIds: 14965300717299096461
-  ChildIds: 1633429559771893203
-  ChildIds: 3866639952960307535
-  ChildIds: 4321706495787812651
-  ChildIds: 4334524608380447382
-  ChildIds: 17073188188038094084
-  ChildIds: 16561224399965498236
-  ChildIds: 15826859949438252824
-  ChildIds: 11276640795267401265
-  ChildIds: 3176625363098958928
-  ChildIds: 16417937804665979836
-  ChildIds: 12449250326700300821
+  ParentId: 5823552244372638437
+  ChildIds: 15321525151787758169
+  ChildIds: 14476500952477583426
+  ChildIds: 7817949993707295462
+  ChildIds: 6785084708500591818
+  ChildIds: 5806418387252705747
+  ChildIds: 589740326471077919
+  ChildIds: 1488728400783511307
+  ChildIds: 16800013547994231167
+  ChildIds: 4962719226465980839
+  ChildIds: 17385674096782915916
+  ChildIds: 14640080670762121417
+  ChildIds: 13585814712298641633
+  ChildIds: 15789780538650366777
+  ChildIds: 15144431382554934822
+  ChildIds: 785399964928140458
+  ChildIds: 6620291126750277334
+  ChildIds: 3770336219945859548
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsGroup: true
   }
 }
 Objects {
-  Id: 12449250326700300821
+  Id: 3770336219945859548
   Name: "Cube"
   Transform {
     Location {
@@ -8436,7 +7356,7 @@ Objects {
       Z: 0.71774894
     }
   }
-  ParentId: 13421885988303722665
+  ParentId: 2021850061747315643
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8460,6 +7380,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 12095835209017042614
@@ -8468,7 +7391,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -8479,7 +7401,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16417937804665979836
+  Id: 6620291126750277334
   Name: "Cube"
   Transform {
     Location {
@@ -8496,7 +7418,7 @@ Objects {
       Z: 0.555586517
     }
   }
-  ParentId: 13421885988303722665
+  ParentId: 2021850061747315643
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8520,6 +7442,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 12095835209017042614
@@ -8528,7 +7453,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -8539,7 +7463,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3176625363098958928
+  Id: 785399964928140458
   Name: "Cube"
   Transform {
     Location {
@@ -8556,7 +7480,7 @@ Objects {
       Z: 0.71774894
     }
   }
-  ParentId: 13421885988303722665
+  ParentId: 2021850061747315643
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8580,6 +7504,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 12095835209017042614
@@ -8588,7 +7515,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -8599,7 +7525,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11276640795267401265
+  Id: 15144431382554934822
   Name: "Cube"
   Transform {
     Location {
@@ -8616,7 +7542,7 @@ Objects {
       Z: 0.555586517
     }
   }
-  ParentId: 13421885988303722665
+  ParentId: 2021850061747315643
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8640,6 +7566,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 12095835209017042614
@@ -8648,7 +7577,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -8659,7 +7587,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15826859949438252824
+  Id: 15789780538650366777
   Name: "Cube"
   Transform {
     Location {
@@ -8676,7 +7604,7 @@ Objects {
       Z: 0.71774894
     }
   }
-  ParentId: 13421885988303722665
+  ParentId: 2021850061747315643
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8700,6 +7628,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 12095835209017042614
@@ -8708,7 +7639,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -8719,7 +7649,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16561224399965498236
+  Id: 13585814712298641633
   Name: "Cube"
   Transform {
     Location {
@@ -8736,7 +7666,7 @@ Objects {
       Z: 0.555586517
     }
   }
-  ParentId: 13421885988303722665
+  ParentId: 2021850061747315643
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8760,6 +7690,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 12095835209017042614
@@ -8768,7 +7701,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -8779,7 +7711,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17073188188038094084
+  Id: 14640080670762121417
   Name: "Cube"
   Transform {
     Location {
@@ -8796,7 +7728,7 @@ Objects {
       Z: 0.71774894
     }
   }
-  ParentId: 13421885988303722665
+  ParentId: 2021850061747315643
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8820,6 +7752,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 12095835209017042614
@@ -8828,7 +7763,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -8839,7 +7773,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4334524608380447382
+  Id: 17385674096782915916
   Name: "Cube"
   Transform {
     Location {
@@ -8856,7 +7790,7 @@ Objects {
       Z: 0.555586517
     }
   }
-  ParentId: 13421885988303722665
+  ParentId: 2021850061747315643
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8880,6 +7814,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 12095835209017042614
@@ -8888,7 +7825,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -8899,7 +7835,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4321706495787812651
+  Id: 4962719226465980839
   Name: "Cube"
   Transform {
     Location {
@@ -8916,7 +7852,7 @@ Objects {
       Z: 0.71774894
     }
   }
-  ParentId: 13421885988303722665
+  ParentId: 2021850061747315643
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8940,6 +7876,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 12095835209017042614
@@ -8948,7 +7887,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -8959,7 +7897,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3866639952960307535
+  Id: 16800013547994231167
   Name: "Cube"
   Transform {
     Location {
@@ -8976,7 +7914,7 @@ Objects {
       Z: 0.555586517
     }
   }
-  ParentId: 13421885988303722665
+  ParentId: 2021850061747315643
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9000,6 +7938,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 12095835209017042614
@@ -9008,7 +7949,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -9019,7 +7959,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1633429559771893203
+  Id: 1488728400783511307
   Name: "Cube"
   Transform {
     Location {
@@ -9036,7 +7976,7 @@ Objects {
       Z: 0.555586517
     }
   }
-  ParentId: 13421885988303722665
+  ParentId: 2021850061747315643
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9060,6 +8000,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 12095835209017042614
@@ -9068,7 +8011,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -9079,7 +8021,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14965300717299096461
+  Id: 589740326471077919
   Name: "Cube"
   Transform {
     Location {
@@ -9096,7 +8038,7 @@ Objects {
       Z: 0.71774894
     }
   }
-  ParentId: 13421885988303722665
+  ParentId: 2021850061747315643
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9120,6 +8062,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 12095835209017042614
@@ -9128,7 +8073,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -9139,7 +8083,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17453701435709806263
+  Id: 5806418387252705747
   Name: "Cube"
   Transform {
     Location {
@@ -9156,7 +8100,7 @@ Objects {
       Z: 0.555586517
     }
   }
-  ParentId: 13421885988303722665
+  ParentId: 2021850061747315643
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9180,6 +8124,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 12095835209017042614
@@ -9188,7 +8135,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -9199,7 +8145,7 @@ Objects {
   }
 }
 Objects {
-  Id: 836355799392890470
+  Id: 6785084708500591818
   Name: "Cube"
   Transform {
     Location {
@@ -9216,7 +8162,7 @@ Objects {
       Z: 0.555586517
     }
   }
-  ParentId: 13421885988303722665
+  ParentId: 2021850061747315643
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9240,6 +8186,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 12095835209017042614
@@ -9248,7 +8197,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -9259,7 +8207,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15914465449931609828
+  Id: 7817949993707295462
   Name: "Cube"
   Transform {
     Location {
@@ -9276,7 +8224,7 @@ Objects {
       Z: 0.71774894
     }
   }
-  ParentId: 13421885988303722665
+  ParentId: 2021850061747315643
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9300,6 +8248,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 12095835209017042614
@@ -9308,7 +8259,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -9319,7 +8269,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4035002148876660823
+  Id: 14476500952477583426
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -9335,7 +8285,7 @@ Objects {
       Z: 1.0105648
     }
   }
-  ParentId: 13421885988303722665
+  ParentId: 2021850061747315643
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9350,6 +8300,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 15305476051440937955
@@ -9358,7 +8311,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -9369,7 +8321,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10809388583088706828
+  Id: 15321525151787758169
   Name: "Prism - 8-Sided"
   Transform {
     Location {
@@ -9383,7 +8335,7 @@ Objects {
       Z: 0.981293321
     }
   }
-  ParentId: 13421885988303722665
+  ParentId: 2021850061747315643
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9398,6 +8350,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 5075754212973068898
@@ -9406,7 +8361,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -9417,7 +8371,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8206171396333732391
+  Id: 17627867783597582699
   Name: "Cube - Chamfered Large Polished"
   Transform {
     Location {
@@ -9433,7 +8387,7 @@ Objects {
       Z: 1.5
     }
   }
-  ParentId: 15062001147149131720
+  ParentId: 5823552244372638437
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9448,6 +8402,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 10832704295079374334
@@ -9456,7 +8413,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -9467,7 +8423,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13630004616482738142
+  Id: 18142807544922634160
   Name: "OuterWalls"
   Transform {
     Location {
@@ -9483,20 +8439,23 @@ Objects {
       Z: 2.1165936
     }
   }
-  ParentId: 15062001147149131720
-  ChildIds: 16424960988430841373
+  ParentId: 5823552244372638437
+  ChildIds: 9643565496717572744
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsGroup: true
   }
 }
 Objects {
-  Id: 16424960988430841373
+  Id: 9643565496717572744
   Name: "OuterWalls"
   Transform {
     Location {
@@ -9515,20 +8474,23 @@ Objects {
       Z: 1.33345425
     }
   }
-  ParentId: 13630004616482738142
-  ChildIds: 17829558713762618238
+  ParentId: 18142807544922634160
+  ChildIds: 5923794899321104575
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsGroup: true
   }
 }
 Objects {
-  Id: 17829558713762618238
+  Id: 5923794899321104575
   Name: "OuterWallMerge"
   Transform {
     Location {
@@ -9544,127 +8506,130 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16424960988430841373
-  ChildIds: 4191048701678067836
-  ChildIds: 13132953202644395355
-  ChildIds: 337459663871181237
-  ChildIds: 16543231422684577827
-  ChildIds: 16725486311689181543
-  ChildIds: 8419867976084804699
-  ChildIds: 6098347237427349797
-  ChildIds: 4917029817994798453
-  ChildIds: 17109272893084578244
-  ChildIds: 14760680950153976746
-  ChildIds: 3907097082277116553
-  ChildIds: 12560104840547310897
-  ChildIds: 14871563505264963434
-  ChildIds: 8250646242344373596
-  ChildIds: 17827726912736800400
-  ChildIds: 17338316415240918953
-  ChildIds: 1944284802756712862
-  ChildIds: 2845962327351025328
-  ChildIds: 2593831998972622472
-  ChildIds: 6823693968983257404
-  ChildIds: 5056764142040670570
-  ChildIds: 4518329213492085113
-  ChildIds: 5671257473013330600
-  ChildIds: 8881018137041539999
-  ChildIds: 6841293722691353857
-  ChildIds: 8110915411198900818
-  ChildIds: 9144947950874929216
-  ChildIds: 16026608725809960501
-  ChildIds: 2605980227174378897
-  ChildIds: 13328698585859392391
-  ChildIds: 2348948374663589401
-  ChildIds: 17687613082458584690
-  ChildIds: 5548977266249133
-  ChildIds: 4058011288741206828
-  ChildIds: 7484106302038770756
-  ChildIds: 1608376886969916010
-  ChildIds: 11392127537068282648
-  ChildIds: 10767703520340655940
-  ChildIds: 9044124566825955833
-  ChildIds: 11551611922111758358
-  ChildIds: 9846204958280705356
-  ChildIds: 11464597438663333559
-  ChildIds: 13872018337307465776
-  ChildIds: 13816600485007388780
-  ChildIds: 12856333495819558976
-  ChildIds: 16607895607035464101
-  ChildIds: 11515625823876213221
-  ChildIds: 11820034192470809599
-  ChildIds: 2899907264883500906
-  ChildIds: 2207422033696159411
-  ChildIds: 5686319453803750841
-  ChildIds: 18342548435085963036
-  ChildIds: 10776535962285479611
-  ChildIds: 13163034374630034876
-  ChildIds: 18396508673274942819
-  ChildIds: 3724510585542014898
-  ChildIds: 2083452654689579278
-  ChildIds: 17798799650987163214
-  ChildIds: 14802504858601078329
-  ChildIds: 15037344688133845677
-  ChildIds: 17845409990916612057
-  ChildIds: 9206953311752409976
-  ChildIds: 16540144540823976850
-  ChildIds: 14356169643873738699
-  ChildIds: 11591147248048645001
-  ChildIds: 11418945203222472214
-  ChildIds: 4869232629251629406
-  ChildIds: 6740179641133632857
-  ChildIds: 2980776794074731374
-  ChildIds: 8204877984552068962
-  ChildIds: 9975977407294590383
-  ChildIds: 2229147912418555106
-  ChildIds: 14418645273957042493
-  ChildIds: 3247811518573675248
-  ChildIds: 1430606825406297859
-  ChildIds: 962860186186509415
-  ChildIds: 9728657601357762328
-  ChildIds: 17744028544006278447
-  ChildIds: 6411691493958554484
-  ChildIds: 3289384173375967956
-  ChildIds: 15510107470478060638
-  ChildIds: 11201794885751554721
-  ChildIds: 2460011267084149590
-  ChildIds: 12465508579531140441
-  ChildIds: 7929588339534262055
-  ChildIds: 16603160415705398772
-  ChildIds: 642938573859284311
-  ChildIds: 1611932971438234457
-  ChildIds: 15204068758717414452
-  ChildIds: 15183678310166814236
-  ChildIds: 9153402072875872385
-  ChildIds: 3238414972857311311
-  ChildIds: 13490205192805807826
-  ChildIds: 17762050301132092835
-  ChildIds: 2369972090087938609
-  ChildIds: 3730389416224879167
-  ChildIds: 2892143974097532332
-  ChildIds: 2414310909249937363
-  ChildIds: 2799922573269087528
-  ChildIds: 4630977078213894584
-  ChildIds: 16127648725899196262
-  ChildIds: 15039300435828437054
-  ChildIds: 16153665472501395803
-  ChildIds: 288983750632816811
-  ChildIds: 8166018970577857946
-  ChildIds: 5592276672758979271
-  ChildIds: 10388538790460198180
-  ChildIds: 3711517338766764717
-  ChildIds: 12690510421361939768
-  ChildIds: 3424729621903674275
-  ChildIds: 1414972261760890635
-  ChildIds: 13629010561827113395
-  ChildIds: 13465425659014528161
-  ChildIds: 2341341824475712320
-  ChildIds: 7271583961291036788
+  ParentId: 9643565496717572744
+  ChildIds: 17282731857720041915
+  ChildIds: 8146437021500061623
+  ChildIds: 8024505875719300215
+  ChildIds: 16607542751010108744
+  ChildIds: 1628351013343820165
+  ChildIds: 767130038625794644
+  ChildIds: 3539494303678166689
+  ChildIds: 5770433011833717541
+  ChildIds: 350741199607615107
+  ChildIds: 5552551543320492722
+  ChildIds: 14489915865696079851
+  ChildIds: 14676385541528988258
+  ChildIds: 12530661487651047085
+  ChildIds: 7940562082223502374
+  ChildIds: 9321383845398057147
+  ChildIds: 2685527212009010508
+  ChildIds: 15499535693942242928
+  ChildIds: 10439291989205546880
+  ChildIds: 8431310766072726366
+  ChildIds: 6089407026021813097
+  ChildIds: 327976816584141772
+  ChildIds: 17434264872652947161
+  ChildIds: 1469284010944057239
+  ChildIds: 4862324218794346212
+  ChildIds: 17762585146170582626
+  ChildIds: 2797037345213889546
+  ChildIds: 16869757587190718792
+  ChildIds: 13518607761519015308
+  ChildIds: 21779401133722666
+  ChildIds: 12779006338572545848
+  ChildIds: 1192828566571789484
+  ChildIds: 16650300394300335142
+  ChildIds: 6047310558271927609
+  ChildIds: 14790178934411082499
+  ChildIds: 9219518533361437310
+  ChildIds: 948430665094935825
+  ChildIds: 2106123906604065263
+  ChildIds: 15599491647385048843
+  ChildIds: 7930020313578445671
+  ChildIds: 7046959417630663449
+  ChildIds: 1258366481270154946
+  ChildIds: 9087812982032805239
+  ChildIds: 10296780478594466012
+  ChildIds: 16532267994074101565
+  ChildIds: 9063836351231988072
+  ChildIds: 11738502756427245445
+  ChildIds: 7288933101180331968
+  ChildIds: 13979059957404956179
+  ChildIds: 10666271058059466122
+  ChildIds: 6789097450220298115
+  ChildIds: 9077208785529276147
+  ChildIds: 17194034727081304881
+  ChildIds: 17966014247026879580
+  ChildIds: 95935411182235374
+  ChildIds: 5912549953011638767
+  ChildIds: 15039186914802646760
+  ChildIds: 2866709668629926513
+  ChildIds: 620434761712410486
+  ChildIds: 14030382437874410094
+  ChildIds: 17063193365554293986
+  ChildIds: 17006471597320347613
+  ChildIds: 8720878060660406529
+  ChildIds: 15971676145014651810
+  ChildIds: 7458836462962154733
+  ChildIds: 5611115004491845329
+  ChildIds: 9845174040342959943
+  ChildIds: 2645199966089384808
+  ChildIds: 12123146239797253833
+  ChildIds: 467079385944291866
+  ChildIds: 7884888510933772886
+  ChildIds: 2398623991322296590
+  ChildIds: 17298319255007230595
+  ChildIds: 9827317996730933987
+  ChildIds: 11068894958293915682
+  ChildIds: 5782533668033499523
+  ChildIds: 14376875621401653552
+  ChildIds: 5680212497616241012
+  ChildIds: 10491035901078576754
+  ChildIds: 3900272117097578006
+  ChildIds: 10238412519524818463
+  ChildIds: 7872484656995456311
+  ChildIds: 17457546180972603470
+  ChildIds: 12900362712462407571
+  ChildIds: 15756232847746197160
+  ChildIds: 18087762995340337045
+  ChildIds: 3659586657725992601
+  ChildIds: 17688876628724828428
+  ChildIds: 7233229047376890615
+  ChildIds: 8665969966532331967
+  ChildIds: 2509220718588654787
+  ChildIds: 13328222021346241390
+  ChildIds: 9961049470737162223
+  ChildIds: 14755336108665525007
+  ChildIds: 4422298818688066421
+  ChildIds: 824500086426440945
+  ChildIds: 13851358899617122172
+  ChildIds: 15682319770307294483
+  ChildIds: 7497149452290307403
+  ChildIds: 4353051397325897658
+  ChildIds: 12599610957230165070
+  ChildIds: 8427836253815705931
+  ChildIds: 14894044654111790046
+  ChildIds: 16780389432247208780
+  ChildIds: 12466159434367685773
+  ChildIds: 9549282081742891132
+  ChildIds: 7483739754603029117
+  ChildIds: 10911916282501873830
+  ChildIds: 17154222468129226377
+  ChildIds: 3282070671769874351
+  ChildIds: 12786013594703298546
+  ChildIds: 11352538048780707627
+  ChildIds: 299663347834899213
+  ChildIds: 8939562461647841375
+  ChildIds: 15096357698296404209
+  ChildIds: 4779664623766260068
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     Model {
@@ -9672,7 +8637,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7271583961291036788
+  Id: 4779664623766260068
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -9691,7 +8656,7 @@ Objects {
       Z: 3.13209605
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9715,6 +8680,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -9723,7 +8691,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -9734,7 +8701,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2341341824475712320
+  Id: 15096357698296404209
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -9753,7 +8720,7 @@ Objects {
       Z: 1.1026926
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9777,6 +8744,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -9785,7 +8755,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -9796,7 +8765,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13465425659014528161
+  Id: 8939562461647841375
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -9815,7 +8784,7 @@ Objects {
       Z: 3.13209462
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9839,6 +8808,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -9847,7 +8819,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -9858,7 +8829,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13629010561827113395
+  Id: 299663347834899213
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -9877,7 +8848,7 @@ Objects {
       Z: 3.13209462
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9901,6 +8872,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -9909,7 +8883,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -9920,7 +8893,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1414972261760890635
+  Id: 11352538048780707627
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -9939,7 +8912,7 @@ Objects {
       Z: 1.10268378
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9963,6 +8936,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -9971,7 +8947,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -9982,7 +8957,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3424729621903674275
+  Id: 12786013594703298546
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -10001,7 +8976,7 @@ Objects {
       Z: 3.13209534
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10025,6 +9000,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -10033,7 +9011,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -10044,7 +9021,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12690510421361939768
+  Id: 3282070671769874351
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -10063,7 +9040,7 @@ Objects {
       Z: 3.13210034
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10087,6 +9064,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -10095,7 +9075,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -10106,7 +9085,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3711517338766764717
+  Id: 17154222468129226377
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -10125,7 +9104,7 @@ Objects {
       Z: 3.13209462
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10149,6 +9128,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -10157,7 +9139,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -10168,7 +9149,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10388538790460198180
+  Id: 10911916282501873830
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -10187,7 +9168,7 @@ Objects {
       Z: 1.10268283
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10211,6 +9192,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -10219,7 +9203,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -10230,7 +9213,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5592276672758979271
+  Id: 7483739754603029117
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -10249,7 +9232,7 @@ Objects {
       Z: 1.10268116
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10273,6 +9256,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -10281,7 +9267,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -10292,7 +9277,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8166018970577857946
+  Id: 9549282081742891132
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -10311,7 +9296,7 @@ Objects {
       Z: 1.10268509
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10335,6 +9320,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -10343,7 +9331,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -10354,7 +9341,7 @@ Objects {
   }
 }
 Objects {
-  Id: 288983750632816811
+  Id: 12466159434367685773
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -10373,7 +9360,7 @@ Objects {
       Z: 1.10268557
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10397,6 +9384,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -10405,7 +9395,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -10416,7 +9405,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16153665472501395803
+  Id: 16780389432247208780
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -10435,7 +9424,7 @@ Objects {
       Z: 3.13210464
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10459,6 +9448,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -10467,7 +9459,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -10478,7 +9469,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15039300435828437054
+  Id: 14894044654111790046
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -10497,7 +9488,7 @@ Objects {
       Z: 1.10269547
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10521,6 +9512,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -10529,7 +9523,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -10540,7 +9533,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16127648725899196262
+  Id: 8427836253815705931
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -10559,7 +9552,7 @@ Objects {
       Z: 2.84041834
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10583,6 +9576,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -10591,7 +9587,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -10602,7 +9597,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4630977078213894584
+  Id: 12599610957230165070
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -10621,7 +9616,7 @@ Objects {
       Z: 3.13209891
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10645,6 +9640,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -10653,7 +9651,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -10664,7 +9661,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2799922573269087528
+  Id: 4353051397325897658
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -10683,7 +9680,7 @@ Objects {
       Z: 3.13209891
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10707,6 +9704,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -10715,7 +9715,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -10726,7 +9725,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2414310909249937363
+  Id: 7497149452290307403
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -10745,7 +9744,7 @@ Objects {
       Z: 3.13209534
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10769,6 +9768,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -10777,7 +9779,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -10788,7 +9789,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2892143974097532332
+  Id: 15682319770307294483
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -10807,7 +9808,7 @@ Objects {
       Z: 1.10269272
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10831,6 +9832,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -10839,7 +9843,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -10850,7 +9853,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3730389416224879167
+  Id: 13851358899617122172
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -10869,7 +9872,7 @@ Objects {
       Z: 3.13209462
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10893,6 +9896,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -10901,7 +9907,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -10912,7 +9917,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2369972090087938609
+  Id: 824500086426440945
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -10931,7 +9936,7 @@ Objects {
       Z: 1.10269511
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10955,6 +9960,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -10963,7 +9971,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -10974,7 +9981,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17762050301132092835
+  Id: 4422298818688066421
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -10993,7 +10000,7 @@ Objects {
       Z: 1.10268974
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11017,6 +10024,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -11025,7 +10035,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -11036,7 +10045,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13490205192805807826
+  Id: 14755336108665525007
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -11055,7 +10064,7 @@ Objects {
       Z: 3.13209534
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11079,6 +10088,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -11087,7 +10099,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -11098,7 +10109,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3238414972857311311
+  Id: 9961049470737162223
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -11117,7 +10128,7 @@ Objects {
       Z: 3.13209462
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11141,6 +10152,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -11149,7 +10163,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -11160,7 +10173,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9153402072875872385
+  Id: 13328222021346241390
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -11179,7 +10192,7 @@ Objects {
       Z: 1.10268962
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11203,6 +10216,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -11211,7 +10227,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -11222,7 +10237,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15183678310166814236
+  Id: 2509220718588654787
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -11241,7 +10256,7 @@ Objects {
       Z: 1.10268795
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11265,6 +10280,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -11273,7 +10291,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -11284,7 +10301,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15204068758717414452
+  Id: 8665969966532331967
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -11303,7 +10320,7 @@ Objects {
       Z: 1.10269
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11327,6 +10344,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -11335,7 +10355,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -11346,7 +10365,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1611932971438234457
+  Id: 7233229047376890615
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -11364,7 +10383,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11388,6 +10407,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -11396,7 +10418,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -11407,7 +10428,7 @@ Objects {
   }
 }
 Objects {
-  Id: 642938573859284311
+  Id: 17688876628724828428
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -11426,7 +10447,7 @@ Objects {
       Z: 1.10269
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11450,6 +10471,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -11458,7 +10482,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -11469,7 +10492,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16603160415705398772
+  Id: 3659586657725992601
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -11488,7 +10511,7 @@ Objects {
       Z: 3.13210464
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11512,6 +10535,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -11520,7 +10546,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -11531,7 +10556,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7929588339534262055
+  Id: 18087762995340337045
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -11550,7 +10575,7 @@ Objects {
       Z: 1.10269547
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11574,6 +10599,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -11582,7 +10610,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -11593,7 +10620,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12465508579531140441
+  Id: 15756232847746197160
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -11612,7 +10639,7 @@ Objects {
       Z: 3.13209963
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11636,6 +10663,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -11644,7 +10674,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -11655,7 +10684,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2460011267084149590
+  Id: 12900362712462407571
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -11674,7 +10703,7 @@ Objects {
       Z: 1.10269284
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11698,6 +10727,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -11706,7 +10738,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -11717,7 +10748,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11201794885751554721
+  Id: 17457546180972603470
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -11736,7 +10767,7 @@ Objects {
       Z: 3.13209462
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11760,6 +10791,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -11768,7 +10802,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -11779,7 +10812,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15510107470478060638
+  Id: 7872484656995456311
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -11798,7 +10831,7 @@ Objects {
       Z: 3.13209462
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11822,6 +10855,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -11830,7 +10866,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -11841,7 +10876,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3289384173375967956
+  Id: 10238412519524818463
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -11860,7 +10895,7 @@ Objects {
       Z: 3.13209391
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11884,6 +10919,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -11892,7 +10930,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -11903,7 +10940,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6411691493958554484
+  Id: 3900272117097578006
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -11922,7 +10959,7 @@ Objects {
       Z: 1.1026907
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11946,6 +10983,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -11954,7 +10994,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -11965,7 +11004,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17744028544006278447
+  Id: 10491035901078576754
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -11984,7 +11023,7 @@ Objects {
       Z: 1.10269511
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -12008,6 +11047,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -12016,7 +11058,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -12027,7 +11068,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9728657601357762328
+  Id: 5680212497616241012
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -12046,7 +11087,7 @@ Objects {
       Z: 1.10269225
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -12070,6 +11111,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -12078,7 +11122,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -12089,7 +11132,7 @@ Objects {
   }
 }
 Objects {
-  Id: 962860186186509415
+  Id: 14376875621401653552
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -12108,7 +11151,7 @@ Objects {
       Z: 3.13210034
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -12132,6 +11175,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -12140,7 +11186,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -12151,7 +11196,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1430606825406297859
+  Id: 5782533668033499523
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -12170,7 +11215,7 @@ Objects {
       Z: 3.13209462
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -12194,6 +11239,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -12202,7 +11250,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -12213,7 +11260,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3247811518573675248
+  Id: 11068894958293915682
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -12232,7 +11279,7 @@ Objects {
       Z: 1.10269213
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -12256,6 +11303,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -12264,7 +11314,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -12275,7 +11324,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14418645273957042493
+  Id: 9827317996730933987
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -12294,7 +11343,7 @@ Objects {
       Z: 1.10269046
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -12318,6 +11367,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -12326,7 +11378,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -12337,7 +11388,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2229147912418555106
+  Id: 17298319255007230595
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -12356,7 +11407,7 @@ Objects {
       Z: 1.1026926
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -12380,6 +11431,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -12388,7 +11442,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -12399,7 +11452,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9975977407294590383
+  Id: 2398623991322296590
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -12418,7 +11471,7 @@ Objects {
       Z: 1.10269248
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -12442,6 +11495,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -12450,7 +11506,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -12461,7 +11516,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8204877984552068962
+  Id: 7884888510933772886
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -12480,7 +11535,7 @@ Objects {
       Z: 1.10269201
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -12504,6 +11559,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -12512,7 +11570,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -12523,7 +11580,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2980776794074731374
+  Id: 467079385944291866
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -12542,7 +11599,7 @@ Objects {
       Z: 1.10269248
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -12566,6 +11623,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -12574,7 +11634,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -12585,7 +11644,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6740179641133632857
+  Id: 12123146239797253833
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -12604,7 +11663,7 @@ Objects {
       Z: 3.13210464
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -12628,6 +11687,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -12636,7 +11698,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -12647,7 +11708,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4869232629251629406
+  Id: 2645199966089384808
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -12666,7 +11727,7 @@ Objects {
       Z: 1.10269547
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -12690,6 +11751,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -12698,7 +11762,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -12709,7 +11772,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11418945203222472214
+  Id: 9845174040342959943
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -12728,7 +11791,7 @@ Objects {
       Z: 3.13209534
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -12752,6 +11815,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -12760,7 +11826,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -12771,7 +11836,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11591147248048645001
+  Id: 5611115004491845329
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -12790,7 +11855,7 @@ Objects {
       Z: 1.6018697
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -12814,6 +11879,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -12822,7 +11890,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -12833,7 +11900,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14356169643873738699
+  Id: 7458836462962154733
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -12852,7 +11919,7 @@ Objects {
       Z: 4.54995871
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -12876,6 +11943,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -12884,7 +11954,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -12895,7 +11964,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16540144540823976850
+  Id: 15971676145014651810
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -12914,7 +11983,7 @@ Objects {
       Z: 1.74999964
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -12938,6 +12007,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -12946,7 +12018,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -12957,7 +12028,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9206953311752409976
+  Id: 8720878060660406529
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -12976,7 +12047,7 @@ Objects {
       Z: 4.54995775
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -13000,6 +12071,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -13008,7 +12082,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -13019,7 +12092,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17845409990916612057
+  Id: 17006471597320347613
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -13038,7 +12111,7 @@ Objects {
       Z: 1.60186887
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -13062,6 +12135,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -13070,7 +12146,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -13081,7 +12156,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15037344688133845677
+  Id: 17063193365554293986
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -13100,7 +12175,7 @@ Objects {
       Z: 1.60187292
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -13124,6 +12199,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -13132,7 +12210,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -13143,7 +12220,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14802504858601078329
+  Id: 14030382437874410094
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -13162,7 +12239,7 @@ Objects {
       Z: 1.60187113
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -13186,6 +12263,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -13194,7 +12274,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -13205,7 +12284,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17798799650987163214
+  Id: 620434761712410486
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -13224,7 +12303,7 @@ Objects {
       Z: 4.54995918
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -13248,6 +12327,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -13256,7 +12338,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -13267,7 +12348,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2083452654689579278
+  Id: 2866709668629926513
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -13286,7 +12367,7 @@ Objects {
       Z: 4.54995871
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -13310,6 +12391,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -13318,7 +12402,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -13329,7 +12412,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3724510585542014898
+  Id: 15039186914802646760
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -13348,7 +12431,7 @@ Objects {
       Z: 1.60187101
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -13372,6 +12455,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -13380,7 +12466,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -13391,7 +12476,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18396508673274942819
+  Id: 5912549953011638767
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -13410,7 +12495,7 @@ Objects {
       Z: 4.54996538
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -13434,6 +12519,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -13442,7 +12530,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -13453,7 +12540,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13163034374630034876
+  Id: 95935411182235374
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -13472,7 +12559,7 @@ Objects {
       Z: 4.5499649
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -13496,6 +12583,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -13504,7 +12594,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -13515,7 +12604,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10776535962285479611
+  Id: 17966014247026879580
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -13534,7 +12623,7 @@ Objects {
       Z: 4.54996443
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -13558,6 +12647,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -13566,7 +12658,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -13577,7 +12668,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18342548435085963036
+  Id: 17194034727081304881
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -13596,7 +12687,7 @@ Objects {
       Z: 4.54995918
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -13620,6 +12711,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -13628,7 +12722,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -13639,7 +12732,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5686319453803750841
+  Id: 9077208785529276147
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -13658,7 +12751,7 @@ Objects {
       Z: 1.60186899
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -13682,6 +12775,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -13690,7 +12786,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -13701,7 +12796,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2207422033696159411
+  Id: 6789097450220298115
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -13720,7 +12815,7 @@ Objects {
       Z: 4.54995966
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -13744,6 +12839,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -13752,7 +12850,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -13763,7 +12860,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2899907264883500906
+  Id: 10666271058059466122
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -13782,7 +12879,7 @@ Objects {
       Z: 1.75000381
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -13806,6 +12903,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -13814,7 +12914,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -13825,7 +12924,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11820034192470809599
+  Id: 13979059957404956179
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -13844,7 +12943,7 @@ Objects {
       Z: 1.60187113
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -13868,6 +12967,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -13876,7 +12978,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -13887,7 +12988,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11515625823876213221
+  Id: 7288933101180331968
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -13906,7 +13007,7 @@ Objects {
       Z: 1.60186887
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -13930,6 +13031,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -13938,7 +13042,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -13949,7 +13052,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16607895607035464101
+  Id: 11738502756427245445
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -13968,7 +13071,7 @@ Objects {
       Z: 1.60187149
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -13992,6 +13095,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -14000,7 +13106,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -14011,7 +13116,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12856333495819558976
+  Id: 9063836351231988072
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -14030,7 +13135,7 @@ Objects {
       Z: 1.60187101
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -14054,6 +13159,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -14062,7 +13170,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -14073,7 +13180,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13816600485007388780
+  Id: 16532267994074101565
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -14092,7 +13199,7 @@ Objects {
       Z: 1.60187149
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -14116,6 +13223,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -14124,7 +13234,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -14135,7 +13244,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13872018337307465776
+  Id: 10296780478594466012
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -14154,7 +13263,7 @@ Objects {
       Z: 4.54997349
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -14178,6 +13287,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -14186,7 +13298,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -14197,7 +13308,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11464597438663333559
+  Id: 9087812982032805239
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -14216,7 +13327,7 @@ Objects {
       Z: 1.60187387
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -14240,6 +13351,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -14248,7 +13362,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -14259,7 +13372,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9846204958280705356
+  Id: 1258366481270154946
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -14278,7 +13391,7 @@ Objects {
       Z: 4.54995966
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -14302,6 +13415,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -14310,7 +13426,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -14321,7 +13436,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11551611922111758358
+  Id: 7046959417630663449
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -14340,7 +13455,7 @@ Objects {
       Z: 4.54995966
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -14364,6 +13479,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -14372,7 +13490,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -14383,7 +13500,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9044124566825955833
+  Id: 7930020313578445671
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -14402,7 +13519,7 @@ Objects {
       Z: 4.54995918
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -14426,6 +13543,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -14434,7 +13554,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -14445,7 +13564,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10767703520340655940
+  Id: 15599491647385048843
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -14464,7 +13583,7 @@ Objects {
       Z: 4.54996
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -14488,6 +13607,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -14496,7 +13618,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -14507,7 +13628,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11392127537068282648
+  Id: 2106123906604065263
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -14526,7 +13647,7 @@ Objects {
       Z: 4.54996777
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -14550,6 +13671,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -14558,7 +13682,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -14569,7 +13692,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1608376886969916010
+  Id: 948430665094935825
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -14588,7 +13711,7 @@ Objects {
       Z: 1.60187113
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -14612,6 +13735,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -14620,7 +13746,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -14631,7 +13756,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7484106302038770756
+  Id: 9219518533361437310
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -14650,7 +13775,7 @@ Objects {
       Z: 1.60187173
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -14674,6 +13799,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -14682,7 +13810,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -14693,7 +13820,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4058011288741206828
+  Id: 14790178934411082499
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -14712,7 +13839,7 @@ Objects {
       Z: 4.54996634
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -14736,6 +13863,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -14744,7 +13874,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -14755,7 +13884,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5548977266249133
+  Id: 6047310558271927609
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -14774,7 +13903,7 @@ Objects {
       Z: 1.6018672
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -14798,6 +13927,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -14806,7 +13938,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -14817,7 +13948,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17687613082458584690
+  Id: 16650300394300335142
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -14836,7 +13967,7 @@ Objects {
       Z: 1.60186684
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -14860,6 +13991,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -14868,7 +14002,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -14879,7 +14012,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2348948374663589401
+  Id: 1192828566571789484
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -14898,7 +14031,7 @@ Objects {
       Z: 4.54996252
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -14922,6 +14055,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -14930,7 +14066,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -14941,7 +14076,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13328698585859392391
+  Id: 12779006338572545848
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -14960,7 +14095,7 @@ Objects {
       Z: 1.60186958
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -14984,6 +14119,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -14992,7 +14130,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -15003,7 +14140,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2605980227174378897
+  Id: 21779401133722666
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -15022,7 +14159,7 @@ Objects {
       Z: 4.54995441
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -15046,6 +14183,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -15054,7 +14194,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -15065,7 +14204,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16026608725809960501
+  Id: 13518607761519015308
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -15084,7 +14223,7 @@ Objects {
       Z: 4.54995394
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -15108,6 +14247,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -15116,7 +14258,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -15127,7 +14268,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9144947950874929216
+  Id: 16869757587190718792
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -15146,7 +14287,7 @@ Objects {
       Z: 4.54995489
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -15170,6 +14311,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -15178,7 +14322,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -15189,7 +14332,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8110915411198900818
+  Id: 2797037345213889546
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -15208,7 +14351,7 @@ Objects {
       Z: 4.54995489
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -15232,6 +14375,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -15240,7 +14386,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -15251,7 +14396,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6841293722691353857
+  Id: 17762585146170582626
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -15270,7 +14415,7 @@ Objects {
       Z: 4.54995966
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -15294,6 +14439,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -15302,7 +14450,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -15313,7 +14460,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8881018137041539999
+  Id: 4862324218794346212
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -15332,7 +14479,7 @@ Objects {
       Z: 1.60186899
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -15356,6 +14503,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -15364,7 +14514,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -15375,7 +14524,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5671257473013330600
+  Id: 1469284010944057239
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -15394,7 +14543,7 @@ Objects {
       Z: 1.60186934
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -15418,6 +14567,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -15426,7 +14578,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -15437,7 +14588,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4518329213492085113
+  Id: 17434264872652947161
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -15456,7 +14607,7 @@ Objects {
       Z: 1.6018697
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -15480,6 +14631,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -15488,7 +14642,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -15499,7 +14652,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5056764142040670570
+  Id: 327976816584141772
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -15518,7 +14671,7 @@ Objects {
       Z: 1.60186958
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -15542,6 +14695,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -15550,7 +14706,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -15561,7 +14716,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6823693968983257404
+  Id: 6089407026021813097
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -15580,7 +14735,7 @@ Objects {
       Z: 6.07849026
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -15604,6 +14759,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -15612,7 +14770,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -15623,7 +14780,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2593831998972622472
+  Id: 8431310766072726366
   Name: "Sci-fi Panel 1x3m Angled Right"
   Transform {
     Location {
@@ -15641,7 +14798,7 @@ Objects {
       Z: 3.74999976
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -15665,6 +14822,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 4318091425738479118
@@ -15673,7 +14833,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -15684,7 +14843,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2845962327351025328
+  Id: 10439291989205546880
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -15703,7 +14862,7 @@ Objects {
       Z: 2.61720061
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -15727,6 +14886,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -15735,7 +14897,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -15746,7 +14907,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1944284802756712862
+  Id: 15499535693942242928
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -15765,7 +14926,7 @@ Objects {
       Z: 2.61720037
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -15789,6 +14950,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -15797,7 +14961,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -15808,7 +14971,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17338316415240918953
+  Id: 2685527212009010508
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -15827,7 +14990,7 @@ Objects {
       Z: 3.18455696
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -15851,6 +15014,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -15859,7 +15025,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -15870,7 +15035,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17827726912736800400
+  Id: 9321383845398057147
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -15889,7 +15054,7 @@ Objects {
       Z: 1.49417222
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -15913,6 +15078,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -15921,7 +15089,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -15932,7 +15099,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8250646242344373596
+  Id: 7940562082223502374
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -15951,7 +15118,7 @@ Objects {
       Z: 1.49417233
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -15975,6 +15142,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -15983,7 +15153,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -15994,7 +15163,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14871563505264963434
+  Id: 12530661487651047085
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -16013,7 +15182,7 @@ Objects {
       Z: 6.30879927
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -16037,6 +15206,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -16045,7 +15217,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -16056,7 +15227,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12560104840547310897
+  Id: 14676385541528988258
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -16075,7 +15246,7 @@ Objects {
       Z: 6.30879974
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -16099,6 +15270,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -16107,7 +15281,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -16118,7 +15291,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3907097082277116553
+  Id: 14489915865696079851
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -16137,7 +15310,7 @@ Objects {
       Z: 1.74999976
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -16161,6 +15334,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -16169,7 +15345,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -16180,7 +15355,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14760680950153976746
+  Id: 5552551543320492722
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -16199,7 +15374,7 @@ Objects {
       Z: 0.673083067
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -16223,6 +15398,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -16231,7 +15409,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -16242,7 +15419,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17109272893084578244
+  Id: 350741199607615107
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -16261,7 +15438,7 @@ Objects {
       Z: 1.24999988
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -16285,6 +15462,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -16293,7 +15473,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -16304,7 +15483,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4917029817994798453
+  Id: 5770433011833717541
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -16323,7 +15502,7 @@ Objects {
       Z: 3.2251308
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -16347,6 +15526,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -16355,7 +15537,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -16366,7 +15547,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6098347237427349797
+  Id: 3539494303678166689
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -16385,7 +15566,7 @@ Objects {
       Z: 1.7499994
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -16409,6 +15590,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -16417,7 +15601,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -16428,7 +15611,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8419867976084804699
+  Id: 767130038625794644
   Name: "Sci-fi Panel 1x4m"
   Transform {
     Location {
@@ -16447,7 +15630,7 @@ Objects {
       Z: 1.74999988
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -16471,6 +15654,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13954782829049532014
@@ -16479,7 +15665,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -16490,7 +15675,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16725486311689181543
+  Id: 1628351013343820165
   Name: "Sci-fi Panel 2x3m Triangle"
   Transform {
     Location {
@@ -16509,7 +15694,7 @@ Objects {
       Z: 1.49999988
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -16533,6 +15718,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 2504938180434979164
@@ -16541,7 +15729,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -16552,7 +15739,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16543231422684577827
+  Id: 16607542751010108744
   Name: "Sci-fi Panel 1x3m Angled Right"
   Transform {
     Location {
@@ -16570,7 +15757,7 @@ Objects {
       Z: 3.75
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -16594,6 +15781,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 4318091425738479118
@@ -16602,7 +15792,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -16613,7 +15802,7 @@ Objects {
   }
 }
 Objects {
-  Id: 337459663871181237
+  Id: 8024505875719300215
   Name: "Sci-fi Panel 1x3m Angled Right"
   Transform {
     Location {
@@ -16631,7 +15820,7 @@ Objects {
       Z: 3.75
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -16655,6 +15844,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 4318091425738479118
@@ -16663,7 +15855,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -16674,7 +15865,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13132953202644395355
+  Id: 8146437021500061623
   Name: "Sci-fi Panel 1x3m Angled Right"
   Transform {
     Location {
@@ -16692,7 +15883,7 @@ Objects {
       Z: 2.99999976
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -16716,6 +15907,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 4318091425738479118
@@ -16724,7 +15918,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -16735,7 +15928,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4191048701678067836
+  Id: 17282731857720041915
   Name: "Sci-fi Panel 1x3m Angled Right"
   Transform {
     Location {
@@ -16754,7 +15947,7 @@ Objects {
       Z: 2.99999976
     }
   }
-  ParentId: 17829558713762618238
+  ParentId: 5923794899321104575
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -16778,6 +15971,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 4318091425738479118
@@ -16786,7 +15982,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -16797,7 +15992,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12166326019292221444
+  Id: 11102186871768119574
   Name: "Group"
   Transform {
     Location {
@@ -16812,81 +16007,35 @@ Objects {
       Z: 1.5
     }
   }
-  ParentId: 15062001147149131720
-  ChildIds: 5298097351849867782
-  ChildIds: 2659993546303302250
-  ChildIds: 14508726300470483950
-  ChildIds: 3363521315855576734
-  ChildIds: 14953546891141571043
-  ChildIds: 3560887669127308569
-  ChildIds: 3250456349925608408
-  ChildIds: 12981481350391613425
-  ChildIds: 1479664373378920901
-  ChildIds: 5485903258472508949
-  ChildIds: 5679431987431165886
-  ChildIds: 16025252173016921511
-  ChildIds: 16431121667831346498
-  ChildIds: 10279538961988523991
-  ChildIds: 9172411848678335985
-  ChildIds: 17217307649103728914
-  ChildIds: 13294407608779253515
-  ChildIds: 780511755138014665
-  ChildIds: 16922330074797274502
-  ChildIds: 7432440943255392856
-  ChildIds: 7278962939417804834
-  ChildIds: 8880732458864401848
+  ParentId: 5823552244372638437
+  ChildIds: 5141777378456562470
+  ChildIds: 11026811466039582344
+  ChildIds: 4190089493747876922
+  ChildIds: 809506231353541269
+  ChildIds: 6386978720467512756
+  ChildIds: 15830112680254936709
+  ChildIds: 3889523490254016380
+  ChildIds: 9587275290747540585
+  ChildIds: 1066588229430913641
+  ChildIds: 4375670178120314363
+  ChildIds: 2782577222503615087
+  ChildIds: 9270588932046374112
+  ChildIds: 7299939360700195164
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsGroup: true
   }
 }
 Objects {
-  Id: 8880732458864401848
-  Name: "Cone - Bullet"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Yaw: 90
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 2.00000048
-    }
-  }
-  ParentId: 12166326019292221444
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2264041107168619230
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 7278962939417804834
+  Id: 7299939360700195164
   Name: "Cube - Chamfered Large Polished"
   Transform {
     Location {
@@ -16904,7 +16053,7 @@ Objects {
       Z: 29.2500134
     }
   }
-  ParentId: 12166326019292221444
+  ParentId: 11102186871768119574
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -16919,6 +16068,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 10832704295079374334
@@ -16927,7 +16079,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -16938,47 +16089,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7432440943255392856
-  Name: "Cone - Bullet"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Yaw: 45
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 2.00000048
-    }
-  }
-  ParentId: 12166326019292221444
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2264041107168619230
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 16922330074797274502
+  Id: 9270588932046374112
   Name: "Cube - Chamfered Large Polished"
   Transform {
     Location {
@@ -16996,7 +16107,7 @@ Objects {
       Z: 29.2500134
     }
   }
-  ParentId: 12166326019292221444
+  ParentId: 11102186871768119574
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -17011,6 +16122,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 10832704295079374334
@@ -17019,7 +16133,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -17030,47 +16143,7 @@ Objects {
   }
 }
 Objects {
-  Id: 780511755138014665
-  Name: "Cone - Bullet"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Yaw: 95
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 2.00000048
-    }
-  }
-  ParentId: 12166326019292221444
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2264041107168619230
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 13294407608779253515
+  Id: 2782577222503615087
   Name: "Cube - Chamfered Large Polished"
   Transform {
     Location {
@@ -17088,7 +16161,7 @@ Objects {
       Z: 29.2500134
     }
   }
-  ParentId: 12166326019292221444
+  ParentId: 11102186871768119574
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -17103,6 +16176,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 10832704295079374334
@@ -17111,7 +16187,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -17122,47 +16197,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17217307649103728914
-  Name: "Cone - Bullet"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Yaw: 135
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 2.00000048
-    }
-  }
-  ParentId: 12166326019292221444
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2264041107168619230
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 9172411848678335985
+  Id: 4375670178120314363
   Name: "Cube - Chamfered Large Polished"
   Transform {
     Location {
@@ -17180,7 +16215,7 @@ Objects {
       Z: 29.2500134
     }
   }
-  ParentId: 12166326019292221444
+  ParentId: 11102186871768119574
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -17195,6 +16230,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 10832704295079374334
@@ -17203,7 +16241,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -17214,47 +16251,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10279538961988523991
-  Name: "Cone - Bullet"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 2.00000048
-    }
-  }
-  ParentId: 12166326019292221444
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2264041107168619230
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 16431121667831346498
+  Id: 1066588229430913641
   Name: "Cube - Chamfered Large Polished"
   Transform {
     Location {
@@ -17272,7 +16269,7 @@ Objects {
       Z: 29.2500134
     }
   }
-  ParentId: 12166326019292221444
+  ParentId: 11102186871768119574
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -17287,6 +16284,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 10832704295079374334
@@ -17295,7 +16295,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -17306,47 +16305,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16025252173016921511
-  Name: "Cone - Bullet"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Yaw: 40
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 2.00000048
-    }
-  }
-  ParentId: 12166326019292221444
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2264041107168619230
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 5679431987431165886
+  Id: 9587275290747540585
   Name: "Cube - Chamfered Large Polished"
   Transform {
     Location {
@@ -17364,7 +16323,7 @@ Objects {
       Z: 29.2500134
     }
   }
-  ParentId: 12166326019292221444
+  ParentId: 11102186871768119574
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -17379,6 +16338,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 10832704295079374334
@@ -17387,7 +16349,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -17398,47 +16359,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5485903258472508949
-  Name: "Cone - Bullet"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Yaw: -45
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 2.00000048
-    }
-  }
-  ParentId: 12166326019292221444
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2264041107168619230
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 1479664373378920901
+  Id: 3889523490254016380
   Name: "Cube - Chamfered Large Polished"
   Transform {
     Location {
@@ -17456,7 +16377,7 @@ Objects {
       Z: 29.2500134
     }
   }
-  ParentId: 12166326019292221444
+  ParentId: 11102186871768119574
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -17471,6 +16392,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 10832704295079374334
@@ -17479,7 +16403,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -17490,59 +16413,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12981481350391613425
-  Name: "Cube - Chamfered Large Polished"
-  Transform {
-    Location {
-      X: -390
-      Y: 1010
-      Z: -805
-    }
-    Rotation {
-      Yaw: 25
-      Roll: 35
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 29.2500134
-    }
-  }
-  ParentId: 12166326019292221444
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 15281791623124508840
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 10832704295079374334
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 3250456349925608408
+  Id: 15830112680254936709
   Name: "Prism - 8-Sided"
   Transform {
     Location {
@@ -17556,7 +16427,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 12166326019292221444
+  ParentId: 11102186871768119574
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -17571,6 +16442,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 5075754212973068898
@@ -17579,7 +16453,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -17590,7 +16463,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3560887669127308569
+  Id: 6386978720467512756
   Name: "Prism - 8-Sided"
   Transform {
     Location {
@@ -17604,7 +16477,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 12166326019292221444
+  ParentId: 11102186871768119574
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -17619,6 +16492,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 5075754212973068898
@@ -17627,7 +16503,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -17638,7 +16513,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14953546891141571043
+  Id: 809506231353541269
   Name: "Prism - 8-Sided"
   Transform {
     Location {
@@ -17652,7 +16527,7 @@ Objects {
       Z: 0.25
     }
   }
-  ParentId: 12166326019292221444
+  ParentId: 11102186871768119574
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -17667,6 +16542,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 5075754212973068898
@@ -17675,7 +16553,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -17686,7 +16563,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3363521315855576734
+  Id: 4190089493747876922
   Name: "Prism - 8-Sided"
   Transform {
     Location {
@@ -17700,7 +16577,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 12166326019292221444
+  ParentId: 11102186871768119574
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -17715,6 +16592,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 5075754212973068898
@@ -17723,7 +16603,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -17734,7 +16613,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14508726300470483950
+  Id: 11026811466039582344
   Name: "Prism - 8-Sided"
   Transform {
     Location {
@@ -17748,7 +16627,7 @@ Objects {
       Z: 0.75
     }
   }
-  ParentId: 12166326019292221444
+  ParentId: 11102186871768119574
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -17763,6 +16642,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 5075754212973068898
@@ -17771,7 +16653,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -17782,46 +16663,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2659993546303302250
-  Name: "Cone - Bullet"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 2.00000024
-    }
-  }
-  ParentId: 12166326019292221444
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2264041107168619230
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 5298097351849867782
+  Id: 5141777378456562470
   Name: "Prism - 8-Sided"
   Transform {
     Location {
@@ -17835,7 +16677,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12166326019292221444
+  ParentId: 11102186871768119574
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -17850,6 +16692,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 5075754212973068898
@@ -17858,7 +16703,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {

@@ -105,11 +105,12 @@ function Database:_LoadTowersData()
     self.towerDatasByMUIDFull = {}
     self.towerDatasByMUID = {}
 
-    for i, tower in pairs(DATA_TOWERS) do
+    for i, tower in ipairs(DATA_TOWERS) do
 
         -- Required
         local towerName = tower:GetCustomProperty("Name")
         local towerDisplayName = tower:GetCustomProperty("DisplayName") or ""
+        local towerDescription = tower:GetCustomProperty("Description") or ""
         local towerIcon = tower:GetCustomProperty("Icon")
         local towerCost = tower:GetCustomProperty("Cost")
         local towerMUID = tower:GetCustomProperty("Tower")
@@ -140,6 +141,7 @@ function Database:_LoadTowersData()
             index = i,
             name = towerName,
             displayName = towerDisplayName,
+            description = towerDescription,
             iconMUID = towerIcon,
             cost = towerCost,
             towerMUID = towerMUID,

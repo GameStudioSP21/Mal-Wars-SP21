@@ -1,0 +1,11 @@
+Game.playerJoinedEvent:Connect(function(player)
+	local GameManager = require(script:GetCustomProperty("GameManager"))
+	local board = GameManager.WaitForBoardFromPlayer(player)
+	local waveManager = board:WaitForWaveManager()
+	
+	waveManager.OnWaveComplete:Connect(function()
+		local wave = waveManager:GetCurrentWave()
+		player:AddResource("GEMS", wave:GetPayout())
+		print("HEY LOOK YOU GOT ", wave:GetPayout())
+	end)
+end)

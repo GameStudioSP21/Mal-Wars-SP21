@@ -1,7 +1,49 @@
 Name: "Genie"
-RootId: 17279088920053467177
+RootId: 4054591880063787377
 Objects {
-  Id: 7824200590109447002
+  Id: 16879287022496719306
+  Name: "uiCoolEffect"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4054591880063787377
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3334356302942002443
+      value {
+        Overrides {
+          Name: "Name"
+          String: "uiCoolEffect"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 17226620221455157735
+    }
+  }
+}
+Objects {
+  Id: 17972273643771678023
   Name: "uiTooltips"
   Transform {
     Scale {
@@ -10,12 +52,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17279088920053467177
+  ParentId: 4054591880063787377
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   TemplateInstance {
     ParameterOverrideMap {
@@ -43,7 +88,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8569102528133093290
+  Id: 5568504859387018997
   Name: "uiInventory"
   Transform {
     Scale {
@@ -52,7 +97,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17279088920053467177
+  ParentId: 4054591880063787377
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 866153402049732513
@@ -79,7 +127,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5761610126702356390
+  Id: 10863873490281164981
   Name: "uiMusic"
   Transform {
     Scale {
@@ -88,12 +136,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17279088920053467177
+  ParentId: 4054591880063787377
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   TemplateInstance {
     ParameterOverrideMap {

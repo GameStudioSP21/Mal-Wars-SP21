@@ -1,7 +1,7 @@
 Name: "AOE"
-RootId: 12578761812920551926
+RootId: 6824551010127351981
 Objects {
-  Id: 1571659628477852239
+  Id: 10428347569724958730
   Name: "AOE4"
   Transform {
     Location {
@@ -14,11 +14,19 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12578761812920551926
+  ParentId: 6824551010127351981
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
       String: "Ultimate AOE"
+    }
+    Overrides {
+      Name: "cs:DisplayName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
     }
     Overrides {
       Name: "cs:Icon"
@@ -29,30 +37,30 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 15473447320514786512
+        SelfId: 3628312113966648569
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 3421316411476536376
+        SelfId: 10135958973244754419
       }
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 300
+      Int: 720
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 60
-    }
-    Overrides {
-      Name: "cs:Speed"
-      Float: 2
+      Int: 360
     }
     Overrides {
       Name: "cs:Range"
       Float: 40
+    }
+    Overrides {
+      Name: "cs:Speed"
+      Float: 3
     }
     Overrides {
       Name: "cs:Tower"
@@ -89,12 +97,15 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsGroup: true
   }
 }
 Objects {
-  Id: 2776340922114740153
+  Id: 17595263084373785907
   Name: "AOE3"
   Transform {
     Location {
@@ -107,11 +118,19 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12578761812920551926
+  ParentId: 6824551010127351981
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
       String: "Superior AOE"
+    }
+    Overrides {
+      Name: "cs:DisplayName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
     }
     Overrides {
       Name: "cs:Icon"
@@ -122,30 +141,30 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 15473447320514786512
+        SelfId: 3628312113966648569
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 16555092129292573516
+        SelfId: 1899548489020228278
       }
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 300
+      Int: 420
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 45
-    }
-    Overrides {
-      Name: "cs:Speed"
-      Float: 2
+      Int: 180
     }
     Overrides {
       Name: "cs:Range"
-      Float: 35
+      Float: 36
+    }
+    Overrides {
+      Name: "cs:Speed"
+      Float: 3
     }
     Overrides {
       Name: "cs:Tower"
@@ -174,7 +193,7 @@ Objects {
     Overrides {
       Name: "cs:NextTowerUpgrade"
       ObjectReference {
-        SelfId: 1571659628477852239
+        SelfId: 10428347569724958730
       }
     }
     Overrides {
@@ -188,12 +207,15 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsGroup: true
   }
 }
 Objects {
-  Id: 10682122694413777467
+  Id: 17177682397083886325
   Name: "AOE2"
   Transform {
     Location {
@@ -206,11 +228,19 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12578761812920551926
+  ParentId: 6824551010127351981
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
       String: "Greater AOE"
+    }
+    Overrides {
+      Name: "cs:DisplayName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
     }
     Overrides {
       Name: "cs:Icon"
@@ -221,30 +251,30 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 15473447320514786512
+        SelfId: 3628312113966648569
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 13496367145218431849
+        SelfId: 16914874246365221008
       }
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 300
+      Int: 240
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 32
-    }
-    Overrides {
-      Name: "cs:Speed"
-      Float: 2
+      Int: 90
     }
     Overrides {
       Name: "cs:Range"
-      Float: 30
+      Float: 32
+    }
+    Overrides {
+      Name: "cs:Speed"
+      Float: 3
     }
     Overrides {
       Name: "cs:Tower"
@@ -273,7 +303,7 @@ Objects {
     Overrides {
       Name: "cs:NextTowerUpgrade"
       ObjectReference {
-        SelfId: 2776340922114740153
+        SelfId: 17595263084373785907
       }
     }
     Overrides {
@@ -287,12 +317,15 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsGroup: true
   }
 }
 Objects {
-  Id: 2138681849230579418
+  Id: 9596627813592004129
   Name: "AOE1"
   Transform {
     Location {
@@ -305,11 +338,19 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12578761812920551926
+  ParentId: 6824551010127351981
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
       String: "AOE Turret"
+    }
+    Overrides {
+      Name: "cs:DisplayName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
     }
     Overrides {
       Name: "cs:Icon"
@@ -320,13 +361,13 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 15473447320514786512
+        SelfId: 3628312113966648569
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 10069010683383961677
+        SelfId: 16588585240034428004
       }
     }
     Overrides {
@@ -335,15 +376,15 @@ Objects {
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 20
-    }
-    Overrides {
-      Name: "cs:Speed"
-      Float: 2
+      Int: 45
     }
     Overrides {
       Name: "cs:Range"
-      Float: 25
+      Float: 30
+    }
+    Overrides {
+      Name: "cs:Speed"
+      Float: 3
     }
     Overrides {
       Name: "cs:Tower"
@@ -372,7 +413,7 @@ Objects {
     Overrides {
       Name: "cs:NextTowerUpgrade"
       ObjectReference {
-        SelfId: 10682122694413777467
+        SelfId: 17177682397083886325
       }
     }
     Overrides {
@@ -385,6 +426,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsGroup: true

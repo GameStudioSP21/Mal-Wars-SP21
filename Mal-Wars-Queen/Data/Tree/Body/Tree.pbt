@@ -1,7 +1,7 @@
 Name: "Body"
-RootId: 664612160337594249
+RootId: 141043503442517827
 Objects {
-  Id: 7015415583522506837
+  Id: 3937589025267304773
   Name: "Body Overlayed details"
   Transform {
     Location {
@@ -14,12 +14,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 664612160337594249
+  ParentId: 141043503442517827
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true
@@ -33,7 +36,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9994452408681148377
+  Id: 5415288793324770241
   Name: "Pipe"
   Transform {
     Location {
@@ -50,7 +53,7 @@ Objects {
       Z: 0.161602527
     }
   }
-  ParentId: 664612160337594249
+  ParentId: 141043503442517827
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -143,6 +146,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 6369574103405882280
@@ -151,7 +157,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -168,7 +173,7 @@ Objects {
   }
 }
 Objects {
-  Id: 209222350561608080
+  Id: 14197861576226097402
   Name: "Pipe"
   Transform {
     Location {
@@ -183,7 +188,7 @@ Objects {
       Z: 0.191037029
     }
   }
-  ParentId: 664612160337594249
+  ParentId: 141043503442517827
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -276,6 +281,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 6369574103405882280
@@ -284,7 +292,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {

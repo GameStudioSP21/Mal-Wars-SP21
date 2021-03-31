@@ -1,7 +1,7 @@
 Name: "Laser"
-RootId: 15836056593155272946
+RootId: 18197481972028579106
 Objects {
-  Id: 11679989091061600141
+  Id: 3695969108181493597
   Name: "Laser4"
   Transform {
     Location {
@@ -14,11 +14,19 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15836056593155272946
+  ParentId: 18197481972028579106
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
       String: "Ultimate Laser"
+    }
+    Overrides {
+      Name: "cs:DisplayName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
     }
     Overrides {
       Name: "cs:Icon"
@@ -29,26 +37,26 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 15473447320514786512
+        SelfId: 3628312113966648569
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 16555092129292573516
+        SelfId: 1899548489020228278
       }
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 100
+      Int: 240
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 10
+      Int: 40
     }
     Overrides {
       Name: "cs:Speed"
-      Float: 0.2
+      Float: 0.5
     }
     Overrides {
       Name: "cs:Range"
@@ -83,12 +91,15 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsGroup: true
   }
 }
 Objects {
-  Id: 5750565209154117416
+  Id: 5402912175441591204
   Name: "Laser3"
   Transform {
     Location {
@@ -101,11 +112,19 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15836056593155272946
+  ParentId: 18197481972028579106
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
       String: "Superior Laser"
+    }
+    Overrides {
+      Name: "cs:DisplayName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
     }
     Overrides {
       Name: "cs:Icon"
@@ -116,30 +135,30 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 15473447320514786512
+        SelfId: 3628312113966648569
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 13496367145218431849
+        SelfId: 16914874246365221008
       }
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 100
+      Int: 140
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 12
-    }
-    Overrides {
-      Name: "cs:Speed"
-      Float: 0.4
+      Int: 24
     }
     Overrides {
       Name: "cs:Range"
       Float: 45
+    }
+    Overrides {
+      Name: "cs:Speed"
+      Float: 0.6
     }
     Overrides {
       Name: "cs:Tower"
@@ -162,7 +181,7 @@ Objects {
     Overrides {
       Name: "cs:NextTowerUpgrade"
       ObjectReference {
-        SelfId: 11679989091061600141
+        SelfId: 3695969108181493597
       }
     }
     Overrides {
@@ -176,12 +195,15 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsGroup: true
   }
 }
 Objects {
-  Id: 10439499535441725204
+  Id: 16594766358455942464
   Name: "Laser2"
   Transform {
     Location {
@@ -194,11 +216,19 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15836056593155272946
+  ParentId: 18197481972028579106
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
       String: "Greater Laser"
+    }
+    Overrides {
+      Name: "cs:DisplayName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
     }
     Overrides {
       Name: "cs:Icon"
@@ -209,35 +239,35 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 15473447320514786512
+        SelfId: 3628312113966648569
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 10069010683383961677
+        SelfId: 16588585240034428004
       }
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 100
+      Int: 80
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 12
-    }
-    Overrides {
-      Name: "cs:Speed"
-      Float: 0.6
+      Int: 14
     }
     Overrides {
       Name: "cs:Range"
       Float: 40
     }
     Overrides {
+      Name: "cs:Speed"
+      Float: 0.7
+    }
+    Overrides {
       Name: "cs:NextTowerUpgrade"
       ObjectReference {
-        SelfId: 5750565209154117416
+        SelfId: 5402912175441591204
       }
     }
     Overrides {
@@ -269,12 +299,15 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsGroup: true
   }
 }
 Objects {
-  Id: 4060288885567130494
+  Id: 4517831381894699464
   Name: "Laser1"
   Transform {
     Location {
@@ -287,11 +320,19 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15836056593155272946
+  ParentId: 18197481972028579106
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
       String: "Laser Turret"
+    }
+    Overrides {
+      Name: "cs:DisplayName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
     }
     Overrides {
       Name: "cs:Icon"
@@ -302,13 +343,13 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 15473447320514786512
+        SelfId: 3628312113966648569
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 5885690553894889409
+        SelfId: 6822374765711880078
       }
     }
     Overrides {
@@ -320,17 +361,17 @@ Objects {
       Int: 8
     }
     Overrides {
-      Name: "cs:Speed"
-      Float: 0.8
-    }
-    Overrides {
       Name: "cs:Range"
       Float: 35
     }
     Overrides {
+      Name: "cs:Speed"
+      Float: 0.8
+    }
+    Overrides {
       Name: "cs:NextTowerUpgrade"
       ObjectReference {
-        SelfId: 10439499535441725204
+        SelfId: 16594766358455942464
       }
     }
     Overrides {
@@ -361,6 +402,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsGroup: true

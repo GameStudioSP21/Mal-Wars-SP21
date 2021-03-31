@@ -1,7 +1,7 @@
 Name: "Wave1"
-RootId: 2846107153629823890
+RootId: 2827528792854958747
 Objects {
-  Id: 3629202646961018131
+  Id: 18020531943389714985
   Name: "8 GreenVirus"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2846107153629823890
+  ParentId: 2827528792854958747
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -39,6 +39,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true
@@ -46,7 +49,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6451121630159058922
+  Id: 11082516741260673546
   Name: "3-5 Ads"
   Transform {
     Location {
@@ -59,7 +62,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2846107153629823890
+  ParentId: 2827528792854958747
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -84,6 +87,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true
@@ -91,7 +97,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3280083864836393963
+  Id: 6517829560433719889
   Name: "8 GreenVirus"
   Transform {
     Location {
@@ -104,7 +110,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2846107153629823890
+  ParentId: 2827528792854958747
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -129,6 +135,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true
@@ -136,7 +145,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7156796336555678297
+  Id: 14959896503002920219
   Name: "3-5 Ads"
   Transform {
     Location {
@@ -149,7 +158,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2846107153629823890
+  ParentId: 2827528792854958747
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -174,6 +183,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true
@@ -181,7 +193,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10004561705830797342
+  Id: 12574924314867715973
   Name: "3-5 Ads"
   Transform {
     Location {
@@ -194,7 +206,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2846107153629823890
+  ParentId: 2827528792854958747
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -220,13 +232,16 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsFilePartition: true
     FilePartitionName: "3-5 Ads_2"
   }
 }
 Objects {
-  Id: 11230462646894220732
+  Id: 5020396654253810968
   Name: "8 GreenVirus"
   Transform {
     Location {
@@ -239,7 +254,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2846107153629823890
+  ParentId: 2827528792854958747
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -264,6 +279,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true

@@ -1,4 +1,4 @@
-﻿-- Component dependencies
+-- Component dependencies
 local MODULE = require( script:GetCustomProperty("ModuleManager") )
 require ( script:GetCustomProperty("NPCManager") )
 function NPC_MANAGER() return MODULE.Get("standardcombo.NPCKit.NPCManager") end
@@ -47,8 +47,8 @@ local ATTACK_RANGE_SQUARED = ATTACK_RANGE * ATTACK_RANGE
 
 local SPAWN_POSITION = ROOT:GetWorldPosition()
 
-local DEAD_1_DURATION = 4
-local DEAD_2_DURATION = 6
+local DEAD_1_DURATION = 0.1
+local DEAD_2_DURATION = 0.1
 
 local STATE_SLEEPING = 0
 local STATE_ENGAGING = 1

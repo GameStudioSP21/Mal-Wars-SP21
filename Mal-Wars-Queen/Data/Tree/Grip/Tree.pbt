@@ -1,7 +1,7 @@
 Name: "Grip"
-RootId: 11491353089183155688
+RootId: 5793708430542217311
 Objects {
-  Id: 14657559513338073134
+  Id: 5725688040502802394
   Name: "Pipe - 45-Degree"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 0.117923975
     }
   }
-  ParentId: 11491353089183155688
+  ParentId: 5793708430542217311
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -54,6 +54,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13783275049652431909
@@ -62,7 +65,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -79,7 +81,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7822935976274072277
+  Id: 2161164713574020842
   Name: "Pipe - 45-Degree"
   Transform {
     Location {
@@ -96,7 +98,7 @@ Objects {
       Z: 0.117923975
     }
   }
-  ParentId: 11491353089183155688
+  ParentId: 5793708430542217311
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -132,6 +134,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13783275049652431909
@@ -140,7 +145,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -157,7 +161,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2923849127887220928
+  Id: 9333018301276796796
   Name: "Pipe - 45-Degree"
   Transform {
     Location {
@@ -176,7 +180,7 @@ Objects {
       Z: 0.117923975
     }
   }
-  ParentId: 11491353089183155688
+  ParentId: 5793708430542217311
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -212,6 +216,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13783275049652431909
@@ -220,7 +227,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -237,7 +243,7 @@ Objects {
   }
 }
 Objects {
-  Id: 580831876171695373
+  Id: 16403065890967675429
   Name: "Pipe - 45-Degree"
   Transform {
     Location {
@@ -254,7 +260,7 @@ Objects {
       Z: 0.117923975
     }
   }
-  ParentId: 11491353089183155688
+  ParentId: 5793708430542217311
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -290,6 +296,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 13783275049652431909
@@ -298,7 +307,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -315,7 +323,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6364307219472392877
+  Id: 4477153409484419862
   Name: "Sphere - Half Thin"
   Transform {
     Location {
@@ -334,7 +342,7 @@ Objects {
       Z: 0.118717499
     }
   }
-  ParentId: 11491353089183155688
+  ParentId: 5793708430542217311
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -366,6 +374,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 8239650348362745063
@@ -374,7 +385,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {

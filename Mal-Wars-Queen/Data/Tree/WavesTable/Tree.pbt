@@ -1,7 +1,7 @@
 Name: "WavesTable"
-RootId: 3193928273116090067
+RootId: 10392679761690523053
 Objects {
-  Id: 11302024653263081212
+  Id: 6738401265048813632
   Name: "Citadel"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3193928273116090067
+  ParentId: 10392679761690523053
   UnregisteredParameters {
     Overrides {
       Name: "cs:IsEndless"
@@ -30,6 +30,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true

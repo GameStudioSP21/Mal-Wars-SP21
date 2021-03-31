@@ -1,7 +1,7 @@
 Name: "BridgeB"
-RootId: 4017260105980490630
+RootId: 3911200279303761664
 Objects {
-  Id: 9398866531001775906
+  Id: 15309725857101627536
   Name: "Exit"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4017260105980490630
+  ParentId: 3911200279303761664
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -33,6 +33,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 12095835209017042614
@@ -41,7 +44,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -52,7 +54,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11997930713238497278
+  Id: 3290158569584495338
   Name: "Connect"
   Transform {
     Location {
@@ -69,7 +71,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4017260105980490630
+  ParentId: 3911200279303761664
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -84,6 +86,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 12095835209017042614
@@ -92,7 +97,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {
@@ -103,7 +107,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3930596836547878471
+  Id: 1324394842476295432
   Name: "Enter"
   Transform {
     Location {
@@ -118,7 +122,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4017260105980490630
+  ParentId: 3911200279303761664
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -133,6 +137,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
   CoreMesh {
     MeshAsset {
       Id: 12095835209017042614
@@ -141,7 +148,6 @@ Objects {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
     InteractWithTriggers: true
     StaticMesh {
       Physics {

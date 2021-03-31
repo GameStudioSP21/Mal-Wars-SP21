@@ -1,7 +1,7 @@
 Name: "Wave7"
-RootId: 2006978697845648767
+RootId: 9343026340072491287
 Objects {
-  Id: 9996890947906397196
+  Id: 2289601810538204631
   Name: "40 GrWo"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2006978697845648767
+  ParentId: 9343026340072491287
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -39,6 +39,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true

@@ -1,7 +1,7 @@
 Name: "symbol_3"
-RootId: 16066318635037696914
+RootId: 17225881666827374499
 Objects {
-  Id: 11803404848475993259
+  Id: 11301565334762216386
   Name: "accent_line"
   Transform {
     Location {
@@ -14,12 +14,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16066318635037696914
+  ParentId: 17225881666827374499
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 85
@@ -66,7 +69,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10604972298673697461
+  Id: 6308275925122961101
   Name: "accent_line"
   Transform {
     Location {
@@ -79,12 +82,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16066318635037696914
+  ParentId: 17225881666827374499
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 104
@@ -131,7 +137,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12598404545709567023
+  Id: 9010565800282780957
   Name: "accent_line"
   Transform {
     Location {
@@ -144,12 +150,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16066318635037696914
+  ParentId: 17225881666827374499
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 45
@@ -196,7 +205,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13823606948662060530
+  Id: 5126789585494816149
   Name: "accent_line"
   Transform {
     Location {
@@ -209,12 +218,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16066318635037696914
+  ParentId: 17225881666827374499
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 35
@@ -261,7 +273,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18260220928368317252
+  Id: 4353698176892007532
   Name: "accent_circle"
   Transform {
     Location {
@@ -274,12 +286,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16066318635037696914
+  ParentId: 17225881666827374499
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     Width: 20

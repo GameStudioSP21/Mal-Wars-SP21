@@ -1395,7 +1395,7 @@ Objects {
   Transform {
     Location {
       X: -235
-      Z: -6.10351563e-05
+      Z: -6.10351562e-05
     }
     Rotation {
       Yaw: -2.73207588e-05
@@ -9996,17 +9996,17 @@ Objects {
   Name: "Rock Pile 002"
   Transform {
     Location {
-      X: -18755
+      X: -16827.4473
       Y: -895
       Z: -13465
     }
     Rotation {
-      Yaw: 159.999985
+      Yaw: 149.069717
     }
     Scale {
-      X: 36.8
-      Y: 36.8
-      Z: 7.6
+      X: 34.2337608
+      Y: 34.2337608
+      Z: 7.07001591
     }
   }
   ParentId: 14081436481186185311
@@ -10014,7 +10014,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8585559618980999928
+        Id: 7600537011961299779
       }
     }
   }
@@ -10066,7 +10066,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8585559618980999928
+        Id: 7600537011961299779
       }
     }
   }
@@ -10118,7 +10118,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8585559618980999928
+        Id: 7600537011961299779
       }
     }
   }
@@ -10172,7 +10172,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8585559618980999928
+        Id: 7600537011961299779
       }
     }
     Overrides {
@@ -11281,7 +11281,7 @@ Objects {
     Location {
       X: -25.2615356
       Y: -11.6708984
-      Z: -0.907226563
+      Z: -0.907226562
     }
     Rotation {
       Pitch: -79.9935
@@ -11353,7 +11353,7 @@ Objects {
     Location {
       X: -25.2615356
       Y: -11.6708984
-      Z: -0.907226563
+      Z: -0.907226562
     }
     Rotation {
       Pitch: -79.9935303
@@ -18715,7 +18715,7 @@ Objects {
     Location {
       X: -155
       Y: -5
-      Z: -6.10351563e-05
+      Z: -6.10351562e-05
     }
     Rotation {
     }
@@ -26113,7 +26113,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8585559618980999928
+        Id: 7600537011961299779
       }
     }
     Overrides {
@@ -26179,7 +26179,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8585559618980999928
+        Id: 7600537011961299779
       }
     }
   }
@@ -26232,7 +26232,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8585559618980999928
+        Id: 7600537011961299779
       }
     }
   }
@@ -26285,7 +26285,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8585559618980999928
+        Id: 7600537011961299779
       }
     }
   }
@@ -26338,7 +26338,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8585559618980999928
+        Id: 7600537011961299779
       }
     }
   }
@@ -26392,7 +26392,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8585559618980999928
+        Id: 7600537011961299779
       }
     }
   }
@@ -26446,7 +26446,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8585559618980999928
+        Id: 7600537011961299779
       }
     }
   }
@@ -26498,7 +26498,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8585559618980999928
+        Id: 7600537011961299779
       }
     }
   }
@@ -26549,7 +26549,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8585559618980999928
+        Id: 7600537011961299779
       }
     }
     Overrides {
@@ -26613,7 +26613,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8585559618980999928
+        Id: 7600537011961299779
       }
     }
   }
@@ -26704,7 +26704,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8585559618980999928
+        Id: 7600537011961299779
       }
     }
     Overrides {
@@ -26770,7 +26770,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8585559618980999928
+        Id: 7600537011961299779
       }
     }
   }
@@ -26823,7 +26823,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8585559618980999928
+        Id: 7600537011961299779
       }
     }
   }
@@ -26876,7 +26876,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8585559618980999928
+        Id: 7600537011961299779
       }
     }
   }
@@ -26929,7 +26929,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8585559618980999928
+        Id: 7600537011961299779
       }
     }
   }
@@ -26983,7 +26983,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8585559618980999928
+        Id: 7600537011961299779
       }
     }
   }
@@ -28936,7 +28936,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070313
+      Y: -0.000122070312
       Z: 70
     }
     Rotation {
@@ -29148,7 +29148,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070313
+      Y: 0.000122070312
       Z: 70
     }
     Rotation {
@@ -30019,7 +30019,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: -6.10351563e-05
+      X: -6.10351562e-05
     }
     Rotation {
       Pitch: -1.36603776e-05
@@ -30135,7 +30135,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: -6.10351563e-05
+      X: -6.10351562e-05
       Y: 100
       Z: 200
     }
@@ -30194,7 +30194,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: 6.10351563e-05
+      X: 6.10351562e-05
       Y: -15
       Z: 480
     }
@@ -30471,7 +30471,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070313
+      Y: -0.000122070312
       Z: 70
     }
     Rotation {
@@ -30683,7 +30683,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070313
+      Y: 0.000122070312
       Z: 70
     }
     Rotation {
@@ -31536,7 +31536,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070313
+      Y: -0.000122070312
       Z: 70
     }
     Rotation {
@@ -31748,7 +31748,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070313
+      Y: 0.000122070312
       Z: 70
     }
     Rotation {
@@ -32619,7 +32619,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: -6.10351563e-05
+      X: -6.10351562e-05
     }
     Rotation {
       Pitch: -1.36603776e-05
@@ -32735,7 +32735,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: -6.10351563e-05
+      X: -6.10351562e-05
       Y: 100
       Z: 200
     }
@@ -32794,7 +32794,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: 6.10351563e-05
+      X: 6.10351562e-05
       Y: -15
       Z: 480
     }
@@ -33071,7 +33071,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070313
+      Y: -0.000122070312
       Z: 70
     }
     Rotation {
@@ -33283,7 +33283,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070313
+      Y: 0.000122070312
       Z: 70
     }
     Rotation {
@@ -34051,7 +34051,7 @@ Objects {
     Location {
       X: -725
       Y: 105
-      Z: -6.10351563e-05
+      Z: -6.10351562e-05
     }
     Rotation {
       Yaw: -89.9999847
@@ -34135,7 +34135,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070313
+      Y: -0.000122070312
       Z: 70
     }
     Rotation {
@@ -34347,7 +34347,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070313
+      Y: 0.000122070312
       Z: 70
     }
     Rotation {
@@ -35218,7 +35218,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: -6.10351563e-05
+      X: -6.10351562e-05
     }
     Rotation {
       Pitch: -1.36603776e-05
@@ -35334,7 +35334,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: -6.10351563e-05
+      X: -6.10351562e-05
       Y: 100
       Z: 200
     }
@@ -35393,7 +35393,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: 6.10351563e-05
+      X: 6.10351562e-05
       Y: -15
       Z: 480
     }
@@ -35670,7 +35670,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070313
+      Y: -0.000122070312
       Z: 70
     }
     Rotation {
@@ -35882,7 +35882,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070313
+      Y: 0.000122070312
       Z: 70
     }
     Rotation {
@@ -36650,7 +36650,7 @@ Objects {
     Location {
       X: 20
       Y: 105
-      Z: -6.10351563e-05
+      Z: -6.10351562e-05
     }
     Rotation {
       Yaw: -89.9999924
@@ -36734,7 +36734,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070313
+      Y: -0.000122070312
       Z: 70
     }
     Rotation {
@@ -36946,7 +36946,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070313
+      Y: 0.000122070312
       Z: 70
     }
     Rotation {
@@ -37817,7 +37817,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: -6.10351563e-05
+      X: -6.10351562e-05
     }
     Rotation {
       Pitch: -1.36603776e-05
@@ -37933,7 +37933,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: -6.10351563e-05
+      X: -6.10351562e-05
       Y: 100
       Z: 200
     }
@@ -37992,7 +37992,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: 6.10351563e-05
+      X: 6.10351562e-05
       Y: -15
       Z: 480
     }
@@ -38269,7 +38269,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070313
+      Y: -0.000122070312
       Z: 70
     }
     Rotation {
@@ -38481,7 +38481,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070313
+      Y: 0.000122070312
       Z: 70
     }
     Rotation {
@@ -39335,7 +39335,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070313
+      Y: -0.000122070312
       Z: 70
     }
     Rotation {
@@ -39548,7 +39548,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070313
+      Y: 0.000122070312
       Z: 70
     }
     Rotation {
@@ -40560,7 +40560,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070313
+      Y: -0.000122070312
       Z: 70
     }
     Rotation {
@@ -40773,7 +40773,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070313
+      Y: 0.000122070312
       Z: 70
     }
     Rotation {
@@ -43058,7 +43058,7 @@ Objects {
     Location {
       X: -155
       Y: -5
-      Z: -6.10351563e-05
+      Z: -6.10351562e-05
     }
     Rotation {
     }
@@ -59478,7 +59478,7 @@ Objects {
   Transform {
     Location {
       X: -235
-      Z: -6.10351563e-05
+      Z: -6.10351562e-05
     }
     Rotation {
       Yaw: -2.73207588e-05
@@ -59647,7 +59647,7 @@ Objects {
   Transform {
     Location {
       X: -300
-      Z: -6.10351563e-05
+      Z: -6.10351562e-05
     }
     Rotation {
       Yaw: -2.73207588e-05
@@ -60225,21 +60225,29 @@ Objects {
         Overrides {
           Name: "ma:Shared_BaseMaterial:id"
           AssetReference {
-            Id: 8585559618980999928
+            Id: 9038036922988546730
           }
         }
         Overrides {
           Name: "ma:Shared_BaseMaterial:color"
           Color {
-            R: 1
-            G: 1
-            B: 1
+            R: 0.155926496
+            G: 0.155926496
+            B: 0.155926496
             A: 1
           }
         }
         Overrides {
           Name: "ma:Shared_BaseMaterial:smart"
-          Bool: true
+          Bool: false
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:utile"
+          Float: 0.2
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:vtile"
+          Float: 2
         }
       }
     }
@@ -60249,21 +60257,29 @@ Objects {
         Overrides {
           Name: "ma:Shared_BaseMaterial:id"
           AssetReference {
-            Id: 8585559618980999928
+            Id: 9038036922988546730
           }
         }
         Overrides {
           Name: "ma:Shared_BaseMaterial:color"
           Color {
-            R: 1
-            G: 1
-            B: 1
+            R: 0.155926496
+            G: 0.155926496
+            B: 0.155926496
             A: 1
           }
         }
         Overrides {
           Name: "ma:Shared_BaseMaterial:smart"
-          Bool: true
+          Bool: false
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:utile"
+          Float: 0.2
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:vtile"
+          Float: 2
         }
       }
     }
@@ -60273,21 +60289,29 @@ Objects {
         Overrides {
           Name: "ma:Shared_BaseMaterial:id"
           AssetReference {
-            Id: 8585559618980999928
+            Id: 9038036922988546730
           }
         }
         Overrides {
           Name: "ma:Shared_BaseMaterial:color"
           Color {
-            R: 1
-            G: 1
-            B: 1
+            R: 0.155926496
+            G: 0.155926496
+            B: 0.155926496
             A: 1
           }
         }
         Overrides {
           Name: "ma:Shared_BaseMaterial:smart"
-          Bool: true
+          Bool: false
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:utile"
+          Float: 0.2
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:vtile"
+          Float: 2
         }
       }
     }
@@ -60329,21 +60353,29 @@ Objects {
         Overrides {
           Name: "ma:Shared_BaseMaterial:id"
           AssetReference {
-            Id: 8585559618980999928
+            Id: 9038036922988546730
           }
         }
         Overrides {
           Name: "ma:Shared_BaseMaterial:color"
           Color {
-            R: 1
-            G: 1
-            B: 1
+            R: 0.155926496
+            G: 0.155926496
+            B: 0.155926496
             A: 1
           }
         }
         Overrides {
           Name: "ma:Shared_BaseMaterial:smart"
-          Bool: true
+          Bool: false
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:utile"
+          Float: 0.2
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:vtile"
+          Float: 2
         }
       }
     }
@@ -60376,21 +60408,29 @@ Objects {
         Overrides {
           Name: "ma:Shared_BaseMaterial:id"
           AssetReference {
-            Id: 8585559618980999928
+            Id: 9038036922988546730
           }
         }
         Overrides {
           Name: "ma:Shared_BaseMaterial:smart"
-          Bool: true
+          Bool: false
         }
         Overrides {
           Name: "ma:Shared_BaseMaterial:color"
           Color {
-            R: 1
-            G: 1
-            B: 1
+            R: 0.15625
+            G: 0.15625
+            B: 0.15625
             A: 1
           }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:utile"
+          Float: 0.2
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:vtile"
+          Float: 2
         }
       }
     }
@@ -60400,20 +60440,39 @@ Objects {
         Overrides {
           Name: "ma:Shared_BaseMaterial:id"
           AssetReference {
-            Id: 8585559618980999928
+            Id: 9038036922988546730
           }
         }
         Overrides {
           Name: "ma:Shared_BaseMaterial:smart"
-          Bool: true
+          Bool: false
         }
         Overrides {
           Name: "ma:Shared_BaseMaterial:color"
           Color {
-            R: 1
-            G: 1
-            B: 1
+            R: 0.155926496
+            G: 0.155926496
+            B: 0.155926496
             A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:utile"
+          Float: 0.2
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:vtile"
+          Float: 2
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4536203326474538559
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 9038036922988546730
           }
         }
       }
@@ -60424,21 +60483,29 @@ Objects {
         Overrides {
           Name: "ma:Shared_BaseMaterial:id"
           AssetReference {
-            Id: 8585559618980999928
+            Id: 9038036922988546730
           }
         }
         Overrides {
           Name: "ma:Shared_BaseMaterial:smart"
-          Bool: true
+          Bool: false
         }
         Overrides {
           Name: "ma:Shared_BaseMaterial:color"
           Color {
-            R: 1
-            G: 1
-            B: 1
+            R: 0.15625
+            G: 0.15625
+            B: 0.15625
             A: 1
           }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:utile"
+          Float: 0.2
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:vtile"
+          Float: 2
         }
       }
     }
@@ -60479,21 +60546,29 @@ Objects {
         Overrides {
           Name: "ma:Shared_BaseMaterial:id"
           AssetReference {
-            Id: 8585559618980999928
+            Id: 9038036922988546730
           }
         }
         Overrides {
           Name: "ma:Shared_BaseMaterial:smart"
-          Bool: true
+          Bool: false
         }
         Overrides {
           Name: "ma:Shared_BaseMaterial:color"
           Color {
-            R: 1
-            G: 1
-            B: 1
+            R: 0.15625
+            G: 0.15625
+            B: 0.15625
             A: 1
           }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:utile"
+          Float: 0.2
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:vtile"
+          Float: 2
         }
       }
     }
@@ -60644,7 +60719,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070313
+      Y: -0.000122070312
       Z: 70
     }
     Rotation {
@@ -60856,7 +60931,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070313
+      Y: 0.000122070312
       Z: 70
     }
     Rotation {
@@ -61727,7 +61802,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: -6.10351563e-05
+      X: -6.10351562e-05
     }
     Rotation {
       Pitch: -1.36603776e-05
@@ -61843,7 +61918,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: -6.10351563e-05
+      X: -6.10351562e-05
       Y: 100
       Z: 200
     }
@@ -61902,7 +61977,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: 6.10351563e-05
+      X: 6.10351562e-05
       Y: -15
       Z: 480
     }
@@ -62179,7 +62254,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070313
+      Y: -0.000122070312
       Z: 70
     }
     Rotation {
@@ -62391,7 +62466,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070313
+      Y: 0.000122070312
       Z: 70
     }
     Rotation {
@@ -63244,7 +63319,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070313
+      Y: -0.000122070312
       Z: 70
     }
     Rotation {
@@ -63456,7 +63531,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070313
+      Y: 0.000122070312
       Z: 70
     }
     Rotation {
@@ -64327,7 +64402,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: -6.10351563e-05
+      X: -6.10351562e-05
     }
     Rotation {
       Pitch: -1.36603776e-05
@@ -64443,7 +64518,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: -6.10351563e-05
+      X: -6.10351562e-05
       Y: 100
       Z: 200
     }
@@ -64502,7 +64577,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: 6.10351563e-05
+      X: 6.10351562e-05
       Y: -15
       Z: 480
     }
@@ -64779,7 +64854,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070313
+      Y: -0.000122070312
       Z: 70
     }
     Rotation {
@@ -64991,7 +65066,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070313
+      Y: 0.000122070312
       Z: 70
     }
     Rotation {
@@ -65759,7 +65834,7 @@ Objects {
     Location {
       X: -725
       Y: 105
-      Z: -6.10351563e-05
+      Z: -6.10351562e-05
     }
     Rotation {
       Yaw: -89.9999847
@@ -65843,7 +65918,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070313
+      Y: -0.000122070312
       Z: 70
     }
     Rotation {
@@ -66055,7 +66130,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070313
+      Y: 0.000122070312
       Z: 70
     }
     Rotation {
@@ -66926,7 +67001,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: -6.10351563e-05
+      X: -6.10351562e-05
     }
     Rotation {
       Pitch: -1.36603776e-05
@@ -67042,7 +67117,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: -6.10351563e-05
+      X: -6.10351562e-05
       Y: 100
       Z: 200
     }
@@ -67101,7 +67176,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: 6.10351563e-05
+      X: 6.10351562e-05
       Y: -15
       Z: 480
     }
@@ -67378,7 +67453,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070313
+      Y: -0.000122070312
       Z: 70
     }
     Rotation {
@@ -67590,7 +67665,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070313
+      Y: 0.000122070312
       Z: 70
     }
     Rotation {
@@ -68358,7 +68433,7 @@ Objects {
     Location {
       X: 20
       Y: 105
-      Z: -6.10351563e-05
+      Z: -6.10351562e-05
     }
     Rotation {
       Yaw: -89.9999924
@@ -68442,7 +68517,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070313
+      Y: -0.000122070312
       Z: 70
     }
     Rotation {
@@ -68654,7 +68729,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070313
+      Y: 0.000122070312
       Z: 70
     }
     Rotation {
@@ -69525,7 +69600,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: -6.10351563e-05
+      X: -6.10351562e-05
     }
     Rotation {
       Pitch: -1.36603776e-05
@@ -69641,7 +69716,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: -6.10351563e-05
+      X: -6.10351562e-05
       Y: 100
       Z: 200
     }
@@ -69700,7 +69775,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: 6.10351563e-05
+      X: 6.10351562e-05
       Y: -15
       Z: 480
     }
@@ -69977,7 +70052,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070313
+      Y: -0.000122070312
       Z: 70
     }
     Rotation {
@@ -70189,7 +70264,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070313
+      Y: 0.000122070312
       Z: 70
     }
     Rotation {
@@ -71043,7 +71118,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070313
+      Y: -0.000122070312
       Z: 70
     }
     Rotation {
@@ -71256,7 +71331,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070313
+      Y: 0.000122070312
       Z: 70
     }
     Rotation {
@@ -72268,7 +72343,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070313
+      Y: -0.000122070312
       Z: 70
     }
     Rotation {
@@ -72481,7 +72556,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070313
+      Y: 0.000122070312
       Z: 70
     }
     Rotation {
@@ -74766,7 +74841,7 @@ Objects {
     Location {
       X: -155
       Y: -5
-      Z: -6.10351563e-05
+      Z: -6.10351562e-05
     }
     Rotation {
     }
@@ -91186,7 +91261,7 @@ Objects {
   Transform {
     Location {
       X: -235
-      Z: -6.10351563e-05
+      Z: -6.10351562e-05
     }
     Rotation {
       Yaw: -2.73207588e-05
@@ -91355,7 +91430,7 @@ Objects {
   Transform {
     Location {
       X: -300
-      Z: -6.10351563e-05
+      Z: -6.10351562e-05
     }
     Rotation {
       Yaw: -2.73207588e-05
@@ -91665,7 +91740,7 @@ Objects {
   Name: "Whitebox Wall 01 Triangle Top"
   Transform {
     Location {
-      X: 66850.0313
+      X: 66850.0312
       Y: 3158.59424
       Z: 28750
     }
@@ -92049,7 +92124,6 @@ Objects {
   }
   ParentId: 13371803202469657324
   ChildIds: 10305387532056941198
-  ChildIds: 18382121710699845265
   ChildIds: 5830565106275293860
   ChildIds: 3820290175025546414
   ChildIds: 14709989767415817707
@@ -92279,7 +92353,7 @@ Objects {
   Name: "Pipe - 8-Sided"
   Transform {
     Location {
-      X: 27.9882813
+      X: 27.9882812
       Y: -44.4267578
       Z: 3039.7334
     }
@@ -92384,7 +92458,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95313
+      X: -1228.95312
       Y: -1519.06641
     }
     Rotation {
@@ -92427,7 +92501,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95313
+      X: -1228.95312
       Y: -1519.06641
       Z: 4733.59473
     }
@@ -92567,48 +92641,6 @@ Objects {
       X: 64.8999939
       Y: 1
       Z: 145.8
-    }
-  }
-  ParentId: 16698996130240893694
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 15305476051440937955
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 18382121710699845265
-  Name: "Cube - Bottom-Aligned"
-  Transform {
-    Location {
-      X: 6825
-      Y: 83.625
-    }
-    Rotation {
-    }
-    Scale {
-      X: 73.6
-      Y: 1
-      Z: 325.4
     }
   }
   ParentId: 16698996130240893694
@@ -92927,7 +92959,7 @@ Objects {
   Name: "Pipe - 8-Sided"
   Transform {
     Location {
-      X: 27.9882813
+      X: 27.9882812
       Y: -44.4267578
       Z: 3039.7334
     }
@@ -93032,7 +93064,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95313
+      X: -1228.95312
       Y: -1519.06641
     }
     Rotation {
@@ -93075,7 +93107,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95313
+      X: -1228.95312
       Y: -1519.06641
       Z: 4733.59473
     }
@@ -93616,7 +93648,7 @@ Objects {
   Name: "Pipe - 8-Sided"
   Transform {
     Location {
-      X: 27.9882813
+      X: 27.9882812
       Y: -44.4267578
       Z: 3039.7334
     }
@@ -93721,7 +93753,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95313
+      X: -1228.95312
       Y: -1519.06641
     }
     Rotation {
@@ -93764,7 +93796,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95313
+      X: -1228.95312
       Y: -1519.06641
       Z: 4733.59473
     }
@@ -93853,7 +93885,7 @@ Objects {
   Transform {
     Location {
       X: -225
-      Y: 103.625977
+      Y: 103.625976
     }
     Rotation {
     }
@@ -94305,7 +94337,7 @@ Objects {
   Name: "Pipe - 8-Sided"
   Transform {
     Location {
-      X: 27.9882813
+      X: 27.9882812
       Y: -44.4267578
       Z: 3039.7334
     }
@@ -94410,7 +94442,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95313
+      X: -1228.95312
       Y: -1519.06641
     }
     Rotation {
@@ -94453,7 +94485,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95313
+      X: -1228.95312
       Y: -1519.06641
       Z: 4733.59473
     }
@@ -94542,7 +94574,7 @@ Objects {
   Transform {
     Location {
       X: 205
-      Y: 113.625977
+      Y: 113.625976
     }
     Rotation {
     }
@@ -94787,7 +94819,7 @@ Objects {
   Name: "Whitebox -Hole Details"
   Transform {
     Location {
-      X: -159.101563
+      X: -159.101562
       Y: 160.549805
       Z: 10121.1582
     }
@@ -94994,7 +95026,7 @@ Objects {
   Name: "Pipe - 8-Sided"
   Transform {
     Location {
-      X: 27.9882813
+      X: 27.9882812
       Y: -44.4267578
       Z: 3039.7334
     }
@@ -95099,7 +95131,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95313
+      X: -1228.95312
       Y: -1519.06641
     }
     Rotation {
@@ -95142,7 +95174,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95313
+      X: -1228.95312
       Y: -1519.06641
       Z: 4733.59473
     }
@@ -95730,18 +95762,18 @@ Objects {
   Name: "Pipe - 8-Sided"
   Transform {
     Location {
-      X: 27.9882813
-      Y: -44.4267578
-      Z: 3039.7334
+      X: 99.1973953
+      Y: 26.7483768
+      Z: 3039.73022
     }
     Rotation {
       Yaw: 43.9013596
-      Roll: -89.9999924
+      Roll: -90
     }
     Scale {
-      X: 64.687973
-      Y: 61.617588
-      Z: 3.82118464
+      X: 45.5909843
+      Y: 58.0545769
+      Z: 3.82117033
     }
   }
   ParentId: 8836266769763577918
@@ -95749,15 +95781,15 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8585559618980999928
+        Id: 7600537011961299779
       }
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 1
-        G: 1
-        B: 1
+        R: 0.244791672
+        G: 0.244791672
+        B: 0.244791672
         A: 1
       }
     }
@@ -95835,7 +95867,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95313
+      X: -1228.95312
       Y: -1519.06641
     }
     Rotation {
@@ -95878,7 +95910,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95313
+      X: -1228.95312
       Y: -1519.06641
       Z: 4733.59473
     }
@@ -96424,7 +96456,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 8585559618980999928
+        Id: 7600537011961299779
       }
     }
   }
@@ -97222,7 +97254,7 @@ Objects {
   Name: "Prism - 6-Sided Half"
   Transform {
     Location {
-      X: -14756.0059
+      X: -14756.0058
       Y: 15008.626
       Z: -2530
     }
@@ -98027,7 +98059,7 @@ Objects {
   Transform {
     Location {
       X: -83.175293
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
     }
@@ -98083,7 +98115,7 @@ Objects {
   Transform {
     Location {
       X: -83.175293
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
       Yaw: 1.36603685e-05
@@ -98141,7 +98173,7 @@ Objects {
   Transform {
     Location {
       X: 83.175293
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
       Yaw: -179.999985
@@ -98199,7 +98231,7 @@ Objects {
   Transform {
     Location {
       X: 83.175293
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
       Yaw: -179.999969
@@ -98256,7 +98288,7 @@ Objects {
   Transform {
     Location {
       X: -80
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
     }
@@ -98319,7 +98351,7 @@ Objects {
   Transform {
     Location {
       X: -80
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
       Yaw: 1.3660373e-05
@@ -98384,7 +98416,7 @@ Objects {
   Transform {
     Location {
       X: 80
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
       Yaw: 180
@@ -98449,7 +98481,7 @@ Objects {
   Transform {
     Location {
       X: 80
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
       Yaw: -179.999985
@@ -105302,7 +105334,7 @@ Objects {
     }
     Rotation {
       Pitch: 3.13968062
-      Yaw: -89.7070313
+      Yaw: -89.7070312
       Roll: -0.555175781
     }
     Scale {
@@ -112131,7 +112163,7 @@ Objects {
       Z: 61.3911438
     }
     Rotation {
-      Pitch: -7.49414063
+      Pitch: -7.49414062
       Yaw: 18.4092083
       Roll: 34.0127335
     }
@@ -114168,7 +114200,7 @@ Objects {
     Location {
       X: 288.418304
       Y: 763.298523
-      Z: 495.032227
+      Z: 495.032226
     }
     Rotation {
       Pitch: -27.3190613
@@ -115487,7 +115519,7 @@ Objects {
   Transform {
     Location {
       X: 370.944672
-      Y: 688.219727
+      Y: 688.219726
       Z: 781.76593
     }
     Rotation {
@@ -116895,7 +116927,7 @@ Objects {
   Transform {
     Location {
       X: -83.175293
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
     }
@@ -116951,7 +116983,7 @@ Objects {
   Transform {
     Location {
       X: -83.175293
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
       Yaw: 1.36603685e-05
@@ -117009,7 +117041,7 @@ Objects {
   Transform {
     Location {
       X: 83.175293
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
       Yaw: -179.999985
@@ -117067,7 +117099,7 @@ Objects {
   Transform {
     Location {
       X: 83.175293
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
       Yaw: -179.999969
@@ -117124,7 +117156,7 @@ Objects {
   Transform {
     Location {
       X: -80
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
     }
@@ -117187,7 +117219,7 @@ Objects {
   Transform {
     Location {
       X: -80
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
       Yaw: 1.3660373e-05
@@ -117252,7 +117284,7 @@ Objects {
   Transform {
     Location {
       X: 80
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
       Yaw: 180
@@ -117317,7 +117349,7 @@ Objects {
   Transform {
     Location {
       X: 80
-      Y: -6.10351563e-05
+      Y: -6.10351562e-05
     }
     Rotation {
       Yaw: -179.999985
@@ -121086,7 +121118,7 @@ Objects {
     Location {
       X: 9.99999905
       Y: 15.000062
-      Z: -6.10351563e-05
+      Z: -6.10351562e-05
     }
     Rotation {
     }
@@ -121150,7 +121182,7 @@ Objects {
     Location {
       X: 9.99999905
       Y: 15.000062
-      Z: -6.10351563e-05
+      Z: -6.10351562e-05
     }
     Rotation {
     }
@@ -122484,153 +122516,6 @@ Objects {
   }
 }
 Objects {
-  Id: 13029330114079343391
-  Name: "VirusT1"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14081436481186185311
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 2032531932447730266
-      value {
-        Overrides {
-          Name: "Name"
-          String: "VirusT1"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 4648.63379
-            Y: -14363.3457
-            Z: 4925.77295
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -57.3078613
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 12544527268329933159
-    }
-  }
-}
-Objects {
-  Id: 3063306330131125502
-  Name: "VirusT2"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14081436481186185311
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5358925487773369100
-      value {
-        Overrides {
-          Name: "Name"
-          String: "VirusT2"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 4287.09619
-            Y: -14642.0811
-            Z: 4925.77295
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 21.4420624
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 15417336775726159579
-    }
-  }
-}
-Objects {
-  Id: 1045351340013600952
-  Name: "VirusT3"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14081436481186185311
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 1740172133134509589
-      value {
-        Overrides {
-          Name: "Name"
-          String: "VirusT3"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 3687.68555
-            Y: -14953.46
-            Z: 4945.77295
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 21.4420624
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13915311280383866732
-    }
-  }
-}
-Objects {
   Id: 4557158750917046972
   Name: "WormT3"
   Transform {
@@ -122807,7 +122692,7 @@ Objects {
           Name: "Position"
           Vector {
             X: 8073.62842
-            Y: -13798.0645
+            Y: -13798.0644
             Z: 5060
           }
         }

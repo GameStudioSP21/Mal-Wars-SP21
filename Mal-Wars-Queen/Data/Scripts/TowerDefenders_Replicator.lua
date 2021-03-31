@@ -26,65 +26,42 @@ local function InitalizeServerEvents()
 
     -- Place Tower
     -- When the player wants to place a tower.
-    Events.ConnectForPlayer("PT",function(_,player,id,x,y,z)
-        print("[Server] Received PLACE from:",player.name,id," ",x," ",y," ",z)
+    Events.ConnectForPlayer("PT",function(sendingPlayer,player,id,position)
+        print("[Server] Received PLACE from:",sendingPlayer,player.name,id,position)
 
         -- Current board the player is playing on.
         local board = player.serverUserData.activeBoard
         local tower = TowerDatabase:NewTowerByID(id)
-        local pos = Vector3.New(x,y,z)
         
-        tower:SetOwner(player)
-        tower:SetBoard(board)
-        board:AddTower(tower,pos,true) -- Networked function don't repeat
-        Events.BroadcastToAllPlayers("PT",tower:GetOwner(),tower:GetID(),x,y,z)
+        tower:SetOwner(player) 
+        board:AddTower(tower,position,true) -- Networked function don't repeat
+        Events.BroadcastToAllPlayers("PT",tower:GetOwner(),tower:GetID(),position)
     end)
 
     -- Upgrade Tower
     -- When the player wants to upgrade a tower.
-    Events.ConnectForPlayer("UT",function(_,player,x,y,z)
-        print("[Server] Received UPGRADE from:",player.name," ",x," ",y," ",z)
+    Events.ConnectForPlayer("UT",function(sendingPlayer,player,position)
+        print("[Server] Received UPGRADE from:",player.name,position)
 
         -- Current board the player is playing on.
         local board = player.serverUserData.activeBoard
-        local pos = Vector3.New(x,y,z)
+        local tower = board:GetTowerFromPosition(position)
 
-        for _, tower in pairs(board:GetAllTowers()) do
-            if tower:GetWorldPosition() == pos then
-                local owner = tower:GetOwner()
-                board:UpgradeTower(tower,true) -- Networked function
-                Events.BroadcastToAllPlayers("UT",tower:GetOwner(),x,y,z)
-                break
-            end
-        end
-
-        -- local tower = TowerDatabase:NewTowerByID(id)
-        -- local pos = Vector3.New(x,y,z)
-        
-        -- tower:SetOwner(player)
-        -- tower:SetBoard(board)
-        -- local ID = tower:GetID()
-        -- board:UpgradeTower(tower,pos,true) -- Networked function don't repeat
-
+        board:UpgradeTower(tower,true) -- Networked function
+        Events.BroadcastToAllPlayers("UT",tower:GetOwner(),position)
     end)
 
     -- Remove Tower
     -- When the player wants to remove a tower.
-    Events.ConnectForPlayer("ST",function(_,player,x,y,z)
-        print("[Server] Received SELL from:",player.name," ",x," ",y," ",z)
+    Events.ConnectForPlayer("ST",function(_,player,position)
+        print("[Server] Received SELL from:",player.name,position)
 
         -- Current board the player is playing on.
         local board = player.serverUserData.activeBoard
-        local pos = Vector3.New(x,y,z)
+        local tower = board:GetTowerFromPosition(position)
 
-        for _, tower in pairs(board:GetAllTowers()) do
-            if tower:GetWorldPosition() == pos then
-                local owner = tower:GetOwner()
-                board:SellTower(tower,true) -- Networked function
-                Events.BroadcastToAllPlayers("UT",tower:GetOwner(),x,y,z)
-                break
-            end
-        end
+        board:SellTower(tower,true) -- Networked function
+        Events.BroadcastToAllPlayers("ST",tower:GetOwner(),position)
     end)
 
     -----------------------------------------------------
@@ -93,21 +70,20 @@ local function InitalizeServerEvents()
 
     -- Switch tower targeting mode
     -- When the player wants to switch the tower to its next targeting mode.
-    Events.ConnectForPlayer("STM",function(player,x,y,z)
-        print("[Server] Received STM from:",player.name," ",x," ",y," ",z)
+    Events.ConnectForPlayer("STM",function(player,position)
+        print("[Server] Received STM from:",player.name,position)
         -- Current board the player is playing on.
         local board = player.serverUserData.activeBoard
-        local pos = Vector3.New(x,y,z)
+        local tower = board:GetTowerFromPosition(position)
+        tower:SwitchTargetingMode(true)
 
-        for _, tower in pairs(board:GetAllTowers()) do
-            if tower:GetWorldPosition() == pos then
-                local owner = tower:GetOwner()
-                tower:SwitchTargetingMode(true)
-                --Events.BroadcastToAllPlayers("STM",x,y,z)
-                break
-            end
-        end
+        -- Replicate to all clients
+        Events.BroadcastToAllPlayers("STM",tower:GetOwner(),position)
     end)
+
+    ----------------------------------------------------
+    -- Gem Wallet
+    ----------------------------------------------------
 
     -- Gem Update
     -- When the player's client wants to update their gem currency.
@@ -147,41 +123,46 @@ local function InitalizeClientEvents()
     -- TODO: Error running Lua task: [9EA276B61232DBD7] TowerDefenders_Replicator:42: stack index 1, expected string, received nil: (bad argument into '(...)(string)')
     -- local GameManager = require(script:GetCustomProperty("GameManager"))
 
-    Events.Connect("PT",function(player,id,x,y,z)
-        print("[Client] received PLACE from.",player.name,id,x,y,z)
+    -- Tower Place Event
+    Events.Connect("PT",function(player,id,position)
+        print("[Client] received PLACE from.",player.name,id,position)
 
         local LOCAL_PLAYER = Game.GetLocalPlayer()
-        assert(player.clientUserData.activeBoard, string.format("%s tried to set down a tower where they have no active board assigned to them.",player.name))
+        assert(LOCAL_PLAYER.clientUserData.activeBoard, string.format("%s tried to set down a tower where they have no active board assigned to them.",player.name))
 
         local board = LOCAL_PLAYER.clientUserData.activeBoard
         local tower = TowerDatabase:NewTowerByID(id)
-        local pos = Vector3.New(x,y,z)
 
         tower:SetOwner(player)
-        tower:SetBoard(board)
-        board:AddTower(tower,pos,true) -- Networked function
+        board:AddTower(tower,position,true) -- Networked function
     end)
 
-    -- Receive tower placed
-    Events.Connect("UT",function(player,x,y,z)
+    -- Tower Upgrade Event
+    Events.Connect("UT",function(player,position)
         print("[Client] received UPGRADE from.",player.name,x,y,z)
 
         local LOCAL_PLAYER = Game.GetLocalPlayer()
         assert(player.clientUserData.activeBoard, string.format("%s tried to set down a tower where they have no active board assigned to them.",player.name))
-        local pos = Vector3.New(x,y,z)
         local board = player.clientUserData.activeBoard
 
-        for _, tower in pairs(board:GetAllTowers()) do
-            if tower:GetWorldPosition() == pos then
-                print("[Client] Found tower attemping to replicate.")
-                board:UpgradeTower(tower,true) -- Networked function
-                break
-            end
-        end
+        local tower = board:GetTowerFromPosition(position)
+        board:UpgradeTower(tower,true)
     end)
 
-    -- Received tower sell / destroy
+    -- Tower Remove Event
+    Events.Connect("ST",function(player,position)
+        print("[Client] received UPGRADE from.",player.name,x,y,z)
 
+        local LOCAL_PLAYER = Game.GetLocalPlayer()
+        assert(player.clientUserData.activeBoard, string.format("%s tried to set down a tower where they have no active board assigned to them.",player.name))
+        local board = player.clientUserData.activeBoard
+
+        local tower = board:GetTowerFromPosition(position)
+        board:SellTower(tower,true)
+    end)
+
+
+    
 end
 
 -- Sets up a board from a asset.

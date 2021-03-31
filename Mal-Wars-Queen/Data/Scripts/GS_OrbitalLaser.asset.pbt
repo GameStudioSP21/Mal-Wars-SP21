@@ -7,10 +7,10 @@ Assets {
       Overrides {
         Name: "cs:ThirdPersonCamera"
         ObjectReference {
-          SelfId: 3567959178173361743
+          SelfId: 5992211097173661821
         }
       }
     }
   }
-  SerializationVersion: 76
+  SerializationVersion: 78
 }

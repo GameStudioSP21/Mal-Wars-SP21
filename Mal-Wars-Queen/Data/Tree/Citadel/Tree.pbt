@@ -1,7 +1,7 @@
 Name: "Citadel"
-RootId: 11302024653263081212
+RootId: 6738401265048813632
 Objects {
-  Id: 14859154552068645018
+  Id: 5686638109402247377
   Name: "Wave8"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11302024653263081212
+  ParentId: 6738401265048813632
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
@@ -29,6 +29,10 @@ Objects {
       Bool: false
     }
     Overrides {
+      Name: "cs:WavePayout"
+      Int: 0
+    }
+    Overrides {
       Name: "cs:SpawnDelay:tooltip"
       String: "How often an enemy should spawn from the enemy table below"
     }
@@ -47,13 +51,16 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsFilePartition: true
     FilePartitionName: "Wave8"
   }
 }
 Objects {
-  Id: 2006978697845648767
+  Id: 9343026340072491287
   Name: "Wave7"
   Transform {
     Location {
@@ -66,7 +73,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11302024653263081212
+  ParentId: 6738401265048813632
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
@@ -81,6 +88,10 @@ Objects {
       Bool: false
     }
     Overrides {
+      Name: "cs:WavePayout"
+      Int: 0
+    }
+    Overrides {
       Name: "cs:SpawnDelay:tooltip"
       String: "How often an enemy should spawn from the enemy table below"
     }
@@ -99,13 +110,16 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsFilePartition: true
     FilePartitionName: "Wave7"
   }
 }
 Objects {
-  Id: 13838315464293966470
+  Id: 17930622387821590247
   Name: "Wave6"
   Transform {
     Location {
@@ -118,7 +132,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11302024653263081212
+  ParentId: 6738401265048813632
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
@@ -133,6 +147,10 @@ Objects {
       Bool: false
     }
     Overrides {
+      Name: "cs:WavePayout"
+      Int: 0
+    }
+    Overrides {
       Name: "cs:SpawnDelay:tooltip"
       String: "How often an enemy should spawn from the enemy table below"
     }
@@ -151,13 +169,16 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsFilePartition: true
     FilePartitionName: "Wave6"
   }
 }
 Objects {
-  Id: 17734512529401566660
+  Id: 16124232611285272028
   Name: "Wave5"
   Transform {
     Location {
@@ -170,7 +191,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11302024653263081212
+  ParentId: 6738401265048813632
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
@@ -185,6 +206,10 @@ Objects {
       Bool: false
     }
     Overrides {
+      Name: "cs:WavePayout"
+      Int: 0
+    }
+    Overrides {
       Name: "cs:SpawnDelay:tooltip"
       String: "How often an enemy should spawn from the enemy table below"
     }
@@ -203,13 +228,16 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsFilePartition: true
     FilePartitionName: "Wave5"
   }
 }
 Objects {
-  Id: 17365817214076692164
+  Id: 12973337128618559994
   Name: "Wave4"
   Transform {
     Location {
@@ -222,7 +250,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11302024653263081212
+  ParentId: 6738401265048813632
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
@@ -237,6 +265,10 @@ Objects {
       Bool: false
     }
     Overrides {
+      Name: "cs:WavePayout"
+      Int: 400
+    }
+    Overrides {
       Name: "cs:SpawnDelay:tooltip"
       String: "How often an enemy should spawn from the enemy table below"
     }
@@ -255,13 +287,16 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsFilePartition: true
     FilePartitionName: "Wave4"
   }
 }
 Objects {
-  Id: 4669332663382257044
+  Id: 13851264412821555693
   Name: "Wave3"
   Transform {
     Location {
@@ -274,7 +309,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11302024653263081212
+  ParentId: 6738401265048813632
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
@@ -289,6 +324,10 @@ Objects {
       Bool: true
     }
     Overrides {
+      Name: "cs:WavePayout"
+      Int: 300
+    }
+    Overrides {
       Name: "cs:SpawnDelay:tooltip"
       String: "How often an enemy should spawn from the enemy table below"
     }
@@ -307,13 +346,16 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsFilePartition: true
     FilePartitionName: "Wave3"
   }
 }
 Objects {
-  Id: 5161887533204845570
+  Id: 9386622280160579122
   Name: "Wave2"
   Transform {
     Location {
@@ -326,7 +368,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11302024653263081212
+  ParentId: 6738401265048813632
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
@@ -341,6 +383,10 @@ Objects {
       Bool: false
     }
     Overrides {
+      Name: "cs:WavePayout"
+      Int: 200
+    }
+    Overrides {
       Name: "cs:SpawnDelay:tooltip"
       String: "How often an enemy should spawn from the enemy table below"
     }
@@ -359,13 +405,16 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsFilePartition: true
     FilePartitionName: "Wave2"
   }
 }
 Objects {
-  Id: 2846107153629823890
+  Id: 2827528792854958747
   Name: "Wave1"
   Transform {
     Location {
@@ -378,7 +427,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11302024653263081212
+  ParentId: 6738401265048813632
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
@@ -393,6 +442,10 @@ Objects {
       Bool: false
     }
     Overrides {
+      Name: "cs:WavePayout"
+      Int: 100
+    }
+    Overrides {
       Name: "cs:SpawnDelay:tooltip"
       String: "How often an enemy should spawn from the enemy table below"
     }
@@ -410,6 +463,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true

@@ -1,7 +1,7 @@
 Name: "Damage_2"
-RootId: 7130910895738376355
+RootId: 14365916899838082376
 Objects {
-  Id: 17495909577069202432
+  Id: 6712255502305798796
   Name: "Bank"
   Transform {
     Location {
@@ -14,11 +14,19 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7130910895738376355
+  ParentId: 14365916899838082376
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
       String: "Bank"
+    }
+    Overrides {
+      Name: "cs:DisplayName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
     }
     Overrides {
       Name: "cs:Icon"
@@ -29,13 +37,13 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 16246016697899800199
+        SelfId: 3639644058228976455
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 1720409598745449251
+        SelfId: 17596499846118634938
       }
     }
     Overrides {
@@ -47,12 +55,12 @@ Objects {
       Int: 0
     }
     Overrides {
-      Name: "cs:Speed"
-      Float: 0.2
-    }
-    Overrides {
       Name: "cs:Range"
       Float: 0
+    }
+    Overrides {
+      Name: "cs:Speed"
+      Float: 0.2
     }
     Overrides {
       Name: "cs:Tower"
@@ -89,12 +97,44 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsGroup: true
   }
 }
 Objects {
-  Id: 3043607958378933379
+  Id: 1502084686720312448
+  Name: "Tesla"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14365916899838082376
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Tesla"
+  }
+}
+Objects {
+  Id: 4444797386942219853
   Name: "Mortar"
   Transform {
     Location {
@@ -107,12 +147,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7130910895738376355
+  ParentId: 14365916899838082376
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true
@@ -120,7 +163,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12578761812920551926
+  Id: 6824551010127351981
   Name: "AOE"
   Transform {
     Location {
@@ -133,12 +176,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7130910895738376355
+  ParentId: 14365916899838082376
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true
@@ -146,7 +192,7 @@ Objects {
   }
 }
 Objects {
-  Id: 287725104296604219
+  Id: 4685643936803749420
   Name: "Sniper"
   Transform {
     Location {
@@ -159,12 +205,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7130910895738376355
+  ParentId: 14365916899838082376
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true
@@ -172,7 +221,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15836056593155272946
+  Id: 18197481972028579106
   Name: "Laser"
   Transform {
     Location {
@@ -185,12 +234,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7130910895738376355
+  ParentId: 14365916899838082376
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true

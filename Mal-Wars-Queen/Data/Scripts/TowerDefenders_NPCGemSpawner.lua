@@ -40,4 +40,4 @@ local function OnStateChanged()
     end
 end
 
-ROOT.networkedPropertyChangedEvent:Connect(OnStateChanged)
+--ROOT.networkedPropertyChangedEvent:Connect(OnStateChanged)

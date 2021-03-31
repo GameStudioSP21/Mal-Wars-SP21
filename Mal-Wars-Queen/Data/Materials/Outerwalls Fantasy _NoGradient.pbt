@@ -2,7 +2,7 @@ Assets {
   Id: 9394361731959592990
   Name: "Outerwalls Fantasy _NoGradient"
   PlatformAssetType: 13
-  SerializationVersion: 76
+  SerializationVersion: 78
   CustomMaterialAsset {
     BaseMaterialId: 4832052637078329515
     ParameterOverrides {

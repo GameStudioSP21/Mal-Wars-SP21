@@ -79,7 +79,7 @@ end
 
 -- Returns true if the inventory contains a tower
 function Inventory:HasTower(tower)
-    for _, inventoryTower in pairs(self:GetTowers()) do
+    for _, inventoryTower in ipairs(self:GetTowers()) do
         if inventoryTower == tower then
             return true
         end
@@ -99,7 +99,7 @@ end
 -- Returns true if the inventory contains a tower of a given type.
 function Inventory:HasTowerOfType(typeName)
     assert(TowerThemeAPI.IsValidType(typeName),string.format("Tower type - %s is not a valid tower type.",typeName))
-    for _, tower in pairs(self:GetTowers()) do
+    for _, tower in ipairs(self:GetTowers()) do
         if tower:GetType() == typeName then
             return true
         end
@@ -162,7 +162,7 @@ end
 function Inventory:GetTowersOfType(typeName)
     assert(TowerThemeAPI.IsValidType(typeName),string.format("Tower type - %s is not a valid tower type.",typeName))
     local towers = {}
-    for _, tower in pairs(self:GetTowers()) do
+    for _, tower in ipairs(self:GetTowers()) do
         local towerType = tower:GetType()
         if towerType == typeName then
             table.insert(towers,tower)
@@ -224,11 +224,11 @@ end
 -- Returns a string containing all the towers MUIDS
 function Inventory:ToString()
     local towersString = ""
-    for _, tower in pairs(self.towers) do
+    for _, tower in ipairs(self.towers) do
         towersString = towersString .. "<0>" .. tower:GetMUID():match("^(.+):")
     end
     local count = 0
-    for i, equippedTower in pairs(self.equippedTowers) do
+    for i, equippedTower in ipairs(self.equippedTowers) do
         count = count + 1
         towersString = towersString .. string.format("<%s>",count) .. equippedTower:GetMUID():match("^(.+):")
     end

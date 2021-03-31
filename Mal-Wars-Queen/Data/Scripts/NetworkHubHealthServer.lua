@@ -14,7 +14,7 @@ local singlePlayer = Game.GetPlayers()[1]
 
 
 local ourBoard = GameManager.WaitForBoardFromPlayer(singlePlayer)
-local waveManager = ourBoard:GetWaveManager()
+local waveManager = ourBoard:WaitForWaveManager()
 
 waveManager.OnEnemyReachedEnd:Connect(function(enemyObject)
     local hubHealth = script:GetCustomProperty("HubHealth")
@@ -36,7 +36,7 @@ waveManager.OnEnemyReachedEnd:Connect(function(enemyObject)
             waveManager:SetCurrentPhase("END_FAILED")
 
             --GameOver UI visibility is turned on
-            GameOver.visibility = Visibility.FORCE_ON 
+            --GameOver.visibility = Visibility.FORCE_ON 
 
             --Should Destroy all towers on the board
             local towers = ourBoard:GetAllTowers()
@@ -55,10 +55,18 @@ waveManager.OnEnemyReachedEnd:Connect(function(enemyObject)
             end
 
             --Sets the player's money back to 300
-            singlePlayer:SetResource("Gems", 300)
+            singlePlayer:SetResource("GEMS", 300)
 
-            --waveManager.waveIndex = 0
-            --waveManager:SetCurrentPhase("WAITING_READY")
+            --Resets the wave stack to the saved copy
+            waveManager:ResetWaveStack()
+            --Go to specified Wave Index
+            waveManager:RedoWaveIndex(1)
+
+            waveManager:SetCurrentPhase("WAITING_READY")
+
+            --Adjusts the Health Bar back to full
+            script:SetNetworkedCustomProperty("HubHealth", 100)
+            networkHubHealthBar.progress = 1
             
         end
     end

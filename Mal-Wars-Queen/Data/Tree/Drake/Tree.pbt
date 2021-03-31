@@ -1,7 +1,7 @@
 Name: "Drake"
-RootId: 15855902819366650372
+RootId: 12575064660688848268
 Objects {
-  Id: 466174676803512502
+  Id: 1929432652564420104
   Name: "Combat Dependencies"
   Transform {
     Scale {
@@ -10,7 +10,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15855902819366650372
+  ParentId: 12575064660688848268
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 8014650375856875642

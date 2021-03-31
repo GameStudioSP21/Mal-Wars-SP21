@@ -1,7 +1,7 @@
 Name: "UI test"
-RootId: 6962872381100497848
+RootId: 3758744857545411950
 Objects {
-  Id: 16128980174056689562
+  Id: 12629627171051257039
   Name: "currency_Icons"
   Transform {
     Location {
@@ -14,13 +14,16 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6962872381100497848
-  ChildIds: 18089231175298207044
+  ParentId: 3758744857545411950
+  ChildIds: 11005456549961431936
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
     RenderTransformPivot {
@@ -45,7 +48,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18089231175298207044
+  Id: 11005456549961431936
   Name: "UI_redCurrencies_WIPS"
   Transform {
     Location {
@@ -58,10 +61,13 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16128980174056689562
-  ChildIds: 7963690045659899569
+  ParentId: 12629627171051257039
+  ChildIds: 15348982842129688269
   Visible_v2 {
     Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsGroup: true
@@ -75,7 +81,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7963690045659899569
+  Id: 15348982842129688269
   Name: "UI_redCurrency_side"
   Transform {
     Location {
@@ -88,12 +94,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18089231175298207044
+  ParentId: 11005456549961431936
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true

@@ -30,9 +30,8 @@ function view:DisplayTowerStats(tower)
 
     self.tower = tower
     self.TOWER_ICON:SetImage(tower:GetIcon())
-    self.TOWER_DESCRIPTION_TEXT.text = "Lorem ipsum"
-    --self.TOWER_NAME_BACKGROUND_TEXT.text = tower:GetName()
-    --self.TOWER_NAME_FOREGROUND_TEXT.text = tower:GetName()
+    self.TOWER_DESCRIPTION_TEXT.text = tower:GetDescription()
+    self.TOWER_NAME_TEXT.text = tower:GetDisplayName()
 
     local rarityElements = self.RARITY_PANEL:GetChildren()
 
@@ -47,8 +46,8 @@ function view:DisplayTowerStats(tower)
     local rarityColor = TowerThemes.GetRarityColor(tower:GetRarity())
     for _, uiElement in pairs(rarityElements) do
         local uiAlpha = uiElement:GetColor().a
-        rarityColor.a = uiAlpha
-        uiElement:SetColor(rarityColor)
+        local newColor = Color.New(rarityColor.r,rarityColor.g,rarityColor.b,uiAlpha)
+        uiElement:SetColor(newColor)
         if uiElement:IsA("UIText") then
             uiElement.text = tower:GetRarity()
         end

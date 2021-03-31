@@ -1,7 +1,7 @@
 Name: "Replicators"
-RootId: 5627554470724662434
+RootId: 15489643147210875262
 Objects {
-  Id: 2950210219696553339
+  Id: 12041573189856841803
   Name: "Inventories"
   Transform {
     Location {
@@ -14,12 +14,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5627554470724662434
+  ParentId: 15489643147210875262
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true
@@ -27,7 +30,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16791110401915715446
+  Id: 3482728820924783105
   Name: "TowerDefenders_Replicator"
   Transform {
     Location {
@@ -40,12 +43,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5627554470724662434
+  ParentId: 15489643147210875262
   UnregisteredParameters {
     Overrides {
       Name: "cs:InventoryFolder"
       ObjectReference {
-        SelfId: 2950210219696553339
+        SelfId: 12041573189856841803
       }
     }
   }
@@ -55,6 +58,9 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Script {
     ScriptAsset {
       Id: 11430829328581188567
@@ -62,7 +68,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16501574175870241086
+  Id: 9442047834834828267
   Name: "ClientContext"
   Transform {
     Location {
@@ -75,19 +81,22 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5627554470724662434
-  ChildIds: 13792023200303562508
+  ParentId: 15489643147210875262
+  ChildIds: 13870832608072159049
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   NetworkContext {
   }
 }
 Objects {
-  Id: 13792023200303562508
+  Id: 13870832608072159049
   Name: "TowerDefenders_Replicator"
   Transform {
     Location {
@@ -100,12 +109,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16501574175870241086
+  ParentId: 9442047834834828267
   UnregisteredParameters {
     Overrides {
       Name: "cs:InventoryFolder"
       ObjectReference {
-        SelfId: 2950210219696553339
+        SelfId: 12041573189856841803
       }
     }
   }
@@ -114,6 +123,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Script {
     ScriptAsset {

@@ -18,59 +18,28 @@ local relSpeed = ourTower:GetStat("Speed")
 --local initialRotation = TURRET_HEAD:GetRotation()
 local initialPosition = TURRET_HEAD:GetPosition()
 
-local initialBarrelRotation = BARRELS:GetRotation()
+--local initialBarrelRotation = BARRELS:GetRotation()
 
 
--- you have left me no choice tri barrel
-local barrelPosition1 = Rotation.New(0, 0, 0)
-local barrelPosition2 = Rotation.New(120, 0, 0)
-local barrelPosition3 = Rotation.New(240, 0, 0)
-
-local barrelSpinCount
 
 
 ourTower.OnFired:Connect(function() 
-    print('Firing gun...')
 
-    barrelSpinCount = 2
+    --adjust for the new barrle rotation at this point
+    local currentBarrelRot = BARRELS:GetRotation()
     --Firing should be quick
-    Ease3D.EasePosition(TURRET_HEAD, (initialPosition - Vector3.New(-15, 0, 0)), 0.1)
+    Ease3D.EasePosition(TURRET_HEAD, (initialPosition - Vector3.New(-10, 0, 0)), 0.1, Ease3D.EasingEquation.BACK, Ease3D.EasingDirection.OUT)
 
     --for barrel assembly
-    --Ease3D.EaseRotation(BARRELS, (initialBarrelRotation - Rotation.New(120, 0,0)), 0.2)
-
-    if barrelSpinCount ==1 then
-        Ease3D.EaseRotation(BARRELS, barrelPosition1, 0.2)
-        
-        barrelSpinCount = barrelSpinCount + 1
-    end
-
-    if barrelSpinCount ==2 then
-        Ease3D.EaseRotation(BARRELS, barrelPosition2, 0.2)
-
-        barrelSpinCount = barrelSpinCount + 1
-    end
-
-    if barrelSpinCount == 3 then
-        Ease3D.EaseRotation(BARRELS, barrelPosition3, 0.2)
-
-        barrelSpinCount = 1
-    end
+    Ease3D.EaseRotation(BARRELS, currentBarrelRot + Rotation.New(120, 0, 0), 0.2, Ease3D.EasingEquation.ELASTIC, Ease3D.EasingDirection.INOUT)
 
 
     Task.Wait(0.1)
 
-    print(BARRELS:GetRotation())
-    --initialBarrelRotation = BARRELS:GetRotation()
 
 
     --reload, not so much
-    Ease3D.EasePosition(TURRET_HEAD, initialPosition, 0.1)
+    Ease3D.EasePosition(TURRET_HEAD, initialPosition, 0.1, Ease3D.EasingEquation.CUBIC, Ease3D.EasingDirection.INOUT)
 
-    --change the barrles 'resting' position
-    --initialBarrelRotation = initalBarrelRotation - Vector3.New(120, 0, 0)
-
-    --trying to fake it here
-    --Ease3D.EaseRotation(BARRELS, initialRotation, 0.00000000001)
 
 end)

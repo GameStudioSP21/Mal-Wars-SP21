@@ -7,7 +7,7 @@ Assets {
       Overrides {
         Name: "cs:RegisteredBoards"
         ObjectReference {
-          SelfId: 9446823694051834191
+          SelfId: 12831432416790739506
         }
       }
       Overrides {
@@ -18,5 +18,5 @@ Assets {
       }
     }
   }
-  SerializationVersion: 76
+  SerializationVersion: 78
 }

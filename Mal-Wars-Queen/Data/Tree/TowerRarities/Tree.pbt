@@ -1,7 +1,7 @@
 Name: "TowerRarities"
-RootId: 1007787193999714619
+RootId: 2522256648528214949
 Objects {
-  Id: 1720409598745449251
+  Id: 17596499846118634938
   Name: "Heroic"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1007787193999714619
+  ParentId: 2522256648528214949
   UnregisteredParameters {
     Overrides {
       Name: "cs:Color"
@@ -30,13 +30,16 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsFilePartition: true
     FilePartitionName: "Heroic"
   }
 }
 Objects {
-  Id: 3421316411476536376
+  Id: 10135958973244754419
   Name: "Legendary"
   Transform {
     Location {
@@ -49,7 +52,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1007787193999714619
+  ParentId: 2522256648528214949
   UnregisteredParameters {
     Overrides {
       Name: "cs:Color"
@@ -66,13 +69,16 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsFilePartition: true
     FilePartitionName: "Legendary"
   }
 }
 Objects {
-  Id: 16555092129292573516
+  Id: 1899548489020228278
   Name: "Epic"
   Transform {
     Location {
@@ -85,7 +91,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1007787193999714619
+  ParentId: 2522256648528214949
   UnregisteredParameters {
     Overrides {
       Name: "cs:Color"
@@ -102,13 +108,16 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsFilePartition: true
     FilePartitionName: "Epic"
   }
 }
 Objects {
-  Id: 13496367145218431849
+  Id: 16914874246365221008
   Name: "Rare"
   Transform {
     Location {
@@ -121,7 +130,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1007787193999714619
+  ParentId: 2522256648528214949
   UnregisteredParameters {
     Overrides {
       Name: "cs:Color"
@@ -139,13 +148,16 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsFilePartition: true
     FilePartitionName: "Rare"
   }
 }
 Objects {
-  Id: 10069010683383961677
+  Id: 16588585240034428004
   Name: "Uncommon"
   Transform {
     Location {
@@ -158,7 +170,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1007787193999714619
+  ParentId: 2522256648528214949
   UnregisteredParameters {
     Overrides {
       Name: "cs:Color"
@@ -176,13 +188,16 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
   Folder {
     IsFilePartition: true
     FilePartitionName: "Uncommon"
   }
 }
 Objects {
-  Id: 5885690553894889409
+  Id: 6822374765711880078
   Name: "Common"
   Transform {
     Location {
@@ -195,13 +210,13 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1007787193999714619
+  ParentId: 2522256648528214949
   UnregisteredParameters {
     Overrides {
       Name: "cs:Color"
       Color {
-        R: 1
-        G: 1
+        R: 0.63
+        G: 0.99999994
         B: 1
         A: 1
       }
@@ -212,6 +227,9 @@ Objects {
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true
