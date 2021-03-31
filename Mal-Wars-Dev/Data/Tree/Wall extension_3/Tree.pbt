@@ -5,9 +5,9 @@ Objects {
   Name: "Column"
   Transform {
     Location {
-      X: -6250.82422
-      Y: -3910.30029
-      Z: -60
+      X: -6250.80908
+      Y: -3910.29126
+      Z: 75.8369141
     }
     Rotation {
       Yaw: 44.9999962
@@ -44,9 +44,9 @@ Objects {
   Name: "Column"
   Transform {
     Location {
-      X: -7484.72461
+      X: -7484.72168
       Y: -1332.896
-      Z: -60
+      Z: 75.8369141
     }
     Rotation {
       Yaw: 44.9999962

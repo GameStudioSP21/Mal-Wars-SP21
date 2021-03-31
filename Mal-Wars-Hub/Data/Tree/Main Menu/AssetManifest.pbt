@@ -17,6 +17,33 @@ Assets {
   }
 }
 Assets {
+  Id: 12105392254804013692
+  Name: "Baton"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Military_Icon_023"
+  }
+}
+Assets {
+  Id: 12046161851867846475
+  Name: "BG Flat 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundNoOutline_020"
+  }
+}
+Assets {
+  Id: 11132171457929751571
+  Name: "Banana"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Banana"
+  }
+}
+Assets {
   Id: 10796354255035333417
   Name: "Bank"
   PlatformAssetType: 9
@@ -26,12 +53,30 @@ Assets {
   }
 }
 Assets {
+  Id: 9386226998910690207
+  Name: "Bat"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Icon_Bat"
+  }
+}
+Assets {
   Id: 8819428978678124247
   Name: "Sci-fi Corners 002"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Scifi_Corners_002"
+  }
+}
+Assets {
+  Id: 8051747340836305279
+  Name: "Alien"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Scifi_Icon_021"
   }
 }
 Assets {
