@@ -11,10 +11,11 @@
 -- we navigate to that game's page at https://www.coregames.com/games/577d80/core-royale 
 -- and copy the last two parts of the URL 577d80/core-royale as the game ID.
 
-local GAME_ID = script:GetCustomProperty("GAME_ID")
+local gameID = script:GetCustomProperty("GAME_ID")
 local UIButton = script:GetCustomProperty("UIButton"):WaitForObject()
+local player = Game.GetLocalPlayer()
 
 UIButton.pressedEvent:Connect(function()
-	print("Level Transition Client: " .. GAME_ID)
-	Events.BroadcastToServer("LevelTransition", GAME_ID)
+	print("Level Transition Client: " .. player.name .. " => " .. gameID)
+	Events.BroadcastToServer("LevelTransition", player, gameID)
 end)

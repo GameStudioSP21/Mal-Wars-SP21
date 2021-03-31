@@ -11,7 +11,7 @@
 -- we navigate to that game's page at https://www.coregames.com/games/577d80/core-royale 
 -- and copy the last two parts of the URL 577d80/core-royale as the game ID.
 
-Events.Connect("LevelTransition",function(GAME_ID) 
-	print("Level Transition Server: " .. GAME_ID)
-	Game.TransferAllPlayersToGame(GAME_ID)
+Events.Connect("LevelTransition", function(player, gameID)
+	print("Level Transition Server: " .. player.name .. " => " .. gameID)
+	player:TransferToGame(gameID)
 end)
