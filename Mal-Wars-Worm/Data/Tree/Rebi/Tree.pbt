@@ -5,7 +5,7 @@ Objects {
   Name: "Floor"
   Transform {
     Location {
-      X: -6140.63477
+      X: -6140.63476
       Y: -37.6147385
       Z: -13764.25
     }
@@ -18,7 +18,6 @@ Objects {
     }
   }
   ParentId: 11696232945258758728
-  ChildIds: 4467525370244358549
   ChildIds: 15202832262377811835
   ChildIds: 11475234271993032254
   ChildIds: 4932059329177474719
@@ -294,7 +293,7 @@ Objects {
   Transform {
     Location {
       X: 18554.2324
-      Y: -17223.4727
+      Y: -17223.4726
       Z: 1926.4762
     }
     Rotation {
@@ -417,7 +416,7 @@ Objects {
   Transform {
     Location {
       X: -18553.7715
-      Y: -17223.4727
+      Y: -17223.4726
       Z: 1926.4762
     }
     Rotation {
@@ -478,7 +477,7 @@ Objects {
   Transform {
     Location {
       X: -33593.7852
-      Y: -14562.1729
+      Y: -14562.1728
       Z: 3900.00024
     }
     Rotation {
@@ -777,65 +776,6 @@ Objects {
   }
 }
 Objects {
-  Id: 4467525370244358549
-  Name: "Prism - 8-Sided"
-  Transform {
-    Location {
-      X: 29.2310867
-      Y: 80.840126
-    }
-    Rotation {
-      Yaw: 89.9999542
-    }
-    Scale {
-      X: 488.9
-      Y: 697.30011
-      Z: 1
-    }
-  }
-  ParentId: 14773729999334514553
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4247430867898109902
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.520000041
-        G: 0.16221121
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 5075754212973068898
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
   Id: 16071853322256059198
   Name: "Floor Idea Around Worm - Platform Support"
   Transform {
@@ -1021,7 +961,7 @@ Objects {
   Name: "Rock 01"
   Transform {
     Location {
-      X: 845.226563
+      X: 845.226562
       Y: 222.531738
       Z: 567.706543
     }
@@ -1638,9 +1578,9 @@ Objects {
   Name: "Rock Hexagonal"
   Transform {
     Location {
-      X: 1953.16895
+      X: 1953.16894
       Y: -1521.69141
-      Z: 4224.16309
+      Z: 4224.16308
     }
     Rotation {
     }
@@ -1788,7 +1728,7 @@ Objects {
   Transform {
     Location {
       X: 8930.7334
-      Y: -3302.78809
+      Y: -3302.78808
       Z: -5013.77
     }
     Rotation {
@@ -1902,7 +1842,7 @@ Objects {
   Name: "WallLights"
   Transform {
     Location {
-      X: -4502.57227
+      X: -4502.57226
       Y: -408.641113
       Z: -17763.4824
     }
@@ -2732,7 +2672,7 @@ Objects {
   Transform {
     Location {
       X: 8041.70703
-      Y: -5153.99561
+      Y: -5153.9956
       Z: 4809.71289
     }
     Rotation {

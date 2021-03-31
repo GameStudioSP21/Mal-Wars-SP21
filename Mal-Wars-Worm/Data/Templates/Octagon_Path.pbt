@@ -114,10 +114,118 @@ Assets {
         ChildIds: 847064878636373248
         ChildIds: 15025451668893634111
         ChildIds: 17252944051419635582
+        ChildIds: 3798627118964028817
         ChildIds: 13803247272626054067
         ChildIds: 3557648251182158698
         ChildIds: 5677800738490068598
         ChildIds: 1192064272936951302
+        ChildIds: 2173522801205070897
+        ChildIds: 145595442310202158
+        ChildIds: 7135825739318158630
+        ChildIds: 3597708995160513576
+        ChildIds: 18027160113769266852
+        ChildIds: 16194268266657765964
+        ChildIds: 2575209807820646411
+        ChildIds: 16259043532348727029
+        ChildIds: 10444699967199738673
+        ChildIds: 612026129714403088
+        ChildIds: 3818697340361248465
+        ChildIds: 17890182478838765071
+        ChildIds: 10297528308062598743
+        ChildIds: 1655297313665869218
+        ChildIds: 12152267278248178490
+        ChildIds: 16469329920039868986
+        ChildIds: 9498487310613311545
+        ChildIds: 4693639554457895370
+        ChildIds: 1844167316312788225
+        ChildIds: 10930724642530345985
+        ChildIds: 7832604992465186041
+        ChildIds: 9422020271705094462
+        ChildIds: 6665986093778554506
+        ChildIds: 6848721010027846922
+        ChildIds: 14706636220324767470
+        ChildIds: 8654352624411675329
+        ChildIds: 4820094414233544070
+        ChildIds: 11537363528417617480
+        ChildIds: 18412470565601094742
+        ChildIds: 1094565228544204794
+        ChildIds: 12288371678169504684
+        ChildIds: 10257294134482941394
+        ChildIds: 11311498255012249425
+        ChildIds: 13969486505922258830
+        ChildIds: 5223044207091120255
+        ChildIds: 10020789621483973472
+        ChildIds: 4741607960378254627
+        ChildIds: 4009784851531957076
+        ChildIds: 6688356712686033259
+        ChildIds: 10401074784054424993
+        ChildIds: 8472057365254067544
+        ChildIds: 1800797883444568532
+        ChildIds: 17303568501100673095
+        ChildIds: 8887954204369196328
+        ChildIds: 11660151549349992241
+        ChildIds: 16173222677490454659
+        ChildIds: 862662055969689641
+        ChildIds: 16052218792559359116
+        ChildIds: 16006552617140536869
+        ChildIds: 8592625837046275158
+        ChildIds: 16452526848118866469
+        ChildIds: 380784512464732472
+        ChildIds: 2913377680585769983
+        ChildIds: 6961890446093543961
+        ChildIds: 7953237883532564693
+        ChildIds: 3729151275866364528
+        ChildIds: 9207747896316347957
+        ChildIds: 9046948470948166406
+        ChildIds: 9703784560978780308
+        ChildIds: 11753178275913333764
+        ChildIds: 5407271670485805397
+        ChildIds: 17440902942766525797
+        ChildIds: 10111495866827045672
+        ChildIds: 15711296225521675311
+        ChildIds: 8139319985649392557
+        ChildIds: 14910937122680819009
+        ChildIds: 11863963278507434667
+        ChildIds: 12131218454509376777
+        ChildIds: 17506512309076888623
+        ChildIds: 6573923826349879988
+        ChildIds: 11854585353288660717
+        ChildIds: 3642187753637795275
+        ChildIds: 506198640976433734
+        ChildIds: 17373168995526607371
+        ChildIds: 5688179063093094117
+        ChildIds: 15401972644676096880
+        ChildIds: 1994624990603445236
+        ChildIds: 8612683166748163401
+        ChildIds: 9321463842122688680
+        ChildIds: 16257398192520716607
+        ChildIds: 1079653135294703499
+        ChildIds: 11414988744994134335
+        ChildIds: 13206647825807250475
+        ChildIds: 7503169599203943712
+        ChildIds: 4229091674772216601
+        ChildIds: 16072880003803404006
+        ChildIds: 6784373807312155363
+        ChildIds: 1337611703181930990
+        ChildIds: 1718001945111657404
+        ChildIds: 4117561707515078565
+        ChildIds: 7805276738150097469
+        ChildIds: 16257099715180518710
+        ChildIds: 13079807142562361883
+        ChildIds: 3018129621621086868
+        ChildIds: 13890617801049830798
+        ChildIds: 3615335475070453797
+        ChildIds: 10614284005250914087
+        ChildIds: 15395782138040687635
+        ChildIds: 2980154232837357488
+        ChildIds: 872497916285136089
+        ChildIds: 12869574440879521976
+        ChildIds: 7676589531188935548
+        ChildIds: 13703538463751951702
+        ChildIds: 16718047451356580492
+        ChildIds: 8981007240938142513
+        ChildIds: 6380301030464972718
+        ChildIds: 9682160758720727227
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1514,7 +1622,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: 970.226563
+            X: 970.226562
             Y: -378.510254
             Z: 149.935501
           }
@@ -1934,7 +2042,7 @@ Assets {
         Transform {
           Location {
             X: 690.90918
-            Y: -690.907227
+            Y: -690.907226
             Z: 149.94136
           }
           Rotation {
@@ -2054,7 +2162,7 @@ Assets {
         Transform {
           Location {
             X: 927.571289
-            Y: -430.910645
+            Y: -430.910644
             Z: 149.928055
           }
           Rotation {
@@ -2354,7 +2462,7 @@ Assets {
         Transform {
           Location {
             X: -378.510742
-            Y: -970.219727
+            Y: -970.219726
             Z: 149.933594
           }
           Rotation {
@@ -2532,7 +2640,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: 351.191895
+            X: 351.191894
             Y: -960.587646
             Z: 149.927124
           }
@@ -3012,7 +3120,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -430.907227
+            X: -430.907226
             Y: -927.563721
             Z: 149.926346
           }
@@ -3193,7 +3301,7 @@ Assets {
         Transform {
           Location {
             X: -613.23
-            Y: -613.226563
+            Y: -613.226562
             Z: 149.944092
           }
           Rotation {
@@ -3312,7 +3420,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -970.216309
+            X: -970.216308
             Y: 378.515747
             Z: 149.932068
           }
@@ -3433,7 +3541,7 @@ Assets {
         Transform {
           Location {
             X: -960.584473
-            Y: 350.966309
+            Y: 350.966308
             Z: 149.927307
           }
           Rotation {
@@ -7145,6 +7253,47 @@ Assets {
         }
       }
       Objects {
+        Id: 3798627118964028817
+        Name: "Prism - 8-Sided Polished"
+        Transform {
+          Location {
+            Z: 456.159943
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.76531148
+            Y: 0.76531148
+            Z: 0.76531148
+          }
+        }
+        ParentId: 8915900068762014425
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2701718308547925009
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
         Id: 13803247272626054067
         Name: "Plane 1m - Two Sided"
         Transform {
@@ -7214,7 +7363,7 @@ Assets {
             Z: 158.828247
           }
           Rotation {
-            Yaw: -134.351563
+            Yaw: -134.351562
           }
           Scale {
             X: 0.113665007
@@ -7385,6 +7534,5817 @@ Assets {
           }
         }
       }
+      Objects {
+        Id: 2173522801205070897
+        Name: "Plane Trapezoid - One Sided"
+        Transform {
+          Location {
+            X: -1711.37158
+            Y: -2.34675574
+            Z: 82.9345856
+          }
+          Rotation {
+            Yaw: 90
+          }
+          Scale {
+            X: 14.2500029
+            Y: 22.5
+            Z: 1
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:IsBuildable"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 18242125999629608164
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3192052139210163942
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 145595442310202158
+        Name: "Prism - 8-Sided Polished"
+        Transform {
+          Location {
+            Z: 456.159943
+          }
+          Rotation {
+            Yaw: 45
+          }
+          Scale {
+            X: 0.76531142
+            Y: 0.76531142
+            Z: 0.76531142
+          }
+        }
+        ParentId: 8915900068762014425
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2701718308547925009
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 7135825739318158630
+        Name: "Prism - 8-Sided Polished"
+        Transform {
+          Location {
+            Z: 456.159943
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.76531136
+            Y: 0.76531136
+            Z: 0.76531136
+          }
+        }
+        ParentId: 8915900068762014425
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2701718308547925009
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 3597708995160513576
+        Name: "Plane Trapezoid - One Sided"
+        Transform {
+          Location {
+            X: -1211.78174
+            Y: 1208.46265
+            Z: 82.9345779
+          }
+          Rotation {
+            Yaw: 45
+          }
+          Scale {
+            X: 14.2500029
+            Y: 22.4999962
+            Z: 0.999999881
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:IsBuildable"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 18242125999629608164
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3192052139210163942
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 18027160113769266852
+        Name: "Prism - 8-Sided Polished"
+        Transform {
+          Location {
+            Z: 456.159943
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.76531136
+            Y: 0.76531136
+            Z: 0.76531136
+          }
+        }
+        ParentId: 8915900068762014425
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2701718308547925009
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 16194268266657765964
+        Name: "Plane Trapezoid - One Sided"
+        Transform {
+          Location {
+            X: -2.34712934
+            Y: 1711.37085
+            Z: 82.9345779
+          }
+          Rotation {
+          }
+          Scale {
+            X: 14.2500019
+            Y: 22.5
+            Z: 0.999999881
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:IsBuildable"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 18242125999629608164
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3192052139210163942
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 2575209807820646411
+        Name: "Plane Trapezoid - One Sided"
+        Transform {
+          Location {
+            X: 1208.46265
+            Y: 1211.78101
+            Z: 82.9345779
+          }
+          Rotation {
+            Yaw: -45
+          }
+          Scale {
+            X: 14.2500019
+            Y: 22.4999943
+            Z: 0.999999881
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:IsBuildable"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 18242125999629608164
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3192052139210163942
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 16259043532348727029
+        Name: "Prism - 8-Sided Polished"
+        Transform {
+          Location {
+            Z: 456.159943
+          }
+          Rotation {
+            Yaw: -45
+          }
+          Scale {
+            X: 0.76531136
+            Y: 0.76531136
+            Z: 0.76531136
+          }
+        }
+        ParentId: 8915900068762014425
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2701718308547925009
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 10444699967199738673
+        Name: "Plane Trapezoid - One Sided"
+        Transform {
+          Location {
+            X: 1711.36938
+            Y: 2.34675574
+            Z: 82.9345779
+          }
+          Rotation {
+            Yaw: -90
+          }
+          Scale {
+            X: 14.2500019
+            Y: 22.5
+            Z: 0.999999881
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:IsBuildable"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 18242125999629608164
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3192052139210163942
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 612026129714403088
+        Name: "Plane Trapezoid - One Sided"
+        Transform {
+          Location {
+            X: 1211.78101
+            Y: -1208.46265
+            Z: 82.9345779
+          }
+          Rotation {
+            Yaw: -135
+          }
+          Scale {
+            X: 14.2500019
+            Y: 22.4999943
+            Z: 0.999999881
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:IsBuildable"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 18242125999629608164
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3192052139210163942
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 3818697340361248465
+        Name: "Prism - 8-Sided Polished"
+        Transform {
+          Location {
+            Z: 456.159943
+          }
+          Rotation {
+            Yaw: -135
+          }
+          Scale {
+            X: 0.765311301
+            Y: 0.765311301
+            Z: 0.765311301
+          }
+        }
+        ParentId: 8915900068762014425
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2701718308547925009
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 17890182478838765071
+        Name: "Plane Trapezoid - One Sided"
+        Transform {
+          Location {
+            X: 2.34675574
+            Y: -1711.36938
+            Z: 82.9345779
+          }
+          Rotation {
+            Yaw: 180
+          }
+          Scale {
+            X: 14.2500019
+            Y: 22.5
+            Z: 0.999999881
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:IsBuildable"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 18242125999629608164
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3192052139210163942
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 10297528308062598743
+        Name: "Plane Trapezoid - One Sided"
+        Transform {
+          Location {
+            X: -1208.46265
+            Y: -1211.78101
+            Z: 82.9345779
+          }
+          Rotation {
+            Yaw: 135
+          }
+          Scale {
+            X: 14.2500019
+            Y: 22.4999943
+            Z: 0.999999881
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:IsBuildable"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 18242125999629608164
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3192052139210163942
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 1655297313665869218
+        Name: "Prism - 8-Sided Polished"
+        Transform {
+          Location {
+            Z: 456.159943
+          }
+          Rotation {
+            Yaw: 135
+          }
+          Scale {
+            X: 0.765311241
+            Y: 0.765311241
+            Z: 0.765311241
+          }
+        }
+        ParentId: 8915900068762014425
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2701718308547925009
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 12152267278248178490
+        Name: "Prism - 8-Sided Half"
+        Transform {
+          Location {
+            X: 1721.07483
+            Y: 40.319355
+            Z: 160.59761
+          }
+          Rotation {
+            Pitch: 90
+            Roll: -90
+          }
+          Scale {
+            X: 0.867297113
+            Y: 0.694445491
+            Z: 3.44390178
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6751745758263253574
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9119536234320832869
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 16469329920039868986
+        Name: "Sci-fi Console Hinge 01"
+        Transform {
+          Location {
+            X: 1686.72314
+            Y: 40.2281761
+            Z: 141.413208
+          }
+          Rotation {
+            Yaw: 90
+            Roll: -90
+          }
+          Scale {
+            X: 12.2223721
+            Y: 7.19410086
+            Z: 5.85668421
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.322916657
+              G: 0.322916657
+              B: 0.322916657
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 10553272733231785645
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3628780303828917058
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 9498487310613311545
+        Name: "Plane Triangle - One Sided Convex"
+        Transform {
+          Location {
+            X: 1546.00378
+            Y: 40.0996284
+            Z: 152.599503
+          }
+          Rotation {
+            Yaw: 90
+          }
+          Scale {
+            X: 6.69647503
+            Y: 3.44390106
+            Z: 3.06124449
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17880341449870205805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0500000119
+              G: 0.735761285
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 4693639554457895370
+        Name: "Plane Triangle - One Sided Convex"
+        Transform {
+          Location {
+            X: 1546.00232
+            Y: 40.4508934
+            Z: 91.3529587
+          }
+          Rotation {
+            Yaw: 90
+          }
+          Scale {
+            X: 6.69647503
+            Y: 3.4439013
+            Z: 3.06124568
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17880341449870205805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0500000119
+              G: 0.735761285
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 1844167316312788225
+        Name: "Plane Triangle - One Sided Convex"
+        Transform {
+          Location {
+            X: 1121.54407
+            Y: -1064.83521
+            Z: 152.599503
+          }
+          Rotation {
+            Yaw: 45
+          }
+          Scale {
+            X: 6.69647503
+            Y: 3.44390106
+            Z: 3.06124449
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17880341449870205805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0500000119
+              G: 0.735761285
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 10930724642530345985
+        Name: "Sci-fi Console Hinge 01"
+        Transform {
+          Location {
+            X: 1221.13916
+            Y: -1164.24792
+            Z: 141.413162
+          }
+          Rotation {
+            Yaw: 45
+            Roll: -90
+          }
+          Scale {
+            X: 12.2223721
+            Y: 7.19410086
+            Z: 5.85668421
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.322916657
+              G: 0.322916657
+              B: 0.322916657
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 10553272733231785645
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3628780303828917058
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 7832604992465186041
+        Name: "Prism - 8-Sided Half"
+        Transform {
+          Location {
+            X: 1245.49353
+            Y: -1188.47339
+            Z: 160.597565
+          }
+          Rotation {
+            Pitch: 90
+            Roll: -45
+          }
+          Scale {
+            X: 0.867297113
+            Y: 0.694445491
+            Z: 3.44390178
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6751745758263253574
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9119536234320832869
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 9422020271705094462
+        Name: "Plane Triangle - One Sided Convex"
+        Transform {
+          Location {
+            X: 1121.79187
+            Y: -1064.58557
+            Z: 91.3529587
+          }
+          Rotation {
+            Yaw: 45
+          }
+          Scale {
+            X: 6.69647503
+            Y: 3.44390106
+            Z: 3.06124496
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17880341449870205805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0500000119
+              G: 0.735761285
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 6665986093778554506
+        Name: "Prism - 8-Sided Polished"
+        Transform {
+          Location {
+            Z: 456.159943
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.76531136
+            Y: 0.76531136
+            Z: 0.76531136
+          }
+        }
+        ParentId: 8915900068762014425
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2701718308547925009
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 6848721010027846922
+        Name: "Plane Triangle - One Sided Convex"
+        Transform {
+          Location {
+            X: 40.0992546
+            Y: -1546.00378
+            Z: 152.599503
+          }
+          Rotation {
+          }
+          Scale {
+            X: 6.69647503
+            Y: 3.44390106
+            Z: 3.06124449
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17880341449870205805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0500000119
+              G: 0.735761285
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 14706636220324767470
+        Name: "Sci-fi Console Hinge 01"
+        Transform {
+          Location {
+            X: 40.2278023
+            Y: -1686.724
+            Z: 141.413116
+          }
+          Rotation {
+            Roll: -90
+          }
+          Scale {
+            X: 12.2223721
+            Y: 7.19410086
+            Z: 5.85668421
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.322916657
+              G: 0.322916657
+              B: 0.322916657
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 10553272733231785645
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3628780303828917058
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 8654352624411675329
+        Name: "Prism - 8-Sided Half"
+        Transform {
+          Location {
+            X: 40.319355
+            Y: -1721.07483
+            Z: 160.597549
+          }
+          Rotation {
+            Pitch: 90
+          }
+          Scale {
+            X: 0.867297113
+            Y: 0.694445491
+            Z: 3.44390178
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6751745758263253574
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9119536234320832869
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 4820094414233544070
+        Name: "Plane Triangle - One Sided Convex"
+        Transform {
+          Location {
+            X: 40.4508934
+            Y: -1546.00232
+            Z: 91.3529587
+          }
+          Rotation {
+          }
+          Scale {
+            X: 6.69647503
+            Y: 3.44390106
+            Z: 3.06124449
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17880341449870205805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0500000119
+              G: 0.735761285
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 11537363528417617480
+        Name: "Prism - 8-Sided Polished"
+        Transform {
+          Location {
+            Z: 456.159943
+          }
+          Rotation {
+            Yaw: -45
+          }
+          Scale {
+            X: 0.765311301
+            Y: 0.765311301
+            Z: 0.765311301
+          }
+        }
+        ParentId: 8915900068762014425
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2701718308547925009
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 18412470565601094742
+        Name: "Plane Triangle - One Sided Convex"
+        Transform {
+          Location {
+            X: -1064.83521
+            Y: -1121.54297
+            Z: 152.599503
+          }
+          Rotation {
+            Yaw: -45
+          }
+          Scale {
+            X: 6.69647503
+            Y: 3.44390106
+            Z: 3.06124449
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17880341449870205805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0500000119
+              G: 0.735761285
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 1094565228544204794
+        Name: "Sci-fi Console Hinge 01"
+        Transform {
+          Location {
+            X: -1164.24866
+            Y: -1221.13953
+            Z: 141.413101
+          }
+          Rotation {
+            Yaw: -45
+            Roll: -90
+          }
+          Scale {
+            X: 12.2223721
+            Y: 7.19410086
+            Z: 5.85668421
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.322916657
+              G: 0.322916657
+              B: 0.322916657
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 10553272733231785645
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3628780303828917058
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 12288371678169504684
+        Name: "Prism - 8-Sided Half"
+        Transform {
+          Location {
+            X: -1188.47339
+            Y: -1245.49353
+            Z: 160.597549
+          }
+          Rotation {
+            Pitch: 90
+            Roll: 45
+          }
+          Scale {
+            X: 0.867297113
+            Y: 0.694445491
+            Z: 3.44390178
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6751745758263253574
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9119536234320832869
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 10257294134482941394
+        Name: "Plane Triangle - One Sided Convex"
+        Transform {
+          Location {
+            X: -1064.58557
+            Y: -1121.7926
+            Z: 91.3529587
+          }
+          Rotation {
+            Yaw: -45
+          }
+          Scale {
+            X: 6.69647503
+            Y: 3.44390106
+            Z: 3.06124449
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17880341449870205805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0500000119
+              G: 0.735761285
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 11311498255012249425
+        Name: "Prism - 8-Sided Polished"
+        Transform {
+          Location {
+            Z: 456.159943
+          }
+          Rotation {
+            Yaw: -90
+          }
+          Scale {
+            X: 0.765311241
+            Y: 0.765311241
+            Z: 0.765311241
+          }
+        }
+        ParentId: 8915900068762014425
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2701718308547925009
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 13969486505922258830
+        Name: "Plane Triangle - One Sided Convex"
+        Transform {
+          Location {
+            X: -1546.00305
+            Y: -40.0981331
+            Z: 152.599503
+          }
+          Rotation {
+            Yaw: -90
+          }
+          Scale {
+            X: 6.69647503
+            Y: 3.44390106
+            Z: 3.06124449
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17880341449870205805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0500000119
+              G: 0.735761285
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 5223044207091120255
+        Name: "Sci-fi Console Hinge 01"
+        Transform {
+          Location {
+            X: -1686.724
+            Y: -40.2281761
+            Z: 141.413101
+          }
+          Rotation {
+            Yaw: -90
+            Roll: -90
+          }
+          Scale {
+            X: 12.2223721
+            Y: 7.19410086
+            Z: 5.85668421
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.322916657
+              G: 0.322916657
+              B: 0.322916657
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 10553272733231785645
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3628780303828917058
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 10020789621483973472
+        Name: "Prism - 8-Sided Half"
+        Transform {
+          Location {
+            X: -1721.07483
+            Y: -40.319355
+            Z: 160.597549
+          }
+          Rotation {
+            Pitch: 90
+            Roll: 90
+          }
+          Scale {
+            X: 0.867297113
+            Y: 0.694445491
+            Z: 3.44390178
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6751745758263253574
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9119536234320832869
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 4741607960378254627
+        Name: "Plane Triangle - One Sided Convex"
+        Transform {
+          Location {
+            X: -1546.00305
+            Y: -40.4523888
+            Z: 91.3529587
+          }
+          Rotation {
+            Yaw: -90
+          }
+          Scale {
+            X: 6.69647503
+            Y: 3.44390106
+            Z: 3.06124449
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17880341449870205805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0500000119
+              G: 0.735761285
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 4009784851531957076
+        Name: "Prism - 8-Sided Polished"
+        Transform {
+          Location {
+            Z: 456.159943
+          }
+          Rotation {
+            Yaw: -135
+          }
+          Scale {
+            X: 0.765311182
+            Y: 0.765311182
+            Z: 0.765311182
+          }
+        }
+        ParentId: 8915900068762014425
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2701718308547925009
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 6688356712686033259
+        Name: "Plane Triangle - One Sided Convex"
+        Transform {
+          Location {
+            X: -1121.5437
+            Y: 1064.83521
+            Z: 152.599503
+          }
+          Rotation {
+            Yaw: -135
+          }
+          Scale {
+            X: 6.69647503
+            Y: 3.44390106
+            Z: 3.06124449
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17880341449870205805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0500000119
+              G: 0.735761285
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 10401074784054424993
+        Name: "Sci-fi Console Hinge 01"
+        Transform {
+          Location {
+            X: -1221.13953
+            Y: 1164.24792
+            Z: 141.413101
+          }
+          Rotation {
+            Yaw: -135
+            Roll: -90
+          }
+          Scale {
+            X: 12.2223721
+            Y: 7.19410086
+            Z: 5.85668421
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.322916657
+              G: 0.322916657
+              B: 0.322916657
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 10553272733231785645
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3628780303828917058
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 8472057365254067544
+        Name: "Prism - 8-Sided Half"
+        Transform {
+          Location {
+            X: -1245.49353
+            Y: 1188.4718
+            Z: 160.597549
+          }
+          Rotation {
+            Pitch: 90
+            Roll: 135
+          }
+          Scale {
+            X: 0.867297113
+            Y: 0.694445491
+            Z: 3.44390178
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6751745758263253574
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9119536234320832869
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 1800797883444568532
+        Name: "Plane Triangle - One Sided Convex"
+        Transform {
+          Location {
+            X: -1121.79407
+            Y: 1064.58411
+            Z: 91.3529587
+          }
+          Rotation {
+            Yaw: -135
+          }
+          Scale {
+            X: 6.69647503
+            Y: 3.44390106
+            Z: 3.06124449
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17880341449870205805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0500000119
+              G: 0.735761285
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 17303568501100673095
+        Name: "Prism - 8-Sided Polished"
+        Transform {
+          Location {
+            Z: 456.159943
+          }
+          Rotation {
+            Yaw: 180
+          }
+          Scale {
+            X: 0.765311122
+            Y: 0.765311122
+            Z: 0.765311122
+          }
+        }
+        ParentId: 8915900068762014425
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2701718308547925009
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 8887954204369196328
+        Name: "Plane Triangle - One Sided Convex"
+        Transform {
+          Location {
+            X: -40.0981331
+            Y: 1546.00378
+            Z: 152.599503
+          }
+          Rotation {
+            Yaw: 180
+          }
+          Scale {
+            X: 6.69647503
+            Y: 3.44390106
+            Z: 3.06124449
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17880341449870205805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0500000119
+              G: 0.735761285
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 11660151549349992241
+        Name: "Sci-fi Console Hinge 01"
+        Transform {
+          Location {
+            X: -40.2289238
+            Y: 1686.72241
+            Z: 141.413101
+          }
+          Rotation {
+            Yaw: 180
+            Roll: -90
+          }
+          Scale {
+            X: 12.2223721
+            Y: 7.19410086
+            Z: 5.85668421
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.322916657
+              G: 0.322916657
+              B: 0.322916657
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 10553272733231785645
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3628780303828917058
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 16173222677490454659
+        Name: "Prism - 8-Sided Half"
+        Transform {
+          Location {
+            X: -40.3204765
+            Y: 1721.07178
+            Z: 160.597549
+          }
+          Rotation {
+            Pitch: 90
+            Roll: 180
+          }
+          Scale {
+            X: 0.867297113
+            Y: 0.694445491
+            Z: 3.44390178
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6751745758263253574
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9119536234320832869
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 862662055969689641
+        Name: "Plane Triangle - One Sided Convex"
+        Transform {
+          Location {
+            X: -40.4535103
+            Y: 1546.00378
+            Z: 91.3529587
+          }
+          Rotation {
+            Yaw: 180
+          }
+          Scale {
+            X: 6.69647503
+            Y: 3.44390106
+            Z: 3.06124449
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17880341449870205805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0500000119
+              G: 0.735761285
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 16052218792559359116
+        Name: "Prism - 8-Sided Polished"
+        Transform {
+          Location {
+            Z: 456.159943
+          }
+          Rotation {
+            Yaw: 135
+          }
+          Scale {
+            X: 0.765311122
+            Y: 0.765311122
+            Z: 0.765311122
+          }
+        }
+        ParentId: 8915900068762014425
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2701718308547925009
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 16006552617140536869
+        Name: "Plane Triangle - One Sided Convex"
+        Transform {
+          Location {
+            X: 1064.83667
+            Y: 1121.54297
+            Z: 152.599503
+          }
+          Rotation {
+            Yaw: 135
+          }
+          Scale {
+            X: 6.69647503
+            Y: 3.44390106
+            Z: 3.06124449
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17880341449870205805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0500000119
+              G: 0.735761285
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 8592625837046275158
+        Name: "Sci-fi Console Hinge 01"
+        Transform {
+          Location {
+            X: 1164.24646
+            Y: 1221.13806
+            Z: 141.413101
+          }
+          Rotation {
+            Yaw: 135
+            Roll: -90
+          }
+          Scale {
+            X: 12.2223721
+            Y: 7.19410086
+            Z: 5.85668421
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.322916657
+              G: 0.322916657
+              B: 0.322916657
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 10553272733231785645
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3628780303828917058
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 16452526848118866469
+        Name: "Prism - 8-Sided Half"
+        Transform {
+          Location {
+            X: 1188.47034
+            Y: 1245.49048
+            Z: 160.597549
+          }
+          Rotation {
+            Pitch: 90
+            Roll: -135
+          }
+          Scale {
+            X: 0.867297113
+            Y: 0.694445491
+            Z: 3.44390178
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6751745758263253574
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9119536234320832869
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 380784512464732472
+        Name: "Plane Triangle - One Sided Convex"
+        Transform {
+          Location {
+            X: 1064.58484
+            Y: 1121.79407
+            Z: 91.3529587
+          }
+          Rotation {
+            Yaw: 135
+          }
+          Scale {
+            X: 6.69647503
+            Y: 3.44390106
+            Z: 3.06124449
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17880341449870205805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0500000119
+              G: 0.735761285
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 2913377680585769983
+        Name: "Prism - 8-Sided Polished"
+        Transform {
+          Location {
+            Z: 456.159943
+          }
+          Rotation {
+            Yaw: 90
+          }
+          Scale {
+            X: 0.765311122
+            Y: 0.765311122
+            Z: 0.765311122
+          }
+        }
+        ParentId: 8915900068762014425
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2701718308547925009
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 6961890446093543961
+        Name: "Plane Triangle - One Sided Convex"
+        Transform {
+          Location {
+            X: 1229.95862
+            Y: 511.272858
+            Z: 36.041
+          }
+          Rotation {
+            Yaw: 112.179314
+          }
+          Scale {
+            X: 0.313903481
+            Y: 10.0262194
+            Z: 3.06124568
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17880341449870205805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0500000119
+              G: 0.735761285
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 7953237883532564693
+        Name: "Plane Triangle - One Sided Convex"
+        Transform {
+          Location {
+            X: 1230.08936
+            Y: 510.951508
+            Z: 97.2873611
+          }
+          Rotation {
+            Yaw: 112.179314
+          }
+          Scale {
+            X: 0.313903481
+            Y: 10.0262175
+            Z: 3.06124449
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17880341449870205805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0500000119
+              G: 0.735761285
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 3729151275866364528
+        Name: "Sci-fi Console Hinge 01"
+        Transform {
+          Location {
+            X: 1675.39453
+            Y: 687.204834
+            Z: 86.1010742
+          }
+          Rotation {
+            Yaw: 112.179298
+            Roll: -90
+          }
+          Scale {
+            X: 1.05376232
+            Y: 11.2351875
+            Z: 5.85668612
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.322916657
+              G: 0.322916657
+              B: 0.322916657
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 10553272733231785645
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3628780303828917058
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 9207747896316347957
+        Name: "Prism - 8-Sided Half"
+        Transform {
+          Location {
+            X: 1707.17212
+            Y: 700.262939
+            Z: 105.285355
+          }
+          Rotation {
+            Pitch: 90
+            Roll: -112.178894
+          }
+          Scale {
+            X: 1.59994948
+            Y: 0.694446
+            Z: 0.314645737
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6751745758263253574
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9119536234320832869
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 9046948470948166406
+        Name: "Prism - 8-Sided Half"
+        Transform {
+          Location {
+            X: 1702.31348
+            Y: -711.992249
+            Z: 105.285347
+          }
+          Rotation {
+            Pitch: 90
+            Roll: -67.1788
+          }
+          Scale {
+            X: 1.59994948
+            Y: 0.694446
+            Z: 0.314645737
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6751745758263253574
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9119536234320832869
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 9703784560978780308
+        Name: "Sci-fi Console Hinge 01"
+        Transform {
+          Location {
+            X: 1670.60986
+            Y: -698.754761
+            Z: 86.101059
+          }
+          Rotation {
+            Yaw: 67.1792679
+            Roll: -90
+          }
+          Scale {
+            X: 1.05376232
+            Y: 11.2351875
+            Z: 5.85668612
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.322916657
+              G: 0.322916657
+              B: 0.322916657
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 10553272733231785645
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3628780303828917058
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 11753178275913333764
+        Name: "Plane Triangle - One Sided Convex"
+        Transform {
+          Location {
+            X: 1231.10205
+            Y: -508.507599
+            Z: 97.2873383
+          }
+          Rotation {
+            Yaw: 67.1793137
+          }
+          Scale {
+            X: 0.313903481
+            Y: 10.0262175
+            Z: 3.06124449
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17880341449870205805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0500000119
+              G: 0.735761285
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 5407271670485805397
+        Name: "Plane Triangle - One Sided Convex"
+        Transform {
+          Location {
+            X: 1231.23621
+            Y: -508.187714
+            Z: 36.0410118
+          }
+          Rotation {
+            Yaw: 67.1793137
+          }
+          Scale {
+            X: 0.313903481
+            Y: 10.0262175
+            Z: 3.06124496
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17880341449870205805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0500000119
+              G: 0.735761285
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 17440902942766525797
+        Name: "Prism - 8-Sided Polished"
+        Transform {
+          Location {
+            Z: 456.159943
+          }
+          Rotation {
+            Yaw: -90
+          }
+          Scale {
+            X: 0.765311241
+            Y: 0.765311241
+            Z: 0.765311241
+          }
+        }
+        ParentId: 8915900068762014425
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2701718308547925009
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 10111495866827045672
+        Name: "Prism - 8-Sided Half"
+        Transform {
+          Location {
+            X: 700.262939
+            Y: -1707.17065
+            Z: 105.285347
+          }
+          Rotation {
+            Pitch: 90
+            Roll: -22.178833
+          }
+          Scale {
+            X: 1.59994948
+            Y: 0.694446
+            Z: 0.314645737
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6751745758263253574
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9119536234320832869
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 15711296225521675311
+        Name: "Sci-fi Console Hinge 01"
+        Transform {
+          Location {
+            X: 687.2052
+            Y: -1675.3938
+            Z: 86.101059
+          }
+          Rotation {
+            Yaw: 22.1792374
+            Roll: -90
+          }
+          Scale {
+            X: 1.05376232
+            Y: 11.2351875
+            Z: 5.85668612
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.322916657
+              G: 0.322916657
+              B: 0.322916657
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 10553272733231785645
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3628780303828917058
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 8139319985649392557
+        Name: "Plane Triangle - One Sided Convex"
+        Transform {
+          Location {
+            X: 510.951508
+            Y: -1230.09009
+            Z: 97.2873383
+          }
+          Rotation {
+            Yaw: 22.1793022
+          }
+          Scale {
+            X: 0.313903481
+            Y: 10.0262175
+            Z: 3.06124449
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17880341449870205805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0500000119
+              G: 0.735761285
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 14910937122680819009
+        Name: "Plane Triangle - One Sided Convex"
+        Transform {
+          Location {
+            X: 511.272491
+            Y: -1229.95862
+            Z: 36.0410118
+          }
+          Rotation {
+            Yaw: 22.1793022
+          }
+          Scale {
+            X: 0.313903481
+            Y: 10.0262175
+            Z: 3.06124449
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17880341449870205805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0500000119
+              G: 0.735761285
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 11863963278507434667
+        Name: "Prism - 8-Sided Polished"
+        Transform {
+          Location {
+            Z: 456.159943
+          }
+          Rotation {
+            Yaw: -135
+          }
+          Scale {
+            X: 0.765311182
+            Y: 0.765311182
+            Z: 0.765311182
+          }
+        }
+        ParentId: 8915900068762014425
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2701718308547925009
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 12131218454509376777
+        Name: "Prism - 8-Sided Half"
+        Transform {
+          Location {
+            X: -711.991089
+            Y: -1702.31274
+            Z: 105.285347
+          }
+          Rotation {
+            Pitch: 90
+            Roll: 22.8211384
+          }
+          Scale {
+            X: 1.59994948
+            Y: 0.694446
+            Z: 0.314645737
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6751745758263253574
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9119536234320832869
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 17506512309076888623
+        Name: "Sci-fi Console Hinge 01"
+        Transform {
+          Location {
+            X: -698.754761
+            Y: -1670.60901
+            Z: 86.101059
+          }
+          Rotation {
+            Yaw: -22.8207703
+            Roll: -90
+          }
+          Scale {
+            X: 1.05376232
+            Y: 11.2351875
+            Z: 5.85668612
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.322916657
+              G: 0.322916657
+              B: 0.322916657
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 10553272733231785645
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3628780303828917058
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 6573923826349879988
+        Name: "Plane Triangle - One Sided Convex"
+        Transform {
+          Location {
+            X: -508.507599
+            Y: -1231.10205
+            Z: 97.2873383
+          }
+          Rotation {
+            Yaw: -22.8207092
+          }
+          Scale {
+            X: 0.313903481
+            Y: 10.0262175
+            Z: 3.06124449
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17880341449870205805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0500000119
+              G: 0.735761285
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 11854585353288660717
+        Name: "Plane Triangle - One Sided Convex"
+        Transform {
+          Location {
+            X: -508.187714
+            Y: -1231.23657
+            Z: 36.0410118
+          }
+          Rotation {
+            Yaw: -22.8207092
+          }
+          Scale {
+            X: 0.313903481
+            Y: 10.0262175
+            Z: 3.06124449
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17880341449870205805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0500000119
+              G: 0.735761285
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 3642187753637795275
+        Name: "Prism - 8-Sided Polished"
+        Transform {
+          Location {
+            Z: 456.159943
+          }
+          Rotation {
+            Yaw: 180
+          }
+          Scale {
+            X: 0.765311122
+            Y: 0.765311122
+            Z: 0.765311122
+          }
+        }
+        ParentId: 8915900068762014425
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2701718308547925009
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 506198640976433734
+        Name: "Prism - 8-Sided Half"
+        Transform {
+          Location {
+            X: -1707.17065
+            Y: -700.262939
+            Z: 105.285347
+          }
+          Rotation {
+            Pitch: 90
+            Roll: 67.8212433
+          }
+          Scale {
+            X: 1.59994948
+            Y: 0.694446
+            Z: 0.314645737
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6751745758263253574
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9119536234320832869
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 17373168995526607371
+        Name: "Sci-fi Console Hinge 01"
+        Transform {
+          Location {
+            X: -1675.39294
+            Y: -687.204834
+            Z: 86.101059
+          }
+          Rotation {
+            Yaw: -67.8208
+            Roll: -90
+          }
+          Scale {
+            X: 1.05376232
+            Y: 11.2351875
+            Z: 5.85668612
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.322916657
+              G: 0.322916657
+              B: 0.322916657
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 10553272733231785645
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3628780303828917058
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 5688179063093094117
+        Name: "Plane Triangle - One Sided Convex"
+        Transform {
+          Location {
+            X: -1230.08936
+            Y: -510.951508
+            Z: 97.2873383
+          }
+          Rotation {
+            Yaw: -67.8207397
+          }
+          Scale {
+            X: 0.313903481
+            Y: 10.0262175
+            Z: 3.06124449
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17880341449870205805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0500000119
+              G: 0.735761285
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 15401972644676096880
+        Name: "Plane Triangle - One Sided Convex"
+        Transform {
+          Location {
+            X: -1229.95862
+            Y: -511.272858
+            Z: 36.0410118
+          }
+          Rotation {
+            Yaw: -67.8207397
+          }
+          Scale {
+            X: 0.313903481
+            Y: 10.0262175
+            Z: 3.06124449
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17880341449870205805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0500000119
+              G: 0.735761285
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 1994624990603445236
+        Name: "Prism - 8-Sided Polished"
+        Transform {
+          Location {
+            Z: 456.159943
+          }
+          Rotation {
+            Yaw: 135
+          }
+          Scale {
+            X: 0.765311122
+            Y: 0.765311122
+            Z: 0.765311122
+          }
+        }
+        ParentId: 8915900068762014425
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2701718308547925009
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 8612683166748163401
+        Name: "Prism - 8-Sided Half"
+        Transform {
+          Location {
+            X: -1702.31274
+            Y: 711.990723
+            Z: 105.285347
+          }
+          Rotation {
+            Pitch: 90
+            Roll: 112.821297
+          }
+          Scale {
+            X: 1.59994948
+            Y: 0.694446
+            Z: 0.314645737
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6751745758263253574
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9119536234320832869
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 9321463842122688680
+        Name: "Sci-fi Console Hinge 01"
+        Transform {
+          Location {
+            X: -1670.60901
+            Y: 698.756226
+            Z: 86.101059
+          }
+          Rotation {
+            Yaw: -112.820786
+            Roll: -90
+          }
+          Scale {
+            X: 1.05376232
+            Y: 11.2351875
+            Z: 5.85668612
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.322916657
+              G: 0.322916657
+              B: 0.322916657
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 10553272733231785645
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3628780303828917058
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 16257398192520716607
+        Name: "Plane Triangle - One Sided Convex"
+        Transform {
+          Location {
+            X: -1231.10205
+            Y: 508.507599
+            Z: 97.2873383
+          }
+          Rotation {
+            Yaw: -112.82074
+          }
+          Scale {
+            X: 0.313903481
+            Y: 10.0262175
+            Z: 3.06124449
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17880341449870205805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0500000119
+              G: 0.735761285
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 1079653135294703499
+        Name: "Plane Triangle - One Sided Convex"
+        Transform {
+          Location {
+            X: -1231.23657
+            Y: 508.187714
+            Z: 36.0410118
+          }
+          Rotation {
+            Yaw: -112.82074
+          }
+          Scale {
+            X: 0.313903481
+            Y: 10.0262175
+            Z: 3.06124449
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17880341449870205805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0500000119
+              G: 0.735761285
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 11414988744994134335
+        Name: "Prism - 8-Sided Polished"
+        Transform {
+          Location {
+            Z: 456.159943
+          }
+          Rotation {
+            Yaw: 90
+          }
+          Scale {
+            X: 0.765311122
+            Y: 0.765311122
+            Z: 0.765311122
+          }
+        }
+        ParentId: 8915900068762014425
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2701718308547925009
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 13206647825807250475
+        Name: "Prism - 8-Sided Half"
+        Transform {
+          Location {
+            X: -700.262939
+            Y: 1707.17065
+            Z: 105.285347
+          }
+          Rotation {
+            Pitch: 90
+            Roll: 157.821213
+          }
+          Scale {
+            X: 1.59994948
+            Y: 0.694446
+            Z: 0.314645737
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6751745758263253574
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9119536234320832869
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 7503169599203943712
+        Name: "Sci-fi Console Hinge 01"
+        Transform {
+          Location {
+            X: -687.203674
+            Y: 1675.39221
+            Z: 86.101059
+          }
+          Rotation {
+            Yaw: -157.820755
+            Roll: -90
+          }
+          Scale {
+            X: 1.05376232
+            Y: 11.2351875
+            Z: 5.85668612
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.322916657
+              G: 0.322916657
+              B: 0.322916657
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 10553272733231785645
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3628780303828917058
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 4229091674772216601
+        Name: "Plane Triangle - One Sided Convex"
+        Transform {
+          Location {
+            X: -510.950745
+            Y: 1230.09167
+            Z: 97.2873383
+          }
+          Rotation {
+            Yaw: -157.820724
+          }
+          Scale {
+            X: 0.313903481
+            Y: 10.0262175
+            Z: 3.06124449
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17880341449870205805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0500000119
+              G: 0.735761285
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 16072880003803404006
+        Name: "Plane Triangle - One Sided Convex"
+        Transform {
+          Location {
+            X: -511.272491
+            Y: 1229.96008
+            Z: 36.0410118
+          }
+          Rotation {
+            Yaw: -157.820724
+          }
+          Scale {
+            X: 0.313903481
+            Y: 10.0262175
+            Z: 3.06124449
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17880341449870205805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0500000119
+              G: 0.735761285
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 6784373807312155363
+        Name: "Prism - 8-Sided Polished"
+        Transform {
+          Location {
+            Z: 456.159943
+          }
+          Rotation {
+            Yaw: 45
+          }
+          Scale {
+            X: 0.765311122
+            Y: 0.765311122
+            Z: 0.765311122
+          }
+        }
+        ParentId: 8915900068762014425
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2701718308547925009
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 1337611703181930990
+        Name: "Prism - 8-Sided Half"
+        Transform {
+          Location {
+            X: 711.991089
+            Y: 1702.31274
+            Z: 105.285347
+          }
+          Rotation {
+            Pitch: 90
+            Roll: -157.178833
+          }
+          Scale {
+            X: 1.59994948
+            Y: 0.694446
+            Z: 0.314645737
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6751745758263253574
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9119536234320832869
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 1718001945111657404
+        Name: "Sci-fi Console Hinge 01"
+        Transform {
+          Location {
+            X: 698.755493
+            Y: 1670.60901
+            Z: 86.101059
+          }
+          Rotation {
+            Yaw: 157.179245
+            Roll: -90
+          }
+          Scale {
+            X: 1.05376232
+            Y: 11.2351875
+            Z: 5.85668612
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.322916657
+              G: 0.322916657
+              B: 0.322916657
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 10553272733231785645
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3628780303828917058
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 4117561707515078565
+        Name: "Plane Triangle - One Sided Convex"
+        Transform {
+          Location {
+            X: 508.509094
+            Y: 1231.10205
+            Z: 97.2873383
+          }
+          Rotation {
+            Yaw: 157.17926
+          }
+          Scale {
+            X: 0.313903481
+            Y: 10.0262175
+            Z: 3.06124449
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17880341449870205805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0500000119
+              G: 0.735761285
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 7805276738150097469
+        Name: "Plane Triangle - One Sided Convex"
+        Transform {
+          Location {
+            X: 508.189209
+            Y: 1231.23962
+            Z: 36.0410118
+          }
+          Rotation {
+            Yaw: 157.17926
+          }
+          Scale {
+            X: 0.313903481
+            Y: 10.0262175
+            Z: 3.06124449
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 17880341449870205805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0500000119
+              G: 0.735761285
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13621259958132264851
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 16257099715180518710
+        Name: "Prism - 8-Sided Polished"
+        Transform {
+          Location {
+            Z: 456.159943
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.765311122
+            Y: 0.765311122
+            Z: 0.765311122
+          }
+        }
+        ParentId: 8915900068762014425
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2701718308547925009
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 13079807142562361883
+        Name: "Plane Trapezoid - One Sided"
+        Transform {
+          Location {
+            X: 1208.46265
+            Y: 1211.78101
+            Z: 77.1485138
+          }
+          Rotation {
+            Yaw: -45
+          }
+          Scale {
+            X: 14.2500019
+            Y: 22.4999943
+            Z: 0.999999881
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:IsBuildable"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 2962022038624805534
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3192052139210163942
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 3018129621621086868
+        Name: "Plane Trapezoid - One Sided"
+        Transform {
+          Location {
+            X: 1711.37012
+            Y: 2.34526086
+            Z: 77.1485
+          }
+          Rotation {
+            Yaw: -90
+          }
+          Scale {
+            X: 14.2500019
+            Y: 22.4999943
+            Z: 0.999999881
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:IsBuildable"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 2962022038624805534
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3192052139210163942
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 13890617801049830798
+        Name: "Prism - 8-Sided Polished"
+        Transform {
+          Location {
+            Z: 456.159943
+          }
+          Rotation {
+            Yaw: -90
+          }
+          Scale {
+            X: 0.765311241
+            Y: 0.765311241
+            Z: 0.765311241
+          }
+        }
+        ParentId: 8915900068762014425
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2701718308547925009
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 3615335475070453797
+        Name: "Plane Trapezoid - One Sided"
+        Transform {
+          Location {
+            X: 1211.77978
+            Y: -1208.46265
+            Z: 77.1485
+          }
+          Rotation {
+            Yaw: -135
+          }
+          Scale {
+            X: 14.2500019
+            Y: 22.4999943
+            Z: 0.999999881
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:IsBuildable"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 2962022038624805534
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3192052139210163942
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 10614284005250914087
+        Name: "Prism - 8-Sided Polished"
+        Transform {
+          Location {
+            Z: 456.159943
+          }
+          Rotation {
+            Yaw: -135
+          }
+          Scale {
+            X: 0.765311182
+            Y: 0.765311182
+            Z: 0.765311182
+          }
+        }
+        ParentId: 8915900068762014425
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2701718308547925009
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 15395782138040687635
+        Name: "Plane Trapezoid - One Sided"
+        Transform {
+          Location {
+            X: 2.3456347
+            Y: -1711.36938
+            Z: 77.1485
+          }
+          Rotation {
+            Yaw: 180
+          }
+          Scale {
+            X: 14.2500019
+            Y: 22.4999943
+            Z: 0.999999881
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:IsBuildable"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 2962022038624805534
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3192052139210163942
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 2980154232837357488
+        Name: "Prism - 8-Sided Polished"
+        Transform {
+          Location {
+            Z: 456.159943
+          }
+          Rotation {
+            Yaw: 180
+          }
+          Scale {
+            X: 0.765311122
+            Y: 0.765311122
+            Z: 0.765311122
+          }
+        }
+        ParentId: 8915900068762014425
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2701718308547925009
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 872497916285136089
+        Name: "Plane Trapezoid - One Sided"
+        Transform {
+          Location {
+            X: -1208.46265
+            Y: -1211.77942
+            Z: 77.1485
+          }
+          Rotation {
+            Yaw: 135
+          }
+          Scale {
+            X: 14.2500019
+            Y: 22.4999943
+            Z: 0.999999881
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:IsBuildable"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 2962022038624805534
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3192052139210163942
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 12869574440879521976
+        Name: "Prism - 8-Sided Polished"
+        Transform {
+          Location {
+            Z: 456.159943
+          }
+          Rotation {
+            Yaw: 135
+          }
+          Scale {
+            X: 0.765311122
+            Y: 0.765311122
+            Z: 0.765311122
+          }
+        }
+        ParentId: 8915900068762014425
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2701718308547925009
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 7676589531188935548
+        Name: "Plane Trapezoid - One Sided"
+        Transform {
+          Location {
+            X: -1711.37012
+            Y: -2.34526086
+            Z: 77.1485
+          }
+          Rotation {
+            Yaw: 90
+          }
+          Scale {
+            X: 14.2500019
+            Y: 22.4999943
+            Z: 0.999999881
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:IsBuildable"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 2962022038624805534
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3192052139210163942
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 13703538463751951702
+        Name: "Prism - 8-Sided Polished"
+        Transform {
+          Location {
+            Z: 456.159943
+          }
+          Rotation {
+            Yaw: 90
+          }
+          Scale {
+            X: 0.765311122
+            Y: 0.765311122
+            Z: 0.765311122
+          }
+        }
+        ParentId: 8915900068762014425
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2701718308547925009
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 16718047451356580492
+        Name: "Plane Trapezoid - One Sided"
+        Transform {
+          Location {
+            X: -1211.78015
+            Y: 1208.46265
+            Z: 77.1485
+          }
+          Rotation {
+            Yaw: 45
+          }
+          Scale {
+            X: 14.2500019
+            Y: 22.4999943
+            Z: 0.999999881
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:IsBuildable"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 2962022038624805534
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3192052139210163942
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 8981007240938142513
+        Name: "Prism - 8-Sided Polished"
+        Transform {
+          Location {
+            Z: 456.159943
+          }
+          Rotation {
+            Yaw: 45
+          }
+          Scale {
+            X: 0.765311122
+            Y: 0.765311122
+            Z: 0.765311122
+          }
+        }
+        ParentId: 8915900068762014425
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2701718308547925009
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 6380301030464972718
+        Name: "Plane Trapezoid - One Sided"
+        Transform {
+          Location {
+            X: -2.34638214
+            Y: 1711.36792
+            Z: 77.1485
+          }
+          Rotation {
+          }
+          Scale {
+            X: 14.2500019
+            Y: 22.4999943
+            Z: 0.999999881
+          }
+        }
+        ParentId: 8915900068762014425
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:IsBuildable"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 2962022038624805534
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 3192052139210163942
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 9682160758720727227
+        Name: "Prism - 8-Sided Polished"
+        Transform {
+          Location {
+            Z: 456.159943
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.765311122
+            Y: 0.765311122
+            Z: 0.765311122
+          }
+        }
+        ParentId: 8915900068762014425
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2701718308547925009
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
     }
     Assets {
       Id: 12095835209017042614
@@ -7432,12 +13392,57 @@ Assets {
       }
     }
     Assets {
+      Id: 2701718308547925009
+      Name: "Prism - 8-Sided Polished"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_prism_octagon_hq_001"
+      }
+    }
+    Assets {
       Id: 5075754212973068898
       Name: "Prism - 8-Sided"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_prism_octagon_001"
+      }
+    }
+    Assets {
+      Id: 3192052139210163942
+      Name: "Plane Trapezoid - One Sided"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_plane_trapezoid_001"
+      }
+    }
+    Assets {
+      Id: 9119536234320832869
+      Name: "Prism - 8-Sided Half"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_half_octagon_001"
+      }
+    }
+    Assets {
+      Id: 3628780303828917058
+      Name: "Sci-fi Console Hinge 01"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_prop_scf_hinge_001_ref"
+      }
+    }
+    Assets {
+      Id: 13621259958132264851
+      Name: "Plane 1m - One Sided"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_plane_1m_001"
       }
     }
     PrimaryAssetId {
