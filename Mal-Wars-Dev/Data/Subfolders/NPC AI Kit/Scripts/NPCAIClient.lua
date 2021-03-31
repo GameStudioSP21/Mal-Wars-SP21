@@ -19,11 +19,11 @@ local PATROL_SPEED = ROOT:GetCustomProperty("PatrolSpeed") or (MOVE_SPEED / 3)
 
 local DESTROY_VFX = script:GetCustomProperty("DestroyedVFX")
 
-local INITIAL_HEALTH = ROOT:GetCustomProperty("CurrentHealth")
+local GEM_COUNT = ROOT:GetCustomProperty("RewardResourceAmount")
 
 
 function OnDestroyed(obj)
-	GemWalletClient.AddToWallet(INITIAL_HEALTH)
+	GemWalletClient.AddToWallet(GEM_COUNT)
 	World.SpawnAsset(DESTROY_VFX,{ position = GEO_ROOT:GetWorldPosition() })
 	GEO_ROOT:StopMove()
 	GEO_ROOT:StopRotate()
