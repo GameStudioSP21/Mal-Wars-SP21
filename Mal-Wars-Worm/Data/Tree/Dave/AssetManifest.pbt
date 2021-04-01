@@ -1,22 +1,4 @@
 Assets {
-  Id: 18302154991031027573
-  Name: "Rock 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_rock_generic_001"
-  }
-}
-Assets {
-  Id: 18171331877945024358
-  Name: "Rock 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_rock_generic_002_sm_rock_generic_002_LOD0"
-  }
-}
-Assets {
   Id: 17416403521644267471
   Name: "Carbon Fiber 01"
   PlatformAssetType: 2
@@ -233,6 +215,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5177947426053965925
+  Name: "Scorch Mark Decal"
+  PlatformAssetType: 14
+  PrimaryAsset {
+    AssetType: "DecalBlueprintAssetRef"
+    AssetId: "bp_decal_scorchmark"
+  }
+}
+Assets {
   Id: 5075754212973068898
   Name: "Prism - 8-Sided"
   PlatformAssetType: 1
@@ -320,15 +311,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_bullet_001"
-  }
-}
-Assets {
-  Id: 3377721323622766709
-  Name: "Rock Pile 002"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_rocks_small_002"
   }
 }
 Assets {
