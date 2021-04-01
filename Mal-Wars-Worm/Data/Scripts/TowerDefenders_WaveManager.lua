@@ -45,6 +45,7 @@ function WaveManager.New(board,waveManagerObject)
     end
 
     self:_DefineEvent("OnEnemyReachedEnd")
+    self:_DefineEvent("OnBossWaveStarted") -- Fires when a wave is marked as IsBossWave
     --
 
     self.currentPhase = INITAL_PHASE
@@ -121,17 +122,39 @@ function WaveManager:GetNearestAliveEnemy(position)
     return closest
 end
 
--- Wave stuff | SERVER
+-- Returns the current wave index.
+function WaveManager:GetWaveIndex()
+    if Environment.IsServer() then
+        return self.waveIndex
+    else
+        return self.waveManagerObject:GetCustomProperty("CurrentWave")
+    end
+end
+
+---------------------------------------
+-- Wave Managment | SERVER
 ---------------------------------------
 
+-- Returns the current wave object
 function WaveManager:GetCurrentWave()
     return self.currentWave
 end
 
-function WaveManager:RedoCurrentWave()
-    
+-- Given an index will load the associated wave from the saved wave stack.
+function WaveManager:RedoWaveIndex(waveIndex)
+    if self.currentWave then
+        self.currentWave = self:Copy(self.savedWaveStack[waveIndex])
+        self.waveIndex = waveIndex
+        self.waveManagerObject:SetNetworkedCustomProperty("CurrentWave",self.waveIndex)
+    end
 end
 
+-- When called the current wave stack will be refreshed from a saved copy. All wave states will be back to their inital values.
+function WaveManager:ResetWaveStack()
+    self.waveStack = self:Copy(self.savedWaveStack)
+end
+
+-- Progresses the current wave by removing off the top of the wave stack.
 function WaveManager:NextWave()
     if #self.waveStack > 0 then
         table.remove(self.waveStack,1)
@@ -145,22 +168,18 @@ function WaveManager:NextWave()
     end
 end
 
-function WaveManager:GetWaveIndex()
-    return self.waveIndex
-end
-
 ----------------------------------------------------
 -- Private
 ----------------------------------------------------
 
 function WaveManager:_BuildWaveStack(waveObject)
     self.waveStack = {} -- The games waves
-    self.savedWaveStack = {}
+    self.savedWaveStack = {} -- The wave stack used for copying and reseting the current wave stack.
     for _, waveObject in pairs(waveObject:GetChildren()) do
         local newWave = Wave.New(self,waveObject)
         local newCopiedWave = Wave.New(self,waveObject)
         table.insert(self.waveStack,newWave)
-        table.insert(self.savedWaveStack,newWave)
+        table.insert(self.savedWaveStack,newCopiedWave)
     end
     if self.waveStack and #self.waveStack == 0 then
         error("Wave manager was not provided a wave object to get waves from. Refer to one of the example boards for the waves custom property example.")
@@ -171,15 +190,18 @@ end
 function WaveManager:_Init(board,waveManagerObject)
     self.assignedBoard = board
     self.enemiesFolder = board:GetBoardAssetInstance():GetCustomProperty("Enemies"):GetObject()
-    self.waveIndex = 0
+    self.waveIndex = 1
 
     -- Construct the wave stack that will be the order in which waves will play out.
+    -- TODO: Refactor.
     local waveObject = board.data.waveObject:GetObject()
     self:_BuildWaveStack(waveObject)
 
     if waveManagerObject then
         self.waveManagerObject = waveManagerObject
     else
+        -- If the wave manager object hasen't replicated to the client yet then we must wait for it to exist.
+        while not board:GetBoardAssetInstance():FindChildByName("TowerDefenders_WaveManager") do Task.Wait() end
         self.waveManagerObject = board:GetBoardAssetInstance():FindChildByName("TowerDefenders_WaveManager")
     end
 
@@ -248,6 +270,18 @@ function WaveManager:_DefineEvent(eventName)
     }
 end
 
+-- Credit:
+-- https://stackoverflow.com/questions/640642/how-do-you-copy-a-lua-table-by-value
+function WaveManager:Copy(obj, seen)
+    if type(obj) ~= 'table' then return obj end
+    if seen and seen[obj] then return seen[obj] end
+    local s = seen or {}
+    local res = setmetatable({}, getmetatable(obj))
+    s[obj] = res
+    for k, v in pairs(obj) do res[self:Copy(k, s)] = self:Copy(v, s) end
+    return res
+  end
+
 function WaveManager:_HookListeners()
     -- Listen for enemies added.
     self.waveManagerObject.childAddedEvent:Connect(function(_,child) 
@@ -269,16 +303,21 @@ function WaveManager:_StepStates()
             Task.Wait(1)
             print(i)
         end
+        -- TODO: Add optional input custom property that requires a function overwrite to progress to the next phase.
+        -- function overwrite by end user would determine if going to the next phase is possible.
         self:SetCurrentPhase("ATTACKING")
 
     elseif self:GetCurrentPhase() == MANAGER_PHASE.ATTACKING then
         print("[Wave Manager] Commencing Attack.")
-        Task.Wait(1) 
+        if self:GetCurrentWave():IsBossWave() then
+            self:_FireEvent("OnBossWaveStarted")
+        end
 
+        Task.Wait(1)
+
+        -- If the current wave is not cleared and we're still in the attacking phase.
         while not self.currentWave:IsCleared() and self:GetCurrentPhase() == MANAGER_PHASE.ATTACKING do
-            --print("Not Cleared")
             if not self.currentWave:IsEmpty() then
-                --print("Spawning Enemies")
                 Task.Wait(self.currentWave:GetSpawnDelay())
                 self.currentWave:SpawnEnemy()
             else
@@ -306,9 +345,8 @@ function WaveManager:_StepStates()
 
     elseif self:GetCurrentPhase() == MANAGER_PHASE.END_FAILED then
         print("[Wave Manager] You failed to survive.")
-        self:RedoCurrentWave()
         Task.Wait(5)
-        --self:SetCurrentPhase("WAITING_READY")
+        self:SetCurrentPhase("WAITING_READY")
 
     end
 end

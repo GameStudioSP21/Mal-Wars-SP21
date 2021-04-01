@@ -943,7 +943,7 @@ Objects {
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
-      X: -15588.7812
+      X: -15588.7813
       Y: -1460.56458
       Z: -3391.18848
     }
@@ -1010,7 +1010,7 @@ Objects {
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
-      X: -15588.7812
+      X: -15588.7813
       Y: -1460.56458
       Z: -3391.18848
     }
@@ -1680,7 +1680,7 @@ Objects {
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
-      X: 11998.9394
+      X: 11998.9395
       Y: -13961.25
       Z: 12594.3887
     }
@@ -2074,7 +2074,7 @@ Objects {
   Transform {
     Location {
       X: -7289.21484
-      Y: -14595.0312
+      Y: -14595.0313
       Z: 5414.51416
     }
     Rotation {
@@ -2208,7 +2208,7 @@ Objects {
   Transform {
     Location {
       X: -10842.1582
-      Y: -15144.0058
+      Y: -15144.0059
       Z: 16951.4453
     }
     Rotation {
@@ -2476,7 +2476,7 @@ Objects {
   Transform {
     Location {
       X: -12071.1074
-      Y: -6011.15478
+      Y: -6011.15479
       Z: -3604.68555
     }
     Rotation {
@@ -3523,7 +3523,7 @@ Objects {
   Transform {
     Location {
       X: 425
-      Y: 82.7695312
+      Y: 82.7695313
       Z: 2192.375
     }
     Rotation {
@@ -3657,8 +3657,8 @@ Objects {
   Transform {
     Location {
       X: 425
-      Y: 850.820312
-      Z: 1768.57812
+      Y: 850.820313
+      Z: 1768.57813
     }
     Rotation {
       Pitch: 33.7499084
@@ -4596,7 +4596,7 @@ Objects {
     Location {
       X: 445
       Y: 843.369141
-      Z: 1768.57812
+      Z: 1768.57813
     }
     Rotation {
       Pitch: 33.7499
@@ -4916,7 +4916,7 @@ Objects {
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
-      X: 469.500976
+      X: 469.500977
       Y: -781.892578
       Z: 2926.04688
     }
@@ -4983,7 +4983,7 @@ Objects {
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
-      X: 489.500976
+      X: 489.500977
       Y: -781.892578
       Z: 2926.04688
     }
@@ -5843,7 +5843,7 @@ Objects {
     Location {
       X: -4057.20703
       Y: 1080.84961
-      Z: 2092.66894
+      Z: 2092.66895
     }
     Rotation {
       Pitch: 3.86912441
@@ -6556,7 +6556,7 @@ Objects {
     Location {
       X: 2149.29
       Y: -4812.94336
-      Z: 14554.2226
+      Z: 14554.2227
     }
     Rotation {
       Pitch: 10.4780693
@@ -6957,7 +6957,7 @@ Objects {
   Transform {
     Location {
       X: 1346.23535
-      Y: -4766.94726
+      Y: -4766.94727
       Z: 16564.7344
     }
     Rotation {
@@ -7024,7 +7024,7 @@ Objects {
   Transform {
     Location {
       X: 1253.3916
-      Y: -4487.88476
+      Y: -4487.88477
       Z: 15323.8389
     }
     Rotation {
@@ -7856,7 +7856,7 @@ Objects {
     Location {
       X: -8792.20215
       Y: -10030.6387
-      Z: -1112.82812
+      Z: -1112.82813
     }
     Rotation {
       Pitch: -0.047333207
@@ -9116,7 +9116,7 @@ Objects {
     Location {
       X: -7918.76465
       Y: -15588.9805
-      Z: 13169.4228
+      Z: 13169.4229
     }
     Rotation {
       Pitch: 10.1393948
@@ -9583,7 +9583,7 @@ Objects {
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
-      X: -7174.82812
+      X: -7174.82813
       Y: -14953.6582
       Z: 7496.70703
     }
@@ -11997,7 +11997,7 @@ Objects {
     Location {
       X: -8820
       Y: -7861.16064
-      Z: -2824.60644
+      Z: -2824.60645
     }
     Rotation {
       Pitch: 33.7499
@@ -12064,7 +12064,7 @@ Objects {
     Location {
       X: -8840
       Y: -7861.15967
-      Z: -2824.60644
+      Z: -2824.60645
     }
     Rotation {
       Pitch: 33.7499237
@@ -13402,9 +13402,9 @@ Objects {
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
-      X: -7329.29394
-      Y: -14332.2226
-      Z: 4372.60644
+      X: -7329.29395
+      Y: -14332.2227
+      Z: 4372.60645
     }
     Rotation {
       Pitch: 10.4780693
@@ -13792,7 +13792,7 @@ Objects {
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
-      X: -3014.01562
+      X: -3014.01563
       Y: -11917.2988
       Z: 4897.93555
     }

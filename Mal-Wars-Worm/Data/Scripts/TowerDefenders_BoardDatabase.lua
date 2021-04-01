@@ -1,4 +1,4 @@
-﻿local Database = {}
+local Database = {}
 
 local REGISTERED_BOARDS = script:GetCustomProperty("RegisteredBoards"):WaitForObject()
 local Board = require(script:GetCustomProperty("TowerDefenders_Board"))
@@ -111,7 +111,6 @@ function Database:_Init()
     self.isLoaded = false
     Task.Spawn(function() 
         _LoadBoards_R(REGISTERED_BOARDS)
-        Task.Wait()
         self:_LoadBoardsData()
         self.isLoaded = true
     end)

@@ -1,6 +1,48 @@
 Name: "Genie"
 RootId: 17279088920053467177
 Objects {
+  Id: 8220788480370034525
+  Name: "LevelTransition"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17279088920053467177
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8580855421997296986
+      value {
+        Overrides {
+          Name: "Name"
+          String: "LevelTransition"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6207053663972298321
+    }
+  }
+}
+Objects {
   Id: 3369817896675339827
   Name: "uiCoolEffect"
   Transform {

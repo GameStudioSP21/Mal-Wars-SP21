@@ -1395,7 +1395,7 @@ Objects {
   Transform {
     Location {
       X: -235
-      Z: -6.10351562e-05
+      Z: -6.10351563e-05
     }
     Rotation {
       Yaw: -2.73207588e-05
@@ -11281,7 +11281,7 @@ Objects {
     Location {
       X: -25.2615356
       Y: -11.6708984
-      Z: -0.907226562
+      Z: -0.907226563
     }
     Rotation {
       Pitch: -79.9935
@@ -11353,7 +11353,7 @@ Objects {
     Location {
       X: -25.2615356
       Y: -11.6708984
-      Z: -0.907226562
+      Z: -0.907226563
     }
     Rotation {
       Pitch: -79.9935303
@@ -18715,7 +18715,7 @@ Objects {
     Location {
       X: -155
       Y: -5
-      Z: -6.10351562e-05
+      Z: -6.10351563e-05
     }
     Rotation {
     }
@@ -28936,7 +28936,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070312
+      Y: -0.000122070313
       Z: 70
     }
     Rotation {
@@ -29148,7 +29148,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070312
+      Y: 0.000122070313
       Z: 70
     }
     Rotation {
@@ -30019,7 +30019,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: -6.10351562e-05
+      X: -6.10351563e-05
     }
     Rotation {
       Pitch: -1.36603776e-05
@@ -30135,7 +30135,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: -6.10351562e-05
+      X: -6.10351563e-05
       Y: 100
       Z: 200
     }
@@ -30194,7 +30194,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: 6.10351562e-05
+      X: 6.10351563e-05
       Y: -15
       Z: 480
     }
@@ -30471,7 +30471,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070312
+      Y: -0.000122070313
       Z: 70
     }
     Rotation {
@@ -30683,7 +30683,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070312
+      Y: 0.000122070313
       Z: 70
     }
     Rotation {
@@ -31536,7 +31536,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070312
+      Y: -0.000122070313
       Z: 70
     }
     Rotation {
@@ -31748,7 +31748,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070312
+      Y: 0.000122070313
       Z: 70
     }
     Rotation {
@@ -32619,7 +32619,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: -6.10351562e-05
+      X: -6.10351563e-05
     }
     Rotation {
       Pitch: -1.36603776e-05
@@ -32735,7 +32735,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: -6.10351562e-05
+      X: -6.10351563e-05
       Y: 100
       Z: 200
     }
@@ -32794,7 +32794,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: 6.10351562e-05
+      X: 6.10351563e-05
       Y: -15
       Z: 480
     }
@@ -33071,7 +33071,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070312
+      Y: -0.000122070313
       Z: 70
     }
     Rotation {
@@ -33283,7 +33283,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070312
+      Y: 0.000122070313
       Z: 70
     }
     Rotation {
@@ -34051,7 +34051,7 @@ Objects {
     Location {
       X: -725
       Y: 105
-      Z: -6.10351562e-05
+      Z: -6.10351563e-05
     }
     Rotation {
       Yaw: -89.9999847
@@ -34135,7 +34135,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070312
+      Y: -0.000122070313
       Z: 70
     }
     Rotation {
@@ -34347,7 +34347,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070312
+      Y: 0.000122070313
       Z: 70
     }
     Rotation {
@@ -35218,7 +35218,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: -6.10351562e-05
+      X: -6.10351563e-05
     }
     Rotation {
       Pitch: -1.36603776e-05
@@ -35334,7 +35334,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: -6.10351562e-05
+      X: -6.10351563e-05
       Y: 100
       Z: 200
     }
@@ -35393,7 +35393,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: 6.10351562e-05
+      X: 6.10351563e-05
       Y: -15
       Z: 480
     }
@@ -35670,7 +35670,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070312
+      Y: -0.000122070313
       Z: 70
     }
     Rotation {
@@ -35882,7 +35882,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070312
+      Y: 0.000122070313
       Z: 70
     }
     Rotation {
@@ -36650,7 +36650,7 @@ Objects {
     Location {
       X: 20
       Y: 105
-      Z: -6.10351562e-05
+      Z: -6.10351563e-05
     }
     Rotation {
       Yaw: -89.9999924
@@ -36734,7 +36734,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070312
+      Y: -0.000122070313
       Z: 70
     }
     Rotation {
@@ -36946,7 +36946,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070312
+      Y: 0.000122070313
       Z: 70
     }
     Rotation {
@@ -37817,7 +37817,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: -6.10351562e-05
+      X: -6.10351563e-05
     }
     Rotation {
       Pitch: -1.36603776e-05
@@ -37933,7 +37933,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: -6.10351562e-05
+      X: -6.10351563e-05
       Y: 100
       Z: 200
     }
@@ -37992,7 +37992,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: 6.10351562e-05
+      X: 6.10351563e-05
       Y: -15
       Z: 480
     }
@@ -38269,7 +38269,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070312
+      Y: -0.000122070313
       Z: 70
     }
     Rotation {
@@ -38481,7 +38481,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070312
+      Y: 0.000122070313
       Z: 70
     }
     Rotation {
@@ -39335,7 +39335,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070312
+      Y: -0.000122070313
       Z: 70
     }
     Rotation {
@@ -39548,7 +39548,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070312
+      Y: 0.000122070313
       Z: 70
     }
     Rotation {
@@ -40560,7 +40560,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070312
+      Y: -0.000122070313
       Z: 70
     }
     Rotation {
@@ -40773,7 +40773,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070312
+      Y: 0.000122070313
       Z: 70
     }
     Rotation {
@@ -43058,7 +43058,7 @@ Objects {
     Location {
       X: -155
       Y: -5
-      Z: -6.10351562e-05
+      Z: -6.10351563e-05
     }
     Rotation {
     }
@@ -59478,7 +59478,7 @@ Objects {
   Transform {
     Location {
       X: -235
-      Z: -6.10351562e-05
+      Z: -6.10351563e-05
     }
     Rotation {
       Yaw: -2.73207588e-05
@@ -59647,7 +59647,7 @@ Objects {
   Transform {
     Location {
       X: -300
-      Z: -6.10351562e-05
+      Z: -6.10351563e-05
     }
     Rotation {
       Yaw: -2.73207588e-05
@@ -60719,7 +60719,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070312
+      Y: -0.000122070313
       Z: 70
     }
     Rotation {
@@ -60931,7 +60931,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070312
+      Y: 0.000122070313
       Z: 70
     }
     Rotation {
@@ -61802,7 +61802,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: -6.10351562e-05
+      X: -6.10351563e-05
     }
     Rotation {
       Pitch: -1.36603776e-05
@@ -61918,7 +61918,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: -6.10351562e-05
+      X: -6.10351563e-05
       Y: 100
       Z: 200
     }
@@ -61977,7 +61977,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: 6.10351562e-05
+      X: 6.10351563e-05
       Y: -15
       Z: 480
     }
@@ -62254,7 +62254,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070312
+      Y: -0.000122070313
       Z: 70
     }
     Rotation {
@@ -62466,7 +62466,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070312
+      Y: 0.000122070313
       Z: 70
     }
     Rotation {
@@ -63319,7 +63319,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070312
+      Y: -0.000122070313
       Z: 70
     }
     Rotation {
@@ -63531,7 +63531,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070312
+      Y: 0.000122070313
       Z: 70
     }
     Rotation {
@@ -64402,7 +64402,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: -6.10351562e-05
+      X: -6.10351563e-05
     }
     Rotation {
       Pitch: -1.36603776e-05
@@ -64518,7 +64518,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: -6.10351562e-05
+      X: -6.10351563e-05
       Y: 100
       Z: 200
     }
@@ -64577,7 +64577,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: 6.10351562e-05
+      X: 6.10351563e-05
       Y: -15
       Z: 480
     }
@@ -64854,7 +64854,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070312
+      Y: -0.000122070313
       Z: 70
     }
     Rotation {
@@ -65066,7 +65066,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070312
+      Y: 0.000122070313
       Z: 70
     }
     Rotation {
@@ -65834,7 +65834,7 @@ Objects {
     Location {
       X: -725
       Y: 105
-      Z: -6.10351562e-05
+      Z: -6.10351563e-05
     }
     Rotation {
       Yaw: -89.9999847
@@ -65918,7 +65918,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070312
+      Y: -0.000122070313
       Z: 70
     }
     Rotation {
@@ -66130,7 +66130,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070312
+      Y: 0.000122070313
       Z: 70
     }
     Rotation {
@@ -67001,7 +67001,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: -6.10351562e-05
+      X: -6.10351563e-05
     }
     Rotation {
       Pitch: -1.36603776e-05
@@ -67117,7 +67117,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: -6.10351562e-05
+      X: -6.10351563e-05
       Y: 100
       Z: 200
     }
@@ -67176,7 +67176,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: 6.10351562e-05
+      X: 6.10351563e-05
       Y: -15
       Z: 480
     }
@@ -67453,7 +67453,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070312
+      Y: -0.000122070313
       Z: 70
     }
     Rotation {
@@ -67665,7 +67665,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070312
+      Y: 0.000122070313
       Z: 70
     }
     Rotation {
@@ -68433,7 +68433,7 @@ Objects {
     Location {
       X: 20
       Y: 105
-      Z: -6.10351562e-05
+      Z: -6.10351563e-05
     }
     Rotation {
       Yaw: -89.9999924
@@ -68517,7 +68517,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070312
+      Y: -0.000122070313
       Z: 70
     }
     Rotation {
@@ -68729,7 +68729,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070312
+      Y: 0.000122070313
       Z: 70
     }
     Rotation {
@@ -69600,7 +69600,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: -6.10351562e-05
+      X: -6.10351563e-05
     }
     Rotation {
       Pitch: -1.36603776e-05
@@ -69716,7 +69716,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: -6.10351562e-05
+      X: -6.10351563e-05
       Y: 100
       Z: 200
     }
@@ -69775,7 +69775,7 @@ Objects {
   Name: "Pipe - 45-Degree Long "
   Transform {
     Location {
-      X: 6.10351562e-05
+      X: 6.10351563e-05
       Y: -15
       Z: 480
     }
@@ -70052,7 +70052,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070312
+      Y: -0.000122070313
       Z: 70
     }
     Rotation {
@@ -70264,7 +70264,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070312
+      Y: 0.000122070313
       Z: 70
     }
     Rotation {
@@ -71118,7 +71118,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070312
+      Y: -0.000122070313
       Z: 70
     }
     Rotation {
@@ -71331,7 +71331,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070312
+      Y: 0.000122070313
       Z: 70
     }
     Rotation {
@@ -72343,7 +72343,7 @@ Objects {
   Transform {
     Location {
       X: -60
-      Y: -0.000122070312
+      Y: -0.000122070313
       Z: 70
     }
     Rotation {
@@ -72556,7 +72556,7 @@ Objects {
   Transform {
     Location {
       X: 60
-      Y: 0.000122070312
+      Y: 0.000122070313
       Z: 70
     }
     Rotation {
@@ -74841,7 +74841,7 @@ Objects {
     Location {
       X: -155
       Y: -5
-      Z: -6.10351562e-05
+      Z: -6.10351563e-05
     }
     Rotation {
     }
@@ -91261,7 +91261,7 @@ Objects {
   Transform {
     Location {
       X: -235
-      Z: -6.10351562e-05
+      Z: -6.10351563e-05
     }
     Rotation {
       Yaw: -2.73207588e-05
@@ -91430,7 +91430,7 @@ Objects {
   Transform {
     Location {
       X: -300
-      Z: -6.10351562e-05
+      Z: -6.10351563e-05
     }
     Rotation {
       Yaw: -2.73207588e-05
@@ -91740,7 +91740,7 @@ Objects {
   Name: "Whitebox Wall 01 Triangle Top"
   Transform {
     Location {
-      X: 66850.0312
+      X: 66850.0313
       Y: 3158.59424
       Z: 28750
     }
@@ -92353,7 +92353,7 @@ Objects {
   Name: "Pipe - 8-Sided"
   Transform {
     Location {
-      X: 27.9882812
+      X: 27.9882813
       Y: -44.4267578
       Z: 3039.7334
     }
@@ -92458,7 +92458,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95312
+      X: -1228.95313
       Y: -1519.06641
     }
     Rotation {
@@ -92501,7 +92501,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95312
+      X: -1228.95313
       Y: -1519.06641
       Z: 4733.59473
     }
@@ -92959,7 +92959,7 @@ Objects {
   Name: "Pipe - 8-Sided"
   Transform {
     Location {
-      X: 27.9882812
+      X: 27.9882813
       Y: -44.4267578
       Z: 3039.7334
     }
@@ -93064,7 +93064,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95312
+      X: -1228.95313
       Y: -1519.06641
     }
     Rotation {
@@ -93107,7 +93107,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95312
+      X: -1228.95313
       Y: -1519.06641
       Z: 4733.59473
     }
@@ -93648,7 +93648,7 @@ Objects {
   Name: "Pipe - 8-Sided"
   Transform {
     Location {
-      X: 27.9882812
+      X: 27.9882813
       Y: -44.4267578
       Z: 3039.7334
     }
@@ -93753,7 +93753,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95312
+      X: -1228.95313
       Y: -1519.06641
     }
     Rotation {
@@ -93796,7 +93796,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95312
+      X: -1228.95313
       Y: -1519.06641
       Z: 4733.59473
     }
@@ -93885,7 +93885,7 @@ Objects {
   Transform {
     Location {
       X: -225
-      Y: 103.625976
+      Y: 103.625977
     }
     Rotation {
     }
@@ -94337,7 +94337,7 @@ Objects {
   Name: "Pipe - 8-Sided"
   Transform {
     Location {
-      X: 27.9882812
+      X: 27.9882813
       Y: -44.4267578
       Z: 3039.7334
     }
@@ -94442,7 +94442,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95312
+      X: -1228.95313
       Y: -1519.06641
     }
     Rotation {
@@ -94485,7 +94485,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95312
+      X: -1228.95313
       Y: -1519.06641
       Z: 4733.59473
     }
@@ -94574,7 +94574,7 @@ Objects {
   Transform {
     Location {
       X: 205
-      Y: 113.625976
+      Y: 113.625977
     }
     Rotation {
     }
@@ -94819,7 +94819,7 @@ Objects {
   Name: "Whitebox -Hole Details"
   Transform {
     Location {
-      X: -159.101562
+      X: -159.101563
       Y: 160.549805
       Z: 10121.1582
     }
@@ -95026,7 +95026,7 @@ Objects {
   Name: "Pipe - 8-Sided"
   Transform {
     Location {
-      X: 27.9882812
+      X: 27.9882813
       Y: -44.4267578
       Z: 3039.7334
     }
@@ -95131,7 +95131,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95312
+      X: -1228.95313
       Y: -1519.06641
     }
     Rotation {
@@ -95174,7 +95174,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95312
+      X: -1228.95313
       Y: -1519.06641
       Z: 4733.59473
     }
@@ -95867,7 +95867,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95312
+      X: -1228.95313
       Y: -1519.06641
     }
     Rotation {
@@ -95910,7 +95910,7 @@ Objects {
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -1228.95312
+      X: -1228.95313
       Y: -1519.06641
       Z: 4733.59473
     }
@@ -97254,7 +97254,7 @@ Objects {
   Name: "Prism - 6-Sided Half"
   Transform {
     Location {
-      X: -14756.0058
+      X: -14756.0059
       Y: 15008.626
       Z: -2530
     }
@@ -98059,7 +98059,7 @@ Objects {
   Transform {
     Location {
       X: -83.175293
-      Y: -6.10351562e-05
+      Y: -6.10351563e-05
     }
     Rotation {
     }
@@ -98115,7 +98115,7 @@ Objects {
   Transform {
     Location {
       X: -83.175293
-      Y: -6.10351562e-05
+      Y: -6.10351563e-05
     }
     Rotation {
       Yaw: 1.36603685e-05
@@ -98173,7 +98173,7 @@ Objects {
   Transform {
     Location {
       X: 83.175293
-      Y: -6.10351562e-05
+      Y: -6.10351563e-05
     }
     Rotation {
       Yaw: -179.999985
@@ -98231,7 +98231,7 @@ Objects {
   Transform {
     Location {
       X: 83.175293
-      Y: -6.10351562e-05
+      Y: -6.10351563e-05
     }
     Rotation {
       Yaw: -179.999969
@@ -98288,7 +98288,7 @@ Objects {
   Transform {
     Location {
       X: -80
-      Y: -6.10351562e-05
+      Y: -6.10351563e-05
     }
     Rotation {
     }
@@ -98351,7 +98351,7 @@ Objects {
   Transform {
     Location {
       X: -80
-      Y: -6.10351562e-05
+      Y: -6.10351563e-05
     }
     Rotation {
       Yaw: 1.3660373e-05
@@ -98416,7 +98416,7 @@ Objects {
   Transform {
     Location {
       X: 80
-      Y: -6.10351562e-05
+      Y: -6.10351563e-05
     }
     Rotation {
       Yaw: 180
@@ -98481,7 +98481,7 @@ Objects {
   Transform {
     Location {
       X: 80
-      Y: -6.10351562e-05
+      Y: -6.10351563e-05
     }
     Rotation {
       Yaw: -179.999985
@@ -105334,7 +105334,7 @@ Objects {
     }
     Rotation {
       Pitch: 3.13968062
-      Yaw: -89.7070312
+      Yaw: -89.7070313
       Roll: -0.555175781
     }
     Scale {
@@ -112163,7 +112163,7 @@ Objects {
       Z: 61.3911438
     }
     Rotation {
-      Pitch: -7.49414062
+      Pitch: -7.49414063
       Yaw: 18.4092083
       Roll: 34.0127335
     }
@@ -114200,7 +114200,7 @@ Objects {
     Location {
       X: 288.418304
       Y: 763.298523
-      Z: 495.032226
+      Z: 495.032227
     }
     Rotation {
       Pitch: -27.3190613
@@ -115519,7 +115519,7 @@ Objects {
   Transform {
     Location {
       X: 370.944672
-      Y: 688.219726
+      Y: 688.219727
       Z: 781.76593
     }
     Rotation {
@@ -116927,7 +116927,7 @@ Objects {
   Transform {
     Location {
       X: -83.175293
-      Y: -6.10351562e-05
+      Y: -6.10351563e-05
     }
     Rotation {
     }
@@ -116983,7 +116983,7 @@ Objects {
   Transform {
     Location {
       X: -83.175293
-      Y: -6.10351562e-05
+      Y: -6.10351563e-05
     }
     Rotation {
       Yaw: 1.36603685e-05
@@ -117041,7 +117041,7 @@ Objects {
   Transform {
     Location {
       X: 83.175293
-      Y: -6.10351562e-05
+      Y: -6.10351563e-05
     }
     Rotation {
       Yaw: -179.999985
@@ -117099,7 +117099,7 @@ Objects {
   Transform {
     Location {
       X: 83.175293
-      Y: -6.10351562e-05
+      Y: -6.10351563e-05
     }
     Rotation {
       Yaw: -179.999969
@@ -117156,7 +117156,7 @@ Objects {
   Transform {
     Location {
       X: -80
-      Y: -6.10351562e-05
+      Y: -6.10351563e-05
     }
     Rotation {
     }
@@ -117219,7 +117219,7 @@ Objects {
   Transform {
     Location {
       X: -80
-      Y: -6.10351562e-05
+      Y: -6.10351563e-05
     }
     Rotation {
       Yaw: 1.3660373e-05
@@ -117284,7 +117284,7 @@ Objects {
   Transform {
     Location {
       X: 80
-      Y: -6.10351562e-05
+      Y: -6.10351563e-05
     }
     Rotation {
       Yaw: 180
@@ -117349,7 +117349,7 @@ Objects {
   Transform {
     Location {
       X: 80
-      Y: -6.10351562e-05
+      Y: -6.10351563e-05
     }
     Rotation {
       Yaw: -179.999985
@@ -121118,7 +121118,7 @@ Objects {
     Location {
       X: 9.99999905
       Y: 15.000062
-      Z: -6.10351562e-05
+      Z: -6.10351563e-05
     }
     Rotation {
     }
@@ -121182,7 +121182,7 @@ Objects {
     Location {
       X: 9.99999905
       Y: 15.000062
-      Z: -6.10351562e-05
+      Z: -6.10351563e-05
     }
     Rotation {
     }
@@ -122692,7 +122692,7 @@ Objects {
           Name: "Position"
           Vector {
             X: 8073.62842
-            Y: -13798.0644
+            Y: -13798.0645
             Z: 5060
           }
         }

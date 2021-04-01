@@ -224,7 +224,7 @@ Assets {
         Transform {
           Location {
             X: 1409.44922
-            Y: 1563.51562
+            Y: 1563.51563
             Z: -0.577392578
           }
           Rotation {
@@ -885,7 +885,7 @@ Assets {
         Transform {
           Location {
             X: -631.707031
-            Y: -1140.70312
+            Y: -1140.70313
             Z: 118.472412
           }
           Rotation {
@@ -944,7 +944,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -944.601562
+            X: -944.601563
             Y: -1077.08984
             Z: 118.472412
           }
@@ -1004,7 +1004,7 @@ Assets {
         Name: "Gem - Baguette Polished"
         Transform {
           Location {
-            X: -2.17382812
+            X: -2.17382813
             Y: -0.875
             Z: 113.781006
           }
@@ -1065,7 +1065,7 @@ Assets {
         Transform {
           Location {
             X: 317.316406
-            Y: 479.007812
+            Y: 479.007813
             Z: 118.472412
           }
           Rotation {
@@ -1485,7 +1485,7 @@ Assets {
         Transform {
           Location {
             X: 246.783203
-            Y: -90.1289062
+            Y: -90.1289063
             Z: 118.472412
           }
           Rotation {
@@ -1724,7 +1724,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: 78.1601562
+            X: 78.1601563
             Y: -256.125
             Z: 118.472412
           }
@@ -2205,7 +2205,7 @@ Assets {
         Transform {
           Location {
             X: 1141.58984
-            Y: 745.570312
+            Y: 745.570313
             Z: 118.472412
           }
           Rotation {
@@ -2561,7 +2561,7 @@ Assets {
         Transform {
           Location {
             X: 1350.68164
-            Y: 699.882812
+            Y: 699.882813
             Z: 118.628296
           }
           Rotation {
@@ -2681,7 +2681,7 @@ Assets {
         Transform {
           Location {
             X: -849.089844
-            Y: -1293.14062
+            Y: -1293.14063
             Z: 118.472412
           }
           Rotation {
@@ -3219,7 +3219,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: 35.9414062
+            X: 35.9414063
             Y: -51.34375
             Z: 118.472412
           }
@@ -3459,7 +3459,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: 876.813476
+            X: 876.813477
             Y: 825.34375
             Z: 118.472412
           }
@@ -3952,7 +3952,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -18.0664062
+            X: -18.0664063
             Y: 71.0585938
             Z: 0.256469727
           }
@@ -4073,7 +4073,7 @@ Assets {
         Transform {
           Location {
             X: -105.4375
-            Y: -101.976562
+            Y: -101.976563
             Z: 0.256469727
           }
           Rotation {
@@ -6337,7 +6337,7 @@ Assets {
         Name: "Sci-fi Console Hinge 01"
         Transform {
           Location {
-            X: -604.757812
+            X: -604.757813
             Y: 1670.11646
             Z: -15.3980865
           }
@@ -6575,7 +6575,7 @@ Assets {
         Name: "Prism - 8-Sided Half"
         Transform {
           Location {
-            X: -1665.25976
+            X: -1665.25977
             Y: 675.016602
             Z: 9.67015076
           }
@@ -7473,7 +7473,7 @@ Assets {
         Transform {
           Location {
             X: -2119
-            Y: -1407.10644
+            Y: -1407.10645
             Z: 9.66827393
           }
           Rotation {
