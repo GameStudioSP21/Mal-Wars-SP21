@@ -106,6 +106,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Camera {
+    UseAsDefault: true
     InitialDistance: 400
     MinDistance: 300
     MaxDistance: 600
@@ -385,7 +386,6 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Camera {
-    UseAsDefault: true
     InitialDistance: 400
     MinDistance: 300
     MaxDistance: 600

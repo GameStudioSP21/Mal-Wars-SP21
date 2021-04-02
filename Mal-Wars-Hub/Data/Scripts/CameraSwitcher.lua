@@ -8,33 +8,33 @@ local LeaderBoardButton = script:GetCustomProperty("LeaderBoardButton"):WaitForO
 -- on load game set player camera to HubCamera
 local player = Game.GetLocalPlayer()
 
-player:SetOverrideCamera(NetHubCamera)
+player:SetDefaultCamera(NetHubCamera)
 
 ArmoryButton.pressedEvent:Connect(function ()
     print("button clicked")
     if(player:GetActiveCamera()  ~= ArmoryCamera) then
         print("Switch to ArmoryCamera")
-        player:SetOverrideCamera(ArmoryCamera)
+        player:SetDefaultCamera(ArmoryCamera, 1)
     end
 end)
 
 NetHubButton.pressedEvent:Connect(function ()
     if(player:GetActiveCamera()  ~= NetHubCamera) then
         print("Switch to NetHubCamera")
-        player:SetOverrideCamera(NetHubCamera)
+        player:SetDefaultCamera(NetHubCamera, 1)
     end
 end)
 
 LeaderBoardButton.pressedEvent:Connect(function ()
     if(player:GetActiveCamera()  ~= LeaderBoardCamera) then
         print("Switch to LeaderBoardCamera")
-        player:SetOverrideCamera(LeaderBoardCamera)
+        player:SetDefaultCamera(LeaderBoardCamera, 1)
     end
 end)
 
-local TaskPerFrame = Task.Spawn(function ()
-    print(player:GetActiveCamera())
-end)
+-- local TaskPerFrame = Task.Spawn(function ()
+--     print(player:GetActiveCamera())
+-- end)
 
-TaskPerFrame.repeatCount = -1
-TaskPerFrame.repeatInterval = 1
+-- TaskPerFrame.repeatCount = -1
+-- TaskPerFrame.repeatInterval = 1
