@@ -24,6 +24,7 @@ Objects {
   ChildIds: 7312355645798257615
   ChildIds: 9574966330640517600
   ChildIds: 4497641434065555435
+  ChildIds: 10384849245238798294
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -36,6 +37,35 @@ Objects {
     Value: "mc:ecollisionsetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 10384849245238798294
+  Name: "Asante"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Asante"
   }
 }
 Objects {
@@ -614,7 +644,6 @@ Objects {
     }
   }
   ParentId: 14713340454944924967
-  ChildIds: 3567959178173361743
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -627,54 +656,6 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   NetworkContext {
-  }
-}
-Objects {
-  Id: 3567959178173361743
-  Name: "Third Person Camera"
-  Transform {
-    Location {
-      Z: 500
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 724324913679364851
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Camera {
-    UseAsDefault: true
-    InitialDistance: 400
-    MinDistance: 300
-    MaxDistance: 600
-    PositionOffset {
-      Y: 60
-    }
-    RotationOffset {
-    }
-    FieldOfView: 90
-    ViewWidth: 1200
-    UseCameraSocket: true
-    RotationMode {
-      Value: "mc:erotationmode:lookangle"
-    }
-    MinPitch: -89
-    MaxPitch: 89
-    DoesPositionOffsetSpring: true
   }
 }
 Objects {
@@ -740,18 +721,12 @@ Objects {
       IsSlideEnabled: true
       IsCrouchEnabled: true
       IsJumpEnabled: true
-      CanMoveForward: true
-      CanMoveBackward: true
-      CanMoveLeft: true
-      CanMoveRight: true
       AbilityAimMode {
         Value: "mc:eabilityaimmode:viewrelative"
       }
       AppearanceChannelingTime: 2
       MountChannelingTime: 2
       FlipOnMultiJump: true
-      CanMoveUp: true
-      CanMoveDown: true
       IsMountEnabled: true
       MaxHitpoints: 100
     }
