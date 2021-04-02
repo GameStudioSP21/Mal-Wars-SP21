@@ -62,8 +62,6 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Camera {
-    UseAsDefault: true
-    AttachToLocalPlayer: true
     InitialDistance: 400
     MinDistance: 300
     MaxDistance: 600
@@ -74,7 +72,7 @@ Objects {
     FieldOfView: 90
     ViewWidth: 1200
     RotationMode {
-      Value: "mc:erotationmode:lookangle"
+      Value: "mc:erotationmode:default"
     }
     MinPitch: -89
     MaxPitch: 89
@@ -108,7 +106,6 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Camera {
-    AttachToLocalPlayer: true
     InitialDistance: 400
     MinDistance: 300
     MaxDistance: 600
@@ -119,7 +116,7 @@ Objects {
     FieldOfView: 90
     ViewWidth: 1200
     RotationMode {
-      Value: "mc:erotationmode:lookangle"
+      Value: "mc:erotationmode:default"
     }
     MinPitch: -89
     MaxPitch: 89
@@ -389,7 +386,6 @@ Objects {
   }
   Camera {
     UseAsDefault: true
-    AttachToLocalPlayer: true
     InitialDistance: 400
     MinDistance: 300
     MaxDistance: 600
@@ -400,7 +396,7 @@ Objects {
     FieldOfView: 90
     ViewWidth: 1200
     RotationMode {
-      Value: "mc:erotationmode:lookangle"
+      Value: "mc:erotationmode:default"
     }
     MinPitch: -89
     MaxPitch: 89
