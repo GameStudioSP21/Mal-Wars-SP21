@@ -207,6 +207,7 @@ Objects {
   ChildIds: 15089422333791274029
   ChildIds: 4865664388657450589
   ChildIds: 9688884146481072164
+  ChildIds: 1810871358614718425
   ChildIds: 14081436481186185311
   ChildIds: 15062001147149131720
   ChildIds: 17619250582490392000
@@ -758,6 +759,65 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Dave"
+  }
+}
+Objects {
+  Id: 1810871358614718425
+  Name: "ServerContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10722931758594424760
+  ChildIds: 999388222161108425
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  NetworkContext {
+    Type: Server
+  }
+}
+Objects {
+  Id: 999388222161108425
+  Name: "ReturnHubServer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1810871358614718425
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15013870329598011866
+    }
   }
 }
 Objects {
