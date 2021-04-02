@@ -9,6 +9,12 @@ local Wave = require(script:GetCustomProperty("TowerDefenders_Wave"))
 -- CONSTANTS
 local WAVE_MANAGER_OBJECT = script:GetCustomProperty("TowerDefenders_WaveManager")
 
+local WAVE_SUMMON_CONNECTED = false
+
+Events.Connect("SummonWave", function ()
+    WAVE_SUMMON_CONNECTED = true
+end)
+
 local MANAGER_PHASE = {
     WAITING_READY = {id = 0 , event = "OnWaitingReady" }, -- Waiting for confirmation to start the waves.
     ATTACKING = {id = 1, event = "OnWaveStarted"}, -- While enemies are attacking.
@@ -299,12 +305,16 @@ function WaveManager:_StepStates()
 
     if self:GetCurrentPhase() == MANAGER_PHASE.WAITING_READY then
         print("[Wave Manager] Waiting for ready.")
-        for i=1,3 do
-            Task.Wait(1)
-            print(i)
-        end
+        -- for i=1,3 do
+        --     Task.Wait(1)
+        --     print(i)
+        -- end
         -- TODO: Add optional input custom property that requires a function overwrite to progress to the next phase.
         -- function overwrite by end user would determine if going to the next phase is possible.
+        while not WAVE_SUMMON_CONNECTED do
+            Task.Wait(.5)
+        end
+        WAVE_SUMMON_CONNECTED = false
         self:SetCurrentPhase("ATTACKING")
 
     elseif self:GetCurrentPhase() == MANAGER_PHASE.ATTACKING then
