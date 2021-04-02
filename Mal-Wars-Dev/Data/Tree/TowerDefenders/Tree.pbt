@@ -10500,7 +10500,7 @@ Objects {
       }
     }
     Button {
-      Label: "Start Game"
+      Label: "Summon Wave"
       FontColor {
         A: 1
       }
@@ -10979,6 +10979,12 @@ Objects {
       Name: "cs:UIButton"
       ObjectReference {
         SelfId: 10907097327392110955
+      }
+    }
+    Overrides {
+      Name: "cs:GAME_MANAGER"
+      AssetReference {
+        Id: 16922964282924116369
       }
     }
   }

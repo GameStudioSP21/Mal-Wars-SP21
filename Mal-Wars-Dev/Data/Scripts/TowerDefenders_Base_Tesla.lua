@@ -100,20 +100,28 @@ end
 
 function TowerTesla:DamageEnemy()
     self.waveManager = self:GetBoardReference():GetWaveManager()
-    Task.Spawn(function()
-        Task.Wait(self.impactTime)
-        if self.currentTarget then
-            local targetPos = self.currentTarget:GetWorldPosition()
-            for _, enemy in pairs(self.waveManager:GetEnemies()) do
-                local enemyPos = enemy:GetWorldPosition()
-                if (targetPos - enemyPos).sizeSquared < EXPLOSION_DAMAGE_RADIUS_SQUARED then
-                    local health = enemy:GetCustomProperty("CurrentHealth")
-                    health = health - self:GetStat("Damage")
-                    enemy:SetNetworkedCustomProperty("CurrentHealth",health)
-                end
-            end
-        end
-    end)
+	local enemiesInRange = {}
+	for k, enemy in pairs(self.waveManager:GetEnemies()) do
+		local distanceToEnemy = enemy:GetWorldPosition() - self:GetWorldPosition()
+		if(distanceToEnemy.sizeSquared < self:GetStat("Range")) then
+			table.insert(enemiesInRange, enemy)
+		end
+	end
+	
+    -- Task.Spawn(function()
+    --     Task.Wait(self.impactTime)
+    --     if self.currentTarget then
+    --         local targetPos = self.currentTarget:GetWorldPosition()
+    --         for _, enemy in pairs(self.waveManager:GetEnemies()) do
+    --             local enemyPos = enemy:GetWorldPosition()
+    --             if (targetPos - enemyPos).sizeSquared < EXPLOSION_DAMAGE_RADIUS_SQUARED then
+    --                 local health = enemy:GetCustomProperty("CurrentHealth")
+    --                 health = health - self:GetStat("Damage")
+    --                 enemy:SetNetworkedCustomProperty("CurrentHealth",health)
+    --             end
+    --         end
+    --     end
+    -- end)
 end
 
 return TowerTesla
