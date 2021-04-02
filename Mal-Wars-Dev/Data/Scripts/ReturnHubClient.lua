@@ -3,7 +3,7 @@ local HOME_BUTTON = script:GetCustomProperty("HomeButton"):WaitForObject()
 
 local player = Game.GetLocalPlayer()
 
-UIButton.pressedEvent:Connect((function()
+HOME_BUTTON.pressedEvent:Connect(function()
     print("Returning home!")
     Events.BroadcastToServer("ReturnHome", player, GAME_ID)
 
