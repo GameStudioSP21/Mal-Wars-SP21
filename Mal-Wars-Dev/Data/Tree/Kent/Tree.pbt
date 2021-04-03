@@ -1,6 +1,86 @@
 Name: "Kent"
 RootId: 2749245714592432115
 Objects {
+  Id: 8229890859361454298
+  Name: "ke_hive"
+  Transform {
+    Location {
+      X: 1620
+      Y: -140
+      Z: -2180
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.10668588
+      Y: 1.10668588
+      Z: 1.10668588
+    }
+  }
+  ParentId: 2749245714592432115
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10293383835530602357
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5.00001621
+            Y: 3.55398369
+            Z: 3727.85938
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 1.3660373e-05
+            Roll: 180
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16692257471831982214
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ke_hive"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1620
+            Y: -140
+            Z: -2180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.10668588
+            Y: 1.10668588
+            Z: 1.10668588
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13452827646663619159
+    }
+  }
+}
+Objects {
   Id: 5501599223618511835
   Name: "WEAPON#03"
   Transform {
@@ -9124,7 +9204,7 @@ Objects {
     }
     Rotation {
       Pitch: 68.6439362
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
       Roll: 90.621727
     }
     Scale {
@@ -12406,7 +12486,7 @@ Objects {
   Name: "Pipe - 90-Degree Long"
   Transform {
     Location {
-      X: 3.01757813
+      X: 3.01757812
       Y: 0.165771484
       Z: 3.03369141
     }
