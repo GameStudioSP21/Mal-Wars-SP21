@@ -19,6 +19,17 @@ Assets {
         Name: "u_tiles"
         Float: 1
       }
+      Overrides {
+        Name: "gradient_color"
+        Color {
+          R: 0.799999952
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "gradient_shift"
+        Float: 0.754697263
+      }
     }
     Assets {
       Id: 7660900985403449371
