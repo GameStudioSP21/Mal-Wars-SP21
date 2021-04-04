@@ -1,27 +1,36 @@
-local LeaderBoardCamera = script:GetCustomProperty("LeaderBoardCamera"):WaitForObject()
+local MainMenuCamera = script:GetCustomProperty("MainMenuCamera"):WaitForObject()
+local LevelSelectCamera = script:GetCustomProperty("LevelSelectCamera"):WaitForObject()
 local ArmoryCamera = script:GetCustomProperty("ArmoryCamera"):WaitForObject()
-local NetHubCamera = script:GetCustomProperty("HubCamera"):WaitForObject()
+local BestiaryCamera = script:GetCustomProperty("BestiaryCamera"):WaitForObject()
+local LeaderBoardCamera = script:GetCustomProperty("LeaderBoardCamera"):WaitForObject()
+local LevelSelectButton = script:GetCustomProperty("LevelSelectButton"):WaitForObject()
 local ArmoryButton = script:GetCustomProperty("ArmoryButton"):WaitForObject()
-local NetHubButton = script:GetCustomProperty("NetHubButton"):WaitForObject()
+local BestiaryButton = script:GetCustomProperty("BestiaryButton"):WaitForObject()
 local LeaderBoardButton = script:GetCustomProperty("LeaderBoardButton"):WaitForObject()
 
 -- on load game set player camera to HubCamera
 local player = Game.GetLocalPlayer()
 
-player:SetDefaultCamera(NetHubCamera)
+player:SetDefaultCamera(MainMenuCamera)
+
+LevelSelectButton.pressedEvent:Connect(function ()
+    if(player:GetActiveCamera()  ~= LevelSelectCamera) then
+        print("Switch to LevelSelectCamera")
+        player:SetDefaultCamera(LevelSelectCamera, 1)
+    end
+end)
 
 ArmoryButton.pressedEvent:Connect(function ()
-    print("button clicked")
     if(player:GetActiveCamera()  ~= ArmoryCamera) then
         print("Switch to ArmoryCamera")
         player:SetDefaultCamera(ArmoryCamera, 1)
     end
 end)
 
-NetHubButton.pressedEvent:Connect(function ()
-    if(player:GetActiveCamera()  ~= NetHubCamera) then
-        print("Switch to NetHubCamera")
-        player:SetDefaultCamera(NetHubCamera, 1)
+BestiaryButton.pressedEvent:Connect(function ()
+    if(player:GetActiveCamera()  ~= BestiaryCamera) then
+        print("Switch to BestiaryCamera")
+        player:SetDefaultCamera(BestiaryCamera, 1)
     end
 end)
 
