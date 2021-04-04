@@ -201,9 +201,9 @@ Objects {
   }
   ParentId: 4781671109827199097
   ChildIds: 16245118719777391493
-  ChildIds: 9275720789267418785
   ChildIds: 2854307414044987448
   ChildIds: 1187155345345434260
+  ChildIds: 9275720789267418785
   ChildIds: 15089422333791274029
   ChildIds: 4865664388657450589
   ChildIds: 9688884146481072164
@@ -908,6 +908,35 @@ Objects {
   }
 }
 Objects {
+  Id: 9275720789267418785
+  Name: "Alex"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10722931758594424760
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Alex"
+  }
+}
+Objects {
   Id: 1187155345345434260
   Name: "Asante"
   Transform {
@@ -963,35 +992,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Anthony"
-  }
-}
-Objects {
-  Id: 9275720789267418785
-  Name: "Alex"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10722931758594424760
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Alex"
   }
 }
 Objects {

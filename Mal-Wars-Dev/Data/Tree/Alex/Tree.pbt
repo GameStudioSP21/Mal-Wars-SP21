@@ -135,24 +135,22 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    Width: 1040
-    Height: 680
-    UIX: 500
-    UIY: 185
+    Width: 1000
+    Height: 800
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
     Text {
-      Label: "HOW TO PLAY:  Press the button to do the thing, push the other button to do something else.  Don\'t die, or you lose.  Wubba lubba dub dub.  Here\'s a good tip, if you\'re a noob.  Do whatever, I guess.  Money is good, death is bad, etc.                                             Push the H button to close/open this window"
+      Label: "Close this awful window with the \'H\' key. YAY! howtoplay.jpg!"
       Color {
         R: 1
         G: 1
         B: 1
         A: 1
       }
-      Size: 47
+      Size: 48
       Justification {
         Value: "mc:etextjustify:left"
       }
@@ -164,12 +162,12 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:middlecenter"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:middlecenter"
         }
       }
     }
@@ -200,10 +198,8 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    Width: 1095
-    Height: 685
-    UIX: 470
-    UIY: 175
+    Width: 1200
+    Height: 900
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -224,12 +220,12 @@ Objects {
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:middlecenter"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topleft"
+          Value: "mc:euianchor:middlecenter"
         }
       }
     }
