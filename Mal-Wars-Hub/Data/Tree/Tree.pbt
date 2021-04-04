@@ -797,6 +797,7 @@ Objects {
       }
       ChatSettings {
         ChatMode {
+          Value: "mc:echatmode:none"
         }
         ChatPosition {
           X: 40
@@ -806,7 +807,7 @@ Objects {
           Y: 400
         }
         ChatHorizontalAlignment {
-          Value: "mc:ecorehorizontalalign:left"
+          Value: "mc:ecorehorizontalalign:right"
         }
         ChatVerticalAlignment {
           Value: "mc:ecorehorizontalalign:center"
