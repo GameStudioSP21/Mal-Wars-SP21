@@ -143,6 +143,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8414801238470530538
+  Name: "Sci-fi Ability Blue 021"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_SciFi_Ability_Blue_021"
+  }
+}
+Assets {
   Id: 7913378159893191242
   Name: "BG Highlighted 006"
   PlatformAssetType: 9
@@ -230,6 +239,15 @@ Assets {
   PrimaryAsset {
     AssetType: "FontAssetRef"
     AssetId: "PlayBold_ref"
+  }
+}
+Assets {
+  Id: 1735192838551116887
+  Name: "Icon Diamond"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Diamond"
   }
 }
 Assets {

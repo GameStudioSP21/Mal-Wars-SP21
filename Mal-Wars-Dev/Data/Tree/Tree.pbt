@@ -117,40 +117,6 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 7821743304280503940
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1586.91382
-            Y: -1035.73071
-            Z: 1298.78223
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: 3.62388635
-            Yaw: -61.6283264
-            Roll: -4.17303467
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11713804012736036156
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 171.600342
-            Y: 302.416504
-            Z: -139.146729
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 12379996449719569168
       value {
         Overrides {
@@ -160,22 +126,16 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 2100
-            Z: 5400
+            X: 1511.25391
+            Y: -67.0883789
+            Z: 3181.49414
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
             Pitch: 175
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 2.5
-            Y: 2.5
-            Z: 2.5
+            Yaw: -45
           }
         }
       }
@@ -201,9 +161,9 @@ Objects {
   }
   ParentId: 4781671109827199097
   ChildIds: 16245118719777391493
-  ChildIds: 9275720789267418785
   ChildIds: 2854307414044987448
   ChildIds: 1187155345345434260
+  ChildIds: 9275720789267418785
   ChildIds: 15089422333791274029
   ChildIds: 4865664388657450589
   ChildIds: 9688884146481072164
@@ -908,6 +868,35 @@ Objects {
   }
 }
 Objects {
+  Id: 9275720789267418785
+  Name: "Alex"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10722931758594424760
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Alex"
+  }
+}
+Objects {
   Id: 1187155345345434260
   Name: "Asante"
   Transform {
@@ -963,35 +952,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Anthony"
-  }
-}
-Objects {
-  Id: 9275720789267418785
-  Name: "Alex"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10722931758594424760
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Alex"
   }
 }
 Objects {

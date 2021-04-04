@@ -1,6 +1,52 @@
 Name: "TowerTypes"
 RootId: 15720114564533439334
 Objects {
+  Id: 7010777850253727506
+  Name: "Lunar"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15720114564533439334
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 10233297169285411023
+      }
+    }
+    Overrides {
+      Name: "cs:Color"
+      Color {
+        R: 1
+        G: 0.110000014
+        B: 0.905694842
+        A: 0.478000015
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Lunar"
+  }
+}
+Objects {
   Id: 5700756625187138424
   Name: "Utility"
   Transform {
