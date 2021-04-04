@@ -38,8 +38,8 @@ view.__index = view
 
 LOCAL_PLAYER.clientUserData.tempDisplay = view
 
-local MAX_TOWER_COLUMNS = 2
-local MAX_TOWER_ROWS = 3
+local MAX_TOWER_COLUMNS = 4
+local MAX_TOWER_ROWS = 1
 local MAX_ENTRIES = MAX_TOWER_COLUMNS * MAX_TOWER_ROWS
 
 local function PlaySFX(sfxMUID)
@@ -284,9 +284,7 @@ function view:DisplayTowerTypes(typeName,pageNumber)
 
     self:DisplayPageIndicators(typeName,pageNumber)
 
-    local xCount = 0
-    local yCount = 0
-    local _HORIZONTAL_SPACING = 10
+
     -- Clean all tower entries
     for _, towerEntry in pairs(TOWER_PANEL:GetChildren()) do
         if Object.IsValid(towerEntry) then
@@ -296,6 +294,10 @@ function view:DisplayTowerTypes(typeName,pageNumber)
 
     local allTypeTower = localInventory:GetUnequippedTowerTypes(typeName)
     if not allTypeTower then return end
+
+    local xCount = 0
+    local yCount = 0
+    local HORIZONTAL_SPACING = 10
 
     -- ReBuild all tower entries
     local count = 0

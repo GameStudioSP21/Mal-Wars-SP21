@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10233297169285411023
+  Name: "Moon"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Icon_Moon"
+  }
+}
+Assets {
   Id: 4683636839045753337
   Name: "Wrench"
   PlatformAssetType: 9

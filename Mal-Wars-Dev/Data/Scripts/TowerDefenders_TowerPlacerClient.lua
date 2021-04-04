@@ -95,6 +95,7 @@ towerPlacer.OnLeftMouseButton:Connect(function()
     end
 
     if prepedTower and ghostPos then
+        print("Subtracting from wallet")
         local roundedPos = Vector3.New(math.floor(ghostPos.x), math.floor(ghostPos.y), math.floor(ghostPos.z))
         -- TODO: Add a rotation as an additional step.
         GemWallet.SubtractFromWallet(prepedTower:GetCost())
