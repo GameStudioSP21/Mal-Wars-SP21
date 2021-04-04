@@ -13303,7 +13303,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:IsBuildable"
-      Bool: false
+      Bool: true
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -23580,7 +23580,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:IsBuildable"
-      Bool: false
+      Bool: true
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
