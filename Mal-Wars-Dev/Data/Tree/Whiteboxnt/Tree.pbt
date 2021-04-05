@@ -467,7 +467,7 @@ Objects {
   Name: "Plane Triangle - One Sided Convex"
   Transform {
     Location {
-      X: -396.726563
+      X: -396.726562
       Y: 673.822266
       Z: 1.91925049
     }
@@ -2105,7 +2105,7 @@ Objects {
   Name: "Plane Triangle - One Sided Convex"
   Transform {
     Location {
-      X: -1124.73145
+      X: -1124.73144
       Y: 1132.40039
       Z: 1.91925049
     }
@@ -2857,7 +2857,7 @@ Objects {
   Transform {
     Location {
       X: -105.436035
-      Y: -101.973145
+      Y: -101.973144
     }
     Rotation {
       Yaw: -45.0770645
@@ -3096,7 +3096,7 @@ Objects {
   Transform {
     Location {
       X: -105.436035
-      Y: -101.973145
+      Y: -101.973144
     }
     Rotation {
       Yaw: -45.0770645
@@ -3372,7 +3372,7 @@ Objects {
   Transform {
     Location {
       X: -105.436035
-      Y: -101.973145
+      Y: -101.973144
     }
     Rotation {
       Yaw: -45.0770645
@@ -3611,7 +3611,7 @@ Objects {
   Transform {
     Location {
       X: -105.436035
-      Y: -101.973145
+      Y: -101.973144
     }
     Rotation {
       Yaw: -45.0770645
@@ -3928,7 +3928,7 @@ Objects {
   Transform {
     Location {
       X: -105.436035
-      Y: -101.973145
+      Y: -101.973144
     }
     Rotation {
       Yaw: -45.0770645
@@ -4167,7 +4167,7 @@ Objects {
   Transform {
     Location {
       X: -105.436035
-      Y: -101.973145
+      Y: -101.973144
     }
     Rotation {
       Yaw: -45.0770645
@@ -4443,7 +4443,7 @@ Objects {
   Transform {
     Location {
       X: -105.436035
-      Y: -101.973145
+      Y: -101.973144
     }
     Rotation {
       Yaw: -45.0770645
@@ -4682,7 +4682,7 @@ Objects {
   Transform {
     Location {
       X: -105.436035
-      Y: -101.973145
+      Y: -101.973144
     }
     Rotation {
       Yaw: -45.0770645
@@ -7359,7 +7359,7 @@ Objects {
   Name: "Plane 1m - Two Sided"
   Transform {
     Location {
-      X: -554.782227
+      X: -554.782226
       Y: 104.248657
       Z: 0.000244140625
     }
@@ -7559,7 +7559,7 @@ Objects {
   Name: "Plane 1m - Two Sided"
   Transform {
     Location {
-      X: -0.0239257813
+      X: -0.0239257812
       Y: 0.0797119141
     }
     Rotation {
@@ -7932,7 +7932,7 @@ Objects {
   Name: "Plane 1m - Two Sided"
   Transform {
     Location {
-      X: -0.0239257813
+      X: -0.0239257812
       Y: 0.0797119141
     }
     Rotation {
@@ -8927,7 +8927,7 @@ Objects {
   Name: "Plane 1m - Two Sided"
   Transform {
     Location {
-      X: -554.782227
+      X: -554.782226
       Y: 104.248657
       Z: 0.000244140625
     }
@@ -9127,7 +9127,7 @@ Objects {
   Name: "Plane 1m - Two Sided"
   Transform {
     Location {
-      X: -0.0239257813
+      X: -0.0239257812
       Y: 0.0797119141
     }
     Rotation {
@@ -9500,7 +9500,7 @@ Objects {
   Name: "Plane 1m - Two Sided"
   Transform {
     Location {
-      X: -0.0239257813
+      X: -0.0239257812
       Y: 0.0797119141
     }
     Rotation {
@@ -13453,7 +13453,7 @@ Objects {
       Z: 158.828247
     }
     Rotation {
-      Yaw: -134.351563
+      Yaw: -134.351562
     }
     Scale {
       X: 0.113665007
@@ -17730,7 +17730,7 @@ Objects {
   Transform {
     Location {
       X: -960.584473
-      Y: 350.966309
+      Y: 350.966308
       Z: 149.927307
     }
     Rotation {
@@ -17865,7 +17865,7 @@ Objects {
   Name: "Plane 1m - Two Sided"
   Transform {
     Location {
-      X: -970.216309
+      X: -970.216308
       Y: 378.515747
       Z: 149.932068
     }
@@ -18002,7 +18002,7 @@ Objects {
   Transform {
     Location {
       X: -613.23
-      Y: -613.226563
+      Y: -613.226562
       Z: 149.944092
     }
     Rotation {
@@ -18205,7 +18205,7 @@ Objects {
   Name: "Plane 1m - Two Sided"
   Transform {
     Location {
-      X: -430.907227
+      X: -430.907226
       Y: -927.563721
       Z: 149.926346
     }
@@ -18749,7 +18749,7 @@ Objects {
   Name: "Plane 1m - Two Sided"
   Transform {
     Location {
-      X: 351.191895
+      X: 351.191894
       Y: -960.587646
       Z: 149.927124
     }
@@ -18953,7 +18953,7 @@ Objects {
   Transform {
     Location {
       X: -378.510742
-      Y: -970.219727
+      Y: -970.219726
       Z: 149.933594
     }
     Rotation {
@@ -19293,7 +19293,7 @@ Objects {
   Transform {
     Location {
       X: 927.571289
-      Y: -430.910645
+      Y: -430.910644
       Z: 149.928055
     }
     Rotation {
@@ -19429,7 +19429,7 @@ Objects {
   Transform {
     Location {
       X: 690.90918
-      Y: -690.907227
+      Y: -690.907226
       Z: 149.94136
     }
     Rotation {
@@ -19903,7 +19903,7 @@ Objects {
   Name: "Plane 1m - Two Sided"
   Transform {
     Location {
-      X: 970.226563
+      X: 970.226562
       Y: -378.510254
       Z: 149.935501
     }
@@ -23743,7 +23743,7 @@ Objects {
       Z: 158.828247
     }
     Rotation {
-      Yaw: -134.351563
+      Yaw: -134.351562
     }
     Scale {
       X: 0.113665007
@@ -28020,7 +28020,7 @@ Objects {
   Transform {
     Location {
       X: -960.584473
-      Y: 350.966309
+      Y: 350.966308
       Z: 149.927307
     }
     Rotation {
@@ -28155,7 +28155,7 @@ Objects {
   Name: "Plane 1m - Two Sided"
   Transform {
     Location {
-      X: -970.216309
+      X: -970.216308
       Y: 378.515747
       Z: 149.932068
     }
@@ -28292,7 +28292,7 @@ Objects {
   Transform {
     Location {
       X: -613.23
-      Y: -613.226563
+      Y: -613.226562
       Z: 149.944092
     }
     Rotation {
@@ -28495,7 +28495,7 @@ Objects {
   Name: "Plane 1m - Two Sided"
   Transform {
     Location {
-      X: -430.907227
+      X: -430.907226
       Y: -927.563721
       Z: 149.926346
     }
@@ -29039,7 +29039,7 @@ Objects {
   Name: "Plane 1m - Two Sided"
   Transform {
     Location {
-      X: 351.191895
+      X: 351.191894
       Y: -960.587646
       Z: 149.927124
     }
@@ -29243,7 +29243,7 @@ Objects {
   Transform {
     Location {
       X: -378.510742
-      Y: -970.219727
+      Y: -970.219726
       Z: 149.933594
     }
     Rotation {
@@ -29583,7 +29583,7 @@ Objects {
   Transform {
     Location {
       X: 927.571289
-      Y: -430.910645
+      Y: -430.910644
       Z: 149.928055
     }
     Rotation {
@@ -29719,7 +29719,7 @@ Objects {
   Transform {
     Location {
       X: 690.90918
-      Y: -690.907227
+      Y: -690.907226
       Z: 149.94136
     }
     Rotation {
@@ -30193,7 +30193,7 @@ Objects {
   Name: "Plane 1m - Two Sided"
   Transform {
     Location {
-      X: 970.226563
+      X: 970.226562
       Y: -378.510254
       Z: 149.935501
     }

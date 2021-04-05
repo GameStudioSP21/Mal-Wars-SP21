@@ -6,7 +6,7 @@ Objects {
   Transform {
     Location {
       X: -4483.72412
-      Y: 3061.58643
+      Y: 3061.58642
       Z: -1269.7373
     }
     Rotation {
@@ -134,7 +134,7 @@ Objects {
   Transform {
     Location {
       X: -8729.91
-      Y: 2890.85645
+      Y: 2890.85644
       Z: 1620.2627
     }
     Rotation {
@@ -194,7 +194,7 @@ Objects {
   Name: "Ivy 02"
   Transform {
     Location {
-      X: -7978.79395
+      X: -7978.79394
       Y: 2795.94141
       Z: 1205.2627
     }
@@ -517,13 +517,13 @@ Objects {
   Name: "Ivy 05"
   Transform {
     Location {
-      X: -5652.27393
+      X: -5652.27392
       Y: 1674.45947
       Z: -224.737305
     }
     Rotation {
       Pitch: -39.0220947
-      Yaw: -35.6469727
+      Yaw: -35.6469726
       Roll: 14.7589636
     }
     Scale {
@@ -639,7 +639,7 @@ Objects {
   Name: "Ivy 05"
   Transform {
     Location {
-      X: -4764.91309
+      X: -4764.91308
       Y: 1169.88184
       Z: -1809.7373
     }

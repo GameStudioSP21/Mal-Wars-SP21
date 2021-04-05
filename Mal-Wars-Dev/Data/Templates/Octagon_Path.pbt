@@ -1628,7 +1628,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: 970.226563
+            X: 970.226562
             Y: -378.510254
             Z: 149.935501
           }
@@ -2062,7 +2062,7 @@ Assets {
         Transform {
           Location {
             X: 690.90918
-            Y: -690.907227
+            Y: -690.907226
             Z: 149.94136
           }
           Rotation {
@@ -2186,7 +2186,7 @@ Assets {
         Transform {
           Location {
             X: 927.571289
-            Y: -430.910645
+            Y: -430.910644
             Z: 149.928055
           }
           Rotation {
@@ -2496,7 +2496,7 @@ Assets {
         Transform {
           Location {
             X: -378.510742
-            Y: -970.219727
+            Y: -970.219726
             Z: 149.933594
           }
           Rotation {
@@ -2680,7 +2680,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: 351.191895
+            X: 351.191894
             Y: -960.587646
             Z: 149.927124
           }
@@ -3176,7 +3176,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -430.907227
+            X: -430.907226
             Y: -927.563721
             Z: 149.926346
           }
@@ -3363,7 +3363,7 @@ Assets {
         Transform {
           Location {
             X: -613.23
-            Y: -613.226563
+            Y: -613.226562
             Z: 149.944092
           }
           Rotation {
@@ -3486,7 +3486,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -970.216309
+            X: -970.216308
             Y: 378.515747
             Z: 149.932068
           }
@@ -3611,7 +3611,7 @@ Assets {
         Transform {
           Location {
             X: -960.584473
-            Y: 350.966309
+            Y: 350.966308
             Z: 149.927307
           }
           Rotation {
@@ -7559,7 +7559,7 @@ Assets {
             Z: 158.828247
           }
           Rotation {
-            Yaw: -134.351563
+            Yaw: -134.351562
           }
           Scale {
             X: 0.113665007
@@ -12964,7 +12964,7 @@ Assets {
         Name: "Plane Trapezoid - One Sided"
         Transform {
           Location {
-            X: 1211.77979
+            X: 1211.77978
             Y: -1208.46265
             Z: 77.1485
           }

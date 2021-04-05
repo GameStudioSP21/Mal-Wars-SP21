@@ -153,7 +153,7 @@ Objects {
     Overrides {
       Name: "cs:Tower"
       AssetReference {
-        Id: 16723427651549567121
+        Id: 841534158063459245
       }
     }
     Overrides {

@@ -156,7 +156,7 @@ Objects {
   Name: "Portal VFX"
   Transform {
     Location {
-      X: -104.816895
+      X: -104.816894
       Y: 15.59303
       Z: 20.5047951
     }

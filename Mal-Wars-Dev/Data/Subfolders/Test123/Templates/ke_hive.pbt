@@ -1829,7 +1829,7 @@ Assets {
         Name: "R-Tri Design"
         Transform {
           Location {
-            X: -6.10351563e-05
+            X: -6.10351562e-05
             Y: 202.131409
           }
           Rotation {
@@ -2491,7 +2491,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -0.0239257813
+            X: -0.0239257812
             Y: 0.0797119141
           }
           Rotation {
@@ -2829,7 +2829,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -0.0239257813
+            X: -0.0239257812
             Y: 0.0797119141
           }
           Rotation {
@@ -3011,7 +3011,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -554.782227
+            X: -554.782226
             Y: 104.248657
             Z: 0.000244140625
           }
@@ -8683,7 +8683,7 @@ Assets {
           Location {
             X: -5.06933594
             Y: -10.3249702
-            Z: 3383.88477
+            Z: 3383.88476
           }
           Rotation {
             Yaw: 1.36603594e-05

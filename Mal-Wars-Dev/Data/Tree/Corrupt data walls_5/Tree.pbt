@@ -317,7 +317,7 @@ Objects {
   Transform {
     Location {
       X: -7810.10889
-      Y: 2419.25977
+      Y: 2419.25976
       Z: 1060.2627
     }
     Rotation {
@@ -706,7 +706,7 @@ Objects {
   Name: "Ivy 01"
   Transform {
     Location {
-      X: -5470.14063
+      X: -5470.14062
       Y: 1749.26855
       Z: -859.737305
     }

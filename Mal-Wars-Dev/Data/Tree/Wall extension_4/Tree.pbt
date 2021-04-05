@@ -83,7 +83,7 @@ Objects {
   Name: "Prism - 4-Sided Trapezoid Right"
   Transform {
     Location {
-      X: -7792.07813
+      X: -7792.07812
       Y: -1908.71436
       Z: -1122.2002
     }

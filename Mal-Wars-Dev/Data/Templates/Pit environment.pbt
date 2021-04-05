@@ -4717,7 +4717,7 @@ Assets {
         Name: "Portal VFX"
         Transform {
           Location {
-            X: -104.816895
+            X: -104.816894
             Y: 15.59303
             Z: 20.5047951
           }
@@ -5395,7 +5395,7 @@ Assets {
           Location {
             X: 2273.68359
             Y: 615.681396
-            Z: -15209.4395
+            Z: -15209.4394
           }
           Rotation {
             Pitch: -3.05175781e-05
@@ -6112,7 +6112,7 @@ Assets {
         Transform {
           Location {
             X: -1332.43652
-            Y: -3570.30811
+            Y: -3570.3081
             Z: -15208.7734
           }
           Rotation {
@@ -6875,8 +6875,8 @@ Assets {
         Name: "Tunnel opening"
         Transform {
           Location {
-            X: 2252.55811
-            Y: -1682.53809
+            X: 2252.5581
+            Y: -1682.53808
             Z: -15232.1768
           }
           Rotation {
@@ -6912,7 +6912,7 @@ Assets {
         Name: "Portal VFX"
         Transform {
           Location {
-            X: -104.816895
+            X: -104.816894
             Y: 15.59303
             Z: 20.5047951
           }
@@ -9106,7 +9106,7 @@ Assets {
         Name: "Portal VFX"
         Transform {
           Location {
-            X: -104.816895
+            X: -104.816894
             Y: 15.59303
             Z: 20.5047951
           }
@@ -9784,7 +9784,7 @@ Assets {
           Location {
             X: 2273.68359
             Y: 615.681396
-            Z: -15209.4395
+            Z: -15209.4394
           }
           Rotation {
             Pitch: -3.05175781e-05
@@ -10501,7 +10501,7 @@ Assets {
         Transform {
           Location {
             X: -1332.43652
-            Y: -3570.30811
+            Y: -3570.3081
             Z: -15208.7734
           }
           Rotation {
@@ -13573,7 +13573,7 @@ Assets {
         Name: "Portal VFX"
         Transform {
           Location {
-            X: -104.816895
+            X: -104.816894
             Y: 15.59303
             Z: 20.5047951
           }
@@ -13819,7 +13819,7 @@ Assets {
         Name: "Prism - 6-Sided"
         Transform {
           Location {
-            X: 554.289063
+            X: 554.289062
             Y: -302.572266
             Z: -15058.4795
           }
@@ -13966,8 +13966,8 @@ Assets {
         Transform {
           Location {
             X: 584.201172
-            Y: -2352.46729
-            Z: -15130.1563
+            Y: -2352.46728
+            Z: -15130.1562
           }
           Rotation {
             Pitch: -90
@@ -15769,7 +15769,7 @@ Assets {
         Name: "Portal VFX"
         Transform {
           Location {
-            X: -104.816895
+            X: -104.816894
             Y: 15.59303
             Z: 20.5047951
           }
@@ -16447,7 +16447,7 @@ Assets {
           Location {
             X: 2273.68359
             Y: 615.681396
-            Z: -15209.4395
+            Z: -15209.4394
           }
           Rotation {
             Pitch: -3.05175781e-05
@@ -17164,7 +17164,7 @@ Assets {
         Transform {
           Location {
             X: -1332.43652
-            Y: -3570.30811
+            Y: -3570.3081
             Z: -15208.7734
           }
           Rotation {
@@ -17965,7 +17965,7 @@ Assets {
         Name: "Portal VFX"
         Transform {
           Location {
-            X: -104.816895
+            X: -104.816894
             Y: 15.59303
             Z: 20.5047951
           }
@@ -18643,7 +18643,7 @@ Assets {
           Location {
             X: 2273.68359
             Y: 615.681396
-            Z: -15209.4395
+            Z: -15209.4394
           }
           Rotation {
             Pitch: -3.05175781e-05
@@ -19360,7 +19360,7 @@ Assets {
         Transform {
           Location {
             X: -1332.43652
-            Y: -3570.30811
+            Y: -3570.3081
             Z: -15208.7734
           }
           Rotation {
@@ -20161,7 +20161,7 @@ Assets {
         Name: "Portal VFX"
         Transform {
           Location {
-            X: -104.816895
+            X: -104.816894
             Y: 15.59303
             Z: 20.5047951
           }
@@ -20839,7 +20839,7 @@ Assets {
           Location {
             X: 2273.68359
             Y: 615.681396
-            Z: -15209.4395
+            Z: -15209.4394
           }
           Rotation {
             Pitch: -3.05175781e-05
@@ -21556,7 +21556,7 @@ Assets {
         Transform {
           Location {
             X: -1332.43652
-            Y: -3570.30811
+            Y: -3570.3081
             Z: -15208.7734
           }
           Rotation {
@@ -22487,7 +22487,7 @@ Assets {
         Name: "Prism - 4-Sided Trapezoid Right"
         Transform {
           Location {
-            X: -7792.07813
+            X: -7792.07812
             Y: -1908.71436
             Z: -1122.2002
           }
@@ -23414,7 +23414,7 @@ Assets {
         Transform {
           Location {
             X: -76.7832
-            Y: -13.9726563
+            Y: -13.9726562
             Z: -155
           }
           Rotation {
@@ -23716,7 +23716,7 @@ Assets {
           Location {
             X: -17.1328125
             Y: 6.57324219
-            Z: -74.9882813
+            Z: -74.9882812
           }
           Rotation {
           }
@@ -24643,7 +24643,7 @@ Assets {
         Transform {
           Location {
             X: -76.7832
-            Y: -13.9726563
+            Y: -13.9726562
             Z: -155
           }
           Rotation {
@@ -24945,7 +24945,7 @@ Assets {
           Location {
             X: -17.1328125
             Y: 6.57324219
-            Z: -74.9882813
+            Z: -74.9882812
           }
           Rotation {
           }
@@ -25165,7 +25165,7 @@ Assets {
         Name: "Prism - 4-Sided Trapezoid Right"
         Transform {
           Location {
-            X: -7792.07813
+            X: -7792.07812
             Y: -1908.71436
             Z: -1122.2002
           }
@@ -26092,7 +26092,7 @@ Assets {
         Transform {
           Location {
             X: -76.7832
-            Y: -13.9726563
+            Y: -13.9726562
             Z: -155
           }
           Rotation {
@@ -26394,7 +26394,7 @@ Assets {
           Location {
             X: -17.1328125
             Y: 6.57324219
-            Z: -74.9882813
+            Z: -74.9882812
           }
           Rotation {
           }
@@ -27321,7 +27321,7 @@ Assets {
         Transform {
           Location {
             X: -76.7832
-            Y: -13.9726563
+            Y: -13.9726562
             Z: -155
           }
           Rotation {
@@ -27623,7 +27623,7 @@ Assets {
           Location {
             X: -17.1328125
             Y: 6.57324219
-            Z: -74.9882813
+            Z: -74.9882812
           }
           Rotation {
           }
@@ -27843,7 +27843,7 @@ Assets {
         Name: "Prism - 4-Sided Trapezoid Right"
         Transform {
           Location {
-            X: -7792.07813
+            X: -7792.07812
             Y: -1908.71436
             Z: -1122.2002
           }
@@ -28770,7 +28770,7 @@ Assets {
         Transform {
           Location {
             X: -76.7832
-            Y: -13.9726563
+            Y: -13.9726562
             Z: -155
           }
           Rotation {
@@ -29072,7 +29072,7 @@ Assets {
           Location {
             X: -17.1328125
             Y: 6.57324219
-            Z: -74.9882813
+            Z: -74.9882812
           }
           Rotation {
           }
@@ -29999,7 +29999,7 @@ Assets {
         Transform {
           Location {
             X: -76.7832
-            Y: -13.9726563
+            Y: -13.9726562
             Z: -155
           }
           Rotation {
@@ -30301,7 +30301,7 @@ Assets {
           Location {
             X: -17.1328125
             Y: 6.57324219
-            Z: -74.9882813
+            Z: -74.9882812
           }
           Rotation {
           }
@@ -30521,7 +30521,7 @@ Assets {
         Name: "Prism - 4-Sided Trapezoid Right"
         Transform {
           Location {
-            X: -7792.07813
+            X: -7792.07812
             Y: -1908.71436
             Z: -1122.2002
           }
@@ -31448,7 +31448,7 @@ Assets {
         Transform {
           Location {
             X: -76.7832
-            Y: -13.9726563
+            Y: -13.9726562
             Z: -155
           }
           Rotation {
@@ -31750,7 +31750,7 @@ Assets {
           Location {
             X: -17.1328125
             Y: 6.57324219
-            Z: -74.9882813
+            Z: -74.9882812
           }
           Rotation {
           }
@@ -32677,7 +32677,7 @@ Assets {
         Transform {
           Location {
             X: -76.7832
-            Y: -13.9726563
+            Y: -13.9726562
             Z: -155
           }
           Rotation {
@@ -32979,7 +32979,7 @@ Assets {
           Location {
             X: -17.1328125
             Y: 6.57324219
-            Z: -74.9882813
+            Z: -74.9882812
           }
           Rotation {
           }
@@ -33199,7 +33199,7 @@ Assets {
         Name: "Prism - 4-Sided Trapezoid Right"
         Transform {
           Location {
-            X: -7792.07813
+            X: -7792.07812
             Y: -1908.71436
             Z: -1122.2002
           }
@@ -34126,7 +34126,7 @@ Assets {
         Transform {
           Location {
             X: -76.7832
-            Y: -13.9726563
+            Y: -13.9726562
             Z: -155
           }
           Rotation {
@@ -34428,7 +34428,7 @@ Assets {
           Location {
             X: -17.1328125
             Y: 6.57324219
-            Z: -74.9882813
+            Z: -74.9882812
           }
           Rotation {
           }
@@ -35355,7 +35355,7 @@ Assets {
         Transform {
           Location {
             X: -76.7832
-            Y: -13.9726563
+            Y: -13.9726562
             Z: -155
           }
           Rotation {
@@ -35657,7 +35657,7 @@ Assets {
           Location {
             X: -17.1328125
             Y: 6.57324219
-            Z: -74.9882813
+            Z: -74.9882812
           }
           Rotation {
           }
@@ -35877,7 +35877,7 @@ Assets {
         Name: "Prism - 4-Sided Trapezoid Right"
         Transform {
           Location {
-            X: -7792.07813
+            X: -7792.07812
             Y: -1908.71436
             Z: -1122.2002
           }
@@ -36804,7 +36804,7 @@ Assets {
         Transform {
           Location {
             X: -76.7832
-            Y: -13.9726563
+            Y: -13.9726562
             Z: -155
           }
           Rotation {
@@ -37106,7 +37106,7 @@ Assets {
           Location {
             X: -17.1328125
             Y: 6.57324219
-            Z: -74.9882813
+            Z: -74.9882812
           }
           Rotation {
           }
@@ -38033,7 +38033,7 @@ Assets {
         Transform {
           Location {
             X: -76.7832
-            Y: -13.9726563
+            Y: -13.9726562
             Z: -155
           }
           Rotation {
@@ -38335,7 +38335,7 @@ Assets {
           Location {
             X: -17.1328125
             Y: 6.57324219
-            Z: -74.9882813
+            Z: -74.9882812
           }
           Rotation {
           }
@@ -38554,7 +38554,7 @@ Assets {
         Name: "Prism - 4-Sided Trapezoid Right"
         Transform {
           Location {
-            X: -7792.07813
+            X: -7792.07812
             Y: -1908.71436
             Z: -1122.2002
           }
@@ -39481,7 +39481,7 @@ Assets {
         Transform {
           Location {
             X: -76.7832
-            Y: -13.9726563
+            Y: -13.9726562
             Z: -155
           }
           Rotation {
@@ -39783,7 +39783,7 @@ Assets {
           Location {
             X: -17.1328125
             Y: 6.57324219
-            Z: -74.9882813
+            Z: -74.9882812
           }
           Rotation {
           }
@@ -40710,7 +40710,7 @@ Assets {
         Transform {
           Location {
             X: -76.7832
-            Y: -13.9726563
+            Y: -13.9726562
             Z: -155
           }
           Rotation {
@@ -41012,7 +41012,7 @@ Assets {
           Location {
             X: -17.1328125
             Y: 6.57324219
-            Z: -74.9882813
+            Z: -74.9882812
           }
           Rotation {
           }
@@ -41232,7 +41232,7 @@ Assets {
         Name: "Prism - 4-Sided Trapezoid Right"
         Transform {
           Location {
-            X: -7792.07813
+            X: -7792.07812
             Y: -1908.71436
             Z: -1122.2002
           }
@@ -42159,7 +42159,7 @@ Assets {
         Transform {
           Location {
             X: -76.7832
-            Y: -13.9726563
+            Y: -13.9726562
             Z: -155
           }
           Rotation {
@@ -42461,7 +42461,7 @@ Assets {
           Location {
             X: -17.1328125
             Y: 6.57324219
-            Z: -74.9882813
+            Z: -74.9882812
           }
           Rotation {
           }
@@ -43388,7 +43388,7 @@ Assets {
         Transform {
           Location {
             X: -76.7832
-            Y: -13.9726563
+            Y: -13.9726562
             Z: -155
           }
           Rotation {
@@ -43690,7 +43690,7 @@ Assets {
           Location {
             X: -17.1328125
             Y: 6.57324219
-            Z: -74.9882813
+            Z: -74.9882812
           }
           Rotation {
           }
@@ -47021,7 +47021,7 @@ Assets {
         Transform {
           Location {
             X: -5221.59473
-            Y: 1395.90479
+            Y: 1395.90478
             Z: -809.737305
           }
           Rotation {
@@ -47192,7 +47192,7 @@ Assets {
         Transform {
           Location {
             X: -6027.69629
-            Y: 2180.79395
+            Y: 2180.79394
             Z: 5.26269531
           }
           Rotation {
@@ -47814,7 +47814,7 @@ Assets {
         Name: "Ivy 04"
         Transform {
           Location {
-            X: -7332.30811
+            X: -7332.3081
             Y: 2339.89258
             Z: 985.262695
           }
@@ -48502,7 +48502,7 @@ Assets {
         Name: "Ivy 01"
         Transform {
           Location {
-            X: -5470.14063
+            X: -5470.14062
             Y: 1749.26855
             Z: -859.737305
           }
@@ -48851,7 +48851,7 @@ Assets {
         Transform {
           Location {
             X: -7810.10889
-            Y: 2419.25977
+            Y: 2419.25976
             Z: 1060.2627
           }
           Rotation {
@@ -49708,7 +49708,7 @@ Assets {
         Name: "Ivy 01"
         Transform {
           Location {
-            X: -6299.66309
+            X: -6299.66308
             Y: 2774.7583
             Z: -321.300781
           }
@@ -49990,7 +49990,7 @@ Assets {
         Transform {
           Location {
             X: -7326.91
-            Y: 2624.53809
+            Y: 2624.53808
             Z: 450.262695
           }
           Rotation {
@@ -50264,8 +50264,8 @@ Assets {
         Name: "Ivy 02"
         Transform {
           Location {
-            X: -6678.38477
-            Y: 1680.54395
+            X: -6678.38476
+            Y: 1680.54394
             Z: -524.737305
           }
           Rotation {
@@ -50430,7 +50430,7 @@ Assets {
         Name: "Ivy 02"
         Transform {
           Location {
-            X: -5063.28809
+            X: -5063.28808
             Y: 2297.23584
             Z: -1744.7373
           }
@@ -50724,7 +50724,7 @@ Assets {
         Transform {
           Location {
             X: -7026.91943
-            Y: 3330.16895
+            Y: 3330.16894
             Z: 450.262695
           }
           Rotation {
@@ -51580,7 +51580,7 @@ Assets {
         Transform {
           Location {
             X: -5812.93
-            Y: 1816.68311
+            Y: 1816.6831
             Z: -594.737305
           }
           Rotation {
@@ -51695,7 +51695,7 @@ Assets {
         Name: "Ivy 05"
         Transform {
           Location {
-            X: -6509.41895
+            X: -6509.41894
             Y: 2394.57471
             Z: 310.262695
           }
@@ -51750,7 +51750,7 @@ Assets {
         Name: "Ivy 02"
         Transform {
           Location {
-            X: -6969.22559
+            X: -6969.22558
             Y: 2538.9
             Z: 455.262695
           }
@@ -51867,7 +51867,7 @@ Assets {
         Transform {
           Location {
             X: -5381.99902
-            Y: 1840.18311
+            Y: 1840.1831
             Z: -834.737305
           }
           Rotation {
@@ -51976,7 +51976,7 @@ Assets {
         Name: "Ivy 04"
         Transform {
           Location {
-            X: -7618.08643
+            X: -7618.08642
             Y: 2815.7417
             Z: 750.262695
           }
@@ -53075,7 +53075,7 @@ Assets {
         Name: "Ivy 05"
         Transform {
           Location {
-            X: -4764.91309
+            X: -4764.91308
             Y: 1169.88184
             Z: -1809.7373
           }
@@ -53185,13 +53185,13 @@ Assets {
         Name: "Ivy 05"
         Transform {
           Location {
-            X: -5652.27393
+            X: -5652.27392
             Y: 1674.45947
             Z: -224.737305
           }
           Rotation {
             Pitch: -39.0220947
-            Yaw: -35.6469727
+            Yaw: -35.6469726
             Roll: 14.7589636
           }
           Scale {
@@ -53472,7 +53472,7 @@ Assets {
         Name: "Ivy 02"
         Transform {
           Location {
-            X: -7978.79395
+            X: -7978.79394
             Y: 2795.94141
             Z: 1205.2627
           }
@@ -53534,7 +53534,7 @@ Assets {
         Transform {
           Location {
             X: -8729.91
-            Y: 2890.85645
+            Y: 2890.85644
             Z: 1620.2627
           }
           Rotation {
@@ -53644,7 +53644,7 @@ Assets {
         Transform {
           Location {
             X: -4483.72412
-            Y: 3061.58643
+            Y: 3061.58642
             Z: -1269.7373
           }
           Rotation {

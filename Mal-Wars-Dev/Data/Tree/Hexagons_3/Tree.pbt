@@ -493,8 +493,8 @@ Objects {
   Transform {
     Location {
       X: 584.201172
-      Y: -2352.46729
-      Z: -15130.1563
+      Y: -2352.46728
+      Z: -15130.1562
     }
     Rotation {
       Pitch: -90
@@ -613,7 +613,7 @@ Objects {
   Name: "Prism - 6-Sided"
   Transform {
     Location {
-      X: 554.289063
+      X: 554.289062
       Y: -302.572266
       Z: -15058.4795
     }

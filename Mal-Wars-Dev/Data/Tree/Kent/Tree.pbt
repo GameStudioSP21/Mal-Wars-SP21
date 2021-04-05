@@ -9204,7 +9204,7 @@ Objects {
     }
     Rotation {
       Pitch: 68.6439362
-      Yaw: -6.10351563e-05
+      Yaw: -6.10351562e-05
       Roll: 90.621727
     }
     Scale {
@@ -12486,7 +12486,7 @@ Objects {
   Name: "Pipe - 90-Degree Long"
   Transform {
     Location {
-      X: 3.01757813
+      X: 3.01757812
       Y: 0.165771484
       Z: 3.03369141
     }
