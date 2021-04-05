@@ -6,7 +6,10 @@ local TargetGameID = script:GetCustomProperty("DefaultGameID")
 
 local player = Game.GetLocalPlayer()
 
+function SetTransitionTarget(gameID)
+	TargetGameID = gameID
+end
+
 TRANS_BUTTON.pressedEvent:Connect(function()
-    print("Returning home!")
-    Events.BroadcastToServer("ReturnHome", player, TargetGameID)
+    Events.BroadcastToServer("BeginMission", player, TargetGameID)
 end)

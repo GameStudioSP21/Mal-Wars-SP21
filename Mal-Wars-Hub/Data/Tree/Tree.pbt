@@ -22,8 +22,8 @@ Objects {
   ChildIds: 16735332301278203860
   ChildIds: 7312355645798257615
   ChildIds: 9574966330640517600
-  ChildIds: 4497641434065555435
   ChildIds: 10384849245238798294
+  ChildIds: 4497641434065555435
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -36,35 +36,6 @@ Objects {
     Value: "mc:ecollisionsetting:forceon"
   }
   Folder {
-  }
-}
-Objects {
-  Id: 10384849245238798294
-  Name: "Asante"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Asante"
   }
 }
 Objects {
@@ -94,6 +65,35 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Sydney"
+  }
+}
+Objects {
+  Id: 10384849245238798294
+  Name: "Asante"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Asante"
   }
 }
 Objects {

@@ -13,6 +13,9 @@ local BestiaryButton = script:GetCustomProperty("BestiaryButton"):WaitForObject(
 local LeaderBoardCamera = script:GetCustomProperty("LeaderBoardCamera"):WaitForObject()
 local LeaderBoardButton = script:GetCustomProperty("LeaderBoardButton"):WaitForObject()
 
+local LevelCameras = script:GetCustomProperty("LevelCameras"):WaitForObject():GetChildren()
+local LevelSelectors = script:GetCustomProperty("LevelSelectors"):WaitForObject():GetChildren()
+
 -- on load game set player camera to HubCamera
 local player = Game.GetLocalPlayer()
 
@@ -52,6 +55,22 @@ LeaderBoardButton.pressedEvent:Connect(function ()
         player:SetDefaultCamera(LeaderBoardCamera, 1)
     end
 end)
+
+for i, camera in ipairs(LevelCameras) do
+	local selector = LevelSelectors[i]
+	
+	if not selector then
+		print("WARNING! THERE WAS A MISSING LEVEL SELECTOR!")
+		break 
+	end
+	
+	selector.pressedEvent:Connect(function ()
+    	if(player:GetActiveCamera()  ~= camera) then
+        	print("Switch to LevelCamera", i)
+        	player:SetDefaultCamera(camera, 1)
+    	end
+	end)
+end
 
 -- local TaskPerFrame = Task.Spawn(function ()
 --     print(player:GetActiveCamera())

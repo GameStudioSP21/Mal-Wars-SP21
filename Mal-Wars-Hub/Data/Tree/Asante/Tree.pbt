@@ -17,7 +17,7 @@ Objects {
   ParentId: 10384849245238798294
   ChildIds: 17269022697275765157
   ChildIds: 2654182102654349969
-  ChildIds: 10434160871914662836
+  ChildIds: 5198929434094258921
   ChildIds: 11798120545449430626
   ChildIds: 714125257139065453
   ChildIds: 9040211902595836025
@@ -173,16 +173,17 @@ Objects {
   }
 }
 Objects {
-  Id: 10434160871914662836
+  Id: 5198929434094258921
   Name: "LevelSelectCamera"
   Transform {
     Location {
-      X: 447.09903
-      Y: -1126.44543
-      Z: 228.797333
+      X: -1151.224
+      Y: 443.69455
+      Z: 113.807709
     }
     Rotation {
-      Yaw: -45
+      Pitch: 14.3178377
+      Yaw: -22.729187
     }
     Scale {
       X: 1
@@ -201,7 +202,6 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Camera {
-    UseAsDefault: true
     InitialDistance: 400
     MinDistance: 300
     MaxDistance: 600
@@ -289,7 +289,7 @@ Objects {
     Overrides {
       Name: "cs:LevelSelectCamera"
       ObjectReference {
-        SelfId: 10434160871914662836
+        SelfId: 5198929434094258921
       }
     }
     Overrides {
@@ -338,6 +338,18 @@ Objects {
       Name: "cs:LeaderBoardButton"
       ObjectReference {
         SelfId: 17169400468769637641
+      }
+    }
+    Overrides {
+      Name: "cs:LevelCameras"
+      ObjectReference {
+        SelfId: 4678466048564776558
+      }
+    }
+    Overrides {
+      Name: "cs:LevelSelectors"
+      ObjectReference {
+        SelfId: 8474619060966177220
       }
     }
   }
