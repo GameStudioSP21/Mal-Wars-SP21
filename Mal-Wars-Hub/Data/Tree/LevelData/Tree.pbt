@@ -30,7 +30,7 @@ Objects {
     }
     Overrides {
       Name: "cs:LevelAddress"
-      String: "c4579f/mal-wars-sp21"
+      String: "fc5b13/mal-wars-worm-hole"
     }
   }
   Collidable_v2 {
