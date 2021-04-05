@@ -74,6 +74,7 @@ Objects {
     }
   }
   ParentId: 4497641434065555435
+  ChildIds: 3904713548982166848
   ChildIds: 7284057006682603099
   ChildIds: 7865273987943967497
   Collidable_v2 {
@@ -111,6 +112,8 @@ Objects {
   ChildIds: 3296713789624888750
   ChildIds: 13799548060907299044
   ChildIds: 17796839531619239991
+  ChildIds: 6014229595489554425
+  ChildIds: 2462797583176811585
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -146,6 +149,260 @@ Objects {
   }
 }
 Objects {
+  Id: 2462797583176811585
+  Name: "BackButtonPanel"
+  Transform {
+    Location {
+      X: -2113.11792
+      Y: -527.471436
+      Z: -256.385498
+    }
+    Rotation {
+      Yaw: 39.5102501
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7865273987943967497
+  ChildIds: 10266200538316926396
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Width: 100
+    Height: 100
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    UseParentWidth: true
+    UseParentHeight: true
+    Panel {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomleft"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 10266200538316926396
+  Name: "MenuOverlayBound"
+  Transform {
+    Location {
+      X: 0.00048828125
+      Y: 6.10351563e-05
+    }
+    Rotation {
+      Yaw: -2.73207534e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2462797583176811585
+  ChildIds: 1009227603627979909
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Width: 500
+    Height: -100
+    UIX: 50
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentHeight: true
+    Panel {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middleleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middleleft"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 1009227603627979909
+  Name: "BackButton"
+  Transform {
+    Location {
+      X: 7.27595692e-11
+      Y: -0.000244140625
+    }
+    Rotation {
+      Yaw: 1.70754702e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10266200538316926396
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Width: -250
+    Height: 50
+    UIX: 20
+    UIY: -20
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    Button {
+      Label: "Back to Main Menu"
+      FontColor {
+        A: 1
+      }
+      FontSize: 20
+      ButtonColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 841534158063459245
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+      Font {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomleft"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 6014229595489554425
+  Name: "LeaderBoardPanel"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: 1.7075472e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7865273987943967497
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    UseParentHeight: true
+    Panel {
+      IsClipping: true
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middleleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middleleft"
+        }
+      }
+    }
+  }
+}
+Objects {
   Id: 17796839531619239991
   Name: "BestiaryPanel"
   Transform {
@@ -165,7 +422,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -216,7 +473,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -269,7 +526,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -870,7 +1127,7 @@ Objects {
   }
   Control {
     Width: 500
-    Height: -150
+    Height: -250
     UIY: 150
     RenderTransformPivot {
       Anchor {
@@ -1157,7 +1414,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1946,6 +2203,111 @@ Objects {
   Script {
     ScriptAsset {
       Id: 2590414355797374318
+    }
+  }
+}
+Objects {
+  Id: 3904713548982166848
+  Name: "HubMenuControl"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: -1.7075472e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16594061430614288497
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:LevelSelectButton"
+      ObjectReference {
+        SelfId: 887526572073015058
+      }
+    }
+    Overrides {
+      Name: "cs:ArmoryButton"
+      ObjectReference {
+        SelfId: 12526776282028535351
+      }
+    }
+    Overrides {
+      Name: "cs:BestiaryButton"
+      ObjectReference {
+        SelfId: 6261623342560416897
+      }
+    }
+    Overrides {
+      Name: "cs:LeaderBoardButton"
+      ObjectReference {
+        SelfId: 17169400468769637641
+      }
+    }
+    Overrides {
+      Name: "cs:QuitGameButton"
+      ObjectReference {
+        SelfId: 14363945944763631091
+      }
+    }
+    Overrides {
+      Name: "cs:BackButton"
+      ObjectReference {
+        SelfId: 1009227603627979909
+      }
+    }
+    Overrides {
+      Name: "cs:MainMenuPanel"
+      ObjectReference {
+        SelfId: 4436705905036093710
+      }
+    }
+    Overrides {
+      Name: "cs:LevelSelectPanel"
+      ObjectReference {
+        SelfId: 3296713789624888750
+      }
+    }
+    Overrides {
+      Name: "cs:ArmoryPanel"
+      ObjectReference {
+        SelfId: 13799548060907299044
+      }
+    }
+    Overrides {
+      Name: "cs:BestiaryPanel"
+      ObjectReference {
+        SelfId: 17796839531619239991
+      }
+    }
+    Overrides {
+      Name: "cs:LeaderBoardPanel"
+      ObjectReference {
+        SelfId: 6014229595489554425
+      }
+    }
+    Overrides {
+      Name: "cs:ReturnButtonPanel"
+      ObjectReference {
+        SelfId: 2462797583176811585
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 11498555841331758035
     }
   }
 }
