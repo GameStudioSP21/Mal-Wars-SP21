@@ -311,6 +311,12 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:MainMenuButton"
+      ObjectReference {
+        SelfId: 1009227603627979909
+      }
+    }
+    Overrides {
       Name: "cs:LevelSelectButton"
       ObjectReference {
         SelfId: 887526572073015058

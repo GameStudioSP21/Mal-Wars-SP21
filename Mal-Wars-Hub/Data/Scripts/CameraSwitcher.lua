@@ -1,17 +1,29 @@
 local MainMenuCamera = script:GetCustomProperty("MainMenuCamera"):WaitForObject()
+local MainMenuButton = script:GetCustomProperty("MainMenuButton"):WaitForObject()
+
 local LevelSelectCamera = script:GetCustomProperty("LevelSelectCamera"):WaitForObject()
-local ArmoryCamera = script:GetCustomProperty("ArmoryCamera"):WaitForObject()
-local BestiaryCamera = script:GetCustomProperty("BestiaryCamera"):WaitForObject()
-local LeaderBoardCamera = script:GetCustomProperty("LeaderBoardCamera"):WaitForObject()
 local LevelSelectButton = script:GetCustomProperty("LevelSelectButton"):WaitForObject()
+
+local ArmoryCamera = script:GetCustomProperty("ArmoryCamera"):WaitForObject()
 local ArmoryButton = script:GetCustomProperty("ArmoryButton"):WaitForObject()
+
+local BestiaryCamera = script:GetCustomProperty("BestiaryCamera"):WaitForObject()
 local BestiaryButton = script:GetCustomProperty("BestiaryButton"):WaitForObject()
+
+local LeaderBoardCamera = script:GetCustomProperty("LeaderBoardCamera"):WaitForObject()
 local LeaderBoardButton = script:GetCustomProperty("LeaderBoardButton"):WaitForObject()
 
 -- on load game set player camera to HubCamera
 local player = Game.GetLocalPlayer()
 
 player:SetDefaultCamera(MainMenuCamera)
+
+MainMenuButton.pressedEvent:Connect(function ()
+    if(player:GetActiveCamera()  ~= MainMenuCamera) then
+        print("Switch to MainMenuCamera")
+        player:SetDefaultCamera(MainMenuCamera, 1)
+    end
+end)
 
 LevelSelectButton.pressedEvent:Connect(function ()
     if(player:GetActiveCamera()  ~= LevelSelectCamera) then
