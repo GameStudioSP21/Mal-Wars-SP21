@@ -88,9 +88,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 7580.94238
+            X: 6639.26416
             Y: 2935
-            Z: 68.8691406
+            Z: 50
           }
         }
         Overrides {
@@ -21506,7 +21506,6 @@ Objects {
   ChildIds: 2074308503116049477
   ChildIds: 8774478298169147506
   ChildIds: 937814005387244073
-  ChildIds: 6810079772594340631
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21518,78 +21517,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 6810079772594340631
-  Name: "StraightV2_Path"
-  Transform {
-    Location {
-      X: -3000
-      Y: 400
-      Z: -38.8691406
-    }
-    Rotation {
-      Yaw: -89.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8488411900768639064
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 1444108161883601747
-      value {
-        Overrides {
-          Name: "Name"
-          String: "StraightV2_Path"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 5670
-            Y: 2975
-            Z: 68.8691406
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 180
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 12234089294666121479
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1249.92957
-            Y: 1.2109375
-            Z: 66.9706421
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5103973752602277390
-    }
   }
 }
 Objects {

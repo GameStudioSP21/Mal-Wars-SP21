@@ -95,6 +95,14 @@ Objects {
     }
   }
   ParentId: 17741332394134683309
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Textbox"
+      ObjectReference {
+        SelfId: 17362281617240475621
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -143,14 +151,14 @@ Objects {
       }
     }
     Text {
-      Label: "Close this awful window with the \'H\' key. YAY! howtoplay.jpg!"
+      Label: "Howtoplay.jpg"
       Color {
         R: 1
         G: 1
         B: 1
         A: 1
       }
-      Size: 48
+      Size: 36
       Justification {
         Value: "mc:etextjustify:left"
       }

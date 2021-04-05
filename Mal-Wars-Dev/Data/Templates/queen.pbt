@@ -25250,7 +25250,7 @@ Assets {
           }
           Rotation {
             Yaw: 2.10557155e-05
-            Roll: -37.0979385
+            Roll: -37.0979309
           }
           Scale {
             X: 1

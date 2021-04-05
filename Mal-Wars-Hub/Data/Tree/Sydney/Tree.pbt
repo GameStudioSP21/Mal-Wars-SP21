@@ -1,6 +1,38 @@
 Name: "Sydney"
 RootId: 4497641434065555435
 Objects {
+  Id: 17144858557130879146
+  Name: "PlayerJail"
+  Transform {
+    Location {
+      X: -4254.70898
+      Y: 923.162476
+      Z: 900.088135
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4497641434065555435
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "PlayerJail"
+  }
+}
+Objects {
   Id: 15610485135178835262
   Name: "ServerHubMenu"
   Transform {
@@ -1188,6 +1220,21 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: 2.39056517e-05
+          }
+        }
+        Overrides {
+          Name: "HoveredColor"
+          Color {
+            R: 0.01
+            G: 0.01
+            B: 0.01
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ButtonColor"
+          Color {
+            A: 1
           }
         }
       }
