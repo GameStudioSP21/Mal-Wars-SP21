@@ -7,7 +7,7 @@ Assets {
       RootId: 16588727637456682486
       Objects {
         Id: 16588727637456682486
-        Name: "Tesla Turret 1 "
+        Name: "Tesla Turret 1"
         Transform {
           Scale {
             X: 1
@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 14812255166109247064
+        ParentId: 4781671109827199097
         ChildIds: 7631846703603150774
         UnregisteredParameters {
           Overrides {
@@ -33,7 +33,7 @@ Assets {
           Overrides {
             Name: "cs:Muzzle"
             ObjectReference {
-              SelfId: 13847393222684210339
+              SubObjectId: 6351346716700399678
             }
           }
         }
@@ -66,7 +66,6 @@ Assets {
           }
         }
         ParentId: 16588727637456682486
-        ChildIds: 14678015911563294590
         ChildIds: 4600516027675776148
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -78,68 +77,6 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
-        }
-      }
-      Objects {
-        Id: 14678015911563294590
-        Name: "SlideAction"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.833333313
-            Y: 0.833333313
-            Z: 0.833333313
-          }
-        }
-        ParentId: 7631846703603150774
-        UnregisteredParameters {
-          Overrides {
-            Name: "cs:Turret_root"
-            ObjectReference {
-              SubObjectId: 16588727637456682486
-            }
-          }
-          Overrides {
-            Name: "cs:Ease3D"
-            AssetReference {
-              Id: 11698430162959436393
-            }
-          }
-          Overrides {
-            Name: "cs:Barrel"
-            ObjectReference {
-              SelfId: 7755201907038293989
-            }
-          }
-          Overrides {
-            Name: "cs:FX"
-            AssetReference {
-              Id: 898550371987577328
-            }
-          }
-          Overrides {
-            Name: "cs:Pivot"
-            ObjectReference {
-              SubObjectId: 11156446955392203505
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 14467293000563951231
-          }
         }
       }
       Objects {
@@ -220,7 +157,6 @@ Assets {
         }
         ParentId: 16233965068532834095
         ChildIds: 6230834833202877239
-        ChildIds: 11156446955392203505
         ChildIds: 4440443708050584736
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -254,6 +190,7 @@ Assets {
         ParentId: 17791715467855742524
         ChildIds: 3187338143588745695
         ChildIds: 16850831500418566619
+        ChildIds: 6351346716700399678
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -425,7 +362,7 @@ Assets {
         ChildIds: 7174205372847892408
         ChildIds: 10011239012228925058
         ChildIds: 4461320260611038599
-        ChildIds: 18024581851700815525
+        ChildIds: 14254520594824484825
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1796,13 +1733,13 @@ Assets {
         }
       }
       Objects {
-        Id: 18024581851700815525
+        Id: 14254520594824484825
         Name: "Body"
         Transform {
           Location {
-            X: -4.16666651
-            Y: 3.08349609
-            Z: -5
+            X: -26.666666
+            Y: -26.7529297
+            Z: -195.714691
           }
           Rotation {
           }
@@ -1827,7 +1764,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Folder {
-          IsGroup: true
+          IsFilePartition: true
         }
       }
       Objects {
@@ -1835,14 +1772,14 @@ Assets {
         Name: "Military Tank Modern Mantlet 01"
         Transform {
           Location {
-            X: -15
-            Y: -2
-            Z: 40
+            X: 12
+            Y: 33.8037109
+            Z: 268.857666
           }
           Rotation {
             Pitch: 90
-            Yaw: -27.9383545
-            Roll: -27.938324
+            Yaw: -46.6861305
+            Roll: -46.6860962
           }
           Scale {
             X: 0.200000748
@@ -1850,7 +1787,7 @@ Assets {
             Z: 0.6
           }
         }
-        ParentId: 18024581851700815525
+        ParentId: 14254520594824484825
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
@@ -1892,14 +1829,14 @@ Assets {
         Name: "Military Tank Modern Mantlet 01"
         Transform {
           Location {
-            X: -15
-            Y: -2
-            Z: 5
+            X: 12
+            Y: 33.8037109
+            Z: 233.857651
           }
           Rotation {
             Pitch: -90
-            Yaw: 3.4150944e-06
-            Roll: -179.999985
+            Yaw: -2.73207552e-05
+            Roll: -179.999924
           }
           Scale {
             X: 0.200000748
@@ -1907,7 +1844,7 @@ Assets {
             Z: 0.6
           }
         }
-        ParentId: 18024581851700815525
+        ParentId: 14254520594824484825
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
@@ -1949,21 +1886,22 @@ Assets {
         Name: "Sci-fi Console Leg 02"
         Transform {
           Location {
-            X: -72
-            Y: -1.80371094
-            Z: 45.0002441
+            X: -45
+            Y: 34
+            Z: 273.85791
           }
           Rotation {
-            Pitch: 180
-            Yaw: 90
+            Pitch: -1.36603776e-05
+            Yaw: -89.9999542
+            Roll: -179.999985
           }
           Scale {
             X: 2.10000014
             Y: 1.2
-            Z: 0.8
+            Z: 0.800000072
           }
         }
-        ParentId: 18024581851700815525
+        ParentId: 14254520594824484825
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:color"
@@ -2023,8 +1961,9 @@ Assets {
         Name: "Urban Parking Meter "
         Transform {
           Location {
-            X: 84
-            Z: 52
+            X: 111
+            Y: 35.8037109
+            Z: 280.857666
           }
           Rotation {
             Pitch: 6.83018879e-06
@@ -2037,7 +1976,7 @@ Assets {
             Z: 1.12576878
           }
         }
-        ParentId: 18024581851700815525
+        ParentId: 14254520594824484825
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
@@ -2093,12 +2032,13 @@ Assets {
         }
       }
       Objects {
-        Id: 11156446955392203505
-        Name: "SpawnPivot"
+        Id: 6351346716700399678
+        Name: "Muzzle"
         Transform {
           Location {
-            X: -178.234863
-            Z: 91.6014099
+            X: 146.173904
+            Y: 2.36618042
+            Z: 27.7258797
           }
           Rotation {
           }
@@ -2108,7 +2048,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17791715467855742524
+        ParentId: 6230834833202877239
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2119,7 +2059,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Folder {
-          IsGroup: true
+          IsFilePartition: true
         }
       }
       Objects {
@@ -2504,7 +2444,7 @@ Assets {
           Location {
             X: -5.10546875
             Y: 3.44140625
-            Z: 289.997559
+            Z: 289.997558
           }
           Rotation {
             Pitch: -90
