@@ -49,7 +49,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "40 ReVr"
+    FilePartitionName: "40 ReVr_24"
   }
 }
 Objects {
@@ -101,7 +101,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "20 ReAd"
+    FilePartitionName: "20 ReAd_24"
   }
 }
 Objects {
@@ -201,7 +201,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "40 ReVr_1"
+    FilePartitionName: "40 ReVr_25"
   }
 }
 Objects {

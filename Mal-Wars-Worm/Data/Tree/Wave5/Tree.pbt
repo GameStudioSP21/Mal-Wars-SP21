@@ -45,7 +45,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "1 GrWo"
+    FilePartitionName: "1 GrWo_12"
   }
 }
 Objects {
@@ -189,7 +189,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "1 GrWo_2"
+    FilePartitionName: "1 GrWo_13"
   }
 }
 Objects {
@@ -241,7 +241,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "40 ReVr_2"
+    FilePartitionName: "40 ReVr_26"
   }
 }
 Objects {
@@ -293,6 +293,6 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "20 ReAd_1"
+    FilePartitionName: "20 ReAd_25"
   }
 }

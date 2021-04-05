@@ -49,6 +49,6 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "1 ReWo"
+    FilePartitionName: "1 ReWo_11"
   }
 }

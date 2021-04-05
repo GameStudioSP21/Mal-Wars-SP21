@@ -1,4 +1,4 @@
-﻿local TowerDatabase = require(script:GetCustomProperty("TowerDatabase"))
+local TowerDatabase = require(script:GetCustomProperty("TowerDatabase"))
 local BoardDatabase = require(script:GetCustomProperty("BoardDatabase"))
 local Inventory = require(script:GetCustomProperty("Inventory"))
 
@@ -21,19 +21,15 @@ local function InitalizeServerEvents()
     local GameManager = require(script:GetCustomProperty("GameManager"))
 
     -- Place Tower
-    Events.ConnectForPlayer("PT",function(_,player,id,x,y,z)
-        print("[Server] Received PLACE from:",player.name,id," ",x," ",y," ",z)
-
+    Events.ConnectForPlayer("PT",function(sendingPlayer,player,id,position)
+        print("[Server] Received PLACE from:",sendingPlayer,player.name,id,position)       
         -- Current board the player is playing on.
         local board = player.serverUserData.activeBoard
         local tower = TowerDatabase:NewTowerByID(id)
-        local pos = Vector3.New(x,y,z)
-        
-        tower:SetOwner(player)
-        tower:SetBoard(board)
-        board:AddTower(tower,pos,true) -- Networked function don't repeat
-        Events.BroadcastToAllPlayers("PT",tower:GetOwner(),tower:GetID(),pos.x,pos.y,pos.z)
-    end)
+        tower:SetOwner(player) 
+        board:AddTower(tower,position,true) -- Networked function don't repeat
+        Events.BroadcastToAllPlayers("PT",tower:GetOwner(),tower:GetID(),position)
+	end)
 
     -- TODO: Upgrade Tower
     Events.ConnectForPlayer("UT",function(_,player,x,y,z)
@@ -116,19 +112,14 @@ local function InitalizeClientEvents()
     -- TODO: Error running Lua task: [9EA276B61232DBD7] TowerDefenders_Replicator:42: stack index 1, expected string, received nil: (bad argument into '(...)(string)')
     -- local GameManager = require(script:GetCustomProperty("GameManager"))
 
-    Events.Connect("PT",function(player,id,x,y,z)
-        print("[Client] received PLACE from.",player.name,id,x,y,z)
-
+    Events.Connect("PT",function(player,id,position)
+        print("[Client] received PLACE from.",player.name,id,position)
         local LOCAL_PLAYER = Game.GetLocalPlayer()
         assert(player.clientUserData.activeBoard, string.format("%s tried to set down a tower where they have no active board assigned to them.",player.name))
-
         local board = LOCAL_PLAYER.clientUserData.activeBoard
         local tower = TowerDatabase:NewTowerByID(id)
-        local pos = Vector3.New(x,y,z)
-
         tower:SetOwner(player)
-        tower:SetBoard(board)
-        board:AddTower(tower,pos,true) -- Networked function
+        board:AddTower(tower,position,true) -- Networked function
     end)
 
     -- Receive tower placed
