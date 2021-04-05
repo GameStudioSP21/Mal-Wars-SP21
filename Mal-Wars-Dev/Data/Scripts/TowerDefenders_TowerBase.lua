@@ -311,13 +311,14 @@ end
 function Tower:SwitchTargetingMode(_hasRepeated)
     self.migrate.targetingMode = TowerTargeting.GetNextMode(self:GetCurrentTargetingMode())
 
+    local worldPosition = self:GetWorldPosition()
+
     if Environment.IsClient() and not _hasRepeated then
         print("[Client] Switching targeting mode for tower:",self:GetName())
-        local worldPosition = self:GetWorldPosition()
-        Events.BroadcastToServer("STM",worldPosition.x,worldPosition.y,worldPosition.z)
+        Events.BroadcastToServer("STM",worldPosition)
     elseif Environment.IsServer() and not _hasRepeated then
         print("[Server] Switching targeting mode for tower:",self:GetName())
-        -- TODO: Make this.
+        Events.BroadcastToAllPlayers("STM",worldPosition)
     end
 end
 
@@ -325,7 +326,7 @@ end
 -- Public Virtual
 ----------------------------------------------------
 -- These methods are overridable. You may redefine these in inherited classes.
--- If you don't want one of these methods to load then redefine them in the inherited class, but leave them blank.
+-- If you don't want one of these methods to do anything then redefine them in the inherited class, but without any functionality.
 -- Refer to TowerDefenders_Sniper in project content for a good example.
 
 ----------- CLIENT -----------
@@ -358,8 +359,7 @@ end
 function Tower:PlayMuzzleEffects()
     -- Play all the effects attached to the muzzle
     for _, effect in pairs(self._muzzleEffects) do
-        
-        SoundRandomizer.SoundChange(effect, 3, -5, 5)
+        --SoundRandomizer.SoundChange(effect, 3, -5, 5)
         effect:Play()
     end
 end
@@ -462,7 +462,6 @@ function Tower:_Runtime()
 
         table.insert(self.runtimes,rotatingRuntime)
         table.insert(self.runtimes,firingRuntime)
-
     elseif Environment.IsServer() then
 
         -- Targeting
@@ -498,7 +497,6 @@ function Tower:_Runtime()
 
         table.insert(self.runtimes,targetingRuntime)
         table.insert(self.runtimes,attackingRuntime)
-
     end
 end
 

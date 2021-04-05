@@ -4,6 +4,9 @@ local TURRET_ROOT = script:GetCustomProperty("Turret_root"):WaitForObject()
 local BARRELS = script:GetCustomProperty("Barrels"):WaitForObject()
 local TURRET_HEAD = script:GetCustomProperty("Turret_head"):WaitForObject()
 
+local LEFT_BARREL_POSITION = script:GetCustomProperty("LeftBarrelPosition"):WaitForObject()
+local RIGHT_BARREL_POSITION = script:GetCustomProperty("RightBarrelPosition"):WaitForObject()
+
 -- don't forget to require this Ease3D otherwise it won't know what to do with it
 local Ease3D = require(script:GetCustomProperty("Ease3D"))
 
@@ -22,6 +25,25 @@ local initialPosition = TURRET_HEAD:GetPosition()
 
 local initialBarrelPosition = BARRELS:GetPosition()
 
+function ourTower:FireFakeProjectile(target)
+
+    local dir = (LEFT_BARREL_POSITION:GetWorldPosition() - target:GetWorldPosition() - Vector3.UP * 100)
+    local projectile = Projectile.Spawn(self:GetVisualProjectile(),LEFT_BARREL_POSITION:GetWorldPosition(), -dir)
+    local mag = dir.size
+
+    projectile.gravityScale = 0
+    projectile.speed = 3*mag
+    projectile.lifeSpan = mag/projectile.speed
+
+    local dir = (RIGHT_BARREL_POSITION:GetWorldPosition() - target:GetWorldPosition() - Vector3.UP * 100)
+    local projectile = Projectile.Spawn(self:GetVisualProjectile(),RIGHT_BARREL_POSITION:GetWorldPosition(), -dir)
+    local mag = dir.size
+
+    projectile.gravityScale = 0
+    projectile.speed = 3*mag
+    projectile.lifeSpan = mag/projectile.speed
+
+end
 
 ourTower.OnFired:Connect(function() 
 

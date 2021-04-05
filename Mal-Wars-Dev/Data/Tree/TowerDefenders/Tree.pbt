@@ -1411,12 +1411,6 @@ Objects {
   ChildIds: 16858375595258852548
   UnregisteredParameters {
     Overrides {
-      Name: "cs:TowerNameBackground"
-      ObjectReference {
-        SelfId: 519105274671793744
-      }
-    }
-    Overrides {
       Name: "cs:LowerSection"
       ObjectReference {
         SelfId: 2661313515650739046

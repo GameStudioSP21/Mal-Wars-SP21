@@ -17,9 +17,9 @@ Assets {
         }
         ParentId: 4781671109827199097
         ChildIds: 6804200232825612610
-        ChildIds: 10654290727477644567
-        ChildIds: 14909875443712856994
-        ChildIds: 16431856512435888216
+        ChildIds: 12115667352962563961
+        ChildIds: 2054112558705772452
+        ChildIds: 16545896320774995982
         UnregisteredParameters {
           Overrides {
             Name: "cs:HorizontalRotator"
@@ -37,6 +37,18 @@ Assets {
             Name: "cs:Muzzle"
             ObjectReference {
               SubObjectId: 3884702067678848293
+            }
+          }
+          Overrides {
+            Name: "cs:LeftBarrelPosition"
+            ObjectReference {
+              SubObjectId: 9849651499082728798
+            }
+          }
+          Overrides {
+            Name: "cs:RightBarrelPosition"
+            ObjectReference {
+              SubObjectId: 1608089441853255131
             }
           }
         }
@@ -1366,12 +1378,12 @@ Assets {
         ChildIds: 9849651499082728798
         ChildIds: 1608089441853255131
         ChildIds: 1243166680564342104
-        ChildIds: 4323846507996057562
         ChildIds: 15811372923337144528
         ChildIds: 18110251998958340271
         ChildIds: 14648476876160351326
         ChildIds: 7114984703888276969
         ChildIds: 6161928281926304955
+        ChildIds: 4259974084916265530
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1554,48 +1566,12 @@ Assets {
           AudioBP {
             Pitch: -376.063965
             Volume: 1.23958158
-            Falloff: 4000
-            Radius: 750
+            Falloff: 5000
+            Radius: 3500
             EnableOcclusion: true
             IsSpatializationEnabled: true
             IsAttenuationEnabled: true
           }
-        }
-      }
-      Objects {
-        Id: 4323846507996057562
-        Name: "Gunshot Punchy Sweetener 01 SFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 3884702067678848293
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        AudioInstance {
-          AudioAsset {
-            Id: 11295300757928505143
-          }
-          Volume: 1
-          Falloff: 4000
-          Radius: 750
-          EnableOcclusion: true
-          IsSpatializationEnabled: true
-          IsAttenuationEnabled: true
         }
       }
       Objects {
@@ -1627,10 +1603,9 @@ Assets {
             Id: 17772688341795286021
           }
           Pitch: -161.48877
-          Volume: 1
-          Falloff: 4000
-          Radius: 750
-          EnableOcclusion: true
+          Volume: 2
+          Falloff: 3000
+          Radius: 3500
           IsSpatializationEnabled: true
           IsAttenuationEnabled: true
         }
@@ -1681,11 +1656,10 @@ Assets {
           TeamSettings {
           }
           Vfx {
-            AutoPlay: true
           }
         }
         Relevance {
-          Value: "mc:eproxyrelevance:medium"
+          Value: "mc:eproxyrelevance:low"
         }
       }
       Objects {
@@ -1734,11 +1708,10 @@ Assets {
           TeamSettings {
           }
           Vfx {
-            AutoPlay: true
           }
         }
         Relevance {
-          Value: "mc:eproxyrelevance:medium"
+          Value: "mc:eproxyrelevance:low"
         }
       }
       Objects {
@@ -1787,11 +1760,10 @@ Assets {
           TeamSettings {
           }
           Vfx {
-            AutoPlay: true
           }
         }
         Relevance {
-          Value: "mc:eproxyrelevance:medium"
+          Value: "mc:eproxyrelevance:low"
         }
       }
       Objects {
@@ -1840,11 +1812,45 @@ Assets {
           TeamSettings {
           }
           Vfx {
-            AutoPlay: true
           }
         }
         Relevance {
-          Value: "mc:eproxyrelevance:medium"
+          Value: "mc:eproxyrelevance:low"
+        }
+      }
+      Objects {
+        Id: 4259974084916265530
+        Name: "Gunshot Distant Boom Sweetener 04 SFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 3884702067678848293
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 12199026820159613349
+          }
+          Volume: 1.35295916
+          Falloff: -1
+          Radius: -1
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
         }
       }
       Objects {
@@ -2152,6 +2158,18 @@ Assets {
               Id: 11698430162959436393
             }
           }
+          Overrides {
+            Name: "cs:LeftBarrelPosition"
+            ObjectReference {
+              SubObjectId: 9849651499082728798
+            }
+          }
+          Overrides {
+            Name: "cs:RightBarrelPosition"
+            ObjectReference {
+              SubObjectId: 1608089441853255131
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2169,89 +2187,13 @@ Assets {
         }
       }
       Objects {
-        Id: 10654290727477644567
-        Name: "Machine Servo Turret Movement Stop 01 SFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 16602805628744511675
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        AudioInstance {
-          AudioAsset {
-            Id: 769007112956482022
-          }
-          AutoPlay: true
-          Transient: true
-          Pitch: -631.243408
-          Volume: 2.08646464
-          Falloff: -1
-          Radius: -1
-          EnableOcclusion: true
-          IsSpatializationEnabled: true
-          IsAttenuationEnabled: true
-        }
-      }
-      Objects {
-        Id: 14909875443712856994
-        Name: "Pneumatic Impact Air Drill 01 SFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 16602805628744511675
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        AudioInstance {
-          AudioAsset {
-            Id: 6401498020918617889
-          }
-          AutoPlay: true
-          Transient: true
-          Volume: 1.58333898
-          Falloff: -1
-          Radius: -1
-          EnableOcclusion: true
-          IsSpatializationEnabled: true
-          IsAttenuationEnabled: true
-        }
-      }
-      Objects {
-        Id: 16431856512435888216
+        Id: 12115667352962563961
         Name: "Steam Pressure Release Short 01 SFX"
         Transform {
           Location {
+            X: 85.3481445
+            Y: 417.867676
+            Z: -0.162109375
           }
           Rotation {
           }
@@ -2278,10 +2220,93 @@ Assets {
           }
           AutoPlay: true
           Transient: true
-          Volume: 1
+          Volume: 2.32617044
           Falloff: -1
-          Radius: -1
-          EnableOcclusion: true
+          Radius: 8000
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
+        }
+      }
+      Objects {
+        Id: 2054112558705772452
+        Name: "Machine Servo Turret Movement Stop 01 SFX"
+        Transform {
+          Location {
+            X: 85.3481445
+            Y: 417.867676
+            Z: -0.162109375
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16602805628744511675
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 769007112956482022
+          }
+          AutoPlay: true
+          Transient: true
+          Pitch: -366.675903
+          Volume: 2.42861366
+          Falloff: -1
+          Radius: 8000
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
+        }
+      }
+      Objects {
+        Id: 16545896320774995982
+        Name: "Pneumatic Impact Air Drill 01 SFX"
+        Transform {
+          Location {
+            X: 85.3481445
+            Y: 417.867676
+            Z: -0.162109375
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16602805628744511675
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 6401498020918617889
+          }
+          AutoPlay: true
+          Transient: true
+          Pitch: -633.02832
+          Volume: 2.25787473
+          Falloff: -1
+          Radius: 8000
           IsSpatializationEnabled: true
           IsAttenuationEnabled: true
         }
@@ -2378,15 +2403,6 @@ Assets {
       }
     }
     Assets {
-      Id: 11295300757928505143
-      Name: "Gunshot Punchy Sweetener 01 SFX"
-      PlatformAssetType: 7
-      PrimaryAsset {
-        AssetType: "AudioAssetRef"
-        AssetId: "sfx_gunsweetener_punchy_01_Cue_ref"
-      }
-    }
-    Assets {
       Id: 17772688341795286021
       Name: "Gunshot Boom Sweetener 02 SFX"
       PlatformAssetType: 7
@@ -2402,6 +2418,15 @@ Assets {
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
         AssetId: "fxbp_generic_muzzleflash"
+      }
+    }
+    Assets {
+      Id: 12199026820159613349
+      Name: "Gunshot Distant Boom Sweetener 04 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_gun_distance_boom_sweetener_01d_Cue_ref"
       }
     }
     Assets {
@@ -2423,6 +2448,15 @@ Assets {
       }
     }
     Assets {
+      Id: 7115571218229221495
+      Name: "Steam Pressure Release Short 01 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_steam_pressure_release_medium_01a_Cue_ref"
+      }
+    }
+    Assets {
       Id: 769007112956482022
       Name: "Machine Servo Turret Movement Stop 01 SFX"
       PlatformAssetType: 7
@@ -2438,15 +2472,6 @@ Assets {
       PrimaryAsset {
         AssetType: "AudioAssetRef"
         AssetId: "sfx_air_pneumatic_impact_drill_repair_01_Cue_ref"
-      }
-    }
-    Assets {
-      Id: 7115571218229221495
-      Name: "Steam Pressure Release Short 01 SFX"
-      PlatformAssetType: 7
-      PrimaryAsset {
-        AssetType: "AudioAssetRef"
-        AssetId: "sfx_steam_pressure_release_medium_01a_Cue_ref"
       }
     }
     PrimaryAssetId {

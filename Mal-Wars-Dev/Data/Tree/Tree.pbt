@@ -21,6 +21,10 @@ Objects {
   ChildIds: 10722931758594424760
   ChildIds: 15885606419812222058
   ChildIds: 2880498746515435782
+  ChildIds: 9844716720656760528
+  ChildIds: 3094350560157085556
+  ChildIds: 16278386477669664666
+  ChildIds: 9420429351090918493
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -33,6 +37,189 @@ Objects {
     Value: "mc:ecollisionsetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 9420429351090918493
+  Name: "LaserTurret_Upgrade4"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14160675516524522327
+      value {
+        Overrides {
+          Name: "Name"
+          String: "LaserTurret_Upgrade4"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3000
+            Y: -350
+            Z: 100
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 893641266006266770
+    }
+  }
+}
+Objects {
+  Id: 16278386477669664666
+  Name: "LaserTurret_Upgrade3"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5580396014439778102
+      value {
+        Overrides {
+          Name: "Name"
+          String: "LaserTurret_Upgrade3"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3085.53735
+            Y: 205.162521
+            Z: 78.2636108
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10476688936982406841
+    }
+  }
+}
+Objects {
+  Id: 3094350560157085556
+  Name: "LaserTurret_Upgrade2"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16602805628744511675
+      value {
+        Overrides {
+          Name: "Name"
+          String: "LaserTurret_Upgrade2"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3045.98706
+            Y: 680.977295
+            Z: 78.2636108
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12393737639438725470
+    }
+  }
+}
+Objects {
+  Id: 9844716720656760528
+  Name: "LaserTurret"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 248947022546621954
+      value {
+        Overrides {
+          Name: "Name"
+          String: "LaserTurret"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2960.63892
+            Y: 1098.84497
+            Z: 78.1015
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6099444313679774871
+    }
   }
 }
 Objects {

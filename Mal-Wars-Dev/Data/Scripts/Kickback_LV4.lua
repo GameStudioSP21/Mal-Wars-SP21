@@ -24,7 +24,36 @@ local initialMount_R_Position = MOUNT_R:GetPosition()
 local initialBarrels_L_Position = BARRELS_L:GetPosition()
 local initialBarrels_R_Position = BARRELS_R:GetPosition()
 
+local RIGHT_BARREL_FOLDER = script:GetCustomProperty("RightBarrelFolder"):WaitForObject()
+local LEFT_BARREL_FOLDER = script:GetCustomProperty("LeftBarrelFolder"):WaitForObject()
+
 local leftBarrelFired = false
+
+function ourTower:FireFakeProjectile(target)
+    if not leftBarrelFired then
+        for _, muzzleVFX in pairs(LEFT_BARREL_FOLDER:GetChildren()) do
+            local dir = (muzzleVFX:GetWorldPosition() - target:GetWorldPosition() - Vector3.UP * 100)
+            local projectile = Projectile.Spawn(self:GetVisualProjectile(),muzzleVFX:GetWorldPosition(), -dir)
+            local mag = dir.size
+        
+            projectile.gravityScale = 0
+            projectile.speed = 3*mag
+            projectile.lifeSpan = mag/projectile.speed
+            muzzleVFX:Play()
+        end
+    else
+        for _, muzzleVFX in pairs(RIGHT_BARREL_FOLDER:GetChildren()) do
+            local dir = (muzzleVFX:GetWorldPosition() - target:GetWorldPosition() - Vector3.UP * 100)
+            local projectile = Projectile.Spawn(self:GetVisualProjectile(),muzzleVFX:GetWorldPosition(), -dir)
+            local mag = dir.size
+        
+            projectile.gravityScale = 0
+            projectile.speed = 3*mag
+            projectile.lifeSpan = mag/projectile.speed
+            muzzleVFX:Play()
+        end
+    end
+end
 
 ourTower.OnFired:Connect(function()
 

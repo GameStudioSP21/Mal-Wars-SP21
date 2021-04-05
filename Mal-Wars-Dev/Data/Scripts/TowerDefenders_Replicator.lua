@@ -161,6 +161,21 @@ local function InitalizeClientEvents()
         board:SellTower(tower,true)
     end)
 
+    -----------------------------------------------------
+    -- Tower
+    -----------------------------------------------------
+
+    Events.ConnectForPlayer("STM",function(player,position)
+        print("[Server] Received STM from:",player.name,position)
+        -- Current board the player is playing on.
+        local board = player.serverUserData.activeBoard
+        local tower = board:GetTowerFromPosition(position)
+        tower:SwitchTargetingMode(true)
+
+        -- Replicate to all clients
+        Events.BroadcastToAllPlayers("STM",tower:GetOwner(),position)
+    end)
+
 
     
 end

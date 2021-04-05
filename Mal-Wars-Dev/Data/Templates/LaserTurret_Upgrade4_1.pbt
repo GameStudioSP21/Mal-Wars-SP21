@@ -20,6 +20,7 @@ Assets {
         ChildIds: 1573761448847815694
         ChildIds: 13458765532357561042
         ChildIds: 5272359538147948509
+        ChildIds: 8478513909412283610
         UnregisteredParameters {
           Overrides {
             Name: "cs:HorizontalRotator"
@@ -145,6 +146,18 @@ Assets {
             Name: "cs:Ease3D"
             AssetReference {
               Id: 11698430162959436393
+            }
+          }
+          Overrides {
+            Name: "cs:RightBarrelFolder"
+            ObjectReference {
+              SubObjectId: 16630084217230963335
+            }
+          }
+          Overrides {
+            Name: "cs:LeftBarrelFolder"
+            ObjectReference {
+              SubObjectId: 5219453671669155060
             }
           }
         }
@@ -3887,6 +3900,8 @@ Assets {
         }
         ParentId: 6909054787634344972
         ChildIds: 7714570578994415214
+        ChildIds: 16630084217230963335
+        ChildIds: 5219453671669155060
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3918,9 +3933,9 @@ Assets {
           }
         }
         ParentId: 13826206685940241843
-        ChildIds: 6083790704906799272
-        ChildIds: 13456612677181832195
+        ChildIds: 10638771967591293447
         ChildIds: 14614221482955964184
+        ChildIds: 2985569075144751058
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3935,77 +3950,17 @@ Assets {
         }
       }
       Objects {
-        Id: 6083790704906799272
-        Name: "Advanced Muzzleflash VFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -90
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 7714570578994415214
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Emissive Boost"
-            Float: 14.8698549
-          }
-          Overrides {
-            Name: "bp:Particle Size Multiplier"
-            Float: 2.13276052
-          }
-          Overrides {
-            Name: "bp:Number Of Flares"
-            Int: 5
-          }
-          Overrides {
-            Name: "bp:Color"
-            Color {
-              G: 0.960000038
-              B: 0.0254306048
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 3125335314262154541
-          }
-          TeamSettings {
-          }
-          Vfx {
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-      }
-      Objects {
-        Id: 13456612677181832195
-        Name: "Gunshot Laser Pistol Set 01 SFX"
+        Id: 10638771967591293447
+        Name: "Gunshot Laser Rifle Set 01 SFX"
         Transform {
           Location {
           }
           Rotation {
           }
           Scale {
-            X: 2
-            Y: 2
-            Z: 2
+            X: 1.00000012
+            Y: 1.00000012
+            Z: 1.00000012
           }
         }
         ParentId: 7714570578994415214
@@ -4013,7 +3968,7 @@ Assets {
           Overrides {
             Name: "bp:Type"
             Enum {
-              Value: "mc:esfx_gunshot_laserpistol_01:10"
+              Value: "mc:esfx_gunshot_laserrifle_01:16"
             }
           }
         }
@@ -4028,14 +3983,14 @@ Assets {
         }
         Blueprint {
           BlueprintAsset {
-            Id: 8059305762076781460
+            Id: 13330580655975707345
           }
           TeamSettings {
           }
           AudioBP {
             Volume: 1
-            Falloff: 4000
-            Radius: 750
+            Falloff: 3600
+            Radius: 4500
             EnableOcclusion: true
             IsSpatializationEnabled: true
             IsAttenuationEnabled: true
@@ -4047,6 +4002,8 @@ Assets {
         Name: "Gunshot Laser Rifle Set 01 SFX"
         Transform {
           Location {
+            X: -112.845848
+            Y: -121.41819
           }
           Rotation {
           }
@@ -4081,6 +4038,7 @@ Assets {
           TeamSettings {
           }
           AudioBP {
+            Pitch: -1083.77881
             Volume: 1
             Falloff: 4000
             Radius: 750
@@ -4088,6 +4046,363 @@ Assets {
             IsSpatializationEnabled: true
             IsAttenuationEnabled: true
           }
+        }
+      }
+      Objects {
+        Id: 2985569075144751058
+        Name: "Cannon Distant Shot Muffled 01 SFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 7714570578994415214
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 6985827187996829828
+          }
+          Volume: 1
+          Falloff: 8000
+          Radius: 4000
+          EnableOcclusion: true
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
+        }
+      }
+      Objects {
+        Id: 16630084217230963335
+        Name: "Right"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13826206685940241843
+        ChildIds: 6083790704906799272
+        ChildIds: 9082829706552058378
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          IsFilePartition: true
+        }
+      }
+      Objects {
+        Id: 6083790704906799272
+        Name: "Right_Barrel"
+        Transform {
+          Location {
+            X: 764.868164
+            Y: 383.682434
+            Z: 167.609619
+          }
+          Rotation {
+            Pitch: -90
+          }
+          Scale {
+            X: 5.81989384
+            Y: 5.81989384
+            Z: 5.81989384
+          }
+        }
+        ParentId: 16630084217230963335
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 14.8698549
+          }
+          Overrides {
+            Name: "bp:Particle Size Multiplier"
+            Float: 2.13276052
+          }
+          Overrides {
+            Name: "bp:Number Of Flares"
+            Int: 5
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 1
+              G: 0.0899999738
+              B: 0.0899999738
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 3125335314262154541
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 9082829706552058378
+        Name: "Right_Barrel"
+        Transform {
+          Location {
+            X: 759.075439
+            Y: 594.981323
+            Z: -155.763489
+          }
+          Rotation {
+            Pitch: -90
+            Yaw: -13.2626953
+            Roll: 13.2626858
+          }
+          Scale {
+            X: 5.81989336
+            Y: 5.81989336
+            Z: 5.81989336
+          }
+        }
+        ParentId: 16630084217230963335
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 14.8698549
+          }
+          Overrides {
+            Name: "bp:Particle Size Multiplier"
+            Float: 2.13276052
+          }
+          Overrides {
+            Name: "bp:Number Of Flares"
+            Int: 5
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 1
+              G: 0.0899999738
+              B: 0.0899999738
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 3125335314262154541
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 5219453671669155060
+        Name: "Left"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Yaw: 1.067217e-07
+          }
+          Scale {
+            X: 0.99999994
+            Y: 0.99999994
+            Z: 0.99999994
+          }
+        }
+        ParentId: 13826206685940241843
+        ChildIds: 3927403714381549859
+        ChildIds: 12170866167217024871
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          IsFilePartition: true
+        }
+      }
+      Objects {
+        Id: 3927403714381549859
+        Name: "Left_Barrel"
+        Transform {
+          Location {
+            X: 783.022644
+            Y: -278.527405
+            Z: 163.513596
+          }
+          Rotation {
+            Pitch: -90
+          }
+          Scale {
+            X: 5.81989384
+            Y: 5.81989384
+            Z: 5.81989384
+          }
+        }
+        ParentId: 5219453671669155060
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 14.8698549
+          }
+          Overrides {
+            Name: "bp:Particle Size Multiplier"
+            Float: 2.13276052
+          }
+          Overrides {
+            Name: "bp:Number Of Flares"
+            Int: 5
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 1
+              G: 0.0899999738
+              B: 0.0899999738
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 3125335314262154541
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 12170866167217024871
+        Name: "Left_Barrel"
+        Transform {
+          Location {
+            X: 788.917725
+            Y: -493.558716
+            Z: -146.0858
+          }
+          Rotation {
+            Pitch: -90
+            Yaw: -13.2626953
+            Roll: 13.2626858
+          }
+          Scale {
+            X: 5.81989336
+            Y: 5.81989336
+            Z: 5.81989336
+          }
+        }
+        ParentId: 5219453671669155060
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 14.8698549
+          }
+          Overrides {
+            Name: "bp:Particle Size Multiplier"
+            Float: 2.13276052
+          }
+          Overrides {
+            Name: "bp:Number Of Flares"
+            Int: 5
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 1
+              G: 0.0899999738
+              B: 0.0899999738
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 3125335314262154541
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -4474,6 +4789,42 @@ Assets {
           IsAttenuationEnabled: true
         }
       }
+      Objects {
+        Id: 8478513909412283610
+        Name: "Sci-fi Mech Robotic Synth Laser Growl Activation 01 SFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 14160675516524522327
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 399118777421206929
+          }
+          AutoPlay: true
+          Volume: 1.52369797
+          Falloff: -1
+          Radius: 8000
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
+        }
+      }
     }
     Assets {
       Id: 13019053296382012663
@@ -4638,30 +4989,30 @@ Assets {
       }
     }
     Assets {
-      Id: 3125335314262154541
-      Name: "Advanced Muzzleflash VFX"
-      PlatformAssetType: 8
-      PrimaryAsset {
-        AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_muzzleflash_alt"
-      }
-    }
-    Assets {
-      Id: 8059305762076781460
-      Name: "Gunshot Laser Pistol Set 01 SFX"
-      PlatformAssetType: 10
-      PrimaryAsset {
-        AssetType: "AudioBlueprintAssetRef"
-        AssetId: "sfxabp_gunshot_laser_pistol_ref"
-      }
-    }
-    Assets {
       Id: 13330580655975707345
       Name: "Gunshot Laser Rifle Set 01 SFX"
       PlatformAssetType: 10
       PrimaryAsset {
         AssetType: "AudioBlueprintAssetRef"
         AssetId: "sfxabp_gunshot_laserrifle_ref"
+      }
+    }
+    Assets {
+      Id: 6985827187996829828
+      Name: "Cannon Distant Shot Muffled 01 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_cannon_distant_shot_muffled_01_Cue_ref"
+      }
+    }
+    Assets {
+      Id: 3125335314262154541
+      Name: "Advanced Muzzleflash VFX"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_muzzleflash_alt"
       }
     }
     Assets {
@@ -4698,6 +5049,15 @@ Assets {
       PrimaryAsset {
         AssetType: "AudioAssetRef"
         AssetId: "sfx_steam_pressure_release_medium_01a_Cue_ref"
+      }
+    }
+    Assets {
+      Id: 399118777421206929
+      Name: "Sci-fi Mech Robotic Synth Laser Growl Activation 01 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_scifi_mech_robotic_synth_laser_growl_activation_01_Cue_ref"
       }
     }
     PrimaryAssetId {
