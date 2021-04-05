@@ -165,7 +165,7 @@ local function InitalizeClientEvents()
     -- Tower
     -----------------------------------------------------
 
-    Events.ConnectForPlayer("STM",function(player,position)
+    Events.Connect("STM",function(player,position)
         print("[Server] Received STM from:",player.name,position)
         -- Current board the player is playing on.
         local board = player.serverUserData.activeBoard
