@@ -34,8 +34,9 @@ Objects {
   Name: "PlayerJail"
   Transform {
     Location {
-      X: -16610
-      Z: -2520
+      X: -16000
+      Y: 200
+      Z: -900
     }
     Rotation {
     }
