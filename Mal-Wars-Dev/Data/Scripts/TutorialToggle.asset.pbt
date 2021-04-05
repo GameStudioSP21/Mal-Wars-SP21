@@ -10,6 +10,11 @@ Assets {
           SelfId: 17741332394134683309
         }
       }
+      Overrides {
+        Name: "cs:Textbox"
+        ObjectReference {
+        }
+      }
     }
   }
   SerializationVersion: 78

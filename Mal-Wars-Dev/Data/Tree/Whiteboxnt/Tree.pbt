@@ -55,6 +55,30 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 5106795660996452615
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -434.066406
+            Y: -459.918518
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14493440819775923909
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -632.98877
+            Y: -625.364136
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 18235072440000262899
       value {
         Overrides {
@@ -64,15 +88,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 6635
+            X: 6639.26416
             Y: 2935
-            Z: 68.8691406
+            Z: 50
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -89.9999924
+            Yaw: -90
           }
         }
         Overrides {
@@ -13303,7 +13327,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:IsBuildable"
-      Bool: false
+      Bool: true
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -21648,6 +21672,19 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 12234089294666121479
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1249.92957
+            Y: 1.2109375
+            Z: 66.9706421
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 5103973752602277390
     }
@@ -23580,7 +23617,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:IsBuildable"
-      Bool: false
+      Bool: true
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"

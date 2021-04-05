@@ -15,7 +15,6 @@ Objects {
     }
   }
   ChildIds: 7367735074338159388
-  ChildIds: 16813558807825262224
   ChildIds: 14713340454944924967
   ChildIds: 10005074784157121906
   ChildIds: 8518141907256309786
@@ -733,38 +732,6 @@ Objects {
   }
 }
 Objects {
-  Id: 16813558807825262224
-  Name: "Spawn Point"
-  Transform {
-    Location {
-      Z: 115
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  PlayerSpawnPoint {
-    TeamInt: 1
-    PlayerScaleMultiplier: 1
-  }
-}
-Objects {
   Id: 7367735074338159388
   Name: "Game Settings"
   Transform {
@@ -797,6 +764,7 @@ Objects {
       }
       ChatSettings {
         ChatMode {
+          Value: "mc:echatmode:none"
         }
         ChatPosition {
           X: 40
@@ -806,7 +774,7 @@ Objects {
           Y: 400
         }
         ChatHorizontalAlignment {
-          Value: "mc:ecorehorizontalalign:left"
+          Value: "mc:ecorehorizontalalign:right"
         }
         ChatVerticalAlignment {
           Value: "mc:ecorehorizontalalign:center"
