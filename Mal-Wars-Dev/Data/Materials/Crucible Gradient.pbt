@@ -2,7 +2,7 @@ Assets {
   Id: 12253430637553587463
   Name: "Crucible Gradient"
   PlatformAssetType: 13
-  SerializationVersion: 78
+  SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 2251351275617310618
     ParameterOverrides {

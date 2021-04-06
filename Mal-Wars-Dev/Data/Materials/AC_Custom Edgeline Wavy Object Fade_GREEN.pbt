@@ -2,7 +2,7 @@ Assets {
   Id: 676387560562610978
   Name: "AC_Custom Edgeline Wavy Object Fade_GREEN"
   PlatformAssetType: 13
-  SerializationVersion: 78
+  SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 10522222064658400397
     ParameterOverrides {

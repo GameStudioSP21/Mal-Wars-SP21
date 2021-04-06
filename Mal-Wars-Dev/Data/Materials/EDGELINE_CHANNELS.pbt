@@ -2,7 +2,7 @@ Assets {
   Id: 18242125999629608164
   Name: "EDGELINE_CHANNELS"
   PlatformAssetType: 13
-  SerializationVersion: 78
+  SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 9506035352376048182
     ParameterOverrides {

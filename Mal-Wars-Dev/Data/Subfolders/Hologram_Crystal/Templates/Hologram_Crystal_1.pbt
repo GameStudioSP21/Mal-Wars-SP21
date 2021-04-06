@@ -597,6 +597,6 @@ Assets {
   Marketplace {
     Description: "Hologram Crystal"
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
   DirectlyPublished: true
 }

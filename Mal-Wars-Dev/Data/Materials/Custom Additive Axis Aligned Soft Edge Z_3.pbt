@@ -2,7 +2,7 @@ Assets {
   Id: 340555423229411847
   Name: "ChannelClamp_Glow"
   PlatformAssetType: 13
-  SerializationVersion: 78
+  SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 8382359228586411589
     ParameterOverrides {

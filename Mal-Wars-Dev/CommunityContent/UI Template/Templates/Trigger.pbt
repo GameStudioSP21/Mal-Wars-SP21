@@ -44,6 +44,6 @@ Assets {
   Marketplace {
     Description: "UI Template"
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
   DirectlyPublished: true
 }

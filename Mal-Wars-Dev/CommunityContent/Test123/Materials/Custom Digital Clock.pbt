@@ -2,7 +2,7 @@ Assets {
   Id: 15558592243756817968
   Name: "Custom Digital Clock"
   PlatformAssetType: 13
-  SerializationVersion: 78
+  SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 5260899093705177553
     ParameterOverrides {

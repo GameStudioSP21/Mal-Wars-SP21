@@ -2,7 +2,7 @@ Assets {
   Id: 10550366113180047828
   Name: "Custom Detail 1 from Fantasy Castle Stairs 01 - 150cm Corner 02"
   PlatformAssetType: 13
-  SerializationVersion: 78
+  SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 1865970014607639422
     ParameterOverrides {

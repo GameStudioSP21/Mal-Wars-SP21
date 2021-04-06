@@ -2,7 +2,7 @@ Assets {
   Id: 4264247987628981671
   Name: "CyberPit Material"
   PlatformAssetType: 13
-  SerializationVersion: 78
+  SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 3982114982952237736
     ParameterOverrides {

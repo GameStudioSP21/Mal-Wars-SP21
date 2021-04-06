@@ -2,7 +2,7 @@ Assets {
   Id: 1196285699475120770
   Name: "Custom Base Material from Stone Wall Divider 6m"
   PlatformAssetType: 13
-  SerializationVersion: 78
+  SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 14712687955328163268
     ParameterOverrides {

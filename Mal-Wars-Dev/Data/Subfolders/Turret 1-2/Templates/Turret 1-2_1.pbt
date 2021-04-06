@@ -1386,6 +1386,6 @@ Assets {
   Marketplace {
     Description: "Level 2 fast turret"
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
   DirectlyPublished: true
 }

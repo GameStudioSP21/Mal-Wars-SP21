@@ -2,7 +2,7 @@ Assets {
   Id: 9445693321247971853
   Name: "WindowGlass"
   PlatformAssetType: 13
-  SerializationVersion: 78
+  SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 3702191406046426907
     ParameterOverrides {

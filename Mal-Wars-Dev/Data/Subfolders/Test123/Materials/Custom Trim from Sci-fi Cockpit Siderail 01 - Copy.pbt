@@ -2,7 +2,7 @@ Assets {
   Id: 14066491220946532200
   Name: "Custom Trim from Sci-fi Cockpit Siderail 01 - Copy"
   PlatformAssetType: 13
-  SerializationVersion: 78
+  SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 17805276614202994132
     ParameterOverrides {
