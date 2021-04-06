@@ -7,7 +7,7 @@ Assets {
       RootId: 15827546501766066131
       Objects {
         Id: 15827546501766066131
-        Name: "TowerDefenders_SelectorGhost"
+        Name: "TowerDefenders_UpgradeGhost"
         Transform {
           Scale {
             X: 1
@@ -39,9 +39,9 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 10
-            Y: 10
-            Z: 10
+            X: 5.71347141
+            Y: 5.71347141
+            Z: 5.71347141
           }
         }
         ParentId: 15827546501766066131
@@ -50,14 +50,14 @@ Assets {
           Overrides {
             Name: "bp:Color"
             Color {
-              G: 0.387814194
-              B: 0.960000038
+              G: 0.30503279
+              B: 0.940000057
               A: 1
             }
           }
           Overrides {
             Name: "bp:Emissive Boost"
-            Float: 1.80639791
+            Float: 0.862430394
           }
           Overrides {
             Name: "bp:Life"
@@ -213,5 +213,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
 }

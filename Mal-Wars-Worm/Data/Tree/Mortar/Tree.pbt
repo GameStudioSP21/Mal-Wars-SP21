@@ -1,7 +1,7 @@
 Name: "Mortar"
-RootId: 3043607958378933379
+RootId: 9611249147529231842
 Objects {
-  Id: 11454762506544654745
+  Id: 11635335033405997100
   Name: "MortarLv4"
   Transform {
     Location {
@@ -14,11 +14,19 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3043607958378933379
+  ParentId: 9611249147529231842
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
       String: "Ultimate Mortar"
+    }
+    Overrides {
+      Name: "cs:DisplayName"
+      String: "Mal-Mauler"
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
     }
     Overrides {
       Name: "cs:Icon"
@@ -29,35 +37,35 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 15473447320514786512
+        SelfId: 16708300395943133987
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 16555092129292573516
+        SelfId: 3206194469967215124
       }
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 600
+      Int: 500
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 90
-    }
-    Overrides {
-      Name: "cs:Speed"
-      Float: 3
+      Int: 200
     }
     Overrides {
       Name: "cs:Range"
       Float: 80
     }
     Overrides {
+      Name: "cs:Speed"
+      Float: 3
+    }
+    Overrides {
       Name: "cs:Tower"
       AssetReference {
-        Id: 8005972613852332238
+        Id: 7940338914546974360
       }
     }
     Overrides {
@@ -97,7 +105,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16079193556612530235
+  Id: 17330935715377937575
   Name: "MortarLv3"
   Transform {
     Location {
@@ -110,11 +118,19 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3043607958378933379
+  ParentId: 9611249147529231842
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
       String: "Superior Mortar"
+    }
+    Overrides {
+      Name: "cs:DisplayName"
+      String: "Mal-Mauler"
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: "An even bigger cannon for even stronger bombs."
     }
     Overrides {
       Name: "cs:Icon"
@@ -125,30 +141,30 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 15473447320514786512
+        SelfId: 16708300395943133987
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 13496367145218431849
+        SelfId: 7260010577560875529
       }
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 600
+      Int: 325
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 75
+      Int: 100
+    }
+    Overrides {
+      Name: "cs:Range"
+      Float: 60
     }
     Overrides {
       Name: "cs:Speed"
       Float: 3
-    }
-    Overrides {
-      Name: "cs:Range"
-      Float: 70
     }
     Overrides {
       Name: "cs:Tower"
@@ -177,7 +193,7 @@ Objects {
     Overrides {
       Name: "cs:NextTowerUpgrade"
       ObjectReference {
-        SelfId: 11454762506544654745
+        SelfId: 11635335033405997100
       }
     }
     Overrides {
@@ -199,7 +215,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14774224425869811379
+  Id: 14005192661235388834
   Name: "MortarLv2"
   Transform {
     Location {
@@ -212,11 +228,19 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3043607958378933379
+  ParentId: 9611249147529231842
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
       String: "Greater Mortar"
+    }
+    Overrides {
+      Name: "cs:DisplayName"
+      String: "Mal-Mauler"
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: "Bigger cannon for bigger bombs for bigger booms."
     }
     Overrides {
       Name: "cs:Icon"
@@ -227,35 +251,35 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 15473447320514786512
+        SelfId: 16708300395943133987
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 10069010683383961677
+        SelfId: 5857612874753637199
       }
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 600
+      Int: 175
     }
     Overrides {
       Name: "cs:Damage"
       Int: 50
     }
     Overrides {
+      Name: "cs:Range"
+      Float: 50
+    }
+    Overrides {
       Name: "cs:Speed"
       Float: 3
     }
     Overrides {
-      Name: "cs:Range"
-      Float: 60
-    }
-    Overrides {
       Name: "cs:Tower"
       AssetReference {
-        Id: 5285178350319429515
+        Id: 17477771493771331873
       }
     }
     Overrides {
@@ -279,7 +303,7 @@ Objects {
     Overrides {
       Name: "cs:NextTowerUpgrade"
       ObjectReference {
-        SelfId: 16079193556612530235
+        SelfId: 17330935715377937575
       }
     }
     Overrides {
@@ -301,7 +325,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14502177183950525604
+  Id: 205833136010796509
   Name: "MortarLv1"
   Transform {
     Location {
@@ -314,11 +338,19 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3043607958378933379
+  ParentId: 9611249147529231842
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
       String: "Mortar Turret"
+    }
+    Overrides {
+      Name: "cs:DisplayName"
+      String: "Mal-Mauler"
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: "Fires an explosive projectile, damaging all enemies in the explosion radius."
     }
     Overrides {
       Name: "cs:Icon"
@@ -329,35 +361,35 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 15473447320514786512
+        SelfId: 16708300395943133987
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 5885690553894889409
+        SelfId: 2764211083334992979
       }
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 600
+      Int: 200
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 30
-    }
-    Overrides {
-      Name: "cs:Speed"
-      Float: 3
+      Int: 25
     }
     Overrides {
       Name: "cs:Range"
-      Float: 50
+      Float: 40
+    }
+    Overrides {
+      Name: "cs:Speed"
+      Float: 2
     }
     Overrides {
       Name: "cs:Tower"
       AssetReference {
-        Id: 15116686596486310544
+        Id: 15791453381227726310
       }
     }
     Overrides {
@@ -381,7 +413,7 @@ Objects {
     Overrides {
       Name: "cs:NextTowerUpgrade"
       ObjectReference {
-        SelfId: 14774224425869811379
+        SelfId: 14005192661235388834
       }
     }
     Overrides {

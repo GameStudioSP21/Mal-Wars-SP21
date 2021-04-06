@@ -47,7 +47,12 @@ Assets {
         ObjectReference {
         }
       }
+      Overrides {
+        Name: "cs:TargetingValueText"
+        ObjectReference {
+        }
+      }
     }
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
 }

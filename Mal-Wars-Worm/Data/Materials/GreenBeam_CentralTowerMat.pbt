@@ -2,7 +2,7 @@ Assets {
   Id: 2979733154526053966
   Name: "GreenBeam_CentralTowerMat"
   PlatformAssetType: 13
-  SerializationVersion: 78
+  SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 12084768731772136090
     ParameterOverrides {

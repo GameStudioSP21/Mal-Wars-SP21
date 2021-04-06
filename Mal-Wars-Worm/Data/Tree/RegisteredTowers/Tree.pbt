@@ -1,7 +1,7 @@
 Name: "RegisteredTowers"
-RootId: 11526533163983201621
+RootId: 15799160070134921761
 Objects {
-  Id: 16246016697899800199
+  Id: 9198131201486968121
   Name: "Utility"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11526533163983201621
+  ParentId: 15799160070134921761
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -30,7 +30,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5239288681619449188
+  Id: 15492699404432810340
   Name: "Support"
   Transform {
     Location {
@@ -43,7 +43,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11526533163983201621
+  ParentId: 15799160070134921761
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -59,7 +59,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7130910895738376355
+  Id: 17478600470168090656
   Name: "Damage"
   Transform {
     Location {
@@ -72,7 +72,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11526533163983201621
+  ParentId: 15799160070134921761
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

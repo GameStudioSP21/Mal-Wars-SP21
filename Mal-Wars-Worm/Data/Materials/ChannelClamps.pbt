@@ -2,7 +2,7 @@ Assets {
   Id: 10553272733231785645
   Name: "ChannelClamps"
   PlatformAssetType: 13
-  SerializationVersion: 78
+  SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 13507825444224944578
     ParameterOverrides {

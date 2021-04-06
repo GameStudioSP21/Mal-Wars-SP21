@@ -46,14 +46,14 @@ function CheckView()
     local towerPlacer = LOCAL_PLAYER.clientUserData.towerPlacer
     local upgraderSelector = LOCAL_PLAYER.clientUserData.upgradeSelector
 
-    Task.Wait()
-    if buildMenu:IsVisible() or towerMenu:IsVisible() or towerPlacer:IsActive() or upgraderSelector:IsActive() then
-        -- print("Menu open or placing turret")
-        return false
-    else
-        -- print("Nothing open")
-        return true
-    end
+    -- Task.Wait()
+    -- if buildMenu:IsVisible() or towerMenu:IsVisible() or towerPlacer:IsActive() or upgraderSelector:IsActive() then
+    --     -- print("Menu open or placing turret")
+    --     return false
+    -- else
+    --     -- print("Nothing open")
+         return true
+    -- end
 end
 
 function DamageEnemies(hitResult)

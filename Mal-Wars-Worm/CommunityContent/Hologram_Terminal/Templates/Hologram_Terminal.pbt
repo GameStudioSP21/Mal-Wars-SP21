@@ -1110,6 +1110,6 @@ Assets {
   Marketplace {
     Description: "Hologram Terminal"
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
   DirectlyPublished: true
 }

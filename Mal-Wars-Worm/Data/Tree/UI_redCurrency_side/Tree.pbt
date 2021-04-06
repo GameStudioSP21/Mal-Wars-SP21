@@ -1,7 +1,7 @@
 Name: "UI_redCurrency_side"
-RootId: 1035024178581031466
+RootId: 12830279604904984092
 Objects {
-  Id: 4961823437156450910
+  Id: 9179605928375717048
   Name: "shadow"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1035024178581031466
+  ParentId: 12830279604904984092
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -67,7 +67,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5548082385355241530
+  Id: 17249975385065848347
   Name: "shine"
   Transform {
     Location {
@@ -80,7 +80,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1035024178581031466
+  ParentId: 12830279604904984092
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -135,7 +135,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9242944018893178406
+  Id: 10706279055669067252
   Name: "symbol"
   Transform {
     Location {
@@ -148,7 +148,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1035024178581031466
+  ParentId: 12830279604904984092
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -170,7 +170,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13899227365412811202
+  Id: 31922328866875842
   Name: "base_1"
   Transform {
     Location {
@@ -183,7 +183,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1035024178581031466
+  ParentId: 12830279604904984092
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -208,8 +208,8 @@ Objects {
         Id: 1735192838551116887
       }
       Color {
-        R: 0.0235098954
-        G: 0.710000038
+        G: 0.00582742691
+        B: 0.88
         A: 1
       }
       TeamSettings {

@@ -1,7 +1,7 @@
 Name: "Replicators"
-RootId: 5627554470724662434
+RootId: 4690694802133622742
 Objects {
-  Id: 2950210219696553339
+  Id: 9756141106481763665
   Name: "Inventories"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5627554470724662434
+  ParentId: 4690694802133622742
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -30,7 +30,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16791110401915715446
+  Id: 7099215131665476394
   Name: "TowerDefenders_Replicator"
   Transform {
     Location {
@@ -43,12 +43,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5627554470724662434
+  ParentId: 4690694802133622742
   UnregisteredParameters {
     Overrides {
       Name: "cs:InventoryFolder"
       ObjectReference {
-        SelfId: 2950210219696553339
+        SelfId: 9756141106481763665
       }
     }
   }
@@ -68,7 +68,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16501574175870241086
+  Id: 5764014628557797516
   Name: "ClientContext"
   Transform {
     Location {
@@ -81,8 +81,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5627554470724662434
-  ChildIds: 13792023200303562508
+  ParentId: 4690694802133622742
+  ChildIds: 2512123034530675694
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -90,13 +90,13 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   NetworkContext {
   }
 }
 Objects {
-  Id: 13792023200303562508
+  Id: 2512123034530675694
   Name: "TowerDefenders_Replicator"
   Transform {
     Location {
@@ -109,12 +109,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16501574175870241086
+  ParentId: 5764014628557797516
   UnregisteredParameters {
     Overrides {
       Name: "cs:InventoryFolder"
       ObjectReference {
-        SelfId: 2950210219696553339
+        SelfId: 9756141106481763665
       }
     }
   }

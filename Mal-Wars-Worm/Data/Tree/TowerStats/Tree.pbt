@@ -1,7 +1,7 @@
 Name: "TowerStats"
-RootId: 15995946423381434303
+RootId: 4975223423621302427
 Objects {
-  Id: 974670064461649287
+  Id: 17436478059276008376
   Name: "Speed"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15995946423381434303
+  ParentId: 4975223423621302427
   UnregisteredParameters {
     Overrides {
       Name: "cs:Icon"
@@ -25,8 +25,9 @@ Objects {
     Overrides {
       Name: "cs:StatColor"
       Color {
-        G: 0.749006391
-        B: 0.87
+        R: 0.188235313
+        G: 0.321568638
+        B: 1
         A: 1
       }
     }
@@ -46,7 +47,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5464018910509960713
+  Id: 751312495969391523
   Name: "Range"
   Transform {
     Location {
@@ -59,7 +60,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15995946423381434303
+  ParentId: 4975223423621302427
   UnregisteredParameters {
     Overrides {
       Name: "cs:Icon"
@@ -70,8 +71,9 @@ Objects {
     Overrides {
       Name: "cs:StatColor"
       Color {
-        R: 0.0585429929
-        G: 0.52
+        R: 0.321568638
+        G: 1
+        B: 0.188235313
         A: 1
       }
     }
@@ -91,7 +93,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2618123429161106138
+  Id: 8373315384463038876
   Name: "Damage"
   Transform {
     Location {
@@ -104,7 +106,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15995946423381434303
+  ParentId: 4975223423621302427
   UnregisteredParameters {
     Overrides {
       Name: "cs:Icon"

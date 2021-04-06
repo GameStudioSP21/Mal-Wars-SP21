@@ -2,7 +2,7 @@ Assets {
   Id: 7600537011961299779
   Name: "WormLevel_Grey"
   PlatformAssetType: 13
-  SerializationVersion: 78
+  SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 7660900985403449371
     ParameterOverrides {

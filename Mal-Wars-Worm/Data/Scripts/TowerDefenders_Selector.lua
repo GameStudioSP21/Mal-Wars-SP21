@@ -8,7 +8,6 @@ local Selector = {}
 Selector.__index = Selector
 
 local Ease3D = require(script:GetCustomProperty("Ease3D"))
-local Tooltips = require('D59186313879C18D')
 local VISUAL_FOLDER = script:GetCustomProperty("VisualFolder")
 
 local LEFT_MOUSE_BUTTON = "ability_primary"
@@ -163,7 +162,6 @@ end
 
 function Selector:_RemoveVisual()
     if self.selectorRuntime then
-    	Tooltips:DeselectedTower()
         self.selectorRuntime:Cancel()
     end
     if Object.IsValid(self.selectorVisualObject) then
@@ -199,15 +197,12 @@ function Selector:_Runtime()
                         local closestTower = self:GetNearestTower()
                         if closestTower and selectedTower ~= closestTower then
                             selectedTower = closestTower
-                            Tooltips:SelectedTower(selectedTower)
                             self:_FireEvent("OnMagnetized")
                             Ease3D.EasePosition(self.selectorVisualObject,closestTower:GetWorldPosition(),0.1)
                         elseif not closestTower and selectedTower then
-                        	Tooltips:DeselectedTower()
                             selectedTower = nil
                             self:_FireEvent("OnUnMagnetized")
                         elseif not closestTower then
-                        	Tooltips:DeselectedTower()
                             self.selectorVisualObject:SetWorldPosition(self.rayImpactPosition)
                         end
                     else

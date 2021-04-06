@@ -2,7 +2,7 @@ Assets {
   Id: 10280582926375161487
   Name: "GlowyBits"
   PlatformAssetType: 13
-  SerializationVersion: 78
+  SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 6794207694500871231
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 12705219172132891653
   Name: "Rebi_Custom Energy Tube Glow_Pipes"
   PlatformAssetType: 13
-  SerializationVersion: 78
+  SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 4685798713724418805
     ParameterOverrides {

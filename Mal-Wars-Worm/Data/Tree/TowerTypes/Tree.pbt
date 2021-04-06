@@ -1,7 +1,53 @@
 Name: "TowerTypes"
-RootId: 15720114564533439334
+RootId: 11163829162903721853
 Objects {
-  Id: 5700756625187138424
+  Id: 798483446425790754
+  Name: "Lunar"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11163829162903721853
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 10233297169285411023
+      }
+    }
+    Overrides {
+      Name: "cs:Color"
+      Color {
+        R: 1
+        G: 0.110000014
+        B: 0.905694842
+        A: 0.478000015
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Lunar"
+  }
+}
+Objects {
+  Id: 4213841703763966184
   Name: "Utility"
   Transform {
     Location {
@@ -14,7 +60,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15720114564533439334
+  ParentId: 11163829162903721853
   UnregisteredParameters {
     Overrides {
       Name: "cs:Icon"
@@ -46,7 +92,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11435435214344133321
+  Id: 8401294862560530098
   Name: "Range"
   Transform {
     Location {
@@ -59,7 +105,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15720114564533439334
+  ParentId: 11163829162903721853
   UnregisteredParameters {
     Overrides {
       Name: "cs:Icon"
@@ -91,7 +137,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15473447320514786512
+  Id: 16708300395943133987
   Name: "Damage"
   Transform {
     Location {
@@ -104,7 +150,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15720114564533439334
+  ParentId: 11163829162903721853
   UnregisteredParameters {
     Overrides {
       Name: "cs:Icon"

@@ -37,7 +37,7 @@ Assets {
           }
           Overrides {
             Name: "cs:MoveSpeed"
-            Float: 250
+            Float: 300
           }
           Overrides {
             Name: "cs:TurnSpeed"
@@ -109,7 +109,7 @@ Assets {
           }
           Overrides {
             Name: "cs:RewardResourceAmount"
-            Int: 10
+            Int: 5
           }
           Overrides {
             Name: "cs:LootId"
@@ -261,6 +261,7 @@ Assets {
         ChildIds: 9150484305742120151
         ChildIds: 4975749963601979177
         ChildIds: 15858923567854731539
+        ChildIds: 6102473163580416665
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -518,6 +519,44 @@ Assets {
         }
       }
       Objects {
+        Id: 6102473163580416665
+        Name: "InitEnemy"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15282855294944819046
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ROOT"
+            ObjectReference {
+              SubObjectId: 13722678310895633271
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 13356258329422356084
+          }
+        }
+      }
+      Objects {
         Id: 13325644050843554135
         Name: "ClientContext"
         Transform {
@@ -537,6 +576,7 @@ Assets {
         ChildIds: 1851438399598120376
         ChildIds: 1233902860268231743
         ChildIds: 8945700407715243424
+        ChildIds: 2113305774054118535
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -582,6 +622,12 @@ Assets {
             Name: "cs:ForwardNode"
             ObjectReference {
               SubObjectId: 1851438399598120376
+            }
+          }
+          Overrides {
+            Name: "cs:DestroyedVFX"
+            AssetReference {
+              Id: 8272698281612730862
             }
           }
         }
@@ -1087,6 +1133,44 @@ Assets {
           }
         }
       }
+      Objects {
+        Id: 2113305774054118535
+        Name: "InitEnemy"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13325644050843554135
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ROOT"
+            ObjectReference {
+              SubObjectId: 13722678310895633271
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 13356258329422356084
+          }
+        }
+      }
     }
     Assets {
       Id: 12055624017040116852
@@ -1129,5 +1213,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
 }

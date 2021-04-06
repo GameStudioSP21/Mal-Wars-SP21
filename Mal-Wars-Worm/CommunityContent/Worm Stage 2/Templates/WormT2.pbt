@@ -3208,6 +3208,6 @@ Assets {
   Marketplace {
     Description: "Stage 2 of Worm"
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
   DirectlyPublished: true
 }

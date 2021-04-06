@@ -2,7 +2,7 @@ Assets {
   Id: 12996442773613703138
   Name: "StairIron_Graident - Copy"
   PlatformAssetType: 13
-  SerializationVersion: 78
+  SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 2251351275617310618
     ParameterOverrides {

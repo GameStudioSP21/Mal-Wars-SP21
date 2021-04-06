@@ -29,7 +29,7 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
   }
@@ -1739,7 +1739,7 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  ChildIds: 9567968853289757796
+  ChildIds: 13067903917094631278
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1804,7 +1804,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9567968853289757796
+  Id: 13067903917094631278
   Name: "TowerDefenders"
   Transform {
     Location {

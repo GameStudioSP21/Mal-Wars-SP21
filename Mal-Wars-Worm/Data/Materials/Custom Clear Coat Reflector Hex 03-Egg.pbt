@@ -2,7 +2,7 @@ Assets {
   Id: 9156939487619984878
   Name: "Custom Clear Coat Reflector Hex 03-Egg"
   PlatformAssetType: 13
-  SerializationVersion: 78
+  SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 4872259632366009090
     ParameterOverrides {

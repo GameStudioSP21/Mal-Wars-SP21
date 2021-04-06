@@ -18,11 +18,11 @@ Assets {
       }
       Overrides {
         Name: "cs:ConeAngle"
-        Float: 3
+        Float: 2
       }
       Overrides {
-        Name: "cs:MaxPierce"
-        Int: 10
+        Name: "cs:PierceRange"
+        Int: 1000
       }
       Overrides {
         Name: "cs:ConeAngle:tooltip"
@@ -30,5 +30,5 @@ Assets {
       }
     }
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
 }

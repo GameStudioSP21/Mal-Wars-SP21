@@ -2,7 +2,7 @@ Assets {
   Id: 16934149778791621579
   Name: "EdgeStripe_Turret"
   PlatformAssetType: 13
-  SerializationVersion: 78
+  SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 17657810120729887906
     ParameterOverrides {

@@ -2609,6 +2609,6 @@ Assets {
   Marketplace {
     Description: "Stage 3 of worm"
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
   DirectlyPublished: true
 }

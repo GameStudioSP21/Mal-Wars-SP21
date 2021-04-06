@@ -2,7 +2,7 @@ Assets {
   Id: 252123769371706671
   Name: "Custom Base Material from Military Tank Historic Tread 01 - 4m"
   PlatformAssetType: 13
-  SerializationVersion: 78
+  SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 7357485335917977977
     ParameterOverrides {

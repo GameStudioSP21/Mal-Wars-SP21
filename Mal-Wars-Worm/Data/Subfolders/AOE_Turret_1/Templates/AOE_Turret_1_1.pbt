@@ -2002,6 +2002,6 @@ Assets {
   Marketplace {
     Description: "An AOE Turret Modeled in Core. Version 1. "
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
   DirectlyPublished: true
 }

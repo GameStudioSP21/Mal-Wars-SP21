@@ -2,7 +2,7 @@ Assets {
   Id: 4134279716470896607
   Name: "AC_MetalSlice_green"
   PlatformAssetType: 13
-  SerializationVersion: 78
+  SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 9687684042334990219
     ParameterOverrides {

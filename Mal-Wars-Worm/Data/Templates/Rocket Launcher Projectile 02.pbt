@@ -126,9 +126,8 @@ Assets {
         Name: "Basic Projectile Trail VFX"
         Transform {
           Location {
-            X: -0.00330607081
-            Y: 0.0032998363
-            Z: -7062.9292
+            X: 0.000254313112
+            Y: -2.16840434e-17
           }
           Rotation {
             Roll: 3.55019701e-25
@@ -232,5 +231,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
 }

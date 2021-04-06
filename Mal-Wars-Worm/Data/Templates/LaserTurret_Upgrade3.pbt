@@ -15,11 +15,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8512805858169632350
+        ParentId: 4781671109827199097
         ChildIds: 6792739052069957774
-        ChildIds: 11099337608275167044
-        ChildIds: 2622926777500841976
-        ChildIds: 10782792050109300809
+        ChildIds: 16605776208659741141
+        ChildIds: 7126606763222341895
+        ChildIds: 18019065836742324077
         UnregisteredParameters {
           Overrides {
             Name: "cs:HorizontalRotator"
@@ -36,7 +36,7 @@ Assets {
           Overrides {
             Name: "cs:Muzzle"
             ObjectReference {
-              SubObjectId: 17400208044282190465
+              SubObjectId: 16883135061988170767
             }
           }
         }
@@ -70,7 +70,7 @@ Assets {
         }
         ParentId: 5580396014439778102
         ChildIds: 1484890367441951008
-        ChildIds: 377431804666204690
+        ChildIds: 12653194948869809018
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -79,7 +79,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }
@@ -223,6 +223,7 @@ Assets {
         }
         ParentId: 9306694184611459313
         ChildIds: 18044386475537185027
+        ChildIds: 16883135061988170767
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -255,7 +256,7 @@ Assets {
         }
         ParentId: 10074235944838722511
         ChildIds: 18025624273615221992
-        ChildIds: 10117684059297645843
+        ChildIds: 18213668221841095622
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -391,7 +392,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -447,7 +448,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -520,7 +521,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -578,7 +579,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -623,7 +624,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -690,7 +691,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -755,7 +756,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -822,7 +823,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -923,7 +924,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -978,7 +979,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -1033,7 +1034,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -1077,7 +1078,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -1179,7 +1180,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -1225,7 +1226,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -1282,7 +1283,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -1339,7 +1340,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -1438,7 +1439,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -1493,7 +1494,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -1548,7 +1549,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -1593,7 +1594,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -1690,7 +1691,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -1752,7 +1753,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -1850,7 +1851,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -1912,7 +1913,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -2009,7 +2010,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -2071,7 +2072,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -2091,58 +2092,24 @@ Assets {
         }
       }
       Objects {
-        Id: 10117684059297645843
-        Name: "Barrels"
-        Transform {
-          Location {
-            X: -36.2699318
-            Y: -21.1025906
-            Z: 255.22052
-          }
-          Rotation {
-          }
-          Scale {
-            X: 0.82749337
-            Y: 0.82749337
-            Z: 0.82749337
-          }
-        }
-        ParentId: 18044386475537185027
-        ChildIds: 18213668221841095622
-        ChildIds: 16883135061988170767
-        ChildIds: 9684795937945981095
-        ChildIds: 17400208044282190465
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
         Id: 18213668221841095622
         Name: "Barrels"
         Transform {
           Location {
-            X: 454.552979
-            Y: 3.2566402
-            Z: -202.357925
+            X: 61.5598068
+            Y: -17.0166855
+            Z: 287.701324
           }
           Rotation {
           }
           Scale {
-            X: 1.69041646
-            Y: 1.69041646
-            Z: 1.69041646
+            X: 1.39880836
+            Y: 1.39880836
+            Z: 1.39880836
           }
         }
-        ParentId: 10117684059297645843
+        ParentId: 18044386475537185027
+        ChildIds: 7043749808534365326
         ChildIds: 1726000113045520503
         ChildIds: 11503746583205092764
         ChildIds: 7291348100944849829
@@ -2160,20 +2127,73 @@ Assets {
         }
       }
       Objects {
-        Id: 1726000113045520503
-        Name: "Barrel 1"
+        Id: 7043749808534365326
+        Name: "BarrelFlyWheel"
         Transform {
           Location {
-            X: -105
-            Y: 5
-            Z: 220
+            Y: -0.000244140625
           }
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: -0.3
+            Y: 2.59999943
+            Z: 2.59999943
+          }
+        }
+        ParentId: 18213668221841095622
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_Detail1:color"
+            Color {
+              R: 0.896269679
+              G: 0.212230787
+              B: 0.0512694679
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6789604014209716330
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 1726000113045520503
+        Name: "Barrel 1"
+        Transform {
+          Location {
+            X: 80.0319366
+            Y: -0.914514065
+            Z: 91.5452194
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.999999881
+            Y: 0.999999881
+            Z: 0.999999881
           }
         }
         ParentId: 18213668221841095622
@@ -2238,7 +2258,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -2295,7 +2315,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -2352,7 +2372,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -2376,17 +2396,17 @@ Assets {
         Name: "Barrel 2"
         Transform {
           Location {
-            X: -105
-            Y: -80
-            Z: 75
+            X: 80.0319366
+            Y: -90.2380295
+            Z: -64.028923
           }
           Rotation {
-            Roll: -135
+            Roll: -124.605713
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.999999881
+            Y: 0.999999881
+            Z: 0.999999881
           }
         }
         ParentId: 18213668221841095622
@@ -2451,7 +2471,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -2508,7 +2528,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -2565,7 +2585,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -2589,12 +2609,12 @@ Assets {
         Name: "Barrel 3"
         Transform {
           Location {
-            X: -105
-            Y: 80
-            Z: 75
+            X: 80.0319366
+            Y: 85.4525223
+            Z: -63.6962967
           }
           Rotation {
-            Roll: 135
+            Roll: 127.812531
           }
           Scale {
             X: 1
@@ -2664,7 +2684,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -2721,7 +2741,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -2778,7 +2798,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -2802,22 +2822,28 @@ Assets {
         Name: "Muzzle"
         Transform {
           Location {
-            X: 677.295288
-            Y: 18.4186153
-            Z: 155.625031
+            X: 406.02832
+            Y: 1.29833984
+            Z: 230.5289
           }
           Rotation {
+            Roll: -67.6831818
           }
           Scale {
-            X: 2.58661985
-            Y: 2.58661985
-            Z: 2.58661985
+            X: 0.999999881
+            Y: 0.999999881
+            Z: 0.999999881
           }
         }
-        ParentId: 10117684059297645843
+        ParentId: 10074235944838722511
         ChildIds: 8359916454434883395
+        ChildIds: 5376692911755749826
+        ChildIds: 5770208867369911625
+        ChildIds: 1740077482746220476
         ChildIds: 17092117484407853856
-        ChildIds: 12385880340928744876
+        ChildIds: 15324270522631102565
+        ChildIds: 9593693631989120692
+        ChildIds: 17764396700279737136
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -2836,14 +2862,18 @@ Assets {
         Name: "Advanced Muzzleflash VFX"
         Transform {
           Location {
+            Y: -22.5082798
+            Z: -9.23904228
           }
           Rotation {
             Pitch: -90
+            Yaw: -160.528778
+            Roll: 160.528778
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 1.75
+            Y: 1.75
+            Z: 1.75
           }
         }
         ParentId: 16883135061988170767
@@ -2863,8 +2893,8 @@ Assets {
           Overrides {
             Name: "bp:Color"
             Color {
-              G: 0.960000038
-              B: 0.0254306048
+              R: 0.97
+              G: 0.55887419
               A: 1
             }
           }
@@ -2889,6 +2919,165 @@ Assets {
         }
         Relevance {
           Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 5376692911755749826
+        Name: "Sci-fi Radial Element VFX"
+        Transform {
+          Location {
+            X: -36.7617226
+            Y: 8.44808292
+            Z: 0.0627808645
+          }
+          Rotation {
+            Pitch: -22.3168831
+            Yaw: -89.9999924
+            Roll: 89.9999771
+          }
+          Scale {
+            X: 0.261409342
+            Y: 0.261409342
+            Z: 0.326761663
+          }
+        }
+        ParentId: 16883135061988170767
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Edge Color"
+            Color {
+              R: 0.72
+              G: 0.329006642
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 17395695237026391644
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+      }
+      Objects {
+        Id: 5770208867369911625
+        Name: "Sci-fi Radial Element VFX"
+        Transform {
+          Location {
+            X: -115.375992
+            Y: 8.44808292
+            Z: 0.0627808645
+          }
+          Rotation {
+            Pitch: -22.3168831
+            Yaw: -90
+            Roll: 89.9999619
+          }
+          Scale {
+            X: 0.261409342
+            Y: 0.261409342
+            Z: 0.326761633
+          }
+        }
+        ParentId: 16883135061988170767
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Edge Color"
+            Color {
+              R: 0.72
+              G: 0.329006642
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 17395695237026391644
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+      }
+      Objects {
+        Id: 1740077482746220476
+        Name: "Sci-fi Radial Element VFX"
+        Transform {
+          Location {
+            X: -190.375992
+            Y: 8.44808292
+            Z: 0.0627808645
+          }
+          Rotation {
+            Pitch: -22.3168907
+            Yaw: -90.0000076
+            Roll: 89.9999542
+          }
+          Scale {
+            X: 0.261409342
+            Y: 0.261409342
+            Z: 0.326761633
+          }
+        }
+        ParentId: 16883135061988170767
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Edge Color"
+            Color {
+              R: 0.72
+              G: 0.329006642
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 17395695237026391644
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
         }
       }
       Objects {
@@ -2910,7 +3099,7 @@ Assets {
           Overrides {
             Name: "bp:Type"
             Enum {
-              Value: "mc:esfx_gunshot_laserpistol_01:10"
+              Value: "mc:esfx_gunshot_laserpistol_01:11"
             }
           }
         }
@@ -2931,8 +3120,8 @@ Assets {
           }
           AudioBP {
             Volume: 1
-            Falloff: 3600
-            Radius: 400
+            Falloff: 4000
+            Radius: 2000
             EnableOcclusion: true
             IsSpatializationEnabled: true
             IsAttenuationEnabled: true
@@ -2940,12 +3129,13 @@ Assets {
         }
       }
       Objects {
-        Id: 12385880340928744876
-        Name: "Gunshot Laser Rifle Set 01 SFX"
+        Id: 15324270522631102565
+        Name: "Gunshot Laser Pistol Set 01 SFX"
         Transform {
           Location {
           }
           Rotation {
+            Roll: -1.02452832e-05
           }
           Scale {
             X: 2
@@ -2958,148 +3148,6 @@ Assets {
           Overrides {
             Name: "bp:Type"
             Enum {
-              Value: "mc:esfx_gunshot_laserrifle_01:12"
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 13330580655975707345
-          }
-          TeamSettings {
-          }
-          AudioBP {
-            Volume: 1
-            Falloff: 3600
-            Radius: 400
-            EnableOcclusion: true
-            IsSpatializationEnabled: true
-            IsAttenuationEnabled: true
-          }
-        }
-      }
-      Objects {
-        Id: 9684795937945981095
-        Name: "Muzzle"
-        Transform {
-          Location {
-            X: 677.295288
-            Y: -132.342606
-            Z: -77.8120422
-          }
-          Rotation {
-          }
-          Scale {
-            X: 2.58661985
-            Y: 2.58661985
-            Z: 2.58661985
-          }
-        }
-        ParentId: 10117684059297645843
-        ChildIds: 1778643513902177463
-        ChildIds: 1209404703654214015
-        ChildIds: 14160832459701879905
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 1778643513902177463
-        Name: "Advanced Muzzleflash VFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -90
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 9684795937945981095
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Emissive Boost"
-            Float: 14.8698549
-          }
-          Overrides {
-            Name: "bp:Particle Size Multiplier"
-            Float: 2.13276052
-          }
-          Overrides {
-            Name: "bp:Number Of Flares"
-            Int: 5
-          }
-          Overrides {
-            Name: "bp:Color"
-            Color {
-              G: 0.960000038
-              B: 0.0254306048
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 3125335314262154541
-          }
-          TeamSettings {
-          }
-          Vfx {
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-      }
-      Objects {
-        Id: 1209404703654214015
-        Name: "Gunshot Laser Pistol Set 01 SFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 2
-            Y: 2
-            Z: 2
-          }
-        }
-        ParentId: 9684795937945981095
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Type"
-            Enum {
               Value: "mc:esfx_gunshot_laserpistol_01:10"
             }
           }
@@ -3121,8 +3169,8 @@ Assets {
           }
           AudioBP {
             Volume: 1
-            Falloff: 3600
-            Radius: 400
+            Falloff: 4000
+            Radius: 3000
             EnableOcclusion: true
             IsSpatializationEnabled: true
             IsAttenuationEnabled: true
@@ -3130,26 +3178,47 @@ Assets {
         }
       }
       Objects {
-        Id: 14160832459701879905
-        Name: "Gunshot Laser Rifle Set 01 SFX"
+        Id: 9593693631989120692
+        Name: "Rocket Launcher Muzzleflash VFX"
         Transform {
           Location {
           }
           Rotation {
+            Pitch: -22.227417
+            Yaw: -84.5974731
+            Roll: 87.951088
           }
           Scale {
-            X: 2
-            Y: 2
-            Z: 2
+            X: 1.25
+            Y: 1.25
+            Z: 2.75
           }
         }
-        ParentId: 9684795937945981095
+        ParentId: 16883135061988170767
         UnregisteredParameters {
           Overrides {
-            Name: "bp:Type"
-            Enum {
-              Value: "mc:esfx_gunshot_laserrifle_01:12"
+            Name: "bp:Enable Smoke"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Enable Sparks"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Enable Muzzle Flash"
+            Bool: true
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.9
+              G: 0.625827849
+              A: 1
             }
+          }
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 23.6903496
           }
         }
         Collidable_v2 {
@@ -3163,62 +3232,25 @@ Assets {
         }
         Blueprint {
           BlueprintAsset {
-            Id: 13330580655975707345
+            Id: 2032514755182163228
           }
           TeamSettings {
           }
-          AudioBP {
-            Volume: 1
-            Falloff: 3600
-            Radius: 400
-            EnableOcclusion: true
-            IsSpatializationEnabled: true
-            IsAttenuationEnabled: true
+          Vfx {
+            AutoPlay: true
           }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
         }
       }
       Objects {
-        Id: 17400208044282190465
-        Name: "Muzzle"
-        Transform {
-          Location {
-            X: 698.013489
-            Y: 132.797607
-            Z: -74.8962555
-          }
-          Rotation {
-          }
-          Scale {
-            X: 2.58661985
-            Y: 2.58661985
-            Z: 2.58661985
-          }
-        }
-        ParentId: 10117684059297645843
-        ChildIds: 832598232270486614
-        ChildIds: 14232633429078816230
-        ChildIds: 15418613506787700195
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 832598232270486614
-        Name: "Advanced Muzzleflash VFX"
+        Id: 17764396700279737136
+        Name: "Gunshot Distant Boom Sweetener 03 SFX"
         Transform {
           Location {
           }
           Rotation {
-            Pitch: -90
           }
           Scale {
             X: 1
@@ -3226,29 +3258,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 17400208044282190465
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Emissive Boost"
-            Float: 14.8698549
-          }
-          Overrides {
-            Name: "bp:Particle Size Multiplier"
-            Float: 2.13276052
-          }
-          Overrides {
-            Name: "bp:Number Of Flares"
-            Int: 5
-          }
-          Overrides {
-            Name: "bp:Color"
-            Color {
-              G: 0.960000038
-              B: 0.0254306048
-              A: 1
-            }
-          }
-        }
+        ParentId: 16883135061988170767
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3258,113 +3268,15 @@ Assets {
         CameraCollidable {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
-        Blueprint {
-          BlueprintAsset {
-            Id: 3125335314262154541
+        AudioInstance {
+          AudioAsset {
+            Id: 7684871767446554648
           }
-          TeamSettings {
-          }
-          Vfx {
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
-        }
-      }
-      Objects {
-        Id: 14232633429078816230
-        Name: "Gunshot Laser Pistol Set 01 SFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 2
-            Y: 2
-            Z: 2
-          }
-        }
-        ParentId: 17400208044282190465
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Type"
-            Enum {
-              Value: "mc:esfx_gunshot_laserpistol_01:10"
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 8059305762076781460
-          }
-          TeamSettings {
-          }
-          AudioBP {
-            Volume: 1
-            Falloff: 3600
-            Radius: 400
-            EnableOcclusion: true
-            IsSpatializationEnabled: true
-            IsAttenuationEnabled: true
-          }
-        }
-      }
-      Objects {
-        Id: 15418613506787700195
-        Name: "Gunshot Laser Rifle Set 01 SFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 2
-            Y: 2
-            Z: 2
-          }
-        }
-        ParentId: 17400208044282190465
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Type"
-            Enum {
-              Value: "mc:esfx_gunshot_laserrifle_01:12"
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 13330580655975707345
-          }
-          TeamSettings {
-          }
-          AudioBP {
-            Volume: 1
-            Falloff: 3600
-            Radius: 400
-            EnableOcclusion: true
-            IsSpatializationEnabled: true
-            IsAttenuationEnabled: true
-          }
+          Volume: 1.01148152
+          Falloff: -1
+          Radius: 5000
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
         }
       }
       Objects {
@@ -3438,7 +3350,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -3494,7 +3406,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -3552,7 +3464,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -3614,7 +3526,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -3634,8 +3546,8 @@ Assets {
         }
       }
       Objects {
-        Id: 377431804666204690
-        Name: "KickBack"
+        Id: 12653194948869809018
+        Name: "Kickback_LV3"
         Transform {
           Location {
           }
@@ -3656,9 +3568,15 @@ Assets {
             }
           }
           Overrides {
-            Name: "cs:Turret_Head"
+            Name: "cs:Turret_head"
             ObjectReference {
               SubObjectId: 10074235944838722511
+            }
+          }
+          Overrides {
+            Name: "cs:Barrels"
+            ObjectReference {
+              SubObjectId: 18213668221841095622
             }
           }
           Overrides {
@@ -3679,94 +3597,18 @@ Assets {
         }
         Script {
           ScriptAsset {
-            Id: 14651322305719110020
+            Id: 6150798805497076702
           }
         }
       }
       Objects {
-        Id: 11099337608275167044
-        Name: "Machine Servo Turret Movement Stop 01 SFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 5580396014439778102
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        AudioInstance {
-          AudioAsset {
-            Id: 769007112956482022
-          }
-          AutoPlay: true
-          Transient: true
-          Pitch: -631.243408
-          Volume: 2.08646464
-          Falloff: -1
-          Radius: -1
-          EnableOcclusion: true
-          IsSpatializationEnabled: true
-          IsAttenuationEnabled: true
-        }
-      }
-      Objects {
-        Id: 2622926777500841976
-        Name: "Pneumatic Impact Air Drill 01 SFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 5580396014439778102
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        AudioInstance {
-          AudioAsset {
-            Id: 6401498020918617889
-          }
-          AutoPlay: true
-          Transient: true
-          Volume: 1.58333898
-          Falloff: -1
-          Radius: -1
-          EnableOcclusion: true
-          IsSpatializationEnabled: true
-          IsAttenuationEnabled: true
-        }
-      }
-      Objects {
-        Id: 10782792050109300809
+        Id: 16605776208659741141
         Name: "Steam Pressure Release Short 01 SFX"
         Transform {
           Location {
+            X: 124.898438
+            Y: 893.682434
+            Z: -0.162109375
           }
           Rotation {
           }
@@ -3793,10 +3635,93 @@ Assets {
           }
           AutoPlay: true
           Transient: true
-          Volume: 1
+          Volume: 2.32617044
           Falloff: -1
-          Radius: -1
-          EnableOcclusion: true
+          Radius: 8000
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
+        }
+      }
+      Objects {
+        Id: 7126606763222341895
+        Name: "Machine Servo Turret Movement Stop 01 SFX"
+        Transform {
+          Location {
+            X: 124.898438
+            Y: 893.682434
+            Z: -0.162109375
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5580396014439778102
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 769007112956482022
+          }
+          AutoPlay: true
+          Transient: true
+          Pitch: -366.675903
+          Volume: 2.42861366
+          Falloff: -1
+          Radius: 8000
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
+        }
+      }
+      Objects {
+        Id: 18019065836742324077
+        Name: "Pneumatic Impact Air Drill 01 SFX"
+        Transform {
+          Location {
+            X: 124.898438
+            Y: 893.682434
+            Z: -0.162109375
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5580396014439778102
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 6401498020918617889
+          }
+          AutoPlay: true
+          Transient: true
+          Pitch: -633.02832
+          Volume: 2.25787473
+          Falloff: -1
+          Radius: 8000
           IsSpatializationEnabled: true
           IsAttenuationEnabled: true
         }
@@ -3920,6 +3845,15 @@ Assets {
       }
     }
     Assets {
+      Id: 17395695237026391644
+      Name: "Sci-fi Radial Element VFX"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_SciFi_RadialElement"
+      }
+    }
+    Assets {
       Id: 8059305762076781460
       Name: "Gunshot Laser Pistol Set 01 SFX"
       PlatformAssetType: 10
@@ -3929,12 +3863,21 @@ Assets {
       }
     }
     Assets {
-      Id: 13330580655975707345
-      Name: "Gunshot Laser Rifle Set 01 SFX"
-      PlatformAssetType: 10
+      Id: 2032514755182163228
+      Name: "Rocket Launcher Muzzleflash VFX"
+      PlatformAssetType: 8
       PrimaryAsset {
-        AssetType: "AudioBlueprintAssetRef"
-        AssetId: "sfxabp_gunshot_laserrifle_ref"
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_rocket_launcher_muzzleflash"
+      }
+    }
+    Assets {
+      Id: 7684871767446554648
+      Name: "Gunshot Distant Boom Sweetener 03 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_gun_distance_boom_sweetener_01c_Cue_ref"
       }
     }
     Assets {
@@ -3956,6 +3899,15 @@ Assets {
       }
     }
     Assets {
+      Id: 7115571218229221495
+      Name: "Steam Pressure Release Short 01 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_steam_pressure_release_medium_01a_Cue_ref"
+      }
+    }
+    Assets {
       Id: 769007112956482022
       Name: "Machine Servo Turret Movement Stop 01 SFX"
       PlatformAssetType: 7
@@ -3973,19 +3925,10 @@ Assets {
         AssetId: "sfx_air_pneumatic_impact_drill_repair_01_Cue_ref"
       }
     }
-    Assets {
-      Id: 7115571218229221495
-      Name: "Steam Pressure Release Short 01 SFX"
-      PlatformAssetType: 7
-      PrimaryAsset {
-        AssetType: "AudioAssetRef"
-        AssetId: "sfx_steam_pressure_release_medium_01a_Cue_ref"
-      }
-    }
     PrimaryAssetId {
       AssetType: "None"
       AssetId: "None"
     }
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
 }

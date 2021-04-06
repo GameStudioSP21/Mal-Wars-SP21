@@ -2,7 +2,7 @@ Assets {
   Id: 13372869631202031600
   Name: "WormLevel_RedEmissives"
   PlatformAssetType: 13
-  SerializationVersion: 78
+  SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 3702191406046426907
     ParameterOverrides {

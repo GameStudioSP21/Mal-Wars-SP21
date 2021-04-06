@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8512805858169632350
+        ParentId: 4781671109827199097
         ChildIds: 17976016930745038353
         ChildIds: 6319385853160830752
         ChildIds: 17550286622970485203
@@ -79,7 +79,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }
@@ -368,7 +368,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -431,7 +431,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -477,7 +477,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -522,7 +522,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -586,7 +586,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -682,7 +682,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -812,7 +812,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -869,7 +869,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -926,7 +926,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -962,9 +962,10 @@ Assets {
           }
         }
         ParentId: 14348582732979429100
-        ChildIds: 6595092435938181744
         ChildIds: 15928651382399602622
-        ChildIds: 6420191404612785228
+        ChildIds: 5855107951747763943
+        ChildIds: 927389237483695562
+        ChildIds: 6043218276309248908
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -976,66 +977,6 @@ Assets {
         }
         Folder {
           IsGroup: true
-        }
-      }
-      Objects {
-        Id: 6595092435938181744
-        Name: "Advanced Muzzleflash VFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Pitch: -90
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 11917492501887874882
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Emissive Boost"
-            Float: 14.8698549
-          }
-          Overrides {
-            Name: "bp:Particle Size Multiplier"
-            Float: 2.13276052
-          }
-          Overrides {
-            Name: "bp:Number Of Flares"
-            Int: 5
-          }
-          Overrides {
-            Name: "bp:Color"
-            Color {
-              G: 0.960000038
-              B: 0.0254306048
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 3125335314262154541
-          }
-          TeamSettings {
-          }
-          Vfx {
-          }
-        }
-        Relevance {
-          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -1078,26 +1019,90 @@ Assets {
           }
           AudioBP {
             Volume: 1
-            Falloff: 3600
-            Radius: 400
-            EnableOcclusion: true
+            Falloff: 3000
+            Radius: 3500
             IsSpatializationEnabled: true
             IsAttenuationEnabled: true
           }
         }
       }
       Objects {
-        Id: 6420191404612785228
-        Name: "Gunshot Laser Rifle Set 01 SFX"
+        Id: 5855107951747763943
+        Name: "Rocket Launcher Muzzleflash VFX"
+        Transform {
+          Location {
+            Z: 1.00604248
+          }
+          Rotation {
+            Pitch: -85
+          }
+          Scale {
+            X: 1.34063983
+            Y: 1.34063983
+            Z: 2.68127966
+          }
+        }
+        ParentId: 11917492501887874882
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Enable Smoke"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Enable Sparks"
+            Bool: false
+          }
+          Overrides {
+            Name: "bp:Enable Muzzle Flash"
+            Bool: true
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              G: 0.85
+              B: 0.647351146
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Emissive Boost"
+            Float: 23.6903496
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 2032514755182163228
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:medium"
+        }
+      }
+      Objects {
+        Id: 927389237483695562
+        Name: "Gunshot Generic Laser Shots Set 01 SFX"
         Transform {
           Location {
           }
           Rotation {
           }
           Scale {
-            X: 2
-            Y: 2
-            Z: 2
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
         ParentId: 11917492501887874882
@@ -1105,7 +1110,7 @@ Assets {
           Overrides {
             Name: "bp:Type"
             Enum {
-              Value: "mc:esfx_gunshot_laserrifle_01:12"
+              Value: "mc:esfx_laser_shots_01:25"
             }
           }
         }
@@ -1120,18 +1125,55 @@ Assets {
         }
         Blueprint {
           BlueprintAsset {
-            Id: 13330580655975707345
+            Id: 1510466267324954552
           }
           TeamSettings {
           }
           AudioBP {
             Volume: 1
-            Falloff: 3600
-            Radius: 400
-            EnableOcclusion: true
+            Falloff: 3500
+            Radius: 4500
             IsSpatializationEnabled: true
             IsAttenuationEnabled: true
           }
+        }
+      }
+      Objects {
+        Id: 6043218276309248908
+        Name: "Gunshot Distant Artillery Tank Shot 01 SFX"
+        Transform {
+          Location {
+            X: -308.337891
+            Z: -248.993958
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11917492501887874882
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 6367806081794526052
+          }
+          Volume: 0.362674087
+          Falloff: -1
+          Radius: -1
+          EnableOcclusion: true
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
         }
       }
       Objects {
@@ -1202,7 +1244,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -1256,7 +1298,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -1311,7 +1353,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -1370,7 +1412,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         CoreMesh {
           MeshAsset {
@@ -1471,10 +1513,9 @@ Assets {
           AutoPlay: true
           Transient: true
           Pitch: -631.243408
-          Volume: 2.08646464
+          Volume: 2
           Falloff: -1
-          Radius: -1
-          EnableOcclusion: true
+          Radius: 8000
           IsSpatializationEnabled: true
           IsAttenuationEnabled: true
         }
@@ -1510,10 +1551,9 @@ Assets {
           }
           AutoPlay: true
           Transient: true
-          Volume: 1.58333898
+          Volume: 2
           Falloff: -1
-          Radius: -1
-          EnableOcclusion: true
+          Radius: 8000
           IsSpatializationEnabled: true
           IsAttenuationEnabled: true
         }
@@ -1549,10 +1589,9 @@ Assets {
           }
           AutoPlay: true
           Transient: true
-          Volume: 1
+          Volume: 2
           Falloff: -1
-          Radius: -1
-          EnableOcclusion: true
+          Radius: 8000
           IsSpatializationEnabled: true
           IsAttenuationEnabled: true
         }
@@ -1631,15 +1670,6 @@ Assets {
       }
     }
     Assets {
-      Id: 3125335314262154541
-      Name: "Advanced Muzzleflash VFX"
-      PlatformAssetType: 8
-      PrimaryAsset {
-        AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_muzzleflash_alt"
-      }
-    }
-    Assets {
       Id: 8059305762076781460
       Name: "Gunshot Laser Pistol Set 01 SFX"
       PlatformAssetType: 10
@@ -1649,12 +1679,30 @@ Assets {
       }
     }
     Assets {
-      Id: 13330580655975707345
-      Name: "Gunshot Laser Rifle Set 01 SFX"
+      Id: 2032514755182163228
+      Name: "Rocket Launcher Muzzleflash VFX"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_rocket_launcher_muzzleflash"
+      }
+    }
+    Assets {
+      Id: 1510466267324954552
+      Name: "Gunshot Generic Laser Shots Set 01 SFX"
       PlatformAssetType: 10
       PrimaryAsset {
         AssetType: "AudioBlueprintAssetRef"
-        AssetId: "sfxabp_gunshot_laserrifle_ref"
+        AssetId: "sfxabp_gunshot_generic_laser_shots_01_ref"
+      }
+    }
+    Assets {
+      Id: 6367806081794526052
+      Name: "Gunshot Distant Artillery Tank Shot 01 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_distant_artillery_tank_shot_01a_Cue_ref"
       }
     }
     Assets {
@@ -1707,5 +1755,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
 }

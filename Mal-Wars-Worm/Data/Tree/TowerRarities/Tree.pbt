@@ -1,7 +1,7 @@
 Name: "TowerRarities"
-RootId: 1007787193999714619
+RootId: 15835702107637746325
 Objects {
-  Id: 1720409598745449251
+  Id: 17899545024251093921
   Name: "Heroic"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1007787193999714619
+  ParentId: 15835702107637746325
   UnregisteredParameters {
     Overrides {
       Name: "cs:Color"
@@ -39,7 +39,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3421316411476536376
+  Id: 8417570932964275780
   Name: "Legendary"
   Transform {
     Location {
@@ -52,7 +52,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1007787193999714619
+  ParentId: 15835702107637746325
   UnregisteredParameters {
     Overrides {
       Name: "cs:Color"
@@ -78,7 +78,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16555092129292573516
+  Id: 3206194469967215124
   Name: "Epic"
   Transform {
     Location {
@@ -91,7 +91,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1007787193999714619
+  ParentId: 15835702107637746325
   UnregisteredParameters {
     Overrides {
       Name: "cs:Color"
@@ -117,7 +117,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13496367145218431849
+  Id: 7260010577560875529
   Name: "Rare"
   Transform {
     Location {
@@ -130,7 +130,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1007787193999714619
+  ParentId: 15835702107637746325
   UnregisteredParameters {
     Overrides {
       Name: "cs:Color"
@@ -157,7 +157,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10069010683383961677
+  Id: 5857612874753637199
   Name: "Uncommon"
   Transform {
     Location {
@@ -170,7 +170,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1007787193999714619
+  ParentId: 15835702107637746325
   UnregisteredParameters {
     Overrides {
       Name: "cs:Color"
@@ -197,7 +197,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5885690553894889409
+  Id: 2764211083334992979
   Name: "Common"
   Transform {
     Location {
@@ -210,13 +210,13 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1007787193999714619
+  ParentId: 15835702107637746325
   UnregisteredParameters {
     Overrides {
       Name: "cs:Color"
       Color {
-        R: 1
-        G: 1
+        R: 0.63
+        G: 0.99999994
         B: 1
         A: 1
       }

@@ -29,7 +29,7 @@ local preparedTower = nil
 
 local selector = TowerSelector.New(board,{
     selectorVisualMUID = SELECTOR_GHOST,
-    magnetizeDistanceThreshold = 5000,
+    magnetizeDistanceThreshold = 40000,
     isCamToMouseRaycasting = true,
     usesMouseInput = true,
 })
@@ -37,7 +37,24 @@ local selector = TowerSelector.New(board,{
 -- The selector is stored in clientUserData as generalSelector of the player.
 LOCAL_PLAYER.clientUserData.generalSelector = selector
 
+local function IsOverValidSurface(position)
+	local startPos = position +  ( Vector3.UP * 2 )
+	local endPos = position + ( Vector3.UP * -20 )
+	
+	local hitResult = World.Raycast( startPos, endPos )
+	
+	if hitResult then
+		local result = hitResult.other
+		return result:GetCustomProperty("IsBuildable")
+	end
+end
+
 selector.OnLeftMouseButton:Connect(function()
+
+    if not IsOverValidSurface(selector:GetImpactPosition()) then
+    	return
+    end
+
     if preparedTower then
         -- If the player has enough in their gem wallet and the selectors position is not within a blocked radius of another tower.
         if GemWallet.HasEnough(preparedTower:GetCost()) and not board:IsPositionInBlockedRadiusOfTower(selector:GetImpactPosition()) then
@@ -71,6 +88,9 @@ selector.OnRightMouseButton:Connect(function()
 end)
 
 selector.OnMagnetized:Connect(function()
+    if Object.IsValid(magnetizeGhost) then
+        magnetizeGhost:Destroy()
+    end
     local selectorObject = selector:GetSelectorObject()
     magnetizeGhost = World.SpawnAsset(SELECTOR_MAGNETIZED_GHOST,{ parent = selectorObject })
 end)

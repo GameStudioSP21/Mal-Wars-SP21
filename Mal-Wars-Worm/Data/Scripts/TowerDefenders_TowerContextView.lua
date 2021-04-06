@@ -7,6 +7,7 @@ local STATS_PANEL = script:GetCustomProperty("TowerStatsPanel"):WaitForObject()
 local UPGRADE_BUTTON = script:GetCustomProperty("UpgradeButton"):WaitForObject()
 local SELL_BUTTON = script:GetCustomProperty("SellButton"):WaitForObject()
 local TARGET_BUTTON = script:GetCustomProperty("TargetButton"):WaitForObject()
+local TARGET_BUTTON_VALUE = script:GetCustomProperty("TargetingValueText"):WaitForObject()
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 local LEFT_MOUSE_BUTTON = "ability_primary"
 
@@ -21,7 +22,7 @@ function Tick()
     local camPosition = LOCAL_PLAYER:GetViewWorldPosition()
     if selectedTower then
         local distance = (camPosition - selectedTower:GetWorldPosition()).size
-        local uiPosition = selectedTower:GetWorldPosition() + Vector3.UP * 100
+        local uiPosition = selectedTower:GetWorldPosition() + Vector3.UP * 50
         local towerPosition = UI.GetScreenPosition(uiPosition)
 
         if towerPosition then
@@ -86,15 +87,18 @@ end)
 
 UPGRADE_BUTTON.pressedEvent:Connect(function()
     local board = LOCAL_PLAYER.clientUserData.activeBoard
-    if selectedTower and board and GemWallet.HasEnough(selectedTower:GetCost()) and selectedTower:GetNextUpgradeMUID() then
-        board:UpgradeTower(selectedTower)
-        GemWallet.SubtractFromWallet(selectedTower:GetCost())
-        local nearestTower = board:GetNearestTower(selectedTower:GetWorldPosition(),0,LOCAL_PLAYER)
-        GemWallet.SubtractFromWallet(nearestTower:GetCost())
-        selectedTower = nearestTower
-        Events.Broadcast("DisplayTowerContexMenu",nearestTower)
-    else
-        -- TODO: Play deny sound.
+    if selectedTower and board and selectedTower:GetNextUpgradeMUID() then
+        local upgradedTower = TowerDatabase:NewTowerByMUID(selectedTower:GetNextUpgradeMUID())
+        if GemWallet.HasEnough(upgradedTower:GetCost()) then
+            board:UpgradeTower(selectedTower)
+            GemWallet.SubtractFromWallet(upgradedTower:GetCost())
+
+            local nearestTower = board:GetTowerFromPosition(selectedTower:GetWorldPosition())
+            selectedTower = nearestTower
+            Events.Broadcast("DisplayTowerContexMenu",nearestTower)
+        else
+            -- TODO: Play deny sound.
+        end
     end
 end)
 
@@ -105,6 +109,14 @@ SELL_BUTTON.pressedEvent:Connect(function()
         GemWallet.AddToWallet(selectedTower:GetCost())
         Events.Broadcast("HideTowerContextMenu")
         selector:SetLocked(false)
+    end
+end)
+
+TARGET_BUTTON.pressedEvent:Connect(function() 
+    local board = LOCAL_PLAYER.clientUserData.activeBoard
+    if selectedTower and board then
+        selectedTower:SwitchTargetingMode()
+        TARGET_BUTTON_VALUE.text = selectedTower:GetCurrentTargetModeString()
     end
 end)
 
@@ -123,6 +135,8 @@ Events.Connect("DisplayTowerContexMenu",function(tower)
     else
         upgradeValueUI.text = "Max"
     end
+
+    TARGET_BUTTON_VALUE.text = selectedTower:GetCurrentTargetModeString()
 
     local sellValueUI = SELL_BUTTON:GetCustomProperty("ButtonValue"):WaitForObject()
     sellValueUI.text = tostring(selectedTower:GetCost())

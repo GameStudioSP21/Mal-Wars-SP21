@@ -1,11 +1,9 @@
 ﻿local GemValues = {}
 GemValues.__index = GemValues
 
-local GEMS_FOLDER = script:GetCustomProperty("GemValues"):WaitForObject()
+local GEMS_FOLDER = World.FindObjectByName("GemValues")
 
-local values = {
-
-}
+local values = {}
 
 local lowestGem = nil
 
