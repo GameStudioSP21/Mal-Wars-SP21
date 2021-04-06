@@ -1,7 +1,7 @@
 Name: "Trim"
-RootId: 9985031623894939702
+RootId: 12947833721303003305
 Objects {
-  Id: 7400585964604296076
+  Id: 15286307337438415614
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -19,7 +19,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -58,7 +58,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5885109930969232582
+  Id: 4474758695414473111
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -76,7 +76,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -115,7 +115,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1050250251491918774
+  Id: 16771501678062134636
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -133,7 +133,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -168,7 +168,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9139244906114909606
+  Id: 1548113246773817009
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -187,7 +187,7 @@ Objects {
       Z: 0.44
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -226,7 +226,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13181104674668178997
+  Id: 9014136729246599478
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -245,7 +245,7 @@ Objects {
       Z: 0.24
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -284,7 +284,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9184581582166384840
+  Id: 5798398539443180831
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -303,7 +303,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -338,7 +338,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1196313629207450160
+  Id: 641561380237390370
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -357,7 +357,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -396,7 +396,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5114778105961248492
+  Id: 5022803404595594622
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -415,7 +415,7 @@ Objects {
       Z: 0.24
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -454,7 +454,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4390189073077218594
+  Id: 13111509525771412063
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -473,7 +473,7 @@ Objects {
       Z: 0.44
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -512,7 +512,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5031510996530747264
+  Id: 10232883198870903237
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -530,7 +530,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -577,7 +577,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10115844680964033540
+  Id: 17562183804588864979
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -595,7 +595,7 @@ Objects {
       Z: 1.2443074
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -642,7 +642,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5894936608991848790
+  Id: 8956340506194527087
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -661,7 +661,7 @@ Objects {
       Z: 0.167943299
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -704,7 +704,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7791916697696316195
+  Id: 5256250706154104766
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -723,7 +723,7 @@ Objects {
       Z: 0.175921768
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -770,7 +770,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15511639215437914610
+  Id: 2348174005071332458
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -789,7 +789,7 @@ Objects {
       Z: 0.115417406
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -832,7 +832,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3174187219230123644
+  Id: 12790206600448916612
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -851,7 +851,7 @@ Objects {
       Z: 0.120901413
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -898,7 +898,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11793257307746080806
+  Id: 13583339955948954682
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -915,7 +915,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -954,7 +954,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12704447011999947098
+  Id: 14213595456967090085
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -971,7 +971,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1010,7 +1010,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7288256757112059083
+  Id: 18392732131625967691
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -1027,7 +1027,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1062,7 +1062,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11231120323391360766
+  Id: 14230344097580542020
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -1080,7 +1080,7 @@ Objects {
       Z: 0.44
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1119,7 +1119,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14469335814687970279
+  Id: 5392101751100308826
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -1137,7 +1137,7 @@ Objects {
       Z: 0.24
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1176,7 +1176,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10463282365948751815
+  Id: 15211201880053942843
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -1194,7 +1194,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1229,7 +1229,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14182473117448463587
+  Id: 8063796017471082729
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -1248,7 +1248,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1287,7 +1287,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15452886397051577702
+  Id: 16985034774561797555
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -1306,7 +1306,7 @@ Objects {
       Z: 0.24
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1345,7 +1345,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16332528758668523301
+  Id: 5872043782609907365
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -1364,7 +1364,7 @@ Objects {
       Z: 0.44
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1403,7 +1403,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6759674541308916200
+  Id: 2775724265314266119
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -1420,7 +1420,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1467,7 +1467,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14725725269553890622
+  Id: 10119513840349516962
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -1484,7 +1484,7 @@ Objects {
       Z: 1.2443074
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1531,7 +1531,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2856082475017867898
+  Id: 8953187322571394593
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -1550,7 +1550,7 @@ Objects {
       Z: 0.167943299
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1593,7 +1593,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4123659673657173708
+  Id: 6084869636602792585
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -1612,7 +1612,7 @@ Objects {
       Z: 0.175921768
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1659,7 +1659,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3663301179698422212
+  Id: 10410366141055269376
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -1677,7 +1677,7 @@ Objects {
       Z: 0.115417406
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1720,7 +1720,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15433071388380283910
+  Id: 6188826712678810677
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -1738,7 +1738,7 @@ Objects {
       Z: 0.120901413
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1785,7 +1785,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6776183812990217027
+  Id: 9437336944003846570
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -1804,7 +1804,7 @@ Objects {
       Z: 0.120901413
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1851,7 +1851,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14824188172572059601
+  Id: 16121240807150506519
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -1870,7 +1870,7 @@ Objects {
       Z: 0.115417406
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1913,7 +1913,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12331344513006212837
+  Id: 8309941106394905046
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -1932,7 +1932,7 @@ Objects {
       Z: 0.175921768
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1979,7 +1979,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6446441979515655188
+  Id: 155719426744476305
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -1998,7 +1998,7 @@ Objects {
       Z: 0.167943299
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2041,7 +2041,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16099393524318031328
+  Id: 511439507833783987
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -2059,7 +2059,7 @@ Objects {
       Z: 1.2443074
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2106,7 +2106,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8983359513761119375
+  Id: 4563305137573820837
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -2124,7 +2124,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2151,7 +2151,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4663019026490278364
+  Id: 8151747148296420690
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -2168,7 +2168,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2195,7 +2195,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14748014651089314036
+  Id: 8227775262211585598
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -2213,7 +2213,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2240,7 +2240,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10009039377670291961
+  Id: 18042836701784991270
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -2257,7 +2257,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2284,7 +2284,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18019441602610566873
+  Id: 16834063076037635961
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -2302,7 +2302,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2349,7 +2349,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12654348379456632532
+  Id: 5056709197079046168
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -2368,7 +2368,7 @@ Objects {
       Z: 0.44
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2407,7 +2407,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12272472151347287120
+  Id: 389762080191472310
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -2426,7 +2426,7 @@ Objects {
       Z: 0.24
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2465,7 +2465,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7631624267785011465
+  Id: 12292111757316587343
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -2484,7 +2484,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2523,7 +2523,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6249042576495898569
+  Id: 11374130985885637597
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -2542,7 +2542,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2577,7 +2577,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5812791499909920067
+  Id: 13003813726688798280
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -2596,7 +2596,7 @@ Objects {
       Z: 0.24
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2635,7 +2635,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17425626446874709885
+  Id: 5946451849101909339
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -2654,7 +2654,7 @@ Objects {
       Z: 0.44
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2693,7 +2693,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11770943036369281368
+  Id: 999499917052935597
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -2711,7 +2711,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2746,7 +2746,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14609854641762830896
+  Id: 13546861802382646706
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -2763,7 +2763,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2802,7 +2802,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17574540857824736888
+  Id: 14450649281245418777
   Name: "Prism - 5-Sided Polished"
   Transform {
     Location {
@@ -2820,7 +2820,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2859,7 +2859,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13894189033555180132
+  Id: 15952937084552141163
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -2877,7 +2877,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2904,7 +2904,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3292111650613281529
+  Id: 8698317156377958014
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -2923,7 +2923,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2950,7 +2950,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14291906639456133537
+  Id: 12429582708553118358
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -2969,7 +2969,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2996,7 +2996,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12255676190726908847
+  Id: 15992178403267021209
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -3015,7 +3015,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3042,7 +3042,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14545262797297663076
+  Id: 7234978486598241476
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -3061,7 +3061,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3088,7 +3088,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3091303648634222967
+  Id: 4591310886363838183
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -3107,7 +3107,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3134,7 +3134,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4823612368851347707
+  Id: 12910301481184770924
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -3153,7 +3153,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3180,7 +3180,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10411467987773467996
+  Id: 6553684652218984793
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -3198,7 +3198,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3225,7 +3225,7 @@ Objects {
   }
 }
 Objects {
-  Id: 154951476779701899
+  Id: 9331918505454815945
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -3244,7 +3244,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3271,7 +3271,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1746596510299685183
+  Id: 9291359775407100775
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -3290,7 +3290,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3317,7 +3317,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1488788772591813118
+  Id: 4562823833775581774
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -3336,7 +3336,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3363,7 +3363,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17642022984904364975
+  Id: 11666476596320348856
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -3382,7 +3382,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3409,7 +3409,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3462490894905591580
+  Id: 6001759940110865199
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -3428,7 +3428,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3455,7 +3455,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9168989193111476323
+  Id: 6193716152658619592
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -3474,7 +3474,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3501,7 +3501,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4173484989000915811
+  Id: 17952415700908785665
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -3519,7 +3519,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3546,7 +3546,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16294683732731223583
+  Id: 687291022789482560
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -3565,7 +3565,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3592,7 +3592,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7037168111462430600
+  Id: 8391245293334553144
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -3611,7 +3611,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3638,7 +3638,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7245945724729190928
+  Id: 17996007119760678641
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -3657,7 +3657,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3684,7 +3684,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12893411978421174250
+  Id: 5235086803784808546
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -3703,7 +3703,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3730,7 +3730,7 @@ Objects {
   }
 }
 Objects {
-  Id: 506690262240576995
+  Id: 15288138955272723673
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -3749,7 +3749,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3776,7 +3776,7 @@ Objects {
   }
 }
 Objects {
-  Id: 70132555620779730
+  Id: 14279150309621732050
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -3795,7 +3795,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3822,7 +3822,7 @@ Objects {
   }
 }
 Objects {
-  Id: 586392711734905197
+  Id: 3662645796786525183
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -3841,7 +3841,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3868,7 +3868,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14801470429248475365
+  Id: 3365406198654090080
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -3887,7 +3887,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3914,7 +3914,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12809327160427246351
+  Id: 7628932681516564707
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -3933,7 +3933,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3960,7 +3960,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12139745959846882125
+  Id: 7369445439240455492
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -3979,7 +3979,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4006,7 +4006,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1444523459473656008
+  Id: 5787189245935341344
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -4025,7 +4025,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4052,7 +4052,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4148655893634929666
+  Id: 8714725011344360589
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -4071,7 +4071,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4098,7 +4098,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7646001949397043634
+  Id: 13538224620796879348
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -4117,7 +4117,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4144,7 +4144,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12654161585357568127
+  Id: 6857168989110695041
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -4163,7 +4163,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4190,7 +4190,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8636885253547506767
+  Id: 9004689257663515337
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -4209,7 +4209,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4236,7 +4236,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16636517810697142340
+  Id: 10809099516602504351
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -4255,7 +4255,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4282,7 +4282,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17717104682282309937
+  Id: 17211186750559269638
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -4301,7 +4301,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4328,7 +4328,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4228517035560761936
+  Id: 9580013087308017154
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -4347,7 +4347,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4374,7 +4374,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10405149575564799472
+  Id: 17367226742033451054
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -4392,7 +4392,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -4421,7 +4421,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3492499239079125826
+  Id: 2591998064860155840
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -4440,7 +4440,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -4469,7 +4469,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10070267148082494958
+  Id: 18081851695119243216
   Name: "Sci-fi Trim 01"
   Transform {
     Location {
@@ -4488,7 +4488,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9985031623894939702
+  ParentId: 12947833721303003305
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

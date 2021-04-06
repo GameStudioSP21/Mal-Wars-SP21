@@ -2,7 +2,7 @@ Assets {
   Id: 13312761828016843193
   Name: "AC_binary"
   PlatformAssetType: 13
-  SerializationVersion: 78
+  SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 8532994446159225763
     ParameterOverrides {

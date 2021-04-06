@@ -318,7 +318,7 @@ Assets {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
         }
@@ -1024,6 +1024,6 @@ Assets {
   Marketplace {
     Description: "A simple UI with buttons to teleport player inside the current game or transfer the player to another game.\r\nNo code needed, check the README"
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
   DirectlyPublished: true
 }

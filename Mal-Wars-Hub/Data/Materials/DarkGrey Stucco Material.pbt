@@ -2,7 +2,7 @@ Assets {
   Id: 15281791623124508840
   Name: "DarkGrey Stucco Material"
   PlatformAssetType: 13
-  SerializationVersion: 78
+  SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 12566995279634467907
     ParameterOverrides {

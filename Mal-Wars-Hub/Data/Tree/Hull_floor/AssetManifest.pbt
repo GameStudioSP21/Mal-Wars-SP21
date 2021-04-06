@@ -8,15 +8,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15330718362585911441
-  Name: "Basic Material"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_basic_pbr_material_001"
-  }
-}
-Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1
@@ -35,20 +26,20 @@ Assets {
   }
 }
 Assets {
+  Id: 11507613115271256803
+  Name: "Metal Steel Hexagon 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_steel_hex_001"
+  }
+}
+Assets {
   Id: 8824553597111365900
   Name: "Tech Panel 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_sf_gen_tech-panel_001"
-  }
-}
-Assets {
-  Id: 6334817089012985741
-  Name: "Metal Greebles 04"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_scf_greebles_004_uv_ref"
   }
 }

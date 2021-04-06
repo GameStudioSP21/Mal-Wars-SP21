@@ -45,5 +45,5 @@ Assets {
   Marketplace {
     Description: "Turrets"
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
 }

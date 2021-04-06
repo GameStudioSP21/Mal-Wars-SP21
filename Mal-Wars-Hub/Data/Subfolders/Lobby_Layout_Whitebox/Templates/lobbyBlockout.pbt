@@ -6354,6 +6354,6 @@ Assets {
   Marketplace {
     Description: "test"
   }
-  SerializationVersion: 78
+  SerializationVersion: 81
   DirectlyPublished: true
 }

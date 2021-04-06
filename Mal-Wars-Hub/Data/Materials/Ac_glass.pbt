@@ -2,7 +2,7 @@ Assets {
   Id: 1047529347863228632
   Name: "Ac_glass"
   PlatformAssetType: 13
-  SerializationVersion: 78
+  SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 5166087508755620229
     ParameterOverrides {

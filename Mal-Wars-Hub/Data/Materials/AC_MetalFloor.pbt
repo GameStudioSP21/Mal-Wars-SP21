@@ -2,7 +2,7 @@ Assets {
   Id: 15681717144214804439
   Name: "AC_MetalFloor"
   PlatformAssetType: 13
-  SerializationVersion: 78
+  SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 3503739722299970262
     ParameterOverrides {

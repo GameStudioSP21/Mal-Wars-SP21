@@ -17,20 +17,29 @@ Assets {
   }
 }
 Assets {
-  Id: 4764108666382357109
-  Name: "Metal Floor Panel 01"
+  Id: 11171032344561376917
+  Name: "Metal Frame 03"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
-    AssetId: "mi_scf_simple_floor_panel_001_uv"
+    AssetId: "mi_metal_frames_003_uv"
   }
 }
 Assets {
-  Id: 3111704655613067688
-  Name: "Metal Frame 04"
+  Id: 4067605293187074557
+  Name: "Metal Frame 05"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
-    AssetId: "mi_scf_grates_001_uv"
+    AssetId: "mi_scf_grates_003_uv"
+  }
+}
+Assets {
+  Id: 3815676013324939428
+  Name: "Metal Frame 06"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_grates_005_uv"
   }
 }
