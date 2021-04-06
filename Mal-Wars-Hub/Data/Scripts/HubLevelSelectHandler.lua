@@ -5,15 +5,18 @@ local LevelBeginButton = script:GetCustomProperty("LevelBeginButton"):WaitForObj
 local LevelTransScript = script:GetCustomProperty("LevelTransScript"):WaitForObject()
 local BackButton = script:GetCustomProperty("BackButton"):WaitForObject()
 
+local DEFAULT_SIZE = 120
+local EXPAND_SIZE = 400
+
 function ResetAllSelectors()
 	for i, selector in ipairs(LevelSelectors) do
-		selector.height = 120
-		selector.y = (i - 1) * 150
+		selector.height = DEFAULT_SIZE
+		selector.y = (i - 1) * (DEFAULT_SIZE * 1.2)
 	end
 end
 
 function ShiftDown(selector)
-	selector.y = selector.y + 150
+	selector.y = selector.y + (EXPAND_SIZE - DEFAULT_SIZE)
 end
 
 --Loads level data into a selector.
@@ -53,7 +56,7 @@ for i, data in ipairs(LevelData) do
 		ResetAllSelectors()
 		
 		--Increase the size to reveal the description text.
-		selector.height = 270
+		selector.height = EXPAND_SIZE
 		
 		--Push all subsequent selectors down.
 		for j = i + 1, #LevelSelectors do
