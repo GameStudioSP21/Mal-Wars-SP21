@@ -2579,7 +2579,7 @@ Assets {
         Name: "Wires"
         Transform {
           Location {
-            X: -0.000122070312
+            X: -0.000122070313
             Y: 14.2497559
           }
           Rotation {
@@ -3903,7 +3903,7 @@ Assets {
           }
           Rotation {
             Pitch: -90
-            Yaw: -160.528808
+            Yaw: -160.528809
             Roll: -19.4711304
           }
           Scale {
@@ -7009,9 +7009,9 @@ Assets {
         Name: "Wires"
         Transform {
           Location {
-            X: -0.000122070312
+            X: -0.000122070313
             Y: 14.2496033
-            Z: 0.000122070312
+            Z: 0.000122070313
           }
           Rotation {
             Yaw: -2.30826751e-13
@@ -8414,7 +8414,7 @@ Assets {
         Transform {
           Location {
             X: 24.999939
-            Y: -6.10351562e-05
+            Y: -6.10351563e-05
             Z: -112.000015
           }
           Rotation {

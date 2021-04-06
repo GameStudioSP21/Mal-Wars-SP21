@@ -26,7 +26,7 @@ Objects {
     }
     Overrides {
       Name: "cs:LevelBlurb"
-      String: "The Emperor Worm has invaded our netscape!"
+      String: "The Emperor Worm has infiltrated the device files and begun duplicating itself, growing to an exponential size and threatening our way of fast system performance as we know it. Find the Emperor Worm, purge it, and stop its endless overriding of files."
     }
     Overrides {
       Name: "cs:LevelAddress"
@@ -72,7 +72,7 @@ Objects {
     }
     Overrides {
       Name: "cs:LevelBlurb"
-      String: "The Virus Queen is bad and annoying, so you should go shut her down."
+      String: "The Queen has been spotted, and must be eradicated in order to drive back the hordes of malware she produces. Hold off her army of viruses until she is drawn out of her nest, and terminate on sight."
     }
     Overrides {
       Name: "cs:LevelAddress"

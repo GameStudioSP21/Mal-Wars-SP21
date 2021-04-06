@@ -5,9 +5,9 @@ local H_BIND = "ability_extra_35"
 
 local TUTORIAL_TEXT = [[
 Your goal is to stop all malware from reaching your network hub.
-You can place towers by selecting from the hotbar. To purchase a tower, you need to spend Bits.
-Bits are acquired by killing enemies and completing waves. When you are ready, you can summon the first wave.
-You can press the 'H' key to close this tutorial. Don't worry, this tutorial is temporary.
+You can spend bits to purchase towers that you place by selecting them on the hotbar and clicking where you want them. Kill enemies to earn bits.
+Use WASD to move the camera, use the scroll wheel to zoom in or out, and left click on the map to fire a powerful laser that has a cooldown.
+You can press 'H' to close this tutorial. Don't worry, it won't reopen and we'll update this later.
 ]]
 
 --Player ref for binding functions

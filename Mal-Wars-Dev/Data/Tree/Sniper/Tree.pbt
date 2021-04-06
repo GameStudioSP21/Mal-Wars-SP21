@@ -22,11 +22,11 @@ Objects {
     }
     Overrides {
       Name: "cs:DisplayName"
-      String: ""
+      String: "EM-Powered Turret"
     }
     Overrides {
       Name: "cs:Description"
-      String: ""
+      String: "Max damage and range, but slowest fire rate."
     }
     Overrides {
       Name: "cs:Icon"
@@ -126,11 +126,11 @@ Objects {
     }
     Overrides {
       Name: "cs:DisplayName"
-      String: ""
+      String: "EM-Powered Turret"
     }
     Overrides {
       Name: "cs:Description"
-      String: ""
+      String: "Even stronger and more range, but fires even slower."
     }
     Overrides {
       Name: "cs:Icon"
@@ -236,11 +236,11 @@ Objects {
     }
     Overrides {
       Name: "cs:DisplayName"
-      String: ""
+      String: "EM-Powered Turret"
     }
     Overrides {
       Name: "cs:Description"
-      String: ""
+      String: "Has increased power and range, at the cost of fire speed."
     }
     Overrides {
       Name: "cs:Icon"
@@ -346,11 +346,11 @@ Objects {
     }
     Overrides {
       Name: "cs:DisplayName"
-      String: ""
+      String: "EM-Powered Turret"
     }
     Overrides {
       Name: "cs:Description"
-      String: ""
+      String: "Fires projectiles that pierce through multiple targets."
     }
     Overrides {
       Name: "cs:Icon"

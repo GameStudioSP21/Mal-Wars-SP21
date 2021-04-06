@@ -884,7 +884,7 @@ Assets {
           Location {
             X: 115
             Y: 55
-            Z: 0.000122070312
+            Z: 0.000122070313
           }
           Rotation {
             Pitch: 90
@@ -1139,7 +1139,7 @@ Assets {
           Location {
             X: 115
             Y: -55
-            Z: 0.000122070312
+            Z: 0.000122070313
           }
           Rotation {
             Pitch: -90
@@ -1400,7 +1400,7 @@ Assets {
         Transform {
           Location {
             X: 95
-            Z: 0.000122070312
+            Z: 0.000122070313
           }
           Rotation {
             Yaw: 89.9999771
@@ -1972,7 +1972,7 @@ Assets {
         Name: "Ring - Quarter"
         Transform {
           Location {
-            X: -0.00317382812
+            X: -0.00317382813
             Y: -24.4487305
             Z: 25.6430664
           }

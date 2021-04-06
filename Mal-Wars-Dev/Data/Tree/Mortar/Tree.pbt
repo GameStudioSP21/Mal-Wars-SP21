@@ -22,7 +22,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DisplayName"
-      String: ""
+      String: "Mal-Mauler"
     }
     Overrides {
       Name: "cs:Description"
@@ -126,11 +126,11 @@ Objects {
     }
     Overrides {
       Name: "cs:DisplayName"
-      String: ""
+      String: "Mal-Mauler"
     }
     Overrides {
       Name: "cs:Description"
-      String: ""
+      String: "An even bigger cannon for even stronger bombs."
     }
     Overrides {
       Name: "cs:Icon"
@@ -236,11 +236,11 @@ Objects {
     }
     Overrides {
       Name: "cs:DisplayName"
-      String: ""
+      String: "Mal-Mauler"
     }
     Overrides {
       Name: "cs:Description"
-      String: ""
+      String: "Bigger cannon for bigger bombs for bigger booms."
     }
     Overrides {
       Name: "cs:Icon"
@@ -346,11 +346,11 @@ Objects {
     }
     Overrides {
       Name: "cs:DisplayName"
-      String: ""
+      String: "Mal-Mauler"
     }
     Overrides {
       Name: "cs:Description"
-      String: ""
+      String: "Fires an explosive projectile, damaging all enemies in the explosion radius."
     }
     Overrides {
       Name: "cs:Icon"

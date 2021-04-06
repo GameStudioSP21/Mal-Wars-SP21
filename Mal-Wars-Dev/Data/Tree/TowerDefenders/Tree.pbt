@@ -245,7 +245,7 @@ Objects {
     Width: 464
     Height: 293
     UIX: 755.772095
-    UIY: 586.285644
+    UIY: 586.285645
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1393,7 +1393,7 @@ Objects {
   Name: "RarityPanel"
   Transform {
     Location {
-      X: -5915.32812
+      X: -5915.32813
       Y: 4061.9707
       Z: 588.905762
     }
@@ -5418,7 +5418,7 @@ Objects {
   Name: "RarityPanel"
   Transform {
     Location {
-      X: -5915.32812
+      X: -5915.32813
       Y: 4061.9707
       Z: 588.905762
     }
@@ -11009,7 +11009,7 @@ Objects {
   Transform {
     Location {
       X: -507.214386
-      Y: -11292.0478
+      Y: -11292.0479
       Z: 1382.26355
     }
     Rotation {
@@ -11265,7 +11265,7 @@ Objects {
   Name: "RarityPanel"
   Transform {
     Location {
-      X: -5915.32812
+      X: -5915.32813
       Y: 4061.9707
       Z: 588.905762
     }
@@ -12682,7 +12682,7 @@ Objects {
   Name: "UI Panel"
   Transform {
     Location {
-      X: -10724.081
+      X: -10724.0811
       Y: -12872.6152
       Z: 1053.57495
     }

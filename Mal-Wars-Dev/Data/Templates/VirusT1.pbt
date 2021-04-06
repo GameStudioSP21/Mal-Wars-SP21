@@ -3048,7 +3048,7 @@ Assets {
         Transform {
           Location {
             X: 131.005859
-            Y: -5.22070312
+            Y: -5.22070313
             Z: 90.5966797
           }
           Rotation {
@@ -3485,7 +3485,7 @@ Assets {
         Transform {
           Location {
             X: 131.005859
-            Y: -5.22070312
+            Y: -5.22070313
             Z: 90.5966797
           }
           Rotation {
@@ -3862,7 +3862,7 @@ Assets {
         Transform {
           Location {
             X: 131.005859
-            Y: -5.22070312
+            Y: -5.22070313
             Z: 90.5966797
           }
           Rotation {
@@ -4239,7 +4239,7 @@ Assets {
         Transform {
           Location {
             X: 131.005859
-            Y: -5.22070312
+            Y: -5.22070313
             Z: 90.5966797
           }
           Rotation {

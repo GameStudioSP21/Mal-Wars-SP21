@@ -22,11 +22,11 @@ Objects {
     }
     Overrides {
       Name: "cs:DisplayName"
-      String: ""
+      String: "Formatter"
     }
     Overrides {
       Name: "cs:Description"
-      String: ""
+      String: "Fastest fire rate with max range."
     }
     Overrides {
       Name: "cs:Icon"
@@ -126,11 +126,11 @@ Objects {
     }
     Overrides {
       Name: "cs:DisplayName"
-      String: ""
+      String: "Formatter"
     }
     Overrides {
       Name: "cs:Description"
-      String: ""
+      String: "Shoots even faster with even more range."
     }
     Overrides {
       Name: "cs:Icon"
@@ -236,11 +236,11 @@ Objects {
     }
     Overrides {
       Name: "cs:DisplayName"
-      String: ""
+      String: "Formatter"
     }
     Overrides {
       Name: "cs:Description"
-      String: ""
+      String: "Firest faster over a larger area."
     }
     Overrides {
       Name: "cs:Icon"
@@ -346,11 +346,11 @@ Objects {
     }
     Overrides {
       Name: "cs:DisplayName"
-      String: ""
+      String: "Formatter"
     }
     Overrides {
       Name: "cs:Description"
-      String: ""
+      String: "Pulses out damage in an area around it."
     }
     Overrides {
       Name: "cs:Icon"

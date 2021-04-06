@@ -2242,7 +2242,7 @@ Assets {
         Transform {
           Location {
             X: 47.5
-            Z: -6.10351562e-05
+            Z: -6.10351563e-05
           }
           Rotation {
           }
@@ -2565,7 +2565,7 @@ Assets {
         Transform {
           Location {
             X: 96.7661743
-            Z: -6.10351562e-05
+            Z: -6.10351563e-05
           }
           Rotation {
           }
@@ -3086,7 +3086,7 @@ Assets {
         Transform {
           Location {
             X: -7.42657471
-            Z: -6.10351562e-05
+            Z: -6.10351563e-05
           }
           Rotation {
           }
@@ -4015,7 +4015,7 @@ Assets {
         Name: "Sci-fi Ship Engine 01"
         Transform {
           Location {
-            X: -0.000122070312
+            X: -0.000122070313
           }
           Rotation {
             Pitch: -90

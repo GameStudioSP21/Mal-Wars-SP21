@@ -22,11 +22,11 @@ Objects {
     }
     Overrides {
       Name: "cs:DisplayName"
-      String: ""
+      String: "Real-time Turret"
     }
     Overrides {
       Name: "cs:Description"
-      String: ""
+      String: "Shoots fastest, strongest bullets with max range."
     }
     Overrides {
       Name: "cs:Icon"
@@ -120,11 +120,11 @@ Objects {
     }
     Overrides {
       Name: "cs:DisplayName"
-      String: ""
+      String: "Real-time Turret"
     }
     Overrides {
       Name: "cs:Description"
-      String: ""
+      String: "Fires even faster, stronger bullets with even more range."
     }
     Overrides {
       Name: "cs:Icon"
@@ -224,11 +224,11 @@ Objects {
     }
     Overrides {
       Name: "cs:DisplayName"
-      String: ""
+      String: "Real-time Turret"
     }
     Overrides {
       Name: "cs:Description"
-      String: ""
+      String: "Shoots faster, stronger bullets with more range."
     }
     Overrides {
       Name: "cs:Icon"
@@ -328,11 +328,11 @@ Objects {
     }
     Overrides {
       Name: "cs:DisplayName"
-      String: ""
+      String: "Real-time Turret"
     }
     Overrides {
       Name: "cs:Description"
-      String: ""
+      String: "Automatically fires at any enemies within range."
     }
     Overrides {
       Name: "cs:Icon"

@@ -2674,7 +2674,7 @@ Assets {
             Color {
               R: 0.0935498178
               G: 0.109375
-              B: 0.0922851562
+              B: 0.0922851563
               A: 1
             }
           }
@@ -2733,7 +2733,7 @@ Assets {
             Color {
               R: 0.0935498178
               G: 0.109375
-              B: 0.0922851562
+              B: 0.0922851563
               A: 1
             }
           }
@@ -7731,7 +7731,7 @@ Assets {
         Transform {
           Location {
             X: 37.6747055
-            Y: 184.625976
+            Y: 184.625977
             Z: 60.8238144
           }
           Rotation {
@@ -9106,7 +9106,7 @@ Assets {
         Transform {
           Location {
             X: 44.0081139
-            Y: -96.5688476
+            Y: -96.5688477
             Z: -1.04923565e-05
           }
           Rotation {
@@ -14390,7 +14390,7 @@ Assets {
         Transform {
           Location {
             X: -155.171173
-            Y: 102.785644
+            Y: 102.785645
             Z: 60.8238602
           }
           Rotation {
@@ -22571,7 +22571,7 @@ Assets {
         Name: "Plane Trapezoid - One Sided"
         Transform {
           Location {
-            X: -216.945312
+            X: -216.945313
             Y: -91.6617126
             Z: 6.68075943
           }
@@ -22635,7 +22635,7 @@ Assets {
         Name: "Plane Trapezoid - One Sided"
         Transform {
           Location {
-            X: -216.945312
+            X: -216.945313
             Y: -91.6617126
             Z: 6.68075943
           }
@@ -25606,7 +25606,7 @@ Assets {
             Z: 1183.10803
           }
           Rotation {
-            Pitch: -0.00805664062
+            Pitch: -0.00805664063
             Yaw: 0.646864533
             Roll: -37.097229
           }
