@@ -9,7 +9,7 @@ Tags: "TowerDefense"
 Tags: "Action"
 Tags: "Casual"
 ScreenshotPaths: "D:/Documents/CORE/Mal-Wars-SP21/Mal-Wars-Dev/Screenshots/Screenshot0001.png"
-ReleaseNotes: "Pushinbg because apparently the Worm Level thinks that it is this level, but actually it is not. So this is the Queen Level establishing dominance."
+ReleaseNotes: "New waves added! The game now runs until Wave 24!"
 OwnerId: "915299ba3314494bbd5eb7a67d954099"
 SerializationVersion: 1
 PublishedState: Child
