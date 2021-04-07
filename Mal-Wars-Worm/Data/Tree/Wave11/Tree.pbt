@@ -1,6 +1,110 @@
 Name: "Wave11"
 RootId: 9240606049615723084
 Objects {
+  Id: 3736526184041631597
+  Name: "20 ReAd"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9240606049615723084
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Enemy"
+      AssetReference {
+        Id: 13666678496038779585
+      }
+    }
+    Overrides {
+      Name: "cs:Amount"
+      Vector2 {
+        X: 20
+        Y: 20
+      }
+    }
+    Overrides {
+      Name: "cs:HealthMultiplier"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:SpeedMultiplier"
+      Int: 2
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "20 ReAd_22"
+  }
+}
+Objects {
+  Id: 15423359545430400826
+  Name: "40 ReVr"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9240606049615723084
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Enemy"
+      AssetReference {
+        Id: 13540676411188992771
+      }
+    }
+    Overrides {
+      Name: "cs:Amount"
+      Vector2 {
+        X: 40
+        Y: 40
+      }
+    }
+    Overrides {
+      Name: "cs:HealthMultiplier"
+      Int: 1
+    }
+    Overrides {
+      Name: "cs:SpeedMultiplier"
+      Int: 2
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "40 ReVr_20"
+  }
+}
+Objects {
   Id: 14440509003725414948
   Name: "40 ReVr"
   Transform {
@@ -149,7 +253,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "1 GrWo_9"
+    FilePartitionName: "1 GrWo_13"
   }
 }
 Objects {

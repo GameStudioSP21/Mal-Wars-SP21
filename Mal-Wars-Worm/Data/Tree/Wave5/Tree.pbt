@@ -45,7 +45,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "1 GrWo_12"
+    FilePartitionName: "1 GrWo_16"
   }
 }
 Objects {
@@ -189,7 +189,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "1 GrWo_13"
+    FilePartitionName: "1 GrWo_17"
   }
 }
 Objects {

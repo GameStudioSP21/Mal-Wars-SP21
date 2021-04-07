@@ -1,6 +1,58 @@
 Name: "Wave16"
 RootId: 18390299748586838083
 Objects {
+  Id: 6426532517284779872
+  Name: "20 ReAd"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18390299748586838083
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Enemy"
+      AssetReference {
+        Id: 13666678496038779585
+      }
+    }
+    Overrides {
+      Name: "cs:Amount"
+      Vector2 {
+        X: 20
+        Y: 20
+      }
+    }
+    Overrides {
+      Name: "cs:HealthMultiplier"
+      Int: 2
+    }
+    Overrides {
+      Name: "cs:SpeedMultiplier"
+      Int: 2
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "20 ReAd_8"
+  }
+}
+Objects {
   Id: 17341416978605267266
   Name: "40 ReVr"
   Transform {
@@ -31,7 +83,7 @@ Objects {
     }
     Overrides {
       Name: "cs:HealthMultiplier"
-      Int: 1
+      Int: 2
     }
     Overrides {
       Name: "cs:SpeedMultiplier"
@@ -83,7 +135,7 @@ Objects {
     }
     Overrides {
       Name: "cs:HealthMultiplier"
-      Int: 1
+      Int: 2
     }
     Overrides {
       Name: "cs:SpeedMultiplier"
@@ -101,7 +153,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "20 ReAd_8"
+    FilePartitionName: "20 ReAd_1"
   }
 }
 Objects {
@@ -149,7 +201,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "1 GrWo_4"
+    FilePartitionName: "1 GrWo_5"
   }
 }
 Objects {
@@ -183,7 +235,7 @@ Objects {
     }
     Overrides {
       Name: "cs:HealthMultiplier"
-      Int: 1
+      Int: 2
     }
     Overrides {
       Name: "cs:SpeedMultiplier"
@@ -235,7 +287,7 @@ Objects {
     }
     Overrides {
       Name: "cs:HealthMultiplier"
-      Int: 1
+      Int: 2
     }
     Overrides {
       Name: "cs:SpeedMultiplier"

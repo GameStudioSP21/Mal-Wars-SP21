@@ -101,7 +101,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "20 ReAd_22"
+    FilePartitionName: "20 ReAd_12"
   }
 }
 Objects {
@@ -149,7 +149,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "1 GrWo_11"
+    FilePartitionName: "1 GrWo_15"
   }
 }
 Objects {
