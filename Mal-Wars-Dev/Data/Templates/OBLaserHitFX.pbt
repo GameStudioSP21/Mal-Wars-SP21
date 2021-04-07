@@ -16,8 +16,8 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
+        ChildIds: 17616927078116925209
         ChildIds: 15904328013480576300
-        ChildIds: 8610664118386540039
         ChildIds: 9741057590163678975
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -30,6 +30,47 @@ Assets {
         }
         Folder {
           IsGroup: true
+        }
+      }
+      Objects {
+        Id: 17616927078116925209
+        Name: "Explosion Creation & Construction Kit 01 SFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 18214073200969817169
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 6970563607933101105
+          }
+          TeamSettings {
+          }
+          AudioBP {
+            Pitch: -945.490723
+            Volume: 1
+            Falloff: 4000
+            Radius: 2500
+            EnableOcclusion: true
+            IsSpatializationEnabled: true
+            IsAttenuationEnabled: true
+          }
         }
       }
       Objects {
@@ -64,55 +105,6 @@ Assets {
           Volume: 0.5
           Falloff: 6000
           Radius: 3000
-        }
-      }
-      Objects {
-        Id: 8610664118386540039
-        Name: "Distant Explosions Set 01 SFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 18214073200969817169
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Type"
-            Enum {
-              Value: "mc:esfx_explosions_distant:20"
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 7167383016849586648
-          }
-          TeamSettings {
-          }
-          AudioBP {
-            Pitch: 2400
-            Volume: 0.830854356
-            Falloff: 4000
-            Radius: 3000
-            EnableOcclusion: true
-            IsSpatializationEnabled: true
-            IsAttenuationEnabled: true
-          }
         }
       }
       Objects {
@@ -192,21 +184,21 @@ Assets {
       }
     }
     Assets {
+      Id: 6970563607933101105
+      Name: "Explosion Creation & Construction Kit 01 SFX"
+      PlatformAssetType: 10
+      PrimaryAsset {
+        AssetType: "AudioBlueprintAssetRef"
+        AssetId: "sfxabp_explosion_construction_kit_ref"
+      }
+    }
+    Assets {
       Id: 7676896943578869282
       Name: "Sci-fi Synth Granulize Growl 01 SFX"
       PlatformAssetType: 7
       PrimaryAsset {
         AssetType: "AudioAssetRef"
         AssetId: "sfx_scifi_synth_granulize_growl_01_Cue_ref"
-      }
-    }
-    Assets {
-      Id: 7167383016849586648
-      Name: "Distant Explosions Set 01 SFX"
-      PlatformAssetType: 10
-      PrimaryAsset {
-        AssetType: "AudioBlueprintAssetRef"
-        AssetId: "sfxabp_explosions_distant_ref"
       }
     }
     Assets {
