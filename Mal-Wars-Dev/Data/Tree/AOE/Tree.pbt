@@ -52,7 +52,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 360
+      Int: 200
     }
     Overrides {
       Name: "cs:Range"
@@ -60,7 +60,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Speed"
-      Float: 3
+      Float: 5
     }
     Overrides {
       Name: "cs:Tower"
@@ -156,7 +156,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 180
+      Int: 100
     }
     Overrides {
       Name: "cs:Range"
@@ -164,7 +164,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Speed"
-      Float: 3
+      Float: 5
     }
     Overrides {
       Name: "cs:Tower"
@@ -266,7 +266,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 90
+      Int: 50
     }
     Overrides {
       Name: "cs:Range"
@@ -274,7 +274,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Speed"
-      Float: 3
+      Float: 5
     }
     Overrides {
       Name: "cs:Tower"
@@ -376,7 +376,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 45
+      Int: 25
     }
     Overrides {
       Name: "cs:Range"
@@ -384,7 +384,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Speed"
-      Float: 3
+      Float: 5
     }
     Overrides {
       Name: "cs:Tower"

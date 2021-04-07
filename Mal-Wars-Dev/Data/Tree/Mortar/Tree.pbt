@@ -5,6 +5,7 @@ Objects {
   Name: "MortarLv4"
   Transform {
     Location {
+      Y: -16900
     }
     Rotation {
     }
@@ -56,7 +57,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Range"
-      Float: 80
+      Float: 175
     }
     Overrides {
       Name: "cs:Speed"
@@ -160,7 +161,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Range"
-      Float: 60
+      Float: 150
     }
     Overrides {
       Name: "cs:Speed"
@@ -270,7 +271,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Range"
-      Float: 50
+      Float: 130
     }
     Overrides {
       Name: "cs:Speed"
@@ -380,7 +381,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Range"
-      Float: 40
+      Float: 120
     }
     Overrides {
       Name: "cs:Speed"
