@@ -1,8 +1,67 @@
 Name: "Citadel"
 RootId: 11302024653263081212
 Objects {
-  Id: 14859154552068645018
-  Name: "Wave8"
+  Id: 17691963097662169167
+  Name: "Wave24"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11302024653263081212
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SpawnDelay"
+      Float: 0.6
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:IsBossWave"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 500
+    }
+    Overrides {
+      Name: "cs:SpawnDelay:tooltip"
+      String: "How often an enemy should spawn from the enemy table below"
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning:tooltip"
+      String: "Spawns the enemies in order from top of the hierarchy to bottom from the wave group. Leave this off if you want randomization."
+    }
+    Overrides {
+      Name: "cs:IsBossWave:tooltip"
+      String: "Marks a wave as a boss wave."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Wave24"
+  }
+}
+Objects {
+  Id: 5357329560578586887
+  Name: "Wave23"
   Transform {
     Location {
     }
@@ -30,7 +89,7 @@ Objects {
     }
     Overrides {
       Name: "cs:WavePayout"
-      Int: 6400
+      Int: 300
     }
     Overrides {
       Name: "cs:SpawnDelay:tooltip"
@@ -56,12 +115,12 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Wave8"
+    FilePartitionName: "Wave23"
   }
 }
 Objects {
-  Id: 2006978697845648767
-  Name: "Wave7"
+  Id: 14192916255349548283
+  Name: "Wave22"
   Transform {
     Location {
     }
@@ -77,7 +136,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
-      Float: 1.5
+      Float: 0.4
     }
     Overrides {
       Name: "cs:InOrderSpawning"
@@ -89,7 +148,7 @@ Objects {
     }
     Overrides {
       Name: "cs:WavePayout"
-      Int: 4900
+      Int: 300
     }
     Overrides {
       Name: "cs:SpawnDelay:tooltip"
@@ -115,12 +174,12 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Wave7"
+    FilePartitionName: "Wave22"
   }
 }
 Objects {
-  Id: 13838315464293966470
-  Name: "Wave6"
+  Id: 8416491609646249421
+  Name: "Wave21"
   Transform {
     Location {
     }
@@ -136,7 +195,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
-      Float: 0.2
+      Float: 0.5
     }
     Overrides {
       Name: "cs:InOrderSpawning"
@@ -148,7 +207,7 @@ Objects {
     }
     Overrides {
       Name: "cs:WavePayout"
-      Int: 3600
+      Int: 200
     }
     Overrides {
       Name: "cs:SpawnDelay:tooltip"
@@ -174,189 +233,12 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Wave6"
+    FilePartitionName: "Wave21"
   }
 }
 Objects {
-  Id: 17734512529401566660
-  Name: "Wave5"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11302024653263081212
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:SpawnDelay"
-      Float: 0.3
-    }
-    Overrides {
-      Name: "cs:InOrderSpawning"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:IsBossWave"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:WavePayout"
-      Int: 2500
-    }
-    Overrides {
-      Name: "cs:SpawnDelay:tooltip"
-      String: "How often an enemy should spawn from the enemy table below"
-    }
-    Overrides {
-      Name: "cs:InOrderSpawning:tooltip"
-      String: "Spawns the enemies in order from top of the hierarchy to bottom from the wave group. Leave this off if you want randomization."
-    }
-    Overrides {
-      Name: "cs:IsBossWave:tooltip"
-      String: "Marks a wave as a boss wave."
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Wave5"
-  }
-}
-Objects {
-  Id: 17365817214076692164
-  Name: "Wave4"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11302024653263081212
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:SpawnDelay"
-      Float: 0.7
-    }
-    Overrides {
-      Name: "cs:InOrderSpawning"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:IsBossWave"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:WavePayout"
-      Int: 1600
-    }
-    Overrides {
-      Name: "cs:SpawnDelay:tooltip"
-      String: "How often an enemy should spawn from the enemy table below"
-    }
-    Overrides {
-      Name: "cs:InOrderSpawning:tooltip"
-      String: "Spawns the enemies in order from top of the hierarchy to bottom from the wave group. Leave this off if you want randomization."
-    }
-    Overrides {
-      Name: "cs:IsBossWave:tooltip"
-      String: "Marks a wave as a boss wave."
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Wave4"
-  }
-}
-Objects {
-  Id: 4669332663382257044
-  Name: "Wave3"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11302024653263081212
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:SpawnDelay"
-      Float: 0.65
-    }
-    Overrides {
-      Name: "cs:InOrderSpawning"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:IsBossWave"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:WavePayout"
-      Int: 900
-    }
-    Overrides {
-      Name: "cs:SpawnDelay:tooltip"
-      String: "How often an enemy should spawn from the enemy table below"
-    }
-    Overrides {
-      Name: "cs:InOrderSpawning:tooltip"
-      String: "Spawns the enemies in order from top of the hierarchy to bottom from the wave group. Leave this off if you want randomization."
-    }
-    Overrides {
-      Name: "cs:IsBossWave:tooltip"
-      String: "Marks a wave as a boss wave."
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Wave3"
-  }
-}
-Objects {
-  Id: 5161887533204845570
-  Name: "Wave2"
+  Id: 3085151940639550012
+  Name: "Wave20"
   Transform {
     Location {
     }
@@ -410,11 +292,1073 @@ Objects {
   }
   Folder {
     IsFilePartition: true
+    FilePartitionName: "Wave20"
+  }
+}
+Objects {
+  Id: 2431688470690742081
+  Name: "Wave19"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11302024653263081212
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SpawnDelay"
+      Float: 0.5
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:IsBossWave"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 300
+    }
+    Overrides {
+      Name: "cs:SpawnDelay:tooltip"
+      String: "How often an enemy should spawn from the enemy table below"
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning:tooltip"
+      String: "Spawns the enemies in order from top of the hierarchy to bottom from the wave group. Leave this off if you want randomization."
+    }
+    Overrides {
+      Name: "cs:IsBossWave:tooltip"
+      String: "Marks a wave as a boss wave."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Wave19"
+  }
+}
+Objects {
+  Id: 18169899328330886386
+  Name: "Wave18"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11302024653263081212
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SpawnDelay"
+      Float: 0.55
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:IsBossWave"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 150
+    }
+    Overrides {
+      Name: "cs:SpawnDelay:tooltip"
+      String: "How often an enemy should spawn from the enemy table below"
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning:tooltip"
+      String: "Spawns the enemies in order from top of the hierarchy to bottom from the wave group. Leave this off if you want randomization."
+    }
+    Overrides {
+      Name: "cs:IsBossWave:tooltip"
+      String: "Marks a wave as a boss wave."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Wave18"
+  }
+}
+Objects {
+  Id: 249862568176693221
+  Name: "Wave17"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11302024653263081212
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SpawnDelay"
+      Float: 0.55
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:IsBossWave"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 300
+    }
+    Overrides {
+      Name: "cs:SpawnDelay:tooltip"
+      String: "How often an enemy should spawn from the enemy table below"
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning:tooltip"
+      String: "Spawns the enemies in order from top of the hierarchy to bottom from the wave group. Leave this off if you want randomization."
+    }
+    Overrides {
+      Name: "cs:IsBossWave:tooltip"
+      String: "Marks a wave as a boss wave."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Wave17"
+  }
+}
+Objects {
+  Id: 9241322867012694921
+  Name: "Wave16"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11302024653263081212
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SpawnDelay"
+      Float: 0.6
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:IsBossWave"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 500
+    }
+    Overrides {
+      Name: "cs:SpawnDelay:tooltip"
+      String: "How often an enemy should spawn from the enemy table below"
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning:tooltip"
+      String: "Spawns the enemies in order from top of the hierarchy to bottom from the wave group. Leave this off if you want randomization."
+    }
+    Overrides {
+      Name: "cs:IsBossWave:tooltip"
+      String: "Marks a wave as a boss wave."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Wave16"
+  }
+}
+Objects {
+  Id: 7117974125882902736
+  Name: "Wave15"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11302024653263081212
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SpawnDelay"
+      Float: 0.4
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:IsBossWave"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 300
+    }
+    Overrides {
+      Name: "cs:SpawnDelay:tooltip"
+      String: "How often an enemy should spawn from the enemy table below"
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning:tooltip"
+      String: "Spawns the enemies in order from top of the hierarchy to bottom from the wave group. Leave this off if you want randomization."
+    }
+    Overrides {
+      Name: "cs:IsBossWave:tooltip"
+      String: "Marks a wave as a boss wave."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Wave15"
+  }
+}
+Objects {
+  Id: 17466341741010156035
+  Name: "Wave14"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11302024653263081212
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SpawnDelay"
+      Float: 0.4
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:IsBossWave"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 300
+    }
+    Overrides {
+      Name: "cs:SpawnDelay:tooltip"
+      String: "How often an enemy should spawn from the enemy table below"
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning:tooltip"
+      String: "Spawns the enemies in order from top of the hierarchy to bottom from the wave group. Leave this off if you want randomization."
+    }
+    Overrides {
+      Name: "cs:IsBossWave:tooltip"
+      String: "Marks a wave as a boss wave."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Wave14"
+  }
+}
+Objects {
+  Id: 10242546302560810440
+  Name: "Wave13"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11302024653263081212
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SpawnDelay"
+      Float: 0.5
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:IsBossWave"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 200
+    }
+    Overrides {
+      Name: "cs:SpawnDelay:tooltip"
+      String: "How often an enemy should spawn from the enemy table below"
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning:tooltip"
+      String: "Spawns the enemies in order from top of the hierarchy to bottom from the wave group. Leave this off if you want randomization."
+    }
+    Overrides {
+      Name: "cs:IsBossWave:tooltip"
+      String: "Marks a wave as a boss wave."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Wave13"
+  }
+}
+Objects {
+  Id: 7595935619897863066
+  Name: "Wave12"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11302024653263081212
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SpawnDelay"
+      Float: 0.5
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:IsBossWave"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 400
+    }
+    Overrides {
+      Name: "cs:SpawnDelay:tooltip"
+      String: "How often an enemy should spawn from the enemy table below"
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning:tooltip"
+      String: "Spawns the enemies in order from top of the hierarchy to bottom from the wave group. Leave this off if you want randomization."
+    }
+    Overrides {
+      Name: "cs:IsBossWave:tooltip"
+      String: "Marks a wave as a boss wave."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Wave12"
+  }
+}
+Objects {
+  Id: 2690166876310186463
+  Name: "Wave11"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11302024653263081212
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SpawnDelay"
+      Float: 0.5
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:IsBossWave"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 300
+    }
+    Overrides {
+      Name: "cs:SpawnDelay:tooltip"
+      String: "How often an enemy should spawn from the enemy table below"
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning:tooltip"
+      String: "Spawns the enemies in order from top of the hierarchy to bottom from the wave group. Leave this off if you want randomization."
+    }
+    Overrides {
+      Name: "cs:IsBossWave:tooltip"
+      String: "Marks a wave as a boss wave."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Wave11"
+  }
+}
+Objects {
+  Id: 24648980246706349
+  Name: "Wave10"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11302024653263081212
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SpawnDelay"
+      Float: 0.55
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:IsBossWave"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 150
+    }
+    Overrides {
+      Name: "cs:SpawnDelay:tooltip"
+      String: "How often an enemy should spawn from the enemy table below"
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning:tooltip"
+      String: "Spawns the enemies in order from top of the hierarchy to bottom from the wave group. Leave this off if you want randomization."
+    }
+    Overrides {
+      Name: "cs:IsBossWave:tooltip"
+      String: "Marks a wave as a boss wave."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Wave10"
+  }
+}
+Objects {
+  Id: 5378559559700146341
+  Name: "Wave9"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11302024653263081212
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SpawnDelay"
+      Float: 0.55
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:IsBossWave"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 300
+    }
+    Overrides {
+      Name: "cs:SpawnDelay:tooltip"
+      String: "How often an enemy should spawn from the enemy table below"
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning:tooltip"
+      String: "Spawns the enemies in order from top of the hierarchy to bottom from the wave group. Leave this off if you want randomization."
+    }
+    Overrides {
+      Name: "cs:IsBossWave:tooltip"
+      String: "Marks a wave as a boss wave."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Wave9"
+  }
+}
+Objects {
+  Id: 10123597914259605822
+  Name: "Wave8"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11302024653263081212
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SpawnDelay"
+      Float: 0.6
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:IsBossWave"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 500
+    }
+    Overrides {
+      Name: "cs:SpawnDelay:tooltip"
+      String: "How often an enemy should spawn from the enemy table below"
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning:tooltip"
+      String: "Spawns the enemies in order from top of the hierarchy to bottom from the wave group. Leave this off if you want randomization."
+    }
+    Overrides {
+      Name: "cs:IsBossWave:tooltip"
+      String: "Marks a wave as a boss wave."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Wave8"
+  }
+}
+Objects {
+  Id: 475570865089935754
+  Name: "Wave7"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11302024653263081212
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SpawnDelay"
+      Float: 0.6
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:IsBossWave"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 300
+    }
+    Overrides {
+      Name: "cs:SpawnDelay:tooltip"
+      String: "How often an enemy should spawn from the enemy table below"
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning:tooltip"
+      String: "Spawns the enemies in order from top of the hierarchy to bottom from the wave group. Leave this off if you want randomization."
+    }
+    Overrides {
+      Name: "cs:IsBossWave:tooltip"
+      String: "Marks a wave as a boss wave."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Wave7"
+  }
+}
+Objects {
+  Id: 11565726397534528901
+  Name: "Wave6"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11302024653263081212
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SpawnDelay"
+      Float: 0.6
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:IsBossWave"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 300
+    }
+    Overrides {
+      Name: "cs:SpawnDelay:tooltip"
+      String: "How often an enemy should spawn from the enemy table below"
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning:tooltip"
+      String: "Spawns the enemies in order from top of the hierarchy to bottom from the wave group. Leave this off if you want randomization."
+    }
+    Overrides {
+      Name: "cs:IsBossWave:tooltip"
+      String: "Marks a wave as a boss wave."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Wave6"
+  }
+}
+Objects {
+  Id: 9542823135900439776
+  Name: "Wave5"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11302024653263081212
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SpawnDelay"
+      Float: 0.5
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:IsBossWave"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 200
+    }
+    Overrides {
+      Name: "cs:SpawnDelay:tooltip"
+      String: "How often an enemy should spawn from the enemy table below"
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning:tooltip"
+      String: "Spawns the enemies in order from top of the hierarchy to bottom from the wave group. Leave this off if you want randomization."
+    }
+    Overrides {
+      Name: "cs:IsBossWave:tooltip"
+      String: "Marks a wave as a boss wave."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Wave5"
+  }
+}
+Objects {
+  Id: 12693671259903591282
+  Name: "Wave4"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11302024653263081212
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SpawnDelay"
+      Float: 0.6
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:IsBossWave"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 200
+    }
+    Overrides {
+      Name: "cs:SpawnDelay:tooltip"
+      String: "How often an enemy should spawn from the enemy table below"
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning:tooltip"
+      String: "Spawns the enemies in order from top of the hierarchy to bottom from the wave group. Leave this off if you want randomization."
+    }
+    Overrides {
+      Name: "cs:IsBossWave:tooltip"
+      String: "Marks a wave as a boss wave."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Wave4"
+  }
+}
+Objects {
+  Id: 12788391520077779299
+  Name: "Wave3"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11302024653263081212
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SpawnDelay"
+      Float: 0.6
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:IsBossWave"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 200
+    }
+    Overrides {
+      Name: "cs:SpawnDelay:tooltip"
+      String: "How often an enemy should spawn from the enemy table below"
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning:tooltip"
+      String: "Spawns the enemies in order from top of the hierarchy to bottom from the wave group. Leave this off if you want randomization."
+    }
+    Overrides {
+      Name: "cs:IsBossWave:tooltip"
+      String: "Marks a wave as a boss wave."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Wave3"
+  }
+}
+Objects {
+  Id: 2828104141490271246
+  Name: "Wave2"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11302024653263081212
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SpawnDelay"
+      Float: 0.6
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:IsBossWave"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 150
+    }
+    Overrides {
+      Name: "cs:SpawnDelay:tooltip"
+      String: "How often an enemy should spawn from the enemy table below"
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning:tooltip"
+      String: "Spawns the enemies in order from top of the hierarchy to bottom from the wave group. Leave this off if you want randomization."
+    }
+    Overrides {
+      Name: "cs:IsBossWave:tooltip"
+      String: "Marks a wave as a boss wave."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
     FilePartitionName: "Wave2"
   }
 }
 Objects {
-  Id: 2846107153629823890
+  Id: 12538049953789746322
   Name: "Wave1"
   Transform {
     Location {
