@@ -57,7 +57,7 @@ Objects {
     Overrides {
       Name: "cs:Tower"
       AssetReference {
-        Id: 3908152756054639307
+        Id: 793988032842036727
       }
     }
     Overrides {
@@ -153,7 +153,7 @@ Objects {
     Overrides {
       Name: "cs:Tower"
       AssetReference {
-        Id: 841534158063459245
+        Id: 11315530843511458917
       }
     }
     Overrides {
@@ -255,7 +255,7 @@ Objects {
     Overrides {
       Name: "cs:Tower"
       AssetReference {
-        Id: 1111472039125090498
+        Id: 6175689527986577859
       }
     }
     Overrides {
@@ -344,7 +344,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 25
+      Int: 10
     }
     Overrides {
       Name: "cs:Speed"
@@ -357,7 +357,7 @@ Objects {
     Overrides {
       Name: "cs:Tower"
       AssetReference {
-        Id: 1111410444814437710
+        Id: 620740833502305820
       }
     }
     Overrides {
