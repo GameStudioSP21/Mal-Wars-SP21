@@ -93,7 +93,6 @@ Objects {
   ChildIds: 3670652305858401700
   ChildIds: 17279088920053467177
   ChildIds: 15970463994141445221
-  ChildIds: 10018957074452998709
   ChildIds: 8367636380608275671
   ChildIds: 2749245714592432115
   ChildIds: 3901203926363099587
@@ -105,6 +104,7 @@ Objects {
   ChildIds: 16757590802066248507
   ChildIds: 10589467010113517291
   ChildIds: 15855902819366650372
+  ChildIds: 3608223546035372207
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -116,6 +116,35 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 3608223546035372207
+  Name: "Jay"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10722931758594424760
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Jay"
   }
 }
 Objects {
@@ -435,35 +464,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Jonpaul"
-  }
-}
-Objects {
-  Id: 10018957074452998709
-  Name: "Jay"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10722931758594424760
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Jay"
   }
 }
 Objects {
