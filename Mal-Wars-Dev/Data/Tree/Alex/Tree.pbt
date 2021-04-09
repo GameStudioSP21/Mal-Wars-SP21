@@ -110,8 +110,8 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    Width: -600
-    Height: -600
+    Width: -400
+    Height: -400
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
