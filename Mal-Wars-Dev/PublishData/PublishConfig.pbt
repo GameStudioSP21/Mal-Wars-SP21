@@ -9,7 +9,7 @@ Tags: "TowerDefense"
 Tags: "Action"
 Tags: "Casual"
 ScreenshotPaths: "D:/Documents/CORE/Mal-Wars-SP21/Mal-Wars-Dev/Screenshots/Screenshot0001.png"
-ReleaseNotes: "Update for soft-release playtest! There are still quite a few animation bugs, and the tesla tower is still a work-in-progress. None the less, tell us what you think!"
+ReleaseNotes: "Removed level transition button."
 OwnerId: "915299ba3314494bbd5eb7a67d954099"
 SerializationVersion: 1
 PublishedState: Child
