@@ -7,7 +7,7 @@ Tags: "TopDown"
 Tags: "TowerDefense"
 Tags: "Scifi"
 ScreenshotPaths: "D:/Documents/CORE/Mal-Wars-SP21/Mal-Wars-Hub/Screenshots/Screenshot0001.png"
-ReleaseNotes: "Pushing the hub for the Alpha Playtest."
+ReleaseNotes: "Added bestiary skeleton UI."
 OwnerId: "915299ba3314494bbd5eb7a67d954099"
 SerializationVersion: 1
 PublishedState: Public

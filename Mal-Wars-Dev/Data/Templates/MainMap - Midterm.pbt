@@ -749,6 +749,7 @@ Assets {
         }
         ParentId: 17637186462734073188
         ChildIds: 8063321144419250404
+        ChildIds: 16648496906159584329
         ChildIds: 5743599756714529578
         ChildIds: 17844356610190503841
         ChildIds: 9071630686656743
@@ -781,8 +782,61 @@ Assets {
         Name: "Node"
         Transform {
           Location {
-            X: 635
+            X: 655
             Y: -450
+            Z: 35
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.5
+            Y: 0.5
+            Z: 0.5
+          }
+        }
+        ParentId: 14317703887764568577
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 16490700747598301709
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12095835209017042614
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 16648496906159584329
+        Name: "Node"
+        Transform {
+          Location {
+            X: 655
+            Y: -350
+            Z: 35
           }
           Rotation {
           }

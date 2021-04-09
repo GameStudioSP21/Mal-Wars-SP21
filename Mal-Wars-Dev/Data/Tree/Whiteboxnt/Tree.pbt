@@ -13206,7 +13206,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:IsBuildable"
-      Bool: false
+      Bool: true
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -13268,7 +13268,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:IsBuildable"
-      Bool: false
+      Bool: true
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -21504,8 +21504,8 @@ Objects {
   }
   ParentId: 8324161319524091147
   ChildIds: 2074308503116049477
-  ChildIds: 8774478298169147506
   ChildIds: 937814005387244073
+  ChildIds: 14315380184649493587
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -21517,6 +21517,100 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 14315380184649493587
+  Name: "BevelFlipped_Path"
+  Transform {
+    Location {
+      X: -8211.7832
+      Y: 2227.26245
+      Z: -42.2406
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: -1
+      Y: -1
+      Z: 1
+    }
+  }
+  ParentId: 8488411900768639064
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 396874308885234948
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2121.47852
+            Y: -1429.96191
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8808799377883141616
+      value {
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 180
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11101621005157182602
+      value {
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15715088021643346016
+      value {
+        Overrides {
+          Name: "Name"
+          String: "BevelFlipped_Path"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2215
+            Y: -2229
+            Z: 51
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: -1
+            Y: -1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11696035226837235128
+    }
   }
 }
 Objects {
@@ -21567,62 +21661,6 @@ Objects {
     }
     TemplateAsset {
       Id: 5103973752602277390
-    }
-  }
-}
-Objects {
-  Id: 8774478298169147506
-  Name: "Bevel_Path"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8488411900768639064
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 15715088021643346016
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Bevel_Path"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 2230.71606
-            Y: -2215.31738
-            Z: 50.0000038
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: 1.36603776e-05
-            Yaw: -180
-            Roll: -180
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: -1
-            Z: -1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13278643246804230371
     }
   }
 }
@@ -21745,14 +21783,6 @@ Objects {
         Overrides {
           Name: "Name"
           String: "BevelFlipped_Path"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: -1
-            Y: -1
-            Z: 1
-          }
         }
         Overrides {
           Name: "Position"
@@ -23497,7 +23527,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:IsBuildable"
-      Bool: false
+      Bool: true
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -23558,7 +23588,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:IsBuildable"
-      Bool: false
+      Bool: true
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"

@@ -15,6 +15,7 @@ Objects {
     }
   }
   ParentId: 9275720789267418785
+  ChildIds: 11575126075024063535
   ChildIds: 17741332394134683309
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -43,9 +44,7 @@ Objects {
     }
   }
   ParentId: 1770981022803373777
-  ChildIds: 10076001998124505878
-  ChildIds: 17362281617240475621
-  ChildIds: 11575126075024063535
+  ChildIds: 16451380794533998245
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -81,12 +80,16 @@ Objects {
   }
 }
 Objects {
-  Id: 11575126075024063535
-  Name: "TutorialToggle"
+  Id: 16451380794533998245
+  Name: "TutorialPanel"
   Transform {
     Location {
+      X: -14869.4873
+      Y: 1217.54529
+      Z: 2966.88208
     }
     Rotation {
+      Yaw: -153.211639
     }
     Scale {
       X: 1
@@ -95,14 +98,8 @@ Objects {
     }
   }
   ParentId: 17741332394134683309
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Textbox"
-      ObjectReference {
-        SelfId: 17362281617240475621
-      }
-    }
-  }
+  ChildIds: 10076001998124505878
+  ChildIds: 17362281617240475621
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -112,9 +109,30 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
-  Script {
-    ScriptAsset {
-      Id: 12901256847754605778
+  Control {
+    Width: -600
+    Height: -600
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    UseParentHeight: true
+    Panel {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
     }
   }
 }
@@ -132,7 +150,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17741332394134683309
+  ParentId: 16451380794533998245
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -143,13 +161,16 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    Width: 1000
-    Height: 800
+    Width: -50
+    Height: -50
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    UseParentHeight: true
     Text {
       Label: "Howtoplay.jpg"
       Color {
@@ -195,7 +216,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17741332394134683309
+  ParentId: 16451380794533998245
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -206,21 +227,22 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    Width: 1200
-    Height: 900
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
+    UseParentWidth: true
+    UseParentHeight: true
     Image {
       Brush {
+        Id: 16917419833916056623
       }
       Color {
-        R: 0.00900000054
-        G: 0.00900000054
-        B: 0.00900000054
-        A: 1
+        R: 0.01
+        G: 0.01
+        B: 0.01
+        A: 0.7
       }
       TeamSettings {
       }
@@ -236,6 +258,44 @@ Objects {
           Value: "mc:euianchor:middlecenter"
         }
       }
+    }
+  }
+}
+Objects {
+  Id: 11575126075024063535
+  Name: "TutorialToggle"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1770981022803373777
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Textbox"
+      ObjectReference {
+        SelfId: 17362281617240475621
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 12901256847754605778
     }
   }
 }
