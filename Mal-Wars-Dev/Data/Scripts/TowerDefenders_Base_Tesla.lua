@@ -99,7 +99,7 @@ end
 function TowerTesla:DamageEnemy(target)
     self.waveManager = self:GetBoardReference():GetWaveManager()
 
-     ---------------------------------------------------------------------
+    ---------------------------------------------------------------------
     -- SORTING FUNCTIONS
     ---------------------------------------------------------------------
     -- main function that implements quick quickSort, called recursively
@@ -180,7 +180,10 @@ function TowerTesla:DamageEnemy(target)
     QuickSort(enemiesByDistanceFromTarget, 1, #enemiesByDistanceFromTarget)
     
     -- damage the first 5 enemies in the table
-    for i = 1, 5, 1 do
+    local MaxDistanceTravel = 1000
+    local distancedTraveled = 0
+    local i = 0
+    while distancedTraveled < MaxDistanceTravel do
         if(enemiesByDistanceFromTarget[i]) then
             local health = enemiesByDistanceFromTarget[i].enemyTable:GetCustomProperty("CurrentHealth")
             health = health - self:GetStat("Damage")
@@ -188,51 +191,15 @@ function TowerTesla:DamageEnemy(target)
             local enemyPos = enemiesByDistanceFromTarget[i].enemyTable:GetWorldPosition()
             if(i == 1) then
                 CoreDebug.DrawLine(currentTarget:GetWorldPosition(), enemyPos, { duration = 1, color = Color.CYAN, thickness = 20 })
+                distancedTraveled = distancedTraveled + (enemyPos - currentTarget:GetWorldPosition()).size
             else    
                 local prevEnemyPos = enemiesByDistanceFromTarget[i - 1].enemyTable:GetWorldPosition()
                 CoreDebug.DrawLine(prevEnemyPos, enemyPos, { duration = 1, color = Color.CYAN, thickness = 20 })
+                distancedTraveled = distancedTraveled + (enemyPos - prevEnemyPos).size
             end
         end
+        i = i + 1
     end
-
-	-- Task.Spawn(function()
-    --     Task.Wait(self.impactTime)
-    --     if self.currentTarget then
-    --         local targetPos = self.currentTarget:GetWorldPosition()
-    --         local targetDirection = targetPos - self:GetWorldPosition()
-
-    --         for _, enemy in pairs(self.waveManager:GetEnemies()) do
-    --             local enemyPos = enemy:GetWorldPosition()
-    --             local comparedDirection = enemyPos - self:GetWorldPosition()
-
-    --             local dot = (targetDirection .. comparedDirection)
-    --             local magnitude = (dot^2)/(targetDirection.sizeSquared * comparedDirection.sizeSquared)
-    --             local eDelta = (enemyPos - targetPos).sizeSquared
-
-    --             if magnitude > CONE_ANGLE and eDelta < PIERCE_RANGE then
-    --                 local health = enemy:GetCustomProperty("CurrentHealth")
-    --                 health = health - self:GetStat("Damage")
-    --                 enemy:SetNetworkedCustomProperty("CurrentHealth",health)
-    --                 CoreDebug.DrawLine(enemyPos,enemyPos + Vector3.UP * 200,{ duration = 1, color = Color.RED, thickness = 20 })
-    --             end
-    --         end
-    --     end
-    -- end)
-
-    -- Task.Spawn(function()
-    --     Task.Wait(self.impactTime)
-    --     if self.currentTarget then
-    --         local targetPos = self.currentTarget:GetWorldPosition()
-    --         for _, enemy in pairs(self.waveManager:GetEnemies()) do
-    --             local enemyPos = enemy:GetWorldPosition()
-    --             if (targetPos - enemyPos).sizeSquared < EXPLOSION_DAMAGE_RADIUS_SQUARED then
-    --                 local health = enemy:GetCustomProperty("CurrentHealth")
-    --                 health = health - self:GetStat("Damage")
-    --                 enemy:SetNetworkedCustomProperty("CurrentHealth",health)
-    --             end
-    --         end
-    --     end
-    -- end)
 end
 
 return TowerTesla
