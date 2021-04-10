@@ -1,6 +1,6 @@
 Assets {
-  Id: 5194660296879795761
-  Name: "Blue Emissive Glow Transparent"
+  Id: 13264427039930814438
+  Name: "SC_Glow on Dispaly Ring"
   PlatformAssetType: 13
   SerializationVersion: 81
   CustomMaterialAsset {
@@ -9,10 +9,15 @@ Assets {
       Overrides {
         Name: "color"
         Color {
-          G: 0.026071677
-          B: 0.73
+          R: 1
+          G: 1
+          B: 1
           A: 1
         }
+      }
+      Overrides {
+        Name: "emissive_boost"
+        Float: 4.97697163
       }
     }
     Assets {

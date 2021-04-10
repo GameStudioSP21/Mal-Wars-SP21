@@ -1,18 +1,14 @@
 Assets {
-  Id: 5194660296879795761
-  Name: "Blue Emissive Glow Transparent"
+  Id: 7730360620261357746
+  Name: "Custom Emissive Glow Transparent_Less Emission"
   PlatformAssetType: 13
   SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 3702191406046426907
     ParameterOverrides {
       Overrides {
-        Name: "color"
-        Color {
-          G: 0.026071677
-          B: 0.73
-          A: 1
-        }
+        Name: "emissive_boost"
+        Float: 10
       }
     }
     Assets {

@@ -1,27 +1,27 @@
 Assets {
-  Id: 5194660296879795761
-  Name: "Blue Emissive Glow Transparent"
+  Id: 10673766790752713482
+  Name: "A SC_Custom Hologram Level 2"
   PlatformAssetType: 13
   SerializationVersion: 81
   CustomMaterialAsset {
-    BaseMaterialId: 3702191406046426907
+    BaseMaterialId: 13210385242785528853
     ParameterOverrides {
       Overrides {
         Name: "color"
         Color {
-          G: 0.026071677
-          B: 0.73
+          R: 0.98
+          G: 0.895629227
           A: 1
         }
       }
     }
     Assets {
-      Id: 3702191406046426907
-      Name: "Emissive Glow Transparent"
+      Id: 13210385242785528853
+      Name: "Basic Hologram"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_basic_emissive_001"
+        AssetId: "fxmi_basic_hologram"
       }
     }
   }

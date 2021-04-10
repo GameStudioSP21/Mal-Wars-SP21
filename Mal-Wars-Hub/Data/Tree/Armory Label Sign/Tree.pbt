@@ -1,7 +1,7 @@
 Name: "Armory Label Sign"
-RootId: 14907500977411845432
+RootId: 11897913381106356198
 Objects {
-  Id: 15696219155026511075
+  Id: 15627517762228452555
   Name: "Neon Lettering_Armory"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 1.44149435
     }
   }
-  ParentId: 14907500977411845432
+  ParentId: 11897913381106356198
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -34,7 +34,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15520184442811888832
+  Id: 3815712520152035262
   Name: "Armory Plaque Panel"
   Transform {
     Location {
@@ -51,9 +51,9 @@ Objects {
       Z: 3.20929956
     }
   }
-  ParentId: 14907500977411845432
-  ChildIds: 5918630360453999973
-  ChildIds: 10014479311310419514
+  ParentId: 11897913381106356198
+  ChildIds: 13142275690402002116
+  ChildIds: 8746923332299559153
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -68,7 +68,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10014479311310419514
+  Id: 8746923332299559153
   Name: "Cube - Rounded"
   Transform {
     Location {
@@ -84,7 +84,7 @@ Objects {
       Z: 0.870106339
     }
   }
-  ParentId: 15520184442811888832
+  ParentId: 3815712520152035262
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -119,7 +119,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5918630360453999973
+  Id: 13142275690402002116
   Name: "Sci-fi Ship Cockpit Back 03"
   Transform {
     Location {
@@ -138,7 +138,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15520184442811888832
+  ParentId: 3815712520152035262
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"

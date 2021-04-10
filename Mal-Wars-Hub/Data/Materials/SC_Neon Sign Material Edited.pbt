@@ -1,22 +1,30 @@
 Assets {
-  Id: 4391533596610482891
-  Name: "SC_Custom Animated Neon Sign "
+  Id: 8238350790793848482
+  Name: "SC_Neon Sign Material Edited"
   PlatformAssetType: 13
   SerializationVersion: 81
   CustomMaterialAsset {
     BaseMaterialId: 10112929330844116836
     ParameterOverrides {
       Overrides {
+        Name: "glow intensity"
+        Float: 0
+      }
+      Overrides {
+        Name: "roughness"
+        Float: 1
+      }
+      Overrides {
+        Name: "metallic"
+        Float: 0
+      }
+      Overrides {
         Name: "numberofframes"
-        Int: 5
+        Int: 1
       }
       Overrides {
-        Name: "framenumber"
-        Int: 2
-      }
-      Overrides {
-        Name: "animation speed"
-        Float: 5
+        Name: "specular rolloff"
+        Float: 0
       }
     }
     Assets {

@@ -17,13 +17,13 @@ Objects {
   ChildIds: 7367735074338159388
   ChildIds: 14713340454944924967
   ChildIds: 10005074784157121906
-  ChildIds: 8518141907256309786
   ChildIds: 12494580428525001383
   ChildIds: 16735332301278203860
   ChildIds: 7312355645798257615
   ChildIds: 10384849245238798294
   ChildIds: 4497641434065555435
   ChildIds: 10612427011681696460
+  ChildIds: 10890274874115666730
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -36,6 +36,38 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 10890274874115666730
+  Name: "Sidney"
+  Transform {
+    Location {
+      X: -4010.01367
+      Y: -1053.45984
+      Z: -545
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Sidney"
   }
 }
 Objects {
@@ -214,39 +246,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Jonpaul"
-  }
-}
-Objects {
-  Id: 8518141907256309786
-  Name: "Sidney"
-  Transform {
-    Location {
-      X: -4010.01367
-      Y: -1053.45984
-      Z: -545
-    }
-    Rotation {
-      Yaw: -3.41509394e-06
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Sidney"
   }
 }
 Objects {
