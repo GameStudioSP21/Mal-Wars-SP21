@@ -1,19 +1,19 @@
 Assets {
-  Id: 9906491685923217027
-  Name: "Whitebox Stairs 01 Straight 150cm"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_stairs_001_150cm"
-  }
-}
-Assets {
   Id: 6777447344140592468
   Name: "Metal Steel Brushed"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_stainless-steel_001_uv"
+  }
+}
+Assets {
+  Id: 6201098066527333077
+  Name: "Sci-fi Base Stairs 01 150cm"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_stairs_001_150cm_ref"
   }
 }
 Assets {

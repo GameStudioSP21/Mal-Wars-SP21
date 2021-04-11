@@ -1,7 +1,7 @@
 Name: "floorAccents_left"
-RootId: 5242949795228442470
+RootId: 1066998653349483738
 Objects {
-  Id: 14906020913724521014
+  Id: 12462087282608036498
   Name: "topFloorAccents"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5242949795228442470
+  ParentId: 1066998653349483738
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -33,7 +33,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2734572339934908213
+  Id: 18441328984838617652
   Name: "bottomFloorAccents"
   Transform {
     Location {
@@ -48,7 +48,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5242949795228442470
+  ParentId: 1066998653349483738
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

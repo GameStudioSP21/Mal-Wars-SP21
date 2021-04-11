@@ -1,8 +1,8 @@
 Name: "leaderBoard_Sign"
-RootId: 15718307289273655160
+RootId: 13207126580898602461
 Objects {
-  Id: 16066052046209192691
-  Name: "Sign Font 1 Neon Outline: L"
+  Id: 18440286898877575426
+  Name: "Sign Font 1 Neon Outline: D"
   Transform {
     Location {
       X: -406.542236
@@ -17,7 +17,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15718307289273655160
+  ParentId: 13207126580898602461
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Neon:id"
@@ -28,8 +28,8 @@ Objects {
     Overrides {
       Name: "ma:Font_Neon:color"
       Color {
-        G: 0.66291368
-        B: 0.77
+        G: 0.0941176564
+        B: 0.580392182
         A: 1
       }
     }
@@ -60,8 +60,8 @@ Objects {
   }
 }
 Objects {
-  Id: 4025820200785327619
-  Name: "Sign Font 1 Neon Outline: L"
+  Id: 12206157874315007307
+  Name: "Sign Font 1 Neon Outline: R"
   Transform {
     Location {
       X: -317.358154
@@ -76,7 +76,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15718307289273655160
+  ParentId: 13207126580898602461
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Neon:id"
@@ -87,8 +87,8 @@ Objects {
     Overrides {
       Name: "ma:Font_Neon:color"
       Color {
-        G: 0.66291368
-        B: 0.77
+        G: 0.0941176564
+        B: 0.580392182
         A: 1
       }
     }
@@ -119,8 +119,8 @@ Objects {
   }
 }
 Objects {
-  Id: 9986883882089318896
-  Name: "Sign Font 1 Neon Outline: L"
+  Id: 16992003885028740125
+  Name: "Sign Font 1 Neon Outline: A"
   Transform {
     Location {
       X: -217.485596
@@ -135,7 +135,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15718307289273655160
+  ParentId: 13207126580898602461
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Neon:id"
@@ -146,8 +146,8 @@ Objects {
     Overrides {
       Name: "ma:Font_Neon:color"
       Color {
-        G: 0.66291368
-        B: 0.77
+        G: 0.0941176564
+        B: 0.580392182
         A: 1
       }
     }
@@ -178,8 +178,8 @@ Objects {
   }
 }
 Objects {
-  Id: 7072657764301794816
-  Name: "Sign Font 1 Neon Outline: L"
+  Id: 11658040902294176296
+  Name: "Sign Font 1 Neon Outline: O"
   Transform {
     Location {
       X: -157.787354
@@ -194,7 +194,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15718307289273655160
+  ParentId: 13207126580898602461
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Neon:id"
@@ -205,8 +205,8 @@ Objects {
     Overrides {
       Name: "ma:Font_Neon:color"
       Color {
-        G: 0.66291368
-        B: 0.77
+        G: 0.0941176564
+        B: 0.580392182
         A: 1
       }
     }
@@ -237,8 +237,8 @@ Objects {
   }
 }
 Objects {
-  Id: 15410502400063593497
-  Name: "Sign Font 1 Neon Outline: L"
+  Id: 17574742258352439583
+  Name: "Sign Font 1 Neon Outline: B"
   Transform {
     Location {
       X: -80.1018066
@@ -253,7 +253,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15718307289273655160
+  ParentId: 13207126580898602461
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Neon:id"
@@ -264,8 +264,8 @@ Objects {
     Overrides {
       Name: "ma:Font_Neon:color"
       Color {
-        G: 0.66291368
-        B: 0.77
+        G: 0.0941176564
+        B: 0.580392182
         A: 1
       }
     }
@@ -296,8 +296,8 @@ Objects {
   }
 }
 Objects {
-  Id: 1946103368455813395
-  Name: "Sign Font 1 Neon Outline: L"
+  Id: 14483351901824199478
+  Name: "Sign Font 1 Neon Outline: R"
   Transform {
     Location {
       X: 7.91381836
@@ -312,7 +312,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15718307289273655160
+  ParentId: 13207126580898602461
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Neon:id"
@@ -323,8 +323,8 @@ Objects {
     Overrides {
       Name: "ma:Font_Neon:color"
       Color {
-        G: 0.66291368
-        B: 0.77
+        G: 0.0941176564
+        B: 0.580392182
         A: 1
       }
     }
@@ -355,8 +355,8 @@ Objects {
   }
 }
 Objects {
-  Id: 15574932639977576679
-  Name: "Sign Font 1 Neon Outline: L"
+  Id: 11740597990419123343
+  Name: "Sign Font 1 Neon Outline: E"
   Transform {
     Location {
       X: 85.6809082
@@ -371,7 +371,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15718307289273655160
+  ParentId: 13207126580898602461
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Neon:id"
@@ -382,8 +382,8 @@ Objects {
     Overrides {
       Name: "ma:Font_Neon:color"
       Color {
-        G: 0.66291368
-        B: 0.77
+        G: 0.0941176564
+        B: 0.580392182
         A: 1
       }
     }
@@ -414,8 +414,8 @@ Objects {
   }
 }
 Objects {
-  Id: 10951544813825663899
-  Name: "Sign Font 1 Neon Outline: L"
+  Id: 10274742554607556097
+  Name: "Sign Font 1 Neon Outline: D"
   Transform {
     Location {
       X: 159.742188
@@ -430,7 +430,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15718307289273655160
+  ParentId: 13207126580898602461
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Neon:id"
@@ -441,8 +441,8 @@ Objects {
     Overrides {
       Name: "ma:Font_Neon:color"
       Color {
-        G: 0.66291368
-        B: 0.77
+        G: 0.0941176564
+        B: 0.580392182
         A: 1
       }
     }
@@ -473,8 +473,8 @@ Objects {
   }
 }
 Objects {
-  Id: 8995579142027233817
-  Name: "Sign Font 1 Neon Outline: L"
+  Id: 11968489371111795543
+  Name: "Sign Font 1 Neon Outline: A"
   Transform {
     Location {
       X: 261.350098
@@ -489,7 +489,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15718307289273655160
+  ParentId: 13207126580898602461
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Neon:id"
@@ -500,8 +500,8 @@ Objects {
     Overrides {
       Name: "ma:Font_Neon:color"
       Color {
-        G: 0.66291368
-        B: 0.77
+        G: 0.0941176564
+        B: 0.580392182
         A: 1
       }
     }
@@ -532,8 +532,8 @@ Objects {
   }
 }
 Objects {
-  Id: 13386561653190608099
-  Name: "Sign Font 1 Neon Outline: L"
+  Id: 12902780961818406842
+  Name: "Sign Font 1 Neon Outline: E"
   Transform {
     Location {
       X: 337.606201
@@ -548,7 +548,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15718307289273655160
+  ParentId: 13207126580898602461
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Neon:id"
@@ -559,8 +559,8 @@ Objects {
     Overrides {
       Name: "ma:Font_Neon:color"
       Color {
-        G: 0.66291368
-        B: 0.77
+        G: 0.0941176564
+        B: 0.580392182
         A: 1
       }
     }
@@ -591,7 +591,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4587198706894538612
+  Id: 6457910117328291609
   Name: "Sign Font 1 Neon Outline: L"
   Transform {
     Location {
@@ -607,7 +607,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15718307289273655160
+  ParentId: 13207126580898602461
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Neon:id"
@@ -618,8 +618,8 @@ Objects {
     Overrides {
       Name: "ma:Font_Neon:color"
       Color {
-        G: 0.66291368
-        B: 0.77
+        G: 0.0941176564
+        B: 0.580392182
         A: 1
       }
     }

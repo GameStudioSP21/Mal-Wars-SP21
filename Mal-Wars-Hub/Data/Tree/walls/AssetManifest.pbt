@@ -16,3 +16,12 @@ Assets {
     AssetId: "sm_ts_gen_whitebox_wall_001_tri"
   }
 }
+Assets {
+  Id: 4764108666382357109
+  Name: "Metal Floor Panel 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_simple_floor_panel_001_uv"
+  }
+}

@@ -1,7 +1,7 @@
 Name: "customPeice_1"
-RootId: 9947093887078774489
+RootId: 16659365627479650341
 Objects {
-  Id: 16047463414560687944
+  Id: 15767717602010422259
   Name: "Default Floor"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9947093887078774489
+  ParentId: 16659365627479650341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -31,7 +31,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 6777447344140592468
+        Id: 2488181828159443373
       }
     }
   }
@@ -66,7 +66,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4510654352734715158
+  Id: 17038729907477969311
   Name: "Default Floor"
   Transform {
     Location {
@@ -82,7 +82,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9947093887078774489
+  ParentId: 16659365627479650341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -131,7 +131,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14264670669901212801
+  Id: 557646076779799274
   Name: "Default Floor"
   Transform {
     Location {
@@ -146,7 +146,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9947093887078774489
+  ParentId: 16659365627479650341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -160,7 +160,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 6777447344140592468
+        Id: 2488181828159443373
       }
     }
   }
@@ -195,7 +195,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4845726421779379298
+  Id: 1977694336344211358
   Name: "Default Floor"
   Transform {
     Location {
@@ -210,7 +210,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9947093887078774489
+  ParentId: 16659365627479650341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -259,7 +259,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7297208188637463175
+  Id: 1390515074052150831
   Name: "Default Floor"
   Transform {
     Location {
@@ -275,7 +275,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9947093887078774489
+  ParentId: 16659365627479650341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -289,7 +289,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 6777447344140592468
+        Id: 2488181828159443373
       }
     }
   }
@@ -324,7 +324,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3760018114956835560
+  Id: 9210973236060113754
   Name: "Default Floor"
   Transform {
     Location {
@@ -340,7 +340,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9947093887078774489
+  ParentId: 16659365627479650341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -354,7 +354,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 6777447344140592468
+        Id: 2488181828159443373
       }
     }
   }
@@ -389,7 +389,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16168424783480716564
+  Id: 12223492429709646633
   Name: "Default Floor"
   Transform {
     Location {
@@ -405,7 +405,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9947093887078774489
+  ParentId: 16659365627479650341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -419,7 +419,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 6777447344140592468
+        Id: 2488181828159443373
       }
     }
   }
@@ -454,7 +454,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13418412465611646717
+  Id: 13727424687342044101
   Name: "Default Floor"
   Transform {
     Location {
@@ -470,7 +470,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9947093887078774489
+  ParentId: 16659365627479650341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -519,7 +519,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6522159756870380495
+  Id: 8888913143945466565
   Name: "Default Floor"
   Transform {
     Location {
@@ -536,7 +536,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9947093887078774489
+  ParentId: 16659365627479650341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -585,7 +585,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5623773356597153885
+  Id: 3870344446979670700
   Name: "Default Floor"
   Transform {
     Location {
@@ -602,7 +602,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9947093887078774489
+  ParentId: 16659365627479650341
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"

@@ -1,7 +1,116 @@
 Name: "rightSide_1"
-RootId: 11903706652748459546
+RootId: 1535485533750881715
 Objects {
-  Id: 8927208785032912543
+  Id: 1322612892695723548
+  Name: "Cube"
+  Transform {
+    Location {
+      X: -1724.03613
+      Y: 417.486816
+      Z: 95.0002441
+    }
+    Rotation {
+      Yaw: -89.9999466
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1535485533750881715
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6886167410167579166
+  Name: "WallArt"
+  Transform {
+    Location {
+      X: -2839.03589
+      Y: 244.512451
+      Z: 45.0003052
+    }
+    Rotation {
+      Yaw: 180
+    }
+    Scale {
+      X: 1
+      Y: -1
+      Z: 1
+    }
+  }
+  ParentId: 1535485533750881715
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "WallArt"
+  }
+}
+Objects {
+  Id: 2329071846411758535
+  Name: "WallArt"
+  Transform {
+    Location {
+      X: -609.179199
+      Y: 244.512848
+      Z: 45.0003052
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1535485533750881715
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "WallArt_1"
+  }
+}
+Objects {
+  Id: 1118187387916775198
   Name: "roof"
   Transform {
     Location {
@@ -17,7 +126,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11903706652748459546
+  ParentId: 1535485533750881715
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -33,7 +142,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2230053485880530033
+  Id: 2353036468551564250
   Name: "rightSide_decor"
   Transform {
     Location {
@@ -50,7 +159,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11903706652748459546
+  ParentId: 1535485533750881715
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -66,7 +175,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9426729668359602641
+  Id: 13079499656352843476
   Name: "rightSide_lights"
   Transform {
     Location {
@@ -83,7 +192,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11903706652748459546
+  ParentId: 1535485533750881715
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -99,7 +208,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12334216281797125584
+  Id: 15612552620088146588
   Name: "walls"
   Transform {
     Location {
@@ -115,7 +224,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11903706652748459546
+  ParentId: 1535485533750881715
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -137,7 +246,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2103524224909584407
+  Id: 13707186261612353300
   Name: "floor"
   Transform {
     Location {
@@ -153,7 +262,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11903706652748459546
+  ParentId: 1535485533750881715
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

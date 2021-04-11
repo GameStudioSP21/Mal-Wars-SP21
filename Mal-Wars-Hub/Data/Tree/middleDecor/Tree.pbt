@@ -1,7 +1,7 @@
 Name: "middleDecor"
-RootId: 16661138783559060154
+RootId: 7467379115172586217
 Objects {
-  Id: 1101067768182085944
+  Id: 12418413051028839265
   Name: "Bench Full"
   Transform {
     Location {
@@ -18,7 +18,21 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16661138783559060154
+  ParentId: 7467379115172586217
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1183484854879352956
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 1183484854879352956
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -45,7 +59,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11609275028020060499
+  Id: 6304140142807555984
   Name: "Bench Full"
   Transform {
     Location {
@@ -62,7 +76,21 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16661138783559060154
+  ParentId: 7467379115172586217
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1183484854879352956
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 1183484854879352956
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

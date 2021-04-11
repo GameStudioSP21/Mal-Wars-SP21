@@ -1,7 +1,126 @@
 Name: "NewFolder"
-RootId: 6560842347583016434
+RootId: 10602373608880892040
 Objects {
-  Id: 11503958476028898198
+  Id: 2646043610235939562
+  Name: "Cube"
+  Transform {
+    Location {
+      X: -498.212402
+      Y: 515.516968
+      Z: 41.3823242
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.757527947
+      Y: 0.259366512
+      Z: 1
+    }
+  }
+  ParentId: 10602373608880892040
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        G: 0.982250869
+        B: 0.964686573
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12807286167336049382
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 17462462710726533722
+  Name: "Cube"
+  Transform {
+    Location {
+      X: -453.491699
+      Y: 540.718872
+      Z: 41.3823242
+    }
+    Rotation {
+      Yaw: -89.999939
+    }
+    Scale {
+      X: 0.757527947
+      Y: 0.259366512
+      Z: 1
+    }
+  }
+  ParentId: 10602373608880892040
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        G: 0.982250869
+        B: 0.964686573
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12807286167336049382
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 8536597072617594635
   Name: "Cube"
   Transform {
     Location {
@@ -18,7 +137,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6560842347583016434
+  ParentId: 10602373608880892040
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -61,7 +180,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6785106061084518005
+  Id: 2576684995466842959
   Name: "Cube"
   Transform {
     Location {
@@ -78,7 +197,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6560842347583016434
+  ParentId: 10602373608880892040
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -121,7 +240,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17938616520974524818
+  Id: 3652294288563748660
   Name: "Whitebox Stairs 01 Straight 150cm"
   Transform {
     Location {
@@ -138,7 +257,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6560842347583016434
+  ParentId: 10602373608880892040
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -201,7 +320,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13864243517475762247
+  Id: 18223955724519253995
   Name: "Whitebox Stairs 01 Straight 150cm"
   Transform {
     Location {
@@ -218,7 +337,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6560842347583016434
+  ParentId: 10602373608880892040
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -281,7 +400,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8826088125390264
+  Id: 8665851881328384392
   Name: "Whitebox Stairs 01 Straight 150cm"
   Transform {
     Location {
@@ -298,7 +417,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6560842347583016434
+  ParentId: 10602373608880892040
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -361,7 +480,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9750301015761845457
+  Id: 7483821363590786320
   Name: "Cube"
   Transform {
     Location {
@@ -377,7 +496,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6560842347583016434
+  ParentId: 10602373608880892040
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -420,7 +539,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9803279025648034637
+  Id: 14051701812336832962
   Name: "Cube"
   Transform {
     Location {
@@ -437,7 +556,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6560842347583016434
+  ParentId: 10602373608880892040
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -480,7 +599,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3103121031139832049
+  Id: 6524694872398633090
   Name: "Cube"
   Transform {
     Location {
@@ -497,7 +616,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6560842347583016434
+  ParentId: 10602373608880892040
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -540,7 +659,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5376277906555740880
+  Id: 17215627468613779652
   Name: "Cube"
   Transform {
     Location {
@@ -556,7 +675,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6560842347583016434
+  ParentId: 10602373608880892040
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"

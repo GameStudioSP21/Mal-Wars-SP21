@@ -1,12 +1,12 @@
 Name: "floor"
-RootId: 8927208785032912543
+RootId: 1118187387916775198
 Objects {
-  Id: 14504496962893746472
+  Id: 2300535607197612540
   Name: "Whitebox Wall 01"
   Transform {
     Location {
       X: 181.748779
-      Y: -1374.60876
+      Y: -1374.60889
       Z: -99.3355713
     }
     Rotation {
@@ -14,12 +14,14 @@ Objects {
       Roll: 59.9999695
     }
     Scale {
-      X: 1.68866944
-      Y: 1.00000191
-      Z: 0.842094243
+      X: 1.65032327
+      Y: 1.00000274
+      Z: 0.842095494
     }
   }
-  ParentId: 8927208785032912543
+  ParentId: 1118187387916775198
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -52,75 +54,39 @@ Objects {
   }
 }
 Objects {
-  Id: 10056815283114918771
+  Id: 11374815057282058592
   Name: "Default Floor"
   Transform {
     Location {
-      X: 364.538605
-      Y: -418.421326
-      Z: 95.830658
-    }
-    Rotation {
-      Yaw: 51.525013
-    }
-    Scale {
-      X: 14.5000248
-      Y: 9.18975067
-      Z: 0.682006955
-    }
-  }
-  ParentId: 8927208785032912543
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 14285206737179474194
-    SubobjectId: 3498570375870628594
-    InstanceId: 2585132023508260079
-    TemplateId: 17735093090777977581
-  }
-}
-Objects {
-  Id: 11952012870909084078
-  Name: "Default Floor"
-  Transform {
-    Location {
-      X: 328.748505
-      Y: -18.7565918
-      Z: 95.6871
+      X: 61.3779449
+      Y: -18.7567902
+      Z: 121.130981
     }
     Rotation {
     }
     Scale {
-      X: 20.8291283
+      X: 18.2254868
       Y: 23.6824665
       Z: 0.682006955
     }
   }
-  ParentId: 8927208785032912543
+  ParentId: 1118187387916775198
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 9955247187549231722
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0901960805
+        G: 0.0901960805
+        B: 0.0901960805
+        A: 1
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -153,108 +119,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13592157626881586419
-  Name: "Default Floor"
-  Transform {
-    Location {
-      X: -163.223755
-      Y: 1219.4032
-      Z: 95.830658
-    }
-    Rotation {
-    }
-    Scale {
-      X: 10.9005928
-      Y: 11.6891747
-      Z: 0.682006955
-    }
-  }
-  ParentId: 8927208785032912543
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 17937859991880255149
-    SubobjectId: 1027454517145697613
-    InstanceId: 2585132023508260079
-    TemplateId: 17735093090777977581
-  }
-}
-Objects {
-  Id: 2724641694797495409
-  Name: "Prism - 6-Sided Half"
-  Transform {
-    Location {
-      X: 379.404663
-      Y: 1267.71179
-      Z: 95.8304138
-    }
-    Rotation {
-    }
-    Scale {
-      X: 8.5
-      Y: 10.750001
-      Z: 0.682006955
-    }
-  }
-  ParentId: 8927208785032912543
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 15464952249626306512
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 18093482365402476338
-    SubobjectId: 984778371915044050
-    InstanceId: 2585132023508260079
-    TemplateId: 17735093090777977581
-  }
-}
-Objects {
-  Id: 3433239646286344917
+  Id: 9558086500766628737
   Name: "Prism - 6-Sided Half"
   Transform {
     Location {
@@ -271,7 +136,7 @@ Objects {
       Z: 0.682006955
     }
   }
-  ParentId: 8927208785032912543
+  ParentId: 1118187387916775198
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"

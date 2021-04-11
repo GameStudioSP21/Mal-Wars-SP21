@@ -1,7 +1,7 @@
 Name: "roof"
-RootId: 17852655624055676411
+RootId: 18170786238561593919
 Objects {
-  Id: 8946953971651756503
+  Id: 910610762634493192
   Name: "Whitebox Wall 01"
   Transform {
     Location {
@@ -19,7 +19,9 @@ Objects {
       Z: 0.842095196
     }
   }
-  ParentId: 17852655624055676411
+  ParentId: 18170786238561593919
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -52,7 +54,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15482043924326739946
+  Id: 16068410315548130424
   Name: "Default Floor"
   Transform {
     Location {
@@ -69,7 +71,7 @@ Objects {
       Z: 0.682006955
     }
   }
-  ParentId: 17852655624055676411
+  ParentId: 18170786238561593919
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -103,7 +105,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10884562155429126050
+  Id: 3313243580912737392
   Name: "Default Floor"
   Transform {
     Location {
@@ -119,8 +121,14 @@ Objects {
       Z: 0.682006955
     }
   }
-  ParentId: 17852655624055676411
+  ParentId: 18170786238561593919
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 9955247187549231722
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -153,7 +161,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9106939099441443123
+  Id: 65769833258970336
   Name: "Default Floor"
   Transform {
     Location {
@@ -169,7 +177,7 @@ Objects {
       Z: 0.682006955
     }
   }
-  ParentId: 17852655624055676411
+  ParentId: 18170786238561593919
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -203,7 +211,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16050399341539681063
+  Id: 10764385519220937438
   Name: "Prism - 6-Sided Half"
   Transform {
     Location {
@@ -219,7 +227,7 @@ Objects {
       Z: 0.682006955
     }
   }
-  ParentId: 17852655624055676411
+  ParentId: 18170786238561593919
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -254,7 +262,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18147461526047061779
+  Id: 5665080070257272826
   Name: "Prism - 6-Sided Half"
   Transform {
     Location {
@@ -271,7 +279,7 @@ Objects {
       Z: 0.682006955
     }
   }
-  ParentId: 17852655624055676411
+  ParentId: 18170786238561593919
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"

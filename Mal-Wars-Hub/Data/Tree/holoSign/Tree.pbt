@@ -1,12 +1,12 @@
 Name: "holoSign"
-RootId: 308298017783233376
+RootId: 12817143532056199738
 Objects {
-  Id: 10027889178814560677
+  Id: 5781431824122544106
   Name: "Cube"
   Transform {
     Location {
-      X: -1.74169922
-      Y: -1.9440918
+      X: -1.74169755
+      Y: -1.94409323
       Z: 164.990204
     }
     Rotation {
@@ -18,7 +18,7 @@ Objects {
       Z: 3.28829765
     }
   }
-  ParentId: 308298017783233376
+  ParentId: 12817143532056199738
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -62,7 +62,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16371617251297914665
+  Id: 3041555344523040299
   Name: "Cube"
   Transform {
     Location {
@@ -81,7 +81,7 @@ Objects {
       Z: 0.130543858
     }
   }
-  ParentId: 308298017783233376
+  ParentId: 12817143532056199738
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -116,7 +116,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10898200589414102171
+  Id: 7797700619720071110
   Name: "Cube"
   Transform {
     Location {
@@ -135,7 +135,7 @@ Objects {
       Z: 0.130543858
     }
   }
-  ParentId: 308298017783233376
+  ParentId: 12817143532056199738
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -170,7 +170,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13771669815385889144
+  Id: 16714415482841841879
   Name: "Cube"
   Transform {
     Location {
@@ -186,7 +186,7 @@ Objects {
       Z: 0.130543947
     }
   }
-  ParentId: 308298017783233376
+  ParentId: 12817143532056199738
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -221,7 +221,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18205914433949682420
+  Id: 6959640789034334208
   Name: "Cube"
   Transform {
     Location {
@@ -238,7 +238,7 @@ Objects {
       Z: 0.130543947
     }
   }
-  ParentId: 308298017783233376
+  ParentId: 12817143532056199738
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -273,7 +273,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15223733364767164476
+  Id: 11202520556704542686
   Name: "Cube"
   Transform {
     Location {
@@ -290,8 +290,14 @@ Objects {
       Z: 3.28829765
     }
   }
-  ParentId: 308298017783233376
+  ParentId: 12817143532056199738
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 9955247187549231722
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

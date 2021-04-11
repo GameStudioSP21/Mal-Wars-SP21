@@ -1,7 +1,7 @@
 Name: "wallPillars"
-RootId: 14378490512421073041
+RootId: 7769989845179783809
 Objects {
-  Id: 14777959778423626049
+  Id: 12351895818818883324
   Name: "Cube"
   Transform {
     Location {
@@ -18,7 +18,15 @@ Objects {
       Z: 12.6510439
     }
   }
-  ParentId: 14378490512421073041
+  ParentId: 7769989845179783809
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 6228138666051358428
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -51,7 +59,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18042121553703682316
+  Id: 18219593526249630656
   Name: "Prism - 6-Sided Half"
   Transform {
     Location {
@@ -67,7 +75,15 @@ Objects {
       Z: 12.5736265
     }
   }
-  ParentId: 14378490512421073041
+  ParentId: 7769989845179783809
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 6228138666051358428
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -100,7 +116,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4917825690371705405
+  Id: 13549214884423021249
   Name: "Prism - 6-Sided"
   Transform {
     Location {
@@ -109,7 +125,7 @@ Objects {
       Z: 141.000031
     }
     Rotation {
-      Yaw: -68.0000381
+      Yaw: -68.0000305
     }
     Scale {
       X: 2
@@ -117,7 +133,15 @@ Objects {
       Z: 9.49999905
     }
   }
-  ParentId: 14378490512421073041
+  ParentId: 7769989845179783809
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 6228138666051358428
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -150,7 +174,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11655831758512623031
+  Id: 13761913503459108013
   Name: "Prism - 6-Sided"
   Transform {
     Location {
@@ -167,7 +191,15 @@ Objects {
       Z: 9.49999905
     }
   }
-  ParentId: 14378490512421073041
+  ParentId: 7769989845179783809
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 6228138666051358428
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -200,7 +232,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12617527829959114734
+  Id: 14567483702203217673
   Name: "Prism - 6-Sided Half"
   Transform {
     Location {
@@ -217,7 +249,15 @@ Objects {
       Z: 10.499999
     }
   }
-  ParentId: 14378490512421073041
+  ParentId: 7769989845179783809
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 6228138666051358428
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
