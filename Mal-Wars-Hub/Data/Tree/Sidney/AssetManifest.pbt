@@ -8,30 +8,12 @@ Assets {
   }
 }
 Assets {
-  Id: 18023756625439066809
-  Name: "Knife - Handle"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_weap_modern_knife_handle_001"
-  }
-}
-Assets {
   Id: 17189330346149627205
   Name: "Sci-fi Ship Blaster 03"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_scf_ship_blaster_003_ref"
-  }
-}
-Assets {
-  Id: 16701740470968256231
-  Name: "Military Tank Historic Container 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_hst_container_002_ref"
   }
 }
 Assets {
@@ -116,33 +98,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13316526583594249120
-  Name: "Military Tank Modern Hull 01 - Rear"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_mod_hull_001_rear_ref"
-  }
-}
-Assets {
-  Id: 13095235728201379411
-  Name: "Metal Floor Panel 02"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_scf_simple_floor_panel_002_uv"
-  }
-}
-Assets {
-  Id: 12479049602930528551
-  Name: "Military Tank Modern Armorplate 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_mod_armorplate_002_ref"
-  }
-}
-Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1
@@ -167,24 +122,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_steel_hex_001"
-  }
-}
-Assets {
-  Id: 11303134369797735562
-  Name: "Laptop Screen"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_computer_laptop_lid_001"
-  }
-}
-Assets {
-  Id: 11153952082896433639
-  Name: "Knife - Blade"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_weap_modern_knife_001"
   }
 }
 Assets {
@@ -215,24 +152,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10627344217142794931
-  Name: "Military Tank Historic Tread 01 - Rear"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_hst_tread_rear_001_ref"
-  }
-}
-Assets {
-  Id: 10293442473156242535
-  Name: "Cube - Rounded Bottom-Aligned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_rounded_001"
-  }
-}
-Assets {
   Id: 10112929330844116836
   Name: "Animated Neon Sign "
   PlatformAssetType: 2
@@ -260,39 +179,12 @@ Assets {
   }
 }
 Assets {
-  Id: 9452502076326023374
-  Name: "Sci-fi Gear Small 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_sf_gen_gear_small_02"
-  }
-}
-Assets {
-  Id: 9368127673257782849
-  Name: "Laptop Keyboard"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_urb_computer_laptop_base_001"
-  }
-}
-Assets {
   Id: 9039094221355209354
   Name: "Military Tank Modern U Bracket 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_mil_tank_mod_ubracket_001_ref"
-  }
-}
-Assets {
-  Id: 8824553597111365900
-  Name: "Tech Panel 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_sf_gen_tech-panel_001"
   }
 }
 Assets {
@@ -314,39 +206,12 @@ Assets {
   }
 }
 Assets {
-  Id: 7907638993941244004
-  Name: "Metal Greebles 03"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_scf_greebles_003_uv_ref"
-  }
-}
-Assets {
   Id: 7601685863031908594
   Name: "Carbon Fiber 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_carbon-fiber_001"
-  }
-}
-Assets {
-  Id: 7444698281278331687
-  Name: "Military Tank Historic Antenna 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_hst_antenna_001_ref"
-  }
-}
-Assets {
-  Id: 6854140094680954792
-  Name: "Basic Sparks"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_basic_sparks"
   }
 }
 Assets {
@@ -395,15 +260,6 @@ Assets {
   }
 }
 Assets {
-  Id: 5355839134233758649
-  Name: "Ring"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_torus_004"
-  }
-}
-Assets {
   Id: 4947731560831887899
   Name: "Sci-fi Console Screen 02"
   PlatformAssetType: 1
@@ -419,24 +275,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_scf_simple_floor_panel_001_uv"
-  }
-}
-Assets {
-  Id: 3746002661820689319
-  Name: "Military Tank Modern Gun 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_mod_gun_001_ref"
-  }
-}
-Assets {
-  Id: 3702191406046426907
-  Name: "Emissive Glow Transparent"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_basic_emissive_001"
   }
 }
 Assets {
@@ -467,57 +305,12 @@ Assets {
   }
 }
 Assets {
-  Id: 2502748951230928983
-  Name: "Military Mobile Radar 01 - Power Pack - 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_mil_radar_mobile_01_03_ref"
-  }
-}
-Assets {
-  Id: 2304537463267071455
-  Name: "Military Tank Historic Tread 01 - 4m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_hst_tread_001_mid_4m_ref"
-  }
-}
-Assets {
   Id: 1748985416970121260
   Name: "Military Tank Modern Tread Frame 01 - Mid 1m"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_mil_tank_mod_tread_frame_001_mid_1m_ref"
-  }
-}
-Assets {
-  Id: 1662843858717705930
-  Name: "Military Radio Small"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_mil_radio_01_01_ref"
-  }
-}
-Assets {
-  Id: 1630607435793532884
-  Name: "Military Tank Historic Gear 03"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_hst_gear_003_ref"
-  }
-}
-Assets {
-  Id: 1315438047815824613
-  Name: "Military Tank Historic Hatch 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_hst_hatch_001_ref"
   }
 }
 Assets {
