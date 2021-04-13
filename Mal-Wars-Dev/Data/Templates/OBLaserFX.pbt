@@ -19,6 +19,7 @@ Assets {
         ChildIds: 10978879326551795748
         ChildIds: 11637553419055055701
         ChildIds: 14874612526982074279
+        Lifespan: 3
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -41,9 +42,9 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 2
-            Y: 2
-            Z: 2
+            X: 4.1503
+            Y: 4.1503
+            Z: 4.1503
           }
         }
         ParentId: 4605122028102754150
@@ -58,17 +59,38 @@ Assets {
           }
           Overrides {
             Name: "bp:Ring Size"
-            Float: 0.999495745
+            Float: 2.81477237
           }
           Overrides {
             Name: "bp:Energy Particle Life"
-            Float: 0.05
+            Float: 0.110038258
           }
           Overrides {
             Name: "bp:Local Space"
             Bool: true
           }
+          Overrides {
+            Name: "bp:Ring Density"
+            Float: 8.59008789
+          }
+          Overrides {
+            Name: "bp:Beam Density"
+            Float: 7.97057724
+          }
+          Overrides {
+            Name: "bp:Beam Length Max"
+            Float: 14.4679689
+          }
+          Overrides {
+            Name: "bp:Beam Length Min"
+            Float: 17.0103493
+          }
+          Overrides {
+            Name: "bp:Beam Width"
+            Float: 2.45037627
+          }
         }
+        Lifespan: 1
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -101,9 +123,9 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 2.60371423
+            Y: 2.60371423
+            Z: 2.60371423
           }
         }
         ParentId: 4605122028102754150
@@ -126,7 +148,7 @@ Assets {
           }
           Overrides {
             Name: "bp:Life"
-            Float: 0.351523638
+            Float: 3.13617587
           }
           Overrides {
             Name: "bp:Local Space"
@@ -155,6 +177,10 @@ Assets {
               B: 0.200000048
               A: 1
             }
+          }
+          Overrides {
+            Name: "bp:Hot Spot Scale"
+            Float: 0.601467848
           }
         }
         Lifespan: 1
@@ -190,9 +216,9 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 2.07515
+            Y: 2.07515
+            Z: 2.07515
           }
         }
         ParentId: 4605122028102754150
