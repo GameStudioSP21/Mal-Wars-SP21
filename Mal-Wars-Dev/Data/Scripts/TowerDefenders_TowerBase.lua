@@ -307,7 +307,10 @@ end
 
 -- Switch to the next targeting mode.
 function Tower:SwitchTargetingMode(_hasRepeated)
-    self.migrate.targetingMode = TowerTargeting.GetNextMode(self:GetCurrentTargetingMode())
+
+    if _hasRepeated or Environment.IsServer() then
+        self.migrate.targetingMode = TowerTargeting.GetNextMode(self:GetCurrentTargetingMode())
+    end
 
     local worldPosition = self:GetWorldPosition()
 
