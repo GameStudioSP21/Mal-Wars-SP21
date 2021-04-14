@@ -1,7 +1,7 @@
 Name: "Wall"
-RootId: 15638647602584341904
+RootId: 12654728465435321729
 Objects {
-  Id: 13917654595421744091
+  Id: 4539217040328834701
   Name: "Wall_large"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15638647602584341904
+  ParentId: 12654728465435321729
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -33,7 +33,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11039531050884611070
+  Id: 1627336518131570113
   Name: "Wall_large"
   Transform {
     Location {
@@ -49,7 +49,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15638647602584341904
+  ParentId: 12654728465435321729
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -65,7 +65,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13818841911180281114
+  Id: 8219932631162362134
   Name: "Wall_large"
   Transform {
     Location {
@@ -81,7 +81,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15638647602584341904
+  ParentId: 12654728465435321729
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -97,7 +97,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3618475111820063164
+  Id: 12461300811813994529
   Name: "Wall_Small"
   Transform {
     Location {
@@ -114,7 +114,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15638647602584341904
+  ParentId: 12654728465435321729
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -130,7 +130,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10656823852025563875
+  Id: 227480169503526203
   Name: "Wall_Small"
   Transform {
     Location {
@@ -147,7 +147,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15638647602584341904
+  ParentId: 12654728465435321729
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -163,7 +163,7 @@ Objects {
   }
 }
 Objects {
-  Id: 293665545952222535
+  Id: 3607387362281619899
   Name: "Wall_Small"
   Transform {
     Location {
@@ -179,7 +179,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15638647602584341904
+  ParentId: 12654728465435321729
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -195,7 +195,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16735815854804077923
+  Id: 675076375017374590
   Name: "Wall_large"
   Transform {
     Location {
@@ -210,7 +210,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15638647602584341904
+  ParentId: 12654728465435321729
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

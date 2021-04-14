@@ -1,7 +1,7 @@
 Name: "Dome"
-RootId: 1135373949496368233
+RootId: 6883089341949362534
 Objects {
-  Id: 15922204010383210177
+  Id: 11654149787072816124
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -52,7 +52,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12947833721303003305
+  Id: 6715774050902000129
   Name: "Trim"
   Transform {
     Location {
@@ -67,7 +67,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -83,7 +83,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18246336998090602884
+  Id: 11947067416982988333
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -102,7 +102,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -137,7 +137,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5386237090303469550
+  Id: 14337396962869058189
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -155,7 +155,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -190,7 +190,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16434090441148134368
+  Id: 5452027229462200491
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -208,7 +208,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -243,7 +243,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6570097950797245794
+  Id: 10668656308159276144
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -261,7 +261,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -296,7 +296,7 @@ Objects {
   }
 }
 Objects {
-  Id: 330480063366852150
+  Id: 3079453858885128894
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -314,7 +314,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -349,7 +349,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14500478321949675806
+  Id: 10064757633880394026
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -367,7 +367,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -402,7 +402,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4795036456248197058
+  Id: 3290320522211980136
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -421,7 +421,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -456,7 +456,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16464057673018157283
+  Id: 8197728543265562246
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -474,7 +474,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -509,7 +509,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14973250683105068964
+  Id: 8161412308698935122
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -527,7 +527,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -562,7 +562,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4588447436282141121
+  Id: 7757568740569084173
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -580,7 +580,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -615,7 +615,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2513691945390057851
+  Id: 2887784780414281097
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -634,7 +634,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -669,7 +669,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7096569314908214825
+  Id: 13371063043103657854
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -688,7 +688,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -723,7 +723,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10790460914974005619
+  Id: 322579878483729079
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -742,7 +742,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -777,7 +777,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9005619967555373804
+  Id: 14104596651064760231
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -796,7 +796,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -831,7 +831,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16952360214131306846
+  Id: 15602803325654751652
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -850,7 +850,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -885,7 +885,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6493279579679312456
+  Id: 11016478809781709048
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -904,7 +904,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -939,7 +939,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4176183168614242417
+  Id: 9176312029255874470
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -958,7 +958,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -993,7 +993,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17270129232102718714
+  Id: 2164182559411289073
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -1012,7 +1012,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1047,7 +1047,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2615204256514616839
+  Id: 11677726785915783006
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -1066,7 +1066,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1101,7 +1101,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2979666137611988023
+  Id: 11705744086935430036
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -1119,7 +1119,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1154,7 +1154,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5616038737349494099
+  Id: 13421037936236980464
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -1172,7 +1172,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1207,7 +1207,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3351820271925118018
+  Id: 2572966591050713200
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -1225,7 +1225,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1260,7 +1260,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10509380594954971398
+  Id: 16687650352940759854
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -1278,7 +1278,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1313,7 +1313,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2490123879499413533
+  Id: 16767078838971355632
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -1331,7 +1331,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1366,7 +1366,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14502746531508305363
+  Id: 1343158470120858763
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -1384,7 +1384,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1419,7 +1419,7 @@ Objects {
   }
 }
 Objects {
-  Id: 131445735882614833
+  Id: 2120080023292775223
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -1437,7 +1437,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1472,7 +1472,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17100131788135570468
+  Id: 10810765105643388615
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -1491,7 +1491,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1526,7 +1526,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6542996364692760700
+  Id: 2615333431305616485
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -1545,7 +1545,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1580,7 +1580,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1036612006395645080
+  Id: 18291481601391482102
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -1599,7 +1599,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1634,7 +1634,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16157644279583549770
+  Id: 5383324827181242154
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -1653,7 +1653,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1688,7 +1688,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3199085261654115913
+  Id: 9987661143865804222
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -1707,7 +1707,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1742,7 +1742,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2709784439159012043
+  Id: 3059431895767348533
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -1761,7 +1761,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1796,7 +1796,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11385671058472420341
+  Id: 15232456388705210966
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -1815,7 +1815,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1850,13 +1850,13 @@ Objects {
   }
 }
 Objects {
-  Id: 12077680719994871931
+  Id: 11456454612127548308
   Name: "Wedge"
   Transform {
     Location {
-      X: -1270.00012
-      Y: 310
-      Z: 1119.99976
+      X: -1356.00012
+      Y: 310.000183
+      Z: 1047.99976
     }
     Rotation {
       Pitch: 56.2427673
@@ -1869,7 +1869,7 @@ Objects {
       Z: 7.79999876
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1904,13 +1904,13 @@ Objects {
   }
 }
 Objects {
-  Id: 5831529078588753565
+  Id: 17422956078910278058
   Name: "Wedge"
   Transform {
     Location {
-      X: -1270.00012
-      Y: -315.000031
-      Z: 1119.99988
+      X: -1356.00012
+      Y: -314.999847
+      Z: 1047.99988
     }
     Rotation {
       Pitch: 56.2428055
@@ -1923,7 +1923,7 @@ Objects {
       Z: 7.79999876
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1958,7 +1958,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17966599836706008861
+  Id: 4963145854241349724
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -1977,7 +1977,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2012,7 +2012,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1784364917099991588
+  Id: 8296760981406713616
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -2030,7 +2030,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2065,7 +2065,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9810865631280155680
+  Id: 6877840913566619492
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -2083,7 +2083,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2118,7 +2118,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15977006430995501028
+  Id: 13242622225635826154
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -2136,7 +2136,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2171,7 +2171,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4259987009811462653
+  Id: 3279384833238114321
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -2190,7 +2190,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2225,7 +2225,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5520794737503877189
+  Id: 9928676965169278731
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -2244,7 +2244,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2279,7 +2279,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11359072506568769851
+  Id: 17288705557493639629
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -2298,7 +2298,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2333,7 +2333,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4859807171035756043
+  Id: 17117453025660103835
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -2352,7 +2352,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2387,7 +2387,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17956201740787464072
+  Id: 17239855617462577721
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -2406,7 +2406,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2441,7 +2441,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8811679604505844971
+  Id: 17936545000372429830
   Name: "Wedge"
   Transform {
     Location {
@@ -2460,7 +2460,7 @@ Objects {
       Z: 7.79999876
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2495,7 +2495,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1962015190751414042
+  Id: 1930801761055011373
   Name: "Wedge"
   Transform {
     Location {
@@ -2514,7 +2514,7 @@ Objects {
       Z: 7.79999876
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2549,7 +2549,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3928669512998405913
+  Id: 16078955523592906381
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -2568,7 +2568,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2603,7 +2603,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3008407572885080542
+  Id: 1693389331277744292
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -2622,7 +2622,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2657,7 +2657,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16755085136892643948
+  Id: 13942001792180377220
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -2676,7 +2676,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2711,7 +2711,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13590727199344341770
+  Id: 7776396234157021758
   Name: "Wedge"
   Transform {
     Location {
@@ -2730,7 +2730,7 @@ Objects {
       Z: 7.79999876
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2765,7 +2765,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5967815973428687121
+  Id: 16908162939098690466
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -2784,7 +2784,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2819,7 +2819,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15638199712232058654
+  Id: 9018660575430541664
   Name: "Wedge"
   Transform {
     Location {
@@ -2838,7 +2838,7 @@ Objects {
       Z: 7.79999876
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2873,7 +2873,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8020556854900038482
+  Id: 15509444754619013941
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -2892,7 +2892,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2927,7 +2927,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1690563312860709365
+  Id: 1816803476406392045
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -2946,7 +2946,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2981,7 +2981,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16716089099692671862
+  Id: 3278651015419340508
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -3000,7 +3000,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3035,7 +3035,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13069623107993291990
+  Id: 1058757360017320927
   Name: "Wedge"
   Transform {
     Location {
@@ -3054,7 +3054,7 @@ Objects {
       Z: 7.79999876
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3089,7 +3089,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1547085800028027308
+  Id: 7435317270122580861
   Name: "Wedge"
   Transform {
     Location {
@@ -3108,7 +3108,7 @@ Objects {
       Z: 7.79999876
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3143,7 +3143,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15322245720716012031
+  Id: 4520739494656997756
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -3162,7 +3162,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3197,7 +3197,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3794170849754056688
+  Id: 11649204103342235356
   Name: "Wedge"
   Transform {
     Location {
@@ -3216,7 +3216,7 @@ Objects {
       Z: -8.1999979
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3251,7 +3251,7 @@ Objects {
   }
 }
 Objects {
-  Id: 396908440710085326
+  Id: 7966051601754803882
   Name: "Wedge"
   Transform {
     Location {
@@ -3269,7 +3269,7 @@ Objects {
       Z: -8.1999979
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3304,7 +3304,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1326425844276631114
+  Id: 3580182669656401507
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -3323,7 +3323,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3358,7 +3358,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2390318819618868299
+  Id: 11481811868584091477
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -3376,7 +3376,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3411,7 +3411,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17279206494987373134
+  Id: 13775240587689221145
   Name: "Wedge"
   Transform {
     Location {
@@ -3429,7 +3429,7 @@ Objects {
       Z: -8.1999979
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3464,7 +3464,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9263576231054156117
+  Id: 9590882677241764586
   Name: "Wedge"
   Transform {
     Location {
@@ -3483,7 +3483,7 @@ Objects {
       Z: -8.1999979
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3518,61 +3518,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11292279804475415738
-  Name: "Prism - 3-Sided"
-  Transform {
-    Location {
-      X: -1695
-      Y: -5.00018311
-      Z: 780
-    }
-    Rotation {
-      Pitch: -3.05175781e-05
-      Yaw: 90.0000076
-      Roll: -140.000015
-    }
-    Scale {
-      X: 13.4999971
-      Y: 9
-      Z: 0.5
-    }
-  }
-  ParentId: 1135373949496368233
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 12922178834985676129
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 15004977114115670754
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 3989443690304014532
+  Id: 13985940037009325419
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -3590,7 +3536,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3625,7 +3571,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1125891216421051552
+  Id: 17792779593540602162
   Name: "Prism - 3-Sided"
   Transform {
     Location {
@@ -3643,7 +3589,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3678,7 +3624,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14426059821542149811
+  Id: 3989626558991178117
   Name: "Wedge"
   Transform {
     Location {
@@ -3696,7 +3642,7 @@ Objects {
       Z: -8.1999979
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3731,7 +3677,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9256446920961698063
+  Id: 14422414571416404255
   Name: "Wedge"
   Transform {
     Location {
@@ -3750,7 +3696,7 @@ Objects {
       Z: -8.1999979
     }
   }
-  ParentId: 1135373949496368233
+  ParentId: 6883089341949362534
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"

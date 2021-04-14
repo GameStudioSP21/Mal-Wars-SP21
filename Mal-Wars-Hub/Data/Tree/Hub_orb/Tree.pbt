@@ -1,7 +1,7 @@
 Name: "Hub_Orb"
-RootId: 12020244861279067469
+RootId: 8256713955920372491
 Objects {
-  Id: 8100472320156123387
+  Id: 16292457759383289148
   Name: "Bottom"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12020244861279067469
+  ParentId: 8256713955920372491
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -33,7 +33,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1135373949496368233
+  Id: 6883089341949362534
   Name: "Dome"
   Transform {
     Location {
@@ -49,7 +49,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12020244861279067469
+  ParentId: 8256713955920372491
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -65,7 +65,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11085073815668241972
+  Id: 18095453455165007792
   Name: "Hub_orb"
   Transform {
     Location {
@@ -80,7 +80,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12020244861279067469
+  ParentId: 8256713955920372491
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -96,7 +96,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11951713705615839199
+  Id: 4878137423293254865
   Name: "Hull_trim"
   Transform {
     Location {
@@ -112,7 +112,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12020244861279067469
+  ParentId: 8256713955920372491
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -128,7 +128,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16927600653597297751
+  Id: 9408784409407272840
   Name: "Hull_floor"
   Transform {
     Location {
@@ -144,7 +144,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12020244861279067469
+  ParentId: 8256713955920372491
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

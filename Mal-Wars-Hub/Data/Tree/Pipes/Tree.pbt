@@ -1,7 +1,7 @@
 Name: "Pipes"
-RootId: 15046018987511619763
+RootId: 9996732647092564220
 Objects {
-  Id: 15951527021691034571
+  Id: 16532260804211785314
   Name: "Pipes"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15046018987511619763
+  ParentId: 9996732647092564220
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -33,7 +33,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9616033108840439548
+  Id: 3513548280972451174
   Name: "Pipes"
   Transform {
     Location {
@@ -49,7 +49,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15046018987511619763
+  ParentId: 9996732647092564220
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -65,7 +65,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17008766550520012180
+  Id: 17098920868949416974
   Name: "Pipes"
   Transform {
     Location {
@@ -81,7 +81,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15046018987511619763
+  ParentId: 9996732647092564220
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -97,7 +97,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6081011190125149319
+  Id: 16954394076388107359
   Name: "Pipes"
   Transform {
     Location {
@@ -113,7 +113,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15046018987511619763
+  ParentId: 9996732647092564220
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -129,7 +129,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5032350349249519932
+  Id: 10155207072865710516
   Name: "Pipes"
   Transform {
     Location {
@@ -145,7 +145,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15046018987511619763
+  ParentId: 9996732647092564220
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -161,7 +161,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10310933981371243100
+  Id: 11218707086790605188
   Name: "Pipes"
   Transform {
     Location {
@@ -177,7 +177,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15046018987511619763
+  ParentId: 9996732647092564220
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -193,7 +193,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16164204825588306169
+  Id: 15383645324879010522
   Name: "Pipes"
   Transform {
     Location {
@@ -208,7 +208,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15046018987511619763
+  ParentId: 9996732647092564220
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -224,7 +224,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11296659147847118434
+  Id: 996632539796669605
   Name: "Pipes"
   Transform {
     Location {
@@ -239,7 +239,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15046018987511619763
+  ParentId: 9996732647092564220
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -255,7 +255,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12971490641786697739
+  Id: 1007375745902552524
   Name: "Pipes_2"
   Transform {
     Location {
@@ -271,7 +271,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15046018987511619763
+  ParentId: 9996732647092564220
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

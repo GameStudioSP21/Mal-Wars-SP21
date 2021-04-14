@@ -1,7 +1,7 @@
 Name: "Portal_2"
-RootId: 17571528329388815988
+RootId: 11262354851039639587
 Objects {
-  Id: 1448974285938320337
+  Id: 8089222845580683667
   Name: "Cylinder"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -53,7 +53,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15244326126249024294
+  Id: 7314397504044607491
   Name: "Cylinder"
   Transform {
     Location {
@@ -70,7 +70,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -105,7 +105,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7074025877504787378
+  Id: 14755442889813489747
   Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
@@ -124,7 +124,7 @@ Objects {
       Z: 1.7
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -151,7 +151,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18244632341904945166
+  Id: 13670026536648219273
   Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
@@ -170,7 +170,7 @@ Objects {
       Z: 1.7
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -197,7 +197,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11312149915338537268
+  Id: 10053971505947798642
   Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
@@ -216,7 +216,7 @@ Objects {
       Z: 1.7
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -243,7 +243,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1953507473817461480
+  Id: 2841204526267732911
   Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
@@ -262,7 +262,7 @@ Objects {
       Z: 1.7
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -289,7 +289,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14154858921550456676
+  Id: 15058507322837065341
   Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
@@ -308,7 +308,7 @@ Objects {
       Z: 1.7
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -335,7 +335,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16773371938691433695
+  Id: 15089609151360526827
   Name: "Sci-fi Ship Fuselage 02"
   Transform {
     Location {
@@ -353,7 +353,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -380,7 +380,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4336344688451840058
+  Id: 694080179275258570
   Name: "Sci-fi Ship Fuselage 02"
   Transform {
     Location {
@@ -399,7 +399,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -426,7 +426,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14806080009462555648
+  Id: 17668059433737626883
   Name: "Sci-fi Ship Engine 03"
   Transform {
     Location {
@@ -443,7 +443,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -484,7 +484,7 @@ Objects {
   }
 }
 Objects {
-  Id: 51687981872598048
+  Id: 15342550605072438205
   Name: "Sci-fi Chair Support 01"
   Transform {
     Location {
@@ -502,7 +502,7 @@ Objects {
       Z: 2
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -543,7 +543,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4848312250105503007
+  Id: 14183636778377641428
   Name: "Sci-fi Chair Support 01"
   Transform {
     Location {
@@ -561,7 +561,7 @@ Objects {
       Z: 2
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -602,7 +602,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8799579131735882899
+  Id: 15211792491498426624
   Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
@@ -619,7 +619,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -646,7 +646,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17669535397499239368
+  Id: 12169838748297548769
   Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
@@ -663,7 +663,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -690,7 +690,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16343480862030226363
+  Id: 4615715626416146134
   Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
@@ -707,7 +707,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -734,7 +734,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17311823227499819463
+  Id: 12979193191224068342
   Name: "Sci-fi CockPit Control Yoke"
   Transform {
     Location {
@@ -753,7 +753,7 @@ Objects {
       Z: 5.99999952
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -780,7 +780,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9479909836506156260
+  Id: 12268961257114091881
   Name: "Sci-fi Cockpit Control Terminal 02"
   Transform {
     Location {
@@ -797,7 +797,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -832,7 +832,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16916161993417436870
+  Id: 8829113533324741986
   Name: "Sci-fi Cockpit Control Terminal 02"
   Transform {
     Location {
@@ -849,7 +849,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -884,7 +884,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2563344540417319493
+  Id: 1200160654977036403
   Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
@@ -903,7 +903,7 @@ Objects {
       Z: 1.7
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -930,7 +930,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8617984170341429149
+  Id: 16995431840769467983
   Name: "Sci-fi CockPit Control Yoke"
   Transform {
     Location {
@@ -949,7 +949,7 @@ Objects {
       Z: 5.99999952
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -976,7 +976,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14261920708096483448
+  Id: 11632232951195016010
   Name: "Sci-fi Ship Fuselage 02"
   Transform {
     Location {
@@ -995,7 +995,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1022,7 +1022,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2163941556262533345
+  Id: 3913825821226303076
   Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
@@ -1041,7 +1041,7 @@ Objects {
       Z: 1.7
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1068,7 +1068,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15477638024361456024
+  Id: 5335676687840548474
   Name: "Sci-fi Ship Fuselage 02"
   Transform {
     Location {
@@ -1087,7 +1087,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1114,7 +1114,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11556088839634082040
+  Id: 7052167174952948979
   Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
@@ -1133,7 +1133,7 @@ Objects {
       Z: 1.7
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1160,7 +1160,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2812205950201237367
+  Id: 16775131841994176287
   Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
@@ -1179,7 +1179,7 @@ Objects {
       Z: 1.7
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1206,7 +1206,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9596666589823288144
+  Id: 7661811784912069837
   Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
@@ -1225,7 +1225,7 @@ Objects {
       Z: 1.7
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1252,7 +1252,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13846023807509863659
+  Id: 16558565364811578702
   Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
@@ -1271,7 +1271,7 @@ Objects {
       Z: 1.7
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1298,7 +1298,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14578330312339591521
+  Id: 7504190845590874049
   Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
@@ -1317,7 +1317,7 @@ Objects {
       Z: 1.7
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1344,7 +1344,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1982624206165166286
+  Id: 15475316077507623816
   Name: "Sci-fi Chest Rare Base 01"
   Transform {
     Location {
@@ -1363,7 +1363,7 @@ Objects {
       Z: 1.30000007
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1390,7 +1390,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9880600435066504580
+  Id: 7284550978405251535
   Name: "Sci-fi Chest Rare Base 01"
   Transform {
     Location {
@@ -1409,7 +1409,7 @@ Objects {
       Z: 1.30000007
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1436,7 +1436,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15957164744378773056
+  Id: 8371959768578047997
   Name: "Prism - 6-Sided"
   Transform {
     Location {
@@ -1453,7 +1453,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1492,7 +1492,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17371115489413899107
+  Id: 13644418729132387401
   Name: "Pipe - 90-Degree Long"
   Transform {
     Location {
@@ -1509,7 +1509,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1544,7 +1544,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3796167952727195833
+  Id: 8448243099229088662
   Name: "Pipe - 90-Degree Long"
   Transform {
     Location {
@@ -1561,7 +1561,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1596,7 +1596,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16216535698246647545
+  Id: 5000272753051238151
   Name: "Prism - 6-Sided"
   Transform {
     Location {
@@ -1613,7 +1613,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1652,7 +1652,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13711377424788887323
+  Id: 8412474393932101896
   Name: "Container - Trapezoid 01"
   Transform {
     Location {
@@ -1670,7 +1670,7 @@ Objects {
       Z: 1.5999999
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1709,7 +1709,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9397486332810915245
+  Id: 4200979922101712806
   Name: "Container - Trapezoid 01"
   Transform {
     Location {
@@ -1727,7 +1727,7 @@ Objects {
       Z: 1.38582981
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1766,7 +1766,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14039042092028555040
+  Id: 15269187930641286593
   Name: "Container - Trapezoid 01"
   Transform {
     Location {
@@ -1783,7 +1783,7 @@ Objects {
       Z: 2.70789361
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1830,7 +1830,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8945466257118468674
+  Id: 15926804333053071938
   Name: "Container - Trapezoid 01"
   Transform {
     Location {
@@ -1847,7 +1847,7 @@ Objects {
       Z: 1.30000007
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1886,7 +1886,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4789492507938004972
+  Id: 16086316544095424220
   Name: "Container - Trapezoid 01"
   Transform {
     Location {
@@ -1903,7 +1903,7 @@ Objects {
       Z: 2.74324536
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1950,7 +1950,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8217650351634244249
+  Id: 5449614258594412009
   Name: "Container - Trapezoid 01"
   Transform {
     Location {
@@ -1968,7 +1968,7 @@ Objects {
       Z: 2.7
     }
   }
-  ParentId: 17571528329388815988
+  ParentId: 11262354851039639587
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"

@@ -1,7 +1,7 @@
 Name: "Wall_large_2"
-RootId: 13818841911180281114
+RootId: 8219932631162362134
 Objects {
-  Id: 15765380275116606445
+  Id: 13435120528293828989
   Name: "Sci-fi Console Leg 01"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 2.19999981
     }
   }
-  ParentId: 13818841911180281114
+  ParentId: 8219932631162362134
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -52,7 +52,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17160427303672276207
+  Id: 4127908860644780971
   Name: "Sci-fi Console Leg 01"
   Transform {
     Location {
@@ -68,7 +68,7 @@ Objects {
       Z: 2.79999948
     }
   }
-  ParentId: 13818841911180281114
+  ParentId: 8219932631162362134
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -103,7 +103,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5236614819203071894
+  Id: 10363129950476820618
   Name: "Sci-fi Console Leg 01"
   Transform {
     Location {
@@ -119,7 +119,7 @@ Objects {
       Z: 2.19999981
     }
   }
-  ParentId: 13818841911180281114
+  ParentId: 8219932631162362134
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -154,7 +154,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6056518276498040668
+  Id: 11831277893353861858
   Name: "Sci-fi Console Leg 01"
   Transform {
     Location {
@@ -170,7 +170,7 @@ Objects {
       Z: 2.19999981
     }
   }
-  ParentId: 13818841911180281114
+  ParentId: 8219932631162362134
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -205,7 +205,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5249683996951604360
+  Id: 14449940232408581882
   Name: "Sci-fi Console Leg 01"
   Transform {
     Location {
@@ -221,7 +221,7 @@ Objects {
       Z: 2.19999981
     }
   }
-  ParentId: 13818841911180281114
+  ParentId: 8219932631162362134
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -256,7 +256,7 @@ Objects {
   }
 }
 Objects {
-  Id: 208524369558820044
+  Id: 14123435840388636236
   Name: "Sci-fi Console Leg 01"
   Transform {
     Location {
@@ -272,7 +272,7 @@ Objects {
       Z: 2.79999948
     }
   }
-  ParentId: 13818841911180281114
+  ParentId: 8219932631162362134
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -307,7 +307,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13977094235587405118
+  Id: 13403374362007358231
   Name: "Sci-fi Cockpit Console 001"
   Transform {
     Location {
@@ -326,7 +326,7 @@ Objects {
       Z: 2
     }
   }
-  ParentId: 13818841911180281114
+  ParentId: 8219932631162362134
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -355,7 +355,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6179959584769418161
+  Id: 7086554707235109740
   Name: "Sci-fi Cockpit Console 001"
   Transform {
     Location {
@@ -374,7 +374,7 @@ Objects {
       Z: 2
     }
   }
-  ParentId: 13818841911180281114
+  ParentId: 8219932631162362134
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -415,7 +415,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12964736113729718185
+  Id: 14183206973117619925
   Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
@@ -432,7 +432,7 @@ Objects {
       Z: 3.30000019
     }
   }
-  ParentId: 13818841911180281114
+  ParentId: 8219932631162362134
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -467,7 +467,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17757409154976208384
+  Id: 14105861816476123706
   Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
@@ -484,7 +484,7 @@ Objects {
       Z: 3.30000019
     }
   }
-  ParentId: 13818841911180281114
+  ParentId: 8219932631162362134
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -519,7 +519,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7188134789287466666
+  Id: 6220217969472453085
   Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
@@ -536,7 +536,7 @@ Objects {
       Z: 3.30000019
     }
   }
-  ParentId: 13818841911180281114
+  ParentId: 8219932631162362134
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -571,7 +571,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7362980605603208970
+  Id: 1086964698570175003
   Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
@@ -588,7 +588,7 @@ Objects {
       Z: 3.30000019
     }
   }
-  ParentId: 13818841911180281114
+  ParentId: 8219932631162362134
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -623,7 +623,7 @@ Objects {
   }
 }
 Objects {
-  Id: 828428327897524877
+  Id: 4066592323625853068
   Name: "Sci-fi Cockpit Console 001"
   Transform {
     Location {
@@ -642,7 +642,7 @@ Objects {
       Z: 2
     }
   }
-  ParentId: 13818841911180281114
+  ParentId: 8219932631162362134
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -671,7 +671,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14654172143203164590
+  Id: 9949977936972663221
   Name: "Sci-fi Cockpit Console 001"
   Transform {
     Location {
@@ -690,7 +690,7 @@ Objects {
       Z: 2
     }
   }
-  ParentId: 13818841911180281114
+  ParentId: 8219932631162362134
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -731,7 +731,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7736450280688721467
+  Id: 101342852370938136
   Name: "Sci-fi Console Leg 02"
   Transform {
     Location {
@@ -748,7 +748,7 @@ Objects {
       Z: 2.39999986
     }
   }
-  ParentId: 13818841911180281114
+  ParentId: 8219932631162362134
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -789,7 +789,7 @@ Objects {
   }
 }
 Objects {
-  Id: 141384217749286208
+  Id: 16558473480639735774
   Name: "Sci-fi Console Leg 02"
   Transform {
     Location {
@@ -806,7 +806,7 @@ Objects {
       Z: 2.39999986
     }
   }
-  ParentId: 13818841911180281114
+  ParentId: 8219932631162362134
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -847,7 +847,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7897163251397916890
+  Id: 18098231810642350187
   Name: "Sci-fi Console Leg 02"
   Transform {
     Location {
@@ -864,7 +864,7 @@ Objects {
       Z: 2.39999986
     }
   }
-  ParentId: 13818841911180281114
+  ParentId: 8219932631162362134
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -905,7 +905,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4737630996811453947
+  Id: 2483589741268018120
   Name: "Sci-fi Console Leg 02"
   Transform {
     Location {
@@ -922,7 +922,7 @@ Objects {
       Z: 2.39999986
     }
   }
-  ParentId: 13818841911180281114
+  ParentId: 8219932631162362134
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -963,7 +963,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8167840918369054768
+  Id: 8025037430162871618
   Name: "Sci-fi Cockpit Console 001"
   Transform {
     Location {
@@ -980,7 +980,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13818841911180281114
+  ParentId: 8219932631162362134
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1007,7 +1007,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18301397253736391454
+  Id: 15789118404346926702
   Name: "Sci-fi Cockpit Console 001"
   Transform {
     Location {
@@ -1024,7 +1024,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13818841911180281114
+  ParentId: 8219932631162362134
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1051,7 +1051,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16243933887855106722
+  Id: 17369506112325889068
   Name: "Sci-fi Cockpit Console 001"
   Transform {
     Location {
@@ -1068,7 +1068,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13818841911180281114
+  ParentId: 8219932631162362134
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1095,7 +1095,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2888015916739251110
+  Id: 2188389540345716502
   Name: "Sci-fi Console Leg 01"
   Transform {
     Location {
@@ -1112,7 +1112,7 @@ Objects {
       Z: 2.10000014
     }
   }
-  ParentId: 13818841911180281114
+  ParentId: 8219932631162362134
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -1147,7 +1147,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16298713794597342965
+  Id: 2910674962667344923
   Name: "Sci-fi Console Leg 01"
   Transform {
     Location {
@@ -1164,7 +1164,7 @@ Objects {
       Z: 2.39999986
     }
   }
-  ParentId: 13818841911180281114
+  ParentId: 8219932631162362134
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -1199,7 +1199,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11653385470170979249
+  Id: 11720341841267070439
   Name: "Sci-fi Console Leg 01"
   Transform {
     Location {
@@ -1216,7 +1216,7 @@ Objects {
       Z: 2.4
     }
   }
-  ParentId: 13818841911180281114
+  ParentId: 8219932631162362134
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1257,7 +1257,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12043817636874667480
+  Id: 992946777943999914
   Name: "Sci-fi Console Leg 01"
   Transform {
     Location {
@@ -1274,7 +1274,7 @@ Objects {
       Z: 2.39999986
     }
   }
-  ParentId: 13818841911180281114
+  ParentId: 8219932631162362134
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
@@ -1309,7 +1309,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10273377783120971510
+  Id: 10877100325990364030
   Name: "Sci-fi Console Leg 01"
   Transform {
     Location {
@@ -1326,7 +1326,7 @@ Objects {
       Z: 2.10000014
     }
   }
-  ParentId: 13818841911180281114
+  ParentId: 8219932631162362134
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:id"
