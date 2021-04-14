@@ -1,7 +1,7 @@
 Name: "window2_1"
-RootId: 11430942074312819653
+RootId: 5546621968502647183
 Objects {
-  Id: 9879255117494670432
+  Id: 10331166366586296957
   Name: "Whitebox Wall 01"
   Transform {
     Location {
@@ -18,7 +18,15 @@ Objects {
       Z: 0.3
     }
   }
-  ParentId: 11430942074312819653
+  ParentId: 5546621968502647183
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 15871680318594948812
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -51,57 +59,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6251325591575629207
-  Name: "Whitebox Wall 01 Doorway 01 Frame"
-  Transform {
-    Location {
-      X: -10.0139151
-      Y: 4.99096632
-      Z: 110
-    }
-    Rotation {
-      Yaw: 50
-    }
-    Scale {
-      X: 3.5
-      Y: 1
-      Z: 1.1
-    }
-  }
-  ParentId: 11430942074312819653
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 1628849511756280386
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 14649393739509194942
-    SubobjectId: 4467374097791638366
-    InstanceId: 2585132023508260079
-    TemplateId: 17735093090777977581
-  }
-}
-Objects {
-  Id: 3515850806330038207
+  Id: 12822120015767254063
   Name: "Whitebox Wall 01"
   Transform {
     Location {
@@ -118,7 +76,9 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 11430942074312819653
+  ParentId: 5546621968502647183
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

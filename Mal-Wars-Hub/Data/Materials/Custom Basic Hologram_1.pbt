@@ -1,6 +1,6 @@
 Assets {
   Id: 5369817480637394731
-  Name: "Custom Basic Hologram_1"
+  Name: "A SC_Basic Hologram, Level one"
   PlatformAssetType: 13
   SerializationVersion: 81
   CustomMaterialAsset {
@@ -9,8 +9,8 @@ Assets {
       Overrides {
         Name: "color"
         Color {
-          R: 0.85
-          G: 0.23642382
+          G: 0.681191921
+          B: 0.74
           A: 1
         }
       }

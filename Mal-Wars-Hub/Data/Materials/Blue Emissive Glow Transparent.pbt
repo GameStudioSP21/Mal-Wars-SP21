@@ -4,73 +4,24 @@ Assets {
   PlatformAssetType: 13
   SerializationVersion: 81
   CustomMaterialAsset {
-    BaseMaterialId: 9740991320934820625
+    BaseMaterialId: 3702191406046426907
     ParameterOverrides {
       Overrides {
         Name: "color"
         Color {
-          R: 0.160000026
-          G: 0.949933708
-          B: 1
+          G: 0.026071677
+          B: 0.73
           A: 1
         }
       }
-      Overrides {
-        Name: "emissive_boost"
-        Float: 1.74189377
-      }
-      Overrides {
-        Name: "flicker intensity"
-        Float: 5.75400782
-      }
-      Overrides {
-        Name: "scanline min value"
-        Float: 0
-      }
-      Overrides {
-        Name: "glow intensity"
-        Float: 1
-      }
-      Overrides {
-        Name: " clear coat roughness"
-        Float: 0
-      }
-      Overrides {
-        Name: "roughness"
-        Float: 0.690322638
-      }
-      Overrides {
-        Name: "specular rolloff"
-        Float: 0.894628167
-      }
-      Overrides {
-        Name: "metallic"
-        Float: 1
-      }
-      Overrides {
-        Name: "pulse amount"
-        Float: 0
-      }
-      Overrides {
-        Name: "pulse speed"
-        Float: 0
-      }
-      Overrides {
-        Name: "fresnelexp"
-        Float: 1
-      }
-      Overrides {
-        Name: "noise amount"
-        Float: 0.984011829
-      }
     }
     Assets {
-      Id: 9740991320934820625
-      Name: "Energy Tube Glow"
+      Id: 3702191406046426907
+      Name: "Emissive Glow Transparent"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "Energy_Tube_Glow"
+        AssetId: "mi_basic_emissive_001"
       }
     }
   }

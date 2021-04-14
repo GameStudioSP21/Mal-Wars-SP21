@@ -1,12 +1,1996 @@
 Name: "KioskDECOR"
-RootId: 6143700549180833428
+RootId: 10468175419872790895
 Objects {
-  Id: 144946654996488644
+  Id: 13069653057579511750
+  Name: "Office Cubicle Cabinet 01 - Template"
+  Transform {
+    Location {
+      X: -3535.1687
+      Y: 2974.70166
+      Z: -400.047821
+    }
+    Rotation {
+      Yaw: -4.78113107e-05
+    }
+    Scale {
+      X: -1
+      Y: -1
+      Z: 1
+    }
+  }
+  ParentId: 10468175419872790895
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5235872528674578476
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 50
+            Y: 10
+            Z: 10
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8591021773796156247
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15120790585415467771
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Office Cubicle Cabinet 01 - Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 82.0732422
+            Y: 651.833496
+            Z: 199.254303
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: -1
+            Y: -1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 1.30275513e-11
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15419211223565932010
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17807296638242183861
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12496830201709640104
+    }
+  }
+}
+Objects {
+  Id: 2466093717237473350
+  Name: "Office Cubicle Cabinet 01 - Template"
+  Transform {
+    Location {
+      X: -3535.1687
+      Y: 2974.6875
+      Z: -498.508789
+    }
+    Rotation {
+      Yaw: -4.78113143e-05
+    }
+    Scale {
+      X: -1
+      Y: -1
+      Z: 1
+    }
+  }
+  ParentId: 10468175419872790895
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5235872528674578476
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 50
+            Y: 10
+            Z: 10
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8591021773796156247
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15120790585415467771
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Office Cubicle Cabinet 01 - Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 82.0732422
+            Y: 651.819336
+            Z: 100.793335
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: -1
+            Y: -1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 9.77066344e-12
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15419211223565932010
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17807296638242183861
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 50
+            Y: 11.4016113
+            Z: 50
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12496830201709640104
+    }
+  }
+}
+Objects {
+  Id: 18007684250574019498
+  Name: "Office Cubicle Cabinet 01 - Template"
+  Transform {
+    Location {
+      X: -3535.1687
+      Y: 2974.6875
+      Z: -599.302124
+    }
+    Rotation {
+      Yaw: -4.78113143e-05
+    }
+    Scale {
+      X: -1
+      Y: -1
+      Z: 1
+    }
+  }
+  ParentId: 10468175419872790895
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5235872528674578476
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 50
+            Y: 10
+            Z: 10
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8591021773796156247
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15120790585415467771
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Office Cubicle Cabinet 01 - Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 82.0732422
+            Y: 651.819336
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: -1
+            Y: -1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 9.77066344e-12
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15419211223565932010
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17807296638242183861
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12496830201709640104
+    }
+  }
+}
+Objects {
+  Id: 17641273281184105896
+  Name: "Office Cubicle Cabinet 01 - Template"
+  Transform {
+    Location {
+      X: -4511.25439
+      Y: 2974.69897
+      Z: -299.254517
+    }
+    Rotation {
+      Yaw: -4.78113143e-05
+    }
+    Scale {
+      X: -1
+      Y: -1
+      Z: 1
+    }
+  }
+  ParentId: 10468175419872790895
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5235872528674578476
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 50
+            Y: 10
+            Z: 10
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8591021773796156247
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15120790585415467771
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Office Cubicle Cabinet 01 - Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 188.198975
+            Y: 651.825439
+            Z: 300.047607
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: -1
+            Y: -1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 9.77066344e-12
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15419211223565932010
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17807296638242183861
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 50
+            Y: 9.56176758
+            Z: 50
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12496830201709640104
+    }
+  }
+}
+Objects {
+  Id: 14662067191813617401
+  Name: "Office Cubicle Cabinet 01 - Template"
+  Transform {
+    Location {
+      X: -4511.25439
+      Y: 2974.69897
+      Z: -400.047821
+    }
+    Rotation {
+      Yaw: -4.78113143e-05
+    }
+    Scale {
+      X: -1
+      Y: -1
+      Z: 1
+    }
+  }
+  ParentId: 10468175419872790895
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5235872528674578476
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 50
+            Y: 10
+            Z: 10
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8591021773796156247
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15120790585415467771
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Office Cubicle Cabinet 01 - Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 188.198975
+            Y: 651.825439
+            Z: 199.254303
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: -1
+            Y: -1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 9.77066344e-12
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15419211223565932010
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17807296638242183861
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12496830201709640104
+    }
+  }
+}
+Objects {
+  Id: 11726772142614865382
+  Name: "Office Cubicle Cabinet 01 - Template"
+  Transform {
+    Location {
+      X: -4511.25439
+      Y: 2974.68506
+      Z: -498.508789
+    }
+    Rotation {
+      Yaw: -4.78113179e-05
+    }
+    Scale {
+      X: -1
+      Y: -1
+      Z: 1
+    }
+  }
+  ParentId: 10468175419872790895
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5235872528674578476
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 50
+            Y: 10
+            Z: 10
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8591021773796156247
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15120790585415467771
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Office Cubicle Cabinet 01 - Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 188.198975
+            Y: 651.811279
+            Z: 100.793335
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: -1
+            Y: -1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 6.51377563e-12
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15419211223565932010
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17807296638242183861
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 50
+            Y: 11.4016113
+            Z: 50
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12496830201709640104
+    }
+  }
+}
+Objects {
+  Id: 12401814036089913353
+  Name: "Office Cubicle Cabinet 01 - Template"
+  Transform {
+    Location {
+      X: -4511.25439
+      Y: 2974.68506
+      Z: -599.302124
+    }
+    Rotation {
+      Yaw: -4.78113179e-05
+    }
+    Scale {
+      X: -1
+      Y: -1
+      Z: 1
+    }
+  }
+  ParentId: 10468175419872790895
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5235872528674578476
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 50
+            Y: 10
+            Z: 10
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8591021773796156247
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15120790585415467771
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Office Cubicle Cabinet 01 - Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 188.198975
+            Y: 651.811279
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: -1
+            Y: -1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 6.51377563e-12
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15419211223565932010
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17807296638242183861
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12496830201709640104
+    }
+  }
+}
+Objects {
+  Id: 9162996808409842605
+  Name: "Office Cubicle Cabinet 01 - Template"
+  Transform {
+    Location {
+      X: -4511.25439
+      Y: 2974.68506
+      Z: -498.508789
+    }
+    Rotation {
+      Yaw: -4.78113179e-05
+    }
+    Scale {
+      X: -1
+      Y: -1
+      Z: 1
+    }
+  }
+  ParentId: 10468175419872790895
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5235872528674578476
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 50
+            Y: 10
+            Z: 10
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8591021773796156247
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15120790585415467771
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Office Cubicle Cabinet 01 - Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -787.886719
+            Y: 651.821777
+            Z: 300.047607
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: -1
+            Y: -1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 6.51377563e-12
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15419211223565932010
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17807296638242183861
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 50
+            Y: 9.56176758
+            Z: 50
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12496830201709640104
+    }
+  }
+}
+Objects {
+  Id: 9980961508007564848
+  Name: "Office Cubicle Cabinet 01 - Template"
+  Transform {
+    Location {
+      X: -4511.25439
+      Y: 2974.68506
+      Z: -599.302124
+    }
+    Rotation {
+      Yaw: -4.78113179e-05
+    }
+    Scale {
+      X: -1
+      Y: -1
+      Z: 1
+    }
+  }
+  ParentId: 10468175419872790895
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5235872528674578476
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 50
+            Y: 10
+            Z: 10
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8591021773796156247
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15120790585415467771
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Office Cubicle Cabinet 01 - Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -787.886719
+            Y: 651.821777
+            Z: 199.254303
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: -1
+            Y: -1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 6.51377563e-12
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15419211223565932010
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17807296638242183861
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12496830201709640104
+    }
+  }
+}
+Objects {
+  Id: 11706838249344461013
+  Name: "Office Cubicle Cabinet 01 - Template"
+  Transform {
+    Location {
+      X: -4283.97852
+      Y: 2974.68262
+      Z: -498.508789
+    }
+    Rotation {
+      Yaw: -4.78113216e-05
+    }
+    Scale {
+      X: -1
+      Y: -1
+      Z: 1
+    }
+  }
+  ParentId: 10468175419872790895
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5235872528674578476
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 50
+            Y: 10
+            Z: 10
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8591021773796156247
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15120790585415467771
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Office Cubicle Cabinet 01 - Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -787.886719
+            Y: 651.807861
+            Z: 100.793335
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: -1
+            Y: -1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 3.25688781e-12
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15419211223565932010
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17807296638242183861
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 50
+            Y: 11.4016113
+            Z: 50
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12496830201709640104
+    }
+  }
+}
+Objects {
+  Id: 10448717623708396479
+  Name: "Office Cubicle Cabinet 01 - Template"
+  Transform {
+    Location {
+      X: -4283.97852
+      Y: 2974.68262
+      Z: -599.302124
+    }
+    Rotation {
+      Yaw: -4.78113216e-05
+    }
+    Scale {
+      X: -1
+      Y: -1
+      Z: 1
+    }
+  }
+  ParentId: 10468175419872790895
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5235872528674578476
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 50
+            Y: 10
+            Z: 10
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8591021773796156247
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15120790585415467771
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Office Cubicle Cabinet 01 - Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -787.886719
+            Y: 651.807861
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: -1
+            Y: -1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 3.25688781e-12
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15419211223565932010
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17807296638242183861
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12496830201709640104
+    }
+  }
+}
+Objects {
+  Id: 1345030243895345770
   Name: "Mouse"
   Transform {
     Location {
-      X: -521.703857
-      Y: -167.915039
+      X: -456.357758
+      Y: -167.914932
       Z: 127.982239
     }
     Rotation {
@@ -18,7 +2002,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6143700549180833428
+  ParentId: 10468175419872790895
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -45,12 +2029,12 @@ Objects {
   }
 }
 Objects {
-  Id: 12812835362893528111
+  Id: 2966700956541627150
   Name: "Mouse"
   Transform {
     Location {
-      X: -250.042725
-      Y: -180.989746
+      X: -181.849457
+      Y: -180.989655
       Z: 127.982239
     }
     Rotation {
@@ -61,7 +2045,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6143700549180833428
+  ParentId: 10468175419872790895
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -88,12 +2072,12 @@ Objects {
   }
 }
 Objects {
-  Id: 16882571745354053758
+  Id: 16144894233999510347
   Name: "Office Clipboard"
   Transform {
     Location {
-      X: -488.296631
-      Y: -202.522217
+      X: -422.9505
+      Y: -202.522079
       Z: 127.982239
     }
     Rotation {
@@ -105,7 +2089,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6143700549180833428
+  ParentId: 10468175419872790895
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -132,12 +2116,12 @@ Objects {
   }
 }
 Objects {
-  Id: 7963742277759258061
+  Id: 13880351850203775416
   Name: "Office Pen 02"
   Transform {
     Location {
-      X: -480.838135
-      Y: -196.968506
+      X: -415.492035
+      Y: -196.968369
       Z: 130.257263
     }
     Rotation {
@@ -149,7 +2133,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6143700549180833428
+  ParentId: 10468175419872790895
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -176,7 +2160,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7123197957348080272
+  Id: 15792504620905690867
   Name: "Urban Office Laptop (Prop)"
   Transform {
     Location {
@@ -192,7 +2176,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6143700549180833428
+  ParentId: 10468175419872790895
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -210,8 +2194,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -563.923096
-            Y: -186.88501
+            X: -498.577
+            Y: -186.884933
             Z: 126.776367
           }
         }
@@ -236,12 +2220,12 @@ Objects {
   }
 }
 Objects {
-  Id: 15911678937134004187
+  Id: 7212559274509277928
   Name: "Office Book Collection 02"
   Transform {
     Location {
-      X: -543.806885
-      Y: 507.980225
+      X: -429.984863
+      Y: 507.984619
       Z: 70.0432129
     }
     Rotation {
@@ -252,7 +2236,7 @@ Objects {
       Z: 0.81620729
     }
   }
-  ParentId: 6143700549180833428
+  ParentId: 10468175419872790895
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -279,12 +2263,12 @@ Objects {
   }
 }
 Objects {
-  Id: 3745868597245753062
+  Id: 8707686863646341613
   Name: "Office Book Pile 04"
   Transform {
     Location {
-      X: -706.69458
-      Y: 599.200439
+      X: -543.679199
+      Y: 599.200745
       Z: 99.9999084
     }
     Rotation {
@@ -295,7 +2279,7 @@ Objects {
       Z: 0.873220921
     }
   }
-  ParentId: 6143700549180833428
+  ParentId: 10468175419872790895
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -322,12 +2306,12 @@ Objects {
   }
 }
 Objects {
-  Id: 10462497366804965105
+  Id: 6334565887971384932
   Name: "Office Clipboard"
   Transform {
     Location {
-      X: -216.212402
-      Y: -202.522217
+      X: -148.019119
+      Y: -202.522095
       Z: 127.982239
     }
     Rotation {
@@ -339,7 +2323,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6143700549180833428
+  ParentId: 10468175419872790895
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -366,12 +2350,12 @@ Objects {
   }
 }
 Objects {
-  Id: 5323292552051046293
+  Id: 15422096747353821301
   Name: "Office Stapler"
   Transform {
     Location {
-      X: -487.218506
-      Y: 526.595
+      X: -373.396912
+      Y: 526.595154
       Z: 132.457672
     }
     Rotation {
@@ -383,7 +2367,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6143700549180833428
+  ParentId: 10468175419872790895
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -410,12 +2394,12 @@ Objects {
   }
 }
 Objects {
-  Id: 3551976198598095094
+  Id: 14437670085448293808
   Name: "Office Pen 02"
   Transform {
     Location {
-      X: -208.753906
-      Y: -196.968506
+      X: -140.560623
+      Y: -196.968384
       Z: 130.257263
     }
     Rotation {
@@ -427,7 +2411,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6143700549180833428
+  ParentId: 10468175419872790895
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -454,12 +2438,12 @@ Objects {
   }
 }
 Objects {
-  Id: 6023643537177930971
+  Id: 9208872173639723204
   Name: "Office Pen Holder"
   Transform {
     Location {
-      X: -198.588135
-      Y: 555.970215
+      X: -84.7651138
+      Y: 555.970398
       Z: 127.202148
     }
     Rotation {
@@ -470,7 +2454,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6143700549180833428
+  ParentId: 10468175419872790895
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -497,12 +2481,12 @@ Objects {
   }
 }
 Objects {
-  Id: 11846072110721157154
+  Id: 17818954137929353254
   Name: "Office Shelves"
   Transform {
     Location {
-      X: -360.473877
-      Y: 545.0979
+      X: -246.650848
+      Y: 545.097961
       Z: 2.00720215
     }
     Rotation {
@@ -513,7 +2497,54 @@ Objects {
       Z: 0.80502075
     }
   }
-  ParentId: 6143700549180833428
+  ParentId: 10468175419872790895
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 1183484854879352956
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:id"
+      AssetReference {
+        Id: 1183484854879352956
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:id"
+      AssetReference {
+        Id: 1183484854879352956
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail1:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Detail2:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -540,7 +2571,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5116492550780926083
+  Id: 7542781232212379523
   Name: "Office Folder"
   Transform {
     Location {
@@ -558,7 +2589,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6143700549180833428
+  ParentId: 10468175419872790895
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -585,12 +2616,12 @@ Objects {
   }
 }
 Objects {
-  Id: 5520071574838577389
+  Id: 9332743079518707042
   Name: "Office Folder"
   Transform {
     Location {
-      X: -675.582275
-      Y: 508.39209
+      X: -512.566833
+      Y: 508.392151
       Z: 34.4224243
     }
     Rotation {
@@ -601,7 +2632,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6143700549180833428
+  ParentId: 10468175419872790895
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -628,12 +2659,12 @@ Objects {
   }
 }
 Objects {
-  Id: 780267663966713215
+  Id: 1770267676581490244
   Name: "Office Folder"
   Transform {
     Location {
-      X: -675.582275
-      Y: 499.8479
+      X: -512.566833
+      Y: 499.847961
       Z: 34.4224243
     }
     Rotation {
@@ -644,7 +2675,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6143700549180833428
+  ParentId: 10468175419872790895
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -671,7 +2702,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16057327032933396874
+  Id: 15022143412603990276
   Name: "Office Folder"
   Transform {
     Location {
@@ -689,7 +2720,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6143700549180833428
+  ParentId: 10468175419872790895
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -716,7 +2747,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17160403525943417231
+  Id: 13948403304950024897
   Name: "Urban Office Laptop (Prop)"
   Transform {
     Scale {
@@ -725,7 +2756,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6143700549180833428
+  ParentId: 10468175419872790895
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -743,8 +2774,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -291.838623
-            Y: -186.88501
+            X: -223.645355
+            Y: -186.884949
             Z: 126.776367
           }
         }
@@ -769,11 +2800,11 @@ Objects {
   }
 }
 Objects {
-  Id: 18352153579360349857
+  Id: 10306436557017793541
   Name: "Office Paper"
   Transform {
     Location {
-      X: -388.570557
+      X: -274.747772
       Y: 545.318848
       Z: 134.869263
     }
@@ -786,7 +2817,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6143700549180833428
+  ParentId: 10468175419872790895
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -813,12 +2844,12 @@ Objects {
   }
 }
 Objects {
-  Id: 8637298729934112363
+  Id: 4855797064069840544
   Name: "Office Paper"
   Transform {
     Location {
-      X: -445.755127
-      Y: 531.415527
+      X: -331.933075
+      Y: 531.41571
       Z: 134.869232
     }
     Rotation {
@@ -830,7 +2861,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6143700549180833428
+  ParentId: 10468175419872790895
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -857,12 +2888,12 @@ Objects {
   }
 }
 Objects {
-  Id: 14375277342035684755
+  Id: 16906542367066068766
   Name: "Office Notebook"
   Transform {
     Location {
-      X: -244.400391
-      Y: 546.790527
+      X: -130.577362
+      Y: 546.790649
       Z: 126.776306
     }
     Rotation {
@@ -874,7 +2905,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6143700549180833428
+  ParentId: 10468175419872790895
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -901,7 +2932,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7875236943689309569
+  Id: 1306371384154764545
   Name: "Office Cubicle Cabinet 01 - Template"
   Transform {
     Location {
@@ -917,7 +2948,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6143700549180833428
+  ParentId: 10468175419872790895
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -936,6 +2967,30 @@ Objects {
             Z: 10
           }
         }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
       }
     }
     ParameterOverrideMap {
@@ -947,6 +3002,30 @@ Objects {
             X: 50
             Y: 10
             Z: 70
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
           }
         }
       }
@@ -961,8 +3040,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -620.694092
-            Y: 651.801514
+            X: -457.678223
+            Y: 651.805908
           }
         }
         Overrides {
@@ -980,13 +3059,62 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 15419211223565932010
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17807296638242183861
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 12496830201709640104
     }
   }
 }
 Objects {
-  Id: 18434784921214793928
+  Id: 17453890321871781889
   Name: "Office Cubicle Cabinet 01 - Template"
   Transform {
     Location {
@@ -1002,7 +3130,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6143700549180833428
+  ParentId: 10468175419872790895
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1021,6 +3149,59 @@ Objects {
             Z: 10
           }
         }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8591021773796156247
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
       }
     }
     ParameterOverrideMap {
@@ -1033,8 +3214,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -723.627197
-            Y: 651.801514
+            X: -560.61084
+            Y: 651.805664
             Z: 100.793335
           }
         }
@@ -1054,6 +3235,26 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 15419211223565932010
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 17807296638242183861
       value {
         Overrides {
@@ -1064,6 +3265,30 @@ Objects {
             Z: 50
           }
         }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
       }
     }
     TemplateAsset {
@@ -1072,7 +3297,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1081867343708101280
+  Id: 13283635772706538215
   Name: "Office Cubicle Cabinet 01 - Template"
   Transform {
     Scale {
@@ -1081,7 +3306,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6143700549180833428
+  ParentId: 10468175419872790895
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1100,6 +3325,59 @@ Objects {
             Z: 10
           }
         }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8591021773796156247
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
+          }
+        }
       }
     }
     ParameterOverrideMap {
@@ -1112,8 +3390,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -723.627197
-            Y: 651.801514
+            X: -560.61084
+            Y: 651.805664
           }
         }
         Overrides {
@@ -1127,6 +3405,55 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15419211223565932010
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17807296638242183861
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 1183484854879352956
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.104166664
+            G: 0.104166664
+            B: 0.104166664
+            A: 1
           }
         }
       }

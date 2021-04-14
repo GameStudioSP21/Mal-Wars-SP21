@@ -1,7 +1,7 @@
 Name: "topFloorAccents_1"
-RootId: 12339917291433315600
+RootId: 5015362400271289840
 Objects {
-  Id: 15826134918277265283
+  Id: 7385972412880665199
   Name: "Prism - 4-Sided Trapezoid Right"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: -1
     }
   }
-  ParentId: 12339917291433315600
+  ParentId: 5015362400271289840
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -53,7 +53,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12455560619658879597
+  Id: 663768406993109625
   Name: "Prism - 4-Sided Trapezoid Right"
   Transform {
     Location {
@@ -70,7 +70,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12339917291433315600
+  ParentId: 5015362400271289840
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -105,7 +105,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7529280706992952339
+  Id: 18436492720455075244
   Name: "Prism - 4-Sided Trapezoid Right"
   Transform {
     Location {
@@ -122,7 +122,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12339917291433315600
+  ParentId: 5015362400271289840
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -157,7 +157,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3143243735009316428
+  Id: 12340893669426369097
   Name: "Prism - 4-Sided Trapezoid Right"
   Transform {
     Location {
@@ -174,7 +174,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12339917291433315600
+  ParentId: 5015362400271289840
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -209,7 +209,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2525536631744365057
+  Id: 4476652782990646702
   Name: "Prism - 4-Sided Trapezoid Right"
   Transform {
     Location {
@@ -226,7 +226,7 @@ Objects {
       Z: -1
     }
   }
-  ParentId: 12339917291433315600
+  ParentId: 5015362400271289840
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -261,7 +261,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12508566763197636240
+  Id: 7957694070119202305
   Name: "Prism - 4-Sided Trapezoid Right"
   Transform {
     Location {
@@ -277,7 +277,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12339917291433315600
+  ParentId: 5015362400271289840
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -312,7 +312,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8395902050675801470
+  Id: 6929951311994315848
   Name: "Prism - 4-Sided Trapezoid Right"
   Transform {
     Location {
@@ -328,7 +328,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12339917291433315600
+  ParentId: 5015362400271289840
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -363,7 +363,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5884927792770305627
+  Id: 17477296100189620585
   Name: "Prism - 4-Sided Trapezoid Right"
   Transform {
     Location {
@@ -380,7 +380,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12339917291433315600
+  ParentId: 5015362400271289840
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -415,7 +415,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5791720630282180696
+  Id: 1114405629173151750
   Name: "Prism - 4-Sided Trapezoid Right"
   Transform {
     Location {
@@ -432,7 +432,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12339917291433315600
+  ParentId: 5015362400271289840
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"

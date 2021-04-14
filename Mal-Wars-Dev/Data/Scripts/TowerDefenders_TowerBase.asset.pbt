@@ -49,7 +49,7 @@ Assets {
       Overrides {
         Name: "cs:TowerOwnershipDecal"
         AssetReference {
-          Id: 1866656945984035350
+          Id: 851229301136295367
         }
       }
       Overrides {
@@ -63,6 +63,14 @@ Assets {
         AssetReference {
           Id: 2992760096040209657
         }
+      }
+      Overrides {
+        Name: "cs:UseSpecialSpawn"
+        Bool: true
+      }
+      Overrides {
+        Name: "cs:UseSpecialSpawn:tooltip"
+        String: "If true then adding a tower to the board will the towers special spawn animation."
       }
     }
   }

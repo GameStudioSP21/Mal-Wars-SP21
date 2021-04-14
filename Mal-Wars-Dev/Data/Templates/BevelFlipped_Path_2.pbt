@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 16859114242142075133
         ChildIds: 15225003308450675315
         ChildIds: 4792334284782209872
         ChildIds: 12983300081561105544
@@ -3682,9 +3682,6 @@ Assets {
         ParentId: 15715088021643346016
         ChildIds: 8808799377883141616
         ChildIds: 11101621005157182602
-        ChildIds: 655521839932671026
-        ChildIds: 15820724485224676446
-        ChildIds: 16976847315876082020
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3746,6 +3743,9 @@ Assets {
           }
         }
         ParentId: 8808799377883141616
+        ChildIds: 655521839932671026
+        ChildIds: 15820724485224676446
+        ChildIds: 16976847315876082020
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -3757,6 +3757,192 @@ Assets {
         }
         Folder {
           IsGroup: true
+        }
+      }
+      Objects {
+        Id: 655521839932671026
+        Name: "Plane 1m - Two Sided"
+        Transform {
+          Location {
+            X: -18.0644531
+            Y: 71.0576172
+            Z: -1.52587891e-05
+          }
+          Rotation {
+            Yaw: 44.9999847
+          }
+          Scale {
+            X: 4.13222504
+            Y: 0.453501284
+            Z: 0.999999881
+          }
+        }
+        ParentId: 7354494964235161961
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 4247430867898109902
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6284939371362434604
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 15820724485224676446
+        Name: "Plane 1m - Two Sided"
+        Transform {
+          Location {
+            X: -105.435547
+            Y: -101.972656
+            Z: -1.52587891e-05
+          }
+          Rotation {
+            Yaw: -45.077076
+          }
+          Scale {
+            X: 0.762326598
+            Y: 0.453505278
+            Z: 0.999999881
+          }
+        }
+        ParentId: 7354494964235161961
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 4247430867898109902
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6284939371362434604
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 16976847315876082020
+        Name: "Plane 1m - Two Sided"
+        Transform {
+          Location {
+            X: 123.501465
+            Y: 30.9169922
+            Z: -1.52587891e-05
+          }
+          Rotation {
+            Yaw: 45.0000038
+          }
+          Scale {
+            X: 5.30467176
+            Y: 0.45350492
+            Z: 0.999999881
+          }
+        }
+        ParentId: 7354494964235161961
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 4247430867898109902
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 6284939371362434604
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
         }
       }
       Objects {
@@ -4394,189 +4580,6 @@ Assets {
           }
         }
         ParentId: 3267656987716141051
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4247430867898109902
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0368894301
-              G: 0.693872035
-              B: 0.122138888
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6284939371362434604
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 655521839932671026
-        Name: "Plane 1m - Two Sided"
-        Transform {
-          Location {
-            X: 398.735
-            Y: -131.073944
-          }
-          Rotation {
-            Yaw: 44.9999962
-          }
-          Scale {
-            X: 4.13222504
-            Y: 0.453501284
-            Z: 0.99999994
-          }
-        }
-        ParentId: 10823802655832849679
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4247430867898109902
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0368894301
-              G: 0.693872035
-              B: 0.122138888
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6284939371362434604
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 15820724485224676446
-        Name: "Plane 1m - Two Sided"
-        Transform {
-          Location {
-            X: 311.363739
-            Y: -304.103943
-          }
-          Rotation {
-            Yaw: -45.077076
-          }
-          Scale {
-            X: 0.762326658
-            Y: 0.453505278
-            Z: 0.99999994
-          }
-        }
-        ParentId: 10823802655832849679
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 4247430867898109902
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0368894301
-              G: 0.693872035
-              B: 0.122138888
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceon"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 6284939371362434604
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          InteractWithTriggers: true
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 16976847315876082020
-        Name: "Plane 1m - Two Sided"
-        Transform {
-          Location {
-            X: 540.301636
-            Y: -171.215424
-          }
-          Rotation {
-            Yaw: 44.9999962
-          }
-          Scale {
-            X: 5.30467176
-            Y: 0.45350492
-            Z: 0.99999994
-          }
-        }
-        ParentId: 10823802655832849679
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -5391,7 +5394,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:IsBuildable"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"

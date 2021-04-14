@@ -1,7 +1,7 @@
 Name: "roof_2"
-RootId: 12105521339839917969
+RootId: 13406618652921533085
 Objects {
-  Id: 1160424146810443831
+  Id: 16568743123018924112
   Name: "middleWall"
   Transform {
     Location {
@@ -19,7 +19,15 @@ Objects {
       Z: 1.6
     }
   }
-  ParentId: 12105521339839917969
+  ParentId: 13406618652921533085
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:id"
+      AssetReference {
+        Id: 15871680318594948812
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -52,7 +60,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5399793480094242892
+  Id: 16158029027435458657
   Name: "Prism - 6-Sided Half"
   Transform {
     Location {
@@ -68,15 +76,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12105521339839917969
+  ParentId: 13406618652921533085
   UnregisteredParameters {
     Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.20155625
-        G: 0.25015828
-        B: 0.584078431
-        A: 1
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 15871680318594948812
       }
     }
   }
@@ -112,30 +117,27 @@ Objects {
   }
 }
 Objects {
-  Id: 15343495021940622111
+  Id: 17870229903254581058
   Name: "Default Floor"
   Transform {
     Location {
-      X: -7.46179199
-      Y: 399.999481
+      X: -7.46182251
+      Y: 399.999512
     }
     Rotation {
     }
     Scale {
-      X: 32
-      Y: 12
+      X: 17.1353798
+      Y: 12.0000076
       Z: 1
     }
   }
-  ParentId: 12105521339839917969
+  ParentId: 13406618652921533085
   UnregisteredParameters {
     Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.200000018
-        G: 0.250980407
-        B: 0.58431375
-        A: 1
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 15871680318594948812
       }
     }
   }
@@ -170,31 +172,28 @@ Objects {
   }
 }
 Objects {
-  Id: 477946093351477486
+  Id: 4305435879824619503
   Name: "Prism - 6-Sided Half"
   Transform {
     Location {
-      X: -7.46185303
-      Y: -199.999741
+      X: -7.46183777
+      Y: -199.999756
     }
     Rotation {
-      Yaw: -89.9999847
+      Yaw: -90
     }
     Scale {
-      X: 24
-      Y: 32
+      X: 24.0000153
+      Y: 17.3766193
       Z: 1
     }
   }
-  ParentId: 12105521339839917969
+  ParentId: 13406618652921533085
   UnregisteredParameters {
     Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.200000018
-        G: 0.250980407
-        B: 0.58431375
-        A: 1
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 15871680318594948812
       }
     }
   }
@@ -230,7 +229,7 @@ Objects {
   }
 }
 Objects {
-  Id: 622329900387349591
+  Id: 7369989671364722422
   Name: "Prism - 6-Sided Half"
   Transform {
     Location {
@@ -238,7 +237,7 @@ Objects {
       Y: -1199.9989
     }
     Rotation {
-      Yaw: -89.9999847
+      Yaw: -90
     }
     Scale {
       X: 5.75
@@ -246,15 +245,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12105521339839917969
+  ParentId: 13406618652921533085
   UnregisteredParameters {
     Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.20155625
-        G: 0.25015828
-        B: 0.584078431
-        A: 1
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 15871680318594948812
       }
     }
   }

@@ -9,7 +9,7 @@ Tags: "TowerDefense"
 Tags: "Action"
 Tags: "Casual"
 ScreenshotPaths: "D:/Documents/CORE/Mal-Wars-SP21/Mal-Wars-Dev/Screenshots/Screenshot0001.png"
-ReleaseNotes: "New waves added! The game now runs until Wave 24!"
+ReleaseNotes: "Removed level transition button."
 OwnerId: "915299ba3314494bbd5eb7a67d954099"
 SerializationVersion: 1
 PublishedState: Child

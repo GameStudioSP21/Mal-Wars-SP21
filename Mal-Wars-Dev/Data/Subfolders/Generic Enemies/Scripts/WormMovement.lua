@@ -64,3 +64,36 @@ for i, snakePart in pairs(allSegments) do
         end
     end)
 end
+
+
+-- WORM level orbital laser
+-- change the color for added cool factor
+local slice = {}
+local color = {
+	Color.New(1.0,0.0,0.0,1.0),	
+	Color.New(1.0,0.5,0.0,1.0),	
+	Color.New(1.0,1.0,0.0,1.0),	
+	Color.New(0.0,1.0,0.0,1.0),
+	Color.New(0.0,1.0,1.0,1.0),	
+	Color.New(0.0,0.0,1.0,1.0),
+	Color.New(1.0,0.0,1.0,1.0),
+}
+local time = 0
+function Tick(delta)
+	if #slice==0 then
+		slice[1] = head:FindChildByName("Sphere - Half")
+		slice[2] = Neck1:FindChildByName("Cylinder")
+		slice[3] = Neck2:FindChildByName("Cylinder")
+		slice[4] = Neck3:FindChildByName("Cylinder")
+		slice[5] = Neck4:FindChildByName("Cylinder")
+		slice[6] = Neck5:FindChildByName("Cylinder")
+		slice[7] = Neck6:FindChildByName("Cylinder")
+		slice[8] = Body2:FindChildByName("Cylinder")
+		slice[9] = Tail:FindChildByName("Cylinder")
+	end
+	time = time + delta
+	local sec = math.floor(time*10)
+	for i=1,#slice do
+		slice[i]:SetColor(color[(i-1-sec)%#color+1])
+	end
+end

@@ -7552,7 +7552,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -8756,7 +8756,6 @@ Objects {
   ChildIds: 12526776282028535351
   ChildIds: 6261623342560416897
   ChildIds: 17169400468769637641
-  ChildIds: 14363945944763631091
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8795,98 +8794,6 @@ Objects {
   }
 }
 Objects {
-  Id: 14363945944763631091
-  Name: "QuitButton"
-  Transform {
-    Location {
-      X: 0.000122070298
-      Y: 6.10352e-05
-    }
-    Rotation {
-      Yaw: 1.70754447e-05
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9880365910079523905
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Control {
-    Width: -20
-    Height: 120
-    UIY: 750
-    RenderTransformPivot {
-      Anchor {
-        Value: "mc:euianchor:middlecenter"
-      }
-    }
-    AddSizeToParentIfUsingParentSize: true
-    UseParentWidth: true
-    Button {
-      Label: "Quit Game"
-      FontColor {
-        A: 1
-      }
-      FontSize: 48
-      ButtonColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      HoveredColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      PressedColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      DisabledColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      Brush {
-        Id: 841534158063459245
-      }
-      IsButtonEnabled: true
-      ClickMode {
-        Value: "mc:ebuttonclickmode:default"
-      }
-      Font {
-      }
-    }
-    AnchorLayout {
-      SelfAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-      TargetAnchor {
-        Anchor {
-          Value: "mc:euianchor:topcenter"
-        }
-      }
-    }
-  }
-}
-Objects {
   Id: 17169400468769637641
   Name: "LeaderButton"
   Transform {
@@ -8915,8 +8822,8 @@ Objects {
   }
   Control {
     Width: -20
-    Height: 120
-    UIY: 600
+    Height: 150
+    UIY: 720
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -9007,8 +8914,8 @@ Objects {
   }
   Control {
     Width: -20
-    Height: 120
-    UIY: 450
+    Height: 150
+    UIY: 540
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -9099,8 +9006,8 @@ Objects {
   }
   Control {
     Width: -20
-    Height: 120
-    UIY: 300
+    Height: 150
+    UIY: 360
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -9191,8 +9098,8 @@ Objects {
   }
   Control {
     Width: -20
-    Height: 120
-    UIY: 150
+    Height: 150
+    UIY: 180
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -9661,7 +9568,7 @@ Objects {
     Overrides {
       Name: "cs:QuitGameButton"
       ObjectReference {
-        SelfId: 14363945944763631091
+        SelfId: 841534158063459245
       }
     }
     Overrides {

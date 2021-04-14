@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16353917461806733124
+  Name: "Ring - Thin"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_torus_003"
+  }
+}
+Assets {
   Id: 15963485253414916048
   Name: "Arch"
   PlatformAssetType: 1
@@ -26,12 +35,48 @@ Assets {
   }
 }
 Assets {
+  Id: 15686725439159941861
+  Name: "Cone - Bullet"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bullet_001"
+  }
+}
+Assets {
+  Id: 15497712985966458783
+  Name: "Sci-fi Ship Blaster 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_scf_ship_blaster_002_ref"
+  }
+}
+Assets {
   Id: 15464952249626306512
   Name: "Prism - 6-Sided Half"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_half_hexagon_001"
+  }
+}
+Assets {
+  Id: 14803841533992348173
+  Name: "Military Crate Hinge 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_crate_hinge_002_ref"
+  }
+}
+Assets {
+  Id: 14361610145343224699
+  Name: "Cylinder Chamfered Small - Large"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_lg_rnd_001_ref"
   }
 }
 Assets {
@@ -80,21 +125,30 @@ Assets {
   }
 }
 Assets {
-  Id: 10627344217142794931
-  Name: "Military Tank Historic Tread 01 - Rear"
+  Id: 10873936651371038590
+  Name: "Sci-fi Ship Engine 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_hst_tread_rear_001_ref"
+    AssetId: "sm_scf_ship_engine_002_ref"
   }
 }
 Assets {
-  Id: 10293442473156242535
-  Name: "Cube - Rounded Bottom-Aligned"
+  Id: 10869945471657645318
+  Name: "Sci-fi Terminal Keyboard 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_rounded_001"
+    AssetId: "sm_prop_scifi_keyboard_001_ref"
+  }
+}
+Assets {
+  Id: 10780552303138620685
+  Name: "Sci-fi Ship Engine 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_scf_ship_engine_003_ref"
   }
 }
 Assets {
@@ -107,30 +161,48 @@ Assets {
   }
 }
 Assets {
-  Id: 9452502076326023374
-  Name: "Sci-fi Gear Small 02"
+  Id: 10048776099678765320
+  Name: "Military Mobile Radar 01 - Base - 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_sf_gen_gear_small_02"
+    AssetId: "sm_prop_mil_radar_mobile_01_04_ref"
   }
 }
 Assets {
-  Id: 8824553597111365900
-  Name: "Tech Panel 01"
+  Id: 9778899347684737374
+  Name: "Sci-fi Ship Cockpit Back 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_scf_ship_cockpit_back_003_ref"
+  }
+}
+Assets {
+  Id: 9039094221355209354
+  Name: "Military Tank Modern U Bracket 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_mil_tank_mod_ubracket_001_ref"
+  }
+}
+Assets {
+  Id: 8532994446159225763
+  Name: "Digital Clock"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
-    AssetId: "mi_sf_gen_tech-panel_001"
+    AssetId: "fxmi_digital_clock"
   }
 }
 Assets {
-  Id: 7725759676246772278
-  Name: "Sci-fi Ship Fuselage 02"
+  Id: 8120172434194110335
+  Name: "Sci-fi Ship Wing Small 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_scf_ship_fuselage_002_ref"
+    AssetId: "sm_scf_ship_wing_small_001_ref"
   }
 }
 Assets {
@@ -143,15 +215,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7115571218229221495
-  Name: "Steam Pressure Release Short 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_steam_pressure_release_medium_01a_Cue_ref"
-  }
-}
-Assets {
   Id: 6789604014209716330
   Name: "Sci-fi Ship Engine 01"
   PlatformAssetType: 1
@@ -161,12 +224,21 @@ Assets {
   }
 }
 Assets {
-  Id: 6401498020918617889
-  Name: "Pneumatic Impact Air Drill 01 SFX"
-  PlatformAssetType: 7
+  Id: 6610380827329902665
+  Name: "Street Light Pole Top 01"
+  PlatformAssetType: 1
   PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_air_pneumatic_impact_drill_repair_01_Cue_ref"
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_st_post_lights_pole_001_top"
+  }
+}
+Assets {
+  Id: 5775711173673078219
+  Name: "Chain Link 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_mil_chainlink_001_uv_ref"
   }
 }
 Assets {
@@ -179,21 +251,57 @@ Assets {
   }
 }
 Assets {
+  Id: 5607204438265284916
+  Name: "Sci-fi CockPit Control Yoke"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_scf_ship_cockpit_yoke_001_ref"
+  }
+}
+Assets {
+  Id: 4947731560831887899
+  Name: "Sci-fi Console Screen 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_scf_screen_002_ref"
+  }
+}
+Assets {
+  Id: 4764108666382357109
+  Name: "Metal Floor Panel 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_simple_floor_panel_001_uv"
+  }
+}
+Assets {
+  Id: 3628780303828917058
+  Name: "Sci-fi Console Hinge 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_scf_hinge_001_ref"
+  }
+}
+Assets {
+  Id: 2979259343207322154
+  Name: "Cylinder - Chamfered"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_chamfer"
+  }
+}
+Assets {
   Id: 2566880633644170439
   Name: "Barrier Light"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_barrier_light_001"
-  }
-}
-Assets {
-  Id: 2304537463267071455
-  Name: "Military Tank Historic Tread 01 - 4m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_mil_tank_hst_tread_001_mid_4m_ref"
   }
 }
 Assets {
@@ -206,20 +314,20 @@ Assets {
   }
 }
 Assets {
-  Id: 1662843858717705930
-  Name: "Military Radio Small"
+  Id: 528765982644064871
+  Name: "Military Walkie"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_mil_radio_01_01_ref"
+    AssetId: "sm_prop_mil_walkie_01_ref"
   }
 }
 Assets {
-  Id: 769007112956482022
-  Name: "Machine Servo Turret Movement Stop 01 SFX"
-  PlatformAssetType: 7
+  Id: 405236317939450680
+  Name: "Sci-fi Ship Nacelle 04"
+  PlatformAssetType: 1
   PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_machine_servo_turret_movement_stop_01a_Cue_ref"
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_scf_ship_nacelle_004_ref"
   }
 }

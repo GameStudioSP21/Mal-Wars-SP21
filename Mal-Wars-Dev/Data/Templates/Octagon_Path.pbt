@@ -7756,7 +7756,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:IsBuildable"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -7895,7 +7895,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:IsBuildable"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -7991,7 +7991,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:IsBuildable"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -8047,7 +8047,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:IsBuildable"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -8145,7 +8145,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:IsBuildable"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -8201,7 +8201,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:IsBuildable"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -8299,7 +8299,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:IsBuildable"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -8355,7 +8355,7 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "cs:IsBuildable"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"

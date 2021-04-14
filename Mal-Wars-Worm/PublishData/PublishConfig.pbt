@@ -6,8 +6,8 @@ MaxPlayers: 1
 Tags: "TopDown"
 Tags: "TowerDefense"
 Tags: "Scifi"
-ScreenshotPaths: "D:\\Documents\\CORE\\Mal-Wars-SP21\\Mal-Wars-Worm\\Screenshots\\Screenshot0001.png"
-ReleaseNotes: "First push because this level was having an identity crisis for a while!"
+ScreenshotPaths: "D:/Documents/CORE/Mal-Wars-SP21/Mal-Wars-Worm/Screenshots/Screenshot0002.png"
+ReleaseNotes: "Most functional assets updated; waves are also included. Only the orbital laser remains."
 OwnerId: "915299ba3314494bbd5eb7a67d954099"
 SerializationVersion: 1
 PublishedState: Child

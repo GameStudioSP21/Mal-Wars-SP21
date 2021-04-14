@@ -327,7 +327,7 @@ Assets {
         ChildIds: 11606669173012550447
         ChildIds: 10691121147821960263
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -1037,7 +1037,7 @@ Assets {
         ChildIds: 16862749794004077870
         ChildIds: 18444703770632320192
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -5127,7 +5127,6 @@ Assets {
             Z: 3727.85938
           }
           Rotation {
-            Pitch: -1.36603776e-05
             Yaw: 1.3660373e-05
             Roll: 180
           }
