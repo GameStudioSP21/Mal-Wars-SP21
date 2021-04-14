@@ -36,6 +36,8 @@ function Board.New(boardData, boardInstance)
 
     self:_Init(boardData,boardInstance)
 
+    -- TODO: Define some events here.
+
     return self
 end
 
@@ -264,6 +266,8 @@ function Board:UpgradeTower(tower, _hasRepeated)
     if _hasRepeated or Environment.IsServer() then
         -- Get the tower that matches the one we provided.
         local oldTower = self:GetTowerFromPosition(tower:GetWorldPosition())
+        assert(oldTower,"Attempted to upgrade tower that does not exist.")
+        
         local towerPosition = oldTower:GetWorldPosition()
 
         --  Construct the next upgrade for our current tower.
@@ -332,18 +336,40 @@ function Board:SellTower(tower, _hasRepeated)
     end
 end
 
--- Removs all towers on the board
+-- Removes all towers on the board
 function Board:RemoveTowers(_hasRepeated)
+
+    if _hasRepeated or Environment.IsServer() then
+        for _, tower in pairs(self.towers) do
+            local position = tostring(tower:GetWorldPosition())
+            if self.towers[position] then
+                self.towers[position]:Destroy()
+                self.towers[position] = nil
+            end
+        end
+    end
+
+    local owners = self:GetOwners()
+    local validOwner = nil
+    if Environment.IsClient() then
+        validOwner = Game.GetLocalPlayer()
+    else
+        for _, owner in pairs(owners) do
+            if Object.IsValid(owner) then
+                validOwner = owner
+            end
+        end
+    end
 
 
     -- -- Replication event.
-    -- if Environment.IsClient() and not _hasRepeated then
-    --     print("[Client] Sending upgrade tower to server.")
-    --     Events.BroadcastToServer("RT",tower:GetOwner(),position)
-    -- elseif Environment.IsServer() and not _hasRepeated then
-    --     print("[Server] Sending upgrade tower to all players.")
-    --     Events.BroadcastToAllPlayers("ST",tower:GetOwner(),position)
-    -- end
+    if Environment.IsClient() and not _hasRepeated then
+        print("[Client] Sending upgrade tower to server.")
+        Events.BroadcastToServer("RT",validOwner)
+    elseif Environment.IsServer() and not _hasRepeated then
+        print("[Server] Sending upgrade tower to all players.")
+        Events.BroadcastToAllPlayers("RT",validOwner)
+    end
 end
 
 ----------------------------------------------------
@@ -527,6 +553,26 @@ function Board:_SetupWalkNodes()
     --     Task.Wait()
     --     self.startNode:DebugDrawLinePath()
     -- end
+end
+
+function Board:_FireEvent(eventName, ...)
+    for _,handler in ipairs(self.eventHandlers[eventName]) do
+        handler(...)
+    end
+end
+
+function Board:_DefineEvent(eventName)
+    self.eventHandlers = self.eventHandlers or {}
+    self.eventHandlers[eventName] = self.eventHandlers[eventName] or {}
+    self[eventName] = {
+        Connect = function(_, handler)
+            table.insert(self.eventHandlers[eventName], handler)
+            return self[eventName]
+        end,
+        Disconnect = function(_, handler)
+            table.remove(self.eventHandlers[eventName], handler)
+        end
+    }
 end
 
 function Board:_SetupPlayerSpawns()
