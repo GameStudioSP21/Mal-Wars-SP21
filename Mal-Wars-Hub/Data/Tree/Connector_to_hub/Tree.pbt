@@ -1,808 +1,171 @@
-Name: "Portal_1"
-RootId: 1852813396617126216
+Name: "Connector_to_hub"
+RootId: 15968083724475201784
 Objects {
-  Id: 10164070316309218340
-  Name: "Cylinder"
+  Id: 10216254350193760336
+  Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
-      X: -298
-      Y: -198
-      Z: -306
+      X: 586
+      Y: -413
+      Z: 1326
     }
     Rotation {
-      Yaw: 129.999985
+      Pitch: -30
+      Yaw: -90
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 7.4
+      Y: 11.1
+      Z: 10.2
     }
   }
-  ParentId: 1852813396617126216
+  ParentId: 15968083724475201784
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3628780303828917058
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 17901109658133293255
+  Name: "Sci-fi Console Hinge 01"
+  Transform {
+    Location {
+      X: 597
+      Y: 6
+      Z: 1433
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 10.260004
+      Y: 11.0999889
+      Z: 10.1999884
+    }
+  }
+  ParentId: 15968083724475201784
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3628780303828917058
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 5491683315768681414
+  Name: "Sci-fi Console Hinge 01"
+  Transform {
+    Location {
+      X: 586
+      Y: 413
+      Z: 1336
+    }
+    Rotation {
+      Pitch: -30
+      Yaw: 90
+    }
+    Scale {
+      X: 7.4
+      Y: -11.1
+      Z: 10.2
+    }
+  }
+  ParentId: 15968083724475201784
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3628780303828917058
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 8417488735157419710
+  Name: "Sci-fi Ship Wing Small 01"
+  Transform {
+    Location {
+      X: 94
+      Y: -690
+      Z: 938
+    }
+    Rotation {
+      Pitch: -78.8308258
+      Yaw: 116.740028
+      Roll: -116.302322
+    }
+    Scale {
+      X: 2.9
+      Y: -6.69999933
+      Z: 2.9
+    }
+  }
+  ParentId: 15968083724475201784
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 13312761828016843193
+        Id: 9357227785287683198
       }
     }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 10907541228584546672
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 4929297182310360729
-  Name: "Cylinder"
-  Transform {
-    Location {
-      X: 195
-      Y: 295
-      Z: -306
-    }
-    Rotation {
-      Yaw: -44.9999962
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1852813396617126216
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 13312761828016843193
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 10907541228584546672
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 2827580435860418287
-  Name: "Sci-fi Console Hinge 01"
-  Transform {
-    Location {
-      X: 200.969727
-      Y: 119.759155
-      Z: 36.1895752
-    }
-    Rotation {
-      Pitch: -70.4052277
-      Yaw: 40.0212
-      Roll: 13.623353
-    }
-    Scale {
-      X: 3.7
-      Y: 2.4
-      Z: 1.7
-    }
-  }
-  ParentId: 1852813396617126216
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3628780303828917058
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 13798794229690933053
-  Name: "Sci-fi Console Hinge 01"
-  Transform {
-    Location {
-      X: 146.000122
-      Y: 73.605957
-      Z: 236.4375
-    }
-    Rotation {
-      Pitch: -70.405159
-      Yaw: 40.0211182
-      Roll: 13.6234188
-    }
-    Scale {
-      X: 3.7
-      Y: 2.4
-      Z: 1.7
-    }
-  }
-  ParentId: 1852813396617126216
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3628780303828917058
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 4123910468155483241
-  Name: "Sci-fi Console Hinge 01"
-  Transform {
-    Location {
-      X: 49.9998779
-      Y: 339.394043
-      Z: -158.437531
-    }
-    Rotation {
-      Pitch: -70.4052277
-      Yaw: 40.021244
-      Roll: 13.6234
-    }
-    Scale {
-      X: 3.7
-      Y: 2.4
-      Z: 1.7
-    }
-  }
-  ParentId: 1852813396617126216
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3628780303828917058
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 17677297866331855749
-  Name: "Sci-fi Console Hinge 01"
-  Transform {
-    Location {
-      X: -57
-      Y: 249
-      Z: 236
-    }
-    Rotation {
-      Pitch: -70.4051514
-      Yaw: 40.0211334
-      Roll: 13.6233845
-    }
-    Scale {
-      X: 3.7
-      Y: 2.4
-      Z: 1.7
-    }
-  }
-  ParentId: 1852813396617126216
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3628780303828917058
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 4335180376304077445
-  Name: "Sci-fi Console Hinge 01"
-  Transform {
-    Location {
-      X: -2.03039551
-      Y: 295.153198
-      Z: 35.7520447
-    }
-    Rotation {
-      Pitch: -70.4052048
-      Yaw: 40.0212
-      Roll: 13.6233397
-    }
-    Scale {
-      X: 3.7
-      Y: 2.4
-      Z: 1.7
-    }
-  }
-  ParentId: 1852813396617126216
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3628780303828917058
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 7489051215121031725
-  Name: "Sci-fi Ship Fuselage 02"
-  Transform {
-    Location {
-      X: 151
-      Y: 257
-      Z: -121
-    }
-    Rotation {
-      Pitch: 65.0000076
-      Yaw: -135
-    }
-    Scale {
-      X: 0.5
-      Y: 0.4
-      Z: 0.2
-    }
-  }
-  ParentId: 1852813396617126216
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 7725759676246772278
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 18334611265839381107
-  Name: "Sci-fi Ship Fuselage 02"
-  Transform {
-    Location {
-      X: 26
-      Y: 140
-      Z: 325
-    }
-    Rotation {
-      Pitch: -64.9999924
-      Yaw: 44.9999847
-      Roll: 4.04040156e-06
-    }
-    Scale {
-      X: 0.6
-      Y: 0.4
-      Z: 0.4
-    }
-  }
-  ParentId: 1852813396617126216
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 7725759676246772278
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 823349906859002905
-  Name: "Sci-fi Ship Engine 03"
-  Transform {
-    Location {
-      X: -79
-      Y: 77
-      Z: 310
-    }
-    Rotation {
-      Yaw: 135
-    }
-    Scale {
-      X: 0.8
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1852813396617126216
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 14816387551456136675
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail1:id"
-      AssetReference {
-        Id: 11242128149670727642
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 10780552303138620685
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 15298637519857500363
-  Name: "Sci-fi Chair Support 01"
-  Transform {
-    Location {
-      X: -127
-      Y: -6
-      Z: 347
-    }
-    Rotation {
-      Yaw: -44.9999962
-      Roll: 24.999979
-    }
-    Scale {
-      X: -5.59999847
-      Y: -1.49999988
-      Z: 2
-    }
-  }
-  ParentId: 1852813396617126216
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 16989299657704825870
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail1:id"
-      AssetReference {
-        Id: 6334817089012985741
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13499870741455156244
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 17815873422803206225
-  Name: "Sci-fi Chair Support 01"
-  Transform {
-    Location {
-      X: 6
-      Y: 127
-      Z: 346
-    }
-    Rotation {
-      Yaw: -44.9999962
-      Roll: -24.999979
-    }
-    Scale {
-      X: 5.59999847
-      Y: 1.49999988
-      Z: 2
-    }
-  }
-  ParentId: 1852813396617126216
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 16989299657704825870
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail1:id"
-      AssetReference {
-        Id: 6334817089012985741
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13499870741455156244
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 662137096120596765
-  Name: "Sci-fi Console Hinge 01"
-  Transform {
-    Location {
-      X: -200
-      Y: 111
-      Z: 354
-    }
-    Rotation {
-      Yaw: 44.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1852813396617126216
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3628780303828917058
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 16505263654971059469
-  Name: "Sci-fi Console Hinge 01"
-  Transform {
-    Location {
-      X: -121
-      Y: 190
-      Z: 354
-    }
-    Rotation {
-      Yaw: 44.9999924
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1852813396617126216
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3628780303828917058
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 137378997236089319
-  Name: "Sci-fi Console Hinge 01"
-  Transform {
-    Location {
-      X: -160
-      Y: 151
-      Z: 354
-    }
-    Rotation {
-      Yaw: 44.9999962
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1852813396617126216
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3628780303828917058
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 7274782358436125294
-  Name: "Sci-fi CockPit Control Yoke"
-  Transform {
-    Location {
-      X: 96
-      Y: 202
-      Z: 86
-    }
-    Rotation {
-      Pitch: 19.9999943
-      Yaw: 44.9999924
-      Roll: 4.54283423e-07
-    }
-    Scale {
-      X: 5.99999952
-      Y: 5.99999952
-      Z: 5.99999952
-    }
-  }
-  ParentId: 1852813396617126216
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 5607204438265284916
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 12418713676012660817
-  Name: "Sci-fi Cockpit Control Terminal 02"
-  Transform {
-    Location {
-      X: -214
-      Y: 89
-      Z: 366
-    }
-    Rotation {
-      Yaw: -44.9999962
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1852813396617126216
-  UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
       AssetReference {
-        Id: 6334817089012985741
+        Id: 7168431212055429816
       }
     }
   }
@@ -817,7 +180,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 17593283127301590281
+      Id: 8120172434194110335
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -832,29 +195,771 @@ Objects {
   }
 }
 Objects {
-  Id: 7996083488506490957
-  Name: "Sci-fi Cockpit Control Terminal 02"
+  Id: 13314534280539431048
+  Name: "Sci-fi Ship Cockpit Back 03"
   Transform {
     Location {
-      X: -90
-      Y: 213
-      Z: 366
+      X: 249
+      Y: 497
+      Z: 490
     }
     Rotation {
-      Yaw: -44.9999962
+      Roll: 89.9999771
     }
     Scale {
       X: 1
       Y: 1
+      Z: 1.5
+    }
+  }
+  ParentId: 15968083724475201784
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9778899347684737374
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14662329834394256606
+  Name: "Sci-fi Ship Cockpit Back 03"
+  Transform {
+    Location {
+      X: 249
+      Y: -559
+      Z: 490
+    }
+    Rotation {
+      Roll: -89.9999542
+    }
+    Scale {
+      X: 1
+      Y: -1
+      Z: 1.5
+    }
+  }
+  ParentId: 15968083724475201784
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9778899347684737374
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1054096943761747578
+  Name: "Sci-fi Ship Cockpit Back 03"
+  Transform {
+    Location {
+      X: -9
+      Y: -559
+      Z: 490
+    }
+    Rotation {
+      Roll: -89.9999466
+    }
+    Scale {
+      X: 1.90000021
+      Y: -1.5
+      Z: 1.5
+    }
+  }
+  ParentId: 15968083724475201784
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9778899347684737374
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12305842311250944444
+  Name: "Sci-fi Base Ceiling Light 01"
+  Transform {
+    Location {
+      X: 246
+      Y: -29
+      Z: 1488
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.900000036
+      Y: 2
+      Z: 1.2
+    }
+  }
+  ParentId: 15968083724475201784
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Lights:color"
+      Color {
+        G: 0.827549577
+        B: 0.88
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2532081469980367305
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4390934681909396600
+  Name: "Sci-fi Base Ramp 02 4m"
+  Transform {
+    Location {
+      X: 79
+      Y: -717
+      Z: 1221
+    }
+    Rotation {
+      Roll: 5.00000191
+    }
+    Scale {
+      X: 1.30000007
+      Y: -1
       Z: 1
     }
   }
-  ParentId: 1852813396617126216
+  ParentId: 15968083724475201784
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16625753402058206351
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 17114236273705979311
+  Name: "Sci-fi Base Ramp 02 4m"
+  Transform {
+    Location {
+      X: 79
+      Y: 655
+      Z: 1221
+    }
+    Rotation {
+      Roll: -5.00000525
+    }
+    Scale {
+      X: 1.30000007
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15968083724475201784
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 16625753402058206351
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4584138644012776769
+  Name: "Sci-fi Base Trim 02 4m"
+  Transform {
+    Location {
+      X: -132
+      Y: -786
+      Z: 2
+    }
+    Rotation {
+      Pitch: 90
+    }
+    Scale {
+      X: 2.5
+      Y: 1.6
+      Z: 1.6
+    }
+  }
+  ParentId: 15968083724475201784
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14631716589231304463
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 18245333956868142123
+  Name: "Sci-fi Base Trim 02 4m"
+  Transform {
+    Location {
+      X: -132
+      Y: 724
+      Z: 2
+    }
+    Rotation {
+      Pitch: 90
+    }
+    Scale {
+      X: 2.5
+      Y: -1.6
+      Z: 1.6
+    }
+  }
+  ParentId: 15968083724475201784
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14631716589231304463
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 13256375814539792760
+  Name: "Sci-fi Console Hinge 01"
+  Transform {
+    Location {
+      X: -82
+      Y: -510
+      Z: 1056
+    }
+    Rotation {
+      Pitch: 40.6037598
+      Yaw: 95.5708694
+      Roll: 0.260556191
+    }
+    Scale {
+      X: 7.99999666
+      Y: -5.39999962
+      Z: 5.39999962
+    }
+  }
+  ParentId: 15968083724475201784
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3628780303828917058
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3505064694870193503
+  Name: "Sci-fi Console Leg 01"
+  Transform {
+    Location {
+      X: 3
+      Y: 684
+      Z: 597
+    }
+    Rotation {
+      Yaw: -89.999939
+    }
+    Scale {
+      X: 5.2
+      Y: 5.2
+      Z: 6.89999771
+    }
+  }
+  ParentId: 15968083724475201784
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1482489213183416159
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15116948411046070652
+  Name: "Sci-fi Console Hinge 01"
+  Transform {
+    Location {
+      X: -2
+      Y: 345
+      Z: 1211
+    }
+    Rotation {
+      Pitch: -9.99999714
+      Yaw: 90
+      Roll: 2.16736089e-06
+    }
+    Scale {
+      X: 7.39999676
+      Y: -11.1
+      Z: 10.2
+    }
+  }
+  ParentId: 15968083724475201784
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3628780303828917058
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2595066911354813408
+  Name: "Sci-fi Console Hinge 01"
+  Transform {
+    Location {
+      X: -2
+      Y: -24.4316406
+      Z: 1251
+    }
+    Rotation {
+      Yaw: -89.9999847
+    }
+    Scale {
+      X: 10.260004
+      Y: 11.0999889
+      Z: 10.1999884
+    }
+  }
+  ParentId: 15968083724475201784
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3628780303828917058
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 8502546932580158440
+  Name: "Sci-fi Console Hinge 01"
+  Transform {
+    Location {
+      X: -2
+      Y: -407
+      Z: 1211
+    }
+    Rotation {
+      Pitch: -9.99999714
+      Yaw: -90
+    }
+    Scale {
+      X: 7.39999676
+      Y: 11.1
+      Z: 10.2
+    }
+  }
+  ParentId: 15968083724475201784
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3628780303828917058
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1143242565467067513
+  Name: "Sci-fi Console Leg 01"
+  Transform {
+    Location {
+      X: 3
+      Y: -723
+      Z: 597
+    }
+    Rotation {
+      Yaw: 89.9999161
+    }
+    Scale {
+      X: 5.2
+      Y: -5.2
+      Z: 6.89999771
+    }
+  }
+  ParentId: 15968083724475201784
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1482489213183416159
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9448587172440153711
+  Name: "Sci-fi Base Wall 02"
+  Transform {
+    Location {
+      X: -69
+      Y: 422
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: -1
+      Z: 0.8
+    }
+  }
+  ParentId: 15968083724475201784
   UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        G: 0.141324401
+        B: 0.220000029
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9493188079052154321
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 10069663791127093721
+  Name: "Sci-fi Base Wall 02"
+  Transform {
+    Location {
+      X: -69
+      Y: -484
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 0.8
+    }
+  }
+  ParentId: 15968083724475201784
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        G: 0.169006497
+        B: 0.289999962
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9493188079052154321
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4085263021690440025
+  Name: "Sci-fi Ship Wing Small 01"
+  Transform {
+    Location {
+      X: 94
+      Y: 628
+      Z: 938
+    }
+    Rotation {
+      Pitch: -78.8308716
+      Yaw: -116.74025
+      Roll: 116.302544
+    }
+    Scale {
+      X: 2.9
+      Y: 6.69999933
+      Z: 2.9
+    }
+  }
+  ParentId: 15968083724475201784
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 9357227785287683198
+      }
+    }
     Overrides {
       Name: "ma:Shared_Trim:id"
       AssetReference {
-        Id: 6334817089012985741
+        Id: 7168431212055429816
       }
     }
   }
@@ -869,7 +974,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 17593283127301590281
+      Id: 8120172434194110335
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -884,26 +989,26 @@ Objects {
   }
 }
 Objects {
-  Id: 7278535942154951505
+  Id: 6420874138991722457
   Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
-      X: 253
-      Y: 164
-      Z: -158
+      X: 83
+      Y: 345
+      Z: 1254
     }
     Rotation {
-      Pitch: -70.4052277
-      Yaw: 40.0212555
-      Roll: 13.623414
+      Pitch: -9.99999714
+      Yaw: 90
+      Roll: 1.30041656e-06
     }
     Scale {
-      X: 3.7
-      Y: 2.4
-      Z: 1.7
+      X: 7.39999676
+      Y: -11.1
+      Z: 10.2
     }
   }
-  ParentId: 1852813396617126216
+  ParentId: 15968083724475201784
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -930,118 +1035,25 @@ Objects {
   }
 }
 Objects {
-  Id: 1692469988834887138
-  Name: "Sci-fi CockPit Control Yoke"
-  Transform {
-    Location {
-      X: -201.423584
-      Y: -92.2368164
-      Z: 94.8970642
-    }
-    Rotation {
-      Pitch: 20.0657558
-      Yaw: -131.516388
-      Roll: 0.645577908
-    }
-    Scale {
-      X: 5.99999952
-      Y: 5.99999952
-      Z: 5.99999952
-    }
-  }
-  ParentId: 1852813396617126216
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 5607204438265284916
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 1173763173882798014
-  Name: "Sci-fi Ship Fuselage 02"
-  Transform {
-    Location {
-      X: -132.992676
-      Y: -27.8280029
-      Z: 333.714355
-    }
-    Rotation {
-      Pitch: -64.9259186
-      Yaw: -133.033142
-      Roll: 1.43053329
-    }
-    Scale {
-      X: 0.6
-      Y: 0.4
-      Z: 0.4
-    }
-  }
-  ParentId: 1852813396617126216
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 7725759676246772278
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 13709374890524032686
+  Id: 5357105947351344747
   Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
-      X: -346.895935
-      Y: -44.2193604
-      Z: -165.415741
+      X: 83
+      Y: -407
+      Z: 1254
     }
     Rotation {
-      Pitch: -69.9999619
-      Yaw: -135.087753
-      Roll: -1.81995976
+      Pitch: -9.99999714
+      Yaw: -90
     }
     Scale {
-      X: 3.7
-      Y: 2.4
-      Z: 1.7
+      X: 7.39999676
+      Y: 11.1
+      Z: 10.2
     }
   }
-  ParentId: 1852813396617126216
+  ParentId: 15968083724475201784
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1068,72 +1080,24 @@ Objects {
   }
 }
 Objects {
-  Id: 1722829610691644269
-  Name: "Sci-fi Ship Fuselage 02"
-  Transform {
-    Location {
-      X: -255
-      Y: -149
-      Z: -112
-    }
-    Rotation {
-      Pitch: 65.9258652
-      Yaw: 46.9052162
-      Roll: -1.48611426
-    }
-    Scale {
-      X: 0.5
-      Y: 0.4
-      Z: 0.2
-    }
-  }
-  ParentId: 1852813396617126216
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 7725759676246772278
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 15759937262351367100
+  Id: 8051787733012306962
   Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
-      X: -63
-      Y: -136
-      Z: 235
+      X: 83
+      Y: -24.4316406
+      Z: 1294
     }
     Rotation {
-      Pitch: -69.0016
-      Yaw: -135.167282
-      Roll: -1.74019444
+      Yaw: -89.9999847
     }
     Scale {
-      X: 3.7
-      Y: 2.4
-      Z: 1.7
+      X: 10.260004
+      Y: 11.0999889
+      Z: 10.1999884
     }
   }
-  ParentId: 1852813396617126216
+  ParentId: 15968083724475201784
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1160,312 +1124,25 @@ Objects {
   }
 }
 Objects {
-  Id: 11056720825986537867
-  Name: "Sci-fi Console Hinge 01"
+  Id: 1786859007152939185
+  Name: "Sci-fi Base Wall Interior 01"
   Transform {
     Location {
-      X: -246
-      Y: 57
-      Z: 228.000031
+      X: -117
+      Y: 704
+      Z: 701
     }
     Rotation {
-      Pitch: -69.9999924
-      Yaw: -135.08577
-      Roll: -1.8183167
+      Yaw: -89.9999619
+      Roll: -179.999969
     }
     Scale {
-      X: 3.7
-      Y: 2.4
-      Z: 1.7
-    }
-  }
-  ParentId: 1852813396617126216
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3628780303828917058
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 230040284491323861
-  Name: "Sci-fi Console Hinge 01"
-  Transform {
-    Location {
-      X: -297.905151
-      Y: 5.46154785
-      Z: 28.2483521
-    }
-    Rotation {
-      Pitch: -69.9999924
-      Yaw: -135.083847
-      Roll: -1.81911635
-    }
-    Scale {
-      X: 3.7
-      Y: 2.4
-      Z: 1.7
-    }
-  }
-  ParentId: 1852813396617126216
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3628780303828917058
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 6680457386883502036
-  Name: "Sci-fi Console Hinge 01"
-  Transform {
-    Location {
-      X: -117.447876
-      Y: -189.906494
-      Z: 36.5542
-    }
-    Rotation {
-      Pitch: -68.9999847
-      Yaw: -135.18132
-      Roll: -1.73443329
-    }
-    Scale {
-      X: 3.7
-      Y: 2.4
-      Z: 1.7
-    }
-  }
-  ParentId: 1852813396617126216
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3628780303828917058
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 200315177653220089
-  Name: "Sci-fi Console Hinge 01"
-  Transform {
-    Location {
-      X: -168.904053
-      Y: -241.884399
-      Z: -155.863495
-    }
-    Rotation {
-      Pitch: -69.0043182
-      Yaw: -135.170609
-      Roll: -1.74075437
-    }
-    Scale {
-      X: 3.7
-      Y: 2.4
-      Z: 1.7
-    }
-  }
-  ParentId: 1852813396617126216
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3628780303828917058
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 12428329637980727716
-  Name: "Sci-fi Chest Rare Base 01"
-  Transform {
-    Location {
-      X: -251.415894
-      Y: -158.911377
-      Z: -298
-    }
-    Rotation {
-      Pitch: 90
-      Yaw: 36.8698845
-      Roll: -3.13009644
-    }
-    Scale {
-      X: 0.7
-      Y: 1.30000007
-      Z: 1.30000007
-    }
-  }
-  ParentId: 1852813396617126216
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 18001447079606090627
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 12492043410209377669
-  Name: "Sci-fi Chest Rare Base 01"
-  Transform {
-    Location {
-      X: 152
-      Y: 252
-      Z: -298
-    }
-    Rotation {
-      Pitch: 90
-      Yaw: -165.96373
-      Roll: -30.9637146
-    }
-    Scale {
-      X: 0.7
-      Y: 1.30000007
-      Z: 1.30000007
-    }
-  }
-  ParentId: 1852813396617126216
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 18001447079606090627
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 14076274786014381225
-  Name: "Prism - 6-Sided"
-  Transform {
-    Location {
-      X: -301
-      Y: -199
-      Z: -232
-    }
-    Rotation {
-      Yaw: -44.9999962
-    }
-    Scale {
-      X: 0.8
-      Y: 0.8
+      X: 0.3
+      Y: 1
       Z: 0.6
     }
   }
-  ParentId: 1852813396617126216
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 14917871527348044905
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-  }
+  ParentId: 15968083724475201784
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1477,7 +1154,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 1899297213907244060
+      Id: 9522218801527862812
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -1492,140 +1169,25 @@ Objects {
   }
 }
 Objects {
-  Id: 14283631075864953880
-  Name: "Pipe - 90-Degree Long"
+  Id: 4402462546967375840
+  Name: "Sci-fi Base Wall Interior 01"
   Transform {
     Location {
-      X: 196
-      Y: 297
-      Z: -203
+      X: -117
+      Y: -520
+      Z: 701
     }
     Rotation {
-      Yaw: -135
+      Yaw: -89.9999619
+      Roll: -179.999969
     }
     Scale {
-      X: 0.4
-      Y: 0.4
-      Z: 0.4
-    }
-  }
-  ParentId: 1852813396617126216
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 9740991320934820625
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 11557259939690472159
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 9505505150770524184
-  Name: "Pipe - 90-Degree Long"
-  Transform {
-    Location {
-      X: -298
-      Y: -195
-      Z: -203
-    }
-    Rotation {
-      Yaw: 44.9999962
-    }
-    Scale {
-      X: 0.4
-      Y: 0.4
-      Z: 0.4
-    }
-  }
-  ParentId: 1852813396617126216
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 9740991320934820625
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 11557259939690472159
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 6120907878866918203
-  Name: "Prism - 6-Sided"
-  Transform {
-    Location {
-      X: 200
-      Y: 302
-      Z: -232
-    }
-    Rotation {
-      Yaw: -44.9999962
-    }
-    Scale {
-      X: 0.8
-      Y: 0.8
+      X: 0.3
+      Y: 1
       Z: 0.6
     }
   }
-  ParentId: 1852813396617126216
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 14917871527348044905
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-  }
+  ParentId: 15968083724475201784
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1637,7 +1199,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 1899297213907244060
+      Id: 9522218801527862812
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -1652,37 +1214,200 @@ Objects {
   }
 }
 Objects {
-  Id: 8245515075503434076
-  Name: "Container - Trapezoid 01"
+  Id: 374482105013295238
+  Name: "Sci-fi Base Wall Interior 01"
   Transform {
     Location {
-      X: -46
-      Y: 46
+      X: -117
+      Y: -520
+      Z: 15
+    }
+    Rotation {
+      Yaw: -89.9999847
+    }
+    Scale {
+      X: 0.3
+      Y: 1
+      Z: 0.6
+    }
+  }
+  ParentId: 15968083724475201784
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9522218801527862812
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1648192655787073967
+  Name: "Sci-fi Base Wall Interior 01"
+  Transform {
+    Location {
+      X: -117
+      Y: 704
+      Z: 15
+    }
+    Rotation {
+      Yaw: -89.9999847
+    }
+    Scale {
+      X: 0.3
+      Y: 1
+      Z: 0.6
+    }
+  }
+  ParentId: 15968083724475201784
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9522218801527862812
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1202230216140879161
+  Name: "Sci-fi Console Leg 01"
+  Transform {
+    Location {
+      X: 88
+      Y: 684
+      Z: 597
+    }
+    Rotation {
+      Yaw: -89.999939
+    }
+    Scale {
+      X: 5.2
+      Y: 5.2
+      Z: 6.89999771
+    }
+  }
+  ParentId: 15968083724475201784
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1482489213183416159
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 11330536104311787440
+  Name: "Sci-fi Console Leg 01"
+  Transform {
+    Location {
+      X: 88
+      Y: -723
+      Z: 597
+    }
+    Rotation {
+      Yaw: 89.9999466
+    }
+    Scale {
+      X: 5.2
+      Y: -5.2
+      Z: 6.89999771
+    }
+  }
+  ParentId: 15968083724475201784
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1482489213183416159
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6675635478346283644
+  Name: "Sci-fi Base Trim 02 4m"
+  Transform {
+    Location {
+      X: -93
+      Y: 439
+      Z: 2
     }
     Rotation {
       Pitch: 90
-      Yaw: -5.71060181
-      Roll: 39.2892914
     }
     Scale {
-      X: 2.60000014
-      Y: 2.5
+      X: 1.5999999
+      Y: -1.5999999
       Z: 1.5999999
     }
   }
-  ParentId: 1852813396617126216
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 8824553597111365900
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-  }
+  ParentId: 15968083724475201784
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1690,11 +1415,11 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   CoreMesh {
     MeshAsset {
-      Id: 17275668962502328232
+      Id: 14631716589231304463
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -1709,37 +1434,24 @@ Objects {
   }
 }
 Objects {
-  Id: 8403211372216352563
-  Name: "Container - Trapezoid 01"
+  Id: 2470591700456723510
+  Name: "Sci-fi Base Trim 02 4m"
   Transform {
     Location {
-      X: -29
-      Y: 29
+      X: -93
+      Y: -501
+      Z: 2
     }
     Rotation {
       Pitch: 90
-      Yaw: 90
-      Roll: 134.999649
     }
     Scale {
-      X: 2.37570834
-      Y: 2.27671909
-      Z: 1.38582981
+      X: 1.5999999
+      Y: 1.5999999
+      Z: 1.5999999
     }
   }
-  ParentId: 1852813396617126216
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 13312761828016843193
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-  }
+  ParentId: 15968083724475201784
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1747,11 +1459,11 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   CoreMesh {
     MeshAsset {
-      Id: 17275668962502328232
+      Id: 14631716589231304463
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -1766,44 +1478,24 @@ Objects {
   }
 }
 Objects {
-  Id: 17356704281199955309
-  Name: "Container - Trapezoid 01"
+  Id: 4268491604634316721
+  Name: "Sci-fi Console Leg 01"
   Transform {
     Location {
-      X: 42
-      Y: -41.9998779
+      X: -79
+      Y: -640
+      Z: 635
     }
     Rotation {
-      Pitch: 90
-      Roll: 44.9997902
+      Yaw: 89.9999542
     }
     Scale {
-      X: 2.70789361
-      Y: 2.70789361
-      Z: 2.70789361
+      X: 4.5
+      Y: -4
+      Z: 5.3
     }
   }
-  ParentId: 1852813396617126216
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 14985562468829898663
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        G: 0.185430393
-        B: 0.279999971
-        A: 1
-      }
-    }
-  }
+  ParentId: 15968083724475201784
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1811,11 +1503,11 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   CoreMesh {
     MeshAsset {
-      Id: 17275668962502328232
+      Id: 1482489213183416159
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -1830,36 +1522,24 @@ Objects {
   }
 }
 Objects {
-  Id: 3113564542117106654
-  Name: "Container - Trapezoid 01"
+  Id: 16921444388584460577
+  Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
-      X: -49
-      Y: 49
+      X: -99
+      Y: -24.4316254
+      Z: 1194
     }
     Rotation {
-      Pitch: 90
-      Roll: 44.9997139
+      Yaw: -89.9999847
     }
     Scale {
-      X: 2.4
-      Y: 2.3
-      Z: 1.30000007
+      X: 11.999999
+      Y: 5.4
+      Z: 5.4
     }
   }
-  ParentId: 1852813396617126216
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 11242128149670727642
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-  }
+  ParentId: 15968083724475201784
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1867,11 +1547,11 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   CoreMesh {
     MeshAsset {
-      Id: 17275668962502328232
+      Id: 3628780303828917058
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -1886,44 +1566,26 @@ Objects {
   }
 }
 Objects {
-  Id: 13147180505512828233
-  Name: "Container - Trapezoid 01"
+  Id: 3383174201792023595
+  Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
-      X: 42
-      Y: -41.9998779
+      X: -82
+      Y: 448
+      Z: 1056
     }
     Rotation {
-      Pitch: 90
-      Roll: 44.9997902
+      Pitch: 40.6037674
+      Yaw: -95.5708771
+      Roll: -0.260558456
     }
     Scale {
-      X: 2.38590336
-      Y: 2.291646
-      Z: 2.74324536
+      X: 7.99999666
+      Y: 5.39999962
+      Z: 5.39999962
     }
   }
-  ParentId: 1852813396617126216
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 3702191406046426907
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        G: 0.880794525
-        B: 1
-        A: 1
-      }
-    }
-  }
+  ParentId: 15968083724475201784
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1931,11 +1593,11 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   CoreMesh {
     MeshAsset {
-      Id: 17275668962502328232
+      Id: 3628780303828917058
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -1950,37 +1612,24 @@ Objects {
   }
 }
 Objects {
-  Id: 10002989654913282761
-  Name: "Container - Trapezoid 01"
+  Id: 15005740636736037727
+  Name: "Sci-fi Console Leg 01"
   Transform {
     Location {
-      X: 43
-      Y: -43
+      X: -79
+      Y: 578
+      Z: 635
     }
     Rotation {
-      Pitch: 90
-      Yaw: -90
-      Roll: -45.0001526
+      Yaw: -89.9999847
     }
     Scale {
-      X: 2.7
-      Y: 2.7
-      Z: 2.7
+      X: 4.5
+      Y: 4
+      Z: 5.3
     }
   }
-  ParentId: 1852813396617126216
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 7660900985403449371
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-  }
+  ParentId: 15968083724475201784
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1988,11 +1637,99 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   CoreMesh {
     MeshAsset {
-      Id: 17275668962502328232
+      Id: 1482489213183416159
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1520570897410282633
+  Name: "Sci-fi Ship Cockpit Back 03"
+  Transform {
+    Location {
+      X: -9
+      Y: 487
+      Z: 144
+    }
+    Rotation {
+      Roll: 89.9999771
+    }
+    Scale {
+      X: 1.5
+      Y: 1
+      Z: 1.5
+    }
+  }
+  ParentId: 15968083724475201784
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9778899347684737374
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 5594472787512261901
+  Name: "Sci-fi Ship Cockpit Back 03"
+  Transform {
+    Location {
+      X: -9
+      Y: 497
+      Z: 490
+    }
+    Rotation {
+      Roll: 89.9999847
+    }
+    Scale {
+      X: 1.90000021
+      Y: 1.5
+      Z: 1.5
+    }
+  }
+  ParentId: 15968083724475201784
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9778899347684737374
     }
     Teams {
       IsTeamCollisionEnabled: true
