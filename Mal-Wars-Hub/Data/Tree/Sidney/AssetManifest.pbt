@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17600359723065005811
+  Name: "Whitebox Wall 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_wall_001"
+  }
+}
+Assets {
   Id: 17189330346149627205
   Name: "Sci-fi Ship Blaster 03"
   PlatformAssetType: 1
@@ -275,6 +284,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_scf_simple_floor_panel_001_uv"
+  }
+}
+Assets {
+  Id: 4191756069127165282
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_wall_int_001_half_ref"
   }
 }
 Assets {
