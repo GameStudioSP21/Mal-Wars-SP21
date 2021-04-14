@@ -7,7 +7,7 @@ Assets {
       RootId: 18018844201307010682
       Objects {
         Id: 18018844201307010682
-        Name: "Tesla Tower 3"
+        Name: "Tesla Turret 3"
         Transform {
           Scale {
             X: 1
@@ -4460,6 +4460,7 @@ Assets {
           }
         }
         ParentId: 1076937316764011390
+        ChildIds: 8448251152939743529
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -4471,6 +4472,44 @@ Assets {
         }
         Folder {
           IsFilePartition: true
+        }
+      }
+      Objects {
+        Id: 8448251152939743529
+        Name: "Electrical Zap Explosion SFX"
+        Transform {
+          Location {
+            X: -169.257141
+            Y: -2.78466797
+            Z: -23.2914734
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.2
+            Y: 1.2
+            Z: 1.2
+          }
+        }
+        ParentId: 2268250051378544781
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 13429820803982137718
+          }
+          Volume: 1
+          Falloff: -1
+          Radius: 3500
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
         }
       }
       Objects {
@@ -5175,6 +5214,15 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_prop_scf_crate_small_001_ref"
+      }
+    }
+    Assets {
+      Id: 13429820803982137718
+      Name: "Electrical Zap Explosion SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_zapsplosion"
       }
     }
     Assets {

@@ -1,8 +1,5 @@
 local TowerBase = require(script:GetCustomProperty("TowerDefenders_TowerBase"))
-local BasicProjectiles = require(script:GetCustomProperty("BasicProjectiles"))
-local Ease3D = require(script:GetCustomProperty("Ease3D"))
-
-local ExplosionAsset = script:GetCustomProperty("Explosion")
+-- local LIGHTNING_EFFECT = script:GetCustomProperty("Lightning")
 
 local TowerTesla = {}
 TowerTesla.__index = TowerTesla
@@ -29,6 +26,70 @@ function TowerTesla.New(towerData)
 	self.vAngle = 0
 
     return self
+end
+
+---------------------------------------------------------------------
+-- SORTING FUNCTIONS
+---------------------------------------------------------------------
+-- main function that implements quick quickSort, called recursively
+-- low -> start index
+-- high -> end index
+
+local function Swap(table, i, j)
+    local temp = table[i]
+    table[i] = table[j]
+    table[j] = temp
+end
+
+local function Partition(table, low, high)
+    local pivot = table[high]
+    local i = low - 1
+
+    for j = low, high - 1, 1 do
+        if table[j].distanceSquared < pivot.distanceSquared then
+            i = i + 1
+            Swap(table, i, j)
+        end
+    end
+    Swap(table, i + 1, high)
+    return (i + 1)
+end
+
+local function QuickSort(table, low, high)
+    if low < high then
+        local pi = Partition(table, low, high)
+
+        QuickSort(table, low, pi - 1)
+        QuickSort(table, pi + 1, high)
+    end
+end
+
+function TowerTesla:GetClosestEnemies(target, enemies)
+    local currentTarget = target
+    --remove current target from list of all enemies
+    local currTargetInEnemies = true
+    local index = 1
+    while not currTargetInEnemies do
+        if(enemies[1] == currentTarget) then
+            table.remove(enemies, index)
+            currTargetInEnemies = false
+        end
+    end
+    -- create a table for all remaining enemies sorted by distance from current target
+    local sortedEnemies = {}
+    for _, enemy in pairs(enemies) do
+        local distanceTable =   {   
+                                    distanceSquared = nil, 
+                                    enemyTable = nil
+                                }
+        distanceTable.distanceSquared = (enemy:GetWorldPosition() - target:GetWorldPosition()).sizeSquared
+        distanceTable.enemyTable = enemy
+        table.insert(sortedEnemies, distanceTable)
+    end
+
+    -- send table to be sorted
+    QuickSort(sortedEnemies, 1, #sortedEnemies)
+    return sortedEnemies
 end
 
 -- Client
@@ -81,124 +142,72 @@ end
 -- 	self.gravityGamma = ( self.targetPos.z - hv - h0 ) / ( -0.5 * 981 * self.gravityFactor * ( self.impactTime ^ 2 ) )
 -- end
 
--- function TowerTesla:FireFakeProjectile()	
--- 	if self.rotation then
--- 		local dir = Transform.New( self.rotation, Vector3.New(), Vector3.New() ):GetForwardVector()
--- 		local projectile = Projectile.Spawn( self:GetVisualProjectile(), self._muzzle:GetWorldPosition(), dir )
--- 		projectile.speed = self.projectileSpeed
--- 		projectile.gravityScale = self.gravityFactor * self.gravityGamma
-		
--- 		projectile.impactEvent:Connect(function(hitResult)
--- 			World.SpawnAsset(ExplosionAsset,{ position = projectile:GetWorldPosition() })
--- 		end)
--- 	end
--- end
+function TowerTesla:FireFakeProjectile(target)	
+    print("Fire Tesla projectile")
+    self.waveManager = self:GetBoardReference():GetWaveManager()
+    -- tesla turret is going to get the closest enemies to the current enemy and chain damage to them
+    local enemies = self:GetBoardReference():GetEnemies()
+    -- sort the enemies table based off distance to the target
+    local sortedEnemies = self:GetClosestEnemies(target, enemies)
+    local MaxDistanceTravel = self:GetStat("BounceTravelDistance")
+    local distancedTraveled = 0
+    local i = 1
+    local prevEnemyPos = target:GetWorldPosition()
+    local dir = prevEnemyPos - self._muzzle:GetWorldPosition()
+    local Zbuffer = Vector3.New(0, 0, 100)
+    local FXsegement = World.SpawnAsset(self:GetVisualProjectile(), {position = self._muzzle:GetWorldPosition() + (dir / 2) + Zbuffer, scale = Vector3.New(dir.size / 100, 2, 2)})
+    CoreDebug.DrawSphere(FXsegement:GetWorldPosition(), 1)
+    FXsegement:LookAt(prevEnemyPos)
+    while distancedTraveled <= MaxDistanceTravel do
+        if(sortedEnemies[i]) then
+            local enemyPos = sortedEnemies[i].enemyTable:GetWorldPosition()
+            dir = prevEnemyPos - enemyPos
+            FXsegement = World.SpawnAsset(self:GetVisualProjectile(), {position = prevEnemyPos + (dir / 2) + Zbuffer, scale = Vector3.New(dir.size / 100, 2, 2) } )
+            CoreDebug.DrawSphere(FXsegement:GetWorldPosition(), 1)
+            FXsegement:LookAt(enemyPos)
+            distancedTraveled = distancedTraveled + (enemyPos - prevEnemyPos).size
+            prevEnemyPos = enemyPos
+            i = i + 1
+        else
+            print("enemy doesn't exist according to tesla turret")
+            break
+        end
+    end
+end
 
 -- Server
 
 function TowerTesla:DamageEnemy(target)
     self.waveManager = self:GetBoardReference():GetWaveManager()
-
-    ---------------------------------------------------------------------
-    -- SORTING FUNCTIONS
-    ---------------------------------------------------------------------
-    -- main function that implements quick quickSort, called recursively
-    -- low -> start index
-    -- high -> end index
-    local function Swap(table, i, j)
-        local temp = table[i]
-        table[i] = table[j]
-        table[j] = temp
-    end
-
-    local function Partition(table, low, high)
-        local pivot = table[high]
-        local i = low - 1
-
-        for j = low, high - 1, 1 do
-            if table[j].distanceSquared < pivot.distanceSquared then
-                i = i + 1
-                Swap(table, i, j)
-            end
-        end
-        Swap(table, i + 1, high)
-        return (i + 1)
-    end
-
-    local function QuickSort(table, low, high)
-        if low < high then
-            local pi = Partition(table, low, high)
-
-            QuickSort(table, low, pi - 1)
-            QuickSort(table, pi + 1, high)
-        end
-    end
-
-    local function Swap(table, i, j)
-        local temp = table[i]
-        table[i] = table[j]
-        table[j] = temp
-    end
-
-    local function PrintTable(t)
-        for key, value in pairs(t) do
-            if type(value) == "table" then
-                print(key, value.distance)
-            else
-                print(key, value)
-            end
-        end
-        print()
-    end
-
+    
 	-- tesla turret is going to get the closest enemies to the current enemy and chain damage to them
 	local enemies = self:GetBoardReference():GetEnemies()
-    -- get the current target 
-    local currentTarget = target
-    --remove current target from list of all enemies
-    local currTargetInEnemies = true
-    local index = 1
-    while not currTargetInEnemies do
-        if(enemies[1] == currentTarget) then
-            table.remove(enemies, i)
-            currTargetInEnemies = false
-        end
-    end
-    -- create a table for all remaining enemies sorted by distance from current target
-    local enemiesByDistanceFromTarget = {}
-    for _, enemy in pairs(enemies) do
-        local distanceTable =   {   
-                                    distanceSquared = nil, 
-                                    enemyTable = nil
-                                }
-        distanceTable.distanceSquared = (enemy:GetWorldPosition() - target:GetWorldPosition()).sizeSquared
-        distanceTable.enemyTable = enemy
-        table.insert(enemiesByDistanceFromTarget, distanceTable)
-    end
-
-    -- send table to be sorted
-    QuickSort(enemiesByDistanceFromTarget, 1, #enemiesByDistanceFromTarget)
+    -- sort the enemies table based off distance to the target
+    local sortedEnemies = self:GetClosestEnemies(target, enemies)
     
     -- damage the first 5 enemies in the table
-    local MaxDistanceTravel = 1000
+    local MaxDistanceTravel = self:GetStat("BounceTravelDistance")
     local distancedTraveled = 0
-    local i = 0
-    while distancedTraveled < MaxDistanceTravel do
-        if(enemiesByDistanceFromTarget[i]) then
-            local health = enemiesByDistanceFromTarget[i].enemyTable:GetCustomProperty("CurrentHealth")
+    local i = 1
+    while distancedTraveled <= MaxDistanceTravel do
+        if(sortedEnemies[i]) then
+            local health = sortedEnemies[i].enemyTable:GetCustomProperty("CurrentHealth")
             health = health - self:GetStat("Damage")
-            enemiesByDistanceFromTarget[i].enemyTable:SetNetworkedCustomProperty("CurrentHealth",health)
-            local enemyPos = enemiesByDistanceFromTarget[i].enemyTable:GetWorldPosition()
+            sortedEnemies[i].enemyTable:SetNetworkedCustomProperty("CurrentHealth",health)
+            local enemyPos = sortedEnemies[i].enemyTable:GetWorldPosition()
             if(i == 1) then
-                CoreDebug.DrawLine(currentTarget:GetWorldPosition(), enemyPos, { duration = 1, color = Color.CYAN, thickness = 20 })
-                distancedTraveled = distancedTraveled + (enemyPos - currentTarget:GetWorldPosition()).size
+                -- CoreDebug.DrawLine(currentTarget:GetWorldPosition(), enemyPos, { duration = 1, color = Color.CYAN, thickness = 20 })
+                distancedTraveled = distancedTraveled + (enemyPos - target:GetWorldPosition()).size
             else    
-                local prevEnemyPos = enemiesByDistanceFromTarget[i - 1].enemyTable:GetWorldPosition()
-                CoreDebug.DrawLine(prevEnemyPos, enemyPos, { duration = 1, color = Color.CYAN, thickness = 20 })
+                local prevEnemyPos = sortedEnemies[i - 1].enemyTable:GetWorldPosition()
+                -- CoreDebug.DrawLine(prevEnemyPos, enemyPos, { duration = 1, color = Color.CYAN, thickness = 20 })
                 distancedTraveled = distancedTraveled + (enemyPos - prevEnemyPos).size
             end
+            i = i + 1
+        else
+            print("enemy doesn't exist according to tesla turret")
+            break
         end
-        i = i + 1
     end
 end
 

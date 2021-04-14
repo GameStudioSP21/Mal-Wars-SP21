@@ -1,6 +1,51 @@
 Name: "TowerStats"
 RootId: 15995946423381434303
 Objects {
+  Id: 10775090574195004951
+  Name: "BounceTravelDistance"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15995946423381434303
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 18110314706552644672
+      }
+    }
+    Overrides {
+      Name: "cs:StatColor"
+      Color {
+        R: 0.99
+        G: 0.983443797
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "BounceTravelDistance"
+  }
+}
+Objects {
   Id: 974670064461649287
   Name: "Speed"
   Transform {

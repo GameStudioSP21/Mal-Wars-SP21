@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 16245118719777391493
+        ParentId: 4781671109827199097
         ChildIds: 3824513656967292384
         UnregisteredParameters {
           Overrides {
@@ -8964,6 +8964,7 @@ Assets {
           }
         }
         ParentId: 3592905453972475512
+        ChildIds: 9583978054257966972
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -8975,6 +8976,44 @@ Assets {
         }
         Folder {
           IsFilePartition: true
+        }
+      }
+      Objects {
+        Id: 9583978054257966972
+        Name: "Electrical Zap Explosion SFX"
+        Transform {
+          Location {
+            X: -279.125427
+            Y: -1.99536133
+            Z: 0.882568359
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1.2
+            Y: 1.2
+            Z: 1.2
+          }
+        }
+        ParentId: 18039225840063815760
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 13429820803982137718
+          }
+          Volume: 1
+          Falloff: -1
+          Radius: 3500
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
         }
       }
       Objects {
@@ -11687,6 +11726,15 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_mil_tank_hst_gear_002_ref"
+      }
+    }
+    Assets {
+      Id: 13429820803982137718
+      Name: "Electrical Zap Explosion SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_zapsplosion"
       }
     }
     Assets {

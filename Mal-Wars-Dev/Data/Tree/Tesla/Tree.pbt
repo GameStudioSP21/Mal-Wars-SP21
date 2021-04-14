@@ -55,6 +55,10 @@ Objects {
       Float: 80
     }
     Overrides {
+      Name: "cs:BounceTravelDistance"
+      Int: 1600
+    }
+    Overrides {
       Name: "cs:Tower"
       AssetReference {
         Id: 793988032842036727
@@ -69,7 +73,7 @@ Objects {
     Overrides {
       Name: "cs:VisualProjectile"
       AssetReference {
-        Id: 9766628769441997678
+        Id: 2496344859644037759
       }
     }
     Overrides {
@@ -151,6 +155,10 @@ Objects {
       Float: 60
     }
     Overrides {
+      Name: "cs:BounceTravelDistance"
+      Int: 1200
+    }
+    Overrides {
       Name: "cs:Tower"
       AssetReference {
         Id: 11315530843511458917
@@ -165,7 +173,7 @@ Objects {
     Overrides {
       Name: "cs:VisualProjectile"
       AssetReference {
-        Id: 10755428346575585019
+        Id: 2496344859644037759
       }
     }
     Overrides {
@@ -253,6 +261,10 @@ Objects {
       Float: 50
     }
     Overrides {
+      Name: "cs:BounceTravelDistance"
+      Int: 1000
+    }
+    Overrides {
       Name: "cs:Tower"
       AssetReference {
         Id: 6175689527986577859
@@ -267,7 +279,7 @@ Objects {
     Overrides {
       Name: "cs:VisualProjectile"
       AssetReference {
-        Id: 355489405948657621
+        Id: 2496344859644037759
       }
     }
     Overrides {
@@ -355,6 +367,10 @@ Objects {
       Float: 40
     }
     Overrides {
+      Name: "cs:BounceTravelDistance"
+      Int: 800
+    }
+    Overrides {
       Name: "cs:Tower"
       AssetReference {
         Id: 620740833502305820
@@ -369,7 +385,7 @@ Objects {
     Overrides {
       Name: "cs:VisualProjectile"
       AssetReference {
-        Id: 9120262988407694970
+        Id: 2496344859644037759
       }
     }
     Overrides {
