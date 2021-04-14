@@ -2144,7 +2144,7 @@ Assets {
         Name: "Sci-fi Door Security Panel 01"
         Transform {
           Location {
-            X: 136.754395
+            X: 136.754394
             Y: -2.24780273
             Z: 57.0109863
           }

@@ -313,31 +313,31 @@ Objects {
     Overrides {
       Name: "cs:MainMenuButton"
       ObjectReference {
-        SelfId: 1009227603627979909
+        SelfId: 18333226934049945734
       }
     }
     Overrides {
       Name: "cs:LevelSelectButton"
       ObjectReference {
-        SelfId: 887526572073015058
+        SelfId: 14442032377104809847
       }
     }
     Overrides {
       Name: "cs:ArmoryButton"
       ObjectReference {
-        SelfId: 12526776282028535351
+        SelfId: 15398363865037924935
       }
     }
     Overrides {
       Name: "cs:BestiaryButton"
       ObjectReference {
-        SelfId: 6261623342560416897
+        SelfId: 12267166048219746204
       }
     }
     Overrides {
       Name: "cs:LeaderBoardButton"
       ObjectReference {
-        SelfId: 17169400468769637641
+        SelfId: 11540917034318488103
       }
     }
     Overrides {
@@ -349,7 +349,7 @@ Objects {
     Overrides {
       Name: "cs:LevelSelectors"
       ObjectReference {
-        SelfId: 8474619060966177220
+        SelfId: 1445247041352994868
       }
     }
   }

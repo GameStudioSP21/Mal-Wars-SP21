@@ -1796,7 +1796,7 @@ Objects {
   Name: "Sci-fi Door Security Panel 01"
   Transform {
     Location {
-      X: -1677.07227
+      X: -1677.07226
       Y: 760.332886
       Z: -6
     }

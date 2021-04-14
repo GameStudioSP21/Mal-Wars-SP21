@@ -57,7 +57,7 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -516.410645
+      X: -516.410644
       Y: -124.245361
       Z: 149.590271
     }

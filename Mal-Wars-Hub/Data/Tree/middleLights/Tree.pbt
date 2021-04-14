@@ -69,7 +69,7 @@ Objects {
   Name: "ceiling light"
   Transform {
     Location {
-      X: -8.22851563
+      X: -8.22851562
       Y: -0.000188500504
     }
     Rotation {

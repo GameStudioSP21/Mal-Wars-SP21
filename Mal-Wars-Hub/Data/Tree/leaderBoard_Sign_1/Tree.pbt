@@ -124,7 +124,7 @@ Objects {
   Transform {
     Location {
       X: -281.123047
-      Y: 0.00219726563
+      Y: 0.00219726562
       Z: 12.9855042
     }
     Rotation {
@@ -241,7 +241,7 @@ Objects {
   Name: "Sign Font 1 Neon Outline: A"
   Transform {
     Location {
-      X: -108.469727
+      X: -108.469726
       Y: 0.000244140625
       Z: 12.9855042
     }

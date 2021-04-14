@@ -696,7 +696,7 @@ Objects {
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
-      X: 900.191895
+      X: 900.191894
       Y: -1184.00427
       Z: 834.884155
     }
@@ -2003,7 +2003,7 @@ Objects {
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
-      X: 128.223145
+      X: 128.223144
       Y: -1882.61584
       Z: 49.8989258
     }
@@ -2399,7 +2399,7 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -941.164063
+      X: -941.164062
       Y: -1444.74792
       Z: 583.427368
     }
@@ -3373,7 +3373,7 @@ Objects {
   Name: "Barrier Light"
   Transform {
     Location {
-      X: 0.379882813
+      X: 0.379882812
       Y: 0.565185547
       Z: 47.4719849
     }
@@ -3861,7 +3861,7 @@ Objects {
   Name: "Display Hologram"
   Transform {
     Location {
-      X: -11.0063477
+      X: -11.0063476
       Y: 14.1268311
       Z: 480.986328
     }
@@ -3922,7 +3922,7 @@ Objects {
   Name: "Hologram Display Base"
   Transform {
     Location {
-      X: 11.0063477
+      X: 11.0063476
       Y: -14.1269531
     }
     Rotation {
@@ -4354,7 +4354,7 @@ Objects {
   Name: "Highlighted Neon Trim"
   Transform {
     Location {
-      X: 527.598145
+      X: 527.598144
       Y: -817.26
       Z: 315.677856
     }
@@ -5399,7 +5399,7 @@ Objects {
     Location {
       X: 726.533936
       Y: 893.677246
-      Z: 6.10351563e-05
+      Z: 6.10351562e-05
     }
     Rotation {
     }
@@ -5491,7 +5491,7 @@ Objects {
   Name: "Barrier Light"
   Transform {
     Location {
-      X: 10.3344727
+      X: 10.3344726
       Y: -1.10644531
       Z: 99.585907
     }
@@ -5891,7 +5891,7 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: 106.591309
+      X: 106.591308
       Y: 18.565424
       Z: -1.52587891e-05
     }
@@ -6467,7 +6467,7 @@ Objects {
   Name: "Desk "
   Transform {
     Location {
-      X: -614.997559
+      X: -614.997558
       Y: -877
       Z: 26.3502197
     }
@@ -10350,7 +10350,7 @@ Objects {
   Name: "Tools On Wall"
   Transform {
     Location {
-      X: -1342.19727
+      X: -1342.19726
       Y: -611.47522
       Z: 194.436
     }
@@ -11060,7 +11060,7 @@ Objects {
   Transform {
     Location {
       X: 70.7485352
-      Y: -10.1469727
+      Y: -10.1469726
       Z: 115.407593
     }
     Rotation {
@@ -12402,7 +12402,7 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: 105.032227
+      X: 105.032226
       Y: -39.8979492
       Z: 118.949585
     }
@@ -12594,7 +12594,7 @@ Objects {
   Name: "New Tool"
   Transform {
     Location {
-      X: -4558.77393
+      X: -4558.77392
       Y: -2126.89673
       Z: -498.172485
     }

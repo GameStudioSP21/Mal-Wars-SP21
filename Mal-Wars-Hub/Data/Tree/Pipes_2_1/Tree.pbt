@@ -811,7 +811,7 @@ Objects {
       Z: -202
     }
     Rotation {
-      Pitch: -6.10351563e-05
+      Pitch: -6.10351562e-05
       Yaw: 89.9999466
       Roll: -89.999939
     }
