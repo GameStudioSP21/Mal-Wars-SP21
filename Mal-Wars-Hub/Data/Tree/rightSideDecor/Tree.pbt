@@ -1,108 +1,7 @@
 Name: "rightSideDecor"
-RootId: 13903060844174944992
+RootId: 11314638811868768766
 Objects {
-  Id: 12277067541095749809
-  Name: "wallLight"
-  Transform {
-    Location {
-      X: 1572.51904
-      Y: -240.399078
-      Z: 737.989
-    }
-    Rotation {
-      Yaw: 46.402832
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13903060844174944992
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "wallLight"
-  }
-}
-Objects {
-  Id: 15033344130756645935
-  Name: "wallLight"
-  Transform {
-    Location {
-      X: 260.538361
-      Y: 562.928467
-      Z: 465.284302
-    }
-    Rotation {
-      Roll: 70.6530533
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13903060844174944992
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "wallLight_1"
-  }
-}
-Objects {
-  Id: 5515335640969966773
-  Name: "wallLight"
-  Transform {
-    Location {
-      X: -704.921265
-      Y: 414.365387
-      Z: 629.899963
-    }
-    Rotation {
-      Pitch: 3.64355731
-      Yaw: 62.0595055
-      Roll: 94.1058807
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13903060844174944992
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "wallLight_2"
-  }
-}
-Objects {
-  Id: 9836998582872362048
+  Id: 5216904265403769171
   Name: "hangingLight"
   Transform {
     Location {
@@ -119,7 +18,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13903060844174944992
+  ParentId: 11314638811868768766
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -135,7 +34,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1759679765917862584
+  Id: 12170970626413904465
   Name: "hangingLight"
   Transform {
     Location {
@@ -152,7 +51,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13903060844174944992
+  ParentId: 11314638811868768766
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -168,7 +67,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9038343716888356473
+  Id: 18119432241146085311
   Name: "hangingLight"
   Transform {
     Location {
@@ -185,7 +84,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13903060844174944992
+  ParentId: 11314638811868768766
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -201,7 +100,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12817143532056199738
+  Id: 2519179795519828003
   Name: "holoSign"
   Transform {
     Location {
@@ -217,7 +116,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13903060844174944992
+  ParentId: 11314638811868768766
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -233,7 +132,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17277817757100151589
+  Id: 13601710323585573221
   Name: "Office Paper"
   Transform {
     Location {
@@ -250,7 +149,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13903060844174944992
+  ParentId: 11314638811868768766
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -277,7 +176,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15927933757642733742
+  Id: 7540835980084196061
   Name: "Bench Full"
   Transform {
     Location {
@@ -293,7 +192,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13903060844174944992
+  ParentId: 11314638811868768766
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -334,7 +233,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7628076272522895290
+  Id: 17585529460613870611
   Name: "Bench Full"
   Transform {
     Location {
@@ -350,7 +249,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13903060844174944992
+  ParentId: 11314638811868768766
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -385,7 +284,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2732724195750334507
+  Id: 17811171785597552407
   Name: "Office Binder"
   Transform {
     Location {
@@ -403,7 +302,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13903060844174944992
+  ParentId: 11314638811868768766
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -430,7 +329,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4857658497328576395
+  Id: 8589740133140965863
   Name: "Urban Office Laptop (Prop)"
   Transform {
     Location {
@@ -446,7 +345,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13903060844174944992
+  ParentId: 11314638811868768766
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -491,7 +390,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7105006471772988572
+  Id: 6094758521756827056
   Name: "Office Paper"
   Transform {
     Location {
@@ -508,7 +407,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13903060844174944992
+  ParentId: 11314638811868768766
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -535,7 +434,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11066279002467094508
+  Id: 4620734225109982561
   Name: "Office Book Pile 06"
   Transform {
     Location {
@@ -552,7 +451,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13903060844174944992
+  ParentId: 11314638811868768766
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -579,7 +478,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1417029720052192092
+  Id: 13990307482921041733
   Name: "Craftsman Dining Table"
   Transform {
     Location {
@@ -596,7 +495,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13903060844174944992
+  ParentId: 11314638811868768766
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -637,7 +536,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16139234154419622374
+  Id: 11599189450369638210
   Name: "Craftsman Dining Table"
   Transform {
     Location {
@@ -654,7 +553,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13903060844174944992
+  ParentId: 11314638811868768766
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -695,7 +594,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14742203894915255103
+  Id: 4248460336613074318
   Name: "Table Assembled"
   Transform {
     Location {
@@ -711,7 +610,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13903060844174944992
+  ParentId: 11314638811868768766
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"

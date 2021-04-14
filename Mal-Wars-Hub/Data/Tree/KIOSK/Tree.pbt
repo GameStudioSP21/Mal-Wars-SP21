@@ -1,7 +1,7 @@
 Name: "KIOSK"
-RootId: 10390668170707932787
+RootId: 3139341486358634168
 Objects {
-  Id: 17135359694040911790
+  Id: 13286094410362050378
   Name: "Cube"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 1.57819724
     }
   }
-  ParentId: 10390668170707932787
+  ParentId: 3139341486358634168
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -53,7 +53,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12638621747215535983
+  Id: 12883728315390674258
   Name: "Cube"
   Transform {
     Location {
@@ -70,7 +70,7 @@ Objects {
       Z: 4.88164568
     }
   }
-  ParentId: 10390668170707932787
+  ParentId: 3139341486358634168
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -105,7 +105,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15769260413114545692
+  Id: 7538427808518476564
   Name: "Cube"
   Transform {
     Location {
@@ -122,7 +122,7 @@ Objects {
       Z: 4.88164568
     }
   }
-  ParentId: 10390668170707932787
+  ParentId: 3139341486358634168
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -157,7 +157,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5297245550557418640
+  Id: 5203104575481909849
   Name: "Cube"
   Transform {
     Location {
@@ -175,7 +175,7 @@ Objects {
       Z: 1.03525591
     }
   }
-  ParentId: 10390668170707932787
+  ParentId: 3139341486358634168
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -210,7 +210,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1821103241809194388
+  Id: 1285569173572383167
   Name: "Cube"
   Transform {
     Location {
@@ -228,7 +228,7 @@ Objects {
       Z: 1.25126243
     }
   }
-  ParentId: 10390668170707932787
+  ParentId: 3139341486358634168
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -263,7 +263,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15924884024605650907
+  Id: 15848163015766903827
   Name: "Cube"
   Transform {
     Location {
@@ -280,7 +280,7 @@ Objects {
       Z: 1.53154421
     }
   }
-  ParentId: 10390668170707932787
+  ParentId: 3139341486358634168
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -315,7 +315,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17821025681469971699
+  Id: 16379682258732209706
   Name: "Cube"
   Transform {
     Location {
@@ -333,7 +333,7 @@ Objects {
       Z: 1.08501196
     }
   }
-  ParentId: 10390668170707932787
+  ParentId: 3139341486358634168
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -368,7 +368,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18392046027400221054
+  Id: 10240492233348449142
   Name: "Cube"
   Transform {
     Location {
@@ -385,7 +385,7 @@ Objects {
       Z: 5.89841
     }
   }
-  ParentId: 10390668170707932787
+  ParentId: 3139341486358634168
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -420,7 +420,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5464965313789000217
+  Id: 3283501758109766620
   Name: "Cube"
   Transform {
     Location {
@@ -437,7 +437,7 @@ Objects {
       Z: 0.22596927
     }
   }
-  ParentId: 10390668170707932787
+  ParentId: 3139341486358634168
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -472,7 +472,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8018551548100982148
+  Id: 10604530478638982102
   Name: "Cube"
   Transform {
     Location {
@@ -488,7 +488,7 @@ Objects {
       Z: 0.164436221
     }
   }
-  ParentId: 10390668170707932787
+  ParentId: 3139341486358634168
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -523,7 +523,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2687515108255067943
+  Id: 9815553483158189504
   Name: "Cube"
   Transform {
     Location {
@@ -540,7 +540,7 @@ Objects {
       Z: 0.164436221
     }
   }
-  ParentId: 10390668170707932787
+  ParentId: 3139341486358634168
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -575,7 +575,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1069641348328810163
+  Id: 14815130155798233642
   Name: "Cube"
   Transform {
     Location {
@@ -592,7 +592,7 @@ Objects {
       Z: 0.164436221
     }
   }
-  ParentId: 10390668170707932787
+  ParentId: 3139341486358634168
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -627,7 +627,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1867405072287367050
+  Id: 5040965039225442573
   Name: "Cube"
   Transform {
     Location {
@@ -644,7 +644,7 @@ Objects {
       Z: 4.88164568
     }
   }
-  ParentId: 10390668170707932787
+  ParentId: 3139341486358634168
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -679,7 +679,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2130429666779185744
+  Id: 532892479165115789
   Name: "Cube"
   Transform {
     Location {
@@ -696,7 +696,7 @@ Objects {
       Z: 5.54735422
     }
   }
-  ParentId: 10390668170707932787
+  ParentId: 3139341486358634168
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -731,7 +731,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1952791872537053769
+  Id: 5574586002632435043
   Name: "Cube"
   Transform {
     Location {
@@ -746,7 +746,7 @@ Objects {
       Z: 1.47877336
     }
   }
-  ParentId: 10390668170707932787
+  ParentId: 3139341486358634168
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"

@@ -19,7 +19,6 @@ Assets {
         ChildIds: 15617251036984758824
         ChildIds: 5777712033558582302
         ChildIds: 11664256979501536535
-        ChildIds: 5398434665896010696
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -62,12 +61,6 @@ Assets {
               SubObjectId: 11664256979501536535
             }
           }
-          Overrides {
-            Name: "cs:LabelBack"
-            ObjectReference {
-              SubObjectId: 5398434665896010696
-            }
-          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -89,16 +82,15 @@ Assets {
         Name: "Group"
         Transform {
           Location {
-            X: -1.73132324
-            Y: 192.051514
+            Y: 75
           }
           Rotation {
             Roll: -90
           }
           Scale {
-            X: 3.85796356
-            Y: 3.85796356
-            Z: 3.85796356
+            X: 1.5
+            Y: 1.5
+            Z: 1.5
           }
         }
         ParentId: 14705474953321211921
@@ -145,6 +137,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
+              A: 1
             }
           }
         }
@@ -192,14 +185,14 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 1581088286601221240
+              Id: 5351428073291024820
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 0.919999957
-              A: 0.318000019
+              R: 1
+              A: 1
             }
           }
         }
@@ -234,16 +227,16 @@ Assets {
         Name: "Label"
         Transform {
           Location {
-            X: 2.09643555
-            Z: 1.76599121
+            X: 1.07507086
+            Z: -0.628738403
           }
           Rotation {
             Roll: -3.05175781e-05
           }
           Scale {
-            X: 2.62165761
-            Y: 2.62165761
-            Z: 2.62165761
+            X: 0.779753268
+            Y: 0.779753268
+            Z: 0.779753268
           }
         }
         ParentId: 14705474953321211921
@@ -259,58 +252,11 @@ Assets {
         Text {
           Text: "100 / 100"
           FontAsset {
-            Id: 3986808035956258935
           }
           Color {
             R: 1
             G: 1
             B: 1
-            A: 1
-          }
-          HorizontalSize: 1
-          VerticalSize: 1
-          HorizontalAlignment {
-            Value: "mc:ecoretexthorizontalalign:center"
-          }
-          VerticalAlignment {
-            Value: "mc:ecoretextverticalalign:center"
-          }
-        }
-      }
-      Objects {
-        Id: 5398434665896010696
-        Name: "Label"
-        Transform {
-          Location {
-            X: 0.327026367
-            Y: 3.41650391
-            Z: 1.76599121
-          }
-          Rotation {
-            Roll: -3.05175781e-05
-          }
-          Scale {
-            X: 2.62165761
-            Y: 2.62165761
-            Z: 2.62165761
-          }
-        }
-        ParentId: 14705474953321211921
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Text {
-          Text: "100 / 100"
-          FontAsset {
-            Id: 3986808035956258935
-          }
-          Color {
             A: 1
           }
           HorizontalSize: 1
@@ -340,15 +286,6 @@ Assets {
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "fxma_opaque_emissive"
-      }
-    }
-    Assets {
-      Id: 3986808035956258935
-      Name: "Cabin Bold"
-      PlatformAssetType: 28
-      PrimaryAsset {
-        AssetType: "FontAssetRef"
-        AssetId: "CabinBold_ref"
       }
     }
     PrimaryAssetId {

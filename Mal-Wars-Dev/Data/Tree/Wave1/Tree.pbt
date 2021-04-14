@@ -33,10 +33,6 @@ Objects {
       Name: "cs:HealthMultiplier"
       Int: 1
     }
-    Overrides {
-      Name: "cs:SpawnDelay"
-      Float: 0.5
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -84,10 +80,6 @@ Objects {
     Overrides {
       Name: "cs:HealthMultiplier"
       Int: 1
-    }
-    Overrides {
-      Name: "cs:SpawnDelay"
-      Float: 0.5
     }
   }
   Collidable_v2 {
@@ -137,10 +129,6 @@ Objects {
       Name: "cs:HealthMultiplier"
       Int: 1
     }
-    Overrides {
-      Name: "cs:SpawnDelay"
-      Float: 1
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -189,10 +177,6 @@ Objects {
       Name: "cs:HealthMultiplier"
       Int: 1
     }
-    Overrides {
-      Name: "cs:SpawnDelay"
-      Float: 1
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -240,10 +224,6 @@ Objects {
     Overrides {
       Name: "cs:HealthMultiplier"
       Int: 1
-    }
-    Overrides {
-      Name: "cs:SpawnDelay"
-      Float: 2
     }
   }
   Collidable_v2 {

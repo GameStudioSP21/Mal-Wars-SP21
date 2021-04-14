@@ -17,8 +17,6 @@ local PRE_END_SPAWN_ASSET = script:GetCustomProperty("PreEndSpawnAsset")
 local OWNERSHIP_DECAL = script:GetCustomProperty("TowerOwnershipDecal")
 local RADIUS_DECAL = script:GetCustomProperty("RangeRadiusDecal")
 local BLOCKED_RADIUS = script:GetCustomProperty("BlockedRadius")
-local USE_SPECIAL_SPAWN = script:GetCustomProperty("UseSpecialSpawn")
-
 local BLOCKED_RANGE = 300 -- CUSTOM PROPERTY HERE
 
 local SoundRandomizer = require(script:GetCustomProperty("Sound_Randomizer"))
@@ -53,10 +51,6 @@ function Tower.New(towerData, board, owner)
     self:_Init(towerData)
 
     return self
-end
-
-function Tower.IsAllowedSpecialSpawn()
-    return USE_SPECIAL_SPAWN
 end
 
 function Tower:BeginRuntime()
@@ -112,9 +106,26 @@ function Tower:SpawnAssetSpecial()
 
     Task.Wait(1)
 
-    self:SpawnAsset()
+    World.SpawnAsset(PRE_END_SPAWN_ASSET,{ position = self.position, parent = boardAsset })
+
+    local towerModel = World.SpawnAsset(self:GetMUID(),{ position = self.position, parent = boardAsset })
+    self.towerAssetInstance = towerModel
+
+    self.towerAssetInstance.clientUserData.tower = self
+
+    -- If the owner of the tower placed then there will be a ring below the the tower
+    -- indicating they own it.
+    if self:GetOwner() == Game.GetLocalPlayer() then
+        World.SpawnAsset(OWNERSHIP_DECAL,{ parent = towerModel })
+    end
+    
 
     dropPod:Destroy()
+    
+    self._horizontalRotator = towerModel:GetCustomProperty("HorizontalRotator"):GetObject()
+    self._verticalRotator = towerModel:GetCustomProperty("VerticalRotator"):GetObject()
+    self._muzzle = towerModel:GetCustomProperty("Muzzle"):GetObject()
+    self._muzzleEffects = self._muzzle:GetChildren()
 end
 
 function Tower:IsPositionInBlockedRadius(position)
@@ -179,15 +190,6 @@ function Tower:SetBoard(board)
 end
 
 -----------------------------------
-
--- Returns true if the tower is currently active.
--- Basically if the towers runtime is active.
-function Tower:IsRunning()
-    if #self.runtimes ~= 0 then
-        return true
-    end
-    return false
-end
 
 -- TODO: Change name
 function Tower:GetBoardReference()
@@ -307,10 +309,7 @@ end
 
 -- Switch to the next targeting mode.
 function Tower:SwitchTargetingMode(_hasRepeated)
-
-    if _hasRepeated or Environment.IsServer() then
-        self.migrate.targetingMode = TowerTargeting.GetNextMode(self:GetCurrentTargetingMode())
-    end
+    self.migrate.targetingMode = TowerTargeting.GetNextMode(self:GetCurrentTargetingMode())
 
     local worldPosition = self:GetWorldPosition()
 

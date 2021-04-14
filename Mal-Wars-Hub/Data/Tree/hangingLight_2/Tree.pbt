@@ -1,65 +1,7 @@
 Name: "hangingLight_2"
-RootId: 9038343716888356473
+RootId: 18119432241146085311
 Objects {
-  Id: 7800262126960407397
-  Name: "Area Light"
-  Transform {
-    Location {
-      X: 1.63378906
-      Y: 2.91113281
-      Z: 4.41201782
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: -9.1069187e-06
-      Roll: -3.05175781e-05
-    }
-    Scale {
-      X: 1
-      Y: -0.0286864936
-      Z: 1
-    }
-  }
-  ParentId: 9038343716888356473
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Light {
-    Intensity: 12.708622
-    Color {
-      R: 1
-      G: 0.632582784
-      B: 0.24000001
-      A: 1
-    }
-    CastShadows: true
-    VolumetricIntensity: 5
-    TeamSettings {
-    }
-    Light {
-      Temperature: 6500
-      LocalLight {
-        AttenuationRadius: 1084.28857
-        AreaLight {
-          BarnDoorAngle: 50
-          BarnDoorLength: 20
-          SourceWidth: 200
-          SourceHeight: 200
-        }
-      }
-      MaxDrawDistance: 5000
-      MaxDistanceFadeRange: 1000
-    }
-  }
-}
-Objects {
-  Id: 5507452959970274946
+  Id: 527779876401703062
   Name: "Chain Tile 01"
   Transform {
     Location {
@@ -75,7 +17,7 @@ Objects {
       Z: 0.280017465
     }
   }
-  ParentId: 9038343716888356473
+  ParentId: 18119432241146085311
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -110,7 +52,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7532001799049519555
+  Id: 6731929952965705727
   Name: "Chain Tile 01"
   Transform {
     Location {
@@ -126,7 +68,7 @@ Objects {
       Z: 3.13809299
     }
   }
-  ParentId: 9038343716888356473
+  ParentId: 18119432241146085311
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -161,7 +103,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7391212607941091507
+  Id: 6763618161740911459
   Name: "Chain Tile 01"
   Transform {
     Location {
@@ -176,7 +118,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9038343716888356473
+  ParentId: 18119432241146085311
   UnregisteredParameters {
   }
   Collidable_v2 {

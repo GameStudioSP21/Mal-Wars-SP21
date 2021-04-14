@@ -12,11 +12,12 @@ local function PlaySFX(assetRef)
     World.SpawnAsset(assetRef)
 end
 
-
+local waveNumber = 0
 waveManager.OnWaveStarted:Connect(function()
+    waveNumber = waveNumber + 1
     PlaySFX(WaveStartedSound)
     WAVE_DISPLAYER_PANEL.visibility = Visibility.FORCE_ON
-    WAVE_TEXT.text = "Wave" .. tostring(waveManager:GetWaveIndex())
+    WAVE_TEXT.text = "Wave" .. tostring(waveNumber)
     Task.Wait(2)
     WAVE_DISPLAYER_PANEL.visibility = Visibility.FORCE_OFF
 end)

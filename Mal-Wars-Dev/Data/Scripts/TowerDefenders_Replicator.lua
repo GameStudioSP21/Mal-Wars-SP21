@@ -26,8 +26,8 @@ local function InitalizeServerEvents()
 
     -- Place Tower
     -- When the player wants to place a tower.
-    Events.ConnectForPlayer("PT",function(_,player,id,position)
-        print("[Server] Received PLACE from:",player.name,id,position)
+    Events.ConnectForPlayer("PT",function(sendingPlayer,player,id,position)
+        print("[Server] Received PLACE from:",sendingPlayer,player.name,id,position)
 
         -- Current board the player is playing on.
         local board = player.serverUserData.activeBoard
@@ -40,7 +40,7 @@ local function InitalizeServerEvents()
 
     -- Upgrade Tower
     -- When the player wants to upgrade a tower.
-    Events.ConnectForPlayer("UT",function(_,player,position)
+    Events.ConnectForPlayer("UT",function(sendingPlayer,player,position)
         print("[Server] Received UPGRADE from:",player.name,position)
 
         -- Current board the player is playing on.
@@ -60,21 +60,8 @@ local function InitalizeServerEvents()
         local board = player.serverUserData.activeBoard
         local tower = board:GetTowerFromPosition(position)
 
-        print("[ST] Sell tower:",tower)
-
         board:SellTower(tower,true) -- Networked function
         Events.BroadcastToAllPlayers("ST",tower:GetOwner(),position)
-    end)
-
-    -- Remove All Towers
-    Events.ConnectForPlayer("RT",function(player)
-        print("[Server] Received REMOVE ALL from:",player)
-
-        -- Current board the player is playing on.
-        local board = player.serverUserData.activeBoard
-        board:RemoveTowers(true)
-
-        Events.BroadcastToAllPlayers("RT",player)
     end)
 
     -----------------------------------------------------
@@ -88,7 +75,6 @@ local function InitalizeServerEvents()
         -- Current board the player is playing on.
         local board = player.serverUserData.activeBoard
         local tower = board:GetTowerFromPosition(position)
-
         tower:SwitchTargetingMode(true)
 
         -- Replicate to all clients
@@ -175,26 +161,19 @@ local function InitalizeClientEvents()
         board:SellTower(tower,true)
     end)
 
-    -- Remove All Towers
-    Events.Connect("RT",function(player)
-        print("[Client] received REMOVE ALL from:",player)
-
-        -- Current board the player is playing on.
-        local board = player.clientUserData.activeBoard
-        board:RemoveTowers(true)
-    end)
-
     -----------------------------------------------------
     -- Tower
     -----------------------------------------------------
 
     Events.Connect("STM",function(player,position)
-        print("[Client] Received STM for:",player.name,position)
+        print("[Server] Received STM from:",player.name,position)
         -- Current board the player is playing on.
-        local board = player.clientUserData.activeBoard
+        local board = player.serverUserData.activeBoard
         local tower = board:GetTowerFromPosition(position)
-        
         tower:SwitchTargetingMode(true)
+
+        -- Replicate to all clients
+        Events.BroadcastToAllPlayers("STM",tower:GetOwner(),position)
     end)
 
 

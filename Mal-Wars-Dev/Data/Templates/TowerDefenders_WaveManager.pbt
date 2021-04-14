@@ -23,7 +23,7 @@ Assets {
           }
           Overrides {
             Name: "cs:CurrentWave"
-            Int: 1
+            Int: 0
           }
           Overrides {
             Name: "cs:RemainingTime"
