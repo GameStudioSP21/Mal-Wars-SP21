@@ -1,12 +1,12 @@
 Assets {
-  Id: 9410105832352391579
-  Name: "Conveyor Belt and Scifi Welder"
+  Id: 7317218722721911017
+  Name: "Tesla Turrets"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 4013357565975303081
+      RootId: 6448576195336185528
       Objects {
-        Id: 4013357565975303081
+        Id: 6448576195336185528
         Name: "TemplateBundleDummy"
         Transform {
           Location {
@@ -22,10 +22,16 @@ Assets {
         Folder {
           BundleDummy {
             ReferencedAssets {
-              Id: 841534158063459245
+              Id: 6175689527986577859
             }
             ReferencedAssets {
-              Id: 841534158063459245
+              Id: 11315530843511458917
+            }
+            ReferencedAssets {
+              Id: 620740833502305820
+            }
+            ReferencedAssets {
+              Id: 793988032842036727
             }
           }
         }
@@ -37,7 +43,7 @@ Assets {
     }
   }
   Marketplace {
-    Description: "Two  Scifi Industrial Items"
+    Description: "Turrets that are Tesla"
   }
   SerializationVersion: 81
 }

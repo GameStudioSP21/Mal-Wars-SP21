@@ -1,6 +1,222 @@
 Name: "All Towers in Display Hologram"
 RootId: 7220962314838893387
 Objects {
+  Id: 9161073526657750997
+  Name: "Tesla Turret 4"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7220962314838893387
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 651422202773404480
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Shop_Tesla Turret 4"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1063.06616
+            Y: 3703.11572
+            Z: 333.775513
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 45.5071564
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.17758596
+            Y: 1.17758596
+            Z: 1.17758596
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1697973495587940075
+    }
+  }
+}
+Objects {
+  Id: 11324135462224113186
+  Name: "Tesla Turret 3"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7220962314838893387
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14386938071439779645
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Shop_Tesla Turret 3"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1063.06616
+            Y: 3703.11572
+            Z: 333.775513
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 45.5071564
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.17758596
+            Y: 1.17758596
+            Z: 1.17758596
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3822611599423632977
+    }
+  }
+}
+Objects {
+  Id: 5219425546491599322
+  Name: "Tesla turret 2"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7220962314838893387
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16127639018612050852
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Shop_Tesla turret 2"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1063.06616
+            Y: 3703.11572
+            Z: 333.775513
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 45.5071564
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.17758596
+            Y: 1.17758596
+            Z: 1.17758596
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1015171954282697950
+    }
+  }
+}
+Objects {
+  Id: 13710954636545590432
+  Name: "Tesla Turret 1"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7220962314838893387
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12453604631085201420
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Shop_Tesla Turret 1"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1063.06616
+            Y: 3703.11572
+            Z: 333.775513
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 45.5071564
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.17758596
+            Y: 1.17758596
+            Z: 1.17758596
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8791072890662764005
+    }
+  }
+}
+Objects {
   Id: 8231630264938264078
   Name: "Shop_AOE Turret 1"
   Transform {
