@@ -93,7 +93,7 @@ Assets {
         Name: "LevelIconSmall"
         Transform {
           Location {
-            X: -0.000122070313
+            X: -0.000122070312
           }
           Rotation {
           }
@@ -155,7 +155,7 @@ Assets {
         Name: "LevelTextWrapper"
         Transform {
           Location {
-            X: -0.000122070313
+            X: -0.000122070312
           }
           Rotation {
           }
@@ -208,7 +208,7 @@ Assets {
         Name: "LevelLargeText"
         Transform {
           Location {
-            X: -0.000122070313
+            X: -0.000122070312
           }
           Rotation {
           }
@@ -275,7 +275,7 @@ Assets {
         Name: "LevelSmallText"
         Transform {
           Location {
-            X: -0.000122070313
+            X: -0.000122070312
             Y: -1.45519291e-11
           }
           Rotation {

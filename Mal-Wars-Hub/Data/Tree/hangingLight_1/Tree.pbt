@@ -1,7 +1,7 @@
 Name: "hangingLight_1"
-RootId: 1759679765917862584
+RootId: 12170970626413904465
 Objects {
-  Id: 13076018432017631837
+  Id: 17120931887382636648
   Name: "Chain Tile 01"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 3.13809299
     }
   }
-  ParentId: 1759679765917862584
+  ParentId: 12170970626413904465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -52,7 +52,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4938619907731425430
+  Id: 159098931256709750
   Name: "Chain Tile 01"
   Transform {
     Location {
@@ -68,7 +68,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1759679765917862584
+  ParentId: 12170970626413904465
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -97,7 +97,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4944915022468114674
+  Id: 13218147897284899911
   Name: "Chain Tile 01"
   Transform {
     Location {
@@ -113,7 +113,7 @@ Objects {
       Z: 0.280017465
     }
   }
-  ParentId: 1759679765917862584
+  ParentId: 12170970626413904465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -148,12 +148,12 @@ Objects {
   }
 }
 Objects {
-  Id: 17539790741967480411
+  Id: 5304041129708342452
   Name: "Chain Tile 01"
   Transform {
     Location {
       X: 1.03830894e-06
-      Y: -5.80664063
+      Y: -5.80664062
       Z: 168.905273
     }
     Rotation {
@@ -164,7 +164,7 @@ Objects {
       Z: 3.13809299
     }
   }
-  ParentId: 1759679765917862584
+  ParentId: 12170970626413904465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -199,7 +199,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17713587643762635358
+  Id: 12018691898992204784
   Name: "Chain Tile 01"
   Transform {
     Location {
@@ -214,7 +214,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1759679765917862584
+  ParentId: 12170970626413904465
   UnregisteredParameters {
   }
   Collidable_v2 {

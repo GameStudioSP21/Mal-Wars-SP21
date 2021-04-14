@@ -1,13 +1,13 @@
 Name: "bottomFloorAccents"
-RootId: 18441328984838617652
+RootId: 14423808688461164374
 Objects {
-  Id: 7029640306736923212
+  Id: 6558165250892054786
   Name: "Prism - 4-Sided Trapezoid Right"
   Transform {
     Location {
       X: -711.95166
       Y: -52.652771
-      Z: 0.000122070313
+      Z: 0.000122070312
     }
     Rotation {
     }
@@ -17,7 +17,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18441328984838617652
+  ParentId: 14423808688461164374
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -52,13 +52,13 @@ Objects {
   }
 }
 Objects {
-  Id: 6923057091242109274
+  Id: 2235055954492727883
   Name: "Prism - 4-Sided Trapezoid Right"
   Transform {
     Location {
       X: -191.42627
       Y: 231.337524
-      Z: 0.000122070313
+      Z: 0.000122070312
     }
     Rotation {
       Yaw: -90.5059814
@@ -69,7 +69,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18441328984838617652
+  ParentId: 14423808688461164374
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -104,7 +104,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1539811753711642621
+  Id: 5015043794993540775
   Name: "Prism - 4-Sided Trapezoid Right"
   Transform {
     Location {
@@ -121,7 +121,7 @@ Objects {
       Z: -1
     }
   }
-  ParentId: 18441328984838617652
+  ParentId: 14423808688461164374
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -156,7 +156,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9448848520807862920
+  Id: 5381550112333472333
   Name: "Prism - 4-Sided Trapezoid Right"
   Transform {
     Location {
@@ -173,7 +173,7 @@ Objects {
       Z: -1
     }
   }
-  ParentId: 18441328984838617652
+  ParentId: 14423808688461164374
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -208,13 +208,13 @@ Objects {
   }
 }
 Objects {
-  Id: 13291998318565378722
+  Id: 10379983996511171018
   Name: "Prism - 4-Sided Trapezoid Right"
   Transform {
     Location {
       X: -109.456543
       Y: 1219.86401
-      Z: 0.000122070313
+      Z: 0.000122070312
     }
     Rotation {
       Yaw: -90.5059814
@@ -225,7 +225,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18441328984838617652
+  ParentId: 14423808688461164374
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -260,7 +260,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7669737365736032566
+  Id: 16123474910929150630
   Name: "Prism - 4-Sided Trapezoid Right"
   Transform {
     Location {
@@ -276,7 +276,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18441328984838617652
+  ParentId: 14423808688461164374
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -311,13 +311,13 @@ Objects {
   }
 }
 Objects {
-  Id: 3594364342668408566
+  Id: 14301896130389264571
   Name: "Prism - 4-Sided Trapezoid Right"
   Transform {
     Location {
       X: 90.1977539
       Y: -152.925507
-      Z: 0.000122070313
+      Z: 0.000122070312
     }
     Rotation {
     }
@@ -327,7 +327,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18441328984838617652
+  ParentId: 14423808688461164374
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -362,13 +362,13 @@ Objects {
   }
 }
 Objects {
-  Id: 8744967533333535756
+  Id: 12837389505545180459
   Name: "Prism - 4-Sided Trapezoid Right"
   Transform {
     Location {
       X: 90.1977539
       Y: 304.358948
-      Z: 0.000122070313
+      Z: 0.000122070312
     }
     Rotation {
       Yaw: -90.5059814
@@ -379,7 +379,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18441328984838617652
+  ParentId: 14423808688461164374
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -414,13 +414,13 @@ Objects {
   }
 }
 Objects {
-  Id: 11740385021579707818
+  Id: 11773445138829994633
   Name: "Prism - 4-Sided Trapezoid Right"
   Transform {
     Location {
       X: 86.4067383
       Y: -152.925507
-      Z: 0.000122070313
+      Z: 0.000122070312
     }
     Rotation {
       Yaw: -90.5059814
@@ -431,7 +431,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18441328984838617652
+  ParentId: 14423808688461164374
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"

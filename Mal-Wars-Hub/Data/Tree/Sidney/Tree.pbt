@@ -1,12 +1,3186 @@
 Name: "Sidney"
 RootId: 10890274874115666730
 Objects {
+  Id: 2313020866240107349
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 368.606445
+      Y: -1625.25061
+      Z: 832.653931
+    }
+    Rotation {
+      Yaw: -140.201477
+      Roll: 119.328346
+    }
+    Scale {
+      X: 0.966049135
+      Y: 0.781721652
+      Z: 0.54579854
+    }
+  }
+  ParentId: 10890274874115666730
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_LowerTrimInner:color"
+      Color {
+        R: 0.65625
+        G: 0.65625
+        B: 0.65625
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:color"
+      Color {
+        R: 0.2106
+        G: 0.234
+        B: 0.22425
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4191756069127165282
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 17254917299776692851
+  Name: "Cube Peices Covering Neon"
+  Transform {
+    Location {
+      X: -238.101074
+      Y: -1829.06409
+      Z: 743.321045
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10890274874115666730
+  ChildIds: 12738583523795155329
+  ChildIds: 16123868071309290171
+  ChildIds: 2992807075274579351
+  ChildIds: 8865040680224746474
+  ChildIds: 4751769131440713406
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 4751769131440713406
+  Name: "Cube blocking out Neon Behind Hologram"
+  Transform {
+    Location {
+      X: 1390.34912
+      Y: 436.467773
+      Z: -113.026306
+    }
+    Rotation {
+      Yaw: -141.324051
+    }
+    Scale {
+      X: -20.1269779
+      Y: 0.317091405
+      Z: 0.378222
+    }
+  }
+  ParentId: 17254917299776692851
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        G: 0.984313786
+        B: 0.964705944
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 8238350790793848482
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 8865040680224746474
+  Name: "Cube at back blocking out other neon light"
+  Transform {
+    Location {
+      X: 1986.1582
+      Y: 1065.67322
+      Z: -130.934021
+    }
+    Rotation {
+      Pitch: 7.05072212
+      Yaw: -90.1114502
+      Roll: -0.0136412317
+    }
+    Scale {
+      X: -6.36330128
+      Y: 0.317085296
+      Z: 0.378214061
+    }
+  }
+  ParentId: 17254917299776692851
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        G: 0.984313786
+        B: 0.964705944
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 8238350790793848482
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2992807075274579351
+  Name: "Cube"
+  Transform {
+    Location {
+      X: 479.621094
+      Y: -65.4223633
+    }
+    Rotation {
+      Pitch: 24.5406437
+      Yaw: 179.999893
+      Roll: 3.58030814e-12
+    }
+    Scale {
+      X: -5.87097931
+      Y: 0.31256929
+      Z: 0.372818321
+    }
+  }
+  ParentId: 17254917299776692851
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 16261615499712839681
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 16123868071309290171
+  Name: "Cube"
+  Transform {
+    Location {
+      X: -357.319824
+      Y: 120.196777
+      Z: 81.7287
+    }
+    Rotation {
+      Yaw: 89.9999084
+    }
+    Scale {
+      X: -4.13325262
+      Y: 0.312570155
+      Z: 0.372819841
+    }
+  }
+  ParentId: 17254917299776692851
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12807286167336049382
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12738583523795155329
+  Name: "Cube"
+  Transform {
+    Location {
+      X: -122.30127
+      Y: -54.7739258
+      Z: 83.409
+    }
+    Rotation {
+      Pitch: -0.369806916
+      Yaw: 178.999893
+      Roll: -1.66756131e-09
+    }
+    Scale {
+      X: -9.60390282
+      Y: 0.312566668
+      Z: 0.372819662
+    }
+  }
+  ParentId: 17254917299776692851
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 16261615499712839681
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1815388960527540109
+  Name: "Whitebox Wall 01"
+  Transform {
+    Location {
+      X: 1768.39087
+      Y: -922.771
+      Z: 672.853455
+    }
+    Rotation {
+      Yaw: 38.9998398
+      Roll: 59.9999695
+    }
+    Scale {
+      X: -2.77015042
+      Y: 1.00000274
+      Z: 0.842095196
+    }
+  }
+  ParentId: 10890274874115666730
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17600359723065005811
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 8342662513541790440
+    SubobjectId: 9616667028068761864
+    InstanceId: 2585132023508260079
+    TemplateId: 17735093090777977581
+  }
+}
+Objects {
+  Id: 8275354255261289735
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 1431.0791
+      Y: -741.708618
+      Z: 834.884155
+    }
+    Rotation {
+      Yaw: -140.201477
+      Roll: 119.328346
+    }
+    Scale {
+      X: 0.966049135
+      Y: 0.781721652
+      Z: 0.54579854
+    }
+  }
+  ParentId: 10890274874115666730
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_LowerTrimInner:color"
+      Color {
+        R: 0.65625
+        G: 0.65625
+        B: 0.65625
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:color"
+      Color {
+        R: 0.2106
+        G: 0.234
+        B: 0.22425
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4191756069127165282
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14649088843684730353
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 1152.24194
+      Y: -974.015
+      Z: 834.884155
+    }
+    Rotation {
+      Yaw: -140.201477
+      Roll: 119.328346
+    }
+    Scale {
+      X: 0.966049135
+      Y: 0.781721652
+      Z: 0.54579854
+    }
+  }
+  ParentId: 10890274874115666730
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_LowerTrimInner:color"
+      Color {
+        R: 0.65625
+        G: 0.65625
+        B: 0.65625
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:color"
+      Color {
+        R: 0.2106
+        G: 0.234
+        B: 0.22425
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4191756069127165282
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 17402757653078170858
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 900.191894
+      Y: -1184.00427
+      Z: 834.884155
+    }
+    Rotation {
+      Yaw: -140.201477
+      Roll: 119.328346
+    }
+    Scale {
+      X: 0.966049135
+      Y: 0.781721652
+      Z: 0.54579854
+    }
+  }
+  ParentId: 10890274874115666730
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_LowerTrimInner:color"
+      Color {
+        R: 0.65625
+        G: 0.65625
+        B: 0.65625
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:color"
+      Color {
+        R: 0.2106
+        G: 0.234
+        B: 0.22425
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4191756069127165282
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9219351484705245958
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 624.896484
+      Y: -1413.35974
+      Z: 834.884155
+    }
+    Rotation {
+      Yaw: -140.201477
+      Roll: 119.328346
+    }
+    Scale {
+      X: 0.966049135
+      Y: 0.781721652
+      Z: 0.54579854
+    }
+  }
+  ParentId: 10890274874115666730
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_LowerTrimInner:color"
+      Color {
+        R: 0.65625
+        G: 0.65625
+        B: 0.65625
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:color"
+      Color {
+        R: 0.2106
+        G: 0.234
+        B: 0.22425
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4191756069127165282
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9709113058314310713
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 1628.39941
+      Y: -974.776733
+      Z: 697.53595
+    }
+    Rotation {
+      Yaw: -141.031555
+      Roll: -179.999954
+    }
+    Scale {
+      X: 0.96604526
+      Y: 0.781718493
+      Z: 0.32126826
+    }
+  }
+  ParentId: 10890274874115666730
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_LowerTrimInner:color"
+      Color {
+        R: 0.65625
+        G: 0.65625
+        B: 0.65625
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:color"
+      Color {
+        R: 0.2106
+        G: 0.234
+        B: 0.22425
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4191756069127165282
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2881010952529355660
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 1356.94434
+      Y: -1194.34924
+      Z: 697.53595
+    }
+    Rotation {
+      Yaw: -141.031555
+      Roll: -179.999954
+    }
+    Scale {
+      X: 0.96604526
+      Y: 0.781718493
+      Z: 0.32126826
+    }
+  }
+  ParentId: 10890274874115666730
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_LowerTrimInner:color"
+      Color {
+        R: 0.65625
+        G: 0.65625
+        B: 0.65625
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:color"
+      Color {
+        R: 0.2106
+        G: 0.234
+        B: 0.22425
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4191756069127165282
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15955091217639269196
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 1089.57739
+      Y: -1410.61487
+      Z: 697.53595
+    }
+    Rotation {
+      Yaw: -141.03154
+      Roll: -179.999969
+    }
+    Scale {
+      X: 0.96604526
+      Y: 0.781718493
+      Z: 0.32126826
+    }
+  }
+  ParentId: 10890274874115666730
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_LowerTrimInner:color"
+      Color {
+        R: 0.65625
+        G: 0.65625
+        B: 0.65625
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:color"
+      Color {
+        R: 0.2106
+        G: 0.234
+        B: 0.22425
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4191756069127165282
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12270590526190428257
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 809.328369
+      Y: -1637.3009
+      Z: 697.53595
+    }
+    Rotation {
+      Yaw: -141.031525
+      Roll: 180
+    }
+    Scale {
+      X: 0.96604526
+      Y: 0.781718493
+      Z: 0.32126826
+    }
+  }
+  ParentId: 10890274874115666730
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_LowerTrimInner:color"
+      Color {
+        R: 0.65625
+        G: 0.65625
+        B: 0.65625
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:color"
+      Color {
+        R: 0.2106
+        G: 0.234
+        B: 0.22425
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4191756069127165282
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4207801860715319666
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 521.75415
+      Y: -1879.48206
+      Z: 844.321167
+    }
+    Rotation {
+      Yaw: -179.999985
+      Roll: -179.999985
+    }
+    Scale {
+      X: 0.96604532
+      Y: 0.781718135
+      Z: 0.637313485
+    }
+  }
+  ParentId: 10890274874115666730
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_LowerTrimInner:color"
+      Color {
+        R: 0.65625
+        G: 0.65625
+        B: 0.65625
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:color"
+      Color {
+        R: 0.2106
+        G: 0.234
+        B: 0.22425
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4191756069127165282
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 17783942529139047482
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 1367.44092
+      Y: -1182.27771
+      Z: 49.8989258
+    }
+    Rotation {
+      Yaw: 39.0963287
+    }
+    Scale {
+      X: 1.09899449
+      Y: 0.560607493
+      Z: 0.815171063
+    }
+  }
+  ParentId: 10890274874115666730
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_LowerTrimInner:color"
+      Color {
+        R: 0.65625
+        G: 0.65625
+        B: 0.65625
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:color"
+      Color {
+        R: 0.2106
+        G: 0.234
+        B: 0.22425
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4191756069127165282
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1255681539691117302
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 1076.18872
+      Y: -1418.94128
+      Z: 49.8989258
+    }
+    Rotation {
+      Yaw: 39.0963707
+    }
+    Scale {
+      X: 0.96604538
+      Y: 0.560605347
+      Z: 0.815171063
+    }
+  }
+  ParentId: 10890274874115666730
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_LowerTrimInner:color"
+      Color {
+        R: 0.65625
+        G: 0.65625
+        B: 0.65625
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:color"
+      Color {
+        R: 0.2106
+        G: 0.234
+        B: 0.22425
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4191756069127165282
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2065269405331993297
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 788.827637
+      Y: -1652.44275
+      Z: 49.8989258
+    }
+    Rotation {
+      Yaw: 39.0964165
+    }
+    Scale {
+      X: 0.96604538
+      Y: 0.560605347
+      Z: 0.815171063
+    }
+  }
+  ParentId: 10890274874115666730
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_LowerTrimInner:color"
+      Color {
+        R: 0.65625
+        G: 0.65625
+        B: 0.65625
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:color"
+      Color {
+        R: 0.2106
+        G: 0.234
+        B: 0.22425
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4191756069127165282
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 7409437396635549079
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 497.381592
+      Y: -1889.26404
+      Z: 49.8989258
+    }
+    Rotation {
+      Yaw: 39.0964584
+    }
+    Scale {
+      X: 0.96604538
+      Y: 0.560605347
+      Z: 0.815171063
+    }
+  }
+  ParentId: 10890274874115666730
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_LowerTrimInner:color"
+      Color {
+        R: 0.65625
+        G: 0.65625
+        B: 0.65625
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:color"
+      Color {
+        R: 0.2106
+        G: 0.234
+        B: 0.22425
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4191756069127165282
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3567127996844111576
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -224.855957
+      Y: -1879.4823
+      Z: 847.969
+    }
+    Rotation {
+      Pitch: 180
+    }
+    Scale {
+      X: 0.926357746
+      Y: 0.781718135
+      Z: 0.637313485
+    }
+  }
+  ParentId: 10890274874115666730
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_LowerTrimInner:color"
+      Color {
+        R: 0.65625
+        G: 0.65625
+        B: 0.65625
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:color"
+      Color {
+        R: 0.2106
+        G: 0.234
+        B: 0.22425
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4191756069127165282
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2247635590318103503
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 152.998291
+      Y: -1879.4823
+      Z: 844.321167
+    }
+    Rotation {
+      Pitch: 180
+    }
+    Scale {
+      X: 0.96604532
+      Y: 0.781718135
+      Z: 0.637313485
+    }
+  }
+  ParentId: 10890274874115666730
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_LowerTrimInner:color"
+      Color {
+        R: 0.65625
+        G: 0.65625
+        B: 0.65625
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:color"
+      Color {
+        R: 0.2106
+        G: 0.234
+        B: 0.22425
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4191756069127165282
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 5980776018603250050
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: 128.223144
+      Y: -1882.61584
+      Z: 49.8989258
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.96604538
+      Y: 0.560605347
+      Z: 0.815171063
+    }
+  }
+  ParentId: 10890274874115666730
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_LowerTrimInner:color"
+      Color {
+        R: 0.65625
+        G: 0.65625
+        B: 0.65625
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:color"
+      Color {
+        R: 0.2106
+        G: 0.234
+        B: 0.22425
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4191756069127165282
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12947106560209367600
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -602.727539
+      Y: -1882.61584
+      Z: 49.8989563
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.96604538
+      Y: 0.560605347
+      Z: 0.815171063
+    }
+  }
+  ParentId: 10890274874115666730
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_LowerTrimInner:color"
+      Color {
+        R: 0.65625
+        G: 0.65625
+        B: 0.65625
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:color"
+      Color {
+        R: 0.2106
+        G: 0.234
+        B: 0.22425
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4191756069127165282
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 664667046628730876
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -224.855957
+      Y: -1882.61584
+      Z: 49.8989563
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.926357806
+      Y: 0.560605347
+      Z: 0.815171063
+    }
+  }
+  ParentId: 10890274874115666730
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_LowerTrimInner:color"
+      Color {
+        R: 0.65625
+        G: 0.65625
+        B: 0.65625
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:color"
+      Color {
+        R: 0.2106
+        G: 0.234
+        B: 0.22425
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4191756069127165282
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9157537570616613997
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -1095.72754
+      Y: -1444.19055
+      Z: 70.0169678
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.96604538
+      Y: 0.560605347
+      Z: 0.815171063
+    }
+  }
+  ParentId: 10890274874115666730
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_LowerTrimInner:color"
+      Color {
+        R: 0.65625
+        G: 0.65625
+        B: 0.65625
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:color"
+      Color {
+        R: 0.2106
+        G: 0.234
+        B: 0.22425
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4191756069127165282
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 12052076993917327558
+  Name: "Cube"
+  Transform {
+    Location {
+      X: -941.164062
+      Y: -1444.74792
+      Z: 583.427368
+    }
+    Rotation {
+      Pitch: -5.16772461
+      Yaw: 179.595352
+      Roll: 0.0364379585
+    }
+    Scale {
+      X: -5.54598141
+      Y: 0.300821304
+      Z: 0.358813822
+    }
+  }
+  ParentId: 10890274874115666730
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12807286167336049382
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 18031846858730866026
+  Name: "Cube"
+  Transform {
+    Location {
+      X: -1229.98975
+      Y: -1294.75647
+      Z: 559.01178
+    }
+    Rotation {
+      Pitch: -3.60134888
+      Yaw: 125.76886
+      Roll: -2.59066772
+    }
+    Scale {
+      X: -4.67224
+      Y: 0.300003737
+      Z: 0.357834071
+    }
+  }
+  ParentId: 10890274874115666730
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12807286167336049382
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 5755124204216483813
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -1359.48242
+      Y: -1092.71155
+      Z: 70.0169678
+    }
+    Rotation {
+      Yaw: -53.3864136
+    }
+    Scale {
+      X: 1.07031775
+      Y: 0.560604692
+      Z: 0.815171063
+    }
+  }
+  ParentId: 10890274874115666730
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_LowerTrimInner:color"
+      Color {
+        R: 0.65625
+        G: 0.65625
+        B: 0.65625
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:color"
+      Color {
+        R: 0.2106
+        G: 0.234
+        B: 0.22425
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4191756069127165282
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4496443522323892445
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -781.693848
+      Y: -89.7578125
+      Z: 70.0169678
+    }
+    Rotation {
+      Yaw: -179.999969
+    }
+    Scale {
+      X: 0.631074488
+      Y: 0.560605526
+      Z: 0.815171063
+    }
+  }
+  ParentId: 10890274874115666730
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_LowerTrimInner:color"
+      Color {
+        R: 0.65625
+        G: 0.65625
+        B: 0.65625
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:color"
+      Color {
+        R: 0.2106
+        G: 0.234
+        B: 0.22425
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4191756069127165282
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9740290493820507504
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -1015.21631
+      Y: -89.7578125
+      Z: 70.0169678
+    }
+    Rotation {
+      Yaw: 180
+    }
+    Scale {
+      X: 0.80000031
+      Y: 0.560605347
+      Z: 0.815171063
+    }
+  }
+  ParentId: 10890274874115666730
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_LowerTrimInner:color"
+      Color {
+        R: 0.65625
+        G: 0.65625
+        B: 0.65625
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:color"
+      Color {
+        R: 0.2106
+        G: 0.234
+        B: 0.22425
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4191756069127165282
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2804563045602136285
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -1360.60742
+      Y: -401.522705
+      Z: 70.0169678
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 0.930554509
+      Y: 0.560605288
+      Z: 0.815171063
+    }
+  }
+  ParentId: 10890274874115666730
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_LowerTrimInner:color"
+      Color {
+        R: 0.65625
+        G: 0.65625
+        B: 0.65625
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:color"
+      Color {
+        R: 0.2106
+        G: 0.234
+        B: 0.22425
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4191756069127165282
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 18367101853407425700
+  Name: "Cube"
+  Transform {
+    Location {
+      X: -1369.21191
+      Y: -609.716187
+      Z: 546.10968
+    }
+    Rotation {
+      Yaw: 90.6459045
+    }
+    Scale {
+      X: -11.1293421
+      Y: 0.300006241
+      Z: 0.35783416
+    }
+  }
+  ParentId: 10890274874115666730
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        G: 0.984313786
+        B: 0.964705944
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12807286167336049382
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3671859621850807749
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -1360.60742
+      Y: -768.179077
+      Z: 70.0169678
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 0.80000031
+      Y: 0.560605347
+      Z: 0.815171063
+    }
+  }
+  ParentId: 10890274874115666730
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_LowerTrimInner:color"
+      Color {
+        R: 0.65625
+        G: 0.65625
+        B: 0.65625
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:color"
+      Color {
+        R: 0.2106
+        G: 0.234
+        B: 0.22425
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4191756069127165282
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 14745604303224540038
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  Transform {
+    Location {
+      X: -1360.60742
+      Y: -89.7578125
+      Z: 70.0169373
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 0.80000031
+      Y: 0.560605347
+      Z: 0.815171063
+    }
+  }
+  ParentId: 10890274874115666730
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_LowerTrimInner:color"
+      Color {
+        R: 0.65625
+        G: 0.65625
+        B: 0.65625
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimInner:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        R: 0.654902
+        G: 0.654902
+        B: 0.654902
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Building_UpperTrimOuter:color"
+      Color {
+        R: 0.2106
+        G: 0.234
+        B: 0.22425
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4191756069127165282
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
   Id: 3177149036875281902
   Name: "Small Ground Light 1"
   Transform {
     Location {
-      X: 700.677795
-      Y: -983.307922
+      X: 397.768311
+      Y: -983.308
       Z: -1.597229
     }
     Rotation {
@@ -199,7 +3373,7 @@ Objects {
   Name: "Barrier Light"
   Transform {
     Location {
-      X: 0.379882813
+      X: 0.379882812
       Y: 0.565185547
       Z: 47.4719849
     }
@@ -254,7 +3428,7 @@ Objects {
   Name: "Small Ground Light 2"
   Transform {
     Location {
-      X: -165.162537
+      X: -237.325195
       Y: -983.017456
       Z: -1.597229
     }
@@ -505,17 +3679,17 @@ Objects {
   Name: "Display With Holograms"
   Transform {
     Location {
-      X: 263.919189
-      Y: -1167.38318
-      Z: 144.062683
+      X: 88.494873
+      Y: -1181.55286
+      Z: 124.420654
     }
     Rotation {
       Yaw: -0.507141113
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 0.849194884
+      Y: 0.849194884
+      Z: 0.849194884
     }
   }
   ParentId: 10890274874115666730
@@ -687,7 +3861,7 @@ Objects {
   Name: "Display Hologram"
   Transform {
     Location {
-      X: -11.0063477
+      X: -11.0063476
       Y: 14.1268311
       Z: 480.986328
     }
@@ -748,7 +3922,7 @@ Objects {
   Name: "Hologram Display Base"
   Transform {
     Location {
-      X: 11.0063477
+      X: 11.0063476
       Y: -14.1269531
     }
     Rotation {
@@ -1176,133 +4350,11 @@ Objects {
   }
 }
 Objects {
-  Id: 8865040680224746474
-  Name: "Cube at back blocking out other neon light"
-  Transform {
-    Location {
-      X: 1748.05713
-      Y: -763.390869
-      Z: 612.387
-    }
-    Rotation {
-      Pitch: 7.05072212
-      Yaw: -90.1114426
-      Roll: -0.0136405863
-    }
-    Scale {
-      X: -6.36330128
-      Y: 0.317085296
-      Z: 0.378214061
-    }
-  }
-  ParentId: 10890274874115666730
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        G: 0.984313786
-        B: 0.964705944
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 8238350790793848482
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 4751769131440713406
-  Name: "Cube blocking out Neon Behind Hologram"
-  Transform {
-    Location {
-      X: 1152.24805
-      Y: -1392.59631
-      Z: 630.294739
-    }
-    Rotation {
-      Yaw: -141.32402
-    }
-    Scale {
-      X: -20.1269779
-      Y: 0.317091405
-      Z: 0.378222
-    }
-  }
-  ParentId: 10890274874115666730
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        G: 0.984313786
-        B: 0.964705944
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 8238350790793848482
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
   Id: 1371760182987906478
   Name: "Highlighted Neon Trim"
   Transform {
     Location {
-      X: 527.598145
+      X: 527.598144
       Y: -817.26
       Z: 315.677856
     }
@@ -1613,8 +4665,8 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -124.232613
-      Y: -245.145294
+      X: -152.509308
+      Y: -266.648315
       Z: -319.925
     }
     Rotation {
@@ -1623,9 +4675,9 @@ Objects {
       Roll: 127.25148
     }
     Scale {
-      X: 0.0782573074
-      Y: 0.0863478631
-      Z: 11.0673275
+      X: 0.0782576799
+      Y: 0.0864481
+      Z: 11.6942863
     }
   }
   ParentId: 1371760182987906478
@@ -1681,8 +4733,8 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -381.072144
-      Y: -1031.80347
+      X: -418.714783
+      Y: -1060.1676
       Z: -361.074646
     }
     Rotation {
@@ -1692,8 +4744,8 @@ Objects {
     }
     Scale {
       X: 0.0782561898
-      Y: 0.0863213614
-      Z: 2.75339484
+      Y: 0.0863097757
+      Z: 2.16163611
     }
   }
   ParentId: 1371760182987906478
@@ -1749,8 +4801,8 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -381.072144
-      Y: -1031.80347
+      X: -418.714783
+      Y: -1060.1676
       Z: -320.677856
     }
     Rotation {
@@ -1760,8 +4812,8 @@ Objects {
     }
     Scale {
       X: 0.0782561898
-      Y: 0.0863213614
-      Z: 2.75339484
+      Y: 0.0863097757
+      Z: 2.16163611
     }
   }
   ParentId: 1371760182987906478
@@ -1817,8 +4869,8 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -418.120056
-      Y: -762.546387
+      X: -475.222717
+      Y: -805.834717
       Z: -361.766724
     }
     Rotation {
@@ -1885,8 +4937,8 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -419.967957
-      Y: -763.137451
+      X: -477.07074
+      Y: -806.42572
       Z: -318.320374
     }
     Rotation {
@@ -1953,8 +5005,8 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: -111.503555
-      Y: -235.4655
+      X: -139.780243
+      Y: -256.968567
       Z: -360.721
     }
     Rotation {
@@ -1962,9 +5014,9 @@ Objects {
       Roll: 37.2514343
     }
     Scale {
-      X: 0.0782573149
-      Y: 0.0863550529
-      Z: 11.1942568
+      X: 0.0782576874
+      Y: 0.0864553
+      Z: 11.8284073
     }
   }
   ParentId: 1371760182987906478
@@ -2059,14 +5111,14 @@ Objects {
   Transform {
     Location {
       X: 577.266357
-      Y: 610.137939
-      Z: 0.0126953125
+      Y: 626.324219
+      Z: 0.0139160156
     }
     Rotation {
     }
     Scale {
-      X: 11.0565577
-      Y: 11.232542
+      X: 11.0565596
+      Y: 12.3824549
       Z: 1.90999877
     }
   }
@@ -2347,7 +5399,7 @@ Objects {
     Location {
       X: 726.533936
       Y: 893.677246
-      Z: 6.10351563e-05
+      Z: 6.10351562e-05
     }
     Rotation {
     }
@@ -2439,7 +5491,7 @@ Objects {
   Name: "Barrier Light"
   Transform {
     Location {
-      X: 10.3344727
+      X: 10.3344726
       Y: -1.10644531
       Z: 99.585907
     }
@@ -2839,7 +5891,7 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: 106.591309
+      X: 106.591308
       Y: 18.565424
       Z: -1.52587891e-05
     }
@@ -3415,7 +6467,7 @@ Objects {
   Name: "Desk "
   Transform {
     Location {
-      X: -614.997559
+      X: -614.997558
       Y: -877
       Z: 26.3502197
     }
@@ -7298,17 +10350,17 @@ Objects {
   Name: "Tools On Wall"
   Transform {
     Location {
-      X: -1349.24072
-      Y: -782.229248
-      Z: 119.648376
+      X: -1342.19726
+      Y: -611.47522
+      Z: 194.436
     }
     Rotation {
       Yaw: 89.9999924
     }
     Scale {
-      X: 0.891855299
-      Y: 0.891855299
-      Z: 0.891855299
+      X: 0.717364609
+      Y: 0.717364609
+      Z: 0.717364609
     }
   }
   ParentId: 10890274874115666730
@@ -8008,7 +11060,7 @@ Objects {
   Transform {
     Location {
       X: 70.7485352
-      Y: -10.1469727
+      Y: -10.1469726
       Z: 115.407593
     }
     Rotation {
@@ -9350,7 +12402,7 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: 105.032227
+      X: 105.032226
       Y: -39.8979492
       Z: 118.949585
     }
@@ -9542,7 +12594,7 @@ Objects {
   Name: "New Tool"
   Transform {
     Location {
-      X: -4558.77393
+      X: -4558.77392
       Y: -2126.89673
       Z: -498.172485
     }
@@ -9604,17 +12656,17 @@ Objects {
   Name: "Ammo Group on Wall"
   Transform {
     Location {
-      X: -1237.48047
-      Y: -1346.10583
-      Z: 101.410492
+      X: -1219.30176
+      Y: -1310.61023
+      Z: 186.617126
     }
     Rotation {
       Yaw: 126.718529
     }
     Scale {
-      X: 0.819609225
-      Y: 0.819609225
-      Z: 0.819609225
+      X: 0.618535399
+      Y: 0.618535399
+      Z: 0.618535399
     }
   }
   ParentId: 10890274874115666730
