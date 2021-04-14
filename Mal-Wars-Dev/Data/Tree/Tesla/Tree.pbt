@@ -60,7 +60,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Range"
-      Float: 32
+      Float: 60
     }
     Overrides {
       Name: "cs:Tower"
@@ -164,7 +164,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Range"
-      Float: 28
+      Float: 60
     }
     Overrides {
       Name: "cs:Tower"
@@ -274,7 +274,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Range"
-      Float: 24
+      Float: 60
     }
     Overrides {
       Name: "cs:Tower"
@@ -384,7 +384,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Range"
-      Float: 20
+      Float: 60
     }
     Overrides {
       Name: "cs:Tower"
