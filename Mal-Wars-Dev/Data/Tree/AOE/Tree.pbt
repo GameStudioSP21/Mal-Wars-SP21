@@ -26,7 +26,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Description"
-      String: "Fastest fire rate with max range."
+      String: "Maximum damage in an area."
     }
     Overrides {
       Name: "cs:Icon"
@@ -56,7 +56,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Range"
-      Float: 40
+      Float: 32
     }
     Overrides {
       Name: "cs:Speed"
@@ -130,7 +130,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Description"
-      String: "Shoots even faster with even more range."
+      String: "Deals even more damage in an area."
     }
     Overrides {
       Name: "cs:Icon"
@@ -160,7 +160,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Range"
-      Float: 36
+      Float: 32
     }
     Overrides {
       Name: "cs:Speed"
@@ -240,7 +240,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Description"
-      String: "Firest faster over a larger area."
+      String: "Deals more damage in an area."
     }
     Overrides {
       Name: "cs:Icon"
@@ -380,7 +380,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Range"
-      Float: 30
+      Float: 32
     }
     Overrides {
       Name: "cs:Speed"

@@ -27,7 +27,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Description"
-      String: ""
+      String: "Maximum bombs for maximum booms."
     }
     Overrides {
       Name: "cs:Icon"
@@ -49,15 +49,15 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 500
+      Int: 560
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 200
+      Int: 240
     }
     Overrides {
       Name: "cs:Range"
-      Float: 175
+      Float: 120
     }
     Overrides {
       Name: "cs:Speed"
@@ -153,15 +153,15 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 325
+      Int: 280
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 100
+      Int: 120
     }
     Overrides {
       Name: "cs:Range"
-      Float: 150
+      Float: 120
     }
     Overrides {
       Name: "cs:Speed"
@@ -263,15 +263,15 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 175
+      Int: 160
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 50
+      Int: 60
     }
     Overrides {
       Name: "cs:Range"
-      Float: 130
+      Float: 120
     }
     Overrides {
       Name: "cs:Speed"
@@ -351,7 +351,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Description"
-      String: "Fires an explosive projectile, damaging all enemies in the explosion radius."
+      String: "Fires an explosive projectile."
     }
     Overrides {
       Name: "cs:Icon"
@@ -377,7 +377,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 25
+      Int: 30
     }
     Overrides {
       Name: "cs:Range"
@@ -385,7 +385,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Speed"
-      Float: 2
+      Float: 3
     }
     Overrides {
       Name: "cs:Tower"
