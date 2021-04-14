@@ -13,6 +13,8 @@
 
 local FILL_BAR = script:GetCustomProperty("Fill"):WaitForObject()
 local LABEL = script:GetCustomProperty("Label"):WaitForObject()
+local LABEL_BACK = script:GetCustomProperty("LabelBack"):WaitForObject()
+
 
 script.parent:LookAtLocalView()
 script.parent.visibility = Visibility.FORCE_OFF
@@ -41,7 +43,8 @@ function Tick()
 		script.parent.visibility = Visibility.INHERIT
 	end
 	
-	LABEL.text = CoreMath.Round(hp) .. " / " .. CoreMath.Round(maxHP)
+	LABEL.text = tostring(CoreMath.Round(hp))
+	LABEL_BACK.text = LABEL.text
 	
 	local percent = hp / maxHP
 	percent = CoreMath.Clamp(percent, 0, 1)
