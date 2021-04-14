@@ -1,26 +1,78 @@
-Name: "wallLight"
-RootId: 12277067541095749809
+Name: "ceiling light_7"
+RootId: 4493671150566005639
 Objects {
-  Id: 12960343237827738141
-  Name: "Cylinder - Chamfered Polished"
+  Id: 16053837071348442182
+  Name: "sphere - bulb"
   Transform {
     Location {
-      X: 105.887665
-      Y: -2.8767128
-      Z: 0.000122070313
+      Z: -6.44366455
     }
     Rotation {
-      Pitch: 90
-      Yaw: -13.2626953
-      Roll: -13.2626953
     }
     Scale {
-      X: 0.216259241
-      Y: 0.216258749
-      Z: 3.46259141
+      X: 0.893944
+      Y: 1.48509419
+      Z: 0.231183201
     }
   }
-  ParentId: 12277067541095749809
+  ParentId: 4493671150566005639
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12807286167336049382
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.686274529
+        G: 1
+        B: 0.921568692
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14068053303232782567
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9800039190597621591
+  Name: "Street Light Pole Clamp 01"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3.17232251
+      Y: 5.27
+      Z: 1.48629451
+    }
+  }
+  ParentId: 4493671150566005639
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -40,61 +92,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 15963485253414916048
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 1496712553291340096
-  Name: "Cylinder - Chamfered Polished"
-  Transform {
-    Location {
-      X: 105.887726
-      Y: -6.17768478
-      Z: -7.62939453e-05
-    }
-    Rotation {
-      Pitch: 90
-      Yaw: -13.2626953
-      Roll: -13.2626953
-    }
-    Scale {
-      X: 0.216259316
-      Y: 0.216258749
-      Z: 4.9397583
-    }
-  }
-  ParentId: 12277067541095749809
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 14060073193884603958
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 11130348195833418940
+      Id: 11956004548363595673
     }
     Teams {
       IsTeamCollisionEnabled: true

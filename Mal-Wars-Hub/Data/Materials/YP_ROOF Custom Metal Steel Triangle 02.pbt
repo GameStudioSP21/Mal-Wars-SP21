@@ -15,18 +15,6 @@ Assets {
           A: 1
         }
       }
-      Overrides {
-        Name: "gradient_shift"
-        Float: 0.5
-      }
-      Overrides {
-        Name: "gradient_falloff"
-        Float: 0.5
-      }
-      Overrides {
-        Name: "roughness_multiplier"
-        Float: 1
-      }
     }
     Assets {
       Id: 18250807259638886115

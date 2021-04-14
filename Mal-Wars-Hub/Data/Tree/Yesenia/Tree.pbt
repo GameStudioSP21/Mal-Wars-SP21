@@ -1,7 +1,7 @@
 Name: "Yesenia"
 RootId: 16735332301278203860
 Objects {
-  Id: 14189473819793087669
+  Id: 13911381400682705983
   Name: "lobbyBlockout"
   Transform {
     Location {
@@ -37,48 +37,5 @@ Objects {
     InstanceId: 2585132023508260079
     TemplateId: 17735093090777977581
     WasRoot: true
-  }
-}
-Objects {
-  Id: 10377719865094086806
-  Name: "cameraCube"
-  Transform {
-    Location {
-      X: -1405.73315
-      Y: 218.049149
-      Z: 225.05072
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16735332301278203860
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
   }
 }

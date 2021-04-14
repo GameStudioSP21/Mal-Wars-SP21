@@ -34,3 +34,12 @@ Assets {
     AssetId: "mi_metal_steel_hex_001"
   }
 }
+Assets {
+  Id: 4596768812714855351
+  Name: "Sci-fi Base Ceiling Trim 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_trim_ceiling_001_ref"
+  }
+}
