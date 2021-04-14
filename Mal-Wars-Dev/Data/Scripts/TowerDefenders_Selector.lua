@@ -72,13 +72,6 @@ function Selector:SetMagnetize(state,magnetizeDistanceThreshold)
     end
 end
 
-function Selector:IsMagnetizedToTower()
-    if self.selectedTower then
-        return true
-    end
-    return false
-end
-
 function Selector:GetMagnetizeState()
     return self.isMagnetizing
 end
@@ -138,7 +131,6 @@ function Selector:_Init(selectorData)
     else
         self.isMagnetizing = false
     end
-    self.isMagnetizedToTower = false
     self.minSelectorDistance = selectorData.minSelectDistance or 50
     self.maxSelectorDistance = selectorData.maxSelectDistance or 10000
     self.isCamToMouseRaycasting = selectorData.isCamToMouseRaycasting or false
@@ -178,7 +170,7 @@ function Selector:_RemoveVisual()
 end
 
 function Selector:_Runtime()
-    self.selectedTower = nil
+    local selectedTower = nil
     self.selectorRuntime = Task.Spawn(function()
         while self.selectorVisualObject do
             Task.Wait()
@@ -203,12 +195,12 @@ function Selector:_Runtime()
                 if hitResult.other then
                     if self.magnetizeDistanceThreshold ~= 0 and self.isMagnetizing then
                         local closestTower = self:GetNearestTower()
-                        if closestTower and self.selectedTower ~= closestTower then
-                            self.selectedTower = closestTower
+                        if closestTower and selectedTower ~= closestTower then
+                            selectedTower = closestTower
                             self:_FireEvent("OnMagnetized")
                             Ease3D.EasePosition(self.selectorVisualObject,closestTower:GetWorldPosition(),0.1)
-                        elseif not closestTower and self.selectedTower then
-                            self.selectedTower = nil
+                        elseif not closestTower and selectedTower then
+                            selectedTower = nil
                             self:_FireEvent("OnUnMagnetized")
                         elseif not closestTower then
                             self.selectorVisualObject:SetWorldPosition(self.rayImpactPosition)

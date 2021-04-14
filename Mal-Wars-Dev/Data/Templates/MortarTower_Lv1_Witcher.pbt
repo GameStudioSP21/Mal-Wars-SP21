@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 8512805858169632350
         ChildIds: 231791474475839001
         UnregisteredParameters {
           Overrides {
@@ -409,7 +409,6 @@ Assets {
           }
         }
         ParentId: 536776876252985223
-        ChildIds: 13495132190110201469
         ChildIds: 4148560884101613196
         ChildIds: 9985856467993791257
         Collidable_v2 {
@@ -424,43 +423,6 @@ Assets {
         Folder {
           IsFilePartition: true
           FilePartitionName: "Muzzle_1"
-        }
-      }
-      Objects {
-        Id: 13495132190110201469
-        Name: "Gunshot Distant Artillery Tank Shot 01 SFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 10201914475493489945
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        AudioInstance {
-          AudioAsset {
-            Id: 6367806081794526052
-          }
-          Pitch: 547.167725
-          Volume: 1.4169035
-          Falloff: -1
-          Radius: -1
-          EnableOcclusion: true
-          IsSpatializationEnabled: true
-          IsAttenuationEnabled: true
         }
       }
       Objects {
@@ -496,8 +458,8 @@ Assets {
           AudioBP {
             Pitch: -1257.25256
             Volume: 1.25749111
-            Falloff: 6000
-            Radius: 4000
+            Falloff: 4500
+            Radius: 1000
             EnableOcclusion: true
             IsSpatializationEnabled: true
             IsAttenuationEnabled: true
@@ -514,9 +476,9 @@ Assets {
             Pitch: -90
           }
           Scale {
-            X: 1.14662337
-            Y: 1.14662337
-            Z: 1.14662337
+            X: 0.500000179
+            Y: 0.500000179
+            Z: 0.500000179
           }
         }
         ParentId: 10201914475493489945
@@ -2510,15 +2472,6 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_scf_ship_nacelle_002_ref"
-      }
-    }
-    Assets {
-      Id: 6367806081794526052
-      Name: "Gunshot Distant Artillery Tank Shot 01 SFX"
-      PlatformAssetType: 7
-      PrimaryAsset {
-        AssetType: "AudioAssetRef"
-        AssetId: "sfx_distant_artillery_tank_shot_01a_Cue_ref"
       }
     }
     Assets {

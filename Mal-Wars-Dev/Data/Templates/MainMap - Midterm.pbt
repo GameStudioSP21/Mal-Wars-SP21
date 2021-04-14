@@ -21,6 +21,7 @@ Assets {
         ChildIds: 17637186462734073188
         ChildIds: 15932219875191573269
         ChildIds: 12998372047861030760
+        ChildIds: 1531678778489166764
         UnregisteredParameters {
           Overrides {
             Name: "cs:Owners"
@@ -4517,6 +4518,38 @@ Assets {
         Script {
           ScriptAsset {
             Id: 14397388049759306212
+          }
+        }
+      }
+      Objects {
+        Id: 1531678778489166764
+        Name: "TestServerPlaceScript"
+        Transform {
+          Location {
+            X: -1107.64868
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4162559028374586543
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16323948595833752729
           }
         }
       }

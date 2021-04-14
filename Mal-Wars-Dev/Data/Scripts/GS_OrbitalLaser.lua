@@ -31,9 +31,7 @@ local board = GAME_MANAGER.WaitForBoardFromPlayer(LOCAL_PLAYER)
 -- print("got board")
 
 function OnBindingPressed(LOCAL_PLAYER, binding)
-    local generalSelector = LOCAL_PLAYER.clientUserData.generalSelector
-
-    if binding == FIRE_BIND  and not onCoolDown and not generalSelector:IsMagnetizedToTower() then
+    if binding == FIRE_BIND  and not onCoolDown then
         if CheckView() then
             local hitResult = UI.GetCursorHitResult()
             if(hitResult) then
@@ -89,6 +87,11 @@ function PlayAnimation(hitPos)
         Task.Wait(EaseDuration)
         DamageEnemies(hitPos)
         local hitFX = World.SpawnAsset(LASER_HIT_FX, {position = hitPos})
+        Task.Wait(.3)
+        -- Delete Projectile, but not trail
+        Task.Wait(.5)
+        laser69:Destroy()
+        hitFX:Destroy()
     end)
 
     -- LASER_VFX:Play()

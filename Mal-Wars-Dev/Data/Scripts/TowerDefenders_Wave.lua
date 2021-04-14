@@ -29,8 +29,6 @@ function Wave:SpawnEnemy()
         currentGroup = self.groups[currentGroupIndex]
     end
 
-    self.spawnDelay = currentGroup.spawnDelay or self.defaultSpawnDelay
-
     local currentEnemy = currentGroup.enemy
     local healthMultiplier = currentGroup.healthMultiplier
     local speedMultiplier = currentGroup.speedMultiplier
@@ -102,7 +100,7 @@ function Wave:_Init(waveManager,waveObject)
     self.waveManager = waveManager
     self.waveObject = waveObject
     self.waveName = waveObject.name
-    self.defaultSpawnDelay = waveObject:GetCustomProperty("SpawnDelay") or 0.2
+    self.spawnDelay = waveObject:GetCustomProperty("SpawnDelay") or 0.2
     self.inOrderSpawning = waveObject:GetCustomProperty("InOrderSpawning") or false
     self.isBossWave = waveObject:GetCustomProperty("IsBossWave") or false
     self.wavePayout = waveObject:GetCustomProperty("WavePayout") or 100
@@ -112,13 +110,11 @@ function Wave:_Init(waveManager,waveObject)
         local amount = enemyGroup:GetCustomProperty("Amount")
         amount = math.random(amount.x, amount.y)
         local healthMultiplier = enemyGroup:GetCustomProperty("HealthMultiplier")
-        local spawnDelay = enemyGroup:GetCustomProperty("SpawnDelay")
 
         table.insert(self.groups,{ 
             enemy = enemy, 
             amount = amount, 
-            healthMultiplier = healthMultiplier,
-            spawnDelay = spawnDelay
+            healthMultiplier = healthMultiplier
         })
     end
 end
