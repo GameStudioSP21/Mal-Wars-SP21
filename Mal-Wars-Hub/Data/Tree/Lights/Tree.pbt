@@ -1,425 +1,7 @@
 Name: "Lights"
-RootId: 7214121106995901256
+RootId: 2018770071900845593
 Objects {
-  Id: 13881905617496066056
-  Name: "Area Light"
-  Transform {
-    Location {
-      X: -2482
-      Y: 407
-      Z: 350
-    }
-    Rotation {
-      Yaw: -89.999939
-    }
-    Scale {
-      X: 1
-      Y: -0.6
-      Z: 1
-    }
-  }
-  ParentId: 7214121106995901256
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Light {
-    Intensity: 23.0897865
-    Color {
-      G: 0.250066191
-      B: 0.590000033
-      A: 1
-    }
-    CastShadows: true
-    VolumetricIntensity: 5
-    TeamSettings {
-    }
-    Light {
-      Temperature: 6500
-      LocalLight {
-        AttenuationRadius: 801.985046
-        AreaLight {
-          BarnDoorAngle: 50
-          BarnDoorLength: 20
-          SourceWidth: 129.346954
-          SourceHeight: 0.01
-        }
-      }
-      MaxDrawDistance: 5000
-      MaxDistanceFadeRange: 1000
-    }
-  }
-}
-Objects {
-  Id: 9726417939214021492
-  Name: "Area Light"
-  Transform {
-    Location {
-      X: -2482
-      Y: -407
-      Z: 350
-    }
-    Rotation {
-      Yaw: 89.9999619
-    }
-    Scale {
-      X: 1
-      Y: 0.6
-      Z: 1
-    }
-  }
-  ParentId: 7214121106995901256
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Light {
-    Intensity: 23.0897865
-    Color {
-      G: 0.250066191
-      B: 0.590000033
-      A: 1
-    }
-    CastShadows: true
-    VolumetricIntensity: 5
-    TeamSettings {
-    }
-    Light {
-      Temperature: 6500
-      LocalLight {
-        AttenuationRadius: 801.985046
-        AreaLight {
-          BarnDoorAngle: 50
-          BarnDoorLength: 20
-          SourceWidth: 129.346954
-          SourceHeight: 0.01
-        }
-      }
-      MaxDrawDistance: 5000
-      MaxDistanceFadeRange: 1000
-    }
-  }
-}
-Objects {
-  Id: 4394953642617644502
-  Name: "Area Light"
-  Transform {
-    Location {
-      X: -2482
-      Y: 407
-      Z: 487
-    }
-    Rotation {
-      Yaw: -89.999939
-    }
-    Scale {
-      X: 1
-      Y: -0.6
-      Z: 1
-    }
-  }
-  ParentId: 7214121106995901256
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Light {
-    Intensity: 23.0897865
-    Color {
-      G: 0.250066191
-      B: 0.590000033
-      A: 1
-    }
-    CastShadows: true
-    VolumetricIntensity: 5
-    TeamSettings {
-    }
-    Light {
-      Temperature: 6500
-      LocalLight {
-        AttenuationRadius: 801.985046
-        AreaLight {
-          BarnDoorAngle: 50
-          BarnDoorLength: 20
-          SourceWidth: 129.346954
-          SourceHeight: 0.01
-        }
-      }
-      MaxDrawDistance: 5000
-      MaxDistanceFadeRange: 1000
-    }
-  }
-}
-Objects {
-  Id: 16931898138018513585
-  Name: "Area Light"
-  Transform {
-    Location {
-      X: -2482
-      Y: -407
-      Z: 487
-    }
-    Rotation {
-      Yaw: 89.9999847
-    }
-    Scale {
-      X: 1
-      Y: 0.6
-      Z: 1
-    }
-  }
-  ParentId: 7214121106995901256
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Light {
-    Intensity: 23.0897865
-    Color {
-      G: 0.250066191
-      B: 0.590000033
-      A: 1
-    }
-    CastShadows: true
-    VolumetricIntensity: 5
-    TeamSettings {
-    }
-    Light {
-      Temperature: 6500
-      LocalLight {
-        AttenuationRadius: 801.985046
-        AreaLight {
-          BarnDoorAngle: 50
-          BarnDoorLength: 20
-          SourceWidth: 129.346954
-          SourceHeight: 0.01
-        }
-      }
-      MaxDrawDistance: 5000
-      MaxDistanceFadeRange: 1000
-    }
-  }
-}
-Objects {
-  Id: 5236525929405313497
-  Name: "Sci-fi Ship Light 01"
-  Transform {
-    Location {
-      X: -2484
-      Y: 419
-      Z: 279
-    }
-    Rotation {
-      Yaw: -94.9999924
-    }
-    Scale {
-      X: 0.1
-      Y: -0.5
-      Z: 0.5
-    }
-  }
-  ParentId: 7214121106995901256
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12465163766505320492
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 2398186775245387290
-  Name: "Sci-fi Ship Light 01"
-  Transform {
-    Location {
-      X: -2484
-      Y: -419
-      Z: 279
-    }
-    Rotation {
-      Yaw: 95
-    }
-    Scale {
-      X: 0.1
-      Y: 0.5
-      Z: 0.5
-    }
-  }
-  ParentId: 7214121106995901256
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12465163766505320492
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 8796235511414938319
-  Name: "Area Light"
-  Transform {
-    Location {
-      X: -2482
-      Y: 407
-      Z: 283
-    }
-    Rotation {
-      Yaw: -89.9999695
-    }
-    Scale {
-      X: 1
-      Y: -0.6
-      Z: 1
-    }
-  }
-  ParentId: 7214121106995901256
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Light {
-    Intensity: 23.0897865
-    Color {
-      G: 0.250066191
-      B: 0.590000033
-      A: 1
-    }
-    CastShadows: true
-    VolumetricIntensity: 5
-    TeamSettings {
-    }
-    Light {
-      Temperature: 6500
-      LocalLight {
-        AttenuationRadius: 801.985046
-        AreaLight {
-          BarnDoorAngle: 50
-          BarnDoorLength: 20
-          SourceWidth: 129.346954
-          SourceHeight: 0.01
-        }
-      }
-      MaxDrawDistance: 5000
-      MaxDistanceFadeRange: 1000
-    }
-  }
-}
-Objects {
-  Id: 11409344864548120587
-  Name: "Area Light"
-  Transform {
-    Location {
-      X: -2482
-      Y: -407
-      Z: 283
-    }
-    Rotation {
-      Yaw: 90
-    }
-    Scale {
-      X: 1
-      Y: 0.6
-      Z: 1
-    }
-  }
-  ParentId: 7214121106995901256
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Light {
-    Intensity: 23.0897865
-    Color {
-      G: 0.250066191
-      B: 0.590000033
-      A: 1
-    }
-    CastShadows: true
-    VolumetricIntensity: 5
-    TeamSettings {
-    }
-    Light {
-      Temperature: 6500
-      LocalLight {
-        AttenuationRadius: 801.985046
-        AreaLight {
-          BarnDoorAngle: 50
-          BarnDoorLength: 20
-          SourceWidth: 129.346954
-          SourceHeight: 0.01
-        }
-      }
-      MaxDrawDistance: 5000
-      MaxDistanceFadeRange: 1000
-    }
-  }
-}
-Objects {
-  Id: 15944731758405681888
+  Id: 7508524959840313448
   Name: "Spotlight"
   Transform {
     Location {
@@ -437,7 +19,7 @@ Objects {
       Z: 2.1
     }
   }
-  ParentId: 7214121106995901256
+  ParentId: 2018770071900845593
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -481,7 +63,7 @@ Objects {
   }
 }
 Objects {
-  Id: 818454750094092978
+  Id: 10281225803432384162
   Name: "Spotlight"
   Transform {
     Location {
@@ -499,7 +81,7 @@ Objects {
       Z: 2.1
     }
   }
-  ParentId: 7214121106995901256
+  ParentId: 2018770071900845593
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -543,7 +125,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5832697166231105160
+  Id: 13204715965653778177
   Name: "Spotlight"
   Transform {
     Location {
@@ -561,7 +143,7 @@ Objects {
       Z: 2.1
     }
   }
-  ParentId: 7214121106995901256
+  ParentId: 2018770071900845593
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -605,7 +187,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5000787452184809391
+  Id: 1165118005022046163
   Name: "Spotlight"
   Transform {
     Location {
@@ -622,7 +204,7 @@ Objects {
       Z: 2.1
     }
   }
-  ParentId: 7214121106995901256
+  ParentId: 2018770071900845593
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -666,7 +248,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10407160831743785873
+  Id: 14611408317327951980
   Name: "Spotlight"
   Transform {
     Location {
@@ -683,7 +265,7 @@ Objects {
       Z: 2.1
     }
   }
-  ParentId: 7214121106995901256
+  ParentId: 2018770071900845593
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -727,7 +309,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16965731307440904283
+  Id: 7919601144684732179
   Name: "Spotlight"
   Transform {
     Location {
@@ -744,7 +326,7 @@ Objects {
       Z: 2.1
     }
   }
-  ParentId: 7214121106995901256
+  ParentId: 2018770071900845593
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -788,7 +370,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16732821517705721423
+  Id: 1643286044392870350
   Name: "Spotlight"
   Transform {
     Location {
@@ -805,7 +387,7 @@ Objects {
       Z: 2.1
     }
   }
-  ParentId: 7214121106995901256
+  ParentId: 2018770071900845593
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -849,7 +431,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11944177214255239532
+  Id: 12855819741477693545
   Name: "Spotlight"
   Transform {
     Location {
@@ -866,7 +448,7 @@ Objects {
       Z: 2.1
     }
   }
-  ParentId: 7214121106995901256
+  ParentId: 2018770071900845593
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -910,7 +492,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5179282452139585042
+  Id: 15370415843372285660
   Name: "Spotlight"
   Transform {
     Location {
@@ -928,7 +510,7 @@ Objects {
       Z: 2.1
     }
   }
-  ParentId: 7214121106995901256
+  ParentId: 2018770071900845593
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -972,7 +554,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4948256127488153609
+  Id: 14348718591784107781
   Name: "Spotlight"
   Transform {
     Location {
@@ -990,7 +572,7 @@ Objects {
       Z: 2.1
     }
   }
-  ParentId: 7214121106995901256
+  ParentId: 2018770071900845593
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1034,7 +616,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17858984317312249147
+  Id: 17570573270634079538
   Name: "Spotlight"
   Transform {
     Location {
@@ -1052,7 +634,7 @@ Objects {
       Z: 2.1
     }
   }
-  ParentId: 7214121106995901256
+  ParentId: 2018770071900845593
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1096,7 +678,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7888687088775058893
+  Id: 11805946794225939232
   Name: "Spotlight"
   Transform {
     Location {
@@ -1113,7 +695,7 @@ Objects {
       Z: 2.1
     }
   }
-  ParentId: 7214121106995901256
+  ParentId: 2018770071900845593
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1157,7 +739,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17568080195261701722
+  Id: 6033861558179223292
   Name: "Spotlight"
   Transform {
     Location {
@@ -1174,7 +756,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7214121106995901256
+  ParentId: 2018770071900845593
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1218,7 +800,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17825714879738585520
+  Id: 8983077920362488256
   Name: "Spotlight"
   Transform {
     Location {
@@ -1237,7 +819,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7214121106995901256
+  ParentId: 2018770071900845593
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1281,7 +863,7 @@ Objects {
   }
 }
 Objects {
-  Id: 52487066529589487
+  Id: 2874931979135854705
   Name: "Spotlight"
   Transform {
     Location {
@@ -1299,7 +881,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7214121106995901256
+  ParentId: 2018770071900845593
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1343,7 +925,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6496853714822996369
+  Id: 9957035711446551599
   Name: "Spotlight"
   Transform {
     Location {
@@ -1362,7 +944,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7214121106995901256
+  ParentId: 2018770071900845593
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1406,7 +988,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2101859943417479250
+  Id: 7773806060740516322
   Name: "Spotlight"
   Transform {
     Location {
@@ -1423,7 +1005,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7214121106995901256
+  ParentId: 2018770071900845593
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

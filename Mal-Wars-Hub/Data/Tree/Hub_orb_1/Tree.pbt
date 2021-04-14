@@ -1,7 +1,7 @@
 Name: "Hub_orb_1"
-RootId: 18095453455165007792
+RootId: 11085073815668241972
 Objects {
-  Id: 17504803815203937108
+  Id: 12451770827800742501
   Name: "Prism - 8-Sided"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 0.3
     }
   }
-  ParentId: 18095453455165007792
+  ParentId: 11085073815668241972
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -53,7 +53,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15660366863208890677
+  Id: 5047958392654500106
   Name: "Pipe - 8-Sided Thin"
   Transform {
     Location {
@@ -68,7 +68,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 18095453455165007792
+  ParentId: 11085073815668241972
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -107,7 +107,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4348846541414260037
+  Id: 8392565886355185835
   Name: "Pipe - 90-Degree Short Thick"
   Transform {
     Location {
@@ -124,7 +124,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18095453455165007792
+  ParentId: 11085073815668241972
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -159,7 +159,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11929651146725617007
+  Id: 17442197460114315461
   Name: "Pipe - 90-Degree Short Thick"
   Transform {
     Location {
@@ -176,7 +176,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 18095453455165007792
+  ParentId: 11085073815668241972
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -211,7 +211,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2443609630039074641
+  Id: 10091489543430523794
   Name: "Pipe - 90-Degree Long Thin"
   Transform {
     Location {
@@ -228,7 +228,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 18095453455165007792
+  ParentId: 11085073815668241972
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -263,7 +263,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16504215220864627853
+  Id: 7477293202194790752
   Name: "Pipe - 90-Degree Long Thin"
   Transform {
     Location {
@@ -280,7 +280,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 18095453455165007792
+  ParentId: 11085073815668241972
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -315,7 +315,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9452318463105835898
+  Id: 12110593896536286126
   Name: "Pipe - 90-Degree Short Thick"
   Transform {
     Location {
@@ -332,7 +332,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18095453455165007792
+  ParentId: 11085073815668241972
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -367,7 +367,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2047998002716877939
+  Id: 9378637531012654676
   Name: "Pipe - 90-Degree Short Thick"
   Transform {
     Location {
@@ -384,7 +384,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 18095453455165007792
+  ParentId: 11085073815668241972
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -419,7 +419,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13029846640908812961
+  Id: 9989585338962297269
   Name: "Pipe - 90-Degree Long Thin"
   Transform {
     Location {
@@ -436,7 +436,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 18095453455165007792
+  ParentId: 11085073815668241972
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -471,7 +471,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9014510263280423162
+  Id: 8462469425997785188
   Name: "Pipe - 90-Degree Long Thin"
   Transform {
     Location {
@@ -488,7 +488,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 18095453455165007792
+  ParentId: 11085073815668241972
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -523,7 +523,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4738022922413004054
+  Id: 16035638306292102702
   Name: "Pipe - 90-Degree Short Thick"
   Transform {
     Location {
@@ -540,7 +540,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18095453455165007792
+  ParentId: 11085073815668241972
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -575,7 +575,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14792755531962019536
+  Id: 5158294646481367567
   Name: "Pipe - 90-Degree Short Thick"
   Transform {
     Location {
@@ -592,7 +592,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 18095453455165007792
+  ParentId: 11085073815668241972
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -627,7 +627,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15716005474694013725
+  Id: 11855647326125125843
   Name: "Pipe - 90-Degree Long Thin"
   Transform {
     Location {
@@ -644,7 +644,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 18095453455165007792
+  ParentId: 11085073815668241972
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -679,7 +679,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8658410717262347769
+  Id: 9963448026725093760
   Name: "Pipe - 90-Degree Long Thin"
   Transform {
     Location {
@@ -696,7 +696,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 18095453455165007792
+  ParentId: 11085073815668241972
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -731,7 +731,7 @@ Objects {
   }
 }
 Objects {
-  Id: 785761359993146779
+  Id: 5788270622955603140
   Name: "Pipe - 90-Degree Short Thick"
   Transform {
     Location {
@@ -748,7 +748,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18095453455165007792
+  ParentId: 11085073815668241972
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -783,7 +783,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5817718426868655189
+  Id: 16972363614819723004
   Name: "Pipe - 90-Degree Short Thick"
   Transform {
     Location {
@@ -800,7 +800,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 18095453455165007792
+  ParentId: 11085073815668241972
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -835,7 +835,7 @@ Objects {
   }
 }
 Objects {
-  Id: 33327151880334349
+  Id: 18116051134641069835
   Name: "Pipe - 90-Degree Long Thin"
   Transform {
     Location {
@@ -852,7 +852,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 18095453455165007792
+  ParentId: 11085073815668241972
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -887,7 +887,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1912481944079850571
+  Id: 11125895864014391784
   Name: "Pipe - 90-Degree Long Thin"
   Transform {
     Location {
@@ -904,7 +904,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 18095453455165007792
+  ParentId: 11085073815668241972
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -939,7 +939,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4331409127181476700
+  Id: 9603524149356272219
   Name: "Pipe - 8-Sided Thin"
   Transform {
     Location {
@@ -954,7 +954,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 18095453455165007792
+  ParentId: 11085073815668241972
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -993,7 +993,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6053800423360303411
+  Id: 16210751500748130444
   Name: "Pipe - 8-Sided Thin"
   Transform {
     Location {
@@ -1008,7 +1008,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 18095453455165007792
+  ParentId: 11085073815668241972
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1047,7 +1047,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17833663427566418935
+  Id: 11621712962925187162
   Name: "Pipe - 8-Sided Thin"
   Transform {
     Location {
@@ -1062,7 +1062,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 18095453455165007792
+  ParentId: 11085073815668241972
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1101,7 +1101,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7337170702776858008
+  Id: 16920810393521872230
   Name: "Pipe - 8-Sided Thin"
   Transform {
     Location {
@@ -1116,7 +1116,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 18095453455165007792
+  ParentId: 11085073815668241972
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1155,7 +1155,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9442712818098560731
+  Id: 2977073229314068554
   Name: "Pipe - Large"
   Transform {
     Location {
@@ -1173,7 +1173,7 @@ Objects {
       Z: 0.1
     }
   }
-  ParentId: 18095453455165007792
+  ParentId: 11085073815668241972
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1208,7 +1208,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11731339852913831194
+  Id: 8502971928900562900
   Name: "Pipe - 90-Degree Long Thin"
   Transform {
     Location {
@@ -1226,7 +1226,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 18095453455165007792
+  ParentId: 11085073815668241972
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1261,7 +1261,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4310688898845064850
+  Id: 12132325332776766219
   Name: "Pipe - 90-Degree Short Thick"
   Transform {
     Location {
@@ -1277,7 +1277,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18095453455165007792
+  ParentId: 11085073815668241972
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1312,7 +1312,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17962296837297400116
+  Id: 15330867524822231952
   Name: "Pipe - 90-Degree Short Thick"
   Transform {
     Location {
@@ -1328,7 +1328,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 18095453455165007792
+  ParentId: 11085073815668241972
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1363,7 +1363,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11101592631746907515
+  Id: 14554948639439688736
   Name: "Sphere"
   Transform {
     Location {
@@ -1379,7 +1379,7 @@ Objects {
       Z: 10.6999989
     }
   }
-  ParentId: 18095453455165007792
+  ParentId: 11085073815668241972
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1414,7 +1414,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13957375328082961153
+  Id: 9348627870254721052
   Name: "Pipe - 8-Sided Thin"
   Transform {
     Location {
@@ -1429,7 +1429,7 @@ Objects {
       Z: 1.2
     }
   }
-  ParentId: 18095453455165007792
+  ParentId: 11085073815668241972
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1468,7 +1468,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18203321437578483964
+  Id: 3891976587530973797
   Name: "Pipe - 90-Degree Long Thin"
   Transform {
     Location {
@@ -1486,7 +1486,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 18095453455165007792
+  ParentId: 11085073815668241972
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1521,7 +1521,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2738202646340638525
+  Id: 5919921290677219133
   Name: "Sphere"
   Transform {
     Location {
@@ -1537,7 +1537,7 @@ Objects {
       Z: 10
     }
   }
-  ParentId: 18095453455165007792
+  ParentId: 11085073815668241972
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1589,7 +1589,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7988498714313902593
+  Id: 6496683579407398072
   Name: "Sphere"
   Transform {
     Location {
@@ -1605,7 +1605,7 @@ Objects {
       Z: 10.6999989
     }
   }
-  ParentId: 18095453455165007792
+  ParentId: 11085073815668241972
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1640,7 +1640,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7657605366716272841
+  Id: 14115226601383807688
   Name: "Sphere"
   Transform {
     Location {
@@ -1656,7 +1656,7 @@ Objects {
       Z: 8.69999409
     }
   }
-  ParentId: 18095453455165007792
+  ParentId: 11085073815668241972
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"

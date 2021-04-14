@@ -1,39 +1,7 @@
 Name: "Avery_C"
-RootId: 541353008480976194
+RootId: 10612427011681696460
 Objects {
-  Id: 3881782065070202335
-  Name: "Connector_to_hub"
-  Transform {
-    Location {
-      X: -2502
-      Y: 31
-      Z: -445
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 541353008480976194
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Connector_to_hub"
-  }
-}
-Objects {
-  Id: 7214121106995901256
+  Id: 2018770071900845593
   Name: "Lights"
   Transform {
     Location {
@@ -47,7 +15,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 541353008480976194
+  ParentId: 10612427011681696460
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -63,7 +31,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9996732647092564220
+  Id: 15046018987511619763
   Name: "Pipes"
   Transform {
     Location {
@@ -79,7 +47,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 541353008480976194
+  ParentId: 10612427011681696460
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -95,7 +63,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12846386162051877590
+  Id: 13917068483654114624
   Name: "Portal_4"
   Transform {
     Location {
@@ -112,7 +80,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 541353008480976194
+  ParentId: 10612427011681696460
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -128,7 +96,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13656314864304502272
+  Id: 13419413499062928224
   Name: "Portal_3"
   Transform {
     Location {
@@ -145,7 +113,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 541353008480976194
+  ParentId: 10612427011681696460
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -161,7 +129,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11262354851039639587
+  Id: 17571528329388815988
   Name: "Portal_2"
   Transform {
     Location {
@@ -178,7 +146,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 541353008480976194
+  ParentId: 10612427011681696460
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -194,7 +162,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6095067943743933935
+  Id: 13266753689516687883
   Name: "Portal_1"
   Transform {
     Location {
@@ -210,7 +178,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 541353008480976194
+  ParentId: 10612427011681696460
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -226,7 +194,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16564663232573256549
+  Id: 12825196143832427342
   Name: "UI Text Box"
   Transform {
     Location {
@@ -243,7 +211,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 541353008480976194
+  ParentId: 10612427011681696460
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -293,7 +261,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8256713955920372491
+  Id: 12020244861279067469
   Name: "Hub_Orb"
   Transform {
     Location {
@@ -309,7 +277,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 541353008480976194
+  ParentId: 10612427011681696460
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
