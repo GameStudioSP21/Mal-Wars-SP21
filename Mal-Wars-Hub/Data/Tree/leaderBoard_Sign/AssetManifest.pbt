@@ -1,63 +1,63 @@
 Assets {
-  Id: 15926824630073909623
-  Name: "Sign Font 1 Neon Outline: E"
+  Id: 15386750974490543616
+  Name: "Text 06: E"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeNeon_Outline_01_Text_004"
+    AssetId: "F8_Text_004"
   }
 }
 Assets {
-  Id: 15555631791727204658
-  Name: "Sign Font 1 Neon Outline: B"
+  Id: 8844449336015566458
+  Name: "Text 06: A"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeNeon_Outline_01_Text_001"
+    AssetId: "F8_Text_000"
   }
 }
 Assets {
-  Id: 11693069678729816421
-  Name: "Sign Font 1 Neon Outline: A"
+  Id: 8288222920227510575
+  Name: "Text 06: D"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeNeon_Outline_01_Text_000"
+    AssetId: "F8_Text_003"
   }
 }
 Assets {
-  Id: 6549299496659788022
-  Name: "Sign Font 1 Neon Outline: R"
+  Id: 6343986987358229410
+  Name: "Text 06: L"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeNeon_Outline_01_Text_017"
+    AssetId: "F8_Text_011"
   }
 }
 Assets {
-  Id: 3678406739027265959
-  Name: "Sign Font 1 Neon Outline: L"
+  Id: 6283873193807930052
+  Name: "Text 06: R"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeNeon_Outline_01_Text_011"
+    AssetId: "F8_Text_017"
   }
 }
 Assets {
-  Id: 2875211141414958530
-  Name: "Sign Font 1 Neon Outline: D"
+  Id: 3803016816403354571
+  Name: "Text 06: O"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeNeon_Outline_01_Text_003"
+    AssetId: "F8_Text_014"
   }
 }
 Assets {
-  Id: 1693932400979896338
-  Name: "Sign Font 1 Neon Outline: O"
+  Id: 2776916088673998040
+  Name: "Text 06: B"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeNeon_Outline_01_Text_014"
+    AssetId: "F8_Text_001"
   }
 }

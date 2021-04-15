@@ -1,7 +1,7 @@
 Name: "stairs"
-RootId: 13357406719763160478
+RootId: 5277523026099773668
 Objects {
-  Id: 1429175007308399149
+  Id: 3357310764996779007
   Name: "Whitebox Stairs 01 Straight 150cm"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13357406719763160478
+  ParentId: 5277523026099773668
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -64,7 +64,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3350089936400418890
+  Id: 16337212779260073115
   Name: "Whitebox Stairs 01 Straight 150cm"
   Transform {
     Location {
@@ -80,7 +80,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13357406719763160478
+  ParentId: 5277523026099773668
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -127,7 +127,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14833411673828195272
+  Id: 17974117026690575612
   Name: "Whitebox Stairs 01 Straight 150cm"
   Transform {
     Location {
@@ -142,7 +142,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13357406719763160478
+  ParentId: 5277523026099773668
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"

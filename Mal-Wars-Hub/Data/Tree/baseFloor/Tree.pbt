@@ -1,7 +1,7 @@
 Name: "baseFloor"
-RootId: 16586586903203790049
+RootId: 10745942715266186539
 Objects {
-  Id: 16230689818150481441
+  Id: 3430577132217656745
   Name: "Prism - 6-Sided Half"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16586586903203790049
+  ParentId: 10745942715266186539
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -68,7 +68,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11639907266971951544
+  Id: 14086459141943300806
   Name: "customPiece_2"
   Transform {
     Location {
@@ -83,7 +83,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16586586903203790049
+  ParentId: 10745942715266186539
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -99,7 +99,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4475292487835305249
+  Id: 6258464475245063344
   Name: "customPeice_1"
   Transform {
     Location {
@@ -114,7 +114,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16586586903203790049
+  ParentId: 10745942715266186539
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -130,7 +130,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11237463344609430006
+  Id: 770856436686149401
   Name: "Default Floor"
   Transform {
     Location {
@@ -146,7 +146,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16586586903203790049
+  ParentId: 10745942715266186539
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -195,7 +195,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11125297632830694346
+  Id: 17428320871701713620
   Name: "Default Floor"
   Transform {
     Location {
@@ -211,7 +211,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16586586903203790049
+  ParentId: 10745942715266186539
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -260,7 +260,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6869948116725721661
+  Id: 4106991105459803954
   Name: "Default Floor"
   Transform {
     Location {
@@ -275,7 +275,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16586586903203790049
+  ParentId: 10745942715266186539
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -324,7 +324,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8221074654731141035
+  Id: 9237386110086614818
   Name: "Default Floor"
   Transform {
     Location {
@@ -339,7 +339,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16586586903203790049
+  ParentId: 10745942715266186539
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -388,7 +388,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1259419079258275608
+  Id: 12107023055720870762
   Name: "Default Floor"
   Transform {
     Location {
@@ -403,71 +403,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16586586903203790049
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.200000018
-        G: 0.250980407
-        B: 0.58431375
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 2488181828159443373
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 4195385781420836946
-    SubobjectId: 14738968544434746290
-    InstanceId: 2585132023508260079
-    TemplateId: 17735093090777977581
-  }
-}
-Objects {
-  Id: 10582621611743516068
-  Name: "Default Floor"
-  Transform {
-    Location {
-      X: -908.422363
-      Y: 756.056
-    }
-    Rotation {
-    }
-    Scale {
-      X: 13.985302
-      Y: 6.4395113
-      Z: 1
-    }
-  }
-  ParentId: 16586586903203790049
+  ParentId: 10745942715266186539
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -516,7 +452,71 @@ Objects {
   }
 }
 Objects {
-  Id: 14916302743433322946
+  Id: 524049587379581513
+  Name: "Default Floor"
+  Transform {
+    Location {
+      X: -908.422363
+      Y: 756.056
+    }
+    Rotation {
+    }
+    Scale {
+      X: 13.985302
+      Y: 6.4395113
+      Z: 1
+    }
+  }
+  ParentId: 10745942715266186539
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.200000018
+        G: 0.250980407
+        B: 0.58431375
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 6777447344140592468
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 4195385781420836946
+    SubobjectId: 14738968544434746290
+    InstanceId: 2585132023508260079
+    TemplateId: 17735093090777977581
+  }
+}
+Objects {
+  Id: 8429928486861293051
   Name: "Prism - 6-Sided Half"
   Transform {
     Location {
@@ -533,7 +533,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16586586903203790049
+  ParentId: 10745942715266186539
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"

@@ -1,7 +1,7 @@
 Name: "leftSide"
-RootId: 14386825216298343089
+RootId: 6661155830893805119
 Objects {
-  Id: 17219555095714817766
+  Id: 4826783365400940811
   Name: "roof"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14386825216298343089
+  ParentId: 6661155830893805119
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -33,7 +33,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8226072610802628322
+  Id: 8267685222132884198
   Name: "rightSide_lights"
   Transform {
     Location {
@@ -50,7 +50,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14386825216298343089
+  ParentId: 6661155830893805119
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -66,7 +66,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4495556587258163799
+  Id: 8033977202088607306
   Name: "walls"
   Transform {
     Location {
@@ -82,7 +82,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14386825216298343089
+  ParentId: 6661155830893805119
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -104,8 +104,8 @@ Objects {
   }
 }
 Objects {
-  Id: 13579115906967025463
-  Name: "floor"
+  Id: 5372386145039486992
+  Name: "floor - hide"
   Transform {
     Location {
       X: 64.5864639
@@ -120,7 +120,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14386825216298343089
+  ParentId: 6661155830893805119
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

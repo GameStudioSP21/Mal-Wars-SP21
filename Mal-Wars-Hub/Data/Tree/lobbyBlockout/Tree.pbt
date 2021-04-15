@@ -1,7 +1,7 @@
 Name: "lobbyBlockout"
-RootId: 13911381400682705983
+RootId: 2232372386991031351
 Objects {
-  Id: 13233881131806710867
+  Id: 10200478207146339995
   Name: "rightSide"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13911381400682705983
+  ParentId: 2232372386991031351
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -39,7 +39,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14386825216298343089
+  Id: 6661155830893805119
   Name: "leftSide"
   Transform {
     Location {
@@ -56,7 +56,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13911381400682705983
+  ParentId: 2232372386991031351
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -78,7 +78,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13885475492660666055
+  Id: 18322721160534743981
   Name: "middle"
   Transform {
     Location {
@@ -94,7 +94,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13911381400682705983
+  ParentId: 2232372386991031351
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

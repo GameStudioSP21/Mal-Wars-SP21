@@ -1,7 +1,7 @@
 Name: "florecentLighting_left"
-RootId: 8558376429528018969
+RootId: 10225987897532443182
 Objects {
-  Id: 1727280957918880607
+  Id: 8505577655920665779
   Name: "Cube"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8558376429528018969
+  ParentId: 10225987897532443182
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -61,7 +61,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7932978209967022670
+  Id: 5522964706289131768
   Name: "Cube"
   Transform {
     Location {
@@ -78,7 +78,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8558376429528018969
+  ParentId: 10225987897532443182
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -121,7 +121,7 @@ Objects {
   }
 }
 Objects {
-  Id: 57466896055465513
+  Id: 11118671200059982912
   Name: "Whitebox Stairs 01 Straight 150cm"
   Transform {
     Location {
@@ -138,7 +138,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8558376429528018969
+  ParentId: 10225987897532443182
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -201,7 +201,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18050974439273766475
+  Id: 15074679885651777721
   Name: "Whitebox Stairs 01 Straight 150cm"
   Transform {
     Location {
@@ -218,7 +218,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8558376429528018969
+  ParentId: 10225987897532443182
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -281,7 +281,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16319368129762232105
+  Id: 1425763245178974559
   Name: "Whitebox Stairs 01 Straight 150cm"
   Transform {
     Location {
@@ -298,7 +298,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8558376429528018969
+  ParentId: 10225987897532443182
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:id"
@@ -361,7 +361,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14537641816794988942
+  Id: 8393969026999886619
   Name: "Cube"
   Transform {
     Location {
@@ -377,7 +377,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8558376429528018969
+  ParentId: 10225987897532443182
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -420,7 +420,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3197141218559969858
+  Id: 11372293381933836890
   Name: "Cube"
   Transform {
     Location {
@@ -437,7 +437,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8558376429528018969
+  ParentId: 10225987897532443182
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -480,7 +480,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7274338430182713769
+  Id: 4277667649050718276
   Name: "Cube"
   Transform {
     Location {
@@ -497,7 +497,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8558376429528018969
+  ParentId: 10225987897532443182
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -540,7 +540,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3452797538844651027
+  Id: 8963246482663228377
   Name: "Cube"
   Transform {
     Location {
@@ -556,7 +556,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8558376429528018969
+  ParentId: 10225987897532443182
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"

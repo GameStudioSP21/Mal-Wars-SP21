@@ -1,72 +1,72 @@
 Assets {
-  Id: 15028298652230140806
-  Name: "Sign Font 1 Neon Outline: I"
+  Id: 17509655224221086036
+  Name: "Text 06: T"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeNeon_Outline_01_Text_008"
+    AssetId: "F8_Text_019"
   }
 }
 Assets {
-  Id: 11693069678729816421
-  Name: "Sign Font 1 Neon Outline: A"
+  Id: 12270641226302301122
+  Name: "Text 06: F"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeNeon_Outline_01_Text_000"
+    AssetId: "F8_Text_005"
   }
 }
 Assets {
-  Id: 6549299496659788022
-  Name: "Sign Font 1 Neon Outline: R"
+  Id: 8844449336015566458
+  Name: "Text 06: A"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeNeon_Outline_01_Text_017"
+    AssetId: "F8_Text_000"
   }
 }
 Assets {
-  Id: 3960036636870679581
-  Name: "Sign Font 1 Neon Outline: T"
+  Id: 6283873193807930052
+  Name: "Text 06: R"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeNeon_Outline_01_Text_019"
+    AssetId: "F8_Text_017"
   }
 }
 Assets {
-  Id: 3812332193858745290
-  Name: "Sign Font 1 Neon Outline: N"
+  Id: 3803016816403354571
+  Name: "Text 06: O"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeNeon_Outline_01_Text_013"
+    AssetId: "F8_Text_014"
   }
 }
 Assets {
-  Id: 3015765968112204303
-  Name: "Sign Font 1 Neon Outline: M"
+  Id: 2052733723025477658
+  Name: "Text 06: M"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeNeon_Outline_01_Text_012"
+    AssetId: "F8_Text_012"
   }
 }
 Assets {
-  Id: 1693932400979896338
-  Name: "Sign Font 1 Neon Outline: O"
+  Id: 675581556676850503
+  Name: "Text 06: I"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeNeon_Outline_01_Text_014"
+    AssetId: "F8_Text_008"
   }
 }
 Assets {
-  Id: 1174828247603494814
-  Name: "Sign Font 1 Neon Outline: F"
+  Id: 175619862421592226
+  Name: "Text 06: N"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "CollegeNeon_Outline_01_Text_005"
+    AssetId: "F8_Text_013"
   }
 }

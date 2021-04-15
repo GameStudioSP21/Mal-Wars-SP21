@@ -16,12 +16,3 @@ Assets {
     AssetId: "mi_stainless-steel_001_uv"
   }
 }
-Assets {
-  Id: 2488181828159443373
-  Name: "Metal Diamond Plates 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_rust_diamond-plate_001"
-  }
-}

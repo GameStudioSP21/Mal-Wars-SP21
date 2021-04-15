@@ -1,7 +1,7 @@
 Name: "leaderBoard_Sign"
-RootId: 6014711177027996062
+RootId: 7188843851830529812
 Objects {
-  Id: 10343016565648020338
+  Id: 2941055383107119261
   Name: "Sign Font 1 Neon Outline: D"
   Transform {
     Location {
@@ -14,10 +14,10 @@ Objects {
     Scale {
       X: -0.8
       Y: -1
-      Z: 1
+      Z: 0.653
     }
   }
-  ParentId: 6014711177027996062
+  ParentId: 7188843851830529812
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Neon:id"
@@ -33,6 +33,24 @@ Objects {
         A: 1
       }
     }
+    Overrides {
+      Name: "ma:Font.Bevel:id"
+      AssetReference {
+        Id: 9418006295412822975
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 9418006295412822975
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Sides:id"
+      AssetReference {
+        Id: 9418006295412822975
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -45,7 +63,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 2875211141414958530
+      Id: 8288222920227510575
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -60,23 +78,22 @@ Objects {
   }
 }
 Objects {
-  Id: 5440432441319282300
+  Id: 14534160260606511020
   Name: "Sign Font 1 Neon Outline: R"
   Transform {
     Location {
-      X: -317.358154
-      Y: 0.000244140625
-      Z: 12.9855042
+      X: -320.877106
+      Z: 12.9854279
     }
     Rotation {
     }
     Scale {
       X: -0.8
       Y: -1
-      Z: 1
+      Z: 0.653
     }
   }
-  ParentId: 6014711177027996062
+  ParentId: 7188843851830529812
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Neon:id"
@@ -92,6 +109,24 @@ Objects {
         A: 1
       }
     }
+    Overrides {
+      Name: "ma:Font.Bevel:id"
+      AssetReference {
+        Id: 9418006295412822975
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 9418006295412822975
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Sides:id"
+      AssetReference {
+        Id: 9418006295412822975
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -104,7 +139,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 6549299496659788022
+      Id: 6283873193807930052
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -119,23 +154,23 @@ Objects {
   }
 }
 Objects {
-  Id: 15813591553608621913
+  Id: 1160823328697239711
   Name: "Sign Font 1 Neon Outline: A"
   Transform {
     Location {
-      X: -217.485596
-      Y: 0.000244140625
-      Z: 12.9855042
+      X: -239.010452
+      Y: 0.00048828125
+      Z: 12.9853821
     }
     Rotation {
     }
     Scale {
       X: -0.8
       Y: -1
-      Z: 1
+      Z: 0.653
     }
   }
-  ParentId: 6014711177027996062
+  ParentId: 7188843851830529812
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Neon:id"
@@ -151,6 +186,24 @@ Objects {
         A: 1
       }
     }
+    Overrides {
+      Name: "ma:Font.Bevel:id"
+      AssetReference {
+        Id: 9418006295412822975
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 9418006295412822975
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Sides:id"
+      AssetReference {
+        Id: 9418006295412822975
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -163,7 +216,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 11693069678729816421
+      Id: 8844449336015566458
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -178,7 +231,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11049056674196191473
+  Id: 7030458951490939673
   Name: "Sign Font 1 Neon Outline: O"
   Transform {
     Location {
@@ -191,10 +244,10 @@ Objects {
     Scale {
       X: -0.8
       Y: -1
-      Z: 1
+      Z: 0.653
     }
   }
-  ParentId: 6014711177027996062
+  ParentId: 7188843851830529812
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Neon:id"
@@ -210,6 +263,24 @@ Objects {
         A: 1
       }
     }
+    Overrides {
+      Name: "ma:Font.Bevel:id"
+      AssetReference {
+        Id: 9418006295412822975
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 9418006295412822975
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Sides:id"
+      AssetReference {
+        Id: 9418006295412822975
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -222,7 +293,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 1693932400979896338
+      Id: 3803016816403354571
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -237,23 +308,23 @@ Objects {
   }
 }
 Objects {
-  Id: 10669832498368535302
+  Id: 15046851333308068898
   Name: "Sign Font 1 Neon Outline: B"
   Transform {
     Location {
-      X: -80.1018066
-      Y: 0.000244140625
-      Z: 12.9855042
+      X: -73.7193
+      Y: 0.00048828125
+      Z: 12.9854584
     }
     Rotation {
     }
     Scale {
       X: -0.8
       Y: -1
-      Z: 1
+      Z: 0.653
     }
   }
-  ParentId: 6014711177027996062
+  ParentId: 7188843851830529812
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Neon:id"
@@ -269,6 +340,24 @@ Objects {
         A: 1
       }
     }
+    Overrides {
+      Name: "ma:Font.Bevel:id"
+      AssetReference {
+        Id: 9418006295412822975
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 9418006295412822975
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Sides:id"
+      AssetReference {
+        Id: 9418006295412822975
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -281,7 +370,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 15555631791727204658
+      Id: 2776916088673998040
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -296,7 +385,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6444940642602471988
+  Id: 501277811653673142
   Name: "Sign Font 1 Neon Outline: R"
   Transform {
     Location {
@@ -309,10 +398,10 @@ Objects {
     Scale {
       X: -0.8
       Y: -1
-      Z: 1
+      Z: 0.653
     }
   }
-  ParentId: 6014711177027996062
+  ParentId: 7188843851830529812
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Neon:id"
@@ -328,6 +417,24 @@ Objects {
         A: 1
       }
     }
+    Overrides {
+      Name: "ma:Font.Bevel:id"
+      AssetReference {
+        Id: 9418006295412822975
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 9418006295412822975
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Sides:id"
+      AssetReference {
+        Id: 9418006295412822975
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -340,7 +447,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 6549299496659788022
+      Id: 6283873193807930052
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -355,23 +462,22 @@ Objects {
   }
 }
 Objects {
-  Id: 17434500104142438189
+  Id: 4587951441033824426
   Name: "Sign Font 1 Neon Outline: E"
   Transform {
     Location {
-      X: 85.6809082
-      Y: 0.000244140625
-      Z: 12.9855042
+      X: 75.7853775
+      Z: 12.9854126
     }
     Rotation {
     }
     Scale {
       X: -0.8
       Y: -1
-      Z: 1
+      Z: 0.653
     }
   }
-  ParentId: 6014711177027996062
+  ParentId: 7188843851830529812
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Neon:id"
@@ -387,6 +493,24 @@ Objects {
         A: 1
       }
     }
+    Overrides {
+      Name: "ma:Font.Bevel:id"
+      AssetReference {
+        Id: 9418006295412822975
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 9418006295412822975
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Sides:id"
+      AssetReference {
+        Id: 9418006295412822975
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -399,7 +523,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 15926824630073909623
+      Id: 15386750974490543616
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -414,7 +538,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9235622799365875837
+  Id: 10524141177988154595
   Name: "Sign Font 1 Neon Outline: D"
   Transform {
     Location {
@@ -427,10 +551,10 @@ Objects {
     Scale {
       X: -0.8
       Y: -1
-      Z: 1
+      Z: 0.653
     }
   }
-  ParentId: 6014711177027996062
+  ParentId: 7188843851830529812
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Neon:id"
@@ -446,6 +570,24 @@ Objects {
         A: 1
       }
     }
+    Overrides {
+      Name: "ma:Font.Bevel:id"
+      AssetReference {
+        Id: 9418006295412822975
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 9418006295412822975
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Sides:id"
+      AssetReference {
+        Id: 9418006295412822975
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -458,7 +600,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 2875211141414958530
+      Id: 8288222920227510575
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -473,23 +615,23 @@ Objects {
   }
 }
 Objects {
-  Id: 14800272080626351874
+  Id: 12645481705907163726
   Name: "Sign Font 1 Neon Outline: A"
   Transform {
     Location {
-      X: 261.350098
-      Y: 0.000244140625
-      Z: 12.9855042
+      X: 250.092865
+      Y: 0.00439453125
+      Z: 12.9854279
     }
     Rotation {
     }
     Scale {
       X: -0.8
       Y: -1
-      Z: 1
+      Z: 0.653
     }
   }
-  ParentId: 6014711177027996062
+  ParentId: 7188843851830529812
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Neon:id"
@@ -505,6 +647,24 @@ Objects {
         A: 1
       }
     }
+    Overrides {
+      Name: "ma:Font.Bevel:id"
+      AssetReference {
+        Id: 9418006295412822975
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 9418006295412822975
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Sides:id"
+      AssetReference {
+        Id: 9418006295412822975
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -517,7 +677,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 11693069678729816421
+      Id: 8844449336015566458
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -532,23 +692,23 @@ Objects {
   }
 }
 Objects {
-  Id: 8168070536653856373
+  Id: 14519993112447837972
   Name: "Sign Font 1 Neon Outline: E"
   Transform {
     Location {
-      X: 337.606201
-      Y: 0.000244140625
-      Z: 12.9855042
+      X: 318.817841
+      Y: 0.00048828125
+      Z: 12.9854279
     }
     Rotation {
     }
     Scale {
       X: -0.8
       Y: -1
-      Z: 1
+      Z: 0.653
     }
   }
-  ParentId: 6014711177027996062
+  ParentId: 7188843851830529812
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Neon:id"
@@ -564,6 +724,24 @@ Objects {
         A: 1
       }
     }
+    Overrides {
+      Name: "ma:Font.Bevel:id"
+      AssetReference {
+        Id: 9418006295412822975
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 9418006295412822975
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Sides:id"
+      AssetReference {
+        Id: 9418006295412822975
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -576,7 +754,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 15926824630073909623
+      Id: 15386750974490543616
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -591,23 +769,23 @@ Objects {
   }
 }
 Objects {
-  Id: 10441071822073957577
+  Id: 11902166068869904101
   Name: "Sign Font 1 Neon Outline: L"
   Transform {
     Location {
-      X: 415.390625
-      Y: 0.000244140625
-      Z: 12.9855042
+      X: 392.619263
+      Y: 0.00048828125
+      Z: 12.9853668
     }
     Rotation {
     }
     Scale {
       X: -0.8
       Y: -1
-      Z: 1
+      Z: 0.653
     }
   }
-  ParentId: 6014711177027996062
+  ParentId: 7188843851830529812
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Neon:id"
@@ -623,6 +801,24 @@ Objects {
         A: 1
       }
     }
+    Overrides {
+      Name: "ma:Font.Bevel:id"
+      AssetReference {
+        Id: 9418006295412822975
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Faces:id"
+      AssetReference {
+        Id: 9418006295412822975
+      }
+    }
+    Overrides {
+      Name: "ma:Font.Sides:id"
+      AssetReference {
+        Id: 9418006295412822975
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -635,7 +831,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 3678406739027265959
+      Id: 6343986987358229410
     }
     Teams {
       IsTeamCollisionEnabled: true
