@@ -1,7 +1,7 @@
 Name: "Military Radio Set Template"
-RootId: 15512632973405989458
+RootId: 15110820214775533307
 Objects {
-  Id: 14495613382916928429
+  Id: 15133824208467768463
   Name: "Military Radio Tray"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 1.08505476
     }
   }
-  ParentId: 15512632973405989458
+  ParentId: 15110820214775533307
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -58,7 +58,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8613814222398650707
+  Id: 566432007047722851
   Name: "Military Radio Large"
   Transform {
     Location {
@@ -75,7 +75,7 @@ Objects {
       Z: 0.97939086
     }
   }
-  ParentId: 15512632973405989458
+  ParentId: 15110820214775533307
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:color"

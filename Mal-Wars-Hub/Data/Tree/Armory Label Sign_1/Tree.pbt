@@ -1,7 +1,7 @@
 Name: "Armory Label Sign_1"
-RootId: 18079704666609667027
+RootId: 16341206005029094173
 Objects {
-  Id: 16561489231620195275
+  Id: 15144158376395570975
   Name: "Armory Lettering"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 1.109851
     }
   }
-  ParentId: 18079704666609667027
+  ParentId: 16341206005029094173
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

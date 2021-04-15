@@ -1,6 +1,64 @@
 Name: "FloorDesign"
 RootId: 6885195982020965603
 Objects {
+  Id: 16832843642657413600
+  Name: "Prism - 6-Sided Half"
+  Transform {
+    Location {
+      X: -2822.84888
+      Y: -1330.25671
+      Z: -596.468079
+    }
+    Rotation {
+      Yaw: 7.85471784e-05
+    }
+    Scale {
+      X: 22.4163074
+      Y: -12.1925879
+      Z: 1
+    }
+  }
+  ParentId: 6885195982020965603
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 5100278781001206760
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 15464952249626306512
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7895297087423711053
+    SubobjectId: 683991630120348124
+    InstanceId: 14607687699607305245
+    TemplateId: 7105272645578194033
+  }
+}
+Objects {
   Id: 3787737732286670802
   Name: "Prism - 6-Sided Half"
   Transform {
