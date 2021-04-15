@@ -27,8 +27,8 @@ Objects {
   Control {
     Width: 85
     Height: 5
-    UIX: 146.96051
-    UIY: -118.39032
+    UIX: 136.988983
+    UIY: -97.1936646
     RotationAngle: 135
     RenderTransformPivot {
       Anchor {
@@ -95,8 +95,8 @@ Objects {
   Control {
     Width: 36
     Height: 6
-    UIX: 148.259567
-    UIY: -148.27832
+    UIX: 138.28804
+    UIY: -127.081665
     RotationAngle: 95
     RenderTransformPivot {
       Anchor {
@@ -163,8 +163,8 @@ Objects {
   Control {
     Width: 42
     Height: 6
-    UIX: 145.66153
-    UIY: -109.294128
+    UIX: 135.69
+    UIY: -88.0974731
     RotationAngle: -15
     RenderTransformPivot {
       Anchor {
@@ -231,8 +231,8 @@ Objects {
   Control {
     Width: 52
     Height: 6
-    UIX: 148.259521
-    UIY: -154.775757
+    UIX: 138.288
+    UIY: -133.579102
     RotationAngle: 45
     RenderTransformPivot {
       Anchor {
@@ -299,8 +299,8 @@ Objects {
   Control {
     Width: 115
     Height: 6
-    UIX: 88.5049133
-    UIY: -57.3150024
+    UIX: 78.5333862
+    UIY: -36.1183472
     RotationAngle: -55
     RenderTransformPivot {
       Anchor {
@@ -367,8 +367,8 @@ Objects {
   Control {
     Width: 115
     Height: 6
-    UIX: 94.9999847
-    UIY: -56.015686
+    UIX: 85.0284576
+    UIY: -34.8190308
     RotationAngle: -35
     RenderTransformPivot {
       Anchor {
@@ -435,8 +435,8 @@ Objects {
   Control {
     Width: 16
     Height: 16
-    UIX: 150.588165
-    UIY: -119.603882
+    UIX: 140.616638
+    UIY: -98.4072266
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"

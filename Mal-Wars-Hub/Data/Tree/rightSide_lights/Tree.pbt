@@ -1,6 +1,128 @@
 Name: "rightSide_lights"
 RootId: 8932857378966179132
 Objects {
+  Id: 14876275106861505986
+  Name: "Cube"
+  Transform {
+    Location {
+      X: -298.292664
+      Y: -378.131836
+      Z: 52.817688
+    }
+    Rotation {
+      Pitch: 9.12605476
+      Yaw: -90
+    }
+    Scale {
+      X: 3.40705347
+      Y: 0.250000864
+      Z: 0.249998495
+    }
+  }
+  ParentId: 8932857378966179132
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        G: 0.982250869
+        B: 0.964686573
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12807286167336049382
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4981277815145519374
+  Name: "Cube"
+  Transform {
+    Location {
+      X: 104.71833
+      Y: -378.131622
+      Z: 52.817688
+    }
+    Rotation {
+      Pitch: 9.12605476
+      Yaw: -90
+    }
+    Scale {
+      X: 3.40705347
+      Y: 0.250000864
+      Z: 0.249998495
+    }
+  }
+  ParentId: 8932857378966179132
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        G: 0.982250869
+        B: 0.964686573
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12807286167336049382
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
   Id: 2873591979750235853
   Name: "Cube"
   Transform {

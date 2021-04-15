@@ -21,6 +21,7 @@ Objects {
   ChildIds: 10722931758594424760
   ChildIds: 15885606419812222058
   ChildIds: 2880498746515435782
+  ChildIds: 17034724374570468586
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -33,6 +34,172 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 17034724374570468586
+  Name: "Ambience Nature Calm Forest Set 01 SFX"
+  Transform {
+    Location {
+      X: -8202.46484
+      Y: 2472.76831
+      Z: 73.2988586
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 10793054870569714710
+  ChildIds: 9108624364381173767
+  ChildIds: 1594707017786988876
+  UnregisteredParameters {
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 17034724374570468586
+    SubobjectId: 5341159740561491560
+    InstanceId: 15582175995887150060
+    TemplateId: 2222831866111292663
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 1594707017786988876
+  Name: "Sci-fi Alien Electrical Spaceship Drone Loop 02 SFX"
+  Transform {
+    Location {
+      X: 8885.80176
+      Y: -2828.96362
+      Z: 1502.58679
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17034724374570468586
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 13228008703968053121
+    }
+    AutoPlay: true
+    Repeat: true
+    Pitch: -2400
+    Volume: 0.8
+    Falloff: 10000
+    Radius: 100
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
+  }
+}
+Objects {
+  Id: 9108624364381173767
+  Name: "Sci-fi Ambience Alien Designed 01 SFX"
+  Transform {
+    Location {
+      X: -7247.04492
+      Y: -2476.82495
+      Z: 1783.93164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17034724374570468586
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 17318258559998679598
+    }
+    AutoPlay: true
+    Repeat: true
+    Pitch: -4000
+    Volume: 4
+    Falloff: 5000
+    Radius: 1200
+    IsAttenuationEnabled: true
+  }
+}
+Objects {
+  Id: 10793054870569714710
+  Name: "Air Conditioned Room Tone Loop 01 SFX"
+  Transform {
+    Location {
+      X: 2183.14844
+      Y: -2477.31201
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17034724374570468586
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 6025392823403670901
+    }
+    AutoPlay: true
+    Repeat: true
+    Pitch: -2400
+    Volume: 1.5050801
+    Falloff: -1
+    Radius: 5000
+    IsAttenuationEnabled: true
   }
 }
 Objects {

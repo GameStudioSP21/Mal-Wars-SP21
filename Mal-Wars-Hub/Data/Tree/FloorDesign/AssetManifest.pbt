@@ -1,4 +1,13 @@
 Assets {
+  Id: 17805431485688984203
+  Name: "Cube - Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_hq_test_001"
+  }
+}
+Assets {
   Id: 17168332812051305437
   Name: "Container - Trapezoid Thick 01"
   PlatformAssetType: 1
@@ -44,6 +53,24 @@ Assets {
   }
 }
 Assets {
+  Id: 9357227785287683198
+  Name: "Metal Basic 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_basic_001"
+  }
+}
+Assets {
+  Id: 5506213972341530573
+  Name: "Transparent Bubble Glass"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxmi_transparent_bubble_glass"
+  }
+}
+Assets {
   Id: 5100278781001206760
   Name: "Advanced Material"
   PlatformAssetType: 2
@@ -59,14 +86,5 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_scf_simple_floor_panel_001_uv"
-  }
-}
-Assets {
-  Id: 3815676013324939428
-  Name: "Metal Frame 06"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_scf_grates_005_uv"
   }
 }

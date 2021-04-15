@@ -1267,7 +1267,7 @@ Objects {
       Z: 15
     }
     Rotation {
-      Yaw: -89.9999847
+      Yaw: -90
     }
     Scale {
       X: 0.3
@@ -1276,6 +1276,8 @@ Objects {
     }
   }
   ParentId: 15968083724475201784
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

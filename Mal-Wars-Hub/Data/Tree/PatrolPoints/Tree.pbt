@@ -1,121 +1,16 @@
 Name: "PatrolPoints"
 RootId: 7704102930878018498
 Objects {
-  Id: 9071880895327412251
+  Id: 18166986875649303169
   Name: "Candle Flame VFX"
   Transform {
     Location {
-      X: -131.044601
-      Y: 1624.62671
-      Z: 24.1071205
+      X: -994.113647
+      Y: 2418.5791
+      Z: -24.3939705
     }
     Rotation {
-    }
-    Scale {
-      X: 3.48138261
-      Y: 3.48138261
-      Z: 3.48138261
-    }
-  }
-  ParentId: 7704102930878018498
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:WaitForDelay"
-      Int: 2
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12296869057633695823
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 17201457147468810721
-    SubobjectId: 6526909895636364360
-    InstanceId: 9194280787567175643
-    TemplateId: 7806429825771665842
-  }
-}
-Objects {
-  Id: 8090584383686440075
-  Name: "Candle Flame VFX"
-  Transform {
-    Location {
-      X: -53.5494
-      Y: 1413.44763
-      Z: 24.1071548
-    }
-    Rotation {
-    }
-    Scale {
-      X: 3.48138261
-      Y: 3.48138261
-      Z: 3.48138261
-    }
-  }
-  ParentId: 7704102930878018498
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12296869057633695823
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 17201457147468810721
-    SubobjectId: 6526909895636364360
-    InstanceId: 9194280787567175643
-    TemplateId: 7806429825771665842
-  }
-}
-Objects {
-  Id: 6363814065768979746
-  Name: "Candle Flame VFX"
-  Transform {
-    Location {
-      X: -36.8618584
-      Y: 1212.85339
-      Z: 24.1071548
-    }
-    Rotation {
+      Yaw: -154.206406
     }
     Scale {
       X: 3.48138237
@@ -125,6 +20,10 @@ Objects {
   }
   ParentId: 7704102930878018498
   UnregisteredParameters {
+    Overrides {
+      Name: "cs:TimeToWait"
+      Int: 30
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -151,22 +50,23 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 17201457147468810721
-    SubobjectId: 6526909895636364360
+    SelfId: 14055582773140826071
+    SubobjectId: 8587398892695323262
     InstanceId: 9194280787567175643
     TemplateId: 7806429825771665842
   }
 }
 Objects {
-  Id: 7069503581594601487
+  Id: 10338997399133993832
   Name: "Candle Flame VFX"
   Transform {
     Location {
-      X: 95.9096375
-      Y: 1015.87097
-      Z: 24.1071892
+      X: -429.82962
+      Y: 2289.66797
+      Z: -24.3939705
     }
     Rotation {
+      Yaw: -154.206375
     }
     Scale {
       X: 3.48138213
@@ -176,6 +76,10 @@ Objects {
   }
   ParentId: 7704102930878018498
   UnregisteredParameters {
+    Overrides {
+      Name: "cs:TimeToWait"
+      Int: 30
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -202,22 +106,23 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 17201457147468810721
-    SubobjectId: 6526909895636364360
+    SelfId: 14055582773140826071
+    SubobjectId: 8587398892695323262
     InstanceId: 9194280787567175643
     TemplateId: 7806429825771665842
   }
 }
 Objects {
-  Id: 1163695030374895878
+  Id: 8805496433416836176
   Name: "Candle Flame VFX"
   Transform {
     Location {
-      X: 118.952217
-      Y: 771.481323
-      Z: 24.1071892
+      X: -545.336914
+      Y: 1784.00049
+      Z: 18.5745354
     }
     Rotation {
+      Yaw: -154.206345
     }
     Scale {
       X: 3.48138189
@@ -226,8 +131,6 @@ Objects {
     }
   }
   ParentId: 7704102930878018498
-  UnregisteredParameters {
-  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -253,22 +156,23 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 17201457147468810721
-    SubobjectId: 6526909895636364360
+    SelfId: 14055582773140826071
+    SubobjectId: 8587398892695323262
     InstanceId: 9194280787567175643
     TemplateId: 7806429825771665842
   }
 }
 Objects {
-  Id: 15954253234790495237
+  Id: 9983413089032216197
   Name: "Candle Flame VFX"
   Transform {
     Location {
-      X: -103.302635
-      Y: 671.929
-      Z: 24.107172
+      X: -699.897888
+      Y: 1107.36267
+      Z: 18.5745354
     }
     Rotation {
+      Yaw: -154.206314
     }
     Scale {
       X: 3.48138165
@@ -277,8 +181,6 @@ Objects {
     }
   }
   ParentId: 7704102930878018498
-  UnregisteredParameters {
-  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -304,22 +206,23 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 17201457147468810721
-    SubobjectId: 6526909895636364360
+    SelfId: 14055582773140826071
+    SubobjectId: 8587398892695323262
     InstanceId: 9194280787567175643
     TemplateId: 7806429825771665842
   }
 }
 Objects {
-  Id: 3983284121813316508
+  Id: 1377199143950937120
   Name: "Candle Flame VFX"
   Transform {
     Location {
-      X: 19.6403618
-      Y: 431.987244
-      Z: 24.1071205
+      X: -733.583435
+      Y: 515.648
+      Z: 18.5745354
     }
     Rotation {
+      Yaw: -154.206268
     }
     Scale {
       X: 3.48138142
@@ -328,8 +231,6 @@ Objects {
     }
   }
   ParentId: 7704102930878018498
-  UnregisteredParameters {
-  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -355,8 +256,8 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 17201457147468810721
-    SubobjectId: 6526909895636364360
+    SelfId: 14055582773140826071
+    SubobjectId: 8587398892695323262
     InstanceId: 9194280787567175643
     TemplateId: 7806429825771665842
   }
@@ -366,9 +267,9 @@ Objects {
   Name: "Candle Flame VFX"
   Transform {
     Location {
-      X: -28.8195782
-      Y: 263.173553
-      Z: 24.1070862
+      X: -1070.5177
+      Y: 250.015152
+      Z: 18.5745354
     }
     Rotation {
       Yaw: -154.206238
@@ -380,6 +281,12 @@ Objects {
     }
   }
   ParentId: 7704102930878018498
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:TimeToWait"
+      Int: 30
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

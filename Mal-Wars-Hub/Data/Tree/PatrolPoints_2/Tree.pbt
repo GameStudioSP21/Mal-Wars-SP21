@@ -1,13 +1,13 @@
 Name: "PatrolPoints_2"
 RootId: 5955522069446065829
 Objects {
-  Id: 17010478934750307461
+  Id: 15110367220353127163
   Name: "Candle Flame VFX"
   Transform {
     Location {
-      X: -845.973877
-      Y: 1101.01245
-      Z: 24.1070862
+      X: -1109.20837
+      Y: 961.987793
+      Z: -46.8243446
     }
     Rotation {
     }
@@ -21,14 +21,14 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:TimeToWait"
-      Int: 3
+      Int: 30
     }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -49,20 +49,71 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 17010478934750307461
-    SubobjectId: 8486528888805823769
+    SelfId: 15301134443743045588
+    SubobjectId: 5588938333496432200
     InstanceId: 12417041671279569272
     TemplateId: 15165822249764949190
   }
 }
 Objects {
-  Id: 18316592342486050790
+  Id: 2092877271088240988
   Name: "Candle Flame VFX"
   Transform {
     Location {
-      X: -667.654785
-      Y: 1186.88867
-      Z: 24.107069
+      X: -780.169067
+      Y: 1209.53125
+      Z: -46.8243446
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3.48138261
+      Y: 3.48138261
+      Z: 3.48138261
+    }
+  }
+  ParentId: 5955522069446065829
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12296869057633695823
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15301134443743045588
+    SubobjectId: 5588938333496432200
+    InstanceId: 12417041671279569272
+    TemplateId: 15165822249764949190
+  }
+}
+Objects {
+  Id: 14767335944050914135
+  Name: "Candle Flame VFX"
+  Transform {
+    Location {
+      X: -275.289581
+      Y: 1209.53125
+      Z: -46.8243446
     }
     Rotation {
     }
@@ -73,11 +124,13 @@ Objects {
     }
   }
   ParentId: 5955522069446065829
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -98,8 +151,8 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 18316592342486050790
-    SubobjectId: 7486938371522516602
+    SelfId: 15301134443743045588
+    SubobjectId: 5588938333496432200
     InstanceId: 12417041671279569272
     TemplateId: 15165822249764949190
   }
@@ -109,9 +162,9 @@ Objects {
   Name: "Candle Flame VFX"
   Transform {
     Location {
-      X: -276.212067
-      Y: 1191.76221
-      Z: 24.1070862
+      X: 282.160126
+      Y: 843.808716
+      Z: -46.8243637
     }
     Rotation {
     }
@@ -122,11 +175,17 @@ Objects {
     }
   }
   ParentId: 5955522069446065829
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:TimeToWait"
+      Int: 60
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -158,9 +217,9 @@ Objects {
   Name: "Candle Flame VFX"
   Transform {
     Location {
-      X: -128.948029
-      Y: 996.024841
-      Z: 24.1071033
+      X: -466.061462
+      Y: 1317.43555
+      Z: -87.8531723
     }
     Rotation {
     }
@@ -171,11 +230,17 @@ Objects {
     }
   }
   ParentId: 5955522069446065829
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:TimeToWait"
+      Int: 30
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -207,8 +272,8 @@ Objects {
   Name: "Candle Flame VFX"
   Transform {
     Location {
-      X: -105.570274
-      Y: 685.872498
+      X: -541.802185
+      Y: 898.278931
       Z: 24.1071205
     }
     Rotation {
@@ -224,7 +289,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -256,8 +321,8 @@ Objects {
   Name: "Candle Flame VFX"
   Transform {
     Location {
-      X: -10.6966562
-      Y: 438.259186
+      X: -534.844727
+      Y: 596.18988
       Z: 24.1071205
     }
     Rotation {
@@ -279,7 +344,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -328,7 +393,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"

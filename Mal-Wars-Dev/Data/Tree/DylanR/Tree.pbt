@@ -1,6 +1,35 @@
 Name: "DylanR"
 RootId: 15062001147149131720
 Objects {
+  Id: 16314465873489813063
+  Name: "Sound"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15062001147149131720
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Sound"
+  }
+}
+Objects {
   Id: 16323723998737871302
   Name: "PulsingObject"
   Transform {
@@ -7182,17 +7211,17 @@ Objects {
   Name: "Area Light"
   Transform {
     Location {
-      X: 175
-      Y: -5
-      Z: 305
+      X: 620.29126
+      Y: -277.557068
+      Z: 540.555664
     }
     Rotation {
-      Pitch: 180
+      Pitch: -98.8811646
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 0.999999702
+      Y: 7.36795521
+      Z: 1.00000322
     }
   }
   ParentId: 2253038029340938273
@@ -7206,7 +7235,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Light {
-    Intensity: 100
+    Intensity: 200
     Color {
       R: 0.0529800653
       G: 1
@@ -7218,11 +7247,11 @@ Objects {
     Light {
       Temperature: 6500
       LocalLight {
-        AttenuationRadius: 6000
+        AttenuationRadius: 1003.73199
         AreaLight {
           BarnDoorAngle: 50
           BarnDoorLength: 20
-          SourceWidth: 203.858566
+          SourceWidth: 571.751343
           SourceHeight: 486.793213
         }
       }

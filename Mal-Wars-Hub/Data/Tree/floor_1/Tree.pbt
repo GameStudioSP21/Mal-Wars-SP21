@@ -1,62 +1,6 @@
 Name: "floor_1"
 RootId: 9847643273744050921
 Objects {
-  Id: 16750290702350124997
-  Name: "Default Floor"
-  Transform {
-    Location {
-      X: -183.513977
-      Y: 441.524323
-      Z: 65.9908447
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.326104462
-      Y: 3.80313635
-      Z: 0.622531772
-    }
-  }
-  ParentId: 9847643273744050921
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 9955247187549231722
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 4195385781420836946
-    SubobjectId: 14738968544434746290
-    InstanceId: 2585132023508260079
-    TemplateId: 17735093090777977581
-  }
-}
-Objects {
   Id: 16848729020137848697
   Name: "Default Floor"
   Transform {

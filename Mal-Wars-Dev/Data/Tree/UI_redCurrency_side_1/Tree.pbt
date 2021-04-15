@@ -196,7 +196,6 @@ Objects {
   Control {
     Width: 200
     Height: 200
-    UIY: -105
     RotationAngle: 45
     RenderTransformPivot {
       Anchor {

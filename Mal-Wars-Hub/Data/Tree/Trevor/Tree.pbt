@@ -261,9 +261,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 0.845683634
+      Y: 0.845683634
+      Z: 0.845683634
     }
   }
   ParentId: 16232708885341698321
@@ -1847,7 +1847,7 @@ Objects {
   }
   ParentId: 1607264831876838629
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceon"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:forceoff"
@@ -2201,9 +2201,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 0.84413147
+      Y: 0.84413147
+      Z: 0.84413147
     }
   }
   ParentId: 14750032160477211940
@@ -3787,10 +3787,10 @@ Objects {
   }
   ParentId: 4303937637996404944
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3885,11 +3885,12 @@ Objects {
   Name: "EngFemale01"
   Transform {
     Location {
-      X: -5508.09131
-      Y: -1496.67969
+      X: -3623.13379
+      Y: -1788.99084
       Z: -630.587402
     }
     Rotation {
+      Yaw: 12.8670511
     }
     Scale {
       X: 1.76126075
@@ -5727,7 +5728,7 @@ Objects {
   }
   ParentId: 7005222514756896391
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:forceoff"
@@ -5964,6 +5965,15 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 2025314084666780700
+      value {
+        Overrides {
+          Name: "AnimatedMeshStance"
+          String: "unarmed_idle_relaxed"
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 11853241566056670301
       value {
         Overrides {
@@ -6052,8 +6062,9 @@ Objects {
     }
   }
   ParentId: 10605282874148991885
-  ChildIds: 5767136292343612202
   ChildIds: 12698229969518778960
+  ChildIds: 11596013161979976210
+  ChildIds: 6405285623980913913
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6065,6 +6076,172 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 6405285623980913913
+  Name: "AlleyShopkeep"
+  Transform {
+    Location {
+      X: -4216.83594
+      Y: 2243.07837
+      Z: -492.076111
+    }
+    Rotation {
+      Yaw: -97.8054
+    }
+    Scale {
+      X: 1.03788137
+      Y: 1.03788137
+      Z: 1.03788137
+    }
+  }
+  ParentId: 12894589070276230731
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6625550307780021717
+      value {
+        Overrides {
+          Name: "Name"
+          String: "AlleyShopkeep"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4777.93506
+            Y: -2684.47534
+            Z: -492.37912
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -69.2705078
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.03788137
+            Y: 1.03788137
+            Z: 1.03788137
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13719241284456224044
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3.67199349
+            Y: 13.6274014
+            Z: 18.7600727
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.34987533
+            Y: 1.34987533
+            Z: 1.34987533
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2651212278430769411
+    }
+  }
+}
+Objects {
+  Id: 11596013161979976210
+  Name: "AlleyShopkeep"
+  Transform {
+    Location {
+      X: -3919.78271
+      Y: 2243.97412
+      Z: -454.616791
+    }
+    Rotation {
+      Yaw: -97.8053818
+    }
+    Scale {
+      X: 1.27792847
+      Y: 1.27792847
+      Z: 1.27792847
+    }
+  }
+  ParentId: 12894589070276230731
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6625550307780021717
+      value {
+        Overrides {
+          Name: "Name"
+          String: "AlleyShopkeep"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 5185.62
+            Y: -2259.21924
+            Z: -492.37912
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 82.1945801
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.03788137
+            Y: 1.03788137
+            Z: 1.03788137
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13719241284456224044
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3.67199349
+            Y: 13.6274014
+            Z: 18.7600727
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.34987533
+            Y: 1.34987533
+            Z: 1.34987533
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2651212278430769411
+    }
   }
 }
 Objects {
@@ -6092,10 +6269,6 @@ Objects {
           Name: "AnimatedMeshStanceShouldLoop"
           Bool: true
         }
-        Overrides {
-          Name: "AnimatedMeshStance"
-          String: "unarmed_bind_pose"
-        }
       }
     }
     ParameterOverrideMap {
@@ -6108,64 +6281,29 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -323.587982
-            Y: -336.073395
+            X: 5762.13721
+            Y: 1973.35339
+            Z: -338.467377
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
+            Yaw: -166.660217
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.93667305
+            Y: 1.93667305
+            Z: 1.93667305
           }
         }
       }
     }
     TemplateAsset {
       Id: 14553032136581001559
-    }
-  }
-}
-Objects {
-  Id: 5767136292343612202
-  Name: "AlleyShopkeep"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12894589070276230731
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6625550307780021717
-      value {
-        Overrides {
-          Name: "Name"
-          String: "AlleyShopkeep"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -345.133728
-            Y: -206.356644
-            Z: -8.1529541
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 2651212278430769411
     }
   }
 }

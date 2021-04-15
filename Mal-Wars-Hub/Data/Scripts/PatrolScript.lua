@@ -9,7 +9,7 @@ local currentNode = 0
 local inReverse = false
 local currentNodeOBJ = nil
 
-local IS_DEBUG = false
+local IS_DEBUG = true
 
 -- Build all points into the table
 for i, point in ipairs(PATROL_POINTS) do
