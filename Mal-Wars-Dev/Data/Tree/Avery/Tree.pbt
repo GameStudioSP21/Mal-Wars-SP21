@@ -1,57 +1,6 @@
 Name: "Avery"
 RootId: 4865664388657450589
 Objects {
-  Id: 1744812646013471940
-  Name: "AC_Platform_Corner_1"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4865664388657450589
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13059218851397951357
-      value {
-        Overrides {
-          Name: "Name"
-          String: "AC_Platform_Corner_1"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -755
-            Y: -19990
-            Z: 3810
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 45
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.06969571
-            Y: 1.06969571
-            Z: 1.06969571
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 12485850970973898772
-    }
-  }
-}
-Objects {
   Id: 4623695186886807151
   Name: "Platform_Long_1"
   Transform {

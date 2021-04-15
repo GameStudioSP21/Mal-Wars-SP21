@@ -117,6 +117,69 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 1383984197735749286
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 222.906372
+            Y: 2877.5188
+            Z: 281.571533
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -12.9593201
+            Yaw: 90.3747711
+            Roll: 85.0852509
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3915483656180185893
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 399.043701
+            Y: 2700.27637
+            Z: 341.549713
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -14.9777832
+            Yaw: 68.7762527
+            Roll: 95.7085
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6461466610559622992
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 332.781494
+            Y: -1520.66528
+            Z: -28.0526733
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -12.3432312
+            Yaw: -101.069336
+            Roll: -9.49945068
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 12379996449719569168
       value {
         Overrides {
@@ -126,8 +189,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 705.540405
-            Y: -1091.48145
+            X: 820
+            Y: -347.617188
             Z: 3181.49414
           }
         }
@@ -135,7 +198,70 @@ Objects {
           Name: "Rotation"
           Rotator {
             Pitch: 175
-            Yaw: -90
+            Yaw: -22.5000305
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13967012028538698377
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 202.525055
+            Y: -1242.58423
+            Z: -255.004333
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -2.56314087
+            Yaw: -92.2535095
+            Roll: -12.7424622
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14638764340476840693
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -18.9033089
+            Y: 2903.99438
+            Z: 408.050385
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -8.04260254
+            Yaw: 92.4315796
+            Roll: 78.776535
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14875692981867017418
+      value {
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -15.2273865
+            Yaw: 74.0589905
+            Roll: 85.293
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 557.43634
+            Y: 2155.49756
+            Z: 597.974487
           }
         }
       }
