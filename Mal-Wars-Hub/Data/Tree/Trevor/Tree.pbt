@@ -3337,7 +3337,7 @@ Objects {
   Name: "TinyHat"
   Transform {
     Location {
-      X: 2.99414062
+      X: 2.99414063
       Y: -2.59564209
       Z: 99.8795776
     }
@@ -3973,7 +3973,7 @@ Objects {
   Name: "RShouldertrim"
   Transform {
     Location {
-      X: 6.50976562
+      X: 6.50976563
       Y: 17.7137661
       Z: 65.216568
     }
@@ -4037,7 +4037,7 @@ Objects {
   Name: "Shopkeep example 1"
   Transform {
     Location {
-      X: 16.2695312
+      X: 16.2695313
       Y: 160.908203
       Z: 33.2996368
     }

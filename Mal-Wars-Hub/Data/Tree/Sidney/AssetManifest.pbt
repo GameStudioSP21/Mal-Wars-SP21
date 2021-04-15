@@ -62,15 +62,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15464952249626306512
-  Name: "Prism - 6-Sided Half"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_half_hexagon_001"
-  }
-}
-Assets {
   Id: 14803841533992348173
   Name: "Military Crate Hinge 02"
   PlatformAssetType: 1
@@ -122,15 +113,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_ammunition_001_ref"
-  }
-}
-Assets {
-  Id: 11507613115271256803
-  Name: "Metal Steel Hexagon 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_steel_hex_001"
   }
 }
 Assets {

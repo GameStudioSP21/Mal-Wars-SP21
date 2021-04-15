@@ -24,8 +24,8 @@ Objects {
   ChildIds: 4497641434065555435
   ChildIds: 10890274874115666730
   ChildIds: 13157383151670395152
-  ChildIds: 13322887773990895342
-  ChildIds: 3872466065713466464
+  ChildIds: 15272818741880377657
+  ChildIds: 10058256283127730305
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -41,47 +41,93 @@ Objects {
   }
 }
 Objects {
-  Id: 3872466065713466464
-  Name: "RowOletters"
+  Id: 10058256283127730305
+  Name: "Game Portal"
   Transform {
+    Location {
+      X: 1263.54517
+      Y: -1243.54529
+      Z: 246.190552
+    }
+    Rotation {
+      Yaw: -44.9999962
+    }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 0.958030164
+      Y: 0.661305606
+      Z: 0.668713152
     }
   }
   ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Unlit"
+      Bool: false
+    }
+    Overrides {
+      Name: "bp:Rotation"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:Swirl Element Distance"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:Edge Distortion"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:Speed"
+      Float: 0.217551395
+    }
+    Overrides {
+      Name: "bp:Intersection Distance"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:View Distortion Amount"
+      Float: 0.131066889
+    }
+    Overrides {
+      Name: "bp:Edge Distance"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:Portal Spread"
+      Float: 1
+    }
+    Overrides {
+      Name: "bp:Portal Shape"
+      Int: 11
+    }
+    Overrides {
+      Name: "bp:Game ID"
+      String: "db9638/malwarsdevclone"
+    }
+    Overrides {
+      Name: "bp:Use World Capture"
+      Bool: false
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 16642633285109293985
-      value {
-        Overrides {
-          Name: "Name"
-          String: "RowOletters"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -3940
-            Y: 1935
-            Z: -155
-          }
-        }
-      }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 7614389080961642619
     }
-    TemplateAsset {
-      Id: 10785825531664173714
+    TeamSettings {
     }
   }
 }
 Objects {
-  Id: 13322887773990895342
+  Id: 15272818741880377657
   Name: "Dylan"
   Transform {
     Location {

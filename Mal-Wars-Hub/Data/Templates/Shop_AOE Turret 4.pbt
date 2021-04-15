@@ -822,7 +822,7 @@ Assets {
         Name: "Monitor 1"
         Transform {
           Location {
-            X: 108.750976
+            X: 108.750977
             Y: 80.5510254
             Z: 50.6621094
           }
@@ -4405,7 +4405,7 @@ Assets {
         Transform {
           Location {
             X: 66.3653564
-            Y: -38.0039062
+            Y: -38.0039063
             Z: -10.4387817
           }
           Rotation {
@@ -5890,7 +5890,7 @@ Assets {
         Transform {
           Location {
             X: 79.1879883
-            Y: 67.7226562
+            Y: 67.7226563
             Z: -48.1594086
           }
           Rotation {

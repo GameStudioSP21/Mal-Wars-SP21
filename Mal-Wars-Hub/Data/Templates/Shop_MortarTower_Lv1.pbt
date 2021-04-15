@@ -2405,7 +2405,7 @@ Assets {
         Name: "Sci-fi Ship Engine 01"
         Transform {
           Location {
-            Y: -0.000122070312
+            Y: -0.000122070313
             Z: -0.000244140625
           }
           Rotation {

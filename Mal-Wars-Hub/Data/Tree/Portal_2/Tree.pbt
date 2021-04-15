@@ -109,7 +109,7 @@ Objects {
   Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
-      X: 200.969726
+      X: 200.969727
       Y: 119.759155
       Z: 36.1895752
     }

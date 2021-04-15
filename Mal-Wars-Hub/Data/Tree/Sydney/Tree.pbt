@@ -333,7 +333,7 @@ Objects {
   Transform {
     Location {
       X: 0.00048828125
-      Y: 6.10351562e-05
+      Y: 6.10351563e-05
     }
     Rotation {
       Yaw: -2.73207534e-05
@@ -1291,7 +1291,7 @@ Objects {
   Name: "EntryTextWrapper"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -1344,7 +1344,7 @@ Objects {
   Name: "EntryBlurbText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
       Y: -1.45519291e-11
     }
     Rotation {
@@ -1414,7 +1414,7 @@ Objects {
   Name: "EntryNameText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -1482,7 +1482,7 @@ Objects {
   Name: "EntryIconSmall"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -1647,7 +1647,7 @@ Objects {
   Name: "EntryTextWrapper"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -1700,7 +1700,7 @@ Objects {
   Name: "EntryBlurbText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
       Y: -1.45519291e-11
     }
     Rotation {
@@ -1770,7 +1770,7 @@ Objects {
   Name: "EntryNameText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -1838,7 +1838,7 @@ Objects {
   Name: "EntryIconSmall"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -2003,7 +2003,7 @@ Objects {
   Name: "EntryTextWrapper"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -2056,7 +2056,7 @@ Objects {
   Name: "EntryBlurbText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
       Y: -1.45519291e-11
     }
     Rotation {
@@ -2126,7 +2126,7 @@ Objects {
   Name: "EntryNameText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -2194,7 +2194,7 @@ Objects {
   Name: "EntryIconSmall"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -2359,7 +2359,7 @@ Objects {
   Name: "EntryTextWrapper"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -2412,7 +2412,7 @@ Objects {
   Name: "EntryBlurbText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
       Y: -1.45519291e-11
     }
     Rotation {
@@ -2482,7 +2482,7 @@ Objects {
   Name: "EntryNameText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -2550,7 +2550,7 @@ Objects {
   Name: "EntryIconSmall"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -2715,7 +2715,7 @@ Objects {
   Name: "EntryTextWrapper"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -2768,7 +2768,7 @@ Objects {
   Name: "EntryBlurbText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
       Y: -1.45519291e-11
     }
     Rotation {
@@ -2838,7 +2838,7 @@ Objects {
   Name: "EntryNameText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -2906,7 +2906,7 @@ Objects {
   Name: "EntryIconSmall"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -3071,7 +3071,7 @@ Objects {
   Name: "EntryTextWrapper"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -3124,7 +3124,7 @@ Objects {
   Name: "EntryBlurbText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
       Y: -1.45519291e-11
     }
     Rotation {
@@ -3194,7 +3194,7 @@ Objects {
   Name: "EntryNameText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -3262,7 +3262,7 @@ Objects {
   Name: "EntryIconSmall"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -3427,7 +3427,7 @@ Objects {
   Name: "EntryTextWrapper"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -3480,7 +3480,7 @@ Objects {
   Name: "EntryBlurbText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
       Y: -1.45519291e-11
     }
     Rotation {
@@ -3550,7 +3550,7 @@ Objects {
   Name: "EntryNameText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -3618,7 +3618,7 @@ Objects {
   Name: "EntryIconSmall"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -3783,7 +3783,7 @@ Objects {
   Name: "EntryTextWrapper"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -3836,7 +3836,7 @@ Objects {
   Name: "EntryBlurbText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
       Y: -1.45519291e-11
     }
     Rotation {
@@ -3906,7 +3906,7 @@ Objects {
   Name: "EntryNameText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -3974,7 +3974,7 @@ Objects {
   Name: "EntryIconSmall"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -4139,7 +4139,7 @@ Objects {
   Name: "EntryTextWrapper"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -4192,7 +4192,7 @@ Objects {
   Name: "EntryBlurbText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
       Y: -1.45519291e-11
     }
     Rotation {
@@ -4262,7 +4262,7 @@ Objects {
   Name: "EntryNameText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -4330,7 +4330,7 @@ Objects {
   Name: "EntryIconSmall"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -4495,7 +4495,7 @@ Objects {
   Name: "EntryTextWrapper"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -4548,7 +4548,7 @@ Objects {
   Name: "EntryBlurbText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
       Y: -1.45519291e-11
     }
     Rotation {
@@ -4618,7 +4618,7 @@ Objects {
   Name: "EntryNameText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -4686,7 +4686,7 @@ Objects {
   Name: "EntryIconSmall"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -4851,7 +4851,7 @@ Objects {
   Name: "EntryTextWrapper"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -4904,7 +4904,7 @@ Objects {
   Name: "EntryBlurbText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
       Y: -1.45519291e-11
     }
     Rotation {
@@ -4974,7 +4974,7 @@ Objects {
   Name: "EntryNameText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -5042,7 +5042,7 @@ Objects {
   Name: "EntryIconSmall"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -5207,7 +5207,7 @@ Objects {
   Name: "EntryTextWrapper"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -5260,7 +5260,7 @@ Objects {
   Name: "EntryBlurbText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
       Y: -1.45519291e-11
     }
     Rotation {
@@ -5330,7 +5330,7 @@ Objects {
   Name: "EntryNameText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -5398,7 +5398,7 @@ Objects {
   Name: "EntryIconSmall"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -5563,7 +5563,7 @@ Objects {
   Name: "EntryTextWrapper"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -5616,7 +5616,7 @@ Objects {
   Name: "EntryBlurbText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
       Y: -1.45519291e-11
     }
     Rotation {
@@ -5686,7 +5686,7 @@ Objects {
   Name: "EntryNameText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -5754,7 +5754,7 @@ Objects {
   Name: "EntryIconSmall"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -5919,7 +5919,7 @@ Objects {
   Name: "EntryTextWrapper"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -5972,7 +5972,7 @@ Objects {
   Name: "EntryBlurbText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
       Y: -1.45519291e-11
     }
     Rotation {
@@ -6042,7 +6042,7 @@ Objects {
   Name: "EntryNameText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -6110,7 +6110,7 @@ Objects {
   Name: "EntryIconSmall"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -6275,7 +6275,7 @@ Objects {
   Name: "EntryTextWrapper"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -6328,7 +6328,7 @@ Objects {
   Name: "EntryBlurbText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
       Y: -1.45519291e-11
     }
     Rotation {
@@ -6398,7 +6398,7 @@ Objects {
   Name: "EntryNameText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -6466,7 +6466,7 @@ Objects {
   Name: "EntryIconSmall"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -6631,7 +6631,7 @@ Objects {
   Name: "EntryTextWrapper"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -6684,7 +6684,7 @@ Objects {
   Name: "EntryBlurbText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
       Y: -1.45519291e-11
     }
     Rotation {
@@ -6754,7 +6754,7 @@ Objects {
   Name: "EntryNameText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -6822,7 +6822,7 @@ Objects {
   Name: "EntryIconSmall"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -7241,7 +7241,7 @@ Objects {
   Name: "LevelTransitionButton"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
       Y: -4.36557422e-11
     }
     Rotation {
@@ -7748,7 +7748,7 @@ Objects {
   Name: "LevelTextWrapper"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -7801,7 +7801,7 @@ Objects {
   Name: "LevelDescText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
       Y: -1.45519291e-11
     }
     Rotation {
@@ -7871,7 +7871,7 @@ Objects {
   Name: "LevelNameText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -7939,7 +7939,7 @@ Objects {
   Name: "LevelIconSmall"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -8236,7 +8236,7 @@ Objects {
   Name: "LevelTextWrapper"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -8289,7 +8289,7 @@ Objects {
   Name: "LevelDescText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
       Y: -1.45519291e-11
     }
     Rotation {
@@ -8359,7 +8359,7 @@ Objects {
   Name: "LevelNameText"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }
@@ -8427,7 +8427,7 @@ Objects {
   Name: "LevelIconSmall"
   Transform {
     Location {
-      X: -0.000122070312
+      X: -0.000122070313
     }
     Rotation {
     }

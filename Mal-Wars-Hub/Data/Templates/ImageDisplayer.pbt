@@ -259,7 +259,7 @@ Assets {
         Transform {
           Location {
             X: -10.2907715
-            Y: -6.10351562e-05
+            Y: -6.10351563e-05
             Z: -248.662659
           }
           Rotation {

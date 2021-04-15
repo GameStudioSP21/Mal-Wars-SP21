@@ -215,7 +215,7 @@ Objects {
   Name: "Sci-fi Base Ceiling Trim 01"
   Transform {
     Location {
-      X: -238.622558
+      X: -238.622559
       Y: 1234.38208
       Z: 207.222229
     }
@@ -691,7 +691,7 @@ Objects {
   Name: "Sci-fi Base Ceiling Trim 01"
   Transform {
     Location {
-      X: -113.622558
+      X: -113.622559
       Y: 884.38208
       Z: 207.222229
     }

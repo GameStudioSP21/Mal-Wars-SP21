@@ -58,50 +58,6 @@ Objects {
   }
 }
 Objects {
-  Id: 4755191969334475469
-  Name: "Cube"
-  Transform {
-    Location {
-      X: -1114.85693
-      Y: 172.974243
-      Z: 49.999939
-    }
-    Rotation {
-      Yaw: -89.9999466
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13937949222443352447
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
   Id: 859780885242510046
   Name: "Sci-fi Base Wall Interior 01 - Window 01"
   Transform {
@@ -213,7 +169,7 @@ Objects {
     Location {
       X: -289.857
       Y: 797.974365
-      Z: -0.000122070312
+      Z: -0.000122070313
     }
     Rotation {
       Pitch: -90
@@ -269,7 +225,7 @@ Objects {
     Location {
       X: -714.857666
       Y: 1497.97424
-      Z: -0.000122070312
+      Z: -0.000122070313
     }
     Rotation {
       Pitch: 90

@@ -194,7 +194,7 @@ Assets {
         Name: "Cube"
         Transform {
           Location {
-            X: 105.032226
+            X: 105.032227
             Y: -39.8979492
             Z: 118.949585
           }
@@ -1110,7 +1110,7 @@ Assets {
         Transform {
           Location {
             X: 70.7485352
-            Y: -10.1469726
+            Y: -10.1469727
             Z: 115.407593
           }
           Rotation {

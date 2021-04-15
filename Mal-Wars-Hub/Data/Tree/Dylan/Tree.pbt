@@ -1,7 +1,268 @@
 Name: "Dylan"
-RootId: 13322887773990895342
+RootId: 15272818741880377657
 Objects {
-  Id: 2361516212844477283
+  Id: 6885195982020965603
+  Name: "FloorDesign"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15272818741880377657
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "FloorDesign"
+  }
+}
+Objects {
+  Id: 7709205182397085906
+  Name: "ImageDisplayer"
+  Transform {
+    Location {
+      X: -4915
+      Y: 600
+      Z: -60
+    }
+    Rotation {
+      Yaw: 123.750015
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15272818741880377657
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12376517734370369697
+      value {
+        Overrides {
+          Name: "bp:Screenshot Index"
+          Int: 4
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Roll: 90
+          }
+        }
+        Overrides {
+          Name: "bp:Game ID"
+          String: "d6a20b/hubimages2"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14553122214751265009
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ImageDisplayer"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4935
+            Y: -600
+            Z: -60
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -123.750015
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 17214800668819700628
+    }
+  }
+}
+Objects {
+  Id: 18104157720392879868
+  Name: "ImageDisplayer"
+  Transform {
+    Location {
+      X: -5335
+      Y: -1510
+      Z: -195
+    }
+    Rotation {
+      Yaw: 180
+      Roll: -90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15272818741880377657
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "ImageDisplayer"
+  }
+  InstanceHistory {
+    SelfId: 14029761221401748028
+    SubobjectId: 14553122214751265009
+    InstanceId: 1309354302594394867
+    TemplateId: 17214800668819700628
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 32605976297812365
+  Name: "ImageDisplayer"
+  Transform {
+    Location {
+      X: -3285
+      Y: 4070
+      Z: -45
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15272818741880377657
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12376517734370369697
+      value {
+        Overrides {
+          Name: "bp:Screenshot Index"
+          Int: 4
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Roll: 90
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14553122214751265009
+      value {
+        Overrides {
+          Name: "Name"
+          String: "ImageDisplayer"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4915
+            Y: 600
+            Z: -60
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 123.749992
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 17214800668819700628
+    }
+  }
+}
+Objects {
+  Id: 2497250846112070196
+  Name: "Decals"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15272818741880377657
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Decals"
+  }
+}
+Objects {
+  Id: 15199947432488427375
   Name: "ImageDisplayer"
   Transform {
     Location {
@@ -18,7 +279,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13322887773990895342
+  ParentId: 15272818741880377657
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -62,7 +323,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16267679201907916235
+  Id: 17313618228491415514
   Name: "ImageDisplayer"
   Transform {
     Location {
@@ -79,7 +340,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13322887773990895342
+  ParentId: 15272818741880377657
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -132,7 +393,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2513145875600966745
+  Id: 3017845488577298471
   Name: "ImageDisplayer"
   Transform {
     Location {
@@ -149,7 +410,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13322887773990895342
+  ParentId: 15272818741880377657
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -266,14 +527,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -2595.44214
-            Y: 2342.90112
-            Z: 455.067383
+            X: -2790.8418
+            Y: 2323.32935
+            Z: -198.270828
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
+            Yaw: 53.9871635
             Roll: 90
           }
         }
@@ -293,7 +555,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10069333242051404145
+  Id: 5134212026159259379
   Name: "ImageDisplayer"
   Transform {
     Location {
@@ -310,7 +572,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13322887773990895342
+  ParentId: 15272818741880377657
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -364,7 +626,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5214686090365867992
+  Id: 8875839563978538303
   Name: "ImageDisplayer"
   Transform {
     Scale {
@@ -373,7 +635,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13322887773990895342
+  ParentId: 15272818741880377657
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
