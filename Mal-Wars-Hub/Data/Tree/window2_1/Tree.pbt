@@ -1,7 +1,7 @@
 Name: "window2_1"
-RootId: 16119407350783070093
+RootId: 779378485221732565
 Objects {
-  Id: 8509598516501113669
+  Id: 14453583188716399460
   Name: "Whitebox Wall 01"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 0.3
     }
   }
-  ParentId: 16119407350783070093
+  ParentId: 779378485221732565
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -59,7 +59,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1447380793175088016
+  Id: 6896438496010836823
   Name: "Whitebox Wall 01"
   Transform {
     Location {
@@ -76,7 +76,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 16119407350783070093
+  ParentId: 779378485221732565
   UnregisteredParameters {
   }
   Collidable_v2 {

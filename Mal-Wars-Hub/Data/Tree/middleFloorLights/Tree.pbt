@@ -1,7 +1,7 @@
 Name: "middleFloorLights"
-RootId: 17878189539236492773
+RootId: 7603644708391363087
 Objects {
-  Id: 18336685201841688347
+  Id: 16064502123630815571
   Name: "middleFlorecentLighting_left"
   Transform {
     Location {
@@ -15,7 +15,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17878189539236492773
+  ParentId: 7603644708391363087
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -31,7 +31,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10225987897532443182
+  Id: 16059050983852423350
   Name: "middleFlorecentLighting_right"
   Transform {
     Location {
@@ -45,7 +45,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17878189539236492773
+  ParentId: 7603644708391363087
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

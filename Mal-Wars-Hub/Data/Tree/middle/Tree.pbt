@@ -1,7 +1,7 @@
 Name: "middle"
-RootId: 18322721160534743981
+RootId: 16993709102368756274
 Objects {
-  Id: 6445833961272699283
+  Id: 897772899465431019
   Name: "pipeWalls"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18322721160534743981
+  ParentId: 16993709102368756274
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -34,7 +34,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9073436704597760633
+  Id: 16359019904922406297
   Name: "Default Floor"
   Transform {
     Location {
@@ -50,7 +50,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18322721160534743981
+  ParentId: 16993709102368756274
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -90,7 +90,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7213816846327949377
+  Id: 10875345362667724918
   Name: "Default Floor"
   Transform {
     Location {
@@ -106,7 +106,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18322721160534743981
+  ParentId: 16993709102368756274
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:smart"
@@ -150,7 +150,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5043845338175980068
+  Id: 16137914647298908388
   Name: "roof"
   Transform {
     Location {
@@ -166,7 +166,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18322721160534743981
+  ParentId: 16993709102368756274
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -182,7 +182,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17878189539236492773
+  Id: 7603644708391363087
   Name: "middleFloorLights"
   Transform {
     Location {
@@ -199,7 +199,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18322721160534743981
+  ParentId: 16993709102368756274
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -215,7 +215,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9942098546019601401
+  Id: 11081268173990834865
   Name: "middleWall"
   Transform {
     Location {
@@ -232,7 +232,7 @@ Objects {
       Z: 2.18776822
     }
   }
-  ParentId: 18322721160534743981
+  ParentId: 16993709102368756274
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -267,40 +267,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4939074682822330480
-  Name: "floorAccents_left - hide"
-  Transform {
-    Location {
-      X: -271.075928
-      Y: 725.072754
-      Z: -55.9128418
-    }
-    Rotation {
-      Yaw: -89.9999924
-    }
-    Scale {
-      X: 1
-      Y: -1
-      Z: 1
-    }
-  }
-  ParentId: 18322721160534743981
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "floorAccents_left"
-  }
-}
-Objects {
-  Id: 10745942715266186539
+  Id: 3403847356857637549
   Name: "baseFloor"
   Transform {
     Location {
@@ -316,7 +283,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18322721160534743981
+  ParentId: 16993709102368756274
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -332,7 +299,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5277523026099773668
+  Id: 9869816535040652677
   Name: "stairs"
   Transform {
     Location {
@@ -348,7 +315,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18322721160534743981
+  ParentId: 16993709102368756274
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

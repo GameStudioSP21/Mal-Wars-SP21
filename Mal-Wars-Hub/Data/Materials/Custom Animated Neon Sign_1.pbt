@@ -20,7 +20,7 @@ Assets {
       }
       Overrides {
         Name: "glow intensity"
-        Float: 12.9018841
+        Float: 10
       }
       Overrides {
         Name: "enable animation"
@@ -33,18 +33,6 @@ Assets {
           B: 0.964705944
           A: 1
         }
-      }
-      Overrides {
-        Name: "metallic"
-        Float: 0
-      }
-      Overrides {
-        Name: "specular rolloff"
-        Float: 0
-      }
-      Overrides {
-        Name: "distance"
-        Float: 100
       }
     }
     Assets {

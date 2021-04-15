@@ -1,7 +1,7 @@
 Name: "ceiling light_6"
-RootId: 11990429087778473088
+RootId: 10925574363114552084
 Objects {
-  Id: 17177557380743103802
+  Id: 9116375028564396169
   Name: "sphere - bulb"
   Transform {
     Location {
@@ -15,7 +15,7 @@ Objects {
       Z: 0.231183201
     }
   }
-  ParentId: 11990429087778473088
+  ParentId: 10925574363114552084
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -59,7 +59,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6949620349430182088
+  Id: 17658397898858555630
   Name: "Street Light Pole Clamp 01"
   Transform {
     Location {
@@ -72,7 +72,7 @@ Objects {
       Z: 1.48629451
     }
   }
-  ParentId: 11990429087778473088
+  ParentId: 10925574363114552084
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"

@@ -1,7 +1,7 @@
 Name: "middleLights"
-RootId: 17746302985307058613
+RootId: 12038896565234787252
 Objects {
-  Id: 6722412251175615627
+  Id: 5084704305438812969
   Name: "ceiling light"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17746302985307058613
+  ParentId: 12038896565234787252
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -33,7 +33,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7698832142590538874
+  Id: 18433717068783117403
   Name: "ceiling light"
   Transform {
     Location {
@@ -49,7 +49,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17746302985307058613
+  ParentId: 12038896565234787252
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -65,7 +65,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9025934909120543771
+  Id: 10203636382958279323
   Name: "ceiling light"
   Transform {
     Location {
@@ -81,7 +81,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17746302985307058613
+  ParentId: 12038896565234787252
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
