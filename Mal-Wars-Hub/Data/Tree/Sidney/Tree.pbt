@@ -1,7 +1,606 @@
 Name: "Sidney"
-RootId: 10890274874115666730
+RootId: 2999285004240398878
 Objects {
-  Id: 2313020866240107349
+  Id: 6191401256087539704
+  Name: "Roof Light Over Display One"
+  Transform {
+    Location {
+      X: 310.889404
+      Y: -1388.27747
+      Z: 820.799561
+    }
+    Rotation {
+      Pitch: -6.39749146
+      Yaw: -48.1521912
+      Roll: -0.915771484
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2999285004240398878
+  ChildIds: 4510682009455929928
+  ChildIds: 108099278404419016
+  ChildIds: 10173310989118533970
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 10173310989118533970
+  Name: "Area Light"
+  Transform {
+    Location {
+      X: 10.3834963
+      Y: 1.53034079
+      Z: -40.3550682
+    }
+    Rotation {
+      Pitch: -82.4371643
+      Yaw: 180
+      Roll: 172.62204
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6191401256087539704
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 45.5434189
+    Color {
+      R: 0.86
+      G: 0.410066217
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 1425.12793
+        AreaLight {
+          BarnDoorAngle: 50
+          BarnDoorLength: 20
+          SourceWidth: 1432.07019
+          SourceHeight: 439.988708
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+}
+Objects {
+  Id: 108099278404419016
+  Name: "sphere - bulb"
+  Transform {
+    Location {
+      X: 0.610839844
+    }
+    Rotation {
+      Pitch: 6.18346548
+    }
+    Scale {
+      X: 2.02810764
+      Y: 2.3491354
+      Z: 0.157519579
+    }
+  }
+  ParentId: 6191401256087539704
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12807286167336049382
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 0.707643807
+        B: 0.151041687
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14068053303232782567
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4510682009455929928
+  Name: "Street Light Pole Clamp 01"
+  Transform {
+    Location {
+      X: -0.610351563
+      Z: 11.2797241
+    }
+    Rotation {
+      Pitch: 6.18346548
+    }
+    Scale {
+      X: 7.19711161
+      Y: 8.33613396
+      Z: 1.4578743
+    }
+  }
+  ParentId: 6191401256087539704
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 9955247187549231722
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11956004548363595673
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3359348514898883611
+  Name: "Roof Light Over Desk Two"
+  Transform {
+    Location {
+      X: -878.130615
+      Y: -1176.64075
+      Z: 608.590759
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2999285004240398878
+  ChildIds: 3669336516785199855
+  ChildIds: 1579437703724157594
+  ChildIds: 4307193993045280191
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 4307193993045280191
+  Name: "Area Light"
+  Transform {
+    Location {
+      X: 0.0375976563
+      Y: -14.4355469
+      Z: -11.1631317
+    }
+    Rotation {
+      Pitch: -90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3359348514898883611
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 35.9900246
+    Color {
+      R: 0.86
+      G: 0.410066217
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 941.726074
+        AreaLight {
+          BarnDoorAngle: 50
+          BarnDoorLength: 20
+          SourceWidth: 219.526138
+          SourceHeight: 146.03862
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+}
+Objects {
+  Id: 1579437703724157594
+  Name: "sphere - bulb"
+  Transform {
+    Location {
+      X: 0.610839844
+    }
+    Rotation {
+      Pitch: 6.18346548
+    }
+    Scale {
+      X: 2.02810764
+      Y: 2.3491354
+      Z: 0.157519579
+    }
+  }
+  ParentId: 3359348514898883611
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12807286167336049382
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.686274529
+        G: 1
+        B: 0.921568692
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14068053303232782567
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3669336516785199855
+  Name: "Street Light Pole Clamp 01"
+  Transform {
+    Location {
+      X: -0.610351563
+      Z: 11.2797241
+    }
+    Rotation {
+      Pitch: 6.18346548
+    }
+    Scale {
+      X: 7.19711161
+      Y: 8.33613396
+      Z: 1.4578743
+    }
+  }
+  ParentId: 3359348514898883611
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 9955247187549231722
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11956004548363595673
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 16394317875251949860
+  Name: "Roof Light Over Desk One"
+  Transform {
+    Location {
+      X: -878.130615
+      Y: -312.594
+      Z: 608.590759
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2999285004240398878
+  ChildIds: 15287188695516397089
+  ChildIds: 17492542270626558789
+  ChildIds: 23657288450858547
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 23657288450858547
+  Name: "Area Light"
+  Transform {
+    Location {
+      X: 0.0375976563
+      Y: -5.86706543
+      Z: -11.1631317
+    }
+    Rotation {
+      Pitch: -90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16394317875251949860
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 35.9900246
+    Color {
+      R: 0.86
+      G: 0.410066217
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 941.726074
+        AreaLight {
+          BarnDoorAngle: 50
+          BarnDoorLength: 20
+          SourceWidth: 219.526138
+          SourceHeight: 146.03862
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+}
+Objects {
+  Id: 17492542270626558789
+  Name: "sphere - bulb"
+  Transform {
+    Location {
+      X: 0.610839844
+    }
+    Rotation {
+      Pitch: 6.18346548
+    }
+    Scale {
+      X: 2.02810764
+      Y: 2.3491354
+      Z: 0.157519579
+    }
+  }
+  ParentId: 16394317875251949860
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12807286167336049382
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.686274529
+        G: 1
+        B: 0.921568692
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14068053303232782567
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15287188695516397089
+  Name: "Street Light Pole Clamp 01"
+  Transform {
+    Location {
+      X: -0.610351563
+      Z: 11.2797241
+    }
+    Rotation {
+      Pitch: 6.18346548
+    }
+    Scale {
+      X: 7.19711161
+      Y: 8.33613396
+      Z: 1.4578743
+    }
+  }
+  ParentId: 16394317875251949860
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 9955247187549231722
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 11956004548363595673
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 16583295529363581798
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -19,7 +618,7 @@ Objects {
       Z: 0.54579854
     }
   }
-  ParentId: 10890274874115666730
+  ParentId: 2999285004240398878
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:color"
@@ -102,7 +701,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17254917299776692851
+  Id: 1666372877937233073
   Name: "Cube Peices Covering Neon"
   Transform {
     Location {
@@ -118,12 +717,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10890274874115666730
-  ChildIds: 12738583523795155329
-  ChildIds: 16123868071309290171
-  ChildIds: 2992807075274579351
-  ChildIds: 8865040680224746474
-  ChildIds: 4751769131440713406
+  ParentId: 2999285004240398878
+  ChildIds: 16934108050329770034
+  ChildIds: 8264285852505554295
+  ChildIds: 10114089572104559289
+  ChildIds: 3551112578824068688
+  ChildIds: 16758955280255766626
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -138,7 +737,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4751769131440713406
+  Id: 16758955280255766626
   Name: "Cube blocking out Neon Behind Hologram"
   Transform {
     Location {
@@ -155,7 +754,7 @@ Objects {
       Z: 0.378222
     }
   }
-  ParentId: 17254917299776692851
+  ParentId: 1666372877937233073
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -198,7 +797,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8865040680224746474
+  Id: 3551112578824068688
   Name: "Cube at back blocking out other neon light"
   Transform {
     Location {
@@ -217,7 +816,7 @@ Objects {
       Z: 0.378214061
     }
   }
-  ParentId: 17254917299776692851
+  ParentId: 1666372877937233073
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -260,7 +859,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2992807075274579351
+  Id: 10114089572104559289
   Name: "Cube"
   Transform {
     Location {
@@ -278,7 +877,7 @@ Objects {
       Z: 0.372818321
     }
   }
-  ParentId: 17254917299776692851
+  ParentId: 1666372877937233073
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -319,7 +918,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16123868071309290171
+  Id: 8264285852505554295
   Name: "Cube"
   Transform {
     Location {
@@ -336,7 +935,7 @@ Objects {
       Z: 0.372819841
     }
   }
-  ParentId: 17254917299776692851
+  ParentId: 1666372877937233073
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -377,7 +976,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12738583523795155329
+  Id: 16934108050329770034
   Name: "Cube"
   Transform {
     Location {
@@ -396,7 +995,7 @@ Objects {
       Z: 0.372819662
     }
   }
-  ParentId: 17254917299776692851
+  ParentId: 1666372877937233073
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -437,7 +1036,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1815388960527540109
+  Id: 12424860416630387389
   Name: "Whitebox Wall 01"
   Transform {
     Location {
@@ -455,7 +1054,7 @@ Objects {
       Z: 0.842095196
     }
   }
-  ParentId: 10890274874115666730
+  ParentId: 2999285004240398878
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -490,7 +1089,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8275354255261289735
+  Id: 16477698352280163730
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -508,7 +1107,7 @@ Objects {
       Z: 0.54579854
     }
   }
-  ParentId: 10890274874115666730
+  ParentId: 2999285004240398878
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:color"
@@ -591,7 +1190,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14649088843684730353
+  Id: 2782935694628739956
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -609,7 +1208,7 @@ Objects {
       Z: 0.54579854
     }
   }
-  ParentId: 10890274874115666730
+  ParentId: 2999285004240398878
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:color"
@@ -692,7 +1291,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17402757653078170858
+  Id: 12805199179815031968
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -710,7 +1309,7 @@ Objects {
       Z: 0.54579854
     }
   }
-  ParentId: 10890274874115666730
+  ParentId: 2999285004240398878
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:color"
@@ -793,7 +1392,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9219351484705245958
+  Id: 7763323818578553909
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -811,7 +1410,7 @@ Objects {
       Z: 0.54579854
     }
   }
-  ParentId: 10890274874115666730
+  ParentId: 2999285004240398878
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:color"
@@ -894,7 +1493,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9709113058314310713
+  Id: 15743028648939839876
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -912,7 +1511,7 @@ Objects {
       Z: 0.32126826
     }
   }
-  ParentId: 10890274874115666730
+  ParentId: 2999285004240398878
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:color"
@@ -995,7 +1594,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2881010952529355660
+  Id: 17998978182865099939
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -1013,7 +1612,7 @@ Objects {
       Z: 0.32126826
     }
   }
-  ParentId: 10890274874115666730
+  ParentId: 2999285004240398878
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:color"
@@ -1096,7 +1695,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15955091217639269196
+  Id: 714919170795403120
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -1114,7 +1713,7 @@ Objects {
       Z: 0.32126826
     }
   }
-  ParentId: 10890274874115666730
+  ParentId: 2999285004240398878
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:color"
@@ -1197,7 +1796,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12270590526190428257
+  Id: 16267290859550071553
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -1215,7 +1814,7 @@ Objects {
       Z: 0.32126826
     }
   }
-  ParentId: 10890274874115666730
+  ParentId: 2999285004240398878
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:color"
@@ -1298,7 +1897,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4207801860715319666
+  Id: 5090098149761905757
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -1316,7 +1915,7 @@ Objects {
       Z: 0.637313485
     }
   }
-  ParentId: 10890274874115666730
+  ParentId: 2999285004240398878
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:color"
@@ -1399,7 +1998,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17783942529139047482
+  Id: 3525743058000269236
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -1416,7 +2015,7 @@ Objects {
       Z: 0.815171063
     }
   }
-  ParentId: 10890274874115666730
+  ParentId: 2999285004240398878
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:color"
@@ -1499,7 +2098,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1255681539691117302
+  Id: 10601189224115537035
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -1516,7 +2115,7 @@ Objects {
       Z: 0.815171063
     }
   }
-  ParentId: 10890274874115666730
+  ParentId: 2999285004240398878
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:color"
@@ -1599,7 +2198,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2065269405331993297
+  Id: 2442966694491347019
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -1616,7 +2215,7 @@ Objects {
       Z: 0.815171063
     }
   }
-  ParentId: 10890274874115666730
+  ParentId: 2999285004240398878
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:color"
@@ -1699,7 +2298,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7409437396635549079
+  Id: 293745355845536459
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -1716,7 +2315,7 @@ Objects {
       Z: 0.815171063
     }
   }
-  ParentId: 10890274874115666730
+  ParentId: 2999285004240398878
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:color"
@@ -1799,7 +2398,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3567127996844111576
+  Id: 8609627354781697612
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -1816,7 +2415,7 @@ Objects {
       Z: 0.637313485
     }
   }
-  ParentId: 10890274874115666730
+  ParentId: 2999285004240398878
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:color"
@@ -1899,7 +2498,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2247635590318103503
+  Id: 17463754996115026828
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -1916,7 +2515,7 @@ Objects {
       Z: 0.637313485
     }
   }
-  ParentId: 10890274874115666730
+  ParentId: 2999285004240398878
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:color"
@@ -1999,7 +2598,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5980776018603250050
+  Id: 17380557595594924504
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -2015,7 +2614,7 @@ Objects {
       Z: 0.815171063
     }
   }
-  ParentId: 10890274874115666730
+  ParentId: 2999285004240398878
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:color"
@@ -2098,7 +2697,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12947106560209367600
+  Id: 2995908141519693136
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -2114,7 +2713,7 @@ Objects {
       Z: 0.815171063
     }
   }
-  ParentId: 10890274874115666730
+  ParentId: 2999285004240398878
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:color"
@@ -2197,7 +2796,7 @@ Objects {
   }
 }
 Objects {
-  Id: 664667046628730876
+  Id: 13198113869237794251
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -2213,7 +2812,7 @@ Objects {
       Z: 0.815171063
     }
   }
-  ParentId: 10890274874115666730
+  ParentId: 2999285004240398878
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:color"
@@ -2296,7 +2895,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9157537570616613997
+  Id: 9173987960087425013
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -2312,7 +2911,7 @@ Objects {
       Z: 0.815171063
     }
   }
-  ParentId: 10890274874115666730
+  ParentId: 2999285004240398878
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:color"
@@ -2395,7 +2994,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12052076993917327558
+  Id: 7196805472036727320
   Name: "Cube"
   Transform {
     Location {
@@ -2414,7 +3013,7 @@ Objects {
       Z: 0.358813822
     }
   }
-  ParentId: 10890274874115666730
+  ParentId: 2999285004240398878
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2455,7 +3054,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18031846858730866026
+  Id: 3911711119149378129
   Name: "Cube"
   Transform {
     Location {
@@ -2474,7 +3073,7 @@ Objects {
       Z: 0.357834071
     }
   }
-  ParentId: 10890274874115666730
+  ParentId: 2999285004240398878
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2515,7 +3114,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5755124204216483813
+  Id: 14551966334498492468
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -2532,7 +3131,7 @@ Objects {
       Z: 0.815171063
     }
   }
-  ParentId: 10890274874115666730
+  ParentId: 2999285004240398878
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:color"
@@ -2615,7 +3214,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4496443522323892445
+  Id: 17690507661477516342
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -2632,7 +3231,7 @@ Objects {
       Z: 0.815171063
     }
   }
-  ParentId: 10890274874115666730
+  ParentId: 2999285004240398878
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:color"
@@ -2715,7 +3314,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9740290493820507504
+  Id: 2108105850933220499
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -2732,7 +3331,7 @@ Objects {
       Z: 0.815171063
     }
   }
-  ParentId: 10890274874115666730
+  ParentId: 2999285004240398878
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:color"
@@ -2815,7 +3414,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2804563045602136285
+  Id: 10927328008790296190
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -2832,7 +3431,7 @@ Objects {
       Z: 0.815171063
     }
   }
-  ParentId: 10890274874115666730
+  ParentId: 2999285004240398878
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:color"
@@ -2915,7 +3514,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18367101853407425700
+  Id: 2815699946679059104
   Name: "Cube"
   Transform {
     Location {
@@ -2932,7 +3531,7 @@ Objects {
       Z: 0.35783416
     }
   }
-  ParentId: 10890274874115666730
+  ParentId: 2999285004240398878
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -2975,7 +3574,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3671859621850807749
+  Id: 2665212691666382856
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -2992,7 +3591,7 @@ Objects {
       Z: 0.815171063
     }
   }
-  ParentId: 10890274874115666730
+  ParentId: 2999285004240398878
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:color"
@@ -3075,7 +3674,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14745604303224540038
+  Id: 3362169053971371078
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -3092,7 +3691,7 @@ Objects {
       Z: 0.815171063
     }
   }
-  ParentId: 10890274874115666730
+  ParentId: 2999285004240398878
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:color"
@@ -3175,7 +3774,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3177149036875281902
+  Id: 4404814469888222784
   Name: "Small Ground Light 1"
   Transform {
     Location {
@@ -3192,11 +3791,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10890274874115666730
-  ChildIds: 1850417600798563850
-  ChildIds: 1008035729857373555
-  ChildIds: 15619929576079965329
-  ChildIds: 1335659177457642111
+  ParentId: 2999285004240398878
+  ChildIds: 791186068138428964
+  ChildIds: 16789940270222834372
+  ChildIds: 15779402067143445188
+  ChildIds: 1120192826298070270
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3211,7 +3810,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1335659177457642111
+  Id: 1120192826298070270
   Name: "Military Tank Modern U Bracket 01"
   Transform {
     Location {
@@ -3228,7 +3827,7 @@ Objects {
       Z: 0.253611803
     }
   }
-  ParentId: 3177149036875281902
+  ParentId: 4404814469888222784
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3255,7 +3854,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15619929576079965329
+  Id: 15779402067143445188
   Name: "Spotlight"
   Transform {
     Location {
@@ -3274,7 +3873,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3177149036875281902
+  ParentId: 4404814469888222784
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3285,12 +3884,14 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Light {
-    Intensity: 26.4062195
+    Intensity: 100
     Color {
-      G: 0.72
-      B: 0.0190729536
+      R: 0.269999981
+      G: 1
+      B: 0.361854255
       A: 1
     }
+    CastShadows: true
     VolumetricIntensity: 5
     TeamSettings {
     }
@@ -3306,7 +3907,7 @@ Objects {
           InnerConeAngle: 30
           OuterConeAngle: 40
           Profile {
-            Value: "mc:espotlightprofile:basicspotlight"
+            Value: "mc:espotlightprofile:brightspot"
           }
         }
       }
@@ -3316,7 +3917,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1008035729857373555
+  Id: 16789940270222834372
   Name: "Street Light Pole Top 01"
   Transform {
     Location {
@@ -3331,7 +3932,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3177149036875281902
+  ParentId: 4404814469888222784
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -3369,7 +3970,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1850417600798563850
+  Id: 791186068138428964
   Name: "Barrier Light"
   Transform {
     Location {
@@ -3387,7 +3988,7 @@ Objects {
       Z: 0.720064759
     }
   }
-  ParentId: 3177149036875281902
+  ParentId: 4404814469888222784
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -3424,7 +4025,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13786618993126410697
+  Id: 18354623308160924982
   Name: "Small Ground Light 2"
   Transform {
     Location {
@@ -3441,11 +4042,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10890274874115666730
-  ChildIds: 7422024905260552647
-  ChildIds: 14015733612411935893
-  ChildIds: 1744809851418444110
-  ChildIds: 17886245231160124365
+  ParentId: 2999285004240398878
+  ChildIds: 16318303616318985366
+  ChildIds: 7804727888697414718
+  ChildIds: 14847566904621536231
+  ChildIds: 6740302995496563211
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3460,7 +4061,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17886245231160124365
+  Id: 6740302995496563211
   Name: "Spotlight"
   Transform {
     Location {
@@ -3479,7 +4080,7 @@ Objects {
       Z: 0.851821601
     }
   }
-  ParentId: 13786618993126410697
+  ParentId: 18354623308160924982
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3490,10 +4091,11 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Light {
-    Intensity: 44.7733536
+    Intensity: 100
     Color {
-      R: 0.0619203635
-      G: 0.85
+      R: 0.269999981
+      G: 1
+      B: 0.361854255
       A: 1
     }
     CastShadows: true
@@ -3512,7 +4114,7 @@ Objects {
           InnerConeAngle: 30
           OuterConeAngle: 40
           Profile {
-            Value: "mc:espotlightprofile:basicspotlight"
+            Value: "mc:espotlightprofile:brightspot"
           }
         }
       }
@@ -3522,7 +4124,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1744809851418444110
+  Id: 14847566904621536231
   Name: "Military Tank Modern U Bracket 01"
   Transform {
     Location {
@@ -3539,7 +4141,7 @@ Objects {
       Z: 0.253611803
     }
   }
-  ParentId: 13786618993126410697
+  ParentId: 18354623308160924982
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3566,7 +4168,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14015733612411935893
+  Id: 7804727888697414718
   Name: "Barrier Light"
   Transform {
     Location {
@@ -3584,7 +4186,7 @@ Objects {
       Z: 0.720064759
     }
   }
-  ParentId: 13786618993126410697
+  ParentId: 18354623308160924982
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -3621,7 +4223,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7422024905260552647
+  Id: 16318303616318985366
   Name: "Street Light Pole Top 01"
   Transform {
     Location {
@@ -3637,7 +4239,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13786618993126410697
+  ParentId: 18354623308160924982
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -3675,7 +4277,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9360888601383034756
+  Id: 14518726749791486598
   Name: "Display With Holograms"
   Transform {
     Location {
@@ -3692,9 +4294,9 @@ Objects {
       Z: 0.849194884
     }
   }
-  ParentId: 10890274874115666730
-  ChildIds: 7220962314838893387
-  ChildIds: 3083116327590411594
+  ParentId: 2999285004240398878
+  ChildIds: 11869152678315090882
+  ChildIds: 10523097757632468944
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3709,7 +4311,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3083116327590411594
+  Id: 10523097757632468944
   Name: "Display Pad (Scifi Lazy Susan)"
   Transform {
     Location {
@@ -3726,11 +4328,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9360888601383034756
-  ChildIds: 7761094066697602652
-  ChildIds: 3289005069669901617
-  ChildIds: 8771932800054666446
-  ChildIds: 14842964748871752067
+  ParentId: 14518726749791486598
+  ChildIds: 11407375821621626480
+  ChildIds: 8416436424226138850
+  ChildIds: 10100583176098083430
+  ChildIds: 17751733875813194076
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3745,7 +4347,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14842964748871752067
+  Id: 17751733875813194076
   Name: "Sci-fi Console Screen 02"
   Transform {
     Location {
@@ -3764,7 +4366,7 @@ Objects {
       Z: 0.395791352
     }
   }
-  ParentId: 3083116327590411594
+  ParentId: 10523097757632468944
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -3801,7 +4403,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8771932800054666446
+  Id: 10100583176098083430
   Name: "Sci-fi Terminal Keyboard 01"
   Transform {
     Location {
@@ -3820,7 +4422,7 @@ Objects {
       Z: 0.888363957
     }
   }
-  ParentId: 3083116327590411594
+  ParentId: 10523097757632468944
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail3:color"
@@ -3857,7 +4459,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3289005069669901617
+  Id: 8416436424226138850
   Name: "Display Hologram"
   Transform {
     Location {
@@ -3874,7 +4476,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 3083116327590411594
+  ParentId: 10523097757632468944
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3918,7 +4520,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7761094066697602652
+  Id: 11407375821621626480
   Name: "Hologram Display Base"
   Transform {
     Location {
@@ -3933,14 +4535,14 @@ Objects {
       Z: 1.206586
     }
   }
-  ParentId: 3083116327590411594
-  ChildIds: 2585648411038100891
-  ChildIds: 15318254624499301152
-  ChildIds: 15818206739547490577
-  ChildIds: 9048817723441547203
-  ChildIds: 3269525244742934492
-  ChildIds: 14834034073806714768
-  ChildIds: 18168821451719580028
+  ParentId: 10523097757632468944
+  ChildIds: 4989194800448050638
+  ChildIds: 3647828236463812407
+  ChildIds: 3510399595973170370
+  ChildIds: 6353352915642863311
+  ChildIds: 5280985601438353339
+  ChildIds: 7517428264125705303
+  ChildIds: 15515306952991794950
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3955,7 +4557,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18168821451719580028
+  Id: 15515306952991794950
   Name: "Military Tank Modern Light 02"
   Transform {
     Location {
@@ -3972,7 +4574,7 @@ Objects {
       Z: 1.30951619
     }
   }
-  ParentId: 7761094066697602652
+  ParentId: 11407375821621626480
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Lights:color"
@@ -4010,7 +4612,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14834034073806714768
+  Id: 7517428264125705303
   Name: "Cylinder - Chamfered"
   Transform {
     Location {
@@ -4026,7 +4628,7 @@ Objects {
       Z: 0.232362047
     }
   }
-  ParentId: 7761094066697602652
+  ParentId: 11407375821621626480
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4061,7 +4663,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3269525244742934492
+  Id: 5280985601438353339
   Name: "Ring - Thin"
   Transform {
     Location {
@@ -4077,7 +4679,7 @@ Objects {
       Z: 2.29606891
     }
   }
-  ParentId: 7761094066697602652
+  ParentId: 11407375821621626480
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4121,7 +4723,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9048817723441547203
+  Id: 6353352915642863311
   Name: "Sci-fi Ship Engine 01"
   Transform {
     Location {
@@ -4138,7 +4740,7 @@ Objects {
       Z: 1.95679736
     }
   }
-  ParentId: 7761094066697602652
+  ParentId: 11407375821621626480
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -4176,7 +4778,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15818206739547490577
+  Id: 3510399595973170370
   Name: "Sci-fi Ship Engine 03"
   Transform {
     Location {
@@ -4193,7 +4795,7 @@ Objects {
       Z: 0.328369319
     }
   }
-  ParentId: 7761094066697602652
+  ParentId: 11407375821621626480
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4220,7 +4822,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15318254624499301152
+  Id: 3647828236463812407
   Name: "Sci-fi Ship Engine 03"
   Transform {
     Location {
@@ -4237,7 +4839,7 @@ Objects {
       Z: 0.328369319
     }
   }
-  ParentId: 7761094066697602652
+  ParentId: 11407375821621626480
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4264,7 +4866,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2585648411038100891
+  Id: 4989194800448050638
   Name: "Sci-fi Ship Nacelle 04"
   Transform {
     Location {
@@ -4280,7 +4882,7 @@ Objects {
       Z: 0.853317857
     }
   }
-  ParentId: 7761094066697602652
+  ParentId: 11407375821621626480
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -4317,7 +4919,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7220962314838893387
+  Id: 11869152678315090882
   Name: "All Towers in Display Hologram"
   Transform {
     Location {
@@ -4334,7 +4936,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9360888601383034756
+  ParentId: 14518726749791486598
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4350,7 +4952,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1371760182987906478
+  Id: 16199436798018943209
   Name: "Highlighted Neon Trim"
   Transform {
     Location {
@@ -4367,17 +4969,17 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10890274874115666730
-  ChildIds: 11685378070930299659
-  ChildIds: 5896269292556087205
-  ChildIds: 14532466499427735608
-  ChildIds: 5683248470042003946
-  ChildIds: 6750830703720862071
-  ChildIds: 18107829091997381534
-  ChildIds: 16316937344059075801
-  ChildIds: 8417737456792626931
-  ChildIds: 1411772105963097421
-  ChildIds: 13297212253033566296
+  ParentId: 2999285004240398878
+  ChildIds: 13696039251741216550
+  ChildIds: 13281405326679068790
+  ChildIds: 9358441132540839274
+  ChildIds: 425417576357146068
+  ChildIds: 13945050022073474389
+  ChildIds: 4032008451409621338
+  ChildIds: 13121965268766428796
+  ChildIds: 1814376754084400188
+  ChildIds: 404907997977836491
+  ChildIds: 12927414367370321576
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -4392,7 +4994,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13297212253033566296
+  Id: 12927414367370321576
   Name: "Cube"
   Transform {
     Location {
@@ -4410,7 +5012,7 @@ Objects {
       Z: 6.23792171
     }
   }
-  ParentId: 1371760182987906478
+  ParentId: 16199436798018943209
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4459,7 +5061,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1411772105963097421
+  Id: 404907997977836491
   Name: "Cube"
   Transform {
     Location {
@@ -4477,7 +5079,7 @@ Objects {
       Z: 6.23792171
     }
   }
-  ParentId: 1371760182987906478
+  ParentId: 16199436798018943209
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4526,7 +5128,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8417737456792626931
+  Id: 1814376754084400188
   Name: "Cube"
   Transform {
     Location {
@@ -4545,7 +5147,7 @@ Objects {
       Z: 2.48863554
     }
   }
-  ParentId: 1371760182987906478
+  ParentId: 16199436798018943209
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4594,7 +5196,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16316937344059075801
+  Id: 13121965268766428796
   Name: "Cube"
   Transform {
     Location {
@@ -4612,7 +5214,7 @@ Objects {
       Z: 2.48863554
     }
   }
-  ParentId: 1371760182987906478
+  ParentId: 16199436798018943209
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4661,7 +5263,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18107829091997381534
+  Id: 4032008451409621338
   Name: "Cube"
   Transform {
     Location {
@@ -4680,7 +5282,7 @@ Objects {
       Z: 11.6942863
     }
   }
-  ParentId: 1371760182987906478
+  ParentId: 16199436798018943209
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4729,7 +5331,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6750830703720862071
+  Id: 13945050022073474389
   Name: "Cube"
   Transform {
     Location {
@@ -4748,7 +5350,7 @@ Objects {
       Z: 2.16163611
     }
   }
-  ParentId: 1371760182987906478
+  ParentId: 16199436798018943209
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4797,7 +5399,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5683248470042003946
+  Id: 425417576357146068
   Name: "Cube"
   Transform {
     Location {
@@ -4816,7 +5418,7 @@ Objects {
       Z: 2.16163611
     }
   }
-  ParentId: 1371760182987906478
+  ParentId: 16199436798018943209
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4865,7 +5467,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14532466499427735608
+  Id: 9358441132540839274
   Name: "Cube"
   Transform {
     Location {
@@ -4884,7 +5486,7 @@ Objects {
       Z: 4.74509478
     }
   }
-  ParentId: 1371760182987906478
+  ParentId: 16199436798018943209
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4933,7 +5535,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5896269292556087205
+  Id: 13281405326679068790
   Name: "Cube"
   Transform {
     Location {
@@ -4952,7 +5554,7 @@ Objects {
       Z: 4.74247551
     }
   }
-  ParentId: 1371760182987906478
+  ParentId: 16199436798018943209
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -5001,7 +5603,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11685378070930299659
+  Id: 13696039251741216550
   Name: "Cube"
   Transform {
     Location {
@@ -5019,7 +5621,7 @@ Objects {
       Z: 11.8284073
     }
   }
-  ParentId: 1371760182987906478
+  ParentId: 16199436798018943209
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -5068,7 +5670,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11842091657816113371
+  Id: 7009862722526063045
   Name: "Raised Parts of Floor"
   Transform {
     Location {
@@ -5085,7 +5687,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10890274874115666730
+  ParentId: 2999285004240398878
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5100,7 +5702,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3339704162106060531
+  Id: 7211415149109640449
   Name: "Small Doors"
   Transform {
     Location {
@@ -5117,13 +5719,13 @@ Objects {
       Z: 0.951125622
     }
   }
-  ParentId: 10890274874115666730
-  ChildIds: 9457140429106711654
-  ChildIds: 9560385109115005515
-  ChildIds: 7576922987556735749
-  ChildIds: 15144252318067837509
-  ChildIds: 15403169936001179937
-  ChildIds: 16055310274402267448
+  ParentId: 2999285004240398878
+  ChildIds: 15151908863655937018
+  ChildIds: 11393276473117925960
+  ChildIds: 5882573264678436088
+  ChildIds: 16732091868282062240
+  ChildIds: 15896943698183753442
+  ChildIds: 7438605821234904816
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5138,7 +5740,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16055310274402267448
+  Id: 7438605821234904816
   Name: "Barrier Light"
   Transform {
     Location {
@@ -5155,7 +5757,7 @@ Objects {
       Z: 1.18411994
     }
   }
-  ParentId: 3339704162106060531
+  ParentId: 7211415149109640449
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -5201,7 +5803,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15403169936001179937
+  Id: 15896943698183753442
   Name: "Military Tank Modern Tread Frame 01 - Mid 1m"
   Transform {
     Location {
@@ -5217,7 +5819,7 @@ Objects {
       Z: 0.555901527
     }
   }
-  ParentId: 3339704162106060531
+  ParentId: 7211415149109640449
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -5264,7 +5866,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15144252318067837509
+  Id: 16732091868282062240
   Name: "Military Tank Modern Light 02"
   Transform {
     Location {
@@ -5280,7 +5882,7 @@ Objects {
       Z: 0.406168342
     }
   }
-  ParentId: 3339704162106060531
+  ParentId: 7211415149109640449
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Lights:color"
@@ -5317,7 +5919,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7576922987556735749
+  Id: 5882573264678436088
   Name: "Military Tank Modern Light 02"
   Transform {
     Location {
@@ -5333,7 +5935,7 @@ Objects {
       Z: 0.406168342
     }
   }
-  ParentId: 3339704162106060531
+  ParentId: 7211415149109640449
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Lights:color"
@@ -5370,7 +5972,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9560385109115005515
+  Id: 11393276473117925960
   Name: "Sci-fi Cockpit Back 01"
   Transform {
     Location {
@@ -5385,7 +5987,7 @@ Objects {
       Z: 2.14625049
     }
   }
-  ParentId: 3339704162106060531
+  ParentId: 7211415149109640449
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -5420,7 +6022,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9457140429106711654
+  Id: 15151908863655937018
   Name: "Sci-fi Cockpit Back 01"
   Transform {
     Location {
@@ -5435,7 +6037,7 @@ Objects {
       Z: 2.14625049
     }
   }
-  ParentId: 3339704162106060531
+  ParentId: 7211415149109640449
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -5470,7 +6072,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11897913381106356198
+  Id: 4709169857567502471
   Name: "Armory Label Sign"
   Transform {
     Location {
@@ -5487,7 +6089,7 @@ Objects {
       Z: 0.532295227
     }
   }
-  ParentId: 10890274874115666730
+  ParentId: 2999285004240398878
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5503,7 +6105,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5988536396895605129
+  Id: 13433820108796832859
   Name: "Roof Light for Display Two"
   Transform {
     Location {
@@ -5520,10 +6122,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10890274874115666730
-  ChildIds: 14215903582408046674
-  ChildIds: 14569734450951006278
-  ChildIds: 7027365847339795716
+  ParentId: 2999285004240398878
+  ChildIds: 18115033749223355031
+  ChildIds: 6849124176930779757
+  ChildIds: 13586408892134080513
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5538,18 +6140,18 @@ Objects {
   }
 }
 Objects {
-  Id: 7027365847339795716
+  Id: 13586408892134080513
   Name: "Area Light"
   Transform {
     Location {
-      X: 106.591309
-      Y: 18.565424
-      Z: -1.52587891e-05
+      X: 170.236771
+      Y: -445.236115
+      Z: -9.22679138
     }
     Rotation {
-      Pitch: -80.1063766
-      Yaw: 94.6095352
-      Roll: 89.9999161
+      Pitch: -80.1056213
+      Yaw: 90.883934
+      Roll: 90
     }
     Scale {
       X: 1
@@ -5557,7 +6159,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5988536396895605129
+  ParentId: 13433820108796832859
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5594,18 +6196,18 @@ Objects {
   }
 }
 Objects {
-  Id: 14569734450951006278
+  Id: 6849124176930779757
   Name: "Area Light"
   Transform {
     Location {
-      X: -112.289551
-      Y: 0.913580894
-      Z: 0.000534057617
+      X: -49.329155
+      Y: -448.631348
+      Z: -9.22624207
     }
     Rotation {
-      Pitch: -80.106575
-      Yaw: 94.6092834
-      Roll: -89.9999542
+      Pitch: -80.1057434
+      Yaw: 90.8836288
+      Roll: -90
     }
     Scale {
       X: 1
@@ -5613,7 +6215,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5988536396895605129
+  ParentId: 13433820108796832859
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5650,18 +6252,18 @@ Objects {
   }
 }
 Objects {
-  Id: 14215903582408046674
+  Id: 18115033749223355031
   Name: "Military Tank Modern Light 02"
   Transform {
     Location {
-      X: 5.69775295
-      Y: -19.4790039
-      Z: 45.5396423
+      X: 67.0844193
+      Y: -476.645752
+      Z: 36.3128662
     }
     Rotation {
-      Pitch: -80.1074905
-      Yaw: 94.6104507
-      Roll: -179.999985
+      Pitch: -80.1069336
+      Yaw: 90.8852463
+      Roll: 180
     }
     Scale {
       X: 1.45227981
@@ -5669,7 +6271,7 @@ Objects {
       Z: 3.49343753
     }
   }
-  ParentId: 5988536396895605129
+  ParentId: 13433820108796832859
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Lights:color"
@@ -5706,7 +6308,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11731292466824291143
+  Id: 13567367664003305489
   Name: "Roof Light for Display One"
   Transform {
     Location {
@@ -5723,10 +6325,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10890274874115666730
-  ChildIds: 16912637914586818307
-  ChildIds: 12503191152385296827
-  ChildIds: 1264576102955288721
+  ParentId: 2999285004240398878
+  ChildIds: 972691945829911727
+  ChildIds: 6133110237697694057
+  ChildIds: 11765803563354223181
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5741,18 +6343,18 @@ Objects {
   }
 }
 Objects {
-  Id: 1264576102955288721
+  Id: 11765803563354223181
   Name: "Area Light"
   Transform {
     Location {
-      X: 106.643555
-      Y: 17.9255314
-      Z: -1.52587891e-05
+      X: 53.7732
+      Y: 60.419548
+      Z: 0.0606231689
     }
     Rotation {
-      Pitch: -82.4981232
-      Yaw: 94.6103745
-      Roll: 89.9999466
+      Pitch: -82.4968872
+      Yaw: 130.319031
+      Roll: 90
     }
     Scale {
       X: 1
@@ -5760,7 +6362,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11731292466824291143
+  ParentId: 13567367664003305489
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5797,18 +6399,18 @@ Objects {
   }
 }
 Objects {
-  Id: 12503191152385296827
+  Id: 6133110237697694057
   Name: "Area Light"
   Transform {
     Location {
-      X: -112.239746
-      Y: 0.273932457
-      Z: 0.000198364258
+      X: -113.653328
+      Y: -81.6716156
+      Z: 0.060836792
     }
     Rotation {
-      Pitch: -82.4972534
-      Yaw: 94.6097717
-      Roll: -89.9999237
+      Pitch: -82.496
+      Yaw: 130.318222
+      Roll: -90
     }
     Scale {
       X: 1
@@ -5816,7 +6418,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11731292466824291143
+  ParentId: 13567367664003305489
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5853,17 +6455,17 @@ Objects {
   }
 }
 Objects {
-  Id: 16912637914586818307
+  Id: 972691945829911727
   Name: "Military Tank Modern Light 02"
   Transform {
     Location {
-      X: 5.59667873
-      Y: -18.1989746
-      Z: 46.7434692
+      X: -7.19018888
+      Y: -27.8920898
+      Z: 46.8041077
     }
     Rotation {
-      Pitch: -82.4981384
-      Yaw: 94.610054
+      Pitch: -82.4966431
+      Yaw: 130.318405
       Roll: 180
     }
     Scale {
@@ -5872,7 +6474,7 @@ Objects {
       Z: 3.49343753
     }
   }
-  ParentId: 11731292466824291143
+  ParentId: 13567367664003305489
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Lights:color"
@@ -5909,7 +6511,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8575690831217435403
+  Id: 18081790932805801925
   Name: "Light Over Armory Desk"
   Transform {
     Location {
@@ -5926,10 +6528,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10890274874115666730
-  ChildIds: 11992644806201385258
-  ChildIds: 15059387938951918256
-  ChildIds: 14805787769885368602
+  ParentId: 2999285004240398878
+  ChildIds: 14836359125165556646
+  ChildIds: 13394827155426070555
+  ChildIds: 2473534729712317693
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5944,18 +6546,17 @@ Objects {
   }
 }
 Objects {
-  Id: 14805787769885368602
+  Id: 2473534729712317693
   Name: "Area Light"
   Transform {
     Location {
-      X: 7.17284679
-      Y: -82.9143066
-      Z: 3.05175781e-05
+      X: -241.448257
+      Y: -147.223846
+      Z: -15.3074036
     }
     Rotation {
-      Pitch: -90
-      Yaw: 14.0362635
-      Roll: -104.03627
+      Pitch: -81.2546387
+      Roll: -90
     }
     Scale {
       X: 1.51011145
@@ -5963,7 +6564,7 @@ Objects {
       Z: 1.00000012
     }
   }
-  ParentId: 8575690831217435403
+  ParentId: 18081790932805801925
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6001,18 +6602,17 @@ Objects {
   }
 }
 Objects {
-  Id: 15059387938951918256
+  Id: 13394827155426070555
   Name: "Area Light"
   Transform {
     Location {
-      X: 7.17285681
-      Y: 88.3720703
-      Z: 3.05175781e-05
+      X: -241.448242
+      Y: 24.0625286
+      Z: -15.3074036
     }
     Rotation {
-      Pitch: -90
-      Yaw: -7.12502289
-      Roll: -82.8749695
+      Pitch: -81.2541199
+      Roll: -90
     }
     Scale {
       X: 1.51011145
@@ -6020,7 +6620,7 @@ Objects {
       Z: 1.00000012
     }
   }
-  ParentId: 8575690831217435403
+  ParentId: 18081790932805801925
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6058,18 +6658,17 @@ Objects {
   }
 }
 Objects {
-  Id: 11992644806201385258
+  Id: 14836359125165556646
   Name: "Military Tank Modern Light 02"
   Transform {
     Location {
-      X: -14.3457031
-      Y: -5.45764065
-      Z: 53.3400574
+      X: -270.826172
+      Y: -69.7671814
+      Z: 34.1408463
     }
     Rotation {
-      Pitch: -90
-      Yaw: -3.64276748e-05
-      Roll: -179.999908
+      Pitch: -81.2546387
+      Roll: 180
     }
     Scale {
       X: 2.19310427
@@ -6077,7 +6676,7 @@ Objects {
       Z: 3.49343801
     }
   }
-  ParentId: 8575690831217435403
+  ParentId: 18081790932805801925
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Lights:color"
@@ -6114,7 +6713,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4942695408197123958
+  Id: 17710300167853324240
   Name: "Desk "
   Transform {
     Location {
@@ -6131,16 +6730,16 @@ Objects {
       Z: 0.931032777
     }
   }
-  ParentId: 10890274874115666730
-  ChildIds: 15669743950416892530
-  ChildIds: 5560877407923201204
-  ChildIds: 9111777479575548048
-  ChildIds: 15447458284632714352
-  ChildIds: 3442286067960199736
-  ChildIds: 8674085400933111144
-  ChildIds: 17164740122410598270
-  ChildIds: 5515494523872610799
-  ChildIds: 3800251203881121098
+  ParentId: 2999285004240398878
+  ChildIds: 16331913777944452235
+  ChildIds: 14629006613630832458
+  ChildIds: 3199412965653614362
+  ChildIds: 2871633077035453468
+  ChildIds: 17960328088926307781
+  ChildIds: 3915491999527490102
+  ChildIds: 4591987833310969727
+  ChildIds: 3084685152059316148
+  ChildIds: 16326699297767224632
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6155,7 +6754,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3800251203881121098
+  Id: 16326699297767224632
   Name: "Lights on Display Desk"
   Transform {
     Location {
@@ -6171,10 +6770,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4942695408197123958
-  ChildIds: 5226670039978403303
-  ChildIds: 10121008344175819504
-  ChildIds: 8878270567040518313
+  ParentId: 17710300167853324240
+  ChildIds: 18077275821125173562
+  ChildIds: 13400736431952620595
+  ChildIds: 17166930859308409587
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6189,7 +6788,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8878270567040518313
+  Id: 17166930859308409587
   Name: "Point Light"
   Transform {
     Location {
@@ -6206,7 +6805,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3800251203881121098
+  ParentId: 16326699297767224632
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6243,7 +6842,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10121008344175819504
+  Id: 13400736431952620595
   Name: "Point Light"
   Transform {
     Location {
@@ -6260,7 +6859,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3800251203881121098
+  ParentId: 16326699297767224632
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6297,7 +6896,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5226670039978403303
+  Id: 18077275821125173562
   Name: "Point Light"
   Transform {
     Location {
@@ -6314,7 +6913,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3800251203881121098
+  ParentId: 16326699297767224632
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6351,7 +6950,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5515494523872610799
+  Id: 3084685152059316148
   Name: "Small Register on Desk"
   Transform {
     Location {
@@ -6368,11 +6967,11 @@ Objects {
       Z: 1.07407606
     }
   }
-  ParentId: 4942695408197123958
-  ChildIds: 6735814128401529679
-  ChildIds: 15512632973405989458
-  ChildIds: 11927222988991831112
-  ChildIds: 1364137999564415091
+  ParentId: 17710300167853324240
+  ChildIds: 4740535213987649136
+  ChildIds: 15110820214775533307
+  ChildIds: 1326964270009614136
+  ChildIds: 2770202958466127603
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6387,7 +6986,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1364137999564415091
+  Id: 2770202958466127603
   Name: "Sci-fi Ship Cockpit Back 03"
   Transform {
     Location {
@@ -6404,7 +7003,7 @@ Objects {
       Z: 0.195095062
     }
   }
-  ParentId: 5515494523872610799
+  ParentId: 3084685152059316148
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6431,7 +7030,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11927222988991831112
+  Id: 1326964270009614136
   Name: "Sci-fi Terminal Keyboard 01"
   Transform {
     Location {
@@ -6448,7 +7047,7 @@ Objects {
       Z: 0.809976339
     }
   }
-  ParentId: 5515494523872610799
+  ParentId: 3084685152059316148
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail3:color"
@@ -6499,7 +7098,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15512632973405989458
+  Id: 15110820214775533307
   Name: "Military Radio Set Template"
   Transform {
     Location {
@@ -6515,7 +7114,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5515494523872610799
+  ParentId: 3084685152059316148
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6538,7 +7137,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6735814128401529679
+  Id: 4740535213987649136
   Name: "Military Mobile Radar 01 - Base - 01"
   Transform {
     Location {
@@ -6553,7 +7152,7 @@ Objects {
       Z: 0.303919345
     }
   }
-  ParentId: 5515494523872610799
+  ParentId: 3084685152059316148
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6588,7 +7187,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17164740122410598270
+  Id: 4591987833310969727
   Name: "Hologram Turret"
   Transform {
     Location {
@@ -6605,7 +7204,7 @@ Objects {
       Z: 0.384570271
     }
   }
-  ParentId: 4942695408197123958
+  ParentId: 17710300167853324240
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -6988,7 +7587,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8674085400933111144
+  Id: 3915491999527490102
   Name: "Sci-fi Ship Blaster 02"
   Transform {
     Location {
@@ -7006,7 +7605,7 @@ Objects {
       Z: 0.501998663
     }
   }
-  ParentId: 4942695408197123958
+  ParentId: 17710300167853324240
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7033,7 +7632,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3442286067960199736
+  Id: 17960328088926307781
   Name: "Desk Border"
   Transform {
     Location {
@@ -7050,16 +7649,16 @@ Objects {
       Z: 1.07407606
     }
   }
-  ParentId: 4942695408197123958
-  ChildIds: 14162625697877856765
-  ChildIds: 11084854666880536278
-  ChildIds: 4884411110924450413
-  ChildIds: 3285729331470347134
-  ChildIds: 13929925722794816163
-  ChildIds: 8757857116275052625
-  ChildIds: 16250563533118266768
-  ChildIds: 1957913800308874241
-  ChildIds: 15772830930997237356
+  ParentId: 17710300167853324240
+  ChildIds: 5902126862753281474
+  ChildIds: 1548911849388590639
+  ChildIds: 9940682193828020344
+  ChildIds: 4021113619844875229
+  ChildIds: 15614393253039783666
+  ChildIds: 16460507778241282415
+  ChildIds: 16537106740792215428
+  ChildIds: 12195337880900252880
+  ChildIds: 5823847230572633370
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7074,7 +7673,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15772830930997237356
+  Id: 5823847230572633370
   Name: "Sci-fi Ship Blaster 02"
   Transform {
     Location {
@@ -7091,7 +7690,7 @@ Objects {
       Z: 0.467377186
     }
   }
-  ParentId: 3442286067960199736
+  ParentId: 17960328088926307781
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7118,7 +7717,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1957913800308874241
+  Id: 12195337880900252880
   Name: "Sci-fi Ship Engine 02"
   Transform {
     Location {
@@ -7134,7 +7733,7 @@ Objects {
       Z: 0.10910628
     }
   }
-  ParentId: 3442286067960199736
+  ParentId: 17960328088926307781
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -7171,7 +7770,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16250563533118266768
+  Id: 16537106740792215428
   Name: "Sci-fi Ship Engine 02"
   Transform {
     Location {
@@ -7188,7 +7787,7 @@ Objects {
       Z: 0.10910628
     }
   }
-  ParentId: 3442286067960199736
+  ParentId: 17960328088926307781
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -7225,7 +7824,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8757857116275052625
+  Id: 16460507778241282415
   Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
@@ -7241,7 +7840,7 @@ Objects {
       Z: 1.17661
     }
   }
-  ParentId: 3442286067960199736
+  ParentId: 17960328088926307781
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7268,7 +7867,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13929925722794816163
+  Id: 15614393253039783666
   Name: "Military Crate Hinge 02"
   Transform {
     Location {
@@ -7285,7 +7884,7 @@ Objects {
       Z: 2.91573668
     }
   }
-  ParentId: 3442286067960199736
+  ParentId: 17960328088926307781
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7312,7 +7911,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3285729331470347134
+  Id: 4021113619844875229
   Name: "Military Crate Hinge 02"
   Transform {
     Location {
@@ -7329,7 +7928,7 @@ Objects {
       Z: 2.91573668
     }
   }
-  ParentId: 3442286067960199736
+  ParentId: 17960328088926307781
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7356,7 +7955,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4884411110924450413
+  Id: 9940682193828020344
   Name: "Sci-fi Ship Blaster 02"
   Transform {
     Location {
@@ -7373,7 +7972,7 @@ Objects {
       Z: 0.467377186
     }
   }
-  ParentId: 3442286067960199736
+  ParentId: 17960328088926307781
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7400,7 +7999,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11084854666880536278
+  Id: 1548911849388590639
   Name: "Sci-fi Ship Blaster 02"
   Transform {
     Location {
@@ -7417,7 +8016,7 @@ Objects {
       Z: 0.467377186
     }
   }
-  ParentId: 3442286067960199736
+  ParentId: 17960328088926307781
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7444,7 +8043,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14162625697877856765
+  Id: 5902126862753281474
   Name: "Sci-fi Console Hinge 01"
   Transform {
     Location {
@@ -7461,7 +8060,7 @@ Objects {
       Z: 2.20304489
     }
   }
-  ParentId: 3442286067960199736
+  ParentId: 17960328088926307781
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7488,7 +8087,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15447458284632714352
+  Id: 2871633077035453468
   Name: "New Tool"
   Transform {
     Scale {
@@ -7497,7 +8096,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4942695408197123958
+  ParentId: 17710300167853324240
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7542,7 +8141,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9111777479575548048
+  Id: 3199412965653614362
   Name: "Arch"
   Transform {
     Location {
@@ -7559,7 +8158,7 @@ Objects {
       Z: 1.81307018
     }
   }
-  ParentId: 4942695408197123958
+  ParentId: 17710300167853324240
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -7594,7 +8193,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5560877407923201204
+  Id: 14629006613630832458
   Name: "Ammo on Display"
   Transform {
     Location {
@@ -7610,11 +8209,11 @@ Objects {
       Z: 0.480455279
     }
   }
-  ParentId: 4942695408197123958
-  ChildIds: 13648151374684150872
-  ChildIds: 8884543535624732702
-  ChildIds: 10382196113936519677
-  ChildIds: 9702488209832747357
+  ParentId: 17710300167853324240
+  ChildIds: 15088375028684297195
+  ChildIds: 12317833998482502992
+  ChildIds: 3659705528080061093
+  ChildIds: 16386825993315963443
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7629,7 +8228,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9702488209832747357
+  Id: 16386825993315963443
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -7648,7 +8247,7 @@ Objects {
       Z: 0.654059291
     }
   }
-  ParentId: 5560877407923201204
+  ParentId: 14629006613630832458
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -7705,7 +8304,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10382196113936519677
+  Id: 3659705528080061093
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -7724,7 +8323,7 @@ Objects {
       Z: 0.654059291
     }
   }
-  ParentId: 5560877407923201204
+  ParentId: 14629006613630832458
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -7781,7 +8380,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8884543535624732702
+  Id: 12317833998482502992
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -7800,7 +8399,7 @@ Objects {
       Z: 0.654059291
     }
   }
-  ParentId: 5560877407923201204
+  ParentId: 14629006613630832458
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -7857,7 +8456,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13648151374684150872
+  Id: 15088375028684297195
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -7876,7 +8475,7 @@ Objects {
       Z: 0.654059291
     }
   }
-  ParentId: 5560877407923201204
+  ParentId: 14629006613630832458
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -7931,7 +8530,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15669743950416892530
+  Id: 16331913777944452235
   Name: "Tools on Display, Desk"
   Transform {
     Location {
@@ -7948,14 +8547,14 @@ Objects {
       Z: 0.429300487
     }
   }
-  ParentId: 4942695408197123958
-  ChildIds: 18141874597425018396
-  ChildIds: 1236185606391490012
-  ChildIds: 15650342751553314254
-  ChildIds: 1649288018339260867
-  ChildIds: 8515972162919711602
-  ChildIds: 2081599264730428785
-  ChildIds: 15770565597736308850
+  ParentId: 17710300167853324240
+  ChildIds: 8415966540264890139
+  ChildIds: 1267707338907028247
+  ChildIds: 4669102908164106440
+  ChildIds: 15156933957863126664
+  ChildIds: 7562496416274955918
+  ChildIds: 12793269997020160796
+  ChildIds: 14102617416829812469
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7977,7 +8576,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15770565597736308850
+  Id: 14102617416829812469
   Name: "Tool_06"
   Transform {
     Location {
@@ -7993,9 +8592,9 @@ Objects {
       Z: 1.14829707
     }
   }
-  ParentId: 15669743950416892530
-  ChildIds: 13979833579818090659
-  ChildIds: 5403085505111447651
+  ParentId: 16331913777944452235
+  ChildIds: 2106145419596038688
+  ChildIds: 17303680003205558556
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8016,7 +8615,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5403085505111447651
+  Id: 17303680003205558556
   Name: "Sci-fi Ship Blaster 03"
   Transform {
     Location {
@@ -8035,7 +8634,7 @@ Objects {
       Z: 0.301921099
     }
   }
-  ParentId: 15770565597736308850
+  ParentId: 14102617416829812469
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8068,7 +8667,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13979833579818090659
+  Id: 2106145419596038688
   Name: "Sci-fi CockPit Control Yoke"
   Transform {
     Location {
@@ -8085,7 +8684,7 @@ Objects {
       Z: 4.20454502
     }
   }
-  ParentId: 15770565597736308850
+  ParentId: 14102617416829812469
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -8133,7 +8732,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2081599264730428785
+  Id: 12793269997020160796
   Name: "Tool_05"
   Transform {
     Location {
@@ -8149,9 +8748,9 @@ Objects {
       Z: 0.818737745
     }
   }
-  ParentId: 15669743950416892530
-  ChildIds: 12031303922232142985
-  ChildIds: 10089800843250819498
+  ParentId: 16331913777944452235
+  ChildIds: 8135939635274651985
+  ChildIds: 7844306713315710649
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8172,7 +8771,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10089800843250819498
+  Id: 7844306713315710649
   Name: "Sci-fi Ship Blaster 03"
   Transform {
     Location {
@@ -8191,7 +8790,7 @@ Objects {
       Z: 0.357138932
     }
   }
-  ParentId: 2081599264730428785
+  ParentId: 12793269997020160796
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8224,7 +8823,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12031303922232142985
+  Id: 8135939635274651985
   Name: "Sci-fi CockPit Control Yoke"
   Transform {
     Location {
@@ -8241,7 +8840,7 @@ Objects {
       Z: 4.97350836
     }
   }
-  ParentId: 2081599264730428785
+  ParentId: 12793269997020160796
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -8291,7 +8890,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8515972162919711602
+  Id: 7562496416274955918
   Name: "Tool_04"
   Transform {
     Location {
@@ -8307,9 +8906,9 @@ Objects {
       Z: 0.544701815
     }
   }
-  ParentId: 15669743950416892530
-  ChildIds: 16677043822725480231
-  ChildIds: 4039151666177565337
+  ParentId: 16331913777944452235
+  ChildIds: 10424591524351275502
+  ChildIds: 5740089002529344773
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8330,7 +8929,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4039151666177565337
+  Id: 5740089002529344773
   Name: "Sci-fi Ship Blaster 03"
   Transform {
     Location {
@@ -8349,7 +8948,7 @@ Objects {
       Z: 0.383403033
     }
   }
-  ParentId: 8515972162919711602
+  ParentId: 7562496416274955918
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8382,7 +8981,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16677043822725480231
+  Id: 10424591524351275502
   Name: "Sci-fi CockPit Control Yoke"
   Transform {
     Location {
@@ -8399,7 +8998,7 @@ Objects {
       Z: 5.33922338
     }
   }
-  ParentId: 8515972162919711602
+  ParentId: 7562496416274955918
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -8449,7 +9048,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1649288018339260867
+  Id: 15156933957863126664
   Name: "Tool_007"
   Transform {
     Location {
@@ -8465,12 +9064,12 @@ Objects {
       Z: 1.92708302
     }
   }
-  ParentId: 15669743950416892530
-  ChildIds: 5150105517998203017
-  ChildIds: 13706527632233198042
-  ChildIds: 10586383895769075440
-  ChildIds: 8090140868095766839
-  ChildIds: 18335979216937624963
+  ParentId: 16331913777944452235
+  ChildIds: 13647603835586984678
+  ChildIds: 16179679126964586734
+  ChildIds: 14191856816457106570
+  ChildIds: 13309876451654787779
+  ChildIds: 7801129031474415173
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8491,7 +9090,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18335979216937624963
+  Id: 7801129031474415173
   Name: "Sci-fi Ship Blaster 02"
   Transform {
     Location {
@@ -8510,7 +9109,7 @@ Objects {
       Z: 0.112880781
     }
   }
-  ParentId: 1649288018339260867
+  ParentId: 15156933957863126664
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8543,7 +9142,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8090140868095766839
+  Id: 13309876451654787779
   Name: "Cone - Bullet"
   Transform {
     Location {
@@ -8562,7 +9161,7 @@ Objects {
       Z: 0.2792283
     }
   }
-  ParentId: 1649288018339260867
+  ParentId: 15156933957863126664
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8603,7 +9202,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10586383895769075440
+  Id: 14191856816457106570
   Name: "Sci-fi Terminal Keyboard 01"
   Transform {
     Location {
@@ -8621,7 +9220,7 @@ Objects {
       Z: 2.50581932
     }
   }
-  ParentId: 1649288018339260867
+  ParentId: 15156933957863126664
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -8663,7 +9262,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13706527632233198042
+  Id: 16179679126964586734
   Name: "Sci-fi Ship Blaster 02"
   Transform {
     Location {
@@ -8682,7 +9281,7 @@ Objects {
       Z: 0.33913067
     }
   }
-  ParentId: 1649288018339260867
+  ParentId: 15156933957863126664
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8715,7 +9314,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5150105517998203017
+  Id: 13647603835586984678
   Name: "Military Walkie"
   Transform {
     Location {
@@ -8734,7 +9333,7 @@ Objects {
       Z: 1.90576684
     }
   }
-  ParentId: 1649288018339260867
+  ParentId: 15156933957863126664
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -8784,7 +9383,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15650342751553314254
+  Id: 4669102908164106440
   Name: "Tool_02"
   Transform {
     Location {
@@ -8801,12 +9400,12 @@ Objects {
       Z: 3.83277798
     }
   }
-  ParentId: 15669743950416892530
-  ChildIds: 5459815357035186223
-  ChildIds: 11369950747079462547
-  ChildIds: 16007687670968532725
-  ChildIds: 3749218672412246399
-  ChildIds: 3145514705943157239
+  ParentId: 16331913777944452235
+  ChildIds: 2549449521590425844
+  ChildIds: 13966518816973387023
+  ChildIds: 1218097708078713299
+  ChildIds: 14752747783629997475
+  ChildIds: 719674137250893811
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8827,7 +9426,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3145514705943157239
+  Id: 719674137250893811
   Name: "Cone - Bullet"
   Transform {
     Location {
@@ -8844,7 +9443,7 @@ Objects {
       Z: 0.153847188
     }
   }
-  ParentId: 15650342751553314254
+  ParentId: 4669102908164106440
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -8885,7 +9484,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3749218672412246399
+  Id: 14752747783629997475
   Name: "Sci-fi Terminal Keyboard 01"
   Transform {
     Location {
@@ -8902,7 +9501,7 @@ Objects {
       Z: 0.140029222
     }
   }
-  ParentId: 15650342751553314254
+  ParentId: 4669102908164106440
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -8935,7 +9534,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16007687670968532725
+  Id: 1218097708078713299
   Name: "Sci-fi Ship Engine 03"
   Transform {
     Location {
@@ -8952,7 +9551,7 @@ Objects {
       Z: 0.0565996021
     }
   }
-  ParentId: 15650342751553314254
+  ParentId: 4669102908164106440
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -9001,7 +9600,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11369950747079462547
+  Id: 13966518816973387023
   Name: "Sci-fi Ship Blaster 02"
   Transform {
     Location {
@@ -9018,7 +9617,7 @@ Objects {
       Z: 0.182294384
     }
   }
-  ParentId: 15650342751553314254
+  ParentId: 4669102908164106440
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9051,7 +9650,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5459815357035186223
+  Id: 2549449521590425844
   Name: "Military Walkie"
   Transform {
     Location {
@@ -9068,7 +9667,7 @@ Objects {
       Z: 1.36052227
     }
   }
-  ParentId: 15650342751553314254
+  ParentId: 4669102908164106440
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9101,7 +9700,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1236185606391490012
+  Id: 1267707338907028247
   Name: "Tool_01"
   Transform {
     Location {
@@ -9118,14 +9717,14 @@ Objects {
       Z: 1.2574966
     }
   }
-  ParentId: 15669743950416892530
-  ChildIds: 5499475056661519759
-  ChildIds: 5409620421074370071
-  ChildIds: 14507440122226402780
-  ChildIds: 8305332533155505614
-  ChildIds: 13953049938686940795
-  ChildIds: 8715472100635664031
-  ChildIds: 917051726152866396
+  ParentId: 16331913777944452235
+  ChildIds: 14997559915486836996
+  ChildIds: 9419210677510692009
+  ChildIds: 14600285004612215471
+  ChildIds: 13648355267085791526
+  ChildIds: 7207911235793816775
+  ChildIds: 2056585673390781438
+  ChildIds: 4656906893431740136
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9146,7 +9745,7 @@ Objects {
   }
 }
 Objects {
-  Id: 917051726152866396
+  Id: 4656906893431740136
   Name: "Sphere"
   Transform {
     Location {
@@ -9162,8 +9761,8 @@ Objects {
       Z: 0.129492745
     }
   }
-  ParentId: 1236185606391490012
-  ChildIds: 4784939830986764192
+  ParentId: 1267707338907028247
+  ChildIds: 6122351361718027126
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9213,7 +9812,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4784939830986764192
+  Id: 6122351361718027126
   Name: "Tool"
   Transform {
     Location {
@@ -9226,7 +9825,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 917051726152866396
+  ParentId: 4656906893431740136
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9247,7 +9846,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8715472100635664031
+  Id: 2056585673390781438
   Name: "Cylinder Chamfered Small - Large"
   Transform {
     Location {
@@ -9264,7 +9863,7 @@ Objects {
       Z: 0.0312544443
     }
   }
-  ParentId: 1236185606391490012
+  ParentId: 1267707338907028247
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9305,7 +9904,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13953049938686940795
+  Id: 7207911235793816775
   Name: "Sci-fi Ship Wing Small 01"
   Transform {
     Location {
@@ -9324,7 +9923,7 @@ Objects {
       Z: 0.175991699
     }
   }
-  ParentId: 1236185606391490012
+  ParentId: 1267707338907028247
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9357,7 +9956,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8305332533155505614
+  Id: 13648355267085791526
   Name: "Sci-fi Ship Wing Small 01"
   Transform {
     Location {
@@ -9376,7 +9975,7 @@ Objects {
       Z: 0.175991699
     }
   }
-  ParentId: 1236185606391490012
+  ParentId: 1267707338907028247
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9409,7 +10008,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14507440122226402780
+  Id: 14600285004612215471
   Name: "Sci-fi Ship Wing Small 01"
   Transform {
     Location {
@@ -9428,7 +10027,7 @@ Objects {
       Z: 0.175991699
     }
   }
-  ParentId: 1236185606391490012
+  ParentId: 1267707338907028247
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9461,7 +10060,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5409620421074370071
+  Id: 9419210677510692009
   Name: "Sci-fi Ship Wing Small 01"
   Transform {
     Location {
@@ -9478,7 +10077,7 @@ Objects {
       Z: 0.175991699
     }
   }
-  ParentId: 1236185606391490012
+  ParentId: 1267707338907028247
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9511,7 +10110,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5499475056661519759
+  Id: 14997559915486836996
   Name: "Sci-fi Ship Blaster 03"
   Transform {
     Location {
@@ -9530,7 +10129,7 @@ Objects {
       Z: 0.393741667
     }
   }
-  ParentId: 1236185606391490012
+  ParentId: 1267707338907028247
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9563,7 +10162,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18141874597425018396
+  Id: 8415966540264890139
   Name: "Tool Plaque"
   Transform {
     Location {
@@ -9578,13 +10177,13 @@ Objects {
       Z: 1.65403712
     }
   }
-  ParentId: 15669743950416892530
-  ChildIds: 7038746024618370322
-  ChildIds: 9238302163378385714
-  ChildIds: 6612089734345156509
-  ChildIds: 14192608438678932831
-  ChildIds: 15265865014061928875
-  ChildIds: 1369985112307545366
+  ParentId: 16331913777944452235
+  ChildIds: 3956070538639314198
+  ChildIds: 18382637658499737269
+  ChildIds: 820811695248604135
+  ChildIds: 16484215905116856201
+  ChildIds: 12998419355234265252
+  ChildIds: 3973296014473003590
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -9605,7 +10204,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1369985112307545366
+  Id: 3973296014473003590
   Name: "Barrier Caution Light 1"
   Transform {
     Location {
@@ -9621,7 +10220,7 @@ Objects {
       Z: 0.917786241
     }
   }
-  ParentId: 18141874597425018396
+  ParentId: 8415966540264890139
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:color"
@@ -9664,7 +10263,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15265865014061928875
+  Id: 12998419355234265252
   Name: "Cube"
   Transform {
     Location {
@@ -9683,7 +10282,7 @@ Objects {
       Z: 12.6802588
     }
   }
-  ParentId: 18141874597425018396
+  ParentId: 8415966540264890139
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9733,7 +10332,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14192608438678932831
+  Id: 16484215905116856201
   Name: "Cube"
   Transform {
     Location {
@@ -9752,7 +10351,7 @@ Objects {
       Z: 12.6911068
     }
   }
-  ParentId: 18141874597425018396
+  ParentId: 8415966540264890139
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9801,7 +10400,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6612089734345156509
+  Id: 820811695248604135
   Name: "Cube"
   Transform {
     Location {
@@ -9817,7 +10416,7 @@ Objects {
       Z: 2.40648937
     }
   }
-  ParentId: 18141874597425018396
+  ParentId: 8415966540264890139
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9866,7 +10465,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9238302163378385714
+  Id: 18382637658499737269
   Name: "Cube"
   Transform {
     Location {
@@ -9882,7 +10481,7 @@ Objects {
       Z: 2.40648937
     }
   }
-  ParentId: 18141874597425018396
+  ParentId: 8415966540264890139
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9931,7 +10530,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7038746024618370322
+  Id: 3956070538639314198
   Name: "Cube"
   Transform {
     Location {
@@ -9947,7 +10546,7 @@ Objects {
       Z: 2.75753713
     }
   }
-  ParentId: 18141874597425018396
+  ParentId: 8415966540264890139
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -9997,12 +10596,12 @@ Objects {
   }
 }
 Objects {
-  Id: 2306333241116039158
+  Id: 6621982563271562764
   Name: "Tools On Wall"
   Transform {
     Location {
       X: -1342.19727
-      Y: -611.47522
+      Y: -951.979736
       Z: 194.436
     }
     Rotation {
@@ -10014,16 +10613,16 @@ Objects {
       Z: 0.717364609
     }
   }
-  ParentId: 10890274874115666730
-  ChildIds: 12473601896564109182
-  ChildIds: 12765199388536696022
-  ChildIds: 1695249140302540195
-  ChildIds: 5071342725573650490
-  ChildIds: 18268544810508267912
-  ChildIds: 11322041946554972956
-  ChildIds: 17593842669940599353
-  ChildIds: 2507745490585648472
-  ChildIds: 5465098163196443365
+  ParentId: 2999285004240398878
+  ChildIds: 16991718368885241680
+  ChildIds: 4033862875564701950
+  ChildIds: 9910335049429903438
+  ChildIds: 6564031724998402439
+  ChildIds: 18140809011742218809
+  ChildIds: 10169674021470821382
+  ChildIds: 17404271996856429815
+  ChildIds: 4526757253906094659
+  ChildIds: 4815925438717006843
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10045,7 +10644,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5465098163196443365
+  Id: 4815925438717006843
   Name: "Lights on Tool Display"
   Transform {
     Location {
@@ -10062,10 +10661,10 @@ Objects {
       Z: 1.04392803
     }
   }
-  ParentId: 2306333241116039158
-  ChildIds: 1818719513478775358
-  ChildIds: 4205243707318524754
-  ChildIds: 2684394529647082240
+  ParentId: 6621982563271562764
+  ChildIds: 16420760152756133960
+  ChildIds: 13760786613485902547
+  ChildIds: 1728549008836194977
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10080,7 +10679,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2684394529647082240
+  Id: 1728549008836194977
   Name: "Point Light"
   Transform {
     Location {
@@ -10095,7 +10694,7 @@ Objects {
       Z: 1.00000048
     }
   }
-  ParentId: 5465098163196443365
+  ParentId: 4815925438717006843
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10132,7 +10731,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4205243707318524754
+  Id: 13760786613485902547
   Name: "Point Light"
   Transform {
     Location {
@@ -10147,7 +10746,7 @@ Objects {
       Z: 1.00000036
     }
   }
-  ParentId: 5465098163196443365
+  ParentId: 4815925438717006843
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10184,7 +10783,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1818719513478775358
+  Id: 16420760152756133960
   Name: "Point Light"
   Transform {
     Location {
@@ -10197,7 +10796,7 @@ Objects {
       Z: 1.00000024
     }
   }
-  ParentId: 5465098163196443365
+  ParentId: 4815925438717006843
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10234,7 +10833,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2507745490585648472
+  Id: 4526757253906094659
   Name: "Tool_06"
   Transform {
     Location {
@@ -10250,9 +10849,9 @@ Objects {
       Z: 0.620708048
     }
   }
-  ParentId: 2306333241116039158
-  ChildIds: 14117524117963913958
-  ChildIds: 12734544128372651522
+  ParentId: 6621982563271562764
+  ChildIds: 922175735103586639
+  ChildIds: 2173293381225587811
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10273,7 +10872,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12734544128372651522
+  Id: 2173293381225587811
   Name: "Sci-fi Ship Blaster 03"
   Transform {
     Location {
@@ -10292,7 +10891,7 @@ Objects {
       Z: 0.261332393
     }
   }
-  ParentId: 2507745490585648472
+  ParentId: 4526757253906094659
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10325,7 +10924,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14117524117963913958
+  Id: 922175735103586639
   Name: "Sci-fi CockPit Control Yoke"
   Transform {
     Location {
@@ -10342,7 +10941,7 @@ Objects {
       Z: 4.20454502
     }
   }
-  ParentId: 2507745490585648472
+  ParentId: 4526757253906094659
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -10390,7 +10989,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17593842669940599353
+  Id: 17404271996856429815
   Name: "Tool_05"
   Transform {
     Location {
@@ -10406,9 +11005,9 @@ Objects {
       Z: 0.442565948
     }
   }
-  ParentId: 2306333241116039158
-  ChildIds: 5988335541951896460
-  ChildIds: 4924133705498839942
+  ParentId: 6621982563271562764
+  ChildIds: 1674858966442431845
+  ChildIds: 14782216738504042599
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10429,7 +11028,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4924133705498839942
+  Id: 14782216738504042599
   Name: "Sci-fi Ship Blaster 03"
   Transform {
     Location {
@@ -10448,7 +11047,7 @@ Objects {
       Z: 0.261332393
     }
   }
-  ParentId: 17593842669940599353
+  ParentId: 17404271996856429815
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10481,7 +11080,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5988335541951896460
+  Id: 1674858966442431845
   Name: "Sci-fi CockPit Control Yoke"
   Transform {
     Location {
@@ -10498,7 +11097,7 @@ Objects {
       Z: 4.20454502
     }
   }
-  ParentId: 17593842669940599353
+  ParentId: 17404271996856429815
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -10548,7 +11147,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11322041946554972956
+  Id: 10169674021470821382
   Name: "Tool_04"
   Transform {
     Location {
@@ -10564,9 +11163,9 @@ Objects {
       Z: 0.294436693
     }
   }
-  ParentId: 2306333241116039158
-  ChildIds: 3639054942539641848
-  ChildIds: 7679291047585511281
+  ParentId: 6621982563271562764
+  ChildIds: 14480739234806462300
+  ChildIds: 4874597959619495162
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10587,7 +11186,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7679291047585511281
+  Id: 4874597959619495162
   Name: "Sci-fi Ship Blaster 03"
   Transform {
     Location {
@@ -10606,7 +11205,7 @@ Objects {
       Z: 0.2613343
     }
   }
-  ParentId: 11322041946554972956
+  ParentId: 10169674021470821382
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10639,7 +11238,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3639054942539641848
+  Id: 14480739234806462300
   Name: "Sci-fi CockPit Control Yoke"
   Transform {
     Location {
@@ -10656,7 +11255,7 @@ Objects {
       Z: 4.20454502
     }
   }
-  ParentId: 11322041946554972956
+  ParentId: 10169674021470821382
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -10706,7 +11305,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18268544810508267912
+  Id: 18140809011742218809
   Name: "Tool_007"
   Transform {
     Location {
@@ -10722,12 +11321,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2306333241116039158
-  ChildIds: 5847221828705110133
-  ChildIds: 10409226052660818366
-  ChildIds: 7545027877992436798
-  ChildIds: 2524838610443987296
-  ChildIds: 3547511354739751574
+  ParentId: 6621982563271562764
+  ChildIds: 9384699673115393967
+  ChildIds: 16869147611701294471
+  ChildIds: 10836507330153676212
+  ChildIds: 11324478490889771078
+  ChildIds: 7151684339538157711
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10748,7 +11347,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3547511354739751574
+  Id: 7151684339538157711
   Name: "Sci-fi Ship Blaster 02"
   Transform {
     Location {
@@ -10767,7 +11366,7 @@ Objects {
       Z: 0.112880781
     }
   }
-  ParentId: 18268544810508267912
+  ParentId: 18140809011742218809
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10800,7 +11399,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2524838610443987296
+  Id: 11324478490889771078
   Name: "Cone - Bullet"
   Transform {
     Location {
@@ -10819,7 +11418,7 @@ Objects {
       Z: 0.2792283
     }
   }
-  ParentId: 18268544810508267912
+  ParentId: 18140809011742218809
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -10860,7 +11459,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7545027877992436798
+  Id: 10836507330153676212
   Name: "Sci-fi Terminal Keyboard 01"
   Transform {
     Location {
@@ -10878,7 +11477,7 @@ Objects {
       Z: 2.50581932
     }
   }
-  ParentId: 18268544810508267912
+  ParentId: 18140809011742218809
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -10920,7 +11519,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10409226052660818366
+  Id: 16869147611701294471
   Name: "Sci-fi Ship Blaster 02"
   Transform {
     Location {
@@ -10939,7 +11538,7 @@ Objects {
       Z: 0.33913067
     }
   }
-  ParentId: 18268544810508267912
+  ParentId: 18140809011742218809
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -10972,7 +11571,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5847221828705110133
+  Id: 9384699673115393967
   Name: "Military Walkie"
   Transform {
     Location {
@@ -10991,7 +11590,7 @@ Objects {
       Z: 1.90576684
     }
   }
-  ParentId: 18268544810508267912
+  ParentId: 18140809011742218809
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -11041,7 +11640,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5071342725573650490
+  Id: 6564031724998402439
   Name: "Tool_02"
   Transform {
     Location {
@@ -11058,12 +11657,12 @@ Objects {
       Z: 2.55430984
     }
   }
-  ParentId: 2306333241116039158
-  ChildIds: 2147352971806627823
-  ChildIds: 4371068053329362481
-  ChildIds: 8780307372828084347
-  ChildIds: 16595384858323112422
-  ChildIds: 362561379290400793
+  ParentId: 6621982563271562764
+  ChildIds: 7473989847502941668
+  ChildIds: 5432747662800609632
+  ChildIds: 5554905581084368362
+  ChildIds: 9804587375394942698
+  ChildIds: 9509193303037961489
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11084,7 +11683,7 @@ Objects {
   }
 }
 Objects {
-  Id: 362561379290400793
+  Id: 9509193303037961489
   Name: "Cone - Bullet"
   Transform {
     Location {
@@ -11101,7 +11700,7 @@ Objects {
       Z: 0.153847188
     }
   }
-  ParentId: 5071342725573650490
+  ParentId: 6564031724998402439
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11142,7 +11741,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16595384858323112422
+  Id: 9804587375394942698
   Name: "Sci-fi Terminal Keyboard 01"
   Transform {
     Location {
@@ -11159,7 +11758,7 @@ Objects {
       Z: 0.140029222
     }
   }
-  ParentId: 5071342725573650490
+  ParentId: 6564031724998402439
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11192,7 +11791,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8780307372828084347
+  Id: 5554905581084368362
   Name: "Sci-fi Ship Engine 03"
   Transform {
     Location {
@@ -11209,7 +11808,7 @@ Objects {
       Z: 0.0565996021
     }
   }
-  ParentId: 5071342725573650490
+  ParentId: 6564031724998402439
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -11258,7 +11857,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4371068053329362481
+  Id: 5432747662800609632
   Name: "Sci-fi Ship Blaster 02"
   Transform {
     Location {
@@ -11275,7 +11874,7 @@ Objects {
       Z: 0.182294384
     }
   }
-  ParentId: 5071342725573650490
+  ParentId: 6564031724998402439
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11308,7 +11907,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2147352971806627823
+  Id: 7473989847502941668
   Name: "Military Walkie"
   Transform {
     Location {
@@ -11325,7 +11924,7 @@ Objects {
       Z: 1.36052227
     }
   }
-  ParentId: 5071342725573650490
+  ParentId: 6564031724998402439
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11358,7 +11957,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1695249140302540195
+  Id: 9910335049429903438
   Name: "Tool_01"
   Transform {
     Location {
@@ -11376,14 +11975,14 @@ Objects {
       Z: 0.872146249
     }
   }
-  ParentId: 2306333241116039158
-  ChildIds: 17977180513959433282
-  ChildIds: 8141394165881168187
-  ChildIds: 7221340165723201710
-  ChildIds: 9492300792351266005
-  ChildIds: 9396887286074715548
-  ChildIds: 15225016476759729396
-  ChildIds: 11101175125837459613
+  ParentId: 6621982563271562764
+  ChildIds: 18144044305968314148
+  ChildIds: 16829812420014498133
+  ChildIds: 13878493659032726823
+  ChildIds: 8729027044675819839
+  ChildIds: 9035850406263868836
+  ChildIds: 6581276584575515622
+  ChildIds: 2334651732875891547
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11404,7 +12003,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11101175125837459613
+  Id: 2334651732875891547
   Name: "Sphere"
   Transform {
     Location {
@@ -11420,8 +12019,8 @@ Objects {
       Z: 0.129492745
     }
   }
-  ParentId: 1695249140302540195
-  ChildIds: 10223508936605814328
+  ParentId: 9910335049429903438
+  ChildIds: 2052166415985439099
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11471,7 +12070,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10223508936605814328
+  Id: 2052166415985439099
   Name: "Tool"
   Transform {
     Location {
@@ -11484,7 +12083,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11101175125837459613
+  ParentId: 2334651732875891547
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11505,7 +12104,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15225016476759729396
+  Id: 6581276584575515622
   Name: "Cylinder Chamfered Small - Large"
   Transform {
     Location {
@@ -11522,7 +12121,7 @@ Objects {
       Z: 0.0312544443
     }
   }
-  ParentId: 1695249140302540195
+  ParentId: 9910335049429903438
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11563,7 +12162,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9396887286074715548
+  Id: 9035850406263868836
   Name: "Sci-fi Ship Wing Small 01"
   Transform {
     Location {
@@ -11582,7 +12181,7 @@ Objects {
       Z: 0.175991699
     }
   }
-  ParentId: 1695249140302540195
+  ParentId: 9910335049429903438
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11615,7 +12214,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9492300792351266005
+  Id: 8729027044675819839
   Name: "Sci-fi Ship Wing Small 01"
   Transform {
     Location {
@@ -11634,7 +12233,7 @@ Objects {
       Z: 0.175991699
     }
   }
-  ParentId: 1695249140302540195
+  ParentId: 9910335049429903438
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11667,7 +12266,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7221340165723201710
+  Id: 13878493659032726823
   Name: "Sci-fi Ship Wing Small 01"
   Transform {
     Location {
@@ -11686,7 +12285,7 @@ Objects {
       Z: 0.175991699
     }
   }
-  ParentId: 1695249140302540195
+  ParentId: 9910335049429903438
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11719,7 +12318,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8141394165881168187
+  Id: 16829812420014498133
   Name: "Sci-fi Ship Wing Small 01"
   Transform {
     Location {
@@ -11736,7 +12335,7 @@ Objects {
       Z: 0.175991699
     }
   }
-  ParentId: 1695249140302540195
+  ParentId: 9910335049429903438
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11769,7 +12368,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17977180513959433282
+  Id: 18144044305968314148
   Name: "Sci-fi Ship Blaster 03"
   Transform {
     Location {
@@ -11788,7 +12387,7 @@ Objects {
       Z: 0.393741667
     }
   }
-  ParentId: 1695249140302540195
+  ParentId: 9910335049429903438
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11821,7 +12420,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12765199388536696022
+  Id: 4033862875564701950
   Name: "Tool Plaque"
   Transform {
     Location {
@@ -11836,13 +12435,13 @@ Objects {
       Z: 1.65403712
     }
   }
-  ParentId: 2306333241116039158
-  ChildIds: 1325939955032307843
-  ChildIds: 11954162703291482452
-  ChildIds: 18368532548808670399
-  ChildIds: 5213889997385514538
-  ChildIds: 5052406453911230129
-  ChildIds: 12780578540842173054
+  ParentId: 6621982563271562764
+  ChildIds: 2492015822645059833
+  ChildIds: 9864860445136832167
+  ChildIds: 10662510908674969665
+  ChildIds: 7228470921475866986
+  ChildIds: 9033662342476781887
+  ChildIds: 10965040512136551024
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11863,7 +12462,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12780578540842173054
+  Id: 10965040512136551024
   Name: "Barrier Caution Light 1"
   Transform {
     Location {
@@ -11879,7 +12478,7 @@ Objects {
       Z: 0.626226723
     }
   }
-  ParentId: 12765199388536696022
+  ParentId: 4033862875564701950
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:color"
@@ -11922,7 +12521,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5052406453911230129
+  Id: 9033662342476781887
   Name: "Cube"
   Transform {
     Location {
@@ -11939,7 +12538,7 @@ Objects {
       Z: 2.29012465
     }
   }
-  ParentId: 12765199388536696022
+  ParentId: 4033862875564701950
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -11986,7 +12585,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5213889997385514538
+  Id: 7228470921475866986
   Name: "Cube"
   Transform {
     Location {
@@ -12002,7 +12601,7 @@ Objects {
       Z: 2.29012465
     }
   }
-  ParentId: 12765199388536696022
+  ParentId: 4033862875564701950
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -12049,7 +12648,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18368532548808670399
+  Id: 10662510908674969665
   Name: "Cube"
   Transform {
     Location {
@@ -12065,7 +12664,7 @@ Objects {
       Z: 2.40648937
     }
   }
-  ParentId: 12765199388536696022
+  ParentId: 4033862875564701950
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -12112,7 +12711,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11954162703291482452
+  Id: 9864860445136832167
   Name: "Cube"
   Transform {
     Location {
@@ -12128,7 +12727,7 @@ Objects {
       Z: 2.40648937
     }
   }
-  ParentId: 12765199388536696022
+  ParentId: 4033862875564701950
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -12175,7 +12774,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1325939955032307843
+  Id: 2492015822645059833
   Name: "Cube"
   Transform {
     Location {
@@ -12191,7 +12790,7 @@ Objects {
       Z: 2.60698247
     }
   }
-  ParentId: 12765199388536696022
+  ParentId: 4033862875564701950
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -12241,7 +12840,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12473601896564109182
+  Id: 16991718368885241680
   Name: "New Tool"
   Transform {
     Location {
@@ -12257,7 +12856,7 @@ Objects {
       Z: 0.34316951
     }
   }
-  ParentId: 2306333241116039158
+  ParentId: 6621982563271562764
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12303,7 +12902,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1006771244596419873
+  Id: 11065869264006344853
   Name: "Ammo Group on Wall"
   Transform {
     Location {
@@ -12320,10 +12919,10 @@ Objects {
       Z: 0.618535399
     }
   }
-  ParentId: 10890274874115666730
-  ChildIds: 17650679525335170720
-  ChildIds: 14322985761746004038
-  ChildIds: 7711479506925449103
+  ParentId: 2999285004240398878
+  ChildIds: 16615096347582416050
+  ChildIds: 11361027701499628325
+  ChildIds: 11640272418846870008
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12345,7 +12944,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7711479506925449103
+  Id: 11640272418846870008
   Name: "Lights On Ammo Display"
   Transform {
     Location {
@@ -12362,10 +12961,10 @@ Objects {
       Z: 1.13594711
     }
   }
-  ParentId: 1006771244596419873
-  ChildIds: 18182605968002238806
-  ChildIds: 6196769622871022386
-  ChildIds: 7604341249731554158
+  ParentId: 11065869264006344853
+  ChildIds: 4510170284274271839
+  ChildIds: 15218424463035848437
+  ChildIds: 12640399217631300952
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12380,7 +12979,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7604341249731554158
+  Id: 12640399217631300952
   Name: "Point Light"
   Transform {
     Location {
@@ -12395,7 +12994,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7711479506925449103
+  ParentId: 11640272418846870008
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12432,7 +13031,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6196769622871022386
+  Id: 15218424463035848437
   Name: "Point Light"
   Transform {
     Location {
@@ -12446,7 +13045,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7711479506925449103
+  ParentId: 11640272418846870008
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12483,7 +13082,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18182605968002238806
+  Id: 4510170284274271839
   Name: "Point Light"
   Transform {
     Location {
@@ -12498,7 +13097,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7711479506925449103
+  ParentId: 11640272418846870008
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12535,7 +13134,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14322985761746004038
+  Id: 11361027701499628325
   Name: "Ammo on Wall"
   Transform {
     Location {
@@ -12551,11 +13150,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1006771244596419873
-  ChildIds: 619721544305152019
-  ChildIds: 16622122901763043871
-  ChildIds: 1124703785705759382
-  ChildIds: 3671128978448081596
+  ParentId: 11065869264006344853
+  ChildIds: 6825546348047387279
+  ChildIds: 10696514375564034567
+  ChildIds: 8423390007270582327
+  ChildIds: 5354090780870872957
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12576,7 +13175,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3671128978448081596
+  Id: 5354090780870872957
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -12594,7 +13193,7 @@ Objects {
       Z: 0.462891102
     }
   }
-  ParentId: 14322985761746004038
+  ParentId: 11361027701499628325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -12649,7 +13248,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1124703785705759382
+  Id: 8423390007270582327
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -12667,7 +13266,7 @@ Objects {
       Z: 0.462891102
     }
   }
-  ParentId: 14322985761746004038
+  ParentId: 11361027701499628325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -12724,7 +13323,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16622122901763043871
+  Id: 10696514375564034567
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -12742,7 +13341,7 @@ Objects {
       Z: 0.462891102
     }
   }
-  ParentId: 14322985761746004038
+  ParentId: 11361027701499628325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -12799,7 +13398,7 @@ Objects {
   }
 }
 Objects {
-  Id: 619721544305152019
+  Id: 6825546348047387279
   Name: "Military Ammo Crate Small"
   Transform {
     Location {
@@ -12817,7 +13416,7 @@ Objects {
       Z: 0.462891102
     }
   }
-  ParentId: 14322985761746004038
+  ParentId: 11361027701499628325
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -12874,7 +13473,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17650679525335170720
+  Id: 16615096347582416050
   Name: "Tool Plaque"
   Transform {
     Location {
@@ -12889,13 +13488,13 @@ Objects {
       Z: 1.65403712
     }
   }
-  ParentId: 1006771244596419873
-  ChildIds: 4716690241848906648
-  ChildIds: 16335463233104131460
-  ChildIds: 640351783192707783
-  ChildIds: 3209870715865963214
-  ChildIds: 968422333911457795
-  ChildIds: 1732323808060108172
+  ParentId: 11065869264006344853
+  ChildIds: 6428486373140646987
+  ChildIds: 1314244360378759081
+  ChildIds: 4867626008565948906
+  ChildIds: 10239385003594894653
+  ChildIds: 13182860838739126391
+  ChildIds: 14720081543520741077
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -12916,7 +13515,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1732323808060108172
+  Id: 14720081543520741077
   Name: "Barrier Caution Light 1"
   Transform {
     Location {
@@ -12932,7 +13531,7 @@ Objects {
       Z: 0.54008925
     }
   }
-  ParentId: 17650679525335170720
+  ParentId: 16615096347582416050
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail2:color"
@@ -12975,7 +13574,7 @@ Objects {
   }
 }
 Objects {
-  Id: 968422333911457795
+  Id: 13182860838739126391
   Name: "Cube"
   Transform {
     Location {
@@ -12994,7 +13593,7 @@ Objects {
       Z: 2.29012465
     }
   }
-  ParentId: 17650679525335170720
+  ParentId: 16615096347582416050
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -13041,7 +13640,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3209870715865963214
+  Id: 10239385003594894653
   Name: "Cube"
   Transform {
     Location {
@@ -13060,7 +13659,7 @@ Objects {
       Z: 2.29012465
     }
   }
-  ParentId: 17650679525335170720
+  ParentId: 16615096347582416050
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -13107,7 +13706,7 @@ Objects {
   }
 }
 Objects {
-  Id: 640351783192707783
+  Id: 4867626008565948906
   Name: "Cube"
   Transform {
     Location {
@@ -13123,7 +13722,7 @@ Objects {
       Z: 2.69389558
     }
   }
-  ParentId: 17650679525335170720
+  ParentId: 16615096347582416050
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -13170,7 +13769,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16335463233104131460
+  Id: 1314244360378759081
   Name: "Cube"
   Transform {
     Location {
@@ -13186,7 +13785,7 @@ Objects {
       Z: 2.69389558
     }
   }
-  ParentId: 17650679525335170720
+  ParentId: 16615096347582416050
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -13233,7 +13832,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4716690241848906648
+  Id: 6428486373140646987
   Name: "Cube"
   Transform {
     Location {
@@ -13249,7 +13848,7 @@ Objects {
       Z: 2.85704064
     }
   }
-  ParentId: 17650679525335170720
+  ParentId: 16615096347582416050
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -13299,7 +13898,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18079704666609667027
+  Id: 16341206005029094173
   Name: "Armory Label Sign"
   Transform {
     Location {
@@ -13316,7 +13915,7 @@ Objects {
       Z: 0.693724513
     }
   }
-  ParentId: 10890274874115666730
+  ParentId: 2999285004240398878
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

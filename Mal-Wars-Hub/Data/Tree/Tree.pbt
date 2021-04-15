@@ -22,10 +22,10 @@ Objects {
   ChildIds: 10384849245238798294
   ChildIds: 10605282874148991885
   ChildIds: 4497641434065555435
-  ChildIds: 10890274874115666730
   ChildIds: 13157383151670395152
   ChildIds: 15272818741880377657
   ChildIds: 10058256283127730305
+  ChildIds: 2999285004240398878
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -38,6 +38,38 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 2999285004240398878
+  Name: "Sidney"
+  Transform {
+    Location {
+      X: -4010.01367
+      Y: -1053.45984
+      Z: -545
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Sidney"
   }
 }
 Objects {
@@ -183,38 +215,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Avery_C"
-  }
-}
-Objects {
-  Id: 10890274874115666730
-  Name: "Sidney"
-  Transform {
-    Location {
-      X: -4010.01367
-      Y: -1053.45984
-      Z: -545
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Sidney"
   }
 }
 Objects {

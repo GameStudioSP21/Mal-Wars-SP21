@@ -1,7 +1,7 @@
 Name: "All Towers in Display Hologram"
-RootId: 7220962314838893387
+RootId: 11869152678315090882
 Objects {
-  Id: 9161073526657750997
+  Id: 5913981102305736224
   Name: "Tesla Turret 4"
   Transform {
     Scale {
@@ -10,7 +10,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7220962314838893387
+  ParentId: 11869152678315090882
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -55,7 +55,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11324135462224113186
+  Id: 9974679467948366872
   Name: "Tesla Turret 3"
   Transform {
     Scale {
@@ -64,7 +64,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7220962314838893387
+  ParentId: 11869152678315090882
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -109,7 +109,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5219425546491599322
+  Id: 13702539356604680016
   Name: "Tesla turret 2"
   Transform {
     Scale {
@@ -118,7 +118,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7220962314838893387
+  ParentId: 11869152678315090882
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -163,7 +163,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13710954636545590432
+  Id: 2048747663111510958
   Name: "Tesla Turret 1"
   Transform {
     Scale {
@@ -172,7 +172,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7220962314838893387
+  ParentId: 11869152678315090882
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -217,7 +217,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8231630264938264078
+  Id: 10613213212793142675
   Name: "Shop_AOE Turret 1"
   Transform {
     Scale {
@@ -226,7 +226,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7220962314838893387
+  ParentId: 11869152678315090882
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -262,7 +262,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11831267596123483578
+  Id: 14259103259018133159
   Name: "Shop_AOE Turret 2"
   Transform {
     Scale {
@@ -271,7 +271,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7220962314838893387
+  ParentId: 11869152678315090882
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -307,7 +307,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14143166505490224807
+  Id: 8898231260496744638
   Name: "Shop_AOE Turret 3"
   Transform {
     Scale {
@@ -316,7 +316,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7220962314838893387
+  ParentId: 11869152678315090882
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -352,7 +352,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13640715123856529488
+  Id: 6749924422285197754
   Name: "Shop_AOE Turret 4"
   Transform {
     Scale {
@@ -361,7 +361,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7220962314838893387
+  ParentId: 11869152678315090882
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -397,7 +397,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14522459908049757255
+  Id: 2859173396665992812
   Name: "Shop_LaserTurret"
   Transform {
     Scale {
@@ -406,7 +406,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7220962314838893387
+  ParentId: 11869152678315090882
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -444,7 +444,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11635458253443298885
+  Id: 7250790101959043154
   Name: "Shop_LaserTurret_Upgrade2"
   Transform {
     Scale {
@@ -453,7 +453,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7220962314838893387
+  ParentId: 11869152678315090882
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -491,7 +491,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8862591353391841705
+  Id: 10639963450796666940
   Name: "Shop_LaserTurret_Upgrade3"
   Transform {
     Scale {
@@ -500,7 +500,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7220962314838893387
+  ParentId: 11869152678315090882
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -538,7 +538,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10419793071423804205
+  Id: 16877569689032101038
   Name: "Shop_LaserTurret_Upgrade4"
   Transform {
     Scale {
@@ -547,7 +547,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7220962314838893387
+  ParentId: 11869152678315090882
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -585,7 +585,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12989793251427389154
+  Id: 5309878484979445389
   Name: "Shop_Turret sniper 1"
   Transform {
     Scale {
@@ -594,7 +594,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7220962314838893387
+  ParentId: 11869152678315090882
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -631,7 +631,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8985167070783775353
+  Id: 2651130080619246715
   Name: "Shop_Turret sniper 2"
   Transform {
     Scale {
@@ -640,7 +640,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7220962314838893387
+  ParentId: 11869152678315090882
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -677,7 +677,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7873846892150857679
+  Id: 9084278394782909888
   Name: "Shop_Turret sniper 3"
   Transform {
     Scale {
@@ -686,7 +686,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7220962314838893387
+  ParentId: 11869152678315090882
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -723,7 +723,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8991555086638687788
+  Id: 14120481450670230003
   Name: "Shop_Turret sniper 4"
   Transform {
     Scale {
@@ -732,7 +732,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7220962314838893387
+  ParentId: 11869152678315090882
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -770,7 +770,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17716946385902646355
+  Id: 4402799360990642208
   Name: "Shop_MortarTower_Lv1"
   Transform {
     Scale {
@@ -779,7 +779,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7220962314838893387
+  ParentId: 11869152678315090882
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -817,7 +817,7 @@ Objects {
   }
 }
 Objects {
-  Id: 618367592907526824
+  Id: 9821275580347401001
   Name: "Shop_MortarTower_Lv2"
   Transform {
     Scale {
@@ -826,7 +826,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7220962314838893387
+  ParentId: 11869152678315090882
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -864,7 +864,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13532804580482677798
+  Id: 9044134730470731195
   Name: "Shop_MortarTower_Lv3"
   Transform {
     Scale {
@@ -873,7 +873,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7220962314838893387
+  ParentId: 11869152678315090882
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -911,7 +911,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16075416049336168244
+  Id: 5784295201700261847
   Name: "Shop_MortarTower_Lv4"
   Transform {
     Scale {
@@ -920,7 +920,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7220962314838893387
+  ParentId: 11869152678315090882
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
