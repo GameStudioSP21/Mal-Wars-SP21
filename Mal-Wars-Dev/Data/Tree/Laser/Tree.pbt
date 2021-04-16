@@ -22,7 +22,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DisplayName"
-      String: "Real-time Turret"
+      String: "Real-Time Turret"
     }
     Overrides {
       Name: "cs:Description"
@@ -52,7 +52,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 40
+      Int: 65
     }
     Overrides {
       Name: "cs:Speed"
@@ -120,7 +120,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DisplayName"
-      String: "Real-time Turret"
+      String: "Real-Time Turret"
     }
     Overrides {
       Name: "cs:Description"
@@ -150,7 +150,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 24
+      Int: 30
     }
     Overrides {
       Name: "cs:Range"
@@ -224,7 +224,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DisplayName"
-      String: "Real-time Turret"
+      String: "Real-Time Turret"
     }
     Overrides {
       Name: "cs:Description"
@@ -250,7 +250,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 80
+      Int: 60
     }
     Overrides {
       Name: "cs:Damage"
@@ -328,7 +328,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DisplayName"
-      String: "Real-time Turret"
+      String: "Real-Time Turret"
     }
     Overrides {
       Name: "cs:Description"

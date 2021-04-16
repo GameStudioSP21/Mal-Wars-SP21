@@ -1,7 +1,7 @@
 Name: "Neon Lettering_Armory"
-RootId: 15627517762228452555
+RootId: 11927857703630167809
 Objects {
-  Id: 11952757198346229603
+  Id: 16879742259647693053
   Name: "Sign Font 1 Neon Outline: Y"
   Transform {
     Location {
@@ -16,7 +16,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15627517762228452555
+  ParentId: 11927857703630167809
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Neon:id"
@@ -51,7 +51,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15368413363509748278
+  Id: 2087829690485045020
   Name: "Sign Font 1 Neon Outline: R"
   Transform {
     Location {
@@ -66,7 +66,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15627517762228452555
+  ParentId: 11927857703630167809
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Neon:id"
@@ -101,7 +101,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13851054037574837847
+  Id: 2899159071030451584
   Name: "Sign Font 1 Neon Outline: O"
   Transform {
     Location {
@@ -116,7 +116,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15627517762228452555
+  ParentId: 11927857703630167809
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Neon:id"
@@ -151,7 +151,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17493921073575503867
+  Id: 16225258959813884952
   Name: "Sign Font 1 Neon Outline: M"
   Transform {
     Location {
@@ -166,7 +166,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15627517762228452555
+  ParentId: 11927857703630167809
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Neon:id"
@@ -201,7 +201,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5314004731549486038
+  Id: 16302724683794728876
   Name: "Sign Font 1 Neon Outline: R"
   Transform {
     Location {
@@ -216,7 +216,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15627517762228452555
+  ParentId: 11927857703630167809
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Neon:id"
@@ -251,7 +251,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11752890969615447032
+  Id: 2188792583352718437
   Name: "Sign Font 1 Neon Outline: A"
   Transform {
     Location {
@@ -266,7 +266,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15627517762228452555
+  ParentId: 11927857703630167809
   UnregisteredParameters {
     Overrides {
       Name: "ma:Font_Neon:id"

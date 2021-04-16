@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 17600359723065005811
+  Name: "Whitebox Wall 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_wall_001"
+  }
+}
+Assets {
   Id: 17189330346149627205
   Name: "Sci-fi Ship Blaster 03"
   PlatformAssetType: 1
@@ -50,15 +59,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_scf_ship_blaster_002_ref"
-  }
-}
-Assets {
-  Id: 15464952249626306512
-  Name: "Prism - 6-Sided Half"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_half_hexagon_001"
   }
 }
 Assets {
@@ -107,21 +107,21 @@ Assets {
   }
 }
 Assets {
+  Id: 11956004548363595673
+  Name: "Street Light Pole Clamp 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_st_post_lights_post_clamp_001"
+  }
+}
+Assets {
   Id: 11833316192016250797
   Name: "Military Ammo Crate Small"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_ammunition_001_ref"
-  }
-}
-Assets {
-  Id: 11507613115271256803
-  Name: "Metal Steel Hexagon 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_metal_steel_hex_001"
   }
 }
 Assets {
@@ -275,6 +275,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_scf_simple_floor_panel_001_uv"
+  }
+}
+Assets {
+  Id: 4191756069127165282
+  Name: "Sci-fi Base Wall Interior 01 Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_scf_base_wall_int_001_half_ref"
   }
 }
 Assets {

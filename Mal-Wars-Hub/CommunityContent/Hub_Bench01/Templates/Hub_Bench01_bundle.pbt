@@ -1,0 +1,44 @@
+Assets {
+  Id: 8381987336059127114
+  Name: "Hub_Bench01"
+  PlatformAssetType: 5
+  TemplateAsset {
+    ObjectBlock {
+      RootId: 4573662471436887114
+      Objects {
+        Id: 4573662471436887114
+        Name: "TemplateBundleDummy"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Folder {
+          BundleDummy {
+            ReferencedAssets {
+              Id: 13162012983184906212
+            }
+          }
+        }
+      }
+    }
+    PrimaryAssetId {
+      AssetType: "None"
+      AssetId: "None"
+    }
+  }
+  Marketplace {
+    Id: "40c1e9991f924cbc910cdd8b4483ba99"
+    OwnerAccountId: "ad5aa68b4fdc4764ae482b082a0a243b"
+    OwnerName: "ASandoval"
+    Version: "1.0.0"
+    Description: "Bench"
+  }
+  SerializationVersion: 81
+}

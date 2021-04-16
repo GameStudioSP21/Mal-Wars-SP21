@@ -17,13 +17,21 @@ Objects {
   ParentId: 260460467366369561
   UnregisteredParameters {
     Overrides {
+      Name: "cs:DisplayName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
+    }
+    Overrides {
       Name: "cs:Name"
       String: "Ultimate Tesla"
     }
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 14543980725023699282
+        Id: 8282402684154292581
       }
     }
     Overrides {
@@ -40,11 +48,11 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 500
+      Int: 1050
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 200
+      Int: 210
     }
     Overrides {
       Name: "cs:Speed"
@@ -52,7 +60,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Range"
-      Float: 80
+      Float: 60
     }
     Overrides {
       Name: "cs:BounceTravelDistance"
@@ -121,9 +129,17 @@ Objects {
       String: "Superior Tesla"
     }
     Overrides {
+      Name: "cs:DisplayName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
+    }
+    Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 14543980725023699282
+        Id: 8282402684154292581
       }
     }
     Overrides {
@@ -140,11 +156,11 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 325
+      Int: 500
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 100
+      Int: 105
     }
     Overrides {
       Name: "cs:Speed"
@@ -227,9 +243,17 @@ Objects {
       String: "Greater Tesla"
     }
     Overrides {
+      Name: "cs:DisplayName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
+    }
+    Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 14543980725023699282
+        Id: 8282402684154292581
       }
     }
     Overrides {
@@ -246,11 +270,11 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 175
+      Int: 400
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 50
+      Int: 60
     }
     Overrides {
       Name: "cs:Speed"
@@ -258,7 +282,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Range"
-      Float: 50
+      Float: 60
     }
     Overrides {
       Name: "cs:BounceTravelDistance"
@@ -333,9 +357,17 @@ Objects {
       String: "Tesla Turret"
     }
     Overrides {
+      Name: "cs:DisplayName"
+      String: "DDOS Turret"
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: ""
+    }
+    Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 14543980725023699282
+        Id: 8282402684154292581
       }
     }
     Overrides {
@@ -352,19 +384,19 @@ Objects {
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 150
+      Int: 500
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 10
+      Int: 30
     }
     Overrides {
       Name: "cs:Speed"
-      Float: 2
+      Float: 3
     }
     Overrides {
       Name: "cs:Range"
-      Float: 40
+      Float: 60
     }
     Overrides {
       Name: "cs:BounceTravelDistance"

@@ -94,6 +94,7 @@ Assets {
           }
         }
         ParentId: 6629421560258816671
+        ChildIds: 6264495663930978989
         ChildIds: 13419792126912178106
         ChildIds: 1208559611192952701
         Collidable_v2 {
@@ -108,6 +109,104 @@ Assets {
         Folder {
           IsFilePartition: true
           FilePartitionName: "Geo_3"
+        }
+      }
+      Objects {
+        Id: 6264495663930978989
+        Name: "Tesla_Kickback_Lv2"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.833333313
+            Y: 0.833333313
+            Z: 0.833333313
+          }
+        }
+        ParentId: 4963783087295807214
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Turret_root"
+            ObjectReference {
+              SubObjectId: 15374231722922499078
+            }
+          }
+          Overrides {
+            Name: "cs:Ease3D"
+            AssetReference {
+              Id: 8994013927022995915
+            }
+          }
+          Overrides {
+            Name: "cs:Barrel"
+            ObjectReference {
+              SubObjectId: 3059256476744998762
+            }
+          }
+          Overrides {
+            Name: "cs:Turret_head"
+            ObjectReference {
+              SubObjectId: 13297996238922694773
+            }
+          }
+          Overrides {
+            Name: "cs:Top_arm"
+            ObjectReference {
+              SubObjectId: 4191588934891387667
+            }
+          }
+          Overrides {
+            Name: "cs:Top_needle"
+            ObjectReference {
+              SubObjectId: 4831008347949238494
+            }
+          }
+          Overrides {
+            Name: "cs:4_clock_arm"
+            ObjectReference {
+              SubObjectId: 12246188626391824526
+            }
+          }
+          Overrides {
+            Name: "cs:4_clock_needle"
+            ObjectReference {
+              SubObjectId: 5520240683666682526
+            }
+          }
+          Overrides {
+            Name: "cs:8_clock_arm"
+            ObjectReference {
+              SubObjectId: 13209198192920229767
+            }
+          }
+          Overrides {
+            Name: "cs:8_clock_needle"
+            ObjectReference {
+              SubObjectId: 4753520738655925685
+            }
+          }
+          Overrides {
+            Name: "cs:Rear_spinner"
+            ObjectReference {
+              SubObjectId: 12367256309916959387
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 14462324394834546571
+          }
         }
       }
       Objects {

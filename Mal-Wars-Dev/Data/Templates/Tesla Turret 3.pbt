@@ -93,6 +93,7 @@ Assets {
           }
         }
         ParentId: 16986596349948860523
+        ChildIds: 13651348702178753117
         ChildIds: 13039119488797116087
         ChildIds: 16584272140559249133
         Collidable_v2 {
@@ -107,6 +108,86 @@ Assets {
         Folder {
           IsFilePartition: true
           FilePartitionName: "Geo_2"
+        }
+      }
+      Objects {
+        Id: 13651348702178753117
+        Name: "Tesla_Kickback_Lv3"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.833333313
+            Y: 0.833333313
+            Z: 0.833333313
+          }
+        }
+        ParentId: 4395433974572678751
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Turret_root"
+            ObjectReference {
+              SubObjectId: 18018844201307010682
+            }
+          }
+          Overrides {
+            Name: "cs:Ease3D"
+            AssetReference {
+              Id: 8994013927022995915
+            }
+          }
+          Overrides {
+            Name: "cs:Turret_head"
+            ObjectReference {
+              SubObjectId: 14562270003953089025
+            }
+          }
+          Overrides {
+            Name: "cs:Barrel"
+            ObjectReference {
+              SubObjectId: 13681552033250274954
+            }
+          }
+          Overrides {
+            Name: "cs:Top_arm"
+            ObjectReference {
+              SubObjectId: 4784621447653746497
+            }
+          }
+          Overrides {
+            Name: "cs:8_clock_arm"
+            ObjectReference {
+              SubObjectId: 3642799496951445044
+            }
+          }
+          Overrides {
+            Name: "cs:4_clock_arm"
+            ObjectReference {
+              SubObjectId: 16521104826442218964
+            }
+          }
+          Overrides {
+            Name: "cs:Rear_spinner"
+            ObjectReference {
+              SubObjectId: 13567469729953598406
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6548680922513943386
+          }
         }
       }
       Objects {

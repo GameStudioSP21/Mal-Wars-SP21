@@ -1,7 +1,7 @@
 Name: "middleDecor"
-RootId: 7467379115172586217
+RootId: 5313319439539082130
 Objects {
-  Id: 12418413051028839265
+  Id: 14696685922348839830
   Name: "Bench Full"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7467379115172586217
+  ParentId: 5313319439539082130
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -59,7 +59,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6304140142807555984
+  Id: 823670598276511445
   Name: "Bench Full"
   Transform {
     Location {
@@ -76,7 +76,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7467379115172586217
+  ParentId: 5313319439539082130
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"

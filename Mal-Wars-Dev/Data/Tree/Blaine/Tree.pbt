@@ -1,6 +1,79 @@
 Name: "Blaine"
 RootId: 9688884146481072164
 Objects {
+  Id: 12326746769680990771
+  Name: "YouWinJPG"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9688884146481072164
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "YouWinJPG"
+  }
+}
+Objects {
+  Id: 13023642154509986053
+  Name: "YouWinJPG"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9688884146481072164
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:YouWinJPG"
+      ObjectReference {
+        SelfId: 12326746769680990771
+      }
+    }
+    Overrides {
+      Name: "cs:TowerDefenders_GameManager"
+      AssetReference {
+        Id: 16922964282924116369
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 11220082913009666362
+    }
+  }
+}
+Objects {
   Id: 6948183899855028971
   Name: "Return Hub Button(s)"
   Transform {

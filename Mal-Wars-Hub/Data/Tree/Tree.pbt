@@ -19,11 +19,13 @@ Objects {
   ChildIds: 10005074784157121906
   ChildIds: 12494580428525001383
   ChildIds: 16735332301278203860
-  ChildIds: 7312355645798257615
   ChildIds: 10384849245238798294
+  ChildIds: 10605282874148991885
   ChildIds: 4497641434065555435
-  ChildIds: 10612427011681696460
-  ChildIds: 10890274874115666730
+  ChildIds: 13157383151670395152
+  ChildIds: 15272818741880377657
+  ChildIds: 10058256283127730305
+  ChildIds: 2999285004240398878
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -39,7 +41,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10890274874115666730
+  Id: 2999285004240398878
   Name: "Sidney"
   Transform {
     Location {
@@ -71,7 +73,122 @@ Objects {
   }
 }
 Objects {
-  Id: 10612427011681696460
+  Id: 10058256283127730305
+  Name: "Game Portal"
+  Transform {
+    Location {
+      X: 1263.54517
+      Y: -1243.54529
+      Z: 246.190552
+    }
+    Rotation {
+      Yaw: -44.9999962
+    }
+    Scale {
+      X: 0.958030164
+      Y: 0.661305606
+      Z: 0.668713152
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Unlit"
+      Bool: false
+    }
+    Overrides {
+      Name: "bp:Rotation"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:Swirl Element Distance"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:Edge Distortion"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:Speed"
+      Float: 0.217551395
+    }
+    Overrides {
+      Name: "bp:Intersection Distance"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:View Distortion Amount"
+      Float: 0.131066889
+    }
+    Overrides {
+      Name: "bp:Edge Distance"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:Portal Spread"
+      Float: 1
+    }
+    Overrides {
+      Name: "bp:Portal Shape"
+      Int: 11
+    }
+    Overrides {
+      Name: "bp:Game ID"
+      String: "db9638/malwarsdevclone"
+    }
+    Overrides {
+      Name: "bp:Use World Capture"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 7614389080961642619
+    }
+    TeamSettings {
+    }
+  }
+}
+Objects {
+  Id: 15272818741880377657
+  Name: "Dylan"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Dylan"
+  }
+}
+Objects {
+  Id: 13157383151670395152
   Name: "Avery_C"
   Transform {
     Location {
@@ -130,6 +247,37 @@ Objects {
   }
 }
 Objects {
+  Id: 10605282874148991885
+  Name: "Trevor"
+  Transform {
+    Location {
+      X: 1129.99744
+      Z: 89.7507935
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Trevor"
+  }
+}
+Objects {
   Id: 10384849245238798294
   Name: "Asante"
   Transform {
@@ -156,35 +304,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Asante"
-  }
-}
-Objects {
-  Id: 7312355645798257615
-  Name: "Trevor"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Trevor"
   }
 }
 Objects {

@@ -22,7 +22,7 @@ Assets {
       }
       Overrides {
         Name: "cs:PierceRange"
-        Int: 1000
+        Int: 500
       }
       Overrides {
         Name: "cs:ConeAngle:tooltip"

@@ -1,13 +1,4 @@
 Assets {
-  Id: 17168332812051305437
-  Name: "Container - Trapezoid Thick 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_container_triangular_Thick_ref"
-  }
-}
-Assets {
   Id: 15172447947542825843
   Name: "Prism - 4-Sided Trapezoid Right"
   PlatformAssetType: 1
