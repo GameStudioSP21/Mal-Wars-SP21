@@ -53,7 +53,7 @@ function Board:Setup(position, playerOwners, boardAsset)
         -- Move this to an API.
         local playersString = ""
         for _, player in pairs(self.owners) do
-            player:SetResource("GEMS", 300) -- TODO: Have this refer to a property from the board static data.
+            player:SetResource("GEMS", 3000) -- TODO: Have this refer to a property from the board static data.
             playersString = playersString .. tostring(player.id) .. ";"
         end
     

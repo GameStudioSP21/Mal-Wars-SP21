@@ -24,7 +24,9 @@ local GEM_COUNT = ROOT:GetCustomProperty("RewardResourceAmount")
 
 function OnDestroyed(obj)
 	GemWalletClient.AddToWallet(GEM_COUNT)
-	World.SpawnAsset(DESTROY_VFX,{ position = GEO_ROOT:GetWorldPosition() })
+	if(DESTROY_VFX) then
+		World.SpawnAsset(DESTROY_VFX,{ position = GEO_ROOT:GetWorldPosition() })
+	end
 	GEO_ROOT:StopMove()
 	GEO_ROOT:StopRotate()
 	GEO_ROOT:Destroy()
