@@ -25,6 +25,7 @@ Objects {
   ChildIds: 13157383151670395152
   ChildIds: 15272818741880377657
   ChildIds: 2999285004240398878
+  ChildIds: 612552554494459631
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -37,6 +38,38 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 612552554494459631
+  Name: "Fixes_Donttouch"
+  Transform {
+    Location {
+      X: -3660.40308
+      Y: 44.1377373
+      Z: -963.619812
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Fixes_Donttouch"
   }
 }
 Objects {
