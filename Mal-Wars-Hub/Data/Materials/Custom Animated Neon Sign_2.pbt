@@ -1,6 +1,6 @@
 Assets {
   Id: 9418006295412822975
-  Name: "Custom Animated Neon Sign_2"
+  Name: "YP_Custom Animated Neon Sign_2"
   PlatformAssetType: 13
   SerializationVersion: 81
   CustomMaterialAsset {
@@ -8,7 +8,7 @@ Assets {
     ParameterOverrides {
       Overrides {
         Name: "numberofframes"
-        Int: 7
+        Int: 25
       }
       Overrides {
         Name: "animation type"
@@ -24,15 +24,39 @@ Assets {
       }
       Overrides {
         Name: "glow intensity"
-        Float: 10
+        Float: 4
       }
       Overrides {
         Name: "animation speed"
-        Float: 1
+        Float: -4
       }
       Overrides {
         Name: "framenumber"
-        Int: 14
+        Int: 1
+      }
+      Overrides {
+        Name: "UseAnimationVector"
+        Bool: false
+      }
+      Overrides {
+        Name: "useobjectposx"
+        Bool: true
+      }
+      Overrides {
+        Name: "useobjectposz"
+        Bool: true
+      }
+      Overrides {
+        Name: "useobjectposy"
+        Bool: true
+      }
+      Overrides {
+        Name: "oncolor"
+        Color {
+          G: 0.0941176564
+          B: 0.580392182
+          A: 1
+        }
       }
     }
     Assets {

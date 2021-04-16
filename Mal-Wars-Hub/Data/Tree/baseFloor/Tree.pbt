@@ -1,7 +1,7 @@
 Name: "baseFloor"
-RootId: 16586586903203790049
+RootId: 3403847356857637549
 Objects {
-  Id: 16230689818150481441
+  Id: 12167807995938339095
   Name: "Prism - 6-Sided Half"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16586586903203790049
+  ParentId: 3403847356857637549
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -68,7 +68,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11639907266971951544
+  Id: 453746397299827937
   Name: "customPiece_2"
   Transform {
     Location {
@@ -83,7 +83,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16586586903203790049
+  ParentId: 3403847356857637549
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -99,7 +99,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4475292487835305249
+  Id: 12618804149793089971
   Name: "customPeice_1"
   Transform {
     Location {
@@ -114,7 +114,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16586586903203790049
+  ParentId: 3403847356857637549
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -130,13 +130,12 @@ Objects {
   }
 }
 Objects {
-  Id: 11237463344609430006
+  Id: 4697203080813323792
   Name: "Default Floor"
   Transform {
     Location {
-      X: -908.376221
-      Y: -110.654114
-      Z: -664.348816
+      X: -908.376648
+      Y: -71.7601929
     }
     Rotation {
     }
@@ -146,7 +145,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16586586903203790049
+  ParentId: 3403847356857637549
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -195,13 +194,12 @@ Objects {
   }
 }
 Objects {
-  Id: 11125297632830694346
+  Id: 10393945861058364554
   Name: "Default Floor"
   Transform {
     Location {
-      X: 892.899414
-      Y: -110.653748
-      Z: -664.348816
+      X: 892.9
+      Y: -71.7598267
     }
     Rotation {
     }
@@ -211,7 +209,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16586586903203790049
+  ParentId: 3403847356857637549
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -260,7 +258,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6869948116725721661
+  Id: 8860466730274405087
   Name: "Default Floor"
   Transform {
     Location {
@@ -275,7 +273,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16586586903203790049
+  ParentId: 3403847356857637549
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -324,7 +322,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8221074654731141035
+  Id: 14975908523741445285
   Name: "Default Floor"
   Transform {
     Location {
@@ -339,7 +337,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16586586903203790049
+  ParentId: 3403847356857637549
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -388,7 +386,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1259419079258275608
+  Id: 10775607356748984201
   Name: "Default Floor"
   Transform {
     Location {
@@ -403,71 +401,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16586586903203790049
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.200000018
-        G: 0.250980407
-        B: 0.58431375
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 2488181828159443373
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:forceon"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    InteractWithTriggers: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 4195385781420836946
-    SubobjectId: 14738968544434746290
-    InstanceId: 2585132023508260079
-    TemplateId: 17735093090777977581
-  }
-}
-Objects {
-  Id: 10582621611743516068
-  Name: "Default Floor"
-  Transform {
-    Location {
-      X: -908.422363
-      Y: 756.056
-    }
-    Rotation {
-    }
-    Scale {
-      X: 13.985302
-      Y: 6.4395113
-      Z: 1
-    }
-  }
-  ParentId: 16586586903203790049
+  ParentId: 3403847356857637549
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -516,7 +450,71 @@ Objects {
   }
 }
 Objects {
-  Id: 14916302743433322946
+  Id: 9333097012449760907
+  Name: "Default Floor"
+  Transform {
+    Location {
+      X: -908.422363
+      Y: 756.056
+    }
+    Rotation {
+    }
+    Scale {
+      X: 13.985302
+      Y: 6.4395113
+      Z: 1
+    }
+  }
+  ParentId: 3403847356857637549
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.200000018
+        G: 0.250980407
+        B: 0.58431375
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 6777447344140592468
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    InteractWithTriggers: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 4195385781420836946
+    SubobjectId: 14738968544434746290
+    InstanceId: 2585132023508260079
+    TemplateId: 17735093090777977581
+  }
+}
+Objects {
+  Id: 8788158473669464413
   Name: "Prism - 6-Sided Half"
   Transform {
     Location {
@@ -533,7 +531,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16586586903203790049
+  ParentId: 3403847356857637549
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"

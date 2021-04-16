@@ -1,7 +1,7 @@
 Name: "KioskDECOR"
-RootId: 417884769784548925
+RootId: 3574258590843383830
 Objects {
-  Id: 7093686634090635142
+  Id: 15764801488773613046
   Name: "Office Cubicle Cabinet 01 - Template"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -178,7 +178,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16264795366989873455
+  Id: 14446087964867583133
   Name: "Office Cubicle Cabinet 01 - Template"
   Transform {
     Location {
@@ -195,7 +195,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -363,7 +363,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1880569603298775569
+  Id: 1612306630749209437
   Name: "Office Cubicle Cabinet 01 - Template"
   Transform {
     Location {
@@ -380,7 +380,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -539,7 +539,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16143530205154391238
+  Id: 670689066387263723
   Name: "Office Cubicle Cabinet 01 - Template"
   Transform {
     Location {
@@ -556,7 +556,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -724,7 +724,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14884082985661613006
+  Id: 1252736567623032754
   Name: "Office Cubicle Cabinet 01 - Template"
   Transform {
     Location {
@@ -741,7 +741,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -901,7 +901,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13754650872019957184
+  Id: 18309339608023682521
   Name: "Office Cubicle Cabinet 01 - Template"
   Transform {
     Location {
@@ -918,7 +918,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1086,7 +1086,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7154600148979811249
+  Id: 6244007235583180656
   Name: "Office Cubicle Cabinet 01 - Template"
   Transform {
     Location {
@@ -1103,7 +1103,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1262,7 +1262,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11270597956167378604
+  Id: 20116851110321359
   Name: "Office Cubicle Cabinet 01 - Template"
   Transform {
     Location {
@@ -1279,7 +1279,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1447,7 +1447,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6948211255251981319
+  Id: 6509831095104062077
   Name: "Office Cubicle Cabinet 01 - Template"
   Transform {
     Location {
@@ -1464,7 +1464,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1624,7 +1624,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2998596772768517984
+  Id: 11540440593211816144
   Name: "Office Cubicle Cabinet 01 - Template"
   Transform {
     Location {
@@ -1641,7 +1641,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1809,7 +1809,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2628377263466799166
+  Id: 5694155623974038635
   Name: "Office Cubicle Cabinet 01 - Template"
   Transform {
     Location {
@@ -1826,7 +1826,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1985,7 +1985,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11066214606331782065
+  Id: 8772962928415364347
   Name: "Mouse"
   Transform {
     Location {
@@ -2002,7 +2002,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2029,7 +2029,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6774078248083661521
+  Id: 14651709581719756473
   Name: "Mouse"
   Transform {
     Location {
@@ -2045,7 +2045,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2072,7 +2072,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16154447748128217266
+  Id: 255352352124533838
   Name: "Office Clipboard"
   Transform {
     Location {
@@ -2089,7 +2089,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2116,7 +2116,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4700581228509158936
+  Id: 4778217772273448202
   Name: "Office Pen 02"
   Transform {
     Location {
@@ -2133,7 +2133,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2160,7 +2160,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8570529415168569955
+  Id: 6955437249494894378
   Name: "Urban Office Laptop (Prop)"
   Transform {
     Location {
@@ -2176,7 +2176,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2220,7 +2220,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3522807588450259536
+  Id: 9090325280804639578
   Name: "Office Book Collection 02"
   Transform {
     Location {
@@ -2236,7 +2236,7 @@ Objects {
       Z: 0.81620729
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2263,7 +2263,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6743805218310964076
+  Id: 2769462250042700457
   Name: "Office Book Pile 04"
   Transform {
     Location {
@@ -2279,7 +2279,7 @@ Objects {
       Z: 0.873220921
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2306,7 +2306,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7378688247269984167
+  Id: 18352427818740121574
   Name: "Office Clipboard"
   Transform {
     Location {
@@ -2323,7 +2323,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2350,7 +2350,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17764234403840936401
+  Id: 11937436440139234961
   Name: "Office Stapler"
   Transform {
     Location {
@@ -2367,7 +2367,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2394,7 +2394,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12178117840985884832
+  Id: 11184241594218505595
   Name: "Office Pen 02"
   Transform {
     Location {
@@ -2411,7 +2411,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2438,7 +2438,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9550835560342899324
+  Id: 6558304589517110900
   Name: "Office Pen Holder"
   Transform {
     Location {
@@ -2454,7 +2454,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2481,7 +2481,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17030319600932368043
+  Id: 15597784247475539448
   Name: "Office Shelves"
   Transform {
     Location {
@@ -2497,7 +2497,7 @@ Objects {
       Z: 0.80502075
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -2571,17 +2571,17 @@ Objects {
   }
 }
 Objects {
-  Id: 1043494980945164302
+  Id: 8480857407612965000
   Name: "Office Folder"
   Transform {
     Location {
-      X: 881.976807
-      Y: -743.657
+      X: 872.024292
+      Y: -765.054565
       Z: 150.610138
     }
     Rotation {
       Yaw: 79.6986542
-      Roll: -78.2298355
+      Roll: -78.2298279
     }
     Scale {
       X: 1
@@ -2589,7 +2589,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2616,7 +2616,7 @@ Objects {
   }
 }
 Objects {
-  Id: 990387195536749944
+  Id: 3334225421901832201
   Name: "Office Folder"
   Transform {
     Location {
@@ -2632,7 +2632,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2659,7 +2659,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14967417636895453366
+  Id: 12800514036948032228
   Name: "Office Folder"
   Transform {
     Location {
@@ -2675,7 +2675,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2702,12 +2702,12 @@ Objects {
   }
 }
 Objects {
-  Id: 2567237421396623891
+  Id: 12521534310074585654
   Name: "Office Folder"
   Transform {
     Location {
-      X: 911.381104
-      Y: -741.949707
+      X: 901.428589
+      Y: -763.34729
       Z: 148.032104
     }
     Rotation {
@@ -2720,7 +2720,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2747,7 +2747,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8923619763209265346
+  Id: 18106326803382692328
   Name: "Urban Office Laptop (Prop)"
   Transform {
     Scale {
@@ -2756,7 +2756,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2800,7 +2800,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9188145001728481121
+  Id: 17819511963798623058
   Name: "Office Paper"
   Transform {
     Location {
@@ -2817,7 +2817,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2844,7 +2844,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13010302052505202432
+  Id: 8161654680896941925
   Name: "Office Paper"
   Transform {
     Location {
@@ -2861,7 +2861,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2888,7 +2888,7 @@ Objects {
   }
 }
 Objects {
-  Id: 157474641513807879
+  Id: 8188380807402938777
   Name: "Office Notebook"
   Transform {
     Location {
@@ -2905,7 +2905,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2932,7 +2932,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6595165511520820128
+  Id: 6696654172843717046
   Name: "Office Cubicle Cabinet 01 - Template"
   Transform {
     Location {
@@ -2948,7 +2948,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3114,7 +3114,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12515397544414828010
+  Id: 3933894807956975110
   Name: "Office Cubicle Cabinet 01 - Template"
   Transform {
     Location {
@@ -3130,7 +3130,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3297,7 +3297,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7888482218759789595
+  Id: 7936187422484273266
   Name: "Office Cubicle Cabinet 01 - Template"
   Transform {
     Scale {
@@ -3306,7 +3306,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 417884769784548925
+  ParentId: 3574258590843383830
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

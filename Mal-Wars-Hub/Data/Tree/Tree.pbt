@@ -24,7 +24,6 @@ Objects {
   ChildIds: 4497641434065555435
   ChildIds: 13157383151670395152
   ChildIds: 15272818741880377657
-  ChildIds: 10058256283127730305
   ChildIds: 2999285004240398878
   UnregisteredParameters {
   }
@@ -70,92 +69,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Sidney"
-  }
-}
-Objects {
-  Id: 10058256283127730305
-  Name: "Game Portal"
-  Transform {
-    Location {
-      X: 1263.54517
-      Y: -1243.54529
-      Z: 246.190552
-    }
-    Rotation {
-      Yaw: -44.9999962
-    }
-    Scale {
-      X: 0.958030164
-      Y: 0.661305606
-      Z: 0.668713152
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Unlit"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Rotation"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Swirl Element Distance"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Edge Distortion"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Speed"
-      Float: 0.217551395
-    }
-    Overrides {
-      Name: "bp:Intersection Distance"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:View Distortion Amount"
-      Float: 0.131066889
-    }
-    Overrides {
-      Name: "bp:Edge Distance"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Portal Spread"
-      Float: 1
-    }
-    Overrides {
-      Name: "bp:Portal Shape"
-      Int: 11
-    }
-    Overrides {
-      Name: "bp:Game ID"
-      String: "db9638/malwarsdevclone"
-    }
-    Overrides {
-      Name: "bp:Use World Capture"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 7614389080961642619
-    }
-    TeamSettings {
-    }
   }
 }
 Objects {

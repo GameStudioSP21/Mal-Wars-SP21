@@ -16,7 +16,7 @@ Assets {
       }
       Overrides {
         Name: "emissive_boost"
-        Float: 24.2938824
+        Float: 500
       }
       Overrides {
         Name: "u_tiles"
@@ -37,7 +37,7 @@ Assets {
       }
       Overrides {
         Name: "roughness_multiplier"
-        Float: 1
+        Float: 2
       }
       Overrides {
         Name: "u_offset"

@@ -1,7 +1,7 @@
 Name: "rightSide_decor"
-RootId: 7743566370242056112
+RootId: 3873763433233679620
 Objects {
-  Id: 6397966452632607392
+  Id: 12038896565234787252
   Name: "middleLights"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7743566370242056112
+  ParentId: 3873763433233679620
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -33,7 +33,7 @@ Objects {
   }
 }
 Objects {
-  Id: 943321424366303712
+  Id: 3585496751436232741
   Name: "ceiling light"
   Transform {
     Location {
@@ -50,7 +50,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7743566370242056112
+  ParentId: 3873763433233679620
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -66,7 +66,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1218621643276752455
+  Id: 3012410139046743515
   Name: "ceiling light"
   Transform {
     Location {
@@ -83,7 +83,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7743566370242056112
+  ParentId: 3873763433233679620
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -99,7 +99,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4730330980627249747
+  Id: 3647214299285853337
   Name: "ceiling light"
   Transform {
     Location {
@@ -116,7 +116,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7743566370242056112
+  ParentId: 3873763433233679620
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -132,7 +132,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13625992561439034000
+  Id: 11839920234680217413
   Name: "SIGN_leaderboard"
   Transform {
     Location {
@@ -149,7 +149,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7743566370242056112
+  ParentId: 3873763433233679620
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -165,7 +165,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15713605896472751589
+  Id: 3254349700583966306
   Name: "rightLighting"
   Transform {
     Location {
@@ -181,15 +181,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7743566370242056112
-  ChildIds: 9466042660558600131
-  ChildIds: 13000235913953995124
-  ChildIds: 18360931011859333709
-  ChildIds: 17845315887695499309
-  ChildIds: 9350897580108625613
-  ChildIds: 9750717839203667234
-  ChildIds: 8917757316942601091
-  ChildIds: 1003629613563365978
+  ParentId: 3873763433233679620
+  ChildIds: 328179403630072361
+  ChildIds: 10912484693570708133
+  ChildIds: 17708809380797482355
+  ChildIds: 16168425227062039695
+  ChildIds: 7461824339926140164
+  ChildIds: 8172173935332278184
+  ChildIds: 2592928118247765642
+  ChildIds: 6977525622459064442
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -204,7 +204,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1003629613563365978
+  Id: 6977525622459064442
   Name: "Area Light"
   Transform {
     Location {
@@ -223,7 +223,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15713605896472751589
+  ParentId: 3254349700583966306
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -262,7 +262,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8917757316942601091
+  Id: 2592928118247765642
   Name: "Area Light"
   Transform {
     Location {
@@ -279,7 +279,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15713605896472751589
+  ParentId: 3254349700583966306
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -318,7 +318,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9750717839203667234
+  Id: 8172173935332278184
   Name: "Area Light"
   Transform {
     Location {
@@ -335,7 +335,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15713605896472751589
+  ParentId: 3254349700583966306
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -374,7 +374,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9350897580108625613
+  Id: 7461824339926140164
   Name: "Area Light"
   Transform {
     Location {
@@ -393,7 +393,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15713605896472751589
+  ParentId: 3254349700583966306
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -432,7 +432,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17845315887695499309
+  Id: 16168425227062039695
   Name: "Area Light"
   Transform {
     Location {
@@ -449,7 +449,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15713605896472751589
+  ParentId: 3254349700583966306
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -487,7 +487,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18360931011859333709
+  Id: 17708809380797482355
   Name: "Area Light"
   Transform {
     Location {
@@ -506,7 +506,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15713605896472751589
+  ParentId: 3254349700583966306
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -545,7 +545,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13000235913953995124
+  Id: 10912484693570708133
   Name: "Area Light"
   Transform {
     Location {
@@ -564,7 +564,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15713605896472751589
+  ParentId: 3254349700583966306
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -602,7 +602,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9466042660558600131
+  Id: 328179403630072361
   Name: "Area Light"
   Transform {
     Location {
@@ -621,7 +621,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15713605896472751589
+  ParentId: 3254349700583966306
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -659,7 +659,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15907116270343825107
+  Id: 10925574363114552084
   Name: "ceiling light"
   Transform {
     Location {
@@ -676,7 +676,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7743566370242056112
+  ParentId: 3873763433233679620
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -692,7 +692,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4493671150566005639
+  Id: 1272479125081683630
   Name: "ceiling light"
   Transform {
     Location {
@@ -709,7 +709,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7743566370242056112
+  ParentId: 3873763433233679620
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -725,7 +725,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8819648130493921083
+  Id: 2361586840219208782
   Name: "SIGN_information"
   Transform {
     Location {
@@ -741,7 +741,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7743566370242056112
+  ParentId: 3873763433233679620
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -757,7 +757,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11314638811868768766
+  Id: 3463617936096247788
   Name: "rightSideDecor"
   Transform {
     Location {
@@ -773,7 +773,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7743566370242056112
+  ParentId: 3873763433233679620
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -789,7 +789,7 @@ Objects {
   }
 }
 Objects {
-  Id: 417884769784548925
+  Id: 3574258590843383830
   Name: "KioskDECOR"
   Transform {
     Location {
@@ -804,7 +804,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7743566370242056112
+  ParentId: 3873763433233679620
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -820,7 +820,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3139341486358634168
+  Id: 9650730445331090948
   Name: "KIOSK"
   Transform {
     Location {
@@ -836,7 +836,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7743566370242056112
+  ParentId: 3873763433233679620
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

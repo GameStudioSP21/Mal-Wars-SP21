@@ -1,7 +1,7 @@
 Name: "WallArt"
-RootId: 13937949222443352447
+RootId: 1141753885408273585
 Objects {
-  Id: 4485874360359230509
+  Id: 17641095262872835277
   Name: "Sci-fi Base Trim 02 4m"
   Transform {
     Location {
@@ -20,7 +20,7 @@ Objects {
       Z: 1.80000007
     }
   }
-  ParentId: 13937949222443352447
+  ParentId: 1141753885408273585
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -58,7 +58,7 @@ Objects {
   }
 }
 Objects {
-  Id: 859780885242510046
+  Id: 10800984018724923548
   Name: "Sci-fi Base Wall Interior 01 - Window 01"
   Transform {
     Location {
@@ -74,7 +74,7 @@ Objects {
       Z: 1.59334874
     }
   }
-  ParentId: 13937949222443352447
+  ParentId: 1141753885408273585
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:color"
@@ -163,7 +163,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1519480526505009055
+  Id: 14348406089879749695
   Name: "Sci-fi Base Trim 02 4m"
   Transform {
     Location {
@@ -181,7 +181,7 @@ Objects {
       Z: 1.80000007
     }
   }
-  ParentId: 13937949222443352447
+  ParentId: 1141753885408273585
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -219,7 +219,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17285926043285190289
+  Id: 1404406477488687229
   Name: "Sci-fi Base Trim 02 4m"
   Transform {
     Location {
@@ -237,7 +237,7 @@ Objects {
       Z: 1.80000007
     }
   }
-  ParentId: 13937949222443352447
+  ParentId: 1141753885408273585
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -275,7 +275,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2452009513227666235
+  Id: 9012777133733903391
   Name: "Sci-fi Base Wall Interior 01 - Window 01"
   Transform {
     Location {
@@ -292,7 +292,7 @@ Objects {
       Z: 1.59334874
     }
   }
-  ParentId: 13937949222443352447
+  ParentId: 1141753885408273585
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -381,7 +381,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17965059280525819779
+  Id: 15470294768112182877
   Name: "Sci-fi Base Trim 02 4m"
   Transform {
     Location {
@@ -399,7 +399,7 @@ Objects {
       Z: 1.80000007
     }
   }
-  ParentId: 13937949222443352447
+  ParentId: 1141753885408273585
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -437,7 +437,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17227553801007845320
+  Id: 9630814637505067673
   Name: "Sci-fi Base Sconce 01"
   Transform {
     Location {
@@ -454,7 +454,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13937949222443352447
+  ParentId: 1141753885408273585
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Detail1:color"
@@ -497,7 +497,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15742156083916497599
+  Id: 12394361815899465447
   Name: "Sci-fi Base HVAC 01"
   Transform {
     Location {
@@ -515,7 +515,7 @@ Objects {
       Z: 0.378900707
     }
   }
-  ParentId: 13937949222443352447
+  ParentId: 1141753885408273585
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -542,7 +542,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3836573365552341285
+  Id: 3626598345749769322
   Name: "Sci-fi Base Wall Interior 01 - Window 01"
   Transform {
     Location {
@@ -559,7 +559,7 @@ Objects {
       Z: 1.59334874
     }
   }
-  ParentId: 13937949222443352447
+  ParentId: 1141753885408273585
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -642,7 +642,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4522048540633017659
+  Id: 2605834625244553527
   Name: "Sci-fi Base Wall 01 Half"
   Transform {
     Location {
@@ -660,7 +660,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 13937949222443352447
+  ParentId: 1141753885408273585
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_UpperTrimOuter:color"
@@ -698,7 +698,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13686193012920839186
+  Id: 8915062952502322240
   Name: "Sci-fi Base Wall 01 Half"
   Transform {
     Location {
@@ -716,7 +716,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 13937949222443352447
+  ParentId: 1141753885408273585
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_UpperTrimOuter:color"
@@ -754,7 +754,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3869870270838406669
+  Id: 11299002125312125391
   Name: "Sci-fi Base Wall 01 Half"
   Transform {
     Location {
@@ -772,7 +772,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 13937949222443352447
+  ParentId: 1141753885408273585
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_UpperTrimOuter:color"
@@ -810,7 +810,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17539489959486776407
+  Id: 11309076127236350973
   Name: "Sci-fi Base Wall 01 Half"
   Transform {
     Location {
@@ -828,7 +828,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 13937949222443352447
+  ParentId: 1141753885408273585
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_UpperTrimOuter:color"
@@ -866,7 +866,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2979782029743353756
+  Id: 15475660917570040911
   Name: "Sci-fi Base Wall 01 Half"
   Transform {
     Location {
@@ -884,7 +884,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 13937949222443352447
+  ParentId: 1141753885408273585
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_UpperTrimOuter:color"
@@ -922,7 +922,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13651085589818985961
+  Id: 3072361046553386732
   Name: "Sci-fi Base Wall 01 Half"
   Transform {
     Location {
@@ -940,7 +940,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 13937949222443352447
+  ParentId: 1141753885408273585
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_UpperTrimOuter:color"
@@ -978,7 +978,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12384556724421737602
+  Id: 5017827924196019014
   Name: "Sci-fi Base Wall 01 Half"
   Transform {
     Location {
@@ -996,7 +996,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 13937949222443352447
+  ParentId: 1141753885408273585
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_UpperTrimOuter:color"
@@ -1064,7 +1064,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14905939426334851000
+  Id: 4508214199468432851
   Name: "Sci-fi Base Wall 01 Half"
   Transform {
     Location {
@@ -1082,7 +1082,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 13937949222443352447
+  ParentId: 1141753885408273585
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_UpperTrimOuter:color"
@@ -1156,7 +1156,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16348417272714378370
+  Id: 7532949534528145994
   Name: "Sci-fi Base Wall 01 Half"
   Transform {
     Location {
@@ -1175,7 +1175,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 13937949222443352447
+  ParentId: 1141753885408273585
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_UpperTrimOuter:color"
@@ -1249,7 +1249,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10242196462237301698
+  Id: 16081628197634032993
   Name: "Sci-fi Base Wall 01 Half"
   Transform {
     Location {
@@ -1267,7 +1267,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 13937949222443352447
+  ParentId: 1141753885408273585
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_UpperTrimOuter:color"
@@ -1341,7 +1341,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8239973616449626418
+  Id: 5462219351323264914
   Name: "Sci-fi Base Wall 01 Half"
   Transform {
     Location {
@@ -1359,7 +1359,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 13937949222443352447
+  ParentId: 1141753885408273585
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_UpperTrimOuter:color"
@@ -1433,7 +1433,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3015301319535051511
+  Id: 11213110726707168744
   Name: "Sci-fi Base Wall 01 Half"
   Transform {
     Location {
@@ -1451,7 +1451,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 13937949222443352447
+  ParentId: 1141753885408273585
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_UpperTrimOuter:color"
@@ -1525,7 +1525,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18258643880087845155
+  Id: 10865641618011394308
   Name: "Sci-fi Base Wall 01 Half"
   Transform {
     Location {
@@ -1543,7 +1543,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 13937949222443352447
+  ParentId: 1141753885408273585
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_UpperTrimOuter:color"
@@ -1617,7 +1617,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17320505454285043093
+  Id: 3826613959365883289
   Name: "Sci-fi Base Railing 02 Stairs"
   Transform {
     Location {
@@ -1634,7 +1634,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 13937949222443352447
+  ParentId: 1141753885408273585
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1661,7 +1661,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9022751438917606462
+  Id: 8436751396266112599
   Name: "Sci-fi Base Railing 02 Stairs"
   Transform {
     Location {
@@ -1678,7 +1678,7 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 13937949222443352447
+  ParentId: 1141753885408273585
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1705,7 +1705,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5450284845258863986
+  Id: 14882486535827970432
   Name: "Sci-fi Base Trim 02 4m"
   Transform {
     Location {
@@ -1722,7 +1722,7 @@ Objects {
       Z: 1.80000007
     }
   }
-  ParentId: 13937949222443352447
+  ParentId: 1141753885408273585
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1760,7 +1760,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11316923102713899649
+  Id: 17995712724875602490
   Name: "Sci-fi Base Trim 02 4m"
   Transform {
     Location {
@@ -1779,7 +1779,7 @@ Objects {
       Z: 1.80000007
     }
   }
-  ParentId: 13937949222443352447
+  ParentId: 1141753885408273585
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -1817,7 +1817,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10110388743412237019
+  Id: 18140862475071732305
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -1834,7 +1834,7 @@ Objects {
       Z: -0.7
     }
   }
-  ParentId: 13937949222443352447
+  ParentId: 1141753885408273585
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_LowerTrimInner:color"
@@ -1899,7 +1899,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4215240247691763028
+  Id: 15938168966047175540
   Name: "Sci-fi Base Wall Interior 01 Half"
   Transform {
     Location {
@@ -1916,7 +1916,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13937949222443352447
+  ParentId: 1141753885408273585
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:color"

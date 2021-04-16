@@ -1,23 +1,23 @@
 Name: "SIGN"
-RootId: 13625992561439034000
+RootId: 11839920234680217413
 Objects {
-  Id: 17559309358108530820
+  Id: 13460464602418805957
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -18.9489975
-      Y: 4.7118969
+      X: -18.9481945
+      Y: 15.8847466
       Z: -4.3168335
     }
     Rotation {
     }
     Scale {
-      X: 10.0032177
-      Y: 0.224236652
-      Z: 2.4003458
+      X: 9.68379784
+      Y: 0.224236414
+      Z: 2.11623073
     }
   }
-  ParentId: 13625992561439034000
+  ParentId: 11839920234680217413
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -52,7 +52,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6014711177027996062
+  Id: 10092463120817599012
   Name: "leaderBoard_Sign"
   Transform {
     Location {
@@ -68,7 +68,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13625992561439034000
+  ParentId: 11839920234680217413
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -84,23 +84,23 @@ Objects {
   }
 }
 Objects {
-  Id: 13941705162585772986
+  Id: 6800803468598555503
   Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: -18.9491348
-      Y: 1.8056469
+      X: -18.948801
+      Y: 20.1142406
       Z: 1.23245239
     }
     Rotation {
     }
     Scale {
-      X: 9.83731
-      Y: 0.220517606
-      Z: 2.28729773
+      X: 9.41589165
+      Y: 0.572363
+      Z: 1.94084144
     }
   }
-  ParentId: 13625992561439034000
+  ParentId: 11839920234680217413
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"

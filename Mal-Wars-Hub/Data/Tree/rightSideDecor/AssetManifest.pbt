@@ -1,13 +1,4 @@
 Assets {
-  Id: 18021650234350156091
-  Name: "Table Assembled"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_table_001"
-  }
-}
-Assets {
   Id: 17684500043261901578
   Name: "Office Binder"
   PlatformAssetType: 1
@@ -23,15 +14,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_off_desktop_paper_stack_01_ref"
-  }
-}
-Assets {
-  Id: 13808652136067684639
-  Name: "Bench Full"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_bench_001"
   }
 }
 Assets {

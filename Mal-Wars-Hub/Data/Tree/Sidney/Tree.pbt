@@ -266,7 +266,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Light {
-    Intensity: 35.9900246
+    Intensity: 5.30477095
     Color {
       R: 0.86
       G: 0.410066217
@@ -464,7 +464,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Light {
-    Intensity: 35.9900246
+    Intensity: 5.30477095
     Color {
       R: 0.86
       G: 0.410066217
@@ -6575,7 +6575,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Light {
-    Intensity: 100
+    Intensity: 33.1687622
     Color {
       R: 0.139999986
       G: 0.880397081
@@ -6631,7 +6631,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Light {
-    Intensity: 100
+    Intensity: 33.1687622
     Color {
       R: 0.139999986
       G: 0.880397081

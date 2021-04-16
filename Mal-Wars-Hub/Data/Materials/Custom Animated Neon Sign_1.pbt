@@ -20,7 +20,7 @@ Assets {
       }
       Overrides {
         Name: "glow intensity"
-        Float: 20
+        Float: 10
       }
       Overrides {
         Name: "enable animation"

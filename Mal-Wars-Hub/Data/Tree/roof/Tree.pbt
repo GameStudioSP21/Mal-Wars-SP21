@@ -1,7 +1,7 @@
 Name: "roof"
-RootId: 17219555095714817766
+RootId: 7189955838380881614
 Objects {
-  Id: 7641027756271333489
+  Id: 6909112182586337577
   Name: "Whitebox Wall 01"
   Transform {
     Location {
@@ -19,7 +19,7 @@ Objects {
       Z: 0.842095196
     }
   }
-  ParentId: 17219555095714817766
+  ParentId: 7189955838380881614
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -54,7 +54,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1808657806196287148
+  Id: 541256710858722950
   Name: "Default Floor"
   Transform {
     Location {
@@ -71,7 +71,7 @@ Objects {
       Z: 0.682006955
     }
   }
-  ParentId: 17219555095714817766
+  ParentId: 7189955838380881614
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -105,7 +105,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16203206628392428264
+  Id: 2344838284102897772
   Name: "Default Floor"
   Transform {
     Location {
@@ -121,7 +121,7 @@ Objects {
       Z: 0.682006955
     }
   }
-  ParentId: 17219555095714817766
+  ParentId: 7189955838380881614
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -161,7 +161,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4631425679846208541
+  Id: 7425018130588967144
   Name: "Default Floor"
   Transform {
     Location {
@@ -177,7 +177,7 @@ Objects {
       Z: 0.682006955
     }
   }
-  ParentId: 17219555095714817766
+  ParentId: 7189955838380881614
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -211,7 +211,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13019357767306312412
+  Id: 2405458807440932601
   Name: "Prism - 6-Sided Half"
   Transform {
     Location {
@@ -227,7 +227,7 @@ Objects {
       Z: 0.682006955
     }
   }
-  ParentId: 17219555095714817766
+  ParentId: 7189955838380881614
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -262,7 +262,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5043575058696187905
+  Id: 15967748975527531548
   Name: "Prism - 6-Sided Half"
   Transform {
     Location {
@@ -279,7 +279,7 @@ Objects {
       Z: 0.682006955
     }
   }
-  ParentId: 17219555095714817766
+  ParentId: 7189955838380881614
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"

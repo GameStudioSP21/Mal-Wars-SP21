@@ -1,7 +1,7 @@
 Name: "leftSide"
-RootId: 14386825216298343089
+RootId: 967217771991824935
 Objects {
-  Id: 17219555095714817766
+  Id: 7189955838380881614
   Name: "roof"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14386825216298343089
+  ParentId: 967217771991824935
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -33,7 +33,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8226072610802628322
+  Id: 13336497031102525512
   Name: "rightSide_lights"
   Transform {
     Location {
@@ -50,7 +50,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14386825216298343089
+  ParentId: 967217771991824935
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -66,7 +66,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4495556587258163799
+  Id: 8988646887617302360
   Name: "walls"
   Transform {
     Location {
@@ -82,7 +82,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14386825216298343089
+  ParentId: 967217771991824935
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -101,37 +101,5 @@ Objects {
     SubobjectId: 17325262978604612575
     InstanceId: 2585132023508260079
     TemplateId: 17735093090777977581
-  }
-}
-Objects {
-  Id: 13579115906967025463
-  Name: "floor"
-  Transform {
-    Location {
-      X: 64.5864639
-      Y: -16.8940086
-      Z: -0.000305175781
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14386825216298343089
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "floor_2"
   }
 }

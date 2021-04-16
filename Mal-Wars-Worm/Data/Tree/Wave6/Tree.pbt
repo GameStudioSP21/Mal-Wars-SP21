@@ -1,8 +1,8 @@
 Name: "Wave6"
 RootId: 13838315464293966470
 Objects {
-  Id: 16280286280889293602
-  Name: "40 ReVr"
+  Id: 740116011621834945
+  Name: "1 YeWo"
   Transform {
     Location {
     }
@@ -19,22 +19,18 @@ Objects {
     Overrides {
       Name: "cs:Enemy"
       AssetReference {
-        Id: 13540676411188992771
+        Id: 7400702674063134692
       }
     }
     Overrides {
       Name: "cs:Amount"
       Vector2 {
-        X: 40
-        Y: 40
+        X: 1
+        Y: 1
       }
     }
     Overrides {
       Name: "cs:HealthMultiplier"
-      Int: 1
-    }
-    Overrides {
-      Name: "cs:SpeedMultiplier"
       Int: 1
     }
   }
@@ -49,12 +45,12 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "40 ReVr_24"
+    FilePartitionName: "1 YeWo"
   }
 }
 Objects {
-  Id: 15002984573164218502
-  Name: "20 ReAd"
+  Id: 16752021551426146860
+  Name: "5 GrWo"
   Transform {
     Location {
     }
@@ -71,22 +67,18 @@ Objects {
     Overrides {
       Name: "cs:Enemy"
       AssetReference {
-        Id: 13666678496038779585
+        Id: 1364954756512784228
       }
     }
     Overrides {
       Name: "cs:Amount"
       Vector2 {
-        X: 20
-        Y: 20
+        X: 5
+        Y: 5
       }
     }
     Overrides {
       Name: "cs:HealthMultiplier"
-      Int: 1
-    }
-    Overrides {
-      Name: "cs:SpeedMultiplier"
       Int: 1
     }
   }
@@ -101,7 +93,103 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "20 ReAd_24"
+    FilePartitionName: "5 GrWo"
+  }
+}
+Objects {
+  Id: 2941390232582594576
+  Name: "1 YeWo"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13838315464293966470
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Enemy"
+      AssetReference {
+        Id: 7400702674063134692
+      }
+    }
+    Overrides {
+      Name: "cs:Amount"
+      Vector2 {
+        X: 1
+        Y: 1
+      }
+    }
+    Overrides {
+      Name: "cs:HealthMultiplier"
+      Int: 1
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "1 YeWo_1"
+  }
+}
+Objects {
+  Id: 6526555377594472103
+  Name: "5 GrWo"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13838315464293966470
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Enemy"
+      AssetReference {
+        Id: 1364954756512784228
+      }
+    }
+    Overrides {
+      Name: "cs:Amount"
+      Vector2 {
+        X: 5
+        Y: 5
+      }
+    }
+    Overrides {
+      Name: "cs:HealthMultiplier"
+      Int: 1
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "5 GrWo_1"
   }
 }
 Objects {
@@ -149,7 +237,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "1 YeWo"
+    FilePartitionName: "1 YeWo_2"
   }
 }
 Objects {
@@ -249,6 +337,6 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "5 GrWo"
+    FilePartitionName: "5 GrWo_2"
   }
 }

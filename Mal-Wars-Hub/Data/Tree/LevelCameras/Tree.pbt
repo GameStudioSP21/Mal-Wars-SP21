@@ -51,11 +51,12 @@ Objects {
   Name: "LevelCamera1"
   Transform {
     Location {
-      X: 630.05072
-      Y: -1087.79346
-      Z: 228.797333
+      X: 264.465149
+      Y: -514.684082
+      Z: 357.451599
     }
     Rotation {
+      Pitch: -5.39834595
       Yaw: -45
     }
     Scale {

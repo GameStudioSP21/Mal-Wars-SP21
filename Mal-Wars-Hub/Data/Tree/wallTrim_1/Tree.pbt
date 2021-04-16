@@ -1,7 +1,7 @@
 Name: "wallTrim_1"
-RootId: 9624910941880345233
+RootId: 2115144127897474540
 Objects {
-  Id: 4112220181238455459
+  Id: 9315652421962694600
   Name: "Whitebox Wall 01 Triangle"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 9624910941880345233
+  ParentId: 2115144127897474540
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -65,7 +65,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11630702431633483226
+  Id: 13255877203256280949
   Name: "Whitebox Wall 01 Triangle"
   Transform {
     Location {
@@ -82,7 +82,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 9624910941880345233
+  ParentId: 2115144127897474540
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -129,7 +129,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14621209525439163233
+  Id: 1223421156546721323
   Name: "Whitebox Wall 01 Triangle"
   Transform {
     Location {
@@ -145,7 +145,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 9624910941880345233
+  ParentId: 2115144127897474540
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -192,7 +192,7 @@ Objects {
   }
 }
 Objects {
-  Id: 469147666620334981
+  Id: 2275702921554945850
   Name: "Whitebox Wall 01 Triangle"
   Transform {
     Location {
@@ -209,7 +209,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 9624910941880345233
+  ParentId: 2115144127897474540
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -256,7 +256,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8342315631722994049
+  Id: 2045433756436648098
   Name: "Whitebox Wall 01 Triangle"
   Transform {
     Location {
@@ -273,7 +273,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 9624910941880345233
+  ParentId: 2115144127897474540
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -320,7 +320,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13952036873266414825
+  Id: 12780348228901961814
   Name: "Whitebox Wall 01 Triangle"
   Transform {
     Location {
@@ -337,7 +337,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 9624910941880345233
+  ParentId: 2115144127897474540
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -384,7 +384,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7435500494117680625
+  Id: 3719516606321081401
   Name: "Whitebox Wall 01 Triangle"
   Transform {
     Location {
@@ -401,7 +401,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 9624910941880345233
+  ParentId: 2115144127897474540
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -448,7 +448,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15040447990538837968
+  Id: 16795461477143318138
   Name: "Whitebox Wall 01 Triangle"
   Transform {
     Location {
@@ -465,7 +465,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 9624910941880345233
+  ParentId: 2115144127897474540
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -512,7 +512,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7228881019147123555
+  Id: 16034555449166676280
   Name: "Whitebox Wall 01 Triangle"
   Transform {
     Location {
@@ -529,7 +529,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 9624910941880345233
+  ParentId: 2115144127897474540
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -576,7 +576,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7761157687802785252
+  Id: 1269570516738474008
   Name: "Whitebox Wall 01 Triangle"
   Transform {
     Location {
@@ -593,7 +593,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 9624910941880345233
+  ParentId: 2115144127897474540
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -640,7 +640,7 @@ Objects {
   }
 }
 Objects {
-  Id: 247573814812232721
+  Id: 12950999728388139303
   Name: "Whitebox Wall 01 Triangle"
   Transform {
     Location {
@@ -657,7 +657,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 9624910941880345233
+  ParentId: 2115144127897474540
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -704,7 +704,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2476140049059639597
+  Id: 2509018461584777583
   Name: "Whitebox Wall 01 Triangle"
   Transform {
     Location {
@@ -721,7 +721,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 9624910941880345233
+  ParentId: 2115144127897474540
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -768,7 +768,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8627435995880171839
+  Id: 6593868271026875201
   Name: "Whitebox Wall 01 Triangle"
   Transform {
     Location {
@@ -785,7 +785,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 9624910941880345233
+  ParentId: 2115144127897474540
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"
@@ -832,7 +832,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5882321729476554082
+  Id: 279667895321328894
   Name: "Whitebox Wall 01 Triangle"
   Transform {
     Location {
@@ -848,7 +848,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 9624910941880345233
+  ParentId: 2115144127897474540
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner2:id"

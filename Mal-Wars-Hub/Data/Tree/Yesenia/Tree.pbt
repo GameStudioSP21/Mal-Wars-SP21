@@ -1,7 +1,7 @@
 Name: "Yesenia"
 RootId: 16735332301278203860
 Objects {
-  Id: 13911381400682705983
+  Id: 13800692519424796251
   Name: "lobbyBlockout"
   Transform {
     Location {

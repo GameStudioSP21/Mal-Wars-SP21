@@ -27,8 +27,8 @@ Objects {
   Control {
     Width: 129
     Height: 59
-    UIX: 85
-    UIY: -155
+    UIX: 75.0284729
+    UIY: -133.803345
     RotationAngle: 98.9875336
     RenderTransformPivot {
       Anchor {
@@ -93,8 +93,8 @@ Objects {
   Control {
     Width: 72
     Height: 139
-    UIX: 120
-    UIY: -75
+    UIX: 110.028473
+    UIY: -53.8033447
     RotationAngle: 25.738739
     RenderTransformPivot {
       Anchor {
@@ -196,7 +196,8 @@ Objects {
   Control {
     Width: 200
     Height: 200
-    UIY: -105
+    UIX: -9.9715271
+    UIY: -83.8033447
     RotationAngle: 45
     RenderTransformPivot {
       Anchor {

@@ -21,6 +21,7 @@ Objects {
   ChildIds: 10722931758594424760
   ChildIds: 15885606419812222058
   ChildIds: 2880498746515435782
+  ChildIds: 17034724374570468586
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -33,6 +34,172 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 17034724374570468586
+  Name: "Ambience Nature Calm Forest Set 01 SFX"
+  Transform {
+    Location {
+      X: -8202.46484
+      Y: 2472.76831
+      Z: 73.2988586
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 10793054870569714710
+  ChildIds: 9108624364381173767
+  ChildIds: 1594707017786988876
+  UnregisteredParameters {
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 17034724374570468586
+    SubobjectId: 5341159740561491560
+    InstanceId: 15582175995887150060
+    TemplateId: 2222831866111292663
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 1594707017786988876
+  Name: "Sci-fi Alien Electrical Spaceship Drone Loop 02 SFX"
+  Transform {
+    Location {
+      X: 8885.80176
+      Y: -2828.96362
+      Z: 1502.58679
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17034724374570468586
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 13228008703968053121
+    }
+    AutoPlay: true
+    Repeat: true
+    Pitch: -2400
+    Volume: 0.8
+    Falloff: 10000
+    Radius: 100
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
+  }
+}
+Objects {
+  Id: 9108624364381173767
+  Name: "Sci-fi Ambience Alien Designed 01 SFX"
+  Transform {
+    Location {
+      X: -7247.04492
+      Y: -2476.82495
+      Z: 1783.93164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17034724374570468586
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 17318258559998679598
+    }
+    AutoPlay: true
+    Repeat: true
+    Pitch: -4000
+    Volume: 4
+    Falloff: 5000
+    Radius: 1200
+    IsAttenuationEnabled: true
+  }
+}
+Objects {
+  Id: 10793054870569714710
+  Name: "Air Conditioned Room Tone Loop 01 SFX"
+  Transform {
+    Location {
+      X: 2183.14844
+      Y: -2477.31201
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17034724374570468586
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 6025392823403670901
+    }
+    AutoPlay: true
+    Repeat: true
+    Pitch: -2400
+    Volume: 1.5050801
+    Falloff: -1
+    Radius: 5000
+    IsAttenuationEnabled: true
   }
 }
 Objects {
@@ -117,6 +284,69 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 1383984197735749286
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 222.906372
+            Y: 2877.5188
+            Z: 281.571533
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -12.9593201
+            Yaw: 90.3747711
+            Roll: 85.0852509
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3915483656180185893
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 399.043701
+            Y: 2700.27637
+            Z: 341.549713
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -14.9777832
+            Yaw: 68.7762527
+            Roll: 95.7085
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6461466610559622992
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 332.781494
+            Y: -1520.66528
+            Z: -28.0526733
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -12.3432312
+            Yaw: -101.069336
+            Roll: -9.49945068
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 12379996449719569168
       value {
         Overrides {
@@ -126,8 +356,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 705.540405
-            Y: -1091.48145
+            X: 820
+            Y: -347.617188
             Z: 3181.49414
           }
         }
@@ -135,7 +365,70 @@ Objects {
           Name: "Rotation"
           Rotator {
             Pitch: 175
-            Yaw: -90
+            Yaw: -22.5000305
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13967012028538698377
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 202.525055
+            Y: -1242.58423
+            Z: -255.004333
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -2.56314087
+            Yaw: -92.2535095
+            Roll: -12.7424622
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14638764340476840693
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -18.9033089
+            Y: 2903.99438
+            Z: 408.050385
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -8.04260254
+            Yaw: 92.4315796
+            Roll: 78.776535
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14875692981867017418
+      value {
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -15.2273865
+            Yaw: 74.0589905
+            Roll: 85.293
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 557.43634
+            Y: 2155.49756
+            Z: 597.974487
           }
         }
       }

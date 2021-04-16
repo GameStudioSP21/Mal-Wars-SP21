@@ -133,14 +133,14 @@ Objects {
   Name: "ArmoryCamera"
   Transform {
     Location {
-      X: -3448.55713
-      Y: -1457.08325
-      Z: -210.56076
+      X: -3531.45581
+      Y: -1525.42395
+      Z: -186.989365
     }
     Rotation {
       Pitch: 0.918394
-      Yaw: -143.161545
-      Roll: -0.0978393853
+      Yaw: -148.40596
+      Roll: -0.0978393555
     }
     Scale {
       X: 1

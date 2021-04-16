@@ -1,106 +1,7 @@
 Name: "rightSideDecor"
-RootId: 11314638811868768766
+RootId: 3463617936096247788
 Objects {
-  Id: 5216904265403769171
-  Name: "hangingLight"
-  Transform {
-    Location {
-      X: -811.121
-      Y: -152.088562
-      Z: 310.962
-    }
-    Rotation {
-      Yaw: 3.75660311e-05
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11314638811868768766
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "hangingLight"
-  }
-}
-Objects {
-  Id: 12170970626413904465
-  Name: "hangingLight"
-  Transform {
-    Location {
-      X: 1448.48096
-      Y: -49.7984734
-      Z: 418.893097
-    }
-    Rotation {
-      Yaw: 171.917709
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11314638811868768766
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "hangingLight_1"
-  }
-}
-Objects {
-  Id: 18119432241146085311
-  Name: "hangingLight"
-  Transform {
-    Location {
-      X: -658.632446
-      Y: 147.567566
-      Z: 310.962158
-    }
-    Rotation {
-      Yaw: 3.75660347e-05
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11314638811868768766
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "hangingLight_2"
-  }
-}
-Objects {
-  Id: 2519179795519828003
+  Id: 523505057883464512
   Name: "holoSign"
   Transform {
     Location {
@@ -116,7 +17,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11314638811868768766
+  ParentId: 3463617936096247788
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -132,7 +33,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13601710323585573221
+  Id: 835494911988027836
   Name: "Office Paper"
   Transform {
     Location {
@@ -149,7 +50,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11314638811868768766
+  ParentId: 3463617936096247788
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -176,125 +77,17 @@ Objects {
   }
 }
 Objects {
-  Id: 7540835980084196061
-  Name: "Bench Full"
-  Transform {
-    Location {
-      X: 1311.72437
-      Y: -110.222168
-    }
-    Rotation {
-      Yaw: -71.8447
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11314638811868768766
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 1183484854879352956
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail1:id"
-      AssetReference {
-        Id: 1183484854879352956
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13808652136067684639
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 17585529460613870611
-  Name: "Bench Full"
-  Transform {
-    Location {
-      X: 1610.53687
-      Y: 5.58972168
-    }
-    Rotation {
-      Yaw: -71.8447
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11314638811868768766
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 1183484854879352956
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13808652136067684639
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 17811171785597552407
+  Id: 6652071766653513867
   Name: "Office Binder"
   Transform {
     Location {
-      X: 1444.95703
-      Y: -81.529541
+      X: 1435.00476
+      Y: -102.927147
       Z: 140.832367
     }
     Rotation {
       Yaw: 140.843826
-      Roll: -90.0000076
+      Roll: -90
     }
     Scale {
       X: 1
@@ -302,7 +95,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11314638811868768766
+  ParentId: 3463617936096247788
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -329,7 +122,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8589740133140965863
+  Id: 3199805673484487933
   Name: "Urban Office Laptop (Prop)"
   Transform {
     Location {
@@ -345,7 +138,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11314638811868768766
+  ParentId: 3463617936096247788
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -363,8 +156,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 1368.46289
-            Y: 115.864014
+            X: 1297.58582
+            Y: 165.449203
             Z: 132.3797
           }
         }
@@ -390,7 +183,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6094758521756827056
+  Id: 4219205213810481216
   Name: "Office Paper"
   Transform {
     Location {
@@ -407,7 +200,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11314638811868768766
+  ParentId: 3463617936096247788
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -434,7 +227,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4620734225109982561
+  Id: 3124746421023797605
   Name: "Office Book Pile 06"
   Transform {
     Location {
@@ -451,7 +244,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11314638811868768766
+  ParentId: 3463617936096247788
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -478,7 +271,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13990307482921041733
+  Id: 18377133515781539274
   Name: "Craftsman Dining Table"
   Transform {
     Location {
@@ -495,7 +288,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11314638811868768766
+  ParentId: 3463617936096247788
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -536,7 +329,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11599189450369638210
+  Id: 5403181773866084391
   Name: "Craftsman Dining Table"
   Transform {
     Location {
@@ -553,7 +346,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11314638811868768766
+  ParentId: 3463617936096247788
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -580,63 +373,6 @@ Objects {
   CoreMesh {
     MeshAsset {
       Id: 3947032401544493381
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
-  Id: 4248460336613074318
-  Name: "Table Assembled"
-  Transform {
-    Location {
-      X: 1451.67188
-      Y: -59.2578125
-    }
-    Rotation {
-      Yaw: -70.9625397
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11314638811868768766
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 1183484854879352956
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Detail1:id"
-      AssetReference {
-        Id: 1183484854879352956
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 18021650234350156091
     }
     Teams {
       IsTeamCollisionEnabled: true

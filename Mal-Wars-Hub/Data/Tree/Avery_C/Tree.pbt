@@ -59,7 +59,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Lights"
+    FilePartitionName: "Lights_1"
   }
 }
 Objects {

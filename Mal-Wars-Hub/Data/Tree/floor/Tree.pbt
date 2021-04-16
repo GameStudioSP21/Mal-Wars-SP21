@@ -1,7 +1,7 @@
 Name: "floor"
-RootId: 1124889390871595221
+RootId: 4507751286230309929
 Objects {
-  Id: 15301986260240570274
+  Id: 12355074059728362004
   Name: "Sci-fi Base Ceiling Trim 01"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 2.9
     }
   }
-  ParentId: 1124889390871595221
+  ParentId: 4507751286230309929
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -59,7 +59,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8303720736612825176
+  Id: 1561418662944060731
   Name: "Sci-fi Base Ceiling Trim 01"
   Transform {
     Location {
@@ -76,7 +76,7 @@ Objects {
       Z: 2.9
     }
   }
-  ParentId: 1124889390871595221
+  ParentId: 4507751286230309929
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -135,7 +135,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17230343697691323930
+  Id: 4237300621487732304
   Name: "Sci-fi Base Ceiling Trim 01"
   Transform {
     Location {
@@ -152,7 +152,7 @@ Objects {
       Z: 2.9
     }
   }
-  ParentId: 1124889390871595221
+  ParentId: 4507751286230309929
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -211,7 +211,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16366922793850092546
+  Id: 8746454267854816294
   Name: "Sci-fi Base Ceiling Trim 01"
   Transform {
     Location {
@@ -227,7 +227,7 @@ Objects {
       Z: 2.90000033
     }
   }
-  ParentId: 1124889390871595221
+  ParentId: 4507751286230309929
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -268,7 +268,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2291595650203276610
+  Id: 1228045918452861222
   Name: "Sci-fi Base Ceiling Trim 01"
   Transform {
     Location {
@@ -284,7 +284,7 @@ Objects {
       Z: 2.90000033
     }
   }
-  ParentId: 1124889390871595221
+  ParentId: 4507751286230309929
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -343,7 +343,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2129263444244625145
+  Id: 9197043562085897139
   Name: "Sci-fi Base Ceiling Trim 01"
   Transform {
     Location {
@@ -360,7 +360,7 @@ Objects {
       Z: 2.90000033
     }
   }
-  ParentId: 1124889390871595221
+  ParentId: 4507751286230309929
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -419,7 +419,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13260565550569625073
+  Id: 15567802270551642552
   Name: "Sci-fi Base Ceiling Trim 01"
   Transform {
     Location {
@@ -436,7 +436,7 @@ Objects {
       Z: 2.90000033
     }
   }
-  ParentId: 1124889390871595221
+  ParentId: 4507751286230309929
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -477,7 +477,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11743178688176046085
+  Id: 17690558703141598679
   Name: "Sci-fi Base Ceiling Trim 01"
   Transform {
     Location {
@@ -494,7 +494,7 @@ Objects {
       Z: 2.90000033
     }
   }
-  ParentId: 1124889390871595221
+  ParentId: 4507751286230309929
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -553,7 +553,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15827890773098823080
+  Id: 5693459231729244653
   Name: "Sci-fi Base Ceiling Trim 01"
   Transform {
     Location {
@@ -570,7 +570,7 @@ Objects {
       Z: 2.90000033
     }
   }
-  ParentId: 1124889390871595221
+  ParentId: 4507751286230309929
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -611,7 +611,7 @@ Objects {
   }
 }
 Objects {
-  Id: 528087319041261431
+  Id: 6834169307830628149
   Name: "Sci-fi Base Ceiling Trim 01"
   Transform {
     Location {
@@ -628,7 +628,7 @@ Objects {
       Z: 2.90000033
     }
   }
-  ParentId: 1124889390871595221
+  ParentId: 4507751286230309929
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -687,7 +687,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1959337170357448509
+  Id: 5088680990030919234
   Name: "Sci-fi Base Ceiling Trim 01"
   Transform {
     Location {
@@ -704,7 +704,7 @@ Objects {
       Z: 2.90000033
     }
   }
-  ParentId: 1124889390871595221
+  ParentId: 4507751286230309929
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -745,7 +745,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15423233548746249874
+  Id: 5870630961511172360
   Name: "Sci-fi Base Ceiling Trim 01"
   Transform {
     Location {
@@ -762,7 +762,7 @@ Objects {
       Z: 2.90000033
     }
   }
-  ParentId: 1124889390871595221
+  ParentId: 4507751286230309929
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -821,7 +821,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12429166917498860621
+  Id: 13055866099143592647
   Name: "Default Floor"
   Transform {
     Location {
@@ -838,7 +838,7 @@ Objects {
       Z: 1.299
     }
   }
-  ParentId: 1124889390871595221
+  ParentId: 4507751286230309929
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -887,7 +887,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13155982616801590938
+  Id: 331172412459180564
   Name: "Default Floor"
   Transform {
     Location {
@@ -903,7 +903,7 @@ Objects {
       Z: 1.29947007
     }
   }
-  ParentId: 1124889390871595221
+  ParentId: 4507751286230309929
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -952,7 +952,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15950710592426043865
+  Id: 9062822699194131794
   Name: "Default Floor"
   Transform {
     Location {
@@ -968,7 +968,7 @@ Objects {
       Z: 0.682006955
     }
   }
-  ParentId: 1124889390871595221
+  ParentId: 4507751286230309929
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1017,7 +1017,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6659524042375000937
+  Id: 17960200831209639236
   Name: "Default Floor"
   Transform {
     Location {
@@ -1033,7 +1033,7 @@ Objects {
       Z: 1.299
     }
   }
-  ParentId: 1124889390871595221
+  ParentId: 4507751286230309929
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1082,7 +1082,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12827763990584974577
+  Id: 9291161435526602748
   Name: "Whitebox Wall 01"
   Transform {
     Location {
@@ -1100,7 +1100,7 @@ Objects {
       Z: 0.842095494
     }
   }
-  ParentId: 1124889390871595221
+  ParentId: 4507751286230309929
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -1135,7 +1135,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8980833378569629096
+  Id: 16634996608121803687
   Name: "Default Floor"
   Transform {
     Location {
@@ -1151,7 +1151,7 @@ Objects {
       Z: 0.682006955
     }
   }
-  ParentId: 1124889390871595221
+  ParentId: 4507751286230309929
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -1200,7 +1200,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10385505759305136359
+  Id: 8798853876775010676
   Name: "Prism - 6-Sided Half"
   Transform {
     Location {
@@ -1217,7 +1217,7 @@ Objects {
       Z: 0.682006955
     }
   }
-  ParentId: 1124889390871595221
+  ParentId: 4507751286230309929
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
