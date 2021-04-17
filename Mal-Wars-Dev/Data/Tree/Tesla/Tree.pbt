@@ -18,11 +18,11 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:DisplayName"
-      String: ""
+      String: "Tesla Coil"
     }
     Overrides {
       Name: "cs:Description"
-      String: ""
+      String: "A lightning storm in a bottle. Or, well, tower."
     }
     Overrides {
       Name: "cs:Name"
@@ -130,11 +130,11 @@ Objects {
     }
     Overrides {
       Name: "cs:DisplayName"
-      String: ""
+      String: "Tesla Coil"
     }
     Overrides {
       Name: "cs:Description"
-      String: ""
+      String: "Set this off and watch the lightning bounce like a pinball on a mission. Just careful with that button."
     }
     Overrides {
       Name: "cs:Icon"
@@ -244,11 +244,11 @@ Objects {
     }
     Overrides {
       Name: "cs:DisplayName"
-      String: ""
+      String: "Tesla Coil"
     }
     Overrides {
       Name: "cs:Description"
-      String: ""
+      String: "More power, more range, more death. It\342\200\231s amazing what a little extra juice can do."
     }
     Overrides {
       Name: "cs:Icon"
@@ -358,11 +358,11 @@ Objects {
     }
     Overrides {
       Name: "cs:DisplayName"
-      String: "DDOS Turret"
+      String: "Telsa Coil"
     }
     Overrides {
       Name: "cs:Description"
-      String: ""
+      String: "Launches a bolt of electricity that hits enemies in a chain, up to 5 total enemies."
     }
     Overrides {
       Name: "cs:Icon"

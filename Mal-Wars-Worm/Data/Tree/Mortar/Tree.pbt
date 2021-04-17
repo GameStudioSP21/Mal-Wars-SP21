@@ -26,7 +26,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Description"
-      String: ""
+      String: "IT\342\200\231S BOOM TIME!"
     }
     Overrides {
       Name: "cs:Icon"
