@@ -43,7 +43,7 @@ Objects {
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 1720409598745449251
+        SelfId: 16555092129292573516
       }
     }
     Overrides {
@@ -147,7 +147,7 @@ Objects {
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 3421316411476536376
+        SelfId: 13496367145218431849
       }
     }
     Overrides {

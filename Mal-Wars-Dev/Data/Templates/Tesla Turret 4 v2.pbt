@@ -9200,146 +9200,6 @@ Assets {
         }
       }
       Objects {
-        Id: 7298247239983234251
-        Name: "Gimbal Base"
-        Transform {
-          Location {
-            X: -2.98023195e-07
-            Y: -2.49998331
-            Z: 9.13937856e-06
-          }
-          Rotation {
-            Yaw: 4.31806148e-13
-            Roll: -89.9999619
-          }
-          Scale {
-            X: 0.209620461
-            Y: 0.209620416
-            Z: 0.185487285
-          }
-        }
-        ParentId: 920251349841473057
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_Lights:color"
-            Color {
-              R: 0.896269679
-              G: 0.0512694679
-              B: 0.0512694679
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 16375458881436793199
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 2
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 2
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 13208300341532585913
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 11996155132743440843
-        Name: "Urban Rooftop Fan 02"
-        Transform {
-          Location {
-            X: 2.98023167e-07
-            Y: 2.50002742
-            Z: 1.6291935e-05
-          }
-          Rotation {
-            Yaw: -179.999954
-            Roll: -89.9999466
-          }
-          Scale {
-            X: 0.209620461
-            Y: 0.209620416
-            Z: 0.185487285
-          }
-        }
-        ParentId: 920251349841473057
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_Lights:color"
-            Color {
-              R: 0.896269679
-              G: 0.0512694679
-              B: 0.0512694679
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 16375458881436793199
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:utile"
-            Float: 2
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:vtile"
-            Float: 2
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 13208300341532585913
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
         Id: 9567612266910893345
         Name: "Effects"
         Transform {
@@ -11815,6 +11675,15 @@ Assets {
       }
     }
     Assets {
+      Id: 13429820803982137718
+      Name: "Electrical Zap Explosion SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_zapsplosion"
+      }
+    }
+    Assets {
       Id: 2513330173715104405
       Name: "Military Tank Historic Hull 01 - Mid"
       PlatformAssetType: 1
@@ -11839,15 +11708,6 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_mil_tank_hst_gear_002_ref"
-      }
-    }
-    Assets {
-      Id: 13429820803982137718
-      Name: "Electrical Zap Explosion SFX"
-      PlatformAssetType: 7
-      PrimaryAsset {
-        AssetType: "AudioAssetRef"
-        AssetId: "sfx_zapsplosion"
       }
     }
     Assets {
