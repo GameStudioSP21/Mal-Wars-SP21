@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12932082390300159120
+  Name: "Play Bold"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "PlayBold_ref"
+  }
+}
+Assets {
   Id: 7455088443063741048
   Name: "Sci-fi Corners 006"
   PlatformAssetType: 9
