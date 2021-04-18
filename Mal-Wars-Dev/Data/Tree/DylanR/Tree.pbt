@@ -34,8 +34,8 @@ Objects {
   Name: "PulsingObject"
   Transform {
     Location {
-      X: -5658.7334
-      Y: -130.170898
+      X: -5988.86377
+      Y: 74.5166
       Z: -277.355347
     }
     Rotation {
