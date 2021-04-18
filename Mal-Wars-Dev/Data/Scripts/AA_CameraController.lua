@@ -4,6 +4,11 @@ local camForward = activeCamera:GetTransform():GetForwardVector()
 local camRight = activeCamera:GetTransform():GetRightVector()
 local HOME_POSITION = activeCamera:GetWorldPosition()
 
+local BOUND_CENTER = script:GetCustomProperty("CameraBounds"):WaitForObject()
+local BOUND_VERTICES = BOUND_CENTER:GetChildren()
+local BoundMidpoints = {}
+local BoundVectors = {}
+
 --Tracks per-frame speed
 local frameDir = Vector3.ZERO
 local frameVel = Vector3.ZERO
@@ -53,6 +58,20 @@ function OnBindingReleased(PLAYER, binding)
     end
 end
 
+--Calculates the bounding vertices.
+function AssembleBounds()
+	local prevVertex = BOUND_VERTICES[#BOUND_VERTICES]
+	
+	for i, vertex in ipairs(BOUND_VERTICES) do
+		local midPoint = GetMidpoint(prevVertex:GetWorldPosition(), vertex:GetWorldPosition())
+		BoundMidpoints[i] = midPoint
+		BoundVectors[i] = midPoint - BOUND_CENTER:GetWorldPosition()
+		prevVertex = vertex
+	
+		--CoreDebug.DrawLine(midPoint, BOUND_CENTER:GetWorldPosition(), {duration = 200, color = Color.Red})
+	end
+end
+
 --for each frame, 
 function Tick(dt)
 	--Get the current camera position.
@@ -74,8 +93,24 @@ function Tick(dt)
     --Mimicks acceleration but adds a curved maximum.
     frameVel = VectorLerp(frameVel, intentVel, 0.15)
     
-    --Actually move the camera, adjusting for delta time.
-    activeCamera:SetWorldPosition(framePos + ( frameVel * dt ) )
+    --Calculate the new position.
+    local newPosition = framePos + ( frameVel * dt )
+    
+    --Check to make sure it's in bounds.
+    if IsInCameraBounds(newPosition) then
+    	activeCamera:SetWorldPosition(newPosition)
+    end
+end
+
+--Uses dot products to make sure a position lies within bounds.
+function IsInCameraBounds(pos)
+	local tally = true
+	
+	for i, vec in ipairs(BoundVectors) do
+		tally = tally and ( (BoundMidpoints[i] - pos) .. vec >= 0 )
+	end
+	
+	return tally
 end
 
 --Lerps from Vector A to Vector B along T
@@ -83,5 +118,11 @@ function VectorLerp(a, b, t)
 	return ( a * (1 - t) ) + ( b * t )
 end
 
+function GetMidpoint(a, b)
+	return ( a + b ) / 2
+end
+
 PLAYER.bindingPressedEvent:Connect(OnBindingPressed)
 PLAYER.bindingReleasedEvent:Connect(OnBindingReleased)
+
+AssembleBounds()
