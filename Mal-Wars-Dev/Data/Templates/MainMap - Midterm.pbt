@@ -106,6 +106,8 @@ Assets {
         ChildIds: 9465595062980350993
         ChildIds: 5059147885251712400
         ChildIds: 8629357529962788538
+        ChildIds: 2059876629795150681
+        ChildIds: 15522574579141253975
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1800,6 +1802,149 @@ Assets {
             SelfAnchor {
               Anchor {
                 Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 2059876629795150681
+        Name: "WaveCounterText"
+        Transform {
+          Location {
+            X: 2371.74316
+            Y: -4157.27441
+            Z: -78.2682495
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4166633234502508400
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Control {
+          Width: 101
+          Height: 50
+          UIX: -37.7424316
+          UIY: 71.5088577
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Text {
+            Label: "Wave:"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            Size: 25
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            AutoWrapText: true
+            Font {
+              Id: 841534158063459245
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 15522574579141253975
+        Name: "WaveCounter"
+        Transform {
+          Location {
+            X: 2371.74316
+            Y: -4157.27441
+            Z: -78.2682495
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 4166633234502508400
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Control {
+          Width: 101
+          Height: 50
+          UIX: 35.7663574
+          UIY: 71.5088577
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Text {
+            Label: "N/A"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            Size: 25
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            AutoWrapText: true
+            Font {
+              Id: 841534158063459245
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topcenter"
               }
             }
             TargetAnchor {
