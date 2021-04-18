@@ -1,34 +1,6 @@
 Name: "TowerDefenders"
 RootId: 9567968853289757796
 Objects {
-  Id: 9671061104730489501
-  Name: "ActiveBoards"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9567968853289757796
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
   Id: 759136769883289616
   Name: "TowerDefenders_Lobby"
   Transform {
@@ -13104,8 +13076,8 @@ Objects {
   Control {
     Width: 170
     Height: 57
-    UIX: -53.3510742
-    UIY: 463.312866
+    UIX: -360.868774
+    UIY: 35.623497
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -13753,6 +13725,34 @@ Objects {
     ScriptAsset {
       Id: 835438989663501342
     }
+  }
+}
+Objects {
+  Id: 9671061104730489501
+  Name: "ActiveBoards"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9567968853289757796
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
   }
 }
 Objects {
