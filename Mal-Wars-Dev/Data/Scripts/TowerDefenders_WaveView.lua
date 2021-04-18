@@ -1,6 +1,5 @@
 local WAVE_DISPLAYER_PANEL = script:GetCustomProperty("WaveDisplayer"):WaitForObject()
 local WAVE_TEXT = script:GetCustomProperty("WaveText"):WaitForObject()
-local DisplayWaveCounter = script:GetCustomProperty("OnDisplayWaveCounter"):WaitForObject()
 
 
 local LOCAL_PLAYER = Game.GetLocalPlayer()
@@ -20,10 +19,6 @@ waveManager.OnWaveStarted:Connect(function()
     WAVE_DISPLAYER_PANEL.visibility = Visibility.FORCE_ON
     WAVE_TEXT.text = "Wave" .. tostring(waveManager:GetWaveIndex())
 
-    if DisplayWaveCounter.visibility == Visibility.FORCE_OFF then
-        DisplayWaveCounter.visibility = Visibility.FORCE_ON
-        DisplayWaveCounter.text = "Wave" .. tostring(waveManager:GetWaveIndex())
-    end
     Task.Wait(2)
     WAVE_DISPLAYER_PANEL.visibility = Visibility.FORCE_OFF
 end)

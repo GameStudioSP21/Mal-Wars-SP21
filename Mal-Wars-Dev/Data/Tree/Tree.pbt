@@ -22,7 +22,6 @@ Objects {
   ChildIds: 15885606419812222058
   ChildIds: 2880498746515435782
   ChildIds: 17034724374570468586
-  ChildIds: 7143888118871380015
   ChildIds: 9503674586991903742
   UnregisteredParameters {
   }
@@ -54,6 +53,7 @@ Objects {
   }
   ParentId: 4781671109827199097
   ChildIds: 16289217240899846105
+  ChildIds: 11461978731486712383
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -83,6 +83,144 @@ Objects {
       TargetAnchor {
         Anchor {
           Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 11461978731486712383
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9503674586991903742
+  ChildIds: 17919906950677134616
+  ChildIds: 1684904341052417466
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 1684904341052417466
+  Name: "WaveCountDisplay"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11461978731486712383
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:WaveCountDisplay"
+      ObjectReference {
+        SelfId: 17919906950677134616
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17510610142725298069
+    }
+  }
+}
+Objects {
+  Id: 17919906950677134616
+  Name: "WaveCountDisplay"
+  Transform {
+    Location {
+      X: -9259.84473
+      Y: 7433.53564
+      Z: -3187.93359
+    }
+    Rotation {
+      Yaw: 45.0318336
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11461978731486712383
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceon"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Width: 200
+    Height: 60
+    UIY: 66
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "Wave:  N/A"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 25
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 841534158063459245
+      }
+      VerticalJustification {
+        Value: "mc:everticaljustification:center"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
         }
       }
     }
@@ -224,52 +362,6 @@ Objects {
           Value: "mc:euianchor:bottomright"
         }
       }
-    }
-  }
-}
-Objects {
-  Id: 7143888118871380015
-  Name: "MainMap - Midterm"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 4162559028374586543
-      value {
-        Overrides {
-          Name: "Name"
-          String: "MainMap - Midterm"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -2371.74316
-            Y: 4157.27441
-            Z: 78.2682495
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 16367089715654613383
     }
   }
 }
