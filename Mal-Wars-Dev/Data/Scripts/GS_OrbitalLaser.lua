@@ -1,7 +1,7 @@
 local LASER_FX = script:GetCustomProperty("LaserBeamFX")
 local LASER_HIT_FX = script:GetCustomProperty("OBLaserHitFX")
 local GAME_MANAGER = require(script:GetCustomProperty("TowerDefenders_GameManager"))
-local CoolEffect = require("3FA32407A403C36C")
+local CoolEffect = require(script:GetCustomProperty("CoolEffect"))
 --local RADIAL_VIEW = require(script:GetCustomProperty("TowerDefenders_RadialView"))
 local ProgressBar = script:GetCustomProperty("UIProgressBar"):WaitForObject()
 local COOL_DOWN_TIMER = script:GetCustomProperty("CoolDownTimer")
@@ -32,8 +32,10 @@ local board = GAME_MANAGER.WaitForBoardFromPlayer(LOCAL_PLAYER)
 
 function OnBindingPressed(LOCAL_PLAYER, binding)
     local generalSelector = LOCAL_PLAYER.clientUserData.generalSelector
-
-    if binding == FIRE_BIND  and not onCoolDown and not generalSelector:IsMagnetizedToTower() then
+    
+    local shouldShoot = not onCoolDown and not generalSelector:IsMagnetizedToTower() and not generalSelector.isPlacing
+    
+    if binding == FIRE_BIND and shouldShoot then
         if CheckView() then
             local hitResult = UI.GetCursorHitResult()
             if(hitResult) then
