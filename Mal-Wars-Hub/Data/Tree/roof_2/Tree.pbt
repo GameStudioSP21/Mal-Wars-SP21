@@ -1,7 +1,7 @@
 Name: "roof_2"
-RootId: 16137914647298908388
+RootId: 1051554133305846482
 Objects {
-  Id: 11687634501471853026
+  Id: 12682057706781705124
   Name: "middleWall"
   Transform {
     Location {
@@ -19,7 +19,7 @@ Objects {
       Z: 1.6
     }
   }
-  ParentId: 16137914647298908388
+  ParentId: 1051554133305846482
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -60,7 +60,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10408499753440179229
+  Id: 9913631752949128683
   Name: "Prism - 6-Sided Half"
   Transform {
     Location {
@@ -76,7 +76,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16137914647298908388
+  ParentId: 1051554133305846482
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -117,7 +117,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8395019073479662224
+  Id: 15028500894792689869
   Name: "Default Floor"
   Transform {
     Location {
@@ -132,7 +132,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16137914647298908388
+  ParentId: 1051554133305846482
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -172,7 +172,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8419724386468097987
+  Id: 2275555865221975201
   Name: "Prism - 6-Sided Half"
   Transform {
     Location {
@@ -188,7 +188,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16137914647298908388
+  ParentId: 1051554133305846482
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -229,7 +229,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6838403266181507900
+  Id: 5023049366672119403
   Name: "Prism - 6-Sided Half"
   Transform {
     Location {
@@ -245,7 +245,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16137914647298908388
+  ParentId: 1051554133305846482
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"

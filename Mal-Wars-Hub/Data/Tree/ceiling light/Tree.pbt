@@ -1,7 +1,7 @@
 Name: "ceiling light"
-RootId: 5084704305438812969
+RootId: 17238227756312037854
 Objects {
-  Id: 9032723884824711384
+  Id: 17029169828969293353
   Name: "Area Light"
   Transform {
     Location {
@@ -20,7 +20,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5084704305438812969
+  ParentId: 17238227756312037854
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -59,7 +59,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12501168368146906348
+  Id: 5030154302767798987
   Name: "sphere - bulb"
   Transform {
     Location {
@@ -73,7 +73,7 @@ Objects {
       Z: 0.231183201
     }
   }
-  ParentId: 5084704305438812969
+  ParentId: 17238227756312037854
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -117,7 +117,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7886910963181028682
+  Id: 8783251819059205397
   Name: "Street Light Pole Clamp 01"
   Transform {
     Location {
@@ -130,7 +130,7 @@ Objects {
       Z: 1.48629451
     }
   }
-  ParentId: 5084704305438812969
+  ParentId: 17238227756312037854
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"

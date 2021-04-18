@@ -1,7 +1,7 @@
 Name: "holoSign"
-RootId: 523505057883464512
+RootId: 12739813535163018430
 Objects {
-  Id: 9470671138968647130
+  Id: 3357736085297258068
   Name: "Cube"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 3.28829765
     }
   }
-  ParentId: 523505057883464512
+  ParentId: 12739813535163018430
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -62,7 +62,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8892452148427406853
+  Id: 14986543408395670600
   Name: "Cube"
   Transform {
     Location {
@@ -81,7 +81,7 @@ Objects {
       Z: 0.130543858
     }
   }
-  ParentId: 523505057883464512
+  ParentId: 12739813535163018430
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -116,7 +116,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10518653070272045112
+  Id: 15647571942626741106
   Name: "Cube"
   Transform {
     Location {
@@ -135,7 +135,7 @@ Objects {
       Z: 0.130543858
     }
   }
-  ParentId: 523505057883464512
+  ParentId: 12739813535163018430
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -170,7 +170,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1955048087033133502
+  Id: 2828401729174140387
   Name: "Cube"
   Transform {
     Location {
@@ -186,7 +186,7 @@ Objects {
       Z: 0.130543947
     }
   }
-  ParentId: 523505057883464512
+  ParentId: 12739813535163018430
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -221,7 +221,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10512347623288769497
+  Id: 10838228458534921086
   Name: "Cube"
   Transform {
     Location {
@@ -238,7 +238,7 @@ Objects {
       Z: 0.130543947
     }
   }
-  ParentId: 523505057883464512
+  ParentId: 12739813535163018430
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -273,7 +273,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12052481345999459322
+  Id: 15639941143326659907
   Name: "Cube"
   Transform {
     Location {
@@ -290,7 +290,7 @@ Objects {
       Z: 3.28829765
     }
   }
-  ParentId: 523505057883464512
+  ParentId: 12739813535163018430
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"

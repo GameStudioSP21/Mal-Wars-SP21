@@ -1,7 +1,7 @@
 Name: "rightSideDecor"
-RootId: 3463617936096247788
+RootId: 14068999012336372245
 Objects {
-  Id: 523505057883464512
+  Id: 12739813535163018430
   Name: "holoSign"
   Transform {
     Location {
@@ -17,7 +17,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3463617936096247788
+  ParentId: 14068999012336372245
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -33,7 +33,7 @@ Objects {
   }
 }
 Objects {
-  Id: 835494911988027836
+  Id: 3473941264287097901
   Name: "Office Paper"
   Transform {
     Location {
@@ -50,7 +50,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3463617936096247788
+  ParentId: 14068999012336372245
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -77,7 +77,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6652071766653513867
+  Id: 9266523645839273189
   Name: "Office Binder"
   Transform {
     Location {
@@ -95,7 +95,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3463617936096247788
+  ParentId: 14068999012336372245
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -122,7 +122,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3199805673484487933
+  Id: 9058710984092015227
   Name: "Urban Office Laptop (Prop)"
   Transform {
     Location {
@@ -138,7 +138,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3463617936096247788
+  ParentId: 14068999012336372245
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -183,7 +183,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4219205213810481216
+  Id: 5840015327559491079
   Name: "Office Paper"
   Transform {
     Location {
@@ -200,7 +200,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3463617936096247788
+  ParentId: 14068999012336372245
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -227,7 +227,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3124746421023797605
+  Id: 436905686013584074
   Name: "Office Book Pile 06"
   Transform {
     Location {
@@ -244,7 +244,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3463617936096247788
+  ParentId: 14068999012336372245
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -271,7 +271,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18377133515781539274
+  Id: 6985012700509458979
   Name: "Craftsman Dining Table"
   Transform {
     Location {
@@ -288,7 +288,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3463617936096247788
+  ParentId: 14068999012336372245
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -329,7 +329,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5403181773866084391
+  Id: 5669602718143007093
   Name: "Craftsman Dining Table"
   Transform {
     Location {
@@ -346,7 +346,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3463617936096247788
+  ParentId: 14068999012336372245
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"

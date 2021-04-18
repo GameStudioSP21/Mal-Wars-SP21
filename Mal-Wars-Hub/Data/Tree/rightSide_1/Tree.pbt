@@ -1,7 +1,7 @@
 Name: "rightSide_1"
-RootId: 17135298992241776869
+RootId: 3111531915798432193
 Objects {
-  Id: 1141753885408273585
+  Id: 14287199285098057506
   Name: "WallArt"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17135298992241776869
+  ParentId: 3111531915798432193
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -34,7 +34,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2145992632753104277
+  Id: 4668793374789879383
   Name: "WallArt"
   Transform {
     Location {
@@ -50,7 +50,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17135298992241776869
+  ParentId: 3111531915798432193
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -66,7 +66,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4507751286230309929
+  Id: 12287116186792659994
   Name: "roof"
   Transform {
     Location {
@@ -82,7 +82,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17135298992241776869
+  ParentId: 3111531915798432193
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -98,7 +98,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3873763433233679620
+  Id: 1799331383296651267
   Name: "rightSide_decor"
   Transform {
     Location {
@@ -115,7 +115,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17135298992241776869
+  ParentId: 3111531915798432193
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -131,7 +131,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16091627714669796205
+  Id: 2256273711106753190
   Name: "rightSide_lights"
   Transform {
     Location {
@@ -148,7 +148,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17135298992241776869
+  ParentId: 3111531915798432193
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -164,7 +164,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9887450214615919464
+  Id: 3274430076625253328
   Name: "walls"
   Transform {
     Location {
@@ -180,7 +180,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17135298992241776869
+  ParentId: 3111531915798432193
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
