@@ -16,7 +16,6 @@ Objects {
   }
   ChildIds: 7367735074338159388
   ChildIds: 14713340454944924967
-  ChildIds: 14293579930613948469
   ChildIds: 10005074784157121906
   ChildIds: 10722931758594424760
   ChildIds: 15885606419812222058
@@ -454,6 +453,7 @@ Objects {
   }
   ParentId: 4781671109827199097
   ChildIds: 16245118719777391493
+  ChildIds: 4476283102515411011
   ChildIds: 2854307414044987448
   ChildIds: 1187155345345434260
   ChildIds: 9275720789267418785
@@ -1248,6 +1248,35 @@ Objects {
   }
 }
 Objects {
+  Id: 4476283102515411011
+  Name: "Alex"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10722931758594424760
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Alex_1"
+  }
+}
+Objects {
   Id: 16245118719777391493
   Name: "Alec"
   Transform {
@@ -1821,114 +1850,6 @@ Objects {
     BlueprintAsset {
       Id: 7887238662729938253
     }
-  }
-}
-Objects {
-  Id: 14293579930613948469
-  Name: "Starting Weapon"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  ChildIds: 14855410654233242552
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:EquipmentTemplate"
-      AssetReference {
-        Id: 10909377152355297742
-      }
-    }
-    Overrides {
-      Name: "cs:Team"
-      Int: 0
-    }
-    Overrides {
-      Name: "cs:ReplaceOnEachRespawn"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:EquipmentTemplate:tooltip"
-      String: "Equipment template to give to players"
-    }
-    Overrides {
-      Name: "cs:Team:tooltip"
-      String: "If non-zero, only give equipment to players on that team"
-    }
-    Overrides {
-      Name: "cs:ReplaceOnEachRespawn:tooltip"
-      String: "Whether to replace that equipment every time a player spawns"
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 7855857303350524670
-    SubobjectId: 16657464430720987128
-    InstanceId: 8037118865340018493
-    TemplateId: 14615028099963445761
-    WasRoot: true
-  }
-}
-Objects {
-  Id: 14855410654233242552
-  Name: "StaticPlayerEquipmentServer"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14293579930613948469
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:ComponentRoot"
-      ObjectReference {
-        SelfId: 14293579930613948469
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 3403025055362370891
-    }
-  }
-  InstanceHistory {
-    SelfId: 7291685923770599609
-    SubobjectId: 17230748584674696639
-    InstanceId: 8037118865340018493
-    TemplateId: 14615028099963445761
   }
 }
 Objects {

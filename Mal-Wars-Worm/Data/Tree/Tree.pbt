@@ -281,6 +281,7 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  ChildIds: 14496155679997933558
   ChildIds: 1187155345345434260
   ChildIds: 6027701965752791206
   ChildIds: 1810871358614718425
@@ -622,6 +623,35 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Asante"
+  }
+}
+Objects {
+  Id: 14496155679997933558
+  Name: "Alex"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10722931758594424760
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Alex"
   }
 }
 Objects {

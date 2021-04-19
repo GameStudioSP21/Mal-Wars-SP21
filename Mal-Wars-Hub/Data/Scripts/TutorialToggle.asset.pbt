@@ -7,7 +7,6 @@ Assets {
       Overrides {
         Name: "cs:Container"
         ObjectReference {
-          SelfId: 17468857318156551845
         }
       }
       Overrides {

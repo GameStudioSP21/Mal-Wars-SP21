@@ -1,13 +1,4 @@
 Assets {
-  Id: 16917419833916056623
-  Name: "BG Flat 015"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "BackgroundNoOutline_32"
-  }
-}
-Assets {
   Id: 15877397846621857280
   Name: "UI Gradient Rectangular 001"
   PlatformAssetType: 9
