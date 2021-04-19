@@ -18,7 +18,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:LevelName"
-      String: "Worm-Hole"
+      String: "Worm Hole"
     }
     Overrides {
       Name: "cs:LevelDesc"
@@ -30,7 +30,7 @@ Objects {
     }
     Overrides {
       Name: "cs:LevelAddress"
-      String: "fc5b13/mal-wars-worm-hole"
+      String: "09d867/mal-wars-worm-hole"
     }
   }
   Collidable_v2 {
