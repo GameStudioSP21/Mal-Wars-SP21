@@ -1,7 +1,37 @@
 Name: "Blaine"
-RootId: 9688884146481072164
+RootId: 6027701965752791206
 Objects {
-  Id: 12326746769680990771
+  Id: 5888382860707141932
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6027701965752791206
+  ChildIds: 4226292189771796224
+  ChildIds: 14664720152553910651
+  ChildIds: 11024501718940593208
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 11024501718940593208
   Name: "YouWinJPG"
   Transform {
     Location {
@@ -14,7 +44,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9688884146481072164
+  ParentId: 5888382860707141932
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -30,7 +60,73 @@ Objects {
   }
 }
 Objects {
-  Id: 13023642154509986053
+  Id: 14664720152553910651
+  Name: "YouWinMusic"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5888382860707141932
+  ChildIds: 7624925488807368937
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 7624925488807368937
+  Name: "Orchestral Adventurous Victory Fanfare Music Stinger Set 01"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14664720152553910651
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 10317525951106941559
+    }
+    TeamSettings {
+    }
+    AudioBP {
+      Volume: 1
+      Falloff: 3600
+      Radius: 400
+    }
+  }
+}
+Objects {
+  Id: 4226292189771796224
   Name: "YouWinJPG"
   Transform {
     Location {
@@ -43,18 +139,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9688884146481072164
+  ParentId: 5888382860707141932
   UnregisteredParameters {
     Overrides {
       Name: "cs:YouWinJPG"
       ObjectReference {
-        SelfId: 12326746769680990771
+        SelfId: 11024501718940593208
       }
     }
     Overrides {
       Name: "cs:TowerDefenders_GameManager"
       AssetReference {
         Id: 16922964282924116369
+      }
+    }
+    Overrides {
+      Name: "cs:Music"
+      ObjectReference {
+        SelfId: 14664720152553910651
       }
     }
   }
@@ -74,7 +176,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6948183899855028971
+  Id: 17632953840316735607
   Name: "Return Hub Button(s)"
   Transform {
     Location {
@@ -87,8 +189,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9688884146481072164
-  ChildIds: 13954596123521440413
+  ParentId: 6027701965752791206
+  ChildIds: 15030376978582736741
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -103,7 +205,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13954596123521440413
+  Id: 15030376978582736741
   Name: "ClientContext"
   Transform {
     Location {
@@ -116,9 +218,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6948183899855028971
-  ChildIds: 10960576722014279243
-  ChildIds: 11760843593831196739
+  ParentId: 17632953840316735607
+  ChildIds: 16044206539591097489
+  ChildIds: 14604195001347322434
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -132,7 +234,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11760843593831196739
+  Id: 14604195001347322434
   Name: "UI Container"
   Transform {
     Location {
@@ -145,8 +247,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13954596123521440413
-  ChildIds: 18412189946473749810
+  ParentId: 15030376978582736741
+  ChildIds: 8361515703457005438
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -182,7 +284,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18412189946473749810
+  Id: 8361515703457005438
   Name: "Return To Base Button"
   Transform {
     Location {
@@ -195,7 +297,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11760843593831196739
+  ParentId: 14604195001347322434
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -270,7 +372,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10960576722014279243
+  Id: 16044206539591097489
   Name: "ReturnHubClient"
   Transform {
     Location {
@@ -283,7 +385,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13954596123521440413
+  ParentId: 15030376978582736741
   UnregisteredParameters {
     Overrides {
       Name: "cs:Game_ID"
@@ -292,7 +394,7 @@ Objects {
     Overrides {
       Name: "cs:HomeButton"
       ObjectReference {
-        SelfId: 18412189946473749810
+        SelfId: 8361515703457005438
       }
     }
   }

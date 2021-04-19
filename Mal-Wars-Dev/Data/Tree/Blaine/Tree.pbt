@@ -1,35 +1,6 @@
 Name: "Blaine"
 RootId: 9688884146481072164
 Objects {
-  Id: 12326746769680990771
-  Name: "YouWinJPG"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9688884146481072164
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "YouWinJPG"
-  }
-}
-Objects {
   Id: 15489579775579401138
   Name: "ClientContext"
   Transform {
@@ -46,6 +17,7 @@ Objects {
   ParentId: 9688884146481072164
   ChildIds: 13023642154509986053
   ChildIds: 14866529878668917715
+  ChildIds: 12326746769680990771
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -56,6 +28,35 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   NetworkContext {
+  }
+}
+Objects {
+  Id: 12326746769680990771
+  Name: "YouWinJPG"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15489579775579401138
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "YouWinJPG"
   }
 }
 Objects {
