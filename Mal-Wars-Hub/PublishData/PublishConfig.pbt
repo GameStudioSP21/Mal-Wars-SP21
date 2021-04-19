@@ -12,7 +12,8 @@ ScreenshotPaths: "D:\\Documents\\CORE\\Mal-Wars-SP21\\Mal-Wars-Hub\\Screenshots\
 ScreenshotPaths: "D:\\Documents\\CORE\\Mal-Wars-SP21\\Mal-Wars-Hub\\Screenshots\\WormShot.png"
 ScreenshotPaths: "D:\\Documents\\CORE\\Mal-Wars-SP21\\Mal-Wars-Hub\\Screenshots\\SphereShot.png"
 ScreenshotPaths: "D:\\Documents\\CORE\\Mal-Wars-SP21\\Mal-Wars-Hub\\Screenshots\\HubShot.png"
-ReleaseNotes: "Added a new splash screen because it\'s cool!"
+ScreenshotPaths: "D:\\Documents\\CORE\\Mal-Wars-SP21\\Mal-Wars-Hub\\Screenshots\\WormShot2.png"
+ReleaseNotes: "Added the second level!"
 OwnerId: "915299ba3314494bbd5eb7a67d954099"
 SerializationVersion: 1
 PublishedState: Public
