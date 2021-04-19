@@ -56,6 +56,7 @@ Objects {
   ChildIds: 7542508715810446415
   ChildIds: 7827960862906207700
   ChildIds: 13505973121807035945
+  ChildIds: 9503674586991903742
   ChildIds: 14160872098724923258
   ChildIds: 17300304144631947159
   Collidable_v2 {
@@ -2390,6 +2391,166 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "GeneralTowerHotbar"
+  }
+}
+Objects {
+  Id: 9503674586991903742
+  Name: "UI Container"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11447076056570800100
+  ChildIds: 17919906950677134616
+  ChildIds: 1684904341052417466
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Canvas {
+      ContentType {
+        Value: "mc:ecanvascontenttype:dynamic"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 1684904341052417466
+  Name: "WaveCountDisplay"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9503674586991903742
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:WaveCountDisplay"
+      ObjectReference {
+        SelfId: 17919906950677134616
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17510610142725298069
+    }
+  }
+}
+Objects {
+  Id: 17919906950677134616
+  Name: "WaveCountDisplay"
+  Transform {
+    Location {
+      X: -9259.84473
+      Y: 7433.53564
+      Z: -3187.93359
+    }
+    Rotation {
+      Yaw: 45.0318336
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9503674586991903742
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceon"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Width: 200
+    Height: 60
+    UIY: 66
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "Wave:  N/A"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Size: 25
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      AutoWrapText: true
+      Font {
+        Id: 841534158063459245
+      }
+      VerticalJustification {
+        Value: "mc:everticaljustification:center"
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topcenter"
+        }
+      }
+    }
   }
 }
 Objects {
@@ -13074,10 +13235,10 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    Width: 170
-    Height: 57
-    UIX: -244.982056
-    UIY: 20.6611252
+    Width: 240
+    Height: 60
+    UIX: 660
+    UIY: 20
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -13090,27 +13251,23 @@ Objects {
       }
       FontSize: 20
       ButtonColor {
-        R: 1
-        G: 1
-        B: 1
+        R: 0.0445032567
+        G: 0.840000033
         A: 1
       }
       HoveredColor {
-        R: 1
+        R: 0.24000001
         G: 1
-        B: 1
+        B: 0.290331244
         A: 1
       }
       PressedColor {
-        R: 1
-        G: 1
-        B: 1
+        G: 0.460000038
+        B: 0.0304636359
         A: 1
       }
       DisabledColor {
-        R: 1
-        G: 1
-        B: 1
+        R: 0.73
         A: 1
       }
       Brush {
@@ -13121,17 +13278,18 @@ Objects {
         Value: "mc:ebuttonclickmode:default"
       }
       Font {
+        Id: 2626267817006011674
       }
     }
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topright"
+          Value: "mc:euianchor:topcenter"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topright"
+          Value: "mc:euianchor:topcenter"
         }
       }
     }

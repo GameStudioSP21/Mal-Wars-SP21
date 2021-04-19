@@ -224,10 +224,9 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Control {
-          Width: 1631
+          Width: 1650
           Height: 100
-          UIX: 11.6945801
-          UIY: 100.239349
+          UIY: 100
           RotationAngle: 180
           RenderTransformPivot {
             Anchor {
@@ -417,7 +416,7 @@ Assets {
         Control {
           Width: 30
           Height: 38
-          UIX: 835.326843
+          UIX: 840
           UIY: -487.83136
           RenderTransformPivot {
             Anchor {
@@ -544,8 +543,8 @@ Assets {
         Control {
           Width: 30
           Height: 108
-          UIX: -796.901794
-          UIY: -526.25647
+          UIX: -818.737305
+          UIY: -524.436462
           RotationAngle: 30
           RenderTransformPivot {
             Anchor {
@@ -607,8 +606,8 @@ Assets {
         Control {
           Width: 21
           Height: 88
-          UIX: -786.878
-          UIY: -459.430237
+          UIX: -806.893921
+          UIY: -455.790314
           RotationAngle: -45
           RenderTransformPivot {
             Anchor {
@@ -670,7 +669,7 @@ Assets {
         Control {
           Width: 30
           Height: 38
-          UIX: -808.596497
+          UIX: -840
           UIY: -487.83136
           RenderTransformPivot {
             Anchor {
@@ -1157,7 +1156,7 @@ Assets {
         Control {
           Width: 15
           Height: 16
-          UIX: -808.596497
+          UIX: -840
           UIY: -487.83136
           RenderTransformPivot {
             Anchor {
@@ -1219,7 +1218,7 @@ Assets {
         Control {
           Width: 15
           Height: 16
-          UIX: 835.326843
+          UIX: 840
           UIY: -487.83136
           RenderTransformPivot {
             Anchor {
@@ -1281,8 +1280,8 @@ Assets {
         Control {
           Width: 30
           Height: 108
-          UIX: 813.608459
-          UIY: -526.25647
+          UIX: 822.706482
+          UIY: -520.79657
           RotationAngle: -30
           RenderTransformPivot {
             Anchor {
@@ -1344,8 +1343,8 @@ Assets {
         Control {
           Width: 21
           Height: 88
-          UIX: 808.59613
-          UIY: -459.430237
+          UIX: 814.055115
+          UIY: -457.610291
           RotationAngle: -315
           RenderTransformPivot {
             Anchor {

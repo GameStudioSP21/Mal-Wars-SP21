@@ -206,17 +206,17 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    Width: 170
-    Height: 50
-    UIX: -1572.10962
-    UIY: -1011.86261
+    Width: 240
+    Height: 60
+    UIX: -660
+    UIY: 20
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
     Button {
-      Label: "Return to Base"
+      Label: "Abort Mission"
       FontColor {
         R: 1
         G: 1
@@ -230,14 +230,12 @@ Objects {
       }
       HoveredColor {
         R: 1
-        G: 1
-        B: 1
+        G: 0.0899999738
+        B: 0.0899999738
         A: 1
       }
       PressedColor {
-        R: 1
-        G: 1
-        B: 1
+        R: 0.52
         A: 1
       }
       DisabledColor {
@@ -254,17 +252,18 @@ Objects {
         Value: "mc:ebuttonclickmode:default"
       }
       Font {
+        Id: 2626267817006011674
       }
     }
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:bottomright"
+          Value: "mc:euianchor:topcenter"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:bottomright"
+          Value: "mc:euianchor:topcenter"
         }
       }
     }
