@@ -30,6 +30,101 @@ Objects {
   }
 }
 Objects {
+  Id: 15489579775579401138
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9688884146481072164
+  ChildIds: 13023642154509986053
+  ChildIds: 14866529878668917715
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 14866529878668917715
+  Name: "YouWinMusic"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15489579775579401138
+  ChildIds: 12440388634547051214
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 12440388634547051214
+  Name: "Orchestral Adventurous Victory Fanfare Music Stinger Set 01"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14866529878668917715
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 10317525951106941559
+    }
+    TeamSettings {
+    }
+    AudioBP {
+      Volume: 1
+      Falloff: 3600
+      Radius: 400
+    }
+  }
+}
+Objects {
   Id: 13023642154509986053
   Name: "YouWinJPG"
   Transform {
@@ -43,7 +138,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9688884146481072164
+  ParentId: 15489579775579401138
   UnregisteredParameters {
     Overrides {
       Name: "cs:YouWinJPG"
@@ -55,6 +150,12 @@ Objects {
       Name: "cs:TowerDefenders_GameManager"
       AssetReference {
         Id: 16922964282924116369
+      }
+    }
+    Overrides {
+      Name: "cs:Music"
+      ObjectReference {
+        SelfId: 14866529878668917715
       }
     }
   }
