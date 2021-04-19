@@ -10,24 +10,6 @@ Assets {
           Id: 2068630640413610580
         }
       }
-      Overrides {
-        Name: "cs:Ease3D"
-        AssetReference {
-          Id: 11698430162959436393
-        }
-      }
-      Overrides {
-        Name: "cs:BasicProjectiles"
-        AssetReference {
-          Id: 12750211982329655730
-        }
-      }
-      Overrides {
-        Name: "cs:EXPLOSIONOOOONN"
-        AssetReference {
-          Id: 1268499615529599711
-        }
-      }
     }
   }
   SerializationVersion: 81

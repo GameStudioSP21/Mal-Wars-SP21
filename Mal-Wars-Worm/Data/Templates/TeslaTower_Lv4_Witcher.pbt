@@ -1702,7 +1702,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Detail1:id"
             AssetReference {
-              Id: 2887966541650210293
+              Id: 3860383194530553947
             }
           }
           Overrides {
@@ -4401,7 +4401,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 12084768731772136090
+              Id: 150072938037405049
             }
           }
         }
@@ -4970,7 +4970,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 12084768731772136090
+              Id: 150072938037405049
             }
           }
         }
@@ -5868,7 +5868,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 12084768731772136090
+              Id: 150072938037405049
             }
           }
         }
@@ -6431,7 +6431,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 12084768731772136090
+              Id: 150072938037405049
             }
           }
         }
@@ -7382,7 +7382,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 12084768731772136090
+              Id: 150072938037405049
             }
           }
           Overrides {
@@ -10487,7 +10487,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 12084768731772136090
+              Id: 150072938037405049
             }
           }
         }
@@ -11128,7 +11128,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 12084768731772136090
+              Id: 150072938037405049
             }
           }
         }
@@ -11504,7 +11504,7 @@ Assets {
       }
     }
     Assets {
-      Id: 2887966541650210293
+      Id: 3860383194530553947
       Name: "Invisible"
       PlatformAssetType: 2
       PrimaryAsset {
@@ -11630,7 +11630,7 @@ Assets {
       }
     }
     Assets {
-      Id: 12084768731772136090
+      Id: 150072938037405049
       Name: "Additive Edgeline Top Fade"
       PlatformAssetType: 2
       PrimaryAsset {

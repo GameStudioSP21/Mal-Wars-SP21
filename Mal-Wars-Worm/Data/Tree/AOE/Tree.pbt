@@ -1,7 +1,7 @@
 Name: "AOE"
-RootId: 843562215404874223
+RootId: 12578761812920551926
 Objects {
-  Id: 15064452844767371734
+  Id: 1571659628477852239
   Name: "AOE4"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 843562215404874223
+  ParentId: 12578761812920551926
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -26,7 +26,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Description"
-      String: "Fastest fire rate with max range."
+      String: "Maximum damage in an area."
     }
     Overrides {
       Name: "cs:Icon"
@@ -37,13 +37,13 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 16708300395943133987
+        SelfId: 15473447320514786512
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 8417570932964275780
+        SelfId: 16555092129292573516
       }
     }
     Overrides {
@@ -52,15 +52,15 @@ Objects {
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 360
+      Int: 200
     }
     Overrides {
       Name: "cs:Range"
-      Float: 40
+      Float: 32
     }
     Overrides {
       Name: "cs:Speed"
-      Float: 3
+      Float: 5
     }
     Overrides {
       Name: "cs:Tower"
@@ -105,7 +105,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7481531862733536150
+  Id: 2776340922114740153
   Name: "AOE3"
   Transform {
     Location {
@@ -118,7 +118,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 843562215404874223
+  ParentId: 12578761812920551926
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -130,7 +130,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Description"
-      String: "Shoots even faster with even more range."
+      String: "Deals even more damage in an area."
     }
     Overrides {
       Name: "cs:Icon"
@@ -141,13 +141,13 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 16708300395943133987
+        SelfId: 15473447320514786512
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 3206194469967215124
+        SelfId: 13496367145218431849
       }
     }
     Overrides {
@@ -156,15 +156,15 @@ Objects {
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 180
+      Int: 100
     }
     Overrides {
       Name: "cs:Range"
-      Float: 36
+      Float: 32
     }
     Overrides {
       Name: "cs:Speed"
-      Float: 3
+      Float: 5
     }
     Overrides {
       Name: "cs:Tower"
@@ -193,7 +193,7 @@ Objects {
     Overrides {
       Name: "cs:NextTowerUpgrade"
       ObjectReference {
-        SelfId: 15064452844767371734
+        SelfId: 1571659628477852239
       }
     }
     Overrides {
@@ -215,7 +215,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13604010948844635301
+  Id: 10682122694413777467
   Name: "AOE2"
   Transform {
     Location {
@@ -228,7 +228,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 843562215404874223
+  ParentId: 12578761812920551926
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -240,7 +240,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Description"
-      String: "Firest faster over a larger area."
+      String: "Deals more damage in an area."
     }
     Overrides {
       Name: "cs:Icon"
@@ -251,13 +251,13 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 16708300395943133987
+        SelfId: 15473447320514786512
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 7260010577560875529
+        SelfId: 10069010683383961677
       }
     }
     Overrides {
@@ -266,7 +266,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 90
+      Int: 50
     }
     Overrides {
       Name: "cs:Range"
@@ -274,7 +274,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Speed"
-      Float: 3
+      Float: 5
     }
     Overrides {
       Name: "cs:Tower"
@@ -303,7 +303,7 @@ Objects {
     Overrides {
       Name: "cs:NextTowerUpgrade"
       ObjectReference {
-        SelfId: 7481531862733536150
+        SelfId: 2776340922114740153
       }
     }
     Overrides {
@@ -325,7 +325,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5077439160340492879
+  Id: 2138681849230579418
   Name: "AOE1"
   Transform {
     Location {
@@ -338,7 +338,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 843562215404874223
+  ParentId: 12578761812920551926
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -361,13 +361,13 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 16708300395943133987
+        SelfId: 15473447320514786512
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 5857612874753637199
+        SelfId: 5885690553894889409
       }
     }
     Overrides {
@@ -376,15 +376,15 @@ Objects {
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 45
+      Int: 25
     }
     Overrides {
       Name: "cs:Range"
-      Float: 30
+      Float: 32
     }
     Overrides {
       Name: "cs:Speed"
-      Float: 3
+      Float: 5
     }
     Overrides {
       Name: "cs:Tower"
@@ -413,7 +413,7 @@ Objects {
     Overrides {
       Name: "cs:NextTowerUpgrade"
       ObjectReference {
-        SelfId: 13604010948844635301
+        SelfId: 10682122694413777467
       }
     }
     Overrides {

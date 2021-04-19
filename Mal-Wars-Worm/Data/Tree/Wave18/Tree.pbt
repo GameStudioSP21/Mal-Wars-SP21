@@ -1,7 +1,7 @@
 Name: "Wave18"
-RootId: 262246278863865097
+RootId: 7095791720600297830
 Objects {
-  Id: 6606151498368956361
+  Id: 7648005463568306114
   Name: "40 ReVr"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 262246278863865097
+  ParentId: 7095791720600297830
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -53,7 +53,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6439319488231264556
+  Id: 6338185970717721885
   Name: "20 ReAd"
   Transform {
     Location {
@@ -66,7 +66,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 262246278863865097
+  ParentId: 7095791720600297830
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -105,7 +105,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5974703563267388171
+  Id: 7636834935024522192
   Name: "1 GrWo"
   Transform {
     Location {
@@ -118,7 +118,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 262246278863865097
+  ParentId: 7095791720600297830
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -153,7 +153,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11378353157808593403
+  Id: 36900058290468370
   Name: "40 ReVr"
   Transform {
     Location {
@@ -166,7 +166,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 262246278863865097
+  ParentId: 7095791720600297830
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -205,7 +205,7 @@ Objects {
   }
 }
 Objects {
-  Id: 949352844469468393
+  Id: 1922677610981930500
   Name: "20 ReAd"
   Transform {
     Location {
@@ -218,7 +218,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 262246278863865097
+  ParentId: 7095791720600297830
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"

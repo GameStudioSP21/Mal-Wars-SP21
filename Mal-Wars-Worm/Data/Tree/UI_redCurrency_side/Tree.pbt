@@ -1,7 +1,7 @@
 Name: "UI_redCurrency_side"
-RootId: 12830279604904984092
+RootId: 1035024178581031466
 Objects {
-  Id: 9179605928375717048
+  Id: 4961823437156450910
   Name: "shadow"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12830279604904984092
+  ParentId: 1035024178581031466
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -27,8 +27,8 @@ Objects {
   Control {
     Width: 129
     Height: 59
-    UIX: 85
-    UIY: -155
+    UIX: 75.0284729
+    UIY: -133.803345
     RotationAngle: 98.9875336
     RenderTransformPivot {
       Anchor {
@@ -67,7 +67,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17249975385065848347
+  Id: 5548082385355241530
   Name: "shine"
   Transform {
     Location {
@@ -80,7 +80,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12830279604904984092
+  ParentId: 1035024178581031466
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -93,8 +93,8 @@ Objects {
   Control {
     Width: 72
     Height: 139
-    UIX: 120
-    UIY: -75
+    UIX: 110.028473
+    UIY: -53.8033447
     RotationAngle: 25.738739
     RenderTransformPivot {
       Anchor {
@@ -135,7 +135,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10706279055669067252
+  Id: 9242944018893178406
   Name: "symbol"
   Transform {
     Location {
@@ -148,7 +148,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12830279604904984092
+  ParentId: 1035024178581031466
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -170,7 +170,7 @@ Objects {
   }
 }
 Objects {
-  Id: 31922328866875842
+  Id: 13899227365412811202
   Name: "base_1"
   Transform {
     Location {
@@ -183,7 +183,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12830279604904984092
+  ParentId: 1035024178581031466
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -196,7 +196,8 @@ Objects {
   Control {
     Width: 200
     Height: 200
-    UIY: -105
+    UIX: -9.9715271
+    UIY: -83.8033447
     RotationAngle: 45
     RenderTransformPivot {
       Anchor {

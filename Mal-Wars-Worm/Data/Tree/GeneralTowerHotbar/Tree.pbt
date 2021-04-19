@@ -1,7 +1,7 @@
 Name: "GeneralTowerHotbar"
-RootId: 8267450953058671021
+RootId: 14160872098724923258
 Objects {
-  Id: 7819033696979527527
+  Id: 101890935892169219
   Name: "TowerHotbar"
   Transform {
     Location {
@@ -14,10 +14,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8267450953058671021
-  ChildIds: 8775580358517394101
-  ChildIds: 18403800431267222032
-  ChildIds: 10983682284887510367
+  ParentId: 14160872098724923258
+  ChildIds: 10346005871270439294
+  ChildIds: 7732915126683645907
+  ChildIds: 4650940808655615911
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -50,7 +50,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10983682284887510367
+  Id: 4650940808655615911
   Name: "BottomScreenGradient"
   Transform {
     Location {
@@ -67,7 +67,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7819033696979527527
+  ParentId: 101890935892169219
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -114,7 +114,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18403800431267222032
+  Id: 7732915126683645907
   Name: "BottomPanel"
   Transform {
     Location {
@@ -127,9 +127,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7819033696979527527
-  ChildIds: 16108216360607298746
-  ChildIds: 9485099172322984402
+  ParentId: 101890935892169219
+  ChildIds: 10749656220653698260
+  ChildIds: 17610482311644155048
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -164,7 +164,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9485099172322984402
+  Id: 17610482311644155048
   Name: "TowerDefenders_HotBarSlot"
   Transform {
     Scale {
@@ -173,7 +173,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18403800431267222032
+  ParentId: 7732915126683645907
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -206,7 +206,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16108216360607298746
+  Id: 10749656220653698260
   Name: "UI Image"
   Transform {
     Location {
@@ -223,7 +223,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18403800431267222032
+  ParentId: 7732915126683645907
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -248,9 +248,9 @@ Objects {
         Id: 17035680932399989717
       }
       Color {
-        G: 0.135761365
+        G: 0.135761172
         B: 0.820000052
-        A: 1
+        A: 0.509
       }
       TeamSettings {
       }
@@ -270,7 +270,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8775580358517394101
+  Id: 10346005871270439294
   Name: "TowerDefenders_HotbarView"
   Transform {
     Location {
@@ -283,12 +283,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7819033696979527527
+  ParentId: 101890935892169219
   UnregisteredParameters {
     Overrides {
       Name: "cs:HotBarPanel"
       ObjectReference {
-        SelfId: 18403800431267222032
+        SelfId: 7732915126683645907
       }
     }
   }

@@ -1,6 +1,6 @@
 local Database = {}
 
-local REGISTERED_BOARDS = World.FindObjectByName("RegisteredBoards")
+local REGISTERED_BOARDS = script:GetCustomProperty("RegisteredBoards"):WaitForObject()
 local Board = require(script:GetCustomProperty("TowerDefenders_Board"))
 
 local DATA_BOARDS = {}

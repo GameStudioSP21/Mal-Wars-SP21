@@ -1,6 +1,7 @@
 local WAVE_DISPLAYER_PANEL = script:GetCustomProperty("WaveDisplayer"):WaitForObject()
 local WAVE_TEXT = script:GetCustomProperty("WaveText"):WaitForObject()
 
+
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 while not LOCAL_PLAYER.clientUserData.activeBoardWaveManager do Task.Wait()end
 
@@ -12,12 +13,12 @@ local function PlaySFX(assetRef)
     World.SpawnAsset(assetRef)
 end
 
-local waveNumber = 0
+
 waveManager.OnWaveStarted:Connect(function()
-    waveNumber = waveNumber + 1
     PlaySFX(WaveStartedSound)
     WAVE_DISPLAYER_PANEL.visibility = Visibility.FORCE_ON
-    WAVE_TEXT.text = "Wave" .. tostring(waveNumber)
+    WAVE_TEXT.text = "Wave" .. tostring(waveManager:GetWaveIndex())
+
     Task.Wait(2)
     WAVE_DISPLAYER_PANEL.visibility = Visibility.FORCE_OFF
 end)

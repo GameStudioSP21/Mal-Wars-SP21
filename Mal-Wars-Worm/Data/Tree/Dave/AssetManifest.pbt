@@ -1,37 +1,19 @@
 Assets {
+  Id: 17545671306458386667
+  Name: "Metal Chrome"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "chrome_001"
+  }
+}
+Assets {
   Id: 17416403521644267471
   Name: "Carbon Fiber 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_carbon-fiber_001"
-  }
-}
-Assets {
-  Id: 17118778868662266803
-  Name: "Metal Grates 03"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_scf_grates_006_uv"
-  }
-}
-Assets {
-  Id: 16522965454647573055
-  Name: "Wedge - Concave"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_wedge_curved_concave_001"
-  }
-}
-Assets {
-  Id: 15950073704543010849
-  Name: "Pipe - 90-Degree Long"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_pipe_curve90_002"
   }
 }
 Assets {
@@ -53,12 +35,30 @@ Assets {
   }
 }
 Assets {
+  Id: 14823620836060758921
+  Name: "Pipe - 90-Degree Long"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_curve90_002"
+  }
+}
+Assets {
   Id: 14359217783623684227
   Name: "Rubber Basic 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_scf_rubber_panels_004_uv"
+  }
+}
+Assets {
+  Id: 14328158517471887235
+  Name: "Wedge - Concave"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wedge_curved_concave_001"
   }
 }
 Assets {
@@ -80,21 +80,21 @@ Assets {
   }
 }
 Assets {
-  Id: 13541933108655266337
-  Name: "Rock Hexagonal"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_rock_generic_008"
-  }
-}
-Assets {
   Id: 12888726374622842928
   Name: "Modern Weapon - Disc 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_modern_disc_001"
+  }
+}
+Assets {
+  Id: 12850435778917401209
+  Name: "Rock Hexagonal"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_rock_generic_008"
   }
 }
 Assets {
@@ -161,6 +161,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8809615973298430144
+  Name: "Metal Grates 03"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_grates_006_uv"
+  }
+}
+Assets {
   Id: 8630029883551461823
   Name: "Pipe - Half"
   PlatformAssetType: 1
@@ -188,12 +197,12 @@ Assets {
   }
 }
 Assets {
-  Id: 7029107340201197543
-  Name: "Metal Chrome"
-  PlatformAssetType: 2
+  Id: 7513344496344497640
+  Name: "Prism - 6-Sided"
+  PlatformAssetType: 1
   PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "chrome_001"
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prism_hexagon_001"
   }
 }
 Assets {
@@ -233,6 +242,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5040456719784343081
+  Name: "Sphere - Half Thick"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_hemisphere_003"
+  }
+}
+Assets {
   Id: 4957794639224726712
   Name: "Sphere - Half"
   PlatformAssetType: 1
@@ -248,15 +266,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pipe_001"
-  }
-}
-Assets {
-  Id: 4690676719249469207
-  Name: "Prism - 6-Sided"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prism_hexagon_001"
   }
 }
 Assets {
@@ -329,15 +338,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pipe_eightsided_002"
-  }
-}
-Assets {
-  Id: 2052746526126115040
-  Name: "Sphere - Half Thick"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_hemisphere_003"
   }
 }
 Assets {

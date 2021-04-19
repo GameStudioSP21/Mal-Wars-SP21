@@ -16,10 +16,10 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 8485782662765531393
-        ChildIds: 5051978100274737740
-        ChildIds: 2915007510978308498
-        ChildIds: 14233795868043464991
+        ChildIds: 10978879326551795748
+        ChildIds: 11637553419055055701
+        ChildIds: 14874612526982074279
+        Lifespan: 3
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -34,139 +34,63 @@ Assets {
         }
       }
       Objects {
-        Id: 8485782662765531393
-        Name: "Distant Explosions Set 01 SFX"
+        Id: 10978879326551795748
+        Name: "Energy Charge Up Hold VFX"
         Transform {
           Location {
           }
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 4.1503
+            Y: 4.1503
+            Z: 4.1503
           }
         }
         ParentId: 4605122028102754150
         UnregisteredParameters {
-          Overrides {
-            Name: "bp:Type"
-            Enum {
-              Value: "mc:esfx_explosions_distant:12"
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 7167383016849586648
-          }
-          TeamSettings {
-          }
-          AudioBP {
-            Pitch: 2400
-            Volume: 0.402926683
-            Falloff: 4000
-            Radius: 3000
-            EnableOcclusion: true
-            IsSpatializationEnabled: true
-            IsAttenuationEnabled: true
-          }
-        }
-      }
-      Objects {
-        Id: 5051978100274737740
-        Name: "Sci-fi Synth Granulize Growl 01 SFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 4605122028102754150
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        AudioInstance {
-          AudioAsset {
-            Id: 7676896943578869282
-          }
-          AutoPlay: true
-          Volume: 0.5
-          Falloff: 6000
-          Radius: 3000
-        }
-      }
-      Objects {
-        Id: 2915007510978308498
-        Name: "Large Airburst Explosion VFX"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1.5
-            Y: 1.5
-            Z: 1.5
-          }
-        }
-        ParentId: 4605122028102754150
-        UnregisteredParameters {
-          Overrides {
-            Name: "bp:Color"
-            Color {
-              R: 0.31
-              G: 0.808079243
-              B: 1
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Secondary Color"
-            Color {
-              G: 0.0264897346
-              B: 1
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "bp:Smoke Color"
-            Color {
-              R: 0.5
-              G: 0.841059566
-              B: 1
-              A: 1
-            }
-          }
           Overrides {
             Name: "bp:Emissive Boost"
-            Float: 5.3546505
+            Float: 0
           }
           Overrides {
-            Name: "bp:Life"
-            Float: 1
+            Name: "bp:Outer Core Size"
+            Float: 3
+          }
+          Overrides {
+            Name: "bp:Ring Size"
+            Float: 2.81477237
+          }
+          Overrides {
+            Name: "bp:Energy Particle Life"
+            Float: 0.110038258
+          }
+          Overrides {
+            Name: "bp:Local Space"
+            Bool: true
+          }
+          Overrides {
+            Name: "bp:Ring Density"
+            Float: 8.59008789
+          }
+          Overrides {
+            Name: "bp:Beam Density"
+            Float: 7.97057724
+          }
+          Overrides {
+            Name: "bp:Beam Length Max"
+            Float: 14.4679689
+          }
+          Overrides {
+            Name: "bp:Beam Length Min"
+            Float: 17.0103493
+          }
+          Overrides {
+            Name: "bp:Beam Width"
+            Float: 2.45037627
           }
         }
+        Lifespan: 1
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -178,7 +102,7 @@ Assets {
         }
         Blueprint {
           BlueprintAsset {
-            Id: 15227897043406009523
+            Id: 6688080423381143667
           }
           TeamSettings {
           }
@@ -191,28 +115,146 @@ Assets {
         }
       }
       Objects {
-        Id: 14233795868043464991
-        Name: "Laser Beam VFX"
+        Id: 11637553419055055701
+        Name: "Sci-fi Trails"
         Transform {
           Location {
           }
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 2.60371423
+            Y: 2.60371423
+            Z: 2.60371423
           }
         }
         ParentId: 4605122028102754150
         UnregisteredParameters {
           Overrides {
-            Name: "bp:Beam Length"
-            Float: 1000
+            Name: "bp:Shape Index"
+            Int: 4
           }
           Overrides {
             Name: "bp:Emissive Boost"
-            Float: 11.394949
+            Float: 31.6860199
+          }
+          Overrides {
+            Name: "bp:Mask Index"
+            Int: 1
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 3.43762016
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 3.13617587
+          }
+          Overrides {
+            Name: "bp:Local Space"
+            Bool: true
+          }
+          Overrides {
+            Name: "bp:ColorB"
+            Color {
+              G: 0.0140395584
+              B: 0.53
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:ColorC"
+            Color {
+              R: 0.0168876313
+              B: 0.51
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.0105960872
+              B: 0.200000048
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Hot Spot Scale"
+            Float: 0.601467848
+          }
+        }
+        Lifespan: 1
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 9142033777602694843
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+        Relevance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+      }
+      Objects {
+        Id: 14874612526982074279
+        Name: "Distortion Ring Trail VFX"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 2.07515
+            Y: 2.07515
+            Z: 2.07515
+          }
+        }
+        ParentId: 4605122028102754150
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Gravity"
+            Float: 0
+          }
+          Overrides {
+            Name: "bp:Wind Speed"
+            Vector {
+            }
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 3.2774632
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 4.13004208
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 0.98568058
+          }
+          Overrides {
+            Name: "bp:Sort Priority Adjustment"
+            Int: -10
+          }
+          Overrides {
+            Name: "bp:Color"
+            Color {
+              R: 0.0062252
+              B: 0.470000029
+              A: 1
+            }
           }
         }
         Collidable_v2 {
@@ -226,7 +268,7 @@ Assets {
         }
         Blueprint {
           BlueprintAsset {
-            Id: 15874520629520316333
+            Id: 6420272649162319160
           }
           TeamSettings {
           }
@@ -235,44 +277,35 @@ Assets {
           }
         }
         Relevance {
-          Value: "mc:eproxyrelevance:critical"
+          Value: "mc:eproxyrelevance:medium"
         }
       }
     }
     Assets {
-      Id: 7167383016849586648
-      Name: "Distant Explosions Set 01 SFX"
-      PlatformAssetType: 10
-      PrimaryAsset {
-        AssetType: "AudioBlueprintAssetRef"
-        AssetId: "sfxabp_explosions_distant_ref"
-      }
-    }
-    Assets {
-      Id: 7676896943578869282
-      Name: "Sci-fi Synth Granulize Growl 01 SFX"
-      PlatformAssetType: 7
-      PrimaryAsset {
-        AssetType: "AudioAssetRef"
-        AssetId: "sfx_scifi_synth_granulize_growl_01_Cue_ref"
-      }
-    }
-    Assets {
-      Id: 15227897043406009523
-      Name: "Large Airburst Explosion VFX"
+      Id: 6688080423381143667
+      Name: "Energy Charge Up Hold VFX"
       PlatformAssetType: 8
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_mil_airburst_explosion"
+        AssetId: "fxbp_ChargeUp_Hold_Var1"
       }
     }
     Assets {
-      Id: 15874520629520316333
-      Name: "Laser Beam VFX"
+      Id: 9142033777602694843
+      Name: "Sci-fi Trails"
       PlatformAssetType: 8
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_Laser_Beam"
+        AssetId: "fxbp_trail_variants"
+      }
+    }
+    Assets {
+      Id: 6420272649162319160
+      Name: "Distortion Ring Trail VFX"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_distortion_trail"
       }
     }
     PrimaryAssetId {

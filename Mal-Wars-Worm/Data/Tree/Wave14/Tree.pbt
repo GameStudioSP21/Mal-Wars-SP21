@@ -1,7 +1,7 @@
 Name: "Wave14"
-RootId: 8427992160922095381
+RootId: 13451617723709662368
 Objects {
-  Id: 10909761251133140626
+  Id: 15812846790418276888
   Name: "1 GrWo"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8427992160922095381
+  ParentId: 13451617723709662368
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -49,7 +49,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14830109482969275581
+  Id: 16986054763218075703
   Name: "40 ReVr"
   Transform {
     Location {
@@ -62,7 +62,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8427992160922095381
+  ParentId: 13451617723709662368
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -101,7 +101,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2212571134263319929
+  Id: 17326607083767989934
   Name: "20 ReAd"
   Transform {
     Location {
@@ -114,7 +114,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8427992160922095381
+  ParentId: 13451617723709662368
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"

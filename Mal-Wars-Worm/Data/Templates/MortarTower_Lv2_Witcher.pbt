@@ -1110,7 +1110,8 @@ Assets {
         }
         ParentId: 15876813888489295525
         ChildIds: 8041815057102515659
-        ChildIds: 15229293807088051047
+        ChildIds: 2658604675754497089
+        ChildIds: 13856963280656676191
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1135,9 +1136,9 @@ Assets {
             Pitch: -90
           }
           Scale {
-            X: 0.5
-            Y: 0.5
-            Z: 0.5
+            X: 1.09371865
+            Y: 1.09371865
+            Z: 1.09371865
           }
         }
         ParentId: 12246232700220871557
@@ -1183,12 +1184,16 @@ Assets {
         }
       }
       Objects {
-        Id: 15229293807088051047
+        Id: 2658604675754497089
         Name: "Gunshot Laser Rifle Set 01 SFX"
         Transform {
           Location {
+            X: -298.951874
+            Y: 0.239135742
+            Z: 136.77356
           }
           Rotation {
+            Pitch: -1.36603776e-05
           }
           Scale {
             X: 0.5
@@ -1213,14 +1218,55 @@ Assets {
           TeamSettings {
           }
           AudioBP {
-            Pitch: -451.520508
-            Volume: 1
-            Falloff: 4500
-            Radius: 1000
+            Pitch: -1257.25256
+            Volume: 1.25749111
+            Falloff: 6000
+            Radius: 4000
             EnableOcclusion: true
             IsSpatializationEnabled: true
             IsAttenuationEnabled: true
           }
+        }
+      }
+      Objects {
+        Id: 13856963280656676191
+        Name: "Gunshot Distant Artillery Tank Shot 01 SFX"
+        Transform {
+          Location {
+            X: -298.951874
+            Y: 0.239135742
+            Z: 136.77356
+          }
+          Rotation {
+            Pitch: -1.36603776e-05
+          }
+          Scale {
+            X: 0.999999702
+            Y: 0.999999702
+            Z: 0.999999702
+          }
+        }
+        ParentId: 12246232700220871557
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 6367806081794526052
+          }
+          Pitch: -76.2739258
+          Volume: 1.4169035
+          Falloff: -1
+          Radius: -1
+          EnableOcclusion: true
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
         }
       }
       Objects {
@@ -2139,7 +2185,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 12084768731772136090
+              Id: 150072938037405049
             }
           }
         }
@@ -2642,7 +2688,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 12084768731772136090
+              Id: 150072938037405049
             }
           }
         }
@@ -3463,7 +3509,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 12084768731772136090
+              Id: 150072938037405049
             }
           }
           Overrides {
@@ -4347,6 +4393,15 @@ Assets {
       }
     }
     Assets {
+      Id: 6367806081794526052
+      Name: "Gunshot Distant Artillery Tank Shot 01 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_distant_artillery_tank_shot_01a_Cue_ref"
+      }
+    }
+    Assets {
       Id: 15897705887741699672
       Name: "Urban Pipe Straight"
       PlatformAssetType: 1
@@ -4428,7 +4483,7 @@ Assets {
       }
     }
     Assets {
-      Id: 12084768731772136090
+      Id: 150072938037405049
       Name: "Additive Edgeline Top Fade"
       PlatformAssetType: 2
       PrimaryAsset {

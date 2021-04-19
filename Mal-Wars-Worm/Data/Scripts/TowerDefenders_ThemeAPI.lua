@@ -1,8 +1,8 @@
 local Theme = {}
 
-local TOWER_STATS = World.FindObjectByName("TowerStats")
-local TOWER_TYPES = World.FindObjectByName("TowerTypes")
-local TOWER_RARITIES = World.FindObjectByName("TowerRarities")
+local TOWER_STATS = script:GetCustomProperty("TowerStats"):WaitForObject()
+local TOWER_TYPES = script:GetCustomProperty("TowerTypes"):WaitForObject()
+local TOWER_RARITIES = script:GetCustomProperty("TowerRarities"):WaitForObject()
 
 local THEME_STATS = {}
 local THEME_TYPES = {}

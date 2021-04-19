@@ -1,4 +1,4 @@
-﻿
+
 local joinedPlayers = {}
 
 Game.playerJoinedEvent:Connect(function(player)

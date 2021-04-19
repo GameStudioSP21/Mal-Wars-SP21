@@ -1,7 +1,7 @@
 Name: "Wave1"
-RootId: 2846107153629823890
+RootId: 12390265369807289167
 Objects {
-  Id: 9466800724122981443
+  Id: 12730741709692196379
   Name: "8 GreenVirus"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2846107153629823890
+  ParentId: 12390265369807289167
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -49,7 +49,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1975007647631809341
+  Id: 4494641967336556923
   Name: "8 GreenVirus"
   Transform {
     Location {
@@ -62,7 +62,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2846107153629823890
+  ParentId: 12390265369807289167
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -97,7 +97,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8361581230916047391
+  Id: 11670348252899415589
   Name: "8 GreenVirus"
   Transform {
     Location {
@@ -110,7 +110,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2846107153629823890
+  ParentId: 12390265369807289167
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -145,7 +145,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3629202646961018131
+  Id: 4155303428395277239
   Name: "8 GreenVirus"
   Transform {
     Location {
@@ -158,7 +158,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2846107153629823890
+  ParentId: 12390265369807289167
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -193,7 +193,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3280083864836393963
+  Id: 4493091378098985543
   Name: "8 GreenVirus"
   Transform {
     Location {
@@ -206,7 +206,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2846107153629823890
+  ParentId: 12390265369807289167
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -241,7 +241,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11230462646894220732
+  Id: 8044579249412670753
   Name: "8 GreenVirus"
   Transform {
     Location {
@@ -254,7 +254,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2846107153629823890
+  ParentId: 12390265369807289167
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"

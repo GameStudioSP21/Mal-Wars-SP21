@@ -11,7 +11,6 @@ while not OWNER do
     Task.Wait()
     for _,player in ipairs(Game.GetPlayers()) do
         if player.id == INVENTORY_HELPER:GetCustomProperty("OWNER") then
-            print("INVENTORY REP got owner:",player.name)
             OWNER = player
             break
         end

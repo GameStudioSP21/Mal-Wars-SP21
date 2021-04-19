@@ -1,7 +1,7 @@
 Name: "Wave17"
-RootId: 13406075605042796935
+RootId: 8411637349747737954
 Objects {
-  Id: 17192264252355391650
+  Id: 5844125868313820156
   Name: "40 ReVr"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13406075605042796935
+  ParentId: 8411637349747737954
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -53,7 +53,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5972724509422766587
+  Id: 14922258198422338790
   Name: "20 ReAd"
   Transform {
     Location {
@@ -66,7 +66,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13406075605042796935
+  ParentId: 8411637349747737954
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -105,7 +105,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7916953461006798584
+  Id: 18305444174351186764
   Name: "40 ReVr"
   Transform {
     Location {
@@ -118,7 +118,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13406075605042796935
+  ParentId: 8411637349747737954
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -157,7 +157,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11703381804547202938
+  Id: 9336745482486836901
   Name: "20 ReAd"
   Transform {
     Location {
@@ -170,7 +170,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13406075605042796935
+  ParentId: 8411637349747737954
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -209,7 +209,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14739788704102625285
+  Id: 16246715375164351149
   Name: "40 ReVr"
   Transform {
     Location {
@@ -222,7 +222,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13406075605042796935
+  ParentId: 8411637349747737954
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -261,7 +261,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1485292081832161976
+  Id: 7165746841115936065
   Name: "20 ReAd"
   Transform {
     Location {
@@ -274,7 +274,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13406075605042796935
+  ParentId: 8411637349747737954
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"

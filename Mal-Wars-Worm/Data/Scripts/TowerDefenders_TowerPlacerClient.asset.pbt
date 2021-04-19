@@ -40,14 +40,6 @@ Assets {
           Id: 11698430162959436393
         }
       }
-      Overrides {
-        Name: "cs:PlaceByMouse"
-        Bool: false
-      }
-      Overrides {
-        Name: "cs:PlaceByMouse:tooltip"
-        String: "When enabled placement of towers will be determined by the mouse instead of forward direction of your camera."
-      }
     }
   }
   SerializationVersion: 81

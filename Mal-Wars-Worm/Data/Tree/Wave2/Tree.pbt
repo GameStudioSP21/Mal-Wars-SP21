@@ -1,7 +1,7 @@
 Name: "Wave2"
-RootId: 5161887533204845570
+RootId: 6723088296771937254
 Objects {
-  Id: 15046018567148052000
+  Id: 10512119180107921644
   Name: "5 YeAd"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5161887533204845570
+  ParentId: 6723088296771937254
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -49,7 +49,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7265257563328905739
+  Id: 5742425230158854303
   Name: "12 GrVi"
   Transform {
     Location {
@@ -62,7 +62,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5161887533204845570
+  ParentId: 6723088296771937254
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -97,7 +97,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17308719427909076146
+  Id: 8462937979199583057
   Name: "8 GreenVirus"
   Transform {
     Location {
@@ -110,7 +110,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5161887533204845570
+  ParentId: 6723088296771937254
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -145,7 +145,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6316064393667158645
+  Id: 11821448775622322742
   Name: "5 YeAd"
   Transform {
     Location {
@@ -158,7 +158,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5161887533204845570
+  ParentId: 6723088296771937254
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -193,7 +193,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9045068935269569768
+  Id: 11966692648636615644
   Name: "8 GreenVirus"
   Transform {
     Location {
@@ -206,7 +206,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5161887533204845570
+  ParentId: 6723088296771937254
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -241,7 +241,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11758363959832818727
+  Id: 2942484288675799204
   Name: "12 GrVi"
   Transform {
     Location {
@@ -254,7 +254,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5161887533204845570
+  ParentId: 6723088296771937254
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"

@@ -1,7 +1,7 @@
 Name: "Wave8"
-RootId: 14859154552068645018
+RootId: 14110746566346146217
 Objects {
-  Id: 15137239503149337901
+  Id: 5156307724939134682
   Name: "1 ReWo"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14859154552068645018
+  ParentId: 14110746566346146217
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -53,7 +53,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16835777037152809862
+  Id: 11089122518786805834
   Name: "1 ReWo"
   Transform {
     Location {
@@ -66,7 +66,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14859154552068645018
+  ParentId: 14110746566346146217
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"

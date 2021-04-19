@@ -1,7 +1,7 @@
 Name: "Wave15"
-RootId: 13977555370969854825
+RootId: 13834871133390003945
 Objects {
-  Id: 12323881874752659270
+  Id: 3729862678278953757
   Name: "1 GrWo"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13977555370969854825
+  ParentId: 13834871133390003945
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"

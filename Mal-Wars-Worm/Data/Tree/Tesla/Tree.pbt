@@ -1,7 +1,7 @@
 Name: "Tesla"
-RootId: 18172599123169189692
+RootId: 260460467366369561
 Objects {
-  Id: 11166998834678081578
+  Id: 16065362985505978434
   Name: "TeslaLv4"
   Transform {
     Location {
@@ -14,8 +14,16 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18172599123169189692
+  ParentId: 260460467366369561
   UnregisteredParameters {
+    Overrides {
+      Name: "cs:DisplayName"
+      String: "Tesla Coil"
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: "A lightning storm in a bottle. Or, well, tower."
+    }
     Overrides {
       Name: "cs:Name"
       String: "Ultimate Tesla"
@@ -23,28 +31,28 @@ Objects {
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 14543980725023699282
+        Id: 8282402684154292581
       }
     }
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 16708300395943133987
+        SelfId: 15473447320514786512
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 3206194469967215124
+        SelfId: 16555092129292573516
       }
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 500
+      Int: 1050
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 200
+      Int: 210
     }
     Overrides {
       Name: "cs:Speed"
@@ -52,12 +60,16 @@ Objects {
     }
     Overrides {
       Name: "cs:Range"
-      Float: 80
+      Float: 60
+    }
+    Overrides {
+      Name: "cs:BounceTravelDistance"
+      Int: 1600
     }
     Overrides {
       Name: "cs:Tower"
       AssetReference {
-        Id: 3908152756054639307
+        Id: 793988032842036727
       }
     }
     Overrides {
@@ -69,7 +81,7 @@ Objects {
     Overrides {
       Name: "cs:VisualProjectile"
       AssetReference {
-        Id: 9766628769441997678
+        Id: 2496344859644037759
       }
     }
     Overrides {
@@ -97,7 +109,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2076672893095709288
+  Id: 12063345330826463779
   Name: "TeslaLv3"
   Transform {
     Location {
@@ -110,37 +122,45 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18172599123169189692
+  ParentId: 260460467366369561
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
       String: "Superior Tesla"
     }
     Overrides {
+      Name: "cs:DisplayName"
+      String: "Tesla Coil"
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: "Set this off and watch the lightning bounce like a pinball on a mission. Just careful with that button."
+    }
+    Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 14543980725023699282
+        Id: 8282402684154292581
       }
     }
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 16708300395943133987
+        SelfId: 15473447320514786512
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 7260010577560875529
+        SelfId: 13496367145218431849
       }
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 325
+      Int: 500
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 100
+      Int: 105
     }
     Overrides {
       Name: "cs:Speed"
@@ -151,9 +171,13 @@ Objects {
       Float: 60
     }
     Overrides {
+      Name: "cs:BounceTravelDistance"
+      Int: 1200
+    }
+    Overrides {
       Name: "cs:Tower"
       AssetReference {
-        Id: 841534158063459245
+        Id: 11315530843511458917
       }
     }
     Overrides {
@@ -165,7 +189,7 @@ Objects {
     Overrides {
       Name: "cs:VisualProjectile"
       AssetReference {
-        Id: 10755428346575585019
+        Id: 2496344859644037759
       }
     }
     Overrides {
@@ -177,7 +201,7 @@ Objects {
     Overrides {
       Name: "cs:NextTowerUpgrade"
       ObjectReference {
-        SelfId: 11166998834678081578
+        SelfId: 16065362985505978434
       }
     }
     Overrides {
@@ -199,7 +223,7 @@ Objects {
   }
 }
 Objects {
-  Id: 255204365614173274
+  Id: 2068089220124732834
   Name: "TeslaLv2"
   Transform {
     Location {
@@ -212,37 +236,45 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18172599123169189692
+  ParentId: 260460467366369561
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
       String: "Greater Tesla"
     }
     Overrides {
+      Name: "cs:DisplayName"
+      String: "Tesla Coil"
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: "More power, more range, more death. It\342\200\231s amazing what a little extra juice can do."
+    }
+    Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 14543980725023699282
+        Id: 8282402684154292581
       }
     }
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 16708300395943133987
+        SelfId: 15473447320514786512
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 5857612874753637199
+        SelfId: 10069010683383961677
       }
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 175
+      Int: 400
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 50
+      Int: 60
     }
     Overrides {
       Name: "cs:Speed"
@@ -250,12 +282,16 @@ Objects {
     }
     Overrides {
       Name: "cs:Range"
-      Float: 50
+      Float: 60
+    }
+    Overrides {
+      Name: "cs:BounceTravelDistance"
+      Int: 1000
     }
     Overrides {
       Name: "cs:Tower"
       AssetReference {
-        Id: 1111472039125090498
+        Id: 6175689527986577859
       }
     }
     Overrides {
@@ -267,7 +303,7 @@ Objects {
     Overrides {
       Name: "cs:VisualProjectile"
       AssetReference {
-        Id: 355489405948657621
+        Id: 2496344859644037759
       }
     }
     Overrides {
@@ -279,7 +315,7 @@ Objects {
     Overrides {
       Name: "cs:NextTowerUpgrade"
       ObjectReference {
-        SelfId: 2076672893095709288
+        SelfId: 12063345330826463779
       }
     }
     Overrides {
@@ -301,7 +337,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16904965877542066676
+  Id: 538147821242085832
   Name: "TeslaLv1"
   Transform {
     Location {
@@ -314,50 +350,62 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18172599123169189692
+  ParentId: 260460467366369561
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
       String: "Tesla Turret"
     }
     Overrides {
+      Name: "cs:DisplayName"
+      String: "Telsa Coil"
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: "Launches a bolt of electricity that hits enemies in a chain, up to 5 total enemies."
+    }
+    Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 14543980725023699282
+        Id: 8282402684154292581
       }
     }
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 16708300395943133987
+        SelfId: 15473447320514786512
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 2764211083334992979
+        SelfId: 5885690553894889409
       }
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 150
+      Int: 500
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 25
+      Int: 30
     }
     Overrides {
       Name: "cs:Speed"
-      Float: 2
+      Float: 3
     }
     Overrides {
       Name: "cs:Range"
-      Float: 40
+      Float: 60
+    }
+    Overrides {
+      Name: "cs:BounceTravelDistance"
+      Int: 800
     }
     Overrides {
       Name: "cs:Tower"
       AssetReference {
-        Id: 1111410444814437710
+        Id: 620740833502305820
       }
     }
     Overrides {
@@ -369,7 +417,7 @@ Objects {
     Overrides {
       Name: "cs:VisualProjectile"
       AssetReference {
-        Id: 9120262988407694970
+        Id: 2496344859644037759
       }
     }
     Overrides {
@@ -381,7 +429,7 @@ Objects {
     Overrides {
       Name: "cs:NextTowerUpgrade"
       ObjectReference {
-        SelfId: 255204365614173274
+        SelfId: 2068089220124732834
       }
     }
     Overrides {

@@ -1,7 +1,7 @@
 Name: "Wave3"
-RootId: 4669332663382257044
+RootId: 11514468981711329624
 Objects {
-  Id: 14482743859431190037
+  Id: 15550383829979028258
   Name: "8 GreenVirus"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4669332663382257044
+  ParentId: 11514468981711329624
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -49,7 +49,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8139554918538919928
+  Id: 4851531705217646615
   Name: "5 YeAd"
   Transform {
     Location {
@@ -62,7 +62,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4669332663382257044
+  ParentId: 11514468981711329624
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -97,7 +97,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2375911973282255680
+  Id: 10558425459833584330
   Name: "10 YeVi"
   Transform {
     Location {
@@ -110,7 +110,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4669332663382257044
+  ParentId: 11514468981711329624
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -145,7 +145,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12691383838836253534
+  Id: 3742206722711276952
   Name: "8 GreenVirus"
   Transform {
     Location {
@@ -158,7 +158,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4669332663382257044
+  ParentId: 11514468981711329624
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -193,7 +193,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17183780083278616384
+  Id: 11910221152189690914
   Name: "5 YeAd"
   Transform {
     Location {
@@ -206,7 +206,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4669332663382257044
+  ParentId: 11514468981711329624
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -241,7 +241,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10362478122985804891
+  Id: 18188332281684781358
   Name: "10 YeVi"
   Transform {
     Location {
@@ -254,7 +254,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4669332663382257044
+  ParentId: 11514468981711329624
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -289,7 +289,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16801641591772643578
+  Id: 7761431910878029152
   Name: "8 GreenVirus"
   Transform {
     Location {
@@ -302,7 +302,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4669332663382257044
+  ParentId: 11514468981711329624
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -337,7 +337,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7514596358610692375
+  Id: 3250940755235783828
   Name: "5 YeAd"
   Transform {
     Location {
@@ -350,7 +350,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4669332663382257044
+  ParentId: 11514468981711329624
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -385,7 +385,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10386327955603363508
+  Id: 8604631030422332352
   Name: "10 YeVi"
   Transform {
     Location {
@@ -398,7 +398,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4669332663382257044
+  ParentId: 11514468981711329624
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -433,7 +433,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12519368012738632048
+  Id: 13287054255571530696
   Name: "8 GreenVirus"
   Transform {
     Location {
@@ -446,7 +446,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4669332663382257044
+  ParentId: 11514468981711329624
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -481,7 +481,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8091486437651026079
+  Id: 4810973457794814445
   Name: "5 YeAd"
   Transform {
     Location {
@@ -494,7 +494,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4669332663382257044
+  ParentId: 11514468981711329624
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -529,7 +529,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15104020621126101310
+  Id: 12063492082220987854
   Name: "10 YeVi"
   Transform {
     Location {
@@ -542,7 +542,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4669332663382257044
+  ParentId: 11514468981711329624
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"

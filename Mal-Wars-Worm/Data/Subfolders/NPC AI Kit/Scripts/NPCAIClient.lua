@@ -7,6 +7,8 @@
 	visual parts of the NPC from the logical ones.
 --]]
 
+local GemWalletClient = require(script:GetCustomProperty("GemWalletClient"))
+
 local ROOT = script:GetCustomProperty("Root"):WaitForObject()
 local GEO_ROOT = script:GetCustomProperty("GeoRoot"):WaitForObject()
 local FORWARD_NODE = script:GetCustomProperty("ForwardNode"):WaitForObject()
@@ -15,7 +17,16 @@ local MOVE_SPEED = ROOT:GetCustomProperty("MoveSpeed") or 400
 local TURN_SPEED = ROOT:GetCustomProperty("TurnSpeed") or 2
 local PATROL_SPEED = ROOT:GetCustomProperty("PatrolSpeed") or (MOVE_SPEED / 3)
 
+local DESTROY_VFX = script:GetCustomProperty("DestroyedVFX")
+
+local GEM_COUNT = ROOT:GetCustomProperty("RewardResourceAmount")
+
+
 function OnDestroyed(obj)
+	GemWalletClient.AddToWallet(GEM_COUNT)
+	if(DESTROY_VFX) then
+		World.SpawnAsset(DESTROY_VFX,{ position = GEO_ROOT:GetWorldPosition() })
+	end
 	GEO_ROOT:StopMove()
 	GEO_ROOT:StopRotate()
 	GEO_ROOT:Destroy()

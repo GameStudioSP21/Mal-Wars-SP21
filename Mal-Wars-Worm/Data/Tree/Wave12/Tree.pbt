@@ -1,7 +1,7 @@
 Name: "Wave12"
-RootId: 12056032331666604435
+RootId: 4244188672895655279
 Objects {
-  Id: 17179062438520502396
+  Id: 1933765837804760474
   Name: "1 GrWo"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12056032331666604435
+  ParentId: 4244188672895655279
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -49,7 +49,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13010629659465585893
+  Id: 14213785627347711065
   Name: "1 GrWo"
   Transform {
     Location {
@@ -62,7 +62,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12056032331666604435
+  ParentId: 4244188672895655279
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -97,7 +97,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13277906549051303854
+  Id: 9119983375566849433
   Name: "40 ReVr"
   Transform {
     Location {
@@ -110,7 +110,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12056032331666604435
+  ParentId: 4244188672895655279
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -149,7 +149,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17924178182271571510
+  Id: 4384177108529969134
   Name: "20 ReAd"
   Transform {
     Location {
@@ -162,7 +162,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12056032331666604435
+  ParentId: 4244188672895655279
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -201,7 +201,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12550422231353236011
+  Id: 7123980629124014570
   Name: "1 GrWo"
   Transform {
     Location {
@@ -214,7 +214,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12056032331666604435
+  ParentId: 4244188672895655279
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -249,7 +249,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3616404684846193648
+  Id: 16067243137105066095
   Name: "40 ReVr"
   Transform {
     Location {
@@ -262,7 +262,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12056032331666604435
+  ParentId: 4244188672895655279
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -301,7 +301,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9332592144009488154
+  Id: 14366327352878592448
   Name: "20 ReAd"
   Transform {
     Location {
@@ -314,7 +314,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12056032331666604435
+  ParentId: 4244188672895655279
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"

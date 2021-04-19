@@ -1,6 +1,6 @@
 Assets {
-  Id: 11696035226837235128
-  Name: "BevelFlipped_Path_1"
+  Id: 9205331350302253320
+  Name: "BevelFlipped_Path"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
@@ -16,14 +16,6 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 15225003308450675315
-        ChildIds: 4792334284782209872
-        ChildIds: 12983300081561105544
-        ChildIds: 4078232767344952632
-        ChildIds: 11768311488009180883
-        ChildIds: 11295964325797540651
-        ChildIds: 10568725062557065033
-        ChildIds: 15978645771970898026
         ChildIds: 2637390316630049016
         ChildIds: 14433833015953679670
         ChildIds: 14356056474504428208
@@ -103,45 +95,6 @@ Assets {
         ChildIds: 9019157358694434620
         ChildIds: 2255884199961903085
         ChildIds: 12623465296735272994
-        ChildIds: 7529408000434784108
-        ChildIds: 9156809358926790006
-        ChildIds: 15588716388191059399
-        ChildIds: 2195027996527160044
-        ChildIds: 13786889662634220032
-        ChildIds: 6488783393849075878
-        ChildIds: 54838795691347949
-        ChildIds: 3576494023634725821
-        ChildIds: 18338269202268124692
-        ChildIds: 17531755810970369320
-        ChildIds: 1008820420062009625
-        ChildIds: 15926045796688064430
-        ChildIds: 5494029187865755237
-        ChildIds: 13544100502628596671
-        ChildIds: 10359536364307364180
-        ChildIds: 9517248772443693458
-        ChildIds: 5109174503496708089
-        ChildIds: 6841804018137034741
-        ChildIds: 11841293399549883173
-        ChildIds: 16683782453129497403
-        ChildIds: 16171305343719007363
-        ChildIds: 16173495584145497366
-        ChildIds: 4106442070609337199
-        ChildIds: 8607396843763469359
-        ChildIds: 5688103060584707513
-        ChildIds: 1644281337801629720
-        ChildIds: 202335993949782079
-        ChildIds: 1434432067304083171
-        ChildIds: 2252806767062639349
-        ChildIds: 7058919717172301192
-        ChildIds: 10560501059137097003
-        ChildIds: 3849962555900071016
-        ChildIds: 4859101629978838860
-        ChildIds: 13453338852037410994
-        ChildIds: 13165021735580255210
-        ChildIds: 3455069065866026690
-        ChildIds: 13607500919163273727
-        ChildIds: 5465587608812620604
-        ChildIds: 5311281773923126652
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -156,499 +109,13 @@ Assets {
         }
       }
       Objects {
-        Id: 15225003308450675315
-        Name: "Sci-fi Console Hinge 01"
-        Transform {
-          Location {
-            X: 1409.16016
-            Y: 2064.32153
-            Z: -15.3991699
-          }
-          Rotation {
-            Pitch: 2.73207552e-05
-            Yaw: -179.999969
-            Roll: -90
-          }
-          Scale {
-            X: -1.37690687
-            Y: 14.6805439
-            Z: 7.65268421
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.322916657
-              G: 0.322916657
-              B: 0.322916657
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 10553272733231785645
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 3628780303828917058
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 4792334284782209872
-        Name: "Plane Triangle - One Sided Convex"
-        Transform {
-          Location {
-            X: 1409.44922
-            Y: 1563.51563
-            Z: -0.577392578
-          }
-          Rotation {
-            Yaw: -179.999969
-          }
-          Scale {
-            X: -0.410181165
-            Y: 11.7221451
-            Z: 4
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17880341449870205805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0497065745
-              G: 0.737910688
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 13621259958132264851
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 12983300081561105544
-        Name: "Plane Triangle - One Sided Convex"
-        Transform {
-          Location {
-            X: 1409.90625
-            Y: 1563.51953
-            Z: -39.8696289
-          }
-          Rotation {
-            Yaw: -179.999969
-          }
-          Scale {
-            X: -0.410181165
-            Y: 11.7221451
-            Z: 4
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17880341449870205805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0497065745
-              G: 0.737910688
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 13621259958132264851
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 4078232767344952632
-        Name: "Prism - 8-Sided Half"
-        Transform {
-          Location {
-            X: 1409.2793
-            Y: 2109.21289
-            Z: 9.87402344
-          }
-          Rotation {
-            Pitch: -90
-            Yaw: -179.999939
-            Roll: 0.000106811523
-          }
-          Scale {
-            X: -2.09058619
-            Y: 0.90740335
-            Z: 0.411134243
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 6751745758263253574
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0497065745
-              G: 0.737910688
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9119536234320832869
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 11768311488009180883
-        Name: "Sci-fi Console Hinge 01"
-        Transform {
-          Location {
-            X: 996.054688
-            Y: -990.685547
-            Z: -15.3987122
-          }
-          Rotation {
-            Yaw: 45
-            Roll: -90
-          }
-          Scale {
-            X: -15.970458
-            Y: 9.40022659
-            Z: 7.6526823
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.322916657
-              G: 0.322916657
-              B: 0.322916657
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 10553272733231785645
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 3628780303828917058
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 11295964325797540651
-        Name: "Prism - 8-Sided Half"
-        Transform {
-          Location {
-            X: 1027.4707
-            Y: -1017.45117
-            Z: 9.66900635
-          }
-          Rotation {
-            Pitch: -90
-            Yaw: 26.565033
-            Roll: 18.5448685
-          }
-          Scale {
-            X: -1.13326049
-            Y: 0.907402515
-            Z: 4.50000095
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 6751745758263253574
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9119536234320832869
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 10568725062557065033
-        Name: "Plane Triangle - One Sided Convex"
-        Transform {
-          Location {
-            X: 896.636719
-            Y: -908.652344
-            Z: -4.97167969
-          }
-          Rotation {
-            Yaw: 45
-          }
-          Scale {
-            X: -8.69423771
-            Y: 2.91911411
-            Z: 4
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17880341449870205805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0500000119
-              G: 0.735761285
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 13621259958132264851
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 15978645771970898026
-        Name: "Plane Triangle - One Sided Convex"
-        Transform {
-          Location {
-            X: 896.310547
-            Y: -908.328125
-            Z: -85
-          }
-          Rotation {
-            Yaw: 45
-          }
-          Scale {
-            X: -8.69423771
-            Y: 2.91911411
-            Z: 4
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17880341449870205805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0497065745
-              G: 0.737910688
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 13621259958132264851
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
         Id: 2637390316630049016
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
             X: 1128.41211
-            Y: 615.761719
-            Z: 118.472412
+            Y: 615.76123
+            Z: 118.266663
           }
           Rotation {
           }
@@ -669,7 +136,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -707,7 +176,7 @@ Assets {
           Location {
             X: 1063.14355
             Y: 928.65625
-            Z: 118.472412
+            Z: 118.266663
           }
           Rotation {
           }
@@ -728,7 +197,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -765,8 +236,8 @@ Assets {
         Transform {
           Location {
             X: 108.117188
-            Y: -120.832031
-            Z: 118.472412
+            Y: -120.83252
+            Z: 118.266663
           }
           Rotation {
             Yaw: 44.9999847
@@ -788,7 +259,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -825,8 +298,8 @@ Assets {
         Transform {
           Location {
             X: -113.720703
-            Y: 99.828125
-            Z: 118.472412
+            Y: 99.8295898
+            Z: 118.266663
           }
           Rotation {
             Yaw: 44.9999847
@@ -848,7 +321,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -886,7 +361,7 @@ Assets {
           Location {
             X: -631.707031
             Y: -1140.70313
-            Z: 118.472412
+            Z: 118.266663
           }
           Rotation {
             Yaw: 89.9999847
@@ -908,7 +383,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -945,8 +422,8 @@ Assets {
         Transform {
           Location {
             X: -944.601563
-            Y: -1077.08984
-            Z: 118.472412
+            Y: -1077.08887
+            Z: 118.266663
           }
           Rotation {
             Yaw: 89.9999619
@@ -968,7 +445,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -1005,8 +484,8 @@ Assets {
         Transform {
           Location {
             X: -2.17382813
-            Y: -0.875
-            Z: 113.781006
+            Y: -0.876953125
+            Z: 113.575378
           }
           Rotation {
             Yaw: 44.9999847
@@ -1028,7 +507,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -1065,8 +546,8 @@ Assets {
         Transform {
           Location {
             X: 317.316406
-            Y: 479.007813
-            Z: 118.472412
+            Y: 479.008789
+            Z: 118.266663
           }
           Rotation {
             Yaw: -168.567215
@@ -1088,7 +569,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -1126,7 +609,7 @@ Assets {
           Location {
             X: 113.566406
             Y: 370.171875
-            Z: 118.472412
+            Z: 118.266663
           }
           Rotation {
             Yaw: -135.000015
@@ -1148,7 +631,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -1185,8 +670,8 @@ Assets {
         Transform {
           Location {
             X: -12.2578125
-            Y: 276.238281
-            Z: 118.472412
+            Y: 276.239746
+            Z: 118.266663
           }
           Rotation {
             Yaw: -168.567642
@@ -1208,7 +693,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -1245,8 +732,8 @@ Assets {
         Transform {
           Location {
             X: -82.1210938
-            Y: 238.773438
-            Z: 118.472412
+            Y: 238.774902
+            Z: 118.266663
           }
           Rotation {
             Yaw: -135.000015
@@ -1268,7 +755,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -1305,8 +794,8 @@ Assets {
         Transform {
           Location {
             X: 487.017578
-            Y: 309.308594
-            Z: 118.472412
+            Y: 309.308105
+            Z: 118.266663
           }
           Rotation {
             Yaw: -101.432831
@@ -1328,7 +817,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -1365,8 +856,8 @@ Assets {
         Transform {
           Location {
             X: 378.181641
-            Y: 105.558594
-            Z: 118.472412
+            Y: 105.559082
+            Z: 118.266663
           }
           Rotation {
             Yaw: -135.000015
@@ -1388,7 +879,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -1425,8 +918,8 @@ Assets {
         Transform {
           Location {
             X: 284.24707
-            Y: -20.265625
-            Z: 118.472412
+            Y: -20.2661133
+            Z: 118.266663
           }
           Rotation {
             Yaw: -101.432343
@@ -1448,7 +941,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -1485,8 +980,8 @@ Assets {
         Transform {
           Location {
             X: 246.783203
-            Y: -90.1289063
-            Z: 118.472412
+            Y: -90.1293945
+            Z: 118.266663
           }
           Rotation {
             Yaw: -135.000015
@@ -1508,7 +1003,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -1546,7 +1043,7 @@ Assets {
           Location {
             X: -321.279297
             Y: -496.359375
-            Z: 118.472412
+            Z: 118.266663
           }
           Rotation {
             Yaw: 11.432869
@@ -1568,7 +1065,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -1605,8 +1104,8 @@ Assets {
         Transform {
           Location {
             X: -117.52832
-            Y: -387.523438
-            Z: 118.472412
+            Y: -387.521973
+            Z: 118.266663
           }
           Rotation {
             Yaw: 44.9999847
@@ -1628,7 +1127,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -1665,8 +1166,8 @@ Assets {
         Transform {
           Location {
             X: 8.29296875
-            Y: -293.589844
-            Z: 118.472412
+            Y: -293.588867
+            Z: 118.266663
           }
           Rotation {
             Yaw: 11.432498
@@ -1688,7 +1189,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -1725,8 +1228,8 @@ Assets {
         Transform {
           Location {
             X: 78.1601563
-            Y: -256.125
-            Z: 118.472412
+            Y: -256.125488
+            Z: 118.266663
           }
           Rotation {
             Yaw: 44.9999847
@@ -1748,7 +1251,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -1785,8 +1290,8 @@ Assets {
         Transform {
           Location {
             X: -490.171875
-            Y: -327.46875
-            Z: 118.472412
+            Y: -327.467773
+            Z: 118.266663
           }
           Rotation {
             Yaw: 78.5670776
@@ -1808,7 +1313,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -1845,8 +1352,8 @@ Assets {
         Transform {
           Location {
             X: -381.334961
-            Y: -123.71875
-            Z: 118.472412
+            Y: -123.719727
+            Z: 118.266663
           }
           Rotation {
             Yaw: 44.9999847
@@ -1868,7 +1375,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -1905,8 +1414,8 @@ Assets {
         Transform {
           Location {
             X: -287.399414
-            Y: 2.10546875
-            Z: 118.472412
+            Y: 2.10644531
+            Z: 118.266663
           }
           Rotation {
             Yaw: 78.5676651
@@ -1928,7 +1437,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -1965,8 +1476,8 @@ Assets {
         Transform {
           Location {
             X: -249.936523
-            Y: 71.96875
-            Z: 118.472412
+            Y: 71.9697266
+            Z: 118.266663
           }
           Rotation {
             Yaw: 44.9999847
@@ -1988,7 +1499,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -2025,8 +1538,8 @@ Assets {
         Transform {
           Location {
             X: 1062.61523
-            Y: 807.324219
-            Z: 118.472412
+            Y: 807.324707
+            Z: 118.266663
           }
           Rotation {
             Yaw: -26.5365601
@@ -2048,7 +1561,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -2085,8 +1600,8 @@ Assets {
         Transform {
           Location {
             X: 1062.61523
-            Y: 726.898438
-            Z: 118.472412
+            Y: 726.897949
+            Z: 118.266663
           }
           Rotation {
             Yaw: 26.5365086
@@ -2108,7 +1623,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -2145,8 +1662,8 @@ Assets {
         Transform {
           Location {
             X: 1217.37598
-            Y: 723.023438
-            Z: 118.472412
+            Y: 723.021484
+            Z: 118.266663
           }
           Rotation {
             Yaw: -33.5674744
@@ -2168,7 +1685,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -2205,8 +1724,8 @@ Assets {
         Transform {
           Location {
             X: 1141.58984
-            Y: 745.570313
-            Z: 118.472412
+            Y: 745.572266
+            Z: 118.266663
           }
           Rotation {
           }
@@ -2227,7 +1746,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -2264,8 +1785,8 @@ Assets {
         Transform {
           Location {
             X: 1141.59082
-            Y: 788.652344
-            Z: 118.472412
+            Y: 788.651367
+            Z: 118.266663
           }
           Rotation {
           }
@@ -2286,7 +1807,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -2323,8 +1846,8 @@ Assets {
         Transform {
           Location {
             X: 1217.37598
-            Y: 811.203125
-            Z: 118.472412
+            Y: 811.202148
+            Z: 118.266663
           }
           Rotation {
             Yaw: 33.5672607
@@ -2346,7 +1869,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -2384,7 +1909,7 @@ Assets {
           Location {
             X: 1350.68164
             Y: 834.339844
-            Z: 118.628296
+            Z: 118.422638
           }
           Rotation {
             Yaw: 89.9999847
@@ -2406,7 +1931,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -2443,8 +1970,8 @@ Assets {
         Transform {
           Location {
             X: 1293.26953
-            Y: 700.109375
-            Z: 118.472412
+            Y: 700.11084
+            Z: 118.266663
           }
           Rotation {
           }
@@ -2465,7 +1992,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -2502,8 +2031,8 @@ Assets {
         Transform {
           Location {
             X: 1293.26953
-            Y: 834.113281
-            Z: 118.472412
+            Y: 834.111816
+            Z: 118.266663
           }
           Rotation {
           }
@@ -2524,7 +2053,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -2561,8 +2092,8 @@ Assets {
         Transform {
           Location {
             X: 1350.68164
-            Y: 699.882813
-            Z: 118.628296
+            Y: 699.883301
+            Z: 118.422638
           }
           Rotation {
             Yaw: -90
@@ -2584,7 +2115,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -2621,8 +2154,8 @@ Assets {
         Transform {
           Location {
             X: -715.087891
-            Y: -1293.13281
-            Z: 118.472412
+            Y: -1293.13477
+            Z: 118.266663
           }
           Rotation {
             Yaw: -90
@@ -2644,7 +2177,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -2681,8 +2216,8 @@ Assets {
         Transform {
           Location {
             X: -849.089844
-            Y: -1293.14063
-            Z: 118.472412
+            Y: -1293.13867
+            Z: 118.266663
           }
           Rotation {
             Yaw: -90
@@ -2704,7 +2239,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -2741,8 +2278,8 @@ Assets {
         Transform {
           Location {
             X: -714.862305
-            Y: -1350.55078
-            Z: 118.628296
+            Y: -1350.5498
+            Z: 118.422638
           }
           Rotation {
           }
@@ -2763,7 +2300,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -2800,8 +2339,8 @@ Assets {
         Transform {
           Location {
             X: -738
-            Y: -1217.24609
-            Z: 118.472412
+            Y: -1217.24561
+            Z: 118.266663
           }
           Rotation {
             Yaw: -56.4329224
@@ -2823,7 +2362,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -2860,8 +2401,8 @@ Assets {
         Transform {
           Location {
             X: -760.550781
-            Y: -1141.46094
-            Z: 118.472412
+            Y: -1141.46045
+            Z: 118.266663
           }
           Rotation {
             Yaw: -90
@@ -2883,7 +2424,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -2920,8 +2463,8 @@ Assets {
         Transform {
           Location {
             X: -803.629883
-            Y: -1141.46094
-            Z: 118.472412
+            Y: -1141.45947
+            Z: 118.266663
           }
           Rotation {
             Yaw: -90
@@ -2943,7 +2486,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -2980,8 +2525,8 @@ Assets {
         Transform {
           Location {
             X: -826.179688
-            Y: -1217.24219
-            Z: 118.472412
+            Y: -1217.24268
+            Z: 118.266663
           }
           Rotation {
             Yaw: -123.567261
@@ -3003,7 +2548,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -3040,8 +2587,8 @@ Assets {
         Transform {
           Location {
             X: -822.302734
-            Y: -1062.48438
-            Z: 118.472412
+            Y: -1062.48291
+            Z: 118.266663
           }
           Rotation {
             Yaw: -63.4634094
@@ -3063,7 +2610,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -3100,8 +2649,8 @@ Assets {
         Transform {
           Location {
             X: -741.876953
-            Y: -1062.48047
-            Z: 118.472412
+            Y: -1062.48193
+            Z: 118.266663
           }
           Rotation {
             Yaw: -116.536743
@@ -3123,7 +2672,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -3160,8 +2711,8 @@ Assets {
         Transform {
           Location {
             X: -849.318359
-            Y: -1350.55078
-            Z: 118.628296
+            Y: -1350.5498
+            Z: 118.422638
           }
           Rotation {
             Yaw: -179.999969
@@ -3183,7 +2734,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -3220,8 +2773,8 @@ Assets {
         Transform {
           Location {
             X: 35.9414063
-            Y: -51.34375
-            Z: 118.472412
+            Y: -51.3432617
+            Z: 118.266663
           }
           Rotation {
             Yaw: 44.9999847
@@ -3243,7 +2796,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -3280,8 +2835,8 @@ Assets {
         Transform {
           Location {
             X: -841.166
-            Y: -885.921875
-            Z: 118.472412
+            Y: -885.922852
+            Z: 118.266663
           }
           Rotation {
             Yaw: -90
@@ -3303,7 +2858,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -3340,8 +2897,8 @@ Assets {
         Transform {
           Location {
             X: -722.827148
-            Y: -915.984375
-            Z: 118.472412
+            Y: -915.983887
+            Z: 118.266663
           }
           Rotation {
             Yaw: -90
@@ -3363,7 +2920,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -3400,8 +2959,8 @@ Assets {
         Transform {
           Location {
             X: -54.8310547
-            Y: 39.7890625
-            Z: 118.472412
+            Y: 39.7900391
+            Z: 118.266663
           }
           Rotation {
             Yaw: 44.9999847
@@ -3423,7 +2982,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -3461,7 +3022,7 @@ Assets {
           Location {
             X: 876.813477
             Y: 825.34375
-            Z: 118.472412
+            Z: 118.266663
           }
           Rotation {
           }
@@ -3482,7 +3043,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -3519,8 +3082,8 @@ Assets {
         Transform {
           Location {
             X: 909.848633
-            Y: 708.394531
-            Z: 118.472412
+            Y: 708.393555
+            Z: 118.266663
           }
           Rotation {
           }
@@ -3541,7 +3104,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -3707,9 +3272,8 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -18.0683594
-            Y: 71.0585938
-            Z: 0.259399414
+            X: -18.0649414
+            Y: 71.057251
           }
           Rotation {
             Yaw: 44.9999924
@@ -3731,7 +3295,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -3767,9 +3333,8 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: 123.5
-            Y: 30.9179688
-            Z: 0.259399414
+            X: 123.501465
+            Y: 30.9157715
           }
           Rotation {
             Yaw: 44.9999924
@@ -3791,7 +3356,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -3827,12 +3394,11 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -105.443359
-            Y: -101.980469
-            Z: 0.259399414
+            X: -105.436035
+            Y: -101.973145
           }
           Rotation {
-            Yaw: -45.0770569
+            Yaw: -45.0770645
           }
           Scale {
             X: 0.762326717
@@ -3851,7 +3417,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -3952,9 +3520,8 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -18.0664063
-            Y: 71.0585938
-            Z: 0.256469727
+            X: -18.0649414
+            Y: 71.057251
           }
           Rotation {
             Yaw: 44.9999924
@@ -3976,7 +3543,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -4012,9 +3581,8 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: 123.5
-            Y: 30.9179688
-            Z: 0.256469727
+            X: 123.501465
+            Y: 30.9157715
           }
           Rotation {
             Yaw: 44.9999924
@@ -4036,7 +3604,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -4072,12 +3642,11 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -105.4375
-            Y: -101.976563
-            Z: 0.256469727
+            X: -105.436035
+            Y: -101.973145
           }
           Rotation {
-            Yaw: -45.0770569
+            Yaw: -45.0770645
           }
           Scale {
             X: 0.762326717
@@ -4096,7 +3665,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -4164,9 +3735,8 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -18.0635109
-            Y: 71.0584717
-            Z: 0.263972402
+            X: -18.0649414
+            Y: 71.057251
           }
           Rotation {
             Yaw: 44.9999924
@@ -4188,7 +3758,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -4224,9 +3796,8 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: 123.502457
-            Y: 30.9168
-            Z: 0.263972402
+            X: 123.501465
+            Y: 30.9157715
           }
           Rotation {
             Yaw: 44.9999924
@@ -4248,7 +3819,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -4284,12 +3857,11 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -105.434959
-            Y: -101.972168
-            Z: 0.263972402
+            X: -105.436035
+            Y: -101.973145
           }
           Rotation {
-            Yaw: -45.0770569
+            Yaw: -45.0770645
           }
           Scale {
             X: 0.762326717
@@ -4308,7 +3880,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -4344,9 +3918,8 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: 398.767578
-            Y: -131.03125
-            Z: 0.259399414
+            X: 398.735
+            Y: -131.073944
           }
           Rotation {
             Yaw: 44.9999962
@@ -4368,7 +3941,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -4404,12 +3979,11 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: 311.380859
-            Y: -304.082031
-            Z: 0.259399414
+            X: 311.363739
+            Y: -304.103943
           }
           Rotation {
-            Yaw: -45.0770874
+            Yaw: -45.077076
           }
           Scale {
             X: 0.762326658
@@ -4428,7 +4002,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -4464,9 +4040,8 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: 540.310547
-            Y: -171.207031
-            Z: 0.259399414
+            X: 540.301636
+            Y: -171.215424
           }
           Rotation {
             Yaw: 44.9999962
@@ -4488,7 +4063,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -6332,2362 +5909,6 @@ Assets {
           }
         }
       }
-      Objects {
-        Id: 7529408000434784108
-        Name: "Sci-fi Console Hinge 01"
-        Transform {
-          Location {
-            X: -604.757813
-            Y: 1670.11646
-            Z: -15.3980865
-          }
-          Rotation {
-            Yaw: -135
-            Roll: -90
-          }
-          Scale {
-            X: -15.970458
-            Y: 9.40022659
-            Z: 7.6526823
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.322916657
-              G: 0.322916657
-              B: 0.322916657
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 10553272733231785645
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 3628780303828917058
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 9156809358926790006
-        Name: "Prism - 8-Sided Half"
-        Transform {
-          Location {
-            X: -635.259766
-            Y: 1705.01733
-            Z: 9.66989899
-          }
-          Rotation {
-            Pitch: -90
-            Yaw: -26.565033
-            Roll: 71.6726685
-          }
-          Scale {
-            X: -1.13326049
-            Y: 0.907402515
-            Z: 4.50000095
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 6751745758263253574
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9119536234320832869
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 15588716388191059399
-        Name: "Plane Triangle - One Sided Convex"
-        Transform {
-          Location {
-            X: -543.380859
-            Y: 1593.50537
-            Z: -0.780609131
-          }
-          Rotation {
-            Yaw: -135
-          }
-          Scale {
-            X: -8.69423771
-            Y: 2.91911411
-            Z: 4
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17880341449870205805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0500000119
-              G: 0.735761285
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 13621259958132264851
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 2195027996527160044
-        Name: "Plane Triangle - One Sided Convex"
-        Transform {
-          Location {
-            X: -543.050781
-            Y: 1593.18018
-            Z: -80.8090515
-          }
-          Rotation {
-            Yaw: -135
-          }
-          Scale {
-            X: -8.69423771
-            Y: 2.91911411
-            Z: 4
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17880341449870205805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0500000119
-              G: 0.735761285
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 13621259958132264851
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 13786889662634220032
-        Name: "Prism - 8-Sided Half"
-        Transform {
-          Location {
-            X: -1665.25977
-            Y: 675.016602
-            Z: 9.67015076
-          }
-          Rotation {
-            Pitch: -90
-            Yaw: 14.0362635
-            Roll: 31.0708885
-          }
-          Scale {
-            X: -1.13326049
-            Y: 0.907402515
-            Z: 4.50000095
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 6751745758263253574
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9119536234320832869
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 6488783393849075878
-        Name: "Sci-fi Console Hinge 01"
-        Transform {
-          Location {
-            X: -1634.75781
-            Y: 640.117188
-            Z: -15.3978424
-          }
-          Rotation {
-            Yaw: -134.999985
-            Roll: -90
-          }
-          Scale {
-            X: -15.970458
-            Y: 9.40022659
-            Z: 7.6526823
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.322916657
-              G: 0.322916657
-              B: 0.322916657
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 10553272733231785645
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 3628780303828917058
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 54838795691347949
-        Name: "Plane Triangle - One Sided Convex"
-        Transform {
-          Location {
-            X: -1573.05078
-            Y: 563.183105
-            Z: -80.8088074
-          }
-          Rotation {
-            Yaw: -135
-          }
-          Scale {
-            X: -8.69423771
-            Y: 2.91911411
-            Z: 4
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17880341449870205805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0500000119
-              G: 0.735761285
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 13621259958132264851
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 3576494023634725821
-        Name: "Plane Triangle - One Sided Convex"
-        Transform {
-          Location {
-            X: -1573.38086
-            Y: 563.508301
-            Z: -0.780365
-          }
-          Rotation {
-            Yaw: -135
-          }
-          Scale {
-            X: -8.69423771
-            Y: 2.91911411
-            Z: 4
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17880341449870205805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0500000119
-              G: 0.735761285
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 13621259958132264851
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 18338269202268124692
-        Name: "Prism - 8-Sided Half"
-        Transform {
-          Location {
-            X: 596.619141
-            Y: 2103.51929
-            Z: 9.67063141
-          }
-          Rotation {
-            Pitch: -90
-            Yaw: -90
-            Roll: -89.8926392
-          }
-          Scale {
-            X: -1.13326049
-            Y: 0.907402515
-            Z: 4.50000095
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 6751745758263253574
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9119536234320832869
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 17531755810970369320
-        Name: "Sci-fi Console Hinge 01"
-        Transform {
-          Location {
-            X: 627.121094
-            Y: 2068.6189
-            Z: -15.3973618
-          }
-          Rotation {
-            Yaw: 180
-            Roll: -90
-          }
-          Scale {
-            X: -15.970458
-            Y: 9.40022659
-            Z: 7.6526823
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.322916657
-              G: 0.322916657
-              B: 0.322916657
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 10553272733231785645
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 3628780303828917058
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 1008820420062009625
-        Name: "Plane Triangle - One Sided Convex"
-        Transform {
-          Location {
-            X: 616.619141
-            Y: 1992.01587
-            Z: -0.779846191
-          }
-          Rotation {
-            Yaw: 180
-          }
-          Scale {
-            X: -8.69423771
-            Y: 2.91911411
-            Z: 4
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17880341449870205805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0500000119
-              G: 0.735761285
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 13621259958132264851
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 15926045796688064430
-        Name: "Plane Triangle - One Sided Convex"
-        Transform {
-          Location {
-            X: 617.085938
-            Y: 1992.01489
-            Z: -80.8082047
-          }
-          Rotation {
-            Yaw: 180
-          }
-          Scale {
-            X: -8.69423771
-            Y: 2.91911411
-            Z: 4
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17880341449870205805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0500000119
-              G: 0.735761285
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 13621259958132264851
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 5494029187865755237
-        Name: "Plane Triangle - One Sided Convex"
-        Transform {
-          Location {
-            X: -1972.75391
-            Y: -582.104
-            Z: -80.8062515
-          }
-          Rotation {
-            Yaw: -90
-          }
-          Scale {
-            X: -8.69423771
-            Y: 2.91911411
-            Z: 4
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17880341449870205805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0500000119
-              G: 0.735761285
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 13621259958132264851
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 13544100502628596671
-        Name: "Plane Triangle - One Sided Convex"
-        Transform {
-          Location {
-            X: -1972.75391
-            Y: -581.639648
-            Z: -0.777893066
-          }
-          Rotation {
-            Yaw: -90
-          }
-          Scale {
-            X: -8.69423771
-            Y: 2.91911411
-            Z: 4
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17880341449870205805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0500000119
-              G: 0.735761285
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 13621259958132264851
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 10359536364307364180
-        Name: "Sci-fi Console Hinge 01"
-        Transform {
-          Location {
-            X: -2079.82422
-            Y: -592.128418
-            Z: -15.3955765
-          }
-          Rotation {
-            Yaw: -90
-            Roll: -90
-          }
-          Scale {
-            X: -15.970458
-            Y: 9.40022659
-            Z: 7.6526823
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.322916657
-              G: 0.322916657
-              B: 0.322916657
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 10553272733231785645
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 3628780303828917058
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 9517248772443693458
-        Name: "Prism - 8-Sided Half"
-        Transform {
-          Location {
-            X: -2124.92
-            Y: -591.605
-            Z: 9.67238617
-          }
-          Rotation {
-            Pitch: -90
-            Yaw: 44.9999962
-            Roll: 45.1074486
-          }
-          Scale {
-            X: -1.13326049
-            Y: 0.907402515
-            Z: 4.50000095
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 6751745758263253574
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9119536234320832869
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 5109174503496708089
-        Name: "Plane Triangle - One Sided Convex"
-        Transform {
-          Location {
-            X: 566.619141
-            Y: -616.479
-            Z: -30.8093414
-          }
-          Rotation {
-            Yaw: -135
-          }
-          Scale {
-            X: -14.25
-            Y: 12.000001
-            Z: 2.25
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 7888175289933445540
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0500000119
-              G: 0.735761285
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 1628404145863847106
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 6841804018137034741
-        Name: "Plane Triangle - One Sided Convex"
-        Transform {
-          Location {
-            X: 566.619141
-            Y: -616.479
-            Z: -30.8093262
-          }
-          Rotation {
-            Yaw: -135
-          }
-          Scale {
-            X: 14.2499933
-            Y: 12.000001
-            Z: 2.25
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 7888175289933445540
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0500000119
-              G: 0.735761285
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 1628404145863847106
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 11841293399549883173
-        Name: "Plane Triangle - One Sided Convex"
-        Transform {
-          Location {
-            X: -879.037109
-            Y: 1026.71484
-            Z: -2.46099854
-          }
-          Rotation {
-            Yaw: 45
-          }
-          Scale {
-            X: -62.2420273
-            Y: 38.7037773
-            Z: 7.22874212
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 2380446458660312207
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0500000119
-              G: 0.735761285
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 3192052139210163942
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 16683782453129497403
-        Name: "Prism - 8-Sided Half"
-        Transform {
-          Location {
-            X: -2119
-            Y: -1407.10645
-            Z: 9.66827393
-          }
-          Rotation {
-            Pitch: -90
-            Yaw: -90
-            Roll: 3.81469727e-05
-          }
-          Scale {
-            X: -2.09058619
-            Y: 0.90740335
-            Z: 0.411134243
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 6751745758263253574
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9119536234320832869
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 16171305343719007363
-        Name: "Sci-fi Console Hinge 01"
-        Transform {
-          Location {
-            X: -2074.11719
-            Y: -1407.23291
-            Z: -15.3991699
-          }
-          Rotation {
-            Yaw: -89.9999771
-            Roll: -89.9999847
-          }
-          Scale {
-            X: -1.37690687
-            Y: 14.6805439
-            Z: 7.65268421
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.322916657
-              G: 0.322916657
-              B: 0.322916657
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 10553272733231785645
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 3628780303828917058
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 16173495584145497366
-        Name: "Plane Triangle - One Sided Convex"
-        Transform {
-          Location {
-            X: -1573.38281
-            Y: -1406.94238
-            Z: -0.783119202
-          }
-          Rotation {
-            Yaw: -89.9999847
-          }
-          Scale {
-            X: -0.410181165
-            Y: 11.7221451
-            Z: 4
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17880341449870205805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0500000119
-              G: 0.735761285
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 13621259958132264851
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 4106442070609337199
-        Name: "Plane Triangle - One Sided Convex"
-        Transform {
-          Location {
-            X: -1573.38281
-            Y: -1406.47656
-            Z: -40.075325
-          }
-          Rotation {
-            Yaw: -89.9999847
-          }
-          Scale {
-            X: -0.410181165
-            Y: 11.7221451
-            Z: 4
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17880341449870205805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0500000119
-              G: 0.735761285
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 13621259958132264851
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 8607396843763469359
-        Name: "Sci-fi Console Hinge 01"
-        Transform {
-          Location {
-            X: 519.791
-            Y: -1406.85205
-            Z: -15.3991699
-          }
-          Rotation {
-            Pitch: 1.36603776e-05
-            Yaw: 90.0000305
-            Roll: -90.0000076
-          }
-          Scale {
-            X: -1.37690687
-            Y: 14.6805439
-            Z: 7.65268421
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.322916657
-              G: 0.322916657
-              B: 0.322916657
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 10553272733231785645
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 3628780303828917058
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 5688103060584707513
-        Name: "Prism - 8-Sided Half"
-        Transform {
-          Location {
-            X: 564.677734
-            Y: -1406.97754
-            Z: 9.66827393
-          }
-          Rotation {
-            Pitch: -90
-            Yaw: 180
-            Roll: -89.9999695
-          }
-          Scale {
-            X: -2.09058619
-            Y: 0.90740335
-            Z: 0.411134243
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 6751745758263253574
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9119536234320832869
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 1644281337801629720
-        Name: "Plane Triangle - One Sided Convex"
-        Transform {
-          Location {
-            X: 18.9824219
-            Y: -1407.1416
-            Z: -0.783119202
-          }
-          Rotation {
-            Yaw: 90.0000153
-          }
-          Scale {
-            X: -0.410181165
-            Y: 11.7221451
-            Z: 4
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17880341449870205805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0500000119
-              G: 0.735761285
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 13621259958132264851
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 202335993949782079
-        Name: "Plane Triangle - One Sided Convex"
-        Transform {
-          Location {
-            X: 18.9824219
-            Y: -1407.59961
-            Z: -40.075325
-          }
-          Rotation {
-            Yaw: 90.0000153
-          }
-          Scale {
-            X: -0.410181165
-            Y: 11.7221451
-            Z: 4
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17880341449870205805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0500000119
-              G: 0.735761285
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 13621259958132264851
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 1434432067304083171
-        Name: "Plane Triangle - One Sided Convex"
-        Transform {
-          Location {
-            X: 1409.9082
-            Y: -33.902832
-            Z: -40.075325
-          }
-          Rotation {
-            Yaw: -4.098114e-05
-          }
-          Scale {
-            X: -0.410181165
-            Y: 11.7221451
-            Z: 4
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17880341449870205805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0500000119
-              G: 0.735761285
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 13621259958132264851
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 2252806767062639349
-        Name: "Plane Triangle - One Sided Convex"
-        Transform {
-          Location {
-            X: 1410.36914
-            Y: -33.902832
-            Z: -0.783119202
-          }
-          Rotation {
-            Yaw: -4.098114e-05
-          }
-          Scale {
-            X: -0.410181165
-            Y: 11.7221451
-            Z: 4
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17880341449870205805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0500000119
-              G: 0.735761285
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 13621259958132264851
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 7058919717172301192
-        Name: "Prism - 8-Sided Half"
-        Transform {
-          Location {
-            X: 1410.54102
-            Y: -579.606934
-            Z: 9.66827393
-          }
-          Rotation {
-            Pitch: -90
-            Yaw: -66.8014297
-            Roll: 66.801445
-          }
-          Scale {
-            X: -2.09058619
-            Y: 0.90740335
-            Z: 0.411134243
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 6751745758263253574
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9119536234320832869
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 10560501059137097003
-        Name: "Sci-fi Console Hinge 01"
-        Transform {
-          Location {
-            X: 1410.6582
-            Y: -534.71875
-            Z: -15.3991699
-          }
-          Rotation {
-            Pitch: -2.73207552e-05
-            Yaw: -4.7811307e-05
-            Roll: -89.9998932
-          }
-          Scale {
-            X: -1.37690687
-            Y: 14.6805439
-            Z: 7.65268421
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.322916657
-              G: 0.322916657
-              B: 0.322916657
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 10553272733231785645
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 3628780303828917058
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 3849962555900071016
-        Name: "Prism - 8-Sided Half"
-        Transform {
-          Location {
-            X: -199.177734
-            Y: 2107.00537
-            Z: 9.66827393
-          }
-          Rotation {
-            Pitch: -90
-            Yaw: -105.945412
-            Roll: -43.3121033
-          }
-          Scale {
-            X: -2.09058619
-            Y: 0.90740335
-            Z: 0.411134243
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 6751745758263253574
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9119536234320832869
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 4859101629978838860
-        Name: "Sci-fi Console Hinge 01"
-        Transform {
-          Location {
-            X: -176.326172
-            Y: 2068.35767
-            Z: -15.3991699
-          }
-          Rotation {
-            Pitch: 1.36603776e-05
-            Yaw: -149.258804
-            Roll: -89.9999924
-          }
-          Scale {
-            X: -1.37690687
-            Y: 14.6805439
-            Z: 7.65268421
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.322916657
-              G: 0.322916657
-              B: 0.322916657
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 10553272733231785645
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 3628780303828917058
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 13453338852037410994
-        Name: "Plane Triangle - One Sided Convex"
-        Transform {
-          Location {
-            X: 79.8691406
-            Y: 1638.19043
-            Z: -0.783119202
-          }
-          Rotation {
-            Yaw: -149.258789
-          }
-          Scale {
-            X: -0.410181165
-            Y: 11.7221451
-            Z: 4
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17880341449870205805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0500000119
-              G: 0.735761285
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 13621259958132264851
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 13165021735580255210
-        Name: "Plane Triangle - One Sided Convex"
-        Transform {
-          Location {
-            X: 80.2441406
-            Y: 1638.46924
-            Z: -40.075325
-          }
-          Rotation {
-            Yaw: -149.258789
-          }
-          Scale {
-            X: -0.410181165
-            Y: 11.7221451
-            Z: 4
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17880341449870205805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0500000119
-              G: 0.735761285
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 13621259958132264851
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 3455069065866026690
-        Name: "Sci-fi Console Hinge 01"
-        Transform {
-          Location {
-            X: -2050.97266
-            Y: 213.404785
-            Z: -15.3991699
-          }
-          Rotation {
-            Pitch: 1.36603776e-05
-            Yaw: -123.627281
-            Roll: -89.9999924
-          }
-          Scale {
-            X: -1.37690687
-            Y: 14.6805439
-            Z: 7.65268421
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.322916657
-              G: 0.322916657
-              B: 0.322916657
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 10553272733231785645
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 3628780303828917058
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 13607500919163273727
-        Name: "Prism - 8-Sided Half"
-        Transform {
-          Location {
-            X: -2088.26953
-            Y: 238.397461
-            Z: 9.66827393
-          }
-          Rotation {
-            Pitch: -90
-            Yaw: -90
-            Roll: -33.6275635
-          }
-          Scale {
-            X: -2.09058619
-            Y: 0.90740335
-            Z: 0.411134243
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 6751745758263253574
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 9119536234320832869
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 5465587608812620604
-        Name: "Plane Triangle - One Sided Convex"
-        Transform {
-          Location {
-            X: -1633.84766
-            Y: -63.5991211
-            Z: -0.783119202
-          }
-          Rotation {
-            Yaw: -123.627281
-          }
-          Scale {
-            X: -0.410181165
-            Y: 11.7221451
-            Z: 4
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17880341449870205805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0500000119
-              G: 0.735761285
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 13621259958132264851
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 5311281773923126652
-        Name: "Plane Triangle - One Sided Convex"
-        Transform {
-          Location {
-            X: -1633.60547
-            Y: -63.2172852
-            Z: -40.075325
-          }
-          Rotation {
-            Yaw: -123.627281
-          }
-          Scale {
-            X: -0.410181165
-            Y: 11.7221451
-            Z: 4
-          }
-        }
-        ParentId: 15715088021643346016
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 17880341449870205805
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.0500000119
-              G: 0.735761285
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:forceoff"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 13621259958132264851
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-          }
-        }
-      }
-    }
-    Assets {
-      Id: 3628780303828917058
-      Name: "Sci-fi Console Hinge 01"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_prop_scf_hinge_001_ref"
-      }
-    }
-    Assets {
-      Id: 13621259958132264851
-      Name: "Plane 1m - One Sided"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_plane_1m_001"
-      }
-    }
-    Assets {
-      Id: 9119536234320832869
-      Name: "Prism - 8-Sided Half"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_half_octagon_001"
-      }
     }
     Assets {
       Id: 6284939371362434604
@@ -8744,12 +5965,12 @@ Assets {
       }
     }
     Assets {
-      Id: 1628404145863847106
-      Name: "Plane Trapezoid - One Sided Right"
+      Id: 13621259958132264851
+      Name: "Plane 1m - One Sided"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_plane_trapezoid_002"
+        AssetId: "sm_plane_1m_001"
       }
     }
     PrimaryAssetId {

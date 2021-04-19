@@ -1,7 +1,7 @@
 Name: "Wave10"
-RootId: 11150533887626539414
+RootId: 7182615975522505540
 Objects {
-  Id: 3903229565057958766
+  Id: 16007462120270050524
   Name: "20 ReAd"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11150533887626539414
+  ParentId: 7182615975522505540
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -53,7 +53,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14556992241639735601
+  Id: 2706114693236490860
   Name: "40 ReVr"
   Transform {
     Location {
@@ -66,7 +66,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11150533887626539414
+  ParentId: 7182615975522505540
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -105,7 +105,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10391793972694605656
+  Id: 13800846377406536717
   Name: "20 ReAd"
   Transform {
     Location {
@@ -118,7 +118,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11150533887626539414
+  ParentId: 7182615975522505540
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -157,7 +157,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12988943224270480013
+  Id: 13482850555671154232
   Name: "1 GrWo"
   Transform {
     Location {
@@ -170,7 +170,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11150533887626539414
+  ParentId: 7182615975522505540
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -205,7 +205,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2530276602059264761
+  Id: 11088649701546691704
   Name: "40 ReVr"
   Transform {
     Location {
@@ -218,7 +218,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11150533887626539414
+  ParentId: 7182615975522505540
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -257,7 +257,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4249051987728127667
+  Id: 14267504671882151763
   Name: "20 ReAd"
   Transform {
     Location {
@@ -270,7 +270,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11150533887626539414
+  ParentId: 7182615975522505540
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"

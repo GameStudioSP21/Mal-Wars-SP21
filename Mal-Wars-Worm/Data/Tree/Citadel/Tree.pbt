@@ -1,7 +1,7 @@
 Name: "Citadel"
 RootId: 11302024653263081212
 Objects {
-  Id: 14145370351585317393
+  Id: 845373224620542606
   Name: "Wave20"
   Transform {
     Location {
@@ -56,7 +56,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8024037148188001600
+  Id: 15333155250588802999
   Name: "Wave19"
   Transform {
     Location {
@@ -111,7 +111,7 @@ Objects {
   }
 }
 Objects {
-  Id: 262246278863865097
+  Id: 7095791720600297830
   Name: "Wave18"
   Transform {
     Location {
@@ -166,7 +166,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13406075605042796935
+  Id: 8411637349747737954
   Name: "Wave17"
   Transform {
     Location {
@@ -221,7 +221,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18390299748586838083
+  Id: 1268645577492611455
   Name: "Wave16"
   Transform {
     Location {
@@ -276,7 +276,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13977555370969854825
+  Id: 13834871133390003945
   Name: "Wave15"
   Transform {
     Location {
@@ -331,7 +331,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8427992160922095381
+  Id: 13451617723709662368
   Name: "Wave14"
   Transform {
     Location {
@@ -386,7 +386,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2891947829608723016
+  Id: 12946402785960565073
   Name: "Wave13"
   Transform {
     Location {
@@ -441,7 +441,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12056032331666604435
+  Id: 4244188672895655279
   Name: "Wave12"
   Transform {
     Location {
@@ -496,7 +496,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9240606049615723084
+  Id: 15513902267303467870
   Name: "Wave11"
   Transform {
     Location {
@@ -551,7 +551,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11150533887626539414
+  Id: 7182615975522505540
   Name: "Wave10"
   Transform {
     Location {
@@ -606,7 +606,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10446554296379671763
+  Id: 14063528035917622074
   Name: "Wave9"
   Transform {
     Location {
@@ -661,7 +661,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14859154552068645018
+  Id: 14110746566346146217
   Name: "Wave8"
   Transform {
     Location {
@@ -716,7 +716,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2006978697845648767
+  Id: 5260683574071450563
   Name: "Wave7"
   Transform {
     Location {
@@ -771,7 +771,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13838315464293966470
+  Id: 13510314813940769590
   Name: "Wave6"
   Transform {
     Location {
@@ -826,7 +826,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17734512529401566660
+  Id: 7691821806201168351
   Name: "Wave5"
   Transform {
     Location {
@@ -881,7 +881,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17365817214076692164
+  Id: 13625700244567151318
   Name: "Wave4"
   Transform {
     Location {
@@ -936,7 +936,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4669332663382257044
+  Id: 11514468981711329624
   Name: "Wave3"
   Transform {
     Location {
@@ -991,7 +991,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5161887533204845570
+  Id: 6723088296771937254
   Name: "Wave2"
   Transform {
     Location {
@@ -1046,7 +1046,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2846107153629823890
+  Id: 12390265369807289167
   Name: "Wave1"
   Transform {
     Location {

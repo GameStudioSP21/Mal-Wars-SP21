@@ -7,19 +7,19 @@ Assets {
       Overrides {
         Name: "cs:TowerPanel"
         ObjectReference {
-          SelfId: 8447821843026887436
+          SelfId: 6311100951252094683
         }
       }
       Overrides {
         Name: "cs:CatagoryPanel"
         ObjectReference {
-          SelfId: 2916512665266210355
+          SelfId: 9466561550629604685
         }
       }
       Overrides {
         Name: "cs:StatsPanel"
         ObjectReference {
-          SelfId: 1572497362205646919
+          SelfId: 9887066581780290070
         }
       }
       Overrides {

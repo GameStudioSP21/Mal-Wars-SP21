@@ -1,13 +1,15 @@
-GameId: "fc5b13afcd534b4fb4d20f82f2a0c7e8"
-ClientVersion: "1.0.180-prod-s"
+GameId: "09d867228df642299abf039ae2ca80bf"
+ClientVersion: "1.0.184-prod-s"
 Name: "Mal-Wars: Worm Hole"
-Description: "Worm level for Mal-Wars"
+Description: "The Worm Hole level for Mal-Wars."
 MaxPlayers: 1
+Tags: "Singleplayer"
 Tags: "TopDown"
 Tags: "TowerDefense"
 Tags: "Scifi"
-ScreenshotPaths: "D:/Documents/CORE/Mal-Wars-SP21/Mal-Wars-Worm/Screenshots/Screenshot0002.png"
-ReleaseNotes: "Most functional assets updated; waves are also included. Only the orbital laser remains."
+ScreenshotPaths: "D:\\Documents\\CORE\\Mal-Wars-SP21\\Mal-Wars-Worm\\Screenshots\\Screenshot0002.png"
+ScreenshotPaths: "D:\\Documents\\CORE\\Mal-Wars-SP21\\Mal-Wars-Worm\\Screenshots\\Screenshot0001.png"
+ReleaseNotes: "Made it cool and good."
 OwnerId: "915299ba3314494bbd5eb7a67d954099"
 SerializationVersion: 1
 PublishedState: Child

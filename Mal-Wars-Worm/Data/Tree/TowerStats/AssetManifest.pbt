@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 18110314706552644672
+  Name: "Icon Stamina"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Stamina"
+  }
+}
+Assets {
   Id: 16538320873508884468
   Name: "Bullet 1"
   PlatformAssetType: 9

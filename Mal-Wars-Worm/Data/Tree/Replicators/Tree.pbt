@@ -1,7 +1,7 @@
 Name: "Replicators"
-RootId: 4690694802133622742
+RootId: 5627554470724662434
 Objects {
-  Id: 9756141106481763665
+  Id: 2950210219696553339
   Name: "Inventories"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4690694802133622742
+  ParentId: 5627554470724662434
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -30,7 +30,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7099215131665476394
+  Id: 16791110401915715446
   Name: "TowerDefenders_Replicator"
   Transform {
     Location {
@@ -43,12 +43,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4690694802133622742
+  ParentId: 5627554470724662434
   UnregisteredParameters {
     Overrides {
       Name: "cs:InventoryFolder"
       ObjectReference {
-        SelfId: 9756141106481763665
+        SelfId: 2950210219696553339
       }
     }
   }
@@ -68,7 +68,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5764014628557797516
+  Id: 16501574175870241086
   Name: "ClientContext"
   Transform {
     Location {
@@ -81,8 +81,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4690694802133622742
-  ChildIds: 2512123034530675694
+  ParentId: 5627554470724662434
+  ChildIds: 13792023200303562508
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -96,7 +96,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2512123034530675694
+  Id: 13792023200303562508
   Name: "TowerDefenders_Replicator"
   Transform {
     Location {
@@ -109,12 +109,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5764014628557797516
+  ParentId: 16501574175870241086
   UnregisteredParameters {
     Overrides {
       Name: "cs:InventoryFolder"
       ObjectReference {
-        SelfId: 9756141106481763665
+        SelfId: 2950210219696553339
       }
     }
   }

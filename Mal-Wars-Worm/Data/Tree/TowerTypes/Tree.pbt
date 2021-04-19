@@ -1,7 +1,7 @@
 Name: "TowerTypes"
-RootId: 11163829162903721853
+RootId: 15720114564533439334
 Objects {
-  Id: 798483446425790754
+  Id: 7010777850253727506
   Name: "Lunar"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11163829162903721853
+  ParentId: 15720114564533439334
   UnregisteredParameters {
     Overrides {
       Name: "cs:Icon"
@@ -47,7 +47,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4213841703763966184
+  Id: 5700756625187138424
   Name: "Utility"
   Transform {
     Location {
@@ -60,7 +60,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11163829162903721853
+  ParentId: 15720114564533439334
   UnregisteredParameters {
     Overrides {
       Name: "cs:Icon"
@@ -92,7 +92,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8401294862560530098
+  Id: 11435435214344133321
   Name: "Range"
   Transform {
     Location {
@@ -105,7 +105,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11163829162903721853
+  ParentId: 15720114564533439334
   UnregisteredParameters {
     Overrides {
       Name: "cs:Icon"
@@ -137,7 +137,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16708300395943133987
+  Id: 15473447320514786512
   Name: "Damage"
   Transform {
     Location {
@@ -150,7 +150,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11163829162903721853
+  ParentId: 15720114564533439334
   UnregisteredParameters {
     Overrides {
       Name: "cs:Icon"

@@ -1,7 +1,7 @@
 Name: "Damage_2"
-RootId: 17478600470168090656
+RootId: 7130910895738376355
 Objects {
-  Id: 13631615808168348604
+  Id: 17495909577069202432
   Name: "Bank"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17478600470168090656
+  ParentId: 7130910895738376355
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -37,13 +37,13 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 4213841703763966184
+        SelfId: 5700756625187138424
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 17899545024251093921
+        SelfId: 1720409598745449251
       }
     }
     Overrides {
@@ -105,7 +105,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18172599123169189692
+  Id: 260460467366369561
   Name: "Tesla"
   Transform {
     Location {
@@ -118,7 +118,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17478600470168090656
+  ParentId: 7130910895738376355
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -134,7 +134,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9611249147529231842
+  Id: 3043607958378933379
   Name: "Mortar"
   Transform {
     Location {
@@ -147,7 +147,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17478600470168090656
+  ParentId: 7130910895738376355
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -163,7 +163,7 @@ Objects {
   }
 }
 Objects {
-  Id: 843562215404874223
+  Id: 12578761812920551926
   Name: "AOE"
   Transform {
     Location {
@@ -176,7 +176,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17478600470168090656
+  ParentId: 7130910895738376355
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -192,7 +192,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17549134518508387982
+  Id: 287725104296604219
   Name: "Sniper"
   Transform {
     Location {
@@ -205,7 +205,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17478600470168090656
+  ParentId: 7130910895738376355
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -221,7 +221,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3889942922710607634
+  Id: 15836056593155272946
   Name: "Laser"
   Transform {
     Location {
@@ -234,7 +234,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17478600470168090656
+  ParentId: 7130910895738376355
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

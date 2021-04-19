@@ -1,4 +1,4 @@
-GameId: "B9BA39C349A65F5CAE0CEDA3833F5BD9"
+GameId: "48E7EE304BC5697BF9CA42AF8607E915"
 DisplayName: "Mal-Wars-Worm"
 GameSerializationVersion: 81
 Framework: "Empty Project"

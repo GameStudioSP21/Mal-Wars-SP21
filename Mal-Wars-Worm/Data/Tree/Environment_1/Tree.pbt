@@ -1,7 +1,7 @@
 Name: "Environment_1"
-RootId: 7861413368613101346
+RootId: 16523348789993916465
 Objects {
-  Id: 14344521452467721358
+  Id: 12350972710131142815
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -20,7 +20,7 @@ Objects {
       Z: 9.00001049
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -68,7 +68,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9662166593256592761
+  Id: 5617873908970198900
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -87,7 +87,7 @@ Objects {
       Z: 9.00001049
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -135,7 +135,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12672544859298715097
+  Id: 1463887515170421704
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -154,7 +154,7 @@ Objects {
       Z: 3.71393299
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -202,7 +202,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14901004300210383486
+  Id: 15201580431002458779
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -221,7 +221,7 @@ Objects {
       Z: 3.71393299
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -269,7 +269,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2885476565110638704
+  Id: 1000963474684598424
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -288,7 +288,7 @@ Objects {
       Z: 16.6684971
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -336,7 +336,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6877606276218533035
+  Id: 762883622043412801
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -355,7 +355,7 @@ Objects {
       Z: 16.6684971
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -403,7 +403,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3127321540157235989
+  Id: 6127066482536028216
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -422,7 +422,7 @@ Objects {
       Z: 6.13361359
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -470,7 +470,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14744776682142834738
+  Id: 1669550734002762195
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -489,7 +489,7 @@ Objects {
       Z: 6.13361359
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -537,7 +537,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17120027082116432459
+  Id: 13494345139881242395
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -556,7 +556,7 @@ Objects {
       Z: 12.752821
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -604,7 +604,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16885479888084213859
+  Id: 1840357690740724119
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -623,7 +623,7 @@ Objects {
       Z: 12.752821
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -671,7 +671,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15704145916743815290
+  Id: 11799450633867222864
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -690,7 +690,7 @@ Objects {
       Z: 20.3841515
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -738,7 +738,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15654954430024978333
+  Id: 15217357050017203042
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -757,7 +757,7 @@ Objects {
       Z: 20.3841515
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -805,7 +805,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7548666783446619420
+  Id: 4827949856194115005
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -824,7 +824,7 @@ Objects {
       Z: 20.3841705
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -872,7 +872,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7414803683271821090
+  Id: 4847023637956574253
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -891,7 +891,7 @@ Objects {
       Z: 20.3841705
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -939,7 +939,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3008807769325547670
+  Id: 4386911859362638958
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -958,7 +958,7 @@ Objects {
       Z: 20.3841457
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -1006,7 +1006,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10854876141953487061
+  Id: 3015173548737721479
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -1025,7 +1025,7 @@ Objects {
       Z: 20.3841457
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -1073,7 +1073,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8832734010996698213
+  Id: 17395251966915935143
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -1092,7 +1092,7 @@ Objects {
       Z: 20.3841267
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -1140,7 +1140,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8808051575471176610
+  Id: 13479277829641773191
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -1159,7 +1159,7 @@ Objects {
       Z: 20.3841267
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -1207,7 +1207,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15112552915986013889
+  Id: 2703148743577133883
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -1226,7 +1226,7 @@ Objects {
       Z: 20.384119
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -1274,7 +1274,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18160063325244611643
+  Id: 1756374346279685085
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -1293,7 +1293,7 @@ Objects {
       Z: 20.384119
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -1341,7 +1341,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11861857724105351661
+  Id: 15544823449230574585
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -1360,7 +1360,7 @@ Objects {
       Z: 13.0868759
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -1408,7 +1408,7 @@ Objects {
   }
 }
 Objects {
-  Id: 875334225703419378
+  Id: 7982771022610929846
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -1427,7 +1427,7 @@ Objects {
       Z: 13.0868759
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -1475,7 +1475,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1813061322123072007
+  Id: 4220427470769329746
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -1494,7 +1494,7 @@ Objects {
       Z: -83.3071823
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -1542,7 +1542,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4298755981766390000
+  Id: 13486959254879964622
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -1561,7 +1561,7 @@ Objects {
       Z: 15.2855015
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -1609,7 +1609,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4883633782624275533
+  Id: 948113836481984742
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -1628,7 +1628,7 @@ Objects {
       Z: 15.2855015
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -1676,7 +1676,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7804957413136384521
+  Id: 4970708959549659165
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -1695,7 +1695,7 @@ Objects {
       Z: 15.2855015
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -1743,7 +1743,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16837544862032529636
+  Id: 14375794765778528780
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -1762,7 +1762,7 @@ Objects {
       Z: 15.2855015
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -1810,7 +1810,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15384796129025415212
+  Id: 36433030774149769
   Name: "Sci-fi Base Wall Interior 02 - Corner 01"
   Transform {
     Location {
@@ -1829,7 +1829,7 @@ Objects {
       Z: 23.5087204
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -1868,7 +1868,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2725949105112433794
+  Id: 14789787548679610892
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -1887,7 +1887,7 @@ Objects {
       Z: 15.2855015
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -1935,7 +1935,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14038594986297009278
+  Id: 4795015911098941391
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -1954,7 +1954,7 @@ Objects {
       Z: 15.2855015
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -2002,7 +2002,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6149487002180598024
+  Id: 4066614715941035918
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -2021,7 +2021,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -2069,7 +2069,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1365909975160224284
+  Id: 4696904757553255478
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -2088,7 +2088,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -2136,7 +2136,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10950546553405027126
+  Id: 13779023304163097457
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -2155,7 +2155,7 @@ Objects {
       Z: 15.2855015
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -2203,7 +2203,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12203078889780611086
+  Id: 7538435163614681906
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -2222,7 +2222,7 @@ Objects {
       Z: 15.2855015
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -2270,7 +2270,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16898830232924784635
+  Id: 760594186037414844
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -2289,7 +2289,7 @@ Objects {
       Z: 15.2855015
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -2337,7 +2337,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17937515940831026415
+  Id: 12389648456272071936
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -2356,7 +2356,7 @@ Objects {
       Z: 15.2855015
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -2404,7 +2404,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6409974069619735876
+  Id: 1708985831440436037
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -2423,7 +2423,7 @@ Objects {
       Z: 44.638
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -2471,7 +2471,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7683098493177647260
+  Id: 11268275676693160559
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -2490,7 +2490,7 @@ Objects {
       Z: -52.71
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -2540,7 +2540,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17370535963036934634
+  Id: 10359262477639830374
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -2559,7 +2559,7 @@ Objects {
       Z: -44.6382484
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -2607,7 +2607,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6009591366035627825
+  Id: 17301159479253675898
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -2626,7 +2626,7 @@ Objects {
       Z: 52.7101097
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -2676,7 +2676,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3298385576602955851
+  Id: 321305917643984887
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -2695,7 +2695,7 @@ Objects {
       Z: -36
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -2743,7 +2743,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17113955884601787106
+  Id: 14035929120497979668
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -2762,7 +2762,7 @@ Objects {
       Z: -36
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -2810,7 +2810,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13211571880698216924
+  Id: 8706044065888235564
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -2829,7 +2829,7 @@ Objects {
       Z: -36
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -2877,7 +2877,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15382477116571165998
+  Id: 16502641844206915732
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -2896,7 +2896,7 @@ Objects {
       Z: -36
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -2944,7 +2944,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17571549868383839936
+  Id: 3351931478124073865
   Name: "Cube"
   Transform {
     Location {
@@ -2963,7 +2963,7 @@ Objects {
       Z: 18.6787491
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3002,7 +3002,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7558384122750535912
+  Id: 8141179700636749746
   Name: "Cube"
   Transform {
     Location {
@@ -3021,7 +3021,7 @@ Objects {
       Z: 18.6787491
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3060,7 +3060,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7793723008335459394
+  Id: 3289525584533471939
   Name: "Cube"
   Transform {
     Location {
@@ -3079,7 +3079,7 @@ Objects {
       Z: 18.6787491
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3118,7 +3118,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17621495353301705310
+  Id: 9121465658819266391
   Name: "Cube"
   Transform {
     Location {
@@ -3137,7 +3137,7 @@ Objects {
       Z: 18.6787491
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -3176,7 +3176,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1430489923734379581
+  Id: 6740773141161417466
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -3195,7 +3195,7 @@ Objects {
       Z: 105.00013
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -3243,7 +3243,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6823940789070071376
+  Id: 9334775990507397952
   Name: "Sci-fi Base Door 02"
   Transform {
     Location {
@@ -3262,7 +3262,7 @@ Objects {
       Z: 8.99999905
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -3300,7 +3300,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10893068832613748053
+  Id: 2979770151275957698
   Name: "Sci-fi Base Door 02"
   Transform {
     Location {
@@ -3319,7 +3319,7 @@ Objects {
       Z: 8.99999905
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -3357,7 +3357,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6658626444012779532
+  Id: 997024734734951584
   Name: "Half"
   Transform {
     Location {
@@ -3373,70 +3373,70 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7861413368613101346
-  ChildIds: 16130857255131207268
-  ChildIds: 3187224039832242914
-  ChildIds: 7953554977762327848
-  ChildIds: 17304989179901282380
-  ChildIds: 6408410208941401119
-  ChildIds: 14929649417620045387
-  ChildIds: 17605914668917752418
-  ChildIds: 5764693523518166503
-  ChildIds: 9470710852446159453
-  ChildIds: 9873466998511950071
-  ChildIds: 17106675935110590932
-  ChildIds: 16733906048076096963
-  ChildIds: 17599709080810359197
-  ChildIds: 12029633659783641456
-  ChildIds: 13909922808105746743
-  ChildIds: 8935352762119541285
-  ChildIds: 15759264345789533543
-  ChildIds: 13400140038320451733
-  ChildIds: 16974686456290899618
-  ChildIds: 11996909746093730562
-  ChildIds: 13965207539173692933
-  ChildIds: 845904445528795348
-  ChildIds: 13302490474131406302
-  ChildIds: 1519445122647583119
-  ChildIds: 17535713217962117976
-  ChildIds: 15938372596874491010
-  ChildIds: 5016528588888171319
-  ChildIds: 13559192158050590669
-  ChildIds: 9113908411203608152
-  ChildIds: 9403876078974980623
-  ChildIds: 1765563947558456977
-  ChildIds: 6264502433082418577
-  ChildIds: 4437822546597206252
-  ChildIds: 4320043748350619130
-  ChildIds: 3374889812078877634
-  ChildIds: 14336532254701641833
-  ChildIds: 13674027808449441963
-  ChildIds: 14064267618579253591
-  ChildIds: 17191720949466965797
-  ChildIds: 16258947048079074991
-  ChildIds: 14513906254773517429
-  ChildIds: 1551798712122803710
-  ChildIds: 16116075539918095710
-  ChildIds: 1973854758544928093
-  ChildIds: 12634764656785913333
-  ChildIds: 1554957792429647794
-  ChildIds: 16195396498149543537
-  ChildIds: 1681460297149235526
-  ChildIds: 7404808457937333542
-  ChildIds: 13906008801038133608
-  ChildIds: 9545884882296374804
-  ChildIds: 13659811418530176112
-  ChildIds: 4815491196014790570
-  ChildIds: 5450477181335199348
-  ChildIds: 6581787832273188637
-  ChildIds: 17730093096907182766
-  ChildIds: 16830363506316117750
-  ChildIds: 13869931087650108701
-  ChildIds: 14949118878315807080
-  ChildIds: 5306716421545842023
-  ChildIds: 15684035526571744387
-  ChildIds: 15736163925368467090
-  ChildIds: 11383265502930513687
+  ParentId: 16523348789993916465
+  ChildIds: 18161934854929699089
+  ChildIds: 11148090212043969404
+  ChildIds: 14645389791436178054
+  ChildIds: 10724220810219786163
+  ChildIds: 12313563750447503990
+  ChildIds: 1233176518695389024
+  ChildIds: 9522870884542228837
+  ChildIds: 1864318983220262115
+  ChildIds: 9991640328967470062
+  ChildIds: 14884432513894103698
+  ChildIds: 7437099874693938494
+  ChildIds: 12446216017787301740
+  ChildIds: 6946188164667789525
+  ChildIds: 14764784623905032744
+  ChildIds: 14813573216154289269
+  ChildIds: 1958911913533538621
+  ChildIds: 1790199542122893574
+  ChildIds: 11775725184985525973
+  ChildIds: 2826119485843881609
+  ChildIds: 3195333812610648572
+  ChildIds: 10732839741362124839
+  ChildIds: 15558440887091101261
+  ChildIds: 12664226935865761083
+  ChildIds: 6164049529070084530
+  ChildIds: 2113407267890239056
+  ChildIds: 13020093950320955647
+  ChildIds: 5475899647420517575
+  ChildIds: 13065184319117206758
+  ChildIds: 1740196794321607523
+  ChildIds: 13916573558993675256
+  ChildIds: 2683413436615793346
+  ChildIds: 15402391387588216558
+  ChildIds: 17057196031197336122
+  ChildIds: 1353480206234576136
+  ChildIds: 9903454766529051020
+  ChildIds: 5962180447188727833
+  ChildIds: 8435571236376202394
+  ChildIds: 15044330337812855086
+  ChildIds: 5372720986432965827
+  ChildIds: 7102789652768023982
+  ChildIds: 4501939758283655705
+  ChildIds: 18035330939001248211
+  ChildIds: 5352364856041633260
+  ChildIds: 10558720507447945042
+  ChildIds: 16058817688594547534
+  ChildIds: 2506569282605589370
+  ChildIds: 2137874887143320770
+  ChildIds: 10147622360640307145
+  ChildIds: 13989871929055979420
+  ChildIds: 5372581277162336143
+  ChildIds: 3371909028161965908
+  ChildIds: 8782571905512199611
+  ChildIds: 2116315026334360637
+  ChildIds: 14104726573951233888
+  ChildIds: 7563645994961605213
+  ChildIds: 16507945710009879113
+  ChildIds: 204424482419104211
+  ChildIds: 2534459699004985192
+  ChildIds: 14279919346486553169
+  ChildIds: 11770697594967649995
+  ChildIds: 15379477112523828628
+  ChildIds: 1709337254111112512
+  ChildIds: 4866475703227749653
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3451,7 +3451,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11383265502930513687
+  Id: 4866475703227749653
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -3470,7 +3470,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -3518,7 +3518,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15736163925368467090
+  Id: 1709337254111112512
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -3537,7 +3537,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -3585,7 +3585,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15684035526571744387
+  Id: 15379477112523828628
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -3604,7 +3604,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -3652,7 +3652,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5306716421545842023
+  Id: 11770697594967649995
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -3671,7 +3671,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -3719,7 +3719,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14949118878315807080
+  Id: 14279919346486553169
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -3738,7 +3738,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -3786,7 +3786,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13869931087650108701
+  Id: 2534459699004985192
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -3805,7 +3805,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -3853,7 +3853,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16830363506316117750
+  Id: 204424482419104211
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -3872,7 +3872,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -3920,7 +3920,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17730093096907182766
+  Id: 16507945710009879113
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -3939,7 +3939,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -3987,7 +3987,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6581787832273188637
+  Id: 7563645994961605213
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -4006,7 +4006,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -4054,7 +4054,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5450477181335199348
+  Id: 14104726573951233888
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -4073,7 +4073,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -4121,7 +4121,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4815491196014790570
+  Id: 2116315026334360637
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -4140,7 +4140,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -4188,7 +4188,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13659811418530176112
+  Id: 8782571905512199611
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -4207,7 +4207,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -4255,7 +4255,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9545884882296374804
+  Id: 3371909028161965908
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -4274,7 +4274,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -4322,7 +4322,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13906008801038133608
+  Id: 5372581277162336143
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -4341,7 +4341,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -4389,7 +4389,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7404808457937333542
+  Id: 13989871929055979420
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -4408,7 +4408,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -4456,7 +4456,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1681460297149235526
+  Id: 10147622360640307145
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -4475,7 +4475,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -4523,7 +4523,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16195396498149543537
+  Id: 2137874887143320770
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -4542,7 +4542,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -4590,7 +4590,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1554957792429647794
+  Id: 2506569282605589370
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -4609,7 +4609,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -4657,7 +4657,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12634764656785913333
+  Id: 16058817688594547534
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -4676,7 +4676,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -4724,7 +4724,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1973854758544928093
+  Id: 10558720507447945042
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -4743,7 +4743,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -4791,7 +4791,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16116075539918095710
+  Id: 5352364856041633260
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -4810,7 +4810,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -4858,7 +4858,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1551798712122803710
+  Id: 18035330939001248211
   Name: "Sci-fi Base Trim 02 Corner - In"
   Transform {
     Location {
@@ -4877,7 +4877,7 @@ Objects {
       Z: 15.5
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4912,7 +4912,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14513906254773517429
+  Id: 4501939758283655705
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -4931,7 +4931,7 @@ Objects {
       Z: 8.99998188
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -4979,7 +4979,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16258947048079074991
+  Id: 7102789652768023982
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -4998,7 +4998,7 @@ Objects {
       Z: 8.99998188
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -5046,7 +5046,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17191720949466965797
+  Id: 5372720986432965827
   Name: "Sci-fi Base Trim 02 Corner - In"
   Transform {
     Location {
@@ -5065,7 +5065,7 @@ Objects {
       Z: 15.5
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -5100,7 +5100,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14064267618579253591
+  Id: 15044330337812855086
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -5119,7 +5119,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -5167,7 +5167,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13674027808449441963
+  Id: 8435571236376202394
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -5186,7 +5186,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -5234,7 +5234,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14336532254701641833
+  Id: 5962180447188727833
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -5253,7 +5253,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -5301,7 +5301,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3374889812078877634
+  Id: 9903454766529051020
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -5320,7 +5320,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -5368,7 +5368,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4320043748350619130
+  Id: 1353480206234576136
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -5387,7 +5387,7 @@ Objects {
       Z: 132.750046
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -5435,7 +5435,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4437822546597206252
+  Id: 17057196031197336122
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -5454,7 +5454,7 @@ Objects {
       Z: 132.750046
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -5502,7 +5502,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6264502433082418577
+  Id: 15402391387588216558
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -5521,7 +5521,7 @@ Objects {
       Z: 9.00000191
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -5569,7 +5569,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1765563947558456977
+  Id: 2683413436615793346
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -5588,7 +5588,7 @@ Objects {
       Z: 9.00000191
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -5636,7 +5636,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9403876078974980623
+  Id: 13916573558993675256
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -5655,7 +5655,7 @@ Objects {
       Z: 9.00000191
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -5703,7 +5703,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9113908411203608152
+  Id: 1740196794321607523
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -5722,7 +5722,7 @@ Objects {
       Z: 3.7685883
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -5770,7 +5770,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13559192158050590669
+  Id: 13065184319117206758
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -5789,7 +5789,7 @@ Objects {
       Z: 9.00000191
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -5837,7 +5837,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5016528588888171319
+  Id: 5475899647420517575
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -5856,7 +5856,7 @@ Objects {
       Z: 3.7685883
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -5904,7 +5904,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15938372596874491010
+  Id: 13020093950320955647
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -5923,7 +5923,7 @@ Objects {
       Z: 9.00000191
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -5971,7 +5971,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17535713217962117976
+  Id: 2113407267890239056
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -5990,7 +5990,7 @@ Objects {
       Z: 9.00000191
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -6038,7 +6038,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1519445122647583119
+  Id: 6164049529070084530
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -6057,7 +6057,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -6105,7 +6105,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13302490474131406302
+  Id: 12664226935865761083
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -6124,7 +6124,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -6172,7 +6172,7 @@ Objects {
   }
 }
 Objects {
-  Id: 845904445528795348
+  Id: 15558440887091101261
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -6191,7 +6191,7 @@ Objects {
       Z: 9.0801115
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -6239,7 +6239,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13965207539173692933
+  Id: 10732839741362124839
   Name: "Sci-fi Base Trim 02 Corner - In"
   Transform {
     Location {
@@ -6256,7 +6256,7 @@ Objects {
       Z: 19.75
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6297,7 +6297,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11996909746093730562
+  Id: 3195333812610648572
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -6316,7 +6316,7 @@ Objects {
       Z: 9.0801115
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -6364,7 +6364,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16974686456290899618
+  Id: 2826119485843881609
   Name: "Sci-fi Base Trim 02 Corner - In"
   Transform {
     Location {
@@ -6381,7 +6381,7 @@ Objects {
       Z: 19.75
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -6416,7 +6416,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13400140038320451733
+  Id: 11775725184985525973
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -6435,7 +6435,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -6483,7 +6483,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15759264345789533543
+  Id: 1790199542122893574
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -6502,7 +6502,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -6550,7 +6550,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8935352762119541285
+  Id: 1958911913533538621
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -6569,7 +6569,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -6617,7 +6617,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13909922808105746743
+  Id: 14813573216154289269
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -6636,7 +6636,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -6684,7 +6684,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12029633659783641456
+  Id: 14764784623905032744
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -6703,7 +6703,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -6751,7 +6751,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17599709080810359197
+  Id: 6946188164667789525
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -6770,7 +6770,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -6818,7 +6818,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16733906048076096963
+  Id: 12446216017787301740
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -6837,7 +6837,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -6885,7 +6885,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17106675935110590932
+  Id: 7437099874693938494
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -6904,7 +6904,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -6952,7 +6952,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9873466998511950071
+  Id: 14884432513894103698
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -6971,7 +6971,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -7019,7 +7019,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9470710852446159453
+  Id: 9991640328967470062
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -7038,7 +7038,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -7086,7 +7086,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5764693523518166503
+  Id: 1864318983220262115
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -7105,7 +7105,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -7153,7 +7153,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17605914668917752418
+  Id: 9522870884542228837
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -7172,7 +7172,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -7220,7 +7220,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14929649417620045387
+  Id: 1233176518695389024
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -7239,7 +7239,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -7287,7 +7287,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6408410208941401119
+  Id: 12313563750447503990
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -7306,7 +7306,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -7354,7 +7354,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17304989179901282380
+  Id: 10724220810219786163
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -7373,7 +7373,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -7421,7 +7421,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7953554977762327848
+  Id: 14645389791436178054
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -7440,7 +7440,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -7488,7 +7488,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3187224039832242914
+  Id: 11148090212043969404
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -7507,7 +7507,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -7555,7 +7555,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16130857255131207268
+  Id: 18161934854929699089
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -7574,7 +7574,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 6658626444012779532
+  ParentId: 997024734734951584
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -7622,7 +7622,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17684622455752811587
+  Id: 12917592754371992440
   Name: "2D Basic Shapes Decal"
   Transform {
     Location {
@@ -7641,7 +7641,7 @@ Objects {
       Z: 1.00000417
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "bp:Sides"
@@ -7698,7 +7698,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13752588944090913030
+  Id: 13905999390239997741
   Name: "2D Basic Shapes Decal"
   Transform {
     Location {
@@ -7717,7 +7717,7 @@ Objects {
       Z: 1.00000417
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "bp:Sides"
@@ -7774,7 +7774,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17033490608119041315
+  Id: 16348046980592695117
   Name: "2D Basic Shapes Decal"
   Transform {
     Location {
@@ -7793,7 +7793,7 @@ Objects {
       Z: 1.00000417
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "bp:Sides"
@@ -7850,7 +7850,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9164169170687129580
+  Id: 10283681556663112873
   Name: "2D Basic Shapes Decal"
   Transform {
     Location {
@@ -7869,7 +7869,7 @@ Objects {
       Z: 1.00000417
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "bp:Sides"
@@ -7926,7 +7926,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15486565599250581336
+  Id: 10372026553322961695
   Name: "2D Basic Shapes Decal"
   Transform {
     Location {
@@ -7945,7 +7945,7 @@ Objects {
       Z: 1.00000417
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "bp:Sides"
@@ -8002,7 +8002,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15688569936311184033
+  Id: 7783988692023046360
   Name: "2D Basic Shapes Decal"
   Transform {
     Location {
@@ -8021,7 +8021,7 @@ Objects {
       Z: 1.00000417
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "bp:Sides"
@@ -8078,7 +8078,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4081112492806768907
+  Id: 6320723132355744573
   Name: "2D Basic Shapes Decal"
   Transform {
     Location {
@@ -8097,7 +8097,7 @@ Objects {
       Z: 1.00000417
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "bp:Sides"
@@ -8154,7 +8154,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11774394987512889352
+  Id: 5063809484659482732
   Name: "2D Basic Shapes Decal"
   Transform {
     Location {
@@ -8173,7 +8173,7 @@ Objects {
       Z: 1.00000417
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "bp:Sides"
@@ -8230,7 +8230,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15119610928547388262
+  Id: 16930347105360739058
   Name: "2D Basic Shapes Decal"
   Transform {
     Location {
@@ -8249,7 +8249,7 @@ Objects {
       Z: 1.00000417
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "bp:Sides"
@@ -8306,7 +8306,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12069569350680377648
+  Id: 14438117093421907784
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -8325,7 +8325,7 @@ Objects {
       Z: 104.999947
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -8373,7 +8373,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17673988715756555333
+  Id: 3241938665964069525
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -8392,7 +8392,7 @@ Objects {
       Z: 3.7685883
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -8440,7 +8440,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16882735996087900525
+  Id: 2695624642222532736
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -8459,7 +8459,7 @@ Objects {
       Z: 3.7685883
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -8507,7 +8507,7 @@ Objects {
   }
 }
 Objects {
-  Id: 223890738821703780
+  Id: 7287224424254858243
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -8526,7 +8526,7 @@ Objects {
       Z: 9.00000191
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -8574,7 +8574,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15226264442816224364
+  Id: 3678698921748039691
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -8593,7 +8593,7 @@ Objects {
       Z: 9.00000191
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -8641,7 +8641,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15855667347045356213
+  Id: 8460982065409781402
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -8660,7 +8660,7 @@ Objects {
       Z: 9.00000191
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -8708,7 +8708,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1507267802255902388
+  Id: 14486528069624702023
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -8727,7 +8727,7 @@ Objects {
       Z: 9.00000191
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -8775,7 +8775,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18411651658225349119
+  Id: 13951775610784257326
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -8794,7 +8794,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -8842,7 +8842,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15714771788507824030
+  Id: 11651922176582450112
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -8861,7 +8861,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -8909,7 +8909,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13177609170733145096
+  Id: 1833525973780873618
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -8928,7 +8928,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -8976,7 +8976,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10618963943542929025
+  Id: 1952448084078092680
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -8995,7 +8995,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -9043,7 +9043,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16842260147984073047
+  Id: 190144188371206036
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -9062,7 +9062,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -9110,7 +9110,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7719866970139302612
+  Id: 11058279918048702501
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -9129,7 +9129,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -9177,7 +9177,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2538637795066996780
+  Id: 10255281328185845569
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -9196,7 +9196,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -9244,7 +9244,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12511916902670643691
+  Id: 1171139532398509423
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -9263,7 +9263,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -9311,7 +9311,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8460598291879405893
+  Id: 14019578108840104362
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -9330,7 +9330,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -9378,7 +9378,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12438592009437032273
+  Id: 3618410270861254677
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -9397,7 +9397,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -9445,7 +9445,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5998504341194095221
+  Id: 1994243882793154732
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -9464,7 +9464,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -9512,7 +9512,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17508108269966844011
+  Id: 5859497286745262407
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -9531,7 +9531,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -9579,7 +9579,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13818662547899873569
+  Id: 8779721972429474543
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -9598,7 +9598,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -9646,7 +9646,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6476771434787972275
+  Id: 10645888704922736618
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -9665,7 +9665,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -9713,7 +9713,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9007008202441496380
+  Id: 17862206345587836774
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -9732,7 +9732,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -9780,7 +9780,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15538947799179961298
+  Id: 11783099990012277273
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -9799,7 +9799,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -9847,7 +9847,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2893769488849034648
+  Id: 7422722259736254534
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -9866,7 +9866,7 @@ Objects {
       Z: 70.8159866
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -9914,7 +9914,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13414147633458243720
+  Id: 6664552165520789178
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -9933,7 +9933,7 @@ Objects {
       Z: -70.816
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -9981,7 +9981,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8593523913270805456
+  Id: 6567345210353837925
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -10000,7 +10000,7 @@ Objects {
       Z: -70.8160172
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -10048,7 +10048,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16886219582600454488
+  Id: 9092391272361745230
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -10067,7 +10067,7 @@ Objects {
       Z: 70.816
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -10115,7 +10115,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12843392571597727513
+  Id: 1893824389809784458
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -10134,7 +10134,7 @@ Objects {
       Z: -70.8160324
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -10182,7 +10182,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13273513223615242153
+  Id: 18325605835492279837
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -10201,7 +10201,7 @@ Objects {
       Z: 70.8160172
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -10249,7 +10249,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9822486122875827895
+  Id: 15714262232163596777
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -10268,7 +10268,7 @@ Objects {
       Z: 70.81604
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -10316,7 +10316,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11280700958381784492
+  Id: 5325728203640916068
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -10335,7 +10335,7 @@ Objects {
       Z: -70.8160553
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -10383,7 +10383,7 @@ Objects {
   }
 }
 Objects {
-  Id: 554924772833666902
+  Id: 14978331508500019309
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -10402,7 +10402,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -10450,7 +10450,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2229782357971783250
+  Id: 10457515282720685508
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -10469,7 +10469,7 @@ Objects {
       Z: -70.8160782
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -10517,7 +10517,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14341977478088034853
+  Id: 1303318278539198865
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -10536,7 +10536,7 @@ Objects {
       Z: 8.99998188
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -10584,7 +10584,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10826423337855170908
+  Id: 6160563783055324027
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -10603,7 +10603,7 @@ Objects {
       Z: 8.99998188
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -10651,7 +10651,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9798490845437951701
+  Id: 17250129910311873756
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -10670,7 +10670,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -10718,7 +10718,7 @@ Objects {
   }
 }
 Objects {
-  Id: 63700747801529857
+  Id: 12409317740300153559
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -10737,7 +10737,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -10785,7 +10785,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15097499421765070906
+  Id: 5442728856030955400
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -10804,7 +10804,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -10852,7 +10852,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6210917695673972274
+  Id: 9591364697127871448
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -10871,7 +10871,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -10919,7 +10919,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11853370745710887942
+  Id: 4916739902068932143
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -10938,7 +10938,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -10986,7 +10986,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18298342506189983153
+  Id: 6648002141596146859
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -11005,7 +11005,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -11053,7 +11053,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4367538959752052483
+  Id: 4501294714581080329
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -11072,7 +11072,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -11120,7 +11120,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4533328829974762848
+  Id: 739653177767398059
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -11139,7 +11139,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -11187,7 +11187,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5369641280803330468
+  Id: 15309693954958256111
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -11206,7 +11206,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -11254,7 +11254,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9634670300113411378
+  Id: 1962327574145877344
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -11273,7 +11273,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -11321,7 +11321,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12009643457500947320
+  Id: 12275792049346500548
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -11340,7 +11340,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -11388,7 +11388,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11835485092178717844
+  Id: 12668779229095255959
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -11407,7 +11407,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -11455,7 +11455,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15392271128330603447
+  Id: 9160983695285071258
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -11474,7 +11474,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -11522,7 +11522,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12967849485759195815
+  Id: 2566805408543874690
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -11541,7 +11541,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -11589,7 +11589,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6095992183728906785
+  Id: 8755174050437459492
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -11608,7 +11608,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -11656,7 +11656,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17291484686583228049
+  Id: 81856801933465356
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -11675,7 +11675,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -11723,7 +11723,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9416752606326851522
+  Id: 16137488688476907248
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -11742,7 +11742,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -11790,7 +11790,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5452254749557903929
+  Id: 10375702904882740575
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -11809,7 +11809,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -11857,7 +11857,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13407693431459395836
+  Id: 14825672885608024700
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -11876,7 +11876,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -11924,7 +11924,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3488054796445696590
+  Id: 3268575585167069619
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -11943,7 +11943,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -11991,7 +11991,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4734346167226056666
+  Id: 8787931574849857040
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -12010,7 +12010,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -12058,7 +12058,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8208359920604556858
+  Id: 9337616912776312479
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -12077,7 +12077,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -12125,7 +12125,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12028319790112871973
+  Id: 1830889857851096019
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -12144,7 +12144,7 @@ Objects {
       Z: 9.00000191
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -12192,7 +12192,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2302040838399401505
+  Id: 17672446395618021493
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -12211,7 +12211,7 @@ Objects {
       Z: 9.00000191
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -12259,7 +12259,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12765040880669562925
+  Id: 546535871506745241
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -12278,7 +12278,7 @@ Objects {
       Z: 9.00000191
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -12326,7 +12326,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7257685217562758536
+  Id: 12999040605505397803
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -12345,7 +12345,7 @@ Objects {
       Z: 9.00000191
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -12393,7 +12393,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5705823074077434160
+  Id: 17041513436243639715
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -12412,7 +12412,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -12460,7 +12460,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14323936837948375247
+  Id: 12830283834678967881
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -12479,7 +12479,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -12527,7 +12527,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9570851595378645107
+  Id: 18218251703004861357
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -12546,7 +12546,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -12594,7 +12594,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9881226130048886254
+  Id: 6878021395512443175
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -12613,7 +12613,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -12661,7 +12661,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11219585386261617750
+  Id: 6421974913215990569
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -12680,7 +12680,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -12728,7 +12728,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6914691173723797324
+  Id: 17309509740501527952
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -12747,7 +12747,7 @@ Objects {
       Z: 9
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -12795,7 +12795,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9215291932546530263
+  Id: 12632046531144317459
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -12814,7 +12814,7 @@ Objects {
       Z: 9.0801115
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -12862,7 +12862,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4629568721596573053
+  Id: 5072419412650528152
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -12881,7 +12881,7 @@ Objects {
       Z: 9.0801115
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -12929,7 +12929,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10828558556675293796
+  Id: 5030019367277905894
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -12948,7 +12948,7 @@ Objects {
       Z: 9.0801115
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -12996,7 +12996,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10168967430373126875
+  Id: 11760801650874618524
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -13015,7 +13015,7 @@ Objects {
       Z: 9.0801115
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -13063,7 +13063,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6145306307364670101
+  Id: 8375635719706705888
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -13082,7 +13082,7 @@ Objects {
       Z: 15.2855015
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -13130,7 +13130,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12510278967976007942
+  Id: 15573479182440047709
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -13149,7 +13149,7 @@ Objects {
       Z: 15.2855015
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -13197,7 +13197,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9817371900465153777
+  Id: 6033645029740750628
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -13216,7 +13216,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -13264,7 +13264,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14042483470800310224
+  Id: 3771331110803414813
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -13283,7 +13283,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -13331,7 +13331,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1922107559043897863
+  Id: 16460177200140845766
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -13350,7 +13350,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -13398,7 +13398,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8995604333306478840
+  Id: 2877517276660995025
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -13417,7 +13417,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -13465,7 +13465,7 @@ Objects {
   }
 }
 Objects {
-  Id: 405624313804703499
+  Id: 5518127185168769801
   Name: "Sci-fi Base Wall Interior 02 - Corner 01"
   Transform {
     Location {
@@ -13484,7 +13484,7 @@ Objects {
       Z: 23.5087204
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -13523,7 +13523,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12253590339154890136
+  Id: 3678296467946642650
   Name: "Sci-fi Circuits Ring 03"
   Transform {
     Location {
@@ -13540,7 +13540,7 @@ Objects {
       Z: 67.0301437
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -13587,7 +13587,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7849819254775333806
+  Id: 5763832400576706352
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -13606,7 +13606,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -13654,7 +13654,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10104341981110489829
+  Id: 13770592798623057306
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -13673,7 +13673,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -13721,7 +13721,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9014733137404115431
+  Id: 5301871987134840602
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -13740,7 +13740,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -13788,7 +13788,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14834394742590167707
+  Id: 3493343422343704262
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -13807,7 +13807,7 @@ Objects {
       Z: 70.8160629
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -13855,7 +13855,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14129523180955439804
+  Id: 3250535738989688695
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -13874,7 +13874,7 @@ Objects {
       Z: -70.8160782
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -13922,7 +13922,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14642906194170355980
+  Id: 11899130366842422984
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -13941,7 +13941,7 @@ Objects {
       Z: 70.81604
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -13989,7 +13989,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17620217666266040449
+  Id: 7417539075996728734
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -14008,7 +14008,7 @@ Objects {
       Z: -70.8160553
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -14056,7 +14056,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9472076815763757381
+  Id: 9946777041225876429
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -14075,7 +14075,7 @@ Objects {
       Z: 70.8160172
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -14123,7 +14123,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4537287560701006564
+  Id: 13592467565889282860
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -14142,7 +14142,7 @@ Objects {
       Z: -70.8160324
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -14190,7 +14190,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14449184252400767416
+  Id: 7302107701344070639
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -14209,7 +14209,7 @@ Objects {
       Z: 70.816
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -14257,7 +14257,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11831330607159719157
+  Id: 5466904756582581243
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -14276,7 +14276,7 @@ Objects {
       Z: -70.8160172
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -14324,7 +14324,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12906098629394177454
+  Id: 12599883117117442091
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -14343,7 +14343,7 @@ Objects {
       Z: 70.8159866
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -14391,7 +14391,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15667481360723044923
+  Id: 16570235168137077821
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -14410,7 +14410,7 @@ Objects {
       Z: -70.816
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -14458,7 +14458,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10969075382723685392
+  Id: 9044047169984477696
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -14477,7 +14477,7 @@ Objects {
       Z: 69.75
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -14525,7 +14525,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6891998398072626192
+  Id: 8847281717664915663
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -14544,7 +14544,7 @@ Objects {
       Z: -69.7500153
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -14592,7 +14592,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2468819140509427031
+  Id: 15487677081067370317
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -14611,7 +14611,7 @@ Objects {
       Z: 69.75
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -14659,7 +14659,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9604755052054509223
+  Id: 6565078619251922054
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -14678,7 +14678,7 @@ Objects {
       Z: -69.7500153
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -14726,7 +14726,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6502552126819787163
+  Id: 533006607675357133
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -14745,7 +14745,7 @@ Objects {
       Z: -69.7500153
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -14793,7 +14793,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5685547289631365138
+  Id: 7329451502158597538
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -14812,7 +14812,7 @@ Objects {
       Z: 69.75
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -14860,7 +14860,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11948746801323347020
+  Id: 4043716391992568397
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -14879,7 +14879,7 @@ Objects {
       Z: 132.750046
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -14927,7 +14927,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15653282393177972141
+  Id: 3229112298875071083
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
     Location {
@@ -14946,7 +14946,7 @@ Objects {
       Z: 132.750046
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:color"
@@ -14994,7 +14994,7 @@ Objects {
   }
 }
 Objects {
-  Id: 382565240492968242
+  Id: 18271725908150762077
   Name: "Sci-fi Base Trim 02 Corner - In"
   Transform {
     Location {
@@ -15013,7 +15013,7 @@ Objects {
       Z: 15.5
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -15048,7 +15048,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16340953710709790449
+  Id: 6324188611169112096
   Name: "Sci-fi Base Trim 02 Corner - In"
   Transform {
     Location {
@@ -15066,7 +15066,7 @@ Objects {
       Z: 15.5
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -15101,7 +15101,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11829143897498349083
+  Id: 16043269026961446835
   Name: "Sci-fi Base Trim 02 Corner - In"
   Transform {
     Location {
@@ -15118,7 +15118,7 @@ Objects {
       Z: 19.75
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -15159,7 +15159,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6437848910977427513
+  Id: 15930744791527217174
   Name: "Sci-fi Base Trim 02 Corner - In"
   Transform {
     Location {
@@ -15176,7 +15176,7 @@ Objects {
       Z: 19.75
     }
   }
-  ParentId: 7861413368613101346
+  ParentId: 16523348789993916465
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"

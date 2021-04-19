@@ -1,7 +1,7 @@
 Name: "DylanR"
-RootId: 15062001147149131720
+RootId: 17079584894373915195
 Objects {
-  Id: 3074142375736462970
+  Id: 17376747473238943395
   Name: "Environment"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15062001147149131720
+  ParentId: 17079584894373915195
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -34,7 +34,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7861413368613101346
+  Id: 16523348789993916465
   Name: "Environment"
   Transform {
     Location {
@@ -50,7 +50,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15062001147149131720
+  ParentId: 17079584894373915195
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -66,7 +66,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8019145055549720176
+  Id: 14147346959424865496
   Name: "Paths"
   Transform {
     Location {
@@ -79,7 +79,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15062001147149131720
+  ParentId: 17079584894373915195
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

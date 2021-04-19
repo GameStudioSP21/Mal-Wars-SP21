@@ -1,7 +1,7 @@
 Name: "Paths"
-RootId: 8019145055549720176
+RootId: 14147346959424865496
 Objects {
-  Id: 615864440570698875
+  Id: 4053073326748988924
   Name: "Angle_PATH"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8019145055549720176
+  ParentId: 14147346959424865496
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -58,12 +58,12 @@ Objects {
       }
     }
     TemplateAsset {
-      Id: 11683712125303435693
+      Id: 5097299057688443146
     }
   }
 }
 Objects {
-  Id: 10734527769432663483
+  Id: 2508107412461789325
   Name: "AngleFlipped_PATH_Red"
   Transform {
     Location {
@@ -80,7 +80,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8019145055549720176
+  ParentId: 14147346959424865496
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -124,7 +124,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18348741938869931658
+  Id: 11025953552185646117
   Name: "AngleFlipped_PATH_Red"
   Transform {
     Location {
@@ -140,7 +140,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8019145055549720176
+  ParentId: 14147346959424865496
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -185,7 +185,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16156918954370625356
+  Id: 5114564897408293797
   Name: "Angle_PATH"
   Transform {
     Location {
@@ -202,7 +202,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8019145055549720176
+  ParentId: 14147346959424865496
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -242,12 +242,12 @@ Objects {
       }
     }
     TemplateAsset {
-      Id: 11683712125303435693
+      Id: 5097299057688443146
     }
   }
 }
 Objects {
-  Id: 2439759570676120394
+  Id: 4123002930026703449
   Name: "Angle_PATH"
   Transform {
     Location {
@@ -264,7 +264,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8019145055549720176
+  ParentId: 14147346959424865496
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -304,12 +304,12 @@ Objects {
       }
     }
     TemplateAsset {
-      Id: 11683712125303435693
+      Id: 5097299057688443146
     }
   }
 }
 Objects {
-  Id: 176747647851018422
+  Id: 6440437971275496551
   Name: "AngleFlipped_PATH_Red"
   Transform {
     Location {
@@ -326,7 +326,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8019145055549720176
+  ParentId: 14147346959424865496
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -370,7 +370,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14531608412952914958
+  Id: 18346798679764742259
   Name: "AngleFlipped_PATH_Red"
   Transform {
     Location {
@@ -387,7 +387,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8019145055549720176
+  ParentId: 14147346959424865496
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -432,7 +432,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1263017053700074552
+  Id: 4473309981995375246
   Name: "AngleFlipped_PATH_Red"
   Transform {
     Scale {
@@ -441,7 +441,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8019145055549720176
+  ParentId: 14147346959424865496
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -486,7 +486,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15654889191014411049
+  Id: 6876802889759168387
   Name: "Angle_PATH"
   Transform {
     Location {
@@ -503,7 +503,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8019145055549720176
+  ParentId: 14147346959424865496
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -543,12 +543,12 @@ Objects {
       }
     }
     TemplateAsset {
-      Id: 11683712125303435693
+      Id: 5097299057688443146
     }
   }
 }
 Objects {
-  Id: 6514767501305119980
+  Id: 17916985015713698123
   Name: "Angle_PATH"
   Transform {
     Location {
@@ -565,7 +565,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8019145055549720176
+  ParentId: 14147346959424865496
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -605,12 +605,12 @@ Objects {
       }
     }
     TemplateAsset {
-      Id: 11683712125303435693
+      Id: 5097299057688443146
     }
   }
 }
 Objects {
-  Id: 3014511176636288584
+  Id: 1047379027188298218
   Name: "Angle_PATH"
   Transform {
     Location {
@@ -626,7 +626,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8019145055549720176
+  ParentId: 14147346959424865496
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -666,12 +666,12 @@ Objects {
       }
     }
     TemplateAsset {
-      Id: 11683712125303435693
+      Id: 5097299057688443146
     }
   }
 }
 Objects {
-  Id: 1364767678959562582
+  Id: 4392916220736398538
   Name: "Octagon_Path"
   Transform {
     Location {
@@ -687,7 +687,7 @@ Objects {
       Z: 1.30665755
     }
   }
-  ParentId: 8019145055549720176
+  ParentId: 14147346959424865496
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -726,12 +726,12 @@ Objects {
       }
     }
     TemplateAsset {
-      Id: 14010634432504038220
+      Id: 2082077316037207849
     }
   }
 }
 Objects {
-  Id: 2030147552143904000
+  Id: 4453016526739048653
   Name: "StraightV2_Path"
   Transform {
     Location {
@@ -747,7 +747,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8019145055549720176
+  ParentId: 14147346959424865496
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -786,12 +786,12 @@ Objects {
       }
     }
     TemplateAsset {
-      Id: 5103973752602277390
+      Id: 5928962933076742762
     }
   }
 }
 Objects {
-  Id: 16477609558089054021
+  Id: 8070304228672364123
   Name: "Angle_PATH"
   Transform {
     Location {
@@ -807,7 +807,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8019145055549720176
+  ParentId: 14147346959424865496
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -846,12 +846,12 @@ Objects {
       }
     }
     TemplateAsset {
-      Id: 11683712125303435693
+      Id: 5097299057688443146
     }
   }
 }
 Objects {
-  Id: 11551322221056772910
+  Id: 9711171949343285299
   Name: "BevelFlipped_Path_Red"
   Transform {
     Scale {
@@ -860,7 +860,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8019145055549720176
+  ParentId: 14147346959424865496
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -905,7 +905,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12708176948461380345
+  Id: 17842914143390401981
   Name: "Bevel_Path"
   Transform {
     Location {
@@ -921,7 +921,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8019145055549720176
+  ParentId: 14147346959424865496
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -960,12 +960,12 @@ Objects {
       }
     }
     TemplateAsset {
-      Id: 13278643246804230371
+      Id: 264008504193696903
     }
   }
 }
 Objects {
-  Id: 1427901649751765043
+  Id: 11463193323833288771
   Name: "AngleFlipped_PATH_Red"
   Transform {
     Location {
@@ -982,7 +982,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8019145055549720176
+  ParentId: 14147346959424865496
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

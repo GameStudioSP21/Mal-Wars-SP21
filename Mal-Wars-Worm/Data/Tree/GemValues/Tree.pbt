@@ -1,7 +1,7 @@
 Name: "GemValues"
-RootId: 18059710631655424891
+RootId: 9072120032930405109
 Objects {
-  Id: 6338392191007489954
+  Id: 8212110616642846448
   Name: "Very Low Gem"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18059710631655424891
+  ParentId: 9072120032930405109
   UnregisteredParameters {
     Overrides {
       Name: "cs:Gem"
@@ -41,7 +41,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14617351641282247577
+  Id: 14132701440215703108
   Name: "Low Gem"
   Transform {
     Location {
@@ -54,7 +54,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18059710631655424891
+  ParentId: 9072120032930405109
   UnregisteredParameters {
     Overrides {
       Name: "cs:Gem"
@@ -81,7 +81,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12118004531089850118
+  Id: 5126090848949251352
   Name: "Medium Gem"
   Transform {
     Location {
@@ -94,7 +94,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18059710631655424891
+  ParentId: 9072120032930405109
   UnregisteredParameters {
     Overrides {
       Name: "cs:Gem"
@@ -121,7 +121,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11613068157103979559
+  Id: 9009809285727350717
   Name: "High Gem"
   Transform {
     Location {
@@ -134,7 +134,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18059710631655424891
+  ParentId: 9072120032930405109
   UnregisteredParameters {
     Overrides {
       Name: "cs:Gem"
@@ -161,7 +161,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4488985168030917921
+  Id: 6795369730479597287
   Name: "Very High Gem"
   Transform {
     Location {
@@ -174,7 +174,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18059710631655424891
+  ParentId: 9072120032930405109
   UnregisteredParameters {
     Overrides {
       Name: "cs:Gem"
@@ -201,7 +201,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4927710645323841393
+  Id: 15122138015977928003
   Name: "Ultra Gem"
   Transform {
     Location {
@@ -214,7 +214,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18059710631655424891
+  ParentId: 9072120032930405109
   UnregisteredParameters {
     Overrides {
       Name: "cs:Gem"
@@ -241,7 +241,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4590128219329626657
+  Id: 17159329058013164532
   Name: "Ultra+ Gem"
   Transform {
     Location {
@@ -254,7 +254,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18059710631655424891
+  ParentId: 9072120032930405109
   UnregisteredParameters {
     Overrides {
       Name: "cs:Gem"

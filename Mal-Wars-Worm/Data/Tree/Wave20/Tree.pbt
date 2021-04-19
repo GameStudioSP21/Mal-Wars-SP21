@@ -1,7 +1,7 @@
 Name: "Wave20"
-RootId: 14145370351585317393
+RootId: 845373224620542606
 Objects {
-  Id: 11363238367591284476
+  Id: 7957657713168855274
   Name: "1 GrWo"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14145370351585317393
+  ParentId: 845373224620542606
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -49,7 +49,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10644824980778193205
+  Id: 13436198905094007085
   Name: "1 GrWo"
   Transform {
     Location {
@@ -62,7 +62,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14145370351585317393
+  ParentId: 845373224620542606
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -97,7 +97,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3522125728302538838
+  Id: 12136998202052515053
   Name: "1 GrWo"
   Transform {
     Location {
@@ -110,7 +110,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14145370351585317393
+  ParentId: 845373224620542606
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -145,7 +145,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13883575898298068112
+  Id: 10155784940348123557
   Name: "1 GrWo"
   Transform {
     Location {
@@ -158,7 +158,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14145370351585317393
+  ParentId: 845373224620542606
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"

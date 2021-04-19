@@ -1,7 +1,7 @@
 Name: "Sniper"
-RootId: 17549134518508387982
+RootId: 287725104296604219
 Objects {
-  Id: 4449813064297038914
+  Id: 7727868994133219127
   Name: "Sniper4"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17549134518508387982
+  ParentId: 287725104296604219
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -26,7 +26,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Description"
-      String: "Max damage and range, but slowest fire rate."
+      String: "Maximum damage and range."
     }
     Overrides {
       Name: "cs:Icon"
@@ -37,13 +37,13 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 8401294862560530098
+        SelfId: 11435435214344133321
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 17899545024251093921
+        SelfId: 16555092129292573516
       }
     }
     Overrides {
@@ -56,7 +56,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Range"
-      Float: 90
+      Float: 120
     }
     Overrides {
       Name: "cs:Speed"
@@ -105,7 +105,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12220830427147469005
+  Id: 8338390766626948294
   Name: "Sniper3"
   Transform {
     Location {
@@ -118,7 +118,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17549134518508387982
+  ParentId: 287725104296604219
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -130,7 +130,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Description"
-      String: "Even stronger and more range, but fires even slower."
+      String: "Even stronger and more range."
     }
     Overrides {
       Name: "cs:Icon"
@@ -141,13 +141,13 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 8401294862560530098
+        SelfId: 11435435214344133321
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 8417570932964275780
+        SelfId: 13496367145218431849
       }
     }
     Overrides {
@@ -160,7 +160,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Range"
-      Float: 90
+      Float: 110
     }
     Overrides {
       Name: "cs:Speed"
@@ -187,7 +187,7 @@ Objects {
     Overrides {
       Name: "cs:NextTowerUpgrade"
       ObjectReference {
-        SelfId: 4449813064297038914
+        SelfId: 7727868994133219127
       }
     }
     Overrides {
@@ -215,7 +215,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13511326965889786379
+  Id: 4141989359027384149
   Name: "Sniper2"
   Transform {
     Location {
@@ -228,7 +228,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17549134518508387982
+  ParentId: 287725104296604219
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -240,7 +240,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Description"
-      String: "Has increased power and range, at the cost of fire speed."
+      String: "Has increased power and range."
     }
     Overrides {
       Name: "cs:Icon"
@@ -251,13 +251,13 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 8401294862560530098
+        SelfId: 11435435214344133321
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 5857612874753637199
+        SelfId: 10069010683383961677
       }
     }
     Overrides {
@@ -270,7 +270,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Range"
-      Float: 90
+      Float: 100
     }
     Overrides {
       Name: "cs:Speed"
@@ -279,7 +279,7 @@ Objects {
     Overrides {
       Name: "cs:NextTowerUpgrade"
       ObjectReference {
-        SelfId: 12220830427147469005
+        SelfId: 8338390766626948294
       }
     }
     Overrides {
@@ -325,7 +325,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8291055144239843075
+  Id: 15521148768500268594
   Name: "Sniper1"
   Transform {
     Location {
@@ -338,7 +338,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17549134518508387982
+  ParentId: 287725104296604219
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -361,13 +361,13 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 8401294862560530098
+        SelfId: 11435435214344133321
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 2764211083334992979
+        SelfId: 5885690553894889409
       }
     }
     Overrides {
@@ -389,13 +389,13 @@ Objects {
     Overrides {
       Name: "cs:NextTowerUpgrade"
       ObjectReference {
-        SelfId: 13511326965889786379
+        SelfId: 4141989359027384149
       }
     }
     Overrides {
       Name: "cs:Tower"
       AssetReference {
-        Id: 2150629678682640040
+        Id: 16006713018440976493
       }
     }
     Overrides {

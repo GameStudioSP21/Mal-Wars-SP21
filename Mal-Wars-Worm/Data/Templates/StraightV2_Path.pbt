@@ -4473,7 +4473,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -4532,7 +4534,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -4591,7 +4595,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -4682,7 +4688,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -4741,7 +4749,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -4800,7 +4810,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -4901,8 +4913,8 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -18.6958
-            Y: 71.0566406
+            X: -18.0649414
+            Y: 71.057251
           }
           Rotation {
             Yaw: 44.9999924
@@ -4924,7 +4936,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -4960,8 +4974,8 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: 122.870605
-            Y: 30.9160156
+            X: 123.501465
+            Y: 30.9157715
           }
           Rotation {
             Yaw: 44.9999924
@@ -4983,7 +4997,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -5019,11 +5035,11 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -106.066895
-            Y: -101.972656
+            X: -105.436035
+            Y: -101.973145
           }
           Rotation {
-            Yaw: -45.0770569
+            Yaw: -45.0770645
           }
           Scale {
             X: 0.762326717
@@ -5042,7 +5058,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -5110,8 +5128,8 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -18.6958
-            Y: 71.0566406
+            X: -18.0649414
+            Y: 71.057251
           }
           Rotation {
             Yaw: 44.9999924
@@ -5133,7 +5151,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -5169,8 +5189,8 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: 122.870605
-            Y: 30.9160156
+            X: 123.501465
+            Y: 30.9157715
           }
           Rotation {
             Yaw: 44.9999924
@@ -5192,7 +5212,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -5228,11 +5250,11 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -106.066895
-            Y: -101.972656
+            X: -105.436035
+            Y: -101.973145
           }
           Rotation {
-            Yaw: -45.0770569
+            Yaw: -45.0770645
           }
           Scale {
             X: 0.762326717
@@ -5251,7 +5273,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -5310,7 +5334,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -5537,7 +5563,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -5595,7 +5623,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -5654,7 +5684,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -5712,7 +5744,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -5771,7 +5805,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -5865,7 +5901,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -5923,7 +5961,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -5982,7 +6022,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -6040,7 +6082,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -6099,7 +6143,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -6176,7 +6222,7 @@ Assets {
             Z: 0.104003906
           }
           Rotation {
-            Yaw: -90
+            Yaw: -89.9999924
           }
           Scale {
             X: 0.393041462
@@ -6195,7 +6241,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -6253,7 +6301,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -6293,7 +6343,7 @@ Assets {
             Y: 2.61694336
           }
           Rotation {
-            Yaw: -33.5673828
+            Yaw: -33.5673943
           }
           Scale {
             X: 0.57994777
@@ -6312,7 +6362,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -6370,7 +6422,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -6429,7 +6483,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -6501,12 +6557,12 @@ Assets {
         Name: "Plane Trapezoid - One Sided"
         Transform {
           Location {
-            X: 91.3606415
-            Y: -12.6791344
-            Z: 0.104005724
+            X: 91.7587891
+            Y: -12.8154297
+            Z: 0.104003906
           }
           Rotation {
-            Yaw: -90
+            Yaw: -89.9999924
           }
           Scale {
             X: 0.393041462
@@ -6525,7 +6581,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -6561,9 +6619,8 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: 53.0695801
-            Y: -12.5253906
-            Z: -7.62939453e-06
+            X: 53.4663086
+            Y: -12.663208
           }
           Rotation {
           }
@@ -6584,7 +6641,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -6624,7 +6683,7 @@ Assets {
             Y: 2.61694336
           }
           Rotation {
-            Yaw: -33.5673828
+            Yaw: -33.5673943
           }
           Scale {
             X: 0.57994777
@@ -6643,7 +6702,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -6679,9 +6740,8 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -48.0957031
-            Y: 17.7949219
-            Z: -7.62939453e-06
+            X: -47.6987305
+            Y: 17.657959
           }
           Rotation {
           }
@@ -6702,7 +6762,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -6738,9 +6800,8 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -100.770264
-            Y: 5.34179688
-            Z: -7.62939453e-06
+            X: -100.373535
+            Y: 5.20324707
           }
           Rotation {
             Yaw: 26.5366249
@@ -6762,7 +6823,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -6839,7 +6902,7 @@ Assets {
             Z: 0.104003906
           }
           Rotation {
-            Yaw: -90
+            Yaw: -89.9999924
           }
           Scale {
             X: 0.393041462
@@ -6858,7 +6921,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -6916,7 +6981,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -6956,7 +7023,7 @@ Assets {
             Y: 2.61694336
           }
           Rotation {
-            Yaw: -33.5673828
+            Yaw: -33.5673943
           }
           Scale {
             X: 0.57994777
@@ -6975,7 +7042,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -7033,7 +7102,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -7092,7 +7163,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -7169,7 +7242,7 @@ Assets {
             Z: 0.104003906
           }
           Rotation {
-            Yaw: -90
+            Yaw: -89.9999924
           }
           Scale {
             X: 0.393041462
@@ -7188,7 +7261,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -7246,7 +7321,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -7286,7 +7363,7 @@ Assets {
             Y: 2.61694336
           }
           Rotation {
-            Yaw: -33.5673828
+            Yaw: -33.5673943
           }
           Scale {
             X: 0.57994777
@@ -7305,7 +7382,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -7363,7 +7442,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -7422,7 +7503,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -7548,7 +7631,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -7588,7 +7673,7 @@ Assets {
             Y: 0.0797119141
           }
           Rotation {
-            Yaw: -33.5674438
+            Yaw: -33.5674324
           }
           Scale {
             X: 0.57994777
@@ -7607,7 +7692,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -7643,8 +7730,8 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -104.086182
-            Y: 15.1230469
+            X: -103.665527
+            Y: 15.1206055
           }
           Rotation {
           }
@@ -7665,7 +7752,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -7701,8 +7790,8 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -251.507813
-            Y: 59.8828125
+            X: -251.087402
+            Y: 59.8831787
           }
           Rotation {
             Yaw: -33.5670166
@@ -7724,7 +7813,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -7760,8 +7851,8 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -494.889648
-            Y: 104.248047
+            X: -494.469
+            Y: 104.248413
           }
           Rotation {
           }
@@ -7782,7 +7873,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -7875,7 +7968,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -7934,7 +8029,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -7992,7 +8089,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -8028,8 +8127,8 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -251.507813
-            Y: 59.8828125
+            X: -251.087402
+            Y: 59.8831787
           }
           Rotation {
             Yaw: -33.5670166
@@ -8051,7 +8150,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -8087,8 +8188,8 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -494.889648
-            Y: 104.25
+            X: -494.469
+            Y: 104.248413
           }
           Rotation {
           }
@@ -8109,7 +8210,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -8230,7 +8333,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -8270,7 +8375,7 @@ Assets {
             Y: -32.7467041
           }
           Rotation {
-            Yaw: -33.5674744
+            Yaw: -33.5674858
           }
           Scale {
             X: 0.57994777
@@ -8289,7 +8394,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -8325,8 +8432,8 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: 64.3754883
-            Y: -17.7089844
+            X: 64.7961426
+            Y: -17.7058105
           }
           Rotation {
           }
@@ -8347,7 +8454,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -8383,11 +8492,11 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -83.0459
-            Y: 27.0566406
+            X: -82.6254883
+            Y: 27.0568848
           }
           Rotation {
-            Yaw: -33.5670776
+            Yaw: -33.5670624
           }
           Scale {
             X: 1.6446445
@@ -8406,7 +8515,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -8442,8 +8553,8 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -370.084473
-            Y: 71.421875
+            X: -369.663818
+            Y: 71.4222412
           }
           Rotation {
           }
@@ -8464,7 +8575,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -8557,7 +8670,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -8616,7 +8731,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -8674,7 +8791,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -8710,11 +8829,11 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -83.0459
-            Y: 27.0566406
+            X: -82.6254883
+            Y: 27.0568848
           }
           Rotation {
-            Yaw: -33.5670776
+            Yaw: -33.5670624
           }
           Scale {
             X: 1.6446445
@@ -8733,7 +8852,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -8769,8 +8890,8 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -370.084473
-            Y: 71.421875
+            X: -369.663818
+            Y: 71.4222412
           }
           Rotation {
           }
@@ -8791,7 +8912,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -8861,7 +8984,7 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -611.186218
+            X: -610.765503
             Y: 104.421478
           }
           Rotation {
@@ -8883,7 +9006,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -8941,7 +9066,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -8999,7 +9126,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }
@@ -9035,8 +9164,8 @@ Assets {
         Name: "Plane 1m - Two Sided"
         Transform {
           Location {
-            X: -611.186279
-            Y: -104.421875
+            X: -610.765625
+            Y: -104.421387
           }
           Rotation {
           }
@@ -9057,7 +9186,9 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
             Color {
-              R: 1
+              R: 0.0368894301
+              G: 0.693872035
+              B: 0.122138888
               A: 1
             }
           }

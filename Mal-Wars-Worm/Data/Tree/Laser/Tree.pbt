@@ -1,7 +1,7 @@
 Name: "Laser"
-RootId: 3889942922710607634
+RootId: 15836056593155272946
 Objects {
-  Id: 5849858417866992190
+  Id: 11679989091061600141
   Name: "Laser4"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3889942922710607634
+  ParentId: 15836056593155272946
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -22,7 +22,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DisplayName"
-      String: "Real-time Turret"
+      String: "Real-Time Turret"
     }
     Overrides {
       Name: "cs:Description"
@@ -37,13 +37,13 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 16708300395943133987
+        SelfId: 15473447320514786512
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 3206194469967215124
+        SelfId: 16555092129292573516
       }
     }
     Overrides {
@@ -52,7 +52,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 40
+      Int: 65
     }
     Overrides {
       Name: "cs:Speed"
@@ -99,7 +99,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13944587968347854065
+  Id: 5750565209154117416
   Name: "Laser3"
   Transform {
     Location {
@@ -112,7 +112,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3889942922710607634
+  ParentId: 15836056593155272946
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -120,7 +120,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DisplayName"
-      String: "Real-time Turret"
+      String: "Real-Time Turret"
     }
     Overrides {
       Name: "cs:Description"
@@ -135,13 +135,13 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 16708300395943133987
+        SelfId: 15473447320514786512
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 7260010577560875529
+        SelfId: 13496367145218431849
       }
     }
     Overrides {
@@ -150,7 +150,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Damage"
-      Int: 24
+      Int: 30
     }
     Overrides {
       Name: "cs:Range"
@@ -181,7 +181,7 @@ Objects {
     Overrides {
       Name: "cs:NextTowerUpgrade"
       ObjectReference {
-        SelfId: 5849858417866992190
+        SelfId: 11679989091061600141
       }
     }
     Overrides {
@@ -203,7 +203,7 @@ Objects {
   }
 }
 Objects {
-  Id: 466872615040196056
+  Id: 10439499535441725204
   Name: "Laser2"
   Transform {
     Location {
@@ -216,7 +216,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3889942922710607634
+  ParentId: 15836056593155272946
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -224,7 +224,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DisplayName"
-      String: "Real-time Turret"
+      String: "Real-Time Turret"
     }
     Overrides {
       Name: "cs:Description"
@@ -239,18 +239,18 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 16708300395943133987
+        SelfId: 15473447320514786512
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 5857612874753637199
+        SelfId: 10069010683383961677
       }
     }
     Overrides {
       Name: "cs:Cost"
-      Int: 80
+      Int: 60
     }
     Overrides {
       Name: "cs:Damage"
@@ -267,7 +267,7 @@ Objects {
     Overrides {
       Name: "cs:NextTowerUpgrade"
       ObjectReference {
-        SelfId: 13944587968347854065
+        SelfId: 5750565209154117416
       }
     }
     Overrides {
@@ -307,7 +307,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11546874274587735032
+  Id: 4060288885567130494
   Name: "Laser1"
   Transform {
     Location {
@@ -320,7 +320,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3889942922710607634
+  ParentId: 15836056593155272946
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -328,7 +328,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DisplayName"
-      String: "Real-time Turret"
+      String: "Real-Time Turret"
     }
     Overrides {
       Name: "cs:Description"
@@ -343,13 +343,13 @@ Objects {
     Overrides {
       Name: "cs:Type"
       ObjectReference {
-        SelfId: 16708300395943133987
+        SelfId: 15473447320514786512
       }
     }
     Overrides {
       Name: "cs:Rarity"
       ObjectReference {
-        SelfId: 2764211083334992979
+        SelfId: 5885690553894889409
       }
     }
     Overrides {
@@ -371,7 +371,7 @@ Objects {
     Overrides {
       Name: "cs:NextTowerUpgrade"
       ObjectReference {
-        SelfId: 466872615040196056
+        SelfId: 10439499535441725204
       }
     }
     Overrides {

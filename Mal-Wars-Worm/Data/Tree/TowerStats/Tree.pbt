@@ -1,7 +1,52 @@
 Name: "TowerStats"
-RootId: 4975223423621302427
+RootId: 15995946423381434303
 Objects {
-  Id: 17436478059276008376
+  Id: 10775090574195004951
+  Name: "BounceTravelDistance"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15995946423381434303
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 18110314706552644672
+      }
+    }
+    Overrides {
+      Name: "cs:StatColor"
+      Color {
+        R: 0.99
+        G: 0.983443797
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "BounceTravelDistance"
+  }
+}
+Objects {
+  Id: 974670064461649287
   Name: "Speed"
   Transform {
     Location {
@@ -14,7 +59,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4975223423621302427
+  ParentId: 15995946423381434303
   UnregisteredParameters {
     Overrides {
       Name: "cs:Icon"
@@ -47,7 +92,7 @@ Objects {
   }
 }
 Objects {
-  Id: 751312495969391523
+  Id: 5464018910509960713
   Name: "Range"
   Transform {
     Location {
@@ -60,7 +105,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4975223423621302427
+  ParentId: 15995946423381434303
   UnregisteredParameters {
     Overrides {
       Name: "cs:Icon"
@@ -93,7 +138,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8373315384463038876
+  Id: 2618123429161106138
   Name: "Damage"
   Transform {
     Location {
@@ -106,7 +151,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4975223423621302427
+  ParentId: 15995946423381434303
   UnregisteredParameters {
     Overrides {
       Name: "cs:Icon"

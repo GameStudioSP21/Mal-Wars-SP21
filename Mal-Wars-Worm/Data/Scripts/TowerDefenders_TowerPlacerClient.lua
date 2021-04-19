@@ -14,7 +14,6 @@ local towerPlacer = Selector.New(activeBoard,{
     isCamToMouseRaycasting = true,
 })
 
-LOCAL_PLAYER.clientUserData.towerPlacer = towerPlacer
 local prepedTower = nil -- The tower we're about to place.
 
 -- Creates a visual indicator on all towers on the map of blocked placement areas.
@@ -83,15 +82,20 @@ towerPlacer.OnLeftMouseButton:Connect(function()
     local nearbyTower = towerPlacer:GetNearestTower()
     local ghostPos = towerPlacer:GetImpactPosition()
     
+    print("CHECKING FOR TOWER VALIDITY")
+    
     if not IsOverValidSurface(ghostPos) then
     	return
     end
-
+    
+    print("YEET")
+    
     if nearbyTower and nearbyTower:IsPositionInBlockedRadius(ghostPos) then
         return
     end
 
     if prepedTower and ghostPos then
+        print("Subtracting from wallet")
         local roundedPos = Vector3.New(math.floor(ghostPos.x), math.floor(ghostPos.y), math.floor(ghostPos.z))
         -- TODO: Add a rotation as an additional step.
         GemWallet.SubtractFromWallet(prepedTower:GetCost())

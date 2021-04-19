@@ -1,6 +1,6 @@
 local Database = {}
 
-local REGISTERED_TOWERS = World.FindObjectByName("RegisteredTowers")
+local REGISTERED_TOWERS = script:GetCustomProperty("RegisteredTowers"):WaitForObject()
 local TowersThemeAPI = require(script:GetCustomProperty("ThemeApi"))
 local Tower = require(script:GetCustomProperty("TowerBase"))
 

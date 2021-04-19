@@ -1,4 +1,4 @@
-﻿local GemCounterClient = require(script:GetCustomProperty("TowerDefenders_GemCounter"))
+local GemCounterClient = require(script:GetCustomProperty("TowerDefenders_GemCounter"))
 
 local TRIGGER = script:GetCustomProperty("Trigger"):WaitForObject()
 local GEM_COLLECT_VFX = script:GetCustomProperty("GemCollectVFX")

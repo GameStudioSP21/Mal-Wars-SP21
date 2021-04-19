@@ -30,13 +30,22 @@ Objects {
     }
     Overrides {
       Name: "cs:Damage"
-      Float: 10
+      Float: 200
     }
     Overrides {
       Name: "cs:Radius"
-      Float: 200
+      Float: 500
+    }
+    Overrides {
+      Name: "cs:Damage:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Radius:isrep"
+      Bool: true
     }
   }
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -69,6 +78,8 @@ Objects {
   ParentId: 1187155345345434260
   ChildIds: 997332275306158636
   ChildIds: 5482961795826328366
+  ChildIds: 12787185638344987755
+  ChildIds: 16152422187185825082
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -79,6 +90,101 @@ Objects {
     Value: "mc:ecollisionsetting:forceoff"
   }
   NetworkContext {
+  }
+}
+Objects {
+  Id: 16152422187185825082
+  Name: "OrbitMovement"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7420073517901404684
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Sphere"
+      ObjectReference {
+        SelfId: 12787185638344987755
+      }
+    }
+    Overrides {
+      Name: "cs:OrbitRadius"
+      Float: 8000
+    }
+    Overrides {
+      Name: "cs:OrbitSpeed"
+      Int: 5
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 1119669560862901809
+    }
+  }
+}
+Objects {
+  Id: 12787185638344987755
+  Name: "Sphere"
+  Transform {
+    Location {
+      X: -6000
+      Y: 140
+      Z: 18000
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 3
+    }
+  }
+  ParentId: 7420073517901404684
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1413196292823476264
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
   }
 }
 Objects {
@@ -96,8 +202,7 @@ Objects {
     }
   }
   ParentId: 7420073517901404684
-  ChildIds: 15480603136481586289
-  ChildIds: 7560839565856480395
+  ChildIds: 11858375547123278028
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -130,8 +235,8 @@ Objects {
   }
 }
 Objects {
-  Id: 7560839565856480395
-  Name: "UI Button"
+  Id: 11858375547123278028
+  Name: "UI Panel"
   Transform {
     Location {
     }
@@ -144,6 +249,10 @@ Objects {
     }
   }
   ParentId: 5482961795826328366
+  ChildIds: 15480603136481586289
+  ChildIds: 4885468774510243821
+  ChildIds: 13723207735398734318
+  ChildIds: 3383441115783947020
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -154,63 +263,215 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    Width: 150
-    Height: 50
-    UIX: -25
-    UIY: -30
+    Width: 865
+    Height: 100
+    UIY: -183.793884
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
-    Button {
-      Label: "Laser"
-      FontColor {
+    Panel {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomcenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 3383441115783947020
+  Name: "UI Text Box"
+  Transform {
+    Location {
+      X: -14245
+      Y: 515
+      Z: 2960
+    }
+    Rotation {
+      Yaw: -78.7499771
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11858375547123278028
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Width: 269
+    Height: 23
+    UIY: 8.57476807
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Text {
+      Label: "ORBITAL LASER"
+      Color {
+        R: 0.269999981
+        G: 0.825960159
+        B: 1
         A: 1
       }
-      FontSize: 20
-      ButtonColor {
-        R: 1
-        G: 1
-        B: 1
+      Size: 15
+      Justification {
+        Value: "mc:etextjustify:center"
       }
-      HoveredColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      PressedColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      DisabledColor {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-      Brush {
-        Id: 841534158063459245
-      }
-      IsButtonEnabled: true
-      ClickMode {
-        Value: "mc:ebuttonclickmode:default"
-      }
+      AutoWrapText: true
       Font {
+        Id: 2626267817006011674
       }
     }
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:bottomright"
+          Value: "mc:euianchor:middlecenter"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:bottomright"
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 13723207735398734318
+  Name: "UI Image"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11858375547123278028
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Width: 10
+    Height: 860
+    UIY: 18.7404175
+    RotationAngle: 90
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 16221751307075850195
+      }
+      Color {
+        R: 0.25
+        G: 0.493377209
+        B: 1
+        A: 0.373000026
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 4885468774510243821
+  Name: "UI Image"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11858375547123278028
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Width: 10
+    Height: 860
+    UIY: -1.24694824
+    RotationAngle: 90
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 16221751307075850195
+      }
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 0.225000009
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:middlecenter"
         }
       }
     }
@@ -230,7 +491,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5482961795826328366
+  ParentId: 11858375547123278028
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -241,10 +502,9 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    Width: 150
-    Height: 50
-    UIX: -25
-    UIY: -30
+    Width: 860
+    Height: 21
+    UIY: 8.72802734
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -252,26 +512,25 @@ Objects {
     }
     StatBar {
       Color {
-        G: 0.669999957
-        B: 0.137549609
+        G: 0.19461751
+        B: 5
         A: 1
       }
       BackgroundColor {
-        R: 0.5
-        G: 0.5
-        B: 0.5
-        A: 1
+        G: 0.0222516209
+        B: 0.0299999714
+        A: 0.687000036
       }
     }
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:bottomright"
+          Value: "mc:euianchor:middlecenter"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:bottomright"
+          Value: "mc:euianchor:middlecenter"
         }
       }
     }
@@ -313,13 +572,35 @@ Objects {
     }
     Overrides {
       Name: "cs:CoolDownTimer"
-      Float: 0.5
+      Float: 5
     }
     Overrides {
-      Name: "cs:LaserBeamVFX"
+      Name: "cs:LaserBeamFX"
       AssetReference {
         Id: 16110847186557738078
       }
+    }
+    Overrides {
+      Name: "cs:OBLaserHitFX"
+      AssetReference {
+        Id: 14168462304322439336
+      }
+    }
+    Overrides {
+      Name: "cs:OrbitalBall"
+      ObjectReference {
+        SelfId: 12787185638344987755
+      }
+    }
+    Overrides {
+      Name: "cs:Ease3D"
+      AssetReference {
+        Id: 11698430162959436393
+      }
+    }
+    Overrides {
+      Name: "cs:EaseDuration"
+      Float: 0.3
     }
   }
   Collidable_v2 {

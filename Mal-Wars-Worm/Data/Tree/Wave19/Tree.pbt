@@ -1,7 +1,7 @@
 Name: "Wave19"
-RootId: 8024037148188001600
+RootId: 15333155250588802999
 Objects {
-  Id: 14929697809014040553
+  Id: 12372410286796625753
   Name: "40 ReVr"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8024037148188001600
+  ParentId: 15333155250588802999
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -53,7 +53,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13062208798214072580
+  Id: 10587251837699569879
   Name: "20 ReAd"
   Transform {
     Location {
@@ -66,7 +66,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8024037148188001600
+  ParentId: 15333155250588802999
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -105,7 +105,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3921145217759804462
+  Id: 3950942340545427405
   Name: "20 ReAd"
   Transform {
     Location {
@@ -118,7 +118,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8024037148188001600
+  ParentId: 15333155250588802999
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"

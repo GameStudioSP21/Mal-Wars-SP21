@@ -34,6 +34,8 @@ local selector = TowerSelector.New(board,{
     usesMouseInput = true,
 })
 
+selector.isPlacing = false
+
 -- The selector is stored in clientUserData as generalSelector of the player.
 LOCAL_PLAYER.clientUserData.generalSelector = selector
 
@@ -65,6 +67,7 @@ selector.OnLeftMouseButton:Connect(function()
             selector:SetMagnetize(true)
             selector:RemoveVisuals()
             preparedTower = nil
+            selector.isPlacing = false
         end
     else
         -- Regular selecting
@@ -84,6 +87,7 @@ selector.OnRightMouseButton:Connect(function()
         selector:SetMagnetize(true)
         selector:RemoveVisuals()
         preparedTower = nil
+        selector.isPlacing = false
     end
 end)
 
@@ -107,6 +111,7 @@ selector:SetActive(true)
 Events.Connect("GeneralSelectorBeginPlacement",function(tower)
     Events.Broadcast("HideTowerContextMenu")
     preparedTower = tower
+    selector.isPlacing = true
     local selectorObject = selector:GetSelectorObject()
 
     -- Create the tower ghost onto the selector.

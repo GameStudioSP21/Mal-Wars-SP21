@@ -53,7 +53,7 @@ Assets {
   }
 }
 Assets {
-  Id: 13541933108655266337
+  Id: 12850435778917401209
   Name: "Rock Hexagonal"
   PlatformAssetType: 1
   PrimaryAsset {

@@ -4,7 +4,7 @@ local TOWER_MENU_CODE = "ability_extra_24" -- T
 local INVENTORY_MENU_CODE = "ability_extra_27" -- I
 
 LOCAL_PLAYER.bindingPressedEvent:Connect(function(_,keyCode)
-    if keyCode == TOWER_MENU_CODE then
+    --[[if keyCode == TOWER_MENU_CODE then
 
         -- TODO: Determine if they're in a game to allow this.
 
@@ -54,6 +54,6 @@ LOCAL_PLAYER.bindingPressedEvent:Connect(function(_,keyCode)
         Events.Broadcast("StopDisplayingTowerStats")
         Events.Broadcast("CancelUpgrading")
         Events.Broadcast("CancelSelling")
-    end
+    end]]--
 
 end)

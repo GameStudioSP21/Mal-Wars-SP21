@@ -1,7 +1,7 @@
 Name: "PlayerJail"
-RootId: 8592356074963554601
+RootId: 15054396933449780621
 Objects {
-  Id: 2146591240818952549
+  Id: 13693691664393424185
   Name: "Spawn Point"
   Transform {
     Location {
@@ -15,7 +15,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8592356074963554601
+  ParentId: 15054396933449780621
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -31,7 +31,7 @@ Objects {
   }
 }
 Objects {
-  Id: 640944280638516526
+  Id: 12780319858962136839
   Name: "Wall4"
   Transform {
     Location {
@@ -46,7 +46,7 @@ Objects {
       Z: 5
     }
   }
-  ParentId: 8592356074963554601
+  ParentId: 15054396933449780621
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -82,7 +82,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2130283894150972538
+  Id: 124023149872489118
   Name: "Wall3"
   Transform {
     Location {
@@ -97,7 +97,7 @@ Objects {
       Z: 5
     }
   }
-  ParentId: 8592356074963554601
+  ParentId: 15054396933449780621
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -133,7 +133,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4380239467345100033
+  Id: 14141024522919150239
   Name: "Wall2"
   Transform {
     Location {
@@ -148,7 +148,7 @@ Objects {
       Z: 5
     }
   }
-  ParentId: 8592356074963554601
+  ParentId: 15054396933449780621
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -184,7 +184,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13143705986848787746
+  Id: 890160344943046979
   Name: "Wall1"
   Transform {
     Location {
@@ -199,7 +199,7 @@ Objects {
       Z: 5
     }
   }
-  ParentId: 8592356074963554601
+  ParentId: 15054396933449780621
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -235,7 +235,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12905059300055274169
+  Id: 6286456861257790990
   Name: "Floor"
   Transform {
     Location {
@@ -248,7 +248,7 @@ Objects {
       Z: 0.5
     }
   }
-  ParentId: 8592356074963554601
+  ParentId: 15054396933449780621
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
