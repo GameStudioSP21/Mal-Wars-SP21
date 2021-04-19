@@ -512,7 +512,7 @@ Objects {
     }
     StatBar {
       Color {
-        G: 0.194617867
+        G: 0.19461751
         B: 5
         A: 1
       }
