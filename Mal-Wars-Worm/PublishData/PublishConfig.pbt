@@ -9,7 +9,7 @@ Tags: "TowerDefense"
 Tags: "Scifi"
 ScreenshotPaths: "D:\\Documents\\CORE\\Mal-Wars-SP21\\Mal-Wars-Worm\\Screenshots\\Screenshot0002.png"
 ScreenshotPaths: "D:\\Documents\\CORE\\Mal-Wars-SP21\\Mal-Wars-Worm\\Screenshots\\Screenshot0001.png"
-ReleaseNotes: "Publishing for pre-final playtest."
+ReleaseNotes: "Rebalanced the waves completely."
 OwnerId: "915299ba3314494bbd5eb7a67d954099"
 SerializationVersion: 1
 PublishedState: Child
