@@ -39,9 +39,9 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 5
-            Y: 5
-            Z: 5
+            X: 10.7248297
+            Y: 10.7248297
+            Z: 10.7248297
           }
         }
         ParentId: 15827546501766066131
@@ -69,7 +69,7 @@ Assets {
           }
           Overrides {
             Name: "bp:Z Velocity"
-            Float: 2.51246977
+            Float: 40.8114433
           }
           Overrides {
             Name: "bp:Inner Fade"

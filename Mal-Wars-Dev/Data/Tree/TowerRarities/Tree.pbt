@@ -1,6 +1,46 @@
 Name: "TowerRarities"
 RootId: 1007787193999714619
 Objects {
+  Id: 4287467201450545391
+  Name: "Perks"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1007787193999714619
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Color"
+      Color {
+        R: 1
+        G: 0.00999999
+        B: 0.973774195
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Perks_1"
+  }
+}
+Objects {
   Id: 1720409598745449251
   Name: "Heroic"
   Transform {

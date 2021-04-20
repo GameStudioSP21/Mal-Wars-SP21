@@ -68,6 +68,36 @@ Objects {
   }
 }
 Objects {
+  Id: 5565416070056007270
+  Name: "TowerDefenders_ShopReplicator"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5627554470724662434
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9935206161778119873
+    }
+  }
+}
+Objects {
   Id: 16501574175870241086
   Name: "ClientContext"
   Transform {
@@ -83,6 +113,7 @@ Objects {
   }
   ParentId: 5627554470724662434
   ChildIds: 13792023200303562508
+  ChildIds: 16434484117892335713
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -93,6 +124,36 @@ Objects {
     Value: "mc:ecollisionsetting:forceoff"
   }
   NetworkContext {
+  }
+}
+Objects {
+  Id: 16434484117892335713
+  Name: "TowerDefenders_ShopReplicator"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16501574175870241086
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9935206161778119873
+    }
   }
 }
 Objects {

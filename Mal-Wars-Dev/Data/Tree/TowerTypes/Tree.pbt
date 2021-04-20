@@ -1,8 +1,8 @@
 Name: "TowerTypes"
 RootId: 15720114564533439334
 Objects {
-  Id: 7010777850253727506
-  Name: "Lunar"
+  Id: 14146875990881597872
+  Name: "Perks"
   Transform {
     Location {
     }
@@ -19,15 +19,14 @@ Objects {
     Overrides {
       Name: "cs:Icon"
       AssetReference {
-        Id: 10233297169285411023
+        Id: 8862782565119707277
       }
     }
     Overrides {
       Name: "cs:Color"
       Color {
-        R: 1
-        G: 0.110000014
-        B: 0.905694842
+        R: 0.850860953
+        B: 0.88
         A: 0.478000015
       }
     }
@@ -43,7 +42,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Lunar"
+    FilePartitionName: "Perks"
   }
 }
 Objects {

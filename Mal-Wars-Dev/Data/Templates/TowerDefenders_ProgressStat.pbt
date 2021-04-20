@@ -15,7 +15,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 9802115243006573388
+        ParentId: 4781671109827199097
+        ChildIds: 17822044394036503383
         ChildIds: 7945468414872205535
         ChildIds: 3985359238280579489
         ChildIds: 13460751579890449635
@@ -44,6 +45,12 @@ Assets {
             Name: "cs:WidthOfProgressBar"
             Int: 370
           }
+          Overrides {
+            Name: "cs:InfoHoverButton"
+            ObjectReference {
+              SubObjectId: 17822044394036503383
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -65,6 +72,97 @@ Assets {
             }
           }
           Panel {
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:topleft"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 17822044394036503383
+        Name: "InfoHoverButton"
+        Transform {
+          Location {
+            X: -5112.10156
+            Y: -11118.3164
+            Z: -581.171143
+          }
+          Rotation {
+            Yaw: -86.6113205
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 3335995742377660966
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Control {
+          Width: 100
+          Height: 30
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          UseParentWidth: true
+          UseParentHeight: true
+          Button {
+            FontColor {
+              A: 1
+            }
+            FontSize: 20
+            ButtonColor {
+              R: 1
+              G: 1
+              B: 1
+            }
+            HoveredColor {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            PressedColor {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            DisabledColor {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            Brush {
+              Id: 841534158063459245
+            }
+            IsButtonEnabled: true
+            OnlyUseMainColor: true
+            ClickMode {
+              Value: "mc:ebuttonclickmode:default"
+            }
+            Font {
+            }
           }
           AnchorLayout {
             SelfAnchor {

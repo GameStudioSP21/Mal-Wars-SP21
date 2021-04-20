@@ -5,7 +5,7 @@ local Inventory = require(script:GetCustomProperty("TowerDefenders_Inventory"))
 -- Wait until the tower database has loaded
 TowerDatabase:WaitUntilLoaded()
 
--- Get the owner of the
+-- Get the owner of the inventory
 local OWNER = nil
 while not OWNER do
     Task.Wait()
@@ -21,7 +21,7 @@ local function ServerSaveInventory(inventory)
     local inventory = OWNER.serverUserData.towerInventory
     local playerData = Storage.GetPlayerData(OWNER)
     playerData.towerInventory = inventory:ToString()
-    Storage.SetPlayerData()
+    Storage.SetPlayerData(playerData)
 end
 
 local function ServerGetPlayerTowerData(player)
@@ -32,15 +32,43 @@ local function ServerGetPlayerTowerData(player)
     return nil
 end
 
+---------------------------------------------------------------------------------------------------------
+
+-- Server Events
+
+local function InitServerEvents(inventory)
+
+    Events.ConnectForPlayer("INV_EQUIP",function(player,towerID)
+        if OWNER == player then
+            print("[Server] Tower is equipping:",towerID)
+            local tower = TowerDatabase:NewTowerByID(towerID)
+            inventory:EquipTower(tower,true)
+        end
+    end)
+
+end
+
 local function ServerInitInventory()
     local towersInventoryString = ServerGetPlayerTowerData(OWNER)
     local inventory = Inventory.New(TowerDatabase, OWNER, towersInventoryString)
 
     local inventoryString = inventory:ToString()
-
     INVENTORY_HELPER:SetNetworkedCustomProperty("TOWERS",inventoryString)
 
     OWNER.serverUserData.towerInventory = inventory
+    InitServerEvents(inventory)
+end
+
+-- Client Events
+
+local function InitClientEvents(inventory)
+
+    inventory.onEquipped:Connect(function(tower,_hasRepeated)
+        if not _hasRepeated then
+            Events.BroadcastToServer("INV_EQUIP",tower:GetID())
+        end
+    end)
+
 end
 
 local function ClientInitInventoryLocal()
@@ -50,6 +78,7 @@ local function ClientInitInventoryLocal()
     local inventory = Inventory.New(TowerDatabase, OWNER, towersInventoryString)
 
     OWNER.clientUserData.towerInventory = inventory
+    InitClientEvents(inventory)
 end 
 
 ---------------------------------------------------------------------------------------------------------

@@ -1,8 +1,8 @@
 Name: "Damage_2"
-RootId: 7130910895738376355
+RootId: 2271329615604534126
 Objects {
-  Id: 17495909577069202432
-  Name: "Bank"
+  Id: 14783946145276539109
+  Name: "FireWall Tower"
   Transform {
     Location {
     }
@@ -14,81 +14,21 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7130910895738376355
+  ParentId: 2271329615604534126
   UnregisteredParameters {
     Overrides {
-      Name: "cs:Name"
-      String: "Bank"
-    }
-    Overrides {
-      Name: "cs:DisplayName"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:Description"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:Icon"
-      AssetReference {
-        Id: 17499171427180200450
-      }
-    }
-    Overrides {
-      Name: "cs:Type"
-      ObjectReference {
-        SelfId: 5700756625187138424
-      }
-    }
-    Overrides {
-      Name: "cs:Rarity"
-      ObjectReference {
-        SelfId: 1720409598745449251
-      }
-    }
-    Overrides {
-      Name: "cs:Cost"
-      Int: 1500
-    }
-    Overrides {
-      Name: "cs:Damage"
-      Int: 0
-    }
-    Overrides {
-      Name: "cs:Range"
-      Float: 0
-    }
-    Overrides {
-      Name: "cs:Speed"
-      Float: 0.2
-    }
-    Overrides {
       Name: "cs:Tower"
-      AssetReference {
-        Id: 16013314213448772834
+      ObjectReference {
+        SelfId: 13368512087266324177
       }
     }
     Overrides {
-      Name: "cs:TowerGhost"
-      AssetReference {
-        Id: 15303515558436957644
-      }
+      Name: "cs:Price"
+      Int: 3000
     }
     Overrides {
-      Name: "cs:VisualProjectile"
-      AssetReference {
-        Id: 6384976585573990169
-      }
-    }
-    Overrides {
-      Name: "cs:TowerClass"
-      AssetReference {
-        Id: 16079215690187532467
-      }
-    }
-    Overrides {
-      Name: "cs:VisualProjectile:tooltip"
-      String: "Purely Visual. This is for making your tower attacks look pretty."
+      Name: "cs:Tower:tooltip"
+      String: "The tower that will be sold"
     }
   }
   Collidable_v2 {
@@ -105,8 +45,8 @@ Objects {
   }
 }
 Objects {
-  Id: 260460467366369561
-  Name: "Tesla"
+  Id: 18236146311003383391
+  Name: "Bank Tower"
   Transform {
     Location {
     }
@@ -118,7 +58,23 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7130910895738376355
+  ParentId: 2271329615604534126
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tower"
+      ObjectReference {
+        SelfId: 17495909577069202432
+      }
+    }
+    Overrides {
+      Name: "cs:Price"
+      Int: 2000
+    }
+    Overrides {
+      Name: "cs:Tower:tooltip"
+      String: "The tower that will be sold"
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -129,13 +85,12 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
-    IsFilePartition: true
-    FilePartitionName: "Tesla"
+    IsGroup: true
   }
 }
 Objects {
-  Id: 3043607958378933379
-  Name: "Mortar"
+  Id: 4329774074172034513
+  Name: "AOE Tower"
   Transform {
     Location {
     }
@@ -147,7 +102,23 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7130910895738376355
+  ParentId: 2271329615604534126
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tower"
+      ObjectReference {
+        SelfId: 2138681849230579418
+      }
+    }
+    Overrides {
+      Name: "cs:Price"
+      Int: 300
+    }
+    Overrides {
+      Name: "cs:Tower:tooltip"
+      String: "The tower that will be sold"
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -158,13 +129,12 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
-    IsFilePartition: true
-    FilePartitionName: "Mortar"
+    IsGroup: true
   }
 }
 Objects {
-  Id: 12578761812920551926
-  Name: "AOE"
+  Id: 9091087971301124319
+  Name: "Mortar Tower"
   Transform {
     Location {
     }
@@ -176,7 +146,23 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7130910895738376355
+  ParentId: 2271329615604534126
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tower"
+      ObjectReference {
+        SelfId: 14502177183950525604
+      }
+    }
+    Overrides {
+      Name: "cs:Price"
+      Int: 250
+    }
+    Overrides {
+      Name: "cs:Tower:tooltip"
+      String: "The tower that will be sold"
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -187,13 +173,12 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
-    IsFilePartition: true
-    FilePartitionName: "AOE"
+    IsGroup: true
   }
 }
 Objects {
-  Id: 287725104296604219
-  Name: "Sniper"
+  Id: 11072419460092602619
+  Name: "Tesla Tower"
   Transform {
     Location {
     }
@@ -205,7 +190,23 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7130910895738376355
+  ParentId: 2271329615604534126
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tower"
+      ObjectReference {
+        SelfId: 538147821242085832
+      }
+    }
+    Overrides {
+      Name: "cs:Price"
+      Int: 600
+    }
+    Overrides {
+      Name: "cs:Tower:tooltip"
+      String: "The tower that will be sold"
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -216,13 +217,12 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
-    IsFilePartition: true
-    FilePartitionName: "Sniper"
+    IsGroup: true
   }
 }
 Objects {
-  Id: 15836056593155272946
-  Name: "Laser"
+  Id: 5344988996627366709
+  Name: "Sniper Tower"
   Transform {
     Location {
     }
@@ -234,7 +234,23 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7130910895738376355
+  ParentId: 2271329615604534126
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Tower"
+      ObjectReference {
+        SelfId: 15521148768500268594
+      }
+    }
+    Overrides {
+      Name: "cs:Price"
+      Int: 350
+    }
+    Overrides {
+      Name: "cs:Tower:tooltip"
+      String: "The tower that will be sold"
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -245,7 +261,6 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
-    IsFilePartition: true
-    FilePartitionName: "Laser"
+    IsGroup: true
   }
 }

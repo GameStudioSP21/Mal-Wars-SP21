@@ -88,7 +88,7 @@ function Tower:SpawnAsset()
     -- If the owner of the tower placed then there will be a ring below the the tower
     -- indicating they own it.
     if self:GetOwner() == Game.GetLocalPlayer() then
-        World.SpawnAsset(OWNERSHIP_DECAL,{ parent = towerModel })
+        self:DisplayOwnershipIndicator()
     end
 
     self.towerAssetInstance.clientUserData.tower = self
@@ -160,6 +160,18 @@ function Tower:RemoveRangeRadius()
     end
 end
 --
+
+-- Client
+function Tower:DisplayOwnershipIndicator()
+    self.ownershipIndicator = World.SpawnAsset(OWNERSHIP_DECAL,{ parent = self.towerAssetInstance })
+end
+
+-- Client
+function Tower:RemoveOwnershipIndicator()
+    if self.ownershipIndicator then
+        self.ownershipIndicator:Destroy()
+    end
+end
 
 function Tower:SetWorldPosition(position)
     self.position = position
@@ -501,11 +513,21 @@ function Tower:_Runtime()
     end
 end
 
--- Tower.__eq = function(tower1, tower2)
---     if tower1:GetMUID() == tower2:GetMUID() then
---         return true
---     end
---     return false
--- end
+function Tower:__tostring()
+    local s = {}
+    table.insert(s, "Tower:\n")
+    table.insert(s, string.format("\tname:   %s\n", self:GetName()))
+    table.insert(s, string.format("\trarity: %s\n", self:GetRarity()))
+    table.insert(s, string.format("\tcost: %s\n", self:GetCost()))
+    return table.concat(s)
+end
+
+-- This isn't safe.
+Tower.__eq = function(tower1, tower2)
+    if tower1:GetMUID() == tower2:GetMUID() then
+        return true
+    end
+    return false
+end
 
 return Tower

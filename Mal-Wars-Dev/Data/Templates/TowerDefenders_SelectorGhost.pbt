@@ -7,7 +7,7 @@ Assets {
       RootId: 15827546501766066131
       Objects {
         Id: 15827546501766066131
-        Name: "TowerDefenders_UpgradeGhost"
+        Name: "TowerDefenders_SelectorGhost"
         Transform {
           Scale {
             X: 1
@@ -39,9 +39,9 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 5.71347141
-            Y: 5.71347141
-            Z: 5.71347141
+            X: 8.98482227
+            Y: 8.98482227
+            Z: 8.98482227
           }
         }
         ParentId: 15827546501766066131

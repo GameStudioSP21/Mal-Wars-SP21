@@ -1,11 +1,29 @@
 local Database = {}
 
 local REGISTERED_TOWERS = script:GetCustomProperty("RegisteredTowers"):WaitForObject()
+local REGISTERED_SHOP_TOWERS = script:GetCustomProperty("RegisteredShopTowers"):WaitForObject()
+
 local TowersThemeAPI = require(script:GetCustomProperty("ThemeApi"))
 local Tower = require(script:GetCustomProperty("TowerBase"))
+local ShopTower = require(script:GetCustomProperty("ShopTower"))
 
 local DATA_TOWERS = {}
+local DATA_SHOP_TOWERS = {}
 local towerUpgradeChains = {}
+
+local REQUIRED_TOWER_PROPERTIES = {
+    "Name",
+    "Icon",
+    "Cost",
+    "Tower",
+    "TowerGhost",
+    "Type",
+}
+
+local REQUIRED_SHOP_TOWER_PROPERTIES = {
+    "Tower",
+    "Price",
+}
 
 ------------------------------------------------------------
 -- Public
@@ -21,6 +39,9 @@ function Database:Init()
     Database._Init()
 end
 
+------------------------------------------------------------
+-- Tower Factory
+------------------------------------------------------------
 
 --- Constructors
 function Database:NewTowerByName(name)
@@ -59,6 +80,8 @@ function Database:NewTowerByID(id)
     return newTower
 end
 
+------------------------------------------------------------
+
 --- Getters
 function Database:GetTowerByName(name)
     return self.towerDatasByName[name]
@@ -68,35 +91,76 @@ function Database:GetTowerByMUID(muid)
     return self.towerDatasByMUIDFull[muid] or self.towerDatasByMUID[muid] or nil
 end
 
-function Database:GetTowerByID(int)
-    return self.towerDatasByIndex[int]
+function Database:GetTowerByID(id)
+    return self.towerDatasByIndex[id]
+end
+
+------------------------------------------------------------
+-- Shop Factory
+------------------------------------------------------------
+
+function Database:NewShopTowerByName(name)
+    local towerData = Database:GetShopTowerByName(name)
+    assert(towerData, string.format("Tower - %s does not exist in in the database.", name))
+    return ShopTower.New(towerData,self)
+end
+
+function Database:NewShopTowerByMUID(muid)
+    local towerData = Database:GetShopTowerByMUID(muid)
+    assert(towerData, string.format("Tower - %s does not exist in in the database.", muid))
+    return ShopTower.New(towerData,self)
+end
+
+function Database:NewShopTowerByID(id)
+    local towerData = Database:GetShopTowerByID(id)
+    assert(towerData, string.format("Tower - %s does not exist in in the database.", id))
+    return ShopTower.New(towerData,self)
+end
+
+function Database:GetShopTowers()
+    local allTowers = {}
+    for _, towerData in pairs(self.towerShopDatasByName) do
+        local shopTower = ShopTower.New(towerData,self)
+        table.insert(allTowers, shopTower)
+    end
+    return allTowers
+end
+
+--- Getters
+
+function Database:GetShopTowerByName(name)
+    return self.towerShopDatasByName[name]
+end
+
+function Database:GetShopTowerByMUID(muid)
+    return self.towerShopDatasByMUIDFull[muid] or self.towerShopDatasByMUID[muid] or nil
+end
+
+function Database:GetShopTowerByID(id)
+    return self.towerShopDatasByIndex[id]
 end
 
 ------------------------------------------------------------
 -- Private
 ------------------------------------------------------------
 
-local function HasRequiredProperties(tower)
-    if tower:GetCustomProperty("Name") and
-        tower:GetCustomProperty("Icon") and
-        tower:GetCustomProperty("Cost") and
-        tower:GetCustomProperty("Tower") and
-        tower:GetCustomProperty("TowerGhost") and
-        tower:GetCustomProperty("Type") then
-        return true
-    else
-        return false
-    end
-end
-
-local function _LoadTowers_R(root)
-    for _, item in pairs(root:GetChildren()) do
-        if HasRequiredProperties(item) then
-            table.insert(DATA_TOWERS,item)
-        elseif #item:GetChildren() > 0 then
-            _LoadTowers_R(item)
+-- TODO: make both function the same function, but with different error messages
+local function HasRequiredTowerProperties(tower)
+    for _, property in pairs(REQUIRED_TOWER_PROPERTIES) do
+        if not tower:GetCustomProperty(property) then
+            return false
         end
     end
+    return true
+end
+
+local function HasRequiredShopTowerProperties(tower)
+    for _, property in pairs(REQUIRED_SHOP_TOWER_PROPERTIES) do
+        if not tower:GetCustomProperty(property) then
+            return false
+        end
+    end
+    return true
 end
 
 function Database:_LoadTowersData()
@@ -124,6 +188,8 @@ function Database:_LoadTowersData()
         local towerClass = tower:GetCustomProperty("TowerClass")
 
         -- TODO: ASSERTS HERE
+        assert(not self.towerDatasByName[towerName],string.format("Duplicate registered towers are not allowed. A tower already has the name - %s",towerName))
+        assert(not self.towerDatasByMUIDFull[towerMUID],string.format("Duplicate registered towers are not allowed. A tower already has the muid - %s",towerMUID))
 
         local towerStats = {}
 
@@ -136,7 +202,6 @@ function Database:_LoadTowersData()
 
 
         -- TODO: Have asserts here for required properties.
-
         local towerData = {
             index = i,
             name = towerName,
@@ -167,6 +232,38 @@ function Database:_LoadTowersData()
     self:_ApplyUpgradeChainToTowers()
 end
 
+function Database:_LoadShopData()
+    self.towerShopDatasByIndex = {}
+    self.towerShopDatasByName = {}
+    self.towerShopDatasByMUIDFull = {}
+    self.towerShopDatasByMUID = {}
+
+    for i, tower in ipairs(DATA_SHOP_TOWERS) do
+
+        local towerRef = tower:GetCustomProperty("Tower"):GetObject()
+        local towerPrice = tower:GetCustomProperty("Price")
+
+        local towerName = towerRef:GetCustomProperty("Name")
+        local towerMUID = towerRef:GetCustomProperty("Tower")
+        local type = towerRef:GetCustomProperty("Type"):GetObject().name
+        
+        -- TODO: Have asserts here for required properties.
+        local towerShopItemData = {
+            index = i,
+            name = towerName,
+            towerMUID = towerMUID,
+            type = type,
+            price = towerPrice,
+        }
+
+        self.towerShopDatasByIndex[towerShopItemData.index] = towerShopItemData
+        self.towerShopDatasByName[towerShopItemData.name] = towerShopItemData
+        self.towerShopDatasByMUIDFull[towerShopItemData.towerMUID] = towerShopItemData
+        self.towerShopDatasByMUID[towerShopItemData.towerMUID:match("^(.+):")] = towerShopItemData
+    end
+
+end
+
 -- This method just goes through the upgrade chains of each tower and applys an upgrade index to them.
 function Database:_ApplyUpgradeChainToTowers()
     for _, upgradeChain in pairs(towerUpgradeChains) do
@@ -193,11 +290,35 @@ function Database:_AddToUpgradeChain(currentTowerMUID,nextTowerMUID)
     table.insert(towerUpgradeChains, { currentTowerMUID, nextTowerMUID } )
 end
 
+local function _LoadTowers_R(root)
+    for _, item in pairs(root:GetChildren()) do
+        if HasRequiredTowerProperties(item) then
+            table.insert(DATA_TOWERS,item)
+        elseif #item:GetChildren() > 0 then
+            _LoadTowers_R(item)
+        end
+    end
+end
+
+local function _LoadShopTowers_R(root)
+    for _, item in pairs(root:GetChildren()) do
+        if HasRequiredShopTowerProperties(item) then
+            table.insert(DATA_SHOP_TOWERS,item)
+        elseif #item:GetChildren() > 0 then
+            _LoadShopTowers_R(item)
+        end
+    end
+end
+
+
 function Database:_Init()
     self.isLoaded = false
     Task.Spawn(function()
         _LoadTowers_R(REGISTERED_TOWERS)
+        _LoadShopTowers_R(REGISTERED_SHOP_TOWERS)
+
         self:_LoadTowersData()
+        self:_LoadShopData()
         self.isLoaded = true
     end)
 end

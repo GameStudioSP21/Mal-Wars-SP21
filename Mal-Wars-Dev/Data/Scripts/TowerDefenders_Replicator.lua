@@ -1,6 +1,9 @@
 ﻿local TowerDatabase = require(script:GetCustomProperty("TowerDatabase"))
 local BoardDatabase = require(script:GetCustomProperty("BoardDatabase"))
 local Inventory = require(script:GetCustomProperty("Inventory"))
+local Shop = require(script:GetCustomProperty("Shop"))
+
+
 
 local ACTIVE_BOARDS_GROUP = World.FindObjectByName("ActiveBoards")
 local INVENTORY_HELPER = script:GetCustomProperty("InventoryHelper")
@@ -9,6 +12,16 @@ local function OnServerPlayerJoined(player)
     TowerDatabase:WaitUntilLoaded()
     local INVENTORY_FOLDER = script:GetCustomProperty("InventoryFolder"):WaitForObject()
     local playerData = Storage.GetPlayerData(player)
+    
+    -- Load the players special gems for purchasing towers
+    if playerData.specialGems then
+        player:SetResource("SpecialGems",playerData.specialGems or 0)
+    end
+
+    -- Load the players perks gems.
+    if playerData.perksGems then
+        player:SetResource("PerksGems",playerData.perksGems or 0)
+    end
 
     -- Spawn the inventory helper for the player. The inventory will be setup by the inventory replicator
     local inventoryHelper = World.SpawnAsset(INVENTORY_HELPER,{ parent = INVENTORY_FOLDER })
@@ -224,8 +237,6 @@ local function InitalizeBoardListener()
         GameManager.SetupBoard(boardAsset)
     end
 end
-
-
 
 -- Initalize the databases for boards and towers.
 TowerDatabase:_Init()

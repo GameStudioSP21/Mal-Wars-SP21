@@ -17,12 +17,12 @@ Assets {
   }
 }
 Assets {
-  Id: 10233297169285411023
-  Name: "Moon"
+  Id: 8862782565119707277
+  Name: "Money"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Fantasy_Icon_Moon"
+    AssetId: "UI_Urban_Icon_046"
   }
 }
 Assets {

@@ -48,7 +48,7 @@ function hotbarView:CreateSlotsFromTowerTable(towerTable)
 
             local propHoverLabel = hotbarSlotElement:GetCustomProperty("HoverLabel"):WaitForObject()
             local propHoverLabelText = hotbarSlotElement:GetCustomProperty("HoverLabelText"):WaitForObject()
-            propHoverLabelText.text = tower:GetName()
+            propHoverLabelText.text = tower:GetDisplayName()
 
             local initalHoverLabelColor = propHoverLabel:GetColor()
             local initalHoverLabelTextColor = propHoverLabelText:GetColor()
@@ -113,7 +113,7 @@ function hotbarView:CreateSlotsFromTowerTable(towerTable)
                 hotbarSlotElement.clientUserData.unequipHandle = unequipHandle
             else
                 local purchaseHandle = purchaseButton.pressedEvent:Connect(function()
-                    --local newTower = TowerDatabase:NewTowerByName(tower:GetName()) -- Is this needed???
+                    print("Beginning placement of :",tower)
                     Events.Broadcast("GeneralSelectorBeginPlacement",tower)
                 end)
                 -- TODO: Make this into a handle table to shorten the code down.
@@ -176,7 +176,6 @@ function hotbarView:_SetupSlot(slot,tower)
     local background = slot:GetCustomProperty("Background"):GetObject()
 
     local rarityColor = TowerThemes.GetRarityColor(tower:GetRarity())
-    print("COLOR:",rarityColor)
 
     frame:SetColor(rarityColor)
     background:SetColor(rarityColor)

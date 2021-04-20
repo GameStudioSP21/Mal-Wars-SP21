@@ -118,6 +118,7 @@ Events.Connect("GeneralSelectorBeginPlacement",function(tower)
     selector:RemoveVisuals()
     local ghostTower = World.SpawnAsset(tower:GetGhostMUID(),{ parent = selectorObject })
     local radius = World.SpawnAsset(RANGE_RADIUS,{ parent = ghostTower })
+    print("RANGE:",tower:GetStat("Range"))
     Ease3D.EaseScale(radius, Vector3.New(tower:GetStat("Range")), 1, Ease3D.EasingEquation.SINE, Ease3D.EasingDirection.INOUT)
 
     selector:SetLocked(false)
@@ -128,6 +129,9 @@ end)
 function Tick()
     -- If a tower is being prepared for placement then display the blocked radius for all towers.
     if board and preparedTower then
+        --if not IsOverValidSurface(selector:GetImpactPosition()) then
+            -- TODO: 
+        --end
         board:DisplayBlockedRadiusOfTowers()
     elseif board then
         board:RemoveBlockedRadiusOfTowers()

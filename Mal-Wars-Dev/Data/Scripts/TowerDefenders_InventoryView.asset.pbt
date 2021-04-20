@@ -35,6 +35,30 @@ Assets {
         }
       }
       Overrides {
+        Name: "cs:EaseUI"
+        AssetReference {
+          Id: 2158732962862843739
+        }
+      }
+      Overrides {
+        Name: "cs:TowerDisplayerUI"
+        AssetReference {
+          Id: 692116711957125116
+        }
+      }
+      Overrides {
+        Name: "cs:DataProvider"
+        AssetReference {
+          Id: 15422421484489374613
+        }
+      }
+      Overrides {
+        Name: "cs:PageSelector"
+        AssetReference {
+          Id: 17987991761031819487
+        }
+      }
+      Overrides {
         Name: "cs:TowerEntry"
         AssetReference {
           Id: 9249867650405085070
@@ -44,12 +68,6 @@ Assets {
         Name: "cs:CatagoryButtonEntry"
         AssetReference {
           Id: 9849039796060367946
-        }
-      }
-      Overrides {
-        Name: "cs:EaseUI"
-        AssetReference {
-          Id: 2158732962862843739
         }
       }
       Overrides {
@@ -68,6 +86,12 @@ Assets {
         Name: "cs:TowerEquipDenySound"
         AssetReference {
           Id: 13392073712604546117
+        }
+      }
+      Overrides {
+        Name: "cs:PageSelect"
+        ObjectReference {
+          SelfId: 804270811779917704
         }
       }
     }

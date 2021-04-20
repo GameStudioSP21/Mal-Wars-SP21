@@ -10,6 +10,7 @@ local THEME_RARITIES = {}
 
 local STATS_REQUIRED_PROPERTIES = {
     "Icon",
+    "Description"
 }
 
 local TYPES_REQUIRED_PROPERTIES = {
@@ -29,17 +30,17 @@ end
 
 -------------------------- Setup
 -- Tower Stats
-for _, stat in pairs(TOWER_STATS:GetChildren()) do
+for _, stat in ipairs(TOWER_STATS:GetChildren()) do
     assert(not THEME_STATS[stat.name], string.format("Can not have duplicate stats. - %s",stat.name))
-    HasRequiredProperties(stat,STATS_REQUIRED_PROPERTIES)
     THEME_STATS[stat.name] = {
         icon = stat:GetCustomProperty("Icon"),
-        color = stat:GetCustomProperty("StatColor")
+        color = stat:GetCustomProperty("StatColor"),
+        description = stat:GetCustomProperty("Description")
     }
 end
 
 -- Tower Types
-for _, towerType in pairs(TOWER_TYPES:GetChildren()) do
+for _, towerType in ipairs(TOWER_TYPES:GetChildren()) do
     assert(not THEME_TYPES[towerType.name], string.format("Can not have duplicate tower type - %s",towerType.name))
     HasRequiredProperties(towerType,TYPES_REQUIRED_PROPERTIES)
     THEME_TYPES[towerType.name] = {
@@ -49,8 +50,8 @@ for _, towerType in pairs(TOWER_TYPES:GetChildren()) do
 end
 
 -- Tower Rarities
-for _, rarity in pairs(TOWER_RARITIES:GetChildren()) do
-    assert(not THEME_TYPES[rarity.name], string.format("Can not have duplicate tower type - %s",rarity.name))
+for _, rarity in ipairs(TOWER_RARITIES:GetChildren()) do
+    assert(not THEME_RARITIES[rarity.name], string.format("Can not have duplicate tower type - %s",rarity.name))
     HasRequiredProperties(rarity,RARITIES_REQUIRED_PROPERTIES)
     THEME_RARITIES[rarity.name] = {
         color = rarity:GetCustomProperty("Color")
@@ -67,16 +68,22 @@ function Theme.IsValidStat(statName)
     return THEME_STATS[statName] and true or false
 end
 
--- Get the icon from a stat name.
+-- Get the icon from a stat.
 function Theme.GetStatIcon(statName)
     assert(THEME_STATS[statName].icon,string.format("Tried to get the icon for - %s that does not exist.",statName))
     return THEME_STATS[statName].icon
 end
 
--- Get the color for the state.
+-- Get the color for the stat.
 function Theme.GetStatColor(statName)
     return THEME_STATS[statName].color
 end
+
+-- Get the description of the stat.
+function Theme.GetStatDescription(statName)
+    return THEME_STATS[statName].description
+end
+
 ---- STATS
 
 -----------------------------
@@ -117,7 +124,7 @@ function Theme.IsValidRarity(rarityName)
 end
 
 function Theme.GetRarityColor(rarityName)
-    assert(THEME_RARITIES[rarityName].color,string.format("Tried to get the tower rarity for - %s that does not exist.",rarityName))
+    assert(rarityName and THEME_RARITIES[rarityName],string.format("Tried to get the tower rarity for - %s that does not exist.",rarityName))
     return THEME_RARITIES[rarityName].color
 end
 ---- RARITY

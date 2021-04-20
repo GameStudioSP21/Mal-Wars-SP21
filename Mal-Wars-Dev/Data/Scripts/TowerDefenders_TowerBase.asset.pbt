@@ -66,7 +66,7 @@ Assets {
       }
       Overrides {
         Name: "cs:UseSpecialSpawn"
-        Bool: true
+        Bool: false
       }
       Overrides {
         Name: "cs:UseSpecialSpawn:tooltip"

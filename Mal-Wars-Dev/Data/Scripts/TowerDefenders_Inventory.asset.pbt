@@ -24,6 +24,12 @@ Assets {
           Id: 18181533304032982468
         }
       }
+      Overrides {
+        Name: "cs:DefaultTowers"
+        ObjectReference {
+          SelfId: 16801839762185285966
+        }
+      }
     }
   }
   SerializationVersion: 81

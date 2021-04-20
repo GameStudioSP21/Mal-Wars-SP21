@@ -35,6 +35,12 @@ Assets {
         }
       }
       Overrides {
+        Name: "cs:Shop"
+        AssetReference {
+          Id: 12802780823341117270
+        }
+      }
+      Overrides {
         Name: "cs:InventoryFolder"
         ObjectReference {
         }

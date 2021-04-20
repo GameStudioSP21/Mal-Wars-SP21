@@ -4,7 +4,9 @@ Inventory.__index = Inventory
 local TowerThemeAPI = require(script:GetCustomProperty("TowerThemeAPI"))
 
 Inventory.MAX_TOWERS_EQUIPPED = script:GetCustomProperty("MaxEquippedTowers")
-Inventory.ALLOW_UPGRADED_TOWERS = script:GetCustomProperty("AllowUpgradedTowers")
+-- Inventory.ALLOW_UPGRADED_TOWERS = script:GetCustomProperty("AllowUpgradedTowers")
+
+local DEFAULT_TOWERS = script:GetCustomProperty("DefaultTowers"):WaitForObject():GetChildren()
 
 -------------------------------------
 -- Public
@@ -48,6 +50,7 @@ function Inventory:EquipTower(tower, _hasRepeated)
                 table.remove(self.towers,i)
             end
         end
+        self:_FireEvent("onEquipped",tower,_hasRepeated)
         self:_FireEvent("onChanged")
     end
 end
@@ -59,6 +62,7 @@ function Inventory:UnEquipTower(tower, _hasRepeated)
             self.equippedTowers[i] = nil
         end
     end
+    self:_FireEvent("onUnequipped")
     self:_FireEvent("onChanged")
 end
 
@@ -247,7 +251,6 @@ function Inventory:_Load(inventoryString)
     local INVENTORY_PATTERN = "<([^<>;]+)>([^<>;]+)"
 
     for equippedSlot, towerMUID in inventoryString:gmatch(INVENTORY_PATTERN) do
-        print("TOWER:",equippedSlot,":",towerMUID)
         local equippedSlot = tonumber(equippedSlot)
         local tower = self.database:NewTowerByMUID(towerMUID)
         if equippedSlot > 0 then
@@ -266,35 +269,19 @@ function Inventory:_Init(database,owner,inventoryTowersString)
 
     -- If the player is new then load in a default tower for them
     if not inventoryTowersString then
-        print("NEW PLAYER. LOADING DATA.")
-        -- Create starter towers if the player has none. ( TEMP )
-        local tower = database:NewTowerByName("Bank")
-        table.insert(self.towers,tower)
-
-        local tower = database:NewTowerByID(1)
-        table.insert(self.equippedTowers,tower)
-
-        local tower = database:NewTowerByName("Sniper Turret")
-        table.insert(self.equippedTowers,tower)
-
-        local tower = database:NewTowerByName("AOE Turret")
-        table.insert(self.equippedTowers,tower)
-
-        local tower = database:NewTowerByName("Mortar Turret")
-        table.insert(self.equippedTowers,tower)
-        
-        local tower = database:NewTowerByName("Tesla Turret")
-        table.insert(self.equippedTowers,tower)
+        print("NEW PLAYER. LOADING DATA DEFAULT TOWERS")
+        for _, defaultTower in pairs(DEFAULT_TOWERS) do
+            assert(defaultTower:GetCustomProperty("Tower"), string.format("Default tower is missing custom property Tower on - %s",defaultTower.name) )
+            local towerObj = defaultTower:GetCustomProperty("Tower"):GetObject()
+            local tower = database:NewTowerByName(towerObj:GetCustomProperty("Name"))
+            if defaultTower:GetCustomProperty("IsEquipped") then
+                table.insert(self.equippedTowers,tower)
+            else
+                table.insert(self.towers,tower)
+            end
+        end
     else
         self:_Load(inventoryTowersString)
-        -- local tower = database:NewTowerByName("Bank")
-        -- table.insert(self.towers,tower)
-        -- local tower = database:NewTowerByName("Greater Sniper")
-        -- table.insert(self.towers,tower)
-        -- local tower = database:NewTowerByName("Superior Sniper")
-        -- table.insert(self.towers,tower)
-        -- local tower = database:NewTowerByName("Ultimate Sniper")
-        -- table.insert(self.towers,tower)
     end
 end
 

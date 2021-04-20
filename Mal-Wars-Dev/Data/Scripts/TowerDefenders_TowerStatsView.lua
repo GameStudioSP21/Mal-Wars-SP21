@@ -79,7 +79,15 @@ function view:DisplayTowerStats(tower)
     for statName, statValue in pairs(tower:GetStats()) do
         if statValue > 0 then
             local statIcon = TowerThemes.GetStatIcon(statName)
+            local description = TowerThemes.GetStatDescription(statName)
+
             local numberAsset = World.SpawnAsset(NUMBER_STAT,{ parent = self.SCROLL_PANEL })
+
+            local hoverButton = numberAsset:GetCustomProperty("HoverInfoButton"):WaitForObject()
+            local hoverDescriptionText = numberAsset:GetCustomProperty("Description"):WaitForObject()
+            local hideInfoPanel = numberAsset:GetCustomProperty("HideInfoPanel"):WaitForObject()
+
+
             yOffset = yOffset + 80 -- TODO: Change to custom property.
             numberAsset.y = yOffset - 80
     
@@ -90,6 +98,20 @@ function view:DisplayTowerStats(tower)
             local statIcon = numberAsset:GetCustomProperty("StatIcon"):GetObject()
             statIcon:SetImage(TowerThemes.GetStatIcon(statName))
             statIcon:SetColor(TowerThemes.GetStatColor(statName))
+
+            hoverButton.hoveredEvent:Connect(function()
+                --hoverDescriptionText:SetColor(TowerThemes.GetStatColor(statName))
+                hoverDescriptionText.text = description
+                hideInfoPanel.visibility = Visibility.FORCE_OFF
+                hoverDescriptionText.visibility = Visibility.FORCE_ON
+            end)
+
+            hoverButton.unhoveredEvent:Connect(function()
+                hideInfoPanel.visibility = Visibility.FORCE_ON
+                hoverDescriptionText.visibility = Visibility.FORCE_OFF
+            end)
+
+            
         end
     end
 
@@ -122,6 +144,8 @@ function view:CompareToTower(comparedTower)
                 statValue.text = string.format('%.01f', comparedTower:GetStat(statName))
                 numberAsset:GetCustomProperty("Arrow"):GetObject().visibility = Visibility.FORCE_ON
             end
+
+
     
             local statIcon = numberAsset:GetCustomProperty("StatIcon"):GetObject()
             statIcon:SetImage(TowerThemes.GetStatIcon(statName))

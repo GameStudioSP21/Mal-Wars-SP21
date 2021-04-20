@@ -1,6 +1,55 @@
 Name: "TowerStats"
 RootId: 15995946423381434303
 Objects {
+  Id: 17128386408899076693
+  Name: "Money"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15995946423381434303
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Icon"
+      AssetReference {
+        Id: 8862782565119707277
+      }
+    }
+    Overrides {
+      Name: "cs:StatColor"
+      Color {
+        G: 0.39
+        B: 0.0258278623
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: "The amount of money that is generated."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Money"
+  }
+}
+Objects {
   Id: 10775090574195004951
   Name: "BounceTravelDistance"
   Transform {
@@ -29,6 +78,10 @@ Objects {
         G: 0.983443797
         A: 1
       }
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: "The distance the electricity will travel in cms."
     }
   }
   Collidable_v2 {
@@ -76,6 +129,10 @@ Objects {
         A: 1
       }
     }
+    Overrides {
+      Name: "cs:Description"
+      String: "The fire rate of the tower in seconds."
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -122,6 +179,10 @@ Objects {
         A: 1
       }
     }
+    Overrides {
+      Name: "cs:Description"
+      String: "The range of the tower."
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -165,6 +226,10 @@ Objects {
         R: 0.770000041
         A: 1
       }
+    }
+    Overrides {
+      Name: "cs:Description"
+      String: "The amount of damage the tower deals."
     }
   }
   Collidable_v2 {

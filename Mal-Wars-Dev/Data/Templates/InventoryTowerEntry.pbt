@@ -15,7 +15,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6311100951252094683
+        ParentId: 6703681244775879283
         ChildIds: 17274733873754395374
         UnregisteredParameters {
           Overrides {
@@ -188,14 +188,12 @@ Assets {
         }
         ParentId: 17274733873754395374
         ChildIds: 1241610363785578103
-        ChildIds: 15040041828198102406
         ChildIds: 14686369427885429346
         ChildIds: 17182501234835023399
         ChildIds: 15292033991037130188
         ChildIds: 17027764566764175258
         ChildIds: 16263645938227480392
         ChildIds: 12694182901951503094
-        ChildIds: 14187911197169058519
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -249,6 +247,8 @@ Assets {
           }
         }
         ParentId: 6285395150321388009
+        ChildIds: 15040041828198102406
+        ChildIds: 14187911197169058519
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -311,7 +311,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 6285395150321388009
+        ParentId: 1241610363785578103
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -333,7 +333,7 @@ Assets {
           }
           Image {
             Brush {
-              Id: 3648601778459717986
+              Id: 8714815921343760826
             }
             Color {
               R: 1
@@ -342,6 +342,74 @@ Assets {
               A: 1
             }
             TeamSettings {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomleft"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomleft"
+              }
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 14187911197169058519
+        Name: "CostLabel"
+        Transform {
+          Location {
+            X: 5.82076609e-11
+            Y: -0.0009765625
+          }
+          Rotation {
+            Yaw: 3.4150944e-06
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 1241610363785578103
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Control {
+          Width: 65
+          Height: 45
+          UIX: 60
+          UIY: -13
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          Text {
+            Label: "1000"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            Size: 30
+            Justification {
+              Value: "mc:etextjustify:left"
+            }
+            AutoWrapText: true
+            Font {
+              Id: 13496764517644833906
             }
           }
           AnchorLayout {
@@ -470,16 +538,16 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:forceoff"
+          Value: "mc:evisibilitysetting:forceon"
         }
         CameraCollidable {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Control {
-          Width: 40
-          Height: 30
-          UIX: -108
-          UIY: -15
+          Width: 20
+          Height: 20
+          UIX: -10
+          UIY: -10
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -487,7 +555,7 @@ Assets {
           }
           Image {
             Brush {
-              Id: 1735192838551116887
+              Id: 12279949948688972134
             }
             Color {
               R: 0.0132447481
@@ -539,7 +607,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Control {
-          Width: 190
+          Width: 188
           Height: 190
           UIY: -5
           RenderTransformPivot {
@@ -622,7 +690,6 @@ Assets {
             Justification {
               Value: "mc:etextjustify:center"
             }
-            AutoWrapText: true
             Font {
               Id: 3065298231171894533
             }
@@ -801,74 +868,6 @@ Assets {
           }
         }
       }
-      Objects {
-        Id: 14187911197169058519
-        Name: "CostLabel"
-        Transform {
-          Location {
-            X: 5.82076609e-11
-            Y: -0.0009765625
-          }
-          Rotation {
-            Yaw: 3.4150944e-06
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 6285395150321388009
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Control {
-          Width: 65
-          Height: 45
-          UIX: 60
-          UIY: -13
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Text {
-            Label: "1000"
-            Color {
-              R: 1
-              G: 1
-              B: 1
-              A: 1
-            }
-            Size: 30
-            Justification {
-              Value: "mc:etextjustify:left"
-            }
-            AutoWrapText: true
-            Font {
-              Id: 13496764517644833906
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:bottomleft"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:bottomleft"
-              }
-            }
-          }
-        }
-      }
     }
     Assets {
       Id: 17035680932399989717
@@ -880,21 +879,30 @@ Assets {
       }
     }
     Assets {
-      Id: 3648601778459717986
-      Name: "Fantasy Craft Gem 007"
+      Id: 8714815921343760826
+      Name: "Fantasy Craft Gem 020"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_Fantasy_Crafting_Gem_007"
+        AssetId: "UI_Fantasy_Crafting_Gem_020"
       }
     }
     Assets {
-      Id: 1735192838551116887
-      Name: "Icon Diamond"
+      Id: 13496764517644833906
+      Name: "Teko"
+      PlatformAssetType: 28
+      PrimaryAsset {
+        AssetType: "FontAssetRef"
+        AssetId: "TekoRegular_ref"
+      }
+    }
+    Assets {
+      Id: 12279949948688972134
+      Name: "BG Flat 016"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
-        AssetId: "Icon_Diamond"
+        AssetId: "BackgroundNoOutline_33"
       }
     }
     Assets {
@@ -931,15 +939,6 @@ Assets {
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "BackgroundFlat_032"
-      }
-    }
-    Assets {
-      Id: 13496764517644833906
-      Name: "Teko"
-      PlatformAssetType: 28
-      PrimaryAsset {
-        AssetType: "FontAssetRef"
-        AssetId: "TekoRegular_ref"
       }
     }
     PrimaryAssetId {
