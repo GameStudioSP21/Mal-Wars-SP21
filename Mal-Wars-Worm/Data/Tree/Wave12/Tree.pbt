@@ -1,8 +1,8 @@
 Name: "Wave12"
-RootId: 4244188672895655279
+RootId: 7569099909362102897
 Objects {
-  Id: 1933765837804760474
-  Name: "1 GrWo"
+  Id: 5444039041337451910
+  Name: "1 ReAd"
   Transform {
     Location {
     }
@@ -14,160 +14,60 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4244188672895655279
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Enemy"
-      AssetReference {
-        Id: 1364954756512784228
-      }
-    }
-    Overrides {
-      Name: "cs:Amount"
-      Vector2 {
-        X: 1
-        Y: 1
-      }
-    }
-    Overrides {
-      Name: "cs:HealthMultiplier"
-      Int: 2
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "1 GrWo_10"
-  }
-}
-Objects {
-  Id: 14213785627347711065
-  Name: "1 GrWo"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4244188672895655279
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Enemy"
-      AssetReference {
-        Id: 1364954756512784228
-      }
-    }
-    Overrides {
-      Name: "cs:Amount"
-      Vector2 {
-        X: 1
-        Y: 1
-      }
-    }
-    Overrides {
-      Name: "cs:HealthMultiplier"
-      Int: 2
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "1 GrWo_11"
-  }
-}
-Objects {
-  Id: 9119983375566849433
-  Name: "40 ReVr"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4244188672895655279
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Enemy"
-      AssetReference {
-        Id: 13540676411188992771
-      }
-    }
-    Overrides {
-      Name: "cs:Amount"
-      Vector2 {
-        X: 40
-        Y: 40
-      }
-    }
-    Overrides {
-      Name: "cs:HealthMultiplier"
-      Int: 1
-    }
-    Overrides {
-      Name: "cs:SpeedMultiplier"
-      Int: 2
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "40 ReVr_16"
-  }
-}
-Objects {
-  Id: 4384177108529969134
-  Name: "20 ReAd"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4244188672895655279
+  ParentId: 7569099909362102897
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
       AssetReference {
         Id: 13666678496038779585
+      }
+    }
+    Overrides {
+      Name: "cs:Amount"
+      Vector2 {
+        X: 1
+        Y: 1
+      }
+    }
+    Overrides {
+      Name: "cs:HealthMultiplier"
+      Int: 2
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "1 ReAd_10"
+  }
+}
+Objects {
+  Id: 7595141257610405953
+  Name: "20 ReVi"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7569099909362102897
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Enemy"
+      AssetReference {
+        Id: 1068179392758572193
       }
     }
     Overrides {
@@ -179,10 +79,6 @@ Objects {
     }
     Overrides {
       Name: "cs:HealthMultiplier"
-      Int: 1
-    }
-    Overrides {
-      Name: "cs:SpeedMultiplier"
       Int: 2
     }
   }
@@ -197,12 +93,12 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "20 ReAd_16"
+    FilePartitionName: "20 ReVi_24"
   }
 }
 Objects {
-  Id: 7123980629124014570
-  Name: "1 GrWo"
+  Id: 14753892532932432966
+  Name: "1 ReAd"
   Transform {
     Location {
     }
@@ -214,7 +110,295 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4244188672895655279
+  ParentId: 7569099909362102897
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Enemy"
+      AssetReference {
+        Id: 13666678496038779585
+      }
+    }
+    Overrides {
+      Name: "cs:Amount"
+      Vector2 {
+        X: 1
+        Y: 1
+      }
+    }
+    Overrides {
+      Name: "cs:HealthMultiplier"
+      Int: 2
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "1 ReAd_11"
+  }
+}
+Objects {
+  Id: 4369851732134937419
+  Name: "20 ReVi"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7569099909362102897
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Enemy"
+      AssetReference {
+        Id: 13540676411188992771
+      }
+    }
+    Overrides {
+      Name: "cs:Amount"
+      Vector2 {
+        X: 20
+        Y: 20
+      }
+    }
+    Overrides {
+      Name: "cs:HealthMultiplier"
+      Int: 2
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "20 ReVi_25"
+  }
+}
+Objects {
+  Id: 1101915449731721059
+  Name: "1 ReAd"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7569099909362102897
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Enemy"
+      AssetReference {
+        Id: 13666678496038779585
+      }
+    }
+    Overrides {
+      Name: "cs:Amount"
+      Vector2 {
+        X: 1
+        Y: 1
+      }
+    }
+    Overrides {
+      Name: "cs:HealthMultiplier"
+      Int: 2
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "1 ReAd_12"
+  }
+}
+Objects {
+  Id: 14317442556259310462
+  Name: "20 ReVi"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7569099909362102897
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Enemy"
+      AssetReference {
+        Id: 13540676411188992771
+      }
+    }
+    Overrides {
+      Name: "cs:Amount"
+      Vector2 {
+        X: 20
+        Y: 20
+      }
+    }
+    Overrides {
+      Name: "cs:HealthMultiplier"
+      Int: 2
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "20 ReVi_26"
+  }
+}
+Objects {
+  Id: 2980798771856839435
+  Name: "1 ReAd"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7569099909362102897
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Enemy"
+      AssetReference {
+        Id: 13666678496038779585
+      }
+    }
+    Overrides {
+      Name: "cs:Amount"
+      Vector2 {
+        X: 1
+        Y: 1
+      }
+    }
+    Overrides {
+      Name: "cs:HealthMultiplier"
+      Int: 2
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "1 ReAd_13"
+  }
+}
+Objects {
+  Id: 12367304924701600745
+  Name: "20 ReVi"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7569099909362102897
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Enemy"
+      AssetReference {
+        Id: 13540676411188992771
+      }
+    }
+    Overrides {
+      Name: "cs:Amount"
+      Vector2 {
+        X: 20
+        Y: 20
+      }
+    }
+    Overrides {
+      Name: "cs:HealthMultiplier"
+      Int: 2
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "20 ReVi_27"
+  }
+}
+Objects {
+  Id: 8584680691140056400
+  Name: "1 GrWORM"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7569099909362102897
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -245,110 +429,6 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "1 GrWo_12"
-  }
-}
-Objects {
-  Id: 16067243137105066095
-  Name: "40 ReVr"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4244188672895655279
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Enemy"
-      AssetReference {
-        Id: 13540676411188992771
-      }
-    }
-    Overrides {
-      Name: "cs:Amount"
-      Vector2 {
-        X: 40
-        Y: 40
-      }
-    }
-    Overrides {
-      Name: "cs:HealthMultiplier"
-      Int: 1
-    }
-    Overrides {
-      Name: "cs:SpeedMultiplier"
-      Int: 2
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "40 ReVr_17"
-  }
-}
-Objects {
-  Id: 14366327352878592448
-  Name: "20 ReAd"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4244188672895655279
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Enemy"
-      AssetReference {
-        Id: 13666678496038779585
-      }
-    }
-    Overrides {
-      Name: "cs:Amount"
-      Vector2 {
-        X: 20
-        Y: 20
-      }
-    }
-    Overrides {
-      Name: "cs:HealthMultiplier"
-      Int: 1
-    }
-    Overrides {
-      Name: "cs:SpeedMultiplier"
-      Int: 2
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "20 ReAd_17"
+    FilePartitionName: "1 GrWORM_7"
   }
 }
