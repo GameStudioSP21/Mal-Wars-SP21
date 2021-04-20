@@ -1,8 +1,8 @@
 Name: "Wave1"
-RootId: 12390265369807289167
+RootId: 17826902061044598659
 Objects {
-  Id: 12730741709692196379
-  Name: "8 GreenVirus"
+  Id: 17774052639644645633
+  Name: "8 GrVi"
   Transform {
     Location {
     }
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12390265369807289167
+  ParentId: 17826902061044598659
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -31,7 +31,11 @@ Objects {
     }
     Overrides {
       Name: "cs:HealthMultiplier"
-      Int: 1
+      Int: 2
+    }
+    Overrides {
+      Name: "cs:SpawnDelay"
+      Float: 0.5
     }
   }
   Collidable_v2 {
@@ -45,12 +49,12 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "8 GreenVirus_7"
+    FilePartitionName: "8 GrVi_1"
   }
 }
 Objects {
-  Id: 4494641967336556923
-  Name: "8 GreenVirus"
+  Id: 2708066112513255306
+  Name: "4 GrAd"
   Transform {
     Location {
     }
@@ -62,24 +66,28 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12390265369807289167
+  ParentId: 17826902061044598659
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
       AssetReference {
-        Id: 16361964276280714525
+        Id: 1141579444655500122
       }
     }
     Overrides {
       Name: "cs:Amount"
       Vector2 {
-        X: 8
-        Y: 8
+        X: 4
+        Y: 4
       }
     }
     Overrides {
       Name: "cs:HealthMultiplier"
-      Int: 1
+      Int: 2
+    }
+    Overrides {
+      Name: "cs:SpawnDelay"
+      Float: 0.5
     }
   }
   Collidable_v2 {
@@ -93,12 +101,12 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "8 GreenVirus_8"
+    FilePartitionName: "4 GrAd"
   }
 }
 Objects {
-  Id: 11670348252899415589
-  Name: "8 GreenVirus"
+  Id: 9040338639752239111
+  Name: "8 GrVi"
   Transform {
     Location {
     }
@@ -110,7 +118,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12390265369807289167
+  ParentId: 17826902061044598659
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -127,7 +135,11 @@ Objects {
     }
     Overrides {
       Name: "cs:HealthMultiplier"
-      Int: 1
+      Int: 2
+    }
+    Overrides {
+      Name: "cs:SpawnDelay"
+      Float: 1
     }
   }
   Collidable_v2 {
@@ -141,12 +153,12 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "8 GreenVirus_9"
+    FilePartitionName: "8 GrVi_2"
   }
 }
 Objects {
-  Id: 4155303428395277239
-  Name: "8 GreenVirus"
+  Id: 16069025715177377068
+  Name: "4 GrAd"
   Transform {
     Location {
     }
@@ -158,24 +170,28 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12390265369807289167
+  ParentId: 17826902061044598659
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
       AssetReference {
-        Id: 16361964276280714525
+        Id: 1141579444655500122
       }
     }
     Overrides {
       Name: "cs:Amount"
       Vector2 {
-        X: 8
-        Y: 8
+        X: 4
+        Y: 4
       }
     }
     Overrides {
       Name: "cs:HealthMultiplier"
-      Int: 1
+      Int: 2
+    }
+    Overrides {
+      Name: "cs:SpawnDelay"
+      Float: 1
     }
   }
   Collidable_v2 {
@@ -189,12 +205,12 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "8 GreenVirus_10"
+    FilePartitionName: "4 GrAd_1"
   }
 }
 Objects {
-  Id: 4493091378098985543
-  Name: "8 GreenVirus"
+  Id: 13748135410373414146
+  Name: "8 GrVi"
   Transform {
     Location {
     }
@@ -206,7 +222,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12390265369807289167
+  ParentId: 17826902061044598659
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -223,7 +239,11 @@ Objects {
     }
     Overrides {
       Name: "cs:HealthMultiplier"
-      Int: 1
+      Int: 2
+    }
+    Overrides {
+      Name: "cs:SpawnDelay"
+      Float: 2
     }
   }
   Collidable_v2 {
@@ -237,54 +257,6 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "8 GreenVirus_11"
-  }
-}
-Objects {
-  Id: 8044579249412670753
-  Name: "8 GreenVirus"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12390265369807289167
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Enemy"
-      AssetReference {
-        Id: 16361964276280714525
-      }
-    }
-    Overrides {
-      Name: "cs:Amount"
-      Vector2 {
-        X: 8
-        Y: 8
-      }
-    }
-    Overrides {
-      Name: "cs:HealthMultiplier"
-      Int: 1
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "8 GreenVirus_12"
+    FilePartitionName: "8 GrVi_3"
   }
 }

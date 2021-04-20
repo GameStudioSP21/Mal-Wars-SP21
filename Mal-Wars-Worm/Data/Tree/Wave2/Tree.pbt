@@ -1,8 +1,8 @@
 Name: "Wave2"
-RootId: 6723088296771937254
+RootId: 5670794811343111067
 Objects {
-  Id: 10512119180107921644
-  Name: "5 YeAd"
+  Id: 14349865541243275714
+  Name: "6 GrVi"
   Transform {
     Location {
     }
@@ -14,12 +14,108 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6723088296771937254
+  ParentId: 5670794811343111067
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
       AssetReference {
-        Id: 1068179392758572193
+        Id: 16361964276280714525
+      }
+    }
+    Overrides {
+      Name: "cs:Amount"
+      Vector2 {
+        X: 6
+        Y: 6
+      }
+    }
+    Overrides {
+      Name: "cs:HealthMultiplier"
+      Int: 2
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "6 GrVi"
+  }
+}
+Objects {
+  Id: 12408873959261577008
+  Name: "1 YeVi"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5670794811343111067
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Enemy"
+      AssetReference {
+        Id: 2528637318820086169
+      }
+    }
+    Overrides {
+      Name: "cs:Amount"
+      Vector2 {
+        X: 1
+        Y: 1
+      }
+    }
+    Overrides {
+      Name: "cs:HealthMultiplier"
+      Int: 1
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "1 YeVi"
+  }
+}
+Objects {
+  Id: 5527938193879413790
+  Name: "5 GrAd"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5670794811343111067
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Enemy"
+      AssetReference {
+        Id: 1141579444655500122
       }
     }
     Overrides {
@@ -31,7 +127,7 @@ Objects {
     }
     Overrides {
       Name: "cs:HealthMultiplier"
-      Int: 1
+      Int: 3
     }
   }
   Collidable_v2 {
@@ -45,12 +141,12 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "5 YeAd_5"
+    FilePartitionName: "5 GrAd"
   }
 }
 Objects {
-  Id: 5742425230158854303
-  Name: "12 GrVi"
+  Id: 10033385961030913632
+  Name: "1 YeVi"
   Transform {
     Location {
     }
@@ -62,19 +158,19 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6723088296771937254
+  ParentId: 5670794811343111067
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
       AssetReference {
-        Id: 16361964276280714525
+        Id: 2528637318820086169
       }
     }
     Overrides {
       Name: "cs:Amount"
       Vector2 {
-        X: 12
-        Y: 12
+        X: 1
+        Y: 1
       }
     }
     Overrides {
@@ -93,12 +189,12 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "12 GrVi_1"
+    FilePartitionName: "1 YeVi_1"
   }
 }
 Objects {
-  Id: 8462937979199583057
-  Name: "8 GreenVirus"
+  Id: 4853364645789319454
+  Name: "8 GrVi"
   Transform {
     Location {
     }
@@ -110,7 +206,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6723088296771937254
+  ParentId: 5670794811343111067
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -127,6 +223,54 @@ Objects {
     }
     Overrides {
       Name: "cs:HealthMultiplier"
+      Int: 2
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "8 GrVi"
+  }
+}
+Objects {
+  Id: 1646133037556960108
+  Name: "1 YeVi"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5670794811343111067
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Enemy"
+      AssetReference {
+        Id: 2528637318820086169
+      }
+    }
+    Overrides {
+      Name: "cs:Amount"
+      Vector2 {
+        X: 1
+        Y: 1
+      }
+    }
+    Overrides {
+      Name: "cs:HealthMultiplier"
       Int: 1
     }
   }
@@ -141,12 +285,12 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "8 GreenVirus_5"
+    FilePartitionName: "1 YeVi_2"
   }
 }
 Objects {
-  Id: 11821448775622322742
-  Name: "5 YeAd"
+  Id: 1439813820132063802
+  Name: "5 GrAds"
   Transform {
     Location {
     }
@@ -158,12 +302,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6723088296771937254
+  ParentId: 5670794811343111067
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
       AssetReference {
-        Id: 1068179392758572193
+        Id: 1141579444655500122
       }
     }
     Overrides {
@@ -175,7 +319,7 @@ Objects {
     }
     Overrides {
       Name: "cs:HealthMultiplier"
-      Int: 1
+      Int: 3
     }
   }
   Collidable_v2 {
@@ -189,12 +333,12 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "5 YeAd_6"
+    FilePartitionName: "5 GrAds"
   }
 }
 Objects {
-  Id: 11966692648636615644
-  Name: "8 GreenVirus"
+  Id: 339566351259588762
+  Name: "1 YeVi"
   Transform {
     Location {
     }
@@ -206,19 +350,19 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6723088296771937254
+  ParentId: 5670794811343111067
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
       AssetReference {
-        Id: 16361964276280714525
+        Id: 2528637318820086169
       }
     }
     Overrides {
       Name: "cs:Amount"
       Vector2 {
-        X: 8
-        Y: 8
+        X: 1
+        Y: 1
       }
     }
     Overrides {
@@ -237,12 +381,12 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "8 GreenVirus_6"
+    FilePartitionName: "1 YeVi_3"
   }
 }
 Objects {
-  Id: 2942484288675799204
-  Name: "12 GrVi"
+  Id: 13006681980376155270
+  Name: "4 GrVi"
   Transform {
     Location {
     }
@@ -254,7 +398,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6723088296771937254
+  ParentId: 5670794811343111067
   UnregisteredParameters {
     Overrides {
       Name: "cs:Enemy"
@@ -265,13 +409,13 @@ Objects {
     Overrides {
       Name: "cs:Amount"
       Vector2 {
-        X: 12
-        Y: 12
+        X: 4
+        Y: 4
       }
     }
     Overrides {
       Name: "cs:HealthMultiplier"
-      Int: 1
+      Int: 2
     }
   }
   Collidable_v2 {
@@ -285,6 +429,6 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "12 GrVi_2"
+    FilePartitionName: "4 GrVi"
   }
 }

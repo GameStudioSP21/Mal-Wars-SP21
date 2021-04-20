@@ -1,8 +1,67 @@
 Name: "Citadel"
 RootId: 11302024653263081212
 Objects {
-  Id: 845373224620542606
-  Name: "Wave20"
+  Id: 4615279252152032158
+  Name: "Wave24"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11302024653263081212
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SpawnDelay"
+      Float: 0.6
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:IsBossWave"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 500
+    }
+    Overrides {
+      Name: "cs:SpawnDelay:tooltip"
+      String: "How often an enemy should spawn from the enemy table below"
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning:tooltip"
+      String: "Spawns the enemies in order from top of the hierarchy to bottom from the wave group. Leave this off if you want randomization."
+    }
+    Overrides {
+      Name: "cs:IsBossWave:tooltip"
+      String: "Marks a wave as a boss wave."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Wave24"
+  }
+}
+Objects {
+  Id: 14539679773509667243
+  Name: "Wave23"
   Transform {
     Location {
     }
@@ -27,6 +86,187 @@ Objects {
     Overrides {
       Name: "cs:IsBossWave"
       Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 500
+    }
+    Overrides {
+      Name: "cs:SpawnDelay:tooltip"
+      String: "How often an enemy should spawn from the enemy table below"
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning:tooltip"
+      String: "Spawns the enemies in order from top of the hierarchy to bottom from the wave group. Leave this off if you want randomization."
+    }
+    Overrides {
+      Name: "cs:IsBossWave:tooltip"
+      String: "Marks a wave as a boss wave."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Wave23"
+  }
+}
+Objects {
+  Id: 8576493763643339889
+  Name: "Wave22"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11302024653263081212
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SpawnDelay"
+      Float: 0.4
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:IsBossWave"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 500
+    }
+    Overrides {
+      Name: "cs:SpawnDelay:tooltip"
+      String: "How often an enemy should spawn from the enemy table below"
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning:tooltip"
+      String: "Spawns the enemies in order from top of the hierarchy to bottom from the wave group. Leave this off if you want randomization."
+    }
+    Overrides {
+      Name: "cs:IsBossWave:tooltip"
+      String: "Marks a wave as a boss wave."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Wave22"
+  }
+}
+Objects {
+  Id: 9224364082243859384
+  Name: "Wave21"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11302024653263081212
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SpawnDelay"
+      Float: 0.5
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:IsBossWave"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 500
+    }
+    Overrides {
+      Name: "cs:SpawnDelay:tooltip"
+      String: "How often an enemy should spawn from the enemy table below"
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning:tooltip"
+      String: "Spawns the enemies in order from top of the hierarchy to bottom from the wave group. Leave this off if you want randomization."
+    }
+    Overrides {
+      Name: "cs:IsBossWave:tooltip"
+      String: "Marks a wave as a boss wave."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Wave21"
+  }
+}
+Objects {
+  Id: 6109444223739879265
+  Name: "Wave20"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11302024653263081212
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:SpawnDelay"
+      Float: 0.5
+    }
+    Overrides {
+      Name: "cs:InOrderSpawning"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:IsBossWave"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 500
     }
     Overrides {
       Name: "cs:SpawnDelay:tooltip"
@@ -56,7 +296,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15333155250588802999
+  Id: 7934713095067302303
   Name: "Wave19"
   Transform {
     Location {
@@ -73,7 +313,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
-      Float: 0.4
+      Float: 0.5
     }
     Overrides {
       Name: "cs:InOrderSpawning"
@@ -82,6 +322,10 @@ Objects {
     Overrides {
       Name: "cs:IsBossWave"
       Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 500
     }
     Overrides {
       Name: "cs:SpawnDelay:tooltip"
@@ -111,7 +355,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7095791720600297830
+  Id: 736357979430919769
   Name: "Wave18"
   Transform {
     Location {
@@ -128,7 +372,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
-      Float: 0.4
+      Float: 0.55
     }
     Overrides {
       Name: "cs:InOrderSpawning"
@@ -137,6 +381,10 @@ Objects {
     Overrides {
       Name: "cs:IsBossWave"
       Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 500
     }
     Overrides {
       Name: "cs:SpawnDelay:tooltip"
@@ -166,7 +414,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8411637349747737954
+  Id: 18146620846492801612
   Name: "Wave17"
   Transform {
     Location {
@@ -183,7 +431,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
-      Float: 0.4
+      Float: 0.55
     }
     Overrides {
       Name: "cs:InOrderSpawning"
@@ -192,6 +440,10 @@ Objects {
     Overrides {
       Name: "cs:IsBossWave"
       Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 500
     }
     Overrides {
       Name: "cs:SpawnDelay:tooltip"
@@ -221,7 +473,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1268645577492611455
+  Id: 4975386891558389616
   Name: "Wave16"
   Transform {
     Location {
@@ -238,7 +490,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
-      Float: 0.4
+      Float: 0.6
     }
     Overrides {
       Name: "cs:InOrderSpawning"
@@ -246,7 +498,11 @@ Objects {
     }
     Overrides {
       Name: "cs:IsBossWave"
-      Bool: false
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 500
     }
     Overrides {
       Name: "cs:SpawnDelay:tooltip"
@@ -276,7 +532,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13834871133390003945
+  Id: 13140148190126020850
   Name: "Wave15"
   Transform {
     Location {
@@ -302,6 +558,10 @@ Objects {
     Overrides {
       Name: "cs:IsBossWave"
       Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 500
     }
     Overrides {
       Name: "cs:SpawnDelay:tooltip"
@@ -331,7 +591,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13451617723709662368
+  Id: 13173962186842227723
   Name: "Wave14"
   Transform {
     Location {
@@ -357,6 +617,10 @@ Objects {
     Overrides {
       Name: "cs:IsBossWave"
       Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 500
     }
     Overrides {
       Name: "cs:SpawnDelay:tooltip"
@@ -386,7 +650,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12946402785960565073
+  Id: 14872124360374791798
   Name: "Wave13"
   Transform {
     Location {
@@ -403,7 +667,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
-      Float: 0.4
+      Float: 0.5
     }
     Overrides {
       Name: "cs:InOrderSpawning"
@@ -412,6 +676,10 @@ Objects {
     Overrides {
       Name: "cs:IsBossWave"
       Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 600
     }
     Overrides {
       Name: "cs:SpawnDelay:tooltip"
@@ -441,7 +709,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4244188672895655279
+  Id: 7569099909362102897
   Name: "Wave12"
   Transform {
     Location {
@@ -458,7 +726,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
-      Float: 0.4
+      Float: 0.5
     }
     Overrides {
       Name: "cs:InOrderSpawning"
@@ -467,6 +735,10 @@ Objects {
     Overrides {
       Name: "cs:IsBossWave"
       Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 500
     }
     Overrides {
       Name: "cs:SpawnDelay:tooltip"
@@ -496,7 +768,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15513902267303467870
+  Id: 13552263911257433650
   Name: "Wave11"
   Transform {
     Location {
@@ -513,7 +785,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
-      Float: 0.4
+      Float: 0.5
     }
     Overrides {
       Name: "cs:InOrderSpawning"
@@ -522,6 +794,10 @@ Objects {
     Overrides {
       Name: "cs:IsBossWave"
       Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 500
     }
     Overrides {
       Name: "cs:SpawnDelay:tooltip"
@@ -551,7 +827,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7182615975522505540
+  Id: 1514246469115904637
   Name: "Wave10"
   Transform {
     Location {
@@ -568,7 +844,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
-      Float: 0.4
+      Float: 0.55
     }
     Overrides {
       Name: "cs:InOrderSpawning"
@@ -577,6 +853,10 @@ Objects {
     Overrides {
       Name: "cs:IsBossWave"
       Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 500
     }
     Overrides {
       Name: "cs:SpawnDelay:tooltip"
@@ -606,7 +886,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14063528035917622074
+  Id: 1140158813528322125
   Name: "Wave9"
   Transform {
     Location {
@@ -623,7 +903,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
-      Float: 1
+      Float: 0.55
     }
     Overrides {
       Name: "cs:InOrderSpawning"
@@ -632,6 +912,10 @@ Objects {
     Overrides {
       Name: "cs:IsBossWave"
       Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 500
     }
     Overrides {
       Name: "cs:SpawnDelay:tooltip"
@@ -661,7 +945,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14110746566346146217
+  Id: 4586475596566760649
   Name: "Wave8"
   Transform {
     Location {
@@ -678,7 +962,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
-      Float: 0.4
+      Float: 0.6
     }
     Overrides {
       Name: "cs:InOrderSpawning"
@@ -686,7 +970,11 @@ Objects {
     }
     Overrides {
       Name: "cs:IsBossWave"
-      Bool: false
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 500
     }
     Overrides {
       Name: "cs:SpawnDelay:tooltip"
@@ -716,7 +1004,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5260683574071450563
+  Id: 13067413721068988062
   Name: "Wave7"
   Transform {
     Location {
@@ -733,7 +1021,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
-      Float: 1.5
+      Float: 0.6
     }
     Overrides {
       Name: "cs:InOrderSpawning"
@@ -742,6 +1030,10 @@ Objects {
     Overrides {
       Name: "cs:IsBossWave"
       Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 500
     }
     Overrides {
       Name: "cs:SpawnDelay:tooltip"
@@ -771,7 +1063,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13510314813940769590
+  Id: 5191509389754192919
   Name: "Wave6"
   Transform {
     Location {
@@ -788,7 +1080,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
-      Float: 0.55
+      Float: 0.6
     }
     Overrides {
       Name: "cs:InOrderSpawning"
@@ -797,6 +1089,10 @@ Objects {
     Overrides {
       Name: "cs:IsBossWave"
       Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 500
     }
     Overrides {
       Name: "cs:SpawnDelay:tooltip"
@@ -826,7 +1122,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7691821806201168351
+  Id: 12146583638212997454
   Name: "Wave5"
   Transform {
     Location {
@@ -843,7 +1139,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
-      Float: 0.3
+      Float: 0.5
     }
     Overrides {
       Name: "cs:InOrderSpawning"
@@ -852,6 +1148,10 @@ Objects {
     Overrides {
       Name: "cs:IsBossWave"
       Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 400
     }
     Overrides {
       Name: "cs:SpawnDelay:tooltip"
@@ -881,7 +1181,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13625700244567151318
+  Id: 16832834710498291304
   Name: "Wave4"
   Transform {
     Location {
@@ -898,7 +1198,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
-      Float: 0.7
+      Float: 0.6
     }
     Overrides {
       Name: "cs:InOrderSpawning"
@@ -907,6 +1207,10 @@ Objects {
     Overrides {
       Name: "cs:IsBossWave"
       Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 250
     }
     Overrides {
       Name: "cs:SpawnDelay:tooltip"
@@ -936,7 +1240,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11514468981711329624
+  Id: 10992785585985185432
   Name: "Wave3"
   Transform {
     Location {
@@ -953,7 +1257,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
-      Float: 0.65
+      Float: 0.6
     }
     Overrides {
       Name: "cs:InOrderSpawning"
@@ -961,7 +1265,11 @@ Objects {
     }
     Overrides {
       Name: "cs:IsBossWave"
-      Bool: true
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 200
     }
     Overrides {
       Name: "cs:SpawnDelay:tooltip"
@@ -991,7 +1299,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6723088296771937254
+  Id: 5670794811343111067
   Name: "Wave2"
   Transform {
     Location {
@@ -1008,7 +1316,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnDelay"
-      Float: 0.5
+      Float: 0.6
     }
     Overrides {
       Name: "cs:InOrderSpawning"
@@ -1017,6 +1325,10 @@ Objects {
     Overrides {
       Name: "cs:IsBossWave"
       Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 150
     }
     Overrides {
       Name: "cs:SpawnDelay:tooltip"
@@ -1046,7 +1358,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12390265369807289167
+  Id: 17826902061044598659
   Name: "Wave1"
   Transform {
     Location {
@@ -1072,6 +1384,10 @@ Objects {
     Overrides {
       Name: "cs:IsBossWave"
       Bool: false
+    }
+    Overrides {
+      Name: "cs:WavePayout"
+      Int: 100
     }
     Overrides {
       Name: "cs:SpawnDelay:tooltip"

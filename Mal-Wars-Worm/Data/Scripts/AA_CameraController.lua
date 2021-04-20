@@ -13,7 +13,7 @@ local BoundVectors = {}
 local frameDir = Vector3.ZERO
 local frameVel = Vector3.ZERO
 local intentVel = Vector3.ZERO
-local INTENT_MAG = 3000
+local INTENT_MAG = 6000
 
 --bind constants for W, A, S, D
 local W_BIND = "ability_extra_21"
