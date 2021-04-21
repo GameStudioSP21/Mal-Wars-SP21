@@ -36,7 +36,7 @@ local WavesEndedFailedSound = script:GetCustomProperty("WaveStartedSound")    --
 
 waveManager.OnWavesEndedComplete:Connect(function()
     PlaySFX(WavesEndedCompleteSound)
-    WAVE_TEXT.text = "Congratulations!"
+    WAVE_TEXT.text = "Congratulations"
     WAVE_DISPLAYER_PANEL.visibility = Visibility.FORCE_ON
     Task.Wait(2)
     WAVE_DISPLAYER_PANEL.visibility = Visibility.FORCE_OFF
