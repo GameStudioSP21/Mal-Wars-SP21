@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7943313724828989499
+  Name: "BG Highlighted 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundHighlighted_019"
+  }
+}
+Assets {
   Id: 7455088443063741048
   Name: "Sci-fi Corners 006"
   PlatformAssetType: 9

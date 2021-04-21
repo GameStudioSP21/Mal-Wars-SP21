@@ -143,15 +143,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3702191406046426907
-  Name: "Emissive Glow Transparent"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_basic_emissive_001"
-  }
-}
-Assets {
   Id: 3628780303828917058
   Name: "Sci-fi Console Hinge 01"
   PlatformAssetType: 1

@@ -1,6 +1,270 @@
 Name: "Arena end"
 RootId: 8963707200187177030
 Objects {
+  Id: 3483060961514397882
+  Name: "Waterfall Straight"
+  Transform {
+    Location {
+      X: -9444.94238
+      Y: -3364.94971
+      Z: 3201.89917
+    }
+    Rotation {
+      Pitch: 10.6875792
+      Yaw: 2.04905591e-05
+      Roll: 8.28595601e-13
+    }
+    Scale {
+      X: 1.25
+      Y: 5
+      Z: 42
+    }
+  }
+  ParentId: 8963707200187177030
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:waterfall:color"
+      Color {
+        R: 0.572549045
+        G: 0.10980393
+        A: 0.800000072
+      }
+    }
+    Overrides {
+      Name: "ma:waterfall:utile"
+      Float: 1.63642967
+    }
+    Overrides {
+      Name: "ma:waterfall:id"
+      AssetReference {
+        Id: 4287195717602468396
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6425400758231323251
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2005282778236012974
+  Name: "Waterfall Straight"
+  Transform {
+    Location {
+      X: -9837.36816
+      Y: -1394.97766
+      Z: 3201.89917
+    }
+    Rotation {
+      Pitch: 10.6875792
+      Yaw: 2.04905591e-05
+      Roll: 8.28595601e-13
+    }
+    Scale {
+      X: 1.25
+      Y: 5
+      Z: 42
+    }
+  }
+  ParentId: 8963707200187177030
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:waterfall:color"
+      Color {
+        R: 0.572549045
+        G: 0.10980393
+        A: 0.800000072
+      }
+    }
+    Overrides {
+      Name: "ma:waterfall:utile"
+      Float: 1.63642967
+    }
+    Overrides {
+      Name: "ma:waterfall:id"
+      AssetReference {
+        Id: 4287195717602468396
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6425400758231323251
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 17319145038823647503
+  Name: "Waterfall Straight"
+  Transform {
+    Location {
+      X: -9837.625
+      Y: 90.0121155
+      Z: 3201.89917
+    }
+    Rotation {
+      Pitch: 10.6875792
+      Yaw: 2.04905591e-05
+      Roll: 8.28595601e-13
+    }
+    Scale {
+      X: 1.25
+      Y: 5
+      Z: 42
+    }
+  }
+  ParentId: 8963707200187177030
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:waterfall:color"
+      Color {
+        R: 0.572549045
+        G: 0.10980393
+        A: 0.800000072
+      }
+    }
+    Overrides {
+      Name: "ma:waterfall:utile"
+      Float: 1.63642967
+    }
+    Overrides {
+      Name: "ma:waterfall:id"
+      AssetReference {
+        Id: 4287195717602468396
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6425400758231323251
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 11537685830533508772
+  Name: "Waterfall Straight"
+  Transform {
+    Location {
+      X: -9838.17871
+      Y: 1574.9635
+      Z: 3201.89917
+    }
+    Rotation {
+      Pitch: 10.6875792
+      Yaw: 2.04905591e-05
+      Roll: 6.21446688e-13
+    }
+    Scale {
+      X: 1.25
+      Y: 5
+      Z: 42
+    }
+  }
+  ParentId: 8963707200187177030
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:waterfall:color"
+      Color {
+        R: 0.572549045
+        G: 0.10980393
+        A: 0.800000072
+      }
+    }
+    Overrides {
+      Name: "ma:waterfall:utile"
+      Float: 1.63642967
+    }
+    Overrides {
+      Name: "ma:waterfall:id"
+      AssetReference {
+        Id: 4287195717602468396
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6425400758231323251
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
   Id: 6751300026662266697
   Name: "wall corner"
   Transform {
@@ -5024,6 +5288,12 @@ Objects {
       Name: "ma:waterfall:utile"
       Float: 0.43598038
     }
+    Overrides {
+      Name: "ma:waterfall:id"
+      AssetReference {
+        Id: 4287195717602468396
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -5084,6 +5354,12 @@ Objects {
       Name: "ma:waterfall:utile"
       Float: 0.371995896
     }
+    Overrides {
+      Name: "ma:waterfall:id"
+      AssetReference {
+        Id: 4287195717602468396
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -5115,8 +5391,8 @@ Objects {
   Name: "Waterfall Straight"
   Transform {
     Location {
-      X: -9838.83594
-      Y: 1718.29114
+      X: -9838.49121
+      Y: 3284.92627
       Z: 3201.89917
     }
     Rotation {
@@ -5125,9 +5401,9 @@ Objects {
       Roll: 1.0357445e-13
     }
     Scale {
-      X: 1.31194448
-      Y: 10.8296051
-      Z: 42.0843925
+      X: 1.25
+      Y: 5
+      Z: 42
     }
   }
   ParentId: 8963707200187177030
@@ -5143,6 +5419,12 @@ Objects {
     Overrides {
       Name: "ma:waterfall:utile"
       Float: 1.63642967
+    }
+    Overrides {
+      Name: "ma:waterfall:id"
+      AssetReference {
+        Id: 4287195717602468396
+      }
     }
   }
   Collidable_v2 {

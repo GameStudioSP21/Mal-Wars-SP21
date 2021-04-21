@@ -1,6 +1,944 @@
 Name: "Environment_1"
 RootId: 16523348789993916465
 Objects {
+  Id: 3940636085358032357
+  Name: "Sci-fi Base Trim 02 Corner"
+  Transform {
+    Location {
+      X: -15577.8594
+      Y: 2409.31299
+      Z: -3374.5
+    }
+    Rotation {
+      Pitch: 0.602053821
+      Yaw: -89.6058655
+      Roll: 34.0292625
+    }
+    Scale {
+      X: 3.60289979
+      Y: -28.4591599
+      Z: 20.3841515
+    }
+  }
+  ParentId: 16523348789993916465
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.679999948
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 6804300755520122592
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7600537011961299779
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 603802811683179843
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 1076878790329670734
+  Name: "Sci-fi Base Trim 02 Corner"
+  Transform {
+    Location {
+      X: -15577.8594
+      Y: 2409.31299
+      Z: -3375
+    }
+    Rotation {
+      Pitch: 0.601937711
+      Yaw: -89.6058044
+      Roll: 34.0293312
+    }
+    Scale {
+      X: -3.60289979
+      Y: -28.4591599
+      Z: 20.3841515
+    }
+  }
+  ParentId: 16523348789993916465
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.679999948
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 6804300755520122592
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7600537011961299779
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 603802811683179843
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 2738854793301126447
+  Name: "Sci-fi Base Trim 02 Corner"
+  Transform {
+    Location {
+      X: -15580.4043
+      Y: 1964.31299
+      Z: -3378.88965
+    }
+    Rotation {
+      Pitch: 0.601937711
+      Yaw: -89.6058044
+      Roll: 34.0292892
+    }
+    Scale {
+      X: -3.60289407
+      Y: -45.9918289
+      Z: 20.3841705
+    }
+  }
+  ParentId: 16523348789993916465
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.679999948
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 6804300755520122592
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7600537011961299779
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 603802811683179843
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 815743060394562263
+  Name: "Sci-fi Base Trim 02 Corner"
+  Transform {
+    Location {
+      X: -15580.4043
+      Y: 1964.31299
+      Z: -3378.88965
+    }
+    Rotation {
+      Pitch: 0.602053821
+      Yaw: -89.605896
+      Roll: 34.0292435
+    }
+    Scale {
+      X: 3.60289407
+      Y: -45.9918289
+      Z: 20.3841705
+    }
+  }
+  ParentId: 16523348789993916465
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.679999948
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 6804300755520122592
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7600537011961299779
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 603802811683179843
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 11816311131297052756
+  Name: "Sci-fi Base Trim 02 Corner"
+  Transform {
+    Location {
+      X: -15577.8594
+      Y: 2019.31299
+      Z: -3374.5
+    }
+    Rotation {
+      Pitch: 0.602053821
+      Yaw: -89.6058655
+      Roll: 34.0292625
+    }
+    Scale {
+      X: 3.60289979
+      Y: -28.4591599
+      Z: 20.3841515
+    }
+  }
+  ParentId: 16523348789993916465
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.679999948
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 6804300755520122592
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7600537011961299779
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 603802811683179843
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 8681364237902000303
+  Name: "Sci-fi Base Trim 02 Corner"
+  Transform {
+    Location {
+      X: -15577.8594
+      Y: 2019.31299
+      Z: -3375
+    }
+    Rotation {
+      Pitch: 0.601937711
+      Yaw: -89.6058044
+      Roll: 34.0293312
+    }
+    Scale {
+      X: -3.60289979
+      Y: -28.4591599
+      Z: 20.3841515
+    }
+  }
+  ParentId: 16523348789993916465
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.679999948
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 6804300755520122592
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7600537011961299779
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 603802811683179843
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 16435838159184558399
+  Name: "Sci-fi Base Trim 02 Corner"
+  Transform {
+    Location {
+      X: -15522.4082
+      Y: 1394.31299
+      Z: -3360.72949
+    }
+    Rotation {
+      Pitch: 1.50890481
+      Yaw: -87.2130127
+      Roll: 34.0728226
+    }
+    Scale {
+      X: 9.98265839
+      Y: -125.528023
+      Z: 13.0868759
+    }
+  }
+  ParentId: 16523348789993916465
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.679999948
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 6804300755520122592
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7600537011961299779
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 603802811683179843
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 10884871977541688727
+  Name: "Sci-fi Base Trim 02 Corner"
+  Transform {
+    Location {
+      X: -15522.4082
+      Y: 1394.31299
+      Z: -3360.72949
+    }
+    Rotation {
+      Pitch: 1.5088228
+      Yaw: -87.2130127
+      Roll: 34.0728645
+    }
+    Scale {
+      X: -9.98265839
+      Y: -125.528023
+      Z: 13.0868759
+    }
+  }
+  ParentId: 16523348789993916465
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.679999948
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 6804300755520122592
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7600537011961299779
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 603802811683179843
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 9910409254164873865
+  Name: "Sci-fi Base Trim 02 Corner"
+  Transform {
+    Location {
+      X: -15588.7813
+      Y: 699.313
+      Z: -3391.18848
+    }
+    Rotation {
+      Pitch: 0.602053821
+      Yaw: -89.6059265
+      Roll: 34.0292206
+    }
+    Scale {
+      X: 3.6028955
+      Y: -75.1386719
+      Z: 20.3841457
+    }
+  }
+  ParentId: 16523348789993916465
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.679999948
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 6804300755520122592
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7600537011961299779
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 603802811683179843
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 6817011829569916898
+  Name: "Sci-fi Base Trim 02 Corner"
+  Transform {
+    Location {
+      X: -15588.7813
+      Y: 699.313
+      Z: -3391.18848
+    }
+    Rotation {
+      Pitch: 0.601937711
+      Yaw: -89.605835
+      Roll: 34.0292664
+    }
+    Scale {
+      X: -3.6028955
+      Y: -75.1386719
+      Z: 20.3841457
+    }
+  }
+  ParentId: 16523348789993916465
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.679999948
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 6804300755520122592
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7600537011961299779
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 603802811683179843
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3220499691852293828
+  Name: "Sci-fi Base Trim 02 Corner"
+  Transform {
+    Location {
+      X: -15591.6465
+      Y: 254.312988
+      Z: -3395.56738
+    }
+    Rotation {
+      Pitch: 0.602053821
+      Yaw: -89.6059265
+      Roll: 34.0291977
+    }
+    Scale {
+      X: 3.60289669
+      Y: -94.8739624
+      Z: 20.3841267
+    }
+  }
+  ParentId: 16523348789993916465
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.679999948
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 6804300755520122592
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7600537011961299779
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 603802811683179843
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 3948756977120098602
+  Name: "Sci-fi Base Trim 02 Corner"
+  Transform {
+    Location {
+      X: -15591.6465
+      Y: 254.312988
+      Z: -3395.56738
+    }
+    Rotation {
+      Pitch: 0.601937711
+      Yaw: -89.6058655
+      Roll: 34.0292473
+    }
+    Scale {
+      X: -3.60289669
+      Y: -94.8739624
+      Z: 20.3841267
+    }
+  }
+  ParentId: 16523348789993916465
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.679999948
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 6804300755520122592
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7600537011961299779
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 603802811683179843
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 4524842059729653083
+  Name: "Sci-fi Base Trim 02 Corner"
+  Transform {
+    Location {
+      X: -15594.3574
+      Y: -260.687
+      Z: -3399.70898
+    }
+    Rotation {
+      Pitch: 0.601937711
+      Yaw: -89.6058655
+      Roll: 34.0292587
+    }
+    Scale {
+      X: -3.60289693
+      Y: -125.528145
+      Z: 20.384119
+    }
+  }
+  ParentId: 16523348789993916465
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.679999948
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 6804300755520122592
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7600537011961299779
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 603802811683179843
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
+  Id: 15775827059236658690
+  Name: "Sci-fi Base Trim 02 Corner"
+  Transform {
+    Location {
+      X: -15594.3574
+      Y: -360.687
+      Z: -3399.70898
+    }
+    Rotation {
+      Pitch: 0.601951361
+      Yaw: -89.605896
+      Roll: 34.0292435
+    }
+    Scale {
+      X: -3.60289693
+      Y: -125.528145
+      Z: 20.384119
+    }
+  }
+  ParentId: 16523348789993916465
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_Trim:color"
+      Color {
+        R: 0.679999948
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_Trim:id"
+      AssetReference {
+        Id: 6804300755520122592
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 7600537011961299779
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 603802811683179843
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
   Id: 12350972710131142815
   Name: "Sci-fi Base Trim 02 Corner"
   Transform {
@@ -744,7 +1682,7 @@ Objects {
     Location {
       X: -15577.8594
       Y: -3048.69019
-      Z: -3374.5
+      Z: -3375
     }
     Rotation {
       Pitch: 0.601937711
@@ -811,7 +1749,7 @@ Objects {
     Location {
       X: -15580.4043
       Y: -2678.52173
-      Z: -3378.38965
+      Z: -3378.88965
     }
     Rotation {
       Pitch: 0.602053821
@@ -878,7 +1816,7 @@ Objects {
     Location {
       X: -15580.4043
       Y: -2678.52173
-      Z: -3378.38965
+      Z: -3378.88965
     }
     Rotation {
       Pitch: 0.601937711

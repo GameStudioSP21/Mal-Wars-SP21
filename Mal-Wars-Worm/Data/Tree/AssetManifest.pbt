@@ -17,12 +17,12 @@ Assets {
   }
 }
 Assets {
-  Id: 14697405062555329113
-  Name: "Ambient Occlusion Post Process"
+  Id: 15653261135568857283
+  Name: "Screen Space Reflection Post Process"
   PlatformAssetType: 6
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
-    AssetId: "fxbp_post_process_ao"
+    AssetId: "fxbp_post_process_ssr"
   }
 }
 Assets {

@@ -674,8 +674,8 @@ Objects {
   ChildIds: 15825425262282164644
   ChildIds: 13103196848826943537
   ChildIds: 15847743060057134370
-  ChildIds: 15343218338803713961
   ChildIds: 3987495441708877641
+  ChildIds: 2843076997967222832
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -689,6 +689,60 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 2843076997967222832
+  Name: "Screen Space Reflection Post Process"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14232324405612058767
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Unbounded"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Blend Weight"
+      Float: 1
+    }
+    Overrides {
+      Name: "bp:Reflection Intensity"
+      Float: 1
+    }
+    Overrides {
+      Name: "bp:Quality Level"
+      Float: 1
+    }
+    Overrides {
+      Name: "bp:Max Roughness"
+      Float: 1
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 15653261135568857283
+    }
+    TeamSettings {
+    }
   }
 }
 Objects {
@@ -762,69 +816,6 @@ Objects {
   Blueprint {
     BlueprintAsset {
       Id: 13233871270695014526
-    }
-    TeamSettings {
-    }
-  }
-}
-Objects {
-  Id: 15343218338803713961
-  Name: "Ambient Occlusion Post Process"
-  Transform {
-    Location {
-      Y: -875
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14232324405612058767
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Intensity"
-      Float: 1
-    }
-    Overrides {
-      Name: "bp:Radius"
-      Float: 500
-    }
-    Overrides {
-      Name: "bp:Power"
-      Float: 8
-    }
-    Overrides {
-      Name: "bp:Bias"
-      Float: 2.42518616
-    }
-    Overrides {
-      Name: "bp:Quality"
-      Float: 26.8257694
-    }
-    Overrides {
-      Name: "bp:Mip Blend"
-      Float: 0.624952734
-    }
-    Overrides {
-      Name: "bp:Mip Scale"
-      Float: 1.76903224
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 14697405062555329113
     }
     TeamSettings {
     }
