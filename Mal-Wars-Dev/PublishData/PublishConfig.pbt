@@ -9,7 +9,7 @@ Tags: "TowerDefense"
 Tags: "Action"
 Tags: "Casual"
 ScreenshotPaths: "D:/Documents/CORE/Mal-Wars-SP21/Mal-Wars-Dev/Screenshots/Screenshot0001.png"
-ReleaseNotes: "Playtest prior to final release."
+ReleaseNotes: "Push for dry run."
 OwnerId: "915299ba3314494bbd5eb7a67d954099"
 SerializationVersion: 1
 PublishedState: Child
