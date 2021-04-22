@@ -822,6 +822,7 @@ Assets {
         ChildIds: 2112706570662833807
         ChildIds: 5929573490680234145
         ChildIds: 12339798927478998166
+        ChildIds: 5956260053164367352
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1058,6 +1059,68 @@ Assets {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
               Id: 4685798713724418805
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.103576154
+              G: 0.679999948
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 198353679974341757
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 5956260053164367352
+        Name: "Cube - Bottom-Aligned"
+        Transform {
+          Location {
+            X: -170
+            Z: 144.372253
+          }
+          Rotation {
+            Pitch: 90
+            Yaw: 36.8698807
+            Roll: 36.8698807
+          }
+          Scale {
+            X: 1.68455672
+            Y: 0.0605051704
+            Z: -3.43132806
+          }
+        }
+        ParentId: 7903270856172829458
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 3964388816130468067
             }
           }
           Overrides {

@@ -28,6 +28,7 @@ Assets {
         ChildIds: 11773652193257100322
         ChildIds: 16788892893969995305
         ChildIds: 6672208935934751285
+        ChildIds: 14328538769885934702
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -760,6 +761,65 @@ Assets {
           }
         }
       }
+      Objects {
+        Id: 14328538769885934702
+        Name: "Cube - Bottom-Aligned"
+        Transform {
+          Location {
+            X: -5
+            Y: -3.55615234
+            Z: -1.08935547
+          }
+          Rotation {
+          }
+          Scale {
+            X: 3.3752284
+            Y: 0.129345715
+            Z: 2.11366725
+          }
+        }
+        ParentId: 1910906516429423080
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 11145741338037465232
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.78
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 10490007734125876673
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+          }
+        }
+      }
     }
     Assets {
       Id: 10490007734125876673
@@ -822,6 +882,15 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_panel_1x3m_angledR_001"
+      }
+    }
+    Assets {
+      Id: 11145741338037465232
+      Name: "Additive Soft Edge"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "fxma_additive_edgefade"
       }
     }
     PrimaryAssetId {
