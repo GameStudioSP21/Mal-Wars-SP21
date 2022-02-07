@@ -17,6 +17,7 @@
  
  A game created by students from the University of Silicon Valley in Game Studio 1.
  Defend your network from an ever-increasingly onslaught of malicious programs in this exciting tower-defense game.
+ Mal-Wars-Dev is the main project folder.
  
 </div>
  
