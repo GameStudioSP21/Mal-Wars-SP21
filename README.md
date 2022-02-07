@@ -1,7 +1,28 @@
-# GameStudio1
+
+<div align="center">
+	
+ # Mal-Wars Tower Defense
+
+ GameStudio1
  21SP-GAM480CA-Game Studio 1
  
- A. Guide to Clone repository from Github for the first time
+ [![CI](https://github.com/GameStudioSP21/Mal-Wars-SP21/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/GameStudioSP21/Mal-Wars-SP21/actions/workflows/ci.yml)
+ ![GitHub release (latest by date)](https://img.shields.io/github/v/release/GameStudioSP21/Mal-Wars-SP21?style=plastic)
+ 
+ ![TitleCard](/Screenshots/malwars_transparent.png)
+ 
+</div>
+ 
+ ## Overview
+ 
+ A game created by students from the University of Silicon Valley in Game Studio 1.
+ Defend your network from an ever-increasingly onslaught of malicious programs in this exciting tower-defense game.
+ 
+</div>
+ 
+ ## Setup
+ 
+ A. Guide to Clone repository from Github to Core.
  
 	1. Launch "Github Desktop" application
 	
@@ -19,13 +40,13 @@
 		
 	6. Click "Clone" Button
 
-B. Guide to Edit CORE project "GameStudio1"
+B. Guide to Edit CORE project "Mal-Wars-Dev"
 
 	1. Launch "Core" application
 	
 	2. Select PLAY and then select CREATE
 	
-	3. Click EDIT above GAMESTUDIO1
+	3. Click EDIT on project Mal-Wars-Dev
 	
 	4. edit only your subfolder under Collaborators to avoid merge conflict
 	
