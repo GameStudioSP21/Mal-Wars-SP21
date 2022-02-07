@@ -2,7 +2,7 @@ Assets {
   Id: 10931293121328205330
   Name: "Custom Lights from Traffic Signal 02"
   PlatformAssetType: 13
-  SerializationVersion: 85
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 4965720180210966680
     ParameterOverrides {

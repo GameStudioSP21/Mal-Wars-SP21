@@ -47,6 +47,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "6 GrVi"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11112381758357257339
@@ -94,6 +97,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "1 YeVi"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -143,6 +149,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "5 GrAd"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 14516373991562298022
@@ -190,6 +199,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "1 YeVi_1"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -239,6 +251,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "8 GrVi"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 17025441710663818698
@@ -286,6 +301,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "1 YeVi_2"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -335,6 +353,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "5 GrAds"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 250490100538109073
@@ -382,6 +403,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "1 YeVi_3"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -431,6 +455,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "4 GrVi"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 13376459633560981167
@@ -478,5 +505,8 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "1 YeAd"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

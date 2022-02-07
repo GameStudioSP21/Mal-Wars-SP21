@@ -2,7 +2,7 @@ Assets {
   Id: 17797855538889811445
   Name: "GridLinesScenery"
   PlatformAssetType: 13
-  SerializationVersion: 85
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 12453964516438018120
     ParameterOverrides {

@@ -47,6 +47,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "20 ReVi"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 15755319788605371681
@@ -94,6 +97,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "1 YeWORM"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -143,6 +149,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "10 ReAd"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6905237984436668707
@@ -190,6 +199,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "20 ReVi_1"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -239,6 +251,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "10 ReAd_1"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 8548213043057530766
@@ -286,6 +301,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "20 ReVi_2"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -335,6 +353,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "10 ReAd_2"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 8293286849939130285
@@ -383,6 +404,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "20 ReVi_3"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 4680453362612655155
@@ -430,5 +454,8 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "1 GrWORM"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

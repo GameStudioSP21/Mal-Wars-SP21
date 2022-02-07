@@ -3,6 +3,8 @@ Assets {
   Name: "TowerDefenders_DataProvider"
   PlatformAssetType: 3
   TextAsset {
+    CustomParameters {
+    }
   }
-  SerializationVersion: 85
+  SerializationVersion: 105
 }

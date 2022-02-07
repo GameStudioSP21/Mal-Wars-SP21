@@ -32,6 +32,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Platform_Small_1"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12518930775918030392
@@ -64,5 +67,8 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Platform_Long_1"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

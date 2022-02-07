@@ -2,7 +2,7 @@ Assets {
   Id: 9074370753700268561
   Name: "Custom Food Corn 01"
   PlatformAssetType: 13
-  SerializationVersion: 85
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 12621833427814228535
     ParameterOverrides {

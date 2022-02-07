@@ -2,7 +2,7 @@ Assets {
   Id: 12342850011714167752
   Name: "MetalSpikes"
   PlatformAssetType: 13
-  SerializationVersion: 85
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 15157157053405307499
     ParameterOverrides {

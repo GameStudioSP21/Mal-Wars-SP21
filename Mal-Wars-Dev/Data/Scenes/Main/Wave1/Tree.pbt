@@ -51,6 +51,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "8 GrVi_1"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 8467697437631456686
@@ -102,6 +105,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "4 GrAd"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -155,6 +161,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "8 GrVi_2"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 809028961033926619
@@ -207,6 +216,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "4 GrAd_1"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12853444443296860048
@@ -258,5 +270,8 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "8 GrVi_3"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

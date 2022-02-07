@@ -2,7 +2,7 @@ Assets {
   Id: 7888175289933445540
   Name: "Custom Additive Axis Aligned Soft Edge Z_2 - Copy - Copy"
   PlatformAssetType: 13
-  SerializationVersion: 85
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 8382359228586411589
     ParameterOverrides {

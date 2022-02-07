@@ -34,6 +34,10 @@ Assets {
             }
           }
           ScrollPanel {
+            Orientation {
+              Value: "mc:eorientation:orient_vertical"
+            }
+            IsInteractable: true
           }
           AnchorLayout {
             SelfAnchor {
@@ -48,6 +52,9 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -58,6 +65,6 @@ Assets {
   Marketplace {
     Description: "UI Template"
   }
-  SerializationVersion: 85
+  SerializationVersion: 105
   DirectlyPublished: true
 }

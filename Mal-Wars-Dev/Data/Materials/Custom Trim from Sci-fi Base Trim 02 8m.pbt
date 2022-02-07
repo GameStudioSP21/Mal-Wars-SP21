@@ -2,7 +2,7 @@ Assets {
   Id: 3140373793754249988
   Name: "Custom Trim from Sci-fi Base Trim 02 8m"
   PlatformAssetType: 13
-  SerializationVersion: 85
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 3679740753082246976
     ParameterOverrides {

@@ -69,6 +69,8 @@ Assets {
             ClickMode {
               Value: "mc:ebuttonclickmode:default"
             }
+            Font {
+            }
             Justification {
               Value: "mc:etextjustify:center"
             }
@@ -89,6 +91,9 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -99,6 +104,6 @@ Assets {
   Marketplace {
     Description: "UI Template"
   }
-  SerializationVersion: 85
+  SerializationVersion: 105
   DirectlyPublished: true
 }

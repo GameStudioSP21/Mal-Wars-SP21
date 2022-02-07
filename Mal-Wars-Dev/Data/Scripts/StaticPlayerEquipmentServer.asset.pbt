@@ -3,6 +3,8 @@ Assets {
   Name: "StaticPlayerEquipmentServer"
   PlatformAssetType: 3
   TextAsset {
+    CustomParameters {
+    }
   }
-  SerializationVersion: 85
+  SerializationVersion: 105
 }

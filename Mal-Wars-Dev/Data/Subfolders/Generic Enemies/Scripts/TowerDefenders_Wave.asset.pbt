@@ -3,6 +3,8 @@ Assets {
   Name: "TowerDefenders_Wave"
   PlatformAssetType: 3
   TextAsset {
+    CustomParameters {
+    }
   }
-  SerializationVersion: 85
+  SerializationVersion: 105
 }

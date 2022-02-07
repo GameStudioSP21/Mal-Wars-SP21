@@ -48,6 +48,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Money"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 10775090574195004951
@@ -96,6 +99,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "BounceTravelDistance"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -147,6 +153,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Speed"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5464018910509960713
@@ -197,6 +206,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Range"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2618123429161106138
@@ -244,5 +256,8 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Damage"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

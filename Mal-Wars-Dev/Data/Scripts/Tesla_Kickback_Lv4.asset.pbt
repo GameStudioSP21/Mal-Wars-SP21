@@ -3,6 +3,8 @@ Assets {
   Name: "Tesla_Kickback_Lv4"
   PlatformAssetType: 3
   TextAsset {
+    CustomParameters {
+    }
   }
-  SerializationVersion: 85
+  SerializationVersion: 105
 }

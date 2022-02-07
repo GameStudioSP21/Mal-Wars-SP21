@@ -29,6 +29,9 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -43,5 +46,5 @@ Assets {
     Version: "1.1.0"
     Description: "Example and implementation of navigation mesh pathfinding"
   }
-  SerializationVersion: 85
+  SerializationVersion: 105
 }

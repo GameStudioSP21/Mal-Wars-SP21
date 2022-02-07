@@ -40,6 +40,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Tesla Turret Lvl 1"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 7806281695732078258
@@ -80,6 +83,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Mortar Turret Lvl 1"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -122,6 +128,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "AOE Turret Lvl 1"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9284654018457712668
@@ -163,6 +172,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Sniper Turret Lvl 1"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 8605789236297665163
@@ -203,5 +215,8 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "LaserTurret Lvl 1"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

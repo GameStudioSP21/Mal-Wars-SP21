@@ -2,7 +2,7 @@ Assets {
   Id: 7185996809582880298
   Name: "GemGlow"
   PlatformAssetType: 13
-  SerializationVersion: 85
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 855756476854740039
     ParameterOverrides {

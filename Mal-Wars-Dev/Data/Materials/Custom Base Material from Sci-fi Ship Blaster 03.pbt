@@ -2,7 +2,7 @@ Assets {
   Id: 908173023032890740
   Name: "Custom Base Material from Sci-fi Ship Blaster 03"
   PlatformAssetType: 13
-  SerializationVersion: 85
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 10476935303681995836
     ParameterOverrides {

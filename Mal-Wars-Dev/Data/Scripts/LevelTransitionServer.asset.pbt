@@ -3,6 +3,8 @@ Assets {
   Name: "LevelTransitionServer"
   PlatformAssetType: 3
   TextAsset {
+    CustomParameters {
+    }
   }
-  SerializationVersion: 85
+  SerializationVersion: 105
 }

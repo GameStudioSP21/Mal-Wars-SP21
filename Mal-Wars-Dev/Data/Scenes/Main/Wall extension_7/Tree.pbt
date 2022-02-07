@@ -38,6 +38,9 @@ Objects {
     InstanceId: 2637488479409450240
     TemplateId: 13621542147476303627
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3993895201142235762
@@ -77,13 +80,16 @@ Objects {
     InstanceId: 2637488479409450240
     TemplateId: 13621542147476303627
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 4659184357832798400
   Name: "Prism - 4-Sided Trapezoid Right"
   Transform {
     Location {
-      X: -7792.07813
+      X: -7792.07812
       Y: -1908.71436
       Z: -1122.2002
     }
@@ -136,6 +142,9 @@ Objects {
     SubobjectId: 777454212869262604
     InstanceId: 2637488479409450240
     TemplateId: 13621542147476303627
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -195,6 +204,9 @@ Objects {
     SubobjectId: 4826237702819517893
     InstanceId: 2637488479409450240
     TemplateId: 13621542147476303627
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -279,5 +291,8 @@ Objects {
     SubobjectId: 15224204496433456767
     InstanceId: 2637488479409450240
     TemplateId: 13621542147476303627
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

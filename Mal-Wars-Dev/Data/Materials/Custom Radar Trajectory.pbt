@@ -2,7 +2,7 @@ Assets {
   Id: 10388777653774269330
   Name: "Custom Radar Trajectory"
   PlatformAssetType: 13
-  SerializationVersion: 85
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 15404543831583664322
     ParameterOverrides {

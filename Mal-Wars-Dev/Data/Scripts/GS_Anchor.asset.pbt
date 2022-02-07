@@ -3,6 +3,8 @@ Assets {
   Name: "GS_Anchor"
   PlatformAssetType: 3
   TextAsset {
+    CustomParameters {
+    }
   }
-  SerializationVersion: 85
+  SerializationVersion: 105
 }

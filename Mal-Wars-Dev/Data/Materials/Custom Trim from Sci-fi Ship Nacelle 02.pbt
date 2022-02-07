@@ -2,7 +2,7 @@ Assets {
   Id: 10668403082136431894
   Name: "Custom Trim from Sci-fi Ship Nacelle 02"
   PlatformAssetType: 13
-  SerializationVersion: 85
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 17729030174502026364
     ParameterOverrides {

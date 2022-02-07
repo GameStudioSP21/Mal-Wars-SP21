@@ -58,6 +58,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Wave24"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5357329560578586887
@@ -116,6 +119,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Wave23"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -176,6 +182,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Wave22"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 8416491609646249421
@@ -234,6 +243,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Wave21"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -294,6 +306,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Wave20"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2431688470690742081
@@ -352,6 +367,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Wave19"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -412,6 +430,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Wave18"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 249862568176693221
@@ -470,6 +491,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Wave17"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -530,6 +554,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Wave16"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 7117974125882902736
@@ -588,6 +615,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Wave15"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -648,6 +678,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Wave14"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 10242546302560810440
@@ -706,6 +739,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Wave13"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -766,6 +802,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Wave12"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2690166876310186463
@@ -824,6 +863,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Wave11"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -884,6 +926,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Wave10"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5378559559700146341
@@ -942,6 +987,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Wave9"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1002,6 +1050,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Wave8"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 475570865089935754
@@ -1060,6 +1111,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Wave7"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1120,6 +1174,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Wave6"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 9542823135900439776
@@ -1178,6 +1235,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Wave5"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1238,6 +1298,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Wave4"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12788391520077779299
@@ -1296,6 +1359,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Wave3"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -1356,6 +1422,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Wave2"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 12538049953789746322
@@ -1414,5 +1483,8 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Wave1"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

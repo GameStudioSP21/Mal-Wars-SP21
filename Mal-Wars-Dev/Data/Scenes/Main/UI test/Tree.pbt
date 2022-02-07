@@ -32,6 +32,15 @@ Objects {
       }
     }
     Canvas {
+      Opacity: 1
+      IsHUD: true
+      CanvasWorldSize {
+        X: 1024
+        Y: 1024
+      }
+      TwoSided: true
+      TickWhenOffScreen: true
+      RedrawTime: 30
     }
     AnchorLayout {
       SelfAnchor {
@@ -45,6 +54,9 @@ Objects {
         }
       }
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -72,12 +84,8 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 7175496613956393653
-    SubobjectId: 7070093949991437547
-    InstanceId: 4036173448899885274
-    TemplateId: 9142428695657765879
-    WasRoot: true
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -108,10 +116,7 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "UI_redCurrency_side_1"
   }
-  InstanceHistory {
-    SelfId: 6342406496900398789
-    SubobjectId: 6453299553656627355
-    InstanceId: 4036173448899885274
-    TemplateId: 9142428695657765879
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

@@ -7,7 +7,7 @@ Objects {
     Location {
       X: -17.1328125
       Y: 6.57324219
-      Z: -74.9882813
+      Z: -74.9882812
     }
     Rotation {
     }
@@ -60,6 +60,9 @@ Objects {
     SubobjectId: 16908324467078872828
     InstanceId: 2637488479409450240
     TemplateId: 13621542147476303627
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -118,5 +121,8 @@ Objects {
     SubobjectId: 13830042415900921072
     InstanceId: 2637488479409450240
     TemplateId: 13621542147476303627
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

@@ -30,4 +30,7 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "UI test"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }

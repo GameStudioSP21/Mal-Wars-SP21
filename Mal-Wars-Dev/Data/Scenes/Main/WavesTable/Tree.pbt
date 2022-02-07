@@ -38,4 +38,7 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Citadel"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }

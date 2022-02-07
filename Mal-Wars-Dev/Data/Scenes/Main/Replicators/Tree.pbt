@@ -28,6 +28,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Inventories"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16791110401915715446
@@ -66,6 +69,9 @@ Objects {
       Id: 11430829328581188567
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5565416070056007270
@@ -96,6 +102,9 @@ Objects {
       Id: 9935206161778119873
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16501574175870241086
@@ -124,6 +133,9 @@ Objects {
     Value: "mc:ecollisionsetting:forceoff"
   }
   NetworkContext {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -154,6 +166,9 @@ Objects {
     ScriptAsset {
       Id: 9935206161778119873
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -192,5 +207,8 @@ Objects {
     ScriptAsset {
       Id: 11430829328581188567
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

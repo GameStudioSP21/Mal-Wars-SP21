@@ -28,6 +28,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Whiteboxnt"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 8592356074963554601
@@ -59,5 +62,8 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "PlayerJail"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

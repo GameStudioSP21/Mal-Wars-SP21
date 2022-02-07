@@ -36,4 +36,7 @@ Objects {
     TemplateId: 13621542147476303627
     WasRoot: true
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }

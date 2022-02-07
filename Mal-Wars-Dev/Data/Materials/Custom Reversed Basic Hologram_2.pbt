@@ -2,7 +2,7 @@ Assets {
   Id: 13850846882820462651
   Name: "Custom Reversed Basic Hologram "
   PlatformAssetType: 13
-  SerializationVersion: 85
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 10429991848790088441
     ParameterOverrides {

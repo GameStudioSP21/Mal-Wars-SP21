@@ -59,11 +59,8 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 1868723432496149169
-    SubobjectId: 1757937491419262191
-    InstanceId: 4036173448899885274
-    TemplateId: 9142428695657765879
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -127,11 +124,8 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 17065004153031663241
-    SubobjectId: 17102817637408686295
-    InstanceId: 4036173448899885274
-    TemplateId: 9142428695657765879
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -162,11 +156,8 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "symbol_3"
   }
-  InstanceHistory {
-    SelfId: 112304645032679419
-    SubobjectId: 1271726693403045
-    InstanceId: 4036173448899885274
-    TemplateId: 9142428695657765879
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -227,10 +218,7 @@ Objects {
       }
     }
   }
-  InstanceHistory {
-    SelfId: 9194768012864567459
-    SubobjectId: 9083786907936745213
-    InstanceId: 4036173448899885274
-    TemplateId: 9142428695657765879
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

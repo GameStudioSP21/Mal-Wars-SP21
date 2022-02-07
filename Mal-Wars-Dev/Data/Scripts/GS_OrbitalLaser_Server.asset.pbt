@@ -3,6 +3,8 @@ Assets {
   Name: "GS_OrbitalLaser_Server"
   PlatformAssetType: 3
   TextAsset {
+    CustomParameters {
+    }
   }
-  SerializationVersion: 85
+  SerializationVersion: 105
 }

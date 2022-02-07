@@ -2,7 +2,7 @@ Assets {
   Id: 17249931112466710594
   Name: "Custom Radar Screen Transparent"
   PlatformAssetType: 13
-  SerializationVersion: 85
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 15404543831583664322
     ParameterOverrides {

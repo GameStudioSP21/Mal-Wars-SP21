@@ -35,6 +35,9 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -47,5 +50,5 @@ Assets {
     OwnerAccountId: "dd1b4555c4694f68b647ba161e3dff07"
     OwnerName: "LOLdude55"
   }
-  SerializationVersion: 85
+  SerializationVersion: 105
 }

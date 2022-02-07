@@ -2,7 +2,7 @@ Assets {
   Id: 3671696690231627950
   Name: "BlockedRadiusMaterial"
   PlatformAssetType: 13
-  SerializationVersion: 85
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 9506035352376048182
     ParameterOverrides {

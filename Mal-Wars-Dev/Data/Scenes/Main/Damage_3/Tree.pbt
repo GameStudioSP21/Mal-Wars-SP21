@@ -28,6 +28,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Tesla"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3043607958378933379
@@ -56,6 +59,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Mortar"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -86,6 +92,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "AOE"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 287725104296604219
@@ -115,6 +124,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Sniper"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 15836056593155272946
@@ -143,5 +155,8 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Laser"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

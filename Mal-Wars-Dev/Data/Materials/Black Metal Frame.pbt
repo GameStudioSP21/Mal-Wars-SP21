@@ -2,7 +2,7 @@ Assets {
   Id: 11410760695874349156
   Name: "Black Metal Frame"
   PlatformAssetType: 13
-  SerializationVersion: 85
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 14324442486380372935
     ParameterOverrides {

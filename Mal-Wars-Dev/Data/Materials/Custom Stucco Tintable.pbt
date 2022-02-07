@@ -2,7 +2,7 @@ Assets {
   Id: 14322956565459876037
   Name: "GrayStucco Material"
   PlatformAssetType: 13
-  SerializationVersion: 85
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 4247430867898109902
     ParameterOverrides {

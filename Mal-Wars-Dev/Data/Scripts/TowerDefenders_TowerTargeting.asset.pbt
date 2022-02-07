@@ -3,6 +3,8 @@ Assets {
   Name: "TowerDefenders_TowerTargeting"
   PlatformAssetType: 3
   TextAsset {
+    CustomParameters {
+    }
   }
-  SerializationVersion: 85
+  SerializationVersion: 105
 }

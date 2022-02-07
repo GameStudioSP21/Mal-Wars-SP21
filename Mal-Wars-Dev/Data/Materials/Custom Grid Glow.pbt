@@ -2,7 +2,7 @@ Assets {
   Id: 16638092170503283687
   Name: "Custom Grid Glow"
   PlatformAssetType: 13
-  SerializationVersion: 85
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 11276409344958045295
     ParameterOverrides {

@@ -28,4 +28,7 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Damage_2"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }

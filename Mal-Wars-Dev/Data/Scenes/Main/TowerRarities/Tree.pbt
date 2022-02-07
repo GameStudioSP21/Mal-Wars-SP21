@@ -39,6 +39,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Perks_1"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 1720409598745449251
@@ -76,6 +79,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Heroic"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -116,6 +122,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Legendary"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16555092129292573516
@@ -154,6 +163,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Epic"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -195,6 +207,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Rare"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 10069010683383961677
@@ -235,6 +250,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Uncommon"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5885690553894889409
@@ -274,5 +292,8 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Common"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

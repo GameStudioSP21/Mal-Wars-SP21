@@ -28,6 +28,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Perks_2"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16246016697899800199
@@ -56,6 +59,9 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Utility_1"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -86,6 +92,9 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "Range_2"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 7130910895738376355
@@ -114,5 +123,8 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Damage_3"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
