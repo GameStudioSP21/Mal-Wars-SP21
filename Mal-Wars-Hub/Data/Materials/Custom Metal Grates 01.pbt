@@ -2,7 +2,7 @@ Assets {
   Id: 433170986847353166
   Name: "Custom Metal Grates 01"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 14917871527348044905
     ParameterOverrides {

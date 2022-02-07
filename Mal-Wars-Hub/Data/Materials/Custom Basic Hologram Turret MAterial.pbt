@@ -2,7 +2,7 @@ Assets {
   Id: 9012091652159111576
   Name: "Custom Basic Hologram Turret MAterial"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 13210385242785528853
     ParameterOverrides {

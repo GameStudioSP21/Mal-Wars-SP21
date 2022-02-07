@@ -2,7 +2,7 @@ Assets {
   Id: 5111192198279276783
   Name: "YP_Custom Wall - Inner from Sci-fi Base Wall 01 Half"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 16191047429357877913
     ParameterOverrides {

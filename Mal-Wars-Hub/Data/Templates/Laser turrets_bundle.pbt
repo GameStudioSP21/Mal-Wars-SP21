@@ -35,6 +35,9 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -45,5 +48,5 @@ Assets {
   Marketplace {
     Description: "Turrets"
   }
-  SerializationVersion: 81
+  SerializationVersion: 105
 }

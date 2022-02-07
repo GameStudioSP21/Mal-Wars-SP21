@@ -34,6 +34,9 @@ Assets {
         Folder {
           IsFilePartition: true
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 12376517734370369697
@@ -202,6 +205,9 @@ Assets {
           TeamSettings {
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 2952506751895261608
@@ -250,7 +256,11 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -259,7 +269,7 @@ Assets {
         Transform {
           Location {
             X: -10.2907715
-            Y: -6.10351563e-05
+            Y: -6.10351562e-05
             Z: -248.662659
           }
           Rotation {
@@ -304,7 +314,11 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -367,7 +381,11 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -431,7 +449,11 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -485,6 +507,9 @@ Assets {
             MaxDistanceFadeRange: 1000
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     Assets {
@@ -519,5 +544,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 105
 }

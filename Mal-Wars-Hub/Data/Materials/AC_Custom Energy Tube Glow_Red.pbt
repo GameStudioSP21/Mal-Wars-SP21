@@ -2,7 +2,7 @@ Assets {
   Id: 1998707773655506596
   Name: "AC_Custom Energy Tube Glow_Red"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 9740991320934820625
     ParameterOverrides {

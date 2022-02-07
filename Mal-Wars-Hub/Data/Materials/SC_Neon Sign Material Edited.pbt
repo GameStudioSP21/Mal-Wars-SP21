@@ -2,7 +2,7 @@ Assets {
   Id: 8238350790793848482
   Name: "SC_Neon Sign Material Edited"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 10112929330844116836
     ParameterOverrides {

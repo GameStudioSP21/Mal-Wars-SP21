@@ -2,7 +2,7 @@ Assets {
   Id: 18118992356217227074
   Name: "AC_customeglow"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 9740991320934820625
     ParameterOverrides {

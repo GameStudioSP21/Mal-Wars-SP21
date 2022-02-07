@@ -2,7 +2,7 @@ Assets {
   Id: 13264427039930814438
   Name: "SC_Glow on Dispaly Ring"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 3702191406046426907
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 10280314257962089450
   Name: "AnimatedNeon_Right"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 10112929330844116836
     ParameterOverrides {

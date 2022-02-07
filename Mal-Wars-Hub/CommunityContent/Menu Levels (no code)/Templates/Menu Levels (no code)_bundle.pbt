@@ -29,6 +29,9 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -43,5 +46,5 @@ Assets {
     Version: "1.0.0"
     Description: "A simple UI with buttons to teleport player inside the current game or transfer the player to another game.\r\nNo code needed, check the README"
   }
-  SerializationVersion: 81
+  SerializationVersion: 105
 }

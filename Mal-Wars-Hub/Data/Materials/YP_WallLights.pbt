@@ -2,7 +2,7 @@ Assets {
   Id: 14060073193884603958
   Name: "YP_WallLights"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 10112929330844116836
     ParameterOverrides {

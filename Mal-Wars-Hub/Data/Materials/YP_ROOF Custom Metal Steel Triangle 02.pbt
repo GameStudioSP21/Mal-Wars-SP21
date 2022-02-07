@@ -2,7 +2,7 @@ Assets {
   Id: 15871680318594948812
   Name: "YP_ROOF Custom Metal Steel Triangle 02"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 18250807259638886115
     ParameterOverrides {

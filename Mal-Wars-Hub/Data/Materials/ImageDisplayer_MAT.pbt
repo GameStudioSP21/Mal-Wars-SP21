@@ -2,7 +2,7 @@ Assets {
   Id: 7524474219828063569
   Name: "ImageDisplayer_MAT"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 10429991848790088441
     ParameterOverrides {

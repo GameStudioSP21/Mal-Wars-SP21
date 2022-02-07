@@ -2,7 +2,7 @@ Assets {
   Id: 8746985918764623705
   Name: "YP_NEW Custom Animated Neon Sign"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 10112929330844116836
     ParameterOverrides {

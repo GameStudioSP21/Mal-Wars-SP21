@@ -33,6 +33,9 @@ Assets {
         Folder {
           IsGroup: true
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 1397477394437994750
@@ -62,6 +65,9 @@ Assets {
           ScriptAsset {
             Id: 14338116574368566989
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -95,6 +101,9 @@ Assets {
             Id: 9370076116164584986
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 15693643951607791127
@@ -124,6 +133,9 @@ Assets {
           ScriptAsset {
             Id: 8244060054387758846
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -157,6 +169,9 @@ Assets {
             Id: 14722849117680788174
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 9409702795888361092
@@ -187,6 +202,9 @@ Assets {
             Id: 1869344454303303389
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -194,5 +212,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 105
 }

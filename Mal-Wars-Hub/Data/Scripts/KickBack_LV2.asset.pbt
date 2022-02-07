@@ -3,6 +3,8 @@ Assets {
   Name: "KickBack_LV2"
   PlatformAssetType: 3
   TextAsset {
+    CustomParameters {
+    }
   }
-  SerializationVersion: 81
+  SerializationVersion: 105
 }

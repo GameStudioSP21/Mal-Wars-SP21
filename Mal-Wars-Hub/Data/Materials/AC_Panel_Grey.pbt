@@ -2,7 +2,7 @@ Assets {
   Id: 16989299657704825870
   Name: "AC_Panel_Grey"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 7660900985403449371
     ParameterOverrides {

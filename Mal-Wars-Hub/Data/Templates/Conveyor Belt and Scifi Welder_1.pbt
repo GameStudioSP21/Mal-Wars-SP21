@@ -29,6 +29,9 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -39,5 +42,5 @@ Assets {
   Marketplace {
     Description: "Two  Scifi Industrial Items"
   }
-  SerializationVersion: 81
+  SerializationVersion: 105
 }

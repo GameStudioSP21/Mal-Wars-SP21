@@ -3,6 +3,8 @@ Assets {
   Name: "VFX_Repeater"
   PlatformAssetType: 3
   TextAsset {
+    CustomParameters {
+    }
   }
-  SerializationVersion: 81
+  SerializationVersion: 105
 }

@@ -2,7 +2,7 @@ Assets {
   Id: 16261615499712839681
   Name: "YP_admissiveLightsDimmer"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 10112929330844116836
     ParameterOverrides {

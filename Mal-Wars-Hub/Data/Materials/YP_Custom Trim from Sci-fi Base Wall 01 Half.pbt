@@ -2,7 +2,7 @@ Assets {
   Id: 16497054761990878039
   Name: "YP_Custom Trim from Sci-fi Base Wall 01 Half"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 5490976376399230165
     ParameterOverrides {

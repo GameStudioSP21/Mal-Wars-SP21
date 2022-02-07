@@ -2,7 +2,7 @@ Assets {
   Id: 7333579555746294132
   Name: "FloorFraming_Custom"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 3815676013324939428
     ParameterOverrides {

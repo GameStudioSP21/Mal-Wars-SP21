@@ -73,6 +73,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -87,13 +93,16 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 2268446590480894290
         Name: "LevelIconSmall"
         Transform {
           Location {
-            X: -0.000122070313
+            X: -0.000122070312
           }
           Rotation {
           }
@@ -149,13 +158,16 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 12664239173424476797
         Name: "LevelTextWrapper"
         Transform {
           Location {
-            X: -0.000122070313
+            X: -0.000122070312
           }
           Rotation {
           }
@@ -188,6 +200,7 @@ Assets {
           UseParentWidth: true
           UseParentHeight: true
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -202,13 +215,16 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 18060945832294635970
         Name: "LevelLargeText"
         Transform {
           Location {
-            X: -0.000122070313
+            X: -0.000122070312
           }
           Rotation {
           }
@@ -269,13 +285,16 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 14365373114357220281
         Name: "LevelSmallText"
         Transform {
           Location {
-            X: -0.000122070313
+            X: -0.000122070312
             Y: -1.45519291e-11
           }
           Rotation {
@@ -338,6 +357,9 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -345,5 +367,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 105
 }

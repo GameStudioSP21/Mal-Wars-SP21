@@ -2,7 +2,7 @@ Assets {
   Id: 4678609653289687465
   Name: "AC_HullTrim_Material"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 37482292477041389
     ParameterOverrides {

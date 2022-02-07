@@ -2,7 +2,7 @@ Assets {
   Id: 10673766790752713482
   Name: "A SC_Custom Hologram Level 2"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 13210385242785528853
     ParameterOverrides {

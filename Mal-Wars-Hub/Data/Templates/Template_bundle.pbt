@@ -32,6 +32,9 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -42,5 +45,5 @@ Assets {
   Marketplace {
     Description: "Meh"
   }
-  SerializationVersion: 81
+  SerializationVersion: 105
 }

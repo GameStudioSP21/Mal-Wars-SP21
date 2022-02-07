@@ -2,7 +2,7 @@ Assets {
   Id: 11299833657343801079
   Name: "YP_Custom Base Material from Sci-fi Base Ceiling Trim 01"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 4001528711400387909
     ParameterOverrides {

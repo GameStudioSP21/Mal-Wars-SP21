@@ -3,6 +3,8 @@ Assets {
   Name: "v2_Base64"
   PlatformAssetType: 3
   TextAsset {
+    CustomParameters {
+    }
   }
-  SerializationVersion: 81
+  SerializationVersion: 105
 }

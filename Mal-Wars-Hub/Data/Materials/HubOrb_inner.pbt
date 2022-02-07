@@ -2,7 +2,7 @@ Assets {
   Id: 16172540057245348538
   Name: "HubOrb_inner"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 9740991320934820625
     ParameterOverrides {

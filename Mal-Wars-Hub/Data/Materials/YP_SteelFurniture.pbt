@@ -2,7 +2,7 @@ Assets {
   Id: 1183484854879352956
   Name: "YP_SteelFurniture"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 14212988502358508072
     ParameterOverrides {

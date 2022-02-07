@@ -26,6 +26,9 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -36,5 +39,5 @@ Assets {
   Marketplace {
     Description: "Tools Asset"
   }
-  SerializationVersion: 81
+  SerializationVersion: 105
 }

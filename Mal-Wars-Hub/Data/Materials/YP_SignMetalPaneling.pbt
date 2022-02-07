@@ -2,7 +2,7 @@ Assets {
   Id: 732854065496474757
   Name: "YP_SignMetalPaneling"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 16257540031996801276
     ParameterOverrides {

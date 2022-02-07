@@ -2,7 +2,7 @@ Assets {
   Id: 2250265087397422282
   Name: "AC_Custom Metal Complex Tech Panel Wall 02"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 14126988042870304359
     ParameterOverrides {

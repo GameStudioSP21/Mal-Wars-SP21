@@ -2,7 +2,7 @@ Assets {
   Id: 5334364094467010417
   Name: "SC_Hologram For Display Material"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 10429991848790088441
     ParameterOverrides {

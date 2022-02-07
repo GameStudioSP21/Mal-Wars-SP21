@@ -2,7 +2,7 @@ Assets {
   Id: 321257820645188173
   Name: "Custom Animated Neon Sign_1_1"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 10112929330844116836
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 6228138666051358428
   Name: "YP_LightSteelAccent"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 14212988502358508072
     ParameterOverrides {

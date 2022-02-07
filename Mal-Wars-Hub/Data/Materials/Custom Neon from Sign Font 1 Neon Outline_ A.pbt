@@ -2,7 +2,7 @@ Assets {
   Id: 4164858116685416110
   Name: "Custom Neon from Sign Font 1 Neon Outline: A"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 11087526287111768490
     ParameterOverrides {

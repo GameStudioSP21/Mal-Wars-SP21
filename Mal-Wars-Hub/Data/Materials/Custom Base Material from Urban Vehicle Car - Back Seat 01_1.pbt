@@ -2,7 +2,7 @@ Assets {
   Id: 1149834922233358119
   Name: "Custom Base Material from Urban Vehicle Car - Back Seat 01_1"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 14831232627434035539
     ParameterOverrides {

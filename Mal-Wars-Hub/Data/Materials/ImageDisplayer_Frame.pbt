@@ -2,7 +2,7 @@ Assets {
   Id: 9170113466726540665
   Name: "ImageDisplayer_Frame"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 1576275325296408342
     ParameterOverrides {

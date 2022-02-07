@@ -2,7 +2,7 @@ Assets {
   Id: 17536443614332571406
   Name: "Edgeline_Glass"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 105
   CustomMaterialAsset {
     BaseMaterialId: 3147266759063784416
     ParameterOverrides {
