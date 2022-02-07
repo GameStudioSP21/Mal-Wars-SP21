@@ -2,7 +2,7 @@ Assets {
   Id: 13564966710791396387
   Name: "Tesla Metal Greebles 01"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 85
   CustomMaterialAsset {
     BaseMaterialId: 9638877899161898956
     ParameterOverrides {

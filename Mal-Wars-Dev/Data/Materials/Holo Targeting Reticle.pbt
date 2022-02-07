@@ -2,7 +2,7 @@ Assets {
   Id: 4621613119792085726
   Name: "Holo Targeting Reticle"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 85
   CustomMaterialAsset {
     BaseMaterialId: 15404543831583664322
     ParameterOverrides {

@@ -43,5 +43,5 @@ Assets {
     Version: "1.0.0"
     Description: "An AOE Turret Modeled in Core. Version 1. "
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
 }

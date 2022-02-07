@@ -2,7 +2,7 @@ Assets {
   Id: 2751693952665195492
   Name: "Custom Base Material from Sci-fi Ship Nacelle 02"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 85
   CustomMaterialAsset {
     BaseMaterialId: 7315294294180634051
     ParameterOverrides {

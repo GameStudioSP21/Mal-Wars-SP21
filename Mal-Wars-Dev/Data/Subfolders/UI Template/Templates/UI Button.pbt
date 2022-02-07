@@ -71,6 +71,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -95,6 +101,6 @@ Assets {
   Marketplace {
     Description: "UI Template"
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
   DirectlyPublished: true
 }

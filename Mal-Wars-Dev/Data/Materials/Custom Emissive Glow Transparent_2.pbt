@@ -2,7 +2,7 @@ Assets {
   Id: 6751745758263253574
   Name: "ClampEmissive"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 85
   CustomMaterialAsset {
     BaseMaterialId: 3702191406046426907
     ParameterOverrides {

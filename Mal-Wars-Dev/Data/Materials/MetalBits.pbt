@@ -2,7 +2,7 @@ Assets {
   Id: 840655672082446031
   Name: "MetalBits"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 85
   CustomMaterialAsset {
     BaseMaterialId: 6892299879570002332
     ParameterOverrides {

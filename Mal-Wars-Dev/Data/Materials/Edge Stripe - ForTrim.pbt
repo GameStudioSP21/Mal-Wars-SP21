@@ -2,7 +2,7 @@ Assets {
   Id: 9936258953506998634
   Name: "Edge Stripe - ForTrim"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 85
   CustomMaterialAsset {
     BaseMaterialId: 17657810120729887906
     ParameterOverrides {

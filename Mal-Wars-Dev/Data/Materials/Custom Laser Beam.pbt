@@ -2,7 +2,7 @@ Assets {
   Id: 8637558721201415580
   Name: "Custom Laser Beam"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 85
   CustomMaterialAsset {
     BaseMaterialId: 10522222064658400397
     ParameterOverrides {

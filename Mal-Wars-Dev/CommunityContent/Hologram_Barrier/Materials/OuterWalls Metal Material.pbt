@@ -2,7 +2,7 @@ Assets {
   Id: 12748056948748992128
   Name: "OuterWalls Metal Material"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 85
   CustomMaterialAsset {
     BaseMaterialId: 9357227785287683198
     ParameterOverrides {

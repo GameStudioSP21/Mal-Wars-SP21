@@ -9671,7 +9671,7 @@ Assets {
     }
     Assets {
       Id: 15878464527997609030
-      Name: "Piano Sampled Instrument 01 SFX"
+      Name: "Piano Sampled Instrument 01 "
       PlatformAssetType: 10
       PrimaryAsset {
         AssetType: "AudioBlueprintAssetRef"
@@ -9680,7 +9680,7 @@ Assets {
     }
     Assets {
       Id: 6651532296414027711
-      Name: "Recorder Sampled Instrument 01 SFX"
+      Name: "Recorder Sampled Instrument 01"
       PlatformAssetType: 10
       PrimaryAsset {
         AssetType: "AudioBlueprintAssetRef"
@@ -9689,7 +9689,7 @@ Assets {
     }
     Assets {
       Id: 9438211249430346623
-      Name: "Nylon Guitar Notes Sampled Instrument 01 SFX"
+      Name: "Nylon Guitar Notes Sampled Instrument 01"
       PlatformAssetType: 10
       PrimaryAsset {
         AssetType: "AudioBlueprintAssetRef"
@@ -9698,7 +9698,7 @@ Assets {
     }
     Assets {
       Id: 11372130874043178295
-      Name: "Flute Sampled Instrument 01 SFX"
+      Name: "Flute Sampled Instrument 01"
       PlatformAssetType: 10
       PrimaryAsset {
         AssetType: "AudioBlueprintAssetRef"
@@ -9713,6 +9713,6 @@ Assets {
   Marketplace {
     Description: "UI Notes"
   }
-  SerializationVersion: 81
+  SerializationVersion: 85
   DirectlyPublished: true
 }
